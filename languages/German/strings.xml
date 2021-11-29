@@ -3,16 +3,12 @@
   <string name="app_name">Droid Dashcam - DVR während der Fahrt</string>
 
   <string name="any_text">Irgendein</string>
-
   <string name="close">Schließen</string>
-
   <string name="default_text">Default</string>
-
   <string name="disabled_text">Deaktiviert</string>
-
   <string name="no_ads_text">(Ohne Werbung)</string>
-
   <string name="zoom_value_reset">%1$.1f x\nZoom\nzurücksetzen</string>
+  <string name="unknown">Unbekannt</string>
 
   <string name="camera">Kamera</string>
 
@@ -25,6 +21,9 @@
   <string name="camera_error_busy">DroidDashcam: Videoaufnahme gestoppt, weil die Kamera von einer anderen Anwendung verwendet wird</string>
 
   <string name="camera_error_text">DroidDashcam: Videoaufzeichnung gestoppt, weil die Gerätekamera nicht mehr funktioniert</string>
+
+  <!-- TODO: transalte -->
+  <string name="camera_error_background_tried_use_text">On Android 11+ before starting a background recording service app has to be launched and visible at least once to be able to use camera in background. So after a device reboot make app visible and after that don\'t close recording service, it should stay in notification center</string>
 
   <string name="camera_external">Außen-USB-Kamera</string>
 
@@ -170,6 +169,11 @@
 
   <string name="msg_camera_not_opened">Kamera ist nicht geöffnet</string>
 
+  <!-- TODO: translate -->
+  <string name="msg_recorder_init_error_file_not_found">Please delete old videos, format SD card or try another one.\nPlease also limit maximum space for recording videos (less space is better).\nMany saved videos can cause such issues.\nRead FAQ about SD cards at Settings/FAQ.\nYou can also try to record to phone storage instead</string>
+  <string name="msg_dlg_found_old_videos_title">Found old video files</string>
+  <string name="msg_dlg_found_old_videos_message">Seems you reinstalled an application. You have old videos which app can\'t delete during loop recording. Please delete them manually at Videos screen before recording new videos. Starting from Android 11+ app loses write access to old files on reinstalling</string>
+
   <string name="notification_service_aux_checker">Audiobuchse(Aux)</string>
 
   <string name="notification_service_bl_checker">Bluetooth</string>
@@ -250,15 +254,15 @@
 
   <string name="prefs_battery_optimization_text">Batterieoptimierung</string>
 
-  <string name="prefs_bl_auto_start_sum_text">Startet automatisch die Aufzeichnung, wenn ein Bluetooth-Gerät verbunden ist. Damit der Bluetooth-Ortungsdienst nach dem Neustart des Geräts gestartet werden kann, muss das Gerät (der Bildschirm) entsperrt werden, wenn ein Passwort vorhanden ist.</string>
+  <string name="prefs_auto_start_bl_sum_text">Startet automatisch die Aufzeichnung, wenn ein Bluetooth-Gerät verbunden ist. Damit der Bluetooth-Ortungsdienst nach dem Neustart des Geräts gestartet werden kann, muss das Gerät (der Bildschirm) entsperrt werden, wenn ein Passwort vorhanden ist.</string>
 
-  <string name="prefs_bl_auto_start_text">Ausführen, wenn eine Verbindung zum Bluetooth-Gerät besteht</string>
+  <string name="prefs_auto_start_bl_text">Ausführen, wenn eine Verbindung zum Bluetooth-Gerät besteht</string>
 
-  <string name="prefs_bl_auto_stop_text">Stoppen, wenn das Bluetooth-Gerät ausgeschaltet wird</string>
+  <string name="prefs_auto_stop_bl_text">Stoppen, wenn das Bluetooth-Gerät ausgeschaltet wird</string>
 
-  <string name="prefs_boot_auto_start_sum_text">Startet die Aufzeichnung automatisch, wenn das System hochgefahren wird; das Gerät (der Bildschirm) muss entsperrt werden, wenn ein Passwort vorhanden ist. Nach dem Laden kann es einige Minuten dauern, bis das System der Anwendung mitteilt, dass sie ausgeführt wird.</string>
+  <string name="prefs_auto_start_boot_sum_text">Startet die Aufzeichnung automatisch, wenn das System hochgefahren wird; das Gerät (der Bildschirm) muss entsperrt werden, wenn ein Passwort vorhanden ist. Nach dem Laden kann es einige Minuten dauern, bis das System der Anwendung mitteilt, dass sie ausgeführt wird.</string>
 
-  <string name="prefs_boot_auto_start_text">Wenn das System hochfährt</string>
+  <string name="prefs_auto_start_boot_text">Wenn das System hochfährt</string>
 
   <string name="prefs_day_night_mode_auto_text">Automatisch (Tag/Nacht), nach Uhrzeit</string>
 
@@ -314,9 +318,9 @@
 
   <string name="prefs_other_auto_deleting_text">Schleifenaufzeichnung</string>
 
-  <string name="prefs_other_auto_start_sum_text">Startet die Videoaufzeichnung automatisch beim Starten der Anwendung</string>
+  <string name="prefs_auto_start_app_launch_sum_text">Startet die Videoaufzeichnung automatisch beim Starten der Anwendung</string>
 
-  <string name="prefs_other_auto_start_text">Beim Starten der Anwendung</string>
+  <string name="prefs_auto_start_app_launch_text">Beim Starten der Anwendung</string>
 
   <string name="prefs_other_keep_screen_on_text">Lassen Sie den Bildschirm eingeschaltet</string>
 
@@ -362,11 +366,15 @@
 
   <string name="prefs_policy_text">Datenschutzbestimmungen</string>
 
-  <string name="prefs_power_auto_start_sum_text">Startet beim Aufladen automatisch die Aufnahme. Damit der Ladeverfolgungsdienst nach dem Neustart des Geräts gestartet werden kann, muss das Gerät (der Bildschirm) entsperrt werden, falls ein Passwort vorhanden ist.</string>
+  <string name="prefs_auto_start_power_sum_text">Startet beim Aufladen automatisch die Aufnahme. Damit der Ladeverfolgungsdienst nach dem Neustart des Geräts gestartet werden kann, muss das Gerät (der Bildschirm) entsperrt werden, falls ein Passwort vorhanden ist.</string>
 
-  <string name="prefs_power_auto_start_text">Während des Ladevorgangs ausführen</string>
+  <string name="prefs_auto_start_power_text">Während des Ladevorgangs ausführen</string>
 
-  <string name="prefs_power_auto_stop_text">Stoppen, wenn der Ladevorgang beendet wird</string>
+  <string name="prefs_auto_stop_power_text">Stoppen, wenn der Ladevorgang beendet wird</string>
+
+  <string name="prefs_auto_start_power_category_text">Ladevorgangs</string>
+  <string name="prefs_auto_start_bl_category_text">Bluetooth</string>
+  <string name="prefs_auto_start_aux_category_text">Audiobuchse (AUX)</string>
 
   <string name="prefs_rate_sum_text">Die App im Play Store bewerten</string>
 
@@ -382,7 +390,7 @@
 
   <string name="prefs_rules_auto_lock_file_vibrate_text">Vibration bei Erschütterungserkennung</string>
 
-  <string name="prefs_rules_bl_auto_start_device_text">Wählen Sie ein Bluetooth-Gerät oder ein beliebiges Gerät</string>
+  <string name="prefs_auto_start_bl_device_text">Wählen Sie ein Bluetooth-Gerät oder ein beliebiges Gerät</string>
 
   <string name="prefs_rules_video_space_text">Maximale Speicherkapazität für alle Videos (Schleifenaufzeichnung)</string>
 
@@ -472,7 +480,7 @@
   <string name="prefs_subtitles_update_address_frequency_text">Aktualisierungsrate der Adresse</string>
   <string name="prefs_location_update_frequency_text">Aktualisierungsrate der GPS</string>
 
-  <!-- TODO -->
+  <!-- TODO: translate -->
   <string name="prefs_location_manager_gps_only_text">Update location using GPS only (don\'t use network)</string>
 
   <string name="prefs_support_sum_text">Einen Fehler, Absturz oder ein Angebot melden</string>
@@ -693,5 +701,4 @@
   <string name="videos_temporary_folder_text">Zeitgesteuerte Videos</string>
 
   <string name="videos_toolbar_subtitle">Videoaufnahmen</string>
-
 </resources>

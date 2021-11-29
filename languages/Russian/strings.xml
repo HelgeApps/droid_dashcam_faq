@@ -25,6 +25,7 @@
     <string name="disabled_text">Отключено</string>
     <string name="no_ads_text">(без рекламы)</string>
     <string name="zoom_value_reset">%1$.1fx\nзум\nсброс</string>
+    <string name="unknown">Неизвестный</string>
 
     <string name="camera">Камера</string>
     <string name="camera_aperture">\nДиафрагма: %1$s</string>
@@ -32,6 +33,7 @@
     <string name="camera_background_permission_error_msg">Необходимо запустить один раз приложение, чтобы иметь доступ к камере в фоновом режиме</string>
     <string name="camera_error_busy">DroidDashcam: Видеозапись остановлена, так как камера используется другим приложением</string>
     <string name="camera_error_text">DroidDashcam: Видеозапись остановлена, так как камера устройства перестала работать</string>
+    <string name="camera_error_background_tried_use_text">На Android 11+ перед запуском записи в фоновом режиме приложение должно быть запущено и быть видимым хотя бы один раз, чтобы иметь возможность использовать камеру в фоновом режиме. Поэтому после перезагрузки устройства сделайте приложение видимым и после этого не закрывайте сервис записи, он должнен оставаться в центре уведомлений.</string>
     <string name="camera_external">Внешняя USB-камера</string>
     <string name="camera_focal_length">(Фокусное расстояние: %1$s)</string>
     <string name="camera_fov_text">\nУглы обзора (16:9): %1$d° (горизонтальный), %2$d° (вертикальный)</string>
@@ -108,6 +110,9 @@
     <string name="msg_photo_was_saved">Фото сохранено</string>
     <string name="msg_photo_failed_to_take">Не удалось сделать фото</string>
     <string name="msg_camera_not_opened">Камера не запущена</string>
+    <string name="msg_recorder_init_error_file_not_found">Удалите старые видео, отформатируйте SD-карту или попробуйте другую.\nТакже ограничьте максимальное пространство для записи видео (чем меньше, тем лучше).\nБольшое количество сохраненных видео могут вызывать такие проблемы.\nПосмотрите также FAQ о SD-картах в \"Настройки/FAQ\".\nВы также можете попробовать записывать в память телефона вместо внешней карты</string>
+    <string name="msg_dlg_found_old_videos_title">Найдены старые видео файлы</string>
+    <string name="msg_dlg_found_old_videos_message">Кажется, что вы переустановили приложение. У вас есть старые видео, которые приложение не может удалить во время циклической записи. Удалите их вручную на экране с видео перед записью новых видео. Начиная с Android 11+ приложение теряет права доступа к старым файлам после переустановки</string>
 
     <string name="notification_service_aux_checker">аудиоразъем(Aux)</string>
     <string name="notification_service_bl_checker">блютуза</string>
@@ -151,11 +156,11 @@
     <string name="prefs_background_location_text">Местоположение в фоновом режиме</string>
     <string name="prefs_battery_optimization_sum_text">Оптимизация батареи может препятствовать корректной работе приложения (например, использование камеры или обновление местоположения во время записи видео в фоновом режиме). Нажмите здесь, чтобы отключить ее для данного приложения сейчас</string>
     <string name="prefs_battery_optimization_text">Оптимизация батареи</string>
-    <string name="prefs_bl_auto_start_sum_text">Автоматически запускает запись, когда блютуз устройство подключается. Чтобы служба отслеживания блютуза запустилась после перезагрузки устройства необходимо, чтобы устройство (экран) было разблокировано, если есть пароль</string>
-    <string name="prefs_bl_auto_start_text">Запустить при подключении блютуз устройства</string>
-    <string name="prefs_bl_auto_stop_text">Остановить при отключении блютуз устройства</string>
-    <string name="prefs_boot_auto_start_sum_text">Начинает запись автоматически при запуске системы, устройство (экран) должно быть разблокировано, если есть пароль. После загрузки может пройти несколько минут, прежде чем система сообщит приложению о своем запуске</string>
-    <string name="prefs_boot_auto_start_text">При загрузке системы</string>
+    <string name="prefs_auto_start_bl_sum_text">Автоматически запускает запись, когда блютуз устройство подключается. Чтобы служба отслеживания блютуза запустилась после перезагрузки устройства необходимо, чтобы устройство (экран) было разблокировано, если есть пароль</string>
+    <string name="prefs_auto_start_bl_text">Запустить при подключении блютуз устройства</string>
+    <string name="prefs_auto_stop_bl_text">Остановить при отключении блютуз устройства</string>
+    <string name="prefs_auto_start_boot_sum_text">Начинает запись автоматически при запуске системы, устройство (экран) должно быть разблокировано, если есть пароль. После загрузки может пройти несколько минут, прежде чем система сообщит приложению о своем запуске</string>
+    <string name="prefs_auto_start_boot_text">При загрузке системы</string>
     <string name="prefs_day_night_mode_auto_text">Автоматический (день/ночь), по времени</string>
     <string name="prefs_day_night_mode_day_text">День</string>
     <string name="prefs_day_night_mode_night_text">Ночь</string>
@@ -183,8 +188,8 @@
     <string name="prefs_optical_zoom_text">Оптический зум (масштабирование) / Фокусное расстояние</string>
     <string name="prefs_other_auto_deleting_sum_text">Автоматически удалять самые старые видео во время записи, если для новых видео недостаточно места</string>
     <string name="prefs_other_auto_deleting_text">Циклическая запись</string>
-    <string name="prefs_other_auto_start_sum_text">Начать видеозапись автоматически при запуске приложения</string>
-    <string name="prefs_other_auto_start_text">При запуске приложения</string>
+    <string name="prefs_auto_start_app_launch_sum_text">Начать видеозапись автоматически при запуске приложения</string>
+    <string name="prefs_auto_start_app_launch_text">При запуске приложения</string>
     <string name="prefs_other_keep_screen_on_text">Оставлять экран включенным</string>
     <string name="prefs_other_miles_sum_text">Включите, чтобы использовать мили вместо километров</string>
     <string name="prefs_other_miles_text">Отображать в милях</string>
@@ -207,9 +212,12 @@
     <string name="prefs_pinch_to_zoom_sum_text">Масштабирование двумя пальцами</string>
     <string name="prefs_pinch_to_zoom_text">Включить зум по экрану</string>
     <string name="prefs_policy_text">Политика конфиденциальности</string>
-    <string name="prefs_power_auto_start_sum_text">Автоматически запускает запись при зарядке. Чтобы служба отслеживания зарядки запустилась после перезагрузки устройства необходимо, чтобы устройство (экран) было разблокировано, если есть пароль</string>
-    <string name="prefs_power_auto_start_text">Запустить при подкючении зарядки</string>
-    <string name="prefs_power_auto_stop_text">Остановить при отключении зарядки</string>
+    <string name="prefs_auto_start_power_sum_text">Автоматически запускает запись при зарядке. Чтобы служба отслеживания зарядки запустилась после перезагрузки устройства необходимо, чтобы устройство (экран) было разблокировано, если есть пароль</string>
+    <string name="prefs_auto_start_power_text">Запустить при подкючении зарядки</string>
+    <string name="prefs_auto_stop_power_text">Остановить при отключении зарядки</string>
+    <string name="prefs_auto_start_power_category_text">При зарядке</string>
+    <string name="prefs_auto_start_bl_category_text">Bluetooth</string>
+    <string name="prefs_auto_start_aux_category_text">AUX (аудио разъем)</string>
     <string name="prefs_rate_sum_text">Оценить приложение в Плей Маркете</string>
     <string name="prefs_rate_text">Оценить</string>
     <string name="prefs_recommendations_category_text">Рекомендации</string>
@@ -217,7 +225,7 @@
     <string name="prefs_rules_auto_lock_file_text">G-сенсор (датчик удара)</string>
     <string name="prefs_rules_auto_lock_file_threshold_text">Чувствительность G-сенсора</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Вибрация при обнаружении удара</string>
-    <string name="prefs_rules_bl_auto_start_device_text">Выберите устройство Bluetooth или любое</string>
+    <string name="prefs_auto_start_bl_device_text">Выберите устройство Bluetooth или любое</string>
     <string name="prefs_rules_video_space_text">Максимальный объем памяти всех видео (циклическая запись)</string>
     <string name="prefs_screen_autostart_sum_text">При запуске приложения, вкл/выкл зарядки, загрузке системы</string>
     <string name="prefs_screen_autostart_text">Автозапуск записи</string>

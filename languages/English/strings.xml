@@ -24,6 +24,7 @@
     <string name="disabled_text">Disabled</string>
     <string name="no_ads_text">(no ads)</string>
     <string name="zoom_value_reset">%1$.1fx\nzoom\nreset</string>
+    <string name="unknown">Unknown</string>
 
     <string name="camera">Camera</string>
     <string name="camera_aperture">\nAperture: %1$s</string>
@@ -31,11 +32,12 @@
     <string name="camera_background_permission_error_msg">App needs to be launched once to be able to access the camera in the background</string>
     <string name="camera_error_busy">DroidDashcam: Video recording has been stopped because camera is used by another app</string>
     <string name="camera_error_text">DroidDashcam: Video recording has been stopped because device camera has stopped working</string>
+    <string name="camera_error_background_tried_use_text">On Android 11+ before starting a background recording service app has to be launched and visible at least once to be able to use camera in background. So after a device reboot make app visible and after that don\'t close recording service, it should stay in notification center</string>
     <string name="camera_external">External USB Camera</string>
     <string name="camera_focal_length">(Focal length: %1$s)</string>
     <string name="camera_fov_text">\nAngle of view (16:9): %1$d° (horizontal), %2$d° (vertical)</string>
     <string name="camera_front">Front Camera</string>
-    <string name="camera_msg_error_in_use_text">Camera was in use by other app.\nPlease don\'t user start other apps which may use camera while recording videos.\nAndroid allows only one app to use camera at the same time</string>
+    <string name="camera_msg_error_in_use_text">Camera was in use by other app.\nPlease don\'t use or start other apps which may use camera while recording videos.\nAndroid allows only one app to use camera at the same time</string>
     <string name="camera_msg_error_unknown_text">Camera (was) temporarily unavailable for opening on your device (system camera error)</string>
     <string name="camera_support_error">Error happened during using Camera.\n%1$s.</string>
 
@@ -107,6 +109,9 @@
     <string name="msg_photo_was_saved">Photo saved</string>
     <string name="msg_photo_failed_to_take">Failed to take photo</string>
     <string name="msg_camera_not_opened">Camera is not started</string>
+    <string name="msg_recorder_init_error_file_not_found">Please delete old videos, format SD card or try another one.\nPlease also limit the maximum space for recording videos (less space is better).\nMany saved videos can cause such issues.\nRead FAQ about SD cards at Settings/FAQ.\nYou can also try to record to phone storage instead</string>
+    <string name="msg_dlg_found_old_videos_title">Found old video files</string>
+    <string name="msg_dlg_found_old_videos_message">Seems you reinstalled an application. You have old videos which app can\'t delete during loop recording. Please delete them manually at Videos screen before recording new videos. Starting from Android 11+ app loses write access to old files on reinstalling</string>
 
     <string name="notification_service_aux_checker">AudioJack(Aux)</string>
     <string name="notification_service_bl_checker">Bluetooth</string>
@@ -150,11 +155,11 @@
     <string name="prefs_background_location_text">Background Location permission</string>
     <string name="prefs_battery_optimization_sum_text">Battery optimization can stop app from working right (e.g. using camera or location updates during background video recording). Tap this to disable it for this app now</string>
     <string name="prefs_battery_optimization_text">Battery optimization</string>
-    <string name="prefs_bl_auto_start_sum_text">Starts recording automatically when a bluetooth device connects. For the bluetooth watcher service to start after rebooting the device, the device (screen) has to be unlocked if there a password/pin</string>
-    <string name="prefs_bl_auto_start_text">Start on bluetooth device connection</string>
-    <string name="prefs_bl_auto_stop_text">Stop on bluetooth device disconnection</string>
-    <string name="prefs_boot_auto_start_sum_text">Starts recording automatically when system starts, the device (screen) has to be unlocked if there a password/pin. It can take several minutes after boot before the system informs the app that it has started</string>
-    <string name="prefs_boot_auto_start_text">On system boot</string>
+    <string name="prefs_auto_start_bl_sum_text">Starts recording automatically when a bluetooth device connects. For the bluetooth watcher service to start after rebooting the device, the device (screen) has to be unlocked if there a password/pin</string>
+    <string name="prefs_auto_start_bl_text">Start on bluetooth device connection</string>
+    <string name="prefs_auto_stop_bl_text">Stop on bluetooth device disconnection</string>
+    <string name="prefs_auto_start_boot_sum_text">Starts recording automatically when system starts, the device (screen) has to be unlocked if there a password/pin. It can take several minutes after boot before the system informs the app that it has started</string>
+    <string name="prefs_auto_start_boot_text">On system boot</string>
     <string name="prefs_day_night_mode_auto_text">Auto (Day/Night), based on time</string>
     <string name="prefs_day_night_mode_day_text">Day</string>
     <string name="prefs_day_night_mode_night_text">Night</string>
@@ -182,8 +187,8 @@
     <string name="prefs_optical_zoom_text">Optical zoom (Focal length)</string>
     <string name="prefs_other_auto_deleting_sum_text">Automatically delete oldest videos during recording if there is not enough space for new videos</string>
     <string name="prefs_other_auto_deleting_text">Loop recording</string>
-    <string name="prefs_other_auto_start_sum_text">Starts recording automatically when app launches</string>
-    <string name="prefs_other_auto_start_text">On app start</string>
+    <string name="prefs_auto_start_app_launch_sum_text">Starts recording automatically when app launches</string>
+    <string name="prefs_auto_start_app_launch_text">On app start</string>
     <string name="prefs_other_keep_screen_on_text">Keep screen on</string>
     <string name="prefs_other_miles_sum_text">Enable to use miles instead of kilometers</string>
     <string name="prefs_other_miles_text">Use miles</string>
@@ -206,9 +211,12 @@
     <string name="prefs_pinch_to_zoom_sum_text">Zoom in/out by two fingers</string>
     <string name="prefs_pinch_to_zoom_text">Pinch to zoom</string>
     <string name="prefs_policy_text">Policy</string>
-    <string name="prefs_power_auto_start_sum_text">Starts recording automatically when starts charging. For the charging watcher service to start after rebooting the device, the device (screen) has to be unlocked if there a password/pin</string>
-    <string name="prefs_power_auto_start_text">Start when charging is connected</string>
-    <string name="prefs_power_auto_stop_text">Stop when charging is disconnected</string>
+    <string name="prefs_auto_start_power_sum_text">Starts recording automatically when starts charging. For the charging watcher service to start after rebooting the device, the device (screen) has to be unlocked if there a password/pin</string>
+    <string name="prefs_auto_start_power_text">Start when charging is connected</string>
+    <string name="prefs_auto_stop_power_text">Stop when charging is disconnected</string>
+    <string name="prefs_auto_start_power_category_text">Charging</string>
+    <string name="prefs_auto_start_bl_category_text">Bluetooth</string>
+    <string name="prefs_auto_start_aux_category_text">Audio jack (AUX)</string>
     <string name="prefs_rate_sum_text">Rate this App on Play Store</string>
     <string name="prefs_rate_text">Rate</string>
     <string name="prefs_recommendations_category_text">Recommendations</string>
@@ -216,7 +224,7 @@
     <string name="prefs_rules_auto_lock_file_text">G-shock sensor</string>
     <string name="prefs_rules_auto_lock_file_threshold_text">G-sensor sensitivity</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Vibrate on impact detection</string>
-    <string name="prefs_rules_bl_auto_start_device_text">Select specific bluetooth device or any</string>
+    <string name="prefs_auto_start_bl_device_text">Select specific bluetooth device or any</string>
     <string name="prefs_rules_video_space_text">Max memory of all videos (loop recording)</string>
     <string name="prefs_screen_autostart_sum_text">On app launch, charging on/off, boot</string>
     <string name="prefs_screen_autostart_text">Autostart recording</string>
@@ -383,59 +391,4 @@
     <string name="videos_select_files_for_deleting">Select some video files for deleting</string>
     <string name="videos_storage_select_dlg_title">Select storage to view videos</string>
     <string name="videos_toolbar_subtitle">Videos</string>
-
-    <!-- aren't translatable: -->
-
-    <string name="app_name_short" translatable="false">DroidDashcam</string>
-    <string name="app_name_support" translatable="false">DroidDashcam Support. %1$s, Android %2$s, API %3$d</string>
-    <string name="app_name_short_spaced" translatable="false">Droid Dashcam</string>
-
-    <string name="ph_comma_2s" translatable="false">%1$s, %2$s</string>
-    <string name="ph_dot_2s" translatable="false">%1$s. %2$s</string>
-    <string name="ph_comma_3s" translatable="false">%1$s, %2$s, %3$s</string>
-    <string name="ph_space_2s" translatable="false">%1$s %2$s</string>
-    <string name="ph_space_3s" translatable="false">%1$s %2$s %3$s</string>
-    <string name="ph_space_4s" translatable="false">%1$s %2$s %3$s %4$s</string>
-    <string name="ph_lined_2s" translatable="false">%1$s\n%2$s</string>
-    <string name="ph_colon_2s" translatable="false">%1$s: %2$s</string>
-
-    <string name="ph_file_size" translatable="false">%1$s (%2$s)</string>
-    <string name="format_number_digit" translatable="false">#%1$d</string>
-
-    <string name="format_zoom_x" translatable="false">%1$.1fX</string>
-
-    <string name="share_msg" translatable="false">%1$s https://play.google.com/store/apps/details?id=%2$s</string>
-
-    <string name="format_speed_value" translatable="false">%1$.1f</string>
-    <string name="format_speed_value_round" translatable="false">%1$d</string>
-    <string name="format_speed_measure_mph" translatable="false">mph</string>
-
-    <string name="videos_back_folder_item_text" translatable="false">…</string>
-
-    <string name="videos_file_item_info" translatable="false">%1$s, %2$s, %3$dx%4$d</string>
-    <string name="videos_file_item_info_no_res" translatable="false">%1$s, %2$s</string>
-
-    <string name="cd_rec_videos_btn" translatable="false">App recorded videos button</string>
-    <string name="cd_rec_start_stop_recording_btn" translatable="false">App start/stop recording button</string>
-    <string name="cd_rec_settings_btn" translatable="false">App Settings button</string>
-
-    <string name="donate_1" translatable="false">🙂</string>
-    <string name="donate_2" translatable="false">😉</string>
-    <string name="donate_3" translatable="false">😀</string>
-    <string name="donate_4" translatable="false">😃</string>
-    <string name="donate_5" translatable="false">😄</string>
-    <string name="donate_7" translatable="false">😁</string>
-    <string name="donate_10" translatable="false">🤑</string>
-    <string name="donate_11" translatable="false">😍</string>
-
-    <string name="donate_sub_1" translatable="false">😄</string>
-    <string name="donate_sub_2" translatable="false">😁</string>
-    <string name="donate_sub_3" translatable="false">🤑</string>
-    <string name="donate_sub_4" translatable="false">😍</string>
-
-    <string name="format_float_x_value" translatable="false">%1$.1fx</string>
-
-    <string name="prefs_subtitles_sum_transparent_text" translatable="false">%1$d\%%</string>
-    <string name="prefs_location_fused_provider" translatable="false">Fused Location Provider API</string>
-    <string name="gps_text" translatable="false">GPS</string>
 </resources>
