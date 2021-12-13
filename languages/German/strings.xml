@@ -172,7 +172,8 @@
   <!-- TODO: translate -->
   <string name="msg_recorder_init_error_file_not_found">Please delete old videos, format SD card or try another one.\nPlease also limit maximum space for recording videos (less space is better).\nMany saved videos can cause such issues.\nRead FAQ about SD cards at Settings/FAQ.\nYou can also try to record to phone storage instead</string>
   <string name="msg_dlg_found_old_videos_title">Found old video files</string>
-  <string name="msg_dlg_found_old_videos_message">Seems you reinstalled an application. You have old videos which app can\'t delete during loop recording. Please delete them manually at Videos screen before recording new videos. Starting from Android 11+ app loses write access to old files on reinstalling</string>
+  <string name="msg_dlg_found_old_videos_message">Seems you reinstalled an application. You have old videos which app can\'t delete during loop recording. Please delete them manually at Videos screen before recording new videos. Starting from Android 11+ app loses write access to old files on reinstalling\nOr you can grant write storage permission for the recording folder</string>
+  <string name="msg_dlg_incorrect_folder_path">Incorrect folder.\nPlease do no not change the path.\nYou have to grant the permission for specific folder.\nYou change the recording folder at the settings.</string>
 
   <string name="notification_service_aux_checker">Audiobuchse(Aux)</string>
 
@@ -221,6 +222,8 @@
   <string name="permissions_camera_location_dlg_title">Kamera- und Standortauflösung</string>
 
   <string name="permissions_location_storage_dlg_title">Standort- und Speicherberechtigungen</string>
+
+  <string name="permissions_grant_storage_btn_text">Speicherberechtigung erteilen</string>
 
   <string name="prefs_address_geocoding_no_support_text">Deaktiviert, da das Gerät keine Geokodierung unterstützt</string>
 
@@ -480,8 +483,16 @@
   <string name="prefs_subtitles_update_address_frequency_text">Aktualisierungsrate der Adresse</string>
   <string name="prefs_location_update_frequency_text">Aktualisierungsrate der GPS</string>
 
+
   <!-- TODO: translate -->
   <string name="prefs_location_manager_gps_only_text">Update location using GPS only (don\'t use network)</string>
+  <string name="prefs_rules_auto_start_speed_text">Start recording when speed is equal to/greater than (based on GPS)</string>
+  <string name="prefs_rules_auto_stop_speed_text">Stop recording when speed is below (based on GPS)</string>
+  <string name="prefs_rules_auto_stop_after_specific_time_text">Stop recording after</string>
+  <string name="prefs_rules_auto_start_camera_motion_text">Start recording on motion detection</string>
+  <string name="prefs_rules_auto_stop_camera_motion_text">Stop recording when there is no movement</string>
+  <string name="prefs_rules_auto_category_camera_motion_text">Motion detection by camera</string>
+
 
   <string name="prefs_support_sum_text">Einen Fehler, Absturz oder ein Angebot melden</string>
 

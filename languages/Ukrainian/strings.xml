@@ -94,7 +94,8 @@
     <string name="msg_camera_not_opened">Камера не відкрита</string>
     <string name="msg_recorder_init_error_file_not_found">Видаліть старі відео, відформатуйте картку SD або спробуйте іншу.\nТакож обмежте максимальний простір для запису відео (чим менше, тим краще).\nБільшість збережених відео можуть викликати такі проблеми.\nПодивіться також FAQ про SD-картки в \"Параметри/FAQ\".\nВи також можете спробувати записувати в пам\'ять телефону замість зовнішньої картки</string>
     <string name="msg_dlg_found_old_videos_title">Знайдено старі відео файли</string>
-    <string name="msg_dlg_found_old_videos_message">Здається, що ви перевстановили програму. У вас є старі відео, які програма не може видалити під час циклічного запису. Перед записом нових відео видаліть їх вручну на екрані з відео. Починаючи з Android 11+ програма втрачає права доступу до старих файлів після переустановки</string>
+    <string name="msg_dlg_found_old_videos_message">Здається, що ви перевстановили програму. У вас є старі відео, які програма не може видалити під час циклічного запису. Перед записом нових відео видаліть їх вручну на екрані з відео. Починаючи з Android 11+ програма втрачає права доступу до старих файлів після переустановки\nАбо ви можете надати дозвіл на запис для папки запису</string>
+    <string name="msg_dlg_incorrect_folder_path">Неправильна папка.\nБудь ласка, не міняйте шлях.\nВи повинні надати дозвіл для конкретної папки.\nВи можете змінити папку для запису в налаштуваннях.</string>
 
     <string name="notification_service_aux_checker">аудіороз\'єм(Aux)</string>
     <string name="notification_service_bl_checker">блютуза</string>
@@ -121,6 +122,7 @@
     <string name="permissions_audio_storage_dlg_title">Аудіо та Сховище дозвіл</string>
     <string name="permissions_camera_location_dlg_title">Камера та Місцезнаходження дозвіл</string>
     <string name="permissions_location_storage_dlg_title">Місцезнаходження та Сховище дозвіл</string>
+    <string name="permissions_grant_storage_btn_text">Надати права</string>
 
     <string name="prefs_address_geocoding_no_support_text">Вимкнено, оскільки пристрій не підтримує геокодування</string>
     <string name="prefs_animated_rec_circle_sum_text">Показувати анімацію навколо кнопки запуску запису</string>
@@ -310,6 +312,12 @@
     <string name="prefs_g_sensor_force_normal">Нормальна</string>
     <string name="prefs_g_sensor_force_low">Низька</string>
     <string name="prefs_g_sensor_force_very_low">Дуже низька</string>
+    <string name="prefs_rules_auto_start_speed_text">Почати запис, коли швидкість дорівнює/більше (на основі GPS)</string>
+    <string name="prefs_rules_auto_stop_speed_text">Зупинити запис, коли швидкість нижча (на основі GPS)</string>
+    <string name="prefs_rules_auto_stop_after_specific_time_text">Зупинити запис після</string>
+    <string name="prefs_rules_auto_start_camera_motion_text">Почати запис при виявленні руху</string>
+    <string name="prefs_rules_auto_stop_camera_motion_text">Зупинити запис за відсутності руху</string>
+    <string name="prefs_rules_auto_category_camera_motion_text">Виявлення руху по камері</string>
 
     <string name="rec_day_night_btn_auto_text">Авто:\n%1$s</string>
     <string name="rec_fix_short_text">Виправ.</string>

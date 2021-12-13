@@ -111,7 +111,8 @@
     <string name="msg_camera_not_opened">Camera is not started</string>
     <string name="msg_recorder_init_error_file_not_found">Please delete old videos, format SD card or try another one.\nPlease also limit the maximum space for recording videos (less space is better).\nMany saved videos can cause such issues.\nRead FAQ about SD cards at Settings/FAQ.\nYou can also try to record to phone storage instead</string>
     <string name="msg_dlg_found_old_videos_title">Found old video files</string>
-    <string name="msg_dlg_found_old_videos_message">Seems you reinstalled an application. You have old videos which app can\'t delete during loop recording. Please delete them manually at Videos screen before recording new videos. Starting from Android 11+ app loses write access to old files on reinstalling</string>
+    <string name="msg_dlg_found_old_videos_message">Seems you reinstalled an application. You have old videos which app can\'t delete during loop recording. Please delete them manually at Videos screen before recording new videos. Starting from Android 11+ app loses write access to old files on reinstalling.\nOr you can grant write storage permission for the recording folder</string>
+    <string name="msg_dlg_incorrect_folder_path">Incorrect folder.\nPlease do no not change the path.\nYou have to grant the permission for specific folder.\nYou change the recording folder at the settings.</string>
 
     <string name="notification_service_aux_checker">AudioJack(Aux)</string>
     <string name="notification_service_bl_checker">Bluetooth</string>
@@ -138,6 +139,7 @@
     <string name="permissions_audio_storage_dlg_title">Audio &amp; Storage permissions</string>
     <string name="permissions_camera_location_dlg_title">Camera &amp; Location permissions</string>
     <string name="permissions_location_storage_dlg_title">Location &amp; Storage permissions</string>
+    <string name="permissions_grant_storage_btn_text">Grant write storage</string>
 
     <string name="prefs_address_geocoding_no_support_text">Disabled because this device doesn\'t support geocoding</string>
     <string name="prefs_animated_rec_circle_sum_text">Show animated circle around recording button</string>
@@ -327,6 +329,12 @@
     <string name="prefs_g_sensor_force_normal">Normal</string>
     <string name="prefs_g_sensor_force_low">Low</string>
     <string name="prefs_g_sensor_force_very_low">Very Low</string>
+    <string name="prefs_rules_auto_start_speed_text">Start recording when speed is equal to/greater than (based on GPS)</string>
+    <string name="prefs_rules_auto_stop_speed_text">Stop recording when speed is below (based on GPS)</string>
+    <string name="prefs_rules_auto_stop_after_specific_time_text">Stop recording after</string>
+    <string name="prefs_rules_auto_start_camera_motion_text">Start recording on motion detection</string>
+    <string name="prefs_rules_auto_stop_camera_motion_text">Stop recording when there is no movement</string>
+    <string name="prefs_rules_auto_category_camera_motion_text">Motion detection by camera</string>
 
     <string name="rec_day_night_btn_auto_text">Auto:\n%1$s</string>
     <string name="rec_fix_short_text">@string/rec_fix_text</string>
@@ -391,4 +399,59 @@
     <string name="videos_select_files_for_deleting">Select some video files for deleting</string>
     <string name="videos_storage_select_dlg_title">Select storage to view videos</string>
     <string name="videos_toolbar_subtitle">Videos</string>
+
+    <!-- aren't translatable: -->
+
+    <string name="app_name_short" translatable="false">DroidDashcam</string>
+    <string name="app_name_support" translatable="false">DroidDashcam Support. %1$s, Android %2$s, API %3$d</string>
+    <string name="app_name_short_spaced" translatable="false">Droid Dashcam</string>
+
+    <string name="ph_comma_2s" translatable="false">%1$s, %2$s</string>
+    <string name="ph_dot_2s" translatable="false">%1$s. %2$s</string>
+    <string name="ph_comma_3s" translatable="false">%1$s, %2$s, %3$s</string>
+    <string name="ph_space_2s" translatable="false">%1$s %2$s</string>
+    <string name="ph_space_3s" translatable="false">%1$s %2$s %3$s</string>
+    <string name="ph_space_4s" translatable="false">%1$s %2$s %3$s %4$s</string>
+    <string name="ph_lined_2s" translatable="false">%1$s\n%2$s</string>
+    <string name="ph_colon_2s" translatable="false">%1$s: %2$s</string>
+
+    <string name="ph_file_size" translatable="false">%1$s (%2$s)</string>
+    <string name="format_number_digit" translatable="false">#%1$d</string>
+
+    <string name="format_zoom_x" translatable="false">%1$.1fX</string>
+
+    <string name="share_msg" translatable="false">%1$s https://play.google.com/store/apps/details?id=%2$s</string>
+
+    <string name="format_speed_value" translatable="false">%1$.1f</string>
+    <string name="format_speed_value_round" translatable="false">%1$d</string>
+    <string name="format_speed_measure_mph" translatable="false">mph</string>
+
+    <string name="videos_back_folder_item_text" translatable="false">…</string>
+
+    <string name="videos_file_item_info" translatable="false">%1$s, %2$s, %3$dx%4$d</string>
+    <string name="videos_file_item_info_no_res" translatable="false">%1$s, %2$s</string>
+
+    <string name="cd_rec_videos_btn" translatable="false">App recorded videos button</string>
+    <string name="cd_rec_start_stop_recording_btn" translatable="false">App start/stop recording button</string>
+    <string name="cd_rec_settings_btn" translatable="false">App Settings button</string>
+
+    <string name="donate_1" translatable="false">🙂</string>
+    <string name="donate_2" translatable="false">😉</string>
+    <string name="donate_3" translatable="false">😀</string>
+    <string name="donate_4" translatable="false">😃</string>
+    <string name="donate_5" translatable="false">😄</string>
+    <string name="donate_7" translatable="false">😁</string>
+    <string name="donate_10" translatable="false">🤑</string>
+    <string name="donate_11" translatable="false">😍</string>
+
+    <string name="donate_sub_1" translatable="false">😄</string>
+    <string name="donate_sub_2" translatable="false">😁</string>
+    <string name="donate_sub_3" translatable="false">🤑</string>
+    <string name="donate_sub_4" translatable="false">😍</string>
+
+    <string name="format_float_x_value" translatable="false">%1$.1fx</string>
+
+    <string name="prefs_subtitles_sum_transparent_text" translatable="false">%1$d\%%</string>
+    <string name="prefs_location_fused_provider" translatable="false">Fused Location Provider API</string>
+    <string name="gps_text" translatable="false">GPS</string>
 </resources>
