@@ -75,7 +75,7 @@
     <string name="msg_could_not_start_floating_window_text">Could not start a floating window</string>
     <string name="msg_android_r_deleting_manual_tip_text">If you reinstalled App on Android 11, then the old files must be deleted manually</string>
     <string name="msg_app_has_lost_camera_control_text">DroidDashcam has lost the camera control . Please open DroidDashcam again to return the camera control.</string>
-    <string name="msg_battery_optimization_tip_text">Battery optimization -> All apps -> Droid Dashcam -> Don\'t optimize</string>
+    <string name="msg_battery_optimization_tip_text">Battery optimization -&gt; All apps -&gt; Droid Dashcam -&gt; Don\'t optimize</string>
     <string name="msg_camera_died_text">DroidDashcam: Device camera service has died, restarting…</string>
     <string name="msg_close_settings_before_recording_text">Close app settings before starting recording</string>
     <string name="msg_could_not_enable_microphone">Could not enable microphone, recording will continue without audio</string>
@@ -360,7 +360,7 @@
     <string name="recording_stop_not_enough_space_msg">Not enough space. Available space is</string>
     <string name="recording_stop_text">Stop Recording</string>
     <string name="recording_stopped_failed_text">Failed to finish recording</string>
-    <string name="recording_stopped_with_text">- recording stopped</string>
+    <string name="recording_stopped_with_text">recording stopped</string>
     <string name="recording_text">Recording…</string>
     <string name="recording_voice_started_text">Recording started</string>
     <string name="recording_voice_stopped_text">Recording stopped </string>
@@ -420,13 +420,13 @@
     <string name="ph_colon_2s" translatable="false">%1$s: %2$s</string>
     <string name="ph_colon_lined_2s" translatable="false">%1$s:\n%2$s</string>
     <string name="ph_parentheses" translatable="false">%1$s (%2$s)</string>
-    <string name="ph_from_path_to_path" translatable="false">%1$s\n->\n%2$s</string>
+    <string name="ph_from_path_to_path" translatable="false">%1$s\n-&gt;\n%2$s</string>
     <string name="ph_hyphen_2s" translatable="false">%1$s - %2$s</string>
 
     <string name="ph_file_size" translatable="false">%1$s (%2$s)</string>
 
     <string name="format_number_digit" translatable="false">#%1$d</string>
-    <string name="format_feet" translatable="false">%1$s ft</string>
+    <string name="format_feet" translatable="false">ft</string>
     <string name="format_zoom_x" translatable="false">%1$.1fX</string>
 
     <string name="zoom_value" translatable="false">%1$.1fx</string>
@@ -445,22 +445,34 @@
     <string name="cd_rec_start_stop_recording_btn" translatable="false">App start/stop recording button</string>
     <string name="cd_rec_settings_btn" translatable="false">App Settings button</string>
 
-    <string name="donate_1" translatable="false">🙂</string>
-    <string name="donate_2" translatable="false">😉</string>
-    <string name="donate_3" translatable="false">😀</string>
-    <string name="donate_4" translatable="false">😃</string>
-    <string name="donate_5" translatable="false">😄</string>
-    <string name="donate_7" translatable="false">😁</string>
-    <string name="donate_10" translatable="false">🤑</string>
-    <string name="donate_11" translatable="false">😍</string>
+    <string name="donate_1" translatable="false">&#128578;</string>
+    <string name="donate_2" translatable="false">&#128521;</string>
+    <string name="donate_3" translatable="false">&#128512;</string>
+    <string name="donate_4" translatable="false">&#128515;</string>
+    <string name="donate_5" translatable="false">&#128516;</string>
+    <string name="donate_7" translatable="false">&#128513;</string>
+    <string name="donate_10" translatable="false">&#129297;</string>
+    <string name="donate_11" translatable="false">&#128525;</string>
 
-    <string name="donate_sub_1" translatable="false">😄</string>
-    <string name="donate_sub_2" translatable="false">😁</string>
-    <string name="donate_sub_3" translatable="false">🤑</string>
-    <string name="donate_sub_4" translatable="false">😍</string>
+    <string name="donate_sub_1" translatable="false">&#128516;</string>
+    <string name="donate_sub_2" translatable="false">&#128513;</string>
+    <string name="donate_sub_3" translatable="false">&#129297;</string>
+    <string name="donate_sub_4" translatable="false">&#128525;</string>
 
     <string name="format_float_x_value" translatable="false">%1$.1fx</string>
 
     <string name="prefs_location_fused_provider" translatable="false">Fused Location Provider API</string>
     <string name="gps_text" translatable="false">GPS</string>
+
+	
+    <string name="prefs_app_launch_list_loading_msg_text">Please wait. Application list still loading…</string>
+    <string name="prefs_warnings_text">Warnings</string>
+    <string name="prefs_beep_each_start_recording_sum_text">Signal at the beginning of the recording of the next video file</string>
+    <string name="prefs_beep_each_start_recording_text">Beep when recording</string>
+    <string name="prefs_translate_text">Application translation</string>
+    <string name="prefs_translate_sum_text">Help improve or fix the translation of text in your language</string>
+    <string name="prefs_launch_app_auto_text">Launch app when video recording starts</string>
+
+    <string name="msg_dialog_camera_battery_optimization_title">An error occurred while accessing the camera. Battery optimization enabled</string>
+    <string name="msg_dialog_camera_battery_optimization_subtitle">Disable battery optimization for this app in your device settings to avoid future camera errors</string>
 </resources>
