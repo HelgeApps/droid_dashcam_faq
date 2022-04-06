@@ -159,6 +159,10 @@
     <string name="prefs_auto_start_bl_sum_text">Автоматически запускает запись, когда блютуз устройство подключается. Чтобы служба отслеживания блютуза запустилась после перезагрузки устройства необходимо, чтобы устройство (экран) было разблокировано, если есть пароль</string>
     <string name="prefs_auto_start_bl_text">Запустить при подключении блютуз устройства</string>
     <string name="prefs_auto_start_boot_sum_text">Начинает запись автоматически при запуске системы, устройство (экран) должно быть разблокировано, если есть пароль. После загрузки может пройти несколько минут, прежде чем система сообщит приложению о своем запуске</string>
+
+    <string name="prefs_rules_auto_start_only_with_service_text">Автоматическая запись только при запущенном сервисе</string>
+    <string name="prefs_rules_auto_start_only_with_service_sum_text">Если включить эту опцию, то автоматическая запись не будет выполняться, если сервис наблюдения не запущен и не виден в панели уведомлений</string>
+
     <string name="prefs_auto_start_boot_text">При загрузке системы</string>
     <string name="prefs_auto_start_power_category_text">При зарядке</string>
     <string name="prefs_auto_start_power_sum_text">Автоматически запускает запись при зарядке. Чтобы служба отслеживания зарядки запустилась после перезагрузки устройства необходимо, чтобы устройство (экран) было разблокировано, если есть пароль</string>
@@ -294,6 +298,8 @@
     <string name="prefs_subtitles_transparency_text">Прозрачность текста</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">Чем чаще обновления, тем быстрее садится батарея</string>
     <string name="prefs_subtitles_update_address_frequency_text">Частота обновления адреса</string>
+    <string name="prefs_subtitles_position_bottom_text">Субтитры внизу</string>
+    <string name="prefs_subtitles_position_bottom_sum_text">Накладывать субтитры внизу видео</string>
     <string name="prefs_support_sum_text">Сообщить об ошибке, сбое или сделать предложение</string>
     <string name="prefs_support_text">Поддержка (обратная связь)</string>
     <string name="prefs_system_alert_window_sum_text">Разрешить этому приложению отображаться поверх всех других приложений. Это необходимо для автоматического запуска/остановки записи видео или для отображения плавающего окна</string>
@@ -413,4 +419,5 @@
 
     <string name="msg_dialog_camera_battery_optimization_title">Произошла ошибка доступа к камере. Включена оптимизация батареи</string>
     <string name="msg_dialog_camera_battery_optimization_subtitle">Отключите оптимизацию батареи для данного приложения в настройках вашего устройства, чтобы избежать последующих ошибок с камерой</string>
+
 </resources>
