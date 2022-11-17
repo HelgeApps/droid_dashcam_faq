@@ -168,6 +168,7 @@
     <string name="prefs_auto_start_power_sum_text">Автоматически запускает запись при зарядке. Чтобы служба отслеживания зарядки запустилась после перезагрузки устройства необходимо, чтобы устройство (экран) было разблокировано, если есть пароль</string>
     <string name="prefs_auto_start_power_text">Запустить при подкючении зарядки</string>
     <string name="prefs_auto_stop_bl_text">Остановить при отключении блютуз устройства</string>
+    <string name="prefs_rules_bl_auto_start_only_if_charging_text">Запись только при зарядке устройства</string>
     <string name="prefs_auto_stop_power_text">Остановить при отключении зарядки</string>
     <string name="prefs_aux_auto_start_sum_text">Автоматически запускает запись при подключении в аудио разъем (AUX)</string>
     <string name="prefs_aux_auto_start_text">Запустить при подключении в аудио разъем (AUX)</string>
@@ -218,6 +219,7 @@
     <string name="prefs_other_auto_deleting_sum_text">Автоматически удалять самые старые видео во время записи, если для новых видео недостаточно места</string>
     <string name="prefs_other_auto_deleting_text">Циклическая запись</string>
     <string name="prefs_other_keep_screen_on_text">Оставлять экран включенным</string>
+    <string name="prefs_other_keep_screen_on_while_recording_only_text">Оставлять экран включенным только при записи</string>
     <string name="prefs_other_miles_sum_text">Включите, чтобы использовать мили вместо километров</string>
     <string name="prefs_other_miles_text">Отображать в милях, футах</string>
     <string name="prefs_other_path_photo_text">Расположение фото (папка/путь)</string>
@@ -416,8 +418,16 @@
     <string name="prefs_translate_text">Перевод приложения</string>
     <string name="prefs_translate_sum_text">Помогите улучшить или исправить перевод текста на ваш язык</string>
     <string name="prefs_launch_app_auto_text">Запускать приложение при начале видеозаписи</string>
+    <string name="prefs_launch_app_limitation_text">С Android 11 и выше, вы, возможно, не сможете выбрать любое из установленных приложений, так как сама система ограничивает видимость приложений (политика конфиденциальности)</string>
 
     <string name="msg_dialog_camera_battery_optimization_title">Произошла ошибка доступа к камере. Включена оптимизация батареи</string>
     <string name="msg_dialog_camera_battery_optimization_subtitle">Отключите оптимизацию батареи для данного приложения в настройках вашего устройства, чтобы избежать последующих ошибок с камерой</string>
 
+    <string name="prefs_other_date_time_text">Дата и время</string>
+
+    <string name="accept_text">Принять</string>
+
+    <string name="prefs_launch_activity_on_auto_rec_start_text">Открывать приложение при автоматическом начале записи</string>
+
+    <string name="msg_notification_could_launch_app_activity">Не удалось запустить главный экран приложения поскольку разрешение SYSTEM_ALERT_WINDOW (отображение поверх всех окон других приложений) не предоставлено или был выключен экран устройства</string>
 </resources>

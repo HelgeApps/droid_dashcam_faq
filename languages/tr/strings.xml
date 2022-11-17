@@ -14,7 +14,7 @@
     <string name="camera_aperture">Diyafram</string>
     <string name="camera_back">Arka kamera</string>
     <string name="camera_background_permission_error_msg">Arka planda kameraya erişebilmek için uygulamanın bir kez başlatılması gerekir.</string>
-    <string name="camera_error_background_tried_use_text">Android 11+'da, arka planda kayda başlamadan önce, kamerayı arka planda kullanabilmek için uygulamanın çalışıyor ve en az bir kez görünür olması gerekir. Bu nedenle cihazı yeniden başlattıktan sonra uygulamayı görünür yapın ve bundan sonra kayıt hizmetini kapatmayın, bildirim merkezinde kalmalıdır.</string>
+    <string name="camera_error_background_tried_use_text">Android 11+\'da, arka planda kayda başlamadan önce, kamerayı arka planda kullanabilmek için uygulamanın çalışıyor ve en az bir kez görünür olması gerekir. Bu nedenle cihazı yeniden başlattıktan sonra uygulamayı görünür yapın ve bundan sonra kayıt hizmetini kapatmayın, bildirim merkezinde kalmalıdır.</string>
     <string name="camera_error_busy">DroidDashcam: Kamera başka bir uygulama tarafından kullanıldığı için video kaydı durdu</string>
     <string name="camera_error_text">DroidDashcam: Cihazın kamerası çalışmayı durdurduğu için video kaydı durduruldu</string>
     <string name="camera_external">Harici USB Kamera</string>
@@ -91,7 +91,7 @@
     <string name="msg_video_become_locked_text">Videonun üzerine yazılması engellendi ve kaydedildi, ayrıca sonraki videonun da üzerine yazılması engellendi (kilit tuşuna basarak devre dışı bırakılabilir)</string>
     <string name="msg_video_folder_size">Tüm videoların boyutu, izin verilen maksimum alana sahip</string>
     <string name="msg_video_has_locked_text">Video kilitlendi ve kaydedildi, sonraki video da kilitli olarak işaretlenir (kilit düğmesine tıklayarak iptal edilebilir)</string>
-    <string name="msg_video_rec_battery_not_enough_text">Cihazda yeterli pil gücü yok. Şarja takın veya şarj 1%%'in üzerindeyse kayda başlayın</string>
+    <string name="msg_video_rec_battery_not_enough_text">Cihazda yeterli pil gücü yok. Şarja takın veya şarj 1%%\'in üzerindeyse kayda başlayın</string>
     <string name="msg_video_recorder_error">Video kaydedicide bir şeyler ters gitti.</string>
     <string name="msg_voice_tts_lang_data_missing_text">TTS (Android Text-to-Speech) için dil paketi yüklü değil. İndirmeye başlamak için interneti açın</string>
     <string name="msg_auto_recording_service_was_stopped">Otomatik başlatma video arka plan hizmetini durdurdunuz. Yeniden başlatmak için DroidDashcam uygulamasını açın.</string>
@@ -163,8 +163,8 @@
     <string name="donate_text">Bağış</string>
     <string name="prefs_faq_sum_text">Sıkça Sorulan Sorular</string>
     <string name="prefs_float_size_increase_text">Yüzen penceredeki düğmelerin boyutu</string>
-    <string name="from">from ('den/'dan)</string>
-    <string name="to">to ('e kadar/'a kadar)</string>
+    <string name="from">from (\'den\'dan)</string>
+    <string name="to">to (\'e kadar\'a kadar)</string>
     <string name="prefs_fps_value_from_to_stable_text">(sadece gün, sabit)</string>
     <string name="prefs_fps_value_from_to_text">(gündüz &amp; gece)</string>
     <string name="prefs_frequent_network_requests_text">(sık ağ istekleri)</string>
@@ -387,7 +387,7 @@
     <string name="videos_temporary_folder_text">Geçici videolar</string>
     <string name="videos_toolbar_subtitle">Video Kayıtları</string>
 
-	
+
     <string name="prefs_app_launch_list_loading_msg_text">Lütfen bekle. Uygulama listesi hala yükleniyor…</string>
     <string name="prefs_warnings_text">Uyarılar</string>
     <string name="prefs_beep_each_start_recording_sum_text">Sonraki video dosyasının kaydının başlangıcındaki sinyal</string>
@@ -399,14 +399,30 @@
     <string name="msg_dialog_camera_battery_optimization_title">Kameraya erişilirken bir hata oluştu. Pil optimizasyonu etkinleştirildi</string>
     <string name="msg_dialog_camera_battery_optimization_subtitle">Gelecekteki kamera hatalarını önlemek için bu uygulama için pil optimizasyonunu cihaz ayarlarınızda devre dışı bırakın</string>
 
-	
+
     <string name="prefs_rules_auto_start_only_with_service_text">Yalnızca hizmet çalışırken otomatik kayıt</string>
     <string name="prefs_rules_auto_start_only_with_service_sum_text">Bu seçeneği etkinleştirirseniz, izleme hizmeti çalışmıyorsa ve bildirim panelinde görünmüyorsa otomatik kayıt yapılmayacaktır.</string>
 
-	
+
     <string name="prefs_subtitles_position_bottom_text">Altyazılar en altta</string>
     <string name="prefs_subtitles_position_bottom_sum_text">Altyazıları videonun altına yerleştirin</string>
 
-	
+
     <string name="accept_text">Kabul ediyorum</string>
+
+    <string name="prefs_launch_app_limitation_text">Android 11 ve sonraki sürümlerde, sistemin kendisi uygulama görünürlüğünü kısıtladığından (gizlilik politikası) yüklü uygulamalardan hiçbirini seçemeyebilirsiniz.</string>
+
+    <string name="prefs_rules_bl_auto_start_only_if_charging_text">Yalnızca cihaz şarj olurken kayıt</string>
+
+    <string name="prefs_other_keep_screen_on_while_recording_only_text">Ekranı yalnızca kayıt sırasında açık tut</string>
+    <string name="prefs_other_date_time_text">tarih ve saat</string>
+
+    
+    
+
+    
+
+    <string name="prefs_launch_activity_on_auto_rec_start_text">Kayıt otomatik olarak başladığında uygulamayı açın</string>
+
+    <string name="msg_notification_could_launch_app_activity">SYSTEM_ALERT_WINDOW (diğer tüm uygulama pencerelerinin üstünde görüntüleme) izni verilmediği veya cihazın ekranı kapatıldığı için uygulamanın ana ekranı başlatılamadı.</string>
 </resources>
