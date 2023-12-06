@@ -1,22 +1,20 @@
 <resources>
-
-  <!-- ПРИМЕЧАНИЯ для переводчиков:
-        - перевод нужно делать только того текста, который внутри тега <string>ТЕКСТ</string>
-        - английские слова не нужно переводить
-        - есть специальные символы в тексте, которые не нужно изменять, например:
-            1) \n
-            2) %1$s %2$s
-            3) %1$.1fx
-            4) %1$.5f %2$.5f
-            5) %1$.1f
-            6) %1$d
-            7) %1$d° %2$d°
-            8) %2$d
-            9) \%%
-            10) %1$d\%%
-            11) /
-        символы, которые начинаются на % используются для поставления чисел или текстов при запущенной программы
-    -->
+  <!-- NOTES for interpreters:
+      - translation only needs to be done for the text that is inside the <string>TEXT</string> tag
+      - there are some special characters in the text that do not need to be changed, for example:
+          1) \n
+          2) %1$s %2$s
+          3) %1$.1fx
+          4) %1$.5f %2$.5f
+          5) %1$.1f
+          6) %1$d
+          7) %1$d° %2$d°
+          8) %2$d
+          9) \%%
+          10) %1$d\%%
+          11) /
+      characters that start with % are used to supply numbers or texts when the program is running
+  -->
 
   <string name="app_name">Droid Dashcam - Dashcam per Android</string>
 
@@ -799,9 +797,67 @@
     <string name="prefs_warning_notifications_sum_text">Necessario per poter visualizzare il servizio di registrazione in background e gli stati nel pannello delle notifiche. Fare clic per inviare</string>
     <string name="prefs_warning_notifications_text">Autorizzazione alla notifica</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Per le donazioni più piccole, gli annunci vengono rimossi solo dalla schermata iniziale</string>
+    <string name="donation_dlg_limited_ads_message_text">Per le donazioni più piccole, gli annunci vengono rimossi solo dalla schermata iniziale</string>photo
+    <string name="photos_folder_name">Fotografie</string>
+
+    <string name="photos_count_one">foto</string>
+    <string name="photos_count_other">fotografie</string>
+
+    <string name="prefs_audio_priority_title">Dai la priorità all\'audio di questa app</string>
+    <string name="prefs_audio_priority_sum">Se abilitato, le altre applicazioni non saranno in grado di utilizzare il microfono. Se disabilitata, questa applicazione potrebbe non essere in grado di registrare l\'audio quando più applicazioni sono in esecuzione utilizzando il microfono (Android non consente sempre l\'uso simultaneo del microfono)</string>
+    <string name="rec_audio_silence_text">Al momento la registrazione audio non è possibile perché il microfono è intercettato da un\'altra applicazione</string>
+
+    <string name="prefs_subtitles_gpx_title">Crea un file GPX per ogni video</string>
+    <string name="prefs_subtitles_gpx_delay_title">Tasso di aggiornamento minimo GPX</string>
+    <string name="prefs_subtitles_gpx_no_delay_entry">Tutti gli aggiornamenti delle coordinate</string>
+
+    <string name="prefs_shortcut_rec_start_launcher_title">Aggiungi scorciatoia (avviatore)</string>
+    <string name="prefs_shortcut_rec_start_launcher_sum">Per avviare/arrestare la registrazione senza avviare la schermata principale</string>
+
+    <string name="prefs_camera_why_wide_lens_not_available_sum">Il produttore del dispositivo potrebbe non fornire una fotocamera con obiettivo grandangolare per tutte le applicazioni</string>
+    <string name="prefs_fps_why_fps_60_not_available_sum">Il produttore del dispositivo potrebbe non fornire 60 FPS per tutte le applicazioni</string>
+    <string name="prefs_video_control_scene_mode_sunset_text">Tramonto</string>
+    <string name="prefs_video_control_scene_mode_snow_text">Nevicare</string>
+    <string name="prefs_video_control_scene_mode_beach_text">Spiaggia (tempo sereno)</string>
+
+    <string name="prefs_video_exposure_auto_mode_text">Modalità di esposizione automatica</string>
+    <string name="prefs_video_exposure_auto_mode_sum_text">Disattivare se si desidera controllare manualmente la durata dell\'inquadratura del sensore, il tempo di esposizione, la sensibilità e l\'apertura</string>
+
+    <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Il produttore del dispositivo potrebbe non fornire l\'accesso a tutte le fotocamere, quindi alcune potrebbero non aprirsi</string>
+
+    <string name="camera_msg_error_non_exposed_error">Impossibile aprire la fotocamera selezionata. Accade così che non tutte le telecamere nascoste possano essere utilizzate da qualsiasi applicazione. Molti produttori ne consentono l\'uso solo nelle loro applicazioni native. Si aprirà la fotocamera predefinita.</string>
+
+    <string name="videos_ask_which_player">Chiedi in quale giocatore giocare ogni volta\?</string>
+
+    <string name="prefs_location_mode_text">Priorità GPS (batteria o precisione)</string>
+    <string name="prefs_location_mode_balanced_text">Bilanciamento tra precisione della posizione (coordinate), velocità e consumo della batteria.</string>
+    <string name="prefs_location_mode_high_accuracy_text">La posizione (coordinate) e la velocità più accurate grazie al maggiore consumo energetico della batteria.</string>
+    <string name="prefs_location_mode_low_power_text">Bassa precisione della posizione (coordinate) e della velocità a causa del basso consumo energetico della batteria.</string>
+
+    <string name="prefs_location_accuracy_explanation">Disponibile solo per l\'API del provider di posizione fusa e la priorità ad alta precisione o Location Manager</string>
+
+	<string name="rec_service_msg">Privacy: tutti i video registrati verranno salvati solo sul tuo dispositivo locale. L\'applicazione non esegue il backup dei tuoi video (non ha alcuna connessione ai server)\n\nL\'app continuerà a essere eseguita in background (il servizio in primo piano visualizzato nella barra delle notifiche) se avvii una nuova registrazione e ritorni alla schermata principale, passi a un\'altra app o blocchi il telefono per poter continuare a registrare, o se attivi le funzioni per la registrazione automatica (se chiudi il servizio in background, queste funzioni non funzioneranno).</string>
+
+	
+
+	
+
+	
+
+	
 
     
 
     
+
+    <string name="permissions_saf_incorrect_path">Prova a selezionare un percorso diverso (archiviazione locale del dispositivo)</string>
+
+	<string name="prefs_vibrate_rec_start_stop_text">Vibrazione all\'avvio o all\'interruzione della registrazione</string>
+
+    <string name="donation_subs_text">Dona mensilmente</string>
+    <string name="donation_any_amount_text">nessuna pubblicità per nessun importo</string>
+    <string name="donation_subs_any_amount_text">Inoltre, la pubblicità viene completamente rimossa quando ti abboni per qualsiasi importo.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Rimuovi gli annunci per sempre con una donazione una tantum di qualsiasi importo. Puoi anche donare qualsiasi importo mensilmente per rimuovere gli annunci</string>
+
+    <string name="prefs_audio_bt_recording_text">Registra l\'audio da un dispositivo Bluetooth</string>
 </resources>

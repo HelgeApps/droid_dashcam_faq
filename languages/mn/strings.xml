@@ -432,9 +432,67 @@
     <string name="prefs_warning_notifications_sum_text">Мэдэгдлийн самбар дээр дэвсгэр бичлэгийн үйлчилгээ болон статусыг харуулах боломжтой байх шаардлагатай. Илгээхийн тулд товшино уу</string>
     <string name="prefs_warning_notifications_text">Мэдэгдлийн зөвшөөрөл</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Жижиг хандивын хувьд зөвхөн үндсэн дэлгэцийн зарыг хасдаг</string>
+    <string name="donation_dlg_limited_ads_message_text">Жижиг хандивын хувьд зөвхөн үндсэн дэлгэцийн зарыг хасдаг</string>photo
+    <string name="photos_folder_name">Зураг</string>
+
+    <string name="photos_count_one">гэрэл зураг</string>
+    <string name="photos_count_other">гэрэл зураг</string>
+
+    <string name="prefs_audio_priority_title">Энэ аппликейшнд аудиог чухалчил</string>
+    <string name="prefs_audio_priority_sum">Хэрэв идэвхжүүлсэн бол бусад програмууд микрофоныг ашиглах боломжгүй болно. Хэрэв идэвхгүй болгосон бол энэ программ нь микрофон ашиглан олон програм ажиллаж байх үед дуу бичих боломжгүй байж магадгүй (Android нь микрофоныг нэгэн зэрэг ашиглахыг үргэлж зөвшөөрдөггүй)</string>
+    <string name="rec_audio_silence_text">Одоогоор микрофоныг өөр хэрэглүүр тасалсан тул дуу бичлэг хийх боломжгүй байна</string>
+
+    <string name="prefs_subtitles_gpx_title">Видео бүрт GPX файл үүсгэ</string>
+    <string name="prefs_subtitles_gpx_delay_title">GPX хамгийн бага шинэчлэх хурд</string>
+    <string name="prefs_subtitles_gpx_no_delay_entry">Бүх координатын шинэчлэлтүүд</string>
+
+    <string name="prefs_shortcut_rec_start_launcher_title">Товчлол нэмэх (эхлүүлэгч)</string>
+    <string name="prefs_shortcut_rec_start_launcher_sum">Үндсэн дэлгэцийг эхлүүлэхгүйгээр бичлэгийг эхлүүлэх/зогсоох</string>
+
+    <string name="prefs_camera_why_wide_lens_not_available_sum">Төхөөрөмж үйлдвэрлэгч нь бүх хэрэглээнд өргөн линзтэй камер өгөхгүй байж магадгүй юм</string>
+    <string name="prefs_fps_why_fps_60_not_available_sum">Төхөөрөмжийн үйлдвэрлэгч бүх програмуудад 60 FPS өгөхгүй байж магадгүй</string>
+    <string name="prefs_video_control_scene_mode_sunset_text">Нар жаргах</string>
+    <string name="prefs_video_control_scene_mode_snow_text">Цас</string>
+    <string name="prefs_video_control_scene_mode_beach_text">Далайн эрэг (гэрэлт цаг агаар)</string>
+
+    <string name="prefs_video_exposure_auto_mode_text">Автомат өртөх горим</string>
+    <string name="prefs_video_exposure_auto_mode_sum_text">Хэрэв та мэдрэгчийн хүрээний үргэлжлэх хугацаа, өртөх хугацаа, мэдрэмж, диафрагмыг гараар хянахыг хүсвэл идэвхгүй болгоно уу</string>
+
+    <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Төхөөрөмжийн үйлдвэрлэгч бүх камерт хандах эрх өгөхгүй байж магадгүй тул зарим нь нээгдэхгүй байж магадгүй юм</string>
+
+    <string name="camera_msg_error_non_exposed_error">Сонгосон камерыг нээж чадсангүй. Бүх далд камерыг ямар ч програм ашиглах боломжгүй байдаг. Олон үйлдвэрлэгчид зөвхөн өөрсдийн хэрэглээнд ашиглахыг зөвшөөрдөг. Өгөгдмөл камер нээгдэнэ.</string>
+
+    <string name="videos_ask_which_player">Аль тоглогчид тоглохыг асуух бүрд\?</string>
+
+    <string name="prefs_location_mode_text">GPS-ийн тэргүүлэх чиглэл (батарей эсвэл нарийвчлал)</string>
+    <string name="prefs_location_mode_balanced_text">Байршлын нарийвчлал (координат), хурд болон батерейны эрчим хүчний зарцуулалтыг тэнцвэржүүлнэ.</string>
+    <string name="prefs_location_mode_high_accuracy_text">Батерейны эрчим хүч их зарцуулдаг тул хамгийн зөв байршил (координат) ба хурд.</string>
+    <string name="prefs_location_mode_low_power_text">Батерейны бага зарцуулалтаас шалтгаалан байршил (координат) болон хурдны нарийвчлал бага.</string>
+
+    <string name="prefs_location_accuracy_explanation">Зөвхөн Fused Location Provider API болон өндөр нарийвчлалын давуу тал эсвэл Байршлын менежерт ашиглах боломжтой</string>
+
+	<string name="rec_service_msg">Нууцлал: Таны бичсэн бүх видео зөвхөн таны дотоод төхөөрөмж дээр хадгалагдах болно. Аппликешн нь таны видеог нөөцлөхгүй (сервертэй ямар ч холболт байхгүй)\n\nХэрэв та шинэ бичлэг эхлүүлээд үндсэн дэлгэц рүү буцах, өөр програм руу шилжих, утсаа түгжих эсвэл үргэлжлүүлэн бичлэг хийх боломжтой бол уг програм арын горимд (мэдэгдлийн талбарт гарч ирэх үйлчилгээ) үргэлжлүүлэн ажиллана. та автомат бичлэг хийх функцийг асаана уу (хэрэв та арын үйлчилгээг хаавал эдгээр функц ажиллахгүй болно).</string>
+
+	
+
+	
+
+	
+
+	
 
     
 
     
+
+    <string name="permissions_saf_incorrect_path">Өөр зам сонгохыг оролдоно уу (төхөөрөмжийн дотоод санах ой)</string>
+
+	<string name="prefs_vibrate_rec_start_stop_text">Бичлэг эхлэх эсвэл зогсоох үед чичиргээ</string>
+
+    <string name="donation_subs_text">Сар бүр хандивлах</string>
+    <string name="donation_any_amount_text">ямар ч хэмжээний зар сурталчилгаа байхгүй</string>
+    <string name="donation_subs_any_amount_text">Мөн ямар ч үнээр бүртгүүлэхэд сурталчилгаа бүрэн устдаг.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Ямар ч хэмжээний нэг удаагийн хандиваар зарыг үүрд устга. Мөн та зарыг устгахын тулд сар бүр ямар ч хэмжээгээр хандивлаж болно</string>
+
+    <string name="prefs_audio_bt_recording_text">Bluetooth төхөөрөмжөөс дуу бичих</string>
 </resources>

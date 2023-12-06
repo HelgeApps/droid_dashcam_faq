@@ -1,5 +1,5 @@
 <resources>
-      
+  
   <!-- UWAGI dla tłumaczy:
         - tylko tekst umieszczony wewnątrz znacznika <string>TEXT</string> powinien zostać przetłumaczony
         - angielskie słowa nie muszą być tłumaczone
@@ -800,9 +800,67 @@
     <string name="prefs_warning_notifications_sum_text">Wymagane, aby móc wyświetlać usługę nagrywania w tle i statusy na panelu powiadomień. Kliknij, aby przesłać</string>
     <string name="prefs_warning_notifications_text">Pozwolenie na powiadomienia</string>
 
-    <string name="donation_dlg_limited_ads_message_text">W przypadku mniejszych darowizn reklamy są usuwane tylko z ekranu głównego</string>
+    <string name="donation_dlg_limited_ads_message_text">W przypadku mniejszych darowizn reklamy są usuwane tylko z ekranu głównego</string>photo
+    <string name="photos_folder_name">Zdjęcia</string>
+
+    <string name="photos_count_one">zdjęcie</string>
+    <string name="photos_count_other">zdjęcia</string>
+
+    <string name="prefs_audio_priority_title">Ustaw priorytet dźwięku w tej aplikacji</string>
+    <string name="prefs_audio_priority_sum">Jeśli ta opcja jest włączona, inne aplikacje nie będą mogły korzystać z mikrofonu. Jeśli ta opcja jest wyłączona, ta aplikacja może nie być w stanie nagrywać dźwięku, gdy wiele aplikacji korzysta z mikrofonu (Android nie zawsze pozwala na jednoczesne korzystanie z mikrofonu)</string>
+    <string name="rec_audio_silence_text">W tej chwili nagrywanie dźwięku nie jest możliwe, ponieważ mikrofon jest przechwytywany przez inną aplikację</string>
+
+    <string name="prefs_subtitles_gpx_title">Utwórz plik GPX dla każdego filmu</string>
+    <string name="prefs_subtitles_gpx_delay_title">Minimalna częstotliwość aktualizacji GPX</string>
+    <string name="prefs_subtitles_gpx_no_delay_entry">Wszystkie aktualizacje współrzędnych</string>
+
+    <string name="prefs_shortcut_rec_start_launcher_title">Dodaj skrót (program uruchamiający)</string>
+    <string name="prefs_shortcut_rec_start_launcher_sum">Aby rozpocząć/zatrzymać nagrywanie bez uruchamiania ekranu głównego</string>
+
+    <string name="prefs_camera_why_wide_lens_not_available_sum">Producent urządzenia może nie zapewniać aparatu z szerokim obiektywem do wszystkich zastosowań</string>
+    <string name="prefs_fps_why_fps_60_not_available_sum">Producent urządzenia może nie zapewnić 60 FPS dla wszystkich aplikacji</string>
+    <string name="prefs_video_control_scene_mode_sunset_text">Zachód słońca</string>
+    <string name="prefs_video_control_scene_mode_snow_text">Śnieg</string>
+    <string name="prefs_video_control_scene_mode_beach_text">Plaża (jasna pogoda)</string>
+
+    <string name="prefs_video_exposure_auto_mode_text">Tryb automatycznej ekspozycji</string>
+    <string name="prefs_video_exposure_auto_mode_sum_text">Wyłącz, jeśli chcesz ręcznie kontrolować czas trwania klatki czujnika, czas ekspozycji, czułość i przysłonę</string>
+
+    <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Producent urządzenia może nie zapewniać dostępu do wszystkich kamer, więc niektóre mogą się nie otwierać</string>
+
+    <string name="camera_msg_error_non_exposed_error">Nie udało się otworzyć wybranej kamery. Tak się składa, że ​​nie wszystkie ukryte kamery mogą być używane przez dowolną aplikację. Wielu producentów zezwala na ich użycie tylko w ich natywnych aplikacjach. Zostanie otwarta domyślna kamera.</string>
+
+    <string name="videos_ask_which_player">Za każdym razem pytaj, którym graczem grać\?</string>
+
+    <string name="prefs_location_mode_text">Priorytet GPS (bateria lub dokładność)</string>
+    <string name="prefs_location_mode_balanced_text">Równowaga między dokładnością lokalizacji (współrzędne), szybkością i zużyciem energii baterii.</string>
+    <string name="prefs_location_mode_high_accuracy_text">Najdokładniejsza lokalizacja (współrzędne) i prędkość dzięki większemu zużyciu energii baterii.</string>
+    <string name="prefs_location_mode_low_power_text">Niska dokładność lokalizacji (współrzędnych) i prędkości ze względu na niskie zużycie energii baterii.</string>
+
+    <string name="prefs_location_accuracy_explanation">Dostępne tylko w przypadku interfejsu API Fused Location Provider i priorytetu wysokiej dokładności lub Menedżera lokalizacji</string>
+
+	<string name="rec_service_msg">Prywatność: wszystkie nagrane filmy zostaną zapisane tylko na Twoim urządzeniu lokalnym. Aplikacja nie tworzy kopii zapasowych plików wideo (nie ma połączeń z serwerami)\n\nAplikacja będzie nadal działać w tle (usługa na pierwszym planie, która pojawia się na pasku powiadomień), jeśli rozpoczniesz nowe nagranie i wrócisz do ekranu głównego, przełączysz się na inną aplikację lub zablokujesz telefon, aby móc kontynuować nagrywanie, lub jeśli włączysz funkcje automatycznego nagrywania (jeśli zamkniesz usługę w tle, te funkcje nie będą działać).</string>
+
+	
+
+	
+
+	
+
+	
 
     
 
     
+
+    <string name="permissions_saf_incorrect_path">Spróbuj wybrać inną ścieżkę (lokalna pamięć urządzenia)</string>
+
+	<string name="prefs_vibrate_rec_start_stop_text">Wibracje przy rozpoczynaniu i zatrzymywaniu nagrywania</string>
+
+    <string name="donation_subs_text">Przekaż darowiznę co miesiąc</string>
+    <string name="donation_any_amount_text">brak reklam za jakąkolwiek kwotę</string>
+    <string name="donation_subs_any_amount_text">Ponadto reklamy są całkowicie usuwane, gdy subskrybujesz dowolną kwotę.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Usuń reklamy na zawsze, przekazując jednorazową darowiznę w dowolnej wysokości. Możesz także co miesiąc przekazywać dowolną kwotę na usuwanie reklam</string>
+
+    <string name="prefs_audio_bt_recording_text">Nagrywaj dźwięk z urządzenia Bluetooth</string>
 </resources>

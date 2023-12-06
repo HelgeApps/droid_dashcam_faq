@@ -264,7 +264,7 @@
     <string name="prefs_subtitles_custom_text_sum_text">Esimerkiksi rekisterikilpi</string>
     <string name="prefs_subtitles_custom_text_text">Lisätekstiä</string>
     <string name="prefs_subtitles_date_format_text">Päivämäärämuoto</string>
-    <string name="prefs_subtitles_date_text">Treffiaika)</string>
+    <string name="prefs_subtitles_date_text">Päivämäärä ja kellonaika</string>
     <string name="prefs_subtitles_date_time_system_text">Järjestelmällinen</string>
     <string name="prefs_subtitles_in_english_text">Englanninkieliset tekstitykset</string>
     <string name="prefs_subtitles_settings_sum_text">Peittovideon tekstitykset: päivämäärä (aika), sijaintiosoite, koordinaatit ja nopeus</string>
@@ -418,11 +418,7 @@
     <string name="prefs_other_date_time_text">päivämäärä ja aika</string>
 
 
-
-
-
-
-    <string name="prefs_launch_activity_on_auto_rec_start_text">Avaa sovellus, kun tallennus alkaa automaattisesti</string>
+photo<string name="prefs_launch_activity_on_auto_rec_start_text">Avaa sovellus, kun tallennus alkaa automaattisesti</string>
 
     <string name="msg_notification_could_launch_app_activity">Sovelluksen päänäyttöä ei voitu käynnistää, koska SYSTEM_ALERT_WINDOW (näyttö kaikkien muiden sovellusikkunoiden päällä) lupaa ei myönnetty tai laitteen näyttö sammutettiin</string>
 
@@ -432,9 +428,67 @@
     <string name="prefs_warning_notifications_sum_text">Vaaditaan taustatallennuspalvelun ja tilojen näyttämiseksi ilmoituspaneelissa. Lähetä napsauttamalla</string>
     <string name="prefs_warning_notifications_text">Ilmoituslupa</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Pienemmillä lahjoituksilla mainokset poistetaan vain aloitusnäytöstä</string>
+    <string name="donation_dlg_limited_ads_message_text">Pienemmillä lahjoituksilla mainokset poistetaan vain aloitusnäytöstä</string>photo
+    <string name="photos_folder_name">Kuvat</string>
+
+    <string name="photos_count_one">kuva</string>
+    <string name="photos_count_other">Valokuvat</string>
+
+    <string name="prefs_audio_priority_title">Aseta ääni tälle sovellukselle etusijalle</string>
+    <string name="prefs_audio_priority_sum">Jos tämä on käytössä, muut sovellukset eivät voi käyttää mikrofonia. Jos tämä sovellus ei ole käytössä, tämä sovellus ei välttämättä pysty tallentamaan ääntä, kun useita sovelluksia on käynnissä mikrofonin avulla (Android ei aina salli mikrofonin samanaikaista käyttöä)</string>
+    <string name="rec_audio_silence_text">Tällä hetkellä äänen tallennus ei ole mahdollista, koska toinen sovellus sieppaa mikrofonin</string>
+
+    <string name="prefs_subtitles_gpx_title">Luo GPX-tiedosto jokaiselle videolle</string>
+    <string name="prefs_subtitles_gpx_delay_title">GPX:n minimipäivitysnopeus</string>
+    <string name="prefs_subtitles_gpx_no_delay_entry">Kaikki koordinaattipäivitykset</string>
+
+    <string name="prefs_shortcut_rec_start_launcher_title">Lisää pikakuvake (käynnistysohjelma)</string>
+    <string name="prefs_shortcut_rec_start_launcher_sum">Tallennuksen aloittaminen/lopetus käynnistämättä päänäyttöä</string>
+
+    <string name="prefs_camera_why_wide_lens_not_available_sum">Laitteen valmistaja ei välttämättä tarjoa laajalinsistä kameraa kaikkiin sovelluksiin</string>
+    <string name="prefs_fps_why_fps_60_not_available_sum">Laitteen valmistaja ei välttämättä tarjoa 60 FPS kaikille sovelluksille</string>
+    <string name="prefs_video_control_scene_mode_sunset_text">Auringonlasku</string>
+    <string name="prefs_video_control_scene_mode_snow_text">Lumi</string>
+    <string name="prefs_video_control_scene_mode_beach_text">Ranta (kirkas sää)</string>
+
+    <string name="prefs_video_exposure_auto_mode_text">Automaattinen valotustila</string>
+    <string name="prefs_video_exposure_auto_mode_sum_text">Poista käytöstä, jos haluat säätää manuaalisesti anturin kehyksen kestoa, valotusaikaa, herkkyyttä ja aukkoa</string>
+
+    <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Laitteen valmistaja ei välttämättä tarjoa pääsyä kaikkiin kameroihin, joten jotkut eivät välttämättä avaudu</string>
+
+    <string name="camera_msg_error_non_exposed_error">Valitun kameran avaaminen epäonnistui. Sattuu niin, että mikään sovellus ei voi käyttää kaikkia piilokameroita. Monet valmistajat sallivat niiden käytön vain omissa sovelluksissaan. Oletuskamera avautuu.</string>
+
+    <string name="videos_ask_which_player">Kysy missä pelaaja pelata joka kerta\?</string>
+
+    <string name="prefs_location_mode_text">GPS-prioriteetti (akku tai tarkkuus)</string>
+    <string name="prefs_location_mode_balanced_text">Tasapaino sijainnin tarkkuuden (koordinaatit), nopeuden ja akun virrankulutuksen välillä.</string>
+    <string name="prefs_location_mode_high_accuracy_text">Tarkin sijainti (koordinaatit) ja nopeus suuremman akun virrankulutuksen ansiosta.</string>
+    <string name="prefs_location_mode_low_power_text">Alhainen sijainnin (koordinaattien) ja nopeuden tarkkuus alhaisen akun virrankulutuksen vuoksi.</string>
+
+    <string name="prefs_location_accuracy_explanation">Saatavilla vain Fused Location Provider -sovellusliittymälle ja korkean tarkkuuden prioriteetille tai Location Managerille</string>
+
+	<string name="rec_service_msg">Tietosuoja: Kaikki tallentamasi videot tallennetaan vain paikalliselle laitteellesi. Sovellus ei varmuuskopioi videoitasi (ei ole yhteyksiä palvelimiin)\n\nSovellus jatkaa toimintaansa taustalla (etualan palvelu, joka näkyy ilmoituspalkissa), jos aloitat uuden tallennuksen ja palaat aloitusnäyttöön, vaihdat toiseen sovellukseen tai lukitset puhelimesi, jotta voit jatkaa tallennusta tai jos otat käyttöön automaattisen tallennuksen toiminnot (jos suljet taustapalvelun, nämä toiminnot eivät toimi).</string>
+
+	
+
+	
+
+	
+
+	
 
     
 
     
+
+    <string name="permissions_saf_incorrect_path">Yritä valita eri polku (laitteen paikallinen tallennustila)</string>
+
+	<string name="prefs_vibrate_rec_start_stop_text">Värinä nauhoituksen alkaessa tai lopettaessa</string>
+
+    <string name="donation_subs_text">Lahjoita kuukausittain</string>
+    <string name="donation_any_amount_text">ei mainoksia millään summalla</string>
+    <string name="donation_subs_any_amount_text">Lisäksi mainonta poistetaan kokonaan, kun tilaat minkä tahansa summan.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Poista mainokset ikuisesti minkä tahansa summan kertaluonteisella lahjoituksella. Voit myös lahjoittaa minkä tahansa summan kuukausittain mainosten poistamiseen</string>
+
+    <string name="prefs_audio_bt_recording_text">Nauhoita ääntä Bluetooth-laitteesta</string>
 </resources>
