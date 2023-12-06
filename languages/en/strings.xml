@@ -141,6 +141,7 @@
     <string name="permissions_location_storage_dlg_title">Location &amp; Storage permissions</string>
     <string name="permissions_grant_storage_btn_text">Grant write storage</string>
 
+
     <string name="prefs_address_geocoding_no_support_text">Disabled because this device doesn\'t support geocoding</string>
     <string name="prefs_animated_rec_circle_sum_text">Show animated circle around recording button</string>
     <string name="prefs_animated_rec_circle_text">Animated recording circle</string>
@@ -214,7 +215,7 @@
     <string name="prefs_overlay_videos_btn_text">Open videos screen</string>
     <string name="prefs_pinch_to_zoom_sum_text">Zoom in/out by two fingers</string>
     <string name="prefs_pinch_to_zoom_text">Pinch to zoom</string>
-    <string name="prefs_policy_text">Policy</string>
+    <string name="prefs_policy_text">Privacy Policy</string>
     <string name="prefs_auto_start_power_sum_text">Starts recording automatically when starts charging. For the charging watcher service to start after rebooting the device, the device (screen) has to be unlocked if there a password/pin</string>
     <string name="prefs_auto_start_power_text">Start when charging is connected</string>
     <string name="prefs_auto_stop_power_text">Stop when charging is disconnected</string>
@@ -405,9 +406,11 @@
     <!-- aren't translatable: -->
 
     <string name="app_name_short" translatable="false">DroidDashcam</string>
-    <string name="app_name_support" translatable="false">DroidDashcam Support. %1$s, Android %2$s, API %3$d</string>
+    <string name="app_name_support" translatable="false">DroidDashcam Support</string>
+    <string name="app_device_info_support" translatable="false">%1$s, Android %2$s, API %3$d</string>
     <string name="app_name_short_spaced" translatable="false">Droid Dashcam</string>
 
+    <string name="ph_2s" translatable="false">%1$s%2$s</string>
     <string name="ph_comma_2s" translatable="false">%1$s, %2$s</string>
     <string name="ph_dot_2s" translatable="false">%1$s. %2$s</string>
     <string name="ph_comma_3s" translatable="false">%1$s, %2$s, %3$s</string>
@@ -437,6 +440,7 @@
     <string name="videos_back_folder_item_text" translatable="false">…</string>
 
     <string name="videos_file_item_info" translatable="false">%1$s, %2$s, %3$dx%4$d</string>
+    <string name="image_file_item_info" translatable="false">%1$s, %2$dx%3$d</string>
     <string name="videos_file_item_info_no_res" translatable="false">%1$s, %2$s</string>
 
     <string name="cd_rec_videos_btn" translatable="false">App recorded videos button</string>
@@ -479,11 +483,7 @@
     <string name="prefs_rules_bl_auto_start_only_if_charging_text">Recording only when the device is charging</string>
 
     <string name="prefs_other_keep_screen_on_while_recording_only_text">Keep screen on only when recording</string>
-    <string name="prefs_other_date_time_text">Date and time</string>
-
-
-
-    <string name="prefs_launch_activity_on_auto_rec_start_text">Open app when recording starts automatically</string>
+    <string name="prefs_other_date_time_text">Date and time</string>photo<string name="prefs_launch_activity_on_auto_rec_start_text">Open app when recording starts automatically</string>
 
     <string name="msg_notification_could_launch_app_activity">The application\'s main screen could not be launched because the SYSTEM_ALERT_WINDOW (display on top of all other application windows) permission was not granted or the device\'s screen was turned off</string>
 
@@ -493,9 +493,77 @@
     <string name="prefs_warning_notifications_sum_text">Required to be able to display the background recording service and statuses on the notification panel. Tap to grant it</string>
     <string name="prefs_warning_notifications_text">Notification permission</string>
 
-    <string name="donation_dlg_limited_ads_message_text">For smaller donations, ads are removed for the home screen only</string>
+    <string name="donation_dlg_limited_ads_message_text">For smaller donations, ads are removed for the home screen only</string>photo
+    <string name="photos_folder_name">Photos</string>
+
+    <string name="photos_count_one">photo</string>
+    <string name="photos_count_other">photos</string>
+
+    <string name="prefs_audio_priority_title">Prioritize audio to this app</string>
+    <string name="prefs_audio_priority_sum">If enabled, other applications will not be able to use the microphone. If disabled, this application may not be able to record audio when multiple applications are running using the microphone (Android does not always allow simultaneous use of the microphone)</string>
+    <string name="rec_audio_silence_text">At the moment, audio recording is not possible because the microphone is intercepted by another application</string>
+    <string name="prefs_subtitles_gpx_title">Create GPX file for each video</string>
+    <string name="prefs_subtitles_gpx_delay_title">GPX minimum update rate</string>
+    <string name="prefs_subtitles_gpx_no_delay_entry">All coordinate updates</string>
+
+    <string name="prefs_shortcut_rec_start_launcher_title">Add shortcut (launcher)</string>
+    <string name="prefs_shortcut_rec_start_launcher_sum">To start/stop recording without launching the main screen</string>
+
+    <string name="prefs_camera_why_wide_lens_not_available_sum">The device manufacturer may not provide a wide lens camera for all apps</string>
+    <string name="prefs_fps_why_fps_60_not_available_sum">The device manufacturer may not provide 60 FPS for all apps</string>
+    <string name="prefs_video_control_scene_mode_sunset_text">Sunset</string>
+    <string name="prefs_video_control_scene_mode_snow_text">Snow</string>
+    <string name="prefs_video_control_scene_mode_beach_text">Beach (bright weather)</string>
+    <string name="prefs_video_exposure_auto_mode_text">Auto exposure mode</string>
+    <string name="prefs_video_exposure_auto_mode_sum_text">Disable if you want to manually control sensor frame duration, exposure time, sensitivity, and aperture</string>
+
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+    <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">The device manufacturer may not provide access to all cameras, so some may not open</string>
+
+    <string name="camera_msg_error_non_exposed_error">Failed to open the selected camera. It so happens that not all hidden cameras can be used by any application. Many manufacturers only allow their use in their native applications. The default camera will open.</string>
+
+    <string name="videos_ask_which_player">Ask in which player to play each time\?</string>
+
+    <string name="prefs_location_mode_text">GPS Priority (Battery or Accuracy)</string>
+    <string name="prefs_location_mode_balanced_text">Balance between location accuracy (coordinates), speed and battery power consumption.</string>
+    <string name="prefs_location_mode_high_accuracy_text">The most accurate location (coordinates) and speed due to greater battery power consumption.</string>
+    <string name="prefs_location_mode_low_power_text">Low accuracy of location (coordinates) and speed due to low battery power consumption.</string>
+
+    <string name="prefs_location_accuracy_explanation">Only available for Fused Location Provider API and high accuracy priority or Location Manager</string>
+
+    
+
+	<string name="rec_service_msg">Privacy: All videos you record will be saved only on your local device. The application does not backup your videos (does not have any connections to servers)\n\nThe app will continue to run in the background (the foreground service that appears in the notification bar) if you start a new recording and return to the home screen, switch to another app or lock your phone to be able to continue recording, or if you turn on functions for automatic recording (if you close the background service, these functions will not work).</string>
+
+	
+
+	
+
+	
 
     
 
     
+
+    <string name="permissions_saf_incorrect_path">Please try to select a different path (device local storage)</string>
+
+	<string name="prefs_vibrate_rec_start_stop_text">Vibration when starting or stopping recording</string>
+
+    <string name="donation_subs_text">Donate monthly</string>
+    <string name="donation_any_amount_text">no advertising for any amount</string>
+    <string name="donation_subs_any_amount_text">Also, advertising is completely removed when you subscribe for any amount.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Remove ads forever with a one-time donation of any amount. You can also donate any amount monthly to remove ads</string>
+
+    <string name="prefs_audio_bt_recording_text">Record audio from a Bluetooth device</string>
 </resources>

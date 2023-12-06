@@ -432,9 +432,67 @@
     <string name="prefs_warning_notifications_sum_text">अधिसूचना पैनल पर पृष्ठभूमि रिकॉर्डिंग सेवा और स्थिति प्रदर्शित करने में सक्षम होने के लिए आवश्यक है। सबमिट करने के लिए क्लिक करें</string>
     <string name="prefs_warning_notifications_text">अधिसूचना अनुमति</string>
 
-    <string name="donation_dlg_limited_ads_message_text">छोटे दान के लिए, केवल होम स्क्रीन के लिए विज्ञापन हटा दिए जाते हैं</string>
+    <string name="donation_dlg_limited_ads_message_text">छोटे दान के लिए, केवल होम स्क्रीन के लिए विज्ञापन हटा दिए जाते हैं</string>photo
+    <string name="photos_folder_name">तस्वीरें</string>
+
+    <string name="photos_count_one">तस्वीर</string>
+    <string name="photos_count_other">तस्वीरें</string>
+
+    <string name="prefs_audio_priority_title">इस ऐप में ऑडियो को प्राथमिकता दें</string>
+    <string name="prefs_audio_priority_sum">यदि सक्षम है, तो अन्य एप्लिकेशन माइक्रोफ़ोन का उपयोग नहीं कर पाएंगे। यदि अक्षम है, तो यह एप्लिकेशन तब ऑडियो रिकॉर्ड करने में सक्षम नहीं हो सकता है जब माइक्रोफ़ोन का उपयोग करके कई एप्लिकेशन चल रहे हों (एंड्रॉइड हमेशा माइक्रोफ़ोन के एक साथ उपयोग की अनुमति नहीं देता है)</string>
+    <string name="rec_audio_silence_text">फिलहाल, ऑडियो रिकॉर्डिंग संभव नहीं है क्योंकि माइक्रोफ़ोन को किसी अन्य एप्लिकेशन द्वारा इंटरसेप्ट किया गया है</string>
+
+    <string name="prefs_subtitles_gpx_title">प्रत्येक वीडियो के लिए GPX फ़ाइल बनाएँ</string>
+    <string name="prefs_subtitles_gpx_delay_title">GPX न्यूनतम अद्यतन दर</string>
+    <string name="prefs_subtitles_gpx_no_delay_entry">सभी समन्वय अद्यतन</string>
+
+    <string name="prefs_shortcut_rec_start_launcher_title">शॉर्टकट जोड़ें (लॉन्चर)</string>
+    <string name="prefs_shortcut_rec_start_launcher_sum">मुख्य स्क्रीन लॉन्च किए बिना रिकॉर्डिंग शुरू/बंद करने के लिए</string>
+
+    <string name="prefs_camera_why_wide_lens_not_available_sum">डिवाइस निर्माता सभी अनुप्रयोगों के लिए एक विस्तृत लेंस कैमरा प्रदान नहीं कर सकता है</string>
+    <string name="prefs_fps_why_fps_60_not_available_sum">डिवाइस निर्माता सभी अनुप्रयोगों के लिए 60 एफपीएस प्रदान नहीं कर सकता है</string>
+    <string name="prefs_video_control_scene_mode_sunset_text">सूर्यास्त</string>
+    <string name="prefs_video_control_scene_mode_snow_text">बर्फ</string>
+    <string name="prefs_video_control_scene_mode_beach_text">समुद्र तट (उज्ज्वल मौसम)</string>
+
+    <string name="prefs_video_exposure_auto_mode_text">ऑटो एक्सपोजर मोड</string>
+    <string name="prefs_video_exposure_auto_mode_sum_text">यदि आप मैन्युअल रूप से सेंसर फ़्रेम अवधि, एक्सपोज़र समय, संवेदनशीलता और एपर्चर को नियंत्रित करना चाहते हैं तो अक्षम करें</string>
+
+    <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">डिवाइस निर्माता सभी कैमरों तक पहुंच प्रदान नहीं कर सकता है, इसलिए कुछ कैमरे नहीं खुलेंगे</string>
+
+    <string name="camera_msg_error_non_exposed_error">चयनित कैमरा खोलने में विफल. ऐसा होता है कि सभी छिपे हुए कैमरों का उपयोग किसी भी एप्लिकेशन द्वारा नहीं किया जा सकता है। कई निर्माता केवल अपने मूल अनुप्रयोगों में ही इनके उपयोग की अनुमति देते हैं। डिफ़ॉल्ट कैमरा खुल जाएगा.</string>
+
+    <string name="videos_ask_which_player">हर बार पूछें कि किस खिलाड़ी से खेलना है\?</string>
+
+    <string name="prefs_location_mode_text">जीपीएस प्राथमिकता (बैटरी या सटीकता)</string>
+    <string name="prefs_location_mode_balanced_text">स्थान सटीकता (निर्देशांक), गति और बैटरी बिजली की खपत के बीच संतुलन।</string>
+    <string name="prefs_location_mode_high_accuracy_text">अधिक बैटरी बिजली की खपत के कारण सबसे सटीक स्थान (निर्देशांक) और गति।</string>
+    <string name="prefs_location_mode_low_power_text">कम बैटरी बिजली खपत के कारण स्थान (निर्देशांक) और गति की कम सटीकता।</string>
+
+    <string name="prefs_location_accuracy_explanation">केवल फ़्यूज्ड लोकेशन प्रोवाइडर एपीआई और उच्च सटीकता प्राथमिकता या लोकेशन मैनेजर के लिए उपलब्ध है</string>
+
+	<string name="rec_service_msg">गोपनीयता: आपके द्वारा रिकॉर्ड किए गए सभी वीडियो केवल आपके स्थानीय डिवाइस पर सहेजे जाएंगे। एप्लिकेशन आपके वीडियो का बैकअप नहीं लेता है (सर्वर से कोई कनेक्शन नहीं है)\n\nयदि आप एक नई रिकॉर्डिंग शुरू करते हैं और होम स्क्रीन पर लौटते हैं, किसी अन्य ऐप पर स्विच करते हैं या रिकॉर्डिंग जारी रखने में सक्षम होने के लिए अपने फोन को लॉक करते हैं, तो ऐप बैकग्राउंड में चलता रहेगा (अग्रभूमि सेवा जो अधिसूचना बार में दिखाई देती है), या यदि आप स्वचालित रिकॉर्डिंग के लिए फ़ंक्शन चालू करते हैं (यदि आप पृष्ठभूमि सेवा बंद करते हैं, तो ये फ़ंक्शन काम नहीं करेंगे)।</string>
+
+	
+
+	
+
+	
+
+	
 
     
 
     
+
+    <string name="permissions_saf_incorrect_path">कृपया कोई भिन्न पथ चुनने का प्रयास करें (डिवाइस स्थानीय संग्रहण)</string>
+
+	<string name="prefs_vibrate_rec_start_stop_text">रिकॉर्डिंग शुरू या बंद करते समय कंपन</string>
+
+    <string name="donation_subs_text">मासिक दान करें</string>
+    <string name="donation_any_amount_text">किसी भी राशि का कोई विज्ञापन नहीं</string>
+    <string name="donation_subs_any_amount_text">साथ ही, जब आप किसी भी राशि की सदस्यता लेते हैं तो विज्ञापन पूरी तरह से हटा दिया जाता है।</string>
+    <string name="donation_remove_ads_by_any_amount_text">किसी भी राशि के एकमुश्त दान से विज्ञापनों को हमेशा के लिए हटा दें। आप विज्ञापनों को हटाने के लिए मासिक रूप से कितनी भी राशि दान कर सकते हैं</string>
+
+    <string name="prefs_audio_bt_recording_text">ब्लूटूथ डिवाइस से ऑडियो रिकॉर्ड करें</string>
 </resources>

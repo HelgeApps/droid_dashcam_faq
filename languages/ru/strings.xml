@@ -76,7 +76,7 @@
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Droid Dashcam не исключено из оптимизации батареи. Если камера не работает в фоновом режиме или что-то еще, то добавьте это приложение в исключения энергосберегающего режима.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Если вы переустанавливали приложение на Android 11, то старые файлы необходимо удалить вручную</string>
     <string name="msg_app_has_lost_camera_control_text">Для DroidDashcam утеряно управление камерой. Пожалуйста, откройте DroidDashcam еще раз, чтобы вернуть управление камерой.</string>
-    <string name="msg_battery_optimization_tip_text">Оптимизация батареи -> Все приложения -> Droid Dashcam -> Не оптимизировать/экономить</string>
+    <string name="msg_battery_optimization_tip_text">Оптимизация батареи -&gt; Все приложения -&gt; Droid Dashcam -&gt; Не оптимизировать/экономить</string>
     <string name="msg_camera_died_text">DroidDashcam: Камера неожиданно прекратила свою работу,  перезапуск…</string>
     <string name="msg_camera_not_opened">Камера не запущена</string>
     <string name="msg_close_settings_before_recording_text">Закройте настройки приложения перед началом записи</string>
@@ -148,6 +148,7 @@
     <string name="prefs_audio_bitrate_text">Битрейт (качество)</string>
     <string name="prefs_audio_rate_text">Частота дискретизации</string>
     <string name="prefs_audio_recording_text">Аудиозапись</string>
+    <string name="prefs_audio_bt_recording_text">Записывать звук с Bluetooth устройства</string>
     <string name="prefs_audio_settings_sum_text">Качество, выкл/вкл запись звука</string>
     <string name="prefs_audio_settings_text">Настройки звука</string>
     <string name="prefs_audio_stereo_text">Стерео</string>
@@ -439,4 +440,54 @@
 
 
     <string name="donation_dlg_limited_ads_message_text">При меньших пожертвованиях реклама убирается только для главного экрана</string>
+
+    <string name="photos_folder_name">Фотографии</string>
+    <string name="photos_count_one">фото</string>
+    <string name="photos_count_other">фотографии</string>
+
+    <string name="prefs_audio_priority_title">Приоритет аудио этому приложению</string>
+    <string name="prefs_audio_priority_sum">Если включено, то другие приложения не смогут использовать микрофон. Если выключено, то это приложению возможно не сможет записывать аудио, когда работают несколько приложений использующих микрофон (Android не во всех случаях позволяет одновременное использование микрофона)</string>
+    <string name="rec_audio_silence_text">На данный момент аудио запись невозможна, так как микрофон перехвачен другим приложением</string>
+
+    <string name="prefs_subtitles_gpx_title">Создавать GPX файл для каждой видеозаписи</string>
+    <string name="prefs_subtitles_gpx_delay_title">GPX минимальная частота обновлений</string>
+    <string name="prefs_subtitles_gpx_no_delay_entry">Все обновления координат</string>
+
+    <string name="prefs_shortcut_rec_start_launcher_title">Добавить ярлык (лаунчер)</string>
+    <string name="prefs_shortcut_rec_start_launcher_sum">Для запуска/остановки записи без запуска главного экрана</string>
+
+    <string name="prefs_camera_why_wide_lens_not_available_sum">Производитель устройства может не предоставлять камеру с широким объективом для всех приложений</string>
+    <string name="prefs_fps_why_fps_60_not_available_sum">Производитель устройства может не предоставлять 60 FPS для всех приложений</string>
+    <string name="prefs_video_control_scene_mode_sunset_text">Закат</string>
+    <string name="prefs_video_control_scene_mode_snow_text">Снег</string>
+    <string name="prefs_video_control_scene_mode_beach_text">Пляж (яркая погода)</string>
+
+    <string name="prefs_video_exposure_auto_mode_text">Автоматический режим экспозиции</string>
+    <string name="prefs_video_exposure_auto_mode_sum_text">Отключите, если вы хотите вручную контролировать продолжительность кадра сенсора, время экспозиции, чувствительность и диафрагму</string>
+
+    <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Производитель устройства может не предоставлять доступ ко всем камерам, поэтому некоторые могут не открыться</string>
+
+    <string name="camera_msg_error_non_exposed_error">Failed to open the selected camera. It so happens that not all hidden cameras can be used by any application. Many manufacturers only allow their use in their native applications. The default camera will open.</string>
+
+    <string name="videos_ask_which_player">Спрашивать в каком плеере воспроизводить каждый раз?</string>
+
+    <string name="prefs_location_mode_text">Приоритет GPS (батарея или точность)</string>
+    <string name="prefs_location_mode_balanced_text">Баланс между точностью определения местоположения (координат), скорости и энергопотреблением батареи.</string>
+    <string name="prefs_location_mode_high_accuracy_text">Наиболее точное определение местоположения (координат) и скорости за счет большего энергопотребления батареи.</string>
+    <string name="prefs_location_mode_low_power_text">Низкая точность определения местоположения (координат) и скорости за счет низкого энергопотребления батареи.</string>
+
+    <string name="prefs_location_accuracy_explanation">Доступно только для Fused Location Provider API и приоритетом высокой точности или для Location Manager</string>
+
+    <string name="rec_service_msg">Конфиденциальность: все записанные вами видео будут сохранены только на вашем локальном устройстве. Приложение не делает резервные копии ваших видео (не имеет никаких подключений к серверам)\n\nПриложение продолжит работать в фоновом режиме (служба переднего плана, которая отображается на панели уведомлений), если вы начнете новую запись и вернетесь на главный экран, переключитесь на другое приложение или заблокируете телефон для того, чтобы иметь возможность продолжать запись, а также если вы включите функции для автоматической записи (если закрыть фоновую службу, то эти функции не будут работать).</string>
+
+    <string name="permissions_saf_incorrect_path">Пожалуйста, попробуйте выбрать другой путь (локальные хранилища устройства)</string>
+
+	<string name="prefs_vibrate_rec_start_stop_text">Вибрация при начале или остановке записи</string>
+
+    <string name="donation_subs_text">Жертвовать ежемесячно</string>
+    <string name="donation_any_amount_text">без рекламы на любую сумму</string>
+    <string name="donation_subs_any_amount_text">Также реклама полностью удаляется при подписке на любую сумму.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Удалите рекламу навсегда разовым пожертвованием на любую сумму. Также вы можете жертвовать ежемесячно на любую сумму, чтобы удалить рекламу</string>
+
+    
 </resources>
