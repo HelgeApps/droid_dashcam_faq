@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Камерата е потребна за снимање видео и преглед на камерата.</string>
     <string name="permission_camera_dlg_title">Резолуција на камерата</string>
     <string name="permission_camera_request_canceled">Оваа апликација бара дозвола за користење на камерата за снимање видео. Но вие го одбивте. Се затвора… Обидете се да и дадете дозвола на камерата во системските поставки на оваа апликација</string>
-    <string name="permission_location_dlg_explanation_msg">Кога е минимизиран, Droid Dashcam ја користи локацијата во заднина за да црта координати, адреса и брзина на снименото видео.</string>
+    <string name="permission_location_dlg_explanation_msg">Локацијата е потребна за цртање на координати, адреса и брзина на снименото видео или прикажување на овие податоци на главниот екран (во зависност од вашите поставки).</string>
     <string name="permission_location_dlg_explanation_settings_msg">На Android 11 (R), треба рачно да изберете „Сите време (кој било режим)“ во системските параметри за да ја дозволите локацијата во заднина. Поставките ќе се отворат по овој прозорец.</string>
     <string name="permission_location_dlg_msg">Локацијата е неопходна за да се одреди брзината на транспорт со помош на GPS податоци, моменталната адреса и координатите за прикажување на екранот и за снимање преводи на видео</string>
     <string name="permission_location_dlg_title">Дозвола за локација</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Автоматски</string>
     <string name="rec_fix_short_text">Да поправи</string>
     <string name="rec_fix_text">Да поправи</string>
-    <string name="rec_free_space_text">Достапно</string>
+    <string name="rec_available_space_text">Достапно</string>
     <string name="rec_gps_status_satellites_few_text">сателити</string>
     <string name="rec_gps_status_satellites_many_text">сателити</string>
     <string name="rec_gps_status_satellites_one_text">сателит</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Снимањето започна</string>
     <string name="recording_voice_stopped_text">Снимањето прекина</string>
 
-    <string name="service_no_system_alert_window_granted_text">Не успеа да се стартува услугата Droid Dashcam за автоматско започнување/запирање на снимањето затоа што не беше доделена дозвола за SYSTEM_ALERT_WINDOW (прикажување на сите прозорци на други апликации). Или уредот бил заклучен во овој момент (Ограничувањето на Android е дека уредот мора прво да се отклучи и неговиот екран мора да се вклучи пред да може да се стартува услугата за автоматско снимање видео)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Апликацијата не можеше да се отвори за да започне снимањето бидејќи не беше доделена дозволата „прикажи на сите апликации“. Кликнете за да обезбедите</string>
     <string name="service_watch_on_boot_completed_text">При вклучување на уредот</string>
 
     <string name="storage_external_single">MicroSD картичка</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Оневозможете ја оптимизацијата на батеријата за оваа апликација во поставките на вашиот уред за да избегнете идни грешки на камерата</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Автоматско снимање само кога услугата работи</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Ако ја овозможите оваа опција, тогаш автоматското снимање нема да се изврши ако услугата за следење не работи и не е видлива во панелот за известувања</string>
+    <string name="prefs_rules_auto_start_without_service_text">Автоматско снимање дури и ако услугата во заднина (Watcher) не работи</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Можете да ја исклучите оваа опција така што апликацијата ќе врши автоматско снимање само ако работи услугата за заднина на апликацијата (Watcher).\n- Автоматското снимање за настани како што се полнење, Bluetooth или AUX може да се врши без проблеми до Android 7.1.\n- Почнувајќи од Android 8, автоматското снимање без услуга за апликации во заднина (Watcher) може да се врши само за настани со Bluetooth, а во други случаи (при полнење или AUX) прво треба да ја стартувате услугата за апликации во заднина (Watcher) - со стартување на самата апликација еднаш.\n- Почнувајќи со Android 11 без услугата за апликации во заднина (Watcher), пристапот до камерата без интеракција со корисникот е возможен само ако телефонот е отклучен (екранот е вклучен) и се даде дозвола „на врвот на сите апликации“.\n- Така, за Android 11 и повисоко, треба рачно да ја стартувате апликацијата еднаш, така што услугата за заднина на апликацијата (Watcher) ќе почне автоматски да снима за време на какви било настани и кога екранот на телефонот е исклучен.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Преводи на дното</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Потребно е за да може да се прикаже услугата за снимање во заднина и статусите на панелот за известувања. Кликнете за да поднесете</string>
     <string name="prefs_warning_notifications_text">Дозвола за известување</string>
 
-    <string name="donation_dlg_limited_ads_message_text">За помали донации, рекламите се отстрануваат само за почетниот екран</string>photo
+    <string name="donation_dlg_limited_ads_message_text">За помали донации, рекламирањето се отстранува само на главниот екран</string>photo
     <string name="photos_folder_name">Фотографии</string>
 
     <string name="photos_count_one">фотографија</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Не успеа да се отвори избраната камера. Се случува сите скриени камери да не можат да се користат од која било апликација. Многу производители дозволуваат нивна употреба само во нивните домашни апликации. Ќе се отвори стандардната камера.</string>
 
-    <string name="videos_ask_which_player">Прашајте во кој играч да играте секој пат\?</string>
+    <string name="videos_ask_which_player">Прашајте во кој играч да играте</string>
 
     <string name="prefs_location_mode_text">Приоритет на GPS (батерија или точност)</string>
     <string name="prefs_location_mode_balanced_text">Балансирајте помеѓу точноста на локацијата (координати), брзината и потрошувачката на енергија од батеријата.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Отстранете ги рекламите засекогаш со еднократна донација од која било сума. Можете исто така да донирате која било сума месечно за отстранување на реклами</string>
 
     <string name="prefs_audio_bt_recording_text">Снимајте аудио од уред со Bluetooth</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Не користете со главниот уред (автомобилско радио)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Користете само со Bluetooth слушалки. Ако се поврзете со главната единица (радио во автомобил) преку Bluetooth, тогаш поради некоја причина ова може автоматски да активира телефонски повик до стандардниот број на овој уред</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">За автоматско снимање преку Bluetooth конекции е потребна дозвола. Кликнете овде за да поднесете</string>
+    <string name="prefs_warning_permission_bluetooth_text">Не е дадена дозвола за Bluetooth</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Апликацијата не можеше да се отвори за да започне снимањето бидејќи екранот беше исклучен (заклучен). Вклучете услуга за снимање во заднина (Watcher) за да го поправите ова.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Апликацијата не можеше да се отвори бидејќи екранот беше исклучен (заклучен).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Наведената апликација не можеше да се стартува за да се отвори автоматски бидејќи не беше доделена дозволата „Прикажи на сите апликации“.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Мора да дадете дозвола на уредите во близина (Bluetooth) за автоматско снимање настани. Ова може да се направи во системските поставки на апликацијата.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Потребни се известувања за да може да се прикаже услугата за снимање во заднина и статусот на снимање во панелот за известувања.</string>
+
+    
 </resources>

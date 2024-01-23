@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Il-kamera hija meħtieġa għar-reġistrazzjoni tal-vidjo u l-preview tal-kamera.</string>
     <string name="permission_camera_dlg_title">Riżoluzzjoni tal-kamera</string>
     <string name="permission_camera_request_canceled">Din l-applikazzjoni teħtieġ permess biex tuża l-kamera biex tirrekordja l-vidjo. Imma int irrifjutajtu. Għeluq… Ipprova agħti permess lill-kamera fis-settings tas-sistema ta\' din l-applikazzjoni</string>
-    <string name="permission_location_dlg_explanation_msg">Meta jiġi minimizzat, Droid Dashcam juża l-post fl-isfond biex jiġbed koordinati, indirizz u veloċità fuq il-vidjo rreġistrat.</string>
+    <string name="permission_location_dlg_explanation_msg">Il-post huwa meħtieġ biex tiġbed il-koordinati, l-indirizz u l-veloċità fuq il-vidjo rreġistrat, jew turi din id-dejta fuq l-iskrin prinċipali (skond is-settings tiegħek).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Fuq Android 11 (R), għandek bżonn tagħżel manwalment \"Il-ħin kollu (kwalunkwe modalità)\" fil-preferenzi tas-sistema biex tippermetti l-post fl-isfond. Is-settings jinfetħu wara din it-tieqa.</string>
     <string name="permission_location_dlg_msg">Il-post huwa meħtieġ biex tiddetermina l-veloċità tat-trasport bl-użu tad-dejta tal-GPS, l-indirizz kurrenti u l-koordinati għall-wiri fuq l-iskrin u għar-reġistrazzjoni tas-sottotitli fuq il-vidjo</string>
     <string name="permission_location_dlg_title">Permess tal-post</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">Biex tikkoreġi</string>
     <string name="rec_fix_text">Biex tikkoreġi</string>
-    <string name="rec_free_space_text">Disponibbli</string>
+    <string name="rec_available_space_text">Disponibbli</string>
     <string name="rec_gps_status_satellites_few_text">satelliti</string>
     <string name="rec_gps_status_satellites_many_text">satelliti</string>
     <string name="rec_gps_status_satellites_one_text">satellita</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Ir-reġistrazzjoni bdiet</string>
     <string name="recording_voice_stopped_text">Ir-reġistrazzjoni waqfet</string>
 
-    <string name="service_no_system_alert_window_granted_text">Naqas milli jinbeda s-servizz Droid Dashcam biex awtomatikament jibda/jwaqqaf ir-reġistrazzjoni minħabba li l-permess SYSTEM_ALERT_WINDOW (wiri fuq it-twieqi kollha ta\' applikazzjonijiet oħra) ma ngħatax. Jew l-apparat kien imsakkar f\'dan il-punt (ir-restrizzjoni tal-Android hija li l-apparat għandu l-ewwel jinfetaħ u l-iskrin tiegħu għandu jinxtegħel qabel ma jkun jista’ jinbeda s-servizz għar-reġistrazzjoni awtomatika tal-vidjo)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">L-app ma setgħetx tinfetaħ biex tibda tirrekordja minħabba li l-permess \"show on top of all apps\" ma ngħatax. Ikklikkja biex tipprovdi</string>
     <string name="service_watch_on_boot_completed_text">Meta tixgħel l-apparat</string>
 
     <string name="storage_external_single">Karta MicroSD</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Iddiżattiva l-ottimizzazzjoni tal-batterija għal din l-app fis-settings tat-tagħmir tiegħek biex tevita żbalji futuri tal-kamera</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Reġistrazzjoni awtomatika biss meta s-servizz ikun qed jaħdem</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Jekk tattiva din l-għażla, allura r-reġistrazzjoni awtomatika ma ssirx jekk is-servizz ta\' monitoraġġ ma jkunx qed jaħdem u ma jkunx viżibbli fil-pannell tan-notifika</string>
+    <string name="prefs_rules_auto_start_without_service_text">Reġistrazzjoni awtomatika anki jekk is-servizz fl-isfond (Watcher) ma jkunx qed jaħdem</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Tista\' titfi din l-għażla sabiex l-applikazzjoni twettaq reġistrazzjoni awtomatika biss jekk is-servizz fl-isfond tal-applikazzjoni (Watcher) ikun qed jaħdem.\n- Ir-reġistrazzjoni awtomatika għal avvenimenti bħal iċċarġjar, Bluetooth jew AUX jista \'jsir mingħajr problemi sa Android 7.1.\n- Jibda minn Android 8, ir-reġistrazzjoni awtomatika mingħajr servizz ta \'applikazzjoni fl-isfond (Watcher) tista\' ssir biss għal avvenimenti Bluetooth, u f\'każijiet oħra (meta tiċċarġja jew AUX) għandek bżonn l-ewwel tibda s-servizz ta \'applikazzjoni fl-isfond (Watcher) - billi tniedi l- applikazzjoni nnifisha darba.\n- Nibdew b\'Android 11 mingħajr is-servizz tal-app fl-isfond (Watcher), l-aċċess għall-kamera mingħajr interazzjoni tal-utent huwa possibbli biss jekk it-telefon jinfetaħ (iskrin mixgħul) u jingħata permess \"fuq l-apps kollha\".\n- Għalhekk, għal Android 11 u ogħla, għandek bżonn tniedi l-applikazzjoni manwalment darba sabiex is-servizz fl-isfond tal-applikazzjoni (Watcher) jibda jirreġistra awtomatikament waqt kwalunkwe avveniment u meta l-iskrin tat-telefon jintefa.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Sottotitli fil-qiegħ</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Meħtieġa biex tkun tista \'turi s-servizz ta\' reġistrazzjoni fl-isfond u l-istatus fuq il-pannell tan-notifika. Ikklikkja biex tissottometti</string>
     <string name="prefs_warning_notifications_text">Permess ta\' Notifika</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Għal donazzjonijiet iżgħar, ir-reklami jitneħħew għall-iskrin tad-dar biss</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Għal donazzjonijiet iżgħar, ir-reklamar jitneħħa biss fuq l-iskrin prinċipali</string>photo
     <string name="photos_folder_name">Ritratti</string>
 
     <string name="photos_count_one">ritratt</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Naqas milli tiftaħ il-kamera magħżula. Jiġri li mhux il-kameras moħbija kollha jistgħu jintużaw minn kwalunkwe applikazzjoni. Ħafna manifatturi jippermettu biss l-użu tagħhom fl-applikazzjonijiet nattivi tagħhom. Il-kamera default se tiftaħ.</string>
 
-    <string name="videos_ask_which_player">Staqsi f\'liema plejer tilgħab kull darba\?</string>
+    <string name="videos_ask_which_player">Staqsi liema plejer tilgħab fih</string>
 
     <string name="prefs_location_mode_text">Prijorità tal-GPS (batterija jew preċiżjoni)</string>
     <string name="prefs_location_mode_balanced_text">Bilanċ bejn il-preċiżjoni tal-post (koordinati), il-veloċità u l-konsum tal-enerġija tal-batterija.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Neħħi r-reklami għal dejjem b\'donazzjoni ta\' darba ta\' kwalunkwe ammont. Tista\' wkoll tagħti kwalunkwe ammont kull xahar biex tneħħi r-reklami</string>
 
     <string name="prefs_audio_bt_recording_text">Irreġistra l-awdjo minn apparat Bluetooth</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Tużax mal-unità prinċipali (radju tal-karozza)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Uża biss mal-headphones Bluetooth. Jekk tikkonnettja mal-unità ewlenija (radju tal-karozza) permezz tal-Bluetooth, allura għal xi raġuni dan jista \'jwassal awtomatikament għal telefonata għan-numru standard fuq dan l-apparat.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Ir-reġistrazzjoni awtomatika fuq konnessjonijiet Bluetooth teħtieġ permess. Ikklikkja hawn biex tissottometti</string>
+    <string name="prefs_warning_permission_bluetooth_text">Permess Bluetooth mhux mogħti</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">L-applikazzjoni ma setgħetx tinfetaħ biex tibda tirrekordja minħabba li l-iskrin kien mitfi (imsakkar). Mexxi servizz ta \'reġistrazzjoni fl-isfond (Watcher) biex tirranġa dan.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">L-applikazzjoni ma setgħetx tinfetaħ minħabba li l-iskrin kien mitfi (imsakkar).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">L-applikazzjoni speċifikata ma setgħetx titnieda biex tiftaħ awtomatikament minħabba li l-permess \"turi fuq l-applikazzjonijiet kollha\" ma ngħatax.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Trid tagħti permess ta\' Nearby Devices (Bluetooth) għal reġistrazzjoni awtomatika ta\' avvenimenti. Dan jista\' jsir fis-settings tas-sistema tal-applikazzjoni.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">In-notifiki huma meħtieġa biex ikunu jistgħu juru s-servizz ta \'reġistrazzjoni fl-isfond u l-istatus ta\' reġistrazzjoni fil-pannell tan-notifika.</string>
+
+    
 </resources>

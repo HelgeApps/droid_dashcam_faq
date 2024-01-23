@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Lub koob yees duab yuav tsum tau rau kev kaw video thiab lub koob yees duab saib ua ntej.</string>
     <string name="permission_camera_dlg_title">Lub koob yees duab daws teeb meem</string>
     <string name="permission_camera_request_canceled">Daim ntawv thov no yuav tsum tau tso cai siv lub koob yees duab los kaw cov yeeb yaj kiab. Tab sis koj muab nws tso tseg. Kaw… Sim tso cai rau lub koob yees duab hauv qhov system nqis ntawm daim ntawv thov no</string>
-    <string name="permission_location_dlg_explanation_msg">Thaum txo qis, Droid Dashcam siv qhov chaw nyob hauv keeb kwm yav dhau los kos cov kev tswj hwm, chaw nyob thiab nrawm ntawm cov yeeb yaj kiab kaw.</string>
+    <string name="permission_location_dlg_explanation_msg">Qhov chaw yuav tsum tau kos duab ua haujlwm, chaw nyob thiab nrawm ntawm cov yeeb yaj kiab kaw, lossis tso cov ntaub ntawv no ntawm lub vijtsam tseem ceeb (nyob ntawm koj qhov chaw).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Hauv Android 11 (R), koj yuav tsum xaiv manually \"Txhua lub sijhawm (txhua hom)\" hauv qhov system nyiam kom tso cai rau qhov chaw nyob hauv keeb kwm yav dhau. Cov chaw yuav qhib tom qab lub qhov rais no.</string>
     <string name="permission_location_dlg_msg">Qhov chaw nyob yog tsim nyog los txiav txim siab qhov ceev ntawm kev thauj mus los siv GPS cov ntaub ntawv, qhov chaw nyob tam sim no thiab kev tswj xyuas rau kev tso saib ntawm lub vijtsam thiab rau sau cov ntawv sau rau hauv video.</string>
     <string name="permission_location_dlg_title">Qhov chaw tso cai</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">Kom kho</string>
     <string name="rec_fix_text">Kom kho</string>
-    <string name="rec_free_space_text">Muaj</string>
+    <string name="rec_available_space_text">Muaj</string>
     <string name="rec_gps_status_satellites_few_text">satellites</string>
     <string name="rec_gps_status_satellites_many_text">satellites</string>
     <string name="rec_gps_status_satellites_one_text">satellite</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Kev kaw cia tau pib</string>
     <string name="recording_voice_stopped_text">Kev kaw tseg nres</string>
 
-    <string name="service_no_system_alert_window_granted_text">Ua tsis tiav qhov kev pabcuam Droid Dashcam kom pib /nres kaw vim tias SYSTEM_ALERT_WINDOW tso cai (tso tso rau txhua lub qhov rais ntawm lwm daim ntawv thov) tsis tau tso cai. Los yog lub cuab yeej raug kaw ntawm lub sijhawm no (Android txwv yog tias lub cuab yeej yuav tsum tau qhib ua ntej thiab nws lub vijtsam yuav tsum tau qhib ua ntej qhov kev pabcuam rau kev kaw cov yeeb yaj kiab tsis siv neeg tuaj yeem pib)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Lub app tsis tuaj yeem qhib kom pib kaw vim tias qhov \"show on top of all apps\" tsis tau tso cai. Nyem rau muab</string>
     <string name="service_watch_on_boot_completed_text">Thaum qhib lub cuab yeej</string>
 
     <string name="storage_external_single">MicroSD daim npav</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Disable roj teeb optimization rau cov app no ​​​​hauv koj lub cuab yeej teeb tsa kom tsis txhob muaj lub koob yees duab yuam kev yav tom ntej</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Tsis siv neeg kaw tsuas yog thaum qhov kev pabcuam khiav haujlwm</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Yog tias koj qhib qhov kev xaiv no, ces kev kaw cia tsis siv neeg yuav tsis ua yog tias qhov kev pabcuam saib xyuas tsis ua haujlwm thiab tsis pom nyob hauv vaj huam sib luag ceeb toom</string>
+    <string name="prefs_rules_auto_start_without_service_text">Tsis siv neeg kaw txawm tias qhov kev pabcuam keeb kwm yav dhau (Watcher) tsis ua haujlwm</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Koj tuaj yeem kaw qhov kev xaiv no kom daim ntawv thov ua tsis siv neeg kaw tsuas yog tias daim ntawv thov kev pabcuam keeb kwm yav dhau (Watcher) tab tom khiav.\n- Tsis siv neeg kaw rau cov xwm txheej xws li them nyiaj, Bluetooth lossis AUX tuaj yeem ua yam tsis muaj teeb meem txog Android 7.1.\n- Pib los ntawm Android 8, kev kaw cia tsis siv neeg yam tsis muaj kev pabcuam keeb kwm yav dhau los (Watcher) tsuas yog ua tau rau cov xwm txheej Bluetooth, thiab lwm yam (thaum them nyiaj lossis AUX) koj yuav tsum xub pib qhov kev pabcuam keeb kwm yav dhau los (Watcher) - los ntawm kev pib lub thov nws tus kheej ib zaug.\n- Pib nrog Android 11 yam tsis muaj kev pabcuam keeb kwm yav dhau los (Watcher), nkag mus rau lub koob yees duab yam tsis muaj kev sib cuam tshuam nrog cov neeg siv tsuas yog ua tau yog tias lub xov tooj raug xauv (screen rau) thiab \"nyob rau saum toj ntawm txhua lub apps\" tso cai.\n- Yog li, rau Android 11 thiab siab dua, koj yuav tsum qhib daim ntawv thov manually ib zaug kom cov kev pabcuam keeb kwm yav dhau los ntawm daim ntawv thov (Watcher) pib cia li kaw thaum muaj xwm txheej thiab thaum lub xov tooj screen raug kaw.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Subtitles hauv qab</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Yuav tsum tau muaj peev xwm tso saib cov kev pab cuam kaw cia thiab cov xwm txheej ntawm lub vaj huam sib luag ceeb toom. Nyem rau xa</string>
     <string name="prefs_warning_notifications_text">Ceeb Toom Tso Cai</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Rau kev pub dawb me me, kev tshaj tawm raug tshem tawm rau lub vijtsam hauv tsev nkaus xwb</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Rau cov nyiaj pub dawb me me, kev tshaj tawm tsuas yog tshem tawm ntawm lub vijtsam tseem ceeb</string>photo
     <string name="photos_folder_name">Cov duab</string>
 
     <string name="photos_count_one">daim duab</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Ua tsis tau tejyam qhib lub koob yees duab xaiv. Nws thiaj li tshwm sim tias tsis yog txhua lub koob yees duab zais tuaj yeem siv los ntawm ib daim ntawv thov. Muaj ntau manufacturers tsuas tso cai rau lawv siv nyob rau hauv lawv haiv neeg daim ntaub ntawv. Lub koob yees duab default yuav qhib.</string>
 
-    <string name="videos_ask_which_player">Nug tus neeg ua si twg ua si txhua zaus\?</string>
+    <string name="videos_ask_which_player">Nug tus neeg ua si twg los ua si hauv</string>
 
     <string name="prefs_location_mode_text">GPS qhov tseem ceeb (Lub roj teeb lossis qhov tseeb)</string>
     <string name="prefs_location_mode_balanced_text">Sib npaug ntawm qhov tseeb qhov chaw (coordinates), ceev thiab roj teeb lub zog noj.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Tshem tawm kev tshaj tawm mus ib txhis nrog kev pub dawb ib zaug ntawm ib qho twg. Koj tuaj yeem pub dawb txhua hli kom tshem tawm cov tshaj tawm</string>
 
     <string name="prefs_audio_bt_recording_text">Sau cov suab los ntawm lub cuab yeej Bluetooth</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Tsis txhob siv lub taub hau (lub tsheb xov tooj cua)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Tsuas yog siv nrog Bluetooth headphones. Yog tias koj txuas mus rau lub taub hau chav tsev (lub xov tooj cua hauv tsheb) ntawm Bluetooth, yog vim li cas qhov no yuav cia li ua rau tus xov tooj hu rau tus lej xov tooj ntawm lub cuab yeej no.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Tsis siv neeg kaw dua Bluetooth txuas yuav tsum tau tso cai. Nyem qhov no mus xa</string>
+    <string name="prefs_warning_permission_bluetooth_text">Bluetooth tso cai tsis tau tso cai</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Daim ntawv thov tsis tuaj yeem qhib kom pib kaw vim tias lub vijtsam raug kaw (xauv). Khiav qhov kev pab cuam kaw cia tom qab (Watcher) los kho qhov no.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Daim ntawv thov tsis tuaj yeem qhib vim tias lub vijtsam raug kaw (xauv).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Daim ntawv thov tshwj xeeb tsis tuaj yeem raug tso tawm kom qhib tau vim tias qhov \"show on top of all applications\" tsis tau tso cai.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Koj yuav tsum tso cai rau Cov Cuab Yeej Zej Zog (Bluetooth) tso cai rau kev kaw cov xwm txheej tsis siv neeg. Qhov no tuaj yeem ua tiav hauv daim ntawv thov kev teeb tsa.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Cov ntawv ceeb toom yuav tsum muaj peev xwm los tso saib cov kev pab cuam sau keeb kwm yav dhau thiab kaw cov xwm txheej hauv lub vaj huam sib luag ceeb toom.</string>
+
+    
 </resources>

@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Kamera je vyžadována pro záznam videa a náhled kamery.</string>
     <string name="permission_camera_dlg_title">Rozlišení fotoaparátu</string>
     <string name="permission_camera_request_canceled">Tato aplikace vyžaduje oprávnění k použití fotoaparátu k nahrávání videa. Ale ty jsi to odmítl. Zavírání… Zkuste udělit oprávnění ke kameře v systémovém nastavení této aplikace</string>
-    <string name="permission_location_dlg_explanation_msg">Když je minimalizován, Droid Dashcam využívá polohu na pozadí k vykreslování souřadnic, adresy a rychlosti do nahraného videa.</string>
+    <string name="permission_location_dlg_explanation_msg">Místo je potřeba pro zakreslení souřadnic, adresy a rychlosti na nahrané video nebo zobrazení těchto údajů na hlavní obrazovce (v závislosti na vašem nastavení).</string>
     <string name="permission_location_dlg_explanation_settings_msg">V systému Android 11 (R) musíte v předvolbách systému ručně vybrat „Po celou dobu (jakýkoli režim)“, abyste povolili umístění na pozadí. Po tomto okně se otevře nastavení.</string>
     <string name="permission_location_dlg_msg">Poloha je nutná pro určení rychlosti přepravy pomocí GPS dat, aktuální adresy a souřadnic pro zobrazení na obrazovce a pro nahrávání titulků na video</string>
     <string name="permission_location_dlg_title">Povolení k poloze</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">Opravit</string>
     <string name="rec_fix_text">Opravit</string>
-    <string name="rec_free_space_text">Dostupný</string>
+    <string name="rec_available_space_text">Dostupný</string>
     <string name="rec_gps_status_satellites_few_text">satelity</string>
     <string name="rec_gps_status_satellites_many_text">satelity</string>
     <string name="rec_gps_status_satellites_one_text">družice</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Nahrávání začalo</string>
     <string name="recording_voice_stopped_text">Nahrávání zastaveno</string>
 
-    <string name="service_no_system_alert_window_granted_text">Nepodařilo se spustit službu Droid Dashcam, která automaticky spustí/zastaví nahrávání, protože nebylo uděleno oprávnění SYSTEM_ALERT_WINDOW (zobrazení přes všechna okna jiných aplikací). Nebo bylo zařízení v tomto okamžiku uzamčeno (Omezení Androidu je, že zařízení musí být nejprve odemčeno a musí být zapnuta jeho obrazovka, než bude možné spustit službu pro automatické nahrávání videa)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Aplikaci nebylo možné otevřít a zahájit nahrávání, protože nebylo uděleno oprávnění „zobrazovat nad všemi aplikacemi“. Kliknutím poskytněte</string>
     <string name="service_watch_on_boot_completed_text">Při zapnutí zařízení</string>
 
     <string name="storage_external_single">MicroSD karta</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">V nastavení zařízení deaktivujte optimalizaci baterie pro tuto aplikaci, abyste předešli budoucím chybám fotoaparátu</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Automatické nahrávání pouze při spuštěné službě</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Pokud tuto možnost povolíte, automatické nahrávání se neprovede, pokud služba sledování není spuštěna a není viditelná v oznamovacím panelu</string>
+    <string name="prefs_rules_auto_start_without_service_text">Automatické nahrávání, i když není spuštěna služba na pozadí (Watcher).</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Tuto možnost můžete vypnout, aby aplikace provedla automatické nahrávání pouze v případě, že je spuštěna služba na pozadí aplikace (Watcher).\n- Automatické nahrávání událostí, jako je nabíjení, Bluetooth nebo AUX, lze bez problémů provádět až do Androidu 7.1.\n- Od Androidu 8 lze automatické nahrávání bez služby aplikace na pozadí (Watcher) provádět pouze pro události Bluetooth a v ostatních případech (při nabíjení nebo AUX) je třeba nejprve spustit službu aplikace na pozadí (Watcher) - spuštěním samotnou aplikaci jednou.\n- Počínaje systémem Android 11 bez služby aplikace na pozadí (Watcher) je přístup k fotoaparátu bez interakce uživatele možný pouze v případě, že je telefon odemknutý (zapnutá obrazovka) a je uděleno oprávnění „navrchu všech aplikací“.\n- Pro Android 11 a vyšší je tedy potřeba ručně spustit aplikaci jednou, aby se služba na pozadí aplikace (Watcher) začala automaticky nahrávat při jakýchkoli událostech a při vypnutí obrazovky telefonu.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Titulky dole</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Vyžaduje se, aby bylo možné zobrazit službu nahrávání na pozadí a stavy na panelu oznámení. Kliknutím odešlete</string>
     <string name="prefs_warning_notifications_text">Oprávnění k oznámení</string>
 
-    <string name="donation_dlg_limited_ads_message_text">U menších darů jsou reklamy odstraněny pouze pro domovskou obrazovku</string>photo
+    <string name="donation_dlg_limited_ads_message_text">U menších darů je reklama odstraněna pouze na hlavní obrazovce</string>photo
     <string name="photos_folder_name">Fotky</string>
 
     <string name="photos_count_one">fotografie</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Otevření vybrané kamery se nezdařilo. Stává se, že ne všechny skryté kamery může používat jakákoli aplikace. Mnoho výrobců umožňuje jejich použití pouze ve svých nativních aplikacích. Otevře se výchozí kamera.</string>
 
-    <string name="videos_ask_which_player">Pokaždé se zeptat, ve kterém přehrávači hrát\?</string>
+    <string name="videos_ask_which_player">Zeptejte se, ve kterém hráči hrát</string>
 
     <string name="prefs_location_mode_text">Priorita GPS (baterie nebo přesnost)</string>
     <string name="prefs_location_mode_balanced_text">Rovnováha mezi přesností polohy (souřadnice), rychlostí a spotřebou baterie.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Odstraňte reklamy navždy pomocí jednorázového příspěvku v libovolné výši. Můžete také věnovat libovolnou částku měsíčně na odstranění reklam</string>
 
     <string name="prefs_audio_bt_recording_text">Nahrávejte zvuk ze zařízení Bluetooth</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Nepoužívejte s hlavní jednotkou (autorádio)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Používejte pouze se sluchátky Bluetooth. Pokud se připojíte k hlavní jednotce (autorádio) přes Bluetooth, může to z nějakého důvodu automaticky spustit telefonní hovor na standardní číslo na tomto zařízení</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Automatické nahrávání přes připojení Bluetooth vyžaduje povolení. Kliknutím sem odešlete</string>
+    <string name="prefs_warning_permission_bluetooth_text">Oprávnění Bluetooth nebylo uděleno</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Aplikaci nebylo možné otevřít a zahájit nahrávání, protože obrazovka byla vypnutá (zamčená). Chcete-li to vyřešit, spusťte službu nahrávání na pozadí (Watcher).</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Aplikaci nelze otevřít, protože obrazovka byla vypnutá (zamčená).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Zadanou aplikaci nebylo možné spustit k automatickému otevření, protože nebylo uděleno oprávnění „zobrazovat nad všemi aplikacemi“.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">K automatickému nahrávání události musíte udělit oprávnění blízkým zařízením (Bluetooth). To lze provést v systémovém nastavení aplikace.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Aby bylo možné zobrazit službu nahrávání na pozadí a stav nahrávání na panelu oznámení, jsou vyžadována oznámení.</string>
+
+    
 </resources>

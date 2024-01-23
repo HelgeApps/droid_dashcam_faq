@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">වීඩියෝ පටිගත කිරීම සහ කැමරා පෙරදසුන සඳහා කැමරාව අවශ්‍ය වේ.</string>
     <string name="permission_camera_dlg_title">කැමරා විභේදනය</string>
     <string name="permission_camera_request_canceled">මෙම යෙදුමට වීඩියෝ පටිගත කිරීමට කැමරාව භාවිතා කිරීමට අවසරය අවශ්‍ය වේ. නමුත් ඔබ එය ප්‍රතික්ෂේප කළා. වසා දමමින්… මෙම යෙදුමේ පද්ධති සැකසීම් තුළ කැමරාවට අවසර දීමට උත්සාහ කරන්න</string>
-    <string name="permission_location_dlg_explanation_msg">අවම කළ විට, Droid Dashcam පටිගත කළ වීඩියෝවේ ඛණ්ඩාංක, ලිපිනය සහ වේගය ඇඳීමට පසුබිමේ ඇති ස්ථානය භාවිතා කරයි.</string>
+    <string name="permission_location_dlg_explanation_msg">පටිගත කරන ලද වීඩියෝවේ ඛණ්ඩාංක, ලිපිනය සහ වේගය ඇඳීමට හෝ මෙම දත්ත ප්‍රධාන තිරයේ (ඔබේ සිටුවම් මත පදනම්ව) පෙන්වීමට ස්ථානය අවශ්‍ය වේ.</string>
     <string name="permission_location_dlg_explanation_settings_msg">Android 11 (R), පසුබිමේ ස්ථානයට ඉඩ දීමට පද්ධති මනාපයන් තුළ ඔබ අතින් \"සියලු කාලය (ඕනෑම මාදිලියක්)\" තේරීමට අවශ්‍ය වේ. මෙම කවුළුවෙන් පසු සැකසුම් විවෘත වේ.</string>
     <string name="permission_location_dlg_msg">ජීපීඑස් දත්ත, වත්මන් ලිපිනය සහ ඛණ්ඩාංක භාවිතයෙන් ප්‍රවාහන වේගය තීරණය කිරීම සඳහා තිරය මත දර්ශනය වීමට සහ වීඩියෝවේ උපසිරැසි පටිගත කිරීම සඳහා ස්ථානය අවශ්‍ය වේ.</string>
     <string name="permission_location_dlg_title">ස්ථාන අවසරය</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">ඔටෝ</string>
     <string name="rec_fix_short_text">නිවැරදි කිරීමට</string>
     <string name="rec_fix_text">නිවැරදි කිරීමට</string>
-    <string name="rec_free_space_text">ඇත</string>
+    <string name="rec_available_space_text">ඇත</string>
     <string name="rec_gps_status_satellites_few_text">චන්ද්රිකා</string>
     <string name="rec_gps_status_satellites_many_text">චන්ද්රිකා</string>
     <string name="rec_gps_status_satellites_one_text">චන්ද්රිකාව</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">පටිගත කිරීම ආරම්භ කර ඇත</string>
     <string name="recording_voice_stopped_text">පටිගත කිරීම නතර විය</string>
 
-    <string name="service_no_system_alert_window_granted_text">SYSTEM_ALERT_WINDOW අවසරය (අනෙකුත් යෙදුම්වල සියලුම කවුළු මත ප්‍රදර්ශනය කිරීම) ලබා දී නොමැති නිසා ස්වයංක්‍රීයව පටිගත කිරීම ආරම්භ කිරීමට /නැවැත්වීමට Droid Dashcam සේවාව ආරම්භ කිරීමට අසමත් විය. නැතහොත් මෙම අවස්ථාවේදී උපාංගය අගුලු දමා ඇත (Android සීමා කිරීම යනු ස්වයංක්‍රීය වීඩියෝ පටිගත කිරීමේ සේවාව ආරම්භ කිරීමට පෙර උපාංගය ප්‍රථමයෙන් අගුළු හැර එහි තිරය ක්‍රියාත්මක කළ යුතුය)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">\"සියලු යෙදුම්වල ඉහළින් පෙන්වන්න\" අවසරය ලබා දී නොමැති නිසා පටිගත කිරීම ආරම්භ කිරීමට යෙදුම විවෘත කළ නොහැක. ලබා දීමට ක්ලික් කරන්න</string>
     <string name="service_watch_on_boot_completed_text">උපාංගය සක්රිය කරන විට</string>
 
     <string name="storage_external_single">MicroSD කාඩ්පත</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">අනාගත කැමරා දෝෂ වළක්වා ගැනීමට ඔබගේ උපාංග සැකසීම් තුළ මෙම යෙදුම සඳහා බැටරි ප්‍රශස්තකරණය අක්‍රීය කරන්න</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">ස්වයංක්‍රීය පටිගත කිරීම සේවාව ක්‍රියාත්මක වන විට පමණි</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">ඔබ මෙම විකල්පය සක්‍රීය කරන්නේ නම්, අධීක්ෂණ සේවාව ක්‍රියාත්මක නොවන්නේ නම් සහ දැනුම්දීමේ පැනලයේ නොපෙනේ නම් ස්වයංක්‍රීය පටිගත කිරීම සිදු නොවේ.</string>
+    <string name="prefs_rules_auto_start_without_service_text">පසුබිම් සේවාව (Watcher) ක්‍රියාත්මක නොවූවත් ස්වයංක්‍රීයව පටිගත කිරීම</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* ඔබට මෙම විකල්පය අක්‍රිය කළ හැකි අතර එමඟින් යෙදුම ස්වයංක්‍රීයව පටිගත කිරීම සිදු කරනු ලබන්නේ යෙදුමේ පසුබිම් සේවාව (මුරකරු) ක්‍රියාත්මක වන්නේ නම් පමණි.\n- ආරෝපණය කිරීම, බ්ලූටූත් හෝ AUX වැනි සිදුවීම් සඳහා ස්වයංක්‍රීය පටිගත කිරීම Android 7.1 දක්වා ගැටළු නොමැතිව සිදු කළ හැක.\n- Android 8 සිට, පසුබිම් යෙදුම් සේවාවකින් තොරව ස්වයංක්‍රීය පටිගත කිරීම (Watcher) බ්ලූටූත් සිදුවීම් සඳහා පමණක් සිදු කළ හැකි අතර, වෙනත් අවස්ථාවල දී (ආරෝපණය කිරීමේදී හෝ AUX විට) ඔබ මුලින්ම පසුබිම් යෙදුම් සේවාව (Watcher) ආරම්භ කළ යුතුය - දියත් කිරීමෙන් යෙදුමම වරක්.\n- පසුබිම් යෙදුම් සේවාව (Watcher) නොමැතිව Android 11 සමඟින් පටන් ගෙන, පරිශීලක අන්තර්ක්‍රියාකාරිත්වයකින් තොරව කැමරාවට ප්‍රවේශය ලබා ගත හැක්කේ දුරකථනය අගුළු හැර තිබේ නම් (තිරය ක්‍රියාත්මකයි) සහ \"සියලු යෙදුම්වලට ඉහළින්\" අවසරය ලබා දී ඇත්නම් පමණි.\n- මේ අනුව, ඇන්ඩ්‍රොයිඩ් 11 සහ ඉහළ සඳහා, ඔබ යෙදුම එක් වරක් අතින් දියත් කළ යුතු අතර එමඟින් යෙදුමේ පසුබිම් සේවාව (මුරකරු) ඕනෑම සිදුවීමකදී සහ දුරකථන තිරය ක්‍රියා විරහිත වූ විට ස්වයංක්‍රීයව පටිගත කිරීමට පටන් ගනී.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">උපසිරැසි පහලින්</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">දැනුම්දීම් පැනලයේ පසුබිම් පටිගත කිරීමේ සේවාව සහ තත්ත්‍වයන් සංදර්ශන කිරීමට හැකි වීම අවශ්‍ය වේ. ඉදිරිපත් කිරීමට ක්ලික් කරන්න</string>
     <string name="prefs_warning_notifications_text">දැනුම්දීමේ අවසරය</string>
 
-    <string name="donation_dlg_limited_ads_message_text">කුඩා පරිත්‍යාග සඳහා, මුල් තිරය සඳහා පමණක් දැන්වීම් ඉවත් කෙරේ</string>photo
+    <string name="donation_dlg_limited_ads_message_text">කුඩා පරිත්‍යාග සඳහා, ප්‍රචාරණය ඉවත් කරනු ලබන්නේ ප්‍රධාන තිරයේ පමණි</string>photo
     <string name="photos_folder_name">ඡායාරූප</string>
 
     <string name="photos_count_one">ඡායා රූප</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">තෝරාගත් කැමරාව විවෘත කිරීමට අසමත් විය. සියලුම සැඟවුණු කැමරා කිසිදු යෙදුමකට භාවිතා කළ නොහැක. බොහෝ නිෂ්පාදකයින් ඔවුන්ගේ දේශීය යෙදුම්වල පමණක් භාවිතා කිරීමට ඉඩ දෙයි. පෙරනිමි කැමරාව විවෘත වනු ඇත.</string>
 
-    <string name="videos_ask_which_player">සෑම අවස්ථාවකදීම ක්‍රීඩා කරන්නේ කුමන ක්‍රීඩකයා තුළදැයි අසන්න\?</string>
+    <string name="videos_ask_which_player">ක්‍රීඩා කරන්නේ කුමන ක්‍රීඩකයාදැයි විමසන්න</string>
 
     <string name="prefs_location_mode_text">GPS ප්‍රමුඛතාවය (බැටරි හෝ නිරවද්‍යතාවය)</string>
     <string name="prefs_location_mode_balanced_text">ස්ථාන නිරවද්යතාව (ඛණ්ඩාංක), වේගය සහ බැටරි බලශක්ති පරිභෝජනය අතර ශේෂය.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">ඕනෑම මුදලක එක් වරක් පරිත්‍යාගයක් සමඟ දැන්වීම් සදහටම ඉවත් කරන්න. දැන්වීම් ඉවත් කිරීම සඳහා ඔබට මාසිකව ඕනෑම මුදලක් පරිත්‍යාග කළ හැකිය</string>
 
     <string name="prefs_audio_bt_recording_text">බ්ලූටූත් උපාංගයකින් ශ්‍රව්‍ය පටිගත කරන්න</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">ප්රධාන ඒකකය (කාර් රේඩියෝව) සමඟ භාවිතා නොකරන්න!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">බ්ලූටූත් හෙඩ්ෆෝන් සමඟ පමණක් භාවිතා කරන්න. ඔබ බ්ලූටූත් හරහා ප්‍රධාන ඒකකයට (කාර් රේඩියෝව) සම්බන්ධ කරන්නේ නම්, යම් හේතුවක් නිසා මෙය ස්වයංක්‍රීයව මෙම උපාංගයේ සම්මත අංකයට දුරකථන ඇමතුමක් දියත් කළ හැක.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">බ්ලූටූත් සම්බන්ධතා හරහා ස්වයංක්‍රීයව පටිගත කිරීම සඳහා අවසරය අවශ්‍ය වේ. ඉදිරිපත් කිරීමට මෙතන ක්ලික් කරන්න</string>
+    <string name="prefs_warning_permission_bluetooth_text">බ්ලූටූත් අවසරය ලබා දී නැත</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">තිරය ​​ක්‍රියා විරහිත කර ඇති නිසා (අගුළු දමා ඇත) පටිගත කිරීම ආරම්භ කිරීමට යෙදුම විවෘත කළ නොහැක. මෙය නිවැරදි කිරීමට පසුබිම් පටිගත කිරීමේ සේවාවක් (Watcher) ක්‍රියාත්මක කරන්න.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">තිරය ​​ක්‍රියා විරහිත කර ඇති නිසා (අගුළු දමා ඇති) යෙදුම විවෘත කළ නොහැක.</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">\"සියලු යෙදුම්වල ඉහලින් පෙන්වන්න\" අවසරය ලබා දී නොමැති නිසා නිශ්චිත යෙදුම ස්වයංක්‍රීයව විවෘත වීමට දියත් කළ නොහැක.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">ස්වයංක්‍රීය සිදුවීම් පටිගත කිරීම සඳහා ඔබ Nearby Devices (Bluetooth) අවසරය ලබා දිය යුතුය. මෙය යෙදුමේ පද්ධති සැකසුම් තුළ සිදු කළ හැක.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">දැනුම්දීම් පැනලයේ පසුබිම් පටිගත කිරීමේ සේවාව සහ පටිගත කිරීමේ තත්ත්වය පෙන්වීමට දැනුම්දීම් අවශ්‍ය වේ.</string>
+
+    
 </resources>

@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">ካሜራው ለቪዲዮ ቀረጻ እና ለካሜራ ቅድመ እይታ ያስፈልጋል።</string>
     <string name="permission_camera_dlg_title">የካሜራ ጥራት</string>
     <string name="permission_camera_request_canceled">ይህ መተግበሪያ ቪዲዮን ለመቅረጽ ካሜራውን ለመጠቀም ፈቃድ ይፈልጋል። አንተ ግን አልቀበልከውም። በመዝጋት ላይ… በዚህ መተግበሪያ የስርዓት መቼቶች ውስጥ ለካሜራ ፈቃድ ለመስጠት ይሞክሩ</string>
-    <string name="permission_location_dlg_explanation_msg">ሲቀነስ Droid Dashcam በተቀዳው ቪዲዮ ላይ መጋጠሚያዎችን፣ አድራሻዎችን እና ፍጥነትን ለመሳል ከበስተጀርባ ያለውን ቦታ ይጠቀማል።</string>
+    <string name="permission_location_dlg_explanation_msg">በተቀረፀው ቪዲዮ ላይ መጋጠሚያዎችን ፣ አድራሻዎችን እና ፍጥነትን ለመሳል ቦታው ያስፈልጋል ፣ ወይም ይህንን ውሂብ በዋናው ማያ ገጽ ላይ ለማሳየት (እንደ ቅንጅቶችዎ)።</string>
     <string name="permission_location_dlg_explanation_settings_msg">በአንድሮይድ 11 (R) ላይ ከበስተጀርባ ያለውን ቦታ ለመፍቀድ በስርዓት ምርጫዎች ውስጥ \"ሁልጊዜ (ማንኛውም ሁነታ)\" ን እራስዎ መምረጥ ያስፈልግዎታል። ቅንብሮቹ ከዚህ መስኮት በኋላ ይከፈታሉ.</string>
     <string name="permission_location_dlg_msg">ቦታው የጂፒኤስ መረጃን በመጠቀም የትራንስፖርት ፍጥነትን ፣የአሁኑን አድራሻ እና መጋጠሚያዎችን በስክሪኑ ላይ ለማሳየት እና በቪዲዮ ላይ የትርጉም ጽሑፎችን ለመቅዳት አስፈላጊ ነው ።</string>
     <string name="permission_location_dlg_title">የአካባቢ ፈቃድ</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">መኪና</string>
     <string name="rec_fix_short_text">ለማስተካከል</string>
     <string name="rec_fix_text">ለማስተካከል</string>
-    <string name="rec_free_space_text">ይገኛል።</string>
+    <string name="rec_available_space_text">ይገኛል።</string>
     <string name="rec_gps_status_satellites_few_text">ሳተላይቶች</string>
     <string name="rec_gps_status_satellites_many_text">ሳተላይቶች</string>
     <string name="rec_gps_status_satellites_one_text">ሳተላይት</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">መቅዳት ተጀምሯል።</string>
     <string name="recording_voice_stopped_text">መቅዳት ቆሟል</string>
 
-    <string name="service_no_system_alert_window_granted_text">SYSTEM_ALERT_WINDOW ፍቃድ (የሌሎች ትግበራዎች በሁሉም መስኮቶች ላይ ማሳያ) ስላልተሰጠ የDroid Dashcam አገልግሎትን በራስ ሰር ለመጀመር/ለመቅዳት መጀመር አልተሳካም። ወይም መሳሪያው እዚህ ቦታ ላይ ተቆልፏል (የአንድሮይድ እገዳ መሳሪያው መጀመሪያ መከፈት አለበት እና አገልግሎቱ በራስ ሰር የቪዲዮ ቀረጻ ከመጀመሩ በፊት ስክሪኑ ማብራት አለበት)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">መተግበሪያው መቅዳት ለመጀመር ሊከፈት አልቻለም ምክንያቱም \"በሁሉም መተግበሪያዎች ላይ አሳይ\" ፍቃድ አልተሰጠም። ለማቅረብ ጠቅ ያድርጉ</string>
     <string name="service_watch_on_boot_completed_text">መሣሪያውን ሲያበሩ</string>
 
     <string name="storage_external_single">የማይክሮ ኤስዲ ካርድ</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">ለወደፊቱ የካሜራ ስህተቶችን ለማስወገድ ለዚህ መተግበሪያ በመሳሪያዎ ቅንብሮች ውስጥ የባትሪ ማትባትን ያሰናክሉ።</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">አገልግሎቱ ሲሰራ ብቻ በራስ ሰር መቅዳት</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">ይህን አማራጭ ካነቁት የክትትል አገልግሎት የማይሰራ ከሆነ እና በማስታወቂያ ፓነሉ ውስጥ የማይታይ ከሆነ አውቶማቲክ ቀረጻ አይከናወንም።</string>
+    <string name="prefs_rules_auto_start_without_service_text">የበስተጀርባ አገልግሎት (Watcher) ባይሰራም በራስ ሰር መቅዳት</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* አፕሊኬሽኑ አውቶማቲክ ቀረጻ እንዲሰራ ይህን አማራጭ ማጥፋት የሚችሉት የመተግበሪያው የጀርባ አገልግሎት (Watcher) እየሰራ ከሆነ ብቻ ነው።\n- እንደ ባትሪ መሙላት፣ ብሉቱዝ ወይም AUX ያሉ ክስተቶችን በራስ ሰር መቅዳት እስከ አንድሮይድ 7.1 ድረስ ያለ ችግር ሊከናወን ይችላል።\n- ከ አንድሮይድ 8 ጀምሮ ያለ ዳራ አፕሊኬሽን አገልግሎት (ተመልካች) አውቶማቲክ ቀረጻ የሚከናወነው ለብሉቱዝ ዝግጅቶች ብቻ ሲሆን በሌሎች ሁኔታዎች (በቻርጅ ወይም AUX) መጀመሪያ የጀርባ አፕሊኬሽን አገልግሎትን (Watcher) መጀመር ያስፈልግዎታል - እራሱን አንድ ጊዜ ማመልከቻ.\n- ከአንድሮይድ 11 ጀምሮ ያለ የጀርባ አፕ አገልግሎት (ተመልካች)፣ ያለተጠቃሚ መስተጋብር ካሜራውን ማግኘት የሚቻለው ስልኩ ከተከፈተ (ስክሪን ላይ) እና \"ከሁሉም መተግበሪያዎች በላይ\" ፈቃድ ከተሰጠ ብቻ ነው።\n- ስለዚህ ለአንድሮይድ 11 እና ከዚያ በላይ የመተግበሪያው የጀርባ አገልግሎት በማንኛውም ጊዜ እና የስልኩ ስክሪን ሲጠፋ በራስ ሰር መቅዳት እንዲጀምር አንድ ጊዜ አፕሊኬሽኑን አንድ ጊዜ መክፈት ያስፈልግዎታል።</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">የትርጉም ጽሑፎች ከታች</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">የጀርባ ቀረጻ አገልግሎትን እና ሁኔታዎችን በማሳወቂያ ፓነል ላይ ለማሳየት ያስፈልጋል። ለማስገባት ጠቅ ያድርጉ</string>
     <string name="prefs_warning_notifications_text">የማሳወቂያ ፍቃድ</string>
 
-    <string name="donation_dlg_limited_ads_message_text">ለአነስተኛ ልገሳ፣ ማስታወቂያዎች የሚወገዱት ለመነሻ ስክሪን ብቻ ነው።</string>photo
+    <string name="donation_dlg_limited_ads_message_text">ለትንንሽ ልገሳ፣ ማስታወቂያ በዋናው ማያ ገጽ ላይ ብቻ ይወገዳል</string>photo
     <string name="photos_folder_name">ፎቶዎች</string>
 
     <string name="photos_count_one">ፎቶ</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">የተመረጠውን ካሜራ መክፈት አልተሳካም። ይህ የሚሆነው ሁሉም የተደበቁ ካሜራዎች በማንኛውም መተግበሪያ መጠቀም አለመቻላቸው ነው። ብዙ አምራቾች በአገር ውስጥ አፕሊኬሽኖቻቸው ውስጥ ብቻ እንዲጠቀሙባቸው ይፈቅዳሉ. ነባሪ ካሜራ ይከፈታል።</string>
 
-    <string name="videos_ask_which_player">በእያንዳንዱ ጊዜ በየትኛው ተጫዋች እንደሚጫወት ይጠይቁ\?</string>
+    <string name="videos_ask_which_player">የትኛውን ተጫዋች እንደሚጫወት ይጠይቁ</string>
 
     <string name="prefs_location_mode_text">የጂፒኤስ ቅድሚያ (ባትሪ ወይም ትክክለኛነት)</string>
     <string name="prefs_location_mode_balanced_text">የአካባቢ ትክክለኛነት (መጋጠሚያዎች), ፍጥነት እና የባትሪ ኃይል ፍጆታ መካከል ያለው ሚዛን.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">በማንኛውም መጠን የአንድ ጊዜ ልገሳ ማስታወቂያ ለዘላለም ያስወግዱ። እንዲሁም ማስታወቂያዎችን ለማስወገድ ማንኛውንም መጠን በየወሩ መለገስ ይችላሉ።</string>
 
     <string name="prefs_audio_bt_recording_text">ድምጽን ከብሉቱዝ ይቅረጹ</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">ከጭንቅላት ክፍል (የመኪና ሬዲዮ) ጋር አይጠቀሙ!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">በብሉቱዝ የጆሮ ማዳመጫዎች ብቻ ይጠቀሙ። ከዋናው አሃድ (የመኪና ሬዲዮ) ጋር በብሉቱዝ ከተገናኙ ፣ በሆነ ምክንያት ይህ በራስ-ሰር በዚህ መሣሪያ ላይ ወዳለው መደበኛ ቁጥር የስልክ ጥሪን ያስነሳል።</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">በብሉቱዝ ግንኙነቶች ላይ በራስ ሰር መቅዳት ፈቃድ ያስፈልገዋል። ለማስገባት እዚህ ጠቅ ያድርጉ</string>
+    <string name="prefs_warning_permission_bluetooth_text">የብሉቱዝ ፍቃድ አልተሰጠም።</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">ስክሪኑ ስለጠፋ (ተቆልፏል) ትግበራው መቅዳት ለመጀመር ሊከፈት አልቻለም። ይህንን ለማስተካከል የጀርባ ቀረጻ አገልግሎትን (Watcher) ያሂዱ።</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">ስክሪኑ ስለጠፋ (ተቆልፎ) ስለነበር አፕሊኬሽኑ ሊከፈት አልቻለም።</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">የተገለጸው መተግበሪያ በራስ ሰር እንዲከፈት ሊጀመር አልቻለም ምክንያቱም \"በሁሉም መተግበሪያዎች ላይ አሳይ\" ፍቃድ ስላልተሰጠ።</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">ለራስ ሰር ክስተት ቀረጻ የአቅራቢያ መሳሪያዎች (ብሉቱዝ) ፍቃድ መስጠት አለቦት። ይህ በመተግበሪያው የስርዓት ቅንብሮች ውስጥ ሊከናወን ይችላል።</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">የጀርባ ቀረጻ አገልግሎት እና የቀረጻ ሁኔታን በማሳወቂያ ፓኔል ውስጥ ለማሳየት ማሳወቂያዎች ያስፈልጋሉ።</string>
+
+    
 </resources>

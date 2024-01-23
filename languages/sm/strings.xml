@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">E mana\'omia le meapueata mo le pu\'eina o vitio ma le mua\'i va\'aiga meapueata.</string>
     <string name="permission_camera_dlg_title">Fuafuaga meapueata</string>
     <string name="permission_camera_request_canceled">O lenei talosaga e manaʻomia le faʻatagaga e faʻaoga ai le meapueata e puʻeina ai vitio. Ae na e teena. Tapuni… Taumafai e fa\'atagaina le meapueata i le fa\'atulagaina o le polokalama lea</string>
-    <string name="permission_location_dlg_explanation_msg">A faʻaititia, Droid Dashcam faʻaoga le nofoaga i tua e tusi faʻamaopoopo, tuatusi ma le saoasaoa i luga o le vitio puʻeina.</string>
+    <string name="permission_location_dlg_explanation_msg">E manaʻomia le nofoaga e tusi ai faʻasalalauga, tuatusi ma le saoasaoa i luga o le vitio puʻeina, pe faʻaalia nei faʻamatalaga i luga o le mata autu (faʻalagolago i au faʻatulagaga).</string>
     <string name="permission_location_dlg_explanation_settings_msg">I luga ole Android 11 (R), e tatau ona e filifili ma le lima \"I taimi uma (soʻo se faiga)\" i le faʻaogaina o mea e faʻatagaina ai le nofoaga i tua. O le a tatala le faʻatulagaga pe a maeʻa lenei faʻamalama.</string>
     <string name="permission_location_dlg_msg">O le nofoaga e manaʻomia e fuafua ai le saoasaoa o felauaiga e faʻaaoga ai faʻamaumauga GPS, o le tuatusi o loʻo i ai nei ma faʻamaopoopo mo le faʻaalia i luga o le lau ma mo le pueina o ulutala ile vitio</string>
     <string name="permission_location_dlg_title">Fa\'ataga nofoaga</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Ta\'avale</string>
     <string name="rec_fix_short_text">Ia faasa\'o</string>
     <string name="rec_fix_text">Ia faasa\'o</string>
-    <string name="rec_free_space_text">Avanoa</string>
+    <string name="rec_available_space_text">Avanoa</string>
     <string name="rec_gps_status_satellites_few_text">satelite</string>
     <string name="rec_gps_status_satellites_many_text">satelite</string>
     <string name="rec_gps_status_satellites_one_text">satelite</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Ua amata le pueina</string>
     <string name="recording_voice_stopped_text">Na taofia le pueina</string>
 
-    <string name="service_no_system_alert_window_granted_text">Ua le mafai ona amata le Droid Dashcam auaunaga e otometi ona amata /taofi le pueina ona o le SYSTEM_ALERT_WINDOW faʻatagaga (faʻaalia i luga o faamalama uma o isi talosaga) e leʻi faʻatagaina. Pe na lokaina le masini i le taimi lea (Tagata Android e tatau ona tatala muamua le masini ma e tatau ona ki luga lona lau aʻo leʻi amataina le auaunaga mo le puʻeina otometi vitio)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">E le\'i mafai ona tatalaina le app e amata ai ona pu\'eina ona e le\'i fa\'atagaina le fa\'atagaga o le \"fa\'aali i luga o polokalame uma\". Kiliki e aumai</string>
     <string name="service_watch_on_boot_completed_text">Pe a ki le masini</string>
 
     <string name="storage_external_single">kata MicroSD</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Fa\'agata le fa\'ata\'ita\'iina o le maa mo lenei app i lau masini fa\'atulagaina e aloese ai mai mea sese i le lumana\'i</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Na\'o le pu\'eina otometi pe a fa\'agasolo le tautua</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Afai e te faʻatagaina lenei filifiliga, ona le faia lea o le puʻeina otometi pe a le o taʻavale le auaunaga mataʻituina ma e le o vaʻaia i le laulau faʻasalalauga.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Otometi le pu\'eina e tusa lava pe le o tamo\'e le auaunaga i tua (Watcher).</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* E mafai ona e tapeina lenei filifiliga ina ia mafai ai e le talosaga ona faʻapipiʻi otometi pe a fai o loʻo faʻagaioi le auaunaga i tua o le talosaga (Watcher).\n- Otometi faʻamaumauga mo mea na tutupu e pei o le molia, Bluetooth poʻo le AUX e mafai ona faia e aunoa ma ni faʻafitauli e oʻo atu i le Android 7.1.\n- Amata mai le Android 8, otometi le pu\'eina e aunoa ma se tala\'aga talosaga auaunaga (Watcher) e mafai ona na\'o le Bluetooth mea e tutupu, ma i isi tulaga (pe a molia poʻo le AUX) e te manaʻomia muamua le amataina o le auaunaga faʻamatalaga (Watcher) - e ala i le faʻalauiloaina o le fa\'aoga tasi lava.\n- Amata i le Android 11 e aunoa ma le \'au\'aunaga i tua (Watcher), o le avanoa i le mea pueata e aunoa ma le fa\'aogaina o tagata e na\'o le avanoa pe a tatala le telefoni (mata i luga) ma fa\'atagaina le fa\'atagaga \"i luga o mea uma\".\n- O le mea lea, mo le Android 11 ma le maualuga, e tatau ona e faʻalauiloa ma le lima le talosaga i le taimi e tasi ina ia amata ona otometi ona faʻamaumau le auʻaunaga pito i tua o le talosaga (Watcher) i soʻo se mea na tutupu ma pe a tape le mata o le telefoni.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Ulutala i lalo</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Mana\'omia ina ia mafai ona fa\'aalia le tautua pu\'e ma tulaga i luga ole laulau fa\'asilasilaga. Kiliki e lafo</string>
     <string name="prefs_warning_notifications_text">Fa\'atagaga Fa\'asilasilaga</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Mo nai foa\'i laiti, e aveese fa\'asalalauga mo na\'o le mata o le fale</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Mo foa\'i laiti, o fa\'asalalauga e aveese na\'o luga ole lau \'autu</string>photo
     <string name="photos_folder_name">Ata</string>
 
     <string name="photos_count_one">ata</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Ua le mafai ona tatala le meapueata filifilia. E tupu e le o mea pueata natia uma e mafai ona faʻaogaina e soʻo se talosaga. O le tele o tagata gaosi oloa e fa\'atagaina latou fa\'aoga i a latou fa\'aoga masani. O le a tatala le meapueata fa\'aletonu.</string>
 
-    <string name="videos_ask_which_player">Fesili atu po o ai le tagata taalo e taalo i taimi taitasi\?</string>
+    <string name="videos_ask_which_player">Fesili po o ai le tagata taalo e taalo ai</string>
 
     <string name="prefs_location_mode_text">GPS Fa\'amuamua (Ma\'a po\'o Sa\'o)</string>
     <string name="prefs_location_mode_balanced_text">Paleni i le va o nofoaga sa\'o (fa\'amaopoopo), saoasaoa ma le fa\'aaogaina o le maa.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Aveese fa\'asalalauga fa\'avavau fa\'atasi ma se foa\'i e tasi le aofa\'i. E mafai fo\'i ona e foa\'i so\'o se aofa\'iga i masina ta\'itasi e aveese ai fa\'asalalauga</string>
 
     <string name="prefs_audio_bt_recording_text">Faamaumau leo ​​mai se masini Bluetooth</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Aua ne\'i fa\'aoga i le iunite ulu (leitio ta\'avale)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Fa\'aoga na\'o le Bluetooth headphones. Afai e te faʻafesoʻotaʻi i le ulu (leitio taʻavale) e ala i le Bluetooth, ona o nisi mafuaʻaga e ono otometi lava ona faʻaosoina se telefoni i le numera masani i lenei masini.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">O le pu\'eina otometi i luga o feso\'ota\'iga Bluetooth e mana\'omia le fa\'atagaga. Kiliki iinei e lafo</string>
+    <string name="prefs_warning_permission_bluetooth_text">Le fa\'atagaina Bluetooth</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Ua le mafai ona tatalaina le talosaga e amata ai ona pueina ona ua tape le lau (loka). Fa\'atino se auaunaga pu\'e pu\'e (Watcher) e fa\'aleleia ai.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Ua le mafai ona tatalaina le talosaga ona ua tape le lau (loka).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">E le mafai ona fa\'alauiloa le talosaga fa\'apitoa e tatala otometi ona e le\'i fa\'atagaina le fa\'atagaga \"fa\'aali i luga o talosaga uma\".</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">E tatau ona e tu\'uina atu le fa\'atagaga o Mea Fa\'alatalata (Bluetooth) mo le pu\'eina o mea tutupu. E mafai ona faia lenei mea i le faatulagaga o le polokalama.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">E mana\'omia fa\'asilasilaga ina ia mafai ona fa\'aalia le tautua fa\'amaumau i tua ma le tulaga fa\'amaumau i le laulau fa\'asilasilaga.</string>
+
+    
 </resources>

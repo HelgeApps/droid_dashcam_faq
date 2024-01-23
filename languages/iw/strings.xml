@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">המצלמה נדרשת עבור הקלטת וידאו ותצוגה מקדימה של המצלמה.</string>
     <string name="permission_camera_dlg_title">רזולוציית מצלמה</string>
     <string name="permission_camera_request_canceled">יישום זה דורש הרשאה להשתמש במצלמה כדי להקליט וידאו. אבל דחית את זה. סוגרים… נסה להעניק הרשאה למצלמה בהגדרות המערכת של אפליקציה זו</string>
-    <string name="permission_location_dlg_explanation_msg">כאשר ממוזער, Droid Dashcam משתמש במיקום ברקע כדי לצייר קואורדינטות, כתובת ומהירות בסרטון המוקלט.</string>
+    <string name="permission_location_dlg_explanation_msg">המיקום נחוץ כדי לצייר קואורדינטות, כתובת ומהירות בסרטון המוקלט, או להציג נתונים אלה במסך הראשי (בהתאם להגדרות שלך).</string>
     <string name="permission_location_dlg_explanation_settings_msg">באנדרואיד 11 (R), עליך לבחור באופן ידני \"כל הזמן (כל מצב)\" בהעדפות המערכת כדי לאפשר את המיקום ברקע. ההגדרות ייפתחו לאחר חלון זה.</string>
     <string name="permission_location_dlg_msg">המיקום הכרחי כדי לקבוע את מהירות התחבורה באמצעות נתוני GPS, הכתובת הנוכחית והקואורדינטות לתצוגה על המסך ולהקלטת כתוביות בווידאו</string>
     <string name="permission_location_dlg_title">הרשאת מיקום</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">אוטומטי</string>
     <string name="rec_fix_short_text">לתקן</string>
     <string name="rec_fix_text">לתקן</string>
-    <string name="rec_free_space_text">זמין</string>
+    <string name="rec_available_space_text">זמין</string>
     <string name="rec_gps_status_satellites_few_text">לוויינים</string>
     <string name="rec_gps_status_satellites_many_text">לוויינים</string>
     <string name="rec_gps_status_satellites_one_text">לוויין</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">ההקלטה החלה</string>
     <string name="recording_voice_stopped_text">ההקלטה הופסקה</string>
 
-    <string name="service_no_system_alert_window_granted_text">נכשל ההפעלה של שירות Droid Dashcam כדי להתחיל /להפסיק את ההקלטה באופן אוטומטי מכיוון שלא ניתנה הרשאת SYSTEM_ALERT_WINDOW (תצוגה על כל החלונות של יישומים אחרים). או שהמכשיר ננעל בשלב זה (הגבלה של אנדרואיד היא שתחילה יש לבטל את נעילת המכשיר ולהפעיל את המסך שלו לפני שניתן יהיה להפעיל את השירות להקלטת וידאו אוטומטית)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">לא ניתן היה לפתוח את האפליקציה כדי להתחיל בהקלטה מכיוון שלא ניתנה הרשאת \"הצג מעל כל האפליקציות\". לחץ כדי לספק</string>
     <string name="service_watch_on_boot_completed_text">בעת הפעלת המכשיר</string>
 
     <string name="storage_external_single">כרטיס מיקרו אס די</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">השבת את אופטימיזציית הסוללה עבור אפליקציה זו בהגדרות המכשיר שלך כדי למנוע שגיאות מצלמה עתידיות</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">הקלטה אוטומטית רק כאשר השירות פועל</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">אם תפעיל אפשרות זו, הקלטה אוטומטית לא תתבצע אם שירות הניטור אינו פועל ואינו גלוי בלוח ההתראות</string>
+    <string name="prefs_rules_auto_start_without_service_text">הקלטה אוטומטית גם אם שירות הרקע (Watcher) אינו פועל</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* ניתן לבטל אפשרות זו כדי שהאפליקציה תבצע הקלטה אוטומטית רק אם שירות הרקע של האפליקציה (Watcher) פועל.\n- הקלטה אוטומטית לאירועים כגון טעינה, בלוטות\' או AUX יכולה להתבצע ללא בעיות עד אנדרואיד 7.1.\n- החל מאנדרואיד 8, הקלטה אוטומטית ללא שירות אפליקציית רקע (Watcher) יכולה להתבצע רק עבור אירועי בלוטות\', ובמקרים אחרים (בעת טעינה או AUX) יש להפעיל תחילה את שירות אפליקציית הרקע (Watcher) - על ידי הפעלת היישום עצמו פעם אחת.\n- החל מאנדרואיד 11 ללא שירות אפליקציית הרקע (Watcher), גישה למצלמה ללא אינטראקציה של המשתמש אפשרית רק אם הטלפון אינו נעול (מסך מופעל) והרשאת \"מעל כל האפליקציות\" ניתנת.\n- לפיכך, עבור אנדרואיד 11 ומעלה, אתה צריך להפעיל את האפליקציה באופן ידני פעם אחת כדי ששירות הרקע של האפליקציה (Watcher) יתחיל להקליט אוטומטית בכל אירוע וכאשר מסך הטלפון כבוי.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">כתוביות בתחתית</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">נדרש כדי להיות מסוגל להציג את שירות ההקלטה ברקע ואת הסטטוסים בלוח ההתראות. לחץ להגשה</string>
     <string name="prefs_warning_notifications_text">הרשאת הודעה</string>
 
-    <string name="donation_dlg_limited_ads_message_text">עבור תרומות קטנות יותר, המודעות מוסרות עבור מסך הבית בלבד</string>photo
+    <string name="donation_dlg_limited_ads_message_text">עבור תרומות קטנות יותר, הפרסום מוסר רק במסך הראשי</string>photo
     <string name="photos_folder_name">תמונות</string>
 
     <string name="photos_count_one">תמונה</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">פתיחת המצלמה שנבחרה נכשלה. כך קורה שלא כל המצלמות הנסתרות יכולות לשמש כל אפליקציה. יצרנים רבים מאפשרים את השימוש בהם רק ביישומים המקוריים שלהם. מצלמת ברירת המחדל תיפתח.</string>
 
-    <string name="videos_ask_which_player">שאל באיזה שחקן לשחק בכל פעם\?</string>
+    <string name="videos_ask_which_player">שאל באיזה שחקן לשחק</string>
 
     <string name="prefs_location_mode_text">עדיפות GPS (סוללה או דיוק)</string>
     <string name="prefs_location_mode_balanced_text">איזון בין דיוק המיקום (קואורדינטות), מהירות וצריכת החשמל של הסוללה.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">הסר מודעות לתמיד עם תרומה חד פעמית בכל סכום. אתה יכול גם לתרום כל סכום מדי חודש כדי להסיר מודעות</string>
 
     <string name="prefs_audio_bt_recording_text">הקלט אודיו ממכשיר Bluetooth</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">אין להשתמש עם יחידת ראש (רדיו לרכב)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">השתמש רק עם אוזניות Bluetooth. אם אתה מתחבר ליחידה הראשית (רדיו לרכב) באמצעות Bluetooth, אז מסיבה כלשהי זה עלול להפעיל אוטומטית שיחת טלפון למספר הרגיל במכשיר זה</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">הקלטה אוטומטית באמצעות חיבורי בלוטות\' דורשת הרשאה. לחץ כאן להגשה</string>
+    <string name="prefs_warning_permission_bluetooth_text">הרשאת Bluetooth לא ניתנה</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">לא ניתן היה לפתוח את האפליקציה כדי להתחיל בהקלטה מכיוון שהמסך היה כבוי (נעול). הפעל שירות הקלטות רקע (Watcher) כדי לתקן זאת.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">לא ניתן היה לפתוח את האפליקציה מכיוון שהמסך היה כבוי (נעול).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">לא ניתן היה להפעיל את האפליקציה שצוינה לפתיחה אוטומטית מכיוון שההרשאה \"הצג מעל כל היישומים\" לא ניתנה.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">עליך להעניק הרשאה למכשירים קרובים (Bluetooth) להקלטת אירועים אוטומטית. ניתן לעשות זאת בהגדרות המערכת של האפליקציה.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">הודעות נדרשות כדי להיות מסוגל להציג את שירות ההקלטה ברקע ואת מצב ההקלטה בלוח ההתראות.</string>
+
+    
 </resources>

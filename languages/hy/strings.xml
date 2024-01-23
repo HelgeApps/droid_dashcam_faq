@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Տեսախցիկը անհրաժեշտ է տեսանկարահանման և տեսախցիկի նախադիտման համար:</string>
     <string name="permission_camera_dlg_title">Տեսախցիկի լուծում</string>
     <string name="permission_camera_request_canceled">Այս հավելվածը թույլտվություն է պահանջում տեսախցիկը տեսագրելու համար օգտագործելու համար: Բայց դու մերժեցիր: Փակվում է… Փորձեք թույլտվություն տալ տեսախցիկին այս հավելվածի համակարգի կարգավորումներում</string>
-    <string name="permission_location_dlg_explanation_msg">Երբ նվազագույնի հասցվում է, Droid Dashcam-ն օգտագործում է ֆոնային դիրքը՝ ձայնագրված տեսանյութի կոորդինատները, հասցեն և արագությունը նկարելու համար:</string>
+    <string name="permission_location_dlg_explanation_msg">Տեղադրությունն անհրաժեշտ է ձայնագրված տեսանյութի կոորդինատները, հասցեն և արագությունը նկարելու կամ այս տվյալները հիմնական էկրանին ցուցադրելու համար (կախված ձեր կարգավորումներից):</string>
     <string name="permission_location_dlg_explanation_settings_msg">Android 11-ում (R), դուք պետք է ձեռքով ընտրեք «Ամեն ժամանակ (ցանկացած ռեժիմ)» համակարգի նախապատվություններում, որպեսզի թույլատրեք գտնվելու վայրը հետին պլանում: Պարամետրերը կբացվեն այս պատուհանից հետո:</string>
     <string name="permission_location_dlg_msg">Տեղադրությունը անհրաժեշտ է GPS տվյալների միջոցով տրանսպորտի արագությունը որոշելու համար, ընթացիկ հասցեն և կոորդինատները էկրանին ցուցադրելու և ենթագրերը տեսագրելու համար:</string>
     <string name="permission_location_dlg_title">Տեղադրության թույլտվություն</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Ավտոմատ</string>
     <string name="rec_fix_short_text">Ուղղել</string>
     <string name="rec_fix_text">Ուղղել</string>
-    <string name="rec_free_space_text">Հասանելի է</string>
+    <string name="rec_available_space_text">Հասանելի է</string>
     <string name="rec_gps_status_satellites_few_text">արբանյակներ</string>
     <string name="rec_gps_status_satellites_many_text">արբանյակներ</string>
     <string name="rec_gps_status_satellites_one_text">արբանյակ</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Ձայնագրությունը սկսվել է</string>
     <string name="recording_voice_stopped_text">Ձայնագրումը դադարեցվեց</string>
 
-    <string name="service_no_system_alert_window_granted_text">Չհաջողվեց գործարկել Droid Dashcam ծառայությունը՝ ձայնագրումն ավտոմատ սկսելու/դադարեցնելու համար, քանի որ SYSTEM_ALERT_WINDOW թույլտվությունը (այլ հավելվածների բոլոր պատուհանների ցուցադրումը) չի տրվել: Կամ սարքն այս պահին կողպված էր (Android-ի սահմանափակումն այն է, որ սարքը նախ պետք է ապակողպվի, և էկրանը պետք է միացվի՝ նախքան ավտոմատ տեսանկարահանման ծառայությունը սկսելը)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Հավելվածը չհաջողվեց բացել՝ ձայնագրումը սկսելու համար, քանի որ «ցուցադրել բոլոր հավելվածների վերևում» թույլտվությունը չի տրվել: Սեղմեք տրամադրելու համար</string>
     <string name="service_watch_on_boot_completed_text">Սարքը միացնելիս</string>
 
     <string name="storage_external_single">MicroSD քարտ</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Անջատեք այս հավելվածի մարտկոցի օպտիմիզացումը ձեր սարքի կարգավորումներում՝ ապագա տեսախցիկի սխալներից խուսափելու համար</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Ավտոմատ ձայնագրում միայն այն ժամանակ, երբ ծառայությունն աշխատում է</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Եթե ​​միացնեք այս տարբերակը, ապա ավտոմատ ձայնագրումը չի կատարվի, եթե մոնիտորինգի ծառայությունը չի աշխատում և տեսանելի չէ ծանուցման վահանակում:</string>
+    <string name="prefs_rules_auto_start_without_service_text">Ավտոմատ ձայնագրում, նույնիսկ եթե ֆոնային ծառայությունը (Watcher) չի աշխատում</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Դուք կարող եք անջատել այս տարբերակը, որպեսզի հավելվածը կատարի ավտոմատ ձայնագրում միայն այն դեպքում, եթե գործարկվի հավելվածի ֆոնային ծառայությունը (Watcher):\n- Իրադարձությունների ավտոմատ ձայնագրումը, ինչպիսիք են լիցքավորումը, Bluetooth-ը կամ AUX-ը, կարող է իրականացվել առանց խնդիրների մինչև Android 7.1:\n- Սկսած Android 8-ից, ավտոմատ ձայնագրումն առանց ֆոնային հավելվածի ծառայության (Watcher) կարող է իրականացվել միայն Bluetooth-ի իրադարձությունների համար, իսկ մյուս դեպքերում (լիցքավորման կամ AUX-ի ժամանակ) նախ պետք է գործարկել ֆոնային հավելվածի ծառայությունը (Watcher)՝ գործարկելով դիմումը ինքնին մեկ անգամ:\n- Սկսած Android 11-ից՝ առանց ֆոնային հավելվածների ծառայության (Watcher), տեսախցիկի մուտքն առանց օգտատիրոջ փոխազդեցության հնարավոր է միայն այն դեպքում, եթե հեռախոսն ապակողպված է (էկրանը միացված է) և «բոլոր հավելվածների վերևում» թույլտվություն է տրվում:\n- Այսպիսով, Android 11-ի և ավելի բարձր տարբերակների համար անհրաժեշտ է մեկ անգամ ձեռքով գործարկել հավելվածը, որպեսզի հավելվածի ֆոնային ծառայությունը (Watcher) սկսի ավտոմատ ձայնագրվել ցանկացած իրադարձությունների ժամանակ և երբ հեռախոսի էկրանն անջատված է:</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Ենթագրերը ներքևում</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Պահանջվում է, որպեսզի կարողանանք ցուցադրել ֆոնային ձայնագրման ծառայությունը և կարգավիճակները ծանուցման վահանակում: Սեղմեք ներկայացնելու համար</string>
     <string name="prefs_warning_notifications_text">Ծանուցման թույլտվություն</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Ավելի փոքր նվիրատվությունների դեպքում գովազդը հեռացվում է միայն հիմնական էկրանի համար</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Ավելի փոքր նվիրատվությունների դեպքում գովազդը հեռացվում է միայն հիմնական էկրանից</string>photo
     <string name="photos_folder_name">Նկարներ</string>
 
     <string name="photos_count_one">լուսանկար</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Չհաջողվեց բացել ընտրված տեսախցիկը: Այնպես է պատահում, որ ոչ բոլոր թաքնված տեսախցիկները կարող են օգտագործվել որևէ հավելվածի կողմից: Շատ արտադրողներ թույլ են տալիս դրանց օգտագործումը միայն իրենց հայրենի ծրագրերում: Կբացվի կանխադրված տեսախցիկը:</string>
 
-    <string name="videos_ask_which_player">Հարցրեք, թե որ խաղացողի մեջ խաղալ ամեն անգամ:</string>
+    <string name="videos_ask_which_player">Հարցրեք, թե որ խաղացողի մեջ խաղալ</string>
 
     <string name="prefs_location_mode_text">GPS առաջնահերթություն (մարտկոց կամ ճշգրտություն)</string>
     <string name="prefs_location_mode_balanced_text">Հավասարակշռություն տեղադրության ճշգրտության (կոորդինատների), արագության և մարտկոցի էներգիայի սպառման միջև:</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Հեռացրեք գովազդները ընդմիշտ ցանկացած գումարի միանվագ նվիրատվության միջոցով: Կարող եք նաև ամսական ցանկացած գումար նվիրաբերել գովազդը հեռացնելու համար</string>
 
     <string name="prefs_audio_bt_recording_text">Ձայնագրեք ձայնագրությունը Bluetooth սարքից</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Մի օգտագործեք գլխամասային միավորի հետ (մեքենայի ռադիո):</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Օգտագործեք միայն Bluetooth ականջակալներով: Եթե ​​դուք միանում եք գլխավոր միավորին (մեքենայի ռադիոյին) Bluetooth-ի միջոցով, ապա ինչ-ինչ պատճառներով դա կարող է ավտոմատ կերպով գործարկել հեռախոսազանգ այս սարքի ստանդարտ համարին:</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Bluetooth միացումների միջոցով ավտոմատ ձայնագրումը թույլտվություն է պահանջում: Սեղմեք այստեղ՝ ներկայացնելու համար</string>
+    <string name="prefs_warning_permission_bluetooth_text">Bluetooth-ի թույլտվությունը չի տրվել</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Ձայնագրումը սկսելու համար հավելվածը չհաջողվեց բացել, քանի որ էկրանն անջատված էր (կողպված): Սա շտկելու համար գործարկեք ֆոնային ձայնագրման ծառայություն (Watcher):</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Հավելվածը չհաջողվեց բացել, քանի որ էկրանն անջատված էր (կողպված):</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Նշված հավելվածը չհաջողվեց գործարկել՝ ինքնաբերաբար բացելու համար, քանի որ «ցուցադրել բոլոր հավելվածների վերևում» թույլտվությունը չի տրվել:</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Դուք պետք է մոտակա սարքերին (Bluetooth) թույլտվություն տրամադրեք իրադարձությունների ավտոմատ ձայնագրման համար: Դա կարելի է անել հավելվածի համակարգի կարգավորումներում:</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Ծանուցումները պահանջվում են, որպեսզի կարողանանք ցուցադրել ֆոնային ձայնագրման ծառայությունը և ձայնագրման կարգավիճակը ծանուցման վահանակում:</string>
+
+    
 </resources>

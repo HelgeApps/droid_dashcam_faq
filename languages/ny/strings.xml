@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Kamera imafunika kujambula kanema ndikuwonetsa kamera.</string>
     <string name="permission_camera_dlg_title">Kusintha kwa kamera</string>
     <string name="permission_camera_request_canceled">Pulogalamuyi ikufunika chilolezo kuti igwiritse ntchito kamera kujambula kanema. Koma inu munazikana izo. Kutseka… Yesani kupereka chilolezo ku kamera muzokonda za pulogalamuyi</string>
-    <string name="permission_location_dlg_explanation_msg">Ikachepetsedwa, Droid Dashcam imagwiritsa ntchito malo akumbuyo kujambula zolumikizira, ma adilesi ndi liwiro pavidiyo yojambulidwa.</string>
+    <string name="permission_location_dlg_explanation_msg">Malo amafunikira kuti mujambule zolumikizira, maadiresi ndi liwiro pavidiyo yojambulidwa, kapena kuwonetsa izi pazenera lalikulu (malingana ndi makonda anu).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Pa Android 11 (R), muyenera kusankha pamanja \"Nthawi zonse (njira iliyonse)\" pazokonda zamakina kuti mulole malo kumbuyo. Zokonda zidzatsegulidwa pambuyo pa zenerali.</string>
     <string name="permission_location_dlg_msg">Malowa ndi ofunikira kuti mudziwe kuthamanga kwa mayendedwe pogwiritsa ntchito data ya GPS, adilesi yomwe ilipo komanso zolumikizira kuti ziwonetsedwe pazenera komanso kujambula mawu am\'munsi pavidiyo.</string>
     <string name="permission_location_dlg_title">Chilolezo cha malo</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Zadzidzidzi</string>
     <string name="rec_fix_short_text">Kukonza</string>
     <string name="rec_fix_text">Kukonza</string>
-    <string name="rec_free_space_text">Likupezeka</string>
+    <string name="rec_available_space_text">Likupezeka</string>
     <string name="rec_gps_status_satellites_few_text">ma satelayiti</string>
     <string name="rec_gps_status_satellites_many_text">ma satelayiti</string>
     <string name="rec_gps_status_satellites_one_text">satellite</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Kujambula kwayamba</string>
     <string name="recording_voice_stopped_text">Kujambulitsa kwayimitsidwa</string>
 
-    <string name="service_no_system_alert_window_granted_text">Yalephera kuyambitsa ntchito ya Droid Dashcam kuti ingoyambitsa /kuyimitsa kujambula chifukwa chilolezo cha SYSTEM_ALERT_WINDOW (chiwonetsero pamawindo a mapulogalamu ena) sichinapatsidwe. Kapena chipangizocho chidatsekedwa panthawiyi (zoletsa za Android ndikuti chipangizocho chiyenera kutsegulidwa choyamba ndipo chinsalu chake chiyenera kuyatsidwa ntchito yojambulira mavidiyo isanayambe)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Pulogalamuyi sinathe kutsegulidwa kuti iyambe kujambula chifukwa chilolezo cha \"chiwonetsero pamwamba pa mapulogalamu onse\" sichinapatsidwe. Dinani kuti mupereke</string>
     <string name="service_watch_on_boot_completed_text">Pamene kuyatsa chipangizo</string>
 
     <string name="storage_external_single">MicroSD khadi</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Letsani kukhathamiritsa kwa batri la pulogalamuyi pazokonda pazida zanu kuti mupewe zolakwika zamtsogolo za kamera</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Kujambulitsa kokha pamene ntchito ikuyenda</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Ngati mutatsegula njirayi, ndiye kuti kujambula kokha sikungachitike ngati ntchito yowunikira sikuyenda ndipo sizikuwoneka pagulu lazidziwitso.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Kujambulitsa zokha ngakhale ntchito yakumbuyo (Woyang\'anira) sikuyenda</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Mutha kuzimitsa njirayi kuti pulogalamuyo ijambule zokha ngati ntchito yakumbuyo ya pulogalamuyo (Woyang\'anira) ikugwira ntchito.\n- Kujambulitsa kokha kwa zochitika monga kulipiritsa, Bluetooth kapena AUX zitha kuchitika popanda mavuto mpaka Android 7.1.\n- Kuyambira pa Android 8, kujambula zokha popanda ntchito yakumbuyo (Woyang\'anira) kumatha kuchitika pazochitika za Bluetooth, ndipo nthawi zina (polipira kapena AUX) muyenera kuyambitsa ntchito yakumbuyo (Woyang\'anira) - poyambitsa ntchito yokha kamodzi.\n- Kuyambira ndi Android 11 popanda ntchito yakumbuyo ya pulogalamu (Woyang\'anira), mwayi wopeza kamera popanda kuyanjana ndi wogwiritsa ntchito ndizotheka pokhapokha ngati foni yatsegulidwa (chotchingira) komanso chilolezo \"pamwamba pa mapulogalamu onse\" chikuperekedwa.\n- Chifukwa chake, pa Android 11 ndi kupitilira apo, muyenera kuyambitsa pulogalamuyo kamodzi kuti ntchito yakumbuyo ya pulogalamuyo (Woyang\'anira) iyambe kujambula pazochitika zilizonse komanso foni ikazimitsidwa.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Ma subtitles pansi</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Ndikofunikira kuti muzitha kuwonetsa ntchito yojambulira yakumbuyo ndi ma status pagawo lazidziwitso. Dinani kuti mupereke</string>
     <string name="prefs_warning_notifications_text">Chilolezo cha Zidziwitso</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Pazopereka zing\'onozing\'ono, zotsatsa zimachotsedwa pazowonekera kunyumba zokha</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Pazopereka zing\'onozing\'ono, kutsatsa kumachotsedwa pazenera lalikulu lokha</string>photo
     <string name="photos_folder_name">Zithunzi</string>
 
     <string name="photos_count_one">chithunzi</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Zalephera kutsegula kamera yosankhidwa. Zimachitika kuti si makamera onse obisika omwe angagwiritsidwe ntchito ndi pulogalamu iliyonse. Opanga ambiri amangolola kuti azigwiritsa ntchito m\'mapulogalamu awo achilengedwe. Kamera yokhazikika idzatsegulidwa.</string>
 
-    <string name="videos_ask_which_player">Funsani wosewera uti nthawi iliyonse\?</string>
+    <string name="videos_ask_which_player">Funsani kuti osewera azisewera pati</string>
 
     <string name="prefs_location_mode_text">Kufunika kwa GPS (Battery kapena Kulondola)</string>
     <string name="prefs_location_mode_balanced_text">Kulondola pakati pa kulondola kwamalo (makontrakitala), liwiro ndi kugwiritsa ntchito mphamvu ya batri.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Chotsani zotsatsa mpaka kalekale ndi chopereka chamtundu uliwonse. Mutha kuperekanso ndalama zilizonse pamwezi kuti muchotse zotsatsa</string>
 
     <string name="prefs_audio_bt_recording_text">Jambulani mawu kuchokera pa chipangizo cha Bluetooth</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Osagwiritsa ntchito ndi mutu (wailesi yamagalimoto)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Gwiritsani ntchito ndi mahedifoni a Bluetooth okha. Mukalumikiza kumutu (wailesi yamagalimoto) kudzera pa Bluetooth, pazifukwa zina izi zitha kuyambitsa kuyimba foni ku nambala yokhazikika pa chipangizochi.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Kujambulitsa paokha pamalumikizidwe a Bluetooth kumafuna chilolezo. Dinani apa kuti mupereke</string>
+    <string name="prefs_warning_permission_bluetooth_text">Chilolezo cha Bluetooth sichinapatsidwe</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Pulogalamu sinathe kutsegulidwa kuti muyambe kujambula chifukwa chinsalucho chidazimitsidwa (chotsekedwa). Yambitsani ntchito yojambulira kumbuyo (Woyang\'anira) kuti mukonze izi.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Pulogalamu sinathe kutsegulidwa chifukwa chinsalucho chidazimitsidwa (chotsekedwa).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Pulogalamu yomwe mwasankhayo sinathe kutsegulidwa kuti ingotsegulidwa yokha chifukwa chilolezo cha \"chiwonetsero pamwamba pa mapulogalamu onse\" sichinapatsidwe.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Muyenera kupereka chilolezo cha Nearby Devices (Bluetooth) kuti mujambule zochitika zokha. Izi zitha kuchitika muzokonda za pulogalamuyo.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Zidziwitso zimafunikira kuti muzitha kuwonetsa ntchito yojambulira yakumbuyo ndi mbiri yojambulira mu gulu lazidziwitso.</string>
+
+    
 </resources>

@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Kamera dibutuhake kanggo ngrekam video lan pratinjau kamera.</string>
     <string name="permission_camera_dlg_title">Resolusi kamera</string>
     <string name="permission_camera_request_canceled">Aplikasi iki mbutuhake ijin kanggo nggunakake kamera kanggo ngrekam video. Nanging sampeyan nolak. Nutup… Coba wenehi idin kanggo kamera ing setelan sistem aplikasi iki</string>
-    <string name="permission_location_dlg_explanation_msg">Nalika diminimalisir, Droid Dashcam nggunakake lokasi ing latar mburi kanggo nggambar koordinat, alamat lan kacepetan ing video sing direkam.</string>
+    <string name="permission_location_dlg_explanation_msg">Lokasi dibutuhake kanggo nggambar koordinat, alamat lan kacepetan ing video sing direkam, utawa nampilake data kasebut ing layar utama (gumantung saka setelan sampeyan).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Ing Android 11 (R), sampeyan kudu kanthi manual milih \"Kabeh wektu (mode apa wae)\" ing preferensi sistem kanggo ngidini lokasi ing latar mburi. Setelan bakal mbukak sawise jendhela iki.</string>
     <string name="permission_location_dlg_msg">Lokasi kasebut perlu kanggo nemtokake kacepetan transportasi nggunakake data GPS, alamat saiki lan koordinat kanggo ditampilake ing layar lan kanggo ngrekam subtitle ing video.</string>
     <string name="permission_location_dlg_title">Izin lokasi</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">Kanggo mbenerake</string>
     <string name="rec_fix_text">Kanggo mbenerake</string>
-    <string name="rec_free_space_text">kasedhiya</string>
+    <string name="rec_available_space_text">kasedhiya</string>
     <string name="rec_gps_status_satellites_few_text">satelit</string>
     <string name="rec_gps_status_satellites_many_text">satelit</string>
     <string name="rec_gps_status_satellites_one_text">satelit</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Rekaman wis diwiwiti</string>
     <string name="recording_voice_stopped_text">Rekaman mandheg</string>
 
-    <string name="service_no_system_alert_window_granted_text">Gagal miwiti layanan Droid Dashcam kanthi otomatis miwiti /mungkasi ngrekam amarga ijin SYSTEM_ALERT_WINDOW (tampilan ing kabeh jendhela aplikasi liyane) ora diwenehake. Utawa piranti kasebut dikunci ing wektu iki (Watesan Android yaiku piranti kudu dikunci dhisik lan layare kudu diuripake sadurunge layanan kanggo ngrekam video otomatis bisa diwiwiti)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Aplikasi ora bisa dibukak kanggo miwiti ngrekam amarga ijin \"nuduhake ing ndhuwur kabeh aplikasi\" ora diwenehake. Klik kanggo nyedhiyani</string>
     <string name="service_watch_on_boot_completed_text">Nalika nguripake piranti</string>
 
     <string name="storage_external_single">kertu MicroSD</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Pateni optimasi baterei kanggo aplikasi iki ing setelan piranti kanggo ngindhari kesalahan kamera ing mangsa ngarep</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Ngrekam otomatis mung nalika layanan lagi mlaku</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Yen sampeyan ngaktifake pilihan iki, rekaman otomatis ora bakal ditindakake yen layanan ngawasi ora mlaku lan ora katon ing panel kabar.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Ngrekam otomatis sanajan layanan latar mburi (Watcher) ora mlaku</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Sampeyan bisa mateni pilihan iki supaya aplikasi ngrekam otomatis mung yen layanan latar mburi aplikasi (Watcher) mlaku.\n- Rekaman otomatis kanggo acara kayata ngisi daya, Bluetooth utawa AUX bisa ditindakake tanpa masalah nganti Android 7.1.\n- Wiwit saka Android 8, rekaman otomatis tanpa layanan aplikasi latar mburi (Watcher) mung bisa ditindakake kanggo acara Bluetooth, lan ing kasus liyane (nalika ngisi daya utawa AUX) sampeyan kudu miwiti layanan aplikasi latar mburi (Watcher) - kanthi miwiti aplikasi dhewe sapisan.\n- Miwiti Android 11 tanpa layanan aplikasi latar mburi (Watcher), akses menyang kamera tanpa interaksi pangguna mung bisa ditindakake yen telpon ora dikunci (layar urip) lan ijin \"ing ndhuwur kabeh aplikasi\" diwenehake.\n- Dadi, kanggo Android 11 lan luwih dhuwur, sampeyan kudu mbukak aplikasi kanthi manual sapisan supaya layanan latar mburi aplikasi (Watcher) wiwit ngrekam kanthi otomatis sajrone acara apa wae lan nalika layar telpon dipateni.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Subtitle ing ngisor</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Dibutuhake supaya bisa nampilake layanan rekaman latar mburi lan status ing panel kabar. Klik kanggo ngirim</string>
     <string name="prefs_warning_notifications_text">Izin Notifikasi</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Kanggo sumbangan sing luwih cilik, iklan dibusak mung kanggo layar ngarep</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Kanggo sumbangan sing luwih cilik, iklan mung dibusak ing layar utama</string>photo
     <string name="photos_folder_name">Foto</string>
 
     <string name="photos_count_one">foto</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Gagal mbukak kamera sing dipilih. Kedaden ora kabeh kamera sing didhelikake bisa digunakake dening aplikasi apa wae. Akeh manufaktur mung ngidini panggunaan ing aplikasi asline. Kamera gawan bakal mbukak.</string>
 
-    <string name="videos_ask_which_player">Takon ing kang pamuter kanggo muter saben wektu\?</string>
+    <string name="videos_ask_which_player">Takon kang pamuter kanggo muter ing</string>
 
     <string name="prefs_location_mode_text">Prioritas GPS (Baterei utawa Akurasi)</string>
     <string name="prefs_location_mode_balanced_text">Balance antarane akurasi lokasi (koordinat), kacepetan lan konsumsi daya baterei.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Mbusak iklan ing salawas-lawase kanthi sumbangan siji-wektu kanthi jumlah apa wae. Sampeyan uga bisa nyumbang jumlah apa wae saben wulan kanggo mbusak iklan</string>
 
     <string name="prefs_audio_bt_recording_text">Rekam audio saka piranti Bluetooth</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Aja nggunakake unit sirah (radio mobil)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Gunakake mung nganggo headphone Bluetooth. Yen sampeyan nyambungake menyang unit sirah (radio mobil) liwat Bluetooth, sakperangan alesan iki bisa kanthi otomatis micu telpon menyang nomer standar ing piranti iki.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Ngrekam otomatis liwat sambungan Bluetooth mbutuhake ijin. Klik kene kanggo ngirim</string>
+    <string name="prefs_warning_permission_bluetooth_text">Idin Bluetooth ora diwenehake</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Aplikasi ora bisa dibukak kanggo miwiti ngrekam amarga layar dipateni (dikunci). Jalanake layanan rekaman latar mburi (Watcher) kanggo ndandani iki.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Aplikasi ora bisa dibukak amarga layar dipateni (dikunci).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Aplikasi kasebut ora bisa dibukak kanthi otomatis amarga ijin \"nuduhake ing ndhuwur kabeh aplikasi\" ora diwenehake.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Sampeyan kudu menehi ijin Piranti Cedhak (Bluetooth) kanggo ngrekam acara otomatis. Iki bisa ditindakake ing setelan sistem aplikasi.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Kabar dibutuhake supaya bisa nampilake layanan rekaman latar mburi lan status rekaman ing panel kabar.</string>
+
+    
 </resources>

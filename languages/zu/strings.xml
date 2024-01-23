@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Ikhamera iyadingeka ukuze kuqoshwe ividiyo kanye nokuhlola kuqala kwekhamera.</string>
     <string name="permission_camera_dlg_title">Ukulungiswa kwekhamera</string>
     <string name="permission_camera_request_canceled">Lolu hlelo lokusebenza ludinga imvume yokusebenzisa ikhamera ukurekhoda ividiyo. Kodwa wenqaba. Iyavala… Zama ukunikeza imvume kukhamera kuzilungiselelo zesistimu zalolu hlelo lokusebenza</string>
-    <string name="permission_location_dlg_explanation_msg">Uma incishisiwe, i-Droid Dashcam isebenzisa indawo engemuva ukuze idwebe izixhumanisi, ikheli kanye nesivinini kuvidiyo erekhodiwe.</string>
+    <string name="permission_location_dlg_explanation_msg">Indawo iyadingeka ukuze udwebe izixhumanisi, ikheli kanye nesivinini kuvidiyo erekhodiwe, noma ubonise le datha esikrinini esikhulu (kuye ngezilungiselelo zakho).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Ku-Android 11 (R), udinga ukukhetha mathupha okuthi \"Ngaso sonke isikhathi (noma iyiphi imodi)\" kuzintandokazi zesistimu ukuze uvumele indawo engemuva. Izilungiselelo zizovuleka ngemva kwaleli windi.</string>
     <string name="permission_location_dlg_msg">Indawo iyadingeka ukuze kunqunywe isivinini sokuthutha kusetshenziswa idatha ye-GPS, ikheli lamanje nezixhumanisi ukuze ziboniswe esikrinini kanye nokurekhoda imibhalo engezansi kuvidiyo.</string>
     <string name="permission_location_dlg_title">Imvume yendawo</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Okuzenzakalelayo</string>
     <string name="rec_fix_short_text">Ukulungisa</string>
     <string name="rec_fix_text">Ukulungisa</string>
-    <string name="rec_free_space_text">Iyatholakala</string>
+    <string name="rec_available_space_text">Iyatholakala</string>
     <string name="rec_gps_status_satellites_few_text">amasathelayithi</string>
     <string name="rec_gps_status_satellites_many_text">amasathelayithi</string>
     <string name="rec_gps_status_satellites_one_text">isathelayithi</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Ukuqopha sekuqalile</string>
     <string name="recording_voice_stopped_text">Ukurekhoda kumisiwe</string>
 
-    <string name="service_no_system_alert_window_granted_text">Yehlulekile ukuqalisa isevisi ye-Droid Dashcam ukuze iqalise ngokuzenzakalela /iyeke ukurekhoda ngenxa yokuthi imvume ye-SYSTEM_ALERT_WINDOW (bonisa kuwo wonke amawindi ezinye izinhlelo zokusebenza) ayizange inikezwe. Noma idivayisi ibikhiyiwe kuleli phuzu (umkhawulo we-Android ukuthi idivayisi kufanele iqale ivulwe futhi isikrini sayo kufanele sivulwe ngaphambi kokuthi isevisi yokuqoshwa kwevidiyo okuzenzakalelayo iqalise)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Uhlelo lokusebenza alukwazanga ukuvulwa ukuze luqale ukurekhoda ngoba imvume \"yokubonisa phezu kwazo zonke izinhlelo zokusebenza\" ayizange inikezwe. Chofoza ukuze unikeze</string>
     <string name="service_watch_on_boot_completed_text">Uma uvula idivayisi</string>
 
     <string name="storage_external_single">Ikhadi le-MicroSD</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Khubaza ukulungiselelwa kwebhethri kwalolu hlelo lokusebenza kuzilungiselelo zedivayisi yakho ukuze ugweme amaphutha ekhamera azayo</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Ukurekhoda okuzenzakalelayo kuphela uma isevisi isebenza</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Uma unika amandla le nketho, khona-ke ukurekhoda okuzenzakalelayo ngeke kwenziwe uma isevisi yokuqapha ingasebenzi futhi ingabonakali kuphaneli yezaziso.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Ukurekhoda okuzenzakalelayo noma ngabe isevisi yangemuva (Isibukeli) ingasebenzi</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Ungacisha le nketho ukuze uhlelo lokusebenza luqophe ngokuzenzakalelayo kuphela uma isevisi yangemuva yohlelo lokusebenza (Umlindi) isebenza.\n- Ukuqoshwa okuzenzakalelayo kwemicimbi efana nokushaja, i-Bluetooth noma i-AUX kungenziwa ngaphandle kwezinkinga kuze kufike ku-Android 7.1.\n- Kusukela ku-Android 8, ukuqoshwa okuzenzakalelayo ngaphandle kwensiza yohlelo lokusebenza lwangemuva (Isibukeli) kungenziwa kuphela emicimbini ye-Bluetooth, futhi kwezinye izimo (uma ushaja noma i-AUX) udinga ukuqala isevisi yohlelo lwangemuva (Umlindi) - ngokwethula isicelo uqobo kanye.\n- Ukuqala nge-Android 11 ngaphandle kwensizakalo yohlelo lokusebenza lwangemuva (Isibukeli), ukufinyelela ikhamera ngaphandle kokuxhumana komsebenzisi kungenzeka kuphela uma ifoni ivuliwe (isikrini sivuliwe) futhi imvume \"phezu kwazo zonke izinhlelo zokusebenza\" inikezwe.\n- Ngakho-ke, ku-Android 11 nangaphezulu, udinga ukwethula uhlelo lokusebenza mathupha ukuze insiza yangemuva yohlelo lokusebenza (Umlindi) iqale ukurekhoda ngokuzenzakalelayo phakathi nanoma yimiphi imicimbi nalapho isikrini sefoni sivaliwe.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Imibhalo engezansi ngezansi</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Kuyadingeka ukuze ukwazi ukubonisa isevisi yokurekhoda engemuva kanye nezimo kuphaneli yezaziso. Chofoza ukuze uthumele</string>
     <string name="prefs_warning_notifications_text">Imvume yesaziso</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Ngeminikelo emincane, izikhangiso zikhishelwa esikrinini sasekhaya kuphela</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Ngeminikelo emincane, ukukhangisa kususwa esikrinini esikhulu kuphela</string>photo
     <string name="photos_folder_name">Izithombe</string>
 
     <string name="photos_count_one">isithombe</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Yehlulekile ukuvula ikhamera ekhethiwe. Kwenzeka ukuthi akuwona wonke amakhamera afihliwe angasetshenziswa yinoma yiluphi uhlelo lokusebenza. Abakhiqizi abaningi bavumela kuphela ukusetshenziswa kwabo ezinhlelweni zabo zomdabu. Ikhamera ezenzakalelayo izovuleka.</string>
 
-    <string name="videos_ask_which_player">Buza ukuthi imuphi umdlali okumele adlale ngaso sonke isikhathi\?</string>
+    <string name="videos_ask_which_player">Buza ukuthi yimuphi umdlali ozodlala kuye</string>
 
     <string name="prefs_location_mode_text">Okubalulekile kwe-GPS (Ibhethri noma Ukunemba)</string>
     <string name="prefs_location_mode_balanced_text">Ibhalansi phakathi kokunemba kwendawo (izixhumanisi), isivinini kanye nokusetshenziswa kwamandla ebhethri.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Susa izikhangiso unaphakade ngomnikelo wesikhathi esisodwa wanoma yiliphi inani. Ungakwazi futhi ukunikela nganoma iyiphi imali nyanga zonke ukuze ususe izikhangiso</string>
 
     <string name="prefs_audio_bt_recording_text">Rekhoda umsindo kusuka kudivayisi ye-Bluetooth</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Ungasebenzisi neyunithi yekhanda (umsakazo wemoto)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Sebenzisa kuphela ngama-headphone e-Bluetooth. Uma uxhuma kuyunithi yekhanda (umsakazo wemoto) nge-Bluetooth, ngenxa yesizathu esithile lokhu kungase kuqalise ngokuzenzakalelayo ucingo oluya enombolweni evamile kule divayisi.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Ukurekhoda okuzenzakalelayo ngoxhumo lwe-Bluetooth kudinga imvume. Chofoza lapha ukuze uthumele</string>
+    <string name="prefs_warning_permission_bluetooth_text">Imvume ye-Bluetooth ayinikiwe</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Uhlelo lokusebenza alukwazanga ukuvulwa ukuze luqale ukurekhoda ngoba isikrini besivaliwe (sikhiyiwe). Qalisa isevisi yokurekhoda yangemuva (Isibukeli) ukuze ulungise lokhu.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Uhlelo lokusebenza alukwazanga ukuvulwa ngoba isikrini besivaliwe (sikhiyiwe).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Uhlelo lokusebenza olushiwo alukwazanga ukuqaliswa ukuze luvuleke ngokuzenzakalelayo ngoba imvume \"yokubonisa phezu kwazo zonke izinhlelo zokusebenza\" ayizange inikezwe.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Kufanele unikeze Amadivayisi Aseduze (i-Bluetooth) imvume yokurekhoda umcimbi okuzenzakalelayo. Lokhu kungenziwa kuzilungiselelo zesistimu yohlelo lokusebenza.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Izaziso ziyadingeka ukuze ukwazi ukubonisa isevisi yokurekhoda engemuva nesimo sokurekhoda kuphaneli yezaziso.</string>
+
+    
 </resources>

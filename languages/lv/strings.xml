@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Kamera ir nepieciešama video ierakstīšanai un kameras priekšskatīšanai.</string>
     <string name="permission_camera_dlg_title">Kameras izšķirtspēja</string>
     <string name="permission_camera_request_canceled">Šai lietojumprogrammai ir nepieciešama atļauja izmantot kameru video ierakstīšanai. Bet jūs to noraidījāt. Notiek aizvērt… Mēģiniet piešķirt atļauju kamerai šīs lietojumprogrammas sistēmas iestatījumos</string>
-    <string name="permission_location_dlg_explanation_msg">Kad tas ir minimizēts, Droid Dashcam izmanto atrašanās vietu fonā, lai ierakstītā video zīmētu koordinātas, adresi un ātrumu.</string>
+    <string name="permission_location_dlg_explanation_msg">Atrašanās vieta ir nepieciešama, lai ierakstītajā video uzzīmētu koordinātas, adresi un ātrumu vai parādītu šos datus galvenajā ekrānā (atkarībā no jūsu iestatījumiem).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Operētājsistēmā Android 11 (R) sistēmas preferencēs manuāli jāatlasa “Visu laiku (jebkurš režīms)”, lai atļautu atrašanās vietu fonā. Iestatījumi tiks atvērti pēc šī loga.</string>
     <string name="permission_location_dlg_msg">Atrašanās vieta ir nepieciešama, lai noteiktu transporta ātrumu, izmantojot GPS datus, pašreizējo adresi un koordinātas parādīšanai ekrānā un subtitru ierakstīšanai video</string>
     <string name="permission_location_dlg_title">Atrašanās vietas atļauja</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">Izlabot</string>
     <string name="rec_fix_text">Izlabot</string>
-    <string name="rec_free_space_text">Pieejams</string>
+    <string name="rec_available_space_text">Pieejams</string>
     <string name="rec_gps_status_satellites_few_text">satelīti</string>
     <string name="rec_gps_status_satellites_many_text">satelīti</string>
     <string name="rec_gps_status_satellites_one_text">satelīts</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Ieraksts ir sācies</string>
     <string name="recording_voice_stopped_text">Ierakstīšana pārtraukta</string>
 
-    <string name="service_no_system_alert_window_granted_text">Neizdevās palaist pakalpojumu Droid Dashcam, lai automātiski sāktu/pārtrauktu ierakstīšanu, jo netika piešķirta SYSTEM_ALERT_WINDOW atļauja (rādīšana visos citu lietojumprogrammu logos). Vai arī ierīce šajā brīdī tika bloķēta (Android ierobežojums paredz, ka ierīce vispirms ir jāatbloķē un jāieslēdz tās ekrāns, lai varētu palaist automātiskās video ierakstīšanas pakalpojumu)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Lietotni nevarēja atvērt, lai sāktu ierakstīšanu, jo netika piešķirta atļauja \"rādīt visu lietotņu augšdaļā\". Noklikšķiniet, lai sniegtu</string>
     <string name="service_watch_on_boot_completed_text">Ieslēdzot ierīci</string>
 
     <string name="storage_external_single">MicroSD karte</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Ierīces iestatījumos atspējojiet šīs lietotnes akumulatora optimizāciju, lai turpmāk izvairītos no kameras kļūdām</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Automātiska ierakstīšana tikai tad, kad pakalpojums darbojas</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Ja iespējosit šo opciju, automātiskā ierakstīšana netiks veikta, ja uzraudzības pakalpojums nedarbojas un nav redzams paziņojumu panelī</string>
+    <string name="prefs_rules_auto_start_without_service_text">Automātiska ierakstīšana pat tad, ja fona pakalpojums (Watcher) nedarbojas</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Varat izslēgt šo opciju, lai programma veiktu automātisku ierakstīšanu tikai tad, ja darbojas lietojumprogrammas fona pakalpojums (Watcher).\n- Automātisku notikumu, piemēram, uzlādes, Bluetooth vai AUX ierakstīšanu var veikt bez problēmām līdz operētājsistēmai Android 7.1.\n- Sākot ar operētājsistēmu Android 8, automātisko ierakstīšanu bez fona lietojumprogrammas pakalpojuma (Watcher) var veikt tikai Bluetooth notikumiem, un citos gadījumos (uzlādējot vai AUX) vispirms ir jāstartē fona lietojumprogrammas pakalpojums (Watcher) - palaižot pati lietojumprogramma vienreiz.\n- Sākot ar operētājsistēmu Android 11 bez fona lietotņu pakalpojuma (Watcher), piekļuve kamerai bez lietotāja iejaukšanās ir iespējama tikai tad, ja tālrunis ir atbloķēts (ekrāns ir ieslēgts) un ir piešķirta atļauja “visām lietotnēm virsū”.\n- Tādējādi operētājsistēmai Android 11 un jaunākām versijām vienreiz ir manuāli jāpalaiž lietojumprogramma, lai lietojumprogrammas fona pakalpojums (Watcher) sāktu automātiski ierakstīt jebkādu notikumu laikā un tad, kad tālruņa ekrāns ir izslēgts.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Subtitri apakšā</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Nepieciešams, lai paziņojumu panelī varētu parādīt fona ierakstīšanas pakalpojumu un statusus. Noklikšķiniet, lai iesniegtu</string>
     <string name="prefs_warning_notifications_text">Paziņojumu atļauja</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Mazākiem ziedojumiem reklāmas tiek noņemtas tikai sākuma ekrānam</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Mazākiem ziedojumiem reklāma tiek noņemta tikai galvenajā ekrānā</string>photo
     <string name="photos_folder_name">Fotogrāfijas</string>
 
     <string name="photos_count_one">foto</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Neizdevās atvērt atlasīto kameru. Gadās, ka ne visas slēptās kameras var izmantot neviena lietojumprogramma. Daudzi ražotāji atļauj to izmantošanu tikai savās vietējās lietojumprogrammās. Tiks atvērta noklusējuma kamera.</string>
 
-    <string name="videos_ask_which_player">Pajautājiet, kurā spēlētājā spēlēt katru reizi\?</string>
+    <string name="videos_ask_which_player">Pajautājiet, kurā spēlētājā spēlēt</string>
 
     <string name="prefs_location_mode_text">GPS prioritāte (akumulators vai precizitāte)</string>
     <string name="prefs_location_mode_balanced_text">Līdzsvars starp atrašanās vietas precizitāti (koordinātām), ātrumu un akumulatora enerģijas patēriņu.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Noņemiet reklāmas uz visiem laikiem, veicot jebkādas summas vienreizēju ziedojumu. Varat arī ziedot jebkuru summu mēnesī, lai noņemtu reklāmas</string>
 
     <string name="prefs_audio_bt_recording_text">Ierakstiet audio no Bluetooth ierīces</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Nelietot kopā ar galvas bloku (automašīnas radio)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Izmantojiet tikai ar Bluetooth austiņām. Ja izveidojat savienojumu ar galveno ierīci (automašīnas radio), izmantojot Bluetooth, kāda iemesla dēļ tas var automātiski aktivizēt tālruņa zvanu uz šīs ierīces standarta numuru.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Automātiskai ierakstīšanai, izmantojot Bluetooth savienojumus, ir nepieciešama atļauja. Noklikšķiniet šeit, lai iesniegtu</string>
+    <string name="prefs_warning_permission_bluetooth_text">Bluetooth atļauja nav piešķirta</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Lietojumprogrammu nevarēja atvērt, lai sāktu ierakstīšanu, jo ekrāns bija izslēgts (bloķēts). Palaidiet fona ierakstīšanas pakalpojumu (Watcher), lai to novērstu.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Lietojumprogrammu nevarēja atvērt, jo ekrāns bija izslēgts (bloķēts).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Norādīto lietojumprogrammu nevarēja palaist, lai tā tiktu automātiski atvērta, jo netika piešķirta atļauja \"rādīt visu lietojumprogrammu augšdaļā\".</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Jums ir jāpiešķir tuvumā esošajām ierīcēm (Bluetooth) atļauja automātiskai notikumu ierakstīšanai. To var izdarīt lietojumprogrammas sistēmas iestatījumos.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Paziņojumi ir nepieciešami, lai paziņojumu panelī varētu parādīt fona ierakstīšanas pakalpojumu un ierakstīšanas statusu.</string>
+
+    
 </resources>

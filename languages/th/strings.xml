@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">กล้องจำเป็นสำหรับการบันทึกวิดีโอและการแสดงตัวอย่างกล้อง</string>
     <string name="permission_camera_dlg_title">ความละเอียดของกล้อง</string>
     <string name="permission_camera_request_canceled">แอปพลิเคชันนี้ต้องได้รับอนุญาตให้ใช้กล้องเพื่อบันทึกวิดีโอ แต่คุณปฏิเสธ กำลังปิด… ลองให้สิทธิ์กล้องในการตั้งค่าระบบของแอปพลิเคชันนี้</string>
-    <string name="permission_location_dlg_explanation_msg">เมื่อย่อเล็กสุด Droid Dashcam จะใช้ตำแหน่งในพื้นหลังเพื่อวาดพิกัด ที่อยู่ และความเร็วของวิดีโอที่บันทึก</string>
+    <string name="permission_location_dlg_explanation_msg">จำเป็นต้องมีตำแหน่งเพื่อวาดพิกัด ที่อยู่ และความเร็วของวิดีโอที่บันทึก หรือแสดงข้อมูลนี้บนหน้าจอหลัก (ขึ้นอยู่กับการตั้งค่าของคุณ)</string>
     <string name="permission_location_dlg_explanation_settings_msg">ใน Android 11 (R) คุณต้องเลือก \"ตลอดเวลา (โหมดใดก็ได้)\" ด้วยตนเองในการตั้งค่าระบบเพื่ออนุญาตตำแหน่งในเบื้องหลัง การตั้งค่าจะเปิดขึ้นหลังจากหน้าต่างนี้</string>
     <string name="permission_location_dlg_msg">ตำแหน่งเป็นสิ่งจำเป็นในการกำหนดความเร็วของการขนส่งโดยใช้ข้อมูล GPS ที่อยู่ปัจจุบันและพิกัดสำหรับการแสดงผลบนหน้าจอและสำหรับการบันทึกคำบรรยายในวิดีโอ</string>
     <string name="permission_location_dlg_title">การอนุญาตตำแหน่ง</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">รถยนต์</string>
     <string name="rec_fix_short_text">ถูกต้อง</string>
     <string name="rec_fix_text">ถูกต้อง</string>
-    <string name="rec_free_space_text">มีอยู่</string>
+    <string name="rec_available_space_text">มีอยู่</string>
     <string name="rec_gps_status_satellites_few_text">ดาวเทียม</string>
     <string name="rec_gps_status_satellites_many_text">ดาวเทียม</string>
     <string name="rec_gps_status_satellites_one_text">ดาวเทียม</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">เริ่มบันทึกแล้ว</string>
     <string name="recording_voice_stopped_text">การบันทึกหยุดลง</string>
 
-    <string name="service_no_system_alert_window_granted_text">ไม่สามารถเริ่มบริการ Droid Dashcam เพื่อเริ่ม /หยุดการบันทึกโดยอัตโนมัติเนื่องจากไม่ได้รับอนุญาต SYSTEM_ALERT_WINDOW (แสดงบนหน้าต่างทั้งหมดของแอปพลิเคชันอื่น ๆ ) หรืออุปกรณ์ถูกล็อค ณ จุดนี้ (ข้อจำกัดของ Android คือต้องปลดล็อกอุปกรณ์ก่อนและต้องเปิดหน้าจอก่อนจึงจะสามารถเริ่มบริการบันทึกวิดีโออัตโนมัติได้)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">ไม่สามารถเปิดแอปเพื่อเริ่มการบันทึกได้เนื่องจากไม่ได้รับอนุญาตให้ \"แสดงที่ด้านบนของแอปทั้งหมด\" คลิกเพื่อให้</string>
     <string name="service_watch_on_boot_completed_text">เมื่อเปิดเครื่อง</string>
 
     <string name="storage_external_single">การ์ด MicroSD</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">ปิดใช้งานการเพิ่มประสิทธิภาพแบตเตอรี่สำหรับแอปนี้ในการตั้งค่าอุปกรณ์ของคุณเพื่อหลีกเลี่ยงข้อผิดพลาดของกล้องในอนาคต</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">บันทึกอัตโนมัติเฉพาะเมื่อบริการกำลังทำงาน</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">หากคุณเปิดใช้งานตัวเลือกนี้ การบันทึกอัตโนมัติจะไม่ทำงานหากบริการตรวจสอบไม่ทำงานและไม่ปรากฏในแผงการแจ้งเตือน</string>
+    <string name="prefs_rules_auto_start_without_service_text">บันทึกอัตโนมัติแม้ว่าบริการพื้นหลัง (Watcher) จะไม่ได้ทำงานอยู่ก็ตาม</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* คุณสามารถปิดตัวเลือกนี้เพื่อให้แอปพลิเคชันทำการบันทึกอัตโนมัติเฉพาะในกรณีที่บริการพื้นหลังของแอปพลิเคชัน (Watcher) กำลังทำงานอยู่\n- บันทึกเหตุการณ์อัตโนมัติ เช่น การชาร์จ บลูทูธ หรือ AUX ได้โดยไม่มีปัญหา จนถึง Android 7.1\n- เริ่มต้นจาก Android 8 การบันทึกอัตโนมัติโดยไม่มีบริการแอปพลิเคชันพื้นหลัง (Watcher) สามารถทำได้สำหรับกิจกรรม Bluetooth เท่านั้น และในกรณีอื่น ๆ (เมื่อชาร์จหรือ AUX) คุณต้องเริ่มบริการแอปพลิเคชันพื้นหลัง (Watcher) ก่อน - โดยการเปิดตัว สมัครเองครั้งเดียว\n- เริ่มต้นด้วย Android 11 ที่ไม่มีบริการแอปพื้นหลัง (Watcher) การเข้าถึงกล้องโดยไม่ต้องมีการโต้ตอบจากผู้ใช้จะทำได้ก็ต่อเมื่อโทรศัพท์ถูกปลดล็อค (เปิดหน้าจอ) และได้รับอนุญาต \"ที่ด้านบนของแอปทั้งหมด\"\n- ดังนั้น สำหรับ Android 11 และสูงกว่า คุณจะต้องเปิดแอปพลิเคชันด้วยตนเองหนึ่งครั้งเพื่อให้บริการพื้นหลังของแอปพลิเคชัน (Watcher) เริ่มบันทึกโดยอัตโนมัติระหว่างเหตุการณ์ใด ๆ และเมื่อหน้าจอโทรศัพท์ปิดอยู่</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">คำบรรยายที่ด้านล่าง</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">จำเป็นเพื่อให้สามารถแสดงบริการบันทึกพื้นหลังและสถานะบนแผงการแจ้งเตือนได้ คลิกเพื่อส่ง</string>
     <string name="prefs_warning_notifications_text">อนุญาตการแจ้งเตือน</string>
 
-    <string name="donation_dlg_limited_ads_message_text">สำหรับการบริจาคจำนวนเล็กน้อย โฆษณาจะถูกลบสำหรับหน้าจอหลักเท่านั้น</string>photo
+    <string name="donation_dlg_limited_ads_message_text">สำหรับการบริจาคจำนวนเล็กน้อย โฆษณาจะถูกลบออกบนหน้าจอหลักเท่านั้น</string>photo
     <string name="photos_folder_name">ภาพถ่าย</string>
 
     <string name="photos_count_one">รูปถ่าย</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">ไม่สามารถเปิดกล้องที่เลือก มันเกิดขึ้นที่แอปพลิเคชันใด ๆ ไม่สามารถใช้กล้องที่ซ่อนอยู่ได้ทั้งหมด ผู้ผลิตหลายรายอนุญาตให้ใช้ในแอปพลิเคชันดั้งเดิมเท่านั้น กล้องเริ่มต้นจะเปิดขึ้น</string>
 
-    <string name="videos_ask_which_player">ถามว่าเล่นตัวไหนดีในแต่ละครั้ง\?</string>
+    <string name="videos_ask_which_player">ถามว่าผู้เล่นคนไหนที่จะเล่นด้วย</string>
 
     <string name="prefs_location_mode_text">ลำดับความสำคัญของ GPS (แบตเตอรี่หรือความแม่นยำ)</string>
     <string name="prefs_location_mode_balanced_text">สมดุลระหว่างความแม่นยำของตำแหน่ง (พิกัด) ความเร็ว และการใช้พลังงานแบตเตอรี่</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">ลบโฆษณาออกอย่างถาวรด้วยการบริจาคครั้งเดียวในจำนวนเท่าใดก็ได้ คุณสามารถบริจาคเงินจำนวนเท่าใดก็ได้ทุกเดือนเพื่อลบโฆษณา</string>
 
     <string name="prefs_audio_bt_recording_text">บันทึกเสียงจากอุปกรณ์บลูทูธ</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">ห้ามใช้กับเครื่องเสียงรถยนต์ (วิทยุติดรถยนต์)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">ใช้กับหูฟังบลูทูธเท่านั้น หากคุณเชื่อมต่อกับเครื่องเสียงรถยนต์ (วิทยุในรถยนต์) ผ่านบลูทูธ ด้วยเหตุผลบางประการ การทำเช่นนี้อาจทำให้มีการโทรไปยังหมายเลขมาตรฐานบนอุปกรณ์นี้โดยอัตโนมัติ</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">การบันทึกอัตโนมัติผ่านการเชื่อมต่อ Bluetooth ต้องได้รับอนุญาต คลิกที่นี่เพื่อส่ง</string>
+    <string name="prefs_warning_permission_bluetooth_text">ไม่ได้รับอนุญาตให้ใช้บลูทูธ</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">ไม่สามารถเปิดแอปพลิเคชันเพื่อเริ่มการบันทึกได้เนื่องจากหน้าจอปิดอยู่ (ล็อคอยู่) เรียกใช้บริการบันทึกพื้นหลัง (Watcher) เพื่อแก้ไขปัญหานี้</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">ไม่สามารถเปิดแอปพลิเคชันได้เนื่องจากหน้าจอปิดอยู่ (ล็อคอยู่)</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">ไม่สามารถเปิดแอปพลิเคชันที่ระบุให้เปิดโดยอัตโนมัติได้เนื่องจากไม่ได้รับอนุญาตให้ \"แสดงที่ด้านบนของแอปพลิเคชันทั้งหมด\"</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">คุณต้องให้สิทธิ์อุปกรณ์ใกล้เคียง (บลูทูธ) สำหรับการบันทึกเหตุการณ์อัตโนมัติ ซึ่งสามารถทำได้ในการตั้งค่าระบบของแอปพลิเคชัน</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">จำเป็นต้องมีการแจ้งเตือนเพื่อให้สามารถแสดงบริการบันทึกพื้นหลังและสถานะการบันทึกในแผงการแจ้งเตือน</string>
+
+    
 </resources>

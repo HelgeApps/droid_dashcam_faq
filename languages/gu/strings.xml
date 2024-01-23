@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">વિડીયો રેકોર્ડીંગ અને કેમેરા પ્રીવ્યુ માટે કેમેરા જરૂરી છે.</string>
     <string name="permission_camera_dlg_title">કેમેરા રીઝોલ્યુશન</string>
     <string name="permission_camera_request_canceled">આ એપ્લિકેશનને વિડિઓ રેકોર્ડ કરવા માટે કેમેરાનો ઉપયોગ કરવાની પરવાનગીની જરૂર છે. પણ તમે તેને ઠુકરાવી દીધો. બંધ કરી રહ્યું છે… આ એપ્લિકેશનની સિસ્ટમ સેટિંગ્સમાં કેમેરાને પરવાનગી આપવાનો પ્રયાસ કરો</string>
-    <string name="permission_location_dlg_explanation_msg">જ્યારે નાનું કરવામાં આવે છે, ત્યારે Droid Dashcam રેકોર્ડ કરેલ વિડિયો પર કોઓર્ડિનેટ્સ, સરનામું અને ઝડપ દોરવા માટે પૃષ્ઠભૂમિમાં સ્થાનનો ઉપયોગ કરે છે.</string>
+    <string name="permission_location_dlg_explanation_msg">રેકોર્ડ કરેલ વિડિયો પર કોઓર્ડિનેટ્સ, સરનામું અને ઝડપ દોરવા અથવા આ ડેટાને મુખ્ય સ્ક્રીન પર પ્રદર્શિત કરવા માટે સ્થાનની જરૂર છે (તમારી સેટિંગ્સના આધારે).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Android 11 (R) પર, તમારે પૃષ્ઠભૂમિમાં સ્થાનને મંજૂરી આપવા માટે સિસ્ટમ પસંદગીઓમાં \"બધા સમય (કોઈપણ મોડ)\" મેન્યુઅલી પસંદ કરવાની જરૂર છે. આ વિન્ડો પછી સેટિંગ્સ ખુલશે.</string>
     <string name="permission_location_dlg_msg">GPS ડેટા, વર્તમાન સરનામું અને સ્ક્રીન પર પ્રદર્શિત કરવા માટે અને વિડિઓ પર સબટાઈટલ રેકોર્ડ કરવા માટે કોઓર્ડિનેટ્સનો ઉપયોગ કરીને પરિવહનની ગતિ નક્કી કરવા માટે સ્થાન જરૂરી છે.</string>
     <string name="permission_location_dlg_title">સ્થાન પરવાનગી</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">ઓટો</string>
     <string name="rec_fix_short_text">સુધારવા માટે</string>
     <string name="rec_fix_text">સુધારવા માટે</string>
-    <string name="rec_free_space_text">ઉપલબ્ધ છે</string>
+    <string name="rec_available_space_text">ઉપલબ્ધ છે</string>
     <string name="rec_gps_status_satellites_few_text">ઉપગ્રહો</string>
     <string name="rec_gps_status_satellites_many_text">ઉપગ્રહો</string>
     <string name="rec_gps_status_satellites_one_text">ઉપગ્રહ</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">રેકોર્ડિંગ શરૂ થઈ ગયું છે</string>
     <string name="recording_voice_stopped_text">રેકોર્ડિંગ બંધ</string>
 
-    <string name="service_no_system_alert_window_granted_text">રેકોર્ડિંગને આપમેળે શરૂ /બંધ કરવા માટે Droid Dashcam સેવા શરૂ કરવામાં નિષ્ફળ કારણ કે SYSTEM_ALERT_WINDOW પરવાનગી (અન્ય એપ્લિકેશનની તમામ વિન્ડો પર ડિસ્પ્લે) મંજૂર કરવામાં આવી ન હતી. અથવા આ બિંદુએ ઉપકરણ લૉક કરવામાં આવ્યું હતું (Android પ્રતિબંધ એ છે કે ઉપકરણને પહેલા અનલૉક કરવું આવશ્યક છે અને ઑટોમેટિક વિડિઓ રેકોર્ડિંગ માટેની સેવા શરૂ થાય તે પહેલાં તેની સ્ક્રીન ચાલુ કરવી આવશ્યક છે)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">રેકોર્ડિંગ શરૂ કરવા માટે એપ ખોલી શકાઈ નથી કારણ કે \"તમામ એપ્સની ટોચ પર બતાવો\" પરવાનગી આપવામાં આવી ન હતી. પ્રદાન કરવા માટે ક્લિક કરો</string>
     <string name="service_watch_on_boot_completed_text">ઉપકરણ ચાલુ કરતી વખતે</string>
 
     <string name="storage_external_single">માઇક્રોએસડી કાર્ડ</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">ભવિષ્યમાં કૅમેરા ભૂલોને ટાળવા માટે તમારા ઉપકરણ સેટિંગ્સમાં આ એપ્લિકેશન માટે બેટરી ઑપ્ટિમાઇઝેશન અક્ષમ કરો</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">જ્યારે સેવા ચાલુ હોય ત્યારે જ આપોઆપ રેકોર્ડિંગ</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">જો તમે આ વિકલ્પને સક્ષમ કરો છો, તો જો મોનિટરિંગ સેવા ચાલી રહી ન હોય અને સૂચના પેનલમાં દૃશ્યમાન ન હોય તો આપોઆપ રેકોર્ડિંગ કરવામાં આવશે નહીં.</string>
+    <string name="prefs_rules_auto_start_without_service_text">જો પૃષ્ઠભૂમિ સેવા (વૉચર) ચાલુ ન હોય તો પણ સ્વચાલિત રેકોર્ડિંગ</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* તમે આ વિકલ્પને બંધ કરી શકો છો જેથી કરીને એપ્લીકેશનની બેકગ્રાઉન્ડ સર્વિસ (વોચર) ચાલુ હોય તો જ એપ્લીકેશન ઓટોમેટીક રેકોર્ડીંગ કરે.\n- ચાર્જિંગ, બ્લૂટૂથ અથવા AUX જેવી ઇવેન્ટ્સ માટે સ્વચાલિત રેકોર્ડિંગ Android 7.1 સુધીની સમસ્યાઓ વિના કરી શકાય છે.\n- એન્ડ્રોઇડ 8 થી શરૂ કરીને, બેકગ્રાઉન્ડ એપ્લિકેશન સેવા (વોચર) વિના સ્વચાલિત રેકોર્ડિંગ ફક્ત બ્લૂટૂથ ઇવેન્ટ્સ માટે જ કરી શકાય છે, અને અન્ય કિસ્સાઓમાં (ચાર્જ કરતી વખતે અથવા AUX) તમારે પહેલા પૃષ્ઠભૂમિ એપ્લિકેશન સેવા (વોચર) શરૂ કરવાની જરૂર છે - લોંચ કરીને એકવાર અરજી કરો.\n- બેકગ્રાઉન્ડ એપ સર્વિસ (વોચર) વિના એન્ડ્રોઇડ 11 થી શરૂ કરીને, વપરાશકર્તાની ક્રિયાપ્રતિક્રિયા વિના કૅમેરાની ઍક્સેસ ફક્ત ત્યારે જ શક્ય છે જો ફોન અનલૉક કરેલ હોય (સ્ક્રીન ચાલુ હોય) અને \"બધી એપ્સની ટોચ પર\" પરવાનગી આપવામાં આવે.\n- આમ, એન્ડ્રોઇડ 11 અને તેના પછીના વર્ઝન માટે, તમારે એકવાર મેન્યુઅલી એપ્લીકેશન લોન્ચ કરવાની જરૂર છે જેથી કરીને એપ્લીકેશનની બેકગ્રાઉન્ડ સર્વિસ (વોચર) કોઈપણ ઈવેન્ટ દરમિયાન અને જ્યારે ફોનની સ્ક્રીન બંધ હોય ત્યારે આપોઆપ રેકોર્ડ થવાનું શરૂ થાય.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">તળિયે સબટાઈટલ</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">સૂચના પેનલ પર પૃષ્ઠભૂમિ રેકોર્ડિંગ સેવા અને સ્થિતિઓ પ્રદર્શિત કરવામાં સક્ષમ થવા માટે જરૂરી છે. સબમિટ કરવા માટે ક્લિક કરો</string>
     <string name="prefs_warning_notifications_text">સૂચના પરવાનગી</string>
 
-    <string name="donation_dlg_limited_ads_message_text">નાના દાન માટે, જાહેરાતો ફક્ત હોમ સ્ક્રીન માટે દૂર કરવામાં આવે છે</string>photo
+    <string name="donation_dlg_limited_ads_message_text">નાના દાન માટે, જાહેરાત ફક્ત મુખ્ય સ્ક્રીન પર દૂર કરવામાં આવે છે</string>photo
     <string name="photos_folder_name">ફોટા</string>
 
     <string name="photos_count_one">ફોટો</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">પસંદ કરેલ કૅમેરા ખોલવામાં નિષ્ફળ. એવું બને છે કે કોઈપણ એપ્લિકેશન દ્વારા બધા છુપાયેલા કેમેરાનો ઉપયોગ કરી શકાતો નથી. ઘણા ઉત્પાદકો ફક્ત તેમના મૂળ એપ્લિકેશનમાં જ તેનો ઉપયોગ કરવાની મંજૂરી આપે છે. ડિફૉલ્ટ કૅમેરો ખુલશે.</string>
 
-    <string name="videos_ask_which_player">દરેક વખતે પૂછો કે કયા ખેલાડીમાં રમવું\?</string>
+    <string name="videos_ask_which_player">કયા ખેલાડીમાં રમવું તે પૂછો</string>
 
     <string name="prefs_location_mode_text">GPS પ્રાધાન્યતા (બેટરી અથવા ચોકસાઈ)</string>
     <string name="prefs_location_mode_balanced_text">સ્થાનની ચોકસાઈ (કોઓર્ડિનેટ્સ), ઝડપ અને બેટરી પાવર વપરાશ વચ્ચે સંતુલન.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">કોઈપણ રકમના એક વખતના દાન સાથે જાહેરાતોને કાયમ માટે દૂર કરો. તમે જાહેરાતો દૂર કરવા માટે માસિક કોઈપણ રકમનું દાન પણ કરી શકો છો</string>
 
     <string name="prefs_audio_bt_recording_text">બ્લૂટૂથ ડિવાઇસમાંથી ઑડિયો રેકોર્ડ કરો</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">હેડ યુનિટ (કાર રેડિયો) સાથે ઉપયોગ કરશો નહીં!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">બ્લૂટૂથ હેડફોન સાથે જ ઉપયોગ કરો. જો તમે બ્લૂટૂથ દ્વારા હેડ યુનિટ (કાર રેડિયો) સાથે કનેક્ટ કરો છો, તો કોઈ કારણસર આ ઉપકરણ પરના માનક નંબર પર ફોન કૉલને આપમેળે ટ્રિગર કરી શકે છે.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">બ્લૂટૂથ કનેક્શન્સ પર સ્વચાલિત રેકોર્ડિંગ માટે પરવાનગીની જરૂર છે. સબમિટ કરવા માટે અહીં ક્લિક કરો</string>
+    <string name="prefs_warning_permission_bluetooth_text">બ્લૂટૂથની પરવાનગી આપવામાં આવી નથી</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">રેકોર્ડિંગ શરૂ કરવા માટે એપ્લિકેશન ખોલી શકાઈ નથી કારણ કે સ્ક્રીન બંધ (લૉક) હતી. આને ઠીક કરવા માટે પૃષ્ઠભૂમિ રેકોર્ડિંગ સેવા (વૉચર) ચલાવો.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">એપ્લિકેશન ખોલી શકાઈ નથી કારણ કે સ્ક્રીન બંધ (લૉક) હતી.</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">ઉલ્લેખિત એપ્લિકેશન આપમેળે ખોલવા માટે શરૂ કરી શકાઈ નથી કારણ કે \"તમામ એપ્લિકેશન્સમાં ટોચ પર બતાવો\" પરવાનગી આપવામાં આવી ન હતી.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">સ્વચાલિત ઇવેન્ટ રેકોર્ડિંગ માટે તમારે નજીકના ઉપકરણો (બ્લુટુથ)ની પરવાનગી આપવી આવશ્યક છે. આ એપ્લિકેશનની સિસ્ટમ સેટિંગ્સમાં કરી શકાય છે.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">સૂચના પેનલમાં પૃષ્ઠભૂમિ રેકોર્ડિંગ સેવા અને રેકોર્ડિંગ સ્થિતિ પ્રદર્શિત કરવામાં સક્ષમ થવા માટે સૂચનાઓ આવશ્યક છે.</string>
+
+    
 </resources>

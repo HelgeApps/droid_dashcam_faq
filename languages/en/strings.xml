@@ -16,7 +16,11 @@
         characters that start with % are used to supply numbers or texts when the program is running
     -->
 
-    <string name="app_name">Droid Dashcam - Driving video recorder</string>
+    <string name="app_name"/>
+    <!-- aren't translatable: -->
+    <string name="app_name_short" translatable="false"/>
+    <string name="app_name_support" translatable="false"/>
+    <string name="app_name_short_spaced" translatable="false"/>
 
     <string name="any_text">Any</string>
     <string name="close">Close</string>`
@@ -128,7 +132,7 @@
     <string name="permission_camera_dlg_msg">Camera permission is needed for video recording and camera preview</string>
     <string name="permission_camera_dlg_title">Camera permission</string>
     <string name="permission_camera_request_canceled">This app needs permission for Camera for video recording. But you have declined it. Closing… Try to give Camera permission in System Settings for this app</string>
-    <string name="permission_location_dlg_explanation_msg">When the app is closed DroidDashcam use location in the background to draw coordinates, address and speed subtitles on a currently recording video.</string>
+    <string name="permission_location_dlg_explanation_msg">The location is needed to draw coordinates, address and speed on the recorded video, or display this data on the main screen (depending on your settings).</string>
     <string name="permission_location_dlg_explanation_settings_msg">On Android 11 (R) you need to select \"All all the time\" manually in the System Settings for accessing location in the background. Settings will be opened after this dialog.</string>
     <string name="permission_location_dlg_msg">Location permission is needed for calculating vehicle speed using GPS data, the current address and coordinates for display them on the screen and recording subtitles on videos</string>
     <string name="permission_location_dlg_title">Location permission</string>
@@ -185,7 +189,7 @@
     <string name="prefs_kill_services_text">Allowing background and off screen work</string>
     <string name="prefs_launch_app_none_text">Not chosen</string>
     <string name="prefs_launch_app_text">App to launch by the button</string>
-    <string name="prefs_location_manager">Location Manager (deprecated)</string>
+    <string name="prefs_location_manager">Location Manager (old method)</string>
     <string name="prefs_location_method_provider_sum_text">If speed values are bad then try the old method. If values are zero or rarely updated then try the new method</string>
     <string name="prefs_location_provider_method_text">Location (GPS) provider method</string>
     <string name="prefs_meters_accuracy_value_text">meters of accuracy</string>
@@ -342,7 +346,7 @@
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">@string/rec_fix_text</string>
     <string name="rec_fix_text">Fix</string>
-    <string name="rec_free_space_text">Available</string> <!-- it's about storage space, use "available" word for translation! -->
+    <string name="rec_available_space_text">Available</string> <!-- it's about storage space, use "available" word for translation! -->
     <string name="rec_location_text">Location</string>
     <string name="rec_gps_text">GPS</string>
     <string name="rec_network_text">NET</string>
@@ -366,7 +370,7 @@
     <string name="recording_voice_started_text">Recording started</string>
     <string name="recording_voice_stopped_text">Recording stopped </string>
 
-    <string name="service_no_system_alert_window_granted_text">Could not start Droid Dashcam service to auto start/stop recording. Because SYSTEM_ALERT_WINDOW (shown on top of all other apps) permission is not granted . Or device was locked at this moment (limitation on Android that device has to be unlocked  first and its screen has to be turned on before service for auto recording can be started)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">The app could not be opened to start recording because the \"show on top of all apps\" permission was not granted. Click to provide</string>
     <string name="service_watch_on_boot_completed_text">On boot completed</string>
 
     <string name="storage_external_single">MicroSD card</string>
@@ -403,12 +407,7 @@
     <string name="videos_storage_select_dlg_title">Select storage to view videos</string>
     <string name="videos_toolbar_subtitle">Videos</string>
 
-    <!-- aren't translatable: -->
-
-    <string name="app_name_short" translatable="false">DroidDashcam</string>
-    <string name="app_name_support" translatable="false">DroidDashcam Support</string>
     <string name="app_device_info_support" translatable="false">%1$s, Android %2$s, API %3$d</string>
-    <string name="app_name_short_spaced" translatable="false">Droid Dashcam</string>
 
     <string name="ph_2s" translatable="false">%1$s%2$s</string>
     <string name="ph_comma_2s" translatable="false">%1$s, %2$s</string>
@@ -465,8 +464,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Disable battery optimization for this app in your device settings to avoid future camera errors</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Automatic recording only when the service is running</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">If you enable this option, then automatic recording will not be performed if the monitoring service is not running and is not visible in the notification panel</string>
+    <string name="prefs_rules_auto_start_without_service_text">Automatic recording even if the background service (Watcher) is not running</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* You can turn off this option so that the application performs automatic recording only if the application\'s background service (Watcher) is running.\n- Automatic recording for events such as charging, Bluetooth or AUX can be performed without problems up to Android 7.1.\n- Starting from Android 8, automatic recording without a background application service (Watcher) can only be performed for Bluetooth events, and in other cases (when charging or AUX) you need to first start the background application service (Watcher) - by launching the application itself once.\n- Starting with Android 11 without the background app service (Watcher), access to the camera without user interaction is only possible if the phone is unlocked (screen on) and \"on top of all apps\" permission is granted.\n- Thus, for Android 11 and higher, you need to manually launch the application once so that the background service of the application (Watcher) starts to automatically record during any events and when the phone screen is turned off.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Subtitles at the bottom</string>
@@ -493,7 +492,7 @@
     <string name="prefs_warning_notifications_sum_text">Required to be able to display the background recording service and statuses on the notification panel. Tap to grant it</string>
     <string name="prefs_warning_notifications_text">Notification permission</string>
 
-    <string name="donation_dlg_limited_ads_message_text">For smaller donations, ads are removed for the home screen only</string>photo
+    <string name="donation_dlg_limited_ads_message_text">For smaller donations, advertising is removed only on the main screen</string>photo
     <string name="photos_folder_name">Photos</string>
 
     <string name="photos_count_one">photo</string>
@@ -533,7 +532,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Failed to open the selected camera. It so happens that not all hidden cameras can be used by any application. Many manufacturers only allow their use in their native applications. The default camera will open.</string>
 
-    <string name="videos_ask_which_player">Ask in which player to play each time\?</string>
+    <string name="videos_ask_which_player">Ask which player to play in</string>
 
     <string name="prefs_location_mode_text">GPS Priority (Battery or Accuracy)</string>
     <string name="prefs_location_mode_balanced_text">Balance between location accuracy (coordinates), speed and battery power consumption.</string>
@@ -566,4 +565,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Remove ads forever with a one-time donation of any amount. You can also donate any amount monthly to remove ads</string>
 
     <string name="prefs_audio_bt_recording_text">Record audio from a Bluetooth device</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Do not use with head unit (car radio)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Use only with Bluetooth headphones. If you connect to the head unit (car radio) via Bluetooth, then for some reason this may automatically trigger a phone call to the standard number on this device</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Automatic recording over Bluetooth connections requires permission. Click here to submit</string>
+    <string name="prefs_warning_permission_bluetooth_text">Bluetooth permission not granted</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">The application could not be opened to start recording because the screen was turned off (locked). Run a background recording service (Watcher) to fix this.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">The application could not be opened because the screen was turned off (locked).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">The specified application could not be launched to open automatically because the \"show on top of all applications\" permission was not granted.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">You must grant Nearby Devices (Bluetooth) permission for automatic event recording. This can be done in the application\'s system settings.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Notifications are required to be able to display the background recording service and recording status in the notification panel.</string>
+
+    
 </resources>

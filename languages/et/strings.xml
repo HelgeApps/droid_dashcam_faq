@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Kaamera on vajalik video salvestamiseks ja kaamera eelvaateks.</string>
     <string name="permission_camera_dlg_title">Kaamera eraldusvõime</string>
     <string name="permission_camera_request_canceled">See rakendus nõuab luba kaamera kasutamiseks video salvestamiseks. Aga sa lükkasid selle tagasi. Sulgemine… Proovige anda selle rakenduse süsteemiseadetes kaamerale luba</string>
-    <string name="permission_location_dlg_explanation_msg">Kui see on minimeeritud, kasutab Droid Dashcam salvestatud videole koordinaatide, aadressi ja kiiruse joonistamiseks taustal olevat asukohta.</string>
+    <string name="permission_location_dlg_explanation_msg">Asukoht on vajalik salvestatud videole koordinaatide, aadressi ja kiiruse joonistamiseks või nende andmete kuvamiseks põhiekraanil (olenevalt teie seadetest).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Operatsioonisüsteemis Android 11 (R) peate asukoha taustal lubamiseks süsteemieelistustes käsitsi valima valiku „Kogu aeg (mis tahes režiim)”. Seadistused avanevad pärast seda akent.</string>
     <string name="permission_location_dlg_msg">Asukoht on vajalik transpordikiiruse määramiseks GPS-andmete abil, praegune aadress ja koordinaadid ekraanil kuvamiseks ja videole subtiitrite salvestamiseks</string>
     <string name="permission_location_dlg_title">Asukoha luba</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Automaatne</string>
     <string name="rec_fix_short_text">Et parandada</string>
     <string name="rec_fix_text">Et parandada</string>
-    <string name="rec_free_space_text">Saadaval</string>
+    <string name="rec_available_space_text">Saadaval</string>
     <string name="rec_gps_status_satellites_few_text">satelliidid</string>
     <string name="rec_gps_status_satellites_many_text">satelliidid</string>
     <string name="rec_gps_status_satellites_one_text">satelliit</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Salvestamine on alanud</string>
     <string name="recording_voice_stopped_text">Salvestamine peatus</string>
 
-    <string name="service_no_system_alert_window_granted_text">Droid Dashcam teenuse käivitamine ebaõnnestus salvestamise automaatseks käivitamiseks/peatamiseks, kuna SYSTEM_ALERT_WINDOW luba (kuva kõigis muude rakenduste akendes) ei antud. Või oli seade sel hetkel lukus (Androidi piirang on see, et enne automaatse videosalvestuse teenuse käivitamist tuleb seade esmalt avada ja selle ekraan sisse lülitada)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Rakendust ei saanud salvestamise alustamiseks avada, kuna luba \"Kuva kõigi rakenduste peal\" ei antud. Klõpsake esitamiseks</string>
     <string name="service_watch_on_boot_completed_text">Seadme sisselülitamisel</string>
 
     <string name="storage_external_single">MicroSD-kaart</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Tulevaste kaameravigade vältimiseks keelake selle rakenduse jaoks oma seadme seadetes aku optimeerimine</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Automaatne salvestamine ainult siis, kui teenus töötab</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Kui lubate selle valiku, siis automaatset salvestamist ei tehta, kui seireteenus ei tööta ega ole teavituspaneelil nähtav</string>
+    <string name="prefs_rules_auto_start_without_service_text">Automaatne salvestamine isegi siis, kui taustateenus (Watcher) ei tööta</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Saate selle valiku välja lülitada, et rakendus teostaks automaatset salvestamist ainult siis, kui rakenduse taustateenus (Watcher) töötab.\n- Automaatset salvestamist selliste sündmuste jaoks nagu laadimine, Bluetooth või AUX saab kuni Android 7.1-ni probleemideta teha.\n- Alates Android 8-st saab automaatset salvestamist ilma taustarakenduse teenuseta (Watcher) teha ainult Bluetooth-sündmuste jaoks ja muudel juhtudel (laadimise või AUX-i ajal) peate esmalt käivitama taustarakenduse teenuse (Watcher) - käivitades rakendus ise üks kord.\n- Alates Android 11-st ilma taustarakenduse teenuseta (Watcher) on juurdepääs kaamerale ilma kasutaja sekkumiseta võimalik ainult siis, kui telefon on lukustamata (ekraan sees) ja antud luba \"kõigi rakenduste peal\".\n- Seega tuleb Android 11 ja uuemate versioonide puhul rakendus üks kord käsitsi käivitada, et rakenduse taustateenus (Watcher) hakkaks automaatselt salvestama mis tahes sündmuste ajal ja telefoni ekraani väljalülitamisel.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Subtiitrid allosas</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Vajalik taustsalvestusteenuse ja olekute kuvamiseks teavituspaneelil. Klõpsake esitamiseks</string>
     <string name="prefs_warning_notifications_text">Teavitamise luba</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Väiksemate annetuste puhul eemaldatakse reklaamid ainult avaekraanilt</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Väiksemate annetuste puhul eemaldatakse reklaam ainult põhiekraanilt</string>photo
     <string name="photos_folder_name">Fotod</string>
 
     <string name="photos_count_one">foto</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Valitud kaamera avamine ebaõnnestus. Juhtub nii, et ükski rakendus ei saa kasutada kõiki peidetud kaameraid. Paljud tootjad lubavad neid kasutada ainult oma kohalikes rakendustes. Avaneb vaikekaamera.</string>
 
-    <string name="videos_ask_which_player">Küsige, millises mängijas iga kord mängida\?</string>
+    <string name="videos_ask_which_player">Küsige, millises mängijas mängida</string>
 
     <string name="prefs_location_mode_text">GPS-i prioriteet (aku või täpsus)</string>
     <string name="prefs_location_mode_balanced_text">Tasakaal asukoha täpsuse (koordinaatide), kiiruse ja aku tarbimise vahel.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Eemaldage reklaamid igaveseks mis tahes summa ühekordse annetusega. Samuti saate reklaamide eemaldamiseks igakuiselt annetada mis tahes summa</string>
 
     <string name="prefs_audio_bt_recording_text">Salvestage heli Bluetooth-seadmest</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Ärge kasutage koos peaseadmega (autoraadio)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Kasutage ainult Bluetooth-kõrvaklappidega. Kui ühendate peaseadme (autoraadio) Bluetoothi ​​kaudu, võib see mingil põhjusel käivitada automaatselt telefonikõne selle seadme standardnumbril</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Automaatne salvestamine Bluetooth-ühenduse kaudu nõuab luba. Esitamiseks klõpsake siin</string>
+    <string name="prefs_warning_permission_bluetooth_text">Bluetoothi ​​luba ei antud</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Rakendust ei saanud salvestamise alustamiseks avada, kuna ekraan oli välja lülitatud (lukustatud). Selle parandamiseks käivitage taustal salvestamise teenus (Watcher).</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Rakendust ei saanud avada, kuna ekraan oli välja lülitatud (lukustatud).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Määratud rakendust ei saanud automaatseks avamiseks käivitada, kuna luba \"kuva kõigi rakenduste peal\" ei antud.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Peate andma läheduses asuvatele seadmetele (Bluetooth) loa sündmuste automaatseks salvestamiseks. Seda saab teha rakenduse süsteemiseadetes.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Teatised on vajalikud taustasalvestusteenuse ja salvestusoleku kuvamiseks teavituspaneelil.</string>
+
+    
 </resources>

@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Камера барои сабти видео ва пешнамоиши камера лозим аст.</string>
     <string name="permission_camera_dlg_title">Қарори камера</string>
     <string name="permission_camera_request_canceled">Ин барнома барои истифодаи камера барои сабти видео иҷозат талаб мекунад. Аммо шумо онро рад кардед. Пӯшидани… Кӯшиш кунед, ки дар танзимоти системаи ин барнома ба камера иҷозат диҳед</string>
-    <string name="permission_location_dlg_explanation_msg">Ҳангоми кам кардан, Droid Dashcam маконро дар замина барои кашидани координатҳо, суроға ва суръат дар видеои сабтшуда истифода мебарад.</string>
+    <string name="permission_location_dlg_explanation_msg">Ҷойгиршавӣ барои кашидани координатҳо, суроға ва суръат дар видеои сабтшуда ё намоиш додани ин маълумот дар экрани асосӣ (вобаста ба танзимоти шумо) лозим аст.</string>
     <string name="permission_location_dlg_explanation_settings_msg">Дар Android 11 (R), шумо бояд дар афзалиятҳои система \"Ҳама вақт (ҳар режим)\" -ро дастӣ интихоб кунед, то ҷойгиршавӣ дар замина иҷозат диҳед. Танзимот пас аз ин тиреза кушода мешавад.</string>
     <string name="permission_location_dlg_msg">Ҷойгиршавӣ барои муайян кардани суръати интиқол бо истифода аз маълумоти GPS, суроғаи ҷорӣ ва координатҳо барои намоиш дар экран ва сабти субтитрҳо дар видео зарур аст.</string>
     <string name="permission_location_dlg_title">Иҷозати ҷойгиршавӣ</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Авто</string>
     <string name="rec_fix_short_text">Барои ислоҳ</string>
     <string name="rec_fix_text">Барои ислоҳ</string>
-    <string name="rec_free_space_text">дастрас</string>
+    <string name="rec_available_space_text">дастрас</string>
     <string name="rec_gps_status_satellites_few_text">моҳвораҳо</string>
     <string name="rec_gps_status_satellites_many_text">моҳвораҳо</string>
     <string name="rec_gps_status_satellites_one_text">моҳвора</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Сабт оғоз шуд</string>
     <string name="recording_voice_stopped_text">Сабт қатъ карда шуд</string>
 
-    <string name="service_no_system_alert_window_granted_text">Оғози хидмати Droid Dashcam барои ба таври худкор оғоз/қатъ кардани сабт натавонист, зеро иҷозати SYSTEM_ALERT_WINDOW (намоиш дар тамоми равзанаҳои барномаҳои дигар) дода нашудааст. Ё ин ки дастгоҳ дар ин лаҳза баста шудааст (маҳдудияти Android ин аст, ки пеш аз оғози хидмати сабти видеоии худкор дастгоҳ бояд аввал қуфл ва экрани он фаъол бошад)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Барои оғози сабт барнома кушода нашуд, зеро иҷозати \"намоиш дар болои ҳама барномаҳо\" дода нашудааст. Барои таъмин кардан клик кунед</string>
     <string name="service_watch_on_boot_completed_text">Ҳангоми фурӯзон кардани дастгоҳ</string>
 
     <string name="storage_external_single">Корти MicroSD</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Барои пешгирӣ кардани хатогиҳои камера дар оянда оптимизатсияи батареяро барои ин барнома дар танзимоти дастгоҳи худ хомӯш кунед</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Сабти худкор танҳо вақте ки хидмат кор мекунад</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Агар шумо ин хосиятро фаъол созед, пас сабти худкор иҷро намешавад, агар хидмати мониторинг кор накунад ва дар панели огоҳинома намоён набошад</string>
+    <string name="prefs_rules_auto_start_without_service_text">Сабти худкор ҳатто агар хидмати пасзамина (Watcher) кор накунад</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Шумо метавонед ин хосиятро хомӯш кунед, то барнома сабти худкорро танҳо дар сурате иҷро кунад, ки хидмати пасзаминаи барнома (Watcher) кор кунад.\n- Сабти худкори рӯйдодҳо ба монанди пуркунии барқ, Bluetooth ё AUX метавонад бидуни мушкилот то Android 7.1 анҷом дода шавад.\n- Аз Android 8 сар карда, сабти худкор бидуни хидмати замимаи заминавӣ (Watcher) метавонад танҳо барои рӯйдодҳои Bluetooth анҷом дода шавад ва дар дигар ҳолатҳо (ҳангоми пуркунии барқ ​​ё AUX) шумо бояд аввал хидмати замимаи заминаро (Watcher) оғоз кунед - тавассути оғоз кардани худи ариза як маротиба.\n- Аз Android 11 бидуни хидмати замимаи заминавӣ (Watcher) оғоз карда, дастрасӣ ба камера бидуни муоширати корбар танҳо дар сурате имконпазир аст, ки телефон қуфл (экран фаъол) ва иҷозати \"дар болои ҳама барномаҳо\" дода шавад.\n- Ҳамин тариқ, барои Android 11 ва навтар, шумо бояд барномаро як маротиба дастӣ оғоз кунед, то хидмати пасзаминаи барнома (Watcher) ҳангоми ҳама гуна рӯйдодҳо ва ҳангоми хомӯш кардани экрани телефон ба таври худкор сабтро оғоз кунад.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Субтитрҳо дар поён</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Барои намоиш додани хидмати сабти пасзамина ва вазъиятҳо дар панели огоҳинома талаб карда мешавад. Барои пешниҳод кардан клик кунед</string>
     <string name="prefs_warning_notifications_text">Иҷозати огоҳӣ</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Барои хайрияҳои хурдтар, таблиғҳо танҳо барои экрани асосӣ хориҷ карда мешаванд</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Барои хайрияҳои хурдтар, таблиғ танҳо дар экрани асосӣ нест карда мешавад</string>photo
     <string name="photos_folder_name">Суратҳо</string>
 
     <string name="photos_count_one">сурат</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Камераи интихобшударо кушода натавонист. Чунин мешавад, ки на ҳама камераҳои пинҳониро ягон барнома истифода бурдан мумкин аст. Бисёре аз истеҳсолкунандагон танҳо ба истифодаи онҳо дар барномаҳои ватании худ иҷозат медиҳанд. Камераи пешфарз кушода мешавад.</string>
 
-    <string name="videos_ask_which_player">Пурсед, ки ҳар дафъа дар кадом бозигар бозӣ кунед\?</string>
+    <string name="videos_ask_which_player">Пурсед, ки дар кадом бозигар бозӣ кунед</string>
 
     <string name="prefs_location_mode_text">Афзалияти GPS (Батарея ё дақиқӣ)</string>
     <string name="prefs_location_mode_balanced_text">Тавозуни байни дақиқии ҷойгиршавӣ (координатҳо), суръат ва истеъмоли қувваи батарея.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Бо хайрияи якдафъаинаи дилхоҳ таблиғро абадан нест кунед. Шумо инчунин метавонед ҳар моҳ маблағи дилхоҳро барои нест кардани таблиғ хайрия кунед</string>
 
     <string name="prefs_audio_bt_recording_text">Аз дастгоҳи Bluetooth аудио сабт кунед</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Бо дастгоҳи сарлавҳа (радио мошин) истифода набаред!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Танҳо бо гӯшмонакҳои Bluetooth истифода баред. Агар шумо ба воҳиди асосӣ (радио мошин) тавассути Bluetooth пайваст шавед, пас бо баъзе сабабҳо ин метавонад ба таври худкор занги телефонро ба рақами стандартии ин дастгоҳ оғоз кунад</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Сабти худкор тавассути пайвастҳои Bluetooth иҷозат талаб мекунад. Барои пешниҳод ин ҷо клик кунед</string>
+    <string name="prefs_warning_permission_bluetooth_text">Иҷозати Bluetooth дода нашудааст</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Барои оғоз кардани сабт барнома кушода нашуд, зеро экран хомӯш (қуфл) буд. Барои ислоҳ кардани ин хидмати сабти замина (Watcher) -ро иҷро кунед.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Барнома кушода нашуд, зеро экран хомӯш карда шуд (қуфл).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Замимаи нишондодашуда ба таври худкор кушода нашуд, зеро иҷозати \"намоиш дар болои ҳама барномаҳо\" дода нашудааст.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Шумо бояд ба дастгоҳҳои наздик (Bluetooth) барои сабти автоматии ҳодиса иҷозат диҳед. Инро дар танзимоти системаи барнома иҷро кардан мумкин аст.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Огоҳиҳо барои намоиш додани хидмати сабти замина ва ҳолати сабт дар панели огоҳинома талаб карда мешаванд.</string>
+
+    
 </resources>

@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">ویڈیو ریکارڈنگ اور کیمرے کے پیش نظارہ کے لیے کیمرہ درکار ہے۔</string>
     <string name="permission_camera_dlg_title">کیمرہ ریزولوشن</string>
     <string name="permission_camera_request_canceled">اس ایپلیکیشن کو ویڈیو ریکارڈ کرنے کے لیے کیمرہ استعمال کرنے کی اجازت درکار ہے۔ لیکن آپ نے اسے ٹھکرا دیا۔ بند ہو رہا ہے… اس ایپلیکیشن کی سسٹم سیٹنگز میں کیمرے کو اجازت دینے کی کوشش کریں۔</string>
-    <string name="permission_location_dlg_explanation_msg">کم کرنے پر، Droid Dashcam پس منظر میں موجود مقام کو ریکارڈ شدہ ویڈیو پر نقاط، پتہ اور رفتار کھینچنے کے لیے استعمال کرتا ہے۔</string>
+    <string name="permission_location_dlg_explanation_msg">ریکارڈ شدہ ویڈیو پر کوآرڈینیٹ، پتہ اور رفتار کھینچنے کے لیے مقام کی ضرورت ہے، یا اس ڈیٹا کو مرکزی اسکرین پر ڈسپلے کرنے کے لیے (آپ کی ترتیبات پر منحصر ہے)۔</string>
     <string name="permission_location_dlg_explanation_settings_msg">Android 11 (R) پر، آپ کو پس منظر میں مقام کی اجازت دینے کے لیے سسٹم کی ترجیحات میں \"ہر وقت (کسی بھی موڈ)\" کو دستی طور پر منتخب کرنے کی ضرورت ہے۔ اس ونڈو کے بعد سیٹنگز کھل جائیں گی۔</string>
     <string name="permission_location_dlg_msg">GPS ڈیٹا کا استعمال کرتے ہوئے نقل و حمل کی رفتار کا تعین کرنے کے لیے مقام ضروری ہے، اسکرین پر ڈسپلے کے لیے موجودہ پتہ اور نقاط اور ویڈیو پر سب ٹائٹلز کی ریکارڈنگ کے لیے</string>
     <string name="permission_location_dlg_title">مقام کی اجازت</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">آٹو</string>
     <string name="rec_fix_short_text">درست کرنا</string>
     <string name="rec_fix_text">درست کرنا</string>
-    <string name="rec_free_space_text">دستیاب</string>
+    <string name="rec_available_space_text">دستیاب</string>
     <string name="rec_gps_status_satellites_few_text">سیٹلائٹس</string>
     <string name="rec_gps_status_satellites_many_text">سیٹلائٹس</string>
     <string name="rec_gps_status_satellites_one_text">سیٹلائٹ</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">ریکارڈنگ شروع ہو گئی ہے۔</string>
     <string name="recording_voice_stopped_text">ریکارڈنگ رک گئی۔</string>
 
-    <string name="service_no_system_alert_window_granted_text">ریکارڈنگ کو خود بخود شروع /بند کرنے کے لیے Droid Dashcam سروس شروع کرنے میں ناکام رہا کیونکہ SYSTEM_ALERT_WINDOW اجازت (دیگر ایپلیکیشنز کی تمام ونڈوز پر ڈسپلے) نہیں دی گئی تھی۔ یا ڈیوائس کو اس مقام پر لاک کر دیا گیا تھا (Android کی پابندی یہ ہے کہ خودکار ویڈیو ریکارڈنگ کے لیے سروس شروع کرنے سے پہلے ڈیوائس کو غیر مقفل کیا جانا چاہیے اور اس کی اسکرین کو آن کرنا چاہیے)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">ایپ کو ریکارڈنگ شروع کرنے کے لیے نہیں کھولا جا سکا کیونکہ \"تمام ایپس کے اوپر دکھائیں\" کی اجازت نہیں دی گئی تھی۔ فراہم کرنے کے لیے کلک کریں۔</string>
     <string name="service_watch_on_boot_completed_text">ڈیوائس کو آن کرتے وقت</string>
 
     <string name="storage_external_single">مائیکرو ایس ڈی کارڈ</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">مستقبل میں کیمرے کی خرابیوں سے بچنے کے لیے اپنے آلے کی ترتیبات میں اس ایپ کے لیے بیٹری کی اصلاح کو غیر فعال کریں۔</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">خودکار ریکارڈنگ صرف اس وقت جب سروس چل رہی ہو۔</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">اگر آپ اس اختیار کو فعال کرتے ہیں، تو خودکار ریکارڈنگ نہیں کی جائے گی اگر مانیٹرنگ سروس نہیں چل رہی ہے اور نوٹیفکیشن پینل میں نظر نہیں آ رہی ہے۔</string>
+    <string name="prefs_rules_auto_start_without_service_text">خودکار ریکارڈنگ چاہے بیک گراؤنڈ سروس (Watcher) نہ چل رہی ہو۔</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* آپ اس آپشن کو بند کر سکتے ہیں تاکہ ایپلی کیشن خودکار ریکارڈنگ صرف اسی صورت میں کرے جب ایپلی کیشن کی بیک گراؤنڈ سروس (Watcher) چل رہی ہو۔\n- چارجنگ، بلوٹوتھ یا AUX جیسے ایونٹس کے لیے خودکار ریکارڈنگ اینڈرائیڈ 7.1 تک بغیر کسی پریشانی کے کی جا سکتی ہے۔\n- اینڈروئیڈ 8 سے شروع کرتے ہوئے، بیک گراؤنڈ ایپلی کیشن سروس (واچر) کے بغیر خودکار ریکارڈنگ صرف بلوٹوتھ ایونٹس کے لیے کی جا سکتی ہے، اور دیگر معاملات میں (چارج کرتے وقت یا AUX) آپ کو پہلے بیک گراؤنڈ ایپلیکیشن سروس (واچر) شروع کرنے کی ضرورت ہوتی ہے۔ درخواست خود ایک بار.\n- بیک گراؤنڈ ایپ سروس (واچر) کے بغیر اینڈرائیڈ 11 کے ساتھ شروع کرتے ہوئے، صارف کی بات چیت کے بغیر کیمرہ تک رسائی صرف اسی صورت میں ممکن ہے جب فون ان لاک ہو (اسکرین آن) اور \"تمام ایپس کے اوپر\" کی اجازت دی جائے۔\n- اس طرح، اینڈرائیڈ 11 اور اس سے زیادہ کے لیے، آپ کو ایک بار دستی طور پر ایپلیکیشن لانچ کرنے کی ضرورت ہے تاکہ ایپلیکیشن کی بیک گراؤنڈ سروس (Watcher) کسی بھی ایونٹ کے دوران اور فون کی اسکرین آف ہونے پر خود بخود ریکارڈ ہونا شروع کر دے۔</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">نیچے سب ٹائٹلز</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">نوٹیفکیشن پینل پر بیک گراؤنڈ ریکارڈنگ سروس اور اسٹیٹس ڈسپلے کرنے کے قابل ہونے کے لیے ضروری ہے۔ جمع کرانے کے لیے کلک کریں۔</string>
     <string name="prefs_warning_notifications_text">اطلاع کی اجازت</string>
 
-    <string name="donation_dlg_limited_ads_message_text">چھوٹے عطیات کے لیے، اشتہارات صرف ہوم اسکرین کے لیے ہٹا دیے جاتے ہیں۔</string>photo
+    <string name="donation_dlg_limited_ads_message_text">چھوٹے عطیات کے لیے، اشتہار صرف مرکزی اسکرین پر ہٹا دیا جاتا ہے۔</string>photo
     <string name="photos_folder_name">تصاویر</string>
 
     <string name="photos_count_one">تصویر</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">منتخب کیمرہ کھولنے میں ناکام۔ ایسا ہوتا ہے کہ تمام خفیہ کیمرے کسی بھی ایپلی کیشن کے ذریعے استعمال نہیں کیے جا سکتے۔ بہت سے مینوفیکچررز صرف اپنے مقامی ایپلی کیشنز میں ان کے استعمال کی اجازت دیتے ہیں۔ پہلے سے طے شدہ کیمرہ کھل جائے گا۔</string>
 
-    <string name="videos_ask_which_player">ہر بار پوچھیں کہ کس کھلاڑی میں کھیلنا ہے؟</string>
+    <string name="videos_ask_which_player">پوچھیں کہ کس کھلاڑی میں کھیلنا ہے۔</string>
 
     <string name="prefs_location_mode_text">GPS کی ترجیح (بیٹری یا درستگی)</string>
     <string name="prefs_location_mode_balanced_text">مقام کی درستگی (کوآرڈینیٹس)، رفتار اور بیٹری کی بجلی کی کھپت کے درمیان توازن۔</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">کسی بھی رقم کے ایک بار عطیہ کے ساتھ اشتہارات کو ہمیشہ کے لیے ہٹا دیں۔ آپ اشتہارات کو ہٹانے کے لیے ماہانہ کوئی بھی رقم بھی عطیہ کر سکتے ہیں۔</string>
 
     <string name="prefs_audio_bt_recording_text">بلوٹوتھ ڈیوائس سے آڈیو ریکارڈ کریں۔</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">ہیڈ یونٹ (کار ریڈیو) کے ساتھ استعمال نہ کریں!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">صرف بلوٹوتھ ہیڈ فون کے ساتھ استعمال کریں۔ اگر آپ بلوٹوتھ کے ذریعے ہیڈ یونٹ (کار ریڈیو) سے منسلک ہوتے ہیں، تو کسی وجہ سے یہ خود بخود اس ڈیوائس پر معیاری نمبر پر فون کال کو متحرک کر سکتا ہے۔</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">بلوٹوتھ کنکشنز پر خودکار ریکارڈنگ کے لیے اجازت درکار ہے۔ جمع کرانے کے لیے یہاں کلک کریں۔</string>
+    <string name="prefs_warning_permission_bluetooth_text">بلوٹوتھ کی اجازت نہیں دی گئی۔</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">ایپلیکیشن کو ریکارڈنگ شروع کرنے کے لیے نہیں کھولا جا سکا کیونکہ اسکرین آف (مقفل) تھی۔ اسے ٹھیک کرنے کے لیے بیک گراؤنڈ ریکارڈنگ سروس (Watcher) چلائیں۔</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">ایپلیکیشن کو نہیں کھولا جا سکا کیونکہ اسکرین بند (مقفل) تھی۔</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">مخصوص ایپلیکیشن کو خود بخود کھولنے کے لیے لانچ نہیں کیا جا سکا کیونکہ \"تمام ایپلیکیشنز کے اوپر دکھائیں\" کی اجازت نہیں دی گئی تھی۔</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">آپ کو خودکار ایونٹ کی ریکارڈنگ کے لیے Nearby Devices (Bluetooth) کی اجازت دینی ہوگی۔ یہ ایپلیکیشن کے سسٹم سیٹنگز میں کیا جا سکتا ہے۔</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">نوٹیفیکیشن پینل میں پس منظر کی ریکارڈنگ سروس اور ریکارڈنگ کی حیثیت کو ظاہر کرنے کے قابل ہونے کے لیے اطلاعات کی ضرورت ہوتی ہے۔</string>
+
+    
 </resources>

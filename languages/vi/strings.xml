@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Máy ảnh được yêu cầu để quay video và xem trước máy ảnh.</string>
     <string name="permission_camera_dlg_title">Độ phân giải camera</string>
     <string name="permission_camera_request_canceled">Ứng dụng này yêu cầu quyền sử dụng máy ảnh để quay video. Nhưng bạn đã từ chối nó. Đang đóng… Cố gắng cấp quyền cho máy ảnh trong cài đặt hệ thống của ứng dụng này</string>
-    <string name="permission_location_dlg_explanation_msg">Khi được thu nhỏ, Droid Dashcam sử dụng vị trí trong nền để vẽ tọa độ, địa chỉ và tốc độ trên video đã quay.</string>
+    <string name="permission_location_dlg_explanation_msg">Vị trí cần thiết để vẽ tọa độ, địa chỉ và tốc độ trên video đã ghi hoặc hiển thị dữ liệu này trên màn hình chính (tùy thuộc vào cài đặt của bạn).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Trên Android 11 (R), bạn cần chọn thủ công \"Mọi lúc (mọi chế độ)\" trong tùy chọn hệ thống để cho phép vị trí trong nền. Cài đặt sẽ mở sau cửa sổ này.</string>
     <string name="permission_location_dlg_msg">Vị trí cần thiết để xác định tốc độ vận chuyển bằng cách sử dụng dữ liệu GPS, địa chỉ và tọa độ hiện tại để hiển thị trên màn hình và để ghi phụ đề trên video</string>
     <string name="permission_location_dlg_title">Quyền vị trí</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Tự động</string>
     <string name="rec_fix_short_text">Để sửa</string>
     <string name="rec_fix_text">Để sửa</string>
-    <string name="rec_free_space_text">Có sẵn</string>
+    <string name="rec_available_space_text">Có sẵn</string>
     <string name="rec_gps_status_satellites_few_text">vệ tinh</string>
     <string name="rec_gps_status_satellites_many_text">vệ tinh</string>
     <string name="rec_gps_status_satellites_one_text">vệ tinh</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Quá trình ghi đã bắt đầu</string>
     <string name="recording_voice_stopped_text">Ghi đã dừng</string>
 
-    <string name="service_no_system_alert_window_granted_text">Không thể khởi động dịch vụ Droid Dashcam để tự động bắt đầu /dừng ghi vì quyền SYSTEM_ALERT_WINDOW (hiển thị trên tất cả các cửa sổ của các ứng dụng khác) không được cấp. Hoặc thiết bị đã bị khóa tại thời điểm này (hạn chế của Android là trước tiên thiết bị phải được mở khóa và màn hình của nó phải được bật trước khi có thể bắt đầu dịch vụ quay video tự động)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Không thể mở ứng dụng để bắt đầu ghi vì quyền \"hiển thị trên tất cả các ứng dụng\" không được cấp. Bấm để cung cấp</string>
     <string name="service_watch_on_boot_completed_text">Khi bật thiết bị</string>
 
     <string name="storage_external_single">Thẻ micro SD</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Tắt tối ưu hóa pin cho ứng dụng này trong cài đặt thiết bị của bạn để tránh các lỗi máy ảnh trong tương lai</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Chỉ ghi tự động khi dịch vụ đang chạy</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Nếu bạn bật tùy chọn này, thì quá trình ghi tự động sẽ không được thực hiện nếu dịch vụ giám sát không chạy và không hiển thị trong bảng thông báo</string>
+    <string name="prefs_rules_auto_start_without_service_text">Tự động ghi ngay cả khi dịch vụ nền (Watcher) không chạy</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Bạn có thể tắt tùy chọn này để ứng dụng chỉ thực hiện ghi âm tự động nếu dịch vụ nền của ứng dụng (Watcher) đang chạy.\n- Có thể thực hiện ghi âm tự động cho các sự kiện như sạc pin, Bluetooth hoặc Aux mà không gặp vấn đề gì cho đến Android 7.1.\n- Bắt đầu từ Android 8, việc ghi âm tự động không có dịch vụ ứng dụng nền (Watcher) chỉ có thể được thực hiện cho các sự kiện Bluetooth và trong các trường hợp khác (khi sạc hoặc Aux), trước tiên bạn cần khởi động dịch vụ ứng dụng nền (Watcher) - bằng cách khởi chạy ứng dụng chính nó một lần.\n- Bắt đầu với Android 11 không có dịch vụ ứng dụng nền (Watcher), chỉ có thể truy cập vào camera mà không cần tương tác của người dùng nếu điện thoại được mở khóa (bật màn hình) và được cấp quyền \"trên tất cả các ứng dụng\".\n- Như vậy, đối với Android 11 trở lên, bạn cần khởi chạy ứng dụng theo cách thủ công một lần để dịch vụ nền của ứng dụng (Watcher) bắt đầu tự động ghi lại trong bất kỳ sự kiện nào và khi màn hình điện thoại tắt.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Phụ đề ở dưới cùng</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Cần thiết để có thể hiển thị dịch vụ ghi nền và trạng thái trên bảng thông báo. Nhấp để gửi</string>
     <string name="prefs_warning_notifications_text">Quyền thông báo</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Đối với các khoản quyên góp nhỏ hơn, quảng cáo chỉ bị xóa cho màn hình chính</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Đối với các khoản quyên góp nhỏ hơn, quảng cáo chỉ bị xóa trên màn hình chính</string>photo
     <string name="photos_folder_name">ảnh</string>
 
     <string name="photos_count_one">hình chụp</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Không thể mở máy ảnh đã chọn. Điều xảy ra là không phải tất cả các camera ẩn đều có thể được sử dụng bởi bất kỳ ứng dụng nào. Nhiều nhà sản xuất chỉ cho phép sử dụng chúng trong các ứng dụng gốc của họ. Máy ảnh mặc định sẽ mở.</string>
 
-    <string name="videos_ask_which_player">Hỏi trong mỗi lần chơi người chơi nào\?</string>
+    <string name="videos_ask_which_player">Hỏi người chơi nào sẽ chơi</string>
 
     <string name="prefs_location_mode_text">Ưu tiên GPS (Pin hoặc Độ chính xác)</string>
     <string name="prefs_location_mode_balanced_text">Cân bằng giữa độ chính xác của vị trí (tọa độ), tốc độ và mức tiêu thụ pin.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Xóa quảng cáo mãi mãi bằng cách quyên góp một lần với số tiền bất kỳ. Bạn cũng có thể quyên góp bất kỳ số tiền nào hàng tháng để xóa quảng cáo</string>
 
     <string name="prefs_audio_bt_recording_text">Ghi âm thanh từ thiết bị Bluetooth</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Không sử dụng với bộ phận đầu (radio ô tô)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Chỉ sử dụng với tai nghe Bluetooth. Nếu bạn kết nối với bộ phận đầu (radio ô tô) qua Bluetooth thì vì lý do nào đó, điều này có thể tự động kích hoạt cuộc gọi đến số tiêu chuẩn trên thiết bị này</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Ghi âm tự động qua kết nối Bluetooth cần có sự cho phép. Bấm vào đây để gửi</string>
+    <string name="prefs_warning_permission_bluetooth_text">Quyền Bluetooth không được cấp</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Không thể mở ứng dụng để bắt đầu quay do màn hình đã tắt (bị khóa). Chạy dịch vụ ghi nền (Watcher) để khắc phục điều này.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Không mở được ứng dụng do màn hình đã tắt (bị khóa).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Không thể khởi chạy ứng dụng được chỉ định để mở tự động vì quyền \"hiển thị trên tất cả các ứng dụng\" không được cấp.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Bạn phải cấp quyền cho Thiết bị lân cận (Bluetooth) để tự động ghi sự kiện. Điều này có thể được thực hiện trong cài đặt hệ thống của ứng dụng.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Cần có thông báo để có thể hiển thị dịch vụ ghi nền và trạng thái ghi trong bảng thông báo.</string>
+
+    
 </resources>

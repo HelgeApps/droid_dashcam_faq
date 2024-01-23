@@ -112,7 +112,7 @@
     <string name="permission_camera_dlg_msg">摄像头是视频录制和摄像头预览所必需的。</string>
     <string name="permission_camera_dlg_title">相机分辨率</string>
     <string name="permission_camera_request_canceled">此应用程序需要使用相机录制视频的权限。但是你拒绝了。正在关闭…尝试在此应用程序的系统设置中授予相机权限</string>
-    <string name="permission_location_dlg_explanation_msg">最小化后，Droid Dashcam 使用背景中的位置在录制的视频上绘制坐标、地址和速度。</string>
+    <string name="permission_location_dlg_explanation_msg">需要该位置来在录制的视频上绘制坐标、地址和速度，或在主屏幕上显示此数据（取决于您的设置）。</string>
     <string name="permission_location_dlg_explanation_settings_msg">在 Android 11 (R) 上，您需要在系统首选项中手动选择“始终（任何模式）”以允许在后台进行定位。设置将在此窗口之后打开。</string>
     <string name="permission_location_dlg_msg">位置权限对于使用 GPS 数据确定运输速度、当前地址和坐标是必要的，以便在屏幕上显示并在视频上录制字幕</string>
     <string name="permission_location_dlg_title">位置权限</string>
@@ -325,7 +325,7 @@
     <string name="rec_day_night_btn_auto_text">汽车</string>
     <string name="rec_fix_short_text">纠正</string>
     <string name="rec_fix_text">纠正</string>
-    <string name="rec_free_space_text">空间剩余</string>
+    <string name="rec_available_space_text">空间剩余</string>
     <string name="rec_gps_status_satellites_few_text">卫星</string>
     <string name="rec_gps_status_satellites_many_text">卫星</string>
     <string name="rec_gps_status_satellites_one_text">卫星</string>
@@ -349,7 +349,7 @@
     <string name="recording_voice_started_text">录音开始</string>
     <string name="recording_voice_stopped_text">录音结束</string>
 
-    <string name="service_no_system_alert_window_granted_text">由于未授予 SYSTEM_ALERT_WINDOW 权限（在其他应用程序的所有窗口上显示），因此无法启动 Droid Dashcam 服务以自动开始/停止录制。或者此时设备已被锁定（Android 限制是设备必须先解锁并打开其屏幕才能启动自动录像服务）</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">无法打开应用程序开始录制，因为未授予“显示在所有应用程序之上”权限。点击提供</string>
     <string name="service_watch_on_boot_completed_text">打开设备时</string>
 
     <string name="storage_external_single">MicroSD 卡</string>
@@ -401,8 +401,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">在您的设备设置中禁用此应用的电池优化，以避免将来出现相机错误</string>
 
 
-    <string name="prefs_rules_auto_start_only_with_service_text">仅在服务运行时自动录制</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">如果启用此选项，则如果监控服务未运行且在通知面板中不可见，则不会执行自动录制</string>
+    <string name="prefs_rules_auto_start_without_service_text">即使后台服务（Watcher）未运行也自动录制</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* 您可以关闭此选项，以便应用程序仅在应用程序的后台服务（Watcher）运行时才执行自动录制。\n- 在 Android 7.1 之前，可以毫无问题地执行充电、蓝牙或 AUX 等事件的自动记录。\n- 从Android 8开始，无后台应用服务（Watcher）的自动录制只能针对蓝牙事件进行，在其他情况下（充电或AUX时）需要先启动后台应用服务（Watcher） - 通过启动应用程序本身一次。\n- 从没有后台应用程序服务（Watcher）的 Android 11 开始，只有在手机解锁（屏幕打开）并且授予“所有应用程序之上”权限的情况下，才可以在没有用户交互的情况下访问相机。\n- 因此，对于Android 11及更高版本，您需要手动启动应用程序一次，以便应用程序的后台服务（Watcher）开始在任何事件期间以及手机屏幕关闭时自动录制。</string>
 
 
     <string name="prefs_subtitles_position_bottom_text">字幕在底部</string>
@@ -459,7 +459,7 @@
 
     <string name="camera_msg_error_non_exposed_error">无法打开所选摄像头。碰巧的是，并非所有隐藏摄像头都可以被任何应用程序使用。许多制造商只允许在其本机应用程序中使用它们。默认相机将打开。</string>
 
-    <string name="videos_ask_which_player">请问每次用哪个玩家玩？</string>
+    <string name="videos_ask_which_player">询问哪个球员参加比赛</string>
 
     <string name="prefs_location_mode_text">GPS 优先（电池或精度）</string>
     <string name="prefs_location_mode_balanced_text">定位精度（坐标）、速度和电池功耗之间的平衡。</string>
@@ -492,4 +492,43 @@
     <string name="donation_remove_ads_by_any_amount_text">通过一次性捐赠任意金额，永久删除广告。您还可以每月捐赠任意金额来删除广告</string>
 
     <string name="prefs_audio_bt_recording_text">从蓝牙设备录制音频</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">请勿与主机（汽车收音机）一起使用！</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">仅与蓝牙耳机一起使用。如果您通过蓝牙连接到主机（汽车收音机），则由于某种原因，这可能会自动触发拨打该设备上的标准号码的电话</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">通过蓝牙连接自动录音需要许可。点击这里提交</string>
+    <string name="prefs_warning_permission_bluetooth_text">未授予蓝牙权限</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">由于屏幕已关闭（锁定），因此无法打开应用程序以开始录制。运行后台记录服务（Watcher）来解决此问题。</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">由于屏幕已关闭（锁定），因此无法打开应用程序。</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">指定的应用程序无法启动自动打开，因为未授予“显示在所有应用程序之上”权限。</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">您必须授予附近设备（蓝牙）自动记录事件的权限。这可以在应用程序的系统设置中完成。</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">需要通知才能在通知面板中显示后台录音服务和录音状态。</string>
+
+    
 </resources>

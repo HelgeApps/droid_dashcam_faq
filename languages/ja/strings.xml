@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">カメラは、ビデオ録画とカメラプレビューに必要です。</string>
     <string name="permission_camera_dlg_title">カメラの解像度</string>
     <string name="permission_camera_request_canceled">このアプリケーションには、カメラを使用してビデオを録画するための許可が必要です。 終了…このアプリケーションのシステム設定でカメラに権限を付与してみてください</string>
-    <string name="permission_location_dlg_explanation_msg">最小化すると、Droid Dashcamは背景の位置を使用して、記録されたビデオに座標、住所、速度を描画します。</string>
+    <string name="permission_location_dlg_explanation_msg">位置は、録画されたビデオ上に座標、アドレス、速度を描画したり、このデータをメイン画面に表示したりするために必要です (設定に応じて)。</string>
     <string name="permission_location_dlg_explanation_settings_msg">Android 11（R）では、システム環境設定で[常時（任意のモード）]を手動で選択して、バックグラウンドでの場所を許可する必要があります。このウィンドウの後に設定が開きます。</string>
     <string name="permission_location_dlg_msg">GPSデータ、現在の住所、画面に表示したり、ビデオに字幕を記録したりするための座標を使用して、輸送速度を決定するために場所が必要です。</string>
     <string name="permission_location_dlg_title">場所の許可</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">自動</string>
     <string name="rec_fix_short_text">なおす</string>
     <string name="rec_fix_text">なおす</string>
-    <string name="rec_free_space_text">利用可能</string>
+    <string name="rec_available_space_text">利用可能</string>
     <string name="rec_gps_status_satellites_few_text"/>
     <string name="rec_gps_status_satellites_many_text"/>
     <string name="rec_gps_status_satellites_one_text"/>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">録音が始まりました</string>
     <string name="recording_voice_stopped_text">録音を停止しました</string>
 
-    <string name="service_no_system_alert_window_granted_text">SYSTEM_ALERT_WINDOW権限（他のアプリケーションのすべてのウィンドウに表示）が付与されていないため、DroidDashcamサービスを開始して自動的に記録を開始/停止できませんでした。または、この時点でデバイスがロックされていました（Androidの制限により、自動ビデオ録画のサービスを開始する前に、デバイスのロックを解除し、画面をオンにする必要があります）</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">「すべてのアプリの一番上に表示」権限が付与されていないため、アプリを開いて録画を開始できませんでした。クリックして提供します</string>
     <string name="service_watch_on_boot_completed_text">デバイスの電源を入れるとき</string>
 
     <string name="storage_external_single">MicroSDカード</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">今後のカメラエラーを回避するために、デバイス設定でこのアプリのバッテリー最適化を無効にしてください</string>
 
 
-    <string name="prefs_rules_auto_start_only_with_service_text">サービス実行中のみの自動録音</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">このオプションを有効にすると、監視サービスが実行されておらず、通知パネルに表示されていない場合、自動記録は実行されません。</string>
+    <string name="prefs_rules_auto_start_without_service_text">バックグラウンドサービス（Watcher）が動作していなくても自動録画</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* このオプションをオフにして、アプリケーションのバックグラウンド サービス (Watcher) が実行されている場合にのみアプリケーションが自動録画を実行するようにすることができます。\n- 充電、Bluetooth、AUXなどのイベントの自動録画はAndroid 7.1まで問題なく実行できます。\n- Android 8 以降、バックグラウンド アプリケーション サービス (Watcher) を使用しない自動録画は Bluetooth イベントに対してのみ実行できます。その他の場合 (充電時または AUX 時)、最初にバックグラウンド アプリケーション サービス (Watcher) を開始する必要があります。アプリケーション自体を一度だけ実行します。\n- バックグラウンド アプリ サービス (ウォッチャー) のない Android 11 以降では、ユーザーの操作なしでカメラにアクセスできるのは、携帯電話のロックが解除され (画面がオン)、「すべてのアプリの上に」権限が付与されている場合のみです。\n- したがって、Android 11 以降の場合は、アプリケーションのバックグラウンド サービス (Watcher) がイベント中および電話画面がオフになっているときに自動的に記録を開始するように、アプリケーションを手動で 1 回起動する必要があります。</string>
 
 
     <string name="prefs_subtitles_position_bottom_text">下部の字幕</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">通知パネルにバックグラウンド録画サービスとステータスを表示できるようにするために必要です。クリックして送信</string>
     <string name="prefs_warning_notifications_text">通知許可</string>
 
-    <string name="donation_dlg_limited_ads_message_text">少額の寄付の場合、ホーム画面の広告のみが削除されます</string>
+    <string name="donation_dlg_limited_ads_message_text">少額の寄付の場合、メイン画面でのみ広告が削除されます</string>
 
     <string name="photos_folder_name">写真</string>
 
@@ -463,7 +463,7 @@
 
     <string name="camera_msg_error_non_exposed_error">選択したカメラを開けませんでした。すべての隠しカメラがどのアプリケーションでも使用できるわけではありません。多くのメーカーは、ネイティブ アプリケーションでの使用のみを許可しています。デフォルトのカメラが開きます。</string>
 
-    <string name="videos_ask_which_player">毎回どのプレーヤーでプレーするかを尋ねますか\?</string>
+    <string name="videos_ask_which_player">どのプレイヤーでプレーするかを尋ねる</string>
 
     <string name="prefs_location_mode_text">GPS の優先順位 (バッテリーまたは精度)</string>
     <string name="prefs_location_mode_balanced_text">位置精度 (座標)、速度、バッテリー消費量のバランスを保ちます。</string>
@@ -496,4 +496,43 @@
     <string name="donation_remove_ads_by_any_amount_text">任意の金額を 1 回寄付するだけで、広告を永久に削除できます。広告を削除するために毎月任意の金額を寄付することもできます</string>
 
     <string name="prefs_audio_bt_recording_text">Bluetooth デバイスから音声を録音する</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">ヘッドユニット（カーラジオ）と一緒に使用しないでください。</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Bluetooth ヘッドフォンのみで使用してください。 Bluetooth 経由でヘッド ユニット (カー ラジオ) に接続すると、何らかの理由で、このデバイスの標準番号への電話が自動的に発信される場合があります。</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Bluetooth 接続を介した自動録音には許可が必要です。ここをクリックして送信してください</string>
+    <string name="prefs_warning_permission_bluetooth_text">Bluetooth 許可が付与されていません</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">画面がオフ（ロック）になっているため、アプリケーションを開いて録画を開始できませんでした。これを修正するには、バックグラウンド記録サービス (Watcher) を実行します。</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">画面がオフ（ロック）になっているため、アプリケーションを開けませんでした。</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">「すべてのアプリケーションの一番上に表示」権限が付与されていないため、指定されたアプリケーションを起動して自動的に開くことができませんでした。</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">自動イベント記録のために、近くのデバイス (Bluetooth) 権限を付与する必要があります。これはアプリケーションのシステム設定で行うことができます。</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">バックグラウンド録画サービスと録画ステータスを通知パネルに表示するには、通知が必要です。</string>
+
+    
 </resources>

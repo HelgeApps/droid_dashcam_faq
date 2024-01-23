@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Achọrọ igwefoto maka ndekọ vidiyo na nlele igwefoto.</string>
     <string name="permission_camera_dlg_title">Mkpebi igwefoto</string>
     <string name="permission_camera_request_canceled">Ngwa a chọrọ ikike iji igwefoto dekọọ vidiyo. Mana ị jụrụ ya. Na-emechi… Gbalịa ịnye igwefoto ikike na ntọala sistemụ nke ngwa a</string>
-    <string name="permission_location_dlg_explanation_msg">Mgbe ebelatara, Droid Dashcam na-eji ọnọdụ dị n\'azụ see nhazi, adreesị na ọsọ na vidiyo edere.</string>
+    <string name="permission_location_dlg_explanation_msg">A chọrọ ebe ahụ iji see nhazi, adreesị na ọsọ na vidiyo edere, ma ọ bụ gosipụta data a na ihuenyo isi (dabere na ntọala gị).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Na gam akporo 11 (R), ịkwesịrị iji aka họrọ \"Mgbe niile (ụdị ọ bụla)\" na mmasị sistemu iji kwe ka ọnọdụ dị n\'azụ. Ntọala ga-emeghe ma windo a gachara.</string>
     <string name="permission_location_dlg_msg">Ebe dị mkpa iji chọpụta ọsọ nke njem site na iji data GPS, adreesị ugbu a na nhazi maka ngosi na ihuenyo yana maka ịdekọ ndepụta okwu na vidiyo.</string>
     <string name="permission_location_dlg_title">Ikikere ebe</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Akpaaka</string>
     <string name="rec_fix_short_text">Iji mezie</string>
     <string name="rec_fix_text">Iji mezie</string>
-    <string name="rec_free_space_text">Dị</string>
+    <string name="rec_available_space_text">Dị</string>
     <string name="rec_gps_status_satellites_few_text">Satellites</string>
     <string name="rec_gps_status_satellites_many_text">Satellites</string>
     <string name="rec_gps_status_satellites_one_text">satịlaịtị</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Ebidola ndekọ</string>
     <string name="recording_voice_stopped_text">Akwụsịla ndekọ</string>
 
-    <string name="service_no_system_alert_window_granted_text">Ịmalite ọrụ Droid Dashcam agaghị amalite /kwụsị ndekọ na-akpaghị aka n\'ihi na ikike SYSTEM_ALERT_WINDOW (igosi n\'elu windo ngwa ndị ọzọ) enyeghị ya. Ma ọ bụ akpọchiri ngwaọrụ ahụ n\'oge a (mmachi Android bụ na a ga-ebu ụzọ kpọghee ngwaọrụ ahụ na enyo ya ga-agbanyerịrị tupu ọrụ maka ndekọ vidiyo akpaka amalite)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Enweghị ike imeghe ngwa ahụ ka ịmalite ndekọ n\'ihi na enyeghị ikike \"show n\'elu ngwa niile\". Pịa iji nye</string>
     <string name="service_watch_on_boot_completed_text">Mgbe ịgbanwuo ngwaọrụ</string>
 
     <string name="storage_external_single">MicroSD kaadị</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Gbanyụọ njikarịcha batrị maka ngwa a na ntọala ngwaọrụ gị ka ịzenarị mperi igwefoto n\'ọdịnihu</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Ndekọ akpaaka naanị mgbe ọrụ na-arụ ọrụ</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Ọ bụrụ na ịmee nhọrọ a, a gaghị eme ndekọ akpaka ma ọ bụrụ na ọrụ nlekota anaghị arụ ọrụ ma ọ dịghị ahụ anya na panel ngosi.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Ndekọ akpaaka ọbụlagodi na ọrụ ndabere (Watcher) anaghị arụ ọrụ</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Ị nwere ike gbanyụọ nhọrọ a ka ngwa ahụ wee rụọ ndekọ akpaka naanị ma ọ bụrụ na ọrụ ndabere nke ngwa (Watcher) na-arụ ọrụ.\n- Enwere ike ịme ndekọ akpaghị aka maka ihe omume dịka ịchaji, Bluetooth ma ọ bụ AUX na-enweghị nsogbu ruo gam akporo 7.1.\n- Malite na gam akporo 8, ndekọ na-akpaghị aka na-enweghị ọrụ ngwa ndabere (Watcher) nwere ike ịme naanị maka mmemme Bluetooth, na n\'ọnọdụ ndị ọzọ (mgbe ị na-akwụ ụgwọ ma ọ bụ AUX) ịkwesịrị ibu ụzọ malite ọrụ ngwa ndabere (Watcher) - site na ịmalite ngwa n\'onwe ya otu ugboro.\n- Malite na gam akporo 11 na-enweghị ọrụ ngwa ndabere (Watcher), ịnweta igwefoto na-enweghị mmekọrịta onye ọrụ ga-ekwe omume ma ọ bụrụ na akpọchiri ekwentị (ihuenyo na) yana ikike \"n\'elu ngwa niile\".\n- Yabụ, maka gam akporo 11 na karịa, ịkwesịrị iji aka wepụta ngwa ahụ otu ugboro ka ọrụ ndabere nke ngwa (Watcher) wee malite ịdekọ ozugbo n\'oge ihe omume ọ bụla yana mgbe agbanyụrụ ihuenyo ekwentị.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Ndepụta Okwu na ala</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Achọrọ ka ị nwee ike igosipụta ọrụ ndekọ ndabere na ọkwa na panel ngosi. Pịa iji nyefee</string>
     <string name="prefs_warning_notifications_text">Ikikere ngosi</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Maka obere onyinye, a na-ewepụ mgbasa ozi maka naanị ihuenyo ụlọ</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Maka obere onyinye, a na-ewepụ mgbasa ozi naanị na ihuenyo isi</string>photo
     <string name="photos_folder_name">Foto</string>
 
     <string name="photos_count_one">foto</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Imepe igwefoto ahọpụtara agaghị. Ọ na-eme na ọ bụghị igwefoto niile zoro ezo nwere ike iji ngwa ọ bụla. Ọtụtụ ndị na-emepụta ihe na-ekwe ka iji ha mee ihe na ngwa ala ha. Igwefoto ndabara ga-emeghe.</string>
 
-    <string name="videos_ask_which_player">Jụọ onye ọkpụkpọ ka ị na-egwu oge ọ bụla\?</string>
+    <string name="videos_ask_which_player">Jụọ onye ọkpụkpọ ị ga-egwu na ya</string>
 
     <string name="prefs_location_mode_text">Akpa GPS (Batiri ma ọ bụ nke ziri ezi)</string>
     <string name="prefs_location_mode_balanced_text">Nhazi n\'etiti izi ezi ebe (nhazi), ọsọ na ike batrị.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Wepu mgbasa ozi ruo mgbe ebighị ebi site na iji onyinye otu oge nke ego ọ bụla. Ị nwekwara ike ịnye ego ọ bụla kwa ọnwa iji wepụ mgbasa ozi</string>
 
     <string name="prefs_audio_bt_recording_text">Dekọọ ọdịyo site na ngwaọrụ Bluetooth</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Ejila nkeji isi (Redio ụgbọ ala) eji!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Jiri naanị ekweisi Bluetooth mee ihe. Ọ bụrụ na ijikọ na ngalaba isi (Redio ụgbọ ala) site na Bluetooth, yabụ n\'ihi ihe ụfọdụ nke a nwere ike ịkpalite oku ekwentị na nọmba ọkọlọtọ dị na ngwaọrụ a ozugbo.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Ndekọ akpaaka na njikọ Bluetooth chọrọ ikike. Pịa ebe a iji nyefee</string>
+    <string name="prefs_warning_permission_bluetooth_text">Enweghi ikike Bluetooth</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Enweghị ike imeghe ngwa a ka ịmalite ndekọ n\'ihi na agbanyụrụ ihuenyo (akpọchiri). Gbaa ọrụ ndekọ ndabere (Watcher) iji dozie nke a.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Enweghị ike imepe ngwa a n\'ihi na agbanyụrụ ihuenyo (akpọchiri).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Enweghị ike ịmalite ngwa a kapịrị ọnụ imeghe na-akpaghị aka n\'ihi na enyeghị ikike \"show n\'elu ngwa niile\".</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Ị ga-enyerịrị ngwaọrụ dị nso (Bluetooth) ikike maka ndekọ mmemme akpaka. Enwere ike ime nke a na ntọala sistemụ ngwa.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Achọrọ ọkwa ka ị nwee ike igosipụta ọrụ ndekọ ndabere na ọkwa ndekọ na panel ngosi.</string>
+
+    
 </resources>

@@ -113,7 +113,7 @@
     <string name="permission_camera_dlg_msg">鏡頭是影片錄製和鏡頭預覽所必需的。</string>
     <string name="permission_camera_dlg_title">鏡頭分辨率</string>
     <string name="permission_camera_request_canceled">此應用程式需要使用鏡頭錄製影片的權限。但是您已拒绝。正在關閉…請嘗試在此應用程式的系统設定中授予相機權限</string>
-    <string name="permission_location_dlg_explanation_msg">最小化後，Droid Dashcam 將使用背景中的位置在錄製的影片上添加座標、地址和速度。</string>
+    <string name="permission_location_dlg_explanation_msg">需要該位置來在錄製的影片上繪製座標、地址和速度，或在主螢幕上顯示此資料（取決於您的設定）。</string>
     <string name="permission_location_dlg_explanation_settings_msg">在 Android 11 以上的系統，需要於位置權限選項中手動選擇“始终（任何模式）”以允許在後台進行定位。設定將在點擊確定之後打開。</string>
     <string name="permission_location_dlg_msg">位置權限對於使用 GPS 數據確定行駛速度、當前地址和座標是必要的，以便在屏幕上顯示并在影片上錄製字幕</string>
     <string name="permission_location_dlg_title">位置權限</string>
@@ -326,7 +326,7 @@
     <string name="rec_day_night_btn_auto_text">汽車</string>
     <string name="rec_fix_short_text">糾正</string>
     <string name="rec_fix_text">糾正</string>
-    <string name="rec_free_space_text">可用的</string>
+    <string name="rec_available_space_text">可用的</string>
     <string name="rec_gps_status_satellites_few_text">衛星</string>
     <string name="rec_gps_status_satellites_many_text">衛星</string>
     <string name="rec_gps_status_satellites_one_text">衛星</string>
@@ -350,7 +350,7 @@
     <string name="recording_voice_started_text">錄影開始了</string>
     <string name="recording_voice_stopped_text">錄影停止</string>
 
-    <string name="service_no_system_alert_window_granted_text">由於未授予 SYSTEM_ALERT_WINDOW 權限（在其他應用程式的所有視窗上顯示），因此無法啟動 Droid Dashcam 服務以自動開始/停止錄製。或者此時設備已被鎖定（Android 限制是設備必須先解鎖並打開其螢幕才能啟動自動錄影服務）</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">無法開啟應用程式開始錄製，因為未授予「顯示在所有應用程式之上」權限。點擊提供</string>
     <string name="service_watch_on_boot_completed_text">打開設定時</string>
 
     <string name="storage_external_single">MicroSD 卡</string>
@@ -402,8 +402,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">在您的設備設定中禁用此應用程式的電池最佳化，以避免未來出現相機錯誤</string>
 
 
-    <string name="prefs_rules_auto_start_only_with_service_text">僅在服務運行時自動錄制</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">如果啟用此選項，若是監控服務未運行且在通知面板中不可見，則不會執行自動錄制</string>
+    <string name="prefs_rules_auto_start_without_service_text">即使後台服務（Watcher）未運行也自動錄製</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* 您可以關閉此選項，以便應用程式僅在應用程式的背景服務（Watcher）運行時才執行自動錄製。\n- 在 Android 7.1 之前，可以毫無問題地執行充電、藍牙或 AUX 等事件的自動記錄。\n- 從Android 8開始，無背景應用服務（Watcher）的自動錄製只能針對藍牙事件進行，在其他情況下（充電或AUX時）需要先啟動背景應用服務（Watcher） - 透過啟動應用程式本身一次。\n- 從沒有背景應用程式服務（Watcher）的 Android 11 開始，只有在手機解鎖（螢幕開啟）並且授予「所有應用程式之上」權限的情況下，才可以在沒有使用者互動的情況下存取相機。\n- 因此，對於Android 11及更高版本，您需要手動啟動應用程式一次，以便應用程式的後台服務（Watcher）開始在任何事件期間以及手機螢幕關閉時自動錄製。</string>
 
 
     <string name="prefs_subtitles_position_bottom_text">字幕在底部</string>
@@ -429,7 +429,7 @@
     <string name="prefs_warning_notifications_sum_text">需要能夠在通知面板上顯示後台錄製服務和狀態。點擊提交</string>
     <string name="prefs_warning_notifications_text">通知權限</string>
 
-    <string name="donation_dlg_limited_ads_message_text">對於較小的捐款，僅在主屏幕上刪除廣告</string>photo
+    <string name="donation_dlg_limited_ads_message_text">對於較小的捐款，僅在主螢幕上刪除廣告</string>photo
     <string name="photos_folder_name">相片</string>
 
     <string name="photos_count_one">照片</string>
@@ -459,7 +459,7 @@
 
     <string name="camera_msg_error_non_exposed_error">無法打開所選攝像頭。碰巧的是，並非所有隱藏攝像頭都可以被任何應用程序使用。許多製造商只允許在其本機應用程序中使用它們。默認相機將打開。</string>
 
-    <string name="videos_ask_which_player">請問每次用哪個玩家玩？</string>
+    <string name="videos_ask_which_player">問哪個球員參加比賽</string>
 
     <string name="prefs_location_mode_text">GPS 優先（電池或精度）</string>
     <string name="prefs_location_mode_balanced_text">定位精度（坐標）、速度和電池功耗之間的平衡。</string>
@@ -492,4 +492,43 @@
     <string name="donation_remove_ads_by_any_amount_text">透過一次性捐贈任意金額，永久刪除廣告。您也可以每月捐贈任何金額來刪除廣告</string>
 
     <string name="prefs_audio_bt_recording_text">從藍牙裝置錄製音訊</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">請勿與主機（汽車收音機）一起使用！</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">僅與藍牙耳機一起使用。如果您透過藍牙連接到主機（汽車收音機），則由於某種原因，這可能會自動觸發撥打該裝置上的標準號碼的電話</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">透過藍牙連接自動錄音需要許可。點這裡提交</string>
+    <string name="prefs_warning_permission_bluetooth_text">未授予藍牙權限</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">由於螢幕已關閉（鎖定），因此無法開啟應用程式以開始錄製。運行後台記錄服務（Watcher）來解決此問題。</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">由於螢幕已關閉（鎖定），因此無法開啟應用程式。</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">指定的應用程式無法啟動自動打開，因為未授予「顯示在所有應用程式之上」權限。</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">您必須授予附近設備（藍牙）自動記錄事件的權限。這可以在應用程式的系統設定中完成。</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">需要通知才能在通知面板中顯示後台錄音服務和錄音狀態。</string>
+
+    
 </resources>

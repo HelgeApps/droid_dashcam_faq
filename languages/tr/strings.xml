@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Video kaydı ve kamera önizlemesi için kamera izni gereklidir.</string>
     <string name="permission_camera_dlg_title">Kamera izni</string>
     <string name="permission_camera_request_canceled">Bu uygulama, video kaydetmek için kamera izni gerektirir. Ama geri çevirdin. Kapatılıyor… Bu uygulamanın sistem ayarlarında kameraya izin vermeyi deneyin</string>
-    <string name="permission_location_dlg_explanation_msg">Küçültüldüğünde, Droid Dashcam kaydedilen videoda koordinatları, adresi ve hızı çizmek için arka plandaki konumu kullanır.</string>
+    <string name="permission_location_dlg_explanation_msg">Kaydedilen video üzerinde koordinatları, adresi ve hızı çizmek veya bu verileri ana ekranda görüntülemek için konum gereklidir (ayarlarınıza bağlı olarak).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Android 11\'de (R), arka planda konuma izin vermek için sistem tercihlerinde \"Her zaman (herhangi bir mod)\" seçeneğini manuel olarak seçmeniz gerekir. Ayarlar bu pencereden sonra açılacaktır.</string>
     <string name="permission_location_dlg_msg">GPS verileri kullanılarak araç hızının hesaplanması, mevcut adres ve koordinatların ekranda görüntülenmesi ve videolara altyazı kaydedilmesi için konum izni gereklidir.</string>
     <string name="permission_location_dlg_title">Konum izni</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Oto</string>
     <string name="rec_fix_short_text">Düzelt</string>
     <string name="rec_fix_text">Düzelt</string>
-    <string name="rec_free_space_text">Mevcut</string>
+    <string name="rec_available_space_text">Mevcut</string>
     <string name="rec_gps_status_satellites_few_text">Uydular</string>
     <string name="rec_gps_status_satellites_many_text">Uydular</string>
     <string name="rec_gps_status_satellites_one_text">Uydu</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Kayıt başladı</string>
     <string name="recording_voice_stopped_text">Kayıt durduruldu</string>
 
-    <string name="service_no_system_alert_window_granted_text">SYSTEM_ALERT_WINDOW izni (diğer uygulamaların tüm pencerelerinde görüntüleme) verilmediğinden kaydı otomatik olarak başlatmak /durdurmak için Droid Dashcam hizmeti başlatılamadı. Veya cihaz bu noktada kilitlendi (Android kısıtlaması, otomatik video kaydı hizmetinin başlatılabilmesi için önce cihazın kilidinin açılması ve ekranının açılması gerektiğidir)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">\"Tüm uygulamaların üstünde göster\" izni verilmediğinden uygulama, kayda başlamak üzere açılamadı. Sağlamak için tıklayın</string>
     <string name="service_watch_on_boot_completed_text">Açılışta tamamlandı</string>
 
     <string name="storage_external_single">Mikro SD kart</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Gelecekteki kamera hatalarını önlemek için bu uygulama için pil optimizasyonunu cihaz ayarlarınızda devre dışı bırakın</string>
 
 
-    <string name="prefs_rules_auto_start_only_with_service_text">Yalnızca hizmet çalışırken otomatik kayıt</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Bu seçeneği etkinleştirirseniz, izleme hizmeti çalışmıyorsa ve bildirim panelinde görünmüyorsa otomatik kayıt yapılmayacaktır.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Arka plan hizmeti (İzleyici) çalışmıyor olsa bile otomatik kayıt</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Uygulamanın yalnızca arka planda çalışan servis (Watcher) çalışıyorsa otomatik kayıt yapması için bu seçeneği kapatabilirsiniz.\n- Android 7.1\'e kadar şarj, Bluetooth veya AUX gibi olayların otomatik kaydı sorunsuz gerçekleştirilebilmektedir.\n- Android 8\'den başlayarak, arka plan uygulama hizmeti (Watcher) olmadan otomatik kayıt yalnızca Bluetooth etkinlikleri için gerçekleştirilebilir ve diğer durumlarda (şarj ederken veya AUX sırasında) önce arka plan uygulama hizmetini (Watcher) başlatmanız gerekir - uygulamanın kendisi bir kez.\n- Arka plan uygulama hizmeti (Watcher) olmayan Android 11\'den başlayarak, kullanıcı etkileşimi olmadan kameraya erişim yalnızca telefonun kilidi açıksa (ekran açıksa) ve \"tüm uygulamaların üstünde\" izni verilmişse mümkündür.\n- Bu nedenle, Android 11 ve üzeri sürümlerde, uygulamanın arka plan hizmetinin (Watcher) herhangi bir etkinlik sırasında ve telefon ekranı kapatıldığında otomatik olarak kayıt yapmaya başlaması için uygulamayı manuel olarak bir kez başlatmanız gerekir.</string>
 
 
     <string name="prefs_subtitles_position_bottom_text">Altyazılar en altta</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Arka planda kayıt servisini ve durumlarını bildirim panelinde görüntüleyebilmek için gereklidir. göndermek için tıklayın</string>
     <string name="prefs_warning_notifications_text">Bildirim İzni</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Daha küçük bağışlar için, yalnızca ana ekrandaki reklamlar kaldırılır</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Daha küçük bağışlar için reklamlar yalnızca ana ekranda kaldırılır</string>photo
     <string name="photos_folder_name">Fotoğraflar</string>
 
     <string name="photos_count_one">Fotoğraf</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Seçilen kamera açılamadı. Öyle olur ki, tüm gizli kameralar herhangi bir uygulama tarafından kullanılamaz. Çoğu üretici, bunların yalnızca kendi yerel uygulamalarında kullanılmasına izin verir. Varsayılan kamera açılacaktır.</string>
 
-    <string name="videos_ask_which_player">Her seferinde hangi oyuncuda oynayacağınızı sorun\?</string>
+    <string name="videos_ask_which_player">Hangi oyuncuda oynayacağını sor</string>
 
     <string name="prefs_location_mode_text">GPS Önceliği (Pil veya Doğruluk)</string>
     <string name="prefs_location_mode_balanced_text">Konum doğruluğu (koordinatlar), hız ve pil gücü tüketimi arasında denge kurun.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Herhangi bir miktarda tek seferlik bağışla reklamları sonsuza kadar kaldırın. Ayrıca reklamları kaldırmak için aylık olarak istediğiniz miktarda bağışta bulunabilirsiniz.</string>
 
     <string name="prefs_audio_bt_recording_text">Bluetooth cihazından ses kaydetme</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Ana ünite (araba radyosu) ile birlikte kullanmayın!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Yalnızca Bluetooth kulaklıklarla kullanın. Ana üniteye (araba radyosu) Bluetooth aracılığıyla bağlanırsanız, bazı nedenlerden dolayı bu, bu cihazdaki standart numaraya otomatik olarak bir telefon aramasını tetikleyebilir.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Bluetooth bağlantıları üzerinden otomatik kayıt izin gerektirir. Göndermek için burayı tıklayın</string>
+    <string name="prefs_warning_permission_bluetooth_text">Bluetooth izni verilmedi</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Ekran kapatıldığı (kilitlendiği) için uygulama kayda başlamak üzere açılamadı. Bunu düzeltmek için bir arka planda kayıt hizmeti (İzleyici) çalıştırın.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Ekran kapatıldığı (kilitlendiği) için uygulama açılamadı.</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">\"Tüm uygulamaların üstünde göster\" izni verilmediğinden belirtilen uygulama otomatik olarak açılacak şekilde başlatılamadı.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Otomatik olay kaydı için Yakındaki Cihazlara (Bluetooth) izin vermelisiniz. Bu, uygulamanın sistem ayarlarında yapılabilir.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Arka plan kayıt hizmetini ve kayıt durumunu bildirim panelinde görüntüleyebilmek için bildirimler gereklidir.</string>
+
+    
 </resources>

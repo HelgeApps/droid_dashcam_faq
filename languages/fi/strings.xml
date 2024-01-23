@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Kameraa tarvitaan videon tallentamiseen ja kameran esikatseluun.</string>
     <string name="permission_camera_dlg_title">Kameran resoluutio</string>
     <string name="permission_camera_request_canceled">Tämä sovellus vaatii luvan käyttää kameraa videon tallentamiseen. Mutta sinä hylkäsit sen. Suljetaan… Yritä myöntää kameralle lupa tämän sovelluksen järjestelmäasetuksista</string>
-    <string name="permission_location_dlg_explanation_msg">Kun Droid Dashcam on minimoitu, se käyttää taustalla olevaa sijaintia koordinaattien, osoitteen ja nopeuden piirtämiseen tallennettuun videoon.</string>
+    <string name="permission_location_dlg_explanation_msg">Sijaintia tarvitaan koordinaattien, osoitteen ja nopeuden piirtämiseen tallennettuun videoon tai näiden tietojen näyttämiseen päänäytössä (asetuksistasi riippuen).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Android 11 (R) -käyttöjärjestelmässä sinun on valittava manuaalisesti järjestelmäasetuksista Koko ajan (mikä tahansa tila) salliaksesi sijainnin taustalla. Asetukset avautuvat tämän ikkunan jälkeen.</string>
     <string name="permission_location_dlg_msg">Sijainti on välttämätön kuljetusnopeuden määrittämiseksi GPS-tietojen avulla, nykyinen osoite ja koordinaatit näytölle näyttämistä varten ja tekstityksen tallentamiseksi videolle</string>
     <string name="permission_location_dlg_title">Sijaintilupa</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">Korjata</string>
     <string name="rec_fix_text">Korjata</string>
-    <string name="rec_free_space_text">Saatavilla</string>
+    <string name="rec_available_space_text">Saatavilla</string>
     <string name="rec_gps_status_satellites_few_text">satelliitteja</string>
     <string name="rec_gps_status_satellites_many_text">satelliitteja</string>
     <string name="rec_gps_status_satellites_one_text">satelliitti</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Tallennus on alkanut</string>
     <string name="recording_voice_stopped_text">Tallennus lopetettiin</string>
 
-    <string name="service_no_system_alert_window_granted_text">Droid Dashcam -palvelun käynnistäminen automaattisen tallennuksen käynnistämiseksi/pysäyttämiseksi epäonnistui, koska SYSTEM_ALERT_WINDOW-lupaa (näyttö muiden sovellusten kaikissa ikkunoissa) ei myönnetty. Tai laite oli lukittu tässä vaiheessa (Android-rajoitus on, että laitteen lukitus on ensin avattava ja sen näyttö on kytkettävä päälle ennen kuin automaattinen videotallennuspalvelu voidaan käynnistää)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Sovellusta ei voitu avata tallennuksen aloittamiseksi, koska \"näytä kaikkien sovellusten päällä\" -lupaa ei myönnetty. Napsauta tarjotaksesi</string>
     <string name="service_watch_on_boot_completed_text">Kun kytket laitteen päälle</string>
 
     <string name="storage_external_single">MicroSD-kortti</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Poista tämän sovelluksen akun optimointi käytöstä laitteen asetuksista välttääksesi tulevat kameravirheet</string>
 
 
-    <string name="prefs_rules_auto_start_only_with_service_text">Automaattinen tallennus vain palvelun ollessa käynnissä</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Jos otat tämän vaihtoehdon käyttöön, automaattista tallennusta ei suoriteta, jos valvontapalvelu ei ole käynnissä eikä näy ilmoituspaneelissa</string>
+    <string name="prefs_rules_auto_start_without_service_text">Automaattinen tallennus, vaikka taustapalvelu (Watcher) ei olisi käynnissä</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Voit poistaa tämän vaihtoehdon käytöstä, jotta sovellus suorittaa automaattisen tallennuksen vain, jos sovelluksen taustapalvelu (Watcher) on käynnissä.\n- Automaattinen tallennus tapahtumille, kuten lataus, Bluetooth tai AUX, voidaan suorittaa ilman ongelmia Android 7.1:een asti.\n- Android 8:sta alkaen automaattinen tallennus ilman taustasovelluspalvelua (Watcher) voidaan suorittaa vain Bluetooth-tapahtumille, ja muissa tapauksissa (latauksen tai AUX:n aikana) täytyy ensin käynnistää taustasovelluspalvelu (Watcher) - käynnistämällä sovellus itse kerran.\n- Alkaen Android 11:stä ilman taustasovelluspalvelua (Watcher), pääsy kameraan ilman käyttäjän toimia on mahdollista vain, jos puhelimen lukitus on avattu (näyttö päällä) ja \"kaikkien sovellusten päälle\" -käyttöoikeus myönnetään.\n- Näin ollen Android 11:ssä ja uudemmissa versioissa sovellus on käynnistettävä manuaalisesti kerran, jotta sovelluksen taustapalvelu (Watcher) alkaa automaattisesti tallentaa tapahtumien aikana ja puhelimen näytön sammuessa.</string>
 
 
     <string name="prefs_subtitles_position_bottom_text">Tekstitykset alareunassa</string>
@@ -428,7 +428,7 @@ photo<string name="prefs_launch_activity_on_auto_rec_start_text">Avaa sovellus, 
     <string name="prefs_warning_notifications_sum_text">Vaaditaan taustatallennuspalvelun ja tilojen näyttämiseksi ilmoituspaneelissa. Lähetä napsauttamalla</string>
     <string name="prefs_warning_notifications_text">Ilmoituslupa</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Pienemmillä lahjoituksilla mainokset poistetaan vain aloitusnäytöstä</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Pienemmillä lahjoituksilla mainonta poistetaan vain päänäytöltä</string>photo
     <string name="photos_folder_name">Kuvat</string>
 
     <string name="photos_count_one">kuva</string>
@@ -458,7 +458,7 @@ photo<string name="prefs_launch_activity_on_auto_rec_start_text">Avaa sovellus, 
 
     <string name="camera_msg_error_non_exposed_error">Valitun kameran avaaminen epäonnistui. Sattuu niin, että mikään sovellus ei voi käyttää kaikkia piilokameroita. Monet valmistajat sallivat niiden käytön vain omissa sovelluksissaan. Oletuskamera avautuu.</string>
 
-    <string name="videos_ask_which_player">Kysy missä pelaaja pelata joka kerta\?</string>
+    <string name="videos_ask_which_player">Kysy, missä pelaajassa haluat pelata</string>
 
     <string name="prefs_location_mode_text">GPS-prioriteetti (akku tai tarkkuus)</string>
     <string name="prefs_location_mode_balanced_text">Tasapaino sijainnin tarkkuuden (koordinaatit), nopeuden ja akun virrankulutuksen välillä.</string>
@@ -491,4 +491,43 @@ photo<string name="prefs_launch_activity_on_auto_rec_start_text">Avaa sovellus, 
     <string name="donation_remove_ads_by_any_amount_text">Poista mainokset ikuisesti minkä tahansa summan kertaluonteisella lahjoituksella. Voit myös lahjoittaa minkä tahansa summan kuukausittain mainosten poistamiseen</string>
 
     <string name="prefs_audio_bt_recording_text">Nauhoita ääntä Bluetooth-laitteesta</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Älä käytä pääyksikön (autoradion) kanssa!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Käytä vain Bluetooth-kuulokkeiden kanssa. Jos muodostat yhteyden pääyksikköön (autoradioon) Bluetoothin kautta, tämä voi jostain syystä automaattisesti laukaista puhelun tämän laitteen vakionumeroon</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Automaattinen tallennus Bluetooth-yhteyksien kautta vaatii luvan. Lähetä napsauttamalla tätä</string>
+    <string name="prefs_warning_permission_bluetooth_text">Bluetooth-lupaa ei myönnetty</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Sovellusta ei voitu avata tallennuksen aloittamiseksi, koska näyttö oli sammutettu (lukittu). Suorita taustatallennuspalvelu (Watcher) korjataksesi tämän.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Sovellusta ei voitu avata, koska näyttö oli sammutettu (lukittu).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Määritettyä sovellusta ei voitu käynnistää avautumaan automaattisesti, koska \"näytä kaikkien sovellusten päällä\" -lupaa ei myönnetty.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Sinun on myönnettävä lähellä oleville laitteille (Bluetooth) lupa tapahtumien automaattiseen tallentamiseen. Tämä voidaan tehdä sovelluksen järjestelmäasetuksissa.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Ilmoitukset tarvitaan taustatallennuspalvelun ja tallennuksen tilan näyttämiseksi ilmoituspaneelissa.</string>
+
+    
 </resources>

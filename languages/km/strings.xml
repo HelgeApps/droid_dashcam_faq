@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">កាមេរ៉ាត្រូវបានទាមទារសម្រាប់ការថតវីដេអូ និងការមើលកាមេរ៉ាជាមុន។</string>
     <string name="permission_camera_dlg_title">គុណភាពបង្ហាញកាមេរ៉ា</string>
     <string name="permission_camera_request_canceled">កម្មវិធីនេះទាមទារការអនុញ្ញាតឱ្យប្រើកាមេរ៉ាដើម្បីថតវីដេអូ។ ប៉ុន្តែអ្នកបានបដិសេធ។ បិទ… ព្យាយាមផ្តល់ការអនុញ្ញាតដល់កាមេរ៉ានៅក្នុងការកំណត់ប្រព័ន្ធនៃកម្មវិធីនេះ</string>
-    <string name="permission_location_dlg_explanation_msg">នៅពេលបង្រួមអប្បបរមា Droid Dashcam ប្រើទីតាំងនៅក្នុងផ្ទៃខាងក្រោយដើម្បីគូរកូអរដោនេ អាសយដ្ឋាន និងល្បឿននៅលើវីដេអូដែលបានថត។</string>
+    <string name="permission_location_dlg_explanation_msg">ត្រូវការទីតាំងដើម្បីគូរកូអរដោនេ អាសយដ្ឋាន និងល្បឿននៅលើវីដេអូដែលបានថត ឬបង្ហាញទិន្នន័យនេះនៅលើអេក្រង់មេ (អាស្រ័យលើការកំណត់របស់អ្នក)។</string>
     <string name="permission_location_dlg_explanation_settings_msg">នៅលើប្រព័ន្ធប្រតិបត្តិការ Android 11 (R) អ្នកត្រូវជ្រើសរើស \"គ្រប់ពេលវេលា (របៀបណាមួយ)\" ដោយដៃនៅក្នុងចំណូលចិត្តប្រព័ន្ធ ដើម្បីអនុញ្ញាតទីតាំងនៅក្នុងផ្ទៃខាងក្រោយ។ ការកំណត់នឹងបើកបន្ទាប់ពីបង្អួចនេះ។</string>
     <string name="permission_location_dlg_msg">ទីតាំងគឺចាំបាច់ដើម្បីកំណត់ល្បឿននៃការដឹកជញ្ជូនដោយប្រើទិន្នន័យ GPS អាសយដ្ឋានបច្ចុប្បន្ន និងកូអរដោនេសម្រាប់បង្ហាញនៅលើអេក្រង់ និងសម្រាប់ការថតចំណងជើងរងនៅលើវីដេអូ។</string>
     <string name="permission_location_dlg_title">ការអនុញ្ញាតទីតាំង</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">ស្វ័យប្រវត្តិ</string>
     <string name="rec_fix_short_text">កែតម្រូវ</string>
     <string name="rec_fix_text">កែតម្រូវ</string>
-    <string name="rec_free_space_text">មាន</string>
+    <string name="rec_available_space_text">មាន</string>
     <string name="rec_gps_status_satellites_few_text">ផ្កាយរណប</string>
     <string name="rec_gps_status_satellites_many_text">ផ្កាយរណប</string>
     <string name="rec_gps_status_satellites_one_text">ផ្កាយរណប</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">ការថតបានចាប់ផ្តើមហើយ។</string>
     <string name="recording_voice_stopped_text">ការថតបានឈប់</string>
 
-    <string name="service_no_system_alert_window_granted_text">បានបរាជ័យក្នុងការចាប់ផ្តើមសេវាកម្ម Droid Dashcam ដើម្បីចាប់ផ្តើម /បញ្ឈប់ការថតដោយស្វ័យប្រវត្តិ ពីព្រោះ SYSTEM_ALERT_WINDOW ការអនុញ្ញាត (បង្ហាញលើគ្រប់បង្អួចនៃកម្មវិធីផ្សេងទៀត) មិនត្រូវបានផ្តល់ឱ្យទេ។ ឬឧបករណ៍ត្រូវបានចាក់សោនៅចំណុចនេះ (ការដាក់កម្រិត Android គឺថាឧបករណ៍ត្រូវតែដោះសោជាមុនសិន ហើយអេក្រង់របស់វាត្រូវតែបើក មុនពេលសេវាកម្មសម្រាប់ការថតវីដេអូដោយស្វ័យប្រវត្តិអាចត្រូវបានចាប់ផ្តើម)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">មិនអាចបើកកម្មវិធីដើម្បីចាប់ផ្តើមថតបានទេ ដោយសារការអនុញ្ញាត \"បង្ហាញនៅលើកំពូលនៃកម្មវិធីទាំងអស់\" មិនត្រូវបានផ្តល់ការអនុញ្ញាតទេ។ ចុចដើម្បីផ្តល់</string>
     <string name="service_watch_on_boot_completed_text">នៅពេលបើកឧបករណ៍</string>
 
     <string name="storage_external_single">កាត microSD</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">បិទការបង្កើនប្រសិទ្ធភាពថ្មសម្រាប់កម្មវិធីនេះនៅក្នុងការកំណត់ឧបករណ៍របស់អ្នក ដើម្បីជៀសវាងបញ្ហាកាមេរ៉ានាពេលអនាគត</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">ការថតដោយស្វ័យប្រវត្តិតែនៅពេលដែលសេវាកម្មកំពុងដំណើរការ</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">ប្រសិនបើអ្នកបើកជម្រើសនេះ នោះការថតដោយស្វ័យប្រវត្តិនឹងមិនត្រូវបានអនុវត្តទេ ប្រសិនបើសេវាកម្មត្រួតពិនិត្យមិនដំណើរការ និងមិនអាចមើលឃើញនៅក្នុងបន្ទះជូនដំណឹង</string>
+    <string name="prefs_rules_auto_start_without_service_text">ការថតដោយស្វ័យប្រវត្តិ ទោះបីជាសេវាកម្មផ្ទៃខាងក្រោយ (Watcher) មិនដំណើរការក៏ដោយ។</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* អ្នកអាចបិទជម្រើសនេះ ដើម្បីឱ្យកម្មវិធីដំណើរការថតដោយស្វ័យប្រវត្តិ លុះត្រាតែសេវាកម្មផ្ទៃខាងក្រោយរបស់កម្មវិធី (Watcher) កំពុងដំណើរការ។\n- ការថតដោយស្វ័យប្រវត្តិសម្រាប់ព្រឹត្តិការណ៍ដូចជាការសាកថ្ម ប៊្លូធូស ឬ AUX អាចត្រូវបានអនុវត្តដោយគ្មានបញ្ហារហូតដល់ Android 7.1 ។\n- ចាប់ផ្តើមពីប្រព័ន្ធប្រតិបត្តិការ Android 8 ការថតដោយស្វ័យប្រវត្តិដោយគ្មានសេវាកម្មកម្មវិធីផ្ទៃខាងក្រោយ (Watcher) អាចត្រូវបានអនុវត្តសម្រាប់តែព្រឹត្តិការណ៍ប៊្លូធូសប៉ុណ្ណោះ ហើយក្នុងករណីផ្សេងទៀត (នៅពេលបញ្ចូលថ្ម ឬ AUX) អ្នកត្រូវចាប់ផ្តើមសេវាកម្មកម្មវិធីផ្ទៃខាងក្រោយជាមុនសិន (Watcher) ដោយបើកដំណើរការកម្មវិធី អនុវត្តម្តង។\n- ចាប់ផ្តើមជាមួយ Android 11 ដោយគ្មានសេវាកម្មកម្មវិធីផ្ទៃខាងក្រោយ (Watcher) ការចូលប្រើកាមេរ៉ាដោយគ្មានអន្តរកម្មរបស់អ្នកប្រើគឺអាចធ្វើទៅបានលុះត្រាតែទូរស័ព្ទត្រូវបានដោះសោ (អេក្រង់នៅលើ) និង \"នៅលើកំពូលនៃកម្មវិធីទាំងអស់\" ត្រូវបានផ្តល់ការអនុញ្ញាត។\n- ដូច្នេះសម្រាប់ប្រព័ន្ធប្រតិបត្តិការ Android 11 និងខ្ពស់ជាងនេះ អ្នកត្រូវបើកដំណើរការកម្មវិធីដោយដៃម្តង ដើម្បីឱ្យសេវាកម្មផ្ទៃខាងក្រោយរបស់កម្មវិធី (Watcher) ចាប់ផ្តើមថតដោយស្វ័យប្រវត្តិក្នុងអំឡុងពេលព្រឹត្តិការណ៍ណាមួយ និងនៅពេលដែលអេក្រង់ទូរស័ព្ទត្រូវបានបិទ។</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">ចំណងជើងរងនៅខាងក្រោម</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">តម្រូវ​ឱ្យ​មាន​លទ្ធភាព​បង្ហាញ​សេវា​ថត​ផ្ទៃ​ខាង​ក្រោយ និង​ស្ថានភាព​នៅ​លើ​បន្ទះ​ជូនដំណឹង។ ចុចដើម្បីដាក់ស្នើ</string>
     <string name="prefs_warning_notifications_text">ការអនុញ្ញាតការជូនដំណឹង</string>
 
-    <string name="donation_dlg_limited_ads_message_text">សម្រាប់ការបរិច្ចាគតូចៗ ការផ្សាយពាណិជ្ជកម្មត្រូវបានដកចេញសម្រាប់តែអេក្រង់ដើមប៉ុណ្ណោះ។</string>photo
+    <string name="donation_dlg_limited_ads_message_text">សម្រាប់ការបរិច្ចាគតូចៗ ការផ្សាយពាណិជ្ជកម្មត្រូវបានដកចេញតែនៅលើអេក្រង់មេប៉ុណ្ណោះ។</string>photo
     <string name="photos_folder_name">រូបថត</string>
 
     <string name="photos_count_one">រូបថត</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">បរាជ័យក្នុងការបើកកាមេរ៉ាដែលបានជ្រើសរើស។ វាកើតឡើងដូច្នេះមិនមែនកាមេរ៉ាលាក់ទាំងអស់អាចប្រើដោយកម្មវិធីណាមួយនោះទេ។ ក្រុមហ៊ុនផលិតជាច្រើនអនុញ្ញាតឱ្យប្រើតែនៅក្នុងកម្មវិធីដើមរបស់ពួកគេប៉ុណ្ណោះ។ កាមេរ៉ាលំនាំដើមនឹងបើក។</string>
 
-    <string name="videos_ask_which_player">សួរថាលេងមួយណា\?</string>
+    <string name="videos_ask_which_player">សួរថាតើអ្នកលេងណាដែលត្រូវលេង</string>
 
     <string name="prefs_location_mode_text">អាទិភាព GPS (ថ្ម ឬភាពត្រឹមត្រូវ)</string>
     <string name="prefs_location_mode_balanced_text">តុល្យភាពរវាងភាពត្រឹមត្រូវនៃទីតាំង (កូអរដោនេ) ល្បឿន និងការប្រើប្រាស់ថាមពលថ្ម។</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">លុបការផ្សាយពាណិជ្ជកម្មជារៀងរហូតជាមួយនឹងការបរិច្ចាគតែម្តងនៃចំនួនទឹកប្រាក់ណាមួយ។ អ្នកក៏អាចបរិច្ចាគបរិមាណណាមួយជារៀងរាល់ខែ ដើម្បីលុបការផ្សាយពាណិជ្ជកម្មផងដែរ។</string>
 
     <string name="prefs_audio_bt_recording_text">ថតសំឡេងពីឧបករណ៍ប៊្លូធូស</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">កុំប្រើជាមួយក្បាលម៉ាស៊ីន (វិទ្យុរថយន្ត)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">ប្រើតែជាមួយកាសប៊្លូធូសប៉ុណ្ណោះ។ ប្រសិនបើអ្នកភ្ជាប់ទៅអង្គភាពក្បាល (វិទ្យុរថយន្ត) តាមរយៈប៊្លូធូស នោះសម្រាប់ហេតុផលមួយចំនួន វាអាចបង្កការហៅទូរសព្ទដោយស្វ័យប្រវត្តិទៅកាន់លេខស្តង់ដារនៅលើឧបករណ៍នេះ</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">ការថតដោយស្វ័យប្រវត្តិតាមរយៈការតភ្ជាប់ប៊្លូធូសទាមទារការអនុញ្ញាត។ ចុចទីនេះដើម្បីដាក់ស្នើ</string>
+    <string name="prefs_warning_permission_bluetooth_text">មិនបានផ្តល់ការអនុញ្ញាតប៊្លូធូសទេ។</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">កម្មវិធី​មិន​អាច​បើក​ដើម្បី​ចាប់​ផ្ដើម​ថត​បាន​ទេ ព្រោះ​អេក្រង់​ត្រូវ​បាន​បិទ (ចាក់សោ)។ ដំណើរការសេវាកម្មថតផ្ទៃខាងក្រោយ (Watcher) ដើម្បីដោះស្រាយបញ្ហានេះ។</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">កម្មវិធីមិនអាចបើកបានទេព្រោះអេក្រង់ត្រូវបានបិទ (ចាក់សោ)។</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">កម្មវិធីដែលបានបញ្ជាក់មិនអាចត្រូវបានដាក់ឱ្យដំណើរការដើម្បីបើកដោយស្វ័យប្រវត្តិទេ ដោយសារការអនុញ្ញាត \"បង្ហាញនៅលើកំពូលនៃកម្មវិធីទាំងអស់\" មិនត្រូវបានផ្តល់ឱ្យទេ។</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">អ្នក​ត្រូវ​តែ​ផ្តល់​ការ​អនុញ្ញាត​ឱ្យ​ឧបករណ៍​ក្បែរ​នោះ (ប៊្លូធូស) សម្រាប់​ការ​ថត​ព្រឹត្តិការណ៍​ដោយ​ស្វ័យ​ប្រវត្តិ។ នេះអាចត្រូវបានធ្វើនៅក្នុងការកំណត់ប្រព័ន្ធរបស់កម្មវិធី។</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">ការជូនដំណឹងត្រូវបានទាមទារដើម្បីអាចបង្ហាញសេវាកម្មថតផ្ទៃខាងក្រោយ និងស្ថានភាពថតនៅក្នុងបន្ទះជូនដំណឹង។</string>
+
+    
 </resources>

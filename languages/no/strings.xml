@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Kameraet er nødvendig for videoopptak og forhåndsvisning av kamera.</string>
     <string name="permission_camera_dlg_title">Kameraoppløsning</string>
     <string name="permission_camera_request_canceled">Denne applikasjonen krever tillatelse for å bruke kameraet til å ta opp video. Men du avviste det. Lukker… Prøv å gi tillatelse til kameraet i systeminnstillingene til denne applikasjonen</string>
-    <string name="permission_location_dlg_explanation_msg">Når minimert, bruker Droid Dashcam plasseringen i bakgrunnen til å tegne koordinater, adresse og hastighet på den innspilte videoen.</string>
+    <string name="permission_location_dlg_explanation_msg">Plasseringen er nødvendig for å tegne koordinater, adresse og hastighet på den innspilte videoen, eller vise disse dataene på hovedskjermen (avhengig av innstillingene dine).</string>
     <string name="permission_location_dlg_explanation_settings_msg">På Android 11 (R) må du manuelt velge \"Hele tiden (alle modus)\" i systeminnstillingene for å tillate plasseringen i bakgrunnen. Innstillingene åpnes etter dette vinduet.</string>
     <string name="permission_location_dlg_msg">Plasseringen er nødvendig for å bestemme transporthastigheten ved hjelp av GPS-data, gjeldende adresse og koordinater for visning på skjermen og for opptak av undertekster på video</string>
     <string name="permission_location_dlg_title">Stedstillatelse</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">Å rette</string>
     <string name="rec_fix_text">Å rette</string>
-    <string name="rec_free_space_text">Tilgjengelig</string>
+    <string name="rec_available_space_text">Tilgjengelig</string>
     <string name="rec_gps_status_satellites_few_text">satellitter</string>
     <string name="rec_gps_status_satellites_many_text">satellitter</string>
     <string name="rec_gps_status_satellites_one_text">satellitt</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Opptaket har begynt</string>
     <string name="recording_voice_stopped_text">Opptaket stoppet</string>
 
-    <string name="service_no_system_alert_window_granted_text">Kunne ikke starte Droid Dashcam-tjenesten for å automatisk starte/stoppe opptak fordi SYSTEM_ALERT_WINDOW-tillatelse (visning over alle vinduer i andre applikasjoner) ikke ble gitt. Eller enheten ble låst på dette tidspunktet (Android-begrensningen er at enheten først må låses opp og skjermen må slås på før tjenesten for automatisk videoopptak kan startes)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Appen kunne ikke åpnes for å starte opptaket fordi tillatelsen «vis på toppen av alle apper» ikke ble gitt. Klikk for å oppgi</string>
     <string name="service_watch_on_boot_completed_text">Når du slår på enheten</string>
 
     <string name="storage_external_single">MicroSD-kort</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Deaktiver batterioptimalisering for denne appen i enhetsinnstillingene for å unngå fremtidige kamerafeil</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Automatisk opptak kun når tjenesten kjører</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Hvis du aktiverer dette alternativet, vil automatisk opptak ikke utføres hvis overvåkingstjenesten ikke kjører og ikke er synlig i varslingspanelet</string>
+    <string name="prefs_rules_auto_start_without_service_text">Automatisk opptak selv om bakgrunnstjenesten (Watcher) ikke kjører</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Du kan slå av dette alternativet slik at applikasjonen utfører automatisk opptak bare hvis applikasjonens bakgrunnstjeneste (Watcher) kjører.\n- Automatisk opptak for hendelser som lading, Bluetooth eller AUX kan utføres uten problemer opp til Android 7.1.\n- Fra Android 8 kan automatisk opptak uten bakgrunnsapplikasjonstjeneste (Watcher) bare utføres for Bluetooth-hendelser, og i andre tilfeller (ved lading eller AUX) må du først starte bakgrunnsapplikasjonstjenesten (Watcher) - ved å starte selve søknaden én gang.\n– Fra og med Android 11 uten bakgrunnsapp-tjenesten (Watcher), er tilgang til kameraet uten brukerinteraksjon kun mulig hvis telefonen er låst opp (skjerm på) og \"på toppen av alle apper\" tillatelse er gitt.\n– For Android 11 og nyere må du derfor starte applikasjonen manuelt én gang slik at bakgrunnstjenesten til applikasjonen (Watcher) begynner å ta opp automatisk under alle hendelser og når telefonskjermen er slått av.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Undertekster nederst</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Påkrevd for å kunne vise bakgrunnsopptakstjenesten og statuser på varslingspanelet. Klikk for å sende inn</string>
     <string name="prefs_warning_notifications_text">Varslingstillatelse</string>
 
-    <string name="donation_dlg_limited_ads_message_text">For mindre donasjoner fjernes annonser kun for startskjermen</string>photo
+    <string name="donation_dlg_limited_ads_message_text">For mindre donasjoner fjernes reklame kun på hovedskjermen</string>photo
     <string name="photos_folder_name">Bilder</string>
 
     <string name="photos_count_one">bilde</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Kunne ikke åpne det valgte kameraet. Det har seg slik at ikke alle skjulte kameraer kan brukes av noen applikasjoner. Mange produsenter tillater kun bruk i deres opprinnelige applikasjoner. Standardkameraet åpnes.</string>
 
-    <string name="videos_ask_which_player">Spør i hvilken spiller du skal spille hver gang\?</string>
+    <string name="videos_ask_which_player">Spør hvilken spiller du skal spille i</string>
 
     <string name="prefs_location_mode_text">GPS-prioritet (batteri eller nøyaktighet)</string>
     <string name="prefs_location_mode_balanced_text">Balanse mellom posisjonsnøyaktighet (koordinater), hastighet og batteristrømforbruk.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Fjern annonser for alltid med en engangsdonasjon uansett beløp. Du kan også donere et hvilket som helst beløp månedlig for å fjerne annonser</string>
 
     <string name="prefs_audio_bt_recording_text">Ta opp lyd fra en Bluetooth-enhet</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Ikke bruk med hovedenhet (bilradio)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Bruk kun med Bluetooth-hodetelefoner. Hvis du kobler til hovedenheten (bilradioen) via Bluetooth, kan dette av en eller annen grunn automatisk utløse en telefonsamtale til standardnummeret på denne enheten</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Automatisk opptak over Bluetooth-tilkoblinger krever tillatelse. Klikk her for å sende inn</string>
+    <string name="prefs_warning_permission_bluetooth_text">Bluetooth-tillatelse ikke gitt</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Appen kunne ikke åpnes for å starte opptaket fordi skjermen var slått av (låst). Kjør en bakgrunnsopptakstjeneste (Watcher) for å fikse dette.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Applikasjonen kunne ikke åpnes fordi skjermen var slått av (låst).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Den angitte applikasjonen kunne ikke startes for å åpnes automatisk fordi tillatelsen \"vis på toppen av alle applikasjoner\" ikke ble gitt.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Du må gi Nearby Devices (Bluetooth) tillatelse for automatisk opptak av hendelser. Dette kan gjøres i applikasjonens systeminnstillinger.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Det kreves varslinger for å kunne vise bakgrunnsopptakstjenesten og opptaksstatus i varslingspanelet.</string>
+
+    
 </resources>

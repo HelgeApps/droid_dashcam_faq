@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Teastaíonn an ceamara le haghaidh fístaifeadadh agus réamhamharc ceamara.</string>
     <string name="permission_camera_dlg_title">Réiteach ceamara</string>
     <string name="permission_camera_request_canceled">Teastaíonn cead ón bhfeidhmchlár seo chun an ceamara a úsáid chun físeán a thaifeadadh. Ach dhiúltaigh tú é. Ag dúnadh… Déan iarracht cead a thabhairt don cheamara i socruithe córais an fheidhmchláir seo</string>
-    <string name="permission_location_dlg_explanation_msg">Nuair a dhéantar é a íoslaghdú, úsáideann Droid Dashcam an áit sa chúlra chun comhordanáidí, seoladh agus luas a tharraingt ar an bhfíseán taifeadta.</string>
+    <string name="permission_location_dlg_explanation_msg">Tá an suíomh ag teastáil chun comhordanáidí, seoladh agus luas a tharraingt ar an bhfíseán taifeadta, nó na sonraí seo a thaispeáint ar an bpríomhscáileán (ag brath ar do shocruithe).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Ar Android 11 (R), ní mór duit “An t-am ar fad (modh ar bith)” a roghnú de láimh i sainroghanna an chórais chun an áit sa chúlra a cheadú. Osclófar na socruithe tar éis na fuinneoige seo.</string>
     <string name="permission_location_dlg_msg">Tá an láthair riachtanach chun luas an iompair a chinneadh trí úsáid a bhaint as sonraí GPS, an seoladh reatha agus na comhordanáidí atá le taispeáint ar an scáileán agus chun fotheidil a thaifeadadh ar fhíseán</string>
     <string name="permission_location_dlg_title">Cead suímh</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">A cheartú</string>
     <string name="rec_fix_text">A cheartú</string>
-    <string name="rec_free_space_text">Ar fáil</string>
+    <string name="rec_available_space_text">Ar fáil</string>
     <string name="rec_gps_status_satellites_few_text">satailítí</string>
     <string name="rec_gps_status_satellites_many_text">satailítí</string>
     <string name="rec_gps_status_satellites_one_text">satailíte</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Tá an taifeadadh tosaithe</string>
     <string name="recording_voice_stopped_text">Stopadh an taifeadadh</string>
 
-    <string name="service_no_system_alert_window_granted_text">Theip ar sheirbhís Droid Dashcam a thosú chun taifeadadh a thosú /a stopadh go huathoibríoch toisc nár tugadh cead SYSTEM_ALERT_WINDOW (taispeáint thar fhuinneoga feidhmchlár eile). Nó cuireadh an fheiste faoi ghlas ag an bpointe seo (is é srian Android nach mór an fheiste a dhíghlasáil ar dtús agus caithfear a scáileán a chasadh air sular féidir an tseirbhís le haghaidh fístaifeadadh uathoibríoch a thosú)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Níorbh fhéidir an aip a oscailt chun taifeadadh a thosú toisc nár deonaíodh an cead \"seó ar bharr gach aip\". Cliceáil chun a sholáthar</string>
     <string name="service_watch_on_boot_completed_text">Agus tú ag casadh ar an bhfeiste</string>
 
     <string name="storage_external_single">Cárta MicroSD</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Díchumasaigh optamú ceallraí don aip seo i socruithe do ghléis chun earráidí ceamara amach anseo a sheachaint</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Taifeadadh uathoibríoch ach amháin nuair a bhíonn an tseirbhís ar siúl</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Má chumasaíonn tú an rogha seo, ní dhéanfar taifeadadh uathoibríoch mura bhfuil an tseirbhís monatóireachta ag rith agus mura bhfuil sé le feiceáil sa phainéal fógraí</string>
+    <string name="prefs_rules_auto_start_without_service_text">Taifeadadh uathoibríoch fiú mura bhfuil an tseirbhís chúlra (Watcher) ag rith</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Is féidir leat an rogha seo a mhúchadh ionas go ndéanann an feidhmchlár taifeadadh uathoibríoch ach amháin má tá seirbhís chúlra an fheidhmchláir (Watcher) ar siúl.\n- Is féidir taifeadadh uathoibríoch le haghaidh imeachtaí mar mhuirearú, Bluetooth nó AUX a dhéanamh gan fadhbanna suas le Android 7.1.\n- Ag tosú ó Android 8, ní féidir taifeadadh uathoibríoch gan seirbhís feidhmchláir chúlra (Watcher) a dhéanamh ach amháin le haghaidh imeachtaí Bluetooth, agus i gcásanna eile (agus tú ag muirearú nó AUX) ní mór duit an tseirbhís iarratais chúlra (Watcher) a thosú ar dtús - trí sheoladh an iarratas féin uair amháin.\n- Ag tosú le Android 11 gan an tseirbhís aipeanna cúlra (Watcher), ní féidir rochtain a fháil ar an gceamara gan idirghníomhaíocht úsáideora ach amháin má dhíghlasáiltear an fón (scáileán ar aghaidh) agus má thugtar cead \"sa bhreis ar gach feidhmchlár\".\n- Mar sin, le haghaidh Android 11 agus níos airde, ní mór duit an feidhmchlár a sheoladh de láimh uair amháin ionas go dtosóidh seirbhís chúlra an fheidhmchláir (Watcher) ag taifeadadh go huathoibríoch le linn aon imeachtaí agus nuair a bhíonn scáileán an ghutháin múchta.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Fotheidil ag bun an leathanaigh</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Ag teastáil le bheith in ann an tseirbhís taifeadta cúlra agus stádais a thaispeáint ar an bpainéal fógraí. Cliceáil le cur isteach</string>
     <string name="prefs_warning_notifications_text">Cead Fógraíochta</string>
 
-    <string name="donation_dlg_limited_ads_message_text">I gcás deonachán níos lú, baintear fógraí don scáileán baile amháin</string>photo
+    <string name="donation_dlg_limited_ads_message_text">I gcás síntiús níos lú, ní bhaintear fógraíocht ach ar an bpríomhscáileán</string>photo
     <string name="photos_folder_name">Grianghraif</string>
 
     <string name="photos_count_one">grianghraf</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Theip ar oscailt an cheamara roghnaithe. Tarlaíonn sé mar sin nach féidir le gach feidhmchlár ceamaraí ceilte a úsáid. Ní cheadaíonn go leor déantúsóirí ach a n-úsáid ina n-iarratas dúchais. Osclófar an ceamara réamhshocraithe.</string>
 
-    <string name="videos_ask_which_player">Iarr cén t-imreoir a imreoidh sé gach uair\?</string>
+    <string name="videos_ask_which_player">Fiafraigh cén imreoir a imreoidh sé</string>
 
     <string name="prefs_location_mode_text">Tosaíocht GPS (Ceallraí nó Cruinneas)</string>
     <string name="prefs_location_mode_balanced_text">Iarmhéid idir cruinneas suímh (comhordanáidí), luas agus tomhaltas cumhachta ceallraí.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Bain fógraí go deo le síntiús aonuaire de mhéid ar bith. Is féidir leat aon mhéid a bhronnadh go míosúil freisin chun fógraí a bhaint</string>
 
     <string name="prefs_audio_bt_recording_text">Taifead fuaime ó gléas Bluetooth</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Ná húsáid leis an aonad ceann (raidió cairr)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Bain úsáid as ach amháin le cluasáin Bluetooth. Má nascann tú leis an gceannaonad (raidió cairr) trí Bluetooth, ansin ar chúis éigin d\'fhéadfadh sé seo glao gutháin a spreagadh go huathoibríoch chuig an uimhir chaighdeánach ar an ngléas seo</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Teastaíonn cead le taifeadadh uathoibríoch thar naisc Bluetooth. Cliceáil anseo le cur isteach</string>
+    <string name="prefs_warning_permission_bluetooth_text">Níor tugadh cead Bluetooth</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Níorbh fhéidir an feidhmchlár a oscailt chun taifeadadh a thosú toisc go raibh an scáileán múchta (glas). Rith seirbhís taifeadta cúlra (Watcher) chun é seo a shocrú.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Níorbh fhéidir an feidhmchlár a oscailt toisc go raibh an scáileán múchta (glas).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Níorbh fhéidir an feidhmchlár sonraithe a sheoladh le hoscailt go huathoibríoch toisc nár deonaíodh an cead “seó ar bharr gach feidhmchlár”.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Ní mór duit cead a thabhairt do Ghléasanna In aice láimhe (Bluetooth) chun imeachtaí a thaifeadadh go huathoibríoch. Is féidir é seo a dhéanamh i socruithe córais an fheidhmchláir.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Ní mór fógraí a bheith in ann an tseirbhís taifeadta cúlra agus an stádas taifeadta a thaispeáint sa phainéal fógraí.</string>
+
+    
 </resources>

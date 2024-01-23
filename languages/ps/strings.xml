@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">کیمره د ویډیو ثبتولو او کیمرې لیدو لپاره اړینه ده.</string>
     <string name="permission_camera_dlg_title">د کیمرې ریزولوشن</string>
     <string name="permission_camera_request_canceled">دا غوښتنلیک د ویډیو ثبتولو لپاره د کیمرې کارولو اجازې ته اړتیا لري. مګر تاسو دا رد کړه. بندول… د دې غوښتنلیک سیسټم ترتیباتو کې کیمرې ته د اجازې ورکولو هڅه وکړئ</string>
-    <string name="permission_location_dlg_explanation_msg">کله چې کم شي، د Droid Dashcam په پس منظر کې موقعیت کاروي ترڅو په ثبت شوي ویډیو کې همغږي، پته او سرعت رسم کړي.</string>
+    <string name="permission_location_dlg_explanation_msg">موقعیت ته اړتیا ده چې په ثبت شوي ویډیو کې همغږي، پته او سرعت رسم کړي، یا دا ډاټا په اصلي سکرین کې ښکاره کړي (ستاسو په ترتیباتو پورې اړه لري).</string>
     <string name="permission_location_dlg_explanation_settings_msg">په Android 11 (R) کې ، تاسو اړتیا لرئ په لاسي ډول د سیسټم غوره توبونو کې \"هر وخت (هر حالت)\" غوره کړئ ترڅو په شالید کې موقعیت ته اجازه ورکړئ. ترتیبات به د دې کړکۍ وروسته خلاص شي.</string>
     <string name="permission_location_dlg_msg">موقعیت د GPS ډیټا په کارولو سره د ټرانسپورټ سرعت ټاکلو لپاره اړین دی ، اوسنی پته او همغږي په سکرین کې ښودلو او په ویډیو کې د فرعي سرلیکونو ثبتولو لپاره</string>
     <string name="permission_location_dlg_title">د ځای اجازه</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">اتومات</string>
     <string name="rec_fix_short_text">د سمولو لپاره</string>
     <string name="rec_fix_text">د سمولو لپاره</string>
-    <string name="rec_free_space_text">شته</string>
+    <string name="rec_available_space_text">شته</string>
     <string name="rec_gps_status_satellites_few_text">سپوږمکۍ</string>
     <string name="rec_gps_status_satellites_many_text">سپوږمکۍ</string>
     <string name="rec_gps_status_satellites_one_text">سپوږمکۍ</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">ثبتول پیل شوي دي</string>
     <string name="recording_voice_stopped_text">ثبتول ودرول شول</string>
 
-    <string name="service_no_system_alert_window_granted_text">د Droid Dashcam خدمت پیل کولو کې ناکام شو ترڅو په اتوماتيک ډول ثبت پیل /ودروي ځکه چې د SYSTEM_ALERT_WINDOW اجازه (د نورو غوښتنلیکونو په ټولو وینډوز کې ښودل) نه وه ورکړل شوې. یا وسیله په دې وخت کې بنده شوې وه (د Android محدودیت دا دی چې وسیله باید لومړی خلاص شي او د دې سکرین باید د اتوماتیک ویډیو ثبتولو خدمت پیل کیدو دمخه فعال شي)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">د ثبت کولو پیل کولو لپاره ایپ نشي خلاصیدلی ځکه چې \"د ټولو ایپسونو په سر کې ښودل\" اجازه نه وه ورکړل شوې. د چمتو کولو لپاره کلیک وکړئ</string>
     <string name="service_watch_on_boot_completed_text">کله چې وسیله چالان کړئ</string>
 
     <string name="storage_external_single">د مایکرو ایس ډی کارت</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">ستاسو د وسیلې په ترتیباتو کې د دې ایپ لپاره د بیټرۍ اصلاح کول غیر فعال کړئ ترڅو د راتلونکي کیمرې غلطیو څخه مخنیوی وشي</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">اتوماتیک ثبت کول یوازې کله چې خدمت روان وي</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">که تاسو دا اختیار فعال کړئ، نو اتوماتیک ثبت کول به ترسره نشي که چیرې د څارنې خدمت نه وي او د خبرتیا پینل کې نه لیدل کیږي.</string>
+    <string name="prefs_rules_auto_start_without_service_text">اتوماتیک ثبت کول حتی که د شالید خدمت (څارونکی) روان نه وي</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* تاسو کولی شئ دا اختیار بند کړئ ترڅو غوښتنلیک اتوماتیک ثبت کول یوازې هغه وخت ترسره کړي کله چې د غوښتنلیک شالید خدمت (واچر) روان وي.\n- د پیښو لپاره اتوماتیک ثبت کول لکه چارج کول ، بلوتوث یا AUX د Android 7.1 پورې ستونزې پرته ترسره کیدی شي.\n- د Android 8 څخه پیل کول ، د شالید غوښتنلیک خدمت (واچر) پرته اتومات ثبت کول یوازې د بلوتوټ پیښو لپاره ترسره کیدی شي ، او په نورو قضیو کې (کله چې چارج کیږي یا AUX) تاسو اړتیا لرئ لومړی د شالید غوښتنلیک خدمت (واچر) پیل کړئ - په پیل کولو سره. پخپله یو ځل غوښتنلیک.\n- د شالید ایپ خدمت (واچر) پرته د Android 11 سره پیل کول ، د کارونکي متقابل عمل پرته کیمرې ته لاسرسی یوازې هغه وخت ممکن دی که تلیفون خلاص وي (سکرین آن) او \"د ټولو ایپسونو په سر کې\" اجازه ورکړل شوې وي.\n- پدې توګه ، د Android 11 او لوړ لپاره ، تاسو اړتیا لرئ په لاسي ډول یو ځل اپلیکیشن پیل کړئ ترڅو د غوښتنلیک شالید خدمت (واچر) په اتوماتيک ډول د هرې پیښې پرمهال ثبت شي او کله چې د تلیفون سکرین بند شي.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">فرعي سرلیکونه په ښکته کې</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">د خبرتیا پینل کې د شالید ثبتولو خدمت او حالتونو ښودلو وړتیا لپاره اړین دي. د سپارلو لپاره کلیک وکړئ</string>
     <string name="prefs_warning_notifications_text">د خبرتیا اجازه</string>
 
-    <string name="donation_dlg_limited_ads_message_text">د کوچنیو بسپنو لپاره، اعلانونه یوازې د کور سکرین لپاره لرې شوي</string>photo
+    <string name="donation_dlg_limited_ads_message_text">د کوچنیو بسپنو لپاره، اعلانونه یوازې په اصلي سکرین کې لرې کیږي</string>photo
     <string name="photos_folder_name">عکسونه</string>
 
     <string name="photos_count_one">انځور</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">د ټاکل شوي کیمرې په خلاصولو کې پاتې راغلل. دا داسې پیښیږي چې ټولې پټې کیمرې د هیڅ غوښتنلیک لخوا نشي کارول کیدی. ډیری جوړونکي یوازې د دوی په اصلي غوښتنلیکونو کې د دوی کارولو ته اجازه ورکوي. ډیفالټ کیمره به خلاص شي.</string>
 
-    <string name="videos_ask_which_player">پوښتنه وکړئ چې هر ځل په کوم لوبغاړي کې لوبه وکړئ؟</string>
+    <string name="videos_ask_which_player">پوښتنه وکړئ چې کوم لوبغاړی به لوبه وکړي</string>
 
     <string name="prefs_location_mode_text">د GPS لومړیتوب (بیټرۍ یا دقت)</string>
     <string name="prefs_location_mode_balanced_text">د موقعیت دقت (همغږي) ، سرعت او د بیټرۍ بریښنا مصرف ترمینځ توازن.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">د هرې اندازې د یو ځل بسپنې سره د تل لپاره اعلانونه لرې کړئ. تاسو کولی شئ د اعلاناتو لرې کولو لپاره هره میاشت هره اندازه مرسته وکړئ</string>
 
     <string name="prefs_audio_bt_recording_text">د بلوتوټ وسیلې څخه آډیو ثبت کړئ</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">د سر واحد (د موټر راډیو) سره مه کاروئ!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">یوازې د بلوتوث هیډفونونو سره وکاروئ. که تاسو د بلوتوت له لارې د سر یونټ (د موټر راډیو) سره وصل شئ ، نو د یو څه دلیل لپاره دا ممکن په اتوماتيک ډول پدې وسیله کې معیاري شمیرې ته د تلیفون زنګ وهي.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">په بلوتوث اتصالونو کې اتوماتیک ثبت کول اجازې ته اړتیا لري. د سپارلو لپاره دلته کلیک وکړئ</string>
+    <string name="prefs_warning_permission_bluetooth_text">د بلوتوټ اجازه نه ده ورکړل شوې</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">د ثبت کولو پیل کولو لپاره غوښتنلیک نشي خلاصیدلی ځکه چې سکرین بند شوی (بند شوی). د دې د حل لپاره د شالید ثبتولو خدمت (څارونکی) پرمخ وړئ.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">غوښتنلیک نشي خلاصیدلی ځکه چې سکرین بند شوی (بند شوی).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">ټاکل شوی غوښتنلیک په اوتومات ډول خلاصیدو لپاره نشي پیل کیدی ځکه چې \"د ټولو غوښتنلیکونو په سر کې ښودل\" اجازه نه وه ورکړل شوې.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">تاسو باید د اتوماتیک پیښې ثبتولو لپاره نږدې وسیلو (بلوتوت) اجازه ورکړئ. دا د غوښتنلیک سیسټم تنظیماتو کې ترسره کیدی شي.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">خبرتیاوې اړین دي ترڅو د خبرتیا پینل کې د شالید ثبتولو خدمت او د ثبت حالت ښودلو وړتیا ولري.</string>
+
+    
 </resources>

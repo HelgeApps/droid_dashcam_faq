@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Mae angen y camera ar gyfer recordio fideo a rhagolwg o\'r camera.</string>
     <string name="permission_camera_dlg_title">Datrysiad camera</string>
     <string name="permission_camera_request_canceled">Mae\'r cais hwn yn gofyn am ganiatâd i ddefnyddio\'r camera i recordio fideo. Ond gwnaethoch chi ei wrthod. Yn cau… Ceisiwch roi caniatâd i\'r camera yn gosodiadau system y cais hwn</string>
-    <string name="permission_location_dlg_explanation_msg">Pan gaiff ei leihau, mae Droid Dashcam yn defnyddio\'r lleoliad yn y cefndir i dynnu cyfesurynnau, cyfeiriad a chyflymder ar y fideo wedi\'i recordio.</string>
+    <string name="permission_location_dlg_explanation_msg">Mae angen y lleoliad i lunio cyfesurynnau, cyfeiriad a chyflymder ar y fideo wedi\'i recordio, neu arddangos y data hwn ar y brif sgrin (yn dibynnu ar eich gosodiadau).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Ar Android 11 (R), mae angen i chi ddewis \"Trwy\'r amser (unrhyw fodd)\" â llaw yn y dewisiadau system i ganiatáu\'r lleoliad yn y cefndir. Bydd y gosodiadau\'n agor ar ôl y ffenestr hon.</string>
     <string name="permission_location_dlg_msg">Mae\'r lleoliad yn angenrheidiol i bennu cyflymder cludo gan ddefnyddio data GPS, y cyfeiriad cyfredol a\'r cyfesurynnau i\'w harddangos ar y sgrin ac ar gyfer recordio is-deitlau ar fideo</string>
     <string name="permission_location_dlg_title">Caniatâd lleoliad</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">I gywiro</string>
     <string name="rec_fix_text">I gywiro</string>
-    <string name="rec_free_space_text">Ar gael</string>
+    <string name="rec_available_space_text">Ar gael</string>
     <string name="rec_gps_status_satellites_few_text">lloerennau</string>
     <string name="rec_gps_status_satellites_many_text">lloerennau</string>
     <string name="rec_gps_status_satellites_one_text">lloeren</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Mae\'r recordio wedi dechrau</string>
     <string name="recording_voice_stopped_text">Stopiodd y recordio</string>
 
-    <string name="service_no_system_alert_window_granted_text">Wedi methu cychwyn gwasanaeth Droid Dashcam i ddechrau /stopio recordio yn awtomatig oherwydd na roddwyd caniatâd SYSTEM_ALERT_WINDOW (arddangos dros holl ffenestri cymwysiadau eraill). Neu cafodd y ddyfais ei chloi ar y pwynt hwn (cyfyngiad Android yw bod yn rhaid datgloi\'r ddyfais yn gyntaf a rhaid troi ei sgrin ymlaen cyn y gellir cychwyn y gwasanaeth ar gyfer recordio fideo yn awtomatig)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Ni ellid agor yr ap i ddechrau recordio oherwydd ni roddwyd caniatâd \"sioe ar ben yr holl apps\". Cliciwch i ddarparu</string>
     <string name="service_watch_on_boot_completed_text">Wrth droi ar y ddyfais</string>
 
     <string name="storage_external_single">Cerdyn MicroSD</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Analluoga optimeiddio batri ar gyfer yr app hon yng ngosodiadau eich dyfais er mwyn osgoi gwallau camera yn y dyfodol</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Recordiad awtomatig dim ond pan fydd y gwasanaeth yn rhedeg</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Os ydych yn galluogi\'r opsiwn hwn, ni fydd recordiad awtomatig yn cael ei berfformio os nad yw\'r gwasanaeth monitro yn rhedeg ac nad yw\'n weladwy yn y panel hysbysu</string>
+    <string name="prefs_rules_auto_start_without_service_text">Recordiad awtomatig hyd yn oed os nad yw\'r gwasanaeth cefndir (Watcher) yn rhedeg</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Gallwch chi ddiffodd yr opsiwn hwn fel bod y rhaglen yn perfformio recordiad awtomatig dim ond os yw gwasanaeth cefndir y rhaglen (Watcher) yn rhedeg.\n- Gellir perfformio recordiad awtomatig ar gyfer digwyddiadau fel gwefru, Bluetooth neu AUX heb broblemau hyd at Android 7.1.\n- Gan ddechrau o Android 8, dim ond ar gyfer digwyddiadau Bluetooth y gellir recordio awtomatig heb wasanaeth cymhwysiad cefndir (Watcher), ac mewn achosion eraill (wrth godi tâl neu AUX) mae angen i chi gychwyn y gwasanaeth cymhwysiad cefndir (Watcher) yn gyntaf - trwy lansio\'r cais ei hun unwaith.\n- Gan ddechrau gyda Android 11 heb y gwasanaeth ap cefndir (Watcher), dim ond os yw\'r ffôn wedi\'i ddatgloi (sgrin ymlaen) y mae mynediad i\'r camera heb ryngweithio â defnyddwyr yn bosibl a bod caniatâd \"ar ben pob ap\" yn cael ei roi.\n- Felly, ar gyfer Android 11 ac uwch, mae angen i chi lansio\'r cais â llaw unwaith fel bod gwasanaeth cefndir y cymhwysiad (Watcher) yn dechrau recordio\'n awtomatig yn ystod unrhyw ddigwyddiadau a phan fydd sgrin y ffôn wedi\'i diffodd.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Isdeitlau ar y gwaelod</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Yn ofynnol i allu arddangos y gwasanaeth recordio cefndir a statws ar y panel hysbysu. Cliciwch i gyflwyno</string>
     <string name="prefs_warning_notifications_text">Caniatâd Hysbysu</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Ar gyfer rhoddion llai, caiff hysbysebion eu dileu ar gyfer y sgrin gartref yn unig</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Ar gyfer rhoddion llai, dim ond ar y brif sgrin y caiff hysbysebion eu dileu</string>photo
     <string name="photos_folder_name">Lluniau</string>
 
     <string name="photos_count_one">llun</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Wedi methu ag agor y camera a ddewiswyd. Mae\'n digwydd felly na ellir defnyddio pob camera cudd gan unrhyw raglen. Mae llawer o weithgynhyrchwyr yn caniatáu eu defnyddio yn eu cymwysiadau brodorol yn unig. Bydd y camera rhagosodedig yn agor.</string>
 
-    <string name="videos_ask_which_player">Gofynnwch ym mha chwaraewr i chwarae bob tro\?</string>
+    <string name="videos_ask_which_player">Gofynnwch pa chwaraewr i chwarae ynddo</string>
 
     <string name="prefs_location_mode_text">Blaenoriaeth GPS (Batri neu Gywirdeb)</string>
     <string name="prefs_location_mode_balanced_text">Cydbwysedd rhwng cywirdeb lleoliad (cyfesurynnau), cyflymder a defnydd pŵer batri.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Dileu hysbysebion am byth gyda rhodd un-amser o unrhyw swm. Gallwch hefyd roi unrhyw swm yn fisol i ddileu hysbysebion</string>
 
     <string name="prefs_audio_bt_recording_text">Recordio sain o ddyfais Bluetooth</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Peidiwch â defnyddio gyda\'r uned pen (radio car)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Defnyddiwch gyda chlustffonau Bluetooth yn unig. Os ydych chi\'n cysylltu â\'r brif uned (radio car) trwy Bluetooth, yna am ryw reswm gall hyn ysgogi galwad ffôn yn awtomatig i\'r rhif safonol ar y ddyfais hon</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Mae angen caniatâd i recordio\'n awtomatig dros gysylltiadau Bluetooth. Cliciwch yma i gyflwyno</string>
+    <string name="prefs_warning_permission_bluetooth_text">Ni roddwyd caniatâd Bluetooth</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Nid oedd modd agor y rhaglen i ddechrau recordio oherwydd bod y sgrin wedi\'i diffodd (cloi). Rhedeg gwasanaeth recordio cefndir (Watcher) i drwsio hyn.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Ni fu modd agor y rhaglen oherwydd bod y sgrin wedi\'i diffodd (cloi).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Ni ellid lansio\'r rhaglen benodol i agor yn awtomatig oherwydd ni roddwyd caniatâd \"sioe ar ben pob cais\".</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Rhaid i chi roi caniatâd Dyfeisiau Cyfagos (Bluetooth) ar gyfer recordio digwyddiadau yn awtomatig. Gellir gwneud hyn yng ngosodiadau system y rhaglen.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Mae angen hysbysiadau i allu arddangos y gwasanaeth recordio cefndir a statws recordio yn y panel hysbysu.</string>
+
+    
 </resources>

@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">კამერა საჭიროა ვიდეოს ჩაწერისთვის და კამერის გადახედვისთვის.</string>
     <string name="permission_camera_dlg_title">კამერის გარჩევადობა</string>
     <string name="permission_camera_request_canceled">ეს აპლიკაცია მოითხოვს ნებართვას ვიდეოს ჩასაწერად კამერის გამოსაყენებლად. მაგრამ თქვენ უარი თქვით. იხურება… სცადეთ მიანიჭოთ ნებართვა კამერას ამ აპლიკაციის სისტემის პარამეტრებში</string>
-    <string name="permission_location_dlg_explanation_msg">როდესაც მინიმუმამდეა დაყვანილი, Droid Dashcam იყენებს მდებარეობას ფონზე, ჩაწერილ ვიდეოზე კოორდინატების, მისამართისა და სიჩქარის დასახატავად.</string>
+    <string name="permission_location_dlg_explanation_msg">მდებარეობა საჭიროა ჩაწერილ ვიდეოზე კოორდინატების, მისამართისა და სიჩქარის დასახაზად ან ამ მონაცემების მთავარ ეკრანზე გამოსატანად (თქვენი პარამეტრებიდან გამომდინარე).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Android 11 (R)-ზე, თქვენ უნდა აირჩიოთ ხელით „ყოველ დროს (ნებისმიერი რეჟიმი)“ სისტემის პარამეტრებში, რათა დაუშვათ მდებარეობა ფონზე. პარამეტრები გაიხსნება ამ ფანჯრის შემდეგ.</string>
     <string name="permission_location_dlg_msg">მდებარეობა აუცილებელია ტრანსპორტის სიჩქარის დასადგენად GPS მონაცემების გამოყენებით, მიმდინარე მისამართი და კოორდინატები ეკრანზე გამოსატანად და ვიდეოზე სუბტიტრების ჩასაწერად.</string>
     <string name="permission_location_dlg_title">მდებარეობის ნებართვა</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">ავტო</string>
     <string name="rec_fix_short_text">Შესწორება</string>
     <string name="rec_fix_text">Შესწორება</string>
-    <string name="rec_free_space_text">ხელმისაწვდომია</string>
+    <string name="rec_available_space_text">ხელმისაწვდომია</string>
     <string name="rec_gps_status_satellites_few_text">თანამგზავრები</string>
     <string name="rec_gps_status_satellites_many_text">თანამგზავრები</string>
     <string name="rec_gps_status_satellites_one_text">სატელიტი</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">ჩაწერა დაიწყო</string>
     <string name="recording_voice_stopped_text">ჩაწერა შეწყდა</string>
 
-    <string name="service_no_system_alert_window_granted_text">ჩაწერის ავტომატურად დასაწყებად/შეწყვეტისთვის Droid Dashcam სერვისის გაშვება ვერ მოხერხდა, რადგან SYSTEM_ALERT_WINDOW ნებართვა (სხვა აპლიკაციების ყველა ფანჯარაზე ჩვენება) არ იყო მინიჭებული. ან მოწყობილობა დაბლოკილია ამ ეტაპზე (Android-ის შეზღუდვა არის ის, რომ მოწყობილობა ჯერ უნდა განბლოკოს და ეკრანი ჩართოთ, სანამ ავტომატური ვიდეო ჩაწერის სერვისი დაიწყება)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">აპის გახსნა ჩაწერის დასაწყებად ვერ მოხერხდა, რადგან „ყველა აპის თავზე ჩვენება“ არ იყო მინიჭებული. დააწკაპუნეთ მისაწოდებლად</string>
     <string name="service_watch_on_boot_completed_text">მოწყობილობის ჩართვისას</string>
 
     <string name="storage_external_single">MicroSD ბარათი</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">გამორთეთ ბატარეის ოპტიმიზაცია ამ აპისთვის თქვენი მოწყობილობის პარამეტრებში, რათა თავიდან აიცილოთ კამერის მომავალი შეცდომები</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">ავტომატური ჩაწერა მხოლოდ მაშინ, როცა სერვისი მუშაობს</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">თუ ჩართავთ ამ პარამეტრს, მაშინ ავტომატური ჩაწერა არ განხორციელდება, თუ მონიტორინგის სერვისი არ მუშაობს და არ ჩანს შეტყობინებების პანელში</string>
+    <string name="prefs_rules_auto_start_without_service_text">ავტომატური ჩაწერა მაშინაც კი, თუ ფონური სერვისი (Watcher) არ მუშაობს</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* შეგიძლიათ გამორთოთ ეს პარამეტრი ისე, რომ აპლიკაციამ განახორციელოს ავტომატური ჩაწერა მხოლოდ იმ შემთხვევაში, თუ აპლიკაციის ფონური სერვისი (Watcher) მუშაობს.\n- მოვლენების ავტომატური ჩაწერა, როგორიცაა დატენვა, Bluetooth ან AUX, შეიძლება შესრულდეს პრობლემების გარეშე Android 7.1-მდე.\n- Android 8-დან დაწყებული, ავტომატური ჩაწერა ფონური აპლიკაციის სერვისის გარეშე (Watcher) შეიძლება შესრულდეს მხოლოდ Bluetooth-ის ღონისძიებებისთვის, ხოლო სხვა შემთხვევებში (დატენვისას ან AUX) ჯერ უნდა დაიწყოთ ფონური აპლიკაციის სერვისი (Watcher) - გაშვებით. განაცხადი თავად ერთხელ.\n- Android 11-ით დაწყებული ფონური აპლიკაციის სერვისის გარეშე (Watcher), კამერაზე წვდომა მომხმარებლის ინტერაქციის გარეშე შესაძლებელია მხოლოდ იმ შემთხვევაში, თუ ტელეფონი განბლოკილია (ეკრანი ჩართულია) და მინიჭებული იქნება ნებართვა „ყველა აპის თავზე“.\n- ამგვარად, Android 11 და უფრო მაღალი ვერსიისთვის, საჭიროა ერთხელ ხელით გაუშვათ აპლიკაცია, რათა აპლიკაციის ფონური სერვისი (Watcher) ავტომატურად დაიწყოს ჩაწერა ნებისმიერი მოვლენის დროს და ტელეფონის ეკრანის გამორთვისას.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">სუბტიტრები ბოლოში</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">საჭიროა ფონური ჩაწერის სერვისის და სტატუსების ჩვენება შეტყობინებების პანელზე. დააწკაპუნეთ გასაგზავნად</string>
     <string name="prefs_warning_notifications_text">შეტყობინების ნებართვა</string>
 
-    <string name="donation_dlg_limited_ads_message_text">მცირე შემოწირულობებისთვის რეკლამები ამოღებულია მხოლოდ საწყისი ეკრანისთვის</string>photo
+    <string name="donation_dlg_limited_ads_message_text">მცირე შემოწირულობებისთვის რეკლამა ამოღებულია მხოლოდ მთავარ ეკრანზე</string>photo
     <string name="photos_folder_name">ფოტოები</string>
 
     <string name="photos_count_one">ფოტო</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">არჩეული კამერის გახსნა ვერ მოხერხდა. ისე ხდება, რომ ყველა ფარული კამერა ვერ გამოიყენებს ნებისმიერ აპლიკაციას. ბევრი მწარმოებელი უშვებს მათ გამოყენებას მხოლოდ მშობლიურ აპლიკაციებში. სტანდარტული კამერა გაიხსნება.</string>
 
-    <string name="videos_ask_which_player">ჰკითხეთ, რომელ მოთამაშეში უნდა ითამაშოთ ყოველ ჯერზე\?</string>
+    <string name="videos_ask_which_player">ჰკითხეთ რომელ მოთამაშეში უნდა ითამაშოს</string>
 
     <string name="prefs_location_mode_text">GPS პრიორიტეტი (ბატარეა ან სიზუსტე)</string>
     <string name="prefs_location_mode_balanced_text">ბალანსი მდებარეობის სიზუსტეს (კოორდინატებს), სიჩქარესა და ბატარეის ენერგიის მოხმარებას შორის.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">სამუდამოდ წაშალეთ რეკლამები ნებისმიერი თანხის ერთჯერადი შემოწირულობით. ასევე შეგიძლიათ ყოველთვიურად შემოწიროთ ნებისმიერი თანხა რეკლამის წასაშლელად</string>
 
     <string name="prefs_audio_bt_recording_text">აუდიოს ჩაწერა Bluetooth მოწყობილობიდან</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">არ გამოიყენოთ სათავე ერთეულთან (მანქანის რადიო)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">გამოიყენეთ მხოლოდ Bluetooth ყურსასმენებით. თუ თქვენ უკავშირდებით სათავე ერთეულს (მანქანის რადიოს) Bluetooth-ის საშუალებით, მაშინ რაიმე მიზეზით ამან შეიძლება ავტომატურად გამოიწვიოს სატელეფონო ზარი ამ მოწყობილობის სტანდარტულ ნომერზე.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Bluetooth კავშირებით ავტომატური ჩაწერა საჭიროებს ნებართვას. დააწკაპუნეთ აქ გასაგზავნად</string>
+    <string name="prefs_warning_permission_bluetooth_text">Bluetooth-ის ნებართვა არ არის მინიჭებული</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">აპლიკაციის გახსნა ჩაწერის დასაწყებად ვერ მოხერხდა, რადგან ეკრანი გამორთული იყო (დაბლოკილი). ამის გამოსასწორებლად გაუშვით ფონური ჩაწერის სერვისი (Watcher).</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">აპლიკაციის გახსნა ვერ მოხერხდა, რადგან ეკრანი გამორთული იყო (დაბლოკილი).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">მითითებული აპლიკაციის ავტომატურად გახსნა ვერ მოხერხდა, რადგან „ყველა აპლიკაციის თავზე ჩვენება“ ნებართვა არ იყო მინიჭებული.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">თქვენ უნდა მიანიჭოთ Nearby Devices (Bluetooth) ნებართვა მოვლენის ავტომატური ჩაწერისთვის. ეს შეიძლება გაკეთდეს აპლიკაციის სისტემის პარამეტრებში.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">შეტყობინებები საჭიროა იმისათვის, რომ შეძლოთ ფონური ჩაწერის სერვისის და ჩაწერის სტატუსის ჩვენება შეტყობინებების პანელში.</string>
+
+    
 </resources>

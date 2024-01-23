@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Ny fakan-tsary dia ilaina amin\'ny fandraketana horonan-tsary sy ny fijerin\'ny fakan-tsary.</string>
     <string name="permission_camera_dlg_title">Fakan-tsary</string>
     <string name="permission_camera_request_canceled">Ity fampiharana ity dia mila alalana hampiasa ny fakantsary handraketana horonantsary. Fa nolavinao izany. Famaranana… Miezaha manome alalana ny fakan-tsary amin\'ny firafitry ny rafitra an\'ity fampiharana ity</string>
-    <string name="permission_location_dlg_explanation_msg">Rehefa ahena, ny Droid Dashcam dia mampiasa ny toerana ao ambadika mba hanaovana ny fandrindrana, adiresy ary hafainganam-pandeha amin\'ny horonan-tsary voarakitra.</string>
+    <string name="permission_location_dlg_explanation_msg">Ilaina ny toerana hanaovana ny fandrindrana, ny adiresy ary ny hafainganam-pandeha amin\'ny horonan-tsary voarakitra, na mampiseho izany angona izany eo amin\'ny efijery lehibe (miankina amin\'ny fanovanao).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Amin\'ny Android 11 (R) dia mila misafidy tanana ianao \"Mandrakariva (mode rehetra)\" ao amin\'ny safidin\'ny rafitra hamela ny toerana ao ambadika. Hisokatra aorian\'ity varavarankely ity ny fandrindrana.</string>
     <string name="permission_location_dlg_msg">Ny toerana dia ilaina mba hamaritana ny hafainganam-pandehan\'ny fitaterana amin\'ny alàlan\'ny angon-drakitra GPS, ny adiresy ankehitriny sy ny fandrindrana aseho eo amin\'ny efijery ary ny firaketana dikanteny amin\'ny horonan-tsary</string>
     <string name="permission_location_dlg_title">Fahazoan-dalana toerana</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">fiara</string>
     <string name="rec_fix_short_text">Hanitsy</string>
     <string name="rec_fix_text">Hanitsy</string>
-    <string name="rec_free_space_text">Available</string>
+    <string name="rec_available_space_text">Available</string>
     <string name="rec_gps_status_satellites_few_text">zanabolana</string>
     <string name="rec_gps_status_satellites_many_text">zanabolana</string>
     <string name="rec_gps_status_satellites_one_text">zanabolana</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Nanomboka ny fandraisam-peo</string>
     <string name="recording_voice_stopped_text">Nijanona ny firaketana</string>
 
-    <string name="service_no_system_alert_window_granted_text">Tsy nahomby ny fanombohana ny serivisy Droid Dashcam mba hanomboka /hampiato ny firaketana ho azy satria tsy nomena alalana SYSTEM_ALERT_WINDOW (aseho amin\'ny varavarankely rehetra amin\'ny rindranasa hafa). Na voahidy ny fitaovana amin\'io fotoana io (ny famerana ny Android dia tsy maintsy vahana aloha ny fitaovana ary tsy maintsy alefa ny efijery alohan\'ny hanombohan\'ny serivisy fandraketana horonantsary mandeha ho azy)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Tsy azo nosokafana ny fampiharana raha vao manomboka mirakitra an-tsoratra satria tsy nahazo alalana ny \"seho ambonin\'ny fampiharana rehetra\". Tsindrio raha hanome</string>
     <string name="service_watch_on_boot_completed_text">Rehefa mamelona ny fitaovana</string>
 
     <string name="storage_external_single">karatra MicroSD</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Atsaharo ny fanatsarana ny batterie ho an\'ity fampiharana ity amin\'ny firafitry ny fitaovanao mba hisorohana ny hadisoana amin\'ny fakantsary ho avy</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Fandraketana mandeha ho azy rehefa mandeha ny serivisy</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Raha avelanao ity safidy ity, dia tsy ho vita ny fandraketana mandeha ho azy raha tsy mandeha ny serivisy fanaraha-maso ary tsy hita ao amin\'ny tontonana fampahafantarana.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Fandraketam-peo mandeha ho azy na dia tsy mandeha aza ny serivisy background (Watcher).</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Azonao atao ny mamono an\'io safidy io mba hahafahan\'ilay rindranasa manao firaketana mandeha ho azy raha tsy mandeha ny serivisy afara (Mpanara-maso) an\'ny fampiharana.\n- Ny firaketana mandeha ho azy ho an\'ny hetsika toy ny fiampangana, Bluetooth na AUX dia azo atao tsy misy olana hatramin\'ny Android 7.1.\n- Manomboka amin\'ny Android 8, ny firaketana mandeha ho azy tsy misy serivisy fampiharana background (Watcher) dia tsy azo atao afa-tsy amin\'ny hetsika Bluetooth, ary amin\'ny toe-javatra hafa (rehefa mamaly na AUX) dia mila manomboka ny serivisy fampiharana background (Mpitadiava) ianao - amin\'ny fandefasana ny fampiharana ny tenany indray mandeha.\n- Manomboka amin\'ny Android 11 tsy misy serivisy app background (Watcher), ny fidirana amin\'ny fakantsary tsy misy fifandraisana amin\'ny mpampiasa dia azo atao raha tsy voahidy ny telefaona (efijery mandeha) ary omena alalana \"eo ambonin\'ny apps rehetra\".\n- Noho izany, ho an\'ny Android 11 sy ambony kokoa dia mila manokatra ny rindranasa indray mandeha ianao mba hanombohan\'ny serivisy background an\'ny rindranasa (Watcher) mirakitra ho azy mandritra ny hetsika rehetra ary rehefa tapaka ny efijery telefaona.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Subtitles eo amin\'ny farany ambany</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Ilaina mba hahafahana mampiseho ny serivisy fandraisam-peo sy ny sata eo amin\'ny tontonana fampahafantarana. Tsindrio raha handefa</string>
     <string name="prefs_warning_notifications_text">Fahazoan-dàlana fampahafantarana</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Ho an\'ny fanomezana kely kokoa dia esorina amin\'ny efijery an-trano ihany ny doka</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Ho an\'ny fanomezana kely kokoa dia esorina amin\'ny efijery lehibe ihany ny dokam-barotra</string>photo
     <string name="photos_folder_name">Sary</string>
 
     <string name="photos_count_one">sary</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Tsy nahomby ny fanokafana ny fakantsary voafantina. Mitranga izany fa tsy ny fakantsary miafina rehetra dia azo ampiasaina amin\'ny fampiharana rehetra. Maro amin\'ireo mpanamboatra no mamela ny fampiasana azy ireo amin\'ny fampiharana azy. Hisokatra ny fakantsary default.</string>
 
-    <string name="videos_ask_which_player">Anontanio hoe iza no mpilalao hilalao isaky ny mandeha\?</string>
+    <string name="videos_ask_which_player">Anontanio hoe iza no mpilalao hilalao</string>
 
     <string name="prefs_location_mode_text">Laharam-pahamehana GPS (Bateria na Fahamarinana)</string>
     <string name="prefs_location_mode_balanced_text">Mifandanja eo amin\'ny fahamarinan\'ny toerana (mandrindra), ny hafainganam-pandeha ary ny fanjifana herinaratra.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Esory mandrakizay ny doka miaraka amin\'ny fanomezana indray mandeha na inona na inona. Azonao atao koa ny manome vola isam-bolana hanesorana doka</string>
 
     <string name="prefs_audio_bt_recording_text">Raketo feo avy amin\'ny fitaovana Bluetooth</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Aza ampiasaina miaraka amin\'ny head unit (radio fiara)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Ampiasao amin\'ny écouteur Bluetooth ihany. Raha mifandray amin\'ny lohany (radio fiara) amin\'ny alàlan\'ny Bluetooth ianao, dia noho ny antony iray dia mety hiteraka antso an-telefaona ho azy amin\'ny laharana mahazatra amin\'ity fitaovana ity izany.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Mila alalana ny fandraketana mandeha ho azy amin\'ny fifandraisana Bluetooth. Tsindrio eto raha handefa</string>
+    <string name="prefs_warning_permission_bluetooth_text">Tsy nomena alalana Bluetooth</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Tsy azo nosokafana ny rindranasa hanombohana firaketana satria maty ny efijery (nihidy). Manaova serivisy fandraketana an-damosina (Watcher) hamahana izany.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Tsy azo nosokafana ny fampiharana satria maty ny efijery (nihidy).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Ny fampiharana voatondro dia tsy azo natomboka hisokatra ho azy satria tsy nahazo alalana ny \"fampisehoana eo ambonin\'ny rindranasa rehetra\".</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Tsy maintsy manome alalana ny fitaovana manodidina (Bluetooth) ianao amin\'ny fandraketana hetsika mandeha ho azy. Izany dia azo atao amin\'ny firafitry ny rafitra fampiharana.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Ilaina ny fampandrenesana mba ahafahana mampiseho ny serivisy fandraisam-peo sy ny sata fandraketana ao amin\'ny tontonana fampahafantarana.</string>
+
+    
 </resources>

@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">سىنئالغۇغا ئېلىش ۋە كامېرانى ئالدىن كۆرۈش ئۈچۈن كامېرا تەلەپ قىلىنىدۇ.</string>
     <string name="permission_camera_dlg_title">كامېرا ئېنىقلىق دەرىجىسى</string>
     <string name="permission_camera_request_canceled">بۇ پروگرامما كامېرانى ئىشلىتىپ سىنغا ئېلىش ئۈچۈن ئىجازەت تەلەپ قىلىدۇ. ئەمما ئۇنى رەت قىلدىڭىز. تاقاش… بۇ پروگراممىنىڭ سىستېما تەڭشىكىدە كامېراغا ئىجازەت بېرىشكە تىرىشىڭ</string>
-    <string name="permission_location_dlg_explanation_msg">كىچىكلىتىلگەندە ، Droid Dashcam ئارقا كۆرۈنۈشتىكى ئورۇننى ئىشلىتىپ سىنغا ئېلىنغان سىنغا كوئوردېنات ، ئادرېس ۋە سۈرئەت سىزىدۇ.</string>
+    <string name="permission_location_dlg_explanation_msg">بۇ ئورۇن خاتىرىلەنگەن سىندا كوئوردېنات ، ئادرېس ۋە سۈرئەت سىزىش ياكى بۇ سانلىق مەلۇماتلارنى ئاساسىي ئېكراندا كۆرسىتىش ئۈچۈن (تەڭشەكلىرىڭىزگە ئاساسەن) لازىم.</string>
     <string name="permission_location_dlg_explanation_settings_msg">ئاندىرويىد 11 (R) دە ، سىستېمىنىڭ مايىللىقىدىكى «ھەر ۋاقىت (ھەر قانداق ھالەتتە)» نى قولدا تاللىشىڭىز كېرەك. تەڭشەكلەر بۇ كۆزنەكتىن كېيىن ئېچىلىدۇ.</string>
     <string name="permission_location_dlg_msg">بۇ ئورۇن GPS سانلىق مەلۇماتلىرى ئارقىلىق توشۇش سۈرئىتىنى ، نۆۋەتتىكى ئادرېسنى ۋە ئېكراندا كۆرسىتىش ۋە سىنغا ئېلىنغان مەزمۇنلارنى خاتىرىلەش ئۈچۈن ماسلاشتۇرۇش ئۈچۈن زۆرۈر.</string>
     <string name="permission_location_dlg_title">ئورۇن رۇخسىتى</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">ئاپتوماتىك</string>
     <string name="rec_fix_short_text">تۈزىتىش ئۈچۈن</string>
     <string name="rec_fix_text">تۈزىتىش ئۈچۈن</string>
-    <string name="rec_free_space_text">ئىشلەتكىلى بولىدۇ</string>
+    <string name="rec_available_space_text">ئىشلەتكىلى بولىدۇ</string>
     <string name="rec_gps_status_satellites_few_text">سۈنئىي ھەمراھ</string>
     <string name="rec_gps_status_satellites_many_text">سۈنئىي ھەمراھ</string>
     <string name="rec_gps_status_satellites_one_text">سۈنئىي ھەمراھ</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">خاتىرىلەش باشلاندى</string>
     <string name="recording_voice_stopped_text">خاتىرىلەش توختىتىلدى</string>
 
-    <string name="service_no_system_alert_window_granted_text">SYSTEM_ALERT_WINDOW ئىجازەتنامىسى (باشقا قوللىنىشچان پروگراممىلارنىڭ بارلىق كۆزنەكلىرىدە كۆرسىتىش) ئىجازەت بېرىلمىگەچكە ، Droid Dashcam مۇلازىمىتىنى ئاپتوماتىك خاتىرىلەشنى باشلاش /توختىتىش مەغلۇب بولدى. ياكى بۇ ۋاقىتتا ئۈسكۈنە قۇلۇپلانغان (ئاندىرويىدنىڭ چەكلىمىسى شۇكى ، ئاپتوماتىك سىنغا ئېلىش مۇلازىمىتى باشلىنىشتىن بۇرۇن چوقۇم ئۈسكۈنىنىڭ قۇلۇپىنى ئېچىشى ھەمدە ئۇنىڭ ئېكرانىنى ئېچىشى كېرەك).</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">«بارلىق ئەپلەرنىڭ ئۈستىدىكى كۆرسىتىش» ئىجازەتنامىسى بېرىلمىگەچكە ، بۇ دېتالنى خاتىرىلەشنى باشلاش ئۈچۈن ئاچقىلى بولمىدى. تەمىنلەش ئۈچۈن چېكىڭ</string>
     <string name="service_watch_on_boot_completed_text">ئۈسكۈنىنى ئاچقاندا</string>
 
     <string name="storage_external_single">MicroSD كارتا</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">كەلگۈسىدىكى كامېرا خاتالىقىدىن ساقلىنىش ئۈچۈن ئۈسكۈنىڭىزنىڭ تەڭشىكىدە بۇ دېتالنىڭ باتارېيەنى ئەلالاشتۇرۇشنى چەكلەڭ</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">مۇلازىمەت ئىجرا بولغاندا ئاندىن ئاپتوماتىك خاتىرىلەش</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">ئەگەر بۇ تاللاشنى قوزغىتىپ قويسىڭىز ، نازارەت قىلىش مۇلازىمىتى ئىجرا قىلىنمىسا ھەمدە ئۇقتۇرۇش تاختىسىدا كۆرۈنمىسە ئاپتوماتىك خاتىرىلەش ئېلىپ بېرىلمايدۇ.</string>
+    <string name="prefs_rules_auto_start_without_service_text">تەگلىك مۇلازىمىتى (Watcher) ئىجرا بولمىسىمۇ ئاپتوماتىك خاتىرىلەش</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* سىز بۇ تاللانمىنى ئېتىۋەتسىڭىز بولىدۇ ، پەقەت پروگراممىنىڭ تەگلىك مۇلازىمىتى (Watcher) ئىجرا بولغاندىلا ، پروگرامما ئاپتوماتىك خاتىرىلەيدۇ.\n- توك قاچىلاش ، كۆك چىش ياكى AUX قاتارلىق ۋەقەلەرنى ئاپتوماتىك خاتىرىلەش ئاندىرويىد 7.1 گە قەدەر مەسىلە يوق.\n- ئاندىرويىد 8 دىن باشلاپ ، تەگلىك قوللىنىشچان مۇلازىمىتى (Watcher) بولمىغان ئاپتوماتىك خاتىرىلەش پەقەت كۆك چىش پائالىيىتىدىلا ئېلىپ بېرىلىدۇ ، باشقا ئەھۋاللاردا (توك قاچىلىغاندا ياكى AUX بولغاندا) ئالدى بىلەن تەگلىك قوللىنىشچان مۇلازىمەتنى (Watcher) قوزغىتىشىڭىز كېرەك. قوللىنىشچان پروگراممىنىڭ ئۆزى بىر قېتىم.\n- تەگلىك ئەپ مۇلازىمىتى (Watcher) بولمىغان ئاندىرويىد 11 دىن باشلاپ ، تېلېفون قۇلۇپلانغان (ئېكراندا) ۋە «بارلىق ئەپلەرنىڭ ئۈستىگە» ئىجازەت بېرىلگەندىلا ، ئابونتلار ئۆز-ئارا تەسىر كۆرسەتمەي تۇرۇپ كامېراغا ئېرىشكىلى بولىدۇ.\n- شۇڭا ، ئاندىرويىد 11 ۋە ئۇنىڭدىن يۇقىرى نەشرىگە نىسبەتەن ، سىز بۇ پروگراممىنى قولدا قوزغىتىشىڭىز كېرەك ، شۇنداق بولغاندا پروگراممىنىڭ تەگلىك مۇلازىمىتى (Watcher) ھەر قانداق پائالىيەتلەردە ۋە تېلېفون ئېكرانى ئېتىۋېتىلگەندە ئاپتوماتىك خاتىرىلەشكە باشلايدۇ.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">ئاستىدىكى تارماق تېما</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">ئۇقتۇرۇش تاختىسىدا تەگلىك خاتىرىلەش مۇلازىمىتى ۋە ھالىتىنى كۆرسىتەلەيدىغان بولۇش تەلەپ قىلىنىدۇ. يوللاش ئۈچۈن چېكىڭ</string>
     <string name="prefs_warning_notifications_text">ئۇقتۇرۇش ئىجازىتى</string>
 
-    <string name="donation_dlg_limited_ads_message_text">كىچىكرەك ئىئانە ئۈچۈن ، پەقەت ئائىلە ئېكرانى ئۈچۈن ئېلان ئۆچۈرۈلىدۇ</string>photo
+    <string name="donation_dlg_limited_ads_message_text">كىچىكرەك ئىئانە ئۈچۈن ئېلان پەقەت ئاساسىي ئېكراندىلا ئۆچۈرۈلىدۇ</string>photo
     <string name="photos_folder_name">سۈرەتلەر</string>
 
     <string name="photos_count_one">سۈرەت</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">تاللانغان كامېرانى ئاچالمىدى. شۇنداق بولىدۇكى ، يوشۇرۇن كامېرالارنىڭ ھەممىسىنى ھەر قانداق پروگرامما ئىشلىتەلمەيدۇ. نۇرغۇن ئىشلەپچىقارغۇچىلار پەقەت ئۇلارنىڭ يەرلىك قوللىنىشچان پروگراممىلىرىدا ئىشلىتىشىگە يول قويىدۇ. سۈكۈتتىكى كامېرا ئېچىلىدۇ.</string>
 
-    <string name="videos_ask_which_player">ھەر قېتىم قايسى قويغۇچتا ئوينايدىغانلىقىنى سوراڭ؟</string>
+    <string name="videos_ask_which_player">قايسى قويغۇچتا ئويناشنى سوراڭ</string>
 
     <string name="prefs_location_mode_text">GPS مۇھىملىقى (باتارېيە ياكى ئېنىقلىق)</string>
     <string name="prefs_location_mode_balanced_text">ئورۇننىڭ توغرىلىقى (كوئوردېنات) ، سۈرئەت ۋە باتارېيەنىڭ توك سەرپىياتى ئوتتۇرىسىدىكى تەڭپۇڭلۇق.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">ھەر قېتىمدا بىر قېتىم ئىئانە قىلىش ئارقىلىق ئېلاننى مەڭگۈ ئۆچۈرۈڭ. ئېلاننى ئۆچۈرۈش ئۈچۈن ھەر ئايدا قانچىلىك پۇل ئىئانە قىلسىڭىز بولىدۇ</string>
 
     <string name="prefs_audio_bt_recording_text">كۆك چىش ئۈسكۈنىسىدىن ئاۋاز خاتىرىلەڭ</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">باش ئورۇن (ماشىنا رادىئوسى) بىلەن ئىشلەتمەڭ!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">پەقەت كۆك چىشلىق تىڭشىغۇچ بىلەنلا ئىشلىتىڭ. ئەگەر كۆك چىش ئارقىلىق باش ئورۇن (ماشىنا رادىئوسى) غا ئۇلانسىڭىز ، مەلۇم سەۋەبلەر تۈپەيلىدىن بۇ ئۈسكۈنىنىڭ ئۆلچەملىك نومۇرىغا ئاپتوماتىك تېلېفون ئۇرۇشى مۇمكىن.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">كۆك چىش ئۇلىنىشىدا ئاپتوماتىك خاتىرىلەش ئىجازەت تەلەپ قىلىدۇ. يوللاش ئۈچۈن بۇ يەرنى چېكىڭ</string>
+    <string name="prefs_warning_permission_bluetooth_text">كۆكچىش ئىجازەتنامىسى بېرىلمىگەن</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">ئېكران ئېتىۋېتىلگەن (قۇلۇپلانغان) بولغاچقا خاتىرىلەشنى باشلاش ئۈچۈن بۇ پروگراممىنى ئاچقىلى بولمىدى. بۇنى ئوڭشاش ئۈچۈن تەگلىك خاتىرىلەش مۇلازىمىتى (Watcher) نى ئىجرا قىلىڭ.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">ئېكران ئېتىۋېتىلگەن (قۇلۇپلانغان) بولغاچقا بۇ پروگراممىنى ئاچقىلى بولمىدى.</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">كۆرسىتىلگەن پروگراممىنى ئاپتوماتىك ئېچىشقا بولمايدۇ ، چۈنكى «بارلىق قوللىنىشچان پروگراممىلارنىڭ ئۈستىدە كۆرسىتىش» ئىجازەتنامىسى بېرىلمىگەن.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">ئاپتوماتىك ھادىسە خاتىرىلەش ئۈچۈن يېقىن ئەتراپتىكى ئۈسكۈنىلەر (كۆك چىش) ئىجازەت بېرىشىڭىز كېرەك. بۇنى پروگراممىنىڭ سىستېما تەڭشىكىدە قىلغىلى بولىدۇ.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">ئۇقتۇرۇش تاختىسىدا تەگلىك خاتىرىلەش مۇلازىمىتى ۋە خاتىرىلەش ھالىتىنى كۆرسىتەلەيدىغان بولۇشى كېرەك.</string>
+
+    
 </resources>

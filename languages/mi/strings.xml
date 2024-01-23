@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Ko te kamera e hiahiatia ana mo te tuhi ataata me te arokite kamera.</string>
     <string name="permission_camera_dlg_title">Taumira kāmera</string>
     <string name="permission_camera_request_canceled">Me whakaae tenei tono ki te whakamahi i te kamera ki te tuhi ataata. Engari i whakakorea e koe. Kati… Ngana ki te tuku whakaaetanga ki te kamera i roto i nga tautuhinga punaha o tenei tono</string>
-    <string name="permission_location_dlg_explanation_msg">Ina whakaitihia, ka whakamahia e Droid Dashcam te waahi kei muri ki te tuhi i nga taunga, te korero me te tere i runga i te ataata kua tuhia.</string>
+    <string name="permission_location_dlg_explanation_msg">Ko te waahi e hiahiatia ana hei tuhi i nga taunga, te wahitau me te tere i runga i te ataata kua tuhia, ka whakaatu ranei i enei raraunga ki te mata matua (i runga i o tautuhinga).</string>
     <string name="permission_location_dlg_explanation_settings_msg">I runga i te Android 11 (R), me kowhiria e koe \"I nga wa katoa (tetahi aratau)\" i roto i nga manakohanga punaha kia taea ai te waahi kei muri. Ka tuwhera nga tautuhinga i muri i tenei matapihi.</string>
     <string name="permission_location_dlg_msg">Ko te waahi e tika ana hei whakatau i te tere o te kawe ma te whakamahi i nga raraunga GPS, te wahitau o naianei me nga taunga mo te whakaatu ki te mata me te tuhi i nga kupu hauraro ki te ataata.</string>
     <string name="permission_location_dlg_title">Whakaaetanga waahi</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Aunoa</string>
     <string name="rec_fix_short_text">Hei whakatika</string>
     <string name="rec_fix_text">Hei whakatika</string>
-    <string name="rec_free_space_text">Kei te waatea</string>
+    <string name="rec_available_space_text">Kei te waatea</string>
     <string name="rec_gps_status_satellites_few_text">amiorangi</string>
     <string name="rec_gps_status_satellites_many_text">amiorangi</string>
     <string name="rec_gps_status_satellites_one_text">amiorangi</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Kua timata te tuhi</string>
     <string name="recording_voice_stopped_text">Ka mutu te tuhi</string>
 
-    <string name="service_no_system_alert_window_granted_text">I rahua te tiimata i te ratonga Droid Dashcam ki te tiimata aunoa /whakamutu te rekoata na te mea kaore te whakaaetanga SYSTEM_ALERT_WINDOW (whakaatu ki nga matapihi katoa o etahi atu tono) kaore i whakaaetia. I maukatihia ranei te taputapu i tenei wa (Ko te aukati Android ko te mea me wetekina te taputapu me te whakakahia tona mata i mua i te tiimata o te ratonga mo te hopu ataata aunoa)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Kaore i taea te whakatuwhera i te taupānga ki te timata ki te tuhi na te mea kaore te whakaaetanga \"whakaatu ki runga ake o nga taupānga katoa\" i whakaaetia. Pāwhiri ki te whakarato</string>
     <string name="service_watch_on_boot_completed_text">I te wa e huri ana i te taputapu</string>
 
     <string name="storage_external_single">kāri MicroSD</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Monokia te arotautanga o te pākahiko mo tenei taupānga i roto i o tautuhinga taputapu kia kore ai e hapa nga kamera a muri ake nei</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Te tuhi aunoa i te wa e mahi ana te ratonga</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Mena ka taea e koe tenei whiringa, karekau e mahia te rekoata aunoa mena karekau te ratonga aroturuki e rere ana, karekau hoki e kitea i te papa panui.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Te tuhi aunoa ahakoa kaore te ratonga papamuri (Watcher) e haere ana</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Ka taea e koe te whakaweto i tenei kowhiringa kia mahia e te tono te rekoata aunoa mena kei te haere te ratonga papamuri o te tono (Watcher).\n- Ko te rekoata aunoa mo nga huihuinga penei i te utu, Nihokikorangi, AUX ranei ka taea te mahi kaore he raru ki te Android 7.1.\n- Mai i te Android 8, ko te rekoata aunoa kaore he ratonga tono papamuri (Watcher) ka taea anake te mahi mo nga huihuinga Nihokikorangi, a i etahi atu keehi (i te wa e utu ana, AUX ranei) me tiimata tuatahi koe i te ratonga tono papamuri (Watcher) - ma te whakarewa i te tono ano kotahi.\n- Ka tiimata me te Android 11 kaore he ratonga tono papamuri (Kaitaki), ka taea te uru ki te kaamera me te kore te taunekeneke a te kaiwhakamahi mena ka wetekina te waea (mata ki runga) ka whakaaetia \"i runga ake o nga taupānga katoa\".\n- No reira, mo te Android 11 me te teitei ake, me whakarewahia e koe te tono kia kotahi te wa ka tiimata te mahi papamuri o te tono (Kaitaki) ki te tuhi aunoa i nga huihuinga me te wa ka whakawetohia te mata waea.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Nga kupu hauraro kei raro</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Me kaha ki te whakaatu i te ratonga rekoata papamuri me nga mana i runga i te panui panui. Pāwhiri ki te tuku</string>
     <string name="prefs_warning_notifications_text">Whakaaetanga Whakamōhiotanga</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Mo nga koha iti, ka tangohia nga panui mo te mata o te kaainga anake</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Mo nga takoha iti ake, ka tangohia nga panui i runga i te mata matua anake</string>photo
     <string name="photos_folder_name">Whakaahua</string>
 
     <string name="photos_count_one">whakaahua</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">I rahua te whakatuwhera i te kamera kua tohua. Ko te mea kaore e taea te whakamahi i nga kamera huna katoa e tetahi tono. He maha nga kaihanga ka whakaae noa ki te whakamahi i a raatau tono taketake. Ka tuwhera te kamera taunoa.</string>
 
-    <string name="videos_ask_which_player">Tonoa ko wai te kaitakaro hei takaro i ia wa\?</string>
+    <string name="videos_ask_which_player">Tonoa ko wai te kaitakaro hei takaro</string>
 
     <string name="prefs_location_mode_text">GPS Matua (Pikohiko, Tika ranei)</string>
     <string name="prefs_location_mode_balanced_text">Taurite i waenga i te tika o te waahi (taunga), te tere me te paunga hiko o te pākahiko.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Tangohia nga panui mo ake tonu atu me te koha kotahi te waa ahakoa te nui. Ka taea hoki e koe te koha moni ia marama ki te tango panui</string>
 
     <string name="prefs_audio_bt_recording_text">Tuhia ororongo mai i te taputapu Nihokikorangi</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Kaua e whakamahi me te waeine upoko (irirangi motoka)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Whakamahia me nga taringa Nihokikorangi anake. Mena ka hono koe ki te waeine upoko (irirangi motoka) ma te Nihokikorangi, na etahi take ka puta te waea waea ki te nama paerewa kei runga i tenei taputapu.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Ko te tuhi aunoa i runga i nga hononga Nihokikorangi me whakaae. Paatohia a konei ki te tuku</string>
+    <string name="prefs_warning_permission_bluetooth_text">Karekau te whakaaetanga Nihokikorangi i tukuna</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Kaore i taea te whakatuwhera i te tono kia timata te tuhi na te mea kua weto te mata (maukati). Whakahaerehia he ratonga tuhi papamuri (Watcher) hei whakatika i tenei.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Kaore i taea te whakatuwhera i te tono na te mea kua weto te mata (maukati).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Ko te tono kua tauwhāitihia kaore i taea te whakarewa kia tuwhera aunoa na te mea kaore te whakaaetanga \"whakaatu ki runga ake o nga tono katoa\" i whakaaetia.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Me tuku whakaaetanga mo nga Pūrere Tata (Nihokikorangi) mo te tuhi takahanga aunoa. Ka taea tenei i roto i nga tautuhinga punaha o te tono.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Ko nga whakamohiotanga e hiahiatia ana kia kaha ki te whakaatu i te ratonga rekoata papamuri me te mana rekoata ki te papa panui.</string>
+
+    
 </resources>

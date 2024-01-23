@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Kamera video yozish va kamerani oldindan ko\'rish uchun talab qilinadi.</string>
     <string name="permission_camera_dlg_title">Kamera ruxsati</string>
     <string name="permission_camera_request_canceled">Bu ilova video yozib olish uchun kameradan foydalanishga ruxsat talab qiladi. Lekin siz rad etdingiz. Yopilmoqda… Ushbu ilovaning tizim sozlamalarida kameraga ruxsat berishga harakat qiling</string>
-    <string name="permission_location_dlg_explanation_msg">Minimallashtirilganda, Droid Dashcam yozib olingan videoda koordinatalar, manzil va tezlikni chizish uchun fondagi joylashuvdan foydalanadi.</string>
+    <string name="permission_location_dlg_explanation_msg">Joylashuv qayd etilgan videoda koordinatalar, manzil va tezlikni chizish yoki ushbu ma\'lumotlarni asosiy ekranda ko\'rsatish uchun kerak (sizning sozlamalaringizga qarab).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Android 11 (R) da joylashuvni fonda aniqlashga ruxsat berish uchun tizim sozlamalarida “Har doim (har qanday rejim)”ni qo‘lda tanlashingiz kerak. Ushbu oynadan keyin sozlamalar ochiladi.</string>
     <string name="permission_location_dlg_msg">Joylashuv GPS ma\'lumotlari yordamida transport tezligini, joriy manzilni va ekranda ko\'rsatish va videoga subtitrlarni yozib olish uchun koordinatalarni aniqlash uchun zarur.</string>
     <string name="permission_location_dlg_title">Joylashuv ruxsati</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Avtomatik</string>
     <string name="rec_fix_short_text">Tuzatish uchun</string>
     <string name="rec_fix_text">Tuzatish uchun</string>
-    <string name="rec_free_space_text">Mavjud</string>
+    <string name="rec_available_space_text">Mavjud</string>
     <string name="rec_gps_status_satellites_few_text">sun\'iy yo\'ldoshlar</string>
     <string name="rec_gps_status_satellites_many_text">sun\'iy yo\'ldoshlar</string>
     <string name="rec_gps_status_satellites_one_text">sun\'iy yo\'ldosh</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Yozib olish boshlandi</string>
     <string name="recording_voice_stopped_text">Yozib olish toʻxtatildi</string>
 
-    <string name="service_no_system_alert_window_granted_text">SYSTEM_ALERT_WINDOW ruxsati (boshqa ilovalarning barcha oynalarida koʻrsatish) berilmaganligi sababli yozib olishni avtomatik boshlash/toʻxtatish uchun Droid Dashcam xizmatini ishga tushirib boʻlmadi. Yoki bu vaqtda qurilma qulflangan (Android cheklovi shundan iboratki, avtomatik video yozib olish xizmati ishga tushishidan oldin qurilma avval qulfdan chiqarilishi va uning ekrani yoqilishi kerak)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Yozishni boshlash uchun ilovani ochib bo‘lmadi, chunki “barcha ilovalar tepasida ko‘rsatish” ruxsati berilmagan. Ta\'minlash uchun bosing</string>
     <string name="service_watch_on_boot_completed_text">Qurilmani yoqqanda</string>
 
     <string name="storage_external_single">MicroSD karta</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Kelgusida kamera xatolarining oldini olish uchun qurilmangiz sozlamalarida ushbu ilova uchun batareya quvvatini optimallashtirishni o‘chirib qo‘ying</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Avtomatik yozish faqat xizmat ishlayotganda</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Agar siz ushbu parametrni yoqsangiz, monitoring xizmati ishlamayotgan va bildirishnomalar panelida ko\'rinmasa, avtomatik yozib olish amalga oshirilmaydi.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Fon xizmati (Watcher) ishlamayotgan bo\'lsa ham avtomatik yozib olish</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Siz ushbu parametrni o\'chirib qo\'yishingiz mumkin, shunda dastur faqat dasturning fon xizmati (Watcher) ishlayotgan bo\'lsa, avtomatik yozishni amalga oshiradi.\n- Zaryadlash, Bluetooth yoki AUX kabi hodisalarni avtomatik yozib olish Android 7.1 ga qadar muammosiz amalga oshirilishi mumkin.\n- Android 8 dan boshlab, fon ilovasi xizmatisiz (Watcher) avtomatik yozib olish faqat Bluetooth hodisalari uchun amalga oshirilishi mumkin, boshqa hollarda (zaryad olayotganda yoki AUXda) avval fon ilovasi xizmatini (Watcher) ishga tushirishingiz kerak. ilovaning o\'zi bir marta.\n- Android 11-dan boshlab fon ilovasi xizmatisiz (Watcher) kameraga foydalanuvchi shovqinisiz kirish faqat telefon qulfdan chiqarilgan (ekran yoqilgan) va “barcha ilovalar ustiga” ruxsati berilgan taqdirdagina mumkin.\n- Shunday qilib, Android 11 va undan yuqori versiyalari uchun ilovaning fon xizmati (Watcher) har qanday voqea va telefon ekrani o\'chirilgan paytda avtomatik ravishda yozib olishni boshlashi uchun dasturni bir marta qo\'lda ishga tushirishingiz kerak.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Pastki qismida subtitrlar</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Bildirishnomalar panelida fonda yozib olish xizmati va holatlarni ko\'rsatish uchun talab qilinadi. Yuborish uchun bosing</string>
     <string name="prefs_warning_notifications_text">Bildirishnoma ruxsati</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Kichikroq xayriyalar uchun reklamalar faqat bosh ekran uchun olib tashlanadi</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Kichikroq xayriyalar uchun reklama faqat asosiy ekranda olib tashlanadi</string>photo
     <string name="photos_folder_name">Rasmlar</string>
 
     <string name="photos_count_one">fotosurat</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Tanlangan kamerani ochib bo‘lmadi. Shunday bo\'ladiki, barcha yashirin kameralarni har qanday dastur ishlata olmaydi. Ko\'pgina ishlab chiqaruvchilar ulardan faqat mahalliy ilovalarda foydalanishga ruxsat berishadi. Standart kamera ochiladi.</string>
 
-    <string name="videos_ask_which_player">Har safar qaysi o\'yinchida o\'ynashni so\'rang\?</string>
+    <string name="videos_ask_which_player">Qaysi o\'yinchida o\'ynashni so\'rang</string>
 
     <string name="prefs_location_mode_text">GPS ustuvorligi (batareya yoki aniqlik)</string>
     <string name="prefs_location_mode_balanced_text">Joylashuv aniqligi (koordinatalar), tezlik va batareya quvvati iste\'moli o\'rtasidagi muvozanat.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Istalgan miqdorda bir martalik xayriya bilan reklamalarni butunlay olib tashlang. Bundan tashqari, reklamalarni olib tashlash uchun har oy istalgan miqdorni xayriya qilishingiz mumkin</string>
 
     <string name="prefs_audio_bt_recording_text">Bluetooth qurilmasidan audio yozib oling</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Bosh blok (avtomobil radiosi) bilan foydalanmang!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Faqat Bluetooth quloqchinlari bilan foydalaning. Agar siz bosh blokga (avtomobil radiosi) Bluetooth orqali ulansangiz, negadir bu avtomatik ravishda ushbu qurilmadagi standart raqamga qo\'ng\'iroqni boshlashi mumkin.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Bluetooth ulanishlari orqali avtomatik yozib olish uchun ruxsat talab qilinadi. Yuborish uchun shu yerni bosing</string>
+    <string name="prefs_warning_permission_bluetooth_text">Bluetooth ruxsati berilmagan</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Yozishni boshlash uchun ilovani ochib boʻlmadi, chunki ekran oʻchirilgan (qulflangan). Buni tuzatish uchun fonda yozib olish xizmatini (Watcher) ishga tushiring.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Ilovani ochib boʻlmadi, chunki ekran oʻchirilgan (qulflangan).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Belgilangan ilovani avtomatik ravishda ochish uchun ishga tushirib boʻlmadi, chunki “barcha ilovalar ustida koʻrsatish” ruxsati berilmagan.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Hodisalarni avtomatik yozib olish uchun Yaqin-atrofdagi qurilmalarga (Bluetooth) ruxsat berishingiz kerak. Bu dasturning tizim sozlamalarida amalga oshirilishi mumkin.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Bildirishnomalar bildirishnomalar panelida fonda yozib olish xizmati va yozib olish holatini ko\'rsatishi uchun talab qilinadi.</string>
+
+    
 </resources>

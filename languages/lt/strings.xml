@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Kamera reikalinga vaizdo įrašymui ir fotoaparato peržiūrai.</string>
     <string name="permission_camera_dlg_title">Kameros raiška</string>
     <string name="permission_camera_request_canceled">Šiai programai reikalingas leidimas naudoti kamerą vaizdo įrašams įrašyti. Bet tu jį atmetei. Uždaroma… Pabandykite suteikti leidimą fotoaparatui šios programos sistemos nustatymuose</string>
-    <string name="permission_location_dlg_explanation_msg">Kai sumažinta, Droid Dashcam naudoja vietą fone, kad nubrėžtų įrašyto vaizdo įrašo koordinates, adresą ir greitį.</string>
+    <string name="permission_location_dlg_explanation_msg">Vieta reikalinga norint nubrėžti koordinates, adresą ir greitį įrašytame vaizdo įraše arba rodyti šiuos duomenis pagrindiniame ekrane (atsižvelgiant į jūsų nustatymus).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Jei naudojate „Android 11“ (R), sistemos nuostatose turite rankiniu būdu pasirinkti „Visą laiką (bet koks režimas)“, kad būtų galima nustatyti vietą fone. Nustatymai bus atidaryti po šio lango.</string>
     <string name="permission_location_dlg_msg">Vieta reikalinga norint nustatyti transporto greitį naudojant GPS duomenis, dabartinį adresą ir koordinates, kad būtų rodomas ekrane ir įrašomi subtitrai vaizdo įraše</string>
     <string name="permission_location_dlg_title">Vietos leidimas</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Automatinis</string>
     <string name="rec_fix_short_text">Pataisyti</string>
     <string name="rec_fix_text">Pataisyti</string>
-    <string name="rec_free_space_text">Yra</string>
+    <string name="rec_available_space_text">Yra</string>
     <string name="rec_gps_status_satellites_few_text">palydovai</string>
     <string name="rec_gps_status_satellites_many_text">palydovai</string>
     <string name="rec_gps_status_satellites_one_text">palydovas</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Įrašymas prasidėjo</string>
     <string name="recording_voice_stopped_text">Įrašymas sustabdytas</string>
 
-    <string name="service_no_system_alert_window_granted_text">Nepavyko paleisti „Droid Dashcam“ paslaugos, kad būtų automatiškai pradėtas /sustabdytas įrašymas, nes nebuvo suteiktas SYSTEM_ALERT_WINDOW leidimas (rodymas per visus kitų programų langus). Arba įrenginys šiuo metu buvo užrakintas („Android“ apribojimas yra tas, kad prieš paleidžiant automatinio vaizdo įrašymo paslaugą, įrenginys turi būti atrakintas ir jo ekranas turi būti įjungtas)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Nepavyko atidaryti programos, kad būtų galima pradėti įrašymą, nes nebuvo suteiktas leidimas „rodyti virš visų programų“. Spustelėkite, kad pateiktumėte</string>
     <string name="service_watch_on_boot_completed_text">Įjungus įrenginį</string>
 
     <string name="storage_external_single">MicroSD kortelė</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Išjunkite šios programos akumuliatoriaus optimizavimą įrenginio nustatymuose, kad ateityje išvengtumėte fotoaparato klaidų</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Automatinis įrašymas tik tada, kai paslauga veikia</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Jei įjungsite šią parinktį, automatinis įrašymas nebus vykdomas, jei stebėjimo paslauga neveikia ir nėra matoma pranešimų skydelyje</string>
+    <string name="prefs_rules_auto_start_without_service_text">Automatinis įrašymas, net jei foninė paslauga (Watcher) neveikia</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Galite išjungti šią parinktį, kad programa atliktų automatinį įrašymą tik tada, kai veikia programos foninė paslauga (Watcher).\n- Automatinis įvykių, tokių kaip įkrovimas, „Bluetooth“ ar AUX, įrašymas gali būti atliekamas be problemų iki „Android 7.1“.\n- Pradedant nuo „Android 8“, automatinis įrašymas be foninės programos paslaugos („Watcher“) gali būti atliekamas tik „Bluetooth“ įvykiams, o kitais atvejais (kraunant arba AUX) pirmiausia reikia paleisti foninės programos paslaugą („Watcher“) – paleidžiant pati programa vieną kartą.\n– Pradedant nuo „Android 11“ be foninės programėlės paslaugos („Watcher“), prieiga prie fotoaparato be vartotojo įsikišimo galima tik tada, kai telefonas atrakintas (ekranas įjungtas) ir suteikiamas leidimas „visų programų viršuje“.\n- Taigi, naudojant „Android 11“ ir naujesnes versijas, reikia vieną kartą rankiniu būdu paleisti programą, kad programos foninė paslauga („Watcher“) pradėtų automatiškai įrašyti bet kokių įvykių metu ir išjungus telefono ekraną.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Subtitrai apačioje</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Būtina, kad pranešimų skydelyje būtų galima rodyti fono įrašymo paslaugą ir būsenas. Spustelėkite, kad pateiktumėte</string>
     <string name="prefs_warning_notifications_text">Pranešimo leidimas</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Gavus mažesnes aukas, skelbimai pašalinami tik pagrindiniame ekrane</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Dėl mažesnių aukų reklama pašalinama tik pagrindiniame ekrane</string>photo
     <string name="photos_folder_name">Nuotraukos</string>
 
     <string name="photos_count_one">nuotrauka</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Nepavyko atidaryti pasirinktos kameros. Taip atsitinka, kad ne visas paslėptas kameras gali naudoti bet kuri programa. Daugelis gamintojų leidžia juos naudoti tik savo vietinėse programose. Bus atidaryta numatytoji kamera.</string>
 
-    <string name="videos_ask_which_player">Paklauskite, kuriame žaidėjui žaisti kiekvieną kartą\?</string>
+    <string name="videos_ask_which_player">Paklauskite, kuriame žaidėjuje žaisti</string>
 
     <string name="prefs_location_mode_text">GPS prioritetas (baterija arba tikslumas)</string>
     <string name="prefs_location_mode_balanced_text">Balansas tarp vietos tikslumo (koordinačių), greičio ir akumuliatoriaus energijos suvartojimo.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Visam laikui pašalinkite skelbimus, paaukodami vienkartinę bet kokią sumą. Taip pat galite kas mėnesį paaukoti bet kokią sumą, kad pašalintumėte skelbimus</string>
 
     <string name="prefs_audio_bt_recording_text">Įrašykite garsą iš „Bluetooth“ įrenginio</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Nenaudokite su galvos bloku (automobiliniu radiju)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Naudokite tik su Bluetooth ausinėmis. Jei prie galvos įrenginio (automobilinio radijo) prisijungiate per „Bluetooth“, dėl kokių nors priežasčių tai gali automatiškai suaktyvinti telefono skambutį standartiniu šio įrenginio numeriu</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Norint automatiškai įrašyti per „Bluetooth“ ryšį, reikalingas leidimas. Spustelėkite čia, kad pateiktumėte</string>
+    <string name="prefs_warning_permission_bluetooth_text">Bluetooth leidimas nesuteiktas</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Nepavyko atidaryti programos, kad būtų galima pradėti įrašymą, nes ekranas buvo išjungtas (užrakintas). Norėdami tai išspręsti, paleiskite fono įrašymo paslaugą („Watcher“).</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Nepavyko atidaryti programos, nes ekranas buvo išjungtas (užrakintas).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Nepavyko paleisti nurodytos programos, kad ji būtų atidaryta automatiškai, nes nebuvo suteiktas leidimas „rodyti virš visų programų“.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Turite suteikti netoliese esančių įrenginių („Bluetooth“) leidimą automatiškai įrašyti įvykius. Tai galima padaryti programos sistemos nustatymuose.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Pranešimai reikalingi, kad pranešimų skydelyje būtų galima rodyti fono įrašymo paslaugą ir įrašymo būseną.</string>
+
+    
 </resources>

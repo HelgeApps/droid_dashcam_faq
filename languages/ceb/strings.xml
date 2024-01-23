@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Ang camera gikinahanglan alang sa pagrekord sa video ug pag-preview sa camera.</string>
     <string name="permission_camera_dlg_title">Resolusyon sa kamera</string>
     <string name="permission_camera_request_canceled">Ang kini nga aplikasyon nanginahanglan pagtugot nga magamit ang camera sa pagrekord sa video. Apan imong gibalibaran. Pagsira… Sulayi ang paghatag pagtugot sa camera sa mga setting sa sistema sa kini nga aplikasyon</string>
-    <string name="permission_location_dlg_explanation_msg">Kung giminusan, gigamit sa Droid Dashcam ang lokasyon sa background aron magdrowing og mga coordinate, adres ug katulin sa narekord nga video.</string>
+    <string name="permission_location_dlg_explanation_msg">Ang lokasyon gikinahanglan aron madrowing ang mga coordinate, adres ug katulin sa narekord nga video, o ipakita kini nga datos sa main screen (depende sa imong mga setting).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Sa Android 11 (R), kinahanglan nimo nga mano-mano nga pilion ang \"Sa tanan nga oras (bisan unsang mode)\" sa mga gusto sa sistema aron tugutan ang lokasyon sa background. Ang mga setting maablihan pagkahuman niini nga bintana.</string>
     <string name="permission_location_dlg_msg">Ang lokasyon gikinahanglan aron mahibal-an ang katulin sa transportasyon gamit ang data sa GPS, ang karon nga adres ug mga koordinasyon aron ipakita sa screen ug alang sa pagrekord sa mga subtitle sa video.</string>
     <string name="permission_location_dlg_title">Pagtugot sa lokasyon</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">awto</string>
     <string name="rec_fix_short_text">Aron matul-id</string>
     <string name="rec_fix_text">Aron matul-id</string>
-    <string name="rec_free_space_text">Anaa</string>
+    <string name="rec_available_space_text">Anaa</string>
     <string name="rec_gps_status_satellites_few_text">mga satelayt</string>
     <string name="rec_gps_status_satellites_many_text">mga satelayt</string>
     <string name="rec_gps_status_satellites_one_text">satellite</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Nagsugod na ang pagrekord</string>
     <string name="recording_voice_stopped_text">Nahunong ang pagrekord</string>
 
-    <string name="service_no_system_alert_window_granted_text">Napakyas sa pagsugod sa serbisyo sa Droid Dashcam aron awtomatiko nga magsugod /mohunong sa pagrekord tungod kay ang SYSTEM_ALERT_WINDOW nga pagtugot (ipakita sa tanan nga mga bintana sa ubang mga aplikasyon) wala gihatag. O ang aparato na-lock sa kini nga punto (Ang pagdili sa Android mao nga ang aparato kinahanglan una nga ma-unlock ug ang screen niini kinahanglan i-on sa dili pa magsugod ang serbisyo alang sa awtomatikong pagrekord sa video)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Ang app dili maablihan aron magsugod sa pagrekord tungod kay ang \"ipakita sa ibabaw sa tanan nga mga app\" nga pagtugot wala gihatag. I-klik aron mahatagan</string>
     <string name="service_watch_on_boot_completed_text">Kung gi-on ang aparato</string>
 
     <string name="storage_external_single">MicroSD card</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">I-disable ang pag-optimize sa baterya para sa kini nga app sa mga setting sa imong aparato aron malikayan ang mga sayup sa camera sa umaabot</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Awtomatikong pagrekord lamang kung ang serbisyo nagdagan</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Kung mahimo nimo kini nga kapilian, nan ang awtomatik nga pagrekord dili himuon kung ang serbisyo sa pag-monitor wala magdagan ug dili makita sa panel sa pagpahibalo</string>
+    <string name="prefs_rules_auto_start_without_service_text">Awtomatikong pagrekord bisan kung ang serbisyo sa background (Watcher) wala magdagan</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Mahimo nimong i-off kini nga kapilian aron ang aplikasyon makahimo lamang sa awtomatikong pagrekord kung ang serbisyo sa background sa aplikasyon (Watcher) nagdagan.\n- Ang awtomatikong pagrekord alang sa mga panghitabo sama sa pag-charge, Bluetooth o AUX mahimong himuon nga wala’y mga problema hangtod sa Android 7.1.\n- Sugod sa Android 8, ang awtomatikong pagrekord nga wala’y serbisyo sa aplikasyon sa background (Watcher) mahimo ra alang sa mga panghitabo sa Bluetooth, ug sa ubang mga kaso (kung nag-charge o AUX) kinahanglan nimo nga sugdan una ang serbisyo sa aplikasyon sa background (Watcher) - pinaagi sa paglansad sa aplikasyon sa iyang kaugalingon sa makausa.\n- Sugod sa Android 11 nga wala ang serbisyo sa background app (Watcher), ang pag-access sa camera nga wala’y interaksyon sa user posible ra kung ang telepono ma-unlock (screen on) ug ang pagtugot sa \"ibabaw sa tanan nga apps\" gihatag.\n- Sa ingon, alang sa Android 11 ug mas taas, kinahanglan nimo nga mano-mano nga ilunsad ang aplikasyon kausa aron ang serbisyo sa background sa aplikasyon (Watcher) magsugod sa awtomatikong pagrekord sa bisan unsang mga panghitabo ug kung ang screen sa telepono gipalong.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Mga subtitle sa ubos</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Gikinahanglan aron mapakita ang serbisyo sa pagrekord sa background ug mga kahimtang sa panel sa pagpahibalo. I-klik aron isumite</string>
     <string name="prefs_warning_notifications_text">Pagtugot sa Pagpahibalo</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Alang sa gagmay nga mga donasyon, ang mga ad gitangtang alang sa home screen lamang</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Alang sa gagmay nga mga donasyon, ang pag-anunsyo tangtangon lamang sa main screen</string>photo
     <string name="photos_folder_name">Mga litrato</string>
 
     <string name="photos_count_one">litrato</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Napakyas sa pag-abli sa pinili nga camera. Nahitabo nga dili tanan nga mga tinago nga camera mahimong magamit sa bisan unsang aplikasyon. Daghang mga tiggama nagtugot lamang sa ilang paggamit sa ilang lumad nga mga aplikasyon. Ang default nga camera moabli.</string>
 
-    <string name="videos_ask_which_player">Pangutan-a kung kinsa nga magdudula ang magdula matag higayon\?</string>
+    <string name="videos_ask_which_player">Pangutan-a kung kinsa nga magdudula ang magdula</string>
 
     <string name="prefs_location_mode_text">GPS Priority (Baterya o Katukma)</string>
     <string name="prefs_location_mode_balanced_text">Balanse tali sa katukma sa lokasyon (coordinate), katulin ug konsumo sa kuryente.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Kuhaa ang mga ad hangtod sa hangtod gamit ang usa ka higayon nga donasyon sa bisan unsang kantidad. Mahimo ka usab nga magdonar bisan unsang kantidad matag bulan aron matangtang ang mga ad</string>
 
     <string name="prefs_audio_bt_recording_text">Pagrekord og audio gikan sa Bluetooth device</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Ayaw gamita sa head unit (radyo sa awto)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Gamita lang sa Bluetooth headphones. Kung magkonektar ka sa head unit (radyo sa awto) pinaagi sa Bluetooth, unya sa pipila ka mga hinungdan mahimo’g awtomatiko kini nga mag-aghat sa usa ka tawag sa telepono sa standard nga numero sa kini nga aparato.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Ang awtomatikong pagrekord sa mga koneksyon sa Bluetooth nanginahanglan pagtugot. I-klik dinhi aron isumite</string>
+    <string name="prefs_warning_permission_bluetooth_text">Wala gihatag ang pagtugot sa Bluetooth</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Ang aplikasyon dili maablihan aron magsugod sa pagrekord tungod kay ang screen gipalong (naka-lock). Pagdalag serbisyo sa pagrekord sa background (Watcher) aron ayohon kini.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Ang aplikasyon dili maablihan tungod kay ang screen gipalong (naka-lock).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Ang gipiho nga aplikasyon dili malunsad aron awtomatiko nga maablihan tungod kay ang pagtugot nga \"ipakita sa ibabaw sa tanan nga mga aplikasyon\" wala gihatag.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Kinahanglan nimo nga hatagan ang Nearby Devices (Bluetooth) nga pagtugot alang sa awtomatikong pagrekord sa panghitabo. Mahimo kini sa mga setting sa sistema sa aplikasyon.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Gikinahanglan ang mga pahibalo aron mapakita ang serbisyo sa pagrekord sa background ug kahimtang sa pagrekord sa panel sa pagpahibalo.</string>
+
+    
 </resources>

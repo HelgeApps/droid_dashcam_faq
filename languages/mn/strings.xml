@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Камер нь видео бичлэг хийх, камерыг урьдчилан үзэхэд шаардлагатай.</string>
     <string name="permission_camera_dlg_title">Камерын нягтрал</string>
     <string name="permission_camera_request_canceled">Энэ аппликейшн нь видео бичлэг хийх камер ашиглах зөвшөөрөл шаарддаг. Гэхдээ та татгалзсан. Хааж байна… Энэ програмын системийн тохиргоонд камерт зөвшөөрөл олгохыг оролдоно уу</string>
-    <string name="permission_location_dlg_explanation_msg">Жижигрүүлсэн тохиолдолд Droid Dashcam нь бичигдсэн видеон дээр координат, хаяг, хурдыг зурахын тулд арын дэвсгэр дээрх байршлыг ашигладаг.</string>
+    <string name="permission_location_dlg_explanation_msg">Байршил нь бичигдсэн видеон дээр координат, хаяг, хурдыг зурах эсвэл энэ өгөгдлийг үндсэн дэлгэц дээр харуулахад шаардлагатай (таны тохиргооноос хамаарна).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Android 11 (R) дээр та байршлыг далд байрлуулахыг зөвшөөрөхийн тулд системийн тохиргооноос \"Бүх цаг (ямар ч горим)\"-г гараар сонгох хэрэгтэй. Энэ цонхны дараа тохиргоо нээгдэнэ.</string>
     <string name="permission_location_dlg_msg">GPS-ийн өгөгдөл, одоогийн хаяг, координатыг ашиглан тээврийн хурдыг тодорхойлох, дэлгэцэн дээр харуулах, хадмал орчуулгыг видео бичлэг дээр бичихэд байршил шаардлагатай.</string>
     <string name="permission_location_dlg_title">Байршлын зөвшөөрөл</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Автомат</string>
     <string name="rec_fix_short_text">Залруулахын тулд</string>
     <string name="rec_fix_text">Залруулахын тулд</string>
-    <string name="rec_free_space_text">Боломжтой</string>
+    <string name="rec_available_space_text">Боломжтой</string>
     <string name="rec_gps_status_satellites_few_text">хиймэл дагуулууд</string>
     <string name="rec_gps_status_satellites_many_text">хиймэл дагуулууд</string>
     <string name="rec_gps_status_satellites_one_text">хиймэл дагуул</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Бичлэг эхэлсэн</string>
     <string name="recording_voice_stopped_text">Бичлэг зогссон</string>
 
-    <string name="service_no_system_alert_window_granted_text">SYSTEM_ALERT_WINDOW зөвшөөрлийг (бусад програмын бүх цонхонд харуулах) олгоогүй тул Droid Dashcam үйлчилгээг автоматаар бичиж эхлэх/зогсоож чадсангүй. Эсвэл энэ үед төхөөрөмж түгжигдсэн байна (Андройд хязгаарлалт нь автомат видео бичлэг хийх үйлчилгээг эхлүүлэхийн өмнө эхлээд төхөөрөмжийн түгжээг тайлж, дэлгэцийг нь асаасан байх ёстой)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">\"Бүх програмын дээр харуулах\" зөвшөөрөл олгоогүй тул програмыг нээж, бичлэг хийж чадсангүй. Үзүүлэхийн тулд товшино уу</string>
     <string name="service_watch_on_boot_completed_text">Төхөөрөмжийг асаах үед</string>
 
     <string name="storage_external_single">MicroSD карт</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Ирээдүйд камерын алдаа гарахаас зайлсхийхийн тулд төхөөрөмжийнхөө тохиргооноос энэ програмын батарейны оновчлолыг идэвхгүй болго</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Зөвхөн үйлчилгээ ажиллаж байх үед автоматаар бичлэг хийнэ</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Хэрэв та энэ сонголтыг идэвхжүүлбэл хяналтын үйлчилгээ ажиллахгүй бөгөөд мэдэгдлийн самбарт харагдахгүй бол автомат бичлэг хийхгүй.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Арын үйлчилгээ (Watcher) ажиллахгүй байсан ч автоматаар бичлэг хийнэ</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Та энэ сонголтыг унтрааж болох бөгөөд ингэснээр програмын арын үйлчилгээ (Watcher) ажиллаж байгаа тохиолдолд програм автоматаар бичлэг хийх боломжтой.\n- Цэнэглэх, Bluetooth эсвэл AUX гэх мэт үйл явдлын автомат бичлэгийг Android 7.1 хүртэл асуудалгүйгээр хийх боломжтой.\n- Android 8-аас эхлэн арын програмын үйлчилгээ (Watcher)гүйгээр автомат бичлэгийг зөвхөн Bluetooth үйл явдалд зориулж хийх боломжтой бөгөөд бусад тохиолдолд (цэнэглэх эсвэл AUX үед) эхлээд арын програмын үйлчилгээг (Watcher) эхлүүлэх хэрэгтэй. програм өөрөө нэг удаа.\n- Арын програмын үйлчилгээ (Watcher)-гүй Android 11-ээс эхлэн утасны түгжээг тайлсан (дэлгэц асаалттай) болон \"бүх програмын дээр\" зөвшөөрөл олгосон тохиолдолд хэрэглэгчийн оролцоогүйгээр камерт хандах боломжтой.\n- Тиймээс Android 11 ба түүнээс дээш хувилбаруудын хувьд та програмыг нэг удаа гараар эхлүүлэх шаардлагатай бөгөөд ингэснээр програмын арын үйлчилгээ (Watcher) ямар ч үйл явдлын үеэр болон утасны дэлгэц унтарсан үед автоматаар бичлэг хийж эхэлдэг.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Доод талд нь хадмал орчуулга</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Мэдэгдлийн самбар дээр дэвсгэр бичлэгийн үйлчилгээ болон статусыг харуулах боломжтой байх шаардлагатай. Илгээхийн тулд товшино уу</string>
     <string name="prefs_warning_notifications_text">Мэдэгдлийн зөвшөөрөл</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Жижиг хандивын хувьд зөвхөн үндсэн дэлгэцийн зарыг хасдаг</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Жижиг хандивын хувьд зар сурталчилгааг зөвхөн үндсэн дэлгэц дээр арилгадаг</string>photo
     <string name="photos_folder_name">Зураг</string>
 
     <string name="photos_count_one">гэрэл зураг</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Сонгосон камерыг нээж чадсангүй. Бүх далд камерыг ямар ч програм ашиглах боломжгүй байдаг. Олон үйлдвэрлэгчид зөвхөн өөрсдийн хэрэглээнд ашиглахыг зөвшөөрдөг. Өгөгдмөл камер нээгдэнэ.</string>
 
-    <string name="videos_ask_which_player">Аль тоглогчид тоглохыг асуух бүрд\?</string>
+    <string name="videos_ask_which_player">Аль тоглогчид тоглохыг асуу</string>
 
     <string name="prefs_location_mode_text">GPS-ийн тэргүүлэх чиглэл (батарей эсвэл нарийвчлал)</string>
     <string name="prefs_location_mode_balanced_text">Байршлын нарийвчлал (координат), хурд болон батерейны эрчим хүчний зарцуулалтыг тэнцвэржүүлнэ.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Ямар ч хэмжээний нэг удаагийн хандиваар зарыг үүрд устга. Мөн та зарыг устгахын тулд сар бүр ямар ч хэмжээгээр хандивлаж болно</string>
 
     <string name="prefs_audio_bt_recording_text">Bluetooth төхөөрөмжөөс дуу бичих</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Толгойн хэсэгтэй (машины радио) бүү ашигла!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Зөвхөн Bluetooth чихэвчээр ашиглана уу. Хэрэв та Bluetooth-ээр толгойн төхөөрөмжид (машины радио) холбогдсон бол энэ нь ямар нэг шалтгааны улмаас энэ төхөөрөмж дээрх стандарт дугаар руу автоматаар дуудлага хийх боломжтой.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Блютүүт холболтоор автомат бичлэг хийхэд зөвшөөрөл шаардлагатай. Энд дарж илгээнэ үү</string>
+    <string name="prefs_warning_permission_bluetooth_text">Bluetooth зөвшөөрөл олгоогүй байна</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Дэлгэц унтарсан (түгжигдсэн) байсан тул програмыг нээж бичлэг хийж чадсангүй. Үүнийг засахын тулд дэвсгэр бичлэгийн үйлчилгээг (Watcher) ажиллуул.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Дэлгэц унтарсан (түгжигдсэн) учир програмыг нээж чадсангүй.</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">\"Бүх програмын дээр харуулах\" зөвшөөрөл олгоогүй тул заасан программыг автоматаар нээх боломжгүй.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Та Ойролцоох төхөөрөмжүүдэд (Bluetooth) үйл явдлыг автоматаар бичих зөвшөөрөл олгох ёстой. Үүнийг програмын системийн тохиргоонд хийж болно.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Мэдэгдлийн самбарт арын бичлэгийн үйлчилгээ болон бичлэгийн статусыг харуулах боломжтой байхын тулд мэдэгдэл шаардлагатай.</string>
+
+    
 </resources>

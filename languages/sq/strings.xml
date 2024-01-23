@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Kamera kërkohet për regjistrimin e videos dhe pamjen paraprake të kamerës.</string>
     <string name="permission_camera_dlg_title">Rezolucioni i kamerës</string>
     <string name="permission_camera_request_canceled">Ky aplikacion kërkon leje për të përdorur kamerën për të regjistruar video. Por ju e hodhët poshtë. Mbyllja… Përpiquni t\'i jepni leje kamerës në cilësimet e sistemit të këtij aplikacioni</string>
-    <string name="permission_location_dlg_explanation_msg">Kur minimizohet, Droid Dashcam përdor vendndodhjen në sfond për të nxjerrë koordinatat, adresën dhe shpejtësinë në videon e regjistruar.</string>
+    <string name="permission_location_dlg_explanation_msg">Vendndodhja nevojitet për të nxjerrë koordinatat, adresën dhe shpejtësinë në videon e regjistruar ose për të shfaqur këto të dhëna në ekranin kryesor (në varësi të cilësimeve tuaja).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Në Android 11 (R), duhet të zgjidhni manualisht \"Gjithë kohën (në çdo mënyrë)\" në preferencat e sistemit për të lejuar vendndodhjen në sfond. Cilësimet do të hapen pas kësaj dritare.</string>
     <string name="permission_location_dlg_msg">Vendndodhja është e nevojshme për të përcaktuar shpejtësinë e transportit duke përdorur të dhënat GPS, adresën aktuale dhe koordinatat për shfaqjen në ekran dhe për regjistrimin e titrave në video</string>
     <string name="permission_location_dlg_title">Leja e vendndodhjes</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">Për të korrigjuar</string>
     <string name="rec_fix_text">Për të korrigjuar</string>
-    <string name="rec_free_space_text">Në dispozicion</string>
+    <string name="rec_available_space_text">Në dispozicion</string>
     <string name="rec_gps_status_satellites_few_text">satelitët</string>
     <string name="rec_gps_status_satellites_many_text">satelitët</string>
     <string name="rec_gps_status_satellites_one_text">satelitor</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Regjistrimi ka filluar</string>
     <string name="recording_voice_stopped_text">Regjistrimi u ndal</string>
 
-    <string name="service_no_system_alert_window_granted_text">Nisja e shërbimit Droid Dashcam për të nisur/ndaluar automatikisht regjistrimin dështoi sepse leja SYSTEM_ALERT_WINDOW (shfaqja mbi të gjitha dritaret e aplikacioneve të tjera) nuk u dha. Ose pajisja ishte e kyçur në këtë pikë (Kufizimi i Android është se pajisja duhet së pari të shkyçet dhe ekrani i saj duhet të ndizet përpara se të fillojë shërbimi për regjistrimin automatik të videos)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Aplikacioni nuk mund të hapej për të filluar regjistrimin sepse nuk u dha leja \"shfaqja në krye të të gjitha aplikacioneve\". Klikoni për të ofruar</string>
     <string name="service_watch_on_boot_completed_text">Kur ndizni pajisjen</string>
 
     <string name="storage_external_single">Kartë MicroSD</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Çaktivizo optimizimin e baterisë për këtë aplikacion në cilësimet e pajisjes për të shmangur gabimet e ardhshme të kamerës</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Regjistrimi automatik vetëm kur shërbimi është në punë</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Nëse e aktivizoni këtë opsion, atëherë regjistrimi automatik nuk do të kryhet nëse shërbimi i monitorimit nuk funksionon dhe nuk është i dukshëm në panelin e njoftimeve</string>
+    <string name="prefs_rules_auto_start_without_service_text">Regjistrimi automatik edhe nëse shërbimi i sfondit (Watcher) nuk funksionon</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Mund ta çaktivizoni këtë opsion në mënyrë që aplikacioni të kryejë regjistrim automatik vetëm nëse funksionon shërbimi në sfond (Watcher) i aplikacionit.\n- Regjistrimi automatik për ngjarje të tilla si karikimi, Bluetooth ose AUX mund të kryhet pa probleme deri në Android 7.1.\n- Duke filluar nga Android 8, regjistrimi automatik pa një shërbim aplikacioni në sfond (Watcher) mund të kryhet vetëm për ngjarjet Bluetooth, dhe në raste të tjera (kur karikoni ose AUX) duhet të filloni fillimisht shërbimin e aplikacionit në sfond (Watcher) - duke hapur vetë aplikimi një herë.\n- Duke filluar me Android 11 pa shërbimin e aplikacionit në sfond (Watcher), qasja në kamerë pa ndërveprimin e përdoruesit është e mundur vetëm nëse telefoni është i shkyçur (ekrani i ndezur) dhe jepet leja \"në krye të të gjitha aplikacioneve\".\n- Kështu, për Android 11 dhe më të lartë, duhet ta nisni manualisht aplikacionin një herë në mënyrë që shërbimi në sfond i aplikacionit (Watcher) të fillojë të regjistrojë automatikisht gjatë çdo ngjarjeje dhe kur ekrani i telefonit është i fikur.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Titrat në fund</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Kërkohet për të qenë në gjendje të shfaqni shërbimin e regjistrimit të sfondit dhe statuset në panelin e njoftimeve. Kliko për të dorëzuar</string>
     <string name="prefs_warning_notifications_text">Leja e njoftimit</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Për donacione më të vogla, reklamat hiqen vetëm për ekranin bazë</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Për donacione më të vogla, reklamimi hiqet vetëm në ekranin kryesor</string>photo
     <string name="photos_folder_name">Fotografitë</string>
 
     <string name="photos_count_one">Foto</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Hapja e kamerës së zgjedhur dështoi. Ndodh që jo të gjitha kamerat e fshehura mund të përdoren nga çdo aplikacion. Shumë prodhues lejojnë përdorimin e tyre vetëm në aplikacionet e tyre vendase. Kamera e paracaktuar do të hapet.</string>
 
-    <string name="videos_ask_which_player">Pyesni se në cilin lojtar të luani çdo herë\?</string>
+    <string name="videos_ask_which_player">Pyesni se në cilin lojtar të luani</string>
 
     <string name="prefs_location_mode_text">Prioriteti GPS (bateria ose saktësia)</string>
     <string name="prefs_location_mode_balanced_text">Balanconi midis saktësisë së vendndodhjes (koordinatat), shpejtësisë dhe konsumit të energjisë së baterisë.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Hiqni reklamat përgjithmonë me një donacion një herë të çdo shume. Ju gjithashtu mund të dhuroni çdo shumë mujore për të hequr reklamat</string>
 
     <string name="prefs_audio_bt_recording_text">Regjistroni audio nga një pajisje Bluetooth</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Mos e përdorni me njësinë kryesore (radio makinë)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Përdoreni vetëm me kufje Bluetooth. Nëse lidheni me njësinë kryesore (radio makinën) përmes Bluetooth, atëherë për ndonjë arsye kjo mund të shkaktojë automatikisht një telefonatë në numrin standard në këtë pajisje</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Regjistrimi automatik përmes lidhjeve Bluetooth kërkon leje. Kliko këtu për të dorëzuar</string>
+    <string name="prefs_warning_permission_bluetooth_text">Leja për Bluetooth nuk është dhënë</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Aplikacioni nuk mund të hapej për të filluar regjistrimin sepse ekrani ishte i fikur (i kyçur). Drejtoni një shërbim regjistrimi në sfond (Watcher) për ta rregulluar këtë.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Aplikacioni nuk mund të hapej sepse ekrani ishte i fikur (i kyçur).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Aplikacioni i specifikuar nuk mund të nisej për t\'u hapur automatikisht sepse nuk u dha leja \"shfaqja në krye të të gjitha aplikacioneve\".</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Duhet t\'i japësh leje Pajisjeve në afërsi (Bluetooth) për regjistrimin automatik të ngjarjeve. Kjo mund të bëhet në cilësimet e sistemit të aplikacionit.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Kërkohen njoftime për të qenë në gjendje të shfaqin shërbimin e regjistrimit në sfond dhe statusin e regjistrimit në panelin e njoftimeve.</string>
+
+    
 </resources>

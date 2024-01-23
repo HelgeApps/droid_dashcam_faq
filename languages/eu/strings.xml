@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Kamera beharrezkoa da bideoa grabatzeko eta kameraren aurrebista egiteko.</string>
     <string name="permission_camera_dlg_title">Kameraren bereizmena</string>
     <string name="permission_camera_request_canceled">Aplikazio honek kamera erabiltzeko baimena behar du bideoak grabatzeko. Baina uko egin diozu. Itxi egiten… Saiatu kamerari baimena ematen aplikazio honen sistemaren ezarpenetan</string>
-    <string name="permission_location_dlg_explanation_msg">Minimizatuta dagoenean, Droid Dashcam-ek atzealdeko kokapena erabiltzen du grabatutako bideoan koordenatuak, helbidea eta abiadura marrazteko.</string>
+    <string name="permission_location_dlg_explanation_msg">Kokapena behar da grabatutako bideoan koordenatuak, helbidea eta abiadura marrazteko edo datu hauek pantaila nagusian bistaratzeko (zure ezarpenen arabera).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Android 11 (R)n, eskuz hautatu behar duzu \"Une oro (edozein modu)\" sistemaren hobespenetan kokapena atzeko planoan uzteko. Ezarpenak leiho honen ondoren irekiko dira.</string>
     <string name="permission_location_dlg_msg">Kokapena beharrezkoa da GPS datuak erabiliz garraio-abiadura zehazteko, uneko helbidea eta koordenatuak pantailan bistaratzeko eta bideoan azpitituluak grabatzeko.</string>
     <string name="permission_location_dlg_title">Kokapen-baimena</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Autoa</string>
     <string name="rec_fix_short_text">Zuzentzeko</string>
     <string name="rec_fix_text">Zuzentzeko</string>
-    <string name="rec_free_space_text">Eskuragarri</string>
+    <string name="rec_available_space_text">Eskuragarri</string>
     <string name="rec_gps_status_satellites_few_text">sateliteak</string>
     <string name="rec_gps_status_satellites_many_text">sateliteak</string>
     <string name="rec_gps_status_satellites_one_text">satelitea</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Grabaketa hasi da</string>
     <string name="recording_voice_stopped_text">Grabaketa gelditu da</string>
 
-    <string name="service_no_system_alert_window_granted_text">Ezin izan da abiarazi Droid Dashcam zerbitzua grabaketa automatikoki abiarazteko/gelditzeko SYSTEM_ALERT_WINDOW baimena (beste aplikazioetako leiho guztietan bistaratzea) ez delako eman. Edo une honetan gailua blokeatuta zegoen (Android-en murriztapena da lehenik gailua desblokeatu behar dela eta pantaila piztu behar dela bideoak grabatzeko zerbitzua automatikoki abiarazteko)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Aplikazioa ezin izan da ireki grabatzen hasteko, \"erakutsi aplikazio guztien gainean\" baimena eman ez delako. Egin klik emateko</string>
     <string name="service_watch_on_boot_completed_text">Gailua piztean</string>
 
     <string name="storage_external_single">MicroSD txartela</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Desgaitu aplikazio honen bateriaren optimizazioa gailuaren ezarpenetan, etorkizuneko kameraren akatsak saihesteko</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Grabaketa automatikoa zerbitzua martxan dagoenean soilik</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Aukera hau gaitzen baduzu, orduan grabaketa automatikoa ez da egingo monitorizazio zerbitzua martxan ez badago eta jakinarazpen-panelean ikusten ez bada</string>
+    <string name="prefs_rules_auto_start_without_service_text">Grabaketa automatikoa atzeko planoko zerbitzua (Watcher) martxan ez badago ere</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Aukera hau desaktibatu dezakezu aplikazioak grabaketa automatikoa egin dezan aplikazioaren atzeko planoko zerbitzua (Watcher) martxan badago soilik.\n- Karga, Bluetooth edo AUX bezalako gertaeren grabaketa automatikoa arazorik gabe egin daiteke Android 7.1 arte.\n- Android 8tik hasita, atzeko planoko aplikazio-zerbitzurik gabe (Watcher) grabaketa automatikoa Bluetooth-eko gertaeretarako soilik egin daiteke, eta beste kasu batzuetan (kargatzen edo AUX-ean) atzeko planoko aplikazio-zerbitzua (Watcher) abiarazi beharko duzu lehenik - abiaraziz. aplikazioa bera behin.\n- Atzeko planoko aplikazio zerbitzurik gabe (Watcher) Android 11-rekin hasita, kamerara sarbidea erabiltzailearen interakziorik gabe telefonoa desblokeatuta badago (pantaila piztuta) eta \"aplikazio guztien gainetik\" baimena ematen bada soilik posible da.\n- Horrela, Android 11 eta bertsio berriagoetarako, behin eskuz abiarazi behar duzu aplikazioa, aplikazioaren atzeko planoko zerbitzua (Watcher) automatikoki grabatzen hasteko edozein gertaeratan eta telefonoaren pantaila itzalita dagoenean.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Azpitituluak behealdean</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Beharrezkoa da atzeko planoko grabazio zerbitzua eta egoerak jakinarazpen-panelean bistaratu ahal izateko. Egin klik bidaltzeko</string>
     <string name="prefs_warning_notifications_text">Jakinarazpen-baimena</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Dohaintza txikiagoetarako, iragarkiak hasierako pantailarako soilik kentzen dira</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Dohaintza txikiagoetarako, publizitatea pantaila nagusian soilik kentzen da</string>photo
     <string name="photos_folder_name">Argazkiak</string>
 
     <string name="photos_count_one">argazkia</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Ezin izan da hautatutako kamera ireki. Gertatzen da ezkutuko kamera guztiak ezin dituela edozein aplikaziok erabili. Fabrikatzaile askok beren jatorrizko aplikazioetan soilik onartzen dute. Kamera lehenetsia irekiko da.</string>
 
-    <string name="videos_ask_which_player">Galdetu zein jokalaritan jokatu behar den bakoitzean\?</string>
+    <string name="videos_ask_which_player">Galdetu zein jokalaritan jokatu</string>
 
     <string name="prefs_location_mode_text">GPS lehentasuna (bateria edo zehaztasuna)</string>
     <string name="prefs_location_mode_balanced_text">Kokapen zehaztasunaren (koordenatuak), abiadura eta bateriaren energia-kontsumoaren arteko oreka.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Kendu iragarkiak betiko edozein zenbatekoaren dohaintza batekin. Hilero edozein zenbatekoa ere eman dezakezu iragarkiak kentzeko</string>
 
     <string name="prefs_audio_bt_recording_text">Grabatu audioa Bluetooth gailu batetik</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Ez erabili buruko unitatearekin (autoko irratia)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Erabili Bluetooth entzungailuekin soilik. Unitate nagusira (autoko irratia) Bluetooth bidez konektatzen bazara, arrazoiren batengatik automatikoki telefono dei bat abiarazi dezake gailu honetako zenbaki estandarrera.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Bluetooth konexioen bidez grabatzeko automatikoki baimena behar da. Egin klik hemen bidaltzeko</string>
+    <string name="prefs_warning_permission_bluetooth_text">Ez da Bluetooth baimenik eman</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Aplikazioa ezin izan da ireki grabatzen hasteko, pantaila itzalita zegoelako (blokeatuta). Exekutatu atzeko planoan grabatzeko zerbitzu bat (Watcher) hau konpontzeko.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Aplikazioa ezin izan da ireki pantaila itzalita zegoelako (blokeatuta).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Zehaztutako aplikazioa ezin izan da abiarazi automatikoki irekitzeko \"erakutsi aplikazio guztien gainean\" baimena ez delako eman.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Gertaerak automatikoki grabatzeko Nearby Devices (Bluetooth) baimena eman behar duzu. Hau aplikazioaren sistemaren ezarpenetan egin daiteke.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Jakinarazpenak beharrezkoak dira atzeko planoko grabazio-zerbitzua eta grabazioaren egoera jakinarazpen-panelean bistaratu ahal izateko.</string>
+
+    
 </resources>

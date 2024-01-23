@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Pono ka pahupaʻikiʻi no ka hoʻopaʻa wikiō a me ka nānā ʻana i ka pahupaʻikiʻi.</string>
     <string name="permission_camera_dlg_title">Hoʻoholo pahupaʻi</string>
     <string name="permission_camera_request_canceled">Pono kēia palapala noi i ka ʻae e hoʻohana i ka pahupaʻikiʻi e hoʻopaʻa wikiō. Akā, ua hōʻole ʻoe. Ke pani nei… E ho\'āʻo e hāʻawi i ka ʻae i ka pahupaʻikiʻi ma nā ʻōnaehana ʻōnaehana o kēia noi</string>
-    <string name="permission_location_dlg_explanation_msg">Ke hoʻemi ʻia, hoʻohana ʻo Droid Dashcam i ka wahi ma ke kua e kaha kiʻi i nā hoʻonohonoho, ʻōlelo a me ka wikiwiki ma ka wikiō i hoʻopaʻa ʻia.</string>
+    <string name="permission_location_dlg_explanation_msg">Pono ka wahi e kahakiʻi i nā hoʻonohonoho, ka helu a me ka wikiwiki ma ka wikiō i hoʻopaʻa ʻia, a i ʻole e hōʻike i kēia ʻikepili ma ka pale nui (ma muli o kāu mau hoʻonohonoho).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Ma ka Android 11 (R), pono ʻoe e koho lima \"I nā manawa āpau (kekahi mode)\" i nā koho ʻōnaehana e ʻae i ka wahi ma ke kua. E wehe ʻia nā hoʻonohonoho ma hope o kēia pukaaniani.</string>
     <string name="permission_location_dlg_msg">Pono ka wahi e hoʻoholo ai i ka wikiwiki o ka lawe ʻana me ka hoʻohana ʻana i ka ʻikepili GPS, ka helu o kēia manawa a me nā hoʻonohonoho no ka hōʻike ʻana ma ka pale a no ka hoʻopaʻa ʻana i nā subtitles ma ke wikiō.</string>
     <string name="permission_location_dlg_title">ʻAe wahi</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">E hooponopono</string>
     <string name="rec_fix_text">E hooponopono</string>
-    <string name="rec_free_space_text">Loaʻa</string>
+    <string name="rec_available_space_text">Loaʻa</string>
     <string name="rec_gps_status_satellites_few_text">nā ukali</string>
     <string name="rec_gps_status_satellites_many_text">nā ukali</string>
     <string name="rec_gps_status_satellites_one_text">ukali</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Ua hoʻomaka ka hoʻopaʻa ʻana</string>
     <string name="recording_voice_stopped_text">Ua kū ka hoʻopaʻa ʻana</string>
 
-    <string name="service_no_system_alert_window_granted_text">ʻAʻole hiki ke hoʻomaka i ka lawelawe ʻo Droid Dashcam e hoʻomaka a hoʻōki i ka hoʻopaʻa ʻana no ka mea ʻaʻole i hāʻawi ʻia ka ʻae SYSTEM_ALERT_WINDOW (hōʻike ma luna o nā puka makani āpau o nā noi ʻē aʻe). A i ʻole ua laka ʻia ka hāmeʻa i kēia manawa (ʻo ka palena ʻo Android e wehe mua ʻia ka hāmeʻa a pono e hoʻohuli ʻia kona pale ma mua o ka hoʻomaka ʻana o ka lawelawe no ka hoʻopaʻa wikiō maʻalahi)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">ʻAʻole hiki ke wehe ʻia ka app e hoʻomaka i ka hoʻopaʻa ʻana no ka mea ʻaʻole i ʻae ʻia ka \"hōʻike ma luna o nā polokalamu āpau\". Kaomi e hāʻawi</string>
     <string name="service_watch_on_boot_completed_text">Ke hoʻā ʻia ka hāmeʻa</string>
 
     <string name="storage_external_single">Kāleka MicroSD</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Hoʻopau i ka loiloi pākaukau no kēia app i kāu hoʻonohonoho hāmeʻa e pale aku i nā hewa pahupaʻikiʻi e hiki mai ana</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Hoʻopaʻa ʻakomi wale nō ke holo ka lawelawe</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Inā hiki iā ʻoe ke koho i kēia koho, a laila ʻaʻole e hana ʻia ka hoʻopaʻa leo maʻalahi inā ʻaʻole holo ka lawelawe kiaʻi a ʻike ʻole ʻia i ka papa hoʻolaha.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Hoʻopaʻa ʻakomi inā ʻaʻole holo ka lawelawe hope (Watcher).</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Hiki iā ʻoe ke hoʻopau i kēia koho i hiki i ka palapala noi ke hoʻopaʻa hoʻopaʻa maʻalahi wale nō inā e holo ana ka lawelawe hope o ka noi (Watcher).\n- Hiki ke hoʻopaʻa ʻia no nā hanana e like me ka hoʻopiʻi ʻana, Bluetooth a i ʻole AUX me ka pilikia ʻole a hiki i ka Android 7.1.\n- E hoʻomaka ana mai ka Android 8, hiki ke hoʻopaʻa ʻia ka hoʻopaʻa ʻana me ka ʻole o kahi lawelawe noi hope (Watcher) no nā hanana Bluetooth, a ma nā hihia ʻē aʻe (i ka wā e hoʻouka ai a i ʻole AUX) pono ʻoe e hoʻomaka mua i ka lawelawe noi hope (Watcher) - ma ka hoʻomaka ʻana i ka hoʻohana iā ia iho i hoʻokahi manawa.\n- E hoʻomaka me ka Android 11 me ka ʻole o ka lawelawe ʻana i ka papa kuhikuhi (Watcher), hiki ke komo i ke kāmela me ka ʻole o ka hoʻohana ʻana i ka mea hoʻohana inā wehe ʻia ke kelepona (ka maka) a ʻae ʻia ka \"ma luna o nā polokalamu āpau\".\n- No laila, no ka Android 11 a kiʻekiʻe aʻe, pono ʻoe e hoʻomaka lima i ka noi i hoʻokahi manawa e hoʻomaka ai ka lawelawe hope o ka noi (Watcher) e hoʻopaʻa maʻalahi i nā hanana a i ka wā e pio ai ka pale kelepona.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Nā huaʻōlelo ma lalo</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Pono e hiki ke hōʻike i ka lawelawe hoʻopaʻa hoʻopaʻa hope a me nā kūlana ma ka papa hoʻolaha. Kaomi e hoʻouna</string>
     <string name="prefs_warning_notifications_text">ʻAe Hoʻolaha</string>
 
-    <string name="donation_dlg_limited_ads_message_text">No nā haʻawina liʻiliʻi, wehe ʻia nā hoʻolaha no ka pale home wale nō</string>photo
+    <string name="donation_dlg_limited_ads_message_text">No nā haʻawina liʻiliʻi, wehe ʻia ka hoʻolaha ma ka pale nui wale nō</string>photo
     <string name="photos_folder_name">Nā kiʻi</string>
 
     <string name="photos_count_one">kiʻi</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">ʻAʻole hiki ke wehe i ka pahupaʻikiʻi i koho ʻia. ʻAʻole hiki ke hoʻohana ʻia nā kāmela huna a pau e kekahi noi. Nui nā mea hana e ʻae wale i kā lākou hoʻohana ʻana i kā lākou mau noi maoli. E wehe ka pahupaʻikiʻi paʻamau.</string>
 
-    <string name="videos_ask_which_player">E nīnau i ka mea pāʻani i kēlā me kēia manawa\?</string>
+    <string name="videos_ask_which_player">E nīnau i ka mea pāʻani e pāʻani ai</string>
 
     <string name="prefs_location_mode_text">Ka Manaʻo GPS (Bateri a i ʻole ka pololei)</string>
     <string name="prefs_location_mode_balanced_text">ʻO ke kaulike ma waena o ka pololei o ka wahi (ka hoʻonohonoho), ka wikiwiki a me ka hoʻohana ʻana i ka mana pākaukau.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Wehe i nā hoʻolaha no ka manawa pau ʻole me ka hāʻawi manawa hoʻokahi o kekahi nui. Hiki iā ʻoe ke hāʻawi kālā i kēlā me kēia mahina e wehe i nā hoʻolaha</string>
 
     <string name="prefs_audio_bt_recording_text">E hoʻopaʻa i ka leo mai kahi hāmeʻa Bluetooth</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Mai hoʻohana me ke poʻo (lekiō kaʻa)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">E hoʻohana me nā headphone Bluetooth wale nō. Inā hoʻopili ʻoe i ka ʻāpana poʻo (lekiō kaʻa) ma o Bluetooth, a laila no kekahi kumu e hoʻomaka koke kēia i ke kelepona i ka helu maʻamau ma kēia hāmeʻa.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Pono ka ʻae ʻana i ka hoʻopaʻa ʻana ma luna o nā pili Bluetooth. Kaomi ma aneʻi e hoʻouna</string>
+    <string name="prefs_warning_permission_bluetooth_text">ʻAʻole ʻae ʻia ka ʻae Bluetooth</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">ʻAʻole hiki ke wehe ʻia ke noi no ka hoʻomaka ʻana i ka hoʻopaʻa ʻana no ka mea ua pio ka pale (paʻa). E holo i kahi lawelawe hoʻopaʻa leo hope (Watcher) e hoʻoponopono i kēia.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">ʻAʻole hiki ke wehe ʻia ka palapala noi no ka mea ua pio ka pale (paʻa).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">ʻAʻole hiki ke wehe ʻia ka palapala noi i ʻōlelo ʻia no ka mea ʻaʻole i ʻae ʻia ka \"hōʻike ma luna o nā noi āpau\".</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Pono ʻoe e hāʻawi i ka ʻae ʻana i nā hāmeʻa kokoke (Bluetooth) no ka hoʻopaʻa ʻana i nā hanana hanana. Hiki ke hana i kēia ma nā ʻōnaehana ʻōnaehana o ka polokalamu.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Pono nā leka hoʻomaopopo e hiki ke hōʻike i ka lawelawe hoʻopaʻa moʻolelo hope a me ke kūlana hoʻopaʻa ʻana ma ka papa hoʻolaha.</string>
+
+    
 </resources>

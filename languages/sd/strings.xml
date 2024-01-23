@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">ڪئميرا وڊيو رڪارڊنگ ۽ ڪئميرا ڏيک لاءِ گهربل آهي.</string>
     <string name="permission_camera_dlg_title">ڪئميرا قرارداد</string>
     <string name="permission_camera_request_canceled">ھن ايپليڪيشن کي وڊيو رڪارڊ ڪرڻ لاءِ ڪيمرا استعمال ڪرڻ جي اجازت جي ضرورت آھي. پر توهان ان کي رد ڪري ڇڏيو. بند ڪرڻ… هن ايپليڪيشن جي سسٽم سيٽنگن ۾ ڪئميرا کي اجازت ڏيڻ جي ڪوشش ڪريو</string>
-    <string name="permission_location_dlg_explanation_msg">جڏهن گھٽ ڪيو وڃي، Droid Dashcam پس منظر ۾ جڳھ کي استعمال ڪري ٿو رڪارڊ ٿيل وڊيو تي ڪوآرڊينيٽ، پتو ۽ رفتار ڪڍڻ لاء.</string>
+    <string name="permission_location_dlg_explanation_msg">رڪارڊ ٿيل وڊيو تي ڪوآرڊينيٽس، پتو ۽ رفتار ڪڍڻ لاءِ جڳھ جي ضرورت آھي، يا ھن ڊيٽا کي مين اسڪرين تي ڊسپلي ڪرڻ لاءِ (توھان جي سيٽنگن تي منحصر آھي).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Android 11 (R) تي، توهان کي دستي طور تي چونڊڻ جي ضرورت آهي \"هر وقت (ڪنهن به موڊ)\" سسٽم جي ترجيحن ۾ پس منظر ۾ مقام جي اجازت ڏيڻ لاء. هن ونڊو کان پوءِ سيٽنگون کلي وينديون.</string>
     <string name="permission_location_dlg_msg">GPS ڊيٽا استعمال ڪندي ٽرانسپورٽ جي رفتار جو تعين ڪرڻ لاءِ جڳھ ضروري آھي، اسڪرين تي ڊسپلي لاءِ موجوده ايڊريس ۽ ڪوآرڊينيٽس ۽ وڊيو تي سب ٽائيٽل رڪارڊ ڪرڻ لاءِ.</string>
     <string name="permission_location_dlg_title">جڳھ جي اجازت</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">خودڪار</string>
     <string name="rec_fix_short_text">درست ڪرڻ</string>
     <string name="rec_fix_text">درست ڪرڻ</string>
-    <string name="rec_free_space_text">دستياب</string>
+    <string name="rec_available_space_text">دستياب</string>
     <string name="rec_gps_status_satellites_few_text">سيٽلائيٽ</string>
     <string name="rec_gps_status_satellites_many_text">سيٽلائيٽ</string>
     <string name="rec_gps_status_satellites_one_text">سيٽلائيٽ</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">رڪارڊنگ شروع ٿي وئي آهي</string>
     <string name="recording_voice_stopped_text">رڪارڊنگ روڪي وئي</string>
 
-    <string name="service_no_system_alert_window_granted_text">Droid Dashcam سروس شروع ڪرڻ ۾ ناڪامي ٿي ته خودڪار طريقي سان رڪارڊنگ کي شروع ڪرڻ /بند ڪرڻ لاءِ ڇو ته SYSTEM_ALERT_WINDOW اجازت (ٻين ايپليڪيشنن جي سڀني ونڊوز تي ڊسپلي) نه ڏني وئي. يا ڊيوائس کي ان موقعي تي لاڪ ڪيو ويو (Android پابندي اها آهي ته ڊيوائس کي پهريان ان لاڪ ڪيو وڃي ۽ ان جي اسڪرين کي آن ٿيڻ گهرجي ان کان اڳ جو سروس خودڪار وڊيو رڪارڊنگ شروع ڪري سگهجي)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">رڪارڊنگ شروع ڪرڻ لاءِ ايپ کولي نه ٿي سگهي ڇاڪاڻ ته ”سڀني ائپس جي مٿان ڏيکاريو“ جي اجازت نه ڏني وئي هئي. مهيا ڪرڻ لاء ڪلڪ ڪريو</string>
     <string name="service_watch_on_boot_completed_text">جڏهن ڊوائيس تي موڙ</string>
 
     <string name="storage_external_single">مائڪرو ايس ڊي ڪارڊ</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">مستقبل ۾ ڪئميرا جي غلطين کان بچڻ لاءِ پنهنجي ڊوائيس سيٽنگون ۾ هن ايپ لاءِ بيٽري جي اصلاح کي بند ڪريو</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">خودڪار رڪارڊنگ صرف جڏهن خدمت هلائي رهي آهي</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">جيڪڏهن توهان هن آپشن کي فعال ڪريو ٿا، ته پوءِ خودڪار رڪارڊنگ نه ڪئي ويندي جيڪڏهن مانيٽرنگ سروس نه هلي رهي آهي ۽ نوٽيفڪيشن پينل ۾ نظر نه اچي رهي آهي.</string>
+    <string name="prefs_rules_auto_start_without_service_text">خودڪار رڪارڊنگ جيتوڻيڪ پس منظر جي خدمت (Watcher) نه هلي رهي آهي</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* توهان هن آپشن کي بند ڪري سگهو ٿا ته جيئن ايپليڪيشن خودڪار رڪارڊنگ انجام ڏئي صرف ان صورت ۾ جڏهن ايپليڪيشن جي پس منظر جي خدمت (Watcher) هلندي هجي.\n- واقعن لاءِ خودڪار رڪارڊنگ جهڙوڪ چارجنگ، بلوٽوٿ يا AUX بغير ڪنهن پريشاني جي ڪري سگهجي ٿو Android 7.1 تائين.\n- Android 8 کان شروع ڪندي، پاڻمرادو رڪارڊنگ بغير ڪنهن پس منظر جي ايپليڪيشن سروس (Watcher) صرف بلوٽوت واقعن لاءِ ڪري سگهجي ٿي، ۽ ٻين حالتن ۾ (جڏهن چارج ڪرڻ يا AUX) توهان کي پهرين پس منظر ايپليڪيشن سروس (Watcher) شروع ڪرڻ جي ضرورت آهي - لانچ ڪندي. پاڻ هڪ ڀيرو درخواست.\n- شروع ڪندي Android 11 کان سواءِ پس منظر ايپ سروس (Watcher)، ڪئميرا تائين رسائي بغير صارف جي رابطي جي صرف ان صورت ۾ ممڪن آهي جڏهن فون انلاڪ هجي (اسڪرين آن) ۽ ”سڀني ائپس جي مٿان“ جي اجازت ڏني وڃي.\n- اهڙيءَ طرح، Android 11 ۽ اعليٰ لاءِ، توهان کي هڪ ڀيرو دستي طور تي ايپليڪيشن لانچ ڪرڻ جي ضرورت آهي ته جيئن ايپليڪيشن جي پس منظر جي خدمت (Watcher) خودڪار طريقي سان رڪارڊ ٿيڻ شروع ٿئي ڪنهن به واقعن دوران ۽ جڏهن فون اسڪرين بند هجي.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">ذيلي عنوان هيٺان</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">نوٽيفڪيشن پينل تي پس منظر رڪارڊنگ سروس ۽ اسٽيٽس کي ڊسپلي ڪرڻ جي قابل ٿيڻ جي ضرورت آھي. جمع ڪرڻ لاءِ ڪلڪ ڪريو</string>
     <string name="prefs_warning_notifications_text">نوٽيفڪيشن جي اجازت</string>
 
-    <string name="donation_dlg_limited_ads_message_text">ننڍڙن عطين لاءِ، اشتهار هٽايا ويندا آهن صرف هوم اسڪرين لاءِ</string>photo
+    <string name="donation_dlg_limited_ads_message_text">ننڍن عطيا لاء، اشتهار صرف مکيه اسڪرين تي هٽايو ويو آهي</string>photo
     <string name="photos_folder_name">تصويرون</string>
 
     <string name="photos_count_one">ڦوٽو</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">منتخب ٿيل ڪئميرا کولڻ ۾ ناڪام ٿيو. ائين ٿئي ٿو ته نه سڀئي لڪيل ڪئميرا ڪنهن به ايپليڪيشن ذريعي استعمال ڪري سگھجن ٿيون. ڪيترائي ٺاهيندڙ صرف انهن جي استعمال جي اجازت ڏين ٿا انهن جي اصلي ايپليڪيشنن ۾. ڊفالٽ ڪئميرا کلي ويندو.</string>
 
-    <string name="videos_ask_which_player">پڇو ته هر ڀيري ڪهڙي رانديگر کيڏڻ لاءِ؟</string>
+    <string name="videos_ask_which_player">پڇو ته ڪهڙي رانديگر کيڏڻ لاءِ</string>
 
     <string name="prefs_location_mode_text">GPS جي ترجيح (بيٽري يا درستگي)</string>
     <string name="prefs_location_mode_balanced_text">جڳھ جي درستگي جي وچ ۾ توازن (نظام)، رفتار ۽ بيٽري پاور واپرائڻ.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">ڪنهن به رقم جي هڪ دفعي عطيا سان هميشه لاءِ اشتهار هٽايو. توهان اشتهارن کي هٽائڻ لاءِ هر مهيني ڪا به رقم به عطيو ڪري سگهو ٿا</string>
 
     <string name="prefs_audio_bt_recording_text">بلوٽوت ڊوائيس مان آڊيو رڪارڊ ڪريو</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">هيڊ يونٽ (ڪار ريڊيو) سان استعمال نه ڪريو!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">صرف بلوٽوٽ هيڊفون سان استعمال ڪريو. جيڪڏهن توهان بلوٽوٿ ذريعي هيڊ يونٽ (ڪار ريڊيو) سان ڳنڍيو ٿا، ته پوءِ ڪجهه سببن جي ڪري اهو خودڪار طريقي سان هن ڊوائيس تي معياري نمبر تي فون ڪال شروع ڪري سگهي ٿو.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">بلوٽوت ڪنيڪشن تي خودڪار رڪارڊنگ جي اجازت جي ضرورت آهي. جمع ڪرڻ لاءِ هتي ڪلڪ ڪريو</string>
+    <string name="prefs_warning_permission_bluetooth_text">بلوٽوت جي اجازت نه ڏني وئي</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">رڪارڊنگ شروع ڪرڻ لاءِ ايپليڪيشن کولي نه ٿي سگهي ڇاڪاڻ ته اسڪرين بند هئي (لاڪ ٿيل). ھن کي درست ڪرڻ لاءِ پس منظر رڪارڊنگ سروس (واچر) کي ھلايو.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">ائپليڪيشن کولي نه ٿي سگھي ڇاڪاڻ ته اسڪرين بند ٿيل آھي (لاڪ ٿيل).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">بيان ڪيل ايپليڪيشن خودڪار طور تي کولڻ لاءِ شروع نه ٿي سگهي آهي ڇاڪاڻ ته ”سڀني ايپليڪيشنن جي مٿان ڏيکاريو“ جي اجازت نه ڏني وئي هئي.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">توھان کي لازمي طور تي ويجھي ڊوائيسز (بلوٽوٿ) جي اجازت ڏيڻ گھرجي خودڪار واقعن جي رڪارڊنگ لاءِ. اهو ٿي سگهي ٿو ايپليڪيشن جي سسٽم سيٽنگن ۾.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">نوٽيفڪيشن جي ضرورت آهي پس منظر جي رڪارڊنگ سروس ۽ نوٽيفڪيشن پينل ۾ رڪارڊنگ جي حالت کي ڊسپلي ڪرڻ جي قابل.</string>
+
+    
 </resources>

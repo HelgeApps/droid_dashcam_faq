@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Kamera a obligatwa pou anrejistreman videyo ak preview kamera.</string>
     <string name="permission_camera_dlg_title">Rezolisyon kamera</string>
     <string name="permission_camera_request_canceled">Aplikasyon sa a mande pèmisyon pou itilize kamera pou anrejistre videyo. Men ou te refize l. Fèmen… Eseye bay kamera a pèmisyon nan paramèt sistèm aplikasyon sa a</string>
-    <string name="permission_location_dlg_explanation_msg">Lè yo minimize, Droid Dashcam sèvi ak kote a nan background nan pou trase kowòdone, adrès ak vitès sou videyo ki anrejistre a.</string>
+    <string name="permission_location_dlg_explanation_msg">Kote a nesesè pou trase kowòdone, adrès ak vitès sou videyo ki anrejistre a, oswa montre done sa yo sou ekran prensipal la (selon anviwònman ou yo).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Sou Android 11 (R), ou bezwen manyèlman chwazi \"Tout tan an (nenpòt mòd)\" nan preferans sistèm yo pou pèmèt kote a nan background nan. Paramèt yo ap louvri apre fenèt sa a.</string>
     <string name="permission_location_dlg_msg">Kote a nesesè pou detèmine vitès transpò lè l sèvi avèk done GPS, adrès aktyèl la ak kowòdone pou montre sou ekran an ak pou anrejistre sous-titres sou videyo.</string>
     <string name="permission_location_dlg_title">Kote pèmisyon</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Oto</string>
     <string name="rec_fix_short_text">Pou korije</string>
     <string name="rec_fix_text">Pou korije</string>
-    <string name="rec_free_space_text">Disponib</string>
+    <string name="rec_available_space_text">Disponib</string>
     <string name="rec_gps_status_satellites_few_text">satelit yo</string>
     <string name="rec_gps_status_satellites_many_text">satelit yo</string>
     <string name="rec_gps_status_satellites_one_text">satelit</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Anrejistreman te kòmanse</string>
     <string name="recording_voice_stopped_text">Anrejistreman sispann</string>
 
-    <string name="service_no_system_alert_window_granted_text">Echwe pou kòmanse sèvis Droid Dashcam pou kòmanse/sispann anrejistreman otomatikman paske yo pa t bay pèmisyon SYSTEM_ALERT_WINDOW (ekspozisyon sou tout fenèt lòt aplikasyon yo). Oswa aparèy la te fèmen nan pwen sa a (Android restriksyon se ke aparèy la dwe premye debloke ak ekran li yo dwe vire sou anvan sèvis la pou anrejistreman videyo otomatik yo ka kòmanse)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Aplikasyon an pa t \'kapab louvri pou kòmanse anrejistreman paske yo pa t akòde pèmisyon \"montre anlè tout aplikasyon yo\". Klike pou bay</string>
     <string name="service_watch_on_boot_completed_text">Lè w ap vire aparèy la</string>
 
     <string name="storage_external_single">kat MicroSD</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Enfim optimize batri pou aplikasyon sa a nan paramèt aparèy ou an pou evite erè kamera nan lavni</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Anrejistreman otomatik sèlman lè sèvis la ap kouri</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Si ou aktive opsyon sa a, Lè sa a, anrejistreman otomatik yo p ap fèt si sèvis siveyans la pa fonksyone epi li pa vizib nan panèl la notifikasyon.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Anrejistreman otomatik menm si sèvis background nan (Watcher) pa kouri</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Ou ka fèmen opsyon sa a pou aplikasyon an fè anrejistreman otomatik sèlman si sèvis background aplikasyon an (Watcher) ap kouri.\n- Anrejistreman otomatik pou evènman tankou chaje, Bluetooth oswa AUX ka fèt san pwoblèm jiska Android 7.1.\n- Apati de Android 8, anrejistreman otomatik san yon sèvis aplikasyon background (Watcher) ka fèt sèlman pou evènman Bluetooth, ak nan lòt ka (lè chaje oswa AUX) ou bezwen premye kòmanse sèvis la aplikasyon background (Watcher) - pa lanse a. aplikasyon tèt li yon fwa.\n- Kòmanse ak Android 11 san yo pa sèvis aplikasyon background (Watcher), aksè a kamera a san entèraksyon itilizatè a posib sèlman si telefòn nan debloke (ekran an limen) epi yo akòde pèmisyon \"sou tout aplikasyon yo\".\n- Kidonk, pou Android 11 ak pi wo, ou bezwen manyèlman lanse aplikasyon an yon fwa pou sèvis background nan aplikasyon an (Watcher) kòmanse otomatikman anrejistre pandan nenpòt evènman ak lè ekran telefòn la etenn.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Sous-titres nan pati anba a</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Obligatwa pou kapab montre sèvis anrejistreman background ak estati sou panèl notifikasyon an. Klike pou soumèt</string>
     <string name="prefs_warning_notifications_text">Pèmisyon Notifikasyon</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Pou pi piti don, yo retire piblisite pou ekran lakay sèlman</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Pou pi piti don, piblisite yo retire sèlman sou ekran prensipal la</string>photo
     <string name="photos_folder_name">Foto yo</string>
 
     <string name="photos_count_one">foto</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Echwe pou louvri kamera chwazi a. Li rive konsa ke se pa tout kamera kache ka itilize pa nenpòt aplikasyon. Anpil manifaktirè pèmèt sèlman itilize yo nan aplikasyon natif natal yo. Kamera default la ap louvri.</string>
 
-    <string name="videos_ask_which_player">Mande nan ki jwè yo jwe chak fwa\?</string>
+    <string name="videos_ask_which_player">Mande ki jwè pou jwe</string>
 
     <string name="prefs_location_mode_text">Priyorite GPS (batri oswa presizyon)</string>
     <string name="prefs_location_mode_balanced_text">Balans ant presizyon kote (kowòdone), vitès ak konsomasyon pouvwa batri.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Retire piblisite pou tout tan ak yon don yon sèl fwa nan nenpòt ki kantite lajan. Ou kapab tou bay nenpòt kantite lajan chak mwa pou retire anons</string>
 
     <string name="prefs_audio_bt_recording_text">Ekri odyo soti nan yon aparèy Bluetooth</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Pa itilize ak inite tèt (radyo machin)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Itilize sèlman ak kas ekoutè Bluetooth. Si ou konekte ak inite tèt la (radyo machin) atravè Bluetooth, Lè sa a, pou kèk rezon sa a ka otomatikman deklanche yon apèl nan telefòn nan nimewo estanda sou aparèy sa a.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Anrejistreman otomatik sou koneksyon Bluetooth mande pou pèmisyon. Klike la a pou soumèt</string>
+    <string name="prefs_warning_permission_bluetooth_text">Pèmisyon Bluetooth pa akòde</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Aplikasyon an pa t \'kapab louvri pou kòmanse anrejistreman paske ekran an te etenn (fèmen). Kouri yon sèvis anrejistreman background (Watcher) pou ranje sa.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Aplikasyon an pa t \'kapab louvri paske ekran an te etenn (fèmen).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Aplikasyon espesifye a pa t \'kapab lanse pou louvri otomatikman paske yo pa t akòde pèmisyon \"montre anlè tout aplikasyon yo\".</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Ou dwe bay Aparèy ki tou pre yo (Bluetooth) pèmisyon pou anrejistreman evènman otomatik yo. Sa a ka fè nan paramèt sistèm aplikasyon an.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Yo mande notifikasyon pou kapab montre sèvis anrejistreman background ak estati anrejistreman an nan panèl notifikasyon an.</string>
+
+    
 </resources>

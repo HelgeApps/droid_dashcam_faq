@@ -20,7 +20,7 @@
 
   <string name="any_text">Qualsiasi</string>
 
-  <string name="close">Vicino</string>
+  <string name="close">Chiudi</string>
 
   <string name="default_text">Predefinito</string>
 
@@ -219,7 +219,7 @@
 
   <string name="permission_camera_request_canceled">Questa applicazione richiede l\'autorizzazione per utilizzare la fotocamera per registrare video. Ma l\'hai rifiutato. Chiusura… Prova a concedere l\'autorizzazione alla fotocamera nelle impostazioni di sistema di questa applicazione</string>
 
-  <string name="permission_location_dlg_explanation_msg">Quando ridotto a icona, Droid Dashcam utilizza la posizione in background per calcolare coordinate, indirizzo e velocità sul video registrato.</string>
+  <string name="permission_location_dlg_explanation_msg">La posizione è necessaria per tracciare coordinate, indirizzo e velocità sul video registrato o visualizzare questi dati sulla schermata principale (a seconda delle impostazioni).</string>
 
   <string name="permission_location_dlg_explanation_settings_msg">Su Android 11 (R) è necessario selezionare manualmente \"Sempre (qualsiasi modalità)\" nelle preferenze di sistema per consentire la posizione in background. Le impostazioni si apriranno dopo questa finestra.</string>
 
@@ -639,7 +639,7 @@
 
   <string name="rec_fix_text">Per correggere</string>
 
-  <string name="rec_free_space_text">Disponibile</string>
+  <string name="rec_available_space_text">Disponibile</string>
 
   <string name="rec_gps_status_satellites_few_text">satelliti</string>
 
@@ -681,7 +681,7 @@
 
   <string name="recording_voice_stopped_text">Registrazione interrotta</string>
 
-  <string name="service_no_system_alert_window_granted_text">Impossibile avviare il servizio Droid Dashcam per avviare/arrestare automaticamente la registrazione perché l\'autorizzazione SYSTEM_ALERT_WINDOW (visualizzazione su tutte le finestre di altre applicazioni) non è stata concessa . Oppure il dispositivo è stato bloccato a questo punto (la restrizione di Android è che il dispositivo deve essere prima sbloccato e il suo schermo deve essere acceso prima che il servizio per la registrazione video automatica possa essere avviato)</string>
+  <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Non è stato possibile aprire l\'app per avviare la registrazione perché l\'autorizzazione \"mostra sopra tutte le app\" non è stata concessa. Fare clic per fornire</string>
 
   <string name="service_watch_on_boot_completed_text">Quando si accende il dispositivo</string>
 
@@ -765,8 +765,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Disattiva l\'ottimizzazione della batteria per questa app nelle impostazioni del tuo dispositivo per evitare futuri errori della fotocamera</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Registrazione automatica solo quando il servizio è in esecuzione</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Se abiliti questa opzione, la registrazione automatica non verrà eseguita se il servizio di monitoraggio non è in esecuzione e non è visibile nel pannello delle notifiche</string>
+    <string name="prefs_rules_auto_start_without_service_text">Registrazione automatica anche se il servizio in background (Watcher) non è in esecuzione</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* È possibile disattivare questa opzione in modo che l\'applicazione esegua la registrazione automatica solo se il servizio in background dell\'applicazione (Watcher) è in esecuzione.\n- La registrazione automatica per eventi come ricarica, Bluetooth o AUX può essere eseguita senza problemi fino ad Android 7.1.\n- A partire da Android 8, la registrazione automatica senza servizio di applicazione in background (Watcher) può essere eseguita solo per eventi Bluetooth e in altri casi (durante la ricarica o AUX) è necessario prima avviare il servizio di applicazione in background (Watcher) - avviando il l\'applicazione stessa una volta.\n- A partire da Android 11 senza il servizio app in background (Watcher), l\'accesso alla fotocamera senza l\'interazione dell\'utente è possibile solo se il telefono è sbloccato (schermo acceso) e viene concessa l\'autorizzazione \"sopra tutte le app\".\n- Pertanto, per Android 11 e versioni successive, è necessario avviare manualmente l\'applicazione una volta in modo che il servizio in background dell\'applicazione (Watcher) inizi a registrare automaticamente durante qualsiasi evento e quando lo schermo del telefono è spento.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Sottotitoli in fondo</string>
@@ -797,7 +797,7 @@
     <string name="prefs_warning_notifications_sum_text">Necessario per poter visualizzare il servizio di registrazione in background e gli stati nel pannello delle notifiche. Fare clic per inviare</string>
     <string name="prefs_warning_notifications_text">Autorizzazione alla notifica</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Per le donazioni più piccole, gli annunci vengono rimossi solo dalla schermata iniziale</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Per le donazioni più piccole, la pubblicità viene rimossa solo sulla schermata principale</string>photo
     <string name="photos_folder_name">Fotografie</string>
 
     <string name="photos_count_one">foto</string>
@@ -827,7 +827,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Impossibile aprire la fotocamera selezionata. Accade così che non tutte le telecamere nascoste possano essere utilizzate da qualsiasi applicazione. Molti produttori ne consentono l\'uso solo nelle loro applicazioni native. Si aprirà la fotocamera predefinita.</string>
 
-    <string name="videos_ask_which_player">Chiedi in quale giocatore giocare ogni volta\?</string>
+    <string name="videos_ask_which_player">Chiedi con quale giocatore giocare</string>
 
     <string name="prefs_location_mode_text">Priorità GPS (batteria o precisione)</string>
     <string name="prefs_location_mode_balanced_text">Bilanciamento tra precisione della posizione (coordinate), velocità e consumo della batteria.</string>
@@ -860,4 +860,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Rimuovi gli annunci per sempre con una donazione una tantum di qualsiasi importo. Puoi anche donare qualsiasi importo mensilmente per rimuovere gli annunci</string>
 
     <string name="prefs_audio_bt_recording_text">Registra l\'audio da un dispositivo Bluetooth</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Non utilizzare con l\'unità principale (autoradio)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Utilizzare solo con cuffie Bluetooth. Se ti connetti all\'unità principale (autoradio) tramite Bluetooth, per qualche motivo ciò potrebbe attivare automaticamente una telefonata al numero standard su questo dispositivo</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">La registrazione automatica tramite connessioni Bluetooth richiede l\'autorizzazione. Fare clic qui per inviare</string>
+    <string name="prefs_warning_permission_bluetooth_text">Autorizzazione Bluetooth non concessa</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Non è stato possibile aprire l\'applicazione per avviare la registrazione perché lo schermo era spento (bloccato). Esegui un servizio di registrazione in background (Watcher) per risolvere questo problema.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Impossibile aprire l\'applicazione perché lo schermo era spento (bloccato).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Non è stato possibile avviare automaticamente l\'applicazione specificata perché non è stata concessa l\'autorizzazione \"mostra sopra tutte le applicazioni\".</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">È necessario concedere l\'autorizzazione ai dispositivi nelle vicinanze (Bluetooth) per la registrazione automatica degli eventi. Questo può essere fatto nelle impostazioni di sistema dell\'applicazione.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Le notifiche sono necessarie per poter visualizzare il servizio di registrazione in background e lo stato della registrazione nel pannello delle notifiche.</string>
+
+    
 </resources>

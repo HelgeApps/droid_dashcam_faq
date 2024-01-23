@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Kamera irakenewe kugirango ifate amashusho no kureba kamera.</string>
     <string name="permission_camera_dlg_title">Kamera</string>
     <string name="permission_camera_request_canceled">Iyi porogaramu isaba uruhushya rwo gukoresha kamera gufata amashusho. Ariko warabyanze. Gufunga… Gerageza gutanga uruhushya kuri kamera mumiterere ya sisitemu yiyi porogaramu</string>
-    <string name="permission_location_dlg_explanation_msg">Iyo bigabanutse, Droid Dashcam ikoresha ikibanza inyuma kugirango ishushanye imirongo, aderesi n\'umuvuduko kuri videwo yafashwe.</string>
+    <string name="permission_location_dlg_explanation_msg">Ikibanza kirakenewe gushushanya imirongo, aderesi n\'umuvuduko kuri videwo yafashwe, cyangwa kwerekana aya makuru kuri ecran nkuru (ukurikije igenamiterere ryawe).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Kuri Android 11 (R), ugomba guhitamo intoki \"Igihe cyose (uburyo ubwo aribwo bwose)\" muburyo bwa sisitemu kugirango wemerere ikibanza inyuma. Igenamiterere rizakingurwa nyuma yidirishya.</string>
     <string name="permission_location_dlg_msg">Ikibanza kirakenewe kugirango umenye umuvuduko wubwikorezi ukoresheje amakuru ya GPS, aderesi iriho hamwe na coordinateur kugirango yerekanwe kuri ecran no gufata insanganyamatsiko kuri videwo</string>
     <string name="permission_location_dlg_title">Uruhushya rwaho</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Imodoka</string>
     <string name="rec_fix_short_text">Gukosora</string>
     <string name="rec_fix_text">Gukosora</string>
-    <string name="rec_free_space_text">Birashoboka</string>
+    <string name="rec_available_space_text">Birashoboka</string>
     <string name="rec_gps_status_satellites_few_text">satelite</string>
     <string name="rec_gps_status_satellites_many_text">satelite</string>
     <string name="rec_gps_status_satellites_one_text">icyogajuru</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Gufata amajwi byatangiye</string>
     <string name="recording_voice_stopped_text">Gufata amajwi byarahagaze</string>
 
-    <string name="service_no_system_alert_window_granted_text">Kunanirwa gutangira serivisi ya Droid Dashcam kugirango uhite utangira /guhagarika gufata amajwi kuko SYSTEM_ALERT_WINDOW uruhushya (kwerekana hejuru ya windows yose yizindi porogaramu) ntabwo yatanzwe. Cyangwa igikoresho cyafunzwe muri iki gihe (kubuza Android ni uko igikoresho kigomba kubanza gukingurwa kandi ecran yacyo igomba gufungura mbere yuko serivisi yo gufata amashusho yikora ishobora gutangira)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Porogaramu ntishobora gufungurwa kugirango itangire gufata amajwi kubera ko \"kwerekana hejuru ya porogaramu zose\" uruhushya rutatanzwe. Kanda kugirango utange</string>
     <string name="service_watch_on_boot_completed_text">Iyo ufunguye igikoresho</string>
 
     <string name="storage_external_single">Ikarita ya MicroSD</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Hagarika ibikoresho bya batiri kuriyi porogaramu mugikoresho cyawe kugirango wirinde amakosa ya kamera</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Kwandika byikora gusa iyo serivisi ikora</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Niba ushoboje guhitamo, noneho gufata amajwi byikora ntibizakorwa niba serivisi yo gukurikirana idakora kandi ntigaragara mubimenyesha</string>
+    <string name="prefs_rules_auto_start_without_service_text">Kwandika byikora nubwo serivisi yinyuma (Indorerezi) idakora</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Urashobora kuzimya ubu buryo kugirango porogaramu ikore amajwi yikora gusa iyo serivise yinyuma ya porogaramu (Watcher) ikora.\n- Kwandika byikora kubintu nko kwishyuza, Bluetooth cyangwa AUX birashobora gukorwa nta kibazo kigera kuri Android 7.1.\n- Guhera kuri Android 8, gufata amajwi byikora bidafite serivisi isaba inyuma (Watcher) birashobora gukorwa gusa mubikorwa bya Bluetooth, kandi mubindi bihe (mugihe wishyuza cyangwa AUX) ugomba kubanza gutangira serivise yinyuma (Watcher) - mugutangiza Porogaramu ubwayo rimwe.\n- Guhera kuri Android 11 idafite serivise yinyuma ya porogaramu (Watcher), kugera kuri kamera nta mikoreshereze yabakoresha birashoboka gusa iyo terefone ifunguye (ecran kuri) kandi \"hejuru ya porogaramu zose\" uruhushya rutanzwe.\n- Rero, kuri Android 11 no hejuru yayo, ugomba gutangiza intoki inshuro imwe kugirango serivise yinyuma ya porogaramu (Watcher) itangire guhita yandika mugihe icyo aricyo cyose nigihe ecran ya terefone yazimye.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Subtitles hepfo</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Birasabwa kugirango ubashe kwerekana serivise yo gufata amajwi hamwe na statut kumwanya wo kumenyesha. Kanda kugirango utange</string>
     <string name="prefs_warning_notifications_text">Uruhushya rwo kumenyesha</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Ku mpano nto, amatangazo yakuweho murugo rwonyine</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Ku mpano nto, kwamamaza bivanwaho gusa kuri ecran nkuru</string>photo
     <string name="photos_folder_name">Amafoto</string>
 
     <string name="photos_count_one">ifoto</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Kunanirwa gufungura kamera yatoranijwe. Bibaho rero ko kamera zose zihishe zishobora gukoreshwa na progaramu iyo ari yo yose. Inganda nyinshi zemerera gusa gukoresha mugukoresha kavukire. Kamera isanzwe izafungura.</string>
 
-    <string name="videos_ask_which_player">Baza umukinnyi ukina buri gihe\?</string>
+    <string name="videos_ask_which_player">Baza umukinnyi ugomba gukina</string>
 
     <string name="prefs_location_mode_text">GPS Ibyingenzi (Batteri cyangwa Ukuri)</string>
     <string name="prefs_location_mode_balanced_text">Kuringaniza hagati yukuri neza (guhuza), umuvuduko no gukoresha ingufu za batiri.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Kuraho amatangazo iteka hamwe nimpano imwe yigihe cyose. Urashobora kandi gutanga amafaranga ayo ari yo yose buri kwezi kugirango ukureho amatangazo</string>
 
     <string name="prefs_audio_bt_recording_text">Andika amajwi avuye mu gikoresho cya Bluetooth</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Ntukoreshe umutwe wumutwe (radio yimodoka)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Koresha gusa na terefone ya Bluetooth. Niba uhuza umutwe wumutwe (radio yimodoka) ukoresheje Bluetooth, noneho kubwimpamvu runaka irashobora guhita iterefona kuri numero isanzwe kuriki gikoresho</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Kwandika byikora hejuru ya Bluetooth bisaba uruhushya. Kanda hano kugirango utange</string>
+    <string name="prefs_warning_permission_bluetooth_text">Uruhushya rwa Bluetooth ntiruhabwa</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Porogaramu ntishobora gufungurwa kugirango itangire gufata amajwi kuko ecran yazimye (ifunze). Koresha serivise yo gufata amajwi (Indorerezi) kugirango ukosore ibi.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Porogaramu ntishobora gufungurwa kuko ecran yazimye (ifunze).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Porogaramu isobanutse ntishobora gutangurwa kugirango ifungure mu buryo bwikora kubera ko \"kwerekana hejuru ya porogaramu zose\" uruhushya rutatanzwe.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Ugomba gutanga ibikoresho byegeranye (Bluetooth) uruhushya rwo gufata ibyabaye byikora. Ibi birashobora gukorwa muri sisitemu ya sisitemu.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Imenyekanisha rirasabwa kugirango ubashe kwerekana serivise yo gufata amajwi inyuma hamwe no gufata amajwi muburyo bwo kumenyesha.</string>
+
+    
 </resources>

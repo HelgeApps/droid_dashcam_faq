@@ -116,7 +116,7 @@
 
     <string name="notification_service_aux_checker">аудиоразъем (Aux)</string>
     <string name="notification_service_bl_checker">блютуза</string>
-    <string name="notification_service_checker">анализ</string>
+    <string name="notification_service_checker">Анализ</string>
     <string name="notification_service_power_checker">зарядки</string>
     <string name="notification_start_service_error_sub_text">Нажмите на уведомление для запуска приложения. У вас нет разрешения на поверх всех приложений или устройство было заблокировано</string>
     <string name="notification_start_service_error_text">Не удалось запустить службу записи при загрузке устройства</string>
@@ -129,7 +129,6 @@
     <string name="permission_camera_dlg_msg">Камера необходима для видеозаписи и предварительного просмотра камеры.</string>
     <string name="permission_camera_dlg_title">Камера разрешение</string>
     <string name="permission_camera_request_canceled">Данное приложение требует разрешение использования камеры для записи видео. Но вы отклонили его. Закрытие… Попробуйте предоставить разрешение на камеру в настройках системы данному приложение</string>
-    <string name="permission_location_dlg_explanation_msg">Когда приложение свернуто, Droid Dashcam использует местоположение в фоновом режиме для отрисовки координат, адреса и скорости на записываемом видео.</string>
     <string name="permission_location_dlg_explanation_settings_msg">На Android 11 (R) вам нужно вручную выбрать «Все время (в любом режиме)» в системных настройках, чтобы разрешить использовать местоположение в фоне. Настройки будут открыты после этого окна.</string>
     <string name="permission_location_dlg_msg">Местоположение необходимо для определения скорости транспорта по GPS данным, текущего адреса и координат для отображения на экране и для записи субтитров на видео</string>
     <string name="permission_location_dlg_title">Местоположение разрешение</string>
@@ -149,6 +148,8 @@
     <string name="prefs_audio_rate_text">Частота дискретизации</string>
     <string name="prefs_audio_recording_text">Аудиозапись</string>
     <string name="prefs_audio_bt_recording_text">Записывать звук с Bluetooth устройства</string>
+    <string name="prefs_audio_bt_recording_warning_title_text">Не используйте с головным устройством (автомобильным радио)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Используйте только с Bluetooth наушниками. Если вы подключаетесь к головному устройству (автомобильному радио) по Bluetooth, то по каким-то причинам это может автоматически вызывать телефонный звонок по стандартному номеру на данном устройстве</string>
     <string name="prefs_audio_settings_sum_text">Качество, выкл/вкл запись звука</string>
     <string name="prefs_audio_settings_text">Настройки звука</string>
     <string name="prefs_audio_stereo_text">Стерео</string>
@@ -161,8 +162,8 @@
     <string name="prefs_auto_start_bl_text">Запустить при подключении блютуз устройства</string>
     <string name="prefs_auto_start_boot_sum_text">Начинает запись автоматически при запуске системы, устройство (экран) должно быть разблокировано, если есть пароль. После загрузки может пройти несколько минут, прежде чем система сообщит приложению о своем запуске</string>
 
-    <string name="prefs_rules_auto_start_only_with_service_text">Автоматическая запись только при запущенном сервисе</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Если включить эту опцию, то автоматическая запись не будет выполняться, если сервис наблюдения не запущен и не виден в панели уведомлений</string>
+    <string name="prefs_rules_auto_start_without_service_text">Автоматическая запись даже, если не запущен фоновой сервис (Watcher)</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Вы можете выключить эту опцию, чтобы приложение выполняло автоматическую запись только при условии, что запущен фоновой сервис приложения (Watcher).\n- Автоматическая запись по таким событиям, как зарядка, Bluetooth или AUX может без проблем выполнятся до Android 7.1.\n- Начиная с Android 8, автоматическая запись без фонового сервиса приложения (Watcher) может выполнятся только для Bluetooth событий, а в остальных случаях (при зарядке или AUX) вам нужно предварительно запустить фоновой сервис приложения (Watcher) - запустив один раз само приложение.\n- Начиная с Android 11 без фонового сервиса приложения (Watcher) доступ к камере без взаимодействия пользователя возможен только при условии, что телефон разблокирован (экран включен) и предоставлено разрешение \"поверх всех приложений\".\n- Таким образом, для Android 11 и выше, требуется вручную запустить один раз приложение, чтобы запустился фоновой сервис приложения (Watcher) для автоматической записи при любых событиях и при выключенном экраном телефона.</string>
 
     <string name="prefs_auto_start_boot_text">При загрузке системы</string>
     <string name="prefs_auto_start_power_category_text">При зарядке</string>
@@ -351,7 +352,7 @@
     <string name="rec_day_night_btn_auto_text">Авто</string>
     <string name="rec_fix_short_text">Исправить</string>
     <string name="rec_fix_text">Исправить</string>
-    <string name="rec_free_space_text">Доступно</string>
+    <string name="rec_available_space_text">Доступно</string>
     <string name="rec_gps_status_satellites_few_text">спутники</string>
     <string name="rec_gps_status_satellites_many_text">спутников</string>
     <string name="rec_gps_status_satellites_one_text">спутник</string>
@@ -375,7 +376,7 @@
     <string name="recording_voice_started_text">Запись началась</string>
     <string name="recording_voice_stopped_text">Запись остановлена</string>
 
-    <string name="service_no_system_alert_window_granted_text">Не удалось запустить сервис Droid Dashcam для автоматического запуска/остановки записи, поскольку разрешение SYSTEM_ALERT_WINDOW (отображение поверх всех окон других приложений) не предоставлено. Или устройство было заблокировано в этот момент (ограничение на Android состоит в том, что устройство должно быть сначала разблокировано и его экран должен быть включен, прежде чем можно будет запустить службу для автоматической видеозаписи)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Не удалось открыть приложение, чтобы начать запись, поскольку разрешение \"отображение поверх всех приложений\" не предоставлено. Нажмите, чтобы предоставить</string>
     <string name="service_watch_on_boot_completed_text">При включении устройства</string>
 
     <string name="storage_external_single">MicroSD карта</string>
@@ -439,7 +440,7 @@
     <string name="prefs_warning_notifications_text">Разрешение на уведомления</string>
 
 
-    <string name="donation_dlg_limited_ads_message_text">При меньших пожертвованиях реклама убирается только для главного экрана</string>
+    <string name="donation_dlg_limited_ads_message_text">При меньших пожертвованиях реклама удаляется только на главном экране</string>
 
     <string name="photos_folder_name">Фотографии</string>
     <string name="photos_count_one">фото</string>
@@ -469,7 +470,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Failed to open the selected camera. It so happens that not all hidden cameras can be used by any application. Many manufacturers only allow their use in their native applications. The default camera will open.</string>
 
-    <string name="videos_ask_which_player">Спрашивать в каком плеере воспроизводить каждый раз?</string>
+    <string name="videos_ask_which_player">Спрашивать в каком плеере воспроизводить</string>
 
     <string name="prefs_location_mode_text">Приоритет GPS (батарея или точность)</string>
     <string name="prefs_location_mode_balanced_text">Баланс между точностью определения местоположения (координат), скорости и энергопотреблением батареи.</string>
@@ -488,6 +489,39 @@
     <string name="donation_any_amount_text">без рекламы на любую сумму</string>
     <string name="donation_subs_any_amount_text">Также реклама полностью удаляется при подписке на любую сумму.</string>
     <string name="donation_remove_ads_by_any_amount_text">Удалите рекламу навсегда разовым пожертвованием на любую сумму. Также вы можете жертвовать ежемесячно на любую сумму, чтобы удалить рекламу</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Для автоматической записи по Bluetooth подключениям требуется предоставить разрешение. Нажмите здесь, чтобы предоставить</string>
+    <string name="prefs_warning_permission_bluetooth_text">Bluetooth разрешение не предоставлено</string>
+
+    <string name="permission_location_dlg_explanation_msg">Местоположение необходимо, чтобы отрисовывать координаты, адрес и скорость на записываемом видео, или показа этих данных на главном экране (в зависимости от ваших настроек).</string>
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Не удалось открыть приложение, чтобы начать запись, поскольку экран был выключен (заблокирован). Запустите сервис фоновой записи (Watcher), чтобы исправить это.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Не удалось открыть приложение, так как экран был выключен (заблокирован).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Не удалось запустить заданное приложение для автоматического открытия, поскольку разрешение \"отображение поверх всех приложений\" не предоставлено.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Необходимо предоставить \"Устройства поблизости\" (Bluetooth) разрешение для автоматической записи по событиям. Это можно сделать в системных настройках приложения.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Уведомления необходимы для возможности отображения фонового сервиса записи и состояние записи на панели уведомлений.</string>
 
     
 </resources>

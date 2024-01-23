@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Kamera inahitajika kwa ajili ya kurekodi video na onyesho la kukagua kamera.</string>
     <string name="permission_camera_dlg_title">Ubora wa kamera</string>
     <string name="permission_camera_request_canceled">Programu hii inahitaji ruhusa ya kutumia kamera kurekodi video. Lakini uliikataa. Inafunga… Jaribu kutoa ruhusa kwa kamera katika mipangilio ya mfumo wa programu hii</string>
-    <string name="permission_location_dlg_explanation_msg">Inapopunguzwa, Dashcam ya Droid hutumia eneo chinichini kuchora viwianishi, anwani na kasi kwenye video iliyorekodiwa.</string>
+    <string name="permission_location_dlg_explanation_msg">Mahali panahitajika ili kuchora viwianishi, anwani na kasi kwenye video iliyorekodiwa, au kuonyesha data hii kwenye skrini kuu (kulingana na mipangilio yako).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Kwenye Android 11 (R), unahitaji kuchagua mwenyewe \"Wakati wote (hali yoyote)\" katika mapendeleo ya mfumo ili kuruhusu eneo chinichini. Mipangilio itafungua baada ya dirisha hili.</string>
     <string name="permission_location_dlg_msg">Mahali ni muhimu ili kuamua kasi ya usafirishaji kwa kutumia data ya GPS, anwani ya sasa na viwianishi vya kuonyeshwa kwenye skrini na kwa kurekodi manukuu kwenye video.</string>
     <string name="permission_location_dlg_title">Ruhusa ya eneo</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Otomatiki</string>
     <string name="rec_fix_short_text">Ili kurekebisha</string>
     <string name="rec_fix_text">Ili kurekebisha</string>
-    <string name="rec_free_space_text">Inapatikana</string>
+    <string name="rec_available_space_text">Inapatikana</string>
     <string name="rec_gps_status_satellites_few_text">satelaiti</string>
     <string name="rec_gps_status_satellites_many_text">satelaiti</string>
     <string name="rec_gps_status_satellites_one_text">satelaiti</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Kurekodi kumeanza</string>
     <string name="recording_voice_stopped_text">Kurekodi kumesimamishwa</string>
 
-    <string name="service_no_system_alert_window_granted_text">Imeshindwa kuanzisha huduma ya Dashcam ya Droid ili kuanza /kuacha kurekodi kiotomatiki kwa sababu ruhusa ya SYSTEM_ALERT_WINDOW (onyesha kwenye madirisha yote ya programu zingine) haikutolewa. Au kifaa kilikuwa kimefungwa wakati huu (kizuizi cha Android ni kwamba lazima kifaa kifunguliwe kwanza na skrini yake lazima iwashwe kabla ya huduma ya kurekodi video kiotomatiki kuanza)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Programu haikuweza kufunguliwa ili kuanza kurekodi kwa sababu ruhusa ya \"onyesho juu ya programu zote\" haikutolewa. Bofya ili kutoa</string>
     <string name="service_watch_on_boot_completed_text">Wakati wa kuwasha kifaa</string>
 
     <string name="storage_external_single">Kadi ya MicroSD</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Zima uboreshaji wa betri kwa programu hii katika mipangilio ya kifaa chako ili kuzuia hitilafu za kamera za siku zijazo</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Kurekodi otomatiki tu wakati huduma inaendeshwa</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Ukiwezesha chaguo hili, basi kurekodi otomatiki haitafanywa ikiwa huduma ya ufuatiliaji haifanyiki na haionekani kwenye paneli ya arifa.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Kurekodi kiotomatiki hata kama huduma ya usuli (Kiangalizi) haifanyi kazi</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Unaweza kuzima chaguo hili ili programu ifanye kurekodi kiotomatiki tu ikiwa huduma ya usuli ya programu (Mtazamaji) inafanya kazi.\n- Kurekodi kiotomatiki kwa matukio kama vile kuchaji, Bluetooth au AUX kunaweza kufanywa bila matatizo hadi Android 7.1.\n- Kuanzia Android 8, kurekodi otomatiki bila huduma ya chinichini ya programu (Mtazamaji) kunaweza kufanywa tu kwa hafla za Bluetooth, na katika hali zingine (wakati wa kuchaji au AUX) unahitaji kwanza kuanza huduma ya programu ya usuli (Mtazamaji) - kwa kuzindua maombi yenyewe mara moja.\n- Kuanzia na Android 11 bila huduma ya programu ya usuli (Kiangalizi), ufikiaji wa kamera bila mwingiliano wa mtumiaji inawezekana tu ikiwa simu imefunguliwa (skrini imewashwa) na ruhusa ya \"juu ya programu zote\" imetolewa.\n- Kwa hivyo, kwa Android 11 na zaidi, unahitaji kuzindua programu mwenyewe mara moja ili huduma ya usuli ya programu (Mtazamaji) ianze kurekodi kiotomatiki wakati wa hafla yoyote na wakati skrini ya simu imezimwa.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Manukuu chini</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Inahitajika ili kuweza kuonyesha huduma ya kurekodi usuli na hali kwenye paneli ya arifa. Bofya ili kuwasilisha</string>
     <string name="prefs_warning_notifications_text">Ruhusa ya Arifa</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Kwa michango midogo, matangazo huondolewa kwa skrini ya kwanza pekee</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Kwa michango midogo, utangazaji huondolewa kwenye skrini kuu pekee</string>photo
     <string name="photos_folder_name">Picha</string>
 
     <string name="photos_count_one">picha</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Imeshindwa kufungua kamera iliyochaguliwa. Inatokea kwamba sio kamera zote zilizofichwa zinaweza kutumika na programu yoyote. Watengenezaji wengi huruhusu matumizi yao tu katika programu asilia. Kamera chaguo-msingi itafungua.</string>
 
-    <string name="videos_ask_which_player">Uliza ni mchezaji gani wa kucheza kila wakati\?</string>
+    <string name="videos_ask_which_player">Uliza ni mchezaji gani wa kucheza</string>
 
     <string name="prefs_location_mode_text">Kipaumbele cha GPS (Betri au Usahihi)</string>
     <string name="prefs_location_mode_balanced_text">Usawa kati ya usahihi wa eneo (viratibu), kasi na matumizi ya nishati ya betri.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Ondoa matangazo milele kwa mchango wa mara moja wa kiasi chochote. Unaweza pia kuchangia kiasi chochote kila mwezi ili kuondoa matangazo</string>
 
     <string name="prefs_audio_bt_recording_text">Rekodi sauti kutoka kwa kifaa cha Bluetooth</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Usitumie na kitengo cha kichwa (redio ya gari)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Tumia tu na vipokea sauti vinavyobanwa kichwani vya Bluetooth. Ukiunganisha kwenye kitengo cha kichwa (redio ya gari) kupitia Bluetooth, basi kwa sababu fulani hii inaweza kuanzisha simu kiotomatiki kwa nambari ya kawaida kwenye kifaa hiki.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Kurekodi kiotomatiki kupitia miunganisho ya Bluetooth kunahitaji ruhusa. Bofya hapa kuwasilisha</string>
+    <string name="prefs_warning_permission_bluetooth_text">Ruhusa ya Bluetooth haijatolewa</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Programu haikuweza kufunguliwa ili kuanza kurekodi kwa sababu skrini ilizimwa (imefungwa). Endesha huduma ya kurekodi mandharinyuma (Mtazamaji) ili kurekebisha hili.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Programu haikuweza kufunguliwa kwa sababu skrini ilizimwa (imefungwa).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Programu iliyobainishwa haikuweza kuzinduliwa ili kufunguka kiotomatiki kwa sababu ruhusa ya \"onyesha juu ya programu zote\" haikutolewa.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Ni lazima upe ruhusa kwa Vifaa vya Karibu (Bluetooth) ili kurekodi tukio kiotomatiki. Hii inaweza kufanywa katika mipangilio ya mfumo wa programu.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Arifa zinahitajika ili kuweza kuonyesha huduma ya kurekodi chinichini na hali ya kurekodi kwenye paneli ya arifa.</string>
+
+    
 </resources>

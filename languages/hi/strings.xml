@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">वीडियो रिकॉर्डिंग और कैमरा पूर्वावलोकन के लिए कैमरा आवश्यक है।</string>
     <string name="permission_camera_dlg_title">कैमरा संकल्प</string>
     <string name="permission_camera_request_canceled">इस एप्लिकेशन को वीडियो रिकॉर्ड करने के लिए कैमरे का उपयोग करने की अनुमति की आवश्यकता है। लेकिन आपने इसे ठुकरा दिया। बंद हो रहा है… इस एप्लिकेशन की सिस्टम सेटिंग्स में कैमरे को अनुमति देने का प्रयास करें</string>
-    <string name="permission_location_dlg_explanation_msg">जब छोटा किया जाता है, तो रिकॉर्ड किए गए वीडियो पर निर्देशांक, पता और गति खींचने के लिए Droid Dashcam पृष्ठभूमि में स्थान का उपयोग करता है।</string>
+    <string name="permission_location_dlg_explanation_msg">रिकॉर्ड किए गए वीडियो पर निर्देशांक, पता और गति खींचने या इस डेटा को मुख्य स्क्रीन पर प्रदर्शित करने के लिए स्थान की आवश्यकता होती है (आपकी सेटिंग्स के आधार पर)।</string>
     <string name="permission_location_dlg_explanation_settings_msg">एंड्रॉइड 11 (आर) पर, आपको पृष्ठभूमि में स्थान की अनुमति देने के लिए सिस्टम प्राथमिकताओं में मैन्युअल रूप से \"हर समय (कोई भी मोड)\" का चयन करना होगा। इस विंडो के बाद सेटिंग्स ओपन हो जाएंगी।</string>
     <string name="permission_location_dlg_msg">जीपीएस डेटा, वर्तमान पता और स्क्रीन पर प्रदर्शन के लिए निर्देशांक और वीडियो पर उपशीर्षक रिकॉर्ड करने के लिए परिवहन की गति निर्धारित करने के लिए स्थान आवश्यक है</string>
     <string name="permission_location_dlg_title">स्थान की अनुमति</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">ऑटो</string>
     <string name="rec_fix_short_text">सही करने के लिए</string>
     <string name="rec_fix_text">सही करने के लिए</string>
-    <string name="rec_free_space_text">उपलब्ध</string>
+    <string name="rec_available_space_text">उपलब्ध</string>
     <string name="rec_gps_status_satellites_few_text">उपग्रहों</string>
     <string name="rec_gps_status_satellites_many_text">उपग्रहों</string>
     <string name="rec_gps_status_satellites_one_text">उपग्रह</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">रिकॉर्डिंग शुरू हो गई है</string>
     <string name="recording_voice_stopped_text">रिकॉर्डिंग बंद हो गई</string>
 
-    <string name="service_no_system_alert_window_granted_text">SYSTEM_ALERT_WINDOW अनुमति (अन्य एप्लिकेशन की सभी विंडो पर प्रदर्शित) प्रदान नहीं किए जाने के कारण स्वचालित रूप से रिकॉर्डिंग प्रारंभ/बंद करने के लिए Droid डैशकैम सेवा प्रारंभ करने में विफल रहा। या इस बिंदु पर डिवाइस लॉक किया गया था (एंड्रॉइड प्रतिबंध यह है कि डिवाइस को पहले अनलॉक किया जाना चाहिए और स्वचालित वीडियो रिकॉर्डिंग शुरू करने के लिए सेवा शुरू होने से पहले इसकी स्क्रीन चालू होनी चाहिए)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">रिकॉर्डिंग शुरू करने के लिए ऐप को नहीं खोला जा सका क्योंकि \"सभी ऐप्स के शीर्ष पर दिखाएं\" की अनुमति नहीं दी गई थी। उपलब्ध कराने के लिए क्लिक करें</string>
     <string name="service_watch_on_boot_completed_text">डिवाइस चालू करते समय</string>
 
     <string name="storage_external_single">माइक्रो एसडी कार्ड</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">भविष्य में कैमरा त्रुटियों से बचने के लिए अपनी डिवाइस सेटिंग में इस ऐप के लिए बैटरी अनुकूलन अक्षम करें</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">स्वचालित रिकॉर्डिंग तभी होती है जब सेवा चल रही हो</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">यदि आप इस विकल्प को सक्षम करते हैं, तो स्वचालित रिकॉर्डिंग नहीं की जाएगी यदि निगरानी सेवा नहीं चल रही है और अधिसूचना पैनल में दिखाई नहीं दे रही है</string>
+    <string name="prefs_rules_auto_start_without_service_text">पृष्ठभूमि सेवा (वॉचर) नहीं चलने पर भी स्वचालित रिकॉर्डिंग</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* आप इस विकल्प को बंद कर सकते हैं ताकि एप्लिकेशन केवल तभी स्वचालित रिकॉर्डिंग करे जब एप्लिकेशन की पृष्ठभूमि सेवा (वॉचर) चल रही हो।\n- एंड्रॉइड 7.1 तक चार्जिंग, ब्लूटूथ या औक्स जैसी घटनाओं के लिए स्वचालित रिकॉर्डिंग बिना किसी समस्या के की जा सकती है।\n- एंड्रॉइड 8 से शुरू होकर, पृष्ठभूमि एप्लिकेशन सेवा (वॉचर) के बिना स्वचालित रिकॉर्डिंग केवल ब्लूटूथ इवेंट के लिए की जा सकती है, और अन्य मामलों में (चार्जिंग या औक्स के दौरान) आपको सबसे पहले पृष्ठभूमि एप्लिकेशन सेवा (वॉचर) शुरू करने की आवश्यकता है - लॉन्च करके एक बार ही आवेदन करें।\n- बैकग्राउंड ऐप सेवा (वॉचर) के बिना एंड्रॉइड 11 से शुरू करके, उपयोगकर्ता इंटरेक्शन के बिना कैमरे तक पहुंच केवल तभी संभव है जब फोन अनलॉक हो (स्क्रीन चालू हो) और \"सभी ऐप्स के शीर्ष पर\" अनुमति दी गई हो।\n- इस प्रकार, एंड्रॉइड 11 और उच्चतर के लिए, आपको एप्लिकेशन को एक बार मैन्युअल रूप से लॉन्च करना होगा ताकि एप्लिकेशन की पृष्ठभूमि सेवा (वॉचर) किसी भी घटना के दौरान और फोन स्क्रीन बंद होने पर स्वचालित रूप से रिकॉर्ड करना शुरू कर दे।</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">नीचे उपशीर्षक</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">अधिसूचना पैनल पर पृष्ठभूमि रिकॉर्डिंग सेवा और स्थिति प्रदर्शित करने में सक्षम होने के लिए आवश्यक है। सबमिट करने के लिए क्लिक करें</string>
     <string name="prefs_warning_notifications_text">अधिसूचना अनुमति</string>
 
-    <string name="donation_dlg_limited_ads_message_text">छोटे दान के लिए, केवल होम स्क्रीन के लिए विज्ञापन हटा दिए जाते हैं</string>photo
+    <string name="donation_dlg_limited_ads_message_text">छोटे दान के लिए, विज्ञापन केवल मुख्य स्क्रीन से हटा दिया जाता है</string>photo
     <string name="photos_folder_name">तस्वीरें</string>
 
     <string name="photos_count_one">तस्वीर</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">चयनित कैमरा खोलने में विफल. ऐसा होता है कि सभी छिपे हुए कैमरों का उपयोग किसी भी एप्लिकेशन द्वारा नहीं किया जा सकता है। कई निर्माता केवल अपने मूल अनुप्रयोगों में ही इनके उपयोग की अनुमति देते हैं। डिफ़ॉल्ट कैमरा खुल जाएगा.</string>
 
-    <string name="videos_ask_which_player">हर बार पूछें कि किस खिलाड़ी से खेलना है\?</string>
+    <string name="videos_ask_which_player">पूछें कि किस खिलाड़ी को खेलना है</string>
 
     <string name="prefs_location_mode_text">जीपीएस प्राथमिकता (बैटरी या सटीकता)</string>
     <string name="prefs_location_mode_balanced_text">स्थान सटीकता (निर्देशांक), गति और बैटरी बिजली की खपत के बीच संतुलन।</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">किसी भी राशि के एकमुश्त दान से विज्ञापनों को हमेशा के लिए हटा दें। आप विज्ञापनों को हटाने के लिए मासिक रूप से कितनी भी राशि दान कर सकते हैं</string>
 
     <string name="prefs_audio_bt_recording_text">ब्लूटूथ डिवाइस से ऑडियो रिकॉर्ड करें</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">हेड यूनिट (कार रेडियो) के साथ प्रयोग न करें!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">केवल ब्लूटूथ हेडफ़ोन के साथ उपयोग करें। यदि आप ब्लूटूथ के माध्यम से हेड यूनिट (कार रेडियो) से कनेक्ट होते हैं, तो किसी कारण से इस डिवाइस पर मानक नंबर पर फोन कॉल स्वचालित रूप से ट्रिगर हो सकती है</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">ब्लूटूथ कनेक्शन पर स्वचालित रिकॉर्डिंग के लिए अनुमति की आवश्यकता होती है। सबमिट करने के लिए यहां क्लिक करें</string>
+    <string name="prefs_warning_permission_bluetooth_text">ब्लूटूथ की अनुमति नहीं दी गई</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">रिकॉर्डिंग प्रारंभ करने के लिए एप्लिकेशन को खोला नहीं जा सका क्योंकि स्क्रीन बंद (लॉक) थी। इसे ठीक करने के लिए पृष्ठभूमि रिकॉर्डिंग सेवा (वॉचर) चलाएँ।</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">स्क्रीन बंद (लॉक) होने के कारण एप्लिकेशन खोला नहीं जा सका।</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">निर्दिष्ट एप्लिकेशन को स्वचालित रूप से खोलने के लिए लॉन्च नहीं किया जा सका क्योंकि \"सभी एप्लिकेशन के शीर्ष पर दिखाएं\" की अनुमति नहीं दी गई थी।</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">स्वचालित ईवेंट रिकॉर्डिंग के लिए आपको आस-पास के डिवाइस (ब्लूटूथ) की अनुमति देनी होगी। यह एप्लिकेशन की सिस्टम सेटिंग्स में किया जा सकता है।</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">अधिसूचनाओं को अधिसूचना पैनल में पृष्ठभूमि रिकॉर्डिंग सेवा और रिकॉर्डिंग स्थिति प्रदर्शित करने में सक्षम होना आवश्यक है।</string>
+
+    
 </resources>

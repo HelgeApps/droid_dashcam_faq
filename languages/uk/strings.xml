@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Камера необхідна для відеозапису та попереднього перегляду камери.</string>
     <string name="permission_camera_dlg_title">Камера дозвіл</string>
     <string name="permission_camera_request_canceled">Цей додаток потребує дозвіл використання камери для запису відео. Але ви відхилили його. Закриття… Спробуйте надати дозвіл на камеру в налаштуваннях системи даному додаток</string>
-    <string name="permission_location_dlg_explanation_msg">Коли додаток згорнуто, Droid Dashcam використовує розташування у фоновому режимі для відтворення координат, адреси та швидкості на записуваному відео.</string>
+    <string name="permission_location_dlg_explanation_msg">Розташування необхідно, щоб малювати координати, адресу та швидкість на відео, що записується, або показу цих даних на головному екрані (залежно від ваших налаштувань).</string>
     <string name="permission_location_dlg_explanation_settings_msg">На Android 11 (R) потрібно вручну вибрати \"Увесь час (в будь-якому режимі)\" у системних налаштуваннях, щоб дозволити використовувати місцезнаходження у фоні. Налаштування будуть відкриті після цього вікна.</string>
     <string name="permission_location_dlg_msg">Місцезнаходження необхідно для визначення швидкості транспорту за GPS даними, поточної адреси та координат для відображення на екрані та для запису субтитрів на відео</string>
     <string name="permission_location_dlg_title">Місцезнаходження дозвіл</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Авто</string>
     <string name="rec_fix_short_text">Виправ.</string>
     <string name="rec_fix_text">Виправити</string>
-    <string name="rec_free_space_text">Доступно</string>
+    <string name="rec_available_space_text">Доступно</string>
     <string name="rec_gps_status_satellites_few_text">супутники</string>
     <string name="rec_gps_status_satellites_many_text">супутників</string>
     <string name="rec_gps_status_satellites_one_text">супутник</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Запис розпочато</string>
     <string name="recording_voice_stopped_text">Запис зупинено</string>
 
-    <string name="service_no_system_alert_window_granted_text">Не вдалося запустити сервіс Droid Dashcam для автоматичного запуску/зупинки запису, оскільки дозвіл SYSTEM_ALERT_WINDOW (відображення поверх всіх вікон інших додатків) не надано . Або пристрій було заблоковано в цей момент (обмеження на Android полягає в тому, що пристрій має бути спочатку розблоковано і його екран повинен бути включений, перш ніж можна буде запустити службу для автоматичного відеозапису)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Не вдалося відкрити програму, щоб розпочати запис, оскільки дозвіл \"відображення поверх усіх програм\" не надано. Натисніть, щоб надати</string>
     <string name="service_watch_on_boot_completed_text">При включенні пристрою</string>
 
     <string name="storage_external_single">MicroSD карта</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Вимкніть оптимізацію батареї для цієї програми в установках вашого пристрою, щоб уникнути помилок з камерою</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Автоматичний запис лише при запущеному сервісі</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Якщо увімкнути цю опцію, то автоматичний запис не буде виконуватися, якщо сервіс спостереження не запущений і не видно на панелі повідомлень</string>
+    <string name="prefs_rules_auto_start_without_service_text">Автоматичний запис навіть, якщо не запущено фоновий сервіс (Watcher)</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Ви можете вимкнути цю опцію, щоб програма виконувала автоматичний запис лише за умови, що запущено фоновий сервіс програми (Watcher).\n- Автоматичний запис таких подій, як зарядка, Bluetooth або AUX може без проблем виконуватися до Android 7.1.\n- Починаючи з Android 8, автоматичний запис без фонового сервісу програми (Watcher) може виконуватися тільки для Bluetooth подій, а в інших випадках (при зарядці або AUX) вам потрібно попередньо запустити фоновий сервіс програми (Watcher) - запустивши один раз сам додаток.\n- Починаючи з Android 11 без фонового сервісу програми (Watcher) доступ до камери без взаємодії користувача можливий лише за умови, що телефон розблокований (екран увімкнено) і надано дозвіл \"поверх усіх програм\".\n- Таким чином, для Android 11 і вище, потрібно вручну запустити один раз програму, щоб запустився фоновий сервіс програми (Watcher) для автоматичного запису за будь-яких подій і при вимкненому екраном телефону.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Субтитри внизу</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Для відображення фонового сервісу запису та статусів на панелі повідомлень необхідно. Натисніть, щоб надати</string>
     <string name="prefs_warning_notifications_text">Дозвіл на повідомлення</string>
 
-    <string name="donation_dlg_limited_ads_message_text">При менших пожертвуваннях реклама забирається тільки для головного екрану</string>photo
+    <string name="donation_dlg_limited_ads_message_text">При менших пожертвуваннях реклама видаляється лише на головному екрані</string>photo
     <string name="photos_folder_name">Фотографії</string>
 
     <string name="photos_count_one">фото</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Не вдалося відкрити вибрану камеру. Так буває, що не всі приховані камери можуть бути використані будь-якими програмами. Багато виробників дозволяють їх використання лише у своїх рідних додатках. Буде відкрито камеру за промовчанням.</string>
 
-    <string name="videos_ask_which_player">Запитувати в якому плеєрі відтворювати щоразу\?</string>
+    <string name="videos_ask_which_player">Запитувати в якому плеєрі відтворювати</string>
 
     <string name="prefs_location_mode_text">Пріоритет GPS (батарея або точність)</string>
     <string name="prefs_location_mode_balanced_text">Баланс між точністю позиціонування (координат), швидкості та енергоспоживанням батареї.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Видаліть рекламу назавжди разовим пожертвуванням будь-яку суму. Також ви можете жертвувати щомісяця на будь-яку суму, щоб видалити рекламу</string>
 
     <string name="prefs_audio_bt_recording_text">Записувати звук із Bluetooth пристрою</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Не використовуйте головний пристрій (автомобільне радіо)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Використовуйте лише з навушниками Bluetooth. Якщо ви підключаєтеся до головного пристрою (автомобільного радіо) через Bluetooth, то з якихось причин це може автоматично викликати телефонний дзвінок за стандартним номером на цьому пристрої</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Для автоматичного запису через з\'єднання Bluetooth потрібно надати дозвіл. Натисніть тут, щоб надати</string>
+    <string name="prefs_warning_permission_bluetooth_text">Bluetooth дозвіл не надано</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Не вдалося відкрити програму, щоб розпочати запис, оскільки екран було вимкнено (заблоковано). Запустіть сервіс фонового запису (Watcher), щоб виправити це.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Не вдалося відкрити програму, оскільки екран було вимкнено (заблоковано).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Не вдалося запустити задану програму для автоматичного відкриття, оскільки роздільна здатність \"відображення поверх всіх програм\" не надано.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Необхідно надати розділ \"Пристрої поблизу\" (Bluetooth) дозвіл для автоматичного запису подій. Це можна зробити у системних налаштуваннях програми.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Повідомлення необхідні для відображення фонового сервісу запису та стану запису на панелі повідомлень.</string>
+
+    
 </resources>

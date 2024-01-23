@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Камера видео жаздыруу жана камераны алдын ала көрүү үчүн талап кылынат.</string>
     <string name="permission_camera_dlg_title">Камеранын чечилиши</string>
     <string name="permission_camera_request_canceled">Бул колдонмо видео жаздыруу үчүн камераны колдонууга уруксатты талап кылат. Бирок сиз андан баш тарттыңыз. Жабылуу… Бул колдонмонун системалык жөндөөлөрүндө камерага уруксат берүүгө аракет кылыңыз</string>
-    <string name="permission_location_dlg_explanation_msg">Минимизацияланганда, Droid Dashcam жазылган видеого координаттарды, даректи жана ылдамдыкты тартуу үчүн фондо жайгашкан жерди колдонот.</string>
+    <string name="permission_location_dlg_explanation_msg">Жайгашкан жер жазылган видеого координаттарды, даректи жана ылдамдыкты тартуу же бул маалыматты негизги экранда көрсөтүү үчүн керек (сиздин орнотууларыңызга жараша).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Android 11де (R) фондо жайгашкан жерге уруксат берүү үчүн тутум артыкчылыктарынан \"Ар дайым (кандай болбосун режим)\" кол менен тандашыңыз керек. Бул терезеден кийин орнотуулар ачылат.</string>
     <string name="permission_location_dlg_msg">Жайгашкан жер GPS маалыматтарын колдонуу менен транспорттун ылдамдыгын, учурдагы даректи жана экранда көрсөтүү жана видеого субтитрлерди жаздыруу үчүн координаттарды аныктоо үчүн зарыл.</string>
     <string name="permission_location_dlg_title">Жайгашуу уруксаты</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Авто</string>
     <string name="rec_fix_short_text">Оңдоо</string>
     <string name="rec_fix_text">Оңдоо</string>
-    <string name="rec_free_space_text">жеткиликтүү</string>
+    <string name="rec_available_space_text">жеткиликтүү</string>
     <string name="rec_gps_status_satellites_few_text">спутниктер</string>
     <string name="rec_gps_status_satellites_many_text">спутниктер</string>
     <string name="rec_gps_status_satellites_one_text">спутник</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Жаздыруу башталды</string>
     <string name="recording_voice_stopped_text">Жаздыруу токтотулду</string>
 
-    <string name="service_no_system_alert_window_granted_text">SYSTEM_ALERT_WINDOW уруксаты (башка колдонмолордун бардык терезелеринде көрсөтүү) берилбегендиктен, жазууну автоматтык түрдө баштоо /токтотуу үчүн Droid Dashcam кызматы иштетилбей калды. Же бул учурда түзмөк кулпуланган (Android чектөөсү - бул, автоматтык видео жазуу кызматы башталганга чейин, алгач түзмөктүн кулпусу ачылып, анын экраны күйгүзүлүшү керек)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Жаздырып баштоо үчүн колдонмо ачылбай койду, анткени \"бардык колдонмолордун үстүндө көрсөтүү\" уруксаты берилген эмес. камсыз кылуу үчүн чыкылдатуу</string>
     <string name="service_watch_on_boot_completed_text">Аппаратты күйгүзгөндө</string>
 
     <string name="storage_external_single">MicroSD карта</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Келечекте камера каталарын болтурбоо үчүн түзмөгүңүздүн жөндөөлөрүнөн бул колдонмо үчүн батареяны оптималдаштырууну өчүрүңүз</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Кызмат иштеп жатканда гана автоматтык түрдө жаздыруу</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Эгер бул параметрди иштетсеңиз, мониторинг кызматы иштебей жана эскертме панелинде көрүнбөсө, автоматтык жазуу аткарылбайт.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Фондук кызмат (Watcher) иштебей турса да, автоматтык жазуу</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Колдонмонун фон кызматы (Watcher) иштеп турганда гана колдонмо автоматтык жазууну аткарышы үчүн бул параметрди өчүрө аласыз.\n- Заряддоо, Bluetooth же AUX сыяктуу окуяларды автоматтык түрдө жаздыруу Android 7.1ге чейин көйгөйсүз аткарылышы мүмкүн.\n- Android 8ден баштап, фондук тиркеме кызматы жок автоматтык жазуу (Watcher) Bluetooth окуялары үчүн гана аткарылышы мүмкүн, ал эми башка учурларда (кубаттоодо же AUX учурунда) алгач фондо тиркеме кызматын (Watcher) баштоо керек - колдонмонун өзү бир жолу.\n- Фондук колдонмо кызматы (Watcher) жок Android 11ден баштап, камерага колдонуучунун кийлигишүүсүз жетүү телефондун кулпусу ачылганда (экран күйгүзүлгөн) жана \"бардык колдонмолордун үстүнө\" уруксаты берилгенде гана мүмкүн болот.\n- Ошентип, Android 11 жана андан жогорку версиялары үчүн, колдонмонун фондук кызматы (Watcher) ар кандай окуялар учурунда жана телефондун экраны өчүк болгондо автоматтык түрдө жаздыра башташы үчүн, колдонмону бир жолу кол менен ишке киргизишиңиз керек.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Төмөндө субтитрлер</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Фондук жаздыруу кызматын жана статустарды эскертме панелинде көрсөтүү үчүн талап кылынат. Тапшыруу үчүн чыкылдатыңыз</string>
     <string name="prefs_warning_notifications_text">Эскертме уруксаты</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Кичинекей кайрымдуулук үчүн жарнамалар башкы экран үчүн гана өчүрүлөт</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Кичинекей кайрымдуулук үчүн жарнамалар негизги экранда гана алынып салынат</string>photo
     <string name="photos_folder_name">Сүрөттөр</string>
 
     <string name="photos_count_one">сүрөт</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Тандалган камера ачылбай койду. Ошентип, бардык жашыруун камераларды кандайдыр бир тиркеме колдоно албайт. Көптөгөн өндүрүүчүлөр аларды жергиликтүү тиркемелерде гана колдонууга уруксат беришет. Демейки камера ачылат.</string>
 
-    <string name="videos_ask_which_player">Ар бир жолу кайсы оюнчуда ойноону сураңыз\?</string>
+    <string name="videos_ask_which_player">Кайсы оюнчуда ойноорун сураңыз</string>
 
     <string name="prefs_location_mode_text">GPS приоритети (батарея же тактык)</string>
     <string name="prefs_location_mode_balanced_text">Жайгашкан жердин тактыгы (координаттар), ылдамдык жана батареянын кубатын керектөө ортосундагы баланс.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Каалаган суммадагы бир жолку кайрымдуулук менен жарнамаларды түбөлүккө алып салыңыз. Жарнактарды алып салуу үчүн ай сайын каалаган сумманы кайрымдуулук кыла аласыз</string>
 
     <string name="prefs_audio_bt_recording_text">Bluetooth түзмөгүнөн аудио жазыңыз</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Башкы блок (унаа радиосу) менен колдонбоңуз!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Bluetooth гарнитуралары менен гана колдонуңуз. Эгер сиз Bluetooth аркылуу башкы блокко (унаа радиосу) туташсаңыз, анда кандайдыр бир себептерден улам бул түзмөктөгү стандарттуу номерге телефон чалууга автоматтык түрдө түрткү болушу мүмкүн.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Bluetooth туташуулары аркылуу автоматтык жазуу уруксатты талап кылат. Тапшыруу үчүн бул жерди басыңыз</string>
+    <string name="prefs_warning_permission_bluetooth_text">Bluetooth уруксаты берилген жок</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Жазууну баштоо үчүн колдонмо ачылбай койду, анткени экран өчүрүлгөн (кулпуланган). Муну оңдоо үчүн фондо жаздыруу кызматын (Watcher) иштетиңиз.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Тиркемени ачуу мүмкүн эмес, анткени экран өчүрүлгөн (кулпуланган).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Көрсөтүлгөн колдонмону автоматтык түрдө ачуу үчүн ишке киргизүү мүмкүн эмес, анткени \"бардык колдонмолордун үстүндө көрсөтүү\" уруксаты берилген эмес.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Окуяны автоматтык түрдө жаздыруу үчүн Nearby Devices (Bluetooth) уруксатын беришиңиз керек. Бул колдонмонун тутум орнотууларында жасалышы мүмкүн.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Эскертмелер эскертмелер панелинде фондо жаздыруу кызматын жана жаздыруу статусун көрсөтүү үчүн талап кылынат.</string>
+
+    
 </resources>

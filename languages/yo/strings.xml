@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">A nilo kamẹra fun gbigbasilẹ fidio ati awotẹlẹ kamẹra.</string>
     <string name="permission_camera_dlg_title">Ipinnu kamẹra</string>
     <string name="permission_camera_request_canceled">Ohun elo yii nilo igbanilaaye lati lo kamẹra lati ṣe igbasilẹ fidio. Ṣugbọn o kọ. Tilekun… Gbiyanju lati fun ni igbanilaaye si kamẹra ni awọn eto eto ohun elo yii</string>
-    <string name="permission_location_dlg_explanation_msg">Nigbati o ba dinku, Droid Dashcam nlo ipo ni abẹlẹ lati fa awọn ipoidojuko, adirẹsi ati iyara lori fidio ti o gbasilẹ.</string>
+    <string name="permission_location_dlg_explanation_msg">A nilo ipo lati fa awọn ipoidojuko, adirẹsi ati iyara lori fidio ti o gbasilẹ, tabi ṣafihan data yii lori iboju akọkọ (da lori awọn eto rẹ).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Lori Android 11 (R), o nilo lati yan pẹlu ọwọ \"Ni gbogbo igba (ipo eyikeyi)\" ninu awọn ayanfẹ eto lati gba aaye laaye ni abẹlẹ. Awọn eto yoo ṣii lẹhin window yii.</string>
     <string name="permission_location_dlg_msg">Ipo naa jẹ pataki lati pinnu iyara gbigbe ni lilo data GPS, adirẹsi lọwọlọwọ ati awọn ipoidojuko fun ifihan loju iboju ati fun gbigbasilẹ awọn atunkọ lori fidio</string>
     <string name="permission_location_dlg_title">Igbanilaaye ipo</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Aifọwọyi</string>
     <string name="rec_fix_short_text">Lati ṣe atunṣe</string>
     <string name="rec_fix_text">Lati ṣe atunṣe</string>
-    <string name="rec_free_space_text">Wa</string>
+    <string name="rec_available_space_text">Wa</string>
     <string name="rec_gps_status_satellites_few_text">awọn satẹlaiti</string>
     <string name="rec_gps_status_satellites_many_text">awọn satẹlaiti</string>
     <string name="rec_gps_status_satellites_one_text">satẹlaiti</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Gbigbasilẹ ti bẹrẹ</string>
     <string name="recording_voice_stopped_text">Gbigbasilẹ duro</string>
 
-    <string name="service_no_system_alert_window_granted_text">Kuna lati bẹrẹ iṣẹ Droid Dashcam lati bẹrẹ laifọwọyi /da gbigbasilẹ duro nitori igbanilaaye SYSTEM_ALERT_WINDOW (ifihan lori gbogbo awọn window ti awọn ohun elo miiran) ko gba. Tabi ẹrọ naa ti wa ni titiipa ni aaye yii (ihamọ Android ni pe ẹrọ naa gbọdọ kọkọ ṣii ati iboju rẹ gbọdọ wa ni titan ṣaaju iṣẹ fun gbigbasilẹ fidio laifọwọyi le bẹrẹ)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Ohun elo naa ko le ṣii lati bẹrẹ gbigbasilẹ nitori “ifihan lori oke gbogbo awọn lw” ko gba laaye. Tẹ lati pese</string>
     <string name="service_watch_on_boot_completed_text">Nigba titan ẹrọ</string>
 
     <string name="storage_external_single">MicroSD kaadi</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Pa batiri ti o dara ju fun ohun elo yii ninu awọn eto ẹrọ rẹ lati yago fun awọn aṣiṣe kamẹra iwaju</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Gbigbasilẹ aifọwọyi nikan nigbati iṣẹ n ṣiṣẹ</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Ti o ba mu aṣayan yii ṣiṣẹ, lẹhinna gbigbasilẹ adaṣe kii yoo ṣe ti iṣẹ ibojuwo ko ba ṣiṣẹ ati pe ko han ni igbimọ iwifunni.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Gbigbasilẹ aifọwọyi paapaa ti iṣẹ abẹlẹ (Oluṣọ) ko ba ṣiṣẹ</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* O le pa aṣayan yii ki ohun elo naa ṣe gbigbasilẹ adaṣe nikan ti iṣẹ abẹlẹ ohun elo naa (Oluṣọ) n ṣiṣẹ.\n- Gbigbasilẹ aifọwọyi fun awọn iṣẹlẹ bii gbigba agbara, Bluetooth tabi AUX le ṣee ṣe laisi awọn iṣoro to Android 7.1.\nBibẹrẹ lati Android 8, gbigbasilẹ alaifọwọyi laisi iṣẹ ohun elo isale kan (Oluṣọ) le ṣee ṣe fun awọn iṣẹlẹ Bluetooth nikan, ati ni awọn ọran miiran (nigbati o ba ngba agbara tabi AUX) o nilo lati kọkọ bẹrẹ iṣẹ ohun elo isale (Oluṣọ) - nipa ifilọlẹ naa ohun elo ara lẹẹkan.\n- Bibẹrẹ pẹlu Android 11 laisi iṣẹ ohun elo isale (Oluṣọ), iraye si kamẹra laisi ibaraenisepo olumulo ṣee ṣe nikan ti foonu ba wa ni ṣiṣi (iboju lori) ati “lori gbogbo awọn ohun elo” ni a fun ni aṣẹ.\n- Nitorinaa, fun Android 11 ati ga julọ, o nilo lati ṣe ifilọlẹ ohun elo ni ọwọ ni ẹẹkan ki iṣẹ abẹlẹ ti ohun elo (Oluṣọ) bẹrẹ lati gbasilẹ laifọwọyi lakoko awọn iṣẹlẹ eyikeyi ati nigbati iboju foonu ba wa ni pipa.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Awọn atunkọ ni isalẹ</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Ti a beere lati ni anfani lati ṣe afihan iṣẹ igbasilẹ isale ati awọn ipo lori igbimọ iwifunni. Tẹ lati fi silẹ</string>
     <string name="prefs_warning_notifications_text">Gbigbanilaaye iwifunni</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Fun awọn ẹbun kekere, awọn ipolowo ti yọkuro fun iboju ile nikan</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Fun awọn ẹbun kekere, a yọ ipolowo kuro ni oju iboju akọkọ nikan</string>photo
     <string name="photos_folder_name">Awọn fọto</string>
 
     <string name="photos_count_one">aworan</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Kuna lati ṣii kamẹra ti o yan. O ṣẹlẹ pe kii ṣe gbogbo awọn kamẹra ti o farapamọ le ṣee lo nipasẹ eyikeyi ohun elo. Ọpọlọpọ awọn aṣelọpọ nikan gba laaye lilo wọn ni awọn ohun elo abinibi wọn. Kamẹra aiyipada yoo ṣii.</string>
 
-    <string name="videos_ask_which_player">Beere ninu eyi ti ẹrọ orin lati mu kọọkan akoko\?</string>
+    <string name="videos_ask_which_player">Beere iru ẹrọ orin lati mu ṣiṣẹ ninu</string>
 
     <string name="prefs_location_mode_text">Pataki GPS (Batiri tabi Yiye)</string>
     <string name="prefs_location_mode_balanced_text">Iwontunwonsi laarin deede ipo (awọn ipoidojuko), iyara ati agbara batiri.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Yọ awọn ipolowo kuro lailai pẹlu ẹbun akoko-ọkan ti iye eyikeyi. O tun le ṣetọrẹ iye eyikeyi loṣooṣu lati yọ awọn ipolowo kuro</string>
 
     <string name="prefs_audio_bt_recording_text">Gba ohun silẹ lati ẹrọ Bluetooth kan</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Maṣe lo pẹlu ẹyọ ori (redio ọkọ ayọkẹlẹ)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Lo pẹlu awọn agbekọri Bluetooth nikan. Ti o ba sopọ si ẹyọ ori (redio ọkọ ayọkẹlẹ) nipasẹ Bluetooth, lẹhinna fun idi kan eyi le ṣe okunfa ipe foonu kan laifọwọyi si nọmba boṣewa lori ẹrọ yii.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Gbigbasilẹ aifọwọyi lori awọn asopọ Bluetooth nilo igbanilaaye. Tẹ ibi lati fi silẹ</string>
+    <string name="prefs_warning_permission_bluetooth_text">A ko funni ni igbanilaaye Bluetooth</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Ohun elo naa ko le ṣii lati bẹrẹ gbigbasilẹ nitori iboju ti wa ni pipa (titiipa). Ṣiṣe iṣẹ igbasilẹ abẹlẹ (Oluṣọ) lati ṣatunṣe eyi.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Ohun elo naa ko le ṣii nitori iboju ti wa ni pipa (ni titiipa).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Ohun elo pàtó kan ko le ṣe ifilọlẹ lati ṣii laifọwọyi nitori “ifihan lori oke gbogbo awọn ohun elo” ko gba laaye.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">O gbọdọ funni ni igbanilaaye Awọn ẹrọ to wa nitosi (Bluetooth) fun gbigbasilẹ iṣẹlẹ aifọwọyi. Eyi le ṣee ṣe ni awọn eto eto ohun elo naa.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Awọn iwifunni ni a nilo lati ni anfani lati ṣe afihan iṣẹ igbasilẹ isale ati ipo gbigbasilẹ ni igbimọ iwifunni.</string>
+
+    
 </resources>

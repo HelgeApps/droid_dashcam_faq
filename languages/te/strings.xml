@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">వీడియో రికార్డింగ్ మరియు కెమెరా ప్రివ్యూ కోసం కెమెరా అవసరం.</string>
     <string name="permission_camera_dlg_title">కెమెరా రిజల్యూషన్</string>
     <string name="permission_camera_request_canceled">వీడియోను రికార్డ్ చేయడానికి కెమెరాను ఉపయోగించడానికి ఈ యాప్‌కి అనుమతి అవసరం. కానీ మీరు దానిని తిరస్కరించారు. మూసివేస్తోంది… ఈ అప్లికేషన్ యొక్క సిస్టమ్ సెట్టింగ్‌లలో కెమెరాకు అనుమతిని మంజూరు చేయడానికి ప్రయత్నించండి</string>
-    <string name="permission_location_dlg_explanation_msg">కనిష్టీకరించబడినప్పుడు, రికార్డ్ చేయబడిన వీడియోలో కోఆర్డినేట్‌లు, చిరునామా మరియు వేగాన్ని గీయడానికి Droid Dashcam నేపథ్యంలో స్థానాన్ని ఉపయోగిస్తుంది.</string>
+    <string name="permission_location_dlg_explanation_msg">రికార్డ్ చేయబడిన వీడియోలో కోఆర్డినేట్‌లు, చిరునామా మరియు వేగాన్ని గీయడానికి లేదా ఈ డేటాను ప్రధాన స్క్రీన్‌లో ప్రదర్శించడానికి (మీ సెట్టింగ్‌లను బట్టి) స్థానం అవసరం.</string>
     <string name="permission_location_dlg_explanation_settings_msg">Android 11 (R)లో, నేపథ్యంలో స్థానాన్ని అనుమతించడానికి మీరు సిస్టమ్ ప్రాధాన్యతలలో \"ఆల్ టైమ్ (ఏదైనా మోడ్)\"ని మాన్యువల్‌గా ఎంచుకోవాలి. ఈ విండో తర్వాత సెట్టింగ్‌లు తెరవబడతాయి.</string>
     <string name="permission_location_dlg_msg">స్క్రీన్‌పై ప్రదర్శించడానికి మరియు వీడియోలో ఉపశీర్షికలను రికార్డ్ చేయడానికి GPS డేటా, ప్రస్తుత చిరునామా మరియు కోఆర్డినేట్‌లను ఉపయోగించి రవాణా వేగాన్ని నిర్ణయించడానికి స్థానం అవసరం.</string>
     <string name="permission_location_dlg_title">స్థాన అనుమతి</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">దానంతట అదే</string>
     <string name="rec_fix_short_text">సరిచేయుటకు</string>
     <string name="rec_fix_text">సరిచేయుటకు</string>
-    <string name="rec_free_space_text">అందుబాటులో ఉంది</string>
+    <string name="rec_available_space_text">అందుబాటులో ఉంది</string>
     <string name="rec_gps_status_satellites_few_text">ఉపగ్రహాలు</string>
     <string name="rec_gps_status_satellites_many_text">ఉపగ్రహాలు</string>
     <string name="rec_gps_status_satellites_one_text">ఉపగ్రహ</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">రికార్డింగ్ ప్రారంభమైంది</string>
     <string name="recording_voice_stopped_text">రికార్డింగ్ ఆగిపోయింది</string>
 
-    <string name="service_no_system_alert_window_granted_text">SYSTEM_ALERT_WINDOW అనుమతి (ఇతర అప్లికేషన్‌ల అన్ని విండోలపై ప్రదర్శించు) మంజూరు చేయనందున స్వయంచాలకంగా రికార్డింగ్‌ని ప్రారంభించడానికి /ఆపివేయడానికి Droid Dashcam సేవను ప్రారంభించడంలో విఫలమైంది. లేదా పరికరం ఈ సమయంలో లాక్ చేయబడింది (Android పరిమితి ఏమిటంటే, పరికరం తప్పనిసరిగా అన్‌లాక్ చేయబడాలి మరియు స్వయంచాలక వీడియో రికార్డింగ్ కోసం సేవను ప్రారంభించే ముందు దాని స్క్రీన్ తప్పనిసరిగా ఆన్ చేయబడాలి)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">\"అన్ని యాప్‌ల పైన చూపు\" అనుమతి మంజూరు చేయనందున రికార్డింగ్ ప్రారంభించడానికి యాప్ తెరవబడలేదు. అందించడానికి క్లిక్ చేయండి</string>
     <string name="service_watch_on_boot_completed_text">పరికరాన్ని ఆన్ చేస్తున్నప్పుడు</string>
 
     <string name="storage_external_single">మైక్రో SD కార్డ్</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">భవిష్యత్తులో కెమెరా ఎర్రర్‌లను నివారించడానికి మీ పరికర సెట్టింగ్‌లలో ఈ యాప్ కోసం బ్యాటరీ ఆప్టిమైజేషన్‌ని నిలిపివేయండి</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">సేవ నడుస్తున్నప్పుడు మాత్రమే ఆటోమేటిక్ రికార్డింగ్</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">మీరు ఈ ఎంపికను ప్రారంభిస్తే, పర్యవేక్షణ సేవ అమలులో లేకుంటే మరియు నోటిఫికేషన్ ప్యానెల్‌లో కనిపించకపోతే స్వయంచాలక రికార్డింగ్ నిర్వహించబడదు</string>
+    <string name="prefs_rules_auto_start_without_service_text">బ్యాక్‌గ్రౌండ్ సర్వీస్ (వాచర్) రన్ కానప్పటికీ ఆటోమేటిక్ రికార్డింగ్</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* మీరు ఈ ఎంపికను ఆఫ్ చేయవచ్చు, తద్వారా అప్లికేషన్ యొక్క బ్యాక్‌గ్రౌండ్ సర్వీస్ (వాచర్) రన్ అవుతున్నప్పుడు మాత్రమే అప్లికేషన్ ఆటోమేటిక్ రికార్డింగ్ చేస్తుంది.\n- ఛార్జింగ్, బ్లూటూత్ లేదా AUX వంటి ఈవెంట్‌ల కోసం ఆటోమేటిక్ రికార్డింగ్ Android 7.1 వరకు సమస్యలు లేకుండా నిర్వహించబడుతుంది.\n- Android 8 నుండి ప్రారంభించి, బ్యాక్‌గ్రౌండ్ అప్లికేషన్ సర్వీస్ (వాచర్) లేకుండా ఆటోమేటిక్ రికార్డింగ్ బ్లూటూత్ ఈవెంట్‌ల కోసం మాత్రమే నిర్వహించబడుతుంది మరియు ఇతర సందర్భాల్లో (ఛార్జింగ్ లేదా AUX ఉన్నప్పుడు) మీరు ముందుగా బ్యాక్‌గ్రౌండ్ అప్లికేషన్ సర్వీస్ (వాచర్)ని ప్రారంభించాలి - లాంచ్ చేయడం ద్వారా ఒకసారి అప్లికేషన్.\n- బ్యాక్‌గ్రౌండ్ యాప్ సర్వీస్ (వాచర్) లేకుండా Android 11తో ప్రారంభించి, ఫోన్ అన్‌లాక్ చేయబడి (స్క్రీన్ ఆన్) మరియు \"అన్ని యాప్‌ల పైన\" అనుమతి మంజూరు చేయబడితే మాత్రమే వినియోగదారు పరస్పర చర్య లేకుండా కెమెరాకు యాక్సెస్ సాధ్యమవుతుంది.\n- కాబట్టి, Android 11 మరియు అంతకంటే ఎక్కువ వెర్షన్ కోసం, మీరు అప్లికేషన్‌ను ఒకసారి మాన్యువల్‌గా ప్రారంభించాలి, తద్వారా అప్లికేషన్ యొక్క నేపథ్య సేవ (వాచర్) ఏదైనా ఈవెంట్‌ల సమయంలో మరియు ఫోన్ స్క్రీన్ ఆఫ్ చేయబడినప్పుడు స్వయంచాలకంగా రికార్డ్ చేయడం ప్రారంభమవుతుంది.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">దిగువన ఉపశీర్షికలు</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">నోటిఫికేషన్ ప్యానెల్‌లో బ్యాక్‌గ్రౌండ్ రికార్డింగ్ సర్వీస్ మరియు స్టేటస్‌లను ప్రదర్శించగలగడం అవసరం. సమర్పించడానికి క్లిక్ చేయండి</string>
     <string name="prefs_warning_notifications_text">నోటిఫికేషన్ అనుమతి</string>
 
-    <string name="donation_dlg_limited_ads_message_text">చిన్న విరాళాల కోసం, హోమ్ స్క్రీన్ కోసం మాత్రమే ప్రకటనలు తీసివేయబడతాయి</string>photo
+    <string name="donation_dlg_limited_ads_message_text">చిన్న విరాళాల కోసం, ప్రధాన స్క్రీన్‌పై మాత్రమే ప్రకటన తీసివేయబడుతుంది</string>photo
     <string name="photos_folder_name">ఫోటోలు</string>
 
     <string name="photos_count_one">ఫోటో</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">ఎంచుకున్న కెమెరాను తెరవడంలో విఫలమైంది. అన్ని దాచిన కెమెరాలు ఏ అప్లికేషన్ ద్వారా ఉపయోగించబడవు. చాలా మంది తయారీదారులు వారి స్థానిక అనువర్తనాల్లో మాత్రమే వాటి వినియోగాన్ని అనుమతిస్తారు. డిఫాల్ట్ కెమెరా తెరవబడుతుంది.</string>
 
-    <string name="videos_ask_which_player">ప్రతిసారీ ఏ ప్లేయర్‌లో ఆడాలని అడగండి\?</string>
+    <string name="videos_ask_which_player">ఏ ప్లేయర్‌లో ఆడాలో అడగండి</string>
 
     <string name="prefs_location_mode_text">GPS ప్రాధాన్యత (బ్యాటరీ లేదా ఖచ్చితత్వం)</string>
     <string name="prefs_location_mode_balanced_text">స్థాన ఖచ్చితత్వం (కోఆర్డినేట్లు), వేగం మరియు బ్యాటరీ శక్తి వినియోగం మధ్య బ్యాలెన్స్.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">ఏ మొత్తంలోనైనా ఒకేసారి విరాళం అందించడం ద్వారా ప్రకటనలను శాశ్వతంగా తీసివేయండి. మీరు ప్రకటనలను తీసివేయడానికి నెలవారీ ఎంత మొత్తాన్ని కూడా విరాళంగా ఇవ్వవచ్చు</string>
 
     <string name="prefs_audio_bt_recording_text">బ్లూటూత్ పరికరం నుండి ఆడియోను రికార్డ్ చేయండి</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">హెడ్ ​​యూనిట్ (కార్ రేడియో)తో ఉపయోగించవద్దు!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">బ్లూటూత్ హెడ్‌ఫోన్‌లతో మాత్రమే ఉపయోగించండి. మీరు బ్లూటూత్ ద్వారా హెడ్ యూనిట్ (కార్ రేడియో)కి కనెక్ట్ చేస్తే, కొన్ని కారణాల వల్ల ఇది స్వయంచాలకంగా ఈ పరికరంలోని ప్రామాణిక నంబర్‌కు ఫోన్ కాల్‌ని ట్రిగ్గర్ చేయవచ్చు</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">బ్లూటూత్ కనెక్షన్‌ల ద్వారా ఆటోమేటిక్ రికార్డింగ్‌కు అనుమతి అవసరం. సమర్పించడానికి ఇక్కడ క్లిక్ చేయండి</string>
+    <string name="prefs_warning_permission_bluetooth_text">బ్లూటూత్ అనుమతి మంజూరు కాలేదు</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">స్క్రీన్ ఆఫ్ చేయబడినందున (లాక్ చేయబడింది) రికార్డింగ్ ప్రారంభించడానికి అప్లికేషన్ తెరవబడలేదు. దీన్ని పరిష్కరించడానికి బ్యాక్‌గ్రౌండ్ రికార్డింగ్ సర్వీస్ (వాచర్)ని అమలు చేయండి.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">స్క్రీన్ ఆఫ్ చేయబడినందున (లాక్ చేయబడింది) అప్లికేషన్ తెరవబడలేదు.</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">\"అన్ని అప్లికేషన్‌ల పైన చూపు\" అనుమతి మంజూరు చేయనందున పేర్కొన్న అప్లికేషన్ స్వయంచాలకంగా తెరవడానికి ప్రారంభించబడదు.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">స్వయంచాలక ఈవెంట్ రికార్డింగ్ కోసం మీరు తప్పనిసరిగా సమీపంలోని పరికరాల (బ్లూటూత్) అనుమతిని మంజూరు చేయాలి. ఇది అప్లికేషన్ యొక్క సిస్టమ్ సెట్టింగ్‌లలో చేయవచ్చు.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">నోటిఫికేషన్ ప్యానెల్‌లో నేపథ్య రికార్డింగ్ సేవ మరియు రికార్డింగ్ స్థితిని ప్రదర్శించడానికి నోటిఫికేషన్‌లు అవసరం.</string>
+
+    
 </resources>

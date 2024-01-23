@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Камера бейне жазу және камераны алдын ала қарау үшін қажет.</string>
     <string name="permission_camera_dlg_title">Камера ажыратымдылығы</string>
     <string name="permission_camera_request_canceled">Бұл қолданба бейне жазу үшін камераны пайдалануға рұқсатты қажет етеді. Бірақ сіз одан бас тарттыңыз. Жабуда… Осы қолданбаның жүйелік параметрлерінде камераға рұқсат беріп көріңіз</string>
-    <string name="permission_location_dlg_explanation_msg">Кішірейткен кезде Droid Dashcam жазылған бейнеде координаттарды, мекенжайды және жылдамдықты сызу үшін фондық орынды пайдаланады.</string>
+    <string name="permission_location_dlg_explanation_msg">Орын жазылған бейнеде координаттарды, мекенжайды және жылдамдықты сызу немесе бұл деректерді негізгі экранда көрсету үшін қажет (параметрлеріңізге байланысты).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Android 11 (R) жүйесінде орынға фондық режимде рұқсат беру үшін жүйе теңшелімдерінде «Әр уақытта (кез келген режим)» опциясын қолмен таңдау керек. Параметрлер осы терезеден кейін ашылады.</string>
     <string name="permission_location_dlg_msg">Орналасқан жер GPS деректерін пайдаланып тасымалдау жылдамдығын, ағымдағы мекенжайды және экранда көрсету және бейнеге субтитрлерді жазу үшін координаттарды анықтау үшін қажет</string>
     <string name="permission_location_dlg_title">Орналасу рұқсаты</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Автоматты</string>
     <string name="rec_fix_short_text">Түзету үшін</string>
     <string name="rec_fix_text">Түзету үшін</string>
-    <string name="rec_free_space_text">Қол жетімді</string>
+    <string name="rec_available_space_text">Қол жетімді</string>
     <string name="rec_gps_status_satellites_few_text">спутниктер</string>
     <string name="rec_gps_status_satellites_many_text">спутниктер</string>
     <string name="rec_gps_status_satellites_one_text">спутник</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Жазу басталды</string>
     <string name="recording_voice_stopped_text">Жазу тоқтатылды</string>
 
-    <string name="service_no_system_alert_window_granted_text">Жазуды автоматты түрде бастау/тоқтату үшін Droid Dashcam қызметін іске қосу мүмкін болмады, себебі SYSTEM_ALERT_WINDOW рұқсаты (басқа қолданбалардың барлық терезелерінен көрсету) берілмеді. Немесе құрылғы осы кезде құлыпталған (Android шектеуі - автоматты бейне жазу қызметін іске қоспас бұрын алдымен құрылғы құлпын ашу және оның экраны қосулы болуы керек)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Жазуды бастау үшін қолданбаны ашу мүмкін болмады, себебі \"барлық қолданбалардың үстінде көрсету\" рұқсаты берілмеді. Қамтамасыз ету үшін басыңыз</string>
     <string name="service_watch_on_boot_completed_text">Құрылғыны қосқан кезде</string>
 
     <string name="storage_external_single">MicroSD картасы</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Болашақ камера қателерін болдырмау үшін құрылғы параметрлерінде осы қолданба үшін батареяны оңтайландыруды өшіріңіз</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Қызмет жұмыс істеп тұрғанда ғана автоматты жазу</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Бұл опцияны қоссаңыз, бақылау қызметі іске қосылмаса және хабарландыру тақтасында көрінбесе, автоматты жазу орындалмайды.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Фондық қызмет (Watcher) іске қосылмаса да, автоматты жазу</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Қолданбаның фондық қызметі (Watcher) жұмыс істеп тұрғанда ғана қолданба автоматты жазуды орындауы үшін бұл опцияны өшіруге болады.\n- Зарядтау, Bluetooth немесе AUX сияқты оқиғаларды автоматты түрде жазуды Android 7.1 нұсқасына дейін еш қиындықсыз орындауға болады.\n- Android 8 жүйесінен бастап фондық қолданба қызметінсіз (Watcher) автоматты жазуды тек Bluetooth оқиғалары үшін орындауға болады, ал басқа жағдайларда (зарядтау немесе AUX кезінде) алдымен фондық қолданба қызметін (Watcher) іске қосу керек - қолданбаның өзі бір рет.\n- Фондық қолданба қызметі (Watcher) жоқ Android 11 жүйесінен бастап камераға пайдаланушының араласуынсыз қол жеткізу телефон құлпы ашылған (экран қосулы) және «барлық қолданбалардың үстіне» рұқсаты берілген жағдайда ғана мүмкін болады.\n- Осылайша, Android 11 және одан жоғары нұсқалары үшін қолданбаның фондық қызметі (Watcher) кез келген оқиғалар кезінде және телефон экраны өшірілген кезде автоматты түрде жаза бастауы үшін қолданбаны бір рет қолмен іске қосу керек.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Төменгі жағындағы субтитрлер</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Фондық жазу қызметі мен күйлерді хабарландыру тақтасында көрсете алу үшін қажет. Жіберу үшін басыңыз</string>
     <string name="prefs_warning_notifications_text">Хабарландыру рұқсаты</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Кішігірім қайырымдылықтар үшін жарнамалар тек негізгі экран үшін жойылады</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Кішігірім қайырымдылықтар үшін жарнама тек негізгі экранда жойылады</string>photo
     <string name="photos_folder_name">Фотосуреттер</string>
 
     <string name="photos_count_one">фото</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Таңдалған камераны ашу мүмкін болмады. Жасырын камералардың барлығын кез келген қолданба пайдалана алмайды. Көптеген өндірушілер оларды тек өздерінің жергілікті қолданбаларында пайдалануға рұқсат береді. Әдепкі камера ашылады.</string>
 
-    <string name="videos_ask_which_player">Қай ойыншыда ойнау керектігін сұраңыз ба\?</string>
+    <string name="videos_ask_which_player">Қай ойыншыда ойнау керектігін сұраңыз</string>
 
     <string name="prefs_location_mode_text">GPS басымдылығы (батарея немесе дәлдік)</string>
     <string name="prefs_location_mode_balanced_text">Орын дәлдігі (координаттар), жылдамдық және батарея қуатын тұтыну арасындағы теңгерім.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Кез келген соманы бір реттік қайырымдылықпен жарнамаларды біржола алып тастаңыз. Сондай-ақ, жарнамаларды жою үшін ай сайын кез келген соманы беруге болады</string>
 
     <string name="prefs_audio_bt_recording_text">Bluetooth құрылғысынан дыбыс жазу</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Бас бөлігімен (автомобиль радиосы) пайдаланбаңыз!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Тек Bluetooth құлақаспаптарымен пайдаланыңыз. Егер сіз Bluetooth арқылы бас құрылғыға (көлік радиосы) қосылсаңыз, қандай да бір себептермен бұл құрылғыдағы стандартты нөмірге телефон қоңырауын автоматты түрде бастауы мүмкін.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Bluetooth қосылымдары арқылы автоматты жазу рұқсатты қажет етеді. Жіберу үшін осы жерді басыңыз</string>
+    <string name="prefs_warning_permission_bluetooth_text">Bluetooth рұқсаты берілмеді</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Жазуды бастау үшін қолданбаны ашу мүмкін болмады, себебі экран өшірілген (құлыпталған). Мұны түзету үшін фондық жазу қызметін (Watcher) іске қосыңыз.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Қолданбаны ашу мүмкін болмады, себебі экран өшірілген (құлыпталған).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Көрсетілген қолданбаны автоматты түрде ашу үшін іске қосу мүмкін болмады, себебі «барлық қолданбалардың үстінен көрсету» рұқсаты берілмеді.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Оқиғаларды автоматты түрде жазу үшін Nearby Devices (Bluetooth) рұқсатын беруіңіз керек. Мұны қолданбаның жүйелік параметрлерінде жасауға болады.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Хабарландырулар хабарландыру тақтасында фондық жазу қызметін және жазу күйін көрсете алу үшін қажет.</string>
+
+    
 </resources>

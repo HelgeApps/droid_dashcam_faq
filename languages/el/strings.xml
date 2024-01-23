@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Η κάμερα απαιτείται για εγγραφή βίντεο και προεπισκόπηση κάμερας.</string>
     <string name="permission_camera_dlg_title">Ανάλυση κάμερας</string>
     <string name="permission_camera_request_canceled">Αυτή η εφαρμογή απαιτεί άδεια χρήσης της κάμερας για εγγραφή βίντεο. Αλλά το απέρριψες. Κλείσιμο… Προσπαθήστε να παραχωρήσετε άδεια στην κάμερα στις ρυθμίσεις συστήματος αυτής της εφαρμογής</string>
-    <string name="permission_location_dlg_explanation_msg">Όταν ελαχιστοποιείται, το Droid Dashcam χρησιμοποιεί την τοποθεσία στο παρασκήνιο για να σχεδιάσει συντεταγμένες, διεύθυνση και ταχύτητα στο εγγεγραμμένο βίντεο.</string>
+    <string name="permission_location_dlg_explanation_msg">Η τοποθεσία απαιτείται για να σχεδιάσετε συντεταγμένες, διεύθυνση και ταχύτητα στο εγγεγραμμένο βίντεο ή για να εμφανίσετε αυτά τα δεδομένα στην κύρια οθόνη (ανάλογα με τις ρυθμίσεις σας).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Στο Android 11 (R), πρέπει να επιλέξετε χειροκίνητα \"Όλη την ώρα (οποιαδήποτε λειτουργία)\" στις προτιμήσεις συστήματος για να επιτρέψετε την τοποθεσία στο παρασκήνιο. Οι ρυθμίσεις θα ανοίξουν μετά από αυτό το παράθυρο.</string>
     <string name="permission_location_dlg_msg">Η τοποθεσία είναι απαραίτητη για τον προσδιορισμό της ταχύτητας μεταφοράς χρησιμοποιώντας δεδομένα GPS, την τρέχουσα διεύθυνση και τις συντεταγμένες για εμφάνιση στην οθόνη και για εγγραφή υπότιτλων σε βίντεο</string>
     <string name="permission_location_dlg_title">Άδεια τοποθεσίας</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Αυτο</string>
     <string name="rec_fix_short_text">Να διορθώσει</string>
     <string name="rec_fix_text">Να διορθώσει</string>
-    <string name="rec_free_space_text">Διαθέσιμος</string>
+    <string name="rec_available_space_text">Διαθέσιμος</string>
     <string name="rec_gps_status_satellites_few_text">δορυφόρους</string>
     <string name="rec_gps_status_satellites_many_text">δορυφόρους</string>
     <string name="rec_gps_status_satellites_one_text">δορυφόρος</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Η ηχογράφηση ξεκίνησε</string>
     <string name="recording_voice_stopped_text">Η εγγραφή σταμάτησε</string>
 
-    <string name="service_no_system_alert_window_granted_text">Απέτυχε η εκκίνηση της υπηρεσίας Droid Dashcam για αυτόματη έναρξη/διακοπή της εγγραφής επειδή δεν παραχωρήθηκε άδεια SYSTEM_ALERT_WINDOW (εμφάνιση σε όλα τα παράθυρα άλλων εφαρμογών). Ή η συσκευή ήταν κλειδωμένη σε αυτό το σημείο (ο περιορισμός στο Android είναι ότι η συσκευή πρέπει πρώτα να ξεκλειδωθεί και να ενεργοποιηθεί η οθόνη της πριν ξεκινήσει η υπηρεσία αυτόματης εγγραφής βίντεο)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Δεν ήταν δυνατό να ανοίξει η εφαρμογή για να ξεκινήσει η εγγραφή επειδή δεν παραχωρήθηκε η άδεια \"εμφάνιση πάνω από όλες τις εφαρμογές\". Κάντε κλικ για παροχή</string>
     <string name="service_watch_on_boot_completed_text">Κατά την ενεργοποίηση της συσκευής</string>
 
     <string name="storage_external_single">Κάρτα MicroSD</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Απενεργοποιήστε τη βελτιστοποίηση μπαταρίας για αυτήν την εφαρμογή στις ρυθμίσεις της συσκευής σας για να αποφύγετε μελλοντικά σφάλματα κάμερας</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Αυτόματη εγγραφή μόνο όταν εκτελείται η υπηρεσία</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Εάν ενεργοποιήσετε αυτήν την επιλογή, τότε η αυτόματη εγγραφή δεν θα εκτελεστεί εάν η υπηρεσία παρακολούθησης δεν εκτελείται και δεν είναι ορατή στον πίνακα ειδοποιήσεων</string>
+    <string name="prefs_rules_auto_start_without_service_text">Αυτόματη εγγραφή ακόμα κι αν δεν εκτελείται η υπηρεσία παρασκηνίου (Watcher).</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Μπορείτε να απενεργοποιήσετε αυτήν την επιλογή, ώστε η εφαρμογή να πραγματοποιεί αυτόματη εγγραφή μόνο εάν εκτελείται η υπηρεσία παρασκηνίου της εφαρμογής (Watcher).\n- Η αυτόματη εγγραφή συμβάντων όπως φόρτιση, Bluetooth ή AUX μπορεί να πραγματοποιηθεί χωρίς προβλήματα έως το Android 7.1.\n- Ξεκινώντας από το Android 8, η αυτόματη εγγραφή χωρίς υπηρεσία εφαρμογών παρασκηνίου (Watcher) μπορεί να πραγματοποιηθεί μόνο για συμβάντα Bluetooth και σε άλλες περιπτώσεις (κατά τη φόρτιση ή AUX) πρέπει πρώτα να ξεκινήσετε την υπηρεσία εφαρμογής παρασκηνίου (Watcher) - εκκινώντας το η ίδια η εφαρμογή μία φορά.\n- Ξεκινώντας με το Android 11 χωρίς την υπηρεσία εφαρμογών παρασκηνίου (Watcher), η πρόσβαση στην κάμερα χωρίς αλληλεπίδραση με τον χρήστη είναι δυνατή μόνο εάν το τηλέφωνο είναι ξεκλείδωτο (οθόνη ενεργή) και παραχωρηθεί άδεια \"πάνω από όλες τις εφαρμογές\".\n- Έτσι, για Android 11 και νεότερη έκδοση, πρέπει να εκκινήσετε χειροκίνητα την εφαρμογή μία φορά, ώστε η υπηρεσία παρασκηνίου της εφαρμογής (Watcher) να αρχίσει να καταγράφει αυτόματα κατά τη διάρκεια τυχόν συμβάντων και όταν η οθόνη του τηλεφώνου είναι απενεργοποιημένη.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Υπότιτλοι στο κάτω μέρος</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Απαιτείται για να είναι δυνατή η εμφάνιση της υπηρεσίας εγγραφής στο παρασκήνιο και των καταστάσεων στον πίνακα ειδοποιήσεων. Κάντε κλικ για υποβολή</string>
     <string name="prefs_warning_notifications_text">Άδεια ειδοποίησης</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Για μικρότερες δωρεές, οι διαφημίσεις καταργούνται μόνο για την αρχική οθόνη</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Για μικρότερες δωρεές, η διαφήμιση αφαιρείται μόνο στην κύρια οθόνη</string>photo
     <string name="photos_folder_name">Φωτογραφίες</string>
 
     <string name="photos_count_one">φωτογραφία</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Αποτυχία ανοίγματος της επιλεγμένης κάμερας. Συμβαίνει ότι δεν μπορούν να χρησιμοποιηθούν όλες οι κρυφές κάμερες από οποιαδήποτε εφαρμογή. Πολλοί κατασκευαστές επιτρέπουν τη χρήση τους μόνο στις εγγενείς εφαρμογές τους. Θα ανοίξει η προεπιλεγμένη κάμερα.</string>
 
-    <string name="videos_ask_which_player">Ρωτήστε σε ποιον παίκτη να παίξετε κάθε φορά;</string>
+    <string name="videos_ask_which_player">Ρωτήστε σε ποιον παίκτη να παίξετε</string>
 
     <string name="prefs_location_mode_text">Προτεραιότητα GPS (Μπαταρία ή Ακρίβεια)</string>
     <string name="prefs_location_mode_balanced_text">Ισορροπία μεταξύ της ακρίβειας τοποθεσίας (συντεταγμένες), της ταχύτητας και της κατανάλωσης ενέργειας της μπαταρίας.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Καταργήστε τις διαφημίσεις για πάντα με μια εφάπαξ δωρεά οποιουδήποτε ποσού. Μπορείτε επίσης να δωρίσετε οποιοδήποτε ποσό μηνιαίως για την κατάργηση διαφημίσεων</string>
 
     <string name="prefs_audio_bt_recording_text">Εγγραφή ήχου από συσκευή Bluetooth</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Μη χρησιμοποιείτε με κεντρική μονάδα (ραδιόφωνο αυτοκινήτου)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Χρησιμοποιήστε μόνο με ακουστικά Bluetooth. Εάν συνδεθείτε στην κεντρική μονάδα (ραδιόφωνο αυτοκινήτου) μέσω Bluetooth, τότε για κάποιο λόγο αυτό μπορεί να ενεργοποιήσει αυτόματα μια τηλεφωνική κλήση στον τυπικό αριθμό αυτής της συσκευής</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Η αυτόματη εγγραφή μέσω συνδέσεων Bluetooth απαιτεί άδεια. Κάντε κλικ εδώ για υποβολή</string>
+    <string name="prefs_warning_permission_bluetooth_text">Δεν έχει χορηγηθεί άδεια Bluetooth</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Δεν ήταν δυνατό να ανοίξει η εφαρμογή για να ξεκινήσει η εγγραφή επειδή η οθόνη ήταν απενεργοποιημένη (κλειδωμένη). Εκτελέστε μια υπηρεσία εγγραφής στο παρασκήνιο (Watcher) για να το διορθώσετε.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Δεν ήταν δυνατό να ανοίξει η εφαρμογή επειδή η οθόνη ήταν απενεργοποιημένη (κλειδωμένη).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Δεν ήταν δυνατή η εκκίνηση της καθορισμένης εφαρμογής για να ανοίξει αυτόματα επειδή δεν παραχωρήθηκε η άδεια \"εμφάνιση πάνω από όλες τις εφαρμογές\".</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Πρέπει να εκχωρήσετε άδεια σε κοντινές συσκευές (Bluetooth) για αυτόματη εγγραφή συμβάντων. Αυτό μπορεί να γίνει στις ρυθμίσεις συστήματος της εφαρμογής.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Απαιτούνται ειδοποιήσεις για να είναι δυνατή η εμφάνιση της υπηρεσίας εγγραφής στο παρασκήνιο και της κατάστασης εγγραφής στον πίνακα ειδοποιήσεων.</string>
+
+    
 </resources>

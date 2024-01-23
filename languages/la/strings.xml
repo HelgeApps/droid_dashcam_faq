@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Camera requiritur ad recordationem video et ad cameram praevisum.</string>
     <string name="permission_camera_dlg_title">Camera resolutio</string>
     <string name="permission_camera_request_canceled">Haec applicationis licentia utendi cameram video recordari. Sed demisisti. Claudendo… Conare licentiam concedere camerae in systematis occasus huius applicationis</string>
-    <string name="permission_location_dlg_explanation_msg">Cum elevatis, Droid Dashcam loco in curriculo utitur ut coordinatas, electronicas et celeritates coordinatas hauriat.</string>
+    <string name="permission_location_dlg_explanation_msg">Locus necessarius est ut coordinatas, electronicas et celeritates electronicas in video electronicas edas, vel hanc notitias in screen principali (prout in uncinis tuis ostendas).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Die Android 11 (R), debes manually eligere \"Omne tempus (quolibet modo)\" in optionibus systematis ut locum in curriculo permittant. Occasus post hanc fenestram aperiet.</string>
     <string name="permission_location_dlg_msg">Locus necessarius est ad celeritatem transportandi utendi GPS datae, inscriptionis hodiernae et coordinatae ad ostentationem in velo et ad subtitles notandas in video.</string>
     <string name="permission_location_dlg_title">Locus permission</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">Ad corrigere</string>
     <string name="rec_fix_text">Ad corrigere</string>
-    <string name="rec_free_space_text">Praesto</string>
+    <string name="rec_available_space_text">Praesto</string>
     <string name="rec_gps_status_satellites_few_text">satellitum</string>
     <string name="rec_gps_status_satellites_many_text">satellitum</string>
     <string name="rec_gps_status_satellites_one_text">satellite</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Recordatio incepit</string>
     <string name="recording_voice_stopped_text">Recordatio cessaverunt</string>
 
-    <string name="service_no_system_alert_window_granted_text">Droid Dashcam munus incipere non potuit ut statim incipere /scribere desinat quod SYSTEM_ALERT_WINDOW permissio (praestatio super omnes fenestras aliarum applicationum) non concessa est. Vel fabrica hoc in loco clausum est (strictio Android est ut primum aperiatur fabrica et eius tegumentum flectatur ante servitium video recordationis automatice iniri posse)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">App aperiri non potuit ad recordationem committitur quia \"ostendunt super omnia apps\" permissio non concessa est. Click to provide</string>
     <string name="service_watch_on_boot_completed_text">Cum conversus in fabrica</string>
 
     <string name="storage_external_single">MicroSD card</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Inactivare altilium ipsum hoc app in tuom occasus ne futuri camera errores</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Lorem memoria solum cum servitium currit</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Si hanc optionem facere potes, tunc automatice memoria non fiet si ministerium vigilantium non currit nec in notificatione tabella apparet.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Lorem recordationem etiamsi servitium curriculi (Custocle) non currit</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Hanc optionem averte potes ut application memoria automatice exerceat tantum si applicationis curriculi ministerium (Watcher) currit.\n- Automatica recordatio pro eventis, sicut incurrens, Bluetooth vel AUX perfici potest sine problematibus usque ad Android 7.1.\n- Incipiens a Android VIII, autocineto recordatio sine curriculo applicationis muneris (Watcher) solum praestari potest pro eventibus Bluetooth, et in aliis casibus (cum impetu vel AUX) debes ut primum in curriculo applicationis servitium (Watcher) - deducendo applicatio ipsa semel.\n- Satus cum Android 11 sine curriculo app servitii (Watcher), accessus ad cameram sine commercio usoris tantum fieri potest si telephonum reclusum est (tegumentum) et \"super omnia apps\" permissio conceditur.\n- Sic, pro Android 11 et superius, necesse est semel applicationem manualem mittere ut curriculum applicationis (Watcher) in quolibet eventuum rerum automatice recordari incipiat et cum in telephonum velum avertit.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Subtitles in fundo</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Requiritur ut in background recording servitii et status status in notificatione panel ostendere possit. Click to submittere</string>
     <string name="prefs_warning_notifications_text">Notification Permission</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Pro minoribus donationibus adscriptiones tolluntur pro screen domus tantum</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Pro minoribus donationibus, vendo tantum in velamento principali removetur</string>photo
     <string name="photos_folder_name">Photos</string>
 
     <string name="photos_count_one">photo</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Aperiam delectus diam. Ita fit ut non omnes camerae occultae ullo applicatione uti possint. Multi artifices solum usum in applicationibus patriis admittunt. Defalta camera aperiet.</string>
 
-    <string name="videos_ask_which_player">Quaeritur in quo ludio ludius ludere omni tempore\?</string>
+    <string name="videos_ask_which_player">Quaeritur quod ludio ludius ludere in</string>
 
     <string name="prefs_location_mode_text">GPS prioritate (altilium vel accuratio)</string>
     <string name="prefs_location_mode_balanced_text">Libra inter locum accurationis (coordinatarum), celeritas et consummatio potentiae altilium.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Aufer praeconium in perpetuum cum uno tempore donationis alicuius quantitatis. Quantumlibet menstrua ad tollendum ads dare potes</string>
 
     <string name="prefs_audio_bt_recording_text">Record audio ex Bluetooth fabrica</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Noli uti cum capite unitatis (radio currus)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Tantum utere cum Bluetooth headphones. Si ad caput unitatis (car radio) per Bluetooth coniungis, aliqua de causa hoc potest automatice trigger phone vocationem ad numerum vexillum de hac arte</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Automatic recordatio per nexus Bluetooth permissionem requirit. Hic strepita ut submittere</string>
+    <string name="prefs_warning_permission_bluetooth_text">Bluetooth permission non datur</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Applicatio aperiri non potuit ad recordationem committitur, quia screen submovebatur (clausum). Curre in background recordationem muneris (Watcher) ut hoc figere.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Applicatio aperiri non potuit, quia velum submovebatur (clausum).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Certum applicatio ad aperiendum automatice deduci non potuit quia \"ostende super omnibus applicationibus\" permissio concessa est.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Prope machinis (Bluetooth) licentiam concedere debes pro memoria eventu latae sententiae. Hoc fieri potest in schedula applicationis occasus.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Notificationes requiruntur ut in curriculo recordationis servitium ac statum in notificatione tabula notificationis ostendere possint.</string>
+
+    
 </resources>

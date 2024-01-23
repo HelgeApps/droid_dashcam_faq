@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Camera este necesară pentru înregistrarea video și previzualizarea camerei.</string>
     <string name="permission_camera_dlg_title">Rezoluția camerei</string>
     <string name="permission_camera_request_canceled">Această aplicație necesită permisiunea de a utiliza camera pentru a înregistra videoclipuri. Dar ai refuzat-o. Închidere… Încercați să acordați permisiunea camerei în setările de sistem ale acestei aplicații</string>
-    <string name="permission_location_dlg_explanation_msg">Când este minimizată, Droid Dashcam folosește locația din fundal pentru a desena coordonatele, adresa și viteza pe videoclipul înregistrat.</string>
+    <string name="permission_location_dlg_explanation_msg">Locația este necesară pentru a desena coordonatele, adresa și viteza pe videoclipul înregistrat sau pentru a afișa aceste date pe ecranul principal (în funcție de setările dvs.).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Pe Android 11 (R), trebuie să selectați manual „Tot timpul (orice mod)” în preferințele de sistem pentru a permite locația în fundal. Setările se vor deschide după această fereastră.</string>
     <string name="permission_location_dlg_msg">Locația este necesară pentru a determina viteza de transport folosind datele GPS, adresa curentă și coordonatele pentru afișare pe ecran și pentru înregistrarea subtitrarilor pe video</string>
     <string name="permission_location_dlg_title">Permisiune de locație</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">A corecta</string>
     <string name="rec_fix_text">A corecta</string>
-    <string name="rec_free_space_text">Disponibil</string>
+    <string name="rec_available_space_text">Disponibil</string>
     <string name="rec_gps_status_satellites_few_text">sateliți</string>
     <string name="rec_gps_status_satellites_many_text">sateliți</string>
     <string name="rec_gps_status_satellites_one_text">satelit</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Înregistrarea a început</string>
     <string name="recording_voice_stopped_text">Înregistrarea sa oprit</string>
 
-    <string name="service_no_system_alert_window_granted_text">Nu s-a pornit serviciul Droid Dashcam pentru a porni/opri automat înregistrarea deoarece permisiunea SYSTEM_ALERT_WINDOW (afișare peste toate ferestrele altor aplicații) nu a fost acordată. Sau dispozitivul a fost blocat în acest moment (restricția Android este că dispozitivul trebuie mai întâi deblocat și ecranul său trebuie să fie pornit înainte ca serviciul de înregistrare video automată să poată fi pornit)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Aplicația nu a putut fi deschisă pentru a începe înregistrarea deoarece nu a fost acordată permisiunea „afișați deasupra tuturor aplicațiilor”. Faceți clic pentru a furniza</string>
     <string name="service_watch_on_boot_completed_text">La pornirea dispozitivului</string>
 
     <string name="storage_external_single">Card microSD</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Dezactivați optimizarea bateriei pentru această aplicație în setările dispozitivului dvs. pentru a evita erorile viitoare ale camerei</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Înregistrare automată numai când serviciul rulează</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Dacă activați această opțiune, atunci înregistrarea automată nu va fi efectuată dacă serviciul de monitorizare nu rulează și nu este vizibil în panoul de notificări</string>
+    <string name="prefs_rules_auto_start_without_service_text">Înregistrare automată chiar dacă serviciul de fundal (Watcher) nu rulează</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Puteți dezactiva această opțiune astfel încât aplicația să efectueze înregistrarea automată numai dacă rulează serviciul de fundal al aplicației (Watcher).\n- Înregistrarea automată pentru evenimente precum încărcare, Bluetooth sau AUX poate fi efectuată fără probleme până la Android 7.1.\n- Începând de la Android 8, înregistrarea automată fără un serviciu de aplicație în fundal (Watcher) poate fi efectuată numai pentru evenimente Bluetooth, iar în alte cazuri (la încărcare sau AUX) trebuie să porniți mai întâi serviciul de aplicație în fundal (Watcher) - prin lansarea aplicația în sine o singură dată.\n- Începând cu Android 11 fără serviciul de aplicație în fundal (Watcher), accesul la cameră fără interacțiunea utilizatorului este posibil numai dacă telefonul este deblocat (ecranul aprins) și este acordată permisiunea „pe deasupra tuturor aplicațiilor”.\n- Astfel, pentru Android 11 și versiuni ulterioare, trebuie să lansați manual aplicația o dată, astfel încât serviciul de fundal al aplicației (Watcher) să înceapă să înregistreze automat în timpul oricăror evenimente și când ecranul telefonului este oprit.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Subtitrări în partea de jos</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Este necesar pentru a putea afișa serviciul de înregistrare în fundal și stările pe panoul de notificare. Faceți clic pentru a trimite</string>
     <string name="prefs_warning_notifications_text">Permisiune de notificare</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Pentru donații mai mici, reclamele sunt eliminate numai pentru ecranul de pornire</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Pentru donații mai mici, publicitatea este eliminată doar pe ecranul principal</string>photo
     <string name="photos_folder_name">Fotografii</string>
 
     <string name="photos_count_one">fotografie</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Nu s-a putut deschide camera selectată. Se întâmplă că nu toate camerele ascunse pot fi folosite de orice aplicație. Mulți producători permit utilizarea lor numai în aplicațiile lor native. Se va deschide camera implicită.</string>
 
-    <string name="videos_ask_which_player">Întrebați în ce jucător să jucați de fiecare dată\?</string>
+    <string name="videos_ask_which_player">Întrebați în ce jucător să jucați</string>
 
     <string name="prefs_location_mode_text">Prioritate GPS (baterie sau precizie)</string>
     <string name="prefs_location_mode_balanced_text">Echilibru între precizia locației (coordonate), viteză și consumul de energie al bateriei.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Eliminați reclamele pentru totdeauna cu o donație unică de orice sumă. De asemenea, puteți dona orice sumă lunar pentru a elimina reclamele</string>
 
     <string name="prefs_audio_bt_recording_text">Înregistrați sunet de pe un dispozitiv Bluetooth</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Nu utilizați cu unitatea principală (radio auto)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Utilizați numai cu căști Bluetooth. Dacă vă conectați la unitatea principală (radio auto) prin Bluetooth, atunci din anumite motive, acest lucru poate declanșa automat un apel telefonic la numărul standard de pe acest dispozitiv</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Înregistrarea automată prin conexiuni Bluetooth necesită permisiune. Click aici pentru a trimite</string>
+    <string name="prefs_warning_permission_bluetooth_text">Permisiunea Bluetooth nu a fost acordată</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Aplicația nu a putut fi deschisă pentru a începe înregistrarea deoarece ecranul a fost oprit (blocat). Rulați un serviciu de înregistrare în fundal (Watcher) pentru a remedia acest lucru.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Aplicația nu a putut fi deschisă deoarece ecranul a fost oprit (blocat).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Aplicația specificată nu a putut fi lansată pentru a se deschide automat, deoarece permisiunea „afișați deasupra tuturor aplicațiilor” nu a fost acordată.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Trebuie să acordați permisiunea Dispozitivelor din apropiere (Bluetooth) pentru înregistrarea automată a evenimentelor. Acest lucru se poate face în setările de sistem ale aplicației.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Notificările sunt necesare pentru a putea afișa serviciul de înregistrare în fundal și starea înregistrării în panoul de notificări.</string>
+
+    
 </resources>

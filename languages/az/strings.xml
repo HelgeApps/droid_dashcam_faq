@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Video çəkiliş və kameraya ön baxış üçün kamera tələb olunur.</string>
     <string name="permission_camera_dlg_title">Kamera qətnaməsi</string>
     <string name="permission_camera_request_canceled">Bu proqram video yazmaq üçün kameradan istifadə etmək üçün icazə tələb edir. Amma siz ondan imtina etdiniz. Bağlanır… Bu proqramın sistem parametrlərində kameraya icazə verməyə çalışın</string>
-    <string name="permission_location_dlg_explanation_msg">Minimumlaşdırıldıqda, Droid Dashcam qeydə alınmış videoda koordinatları, ünvanları və sürəti çəkmək üçün fonda olan yerdən istifadə edir.</string>
+    <string name="permission_location_dlg_explanation_msg">Məkan qeyd olunan videoda koordinatları, ünvanı və sürəti çəkmək və ya bu məlumatları əsas ekranda göstərmək üçün lazımdır (parametrlərinizdən asılı olaraq).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Android 11 (R)-də arxa planda məkana icazə vermək üçün sistem seçimlərində \"Hər zaman (istənilən rejim)\" seçimini əl ilə etməlisiniz. Bu pəncərədən sonra parametrlər açılacaq.</string>
     <string name="permission_location_dlg_msg">Yer GPS məlumatlarından istifadə edərək nəqliyyatın sürətini, cari ünvanı və ekranda göstərmək və videoda altyazıları qeyd etmək üçün koordinatları müəyyən etmək üçün lazımdır.</string>
     <string name="permission_location_dlg_title">Məkan icazəsi</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Avtomatik</string>
     <string name="rec_fix_short_text">Düzəltmək</string>
     <string name="rec_fix_text">Düzəltmək</string>
-    <string name="rec_free_space_text">Mövcuddur</string>
+    <string name="rec_available_space_text">Mövcuddur</string>
     <string name="rec_gps_status_satellites_few_text">peyklər</string>
     <string name="rec_gps_status_satellites_many_text">peyklər</string>
     <string name="rec_gps_status_satellites_one_text">peyk</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Qeydiyyata başlanılıb</string>
     <string name="recording_voice_stopped_text">Qeydiyyat dayandırıldı</string>
 
-    <string name="service_no_system_alert_window_granted_text">SYSTEM_ALERT_WINDOW icazəsi (digər proqramların bütün pəncərələrində göstərmə) verilmədiyi üçün qeydi avtomatik başlatmaq/dayandırmaq üçün Droid Dashcam xidmətini işə salmaq mümkün olmadı. Və ya cihaz bu anda kilidlənib (Android məhdudiyyəti ondan ibarətdir ki, avtomatik video çəkiliş xidməti başlamazdan əvvəl cihazın ilk olaraq kilidi açılmalı və onun ekranı açılmalıdır)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">\"Bütün proqramların üstündə göstər\" icazəsi verilmədiyi üçün tətbiqi qeyd etməyə başlamaq mümkün olmadı. Təmin etmək üçün klikləyin</string>
     <string name="service_watch_on_boot_completed_text">Cihazı işə saldıqda</string>
 
     <string name="storage_external_single">MicroSD kart</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Gələcək kamera xətalarının qarşısını almaq üçün cihaz ayarlarınızda bu proqram üçün batareyanın optimallaşdırılmasını söndürün</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Yalnız xidmət işləyərkən avtomatik qeyd</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Bu seçimi aktiv etsəniz, monitorinq xidməti işləmirsə və bildiriş panelində görünmürsə, avtomatik qeyd həyata keçirilməyəcək</string>
+    <string name="prefs_rules_auto_start_without_service_text">Fon xidməti (Watcher) işləməsə belə, avtomatik qeyd</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Siz bu seçimi söndürə bilərsiniz ki, proqram yalnız proqramın arxa plan xidməti (Watcher) işlədiyi halda avtomatik qeyd həyata keçirsin.\n- Doldurma, Bluetooth və ya AUX kimi hadisələrin avtomatik qeydi Android 7.1-ə qədər problemsiz həyata keçirilə bilər.\n- Android 8-dən başlayaraq, fon tətbiqi xidməti (Watcher) olmadan avtomatik qeyd yalnız Bluetooth hadisələri üçün həyata keçirilə bilər və digər hallarda (şarj edərkən və ya AUX zamanı) əvvəlcə fon tətbiqi xidmətini (Watcher) işə salmalısınız. tətbiqin özü bir dəfə.\n- Fon proqram xidməti (Watcher) olmadan Android 11-dən başlayaraq, istifadəçi əlaqəsi olmadan kameraya giriş yalnız telefonun kilidi açıldıqda (ekran açıq) və \"bütün proqramların üstündə\" icazəsi verildikdə mümkündür.\n- Beləliklə, Android 11 və daha yüksək versiyalar üçün tətbiqi bir dəfə əl ilə işə salmalısınız ki, proqramın fon xidməti (Watcher) istənilən hadisə zamanı və telefon ekranı söndürüldükdə avtomatik yazmağa başlasın.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Altyazılar aşağıda</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Bildiriş panelində fon qeydi xidmətini və statusları göstərə bilmək üçün tələb olunur. Təqdim etmək üçün klikləyin</string>
     <string name="prefs_warning_notifications_text">Bildiriş icazəsi</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Kiçik ianələr üçün reklamlar yalnız əsas ekran üçün silinir</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Daha kiçik ianələr üçün reklam yalnız əsas ekranda silinir</string>photo
     <string name="photos_folder_name">Şəkillər</string>
 
     <string name="photos_count_one">Şəkil</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Seçilmiş kameranı açmaq alınmadı. Belə olur ki, bütün gizli kameralar heç bir proqram tərəfindən istifadə edilə bilməz. Bir çox istehsalçı onların yalnız yerli tətbiqlərində istifadəsinə icazə verir. Standart kamera açılacaq.</string>
 
-    <string name="videos_ask_which_player">Hər dəfə hansı oyunçuda oynamaq lazım olduğunu soruşun\?</string>
+    <string name="videos_ask_which_player">Hansı oyunçuda oynayacağınızı soruşun</string>
 
     <string name="prefs_location_mode_text">GPS Prioriteti (Batareya və ya Dəqiqlik)</string>
     <string name="prefs_location_mode_balanced_text">Məkan dəqiqliyi (koordinatlar), sürət və batareyanın enerji istehlakı arasında balans.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">İstənilən məbləğdə birdəfəlik ianə ilə reklamları həmişəlik silin. Siz həmçinin reklamları silmək üçün hər ay istənilən məbləği ianə edə bilərsiniz</string>
 
     <string name="prefs_audio_bt_recording_text">Bluetooth cihazından səs yazın</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Baş blok (avtomobil radiosu) ilə istifadə etməyin!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Yalnız Bluetooth qulaqlıqları ilə istifadə edin. Baş bloka (avtomobil radiosu) Bluetooth vasitəsilə qoşulsanız, nədənsə bu, avtomatik olaraq bu cihazdakı standart nömrəyə telefon zəngini işə sala bilər.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Bluetooth bağlantıları üzərindən avtomatik qeyd etmək icazə tələb edir. Təqdim etmək üçün bura klikləyin</string>
+    <string name="prefs_warning_permission_bluetooth_text">Bluetooth icazəsi verilməyib</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Ekran söndürüldüyünə (kilidləndiyinə) görə tətbiqi yazmağa başlamaq mümkün olmadı. Bunu düzəltmək üçün fon qeydi xidmətini (Watcher) işə salın.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Ekran söndürüldüyü üçün tətbiqi açmaq mümkün olmadı (kilidlənib).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Göstərilən tətbiqi avtomatik açmaq üçün işə salmaq mümkün olmadı, çünki \"bütün proqramların üstündə göstər\" icazəsi verilmədi.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Avtomatik hadisə qeydi üçün Yaxınlıqdakı Cihazlara (Bluetooth) icazə verməlisiniz. Bu, proqramın sistem parametrlərində edilə bilər.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Bildirişlər bildiriş panelində fon qeydi xidmətini və qeyd statusunu göstərə bilmək üçün tələb olunur.</string>
+
+    
 </resources>

@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Kamera je potrebna za snimanje video zapisa i pregled kamere.</string>
     <string name="permission_camera_dlg_title">Rezolucija kamere</string>
     <string name="permission_camera_request_canceled">Ova aplikacija zahtijeva dozvolu za korištenje kamere za snimanje videa. Ali ti si to odbio. Zatvaranje… Pokušajte dati dozvolu kameri u sistemskim postavkama ove aplikacije</string>
-    <string name="permission_location_dlg_explanation_msg">Kada se minimizira, Droid Dashcam koristi lokaciju u pozadini da nacrta koordinate, adresu i brzinu na snimljenom videu.</string>
+    <string name="permission_location_dlg_explanation_msg">Lokacija je potrebna za crtanje koordinata, adrese i brzine na snimljenom videu ili za prikaz ovih podataka na glavnom ekranu (ovisno o vašim postavkama).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Na Androidu 11 (R) morate ručno odabrati \"Sve vrijeme (bilo koji način)\" u sistemskim postavkama da biste dozvolili lokaciju u pozadini. Postavke će se otvoriti nakon ovog prozora.</string>
     <string name="permission_location_dlg_msg">Lokacija je neophodna za određivanje brzine transporta pomoću GPS podataka, trenutne adrese i koordinata za prikaz na ekranu i za snimanje titlova na video</string>
     <string name="permission_location_dlg_title">Dozvola za lokaciju</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">Ispraviti</string>
     <string name="rec_fix_text">Ispraviti</string>
-    <string name="rec_free_space_text">Dostupan</string>
+    <string name="rec_available_space_text">Dostupan</string>
     <string name="rec_gps_status_satellites_few_text">sateliti</string>
     <string name="rec_gps_status_satellites_many_text">sateliti</string>
     <string name="rec_gps_status_satellites_one_text">satelit</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Snimanje je počelo</string>
     <string name="recording_voice_stopped_text">Snimanje je zaustavljeno</string>
 
-    <string name="service_no_system_alert_window_granted_text">Nije uspjelo pokretanje usluge Droid Dashcam za automatsko pokretanje/zaustavljanje snimanja jer dozvola SYSTEM_ALERT_WINDOW (prikaz preko svih prozora drugih aplikacija) nije odobrena. Ili je uređaj zaključan u ovom trenutku (Android ograničenje je da se uređaj prvo mora otključati i njegov ekran mora uključiti prije nego što se servis za automatsko snimanje videa može pokrenuti)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Aplikacija se nije mogla otvoriti za početak snimanja jer nije odobrena dozvola \"prikaži na vrhu svih aplikacija\". Kliknite za pružanje</string>
     <string name="service_watch_on_boot_completed_text">Prilikom uključivanja uređaja</string>
 
     <string name="storage_external_single">MicroSD kartica</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Onemogućite optimizaciju baterije za ovu aplikaciju u postavkama vašeg uređaja kako biste izbjegli buduće greške kamere</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Automatsko snimanje samo kada je servis pokrenut</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Ako omogućite ovu opciju, automatsko snimanje neće biti izvršeno ako usluga nadzora nije pokrenuta i nije vidljiva na panelu s obavještenjima</string>
+    <string name="prefs_rules_auto_start_without_service_text">Automatsko snimanje čak i ako pozadinska usluga (Watcher) nije pokrenuta</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Ovu opciju možete isključiti tako da aplikacija obavlja automatsko snimanje samo ako je pokrenuta pozadinska usluga aplikacije (Watcher).\n- Automatsko snimanje događaja kao što su punjenje, Bluetooth ili AUX može se izvesti bez problema do Android 7.1.\n- Počevši od Androida 8, automatsko snimanje bez usluge pozadinske aplikacije (Watcher) može se izvoditi samo za Bluetooth događaje, au drugim slučajevima (pri punjenju ili AUX) potrebno je prvo pokrenuti pozadinski servis aplikacije (Watcher) - pokretanjem sama aplikacija jednom.\n- Počevši od Androida 11 bez usluge pozadinske aplikacije (Watcher), pristup kameri bez interakcije korisnika je moguć samo ako je telefon otključan (uključen ekran) i odobrena je dozvola \"na vrhu svih aplikacija\".\n- Dakle, za Android 11 i novije, trebate ručno pokrenuti aplikaciju jednom kako bi pozadinski servis aplikacije (Watcher) počeo automatski snimati tokom bilo kojeg događaja i kada je ekran telefona isključen.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Titlovi na dnu</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Potrebno za prikaz usluge snimanja u pozadini i statusa na tabli sa obavještenjima. Kliknite da pošaljete</string>
     <string name="prefs_warning_notifications_text">Dozvola za obavještenje</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Za manje donacije, oglasi se uklanjaju samo za početni ekran</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Za manje donacije reklama se uklanja samo na glavnom ekranu</string>photo
     <string name="photos_folder_name">Fotografije</string>
 
     <string name="photos_count_one">fotografija</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Otvaranje odabrane kamere nije uspjelo. Dešava se da nijedna aplikacija ne može koristiti sve skrivene kamere. Mnogi proizvođači dozvoljavaju njihovu upotrebu samo u svojim izvornim aplikacijama. Zadana kamera će se otvoriti.</string>
 
-    <string name="videos_ask_which_player">Pitajte u kojem igraču da igrate svaki put\?</string>
+    <string name="videos_ask_which_player">Pitajte za kojeg igrača da igrate</string>
 
     <string name="prefs_location_mode_text">GPS prioritet (baterija ili tačnost)</string>
     <string name="prefs_location_mode_balanced_text">Balans između tačnosti lokacije (koordinate), brzine i potrošnje energije baterije.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Uklonite oglase zauvijek uz jednokratnu donaciju u bilo kojem iznosu. Također možete donirati bilo koji iznos mjesečno za uklanjanje oglasa</string>
 
     <string name="prefs_audio_bt_recording_text">Snimite zvuk sa Bluetooth uređaja</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Ne koristiti sa glavnom jedinicom (auto radio)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Koristite samo sa Bluetooth slušalicama. Ako se povežete na glavnu jedinicu (auto radio) preko Bluetooth-a, iz nekog razloga to može automatski pokrenuti telefonski poziv na standardni broj na ovom uređaju</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Za automatsko snimanje preko Bluetooth veze potrebna je dozvola. Kliknite ovdje da pošaljete</string>
+    <string name="prefs_warning_permission_bluetooth_text">Bluetooth dozvola nije odobrena</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Aplikaciju nije bilo moguće otvoriti za početak snimanja jer je ekran isključen (zaključan). Pokrenite uslugu snimanja u pozadini (Watcher) da to popravite.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Aplikacija se ne može otvoriti jer je ekran isključen (zaključan).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Navedena aplikacija nije mogla biti pokrenuta da bi se automatski otvorila jer dozvola \"prikaži na vrhu svih aplikacija\" nije odobrena.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Uređajima u blizini (Bluetooth) morate dati dozvolu za automatsko snimanje događaja. To se može učiniti u sistemskim postavkama aplikacije.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Obavještenja su potrebna da biste mogli prikazati uslugu snimanja u pozadini i status snimanja na tabli za obavještenja.</string>
+
+    
 </resources>

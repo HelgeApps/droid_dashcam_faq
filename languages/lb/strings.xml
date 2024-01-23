@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">D\'Kamera ass erfuerderlech fir Videoopnam a Kamera Virschau.</string>
     <string name="permission_camera_dlg_title">Kamera Resolutioun</string>
     <string name="permission_camera_request_canceled">Dës Applikatioun erfuerdert Erlaabnis fir d\'Kamera ze benotzen fir Video opzehuelen. Awer Dir hutt et ofgeleent. Zoumaachen… Probéiert d\'Erlaabnis fir d\'Kamera an de Systemastellunge vun dëser Applikatioun ze ginn</string>
-    <string name="permission_location_dlg_explanation_msg">Wann miniméiert, benotzt Droid Dashcam de Standort am Hannergrond fir Koordinaten, Adress a Geschwindegkeet op den opgeholl Video ze zéien.</string>
+    <string name="permission_location_dlg_explanation_msg">D\'Plaz ass néideg fir Koordinaten, Adress a Geschwindegkeet um opgeholl Video ze zéien, oder dës Donnéeën um Haaptbildschierm ze weisen (je no Ären Astellungen).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Op Android 11 (R), musst Dir manuell \"Déi ganz Zäit (all Modus)\" an de Systemvirstellungen auswielen fir de Standuert am Hannergrond z\'erméiglechen. D\'Astellunge ginn no dëser Fënster op.</string>
     <string name="permission_location_dlg_msg">D\'Plaz ass néideg fir d\'Geschwindegkeet vum Transport mat GPS-Daten, déi aktuell Adress a Koordinaten ze bestëmmen fir um Bildschierm ze weisen a fir Ënnertitelen op Video opzehuelen</string>
     <string name="permission_location_dlg_title">Location Erlaabnis</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">Fir ze korrigéieren</string>
     <string name="rec_fix_text">Fir ze korrigéieren</string>
-    <string name="rec_free_space_text">Verfügbar</string>
+    <string name="rec_available_space_text">Verfügbar</string>
     <string name="rec_gps_status_satellites_few_text">Satellitten</string>
     <string name="rec_gps_status_satellites_many_text">Satellitten</string>
     <string name="rec_gps_status_satellites_one_text">Satellit</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">D\'Opnahmen hunn ugefaang</string>
     <string name="recording_voice_stopped_text">Opnahmen gestoppt</string>
 
-    <string name="service_no_system_alert_window_granted_text">Konnt den Droid Dashcam Service net starten fir den Opnahmen automatesch unzefänken /ze stoppen well SYSTEM_ALERT_WINDOW Erlaabnis (Display iwwer all Fënstere vun aneren Uwendungen) net zougelooss gouf. Oder den Apparat war zu dësem Zäitpunkt gespaart (Android Restriktioun ass datt den Apparat fir d\'éischt muss opgehuewe ginn a säin Écran muss ageschalt ginn ier de Service fir automatesch Videoopnam ka gestart ginn)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">D\'App konnt net opgemaach ginn fir den Opnahmen unzefänken, well d\'Erlaabnis \"Show uewen op all Apps\" net zougestëmmt gouf. Klickt fir ze bidden</string>
     <string name="service_watch_on_boot_completed_text">Wann Dir den Apparat ausschalt</string>
 
     <string name="storage_external_single">MicroSD Kaart</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Deaktivéiert d\'Batterieoptimiséierung fir dës App an Ärem Apparat Astellunge fir zukünfteg Kamerafehler ze vermeiden</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Automatesch Opnam nëmmen wann de Service leeft</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Wann Dir dës Optioun aktivéiert, da gëtt automatesch Opnam net gemaach wann den Iwwerwaachungsservice net leeft an net an der Notifikatiounspanel sichtbar ass</string>
+    <string name="prefs_rules_auto_start_without_service_text">Automatesch Opnam och wann den Hannergrond Service (Watcher) net leeft</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Dir kënnt dës Optioun ausschalten fir datt d\'Applikatioun automatesch Opnam nëmmen ausféiert wann den Hannergronddéngscht vun der Applikatioun (Watcher) leeft.\n- Automatesch Opnam fir Eventer wéi Laden, Bluetooth oder AUX kann ouni Probleemer bis Android 7.1 duerchgefouert ginn.\n- Vun Android 8 un, automatesch Opnam ouni Hannergrondapplikatiounsservice (Watcher) kann nëmme fir Bluetooth Eventer ausgefouert ginn, an an anere Fäll (wann Dir gelueden oder AUX) musst Dir fir d\'éischt den Hannergrondapplikatiounsservice starten (Watcher) - andeems Dir de Start vum Applikatioun selwer eemol.\n- Vun Android 11 un ouni den Hannergrond App Service (Watcher), Zougang zu der Kamera ouni Benotzerinteraktioun ass nëmme méiglech wann den Telefon opgehuewen ass (Bildschierm op) an \"op all Apps\" Erlaabnis gëtt.\n- Also, fir Android 11 a méi héich, musst Dir d\'Applikatioun eemol manuell starten, sou datt den Hannergrond Service vun der Applikatioun (Watcher) ufänkt automatesch opzehuelen wärend all Eventer a wann den Telefonschirm ausgeschalt ass.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Ënnertitelen um ënnen</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Erfuerderlech fir den Hannergrondopnamservice an d\'Status op der Notifikatiounspanel ze weisen. Klickt fir ofzeginn</string>
     <string name="prefs_warning_notifications_text">Notifikatioun Erlaabnis</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Fir méi kleng Spende ginn Annoncen nëmme fir den Heembildschierm geläscht</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Fir méi kleng Spende gëtt d\'Reklamm nëmmen um Haaptbildschierm geläscht</string>photo
     <string name="photos_folder_name">Fotoen</string>
 
     <string name="photos_count_one">Foto</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Ausgefall fir déi gewielte Kamera opzemaachen. Et geschitt sou datt net all verstoppte Kameraen vun all Applikatioun benotzt kënne ginn. Vill Hiersteller erlaben hir Notzung nëmmen an hiren gebiertege Applikatiounen. D\'Default Kamera wäert opmaachen.</string>
 
-    <string name="videos_ask_which_player">Frot a wéi engem Spiller all Kéier ze spillen\?</string>
+    <string name="videos_ask_which_player">Frot wéi ee Spiller fir ze spillen</string>
 
     <string name="prefs_location_mode_text">GPS Prioritéit (Batterie oder Genauegkeet)</string>
     <string name="prefs_location_mode_balanced_text">Gläichgewiicht tëscht Standuert Genauegkeet (Koordinaten), Vitesse an Batterie Muecht Konsum.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Ewechzehuelen Annoncen fir ëmmer mat engem eemolegen Don vun all Betrag. Dir kënnt och all Mount spenden fir Annoncen ze läschen</string>
 
     <string name="prefs_audio_bt_recording_text">Rekord Audio vun engem Bluetooth Apparat</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Benotzt net mat Kapp Eenheet (Autoradio)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Benotzt nëmme mat Bluetooth Kopfhörer. Wann Dir mat der Kopfhörer (Autoradio) iwwer Bluetooth verbënnt, da kann dëst aus iergendengem Grond automatesch en Uruff un d\'Standardnummer op dësem Apparat ausléisen</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Automatesch Opnam iwwer Bluetooth Verbindungen erfuerdert Erlaabnis. Klickt hei fir ofzeginn</string>
+    <string name="prefs_warning_permission_bluetooth_text">Bluetooth Erlaabnis net accordéiert</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">D\'Applikatioun konnt net opgemaach ginn fir den Opnahmen unzefänken well den Ecran ausgeschalt gouf (gespaart). Run en Background Recording Service (Watcher) fir dëst ze fixéieren.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">D\'Applikatioun konnt net opgemaach ginn well den Ecran ausgeschalt gouf (gespaart).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Déi spezifizéiert Applikatioun konnt net lancéiert ginn fir automatesch opzemaachen, well d\'Erlaabnis \"Show uewen op all Applikatiounen\" net zougelooss gouf.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Dir musst Nearby Devices (Bluetooth) Erlaabnis ginn fir automatesch Eventopnam. Dëst kann an de System Astellunge vun der Applikatioun gemaach ginn.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Notifikatiounen sinn erfuerderlech fir den Hannergrondopnamservice an den Opnamstatus am Notifikatiounspanel ze weisen.</string>
+
+    
 </resources>

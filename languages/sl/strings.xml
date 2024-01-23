@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Kamera je potrebna za snemanje videa in predogled kamere.</string>
     <string name="permission_camera_dlg_title">Ločljivost kamere</string>
     <string name="permission_camera_request_canceled">Ta aplikacija zahteva dovoljenje za uporabo kamere za snemanje videa. Ampak ti si zavrnil. Zapiranje… Poskusite dodeliti dovoljenje kameri v sistemskih nastavitvah te aplikacije</string>
-    <string name="permission_location_dlg_explanation_msg">Ko je minimizirana, Droid Dashcam uporablja lokacijo v ozadju za risanje koordinat, naslova in hitrosti na posnetem videoposnetku.</string>
+    <string name="permission_location_dlg_explanation_msg">Lokacija je potrebna za risanje koordinat, naslova in hitrosti na posnetem videu ali za prikaz teh podatkov na glavnem zaslonu (odvisno od vaših nastavitev).</string>
     <string name="permission_location_dlg_explanation_settings_msg">V sistemu Android 11 (R) morate v sistemskih nastavitvah ročno izbrati »Ves čas (kater koli način)«, da omogočite lokacijo v ozadju. Po tem oknu se odprejo nastavitve.</string>
     <string name="permission_location_dlg_msg">Lokacija je potrebna za določitev hitrosti prevoza z uporabo GPS podatkov, trenutnega naslova in koordinat za prikaz na zaslonu in za snemanje podnapisov na video</string>
     <string name="permission_location_dlg_title">Dovoljenje za lokacijo</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Samodejno</string>
     <string name="rec_fix_short_text">Popraviti</string>
     <string name="rec_fix_text">Popraviti</string>
-    <string name="rec_free_space_text">Na voljo</string>
+    <string name="rec_available_space_text">Na voljo</string>
     <string name="rec_gps_status_satellites_few_text">sateliti</string>
     <string name="rec_gps_status_satellites_many_text">sateliti</string>
     <string name="rec_gps_status_satellites_one_text">satelit</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Snemanje se je začelo</string>
     <string name="recording_voice_stopped_text">Snemanje se je ustavilo</string>
 
-    <string name="service_no_system_alert_window_granted_text">Storitve Droid Dashcam ni bilo mogoče zagnati za samodejni začetek/ustavitev snemanja, ker dovoljenje SYSTEM_ALERT_WINDOW (prikaz v vseh oknih drugih aplikacij) ni bilo odobreno. Ali pa je bila naprava na tej točki zaklenjena (omejitev Androida je, da je treba napravo najprej odkleniti in vklopiti njen zaslon, preden se lahko zažene storitev za samodejno snemanje videa)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Aplikacije ni bilo mogoče odpreti za začetek snemanja, ker dovoljenje »pokaži na vrhu vseh aplikacij« ni bilo odobreno. Kliknite za zagotavljanje</string>
     <string name="service_watch_on_boot_completed_text">Pri vklopu naprave</string>
 
     <string name="storage_external_single">kartico microSD</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Onemogočite optimizacijo baterije za to aplikacijo v nastavitvah naprave, da se izognete napakam fotoaparata v prihodnosti</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Samodejno snemanje samo, ko se storitev izvaja</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Če omogočite to možnost, samodejno snemanje ne bo izvedeno, če storitev spremljanja ne deluje in ni vidna na plošči z obvestili</string>
+    <string name="prefs_rules_auto_start_without_service_text">Samodejno snemanje, tudi če storitev v ozadju (Watcher) ne deluje</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* To možnost lahko izklopite, tako da aplikacija izvaja samodejno snemanje le, če deluje aplikacija v ozadju (Watcher).\n- Samodejno snemanje za dogodke, kot so polnjenje, Bluetooth ali AUX, se lahko izvede brez težav do Android 7.1.\n- Od Androida 8 naprej je samodejno snemanje brez aplikacije v ozadju (Watcher) mogoče izvajati samo za dogodke Bluetooth, v drugih primerih (pri polnjenju ali AUX) pa morate najprej zagnati storitev aplikacije v ozadju (Watcher) - z zagonom sama aplikacija enkrat.\n- Začenši z Androidom 11 brez storitve aplikacije v ozadju (Watcher) je dostop do kamere brez interakcije uporabnika mogoč le, če je telefon odklenjen (zaslon je vklopljen) in je odobreno dovoljenje »nad vsemi aplikacijami«.\n- Tako morate za Android 11 in novejše enkrat ročno zagnati aplikacijo, da začne storitev aplikacije v ozadju (Watcher) samodejno snemati med kakršnimi koli dogodki in ko je zaslon telefona izklopljen.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Podnapisi na dnu</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Zahtevano za prikaz storitve snemanja v ozadju in statusov na obvestilni plošči. Kliknite za oddajo</string>
     <string name="prefs_warning_notifications_text">Dovoljenje za obvestila</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Za manjše donacije se oglasi odstranijo samo za začetni zaslon</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Pri manjših donacijah se oglaševanje odstrani samo na glavnem zaslonu</string>photo
     <string name="photos_folder_name">Fotografije</string>
 
     <string name="photos_count_one">fotografija</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Izbrane kamere ni bilo mogoče odpreti. Zgodi se, da nobena aplikacija ne more uporabljati vseh skritih kamer. Številni proizvajalci dovoljujejo njihovo uporabo samo v svojih izvornih aplikacijah. Odprla se bo privzeta kamera.</string>
 
-    <string name="videos_ask_which_player">Vsakič vprašajte, v katerem igralcu igrati\?</string>
+    <string name="videos_ask_which_player">Vprašajte, s katerim igralcem igrati</string>
 
     <string name="prefs_location_mode_text">Prednost GPS (baterija ali natančnost)</string>
     <string name="prefs_location_mode_balanced_text">Ravnovesje med natančnostjo lokacije (koordinate), hitrostjo in porabo energije baterije.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Odstranite oglase za vedno z enkratno donacijo poljubnega zneska. Mesečno lahko donirate tudi poljuben znesek za odstranitev oglasov</string>
 
     <string name="prefs_audio_bt_recording_text">Posnemite zvok iz naprave Bluetooth</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Ne uporabljajte z glavno enoto (avtoradio)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Uporabljajte samo s slušalkami Bluetooth. Če se povežete z glavno enoto (avtoradio) prek Bluetootha, lahko to iz nekega razloga samodejno sproži telefonski klic na standardno številko v tej napravi</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Samodejno snemanje prek povezav Bluetooth zahteva dovoljenje. Kliknite tukaj za oddajo</string>
+    <string name="prefs_warning_permission_bluetooth_text">Dovoljenje Bluetooth ni odobreno</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Aplikacije ni bilo mogoče odpreti za začetek snemanja, ker je bil zaslon izklopljen (zaklenjen). Zaženite storitev snemanja v ozadju (Watcher), da to popravite.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Aplikacije ni bilo mogoče odpreti, ker je bil zaslon izklopljen (zaklenjen).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Navedene aplikacije ni bilo mogoče zagnati za samodejno odpiranje, ker dovoljenje »prikaži na vrhu vseh aplikacij« ni bilo odobreno.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Za samodejno snemanje dogodkov morate odobriti dovoljenje za naprave v bližini (Bluetooth). To lahko storite v sistemskih nastavitvah aplikacije.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Obvestila so potrebna za prikaz storitve snemanja v ozadju in stanja snemanja na plošči z obvestili.</string>
+
+    
 </resources>

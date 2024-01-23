@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">دوربین برای ضبط ویدئو و پیش نمایش دوربین مورد نیاز است.</string>
     <string name="permission_camera_dlg_title">وضوح دوربین</string>
     <string name="permission_camera_request_canceled">این برنامه برای استفاده از دوربین برای ضبط ویدیو به مجوز نیاز دارد. اما شما آن را رد کردید. در حال بستن… سعی کنید در تنظیمات سیستم این اپلیکیشن به دوربین اجازه دهید</string>
-    <string name="permission_location_dlg_explanation_msg">زمانی که Droid Dashcam کمینه شود، از مکان در پس‌زمینه برای ترسیم مختصات، آدرس و سرعت ویدیوی ضبط‌شده استفاده می‌کند.</string>
+    <string name="permission_location_dlg_explanation_msg">مکان برای ترسیم مختصات، آدرس و سرعت روی ویدیوی ضبط شده یا نمایش این داده ها در صفحه اصلی (بسته به تنظیمات شما) مورد نیاز است.</string>
     <string name="permission_location_dlg_explanation_settings_msg">در Android 11 (R)، باید به صورت دستی «همه وقت (هر حالت)» را در تنظیمات برگزیده سیستم انتخاب کنید تا مکان در پس‌زمینه مجاز باشد. تنظیمات بعد از این پنجره باز می شود.</string>
     <string name="permission_location_dlg_msg">موقعیت مکانی برای تعیین سرعت حمل و نقل با استفاده از داده های GPS، آدرس فعلی و مختصات برای نمایش روی صفحه و برای ضبط زیرنویس روی ویدیو ضروری است.</string>
     <string name="permission_location_dlg_title">مجوز مکان</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">خودکار</string>
     <string name="rec_fix_short_text">برای اصلاح</string>
     <string name="rec_fix_text">برای اصلاح</string>
-    <string name="rec_free_space_text">در دسترس</string>
+    <string name="rec_available_space_text">در دسترس</string>
     <string name="rec_gps_status_satellites_few_text">ماهواره ها</string>
     <string name="rec_gps_status_satellites_many_text">ماهواره ها</string>
     <string name="rec_gps_status_satellites_one_text">ماهواره</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">ضبط آغاز شده است</string>
     <string name="recording_voice_stopped_text">ضبط متوقف شد</string>
 
-    <string name="service_no_system_alert_window_granted_text">راه‌اندازی سرویس Droid Dashcam برای شروع/توقف خودکار ضبط انجام نشد زیرا مجوز SYSTEM_ALERT_WINDOW (نمایش در تمام پنجره‌های سایر برنامه‌ها) اعطا نشد. یا دستگاه در این مرحله قفل شده بود (محدودیت اندروید این است که قبل از شروع سرویس ضبط خودکار فیلم، ابتدا باید قفل دستگاه باز شود و صفحه آن روشن شود)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">برنامه برای شروع ضبط باز نشد زیرا مجوز \"نمایش در بالای همه برنامه ها\" داده نشد. برای ارائه کلیک کنید</string>
     <string name="service_watch_on_boot_completed_text">هنگام روشن کردن دستگاه</string>
 
     <string name="storage_external_single">کارت MicroSD</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">برای جلوگیری از خطاهای دوربین در آینده، بهینه سازی باتری را برای این برنامه در تنظیمات دستگاه خود غیرفعال کنید</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">ضبط خودکار فقط زمانی که سرویس در حال اجرا است</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">اگر این گزینه را فعال کنید، در صورتی که سرویس مانیتورینگ در حال اجرا نباشد و در پنل اعلان قابل مشاهده نباشد، ضبط خودکار انجام نخواهد شد.</string>
+    <string name="prefs_rules_auto_start_without_service_text">ضبط خودکار حتی اگر سرویس پس زمینه (Watcher) در حال اجرا نباشد</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* می توانید این گزینه را خاموش کنید تا برنامه تنها در صورتی که سرویس پس زمینه برنامه (Watcher) در حال اجرا باشد، ضبط خودکار را انجام دهد.\n- ضبط خودکار رویدادهایی مانند شارژ، بلوتوث یا AUX بدون مشکل تا اندروید 7.1 قابل انجام است.\n- از اندروید 8 شروع به ضبط خودکار بدون سرویس برنامه پس‌زمینه (Watcher) فقط برای رویدادهای بلوتوث می‌کند و در سایر موارد (هنگام شارژ یا AUX) باید ابتدا سرویس برنامه پس‌زمینه (Watcher) را با راه‌اندازی راه‌اندازی کنید. خود برنامه یک بار\n- با شروع اندروید 11 بدون سرویس برنامه پس‌زمینه (Watcher)، دسترسی به دوربین بدون تعامل کاربر تنها در صورتی امکان‌پذیر است که قفل تلفن باز باشد (صفحه روشن) و مجوز «در بالای همه برنامه‌ها» داده شود.\n- بنابراین برای اندروید 11 و بالاتر، باید یک بار اپلیکیشن را به صورت دستی اجرا کنید تا در هنگام هر رویداد و زمانی که صفحه گوشی خاموش است، سرویس پس زمینه اپلیکیشن (Watcher) شروع به ضبط خودکار کند.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">زیرنویس در پایین</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">برای نمایش سرویس ضبط پس‌زمینه و وضعیت‌ها در پانل اعلان لازم است. برای ارسال کلیک کنید</string>
     <string name="prefs_warning_notifications_text">مجوز اطلاع رسانی</string>
 
-    <string name="donation_dlg_limited_ads_message_text">برای کمک های مالی کوچکتر، تبلیغات فقط برای صفحه اصلی حذف می شوند</string>photo
+    <string name="donation_dlg_limited_ads_message_text">برای کمک های مالی کوچکتر، تبلیغات فقط در صفحه اصلی حذف می شود</string>photo
     <string name="photos_folder_name">عکس ها</string>
 
     <string name="photos_count_one">عکس</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">دوربین انتخابی باز نشد. این اتفاق می افتد که همه دوربین های مخفی توسط هیچ برنامه ای قابل استفاده نیستند. بسیاری از تولیدکنندگان فقط اجازه استفاده از آنها را در برنامه های کاربردی بومی خود می دهند. دوربین پیش فرض باز خواهد شد.</string>
 
-    <string name="videos_ask_which_player">هر بار بپرسید در کدام بازیکن بازی کنید؟</string>
+    <string name="videos_ask_which_player">بپرسید در کدام بازیکن بازی کنید</string>
 
     <string name="prefs_location_mode_text">اولویت GPS (باتری یا دقت)</string>
     <string name="prefs_location_mode_balanced_text">تعادل بین دقت مکان (مختصات)، سرعت و مصرف انرژی باتری.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">تبلیغات را برای همیشه با کمک یکباره هر مبلغی حذف کنید. همچنین می توانید ماهانه هر مبلغی را برای حذف تبلیغات اهدا کنید</string>
 
     <string name="prefs_audio_bt_recording_text">ضبط صدا از دستگاه بلوتوث</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">با هد یونیت (رادیو ماشین) استفاده نکنید!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">فقط با هدفون بلوتوث استفاده کنید. اگر از طریق بلوتوث به یونیت اصلی (رادیو ماشین) متصل می شوید، به دلایلی ممکن است به طور خودکار با شماره استاندارد این دستگاه تماس تلفنی برقرار شود.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">ضبط خودکار از طریق اتصالات بلوتوث به مجوز نیاز دارد. برای ارسال اینجا کلیک کنید</string>
+    <string name="prefs_warning_permission_bluetooth_text">مجوز بلوتوث داده نشده است</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">برنامه برای شروع ضبط باز نشد زیرا صفحه خاموش (قفل) بود. برای رفع این مشکل، سرویس ضبط پس‌زمینه (Watcher) را اجرا کنید.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">برنامه باز نشد زیرا صفحه نمایش خاموش (قفل) بود.</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">برنامه مشخص شده برای باز کردن خودکار راه اندازی نشد زیرا مجوز \"نمایش در بالای همه برنامه ها\" داده نشد.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">برای ضبط خودکار رویداد باید به دستگاه‌های نزدیک (بلوتوث) مجوز بدهید. این را می توان در تنظیمات سیستم برنامه انجام داد.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">برای اینکه بتوانید سرویس ضبط پس‌زمینه و وضعیت ضبط را در پانل اعلان نمایش دهید، اعلان‌ها لازم است.</string>
+
+    
 </resources>

@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">La càmera és necessària per a la gravació de vídeo i la vista prèvia de la càmera.</string>
     <string name="permission_camera_dlg_title">Resolució de la càmera</string>
     <string name="permission_camera_request_canceled">Aquesta aplicació requereix permís per utilitzar la càmera per gravar vídeo. Però ho vas rebutjar. Tancant… Intenta donar permís a la càmera a la configuració del sistema d\'aquesta aplicació</string>
-    <string name="permission_location_dlg_explanation_msg">Quan es minimitza, Droid Dashcam utilitza la ubicació del fons per dibuixar coordenades, adreça i velocitat al vídeo gravat.</string>
+    <string name="permission_location_dlg_explanation_msg">La ubicació és necessària per dibuixar coordenades, adreça i velocitat al vídeo gravat o mostrar aquestes dades a la pantalla principal (segons la configuració).</string>
     <string name="permission_location_dlg_explanation_settings_msg">A Android 11 (R), heu de seleccionar manualment \"Tot el temps (qualsevol mode)\" a les preferències del sistema per permetre la ubicació en segon pla. La configuració s\'obrirà després d\'aquesta finestra.</string>
     <string name="permission_location_dlg_msg">La ubicació és necessària per determinar la velocitat del transport mitjançant dades GPS, l\'adreça actual i les coordenades per mostrar-les a la pantalla i per gravar subtítols en vídeo.</string>
     <string name="permission_location_dlg_title">Permís d\'ubicació</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Automàtic</string>
     <string name="rec_fix_short_text">Corregir</string>
     <string name="rec_fix_text">Corregir</string>
-    <string name="rec_free_space_text">Disponible</string>
+    <string name="rec_available_space_text">Disponible</string>
     <string name="rec_gps_status_satellites_few_text">satèl·lits</string>
     <string name="rec_gps_status_satellites_many_text">satèl·lits</string>
     <string name="rec_gps_status_satellites_one_text">satèl·lit</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">La gravació ha començat</string>
     <string name="recording_voice_stopped_text">S\'ha aturat la gravació</string>
 
-    <string name="service_no_system_alert_window_granted_text">No s\'ha pogut iniciar el servei Droid Dashcam per iniciar/aturar la gravació automàticament perquè no s\'ha concedit el permís SYSTEM_ALERT_WINDOW (visualització a totes les finestres d\'altres aplicacions). O el dispositiu s\'ha bloquejat en aquest moment (la restricció d\'Android és que primer s\'ha de desbloquejar el dispositiu i la seva pantalla s\'ha d\'encendre abans que es pugui iniciar el servei d\'enregistrament automàtic de vídeo)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">No s\'ha pogut obrir l\'aplicació per començar a gravar perquè no s\'ha concedit el permís \"Mostra a sobre de totes les aplicacions\". Feu clic per proporcionar</string>
     <string name="service_watch_on_boot_completed_text">En encendre el dispositiu</string>
 
     <string name="storage_external_single">Targeta MicroSD</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Desactiveu l\'optimització de la bateria d\'aquesta aplicació a la configuració del dispositiu per evitar futurs errors de la càmera</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Enregistrament automàtic només quan el servei s\'està executant</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Si activeu aquesta opció, l\'enregistrament automàtic no es realitzarà si el servei de supervisió no s\'està executant i no és visible al tauler de notificacions.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Enregistrament automàtic encara que el servei de fons (Watcher) no s\'executi</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Podeu desactivar aquesta opció perquè l\'aplicació realitzi una gravació automàtica només si s\'està executant el servei de fons de l\'aplicació (Watcher).\n- La gravació automàtica d\'esdeveniments com la càrrega, Bluetooth o AUX es pot realitzar sense problemes fins a Android 7.1.\n- A partir d\'Android 8, la gravació automàtica sense un servei d\'aplicació en segon pla (Watcher) només es pot realitzar per a esdeveniments Bluetooth, i en altres casos (quan es carrega o AUX) primer cal iniciar el servei d\'aplicació en segon pla (Watcher) - iniciant el l\'aplicació mateixa una vegada.\n- A partir d\'Android 11 sense el servei d\'aplicacions en segon pla (Watcher), l\'accés a la càmera sense la interacció de l\'usuari només és possible si el telèfon està desbloquejat (pantalla activada) i es concedeix el permís \"a sobre de totes les aplicacions\".\n- Per tant, per a Android 11 i superior, cal que inicieu l\'aplicació manualment una vegada perquè el servei de fons de l\'aplicació (Watcher) comenci a gravar automàticament durant qualsevol esdeveniment i quan la pantalla del telèfon estigui apagada.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Subtítols a la part inferior</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Necessari per poder mostrar el servei de gravació en segon pla i els estats al tauler de notificacions. Feu clic per enviar</string>
     <string name="prefs_warning_notifications_text">Permís de notificació</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Per a donacions més petites, els anuncis només s\'eliminen per a la pantalla d\'inici</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Per a donacions més petites, la publicitat només s\'elimina a la pantalla principal</string>photo
     <string name="photos_folder_name">Fotografies</string>
 
     <string name="photos_count_one">foto</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">No s\'ha pogut obrir la càmera seleccionada. Succeeix que no totes les càmeres ocultes poden ser utilitzades per qualsevol aplicació. Molts fabricants només permeten el seu ús en les seves aplicacions natives. S\'obrirà la càmera predeterminada.</string>
 
-    <string name="videos_ask_which_player">Preguntar a quin jugador jugar cada cop\?</string>
+    <string name="videos_ask_which_player">Pregunta a quin jugador jugar</string>
 
     <string name="prefs_location_mode_text">Prioritat GPS (bateria o precisió)</string>
     <string name="prefs_location_mode_balanced_text">Equilibri entre la precisió de la ubicació (coordenades), la velocitat i el consum d\'energia de la bateria.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Elimina els anuncis per sempre amb una donació única de qualsevol quantitat. També podeu donar qualsevol quantitat mensual per eliminar anuncis</string>
 
     <string name="prefs_audio_bt_recording_text">Grava àudio des d\'un dispositiu Bluetooth</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">No l\'utilitzeu amb la unitat principal (ràdio del cotxe)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Utilitzeu només amb auriculars Bluetooth. Si us connecteu a la unitat principal (ràdio del cotxe) mitjançant Bluetooth, per alguna raó això pot activar automàticament una trucada telefònica al número estàndard d\'aquest dispositiu</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">La gravació automàtica mitjançant connexions Bluetooth requereix permís. Feu clic aquí per enviar</string>
+    <string name="prefs_warning_permission_bluetooth_text">No s\'ha concedit el permís de Bluetooth</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">No s\'ha pogut obrir l\'aplicació per començar a gravar perquè la pantalla estava apagada (bloquejada). Executeu un servei de gravació en segon pla (Watcher) per solucionar-ho.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">L\'aplicació no s\'ha pogut obrir perquè la pantalla estava apagada (bloquejada).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">L\'aplicació especificada no s\'ha pogut iniciar per obrir-se automàticament perquè no s\'ha concedit el permís \"mostra a sobre de totes les aplicacions\".</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Heu de concedir permís a Dispositius propers (Bluetooth) per a la gravació automàtica d\'esdeveniments. Això es pot fer a la configuració del sistema de l\'aplicació.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Les notificacions són necessàries per poder mostrar el servei de gravació en segon pla i l\'estat de la gravació al tauler de notificacions.</string>
+
+    
 </resources>

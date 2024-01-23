@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Kameran krävs för videoinspelning och kameraförhandsvisning.</string>
     <string name="permission_camera_dlg_title">Kameraupplösning</string>
     <string name="permission_camera_request_canceled">Denna applikation kräver tillstånd för att använda kameran för att spela in video. Men du tackade nej. Stänger… Försök att ge kameran behörighet i systeminställningarna för denna applikation</string>
-    <string name="permission_location_dlg_explanation_msg">När den är minimerad använder Droid Dashcam platsen i bakgrunden för att rita koordinater, adress och hastighet på den inspelade videon.</string>
+    <string name="permission_location_dlg_explanation_msg">Platsen behövs för att rita koordinater, adress och hastighet på den inspelade videon, eller visa dessa data på huvudskärmen (beroende på dina inställningar).</string>
     <string name="permission_location_dlg_explanation_settings_msg">På Android 11 (R) måste du manuellt välja \"Hela tiden (alla lägen)\" i systeminställningarna för att tillåta platsen i bakgrunden. Inställningarna öppnas efter detta fönster.</string>
     <string name="permission_location_dlg_msg">Platsen är nödvändig för att bestämma transporthastigheten med hjälp av GPS-data, aktuell adress och koordinater för visning på skärmen och för inspelning av undertexter på video</string>
     <string name="permission_location_dlg_title">Platstillstånd</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Bil</string>
     <string name="rec_fix_short_text">Att korrigera</string>
     <string name="rec_fix_text">Att korrigera</string>
-    <string name="rec_free_space_text">Tillgängliga</string>
+    <string name="rec_available_space_text">Tillgängliga</string>
     <string name="rec_gps_status_satellites_few_text">satelliter</string>
     <string name="rec_gps_status_satellites_many_text">satelliter</string>
     <string name="rec_gps_status_satellites_one_text">satellit</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Inspelningen har börjat</string>
     <string name="recording_voice_stopped_text">Inspelningen avbröts</string>
 
-    <string name="service_no_system_alert_window_granted_text">Det gick inte att starta Droid Dashcam-tjänst för att automatiskt starta/stoppa inspelning eftersom SYSTEM_ALERT_WINDOW-behörighet (visning över alla fönster i andra program) inte beviljades. Eller så var enheten låst vid denna tidpunkt (Android-begränsningen är att enheten först måste låsas upp och dess skärm måste slås på innan tjänsten för automatisk videoinspelning kan startas)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Appen kunde inte öppnas för att starta inspelningen eftersom behörigheten \"visa ovanpå alla appar\" inte beviljades. Klicka för att ange</string>
     <string name="service_watch_on_boot_completed_text">När du slår på enheten</string>
 
     <string name="storage_external_single">MicroSD-kort</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Inaktivera batterioptimering för den här appen i dina enhetsinställningar för att undvika framtida kamerafel</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Automatisk inspelning endast när tjänsten är igång</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Om du aktiverar det här alternativet kommer automatisk inspelning inte att utföras om övervakningstjänsten inte körs och inte är synlig i meddelandepanelen</string>
+    <string name="prefs_rules_auto_start_without_service_text">Automatisk inspelning även om bakgrundstjänsten (Watcher) inte körs</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Du kan stänga av det här alternativet så att applikationen endast utför automatisk inspelning om applikationens bakgrundstjänst (Watcher) körs.\n- Automatisk inspelning för händelser som laddning, Bluetooth eller AUX kan utföras utan problem upp till Android 7.1.\n- Från och med Android 8 kan automatisk inspelning utan en bakgrundsapplikationstjänst (Watcher) endast utföras för Bluetooth-händelser, och i andra fall (vid laddning eller AUX) måste du först starta bakgrundsapplikationstjänsten (Watcher) - genom att starta ansökan själv en gång.\n- Från och med Android 11 utan bakgrundsapptjänsten (Watcher) är åtkomst till kameran utan användarinteraktion endast möjlig om telefonen är upplåst (skärmen på) och \"på toppen av alla appar\"-tillstånd beviljas.\n- För Android 11 och högre måste du alltså manuellt starta applikationen en gång så att bakgrundstjänsten för applikationen (Watcher) börjar spela in automatiskt under alla händelser och när telefonskärmen är avstängd.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Undertexter längst ner</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Krävs för att kunna visa bakgrundsinspelningstjänsten och status på meddelandepanelen. Klicka för att skicka</string>
     <string name="prefs_warning_notifications_text">Notifieringstillstånd</string>
 
-    <string name="donation_dlg_limited_ads_message_text">För mindre donationer tas annonser endast bort för startskärmen</string>photo
+    <string name="donation_dlg_limited_ads_message_text">För mindre donationer tas reklam endast bort på huvudskärmen</string>photo
     <string name="photos_folder_name">Foton</string>
 
     <string name="photos_count_one">Foto</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Det gick inte att öppna den valda kameran. Det råkar vara så att inte alla dolda kameror kan användas av alla program. Många tillverkare tillåter endast deras användning i sina inhemska applikationer. Standardkameran öppnas.</string>
 
-    <string name="videos_ask_which_player">Fråga i vilken spelare du ska spela varje gång\?</string>
+    <string name="videos_ask_which_player">Fråga vilken spelare du ska spela i</string>
 
     <string name="prefs_location_mode_text">GPS-prioritet (batteri eller noggrannhet)</string>
     <string name="prefs_location_mode_balanced_text">Balans mellan platsnoggrannhet (koordinater), hastighet och batteriförbrukning.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Ta bort annonser för alltid med en engångsdonation oavsett belopp. Du kan också donera valfritt belopp varje månad för att ta bort annonser</string>
 
     <string name="prefs_audio_bt_recording_text">Spela in ljud från en Bluetooth-enhet</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Använd inte med huvudenhet (bilradio)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Använd endast med Bluetooth-hörlurar. Om du ansluter till huvudenheten (bilradion) via Bluetooth, kan detta av någon anledning automatiskt utlösa ett telefonsamtal till standardnumret på denna enhet</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Automatisk inspelning via Bluetooth-anslutningar kräver tillstånd. Klicka här för att skicka</string>
+    <string name="prefs_warning_permission_bluetooth_text">Bluetooth-tillstånd har inte beviljats</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Applikationen kunde inte öppnas för att starta inspelningen eftersom skärmen var avstängd (låst). Kör en bakgrundsinspelningstjänst (Watcher) för att fixa detta.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Applikationen kunde inte öppnas eftersom skärmen var avstängd (låst).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Den angivna applikationen kunde inte startas för att öppnas automatiskt eftersom behörigheten \"visa ovanpå alla applikationer\" inte beviljades.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Du måste ge tillstånd för enheter i närheten (Bluetooth) för automatisk händelseinspelning. Detta kan göras i programmets systeminställningar.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Aviseringar krävs för att kunna visa bakgrundsinspelningstjänsten och inspelningsstatus i aviseringspanelen.</string>
+
+    
 </resources>

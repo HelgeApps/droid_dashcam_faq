@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Die kamera word benodig vir video-opname en kameravoorskou.</string>
     <string name="permission_camera_dlg_title">Kamera resolusie</string>
     <string name="permission_camera_request_canceled">Hierdie toepassing vereis toestemming om die kamera te gebruik om video op te neem. Maar jy het dit van die hand gewys. Maak toe … Probeer om toestemming aan die kamera te gee in die stelselinstellings van hierdie toepassing</string>
-    <string name="permission_location_dlg_explanation_msg">Wanneer dit geminimaliseer word, gebruik Droid Dashcam die ligging in die agtergrond om koördinate, adres en spoed op die opgeneemde video te teken.</string>
+    <string name="permission_location_dlg_explanation_msg">Die ligging is nodig om koördinate, adres en spoed op die opgeneemde video te teken, of om hierdie data op die hoofskerm te vertoon (na gelang van jou instellings).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Op Android 11 (R) moet u \"Gedurig (enige modus)\" handmatig kies in die stelselvoorkeure om die ligging op die agtergrond toe te laat. Die instellings sal na hierdie venster oopmaak.</string>
     <string name="permission_location_dlg_msg">Die ligging is nodig om die spoed van vervoer te bepaal met behulp van GPS-data, die huidige adres en koördinate vir vertoon op die skerm en vir die opname van onderskrifte op video</string>
     <string name="permission_location_dlg_title">Liggingtoestemming</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Outo</string>
     <string name="rec_fix_short_text">Om reg te maak</string>
     <string name="rec_fix_text">Om reg te maak</string>
-    <string name="rec_free_space_text">Beskikbaar</string>
+    <string name="rec_available_space_text">Beskikbaar</string>
     <string name="rec_gps_status_satellites_few_text">satelliete</string>
     <string name="rec_gps_status_satellites_many_text">satelliete</string>
     <string name="rec_gps_status_satellites_one_text">satelliet</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Opname het begin</string>
     <string name="recording_voice_stopped_text">Opname het gestop</string>
 
-    <string name="service_no_system_alert_window_granted_text">Kon nie Droid Dashcam-diens begin om opname outomaties te begin/stop nie omdat SYSTEM_ALERT_WINDOW-toestemming (vertoon oor alle vensters van ander toepassings) nie toegestaan ​​is nie. Of die toestel was op hierdie stadium gesluit (Android-beperking is dat die toestel eers ontsluit moet word en sy skerm moet aangeskakel word voordat die diens vir outomatiese video-opname begin kan word)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Die toepassing kon nie oopgemaak word om op te neem nie omdat die \"wys bo-op alle toepassings\"-toestemming nie toegestaan ​​is nie. Klik om te verskaf</string>
     <string name="service_watch_on_boot_completed_text">Wanneer die toestel aangeskakel word</string>
 
     <string name="storage_external_single">MicroSD kaart</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Deaktiveer batteryoptimering vir hierdie toepassing in jou toestelinstellings om toekomstige kamerafoute te vermy</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Outomatiese opname slegs wanneer die diens loop</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">As jy hierdie opsie aktiveer, sal outomatiese opname nie uitgevoer word as die moniteringsdiens nie loop nie en nie in die kennisgewingpaneel sigbaar is nie</string>
+    <string name="prefs_rules_auto_start_without_service_text">Outomatiese opname selfs al loop die agtergronddiens (Watcher) nie</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Jy kan hierdie opsie afskakel sodat die toepassing outomatiese opname doen slegs as die toepassing se agtergronddiens (Watcher) loop.\n- Outomatiese opname vir gebeurtenisse soos laai, Bluetooth of AUX kan tot Android 7.1 sonder probleme uitgevoer word.\n- Vanaf Android 8 kan outomatiese opname sonder \'n agtergrondtoepassingsdiens (Watcher) slegs vir Bluetooth-geleenthede uitgevoer word, en in ander gevalle (wanneer laai of AUX) moet u eers die agtergrondtoepassingsdiens (Watcher) begin - deur die begin van die aansoek self een keer.\n- Vanaf Android 11 sonder die agtergrond-toepassingsdiens (Watcher), is toegang tot die kamera sonder gebruikersinteraksie slegs moontlik as die foon ontsluit is (skerm aan) en \"bo-op alle toepassings\"-toestemming verleen word.\n- Dus, vir Android 11 en hoër, moet u die toepassing een keer met die hand begin sodat die agtergronddiens van die toepassing (Watcher) outomaties begin opneem tydens enige gebeurtenisse en wanneer die telefoonskerm afgeskakel is.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Onderskrifte onderaan</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Vereis om die agtergrondopnamediens en statusse op die kennisgewingpaneel te kan vertoon. Klik om in te dien</string>
     <string name="prefs_warning_notifications_text">Kennisgewing toestemming</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Vir kleiner skenkings word advertensies slegs vir die tuisskerm verwyder</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Vir kleiner skenkings word advertensies slegs op die hoofskerm verwyder</string>photo
     <string name="photos_folder_name">Foto\'s</string>
 
     <string name="photos_count_one">foto</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Kon nie die geselekteerde kamera oopmaak nie. Dit gebeur so dat nie alle versteekte kameras deur enige toepassing gebruik kan word nie. Baie vervaardigers laat hul gebruik slegs in hul eie toepassings toe. Die verstekkamera sal oopmaak.</string>
 
-    <string name="videos_ask_which_player">Vra elke keer in watter speler om te speel\?</string>
+    <string name="videos_ask_which_player">Vra watter speler om in te speel</string>
 
     <string name="prefs_location_mode_text">GPS-prioriteit (battery of akkuraatheid)</string>
     <string name="prefs_location_mode_balanced_text">Balans tussen liggingakkuraatheid (koördinate), spoed en batterykragverbruik.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Verwyder advertensies vir altyd met \'n eenmalige skenking van enige bedrag. Jy kan ook enige bedrag maandeliks skenk om advertensies te verwyder</string>
 
     <string name="prefs_audio_bt_recording_text">Neem oudio op vanaf \'n Bluetooth-toestel</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Moenie saam met hoofeenheid (motorradio) gebruik nie!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Gebruik slegs met Bluetooth-oorfone. As jy via Bluetooth aan die hoofeenheid (motorradio) koppel, kan dit om een ​​of ander rede outomaties \'n telefoonoproep na die standaardnommer op hierdie toestel veroorsaak</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Outomatiese opname oor Bluetooth-verbindings vereis toestemming. Klik hier om in te dien</string>
+    <string name="prefs_warning_permission_bluetooth_text">Bluetooth-toestemming nie toegestaan ​​nie</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Die toepassing kon nie oopgemaak word om op te neem nie omdat die skerm afgeskakel (gesluit) was. Begin \'n agtergrondopnamediens (Watcher) om dit reg te stel.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Die toepassing kon nie oopgemaak word nie omdat die skerm afgeskakel (gesluit) was.</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Die gespesifiseerde toepassing kon nie geloods word om outomaties oop te maak nie omdat die \"wys bo-op alle toepassings\"-toestemming nie toegestaan ​​is nie.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Jy moet Naby-toestelle (Bluetooth) toestemming gee vir outomatiese gebeurtenisopname. Dit kan in die toepassing se stelselinstellings gedoen word.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Kennisgewings word vereis om die agtergrondopnamediens en opnamestatus in die kennisgewingpaneel te kan vertoon.</string>
+
+    
 </resources>

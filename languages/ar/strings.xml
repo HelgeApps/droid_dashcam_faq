@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">الكاميرا مطلوبة لتسجيل الفيديو ومعاينة الكاميرا.</string>
     <string name="permission_camera_dlg_title">دقة الكاميرا</string>
     <string name="permission_camera_request_canceled">يتطلب هذا التطبيق إذنًا لاستخدام الكاميرا لتسجيل الفيديو. لكنك رفضتها. الإغلاق… حاول منح الإذن للكاميرا في إعدادات النظام لهذا التطبيق</string>
-    <string name="permission_location_dlg_explanation_msg">عند تصغيره ، يستخدم Droid Dashcam الموقع في الخلفية لرسم الإحداثيات والعنوان والسرعة على الفيديو المسجل.</string>
+    <string name="permission_location_dlg_explanation_msg">الموقع مطلوب لرسم الإحداثيات والعنوان والسرعة على الفيديو المسجل، أو عرض هذه البيانات على الشاشة الرئيسية (حسب إعداداتك).</string>
     <string name="permission_location_dlg_explanation_settings_msg">في Android 11 (R) ، تحتاج إلى تحديد \"طوال الوقت (أي وضع) يدويًا\" في تفضيلات النظام للسماح بتحديد الموقع في الخلفية. سيتم فتح الإعدادات بعد هذه النافذة.</string>
     <string name="permission_location_dlg_msg">الموقع ضروري لتحديد سرعة النقل باستخدام بيانات GPS والعنوان الحالي والإحداثيات للعرض على الشاشة ولتسجيل الترجمات على الفيديو</string>
     <string name="permission_location_dlg_title">إذن الموقع</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">آلي</string>
     <string name="rec_fix_short_text">لتصحيح</string>
     <string name="rec_fix_text">لتصحيح</string>
-    <string name="rec_free_space_text">متاح</string>
+    <string name="rec_available_space_text">متاح</string>
     <string name="rec_gps_status_satellites_few_text">الأقمار الصناعية</string>
     <string name="rec_gps_status_satellites_many_text">الأقمار الصناعية</string>
     <string name="rec_gps_status_satellites_one_text">الأقمار الصناعية</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">بدأ التسجيل</string>
     <string name="recording_voice_stopped_text">توقف التسجيل</string>
 
-    <string name="service_no_system_alert_window_granted_text">فشل بدء تشغيل خدمة Droid Dashcam لبدء /إيقاف التسجيل تلقائيًا لأنه لم يتم منح إذن SYSTEM_ALERT_WINDOW (العرض على جميع نوافذ التطبيقات الأخرى). أو تم قفل الجهاز في هذه المرحلة (قيود Android هي أنه يجب أولاً إلغاء قفل الجهاز وتشغيل شاشته قبل بدء خدمة التسجيل التلقائي للفيديو)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">تعذر فتح التطبيق لبدء التسجيل لأنه لم يتم منح إذن \"العرض أعلى جميع التطبيقات\". انقر لتقديم</string>
     <string name="service_watch_on_boot_completed_text">عند تشغيل الجهاز</string>
 
     <string name="storage_external_single">بطاقة مايكرو التنمية المستدامة</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">قم بتعطيل تحسين البطارية لهذا التطبيق في إعدادات جهازك لتجنب أخطاء الكاميرا المستقبلية</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">التسجيل التلقائي فقط عندما تكون الخدمة قيد التشغيل</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">إذا قمت بتمكين هذا الخيار ، فلن يتم إجراء التسجيل التلقائي إذا لم تكن خدمة المراقبة قيد التشغيل وغير مرئية في لوحة الإشعارات</string>
+    <string name="prefs_rules_auto_start_without_service_text">التسجيل التلقائي حتى لو كانت خدمة الخلفية (المراقب) لا تعمل</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* يمكنك إيقاف تشغيل هذا الخيار بحيث يقوم التطبيق بالتسجيل التلقائي فقط في حالة تشغيل خدمة الخلفية الخاصة بالتطبيق (المراقب).\n- يمكن إجراء التسجيل التلقائي لأحداث مثل الشحن أو Bluetooth أو AUX دون مشاكل حتى Android 7.1.\n- بدءًا من Android 8، لا يمكن إجراء التسجيل التلقائي بدون خدمة تطبيق الخلفية (Watcher) إلا لأحداث Bluetooth، وفي الحالات الأخرى (عند الشحن أو AUX) تحتاج أولاً إلى بدء تشغيل خدمة تطبيق الخلفية (Watcher) - عن طريق تشغيل التطبيق نفسه مرة واحدة.\n- بدءًا من Android 11 بدون خدمة التطبيقات في الخلفية (Watcher)، لا يمكن الوصول إلى الكاميرا دون تدخل المستخدم إلا إذا كان الهاتف مفتوحًا (تشغيل الشاشة) وتم منح إذن \"فوق كل التطبيقات\".\n- وبالتالي، بالنسبة لنظام Android 11 والإصدارات الأحدث، تحتاج إلى تشغيل التطبيق يدويًا مرة واحدة حتى تبدأ خدمة الخلفية للتطبيق (Watcher) في التسجيل تلقائيًا أثناء أي أحداث وعند إيقاف تشغيل شاشة الهاتف.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">ترجمات في الأسفل</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">مطلوب لتتمكن من عرض خدمة التسجيل في الخلفية والحالات على لوحة الإشعارات. انقر للإرسال</string>
     <string name="prefs_warning_notifications_text">إذن الإخطار</string>
 
-    <string name="donation_dlg_limited_ads_message_text">للتبرعات الصغيرة ، تتم إزالة الإعلانات للشاشة الرئيسية فقط</string>photo
+    <string name="donation_dlg_limited_ads_message_text">بالنسبة للتبرعات الصغيرة، تتم إزالة الإعلانات على الشاشة الرئيسية فقط</string>photo
     <string name="photos_folder_name">الصور</string>
 
     <string name="photos_count_one">صورة</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">فشل في فتح الكاميرا المحددة. يحدث أنه لا يمكن استخدام جميع الكاميرات المخفية بواسطة أي تطبيق. تسمح العديد من الشركات المصنعة باستخدامها فقط في تطبيقاتها الأصلية. سيتم فتح الكاميرا الافتراضية.</string>
 
-    <string name="videos_ask_which_player">اسأل في أي لاعب تلعب في كل مرة؟</string>
+    <string name="videos_ask_which_player">اسأل أي لاعب ستلعب فيه</string>
 
     <string name="prefs_location_mode_text">أولوية GPS (البطارية أو الدقة)</string>
     <string name="prefs_location_mode_balanced_text">التوازن بين دقة الموقع (الإحداثيات) والسرعة واستهلاك طاقة البطارية.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">قم بإزالة الإعلانات إلى الأبد من خلال التبرع لمرة واحدة بأي مبلغ. يمكنك أيضًا التبرع بأي مبلغ شهريًا لإزالة الإعلانات</string>
 
     <string name="prefs_audio_bt_recording_text">تسجيل الصوت من جهاز بلوتوث</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">لا تستخدم مع الوحدة الرئيسية (راديو السيارة)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">استخدم فقط مع سماعات البلوتوث. إذا قمت بالاتصال بالوحدة الرئيسية (راديو السيارة) عبر البلوتوث، فقد يؤدي ذلك لسبب ما إلى إجراء مكالمة هاتفية تلقائيًا إلى الرقم القياسي على هذا الجهاز</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">يتطلب التسجيل التلقائي عبر اتصالات Bluetooth إذنًا. انقر هنا لتقديم</string>
+    <string name="prefs_warning_permission_bluetooth_text">لم يتم منح إذن البلوتوث</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">لا يمكن فتح التطبيق لبدء التسجيل لأن الشاشة كانت مطفأة (مقفلة). قم بتشغيل خدمة تسجيل الخلفية (Watcher) لإصلاح ذلك.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">لا يمكن فتح التطبيق لأن الشاشة كانت مغلقة (مقفلة).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">تعذر تشغيل التطبيق المحدد لفتحه تلقائيًا لأنه لم يتم منح إذن \"العرض أعلى كل التطبيقات\".</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">يجب عليك منح إذن الأجهزة القريبة (Bluetooth) لتسجيل الأحداث تلقائيًا. يمكن القيام بذلك في إعدادات نظام التطبيق.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">الإخطارات مطلوبة لتتمكن من عرض خدمة تسجيل الخلفية وحالة التسجيل في لوحة الإشعارات.</string>
+
+    
 </resources>

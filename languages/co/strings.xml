@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">A camera hè necessaria per a registrazione video è a vista previa di a camera.</string>
     <string name="permission_camera_dlg_title">A risoluzione di a camera</string>
     <string name="permission_camera_request_canceled">Questa applicazione richiede permessu per utilizà a camera per registrà video. Ma l\'avete rifiutatu. Chiusura… Pruvate à cuncede permessu à a camera in i paràmetri di u sistema di sta applicazione</string>
-    <string name="permission_location_dlg_explanation_msg">Quandu hè minimizatu, Droid Dashcam usa u locu in u sfondate per disegnà coordenate, indirizzu è velocità nantu à u video arregistratu.</string>
+    <string name="permission_location_dlg_explanation_msg">U locu hè necessariu per disegnà coordenate, indirizzu è rapidità nantu à u video arregistratu, o vede sta dati nantu à a pantalla principale (secondu i vostri paràmetri).</string>
     <string name="permission_location_dlg_explanation_settings_msg">In Android 11 (R), avete bisognu di selezziunà manualmente \"Tuttu u tempu (qualsiasi modu)\" in e preferenze di u sistema per permette u locu in fondo. I paràmetri s\'apreranu dopu à sta finestra.</string>
     <string name="permission_location_dlg_msg">U locu hè necessariu per determinà a velocità di u trasportu utilizendu dati GPS, l\'indirizzu attuale è e coordenate per a visualizazione nantu à u screnu è per a registrazione di sottotitoli in video.</string>
     <string name="permission_location_dlg_title">Permissione di locu</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">Per curregà</string>
     <string name="rec_fix_text">Per curregà</string>
-    <string name="rec_free_space_text">Disponibile</string>
+    <string name="rec_available_space_text">Disponibile</string>
     <string name="rec_gps_status_satellites_few_text">satelliti</string>
     <string name="rec_gps_status_satellites_many_text">satelliti</string>
     <string name="rec_gps_status_satellites_one_text">satellitu</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">A registrazione hè principiata</string>
     <string name="recording_voice_stopped_text">A registrazione si ferma</string>
 
-    <string name="service_no_system_alert_window_granted_text">Impossibile inizià u serviziu di Droid Dashcam per inizià /piantà automaticamente a registrazione perchè u permessu SYSTEM_ALERT_WINDOW (mostra in tutte e finestre di altre applicazioni) ùn hè micca stata cuncessa. O u dispusitivu hè stata chjusa à questu puntu (a restrizione di Android hè chì u dispusitivu deve esse prima sbloccatu è a so schermu deve esse attivata prima chì u serviziu per a registrazione video automatica pò esse cuminciatu)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">L\'app ùn pò esse aperta per inizià a registrazione perchè l\'autorizazione \"mostra in cima à tutte l\'applicazioni\" ùn hè micca stata cuncessa. Cliccate per furnisce</string>
     <string name="service_watch_on_boot_completed_text">Quandu accende u dispusitivu</string>
 
     <string name="storage_external_single">carta MicroSD</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Disattivate l\'ottimisazione di a batteria per questa app in i paràmetri di u vostru dispositivu per evità futuri errori di càmera</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Registrazione automatica solu quandu u serviziu hè in esecuzione</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Se attivate sta opzione, a registrazione automatica ùn serà micca realizata se u serviziu di surviglianza ùn hè micca in esecuzione è ùn hè micca visibile in u pannellu di notificazione.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Registrazione automatica ancu s\'è u serviziu di fondo (Watcher) ùn hè micca in esecuzione</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Pudete disattivà sta opzione in modu chì l\'applicazione eseguisce a registrazione automatica solu se u serviziu di fondo di l\'applicazione (Watcher) hè in esecuzione.\n- A registrazione automatica per avvenimenti cum\'è a carica, Bluetooth o AUX pò esse realizatu senza prublemi finu à Android 7.1.\n- Partendu da Android 8, a registrazione automatica senza un serviziu di applicazione in background (Watcher) pò esse realizatu solu per l\'avvenimenti Bluetooth, è in altri casi (quandu si carica o AUX) avete bisognu di inizià u serviziu di l\'applicazione in background (Watcher) - lanciando u l\'applicazione stessa una volta.\n- Partendu cù Android 11 senza u serviziu di l\'app in background (Watcher), l\'accessu à a camera senza interazzione di l\'utilizatori hè pussibule solu se u telefunu hè sbloccatu (schermu attivu) è \"in cima à tutte l\'applicazioni\" hè permessu.\n- Cusì, per Android 11 è superiore, avete bisognu di lancià manualmente l\'applicazione una volta in modu chì u serviziu di fondo di l\'applicazione (Watcher) cumencia à registrà automaticamente durante ogni avvenimentu è quandu a pantalla di u telefunu hè spenta.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Subtitulos à u fondu</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Hè necessariu per pudè vede u serviziu di registrazione di fondo è i stati nantu à u pannellu di notificazione. Cliccate per mandà</string>
     <string name="prefs_warning_notifications_text">Permissione di Notificazione</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Per e donazioni più chjuche, l\'annunzii sò eliminati solu per a pantalla di casa</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Per donazioni più chjuche, a publicità hè eliminata solu nantu à a pantalla principale</string>photo
     <string name="photos_folder_name">Fotografie</string>
 
     <string name="photos_count_one">foto</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Impossibile apre a camera scelta. Hè cusì chì micca tutte e camere nascoste ponu esse aduprate da ogni applicazione. Parechji pruduttori permettenu solu u so usu in e so applicazioni native. A camera predeterminata si apre.</string>
 
-    <string name="videos_ask_which_player">Dumandate in quale ghjucatore ghjucà ogni volta\?</string>
+    <string name="videos_ask_which_player">Dumandate à quale ghjucatore ghjucà</string>
 
     <string name="prefs_location_mode_text">Priorità GPS (batteria o precisione)</string>
     <string name="prefs_location_mode_balanced_text">Equilibre trà a precisione di u locu (coordenate), a velocità è u cunsumu di energia di a bateria.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Eliminate l\'annunzii per sempre cun una donazione una volta di qualsiasi quantità. Pudete ancu donà ogni quantità mensili per sguassà l\'annunzii</string>
 
     <string name="prefs_audio_bt_recording_text">Registra l\'audio da un dispositivu Bluetooth</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Ùn aduprate micca cù l\'unità principale (radio di vittura)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Aduprà solu cù cuffie Bluetooth. Se cunnette à l\'unità principale (radio di vittura) via Bluetooth, allora per qualchì mutivu questu pò automaticamente attivà una telefonata à u numeru standard di stu dispusitivu.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">A registrazione automatica nantu à e cunnessione Bluetooth richiede permessu. Cliccate quì per mandà</string>
+    <string name="prefs_warning_permission_bluetooth_text">Permissione Bluetooth ùn hè micca cuncessa</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">L\'applicazione ùn pò esse aperta per inizià a registrazione perchè a schermu hè stata disattivata (bloccata). Eseguite un serviziu di registrazione di fondo (Watcher) per risolve questu.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">L\'applicazione ùn pò esse aperta perchè u screnu hè stata disattivata (bloccata).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">L\'applicazione specificata ùn pò micca esse lanciata per apre automaticamente perchè u permessu di \"mostra in cima à tutte l\'applicazioni\" ùn hè micca stata cuncessa.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Duvete dà permessu à i Dispositivi Vicini (Bluetooth) per a registrazione automatica di l\'avvenimenti. Questu pò esse fattu in i paràmetri di u sistema di l\'applicazione.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">I notificazioni sò necessarii per pudè visualizà u serviziu di registrazione di fondo è u statu di registrazione in u pannellu di notificazione.</string>
+
+    
 </resources>

@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Iyo kamera inodiwa kurekodha vhidhiyo uye kamera preview.</string>
     <string name="permission_camera_dlg_title">Kugadziriswa kwekamera</string>
     <string name="permission_camera_request_canceled">Ichi chishandiso chinoda mvumo yekushandisa kamera kurekodha vhidhiyo. Asi wakazviramba. Kuvhara… Edza kupa mvumo kune kamera muzvirongwa zvechirongwa ichi</string>
-    <string name="permission_location_dlg_explanation_msg">Kana yakaderedzwa, Droid Dashcam inoshandisa iyo nzvimbo kumashure kudhirowa marongero, kero uye nekumhanyisa pavhidhiyo yakarekodhwa.</string>
+    <string name="permission_location_dlg_explanation_msg">Iyo nzvimbo inodiwa kudhirowa marongero, kero uye kumhanya pavhidhiyo yakarekodhwa, kana kuratidza iyi data pachiratidziro chikuru (zvichienderana nemasetiro ako).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Pa Android 11 (R), iwe unofanirwa kusarudza nemaoko \"Nguva dzese (chero modhi)\" mune zvaunofarira system kubvumidza nzvimbo kumashure. Zvirongwa zvichavhurwa mushure mehwindo iri.</string>
     <string name="permission_location_dlg_msg">Iyo nzvimbo inodiwa kuti uone kumhanya kwekufambisa uchishandisa GPS data, iyo yazvino kero uye marongero ekuratidzira pachiratidziro uye yekurekodha zvinyorwa zvidiki pavhidhiyo.</string>
     <string name="permission_location_dlg_title">Mvumo yenzvimbo</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">Kugadzirisa</string>
     <string name="rec_fix_text">Kugadzirisa</string>
-    <string name="rec_free_space_text">Available</string>
+    <string name="rec_available_space_text">Available</string>
     <string name="rec_gps_status_satellites_few_text">masathelaiti</string>
     <string name="rec_gps_status_satellites_many_text">masathelaiti</string>
     <string name="rec_gps_status_satellites_one_text">satellite</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Kurekodha kwatanga</string>
     <string name="recording_voice_stopped_text">Kurekodha kwakamira</string>
 
-    <string name="service_no_system_alert_window_granted_text">Yatadza kutanga sevhisi yeDroid Dashcam kuti itange otomatiki /kumisa kurekodha nekuti SYSTEM_ALERT_WINDOW mvumo (kuratidza pamusoro pemahwindo ese ezvimwe zvinoshandiswa) haina kupihwa. Kana kuti chishandiso chakavharwa panguva ino (kurambidzwa kweAndroid ndechekuti mudziyo unofanirwa kutanga wavhurwa uye skrini yacho inofanirwa kuvhurwa sevhisi yekurekodha vhidhiyo isati yatanga)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Iyo app haina kukwanisa kuvhurwa kuti itange kurekodha nekuti \"show pamusoro pemaapplication ese\" mvumo haina kupihwa. Dzvanya kuti upe</string>
     <string name="service_watch_on_boot_completed_text">Pakubatidza mudziyo</string>
 
     <string name="storage_external_single">MicroSD kadhi</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Dzima optimization yebhatiri yeiyi app mune yako kifaa zvigadziriso kudzivirira kukanganisa kwekamera kwemberi</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Kurekodha otomatiki chete kana sevhisi iri kushanda</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Kana iwe ukagonesa iyi sarudzo, ipapo kurekodha otomatiki hakuzoitwe kana sevhisi yekutarisa isiri kushanda uye isingaonekwe mupaneri yekuzivisa.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Kurekodha otomatiki kunyangwe iyo yekumashure sevhisi (Mutariri) isiri kushanda</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Unogona kudzima iyi sarudzo kuitira kuti application iite otomatiki kurekodha chete kana application yekumashure sevhisi (Mutariri) ichimhanya.\n-Otomatiki kurekodha kwezviitiko zvakaita sekuchaja, Bluetooth kana AUX zvinogona kuitwa pasina matambudziko kusvika kuAndroid 7.1.\n-Kutanga kubva kuAndroid 8, otomatiki kurekodha pasina yekumashure application sevhisi (Mutariri) inogona chete kuitwa yezviitiko zveBluetooth, uye mune dzimwe nguva (kana uchichaja kana AUX) unofanirwa kutanga watanga iyo yekumashure application sevhisi (Mutariri) - nekutangisa application pachayo kamwe.\n-Kutanga neApple 11 isina yekumashure app sevhisi (Mutariri), kuwana kamera pasina kupindirana kwemushandisi kunogoneka chete kana foni yakavhurwa (screen pa) uye \"pamusoro pese maapplication\" mvumo yakapihwa.\n-Nekudaro, yeApple 11 uye yepamusoro, iwe unofanirwa kuvhura manyore application kamwe chete kuti iyo yekumashure sevhisi yekushandisa (Mutariri) itange kurekodha otomatiki panguva ipi neipi zviitiko uye kana chidzitiro chefoni chakadzimwa.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Subtitles pazasi</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Inodiwa kuti ugone kuratidza kumashure kurekodha sevhisi uye mastatus pane yekuzivisa panhi. Dzvanya kuti utumire</string>
     <string name="prefs_warning_notifications_text">Mvumo yekuzivisa</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Pazvipo zvidiki, shambadzo dzinobviswa zvepaimba skrini chete</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Pazvipo zvidiki, kushambadza kunobviswa chete pachiratidziro chikuru</string>photo
     <string name="photos_folder_name">Photos</string>
 
     <string name="photos_count_one">photo</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Tatadza kuvhura kamera yakasarudzwa. Izvo zvinoitika kuti haasi ese akavanzika makamera anogona kushandiswa nechero application. Vazhinji vagadziri vanongobvumira kushandiswa kwavo mumashandisirwo avo ekuzvarwa. Kamera yakagara ichavhurwa.</string>
 
-    <string name="videos_ask_which_player">Bvunza kuti ndeupi mutambi wekutamba nguva imwe neimwe\?</string>
+    <string name="videos_ask_which_player">Bvunza kuti ndeupi mutambi wekutamba naye</string>
 
     <string name="prefs_location_mode_text">GPS Kukosha (Bhatiri kana Kururama)</string>
     <string name="prefs_location_mode_balanced_text">Kuyera pakati pekurongeka kwenzvimbo (marongedzero), kumhanya uye kushandiswa kwesimba rebhatiri.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Bvisa ads zvachose nemupiro wenguva imwe chete chero huwandu. Iwe unogona zvakare kupa chero mari pamwedzi kubvisa ads</string>
 
     <string name="prefs_audio_bt_recording_text">Rekodha odhiyo kubva kuBluetooth mudziyo</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Usashandise nemusoro unit (redhiyo yemotokari)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Shandisa chete nemahedhifoni eBluetooth. Kana iwe ukabatanidza kune yemusoro unit (redhiyo yemotokari) kuburikidza neBluetooth, saka nekuda kwechimwe chikonzero izvi zvinogona kukonzeresa kufona kune yakajairwa nhamba pachigadzirwa ichi.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Kurekodha otomatiki pamusoro pekubatanidza neBluetooth kunoda mvumo. Dzvanya pano kuti utumire</string>
+    <string name="prefs_warning_permission_bluetooth_text">Mvumo yeBluetooth haina kupihwa</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Chirongwa hachina kuvhurwa kuti chitange kurekodha nekuti skrini yanga yakadzimwa (yakakiiwa). Mhanyai sevhisi yekurekodha kumashure (Mutariri) kugadzirisa izvi.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Chishandiso hachina kuvhurwa nekuti skrini yanga yakadzimwa (yakakiiwa).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Chishandiso chataurwa hachina kukwanisa kuvhurwa kuti chivhurwe otomatiki nekuti \"show pamusoro pezvishandiso zvese\" mvumo haina kupihwa.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Iwe unofanirwa kupa Pedyo Zvishandiso (Bluetooth) mvumo yekurekodha otomatiki chiitiko. Izvi zvinogona kuitwa mumashandisirwo ehurongwa hwekushandisa.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Zviziviso zvinodikanwa kuti ugone kuratidza sevhisi yekurekodha sevhisi uye mamiriro ekurekodha mune yekuzivisa panhi.</string>
+
+    
 </resources>

@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Камера је неопходна за снимање видео записа и преглед камере.</string>
     <string name="permission_camera_dlg_title">Резолуција камере</string>
     <string name="permission_camera_request_canceled">Ова апликација захтева дозволу да користи камеру за снимање видео записа. Али ти си то одбио. Затварање… Покушајте да дате дозволу камери у системским поставкама ове апликације</string>
-    <string name="permission_location_dlg_explanation_msg">Када се минимизира, Дроид Дасхцам користи локацију у позадини да нацрта координате, адресу и брзину на снимљеном видеу.</string>
+    <string name="permission_location_dlg_explanation_msg">Локација је потребна за цртање координата, адресе и брзине на снимљеном видеу или за приказ ових података на главном екрану (у зависности од ваших подешавања).</string>
     <string name="permission_location_dlg_explanation_settings_msg">На Андроид-у 11 (Р) морате ручно да изаберете „Све време (било који режим)“ у системским подешавањима да бисте дозволили локацију у позадини. Подешавања ће се отворити након овог прозора.</string>
     <string name="permission_location_dlg_msg">Локација је неопходна за одређивање брзине транспорта помоћу ГПС података, тренутне адресе и координата за приказ на екрану и за снимање титлова на видео</string>
     <string name="permission_location_dlg_title">Дозвола за локацију</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Ауто</string>
     <string name="rec_fix_short_text">Исправити</string>
     <string name="rec_fix_text">Исправити</string>
-    <string name="rec_free_space_text">Доступан</string>
+    <string name="rec_available_space_text">Доступан</string>
     <string name="rec_gps_status_satellites_few_text">сателити</string>
     <string name="rec_gps_status_satellites_many_text">сателити</string>
     <string name="rec_gps_status_satellites_one_text">сателита</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Снимање је почело</string>
     <string name="recording_voice_stopped_text">Снимање је заустављено</string>
 
-    <string name="service_no_system_alert_window_granted_text">Покретање услуге Дроид Дасхцам за аутоматско покретање/заустављање снимања није успело јер СИСТЕМ_АЛЕРТ_ВИНДОВ дозвола (приказ у свим прозорима других апликација) није одобрена. Или је уређај закључан у овом тренутку (Андроид ограничење је да се уређај прво мора откључати и његов екран мора укључити пре него што се сервис за аутоматско снимање видеа може покренути)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Апликација није могла да се отвори да би се започело снимање јер није дата дозвола „прикажи на врху свих апликација“. Кликните да бисте обезбедили</string>
     <string name="service_watch_on_boot_completed_text">Приликом укључивања уређаја</string>
 
     <string name="storage_external_single">МицроСД картица</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Онемогућите оптимизацију батерије за ову апликацију у подешавањима уређаја да бисте избегли будуће грешке камере</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Аутоматско снимање само када је сервис покренут</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Ако омогућите ову опцију, аутоматско снимање се неће вршити ако услуга надгледања није покренута и није видљива на табли са обавештењима</string>
+    <string name="prefs_rules_auto_start_without_service_text">Аутоматско снимање чак и ако позадинска услуга (Ватцхер) није покренута</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Ову опцију можете искључити тако да апликација обавља аутоматско снимање само ако је покренута позадинска услуга апликације (Ватцхер).\n- Аутоматско снимање догађаја као што су пуњење, Блуетоотх или АУКС може се обављати без проблема до Андроид 7.1.\n- Почевши од Андроид 8, аутоматско снимање без позадинске апликације апликације (Ватцхер) може да се врши само за Блуетоотх догађаје, ау другим случајевима (приликом пуњења или АУКС) потребно је прво да покренете сервис апликације у позадини (Ватцхер) - покретањем сама апликација једном.\n– Почевши од Андроида 11 без услуге апликације у позадини (Ватцхер), приступ камери без интеракције корисника је могућ само ако је телефон откључан (екран укључен) и одобрена дозвола „поврх свих апликација“.\n- Дакле, за Андроид 11 и новије верзије, потребно је да ручно покренете апликацију једном како би позадинска услуга апликације (Ватцхер) почела аутоматски да снима током било каквих догађаја и када је екран телефона искључен.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Титлови на дну</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Потребно да бисте могли да прикажете услугу снимања у позадини и статусе на табли са обавештењима. Кликните да пошаљете</string>
     <string name="prefs_warning_notifications_text">Дозвола за обавештења</string>
 
-    <string name="donation_dlg_limited_ads_message_text">За мање донације, огласи се уклањају само за почетни екран</string>photo
+    <string name="donation_dlg_limited_ads_message_text">За мање донације, оглашавање се уклања само на главном екрану</string>photo
     <string name="photos_folder_name">Фотографије</string>
 
     <string name="photos_count_one">фото</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Отварање изабране камере није успело. Дешава се да ниједна апликација не може да користи све скривене камере. Многи произвођачи дозвољавају њихову употребу само у својим изворним апликацијама. Отвара се подразумевана камера.</string>
 
-    <string name="videos_ask_which_player">Питајте у ком играчу да играте сваки пут\?</string>
+    <string name="videos_ask_which_player">Питајте у ком играчу да играте</string>
 
     <string name="prefs_location_mode_text">ГПС приоритет (батерија или тачност)</string>
     <string name="prefs_location_mode_balanced_text">Баланс између тачности локације (координате), брзине и потрошње енергије батерије.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Уклоните огласе заувек уз једнократну донацију било ког износа. Такође можете да донирате било који износ месечно за уклањање огласа</string>
 
     <string name="prefs_audio_bt_recording_text">Снимите звук са Блуетоотх уређаја</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Не користити са главном јединицом (ауто радио)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Користите само са Блуетоотх слушалицама. Ако се повежете на главну јединицу (ауто радио) преко Блуетоотх-а, из неког разлога ово може аутоматски да покрене телефонски позив на стандардни број на овом уређају</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">За аутоматско снимање преко Блуетоотх везе потребна је дозвола. Кликните овде да пошаљете</string>
+    <string name="prefs_warning_permission_bluetooth_text">Блуетоотх дозвола није дата</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Није могуће отворити апликацију за почетак снимања јер је екран искључен (закључан). Покрените услугу снимања у позадини (Ватцхер) да бисте ово поправили.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Апликација се не може отворити јер је екран искључен (закључан).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Наведена апликација није могла да се покрене да би се аутоматски отворила јер дозвола „прикажи на врху свих апликација“ није одобрена.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Морате да одобрите оближњим уређајима (Блуетоотх) дозволу за аутоматско снимање догађаја. Ово се може урадити у системским поставкама апликације.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Обавештења су неопходна да бисте могли да прикажете услугу снимања у позадини и статус снимања на табли са обавештењима.</string>
+
+    
 </resources>

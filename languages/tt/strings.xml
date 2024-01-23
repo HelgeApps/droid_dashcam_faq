@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Видео язу һәм камераны алдан карау өчен камера кирәк.</string>
     <string name="permission_camera_dlg_title">Камера резолюциясе</string>
     <string name="permission_camera_request_canceled">Бу кушымта видео язу өчен камераны кулланырга рөхсәт сорый. Ләкин сез аны кире кактыгыз. Ябу… Бу кушымтаның система көйләүләрендә камерага рөхсәт бирергә тырышыгыз</string>
-    <string name="permission_location_dlg_explanation_msg">Минимальләштерелгәндә, Droid Dashcam фондагы урынны яздырылган видеода координаталар, адрес һәм тизлек сызу өчен куллана.</string>
+    <string name="permission_location_dlg_explanation_msg">Урын координаталар, адрес һәм тизлекне яздырылган видеода яки бу мәгълүматны төп экранда күрсәтү өчен кирәк (сезнең көйләүләргә карап).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Android 11 (R) системасында, фонда урнашу өчен, система өстенлекләрендә \"Барлык вакыт (теләсә нинди режим)\" ны кул белән сайларга кирәк. Бу тәрәзәдән соң көйләүләр ачылачак.</string>
     <string name="permission_location_dlg_msg">Урын GPS мәгълүматларын кулланып транспорт тизлеген, хәзерге адресны һәм экранда күрсәтү һәм видео субтитрларын язу өчен координаталарны билгеләргә кирәк.</string>
     <string name="permission_location_dlg_title">Урын рөхсәте</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Авто</string>
     <string name="rec_fix_short_text">Төзәтергә</string>
     <string name="rec_fix_text">Төзәтергә</string>
-    <string name="rec_free_space_text">Мөмкин</string>
+    <string name="rec_available_space_text">Мөмкин</string>
     <string name="rec_gps_status_satellites_few_text">иярченнәр</string>
     <string name="rec_gps_status_satellites_many_text">иярченнәр</string>
     <string name="rec_gps_status_satellites_one_text">иярчен</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Язу башланды</string>
     <string name="recording_voice_stopped_text">Язу туктады</string>
 
-    <string name="service_no_system_alert_window_granted_text">Droid Dashcam хезмәтен автоматик рәвештә башлау /туктату өчен Droid Dashcam хезмәтен башлап җибәрә алмады, чөнки SYSTEM_ALERT_WINDOW рөхсәте (бүтән кушымталарның барлык тәрәзәләрендә күрсәтү) бирелмәгән. Яисә җайланма бу вакытта бикләнгән иде (Android чикләү - җайланма башта ачылырга тиеш һәм автоматик видео яздыру хезмәте башланганчы аның экраны кабызылырга тиеш)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Язуны башлау өчен кушымтаны ачып булмый, чөнки \"барлык кушымталар өстендә шоу\" рөхсәте бирелмәгән. Тапшыру өчен басыгыз</string>
     <string name="service_watch_on_boot_completed_text">Deviceайланманы кабызганда</string>
 
     <string name="storage_external_single">MicroSD картасы</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Киләчәк камера хаталарын булдырмас өчен, бу кушымта өчен батарея оптимизациясен җайланма көйләүләрендә сүндерегез</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Сервис эшләгәндә генә автоматик язу</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Әгәр дә сез бу вариантны эшләтсәгез, мониторинг хезмәте эшләмәсә һәм хәбәр итү панелендә күренмәсә, автоматик язу башкарылмаячак.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Фон сервис (Күзәтүче) эшләмәсә дә, автоматик язу</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Сез бу параметрны сүндерә аласыз, кушымтаның фон сервисы (Күзәтүче) эшләгән очракта гына автоматик язуны башкарыр өчен.\n- Зарядлау, Bluetooth яки AUX кебек вакыйгалар өчен автоматик язу Android 7.1 кадәр проблемаларсыз башкарылырга мөмкин.\n- Android 8-дән башлап, фон кушымтасы сервисы булмаган автоматик язу Bluetooth вакыйгалары өчен генә башкарылырга мөмкин, һәм башка очракларда (зарядка ясаганда яки AUX) сезгә башта кушымта хезмәтен (Күзәтүче) башларга кирәк - эшләтеп җибәреп. куллану үзе бер тапкыр.\n- Android 11-дән башлап, кушымта сервисы (Күзәтүче) булмаса, камерага кулланучының үзара бәйләнешсез керү, телефон ачылганда (экранда) һәм \"барлык кушымталар өстендә\" рөхсәт бирелгән очракта гына мөмкин.\n- Шулай итеп, Android 11 һәм аннан да югарырак өчен, сез кушымтаны кул белән эшләтеп җибәрергә тиеш, шулай итеп кушымтаның фон сервисы теләсә нинди вакыйгалар вакытында һәм телефон экраны сүнгәндә автоматик рәвештә яздыра башлый.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Түбәндәге субтитрлар</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Фон язу хезмәтен һәм статусны хәбәр итү панелендә күрсәтә белү таләп ителә. Тапшыру өчен басыгыз</string>
     <string name="prefs_warning_notifications_text">Хәбәрләр рөхсәте</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Кечкенә иганәләр өчен рекламалар төп экран өчен генә чыгарыла</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Кечкенә иганәләр өчен реклама төп экранда гына бетерелә</string>photo
     <string name="photos_folder_name">Фотолар</string>
 
     <string name="photos_count_one">фото</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Сайланган камераны ача алмады. Барлык яшерен фотоаппаратларны бернинди кушымта да кулланып булмый. Күпчелек җитештерүчеләр үзләренең туган кушымталарында кулланырга рөхсәт итәләр. Килешенгән камера ачылачак.</string>
 
-    <string name="videos_ask_which_player">Кайчан уйнаучыдан сорагыз\?</string>
+    <string name="videos_ask_which_player">Кайсы плейерда уйнарга сора</string>
 
     <string name="prefs_location_mode_text">GPS приоритеты (батарея яки төгәллек)</string>
     <string name="prefs_location_mode_balanced_text">Урын төгәллеге (координаталар), тизлек һәм батарея көче куллану арасында баланс.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Рекламаны теләсә нинди суммадагы иганә белән мәңгегә бетерегез. Сез шулай ук ​​рекламаны бетерү өчен ай саен теләсә нинди сумма бирә аласыз</string>
 
     <string name="prefs_audio_bt_recording_text">Аудионы Bluetooth җайланмасыннан яздырып алыгыз</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Баш агрегат (машина радиосы) белән кулланмагыз!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Bluetooth гарнитуры белән генә кулланыгыз. Әгәр сез баш җайланмага (машина радиосы) Bluetooth аша тоташсагыз, нигәдер бу автоматик рәвештә бу җайланмадагы стандарт номерга шалтыратуны җибәрергә мөмкин.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Bluetooth тоташулары аша автоматик язу рөхсәт таләп итә. Тапшыру өчен монда басыгыз</string>
+    <string name="prefs_warning_permission_bluetooth_text">Bluetooth рөхсәте бирелмәгән</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Язуны башлау өчен кушымтаны ачып булмый, чөнки экран сүндерелгән (бикләнгән). Моны төзәтер өчен фон язу хезмәтен (Күзәтүче) эшләгез.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Кушымта ачыла алмады, чөнки экран сүндерелгән (бикләнгән).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Күрсәтелгән кушымта автоматик рәвештә ачыла алмый, чөнки \"барлык кушымталар өстендә шоу\" рөхсәте бирелмәгән.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Сез автоматик вакыйганы яздыру өчен Якындагы җайланмаларга (Bluetooth) рөхсәт бирергә тиеш. Бу кушымтаның система көйләүләрендә эшләнергә мөмкин.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Хәбәрләр панельдә фон язу хезмәтен һәм язу статусын күрсәтә белү өчен кирәк.</string>
+
+    
 </resources>

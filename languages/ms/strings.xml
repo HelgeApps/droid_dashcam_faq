@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Kamera diperlukan untuk rakaman video dan pratonton kamera.</string>
     <string name="permission_camera_dlg_title">Resolusi kamera</string>
     <string name="permission_camera_request_canceled">Aplikasi ini memerlukan kebenaran untuk menggunakan kamera untuk merakam video. Tetapi anda menolaknya. Menutup… Cuba berikan kebenaran kepada kamera dalam tetapan sistem aplikasi ini</string>
-    <string name="permission_location_dlg_explanation_msg">Apabila diminimumkan, Droid Dashcam menggunakan lokasi di latar belakang untuk melukis koordinat, alamat dan kelajuan pada video yang dirakam.</string>
+    <string name="permission_location_dlg_explanation_msg">Lokasi diperlukan untuk melukis koordinat, alamat dan kelajuan pada video yang dirakam, atau memaparkan data ini pada skrin utama (bergantung pada tetapan anda).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Pada Android 11 (R), anda perlu memilih \"Sepanjang masa (sebarang mod)\" secara manual dalam pilihan sistem untuk membenarkan lokasi di latar belakang. Tetapan akan dibuka selepas tetingkap ini.</string>
     <string name="permission_location_dlg_msg">Lokasi adalah perlu untuk menentukan kelajuan pengangkutan menggunakan data GPS, alamat semasa dan koordinat untuk paparan pada skrin dan untuk merakam sari kata pada video</string>
     <string name="permission_location_dlg_title">Kebenaran lokasi</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">Untuk memperbetulkan</string>
     <string name="rec_fix_text">Untuk memperbetulkan</string>
-    <string name="rec_free_space_text">Tersedia</string>
+    <string name="rec_available_space_text">Tersedia</string>
     <string name="rec_gps_status_satellites_few_text">satelit</string>
     <string name="rec_gps_status_satellites_many_text">satelit</string>
     <string name="rec_gps_status_satellites_one_text">satelit</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Rakaman telah bermula</string>
     <string name="recording_voice_stopped_text">Rakaman dihentikan</string>
 
-    <string name="service_no_system_alert_window_granted_text">Gagal memulakan perkhidmatan Droid Dashcam untuk memulakan /menghentikan rakaman secara automatik kerana kebenaran SYSTEM_ALERT_WINDOW (paparan pada semua tetingkap aplikasi lain) tidak diberikan. Atau peranti telah dikunci pada ketika ini (sekatan Android ialah peranti mesti dibuka kunci terlebih dahulu dan skrinnya mesti dihidupkan sebelum perkhidmatan untuk rakaman video automatik boleh dimulakan)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Apl tidak dapat dibuka untuk mula merakam kerana kebenaran \"tunjukkan di atas semua apl\" tidak diberikan. Klik untuk menyediakan</string>
     <string name="service_watch_on_boot_completed_text">Apabila menghidupkan peranti</string>
 
     <string name="storage_external_single">Kad MicroSD</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Lumpuhkan pengoptimuman bateri untuk apl ini dalam tetapan peranti anda untuk mengelakkan ralat kamera pada masa hadapan</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Rakaman automatik hanya apabila perkhidmatan sedang berjalan</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Jika anda mendayakan pilihan ini, maka rakaman automatik tidak akan dilakukan jika perkhidmatan pemantauan tidak berjalan dan tidak kelihatan dalam panel pemberitahuan</string>
+    <string name="prefs_rules_auto_start_without_service_text">Rakaman automatik walaupun perkhidmatan latar belakang (Watcher) tidak berjalan</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Anda boleh mematikan pilihan ini supaya aplikasi melakukan rakaman automatik hanya jika perkhidmatan latar belakang aplikasi (Watcher) sedang berjalan.\n- Rakaman automatik untuk acara seperti pengecasan, Bluetooth atau AUX boleh dilakukan tanpa masalah sehingga Android 7.1.\n- Bermula dari Android 8, rakaman automatik tanpa perkhidmatan aplikasi latar belakang (Watcher) hanya boleh dilakukan untuk acara Bluetooth, dan dalam kes lain (semasa mengecas atau AUX) anda perlu memulakan perkhidmatan aplikasi latar belakang (Watcher) dahulu - dengan melancarkan aplikasi sendiri sekali.\n- Bermula dengan Android 11 tanpa perkhidmatan aplikasi latar belakang (Watcher), akses kepada kamera tanpa interaksi pengguna hanya boleh dilakukan jika telefon dibuka kunci (skrin dihidupkan) dan kebenaran \"di atas semua apl\" diberikan.\n- Oleh itu, untuk Android 11 dan lebih tinggi, anda perlu melancarkan aplikasi secara manual sekali supaya perkhidmatan latar belakang aplikasi (Watcher) mula merakam secara automatik semasa sebarang acara dan apabila skrin telefon dimatikan.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Sari kata di bahagian bawah</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Diperlukan untuk dapat memaparkan perkhidmatan rakaman latar belakang dan status pada panel pemberitahuan. Klik untuk menyerahkan</string>
     <string name="prefs_warning_notifications_text">Kebenaran Pemberitahuan</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Untuk derma yang lebih kecil, iklan dialih keluar untuk skrin utama sahaja</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Untuk derma yang lebih kecil, pengiklanan dialih keluar hanya pada skrin utama</string>photo
     <string name="photos_folder_name">Foto</string>
 
     <string name="photos_count_one">foto</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Gagal membuka kamera yang dipilih. Kebetulan tidak semua kamera tersembunyi boleh digunakan oleh mana-mana aplikasi. Banyak pengeluar hanya membenarkan penggunaannya dalam aplikasi asli mereka. Kamera lalai akan dibuka.</string>
 
-    <string name="videos_ask_which_player">Tanya pemain mana yang hendak bermain setiap kali\?</string>
+    <string name="videos_ask_which_player">Tanya pemain mana untuk bermain</string>
 
     <string name="prefs_location_mode_text">Keutamaan GPS (Bateri atau Ketepatan)</string>
     <string name="prefs_location_mode_balanced_text">Imbangan antara ketepatan lokasi (koordinat), kelajuan dan penggunaan kuasa bateri.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Alih keluar iklan selama-lamanya dengan derma sekali bagi sebarang jumlah. Anda juga boleh menderma sebarang jumlah bulanan untuk mengalih keluar iklan</string>
 
     <string name="prefs_audio_bt_recording_text">Rakam audio daripada peranti Bluetooth</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Jangan gunakan dengan unit kepala (radio kereta)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Gunakan hanya dengan fon kepala Bluetooth. Jika anda menyambung ke unit kepala (radio kereta) melalui Bluetooth, maka atas sebab tertentu ini mungkin mencetuskan panggilan telefon ke nombor standard pada peranti ini secara automatik</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Rakaman automatik melalui sambungan Bluetooth memerlukan kebenaran. Klik di sini untuk menghantar</string>
+    <string name="prefs_warning_permission_bluetooth_text">Kebenaran Bluetooth tidak diberikan</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Aplikasi tidak dapat dibuka untuk mula merakam kerana skrin telah dimatikan (dikunci). Jalankan perkhidmatan rakaman latar belakang (Watcher) untuk membetulkannya.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Aplikasi tidak dapat dibuka kerana skrin telah dimatikan (dikunci).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Aplikasi yang ditentukan tidak dapat dilancarkan untuk dibuka secara automatik kerana kebenaran \"tunjukkan di atas semua aplikasi\" tidak diberikan.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Anda mesti memberikan kebenaran Peranti Berdekatan (Bluetooth) untuk rakaman acara automatik. Ini boleh dilakukan dalam tetapan sistem aplikasi.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Pemberitahuan diperlukan untuk dapat memaparkan perkhidmatan rakaman latar belakang dan status rakaman dalam panel pemberitahuan.</string>
+
+    
 </resources>

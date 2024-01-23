@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Myndavélin er nauðsynleg fyrir myndbandsupptöku og forskoðun myndavélar.</string>
     <string name="permission_camera_dlg_title">Upplausn myndavélar</string>
     <string name="permission_camera_request_canceled">Þetta forrit krefst leyfis til að nota myndavélina til að taka upp myndskeið. En þú hafnaðir því. Lokar… Reyndu að veita myndavélinni leyfi í kerfisstillingum þessa forrits</string>
-    <string name="permission_location_dlg_explanation_msg">Þegar það er lágmarkað notar Droid Dashcam staðsetninguna í bakgrunni til að teikna hnit, heimilisfang og hraða á upptöku myndbandsins.</string>
+    <string name="permission_location_dlg_explanation_msg">Staðsetningin er nauðsynleg til að teikna hnit, heimilisfang og hraða á upptöku myndbandsins, eða sýna þessi gögn á aðalskjánum (fer eftir stillingum þínum).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Á Android 11 (R) þarftu handvirkt að velja „Allan tímann (hvaða sem er)“ í kerfisstillingunum til að leyfa staðsetningu í bakgrunni. Stillingarnar opnast eftir þennan glugga.</string>
     <string name="permission_location_dlg_msg">Staðsetningin er nauðsynleg til að ákvarða flutningshraða með því að nota GPS gögn, núverandi heimilisfang og hnit til birtingar á skjánum og til að taka upp texta á myndbandi</string>
     <string name="permission_location_dlg_title">Staðsetningarheimild</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Sjálfvirk</string>
     <string name="rec_fix_short_text">Að leiðrétta</string>
     <string name="rec_fix_text">Að leiðrétta</string>
-    <string name="rec_free_space_text">Laus</string>
+    <string name="rec_available_space_text">Laus</string>
     <string name="rec_gps_status_satellites_few_text">gervihnöttum</string>
     <string name="rec_gps_status_satellites_many_text">gervihnöttum</string>
     <string name="rec_gps_status_satellites_one_text">gervihnött</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Upptaka er hafin</string>
     <string name="recording_voice_stopped_text">Upptaka hætt</string>
 
-    <string name="service_no_system_alert_window_granted_text">Mistókst að ræsa Droid Dashcam þjónustu til að hefja /stöðva upptöku sjálfkrafa vegna þess að SYSTEM_ALERT_WINDOW leyfi (birting yfir öllum gluggum annarra forrita) var ekki veitt. Eða tækið var læst á þessum tímapunkti (Android-takmörkun er sú að fyrst verður að opna tækið og kveikja á skjánum áður en hægt er að hefja þjónustu fyrir sjálfvirka myndbandsupptöku)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Ekki var hægt að opna forritið til að hefja upptöku vegna þess að leyfið „sýna ofan á öll forrit“ var ekki veitt. Smelltu til að veita</string>
     <string name="service_watch_on_boot_completed_text">Þegar kveikt er á tækinu</string>
 
     <string name="storage_external_single">MicroSD kort</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Slökktu á rafhlöðu fínstillingu fyrir þetta forrit í stillingum tækisins til að forðast myndavélarvillur í framtíðinni</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Sjálfvirk upptaka aðeins þegar þjónustan er í gangi</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Ef þú virkjar þennan valkost verður sjálfvirk upptaka ekki framkvæmd ef eftirlitsþjónustan er ekki í gangi og er ekki sýnileg á tilkynningaborðinu</string>
+    <string name="prefs_rules_auto_start_without_service_text">Sjálfvirk upptaka jafnvel þótt bakgrunnsþjónustan (Watcher) sé ekki í gangi</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Þú getur slökkt á þessum valkosti þannig að forritið framkvæmi sjálfvirka upptöku aðeins ef bakgrunnsþjónusta forritsins (Watcher) er í gangi.\n- Hægt er að framkvæma sjálfvirka upptöku fyrir atburði eins og hleðslu, Bluetooth eða AUX án vandræða allt að Android 7.1.\n- Frá og með Android 8 er sjálfvirk upptaka án bakgrunnsforritaþjónustu (Watcher) aðeins hægt að framkvæma fyrir Bluetooth-viðburði, og í öðrum tilvikum (við hleðslu eða AUX) þarftu fyrst að ræsa bakgrunnsforritsþjónustuna (Watcher) - með því að ræsa umsókn sjálft einu sinni.\n- Frá og með Android 11 án bakgrunnsforritaþjónustunnar (Watcher), er aðgangur að myndavélinni án samskipta notenda aðeins mögulegur ef síminn er ólæstur (skjárinn á) og leyfið „ofan á öll forrit“ er veitt.\n- Þannig, fyrir Android 11 og nýrri, þarftu að ræsa forritið handvirkt einu sinni svo að bakgrunnsþjónusta forritsins (Watcher) byrjar að taka sjálfkrafa upp við hvaða atburði sem er og þegar slökkt er á símaskjánum.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Texti neðst</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Nauðsynlegt til að geta sýnt bakgrunnsupptökuþjónustuna og stöður á tilkynningaborðinu. Smelltu til að senda inn</string>
     <string name="prefs_warning_notifications_text">Tilkynningaleyfi</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Fyrir smærri framlög eru auglýsingar eingöngu fjarlægðar fyrir heimaskjáinn</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Fyrir smærri framlög eru auglýsingar aðeins fjarlægðar á aðalskjánum</string>photo
     <string name="photos_folder_name">Myndir</string>
 
     <string name="photos_count_one">mynd</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Mistókst að opna valda myndavél. Það vill svo til að ekki er hægt að nota allar faldar myndavélar af hvaða forriti sem er. Margir framleiðendur leyfa aðeins notkun þeirra í eigin forritum. Sjálfgefin myndavél opnast.</string>
 
-    <string name="videos_ask_which_player">Spyrðu í hvaða spilara á að spila í hvert skipti\?</string>
+    <string name="videos_ask_which_player">Spyrðu hvaða spilara á að spila í</string>
 
     <string name="prefs_location_mode_text">GPS forgangur (rafhlaða eða nákvæmni)</string>
     <string name="prefs_location_mode_balanced_text">Jafnvægi á milli staðsetningarnákvæmni (hnita), hraða og rafhlöðunotkunar.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Fjarlægðu auglýsingar að eilífu með einu sinni framlagi af hvaða upphæð sem er. Þú getur líka gefið hvaða upphæð sem er mánaðarlega til að fjarlægja auglýsingar</string>
 
     <string name="prefs_audio_bt_recording_text">Taktu upp hljóð úr Bluetooth tæki</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Ekki nota með höfuðeiningu (bílaútvarp)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Notist aðeins með Bluetooth heyrnartólum. Ef þú tengist höfuðeiningunni (bílaútvarpinu) í gegnum Bluetooth, getur þetta af einhverjum ástæðum kallað sjálfkrafa af stað símtali í venjulega númerið á þessu tæki</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Sjálfvirk upptaka yfir Bluetooth-tengingar krefst leyfis. Smelltu hér til að senda inn</string>
+    <string name="prefs_warning_permission_bluetooth_text">Bluetooth leyfi ekki veitt</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Ekki var hægt að opna forritið til að hefja upptöku vegna þess að slökkt var á skjánum (læst). Keyrðu bakgrunnsupptökuþjónustu (Watcher) til að laga þetta.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Ekki var hægt að opna forritið þar sem slökkt var á skjánum (læst).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Ekki var hægt að ræsa tilgreint forrit til að opna sjálfkrafa vegna þess að leyfið „sýna ofan á öll forrit“ var ekki veitt.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Þú verður að veita nálægum tækjum (Bluetooth) leyfi fyrir sjálfvirka upptöku atburða. Þetta er hægt að gera í kerfisstillingum forritsins.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Tilkynningar eru nauðsynlegar til að hægt sé að sýna bakgrunnsupptökuþjónustu og upptökustöðu á tilkynningaborðinu.</string>
+
+    
 </resources>

@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">La caméra est requise pour l\'enregistrement vidéo et la prévisualisation de la caméra.</string>
     <string name="permission_camera_dlg_title">Résolution de la caméra</string>
     <string name="permission_camera_request_canceled">Cette application nécessite l\'autorisation d\'utiliser la caméra pour enregistrer une vidéo. Mais tu l\'as refusé. Fermeture… Essayez d\'accorder l\'autorisation à la caméra dans les paramètres système de cette application</string>
-    <string name="permission_location_dlg_explanation_msg">Lorsqu\'il est minimisé, Droid Dashcam utilise l\'emplacement en arrière-plan pour dessiner les coordonnées, l\'adresse et la vitesse sur la vidéo enregistrée.</string>
+    <string name="permission_location_dlg_explanation_msg">L\'emplacement est nécessaire pour tracer les coordonnées, l\'adresse et la vitesse sur la vidéo enregistrée, ou afficher ces données sur l\'écran principal (selon vos paramètres).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Sur Android 11 (R), vous devez sélectionner manuellement \"Tout le temps (tout mode)\" dans les préférences système pour autoriser la localisation en arrière-plan. Les paramètres s\'ouvriront après cette fenêtre.</string>
     <string name="permission_location_dlg_msg">L\'emplacement est nécessaire pour déterminer la vitesse de transport à l\'aide des données GPS, l\'adresse actuelle et les coordonnées pour l\'affichage à l\'écran et pour l\'enregistrement des sous-titres sur vidéo</string>
     <string name="permission_location_dlg_title">Autorisation de localisation</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">Corriger</string>
     <string name="rec_fix_text">Corriger</string>
-    <string name="rec_free_space_text">Disponible</string>
+    <string name="rec_available_space_text">Disponible</string>
     <string name="rec_gps_status_satellites_few_text">satellites</string>
     <string name="rec_gps_status_satellites_many_text">satellites</string>
     <string name="rec_gps_status_satellites_one_text">Satellite</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">L\'enregistrement a commencé</string>
     <string name="recording_voice_stopped_text">Enregistrement arrêté</string>
 
-    <string name="service_no_system_alert_window_granted_text">Échec du démarrage du service Droid Dashcam pour démarrer/arrêter automatiquement l\'enregistrement car l\'autorisation SYSTEM_ALERT_WINDOW (affichage sur toutes les fenêtres d\'autres applications) n\'a pas été accordée. Ou l\'appareil a été verrouillé à ce stade (la restriction Android est que l\'appareil doit d\'abord être déverrouillé et son écran doit être allumé avant que le service d\'enregistrement vidéo automatique puisse être démarré)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">L\'application n\'a pas pu être ouverte pour démarrer l\'enregistrement car l\'autorisation « Afficher au-dessus de toutes les applications » n\'a pas été accordée. Cliquez pour fournir</string>
     <string name="service_watch_on_boot_completed_text">Lors de la mise sous tension de l\'appareil</string>
 
     <string name="storage_external_single">Carte Micro SD</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Désactivez l\'optimisation de la batterie pour cette application dans les paramètres de votre appareil afin d\'éviter de futures erreurs de caméra</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Enregistrement automatique uniquement lorsque le service est en cours d\'exécution</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Si vous activez cette option, l\'enregistrement automatique ne sera pas effectué si le service de surveillance n\'est pas en cours d\'exécution et n\'est pas visible dans le panneau de notification</string>
+    <string name="prefs_rules_auto_start_without_service_text">Enregistrement automatique même si le service d\'arrière-plan (Watcher) n\'est pas en cours d\'exécution</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Vous pouvez désactiver cette option afin que l\'application effectue un enregistrement automatique uniquement si le service d\'arrière-plan de l\'application (Watcher) est en cours d\'exécution.\n- L\'enregistrement automatique d\'événements tels que la charge, Bluetooth ou AUX peut être effectué sans problème jusqu\'à Android 7.1.\n- À partir d\'Android 8, l\'enregistrement automatique sans service d\'application en arrière-plan (Watcher) ne peut être effectué que pour les événements Bluetooth, et dans les autres cas (lors du chargement ou AUX), vous devez d\'abord démarrer le service d\'application en arrière-plan (Watcher) - en lançant le l\'application elle-même une fois.\n- À partir d\'Android 11 sans le service d\'application en arrière-plan (Watcher), l\'accès à la caméra sans interaction de l\'utilisateur n\'est possible que si le téléphone est déverrouillé (écran allumé) et que l\'autorisation « au-dessus de toutes les applications » est accordée.\n- Ainsi, pour Android 11 et supérieur, vous devez lancer manuellement l\'application une fois pour que le service d\'arrière-plan de l\'application (Watcher) commence à enregistrer automatiquement lors de tout événement et lorsque l\'écran du téléphone est éteint.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Sous-titres en bas</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Nécessaire pour pouvoir afficher le service d\'enregistrement en arrière-plan et les statuts sur le panneau de notification. Cliquez pour soumettre</string>
     <string name="prefs_warning_notifications_text">Autorisation de notification</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Pour les dons plus petits, les publicités sont supprimées pour l\'écran d\'accueil uniquement</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Pour les petits dons, la publicité est supprimée uniquement sur l\'écran principal</string>photo
     <string name="photos_folder_name">Photos</string>
 
     <string name="photos_count_one">photo</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Impossible d\'ouvrir la caméra sélectionnée. Il se trouve que toutes les caméras cachées ne peuvent pas être utilisées par n\'importe quelle application. De nombreux fabricants n\'autorisent leur utilisation que dans leurs applications natives. La caméra par défaut s\'ouvrira.</string>
 
-    <string name="videos_ask_which_player">Demandez à quel joueur jouer à chaque fois \?</string>
+    <string name="videos_ask_which_player">Demandez avec quel joueur jouer</string>
 
     <string name="prefs_location_mode_text">Priorité GPS (Batterie ou Précision)</string>
     <string name="prefs_location_mode_balanced_text">Équilibre entre précision de localisation (coordonnées), vitesse et consommation d\'énergie de la batterie.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Supprimez les publicités pour toujours avec un don unique de n\'importe quel montant. Vous pouvez également donner n\'importe quel montant mensuellement pour supprimer les publicités.</string>
 
     <string name="prefs_audio_bt_recording_text">Enregistrer l\'audio à partir d\'un appareil Bluetooth</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Ne pas utiliser avec une unité principale (autoradio) !</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">À utiliser uniquement avec des écouteurs Bluetooth. Si vous vous connectez à l\'unité principale (autoradio) via Bluetooth, cela peut, pour une raison quelconque, déclencher automatiquement un appel téléphonique vers le numéro standard de cet appareil.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">L\'enregistrement automatique via les connexions Bluetooth nécessite une autorisation. Cliquez ici pour soumettre</string>
+    <string name="prefs_warning_permission_bluetooth_text">Autorisation Bluetooth non accordée</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">L\'application n\'a pas pu être ouverte pour démarrer l\'enregistrement car l\'écran était éteint (verrouillé). Exécutez un service d\'enregistrement en arrière-plan (Watcher) pour résoudre ce problème.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">L\'application n\'a pas pu être ouverte car l\'écran était éteint (verrouillé).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">L\'application spécifiée n\'a pas pu être lancée pour s\'ouvrir automatiquement car l\'autorisation « Afficher au-dessus de toutes les applications » n\'a pas été accordée.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Vous devez accorder l\'autorisation aux appareils à proximité (Bluetooth) pour l\'enregistrement automatique des événements. Cela peut être fait dans les paramètres système de l\'application.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Les notifications sont nécessaires pour pouvoir afficher le service d\'enregistrement en arrière-plan et l\'état de l\'enregistrement dans le panneau de notification.</string>
+
+    
 </resources>

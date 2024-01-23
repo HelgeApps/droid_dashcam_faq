@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">La fotilo estas postulata por videoregistrado kaj fotila antaŭrigardo.</string>
     <string name="permission_camera_dlg_title">Fotila rezolucio</string>
     <string name="permission_camera_request_canceled">Ĉi tiu aplikaĵo postulas permeson uzi la fotilon por registri videon. Sed vi malakceptis ĝin. Fermante… Provu doni permeson al la fotilo en la sistemaj agordoj de ĉi tiu aplikaĵo</string>
-    <string name="permission_location_dlg_explanation_msg">Kiam minimumigita, Droid Dashcam uzas la lokon en la fono por desegni koordinatojn, adreson kaj rapidecon sur la registrita video.</string>
+    <string name="permission_location_dlg_explanation_msg">La loko estas necesa por desegni koordinatojn, adreson kaj rapidecon sur la registrita video, aŭ montri ĉi tiujn datumojn sur la ĉefa ekrano (depende de viaj agordoj).</string>
     <string name="permission_location_dlg_explanation_settings_msg">En Android 11 (R), vi devas mane elekti \"Ĉiam (iam ajn)\" en la sistemaj preferoj por permesi la lokon en la fono. La agordoj malfermiĝos post ĉi tiu fenestro.</string>
     <string name="permission_location_dlg_msg">La loko estas necesa por determini la rapidecon de transporto uzante GPS-datumojn, la aktualan adreson kaj koordinatojn por montri sur la ekrano kaj por registri subtekstojn en video.</string>
     <string name="permission_location_dlg_title">Loka permeso</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Aŭtomate</string>
     <string name="rec_fix_short_text">Por korekti</string>
     <string name="rec_fix_text">Por korekti</string>
-    <string name="rec_free_space_text">Disponebla</string>
+    <string name="rec_available_space_text">Disponebla</string>
     <string name="rec_gps_status_satellites_few_text">satelitoj</string>
     <string name="rec_gps_status_satellites_many_text">satelitoj</string>
     <string name="rec_gps_status_satellites_one_text">satelito</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Registrado komenciĝis</string>
     <string name="recording_voice_stopped_text">Registrado ĉesis</string>
 
-    <string name="service_no_system_alert_window_granted_text">Malsukcesis lanĉi Droid Dashcam-servon por aŭtomate komenci/ĉesigi registradon ĉar SYSTEM_ALERT_WINDOW-permeso (ekrano super ĉiuj fenestroj de aliaj aplikaĵoj) ne estis donita. Aŭ la aparato estis ŝlosita ĉe ĉi tiu punkto (Android-limigo estas, ke la aparato unue devas esti malŝlosita kaj ĝia ekrano devas esti ŝaltita antaŭ ol la servo por aŭtomata videoregistrado povas esti komencita)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">La apo ne povis esti malfermita por komenci registradon ĉar la permeso \"montri supre de ĉiuj aplikaĵoj\" ne estis donita. Klaku por provizi</string>
     <string name="service_watch_on_boot_completed_text">Enŝaltante la aparaton</string>
 
     <string name="storage_external_single">MicroSD-karto</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Malebligu baterian optimumigon por ĉi tiu programo en via aparato-agordoj por eviti estontajn fotilajn erarojn</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Aŭtomata registrado nur kiam la servo funkcias</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Se vi ebligas ĉi tiun opcion, tiam aŭtomata registrado ne estos farita se la monitora servo ne funkcias kaj ne videblas en la sciiga panelo.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Aŭtomata registrado eĉ se la fona servo (Watcher) ne funkcias</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Vi povas malŝalti ĉi tiun opcion por ke la aplikaĵo realigu aŭtomatan registradon nur se la fona servo de la aplikaĵo (Watcher) funkcias.\n- Aŭtomata registrado por eventoj kiel ŝargado, Bluetooth aŭ AUX povas esti farita sen problemoj ĝis Android 7.1.\n- Ekde Android 8, aŭtomata registrado sen fona aplika servo (Watcher) povas esti farita nur por Bluetooth-okazaĵoj, kaj en aliaj kazoj (dum ŝargado aŭ AUX) vi devas unue komenci la fonan aplikaĵoservon (Watcher) - lanĉante la aplikaĵo mem unufoje.\n- Komencante per Android 11 sen la fona aplika servo (Watcher), aliro al la fotilo sen uzantinterago nur eblas se la telefono estas malŝlosita (ekrano ŝaltita) kaj \"krom ĉiuj aplikaĵoj\" permeso estas donita.\n- Tiel, por Android 11 kaj pli, vi devas mane lanĉi la aplikaĵon unufoje, por ke la fona servo de la aplikaĵo (Watcher) komencu aŭtomate registri dum iuj eventoj kaj kiam la telefona ekrano estas malŝaltita.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Subtekstoj malsupre</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Bezonata por povi montri la fonregistradservon kaj statusojn sur la sciiga panelo. Klaku por sendi</string>
     <string name="prefs_warning_notifications_text">Permeso pri sciigo</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Por pli malgrandaj donacoj, reklamoj estas forigitaj nur por la hejma ekrano</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Por pli malgrandaj donacoj, reklamado estas forigita nur sur la ĉefa ekrano</string>photo
     <string name="photos_folder_name">Fotoj</string>
 
     <string name="photos_count_one">foto</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Malsukcesis malfermi la elektitan fotilon. Okazas, ke ne ĉiuj kaŝitaj fotiloj povas esti uzataj de iu ajn aplikaĵo. Multaj produktantoj nur permesas sian uzon en siaj indiĝenaj aplikoj. La defaŭlta fotilo malfermos.</string>
 
-    <string name="videos_ask_which_player">Demandu en kiu ludanto ludi ĉiufoje\?</string>
+    <string name="videos_ask_which_player">Demandu en kiu ludanto ludi</string>
 
     <string name="prefs_location_mode_text">GPS-Prioritato (Baterio aŭ Precizeco)</string>
     <string name="prefs_location_mode_balanced_text">Ekvilibro inter lokprecizeco (koordinatoj), rapideco kaj bateria konsumo.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Forigu reklamojn por ĉiam per unufoja donaco de ajna kvanto. Vi ankaŭ povas donaci ajnan kvanton monate por forigi reklamojn</string>
 
     <string name="prefs_audio_bt_recording_text">Registru audio de Bluetooth-aparato</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Ne uzu kun ĉefunuo (aŭtoradio)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Uzu nur kun Bluetooth-aŭdiloj. Se vi konektas al la ĉefunuo (aŭtoradio) per Bluetooth, tiam ial tio povas aŭtomate ekfunkciigi telefonvokon al la norma numero sur ĉi tiu aparato.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Aŭtomata registrado per Bluetooth-konektoj postulas permeson. Klaku ĉi tie por sendi</string>
+    <string name="prefs_warning_permission_bluetooth_text">Bluetooth-permeso ne koncedita</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">La aplikaĵo ne povis esti malfermita por komenci registradon ĉar la ekrano estis malŝaltita (ŝlosita). Rulu fonregistradservon (Watcher) por ripari ĉi tion.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">La aplikaĵo ne povis esti malfermita ĉar la ekrano estis malŝaltita (ŝlosita).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">La specifita aplikaĵo ne povis esti lanĉita por malfermi aŭtomate ĉar la permeso \"montri super ĉiuj aplikaĵoj\" ne estis donita.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Vi devas doni permeson al Proksimaj Aparatoj (Bluetooth) por aŭtomata registrado de eventoj. Ĉi tio povas esti farita en la sistemaj agordoj de la aplikaĵo.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Sciigoj estas postulataj por povi montri la fonan registradservon kaj registradstatuson en la sciiga panelo.</string>
+
+    
 </resources>

@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Kamera wideo ýazga almak we kamerany deslapky synlamak üçin zerurdyr.</string>
     <string name="permission_camera_dlg_title">Kameranyň ölçegi</string>
     <string name="permission_camera_request_canceled">Bu programma wideo ýazga almak üçin kamerany ulanmaga rugsat talap edýär. Emma siz muny ret etdiňiz. Osingapylýar… Bu programmanyň ulgam sazlamalarynda kamera rugsat bermäge synanyşyň</string>
-    <string name="permission_location_dlg_explanation_msg">Droid Dashcam kiçeldilende, ýazga alnan wideoda koordinatlary, salgylary we tizligi çyzmak üçin fonda ýerleşýän ýeri ulanýar.</string>
+    <string name="permission_location_dlg_explanation_msg">Recordedazga alnan wideoda koordinatlary, salgylary we tizligi çekmek ýa-da bu maglumatlary esasy ekranda görkezmek (sazlamalaryňyza baglylykda) zerur.</string>
     <string name="permission_location_dlg_explanation_settings_msg">“Android 11” (R) -da, fonda ýerleşmegine rugsat bermek üçin ulgam ileri tutmalarynda “Hemişe (islendik re modeim)” el bilen saýlamaly. Sazlamalar bu penjireden soň açylar.</string>
     <string name="permission_location_dlg_msg">Locationerleşýän ýer, GPS maglumatlaryny ulanyp, transportyň tizligini, ekranda görkezmek we wideo ýazgydaky subtitrleri ýazmak üçin koordinatlary kesgitlemek üçin zerurdyr.</string>
     <string name="permission_location_dlg_title">Locationerleşiş rugsady</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Awto</string>
     <string name="rec_fix_short_text">Düzedmek üçin</string>
     <string name="rec_fix_text">Düzedmek üçin</string>
-    <string name="rec_free_space_text">Elýeterli</string>
+    <string name="rec_available_space_text">Elýeterli</string>
     <string name="rec_gps_status_satellites_few_text">hemra</string>
     <string name="rec_gps_status_satellites_many_text">hemra</string>
     <string name="rec_gps_status_satellites_one_text">hemra</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Ordingazga almak başlandy</string>
     <string name="recording_voice_stopped_text">Ordingazga almak bes edildi</string>
 
-    <string name="service_no_system_alert_window_granted_text">SYSTEM_ALERT_WINDOW rugsady (beýleki programmalaryň ähli penjirelerinde görkezilýär) berilmänligi sebäpli ýazgyny awtomatiki başlamak /duruzmak üçin Droid Dashcam hyzmatyny başlatmady. Ora-da enjam şu wagt gulplandy (Android çäklendirmesi, enjamyň awtomatiki wideo ýazgysy hyzmaty başlamazdan ozal enjamyň gulpuny açmaly we ekrany açyk bolmaly)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Programma ýazga başlamak üçin açylyp bilinmedi, sebäbi \"ähli programmalaryň üstünde görkezmek\" rugsady berilmedi. Üpjün etmek üçin basyň</string>
     <string name="service_watch_on_boot_completed_text">Enjam açylanda</string>
 
     <string name="storage_external_single">MicroSD kart</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Geljekdäki kamera ýalňyşlyklaryndan gaça durmak üçin enjamyňyz sazlamalarynda bu programma üçin batareýany optimizasiýany öçüriň</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Diňe hyzmat işleýän wagtynda awtomatiki ýazgy</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Bu opsiýany işletseňiz, gözegçilik hyzmaty işlemeýän bolsa we habarnamalar panelinde görünmeýän bolsa awtomatiki ýazgy ýerine ýetirilmez.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Fon hyzmaty (Gözegçi) işlemese-de awtomatiki ýazgy</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Programmanyň diňe fon hyzmaty (Gözegçi) işleýän ýagdaýynda programma awtomatiki ýazgy ýerine ýetirer ýaly bu opsiýany öçürip bilersiňiz.\n- Zarýad bermek, Bluetooth ýa-da AUX ýaly wakalar üçin awtomatiki ýazgy Android 7.1-e çenli kynçylyksyz ýerine ýetirilip bilner.\n- “Android 8” -den başlap, fon programma hyzmaty (Gözegçi) bolmasa awtomatiki ýazgy diňe Bluetooth hadysalary üçin ýerine ýetirilip bilner, beýleki ýagdaýlarda (zarýad berlende ýa-da AUX) ilki bilen fon programma hyzmatyny (Gözegçi) başlamaly - programmanyň özi bir gezek.\n- “Android 11” -den fon programma hyzmaty (Gözegçi) bolmasa, ulanyjynyň özara gatnaşygy bolmazdan kamera girmek, diňe telefon açylmasa (ekranda) we “ähli programmalaryň üstünde” rugsat berlen ýagdaýynda mümkindir.\n- Şeýlelik bilen, “Android 11” we ondan ýokary ulgamlar üçin programmanyň (Gözegçi) fon hyzmaty islendik hadysalarda we telefon ekrany öçürilende awtomatiki ýazga alynmagy üçin programmany bir gezek el bilen işletmeli.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Aşakdaky subtitrler</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Fon ýazgy hyzmatyny we habarnamalar panelinde statuslary görkezip bilmek zerur. Ibermek üçin basyň</string>
     <string name="prefs_warning_notifications_text">Duýduryş rugsady</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Has kiçi sadakalar üçin mahabatlar diňe baş ekran üçin aýrylýar</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Has kiçi sadakalar üçin mahabat diňe esasy ekranda aýrylýar</string>photo
     <string name="photos_folder_name">Suratlar</string>
 
     <string name="photos_count_one">surat</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Saýlanan kamerany açyp bilmedi. Gizlin kameralaryň hemmesini haýsydyr bir programma ulanyp bolmaýar. Köp öndürijiler diňe ýerli programmalarynda ulanmaga rugsat berýärler. Adaty kamera açylar.</string>
 
-    <string name="videos_ask_which_player">Her gezek haýsy oýunçyda oýnamalydygyny soraň\?</string>
+    <string name="videos_ask_which_player">Haýsy oýunçyda oýnamalydygyny soraň</string>
 
     <string name="prefs_location_mode_text">GPS ähmiýeti (Batareýa ýa-da takyklyk)</string>
     <string name="prefs_location_mode_balanced_text">Locationerleşiş takyklygy (koordinatlar), tizlik we batareýanyň sarp edilişiniň arasyndaky deňagramlylyk.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Islendik mukdarda bir gezeklik sadaka bilen mahabatlary hemişelik aýyryň. Şeýle hem mahabatlary aýyrmak üçin aýda islendik mukdarda pul berip bilersiňiz</string>
 
     <string name="prefs_audio_bt_recording_text">Sesleri Bluetooth enjamyndan ýazga alyň</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Baş bölüm (awtoulag radiosy) bilen ulanmaň!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Diňe Bluetooth nauşnikleri bilen ulanyň. Baş bölüme (awtoulag radiosy) Bluetooth arkaly birikseňiz, käbir sebäplere görä bu enjamdaky adaty belgä telefon jaňyny awtomatiki usulda döredip biler.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Bluetooth birikmelerinde awtomatiki ýazgy rugsady talap edýär. Ibermek üçin şu ýere basyň</string>
+    <string name="prefs_warning_permission_bluetooth_text">Bluetooth rugsady berilmedi</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Programma ýazga başlamak üçin açylyp bilinmedi, sebäbi ekran öçürildi (gulplandy). Muny düzetmek üçin fon ýazgy hyzmatyny (Gözegçi) işlediň.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Programma açylmady, sebäbi ekran öçürildi (gulplandy).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Görkezilen programma awtomatiki usulda açylyp bilinmedi, sebäbi \"ähli programmalaryň üstünde görkezmek\" rugsady berilmedi.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Awtomatiki hadysany ýazga almak üçin ýakyn enjamlara (Bluetooth) rugsat bermeli. Bu programmanyň ulgam sazlamalarynda edilip bilner.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Fonda ýazgy hyzmatyny we ýazgy ýagdaýyny habarnamalar panelinde görkezip bilmek üçin habarnamalar talap edilýär.</string>
+
+    
 </resources>

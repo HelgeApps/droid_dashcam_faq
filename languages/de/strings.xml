@@ -195,7 +195,7 @@
 
   <string name="permission_camera_request_canceled">Diese Anwendung erfordert die Erlaubnis, die Kamera zum Aufzeichnen von Videos zu verwenden. Sie haben dies jedoch abgelehnt. Schließen… Versuchen Sie, der Kamera in den Systemeinstellungen dieser Anwendung die Berechtigung zu erteilen</string>
 
-  <string name="permission_location_dlg_explanation_msg">Wenn die Anwendung minimiert ist, verwendet Droid Dashcam den Standort im Hintergrund, um Koordinaten, Adresse und Geschwindigkeit auf dem aufgezeichneten Video anzuzeigen.</string>
+  <string name="permission_location_dlg_explanation_msg">Der Standort wird benötigt, um Koordinaten, Adresse und Geschwindigkeit in das aufgezeichnete Video einzutragen oder diese Daten auf dem Hauptbildschirm anzuzeigen (abhängig von Ihren Einstellungen).</string>
 
   <string name="permission_location_dlg_explanation_settings_msg">Unter Android 11 (R) müssen Sie in den Systemeinstellungen manuell \"Immer\" auswählen, um die Verwendung des Standorts im Hintergrund zuzulassen.  Die Einstellungen werden nach diesem Fenster geöffnet.</string>
 
@@ -598,7 +598,7 @@
 
   <string name="rec_fix_text">Korrigieren</string>
 
-  <string name="rec_free_space_text">Verfügbar</string>
+  <string name="rec_available_space_text">Verfügbar</string>
 
   <string name="rec_gps_status_satellites_few_text">Satelliten</string>
 
@@ -640,7 +640,7 @@
 
   <string name="recording_voice_stopped_text">Aufnahme gestoppt</string>
 
-  <string name="service_no_system_alert_window_granted_text">Der Droid Dashcam-Dienst konnte nicht gestartet werden, um die Aufzeichnung automatisch zu starten/stoppen, da die Berechtigung SYSTEM_ALERT_WINDOW (Anzeige über allen Fenstern anderer Anwendungen) nicht erteilt wurde . Das Gerät war zu diesem Zeitpunkt gesperrt (die Android-Beschränkung besteht darin, dass das Gerät zuerst entsperrt werden muss und der Bildschirm eingeschaltet sein muss, bevor der Dienst für die automatische Videoaufzeichnung gestartet werden kann)</string>
+  <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Die App konnte nicht geöffnet werden, um die Aufzeichnung zu starten, da die Berechtigung „Über allen Apps anzeigen“ nicht erteilt wurde. Zum Bereitstellen klicken</string>
 
   <string name="service_watch_on_boot_completed_text">Beim Einschalten des Geräts</string>
 
@@ -720,8 +720,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Deaktivieren Sie die Akkuoptimierung für diese App in Ihren Geräteeinstellungen, um zukünftige Kamerafehler zu vermeiden</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Automatische Aufzeichnung nur bei laufendem Dienst</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Wenn Sie diese Option aktivieren, wird keine automatische Aufzeichnung durchgeführt, wenn der Überwachungsdienst nicht ausgeführt wird und nicht im Benachrichtigungsfeld angezeigt wird</string>
+    <string name="prefs_rules_auto_start_without_service_text">Automatische Aufzeichnung, auch wenn der Hintergrunddienst (Watcher) nicht läuft</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Sie können diese Option deaktivieren, sodass die Anwendung nur dann eine automatische Aufzeichnung durchführt, wenn der Hintergrunddienst der Anwendung (Watcher) ausgeführt wird.\n- Die automatische Aufzeichnung von Ereignissen wie Laden, Bluetooth oder AUX ist bis Android 7.1 problemlos möglich.\n- Ab Android 8 kann die automatische Aufzeichnung ohne Hintergrundanwendungsdienst (Watcher) nur für Bluetooth-Ereignisse durchgeführt werden. In anderen Fällen (beim Laden oder AUX) müssen Sie zuerst den Hintergrundanwendungsdienst (Watcher) starten – indem Sie den starten Anwendung selbst einmalig durchführen.\n- Ab Android 11 ohne Hintergrund-App-Dienst (Watcher) ist der Zugriff auf die Kamera ohne Benutzerinteraktion nur möglich, wenn das Telefon entsperrt (Bildschirm an) und die Berechtigung „Über alle Apps“ erteilt ist.\n– Daher müssen Sie für Android 11 und höher die Anwendung einmal manuell starten, damit der Hintergrunddienst der Anwendung (Watcher) bei Ereignissen und beim Ausschalten des Telefonbildschirms automatisch mit der Aufzeichnung beginnt.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Untertitel ganz unten</string>
@@ -752,7 +752,7 @@
     <string name="prefs_warning_notifications_sum_text">Erforderlich, um den Hintergrundaufzeichnungsdienst und Status im Benachrichtigungsfeld anzeigen zu können. Klicken Sie zum Senden</string>
     <string name="prefs_warning_notifications_text">Benachrichtigungsberechtigung</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Bei kleineren Spenden werden Anzeigen nur für den Startbildschirm entfernt</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Bei kleineren Spenden wird die Werbung nur auf dem Hauptbildschirm entfernt</string>photo
     <string name="photos_folder_name">Fotos</string>
 
     <string name="photos_count_one">Foto</string>
@@ -782,7 +782,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Die ausgewählte Kamera konnte nicht geöffnet werden. Es kommt vor, dass nicht alle versteckten Kameras von jeder Anwendung verwendet werden können. Viele Hersteller erlauben den Einsatz nur in ihren nativen Anwendungen. Die Standardkamera wird geöffnet.</string>
 
-    <string name="videos_ask_which_player">Fragen Sie jedes Mal, in welchem ​​Spieler gespielt werden soll.</string>
+    <string name="videos_ask_which_player">Fragen Sie, mit welchem ​​Spieler Sie spielen möchten</string>
 
     <string name="prefs_location_mode_text">GPS-Priorität (Batterie oder Genauigkeit)</string>
     <string name="prefs_location_mode_balanced_text">Balance zwischen Standortgenauigkeit (Koordinaten), Geschwindigkeit und Batteriestromverbrauch.</string>
@@ -815,4 +815,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Entfernen Sie Anzeigen für immer mit einer einmaligen Spende in beliebiger Höhe. Sie können auch monatlich einen beliebigen Betrag spenden, um Anzeigen zu entfernen</string>
 
     <string name="prefs_audio_bt_recording_text">Nehmen Sie Audio von einem Bluetooth-Gerät auf</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Nicht mit Headunit (Autoradio) verwenden!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Nur mit Bluetooth-Kopfhörern verwenden. Wenn Sie über Bluetooth eine Verbindung zur Headunit (Autoradio) herstellen, kann dies aus irgendeinem Grund automatisch einen Anruf an die Standardnummer dieses Geräts auslösen</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Für die automatische Aufnahme über Bluetooth-Verbindungen ist eine Genehmigung erforderlich. Klicken Sie hier, um es einzureichen</string>
+    <string name="prefs_warning_permission_bluetooth_text">Bluetooth-Berechtigung nicht erteilt</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Die Anwendung konnte nicht geöffnet werden, um die Aufnahme zu starten, da der Bildschirm ausgeschaltet (gesperrt) war. Führen Sie einen Hintergrundaufzeichnungsdienst (Watcher) aus, um dieses Problem zu beheben.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Die Anwendung konnte nicht geöffnet werden, da der Bildschirm ausgeschaltet (gesperrt) war.</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Die angegebene Anwendung konnte nicht automatisch geöffnet werden, da die Berechtigung „Über allen Anwendungen anzeigen“ nicht erteilt wurde.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Sie müssen Geräten in der Nähe (Bluetooth) die Berechtigung für die automatische Ereignisaufzeichnung erteilen. Dies kann in den Systemeinstellungen der Anwendung erfolgen.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Benachrichtigungen sind erforderlich, um den Hintergrundaufzeichnungsdienst und den Aufzeichnungsstatus im Benachrichtigungsfeld anzeigen zu können.</string>
+
+    
 </resources>

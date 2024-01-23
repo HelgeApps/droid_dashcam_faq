@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Feumar an camara airson clàradh bhidio agus ro-shealladh camara.</string>
     <string name="permission_camera_dlg_title">Fuasgladh camara</string>
     <string name="permission_camera_request_canceled">Feumaidh an tagradh seo cead an camara a chleachdadh gus bhidio a chlàradh. Ach thionndaidh thu e. A ’dùnadh… Feuch ri cead a thoirt don chamara ann an roghainnean siostam an tagraidh seo</string>
-    <string name="permission_location_dlg_explanation_msg">Nuair a thèid a lughdachadh, bidh Droid Dashcam a ’cleachdadh an àite sa chùlaibh gus co-chomharran, seòladh agus astar a tharraing air a’ bhidio clàraichte.</string>
+    <string name="permission_location_dlg_explanation_msg">Tha feum air an àite gus co-chomharran, seòladh agus astar a tharraing air a’ bhidio clàraichte, no an dàta seo a thaisbeanadh air a’ phrìomh sgrion (a rèir do roghainnean).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Air Android 11 (R), feumaidh tu “Fad na h-ùine (modh sam bith)” a thaghadh le làimh ann an roghainnean an t-siostaim gus leigeil leis an àite sa chùlaibh. Fosglaidh na roghainnean às deidh an uinneag seo.</string>
     <string name="permission_location_dlg_msg">Tha feum air an àite gus astar còmhdhail a dhearbhadh a ’cleachdadh dàta GPS, an seòladh gnàthach agus co-chomharran airson an taisbeanadh air an sgrion agus airson fo-thiotalan a chlàradh air bhidio</string>
     <string name="permission_location_dlg_title">Cead àite</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">Gus a cheartachadh</string>
     <string name="rec_fix_text">Gus a cheartachadh</string>
-    <string name="rec_free_space_text">Ri fhaighinn</string>
+    <string name="rec_available_space_text">Ri fhaighinn</string>
     <string name="rec_gps_status_satellites_few_text">saidealan</string>
     <string name="rec_gps_status_satellites_many_text">saidealan</string>
     <string name="rec_gps_status_satellites_one_text">saideal</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Tha clàradh air tòiseachadh</string>
     <string name="recording_voice_stopped_text">Sguir an clàradh</string>
 
-    <string name="service_no_system_alert_window_granted_text">Dh\'fhàillig tòiseachadh air seirbheis Droid Dashcam gus tòiseachadh /stad a chlàradh gu fèin-ghluasadach oir cha deach cead SYSTEM_ALERT_WINDOW (taisbeanadh thairis air a h-uile uinneag de thagraidhean eile) a thoirt seachad. No chaidh an inneal a ghlasadh aig an ìre seo (is e cuingealachadh Android gum feumar an inneal fhuasgladh an toiseach agus feumar an scrion aige a thionndadh air mus urrainnear an t-seirbheis airson clàradh bhidio fèin-ghluasadach a thòiseachadh)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Cha b’ urrainn an aplacaid fhosgladh gus tòiseachadh air clàradh leis nach deach an cead “show on top of all apps” a thoirt seachad. Cliog gus a thoirt seachad</string>
     <string name="service_watch_on_boot_completed_text">Nuair a thionndaidheas tu air an inneal</string>
 
     <string name="storage_external_single">Cairt MicroSD</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Cuir à comas optimization bataraidh airson an aplacaid seo ann an roghainnean an uidheim agad gus mearachdan camara san àm ri teachd a sheachnadh</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Clàradh fèin-ghluasadach dìreach nuair a tha an t-seirbheis a’ ruith</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Ma bheir thu comas don roghainn seo, cha tèid clàradh fèin-ghluasadach a dhèanamh mura h-eil an t-seirbheis sgrùdaidh a’ ruith agus nach eil e ri fhaicinn sa phannal fios</string>
+    <string name="prefs_rules_auto_start_without_service_text">Clàradh fèin-ghluasadach eadhon ged nach eil an t-seirbheis cùl-fhiosrachaidh (Watcher) a’ ruith</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Faodaidh tu an roghainn seo a chuir dheth gus an dèan an aplacaid clàradh fèin-ghluasadach dìreach ma tha seirbheis cùl-fhiosrachaidh an aplacaid (Watcher) a’ ruith.\n- Faodar clàradh fèin-ghluasadach airson tachartasan leithid cosgais, Bluetooth no AUX a dhèanamh gun duilgheadasan suas gu Android 7.1.\n- A’ tòiseachadh bho Android 8, chan urrainnear clàradh fèin-ghluasadach às aonais seirbheis cùl-taic (Watcher) a dhèanamh ach airson tachartasan Bluetooth, agus ann an cùisean eile (nuair a bhios tu a’ cur cosgais no AUX) feumaidh tu an t-seirbheis tagraidh cùl-fhiosrachaidh (Watcher) a thòiseachadh an-toiseach - le bhith a’ cur air bhog an tagradh fèin aon uair.\n- A’ tòiseachadh le Android 11 às aonais an t-seirbheis app cùil (Watcher), chan eil e comasach faighinn chun chamara gun eadar-obrachadh cleachdaiche ach ma tha am fòn gun fhosgladh (sgrion air) agus gu bheil cead “a bharrachd air a h-uile aplacaid” air a thoirt seachad.\n- Mar sin, airson Android 11 agus nas àirde, feumaidh tu an tagradh a chuir air bhog le làimh aon uair gus am bi seirbheis cùl an tagraidh (Watcher) a ’tòiseachadh a’ clàradh gu fèin-ghluasadach aig tachartasan sam bith agus nuair a thèid an scrion fòn a chuir dheth.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Fo-thiotalan aig a’ bhonn</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">A dhìth gus a bhith comasach air an t-seirbheis clàraidh cùl-fhiosrachaidh agus na h-inbhean a thaisbeanadh air a’ phannal fios. Cliog gus a chuir a-steach</string>
     <string name="prefs_warning_notifications_text">Cead fios</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Airson tabhartasan nas lugha, thèid sanasan a thoirt air falbh airson an sgrìn dachaigh a-mhàin</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Airson tabhartasan nas lugha, thèid sanasachd a thoirt air falbh a-mhàin air a’ phrìomh sgrion</string>photo
     <string name="photos_folder_name">Dealbhan</string>
 
     <string name="photos_count_one">dealbh</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Dh\'fhàillig fosgladh a\' chamara taghte. Tha e a’ tachairt mar sin nach urrainn a h-uile camara falaichte a bhith air a chleachdadh le tagradh sam bith. Bidh mòran de luchd-saothrachaidh a’ ceadachadh an cleachdadh anns na tagraidhean dùthchasach aca a-mhàin. Fosglaidh an camara bunaiteach.</string>
 
-    <string name="videos_ask_which_player">Faighnich cò an cluicheadair a chluicheas gach turas\?</string>
+    <string name="videos_ask_which_player">Faighnich dè an cluicheadair a chluicheas e</string>
 
     <string name="prefs_location_mode_text">Prìomhachas GPS (Bataraidh no Cruinneas)</string>
     <string name="prefs_location_mode_balanced_text">Cothromachadh eadar cruinneas àite (co-chomharran), astar agus caitheamh cumhachd bataraidh.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Thoir air falbh sanasan gu bràth le tabhartas aon-ùine de mheud sam bith. Faodaidh tu cuideachd suim sam bith a thoirt seachad gach mìos gus sanasan a thoirt air falbh</string>
 
     <string name="prefs_audio_bt_recording_text">Clàraich fuaim bho inneal Bluetooth</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Na cleachd le aonad ceann (rèidio càr)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Cleachd a-mhàin le fònaichean-cluaise Bluetooth. Ma cheanglas tu ris an aonad ceann (rèidio càr) tro Bluetooth, an uairsin airson adhbhar air choireigin faodaidh seo fios fòn a chuir gu fèin-ghluasadach chun àireamh àbhaisteach air an inneal seo</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Feumaidh clàradh fèin-ghluasadach thairis air ceanglaichean Bluetooth cead. Cliog an seo gus a chuir a-steach</string>
+    <string name="prefs_warning_permission_bluetooth_text">Cha deach cead Bluetooth a thoirt seachad</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Cha b’ urrainn dhuinn an aplacaid fhosgladh gus tòiseachadh air clàradh leis gun deach an scrion a chuir dheth (glaiste). Ruith seirbheis clàraidh cùl-fhiosrachaidh (Watcher) gus seo a chàradh.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Cha b’ urrainn dhuinn an aplacaid fhosgladh leis gun deach an scrion a chuir dheth (glaiste).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Cha b’ urrainn dhuinn an aplacaid ainmichte a chuir air bhog gus fosgladh gu fèin-ghluasadach leis nach deach an cead “show a bharrachd air a h-uile aplacaid” a thoirt seachad.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Feumaidh tu cead Innealan Faisg air làimh (Bluetooth) a thoirt seachad airson tachartas fèin-ghluasadach a chlàradh. Faodar seo a dhèanamh ann an roghainnean siostam an tagraidh.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Feumaidh fiosan a bhith comasach air an t-seirbheis clàraidh cùl-fhiosrachaidh agus inbhe clàraidh a thaisbeanadh anns a’ phannal fios.</string>
+
+    
 </resources>

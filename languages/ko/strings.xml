@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">동영상을 녹화하려면 카메라 사용 권한이 필요합니다.</string>
     <string name="permission_camera_dlg_title">카메라 권한</string>
     <string name="permission_camera_request_canceled">이 앱을 사용하려면 카메라 사용 권한이 필요합니다. 시스템 설정에서 카메라 사용 권한을 설정해주세요.</string>
-    <string name="permission_location_dlg_explanation_msg">앱 최소화 시 DroidDashcam은 백그라운드에서 위치 권한을 ​​사용하여 동영상에 좌표, 주소, 속도 자막을 기록합니다.</string>
+    <string name="permission_location_dlg_explanation_msg">녹화된 영상에 좌표, 주소, 속도를 그리거나 이 데이터를 메인 화면에 표시하려면(설정에 따라) 위치가 필요합니다.</string>
     <string name="permission_location_dlg_explanation_settings_msg">Android 11(R)에서는 백그라운드에서 위치 권한 사용을 위해 시스템 설정에서 \"항상 허용\"을 수동으로 선택해주세요. 이 창 이후 설정이 열립니다.</string>
     <string name="permission_location_dlg_msg">위치 권한은 GPS를 이용한 속도 계산과 현재 위치 주소 및 좌표를 화면에 표시/동영상 자막에 삽입하는 데 필요합니다.</string>
     <string name="permission_location_dlg_title">위치 권한</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">자동</string>
     <string name="rec_fix_short_text">@string/rec_fix_text</string>
     <string name="rec_fix_text">Fix</string>
-    <string name="rec_free_space_text">사용 가능</string>
+    <string name="rec_available_space_text">사용 가능</string>
     <string name="rec_gps_status_satellites_few_text">위성</string>
     <string name="rec_gps_status_satellites_many_text">위성</string>
     <string name="rec_gps_status_satellites_one_text">위성</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">녹음이 시작되었습니다.</string>
     <string name="recording_voice_stopped_text">녹음이 중지되었습니다.</string>
 
-    <string name="service_no_system_alert_window_granted_text">SYSTEM_ALERT_WINDOW 권한(다른 앱 위에 표시)이 부여되지 않아 자동으로 녹화를 시작/중지하는 Droid Dashcam 서비스를 시작하지 못했습니다. 또는 이 시점에서 기기가 잠겨 있었습니다. (Android의 기기 잠금을 먼저 해제해야 자동 녹화 서비스를 시작할 수 있습니다.)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">\'모든 앱 위에 표시\' 권한이 부여되지 않아 앱을 열어 녹화를 시작할 수 없습니다. 제공하려면 클릭하세요.</string>
     <string name="service_watch_on_boot_completed_text">기기를 켤 때</string>
 
     <string name="storage_external_single">마이크로 SD카드</string>
@@ -399,8 +399,8 @@
     <string name="msg_dialog_camera_battery_optimization_title">카메라에 액세스하는 동안 오류가 발생했습니다. 배터리 최적화 활성화됨</string>
     <string name="msg_dialog_camera_battery_optimization_subtitle">향후 카메라 오류를 방지하려면 기기 설정에서 이 앱의 배터리 최적화를 비활성화하세요.</string>
 
-    <string name="prefs_rules_auto_start_only_with_service_text">서비스가 실행 중일 때만 자동 녹화</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">이 옵션을 활성화하면 모니터링 서비스가 실행되지 않고 알림 패널에 표시되지 않는 경우 자동 녹화가 수행되지 않습니다.</string>
+    <string name="prefs_rules_auto_start_without_service_text">백그라운드 서비스(Watcher)가 실행되지 않아도 자동 녹화됩니다.</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* 이 옵션을 꺼서 해당 애플리케이션의 백그라운드 서비스(Watcher)가 실행 중인 경우에만 애플리케이션이 자동 녹음을 수행하도록 할 수 있습니다.\n- 충전, 블루투스, AUX 등의 이벤트 자동녹화는 안드로이드 7.1까지 문제없이 가능합니다.\n- 안드로이드 8부터 백그라운드 애플리케이션 서비스(Watcher) 없이 자동 녹화는 블루투스 이벤트에 대해서만 수행할 수 있으며, 그 외의 경우(충전 또는 AUX 시) 먼저 백그라운드 애플리케이션 서비스(Watcher)를 시작해야 합니다. 응용프로그램 자체를 한 번만 사용하세요.\n- 백그라운드 앱 서비스(Watcher)가 없는 Android 11부터 사용자 상호작용 없이 카메라에 접근하는 것은 휴대폰이 잠금 해제(화면 켜짐)되고 \"모든 앱 위에\" 권한이 부여된 경우에만 가능합니다.\n- 따라서 Android 11 이상에서는 애플리케이션(Watcher)의 백그라운드 서비스가 이벤트 발생 시 및 휴대폰 화면이 꺼졌을 때 자동으로 녹화를 시작하도록 수동으로 애플리케이션을 한 번 실행해야 합니다.</string>
 
 
     <string name="prefs_subtitles_position_bottom_text">하단 자막</string>
@@ -431,7 +431,7 @@
     <string name="prefs_warning_notifications_sum_text">알림 패널에 백그라운드 녹화 서비스 및 상태를 표시하는 데 필요합니다. 제출하려면 클릭하세요.</string>
     <string name="prefs_warning_notifications_text">알림 권한</string>
 
-    <string name="donation_dlg_limited_ads_message_text">소액 기부의 경우 홈 화면에서만 광고가 제거됩니다.</string>photo
+    <string name="donation_dlg_limited_ads_message_text">소액 기부의 경우 메인 화면에서만 광고가 제거됩니다.</string>photo
     <string name="photos_folder_name">사진</string>
 
     <string name="photos_count_one">사진</string>
@@ -461,7 +461,7 @@
 
     <string name="camera_msg_error_non_exposed_error">선택한 카메라를 열지 못했습니다. 모든 숨겨진 카메라를 모든 응용 프로그램에서 사용할 수 있는 것은 아닙니다. 많은 제조업체는 기본 응용 프로그램에서만 사용을 허용합니다. 기본 카메라가 열립니다.</string>
 
-    <string name="videos_ask_which_player">매번 어떤 플레이어를 플레이할지 물어보세요.</string>
+    <string name="videos_ask_which_player">어떤 플레이어로 플레이할지 물어보세요</string>
 
     <string name="prefs_location_mode_text">GPS 우선 순위(배터리 또는 정확도)</string>
     <string name="prefs_location_mode_balanced_text">위치 정확도(좌표), 속도 및 배터리 전력 소모 사이의 균형.</string>
@@ -494,4 +494,43 @@
     <string name="donation_remove_ads_by_any_amount_text">금액에 관계없이 일회성 기부로 광고를 영원히 제거하세요. 광고를 제거하기 위해 매달 원하는 금액을 기부할 수도 있습니다.</string>
 
     <string name="prefs_audio_bt_recording_text">Bluetooth 장치에서 오디오 녹음</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">헤드 유닛(자동차 라디오)과 함께 사용하지 마십시오!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Bluetooth 헤드폰에만 사용하십시오. Bluetooth를 통해 헤드 유닛(자동차 라디오)에 연결하면 어떤 이유로든 자동으로 이 장치의 표준 번호로 전화가 걸릴 수 있습니다.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Bluetooth 연결을 통한 자동 녹음에는 권한이 필요합니다. 제출하려면 여기를 클릭하세요.</string>
+    <string name="prefs_warning_permission_bluetooth_text">블루투스 권한이 부여되지 않았습니다.</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">화면이 꺼졌기 때문에(잠겨있기 때문에) 녹음을 시작하기 위해 애플리케이션을 열 수 없습니다. 이 문제를 해결하려면 백그라운드 녹화 서비스(Watcher)를 실행하세요.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">화면이 꺼져(잠겨) 있어서 애플리케이션을 열 수 없습니다.</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">\"모든 응용 프로그램 위에 표시\" 권한이 부여되지 않았기 때문에 지정된 응용 프로그램을 실행하여 자동으로 열 수 없습니다.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">자동 이벤트 녹화를 위해서는 주변 기기(블루투스) 권한을 부여해야 합니다. 이는 애플리케이션의 시스템 설정에서 수행할 수 있습니다.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">알림 패널에 백그라운드 녹화 서비스 및 녹화 상태를 표시하려면 알림이 필요합니다.</string>
+
+    
 </resources>

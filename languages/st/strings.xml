@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Khamera e ea hlokahala bakeng sa ho rekota video le tlhahlobo ea pele ea khamera.</string>
     <string name="permission_camera_dlg_title">Qeto ea khamera</string>
     <string name="permission_camera_request_canceled">Sesebelisoa sena se hloka tumello ea ho sebelisa khamera ho rekota video. Empa u ile ua e hana. E koala… Leka ho fana ka tumello ho khamera ho litlhophiso tsa sistimi ea sesebelisoa sena</string>
-    <string name="permission_location_dlg_explanation_msg">Ha e fokotsoa, ​​Droid Dashcam e sebelisa sebaka se ka morao ho hula likhokahano, aterese le lebelo ho video e rekotiloeng.</string>
+    <string name="permission_location_dlg_explanation_msg">Sebaka sea hlokahala ho hula likhokahano, aterese le lebelo ho video e rekotiloeng, kapa ho hlahisa data ena skrineng se seholo (ho ipapisitse le litlhophiso tsa hau).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Ho Android 11 (R), o hloka ho khetha \"Ka linako tsohle (mokhoa ofe kapa ofe)\" likhethong tsa sistimi ho lumella sebaka se ka morao. Litlhophiso li tla buloa ka mor\'a fensetere ena.</string>
     <string name="permission_location_dlg_msg">Sebaka sea hlokahala ho tseba lebelo la lipalangoang u sebelisa data ea GPS, aterese ea hajoale le likhokahano bakeng sa ho bonts\'a skrineng le ho rekota subtitles ho video.</string>
     <string name="permission_location_dlg_title">Tumello ea sebaka</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">Ho lokisa</string>
     <string name="rec_fix_text">Ho lokisa</string>
-    <string name="rec_free_space_text">E fumaneha</string>
+    <string name="rec_available_space_text">E fumaneha</string>
     <string name="rec_gps_status_satellites_few_text">lisathelaete</string>
     <string name="rec_gps_status_satellites_many_text">lisathelaete</string>
     <string name="rec_gps_status_satellites_one_text">sathelaete</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Ho qala ho rekota</string>
     <string name="recording_voice_stopped_text">Ho rekota ho emisitsoe</string>
 
-    <string name="service_no_system_alert_window_granted_text">E hlotsoe ho qala ts\'ebeletso ea Droid Dashcam ho qala /ho emisa ho rekota ka bo eona hobane tumello ea SYSTEM_ALERT_WINDOW (e bonts\'a lifensetere tsa lits\'ebetso tse ling) ha e ea fanoa. Kapa sesebelisoa se ne se notletsoe nakong ena (thibelo ea Android ke hore sesebelisoa se tlameha ho notleloa pele \'me skrine ea sona e buloe pele tšebeletso ea ho rekota video e ka qalisoa)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Sesebelisoa ha se khone ho buloa ho qala ho rekota hobane tumello ea \"show on top of all apps\" ha e ea fanoa. Tobetsa ho fana</string>
     <string name="service_watch_on_boot_completed_text">Ha o bulela sesebelisoa</string>
 
     <string name="storage_external_single">Karete ea MicroSD</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Tlosa ts\'ebeliso ea betri bakeng sa sesebelisoa sena ho li-setting tsa sesebelisoa sa hau ho qoba liphoso tsa khamera tse tlang</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Ho rekota ka othomathike ha feela tshebeletso e ntse e sebetsa</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Haeba o etsa khetho ena, ho rekota ka boiketsetso ho ke ke ha etsoa haeba ts\'ebeletso ea ho beha leihlo e sa sebetse ebile e sa bonahale phanele ea tsebiso.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Ho rekota ka othomathiki le haeba ts\'ebeletso ea bokamorao (Moshebelli) e sa sebetse</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* O ka tima khetho ena e le hore sesebelisoa se rekota ka boiketsetso ha feela ts\'ebeletso ea morao-rao ea ts\'ebeliso (Moshebelli) e ntse e sebetsa.\n- Ho rekota ka boiketsetso bakeng sa liketsahalo tse kang ho tjhaja, Bluetooth kapa AUX ho ka etsoa ntle le mathata ho fihlela ho Android 7.1.\n- Ho tloha ho Android 8, ho rekota ka boiketsetso ntle le ts\'ebeletso ea morao-rao (Moshebelli) ho ka etsoa feela bakeng sa liketsahalo tsa Bluetooth, \'me maemong a mang (ha o tjhaja kapa AUX) o hloka ho qala ts\'ebeletso ea ts\'ebeliso ea morao-rao (Moshebelli) - ka ho qala kopo ka boeona hang.\n- Ho qala ka Android 11 ntle le ts\'ebeletso ea morao-rao ea app (Moshebelli), phihlello ea kh\'amera ntle le tšebelisano ea mosebelisi e ka khonahala feela haeba mohala o notletsoe (skrine ho) mme tumello ea \"ka holim\'a lits\'ebetso tsohle\" e fanoe.\n- Kahoo, bakeng sa Android 11 le ho feta, o hloka ho qala ts\'ebeliso hanngoe e le hore ts\'ebeletso ea morao-rao ea ts\'ebeliso (Moshebelli) e qale ho rekota ka bo eona nakong ea liketsahalo life kapa life le ha skrini sa mohala se koetsoe.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Subtitles ka tlase</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Hoa hlokahala hore o tsebe ho bonts\'a ts\'ebeletso ea ho rekota e ka morao le li-status ho phanele ea litsebiso. Tobetsa ho romela</string>
     <string name="prefs_warning_notifications_text">Tumello ea Tsebiso</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Bakeng sa liphallelo tse nyane, lipapatso li tlosoa skrineng sa lapeng feela</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Bakeng sa menehelo e menyenyane, papatso e tlosoa feela skrineng se seholo</string>photo
     <string name="photos_folder_name">Linepe</string>
 
     <string name="photos_count_one">senepe</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">E hlolehile ho bula khamera e khethiloeng. Hoa etsahala hore ha se lik\'hamera tsohle tse patiloeng tse ka sebelisoang ke kopo efe kapa efe. Baetsi ba bangata ba lumella tšebeliso ea bona lits\'ebetsong tsa bona tsa tlhaho feela. Khamera ea kamehla e tla buleha.</string>
 
-    <string name="videos_ask_which_player">Botsa hore na u bapalla sebapali sefe nako le nako\?</string>
+    <string name="videos_ask_which_player">Botsa hore na u bapalle sebapali sefe</string>
 
     <string name="prefs_location_mode_text">Bohlokoa ba GPS (Betri kapa Ho nepahala)</string>
     <string name="prefs_location_mode_balanced_text">Ho leka-lekana pakeng tsa ho nepahala ha sebaka (likhokahano), lebelo le tšebeliso ea matla a betri.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Tlosa lipapatso ka ho sa feleng ka monehelo oa nako e le \'ngoe oa chelete leha e le efe. U ka fana ka chelete efe kapa efe khoeli le khoeli ho tlosa lipapatso</string>
 
     <string name="prefs_audio_bt_recording_text">Rekota molumo ho tsoa sesebelisoa sa Bluetooth</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Se ke oa sebelisa le yuniti ea hlooho (sea-le-moea sa koloi)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Sebelisa feela ka li-headphones tsa Bluetooth. Haeba o hokela hloohong (sea-le-moea sa koloi) ka Bluetooth, ka lebaka le itseng sena se ka \'na sa etsa hore mohala o tsoe ho nomoro e tloaelehileng ea sesebelisoa sena.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Ho rekota ka boiketsetso ka likhokahano tsa Bluetooth ho hloka tumello. Tobetsa mona ho romella</string>
+    <string name="prefs_warning_permission_bluetooth_text">Tumello ea Bluetooth ha e fanoe</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Sesebelisoa ha se khone ho buloa ho qala ho rekota hobane skrini se ne se koetsoe (se notletsoe). Etsa tšebeletso ea ho rekota ka morao (Moshebelli) ho lokisa sena.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Sesebelisoa ha se khone ho buloa hobane skrini se koetsoe (se notletsoe).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Sesebelisoa se boletsoeng ha se ea ka sa buloa hore se bulehe ka bohona hobane tumello ea \"show on all applications\" ha e ea fanoa.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">U tlameha ho fana ka tumello ea Lisebelisoa tsa Haufi (Bluetooth) bakeng sa ho rekota ketsahalo ea othomathike. Sena se ka etsoa ho litlhophiso tsa sistimi ea sesebelisoa.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Litsebiso lia hlokahala hore u tsebe ho hlahisa tšebeletso ea ho rekota le boemo ba ho rekota phanele ea litsebiso.</string>
+
+    
 </resources>

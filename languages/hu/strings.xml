@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">A kamera szükséges a videó rögzítéséhez és a kamera előnézetéhez.</string>
     <string name="permission_camera_dlg_title">Kamera felbontás</string>
     <string name="permission_camera_request_canceled">Ez az alkalmazás engedélyt igényel a kamera használatához videó rögzítéséhez. De te visszautasítottad. Bezárás… Próbáljon meg engedélyt adni a kamerának az alkalmazás rendszerbeállításaiban</string>
-    <string name="permission_location_dlg_explanation_msg">Ha minimalizálja, a Droid Dashcam a háttérben lévő helyet használja a koordináták, a cím és a sebesség megrajzolásához a rögzített videón.</string>
+    <string name="permission_location_dlg_explanation_msg">A hely szükséges ahhoz, hogy koordinátákat, címet és sebességet rajzoljon a rögzített videóra, vagy megjelenítse ezeket az adatokat a főképernyőn (beállításaitól függően).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Android 11 (R) esetén manuálisan kell kiválasztania a „Mindig (bármilyen mód)” lehetőséget a rendszerbeállításokban, hogy engedélyezze a hely háttérben való megjelenítését. A beállítások ezen ablak után nyílnak meg.</string>
     <string name="permission_location_dlg_msg">A hely szükséges a szállítás sebességének GPS-adatok segítségével történő meghatározásához, az aktuális cím és koordináták a képernyőn való megjelenítéshez és a feliratok rögzítéséhez</string>
     <string name="permission_location_dlg_title">Helymeghatározási engedély</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">Kijavítani</string>
     <string name="rec_fix_text">Kijavítani</string>
-    <string name="rec_free_space_text">Elérhető</string>
+    <string name="rec_available_space_text">Elérhető</string>
     <string name="rec_gps_status_satellites_few_text">műholdak</string>
     <string name="rec_gps_status_satellites_many_text">műholdak</string>
     <string name="rec_gps_status_satellites_one_text">műhold</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">A felvétel elkezdődött</string>
     <string name="recording_voice_stopped_text">A felvétel leállt</string>
 
-    <string name="service_no_system_alert_window_granted_text">Nem sikerült elindítani a Droid Dashcam szolgáltatást a rögzítés automatikus indításához/leállításához, mert a SYSTEM_ALERT_WINDOW engedély (megjelenítés más alkalmazások összes ablakában) nem kapott engedélyt. Vagy az eszköz ezen a ponton le volt zárva (az Android korlátozása az, hogy az eszközt először fel kell oldani, és be kell kapcsolni a képernyőjét, mielőtt az automatikus videórögzítés szolgáltatás elindulhat)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Az alkalmazást nem lehetett megnyitni a rögzítés elindításához, mert a „megjelenítés az összes alkalmazás tetején” engedély nem volt megadva. Kattintson a megadáshoz</string>
     <string name="service_watch_on_boot_completed_text">A készülék bekapcsolásakor</string>
 
     <string name="storage_external_single">MicroSD kártya</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">A jövőbeni kamerahibák elkerülése érdekében kapcsolja ki az alkalmazás akkumulátor-optimalizálását az eszköz beállításaiban</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Automatikus rögzítés csak a szolgáltatás futása közben</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Ha engedélyezi ezt az opciót, akkor az automatikus rögzítés nem történik meg, ha a felügyeleti szolgáltatás nem fut, és nem látható az értesítési panelen</string>
+    <string name="prefs_rules_auto_start_without_service_text">Automatikus rögzítés akkor is, ha a háttérszolgáltatás (Watcher) nem fut</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Kikapcsolhatja ezt az opciót, hogy az alkalmazás csak akkor végezzen automatikus rögzítést, ha az alkalmazás háttérszolgáltatása (Watcher) fut.\n- Az olyan események automatikus rögzítése, mint a töltés, a Bluetooth vagy az AUX, probléma nélkül végrehajtható Android 7.1-ig.\n- Android 8-tól kezdődően az automatikus rögzítés háttéralkalmazás szolgáltatás nélkül (Watcher) csak Bluetooth-események esetén végezhető, egyéb esetekben (töltéskor vagy AUX-nál) először a háttéralkalmazás szolgáltatást (Watcher) kell elindítani - a magát az alkalmazást egyszer.\n- A háttéralkalmazás-szolgáltatás (Watcher) nélküli Android 11-től kezdődően a kamerához felhasználói beavatkozás nélkül csak akkor lehet hozzáférni, ha a telefon fel van oldva (a képernyő be van kapcsolva), és az „alkalmazások tetejére” engedély megadva.\n- Így Android 11 és újabb verziók esetén egyszer manuálisan kell elindítani az alkalmazást, hogy az alkalmazás háttérszolgáltatása (Watcher) automatikusan elkezdjen rögzíteni minden esemény során és a telefon képernyőjének kikapcsolásakor.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Feliratok alul</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Szükséges ahhoz, hogy az értesítési panelen megjeleníthesse a háttérrögzítési szolgáltatást és az állapotokat. Kattintson az elküldéshez</string>
     <string name="prefs_warning_notifications_text">Értesítési engedély</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Kisebb adományok esetén a hirdetéseket csak a kezdőképernyőről távolítjuk el</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Kisebb adományok esetén a hirdetéseket csak a főképernyőről távolítják el</string>photo
     <string name="photos_folder_name">Fényképek</string>
 
     <string name="photos_count_one">fénykép</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Nem sikerült megnyitni a kiválasztott kamerát. Előfordul, hogy nem minden rejtett kamerát használhat egyetlen alkalmazás sem. Sok gyártó csak natív alkalmazásaiban engedélyezi ezek használatát. Megnyílik az alapértelmezett kamera.</string>
 
-    <string name="videos_ask_which_player">Kérdezd meg minden alkalommal, hogy melyik játékosban kell játszani\?</string>
+    <string name="videos_ask_which_player">Kérdezd meg, melyik játékosban kell játszani</string>
 
     <string name="prefs_location_mode_text">GPS prioritás (akkumulátor vagy pontosság)</string>
     <string name="prefs_location_mode_balanced_text">Egyensúly a helymeghatározás pontossága (koordináták), a sebesség és az akkumulátor energiafogyasztása között.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Bármilyen összegű egyszeri adományozással örökre távolítsa el a hirdetéseket. Havonta tetszőleges összeget adományozhat a hirdetések eltávolítására</string>
 
     <string name="prefs_audio_bt_recording_text">Hang rögzítése Bluetooth-eszközről</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Ne használja fejegységgel (autórádióval)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Csak Bluetooth fejhallgatóval használja. Ha Bluetooth-on keresztül csatlakozik a fejegységhez (autórádió), akkor ez valamilyen oknál fogva automatikusan elindíthat egy telefonhívást az eszköz szabványos számára</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">A Bluetooth-kapcsolaton keresztüli automatikus rögzítéshez engedély szükséges. Kattintson ide az elküldéshez</string>
+    <string name="prefs_warning_permission_bluetooth_text">Bluetooth-engedély nincs megadva</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Az alkalmazást nem lehetett megnyitni a felvétel elindításához, mert a képernyő ki volt kapcsolva (le van zárva). A probléma megoldásához futtasson egy háttérrögzítő szolgáltatást (Watcher).</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Az alkalmazást nem lehetett megnyitni, mert a képernyő ki volt kapcsolva (le van zárva).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">A megadott alkalmazást nem lehetett elindítani, hogy automatikusan megnyíljon, mert a „megjelenítés az összes alkalmazás tetején” engedély nem kapott engedélyt.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Az automatikus eseményrögzítéshez engedélyt kell adnia a közeli eszközöknek (Bluetooth). Ezt az alkalmazás rendszerbeállításaiban teheti meg.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Az értesítések szükségesek ahhoz, hogy az értesítési panelen megjeleníthető legyen a háttérrögzítési szolgáltatás és a felvétel állapota.</string>
+
+    
 </resources>

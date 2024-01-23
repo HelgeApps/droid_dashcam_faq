@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Kamera ji bo tomarkirina vîdyoyê û pêşdîtina kamerayê pêdivî ye.</string>
     <string name="permission_camera_dlg_title">Çareserkirina kamerayê</string>
     <string name="permission_camera_request_canceled">Vê serîlêdanê destûr hewce dike ku kamerayê bikar bîne da ku vîdyoyê tomar bike. Lê te ew red kir. Girtin… Biceribînin ku di mîhengên pergalê yên vê serîlêdanê de destûrê bidin kamerayê</string>
-    <string name="permission_location_dlg_explanation_msg">Dema ku kêm bibe, Droid Dashcam cîhê li paşnavê bikar tîne da ku li ser vîdyoya tomarkirî koordînat, navnîşan û lezê bikişîne.</string>
+    <string name="permission_location_dlg_explanation_msg">Cih pêdivî ye ku koordînat, navnîşan û leza li ser vîdyoya tomarkirî xêz bike, an jî vê daneyê li ser ekrana sereke nîşan bide (li gorî mîhengên we ve girêdayî ye).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Li ser Android 11 (R), hûn hewce ne ku di vebijarkên pergalê de bi destan \"Hemû dem (her awayê)\" hilbijêrin da ku cîhê li paşîn destûrê bidin. Mîheng dê piştî vê pencereyê vebin.</string>
     <string name="permission_location_dlg_msg">Cih ji bo destnîşankirina leza veguheztinê bi karanîna daneyên GPS, navnîşana heyî û hevrêzên ji bo xuyangkirina li ser ekranê û ji bo tomarkirina jêrnivîsên li ser vîdyoyê pêdivî ye.</string>
     <string name="permission_location_dlg_title">Destûra cihan</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">Ji bo rastkirinê</string>
     <string name="rec_fix_text">Ji bo rastkirinê</string>
-    <string name="rec_free_space_text">Berdeste</string>
+    <string name="rec_available_space_text">Berdeste</string>
     <string name="rec_gps_status_satellites_few_text">satelaytan</string>
     <string name="rec_gps_status_satellites_many_text">satelaytan</string>
     <string name="rec_gps_status_satellites_one_text">satelayt</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Tomarkirinê dest pê kir</string>
     <string name="recording_voice_stopped_text">Tomar rawestiya</string>
 
-    <string name="service_no_system_alert_window_granted_text">Ji ber ku destûra SYSTEM_ALERT_WINDOW (li ser hemî pencereyên serîlêdanên din nîşan bide) nehat dayîn ku karûbarê Droid Dashcam dest pê bike da ku bixweber dest pê bike /rawestîne. An jî cîhaz di vê nuqteyê de kilît bû (sînorkirina Android-ê ev e ku berî ku karûbarê tomarkirina vîdyoyê ya otomatîkî dest pê bike divê pêşî amûr were vekirin û dîmendera wê were vemirandin)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Sepan ji bo destpêkirina tomarkirinê nehat vekirin ji ber ku destûra \"li ser hemî sepanan nîşan bide\" nehat dayîn. Ji bo pêşkêşkirinê bikirtînin</string>
     <string name="service_watch_on_boot_completed_text">Dema ku amûrê vedike</string>
 
     <string name="storage_external_single">karta MicroSD</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Di mîhengên cîhaza xwe de xweşbîniya bataryayê ji bo vê sepanê neçalak bike da ku ji xeletiyên kamerayê yên pêşerojê dûr bikevin</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Tomarkirina otomatîk tenê dema ku karûbar dimeşîne</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Heke hûn vê vebijarkê çalak bikin, wê hingê heke karûbarê çavdêriyê nexebite û di panela ragihandinê de xuya nebe dê tomarkirina otomatîkî neyê kirin.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Tomarkirina otomatîk her çend karûbarê paşerojê (Watcher) neyê xebitandin</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Hûn dikarin vê vebijarkê biqewirînin da ku serîlêdan tomarkirina otomatîkî pêk bîne tenê heke karûbarê paşîn a serîlêdanê (Watcher) bixebite.\n- Tomarkirina otomatîkî ji bo bûyerên wekî barkirin, Bluetooth an AUX dikare bêyî pirsgirêk heya Android 7.1-ê were kirin.\n- Ji Android 8-ê dest pê dike, tomarkirina otomatîkî bêyî karûbarek serîlêdana paşîn (Watcher) tenê ji bo bûyerên Bluetooth-ê dikare were kirin, û di rewşên din de (dema barkirin an AUX) hûn hewce ne ku pêşî dest bi karûbarê serîlêdana paşîn (Watcher) bikin - bi destpêkirina serlêdana xwe carekê.\n- Bi Android 11-ê bêyî karûbarê sepana paşîn (Watcher) dest pê dike, gihîştina kamerayê bêyî danûstendina bikarhêner tenê mimkun e ku têlefon venebûye (ekran li ser) û destûr \"li ser hemî sepanan\" were dayîn.\n- Bi vî rengî, ji bo Android 11 û jortir, hûn hewce ne ku carekê serîlêdanê bi destan bidin destpêkirin da ku karûbarê paşîn a serîlêdanê (Watcher) di dema her bûyeran de û dema ku ekrana têlefonê qut dibe dest bi tomarkirina otomatîkî bike.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Subtitles li jêr</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Pêdivî ye ku meriv karûbarê tomarkirina paşîn û statûyan li ser panela ragihandinê nîşan bide. Ji bo şandinê bikirtînin</string>
     <string name="prefs_warning_notifications_text">Destûra ragihandinê</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Ji bo bexşên piçûktir, reklam tenê ji bo ekrana malê têne rakirin</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Ji bo bexşên piçûktir, reklam tenê li ser ekrana sereke tê rakirin</string>photo
     <string name="photos_folder_name">Photos</string>
 
     <string name="photos_count_one">wêne</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Vekirina kameraya hilbijartî bi ser neket. Wusa diqewime ku ne hemî kamerayên veşartî ji hêla her serîlêdanê ve têne bikar anîn. Pir hilberîner tenê di sepanên xwe yên xwecihî de destûrê didin karanîna wan. Kamera xwerû dê vebe.</string>
 
-    <string name="videos_ask_which_player">Bipirsin ku hûn her carê di kîjan lîstikvan de bilîzin\?</string>
+    <string name="videos_ask_which_player">Bipirsin ka kîjan lîstikvan tê de bilîze</string>
 
     <string name="prefs_location_mode_text">Pêşîniya GPS (Battery an Rastî)</string>
     <string name="prefs_location_mode_balanced_text">Hevsengiya di navbera rastbûna cîhê (koordînat), lez û xerckirina hêza batterê de.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Bi bexşîna yek-carî ya her mîqdar re reklaman her û her jêbirin. Her weha hûn dikarin her mehê her mîqdarê bidin da ku reklaman jêbirin</string>
 
     <string name="prefs_audio_bt_recording_text">Ji cîhazek Bluetooth-ê deng tomar bikin</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Bi yekîneya serî (radyoya gerîdeyê) re bikar neynin!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Tenê bi guhên Bluetooth-ê bikar bînin. Ger hûn bi riya Bluetooth-ê bi yekîneya serî (radyoya gerîdeyê) ve girêdin, wê hingê ji ber hin sedeman ev dibe ku bixweber têlefonek bi jimareya standard a li ser vê cîhazê vebike.</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Tomarkirina otomatîkî ya li ser girêdanên Bluetooth destûr hewce dike. Ji bo radestkirinê li vir bikirtînin</string>
+    <string name="prefs_warning_permission_bluetooth_text">Destûra Bluetooth nayê dayîn</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Serlêdan ji bo destpêkirina tomarkirinê nehat vekirin ji ber ku ekran hate girtin (girtî). Karûbarek tomarkirina paşerojê (Watcher) bimeşînin da ku vê yekê rast bikin.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Serlêdan nehat vekirin ji ber ku ekran hate girtin (girtî).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Serlêdana diyarkirî ji bo vekirina bixweber nehat destpêkirin ji ber ku destûra \"li ser hemî serlêdanan nîşan bide\" nehat dayîn.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Divê hûn destûrê bidin Amûrên Nêzîk (Bluetooth) ji bo tomarkirina bûyera otomatîk. Ev dikare di mîhengên pergala serîlêdanê de were kirin.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Ji bo ku karibe karûbarê tomarkirina paşerojê û rewşa tomarkirinê di panela ragihandinê de nîşan bide, agahdarî hewce ye.</string>
+
+    
 </resources>

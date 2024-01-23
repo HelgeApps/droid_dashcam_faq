@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">Ang camera ay kinakailangan para sa pag-record ng video at pag-preview ng camera.</string>
     <string name="permission_camera_dlg_title">Resolusyon ng camera</string>
     <string name="permission_camera_request_canceled">Ang application na ito ay nangangailangan ng pahintulot na gamitin ang camera upang mag-record ng video. Ngunit tinanggihan mo ito. Pagsasara… Subukang magbigay ng pahintulot sa camera sa mga setting ng system ng application na ito</string>
-    <string name="permission_location_dlg_explanation_msg">Kapag pinaliit, ginagamit ng Droid Dashcam ang lokasyon sa background upang gumuhit ng mga coordinate, address at bilis sa na-record na video.</string>
+    <string name="permission_location_dlg_explanation_msg">Ang lokasyon ay kailangan upang gumuhit ng mga coordinate, address at bilis sa na-record na video, o ipakita ang data na ito sa pangunahing screen (depende sa iyong mga setting).</string>
     <string name="permission_location_dlg_explanation_settings_msg">Sa Android 11 (R), kailangan mong manual na piliin ang \"Lahat ng oras (anumang mode)\" sa mga kagustuhan sa system upang payagan ang lokasyon sa background. Magbubukas ang mga setting pagkatapos ng window na ito.</string>
     <string name="permission_location_dlg_msg">Ang lokasyon ay kinakailangan upang matukoy ang bilis ng transportasyon gamit ang data ng GPS, ang kasalukuyang address at mga coordinate para ipakita sa screen at para sa pag-record ng mga subtitle sa video</string>
     <string name="permission_location_dlg_title">Pahintulot sa lokasyon</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">Itama</string>
     <string name="rec_fix_text">Itama</string>
-    <string name="rec_free_space_text">Available</string>
+    <string name="rec_available_space_text">Available</string>
     <string name="rec_gps_status_satellites_few_text">mga satellite</string>
     <string name="rec_gps_status_satellites_many_text">mga satellite</string>
     <string name="rec_gps_status_satellites_one_text">satellite</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">Nagsimula na ang pagre-record</string>
     <string name="recording_voice_stopped_text">Huminto ang pagre-record</string>
 
-    <string name="service_no_system_alert_window_granted_text">Nabigong simulan ang serbisyo ng Droid Dashcam upang awtomatikong simulan /ihinto ang pagre-record dahil hindi ibinigay ang pahintulot ng SYSTEM_ALERT_WINDOW (display sa lahat ng window ng iba pang mga application). O kaya\'y na-lock ang device sa puntong ito (Ang paghihigpit sa Android ay dapat na i-unlock muna ang device at dapat na i-on ang screen nito bago magsimula ang serbisyo para sa awtomatikong pag-record ng video)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Hindi mabuksan ang app para magsimulang mag-record dahil hindi ibinigay ang pahintulot na \"ipakita sa ibabaw ng lahat ng apps.\" I-click upang magbigay</string>
     <string name="service_watch_on_boot_completed_text">Kapag in-on ang device</string>
 
     <string name="storage_external_single">MicroSD card</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Huwag paganahin ang pag-optimize ng baterya para sa app na ito sa mga setting ng iyong device upang maiwasan ang mga error sa camera sa hinaharap</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Awtomatikong pagre-record lamang kapag tumatakbo ang serbisyo</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Kung pinagana mo ang opsyong ito, hindi isasagawa ang awtomatikong pag-record kung hindi tumatakbo ang serbisyo sa pagsubaybay at hindi nakikita sa panel ng notification</string>
+    <string name="prefs_rules_auto_start_without_service_text">Awtomatikong pag-record kahit na ang serbisyo sa background (Watcher) ay hindi tumatakbo</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Maaari mong i-off ang opsyong ito upang ang application ay magsagawa lamang ng awtomatikong pag-record kung ang serbisyo sa background ng application (Watcher) ay tumatakbo.\n- Ang awtomatikong pag-record para sa mga kaganapan tulad ng pag-charge, Bluetooth o AUX ay maaaring isagawa nang walang mga problema hanggang sa Android 7.1.\n- Simula sa Android 8, ang awtomatikong pag-record na walang background application service (Watcher) ay maaari lamang isagawa para sa mga Bluetooth event, at sa ibang mga kaso (kapag nagcha-charge o AUX) kailangan mo munang simulan ang background application service (Watcher) - sa pamamagitan ng paglulunsad ng application mismo nang isang beses.\n- Simula sa Android 11 na walang background app service (Watcher), ang pag-access sa camera nang walang interaksyon ng user ay posible lang kung ang telepono ay naka-unlock (naka-on ang screen) at ang \"sa itaas ng lahat ng apps\" ay binibigyan ng pahintulot.\n- Kaya, para sa Android 11 at mas mataas, kailangan mong manu-manong ilunsad ang application nang isang beses upang ang serbisyo sa background ng application (Watcher) ay magsimulang awtomatikong mag-record sa anumang mga kaganapan at kapag naka-off ang screen ng telepono.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Mga subtitle sa ibaba</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Kinakailangan upang maipakita ang serbisyo sa pag-record sa background at mga katayuan sa panel ng notification. I-click para isumite</string>
     <string name="prefs_warning_notifications_text">Pahintulot sa Pag-abiso</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Para sa mas maliliit na donasyon, inaalis ang mga ad para sa home screen lang</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Para sa mas maliliit na donasyon, ang advertising ay aalisin lamang sa pangunahing screen</string>photo
     <string name="photos_folder_name">Mga larawan</string>
 
     <string name="photos_count_one">larawan</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Nabigong buksan ang napiling camera. Nangyayari na hindi lahat ng mga nakatagong camera ay maaaring gamitin ng anumang application. Maraming mga tagagawa ang pinapayagan lamang ang kanilang paggamit sa kanilang mga katutubong application. Magbubukas ang default na camera.</string>
 
-    <string name="videos_ask_which_player">Itanong kung sinong manlalaro ang lalaro sa bawat oras\?</string>
+    <string name="videos_ask_which_player">Tanungin kung aling manlalaro ang maglalaro</string>
 
     <string name="prefs_location_mode_text">Priyoridad ng GPS (Baterya o Katumpakan)</string>
     <string name="prefs_location_mode_balanced_text">Balanse sa pagitan ng katumpakan ng lokasyon (coordinate), bilis at pagkonsumo ng kuryente.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Mag-alis ng mga ad nang tuluyan gamit ang isang beses na donasyon ng anumang halaga. Maaari ka ring mag-donate ng anumang halaga buwan-buwan upang alisin ang mga ad</string>
 
     <string name="prefs_audio_bt_recording_text">Mag-record ng audio mula sa isang Bluetooth device</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Huwag gamitin sa head unit (car radio)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Gamitin lamang sa mga Bluetooth headphone. Kung kumonekta ka sa head unit (radio ng kotse) sa pamamagitan ng Bluetooth, sa ilang kadahilanan ay maaari itong awtomatikong mag-trigger ng isang tawag sa telepono sa karaniwang numero sa device na ito</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">Ang awtomatikong pag-record sa mga koneksyong Bluetooth ay nangangailangan ng pahintulot. Mag-click dito para isumite</string>
+    <string name="prefs_warning_permission_bluetooth_text">Hindi ibinigay ang pahintulot sa Bluetooth</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Ang application ay hindi mabuksan upang simulan ang pag-record dahil ang screen ay naka-off (naka-lock). Magpatakbo ng background recording service (Watcher) para ayusin ito.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Ang application ay hindi mabuksan dahil ang screen ay naka-off (naka-lock).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Ang tinukoy na application ay hindi mailunsad upang awtomatikong magbukas dahil ang pahintulot na \"ipakita sa itaas ng lahat ng mga aplikasyon\" ay hindi ibinigay.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Dapat kang magbigay ng pahintulot sa Mga Kalapit na Device (Bluetooth) para sa awtomatikong pag-record ng kaganapan. Magagawa ito sa mga setting ng system ng application.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">Kinakailangan ang mga abiso upang maipakita ang serbisyo sa pag-record sa background at katayuan ng pag-record sa panel ng abiso.</string>
+
+    
 </resources>

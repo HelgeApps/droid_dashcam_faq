@@ -111,7 +111,7 @@
     <string name="permission_camera_dlg_msg">A câmera é necessária para gravação de vídeo e visualização da câmera.</string>
     <string name="permission_camera_dlg_title">Resolução da câmera</string>
     <string name="permission_camera_request_canceled">Este aplicativo requer permissão para usar a câmera para gravar vídeo. Mas você recusou. Fechando… Tente conceder permissão para a câmera nas configurações do sistema deste aplicativo</string>
-    <string name="permission_location_dlg_explanation_msg">Quando minimizado, o Droid Dashcam usa a localização no fundo para desenhar coordenadas, endereço e velocidade no vídeo gravado.</string>
+    <string name="permission_location_dlg_explanation_msg">A localização é necessária para desenhar coordenadas, endereço e velocidade no vídeo gravado, ou exibir esses dados na tela principal (dependendo de suas configurações).</string>
     <string name="permission_location_dlg_explanation_settings_msg">No Android 11 (R), você precisa selecionar manualmente \"O tempo todo (qualquer modo)\" nas preferências do sistema para permitir a localização em segundo plano. As configurações serão abertas após esta janela.</string>
     <string name="permission_location_dlg_msg">A localização é necessária para determinar a velocidade de transporte usando dados de GPS, o endereço atual e as coordenadas para exibição na tela e para gravação de legendas em vídeo</string>
     <string name="permission_location_dlg_title">Permissão de localização</string>
@@ -324,7 +324,7 @@
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">Corrigir</string>
     <string name="rec_fix_text">Corrigir</string>
-    <string name="rec_free_space_text">Disponível</string>
+    <string name="rec_available_space_text">Disponível</string>
     <string name="rec_gps_status_satellites_few_text">satélites</string>
     <string name="rec_gps_status_satellites_many_text">satélites</string>
     <string name="rec_gps_status_satellites_one_text">satélite</string>
@@ -348,7 +348,7 @@
     <string name="recording_voice_started_text">A gravação começou</string>
     <string name="recording_voice_stopped_text">Gravação parada</string>
 
-    <string name="service_no_system_alert_window_granted_text">Falha ao iniciar o serviço Droid Dashcam para iniciar /parar a gravação automaticamente porque a permissão SYSTEM_ALERT_WINDOW (exibir em todas as janelas de outros aplicativos) não foi concedida. Ou o dispositivo estava bloqueado neste ponto (a restrição do Android é que o dispositivo deve primeiro ser desbloqueado e sua tela deve ser ligada antes que o serviço de gravação automática de vídeo possa ser iniciado)</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Não foi possível abrir o aplicativo para iniciar a gravação porque a permissão “mostrar no topo de todos os aplicativos” não foi concedida. Clique para fornecer</string>
     <string name="service_watch_on_boot_completed_text">Ao ligar o dispositivo</string>
 
     <string name="storage_external_single">Cartão microSD</string>
@@ -400,8 +400,8 @@
     <string name="msg_dialog_camera_battery_optimization_subtitle">Desative a otimização da bateria para este aplicativo nas configurações do seu dispositivo para evitar futuros erros da câmera</string>
 
 	
-    <string name="prefs_rules_auto_start_only_with_service_text">Gravação automática apenas quando o serviço está em execução</string>
-    <string name="prefs_rules_auto_start_only_with_service_sum_text">Se você habilitar esta opção, a gravação automática não será executada se o serviço de monitoramento não estiver em execução e não estiver visível no painel de notificação</string>
+    <string name="prefs_rules_auto_start_without_service_text">Gravação automática mesmo se o serviço em segundo plano (Watcher) não estiver em execução</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Você pode desativar esta opção para que o aplicativo execute a gravação automática apenas se o serviço de segundo plano do aplicativo (Watcher) estiver em execução.\n- A gravação automática de eventos como carregamento, Bluetooth ou AUX pode ser realizada sem problemas até Android 7.1.\n- A partir do Android 8, a gravação automática sem serviço de aplicativo em segundo plano (Watcher) só pode ser realizada para eventos Bluetooth e, em outros casos (ao carregar ou AUX), você precisa primeiro iniciar o serviço de aplicativo em segundo plano (Watcher) - iniciando o aplicativo em si uma vez.\n- A partir do Android 11 sem o serviço de aplicativo em segundo plano (Watcher), o acesso à câmera sem interação do usuário só é possível se o telefone estiver desbloqueado (tela ligada) e a permissão \"em cima de todos os aplicativos\" for concedida.\n- Assim, para Android 11 e superior, é necessário iniciar manualmente o aplicativo uma vez para que o serviço de segundo plano do aplicativo (Watcher) comece a gravar automaticamente durante quaisquer eventos e quando a tela do telefone for desligada.</string>
 
 	
     <string name="prefs_subtitles_position_bottom_text">Legendas na parte inferior</string>
@@ -432,7 +432,7 @@
     <string name="prefs_warning_notifications_sum_text">Necessário para poder exibir o serviço de gravação em segundo plano e os status no painel de notificação. Clique para enviar</string>
     <string name="prefs_warning_notifications_text">Permissão de Notificação</string>
 
-    <string name="donation_dlg_limited_ads_message_text">Para doações menores, os anúncios são removidos apenas da tela inicial</string>photo
+    <string name="donation_dlg_limited_ads_message_text">Para doações menores, a publicidade é removida apenas da tela principal</string>photo
     <string name="photos_folder_name">Fotos</string>
 
     <string name="photos_count_one">foto</string>
@@ -462,7 +462,7 @@
 
     <string name="camera_msg_error_non_exposed_error">Falha ao abrir a câmera selecionada. Acontece que nem todas as câmeras ocultas podem ser usadas por qualquer aplicativo. Muitos fabricantes só permitem seu uso em seus aplicativos nativos. A câmera padrão será aberta.</string>
 
-    <string name="videos_ask_which_player">Pergunte em qual jogador jogar cada vez\?</string>
+    <string name="videos_ask_which_player">Pergunte em qual jogador jogar</string>
 
     <string name="prefs_location_mode_text">Prioridade de GPS (bateria ou precisão)</string>
     <string name="prefs_location_mode_balanced_text">Equilíbrio entre precisão de localização (coordenadas), velocidade e consumo de energia da bateria.</string>
@@ -495,4 +495,43 @@
     <string name="donation_remove_ads_by_any_amount_text">Remova os anúncios para sempre com uma doação única de qualquer valor. Você também pode doar qualquer valor mensalmente para remover anúncios</string>
 
     <string name="prefs_audio_bt_recording_text">Grave áudio de um dispositivo Bluetooth</string>
+
+    <string name="prefs_audio_bt_recording_warning_title_text">Não use com unidade principal (rádio de carro)!</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Use apenas com fones de ouvido Bluetooth. Se você se conectar à unidade principal (rádio do carro) via Bluetooth, por algum motivo isso poderá acionar automaticamente uma chamada telefônica para o número padrão neste dispositivo</string>
+
+    <string name="prefs_warning_permission_bluetooth_sum_text">A gravação automática através de conexões Bluetooth requer permissão. Clique aqui para enviar</string>
+    <string name="prefs_warning_permission_bluetooth_text">Permissão Bluetooth não concedida</string>
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Não foi possível abrir o aplicativo para iniciar a gravação porque a tela estava desligada (bloqueada). Execute um serviço de gravação em segundo plano (Watcher) para corrigir isso.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Não foi possível abrir o aplicativo porque a tela estava desligada (bloqueada).</string>
+
+	
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">O aplicativo especificado não pôde ser iniciado para abrir automaticamente porque a permissão \"mostrar no topo de todos os aplicativos\" não foi concedida.</string>
+    
+
+    
+
+    <string name="permissions_bluetooth_missing_msg_text">Você deve conceder permissão a Dispositivos próximos (Bluetooth) para gravação automática de eventos. Isso pode ser feito nas configurações do sistema do aplicativo.</string>
+
+    
+
+    
+
+    
+
+    
+
+    <string name="permission_notifications_dlg_msg">As notificações são necessárias para poder exibir o serviço de gravação em segundo plano e o status da gravação no painel de notificações.</string>
+
+    
 </resources>
