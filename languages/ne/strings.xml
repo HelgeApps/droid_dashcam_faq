@@ -1,65 +1,64 @@
 <resources>
-    <string name="app_name">Droid Dashcam - DVR ड्राइभिङ</string>
-
+    <string name="accept_text">म स्वीकार छु</string>
     <string name="any_text">कुनै पनि</string>
-    <string name="close">बन्द गर्नुहोस्</string>
-    <string name="default_text">पूर्वनिर्धारित</string>
-    <string name="disabled_text">अक्षम</string>
-    <string name="donate_dialog_item_no_ads_text">(बिना विज्ञापन)</string>
-    <string name="zoom_text">जुम</string>
-    <string name="reset">डिस्चार्ज</string>
-    <string name="unknown">अज्ञात</string>
-
+    <string name="app_name">Droid Dashcam - DVR ड्राइभिङ</string>
     <string name="camera">क्यामेरा</string>
     <string name="camera_aperture">डायाफ्राम</string>
     <string name="camera_back">पछाडिको क्यामेरा</string>
     <string name="camera_background_permission_error_msg">तपाईंले पृष्ठभूमिमा क्यामेरा पहुँच गर्न सक्षम हुन एक पटक एप चलाउन आवश्यक छ</string>
     <string name="camera_error_background_tried_use_text">एन्ड्रोइड 11+ मा, पृष्ठभूमिमा रेकर्डिङ सुरु गर्नु अघि, पृष्ठभूमिमा क्यामेरा प्रयोग गर्न सक्षम हुन अनुप्रयोग कम्तिमा एक पटक चलिरहेको र देखिने हुनुपर्छ। त्यसकारण, यन्त्र पुन: सुरु गरेपछि, अनुप्रयोगलाई दृश्यात्मक बनाउनुहोस् र त्यस पछि रेकर्डिङ सेवा बन्द नगर्नुहोस्, यो सूचना केन्द्रमा रहनुपर्छ।</string>
-    <string name="camera_error_busy">DroidDashcam: भिडियो रेकर्डिङ रोकिएको छ किनभने क्यामेरा अर्को अनुप्रयोगद्वारा प्रयोग भइरहेको छ</string>
-    <string name="camera_error_text">DroidDashcam: भिडियो रेकर्डिङ रोकियो किनभने यन्त्रको क्यामेराले काम गर्न छोड्यो</string>
+    <string name="camera_error_busy">भिडियो रेकर्डिङ रोकिएको छ किनभने क्यामेरा अर्को अनुप्रयोगद्वारा प्रयोग भइरहेको छ</string>
+    <string name="camera_error_text">भिडियो रेकर्डिङ रोकियो किनभने यन्त्रको क्यामेराले काम गर्न छोड्यो</string>
     <string name="camera_external">बाह्य USB क्यामेरा</string>
     <string name="camera_focal_length">फोकल लम्बाइ</string>
+    <string name="camera_fov_horbizonal_text">तेर्सो</string>
     <string name="camera_fov_text">हेर्ने कोण (१६:९)</string>
     <string name="camera_fov_vertical_text">ठाडो</string>
-    <string name="camera_fov_horbizonal_text">तेर्सो</string>
     <string name="camera_front">अगाडिको क्यामरा</string>
     <string name="camera_msg_error_in_use_text">क्यामेरा अर्को एप्लिकेसनले प्रयोग गरिरहेको थियो। कृपया भिडियो रेकर्ड गर्दा क्यामेरा प्रयोग गर्न सक्ने अन्य अनुप्रयोगहरू नचलाउनुहोस्। एन्ड्रोइडले एक पटकमा एउटा एपलाई मात्र क्यामेरा प्रयोग गर्न अनुमति दिन्छ</string>
+    <string name="camera_msg_error_non_exposed_error">चयन गरिएको क्यामेरा खोल्न असफल भयो। यस्तो हुन्छ कि सबै लुकेका क्यामेराहरू कुनै पनि अनुप्रयोगद्वारा प्रयोग गर्न सकिँदैन। धेरै निर्माताहरूले तिनीहरूको मूल अनुप्रयोगहरूमा मात्र तिनीहरूको प्रयोगलाई अनुमति दिन्छन्। पूर्वनिर्धारित क्यामेरा खुल्नेछ।</string>
     <string name="camera_msg_error_unknown_text">क्यामेरा अस्थायी रूपमा (थियो) तपाईंको उपकरणमा खोल्न अनुपलब्ध छ (क्यामेरा प्रणाली त्रुटि)</string>
     <string name="camera_support_error">क्यामेरा प्रयोग गर्दा त्रुटि भयो।</string>
-
+    <string name="close">बन्द गर्नुहोस्</string>
+    <string name="default_text">पूर्वनिर्धारित</string>
     <string name="dialog_camera_not_found_msg_text">यो यन्त्रमा बिल्ट-इन क्यामेरा छैन र बाह्य क्यामेराहरूलाई समर्थन गर्दैन। बन्द…</string>
     <string name="dialog_camera_not_found_text">क्यामेरा फेला परेन</string>
     <string name="dialog_go_to_settings_text">सेटिङ्हरू खोल्नुहोस्</string>
     <string name="dialog_report_the_error_text_btn">बग रिपोर्ट गर्नुहोस्</string>
     <string name="dialog_select_camera_text">क्यामेरा चयन गर्नुहोस्</string>
-    <string name="dialog_skip_btn_title">छोड्नुहोस्</string>
     <string name="dialog_unlock_video_text">हालको भिडियोलाई ओभरराइट हुनबाट अनलक गर्ने हो\?</string>
-
+    <string name="disabled_text">अक्षम</string>
+    <string name="donate_dialog_item_no_ads_text">(बिना विज्ञापन)</string>
+    <string name="donate_disable_ads_text">दान, विज्ञापनहरू हटाउनुहोस्</string>
     <string name="donate_success_thanks_msg_text">तपाईको समर्थनको लागि धेरै धेरै धन्यवाद!</string>
+    <string name="donate_text">दान</string>
+    <string name="donation_any_amount_text">कुनै पनि रकमको लागि कुनै विज्ञापन</string>
     <string name="donation_dlg_has_ads_text">विज्ञापनहरू हटाउन, दान वा बढी हुनुपर्छ।</string>
+    <string name="donation_dlg_limited_ads_message_text">साना दानहरूको लागि, मुख्य स्क्रिनमा मात्र विज्ञापन हटाइन्छ</string>
     <string name="donation_dlg_no_ads_text">तपाईंसँग कुनै विज्ञापन छैन।</string>
     <string name="donation_level_text">तपाईंको दान स्तर:</string>
     <string name="donation_purchase_info_loading_text">किनमेल जानकारी अझै अपलोड गरिएको छैन। के तपाईं अनलाइन हुनुहुन्छ र आफ्नो Google खातामा साइन इन हुनुहुन्छ\?</string>
-    <string name="donation_subs_check_box_text">मासिक राख्नुहोस् (कुनै रकमको लागि कुनै विज्ञापन छैन)</string>
+    <string name="donation_remove_ads_by_any_amount_text">कुनै पनि रकमको एक पटक दानको साथ सदाका लागि विज्ञापनहरू हटाउनुहोस्। तपाईंले विज्ञापनहरू हटाउन मासिक रूपमा कुनै पनि रकम दान गर्न सक्नुहुन्छ</string>
+    <string name="donation_subs_any_amount_text">साथै, तपाईंले कुनै पनि रकमको लागि सदस्यता लिँदा विज्ञापन पूर्ण रूपमा हटाइन्छ।</string>
     <string name="donation_subs_manage_btn_text">सदस्यता रद्द गर्नुहोस्</string>
-
+    <string name="donation_subs_text">मासिक दान गर्नुहोस्</string>
     <string name="format_altitude">उचाइ</string>
     <string name="format_degrees">समन्वय</string>
     <string name="format_gb">गिगाबाइट</string>
+    <string name="format_gps_speed">जीपीएस गति</string>
     <string name="format_hz">Hz</string>
     <string name="format_kbits">केबीपीएस</string>
     <string name="format_mbits">Mbps</string>
     <string name="format_meters">m</string>
     <string name="format_minutes">मिनेट</string>
-    <string name="format_gps_speed">जीपीएस गति</string>
     <string name="format_speed_measure_kilometers">किमी/घन्टा</string>
     <string name="format_speed_measure_miles">mph</string>
-
-    <string name="msg_activity_battery_is_not_ignoring_msg_text">Droid Dashcam ब्याट्री अप्टिमाइजेसनबाट बाहिरिएको छैन। यदि क्यामेराले ब्याकग्राउन्डमा वा अरू केही काम गरिरहेको छैन भने, यो एपलाई पावर बचत मोडको अपवादहरूमा थप्नुहोस्।</string>
+    <string name="from">बाट</string>
+    <string name="msg_activity_battery_is_not_ignoring_msg_text">अनुप्रयोगलाई ब्याट्री अप्टिमाइजेसनबाट बहिष्कृत गरिएको छैन। यदि क्यामेरा ब्याकग्राउन्डमा चलिरहेको छैन वा अरू केही छ भने, यस एपलाई पावर बचत मोडको अपवादहरूमा थप्नुहोस्।</string>
     <string name="msg_android_r_deleting_manual_tip_text">यदि तपाईंले एन्ड्रोइड 11 मा अनुप्रयोग पुन: स्थापना गर्नुभयो भने, पुराना फाइलहरू म्यानुअल रूपमा मेटाइनुपर्छ</string>
-    <string name="msg_app_has_lost_camera_control_text">DroidDashcam को लागि क्यामेरा नियन्त्रण हराएको छ। क्यामेराको नियन्त्रण पुन: प्राप्त गर्न कृपया DroidDashcam फेरि खोल्नुहोस्।</string>
-    <string name="msg_battery_optimization_tip_text">ब्याट्री अप्टिमाइजेसन -&gt; सबै एप्स -&gt; Droid Dashcam -&gt; अप्टिमाइज/बचत नगर्नुहोस्</string>
-    <string name="msg_camera_died_text">DroidDashcam: क्यामेराले अप्रत्याशित रूपमा काम गर्न छोड्यो, पुन: सुरु गर्दै…</string>
+    <string name="msg_auto_recording_service_was_stopped">तपाईंले स्वचालित रूपमा भिडियो रेकर्डिङ सुरु गर्नको लागि पृष्ठभूमि सेवा बन्द गर्नुभएको छ। यसलाई फेरि सुरु गर्न अनुप्रयोग खोल्नुहोस्।</string>
+    <string name="msg_battery_optimization_tip_text">ब्याट्री अप्टिमाइजेसन -&gt; सबै एप्स -&gt; एप फेला पार्नुहोस् -&gt; अप्टिमाइज नगर्नुहोस्/बचत गर्नुहोस्</string>
+    <string name="msg_camera_died_text">क्यामेराले अप्रत्याशित रूपमा काम गर्न छोड्यो, पुन: सुरु गर्दै…</string>
     <string name="msg_camera_not_opened">क्यामेरा चलिरहेको छैन</string>
     <string name="msg_close_settings_before_recording_text">रेकर्डिङ सुरु गर्नु अघि अनुप्रयोग प्राथमिकताहरू बन्द गर्नुहोस्</string>
     <string name="msg_could_not_enable_microphone">माइक्रोफोन अन गर्न सकिएन, ध्वनि बिना रेकर्डिङ जारी रहनेछ</string>
@@ -67,9 +66,8 @@
     <string name="msg_could_not_open_text">आवेदन खोल्न असफल…</string>
     <string name="msg_could_not_start_floating_window_text">फ्लोटिंग विन्डो सुरु गर्न असफल भयो</string>
     <string name="msg_detected_impact_text">G-सेन्सरले झटका पत्ता लगाएको छ, भिडियोलाई ओभरराइट हुनबाट रोकिनेछ</string>
-    <string name="msg_dlg_found_old_videos_message">तपाईंले एप पुन: स्थापना गर्नुभएको जस्तो देखिन्छ। तपाईंसँग पुराना भिडियोहरू छन् जुन एपले लूप रेकर्डिङको बेला मेटाउन सक्दैन। नयाँ भिडियोहरू रेकर्ड गर्नु अघि तिनीहरूलाई भिडियो स्क्रिनमा म्यानुअल रूपमा हटाउनुहोस्। एन्ड्रोइड 11+ बाट सुरु गर्दै, अनुप्रयोगले पुन: स्थापना पछि पुराना फाइलहरूमा पहुँच अधिकार गुमाउँछ। वा तपाइँ रेकर्डिङ फोल्डरमा लेख्न अनुमति दिन सक्नुहुन्छ</string>
-    <string name="msg_dlg_found_old_videos_title">पुराना भिडियो फाइलहरू फेला पर्यो</string>
-    <string name="msg_dlg_incorrect_folder_path">अमान्य फोल्डर। कृपया बाटो परिवर्तन नगर्नुहोस्। तपाईंले एक विशेष फोल्डरको लागि अनुमति प्रदान गर्नुपर्छ। तपाईं सेटिङ्हरूमा रेकर्डिङ फोल्डर परिवर्तन गर्न सक्नुहुन्छ।</string>
+    <string name="msg_dialog_camera_battery_optimization_subtitle">भविष्यमा क्यामेरा त्रुटिहरूबाट बच्न आफ्नो यन्त्र सेटिङहरूमा यस एपको लागि ब्याट्री अप्टिमाइजेसन असक्षम गर्नुहोस्</string>
+    <string name="msg_dialog_camera_battery_optimization_title">क्यामेरा पहुँच गर्दा त्रुटि भयो। ब्याट्री अप्टिमाइजेसन सक्षम गरियो</string>
     <string name="msg_initializing_please_wait">प्रारम्भ गर्दै… कृपया प्रतीक्षा गर्नुहोस्!</string>
     <string name="msg_no_browser">लिङ्क खोल्नको लागि कृपया वेब एप स्थापना गर्नुहोस्</string>
     <string name="msg_no_gps_signal">GPS सिग्नल छैन</string>
@@ -77,57 +75,50 @@
     <string name="msg_no_permission_to_delete_file">भिडियो फाइल मेटाउन असफल भयो। तपाईंले अनुप्रयोग पुन: स्थापना गर्नुभएको हुन सक्छ र फाइल अनुमति हराएको हुन सक्छ, कृपया यसलाई म्यानुअल रूपमा अनइन्स्टल गर्ने प्रयास गर्नुहोस्</string>
     <string name="msg_not_enough_memory_free_some_text">भिडियो रेकर्डिङ जारी राख्न केही ठाउँ खाली गर्नुहोस्</string>
     <string name="msg_not_enough_memory_text">पर्याप्त मेमोरी छैन</string>
+    <string name="msg_notification_could_launch_app_activity">अनुप्रयोगको मुख्य स्क्रिन सुरु गर्न सकिएन किनभने SYSTEM_ALERT_WINDOW (अन्य सबै अनुप्रयोग विन्डोहरूको शीर्षमा प्रदर्शन) अनुमति प्रदान गरिएको थिएन वा यन्त्रको स्क्रिन बन्द गरिएको थियो।</string>
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">निर्दिष्ट अनुप्रयोग स्वचालित रूपमा खोल्न सुरु गर्न सकिँदैन किनभने \"सबै अनुप्रयोगहरूको शीर्षमा देखाउनुहोस्\" अनुमति प्रदान गरिएको थिएन।</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">स्क्रिन बन्द (लक गरिएको) भएकोले एप खोल्न सकिएन।</string>
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">स्क्रिन बन्द (लक गरिएको) भएकोले रेकर्डिङ सुरु गर्नको लागि एप खोल्न सकिएन। यसलाई ठीक गर्न पृष्ठभूमि रेकर्डिङ सेवा (वाचर) चलाउनुहोस्।</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">रेकर्डिङ सुरु गर्न एप खोल्न सकिएन किनभने \"सबै एपहरूको शीर्षमा देखाउनुहोस्\" अनुमति दिइएको थिएन। उपलब्ध गराउन क्लिक गर्नुहोस्</string>
     <string name="msg_photo_failed_to_take">फोटो खिच्न सकिएन</string>
     <string name="msg_photo_was_saved">फोटो सुरक्षित गरियो</string>
     <string name="msg_please_close_other_app_and_restart_text">क्यामेरा प्रयोग गरेर अन्य अनुप्रयोगहरू बन्द गर्नुहोस् र यो अनुप्रयोग पुन: सुरु गर्नुहोस्</string>
-    <string name="msg_record_path_has_changed_text">रेकर्डिङ फोल्डर परिवर्तन गरिएको छ। किनकी अनुपलब्ध वा भण्डारण (लेखन) को अनुमति दिइएको छैन</string>
     <string name="msg_recorder_init_error_file_not_found">पुराना भिडियोहरू मेटाउनुहोस्, आफ्नो SD कार्ड ढाँचा गर्नुहोस्, वा अर्को प्रयास गर्नुहोस्। साथै, अधिकतम भिडियो रेकर्डिङ स्थान सीमित गर्नुहोस् (कम राम्रो छ)। धेरै संख्यामा सुरक्षित गरिएका भिडियोहरूले त्यस्ता समस्याहरू निम्त्याउन सक्छ। सेटिङहरू /FAQ मा SD कार्डहरू बारे FAQ पनि हेर्नुहोस्। तपाईले बाह्य कार्डको सट्टा फोन मेमोरीमा लेख्ने प्रयास गर्न सक्नुहुन्छ</string>
     <string name="msg_recording_stopping_not_enough_memory_text">रेकर्डिङ रोक्नुहोस्। जारी राख्न पर्याप्त मेमोरी छैन</string>
     <string name="msg_settings_opened_stopped_recording_text">रेकर्डिङ रोक्नुहोस्… (सेटिङहरू खोलिएका थिए)</string>
-    <string name="msg_should_stop_recording_before_closing_service">पहिले रेकर्डिङ रोक्नुहोस्, त्यसपछि तपाइँ सेवा बन्द गर्न सक्नुहुन्छ</string>
     <string name="msg_stop_rec_too_fast_text">कृपया सुरु गरेपछि तुरुन्तै रेकर्डिङ रोक्नु अघि एक सेकेन्ड पर्खनुहोस्</string>
     <string name="msg_stop_recording_to_change_camera_text">क्यामेरा परिवर्तन गर्न, तपाईंले हालको रेकर्डिङ बन्द गर्नुपर्छ</string>
-    <string name="msg_to_close_this_service_close_app">यो सेवा बन्द गर्न, पहिले Droid Dashcam एपलाई सानो वा बन्द गर्नुहोस्</string>
     <string name="msg_video_become_locked_text">भिडियो ओभरराइट हुनबाट रोकिनेछ।</string>
     <string name="msg_video_folder_size">अनुमति दिइएको अधिकतम आकारबाट सबै भिडियोहरूको आकार</string>
-    <string name="msg_video_has_locked_text">भिडियो लक गरिएको छ र बचत गरिएको छ, अर्को भिडियो पनि लक गरिएको रूपमा चिन्ह लगाइनेछ (बटन क्लिक गरेर रद्द गर्न सकिन्छ)</string>
     <string name="msg_video_rec_battery_not_enough_text">उपकरणमा पर्याप्त ब्याट्री पावर छैन। चार्जमा राख्नुहोस् वा रेकर्डिङ सुरु गर्नुहोस् यदि चार्ज 1%% भन्दा माथि छ</string>
     <string name="msg_video_recorder_error">भिडियो रेकर्डरमा केही गडबड भयो।</string>
     <string name="msg_voice_tts_lang_data_missing_text">TTS (Android Text-to-Speech) को लागि भाषा प्याक स्थापना गरिएको छैन। डाउनलोड सुरु गर्न इन्टरनेट खोल्नुहोस्</string>
-    <string name="msg_auto_recording_service_was_stopped">तपाईंले स्वत: सुरु भिडियो पृष्ठभूमि सेवा बन्द गर्नुभएको छ। यसलाई फेरि सुरु गर्न DroidDashcam एप खोल्नुहोस्।</string>
-
+    <string name="notification_could_not_start_recording_service">रेकर्डिङ सेवा सुरु गर्न असफल भयो। यो एपको लागि ब्याट्री अप्टिमाइजेसन असक्षम गर्न ट्याप गर्नुहोस्</string>
     <string name="notification_service_aux_checker">अडियो ज्याक (Aux)</string>
     <string name="notification_service_bl_checker">ब्लुटुथ</string>
     <string name="notification_service_checker">विश्लेषण</string>
     <string name="notification_service_power_checker">चार्ज</string>
-    <string name="notification_start_service_error_sub_text">अनुप्रयोग सुरू गर्न अधिसूचनामा क्लिक गर्नुहोस्। तपाईंसँग सबै अनुप्रयोगहरूको शीर्षमा अनुमति छैन वा यन्त्र लक गरिएको छ</string>
-    <string name="notification_start_service_error_text">यन्त्र बुटमा रेकर्डिङ सेवा सुरु गर्न असफल भयो</string>
     <string name="notification_stop_text">रोक</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">स्वत: अन /अफ रेकर्डिङको लागि</string>
-    <string name="notification_could_not_start_recording_service">रेकर्डिङ सेवा सुरु गर्न असफल भयो। यो एपको लागि ब्याट्री अप्टिमाइजेसन असक्षम गर्न ट्याप गर्नुहोस्</string>
-
     <string name="permission_audio_dlg_msg">भिडियो रेकर्ड गर्दा अडियो ट्र्याक रेकर्ड गर्न अडियो आवश्यक छ</string>
-    <string name="permission_audio_dlg_title">अडियो रिजोल्युसन</string>
     <string name="permission_camera_dlg_msg">क्यामेरा भिडियो रेकर्डिङ र क्यामेरा पूर्वावलोकनको लागि आवश्यक छ।</string>
-    <string name="permission_camera_dlg_title">क्यामेरा संकल्प</string>
     <string name="permission_camera_request_canceled">यो अनुप्रयोगलाई भिडियो रेकर्ड गर्न क्यामेरा प्रयोग गर्न अनुमति चाहिन्छ। तर तपाईंले यसलाई अस्वीकार गर्नुभयो। बन्द गर्दै… यस अनुप्रयोगको प्रणाली सेटिङहरूमा क्यामेरालाई अनुमति दिने प्रयास गर्नुहोस्</string>
-    <string name="permission_location_dlg_explanation_msg">रेकर्ड गरिएको भिडियोमा निर्देशांक, ठेगाना र गति तान्न वा मुख्य स्क्रिनमा (तपाईंको सेटिङहरूमा निर्भर गर्दै) यो डाटा प्रदर्शन गर्न स्थान आवश्यक हुन्छ।</string>
-    <string name="permission_location_dlg_explanation_settings_msg">एन्ड्रोइड 11 (R) मा, तपाईंले पृष्ठभूमिमा स्थान अनुमति दिन प्रणाली प्राथमिकताहरूमा \"सधै समय (कुनै पनि मोड)\" म्यानुअल रूपमा चयन गर्न आवश्यक छ। यो विन्डो पछि सेटिङहरू खुल्नेछ।</string>
-    <string name="permission_location_dlg_msg">स्थान GPS डाटा, हालको ठेगाना र स्क्रिनमा प्रदर्शनको लागि र भिडियोमा उपशीर्षकहरू रेकर्ड गर्नको लागि समन्वयहरू प्रयोग गरेर यातायातको गति निर्धारण गर्न आवश्यक छ।</string>
-    <string name="permission_location_dlg_title">स्थान अनुमति</string>
+    <string name="permission_location_dlg_msg">रेकर्ड गरिएको भिडियोमा निर्देशांक, ठेगाना र गति तान्न वा मुख्य स्क्रिनमा (तपाईंको सेटिङहरूमा निर्भर गर्दै) यो डाटा प्रदर्शन गर्न स्थान आवश्यक हुन्छ।</string>
+    <string name="permission_notifications_dlg_msg">सूचना प्यानलमा पृष्ठभूमि रेकर्डिङ सेवा र रेकर्डिङ स्थिति प्रदर्शन गर्न सक्षम हुन सूचनाहरू आवश्यक छ।</string>
     <string name="permission_storage_dlg_msg">साझा फोल्डरमा भिडियो बचत गर्न र लुप रेकर्डिङ मोडको लागि भण्डारण आवश्यक छ</string>
-    <string name="permission_storage_dlg_title">भण्डारण अनुमति</string>
-    <string name="permissions_audio_location_dlg_title">अडियो र स्थान रिजोल्युसन</string>
-    <string name="permissions_audio_location_storage_dlg_title">अडियो, स्थान र अनुमति स्टोर</string>
-    <string name="permissions_audio_storage_dlg_title">अडियो र अनुमति भण्डारण</string>
-    <string name="permissions_camera_location_dlg_title">क्यामेरा र स्थान रिजोल्युसन</string>
+    <string name="permissions_bluetooth_missing_msg_text">स्वचालित घटना रेकर्डिङको लागि तपाईंले नजिकैका यन्त्रहरू (ब्लुटुथ) अनुमति दिनुपर्छ। यो अनुप्रयोगको प्रणाली सेटिङहरूमा गर्न सकिन्छ।</string>
     <string name="permissions_grant_storage_btn_text">अधिकार दिने</string>
-    <string name="permissions_location_storage_dlg_title">स्थान र भण्डारण अनुमतिहरू</string>
-
+    <string name="permissions_saf_incorrect_path">कृपया फरक मार्ग (उपकरण स्थानीय भण्डारण) चयन गर्ने प्रयास गर्नुहोस्।</string>
+    <string name="photos_count_one">फोटो</string>
+    <string name="photos_count_other">फोटोहरू</string>
+    <string name="photos_folder_name">फोटोहरू</string>
     <string name="prefs_address_geocoding_no_support_text">यन्त्रले जियोकोडिङलाई समर्थन गर्दैन किनभने असक्षम गरियो</string>
-    <string name="prefs_animated_rec_circle_sum_text">रेकर्डिङ सुरु गर्न बटन वरिपरि एनिमेसन देखाउनुहोस्</string>
-    <string name="prefs_animated_rec_circle_text">रेकर्डिङ एनिमेसन</string>
     <string name="prefs_audio_bitrate_text">बिटरेट (गुणस्तर)</string>
+    <string name="prefs_audio_bt_recording_text">ब्लुटुथ उपकरणबाट अडियो रेकर्ड गर्नुहोस्</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">ब्लुटुथ हेडफोनको साथ मात्र प्रयोग गर्नुहोस्। यदि तपाइँ ब्लुटुथ मार्फत हेड युनिट (कार रेडियो) मा जडान गर्नुहुन्छ भने, केहि कारणले गर्दा यसले स्वचालित रूपमा यस यन्त्रको मानक नम्बरमा फोन कल ट्रिगर गर्न सक्छ।</string>
+    <string name="prefs_audio_bt_recording_warning_title_text">हेड युनिट (कार रेडियो) संग प्रयोग नगर्नुहोस्!</string>
+    <string name="prefs_audio_priority_sum">यदि सक्षम पारियो भने, अन्य अनुप्रयोगहरूले माइक्रोफोन प्रयोग गर्न सक्षम हुने छैनन्। यदि असक्षम पारिएको छ भने, यो अनुप्रयोगले माइक्रोफोन प्रयोग गरेर धेरै अनुप्रयोगहरू चलिरहेको बेला अडियो रेकर्ड गर्न सक्षम नहुन सक्छ (एन्ड्रोइडले सधैं माइक्रोफोनको एकै साथ प्रयोग गर्न अनुमति दिँदैन)</string>
+    <string name="prefs_audio_priority_title">यो एपमा अडियोलाई प्राथमिकता दिनुहोस्</string>
     <string name="prefs_audio_rate_text">नमूना आवृत्ति</string>
     <string name="prefs_audio_recording_text">अडियो रेकर्डिङ</string>
     <string name="prefs_audio_settings_sum_text">गुणस्तर, बन्द /ध्वनि रेकर्डिङमा</string>
@@ -150,23 +141,22 @@
     <string name="prefs_aux_auto_start_sum_text">अडियो ज्याक (AUX) मा प्लग गर्दा स्वचालित रूपमा रेकर्डिङ सुरु हुन्छ</string>
     <string name="prefs_aux_auto_start_text">अडियो ज्याक (AUX) मा प्लग गर्दा चलाउनुहोस्</string>
     <string name="prefs_aux_auto_stop_text">अडियो ज्याक (AUX) बाट विच्छेद हुँदा रोक्नुहोस्</string>
-    <string name="prefs_background_location_sum_text">अनुमति दिइएको छैन। पृष्ठभूमिमा भिडियो रेकर्ड गर्दा गति, ठेगाना र समन्वयहरू अद्यावधिक गर्न आवश्यक छ। यसलाई ठीक गर्न यहाँ क्लिक गर्नुहोस्</string>
-    <string name="prefs_background_location_text">पृष्ठभूमिमा स्थान</string>
     <string name="prefs_battery_optimization_sum_text">ब्याट्री अप्टिमाइजेसनले एपलाई राम्ररी काम गर्नबाट रोक्न सक्छ (उदाहरणका लागि, क्यामेरा प्रयोग गर्ने वा पृष्ठभूमिमा भिडियो रेकर्ड गर्दा स्थान अपडेट गर्ने)। यो अनुप्रयोगको लागि यसलाई असक्षम गर्न यहाँ क्लिक गर्नुहोस्</string>
     <string name="prefs_battery_optimization_text">ब्याट्री अनुकूलन</string>
+    <string name="prefs_beep_each_start_recording_sum_text">अर्को भिडियो फाइलको रेकर्डिङको सुरुमा संकेत</string>
+    <string name="prefs_beep_each_start_recording_text">रेकर्ड गर्दा बिप</string>
+    <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">उपकरण निर्माताले सबै क्यामेराहरूमा पहुँच प्रदान नगर्न सक्छ, त्यसैले केही नखोल्न सक्छ</string>
+    <string name="prefs_camera_why_wide_lens_not_available_sum">उपकरण निर्माताले सबै अनुप्रयोगहरूको लागि फराकिलो लेन्स क्यामेरा प्रदान नगर्न सक्छ</string>
     <string name="prefs_day_night_mode_auto_text">स्वचालित (दिन /रात), समय अनुसार</string>
     <string name="prefs_day_night_mode_day_text">दिन</string>
     <string name="prefs_day_night_mode_night_text">रात</string>
-    <string name="prefs_donate_action_text">दान गर्नुहोस्</string>
-    <string name="donate_disable_ads_text">दान, विज्ञापनहरू हटाउनुहोस्</string>
     <string name="prefs_donate_sum_text">समर्थन अनुप्रयोग विकास</string>
-    <string name="donate_text">दान</string>
     <string name="prefs_faq_sum_text">बारम्बार सोधिने प्रश्नहरू</string>
+    <string name="prefs_flashlight_turn_on_recording_automatically">रेकर्डिङ गर्दा स्वचालित रूपमा फ्ल्यासलाइट खोल्नुहोस्</string>
     <string name="prefs_float_size_increase_text">फ्लोटिंग विन्डोमा बटनहरूको आकार</string>
-    <string name="from">बाट</string>
-    <string name="to">पहिले</string>
     <string name="prefs_fps_value_from_to_stable_text">(केवल दिन, स्थिर)</string>
     <string name="prefs_fps_value_from_to_text">(दिन र रात)</string>
+    <string name="prefs_fps_why_fps_60_not_available_sum">उपकरण निर्माताले सबै अनुप्रयोगहरूको लागि 60 FPS प्रदान नगर्न सक्छ</string>
     <string name="prefs_frequent_network_requests_text">(बारम्बार नेटवर्क अनुरोधहरू)</string>
     <string name="prefs_g_sensor_force_high">उच्च</string>
     <string name="prefs_g_sensor_force_low">कम</string>
@@ -181,11 +171,18 @@
     <string name="prefs_info_more_category_text">जानकारी /थप…</string>
     <string name="prefs_kill_services_sum_text">तपाइँको यन्त्रमा एपहरूलाई अटोप्ले गर्न र पृष्ठभूमिमा चल्न दिने सेटिङहरू छन्। यहाँ क्लिक गर्नुहोस् र अनुप्रयोगलाई अपवादहरूमा थप्नुहोस् (स्वतः सुरु गर्न अनुमति दिनुहोस् र यस्तै अन्य) लाई पृष्ठभूमिमा र स्क्रिन बन्द हुँदा, निषेधित भएमा चलाउन अनुमति दिनुहोस्।</string>
     <string name="prefs_kill_services_text">पृष्ठभूमि काम गर्न अनुमति दिँदै</string>
+    <string name="prefs_launch_activity_on_auto_rec_start_text">रेकर्डिङ स्वतः सुरु हुँदा अनुप्रयोग खोल्नुहोस्</string>
+    <string name="prefs_launch_app_auto_text">भिडियो रेकर्डिङ सुरु हुँदा एप सुरु गर्नुहोस्</string>
+    <string name="prefs_launch_app_limitation_text">एन्ड्रोइड 11 र माथिल्लो संस्करणको साथ, तपाइँ कुनै पनि स्थापित एपहरू चयन गर्न सक्षम नहुन सक्नुहुन्छ किनभने प्रणाली आफैले एप दृश्यता (गोपनीयता नीति) प्रतिबन्धित गर्दछ।</string>
     <string name="prefs_launch_app_none_text">छनोट भएन</string>
     <string name="prefs_launch_app_text">बटन लन्चर आवेदन</string>
     <string name="prefs_location_manager">स्थान प्रबन्धक (बञ्चित)</string>
     <string name="prefs_location_manager_gps_only_text">GPS मात्र प्रयोग गरेर स्थान अपडेट गर्नुहोस् (नेटवर्क प्रयोग नगर्नुहोस्)</string>
     <string name="prefs_location_method_provider_sum_text">यदि गति मानहरू खराब छन् भने, पुरानो विधि प्रयास गर्नुहोस्। यदि मानहरू शून्य छन् वा विरलै अपडेट हुन्छन् भने, त्यसपछि नयाँ विधि प्रयास गर्नुहोस्</string>
+    <string name="prefs_location_mode_balanced_text">स्थान सटीकता (निर्देशांक), गति र ब्याट्री पावर खपत बीच सन्तुलन।</string>
+    <string name="prefs_location_mode_high_accuracy_text">सबैभन्दा सही स्थान (सन्देश) र गति धेरै ब्याट्री पावर खपत को कारण।</string>
+    <string name="prefs_location_mode_low_power_text">कम ब्याट्री पावर खपतको कारण स्थान (निर्देशांक) र गति को कम सटीकता।</string>
+    <string name="prefs_location_mode_text">GPS प्राथमिकता (ब्याट्री वा शुद्धता)</string>
     <string name="prefs_location_provider_method_text">स्थान प्राप्ति विधि (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS अद्यावधिक दर</string>
     <string name="prefs_meters_accuracy_value_text">शुद्धता को मीटर</string>
@@ -195,9 +192,12 @@
     <string name="prefs_orientation_portrait">पोर्ट्रेट</string>
     <string name="prefs_other_auto_deleting_sum_text">नयाँ भिडियोहरूको लागि पर्याप्त ठाउँ नभएको खण्डमा रेकर्डिङ गर्दा पुराना भिडियोहरू स्वचालित रूपमा मेटाउनुहोस्</string>
     <string name="prefs_other_auto_deleting_text">लूप रेकर्डिङ</string>
+    <string name="prefs_other_date_time_text">मिति र समय</string>
     <string name="prefs_other_keep_screen_on_text">स्क्रिन अन छोड्नुहोस्</string>
+    <string name="prefs_other_keep_screen_on_while_recording_only_text">रेकर्डिङ गर्दा मात्र स्क्रिन अन राख्नुहोस्</string>
     <string name="prefs_other_miles_sum_text">किलोमिटरको सट्टा माइल प्रयोग गर्न खोल्नुहोस्</string>
     <string name="prefs_other_miles_text">माइल, खुट्टामा प्रदर्शन गर्नुहोस्</string>
+    <string name="prefs_other_path_not_set">रेकर्डिङ पथ सेट गरिएको छैन, यसलाई सेट गर्न यहाँ क्लिक गर्नुहोस्</string>
     <string name="prefs_other_path_photo_text">फोटो स्थान (फोल्डर /पथ)</string>
     <string name="prefs_other_path_text">भिडियो स्थान (फोल्डर /पथ)</string>
     <string name="prefs_other_settings_sum_text">भिडियो स्थान (सेभ फोल्डर), भिडियो अवधि, लुप रेकर्डिङ, G-सेन्सर, GPS</string>
@@ -219,7 +219,6 @@
     <string name="prefs_policy_text">गोपनीयता नीति</string>
     <string name="prefs_rate_sum_text">प्ले स्टोरमा एपलाई मूल्याङ्कन गर्नुहोस्</string>
     <string name="prefs_rate_text">अनुमान गर्नुहोस्</string>
-    <string name="prefs_recommendations_category_text">सिफारिसहरू</string>
     <string name="prefs_rules_auto_category_camera_motion_text">क्यामेरा द्वारा गति पत्ता लगाउने</string>
     <string name="prefs_rules_auto_lock_file_sum_text">हिट पत्ता लाग्दा स्वत: मेटाउने (ओभरराइट) बाट भिडियो रोक्नुहोस्</string>
     <string name="prefs_rules_auto_lock_file_text">G-सेन्सर (शक सेन्सर)</string>
@@ -227,9 +226,12 @@
     <string name="prefs_rules_auto_lock_file_vibrate_text">आघात पत्ता लाग्दा कम्पन</string>
     <string name="prefs_rules_auto_start_camera_motion_text">गति पत्ता लगाउँदा रेकर्डिङ सुरु गर्नुहोस्</string>
     <string name="prefs_rules_auto_start_speed_text">गति बराबर /उच्च हुँदा रेकर्डिङ सुरु गर्नुहोस् (GPS मा आधारित)</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* तपाईंले यो विकल्प बन्द गर्न सक्नुहुन्छ ताकि एप्लिकेसनको पृष्ठभूमि सेवा (वाचर) चलिरहेको छ भने मात्र अनुप्रयोगले स्वचालित रेकर्डिङ कार्य गर्दछ।\n- चार्जिङ, ब्लुटुथ वा AUX जस्ता घटनाहरूको लागि स्वचालित रेकर्डिङ एन्ड्रोइड 7.1 सम्म समस्या बिना प्रदर्शन गर्न सकिन्छ।\n- एन्ड्रोइड 8 बाट सुरु गर्दै, पृष्ठभूमि अनुप्रयोग सेवा (वाचर) बिना स्वचालित रेकर्डिङ ब्लुटुथ घटनाहरूको लागि मात्र प्रदर्शन गर्न सकिन्छ, र अन्य अवस्थामा (चार्ज गर्दा वा AUX) तपाईंले पहिले पृष्ठभूमि अनुप्रयोग सेवा (वाचर) सुरु गर्न आवश्यक छ - सुरु गरेर। एक पटक आफै आवेदन।\n- एन्ड्रोइड ११ बाट ब्याकग्राउन्ड एप सेवा (वाचर) बिना नै सुरु गर्दै, प्रयोगकर्ताको अन्तरक्रिया बिना क्यामेरामा पहुँच फोन अनलक (स्क्रिन अन) र \"सबै एपहरूको शीर्षमा\" अनुमति दिइएमा मात्र सम्भव छ।\n- यसैले, एन्ड्रोइड 11 र माथिका लागि, तपाईंले एक पटक म्यानुअल रूपमा अनुप्रयोग सुरू गर्न आवश्यक छ ताकि अनुप्रयोगको पृष्ठभूमि सेवा (वाचर) कुनै पनि घटनाहरू र फोन स्क्रिन बन्द हुँदा स्वचालित रूपमा रेकर्ड गर्न सुरु हुन्छ।</string>
+    <string name="prefs_rules_auto_start_without_service_text">पृष्ठभूमि सेवा (वाचर) चलिरहेको छैन भने पनि स्वचालित रेकर्डिङ</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">पछि रेकर्डिङ रोक्नुहोस्</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">कुनै आन्दोलन नभएको बेला रेकर्डिङ रोक्नुहोस्</string>
     <string name="prefs_rules_auto_stop_speed_text">गति कम हुँदा रेकर्डिङ रोक्नुहोस् (GPS मा आधारित)</string>
+    <string name="prefs_rules_bl_auto_start_only_if_charging_text">यन्त्र चार्ज हुँदा मात्र रेकर्डिङ</string>
     <string name="prefs_rules_video_space_text">सबै भिडियोहरूको अधिकतम मेमोरी क्षमता (लूप रेकर्डिङ)</string>
     <string name="prefs_screen_autostart_sum_text">जब तपाइँ अनुप्रयोग सुरु गर्नुहुन्छ, चार्जिङ अन /अफ गर्नुहोस्, प्रणाली बुट गर्नुहोस्</string>
     <string name="prefs_screen_autostart_text">रेकर्डिङ स्वतः सुरु गर्नुहोस्</string>
@@ -241,8 +243,10 @@
     <string name="prefs_settings_fps_sum_text">थप FPS - चिल्लो भिडियो, तर छिटो ब्याट्री निकास। अँध्यारोमा राम्रो रेकर्डिङको लागि पहिलो मानलाई सबैभन्दा कम (दोस्रो उच्च हुन सक्छ) सेट गर्न राम्रो छ</string>
     <string name="prefs_share_sum_text">आफ्नो साथीहरूलाई यो एप पठाउनुहोस्</string>
     <string name="prefs_share_text">यो साझा गर्नुहोस्</string>
+    <string name="prefs_shortcut_launcher_has_been_added">सर्टकट (लन्चर) थपिएको छ</string>
+    <string name="prefs_shortcut_rec_start_launcher_sum">मुख्य स्क्रिन सुरु नगरी रेकर्डिङ सुरु/रोक्नुहोस्</string>
+    <string name="prefs_shortcut_rec_start_launcher_title">सर्टकट थप्नुहोस् (लन्चर)</string>
     <string name="prefs_show_audio_btn_text">अन /अफ अडियो रेकर्डिङ</string>
-    <string name="prefs_show_buttons_sum_text">क्यामेराहरू परिवर्तन गर्नका लागि बटनहरू, अडियो रेकर्डिङ अन/अफ, फ्ल्यास, रात्रि मोड, भिडियोलाई ओभरराइट गर्नबाट रोक्ने</string>
     <string name="prefs_show_buttons_text">स्क्रिनमा बटनहरू</string>
     <string name="prefs_show_camera_change_btn_text">क्यामेरा परिवर्तन</string>
     <string name="prefs_show_day_night_mode_btn_text">दिन /रात /स्वत: मोडहरू</string>
@@ -252,10 +256,7 @@
     <string name="prefs_show_overlay_btn_text">फ्लोटिंग विन्डो देखाउनुहोस्</string>
     <string name="prefs_show_status_bar_text">प्रणाली स्थिति पट्टी देखाउनुहोस्</string>
     <string name="prefs_show_take_photo_btn_text">फोटो बनाउन को लागी</string>
-    <string name="prefs_show_ui_elements_sum_text">ठेगाना, गति, समन्वय</string>
-    <string name="prefs_stabilization_eis_text">इलेक्ट्रोनिक (डिजिटल, EIS) - सिफारिस गरिएको</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">हालको क्यामेराद्वारा समर्थित छैन। निर्माताहरूले प्राय: यसको प्रयोगलाई प्रतिबन्धित गर्छन् - यो मानक क्यामेरा अनुप्रयोगमा मात्र उपलब्ध छ</string>
-    <string name="prefs_stabilization_ois_text">अप्टिकल (OIS)</string>
     <string name="prefs_start_stop_voice_sum_text">सुरुमा ध्वनि, रोक्नुहोस् वा रेकर्डिङ त्रुटि</string>
     <string name="prefs_start_stop_voice_text">ध्वनि रेकर्डिङ स्थिति</string>
     <string name="prefs_subtitles_address_text">ठेगाना</string>
@@ -266,7 +267,12 @@
     <string name="prefs_subtitles_date_format_text">मिति ढाँचा</string>
     <string name="prefs_subtitles_date_text">मिति समय)</string>
     <string name="prefs_subtitles_date_time_system_text">प्रणालीगत</string>
+    <string name="prefs_subtitles_gpx_delay_title">GPX न्यूनतम अद्यावधिक दर</string>
+    <string name="prefs_subtitles_gpx_no_delay_entry">सबै समन्वय अद्यावधिकहरू</string>
+    <string name="prefs_subtitles_gpx_title">प्रत्येक भिडियोको लागि GPX फाइल सिर्जना गर्नुहोस्</string>
     <string name="prefs_subtitles_in_english_text">अंग्रेजी उपशीर्षकहरू</string>
+    <string name="prefs_subtitles_position_bottom_sum_text">भिडियोको तल उपशीर्षकहरू ओभरले गर्नुहोस्</string>
+    <string name="prefs_subtitles_position_bottom_text">तल उपशीर्षकहरू</string>
     <string name="prefs_subtitles_settings_sum_text">ओभरले भिडियो क्याप्सन: मिति (समय), स्थान ठेगाना, समन्वय र गति</string>
     <string name="prefs_subtitles_settings_text">उपशीर्षक सेटिङहरू</string>
     <string name="prefs_subtitles_size_text">पाठ आकार बढाउनुहोस्</string>
@@ -280,8 +286,13 @@
     <string name="prefs_support_text">समर्थन (प्रतिक्रिया)</string>
     <string name="prefs_system_alert_window_sum_text">यो एपलाई अन्य सबै एपहरूको शीर्षमा देखिन अनुमति दिनुहोस्। यो स्वतः सुरु गर्न /भिडियो रेकर्डिङ रोक्न वा फ्लोटिंग विन्डो प्रदर्शन गर्न आवश्यक छ</string>
     <string name="prefs_system_alert_window_text">सबै विन्डोजको शीर्षमा रिजोल्युसन</string>
+    <string name="prefs_theme_mode_dark">गाढा विषयवस्तु</string>
+    <string name="prefs_theme_mode_light">हल्का विषयवस्तु</string>
+    <string name="prefs_theme_mode_system_auto">प्रणालीमा जस्तै (स्वचालित)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">यो सेटिङ लागू गर्न र ट्र्याकिङ सेवा सुरु गर्न गृह स्क्रिन (रेकर्डिङ) मा फर्कनुहोस्</string>
     <string name="prefs_toolbar_title_setting">सेटिङहरू</string>
+    <string name="prefs_translate_sum_text">तपाईंको भाषामा पाठको अनुवाद सुधार गर्न वा ठीक गर्न मद्दत गर्नुहोस्</string>
+    <string name="prefs_translate_text">आवेदन अनुवाद</string>
     <string name="prefs_ui_click_none_text">गर्नलाई केहि छैन</string>
     <string name="prefs_ui_click_start_stop_rec_text">रेकर्डिङ सुरु /रोक्नुहोस्</string>
     <string name="prefs_ui_click_text">स्क्रिनमा द्रुत ट्याप गर्नुहोस्</string>
@@ -291,15 +302,21 @@
     <string name="prefs_value_secs_one_text">दोस्रो</string>
     <string name="prefs_value_secs_other_text">सेकेन्ड</string>
     <string name="prefs_version_text">आवेदन संस्करण</string>
+    <string name="prefs_vibrate_rec_start_stop_text">रेकर्डिङ सुरु वा बन्द गर्दा कम्पन</string>
     <string name="prefs_video_bitrate_text">बिटरेट (गुणस्तर)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">क्यामेरा नियन्त्रण दृश्य मोड (रात)</string>
     <string name="prefs_video_camera_control_scene_mode_text">क्यामेरा नियन्त्रण दृश्य मोड (दिन)</string>
+    <string name="prefs_video_control_scene_mode_beach_text">समुद्र तट (उज्ज्वल मौसम)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">सामान्य /अनुहार प्राथमिकता</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (उच्च गतिशील दायरा)</string>
     <string name="prefs_video_control_scene_mode_night_text">रात (कम प्रकाश अवस्थाहरूको लागि)</string>
+    <string name="prefs_video_control_scene_mode_snow_text">हिउँ</string>
+    <string name="prefs_video_control_scene_mode_sunset_text">सूर्यास्त</string>
     <string name="prefs_video_day_night_auto_mode_day_start_time_text">सूर्योदय समय (सूर्योदय)</string>
     <string name="prefs_video_day_night_auto_mode_night_start_time_text">सूर्यास्त समय (सूर्यास्त)</string>
     <string name="prefs_video_day_night_mode_text">दिन, रात वा स्वत: मोड</string>
+    <string name="prefs_video_exposure_auto_mode_sum_text">यदि तपाईं सेन्सर फ्रेम अवधि, एक्सपोजर समय, संवेदनशीलता, र एपर्चर म्यानुअल रूपमा नियन्त्रण गर्न चाहनुहुन्छ भने असक्षम गर्नुहोस्</string>
+    <string name="prefs_video_exposure_auto_mode_text">स्वत: एक्सपोजर मोड</string>
     <string name="prefs_video_exposure_night_text">एक्सपोजर क्षतिपूर्ति (रात)</string>
     <string name="prefs_video_exposure_text">एक्सपोजर क्षतिपूर्ति (दिन)</string>
     <string name="prefs_video_flip_x_sum_text">भिडियोको तेर्सो मिररिङ। छवि भिडियो रेकर्डिङको लागि मात्र परिवर्तन हुन्छ, पूर्वावलोकन परिवर्तन हुँदैन</string>
@@ -319,22 +336,30 @@
     <string name="prefs_video_size_sum_text">ठूलो आकार - छिटो ब्याट्री ड्रेन</string>
     <string name="prefs_video_space_unlimited">असीमित</string>
     <string name="prefs_video_stabilization_text">भिडियो स्थिरीकरण</string>
+    <string name="prefs_warning_location_precise_sum_text">यो सबैभन्दा सटीक GPS-आधारित गति, साथै ठेगाना र समन्वयहरू प्राप्त गर्न आवश्यक छ। पेश गर्न क्लिक गर्नुहोस्</string>
+    <string name="prefs_warning_location_precise_text">सही स्थानको लागि अनुमति</string>
+    <string name="prefs_warning_notifications_sum_text">सूचना प्यानलमा पृष्ठभूमि रेकर्डिङ सेवा र स्थितिहरू प्रदर्शन गर्न सक्षम हुन आवश्यक छ। पेश गर्न क्लिक गर्नुहोस्</string>
+    <string name="prefs_warning_notifications_text">सूचना अनुमति</string>
+    <string name="prefs_warning_permission_bluetooth_sum_text">ब्लुटुथ जडानहरूमा स्वचालित रेकर्डिङलाई अनुमति चाहिन्छ। पेश गर्न यहाँ क्लिक गर्नुहोस्</string>
+    <string name="prefs_warning_permission_bluetooth_text">ब्लुटुथ अनुमति दिइएको छैन</string>
+    <string name="prefs_warnings_text">चेतावनीहरू</string>
+    <string name="prefs_zoom_out_desc_text">अल्ट्रा वाइड-एंगल क्यामेरा (लेन्स) पहुँच गर्न, तपाईं जुम कारक सेट गर्न सक्नुहुन्छ</string>
     <string name="prefs_zoom_text">डिजिटल जुम (जुम)</string>
-
+    <string name="rec_audio_silence_text">यस क्षणमा, अडियो रेकर्डिङ सम्भव छैन किनभने माइक्रोफोन अर्को अनुप्रयोगद्वारा रोकिएको छ</string>
+    <string name="rec_available_space_text">उपलब्ध छ</string>
     <string name="rec_day_night_btn_auto_text">अटो</string>
     <string name="rec_fix_short_text">सच्याउन</string>
     <string name="rec_fix_text">सच्याउन</string>
-    <string name="rec_available_space_text">उपलब्ध छ</string>
     <string name="rec_gps_status_satellites_few_text">उपग्रहहरू</string>
     <string name="rec_gps_status_satellites_many_text">उपग्रहहरू</string>
     <string name="rec_gps_status_satellites_one_text">उपग्रह</string>
     <string name="rec_gps_status_satellites_other_text">उपग्रहहरू</string>
-    <string name="rec_location_text">स्थान</string>
     <string name="rec_gps_text">जीपीएस</string>
+    <string name="rec_location_text">स्थान</string>
     <string name="rec_network_text">नेट</string>
     <string name="rec_off_text">बन्द</string>
     <string name="rec_on_text">समावेश</string>
-
+    <string name="rec_service_msg">गोपनीयता: तपाईंले रेकर्ड गर्नुभएका सबै भिडियोहरू तपाईंको स्थानीय उपकरणमा मात्र सुरक्षित हुनेछन्। अनुप्रयोगले तपाइँको भिडियोहरू ब्याकअप गर्दैन (सर्भरहरूमा कुनै जडान छैन)\n\nयदि तपाइँ नयाँ रेकर्डिङ सुरु गर्नुहुन्छ र गृह स्क्रिनमा फर्कनुभयो भने, रेकर्डिङ जारी राख्न सक्षम हुनको लागि अर्को एपमा स्विच गर्नुहोस् वा तपाइँको फोन लक गर्नुहोस्, वा यदि तपाइँ पृष्ठभूमिमा (सूचना पट्टीमा देखा पर्ने अग्रभूमि सेवा) मा चल्न जारी रहनेछ। तपाईंले स्वचालित रेकर्डिङका लागि प्रकार्यहरू खोल्नुहोस् (यदि तपाईंले पृष्ठभूमि सेवा बन्द गर्नुभयो भने, यी प्रकार्यहरूले काम गर्ने छैनन्)।</string>
     <string name="recording_start_text">रेकर्डिङ सुरु गर्नुहोस्</string>
     <string name="recording_started_failed_text">रेकर्डिङ सुरु गर्दा त्रुटि</string>
     <string name="recording_started_with_audio_text">अडियो रेकर्डिङ सहितको नयाँ भिडियो रेकर्डिङ सुरु भएको छ</string>
@@ -347,15 +372,14 @@
     <string name="recording_text">रेकर्डिङ…</string>
     <string name="recording_voice_started_text">रेकर्डिङ सुरु भएको छ</string>
     <string name="recording_voice_stopped_text">रेकर्डिङ रोकियो</string>
-
-    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">रेकर्डिङ सुरु गर्न एप खोल्न सकिएन किनभने \"सबै एपहरूको शीर्षमा देखाउनुहोस्\" अनुमति दिइएको थिएन। उपलब्ध गराउन क्लिक गर्नुहोस्</string>
-    <string name="service_watch_on_boot_completed_text">यन्त्र अन गर्दा</string>
-
+    <string name="reset">डिस्चार्ज</string>
     <string name="storage_external_single">माइक्रोएसडी कार्ड</string>
     <string name="storage_external_single_free">माइक्रोएसडी कार्ड</string>
     <string name="storage_phone">फोन मेमोरी</string>
     <string name="storage_phone_free">फोन मेमोरी</string>
-
+    <string name="to">पहिले</string>
+    <string name="unknown">अज्ञात</string>
+    <string name="videos_ask_which_player">कुन खेलाडीमा खेल्ने भनेर सोध्नुहोस्</string>
     <string name="videos_count_one">भिडियो</string>
     <string name="videos_count_other">भिडियो</string>
     <string name="videos_deleting_text">फाइलहरू मेटाउँदै… कृपया प्रतीक्षा गर्नुहोस्!</string>
@@ -382,156 +406,9 @@
     <string name="videos_menu_storage">मेमोरी</string>
     <string name="videos_no_storage_permission_dlg_msg_text">कृपया अनुप्रयोग सेटिङहरू खोल्नुहोस् र फोन मेमोरीमा भण्डारणमा पहुँच अनुमति दिनुहोस्</string>
     <string name="videos_no_storage_permission_dlg_title_text">कुनै भण्डारण अनुमति छैन</string>
-    <string name="videos_select_files_for_deleting">मेटाउन भिडियो फाइलहरू चयन गर्नुहोस्</string>
+    <string name="videos_no_storage_saf_permission_dlg_msg_text">कृपया रेकर्डहरूको लागि फोल्डर चयन गर्नुहोस्</string>
     <string name="videos_storage_select_dlg_title">भिडियो भण्डारण चयन गर्नुहोस्</string>
     <string name="videos_temporary_folder_text">समयबद्ध भिडियोहरू</string>
     <string name="videos_toolbar_subtitle">भिडियो रेकर्डिङ</string>
-
-	
-    <string name="prefs_app_launch_list_loading_msg_text">कृपया पर्खनुहोस्। आवेदन सूची अझै लोड हुँदै…</string>
-    <string name="prefs_warnings_text">चेतावनीहरू</string>
-    <string name="prefs_beep_each_start_recording_sum_text">अर्को भिडियो फाइलको रेकर्डिङको सुरुमा संकेत</string>
-    <string name="prefs_beep_each_start_recording_text">रेकर्ड गर्दा बिप</string>
-    <string name="prefs_translate_text">आवेदन अनुवाद</string>
-    <string name="prefs_translate_sum_text">तपाईंको भाषामा पाठको अनुवाद सुधार गर्न वा ठीक गर्न मद्दत गर्नुहोस्</string>
-    <string name="prefs_launch_app_auto_text">भिडियो रेकर्डिङ सुरु हुँदा एप सुरु गर्नुहोस्</string>
-
-    <string name="msg_dialog_camera_battery_optimization_title">क्यामेरा पहुँच गर्दा त्रुटि भयो। ब्याट्री अप्टिमाइजेसन सक्षम गरियो</string>
-    <string name="msg_dialog_camera_battery_optimization_subtitle">भविष्यमा क्यामेरा त्रुटिहरूबाट बच्न आफ्नो यन्त्र सेटिङहरूमा यस एपको लागि ब्याट्री अप्टिमाइजेसन असक्षम गर्नुहोस्</string>
-
-	
-    <string name="prefs_rules_auto_start_without_service_text">पृष्ठभूमि सेवा (वाचर) चलिरहेको छैन भने पनि स्वचालित रेकर्डिङ</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* तपाईंले यो विकल्प बन्द गर्न सक्नुहुन्छ ताकि एप्लिकेसनको पृष्ठभूमि सेवा (वाचर) चलिरहेको छ भने मात्र अनुप्रयोगले स्वचालित रेकर्डिङ कार्य गर्दछ।\n- चार्जिङ, ब्लुटुथ वा AUX जस्ता घटनाहरूको लागि स्वचालित रेकर्डिङ एन्ड्रोइड 7.1 सम्म समस्या बिना प्रदर्शन गर्न सकिन्छ।\n- एन्ड्रोइड 8 बाट सुरु गर्दै, पृष्ठभूमि अनुप्रयोग सेवा (वाचर) बिना स्वचालित रेकर्डिङ ब्लुटुथ घटनाहरूको लागि मात्र प्रदर्शन गर्न सकिन्छ, र अन्य अवस्थामा (चार्ज गर्दा वा AUX) तपाईंले पहिले पृष्ठभूमि अनुप्रयोग सेवा (वाचर) सुरु गर्न आवश्यक छ - सुरु गरेर। एक पटक आफै आवेदन।\n- एन्ड्रोइड ११ बाट ब्याकग्राउन्ड एप सेवा (वाचर) बिना नै सुरु गर्दै, प्रयोगकर्ताको अन्तरक्रिया बिना क्यामेरामा पहुँच फोन अनलक (स्क्रिन अन) र \"सबै एपहरूको शीर्षमा\" अनुमति दिइएमा मात्र सम्भव छ।\n- यसैले, एन्ड्रोइड 11 र माथिका लागि, तपाईंले एक पटक म्यानुअल रूपमा अनुप्रयोग सुरू गर्न आवश्यक छ ताकि अनुप्रयोगको पृष्ठभूमि सेवा (वाचर) कुनै पनि घटनाहरू र फोन स्क्रिन बन्द हुँदा स्वचालित रूपमा रेकर्ड गर्न सुरु हुन्छ।</string>
-
-	
-    <string name="prefs_subtitles_position_bottom_text">तल उपशीर्षकहरू</string>
-    <string name="prefs_subtitles_position_bottom_sum_text">भिडियोको तल उपशीर्षकहरू ओभरले गर्नुहोस्</string>
-
-	
-    <string name="accept_text">म स्वीकार छु</string>
-
-    <string name="prefs_launch_app_limitation_text">एन्ड्रोइड 11 र माथिल्लो संस्करणको साथ, तपाइँ कुनै पनि स्थापित एपहरू चयन गर्न सक्षम नहुन सक्नुहुन्छ किनभने प्रणाली आफैले एप दृश्यता (गोपनीयता नीति) प्रतिबन्धित गर्दछ।</string>
-
-    <string name="prefs_rules_bl_auto_start_only_if_charging_text">यन्त्र चार्ज हुँदा मात्र रेकर्डिङ</string>
-
-    <string name="prefs_other_keep_screen_on_while_recording_only_text">रेकर्डिङ गर्दा मात्र स्क्रिन अन राख्नुहोस्</string>
-    <string name="prefs_other_date_time_text">मिति र समय</string>
-
-    
-    
-
-    
-
-    <string name="prefs_launch_activity_on_auto_rec_start_text">रेकर्डिङ स्वतः सुरु हुँदा अनुप्रयोग खोल्नुहोस्</string>
-
-    <string name="msg_notification_could_launch_app_activity">अनुप्रयोगको मुख्य स्क्रिन सुरु गर्न सकिएन किनभने SYSTEM_ALERT_WINDOW (अन्य सबै अनुप्रयोग विन्डोहरूको शीर्षमा प्रदर्शन) अनुमति प्रदान गरिएको थिएन वा यन्त्रको स्क्रिन बन्द गरिएको थियो।</string>
-
-    <string name="prefs_zoom_out_desc_text">अल्ट्रा वाइड-एंगल क्यामेरा (लेन्स) पहुँच गर्न, तपाईं जुम कारक सेट गर्न सक्नुहुन्छ</string>
-    <string name="prefs_warning_location_precise_sum_text">यो सबैभन्दा सटीक GPS-आधारित गति, साथै ठेगाना र समन्वयहरू प्राप्त गर्न आवश्यक छ। पेश गर्न क्लिक गर्नुहोस्</string>
-    <string name="prefs_warning_location_precise_text">सही स्थानको लागि अनुमति</string>
-    <string name="prefs_warning_notifications_sum_text">सूचना प्यानलमा पृष्ठभूमि रेकर्डिङ सेवा र स्थितिहरू प्रदर्शन गर्न सक्षम हुन आवश्यक छ। पेश गर्न क्लिक गर्नुहोस्</string>
-    <string name="prefs_warning_notifications_text">सूचना अनुमति</string>
-
-    <string name="donation_dlg_limited_ads_message_text">साना दानहरूको लागि, मुख्य स्क्रिनमा मात्र विज्ञापन हटाइन्छ</string>photo
-    <string name="photos_folder_name">फोटोहरू</string>
-
-    <string name="photos_count_one">फोटो</string>
-    <string name="photos_count_other">फोटोहरू</string>
-
-    <string name="prefs_audio_priority_title">यो एपमा अडियोलाई प्राथमिकता दिनुहोस्</string>
-    <string name="prefs_audio_priority_sum">यदि सक्षम पारियो भने, अन्य अनुप्रयोगहरूले माइक्रोफोन प्रयोग गर्न सक्षम हुने छैनन्। यदि असक्षम पारिएको छ भने, यो अनुप्रयोगले माइक्रोफोन प्रयोग गरेर धेरै अनुप्रयोगहरू चलिरहेको बेला अडियो रेकर्ड गर्न सक्षम नहुन सक्छ (एन्ड्रोइडले सधैं माइक्रोफोनको एकै साथ प्रयोग गर्न अनुमति दिँदैन)</string>
-    <string name="rec_audio_silence_text">यस क्षणमा, अडियो रेकर्डिङ सम्भव छैन किनभने माइक्रोफोन अर्को अनुप्रयोगद्वारा रोकिएको छ</string>
-
-    <string name="prefs_subtitles_gpx_title">प्रत्येक भिडियोको लागि GPX फाइल सिर्जना गर्नुहोस्</string>
-    <string name="prefs_subtitles_gpx_delay_title">GPX न्यूनतम अद्यावधिक दर</string>
-    <string name="prefs_subtitles_gpx_no_delay_entry">सबै समन्वय अद्यावधिकहरू</string>
-
-    <string name="prefs_shortcut_rec_start_launcher_title">सर्टकट थप्नुहोस् (लन्चर)</string>
-    <string name="prefs_shortcut_rec_start_launcher_sum">मुख्य स्क्रिन सुरु नगरी रेकर्डिङ सुरु/रोक्नुहोस्</string>
-
-    <string name="prefs_camera_why_wide_lens_not_available_sum">उपकरण निर्माताले सबै अनुप्रयोगहरूको लागि फराकिलो लेन्स क्यामेरा प्रदान नगर्न सक्छ</string>
-    <string name="prefs_fps_why_fps_60_not_available_sum">उपकरण निर्माताले सबै अनुप्रयोगहरूको लागि 60 FPS प्रदान नगर्न सक्छ</string>
-    <string name="prefs_video_control_scene_mode_sunset_text">सूर्यास्त</string>
-    <string name="prefs_video_control_scene_mode_snow_text">हिउँ</string>
-    <string name="prefs_video_control_scene_mode_beach_text">समुद्र तट (उज्ज्वल मौसम)</string>
-
-    <string name="prefs_video_exposure_auto_mode_text">स्वत: एक्सपोजर मोड</string>
-    <string name="prefs_video_exposure_auto_mode_sum_text">यदि तपाईं सेन्सर फ्रेम अवधि, एक्सपोजर समय, संवेदनशीलता, र एपर्चर म्यानुअल रूपमा नियन्त्रण गर्न चाहनुहुन्छ भने असक्षम गर्नुहोस्</string>
-
-    <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">उपकरण निर्माताले सबै क्यामेराहरूमा पहुँच प्रदान नगर्न सक्छ, त्यसैले केही नखोल्न सक्छ</string>
-
-    <string name="camera_msg_error_non_exposed_error">चयन गरिएको क्यामेरा खोल्न असफल भयो। यस्तो हुन्छ कि सबै लुकेका क्यामेराहरू कुनै पनि अनुप्रयोगद्वारा प्रयोग गर्न सकिँदैन। धेरै निर्माताहरूले तिनीहरूको मूल अनुप्रयोगहरूमा मात्र तिनीहरूको प्रयोगलाई अनुमति दिन्छन्। पूर्वनिर्धारित क्यामेरा खुल्नेछ।</string>
-
-    <string name="videos_ask_which_player">कुन खेलाडीमा खेल्ने भनेर सोध्नुहोस्</string>
-
-    <string name="prefs_location_mode_text">GPS प्राथमिकता (ब्याट्री वा शुद्धता)</string>
-    <string name="prefs_location_mode_balanced_text">स्थान सटीकता (निर्देशांक), गति र ब्याट्री पावर खपत बीच सन्तुलन।</string>
-    <string name="prefs_location_mode_high_accuracy_text">सबैभन्दा सही स्थान (सन्देश) र गति धेरै ब्याट्री पावर खपत को कारण।</string>
-    <string name="prefs_location_mode_low_power_text">कम ब्याट्री पावर खपतको कारण स्थान (निर्देशांक) र गति को कम सटीकता।</string>
-
-    <string name="prefs_location_accuracy_explanation">फ्युज गरिएको स्थान प्रदायक API र उच्च सटीकता प्राथमिकता वा स्थान प्रबन्धकको लागि मात्र उपलब्ध छ।</string>
-
-	<string name="rec_service_msg">गोपनीयता: तपाईंले रेकर्ड गर्नुभएका सबै भिडियोहरू तपाईंको स्थानीय उपकरणमा मात्र सुरक्षित हुनेछन्। अनुप्रयोगले तपाइँको भिडियोहरू ब्याकअप गर्दैन (सर्भरहरूमा कुनै जडान छैन)\n\nयदि तपाइँ नयाँ रेकर्डिङ सुरु गर्नुहुन्छ र गृह स्क्रिनमा फर्कनुभयो भने, रेकर्डिङ जारी राख्न सक्षम हुनको लागि अर्को एपमा स्विच गर्नुहोस् वा तपाइँको फोन लक गर्नुहोस्, वा यदि तपाइँ पृष्ठभूमिमा (सूचना पट्टीमा देखा पर्ने अग्रभूमि सेवा) मा चल्न जारी रहनेछ। तपाईंले स्वचालित रेकर्डिङका लागि प्रकार्यहरू खोल्नुहोस् (यदि तपाईंले पृष्ठभूमि सेवा बन्द गर्नुभयो भने, यी प्रकार्यहरूले काम गर्ने छैनन्)।</string>
-
-	
-
-	
-
-	
-
-	
-
-    
-
-    
-
-    <string name="permissions_saf_incorrect_path">कृपया फरक मार्ग (उपकरण स्थानीय भण्डारण) चयन गर्ने प्रयास गर्नुहोस्।</string>
-
-	<string name="prefs_vibrate_rec_start_stop_text">रेकर्डिङ सुरु वा बन्द गर्दा कम्पन</string>
-
-    <string name="donation_subs_text">मासिक दान गर्नुहोस्</string>
-    <string name="donation_any_amount_text">कुनै पनि रकमको लागि कुनै विज्ञापन</string>
-    <string name="donation_subs_any_amount_text">साथै, तपाईंले कुनै पनि रकमको लागि सदस्यता लिँदा विज्ञापन पूर्ण रूपमा हटाइन्छ।</string>
-    <string name="donation_remove_ads_by_any_amount_text">कुनै पनि रकमको एक पटक दानको साथ सदाका लागि विज्ञापनहरू हटाउनुहोस्। तपाईंले विज्ञापनहरू हटाउन मासिक रूपमा कुनै पनि रकम दान गर्न सक्नुहुन्छ</string>
-
-    <string name="prefs_audio_bt_recording_text">ब्लुटुथ उपकरणबाट अडियो रेकर्ड गर्नुहोस्</string>
-
-    <string name="prefs_audio_bt_recording_warning_title_text">हेड युनिट (कार रेडियो) संग प्रयोग नगर्नुहोस्!</string>
-    <string name="prefs_audio_bt_recording_warning_message_text">ब्लुटुथ हेडफोनको साथ मात्र प्रयोग गर्नुहोस्। यदि तपाइँ ब्लुटुथ मार्फत हेड युनिट (कार रेडियो) मा जडान गर्नुहुन्छ भने, केहि कारणले गर्दा यसले स्वचालित रूपमा यस यन्त्रको मानक नम्बरमा फोन कल ट्रिगर गर्न सक्छ।</string>
-
-    <string name="prefs_warning_permission_bluetooth_sum_text">ब्लुटुथ जडानहरूमा स्वचालित रेकर्डिङलाई अनुमति चाहिन्छ। पेश गर्न यहाँ क्लिक गर्नुहोस्</string>
-    <string name="prefs_warning_permission_bluetooth_text">ब्लुटुथ अनुमति दिइएको छैन</string>
-
-    
-    
-
-    
-
-    
-    
-
-    
-
-    <string name="msg_notification_could_not_start_recording_with_locked_screen">स्क्रिन बन्द (लक गरिएको) भएकोले रेकर्डिङ सुरु गर्नको लागि एप खोल्न सकिएन। यसलाई ठीक गर्न पृष्ठभूमि रेकर्डिङ सेवा (वाचर) चलाउनुहोस्।</string>
-    <string name="msg_notification_could_not_open_with_locked_screen">स्क्रिन बन्द (लक गरिएको) भएकोले एप खोल्न सकिएन।</string>
-
-	
-    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">निर्दिष्ट अनुप्रयोग स्वचालित रूपमा खोल्न सुरु गर्न सकिँदैन किनभने \"सबै अनुप्रयोगहरूको शीर्षमा देखाउनुहोस्\" अनुमति प्रदान गरिएको थिएन।</string>
-    
-
-    
-
-    <string name="permissions_bluetooth_missing_msg_text">स्वचालित घटना रेकर्डिङको लागि तपाईंले नजिकैका यन्त्रहरू (ब्लुटुथ) अनुमति दिनुपर्छ। यो अनुप्रयोगको प्रणाली सेटिङहरूमा गर्न सकिन्छ।</string>
-
-    
-
-    
-
-    
-
-    
-
-    <string name="permission_notifications_dlg_msg">सूचना प्यानलमा पृष्ठभूमि रेकर्डिङ सेवा र रेकर्डिङ स्थिति प्रदर्शन गर्न सक्षम हुन सूचनाहरू आवश्यक छ।</string>
-
-    
+    <string name="zoom_text">जुम</string>
 </resources>

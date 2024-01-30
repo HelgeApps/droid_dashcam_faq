@@ -1,65 +1,64 @@
 <resources>
-    <string name="app_name">Droid Dashcam - Conduzindo DVR</string>
-
+    <string name="accept_text">eu aceito</string>
     <string name="any_text">Qualquer</string>
-    <string name="close">Fechar</string>
-    <string name="default_text">Padrão</string>
-    <string name="disabled_text">Desativado</string>
-    <string name="donate_dialog_item_no_ads_text">(Sem publicidade)</string>
-    <string name="zoom_text">ampliação</string>
-    <string name="reset">descarga</string>
-    <string name="unknown">Desconhecido</string>
-
+    <string name="app_name">Droid Dashcam - Conduzindo DVR</string>
     <string name="camera">Câmera</string>
     <string name="camera_aperture">Diafragma</string>
     <string name="camera_back">Câmera traseira</string>
     <string name="camera_background_permission_error_msg">Você precisa executar o aplicativo uma vez para acessar a câmera em segundo plano</string>
     <string name="camera_error_background_tried_use_text">No Android 11+, antes de iniciar a gravação em segundo plano, o aplicativo deve estar em execução e visível pelo menos uma vez para poder usar a câmera em segundo plano. Portanto, após reiniciar o aparelho, torne o aplicativo visível e depois não feche o serviço de gravação, ele deve permanecer na central de notificações.</string>
-    <string name="camera_error_busy">DroidDashcam: a gravação de vídeo foi interrompida porque a câmera está sendo usada por outro aplicativo</string>
-    <string name="camera_error_text">DroidDashcam: a gravação de vídeo foi interrompida porque a câmera do dispositivo parou de funcionar</string>
+    <string name="camera_error_busy">a gravação de vídeo foi interrompida porque a câmera está sendo usada por outro aplicativo</string>
+    <string name="camera_error_text">a gravação de vídeo foi interrompida porque a câmera do dispositivo parou de funcionar</string>
     <string name="camera_external">Câmera USB Externa</string>
     <string name="camera_focal_length">Comprimento focal</string>
+    <string name="camera_fov_horbizonal_text">horizontal</string>
     <string name="camera_fov_text">Ângulos de visão (16: 9)</string>
     <string name="camera_fov_vertical_text">vertical</string>
-    <string name="camera_fov_horbizonal_text">horizontal</string>
     <string name="camera_front">Câmera frontal</string>
     <string name="camera_msg_error_in_use_text">A câmera estava sendo usada por outro aplicativo. Não execute outros aplicativos que possam estar usando a câmera durante a gravação de vídeo. O Android permite que apenas um aplicativo use a câmera por vez</string>
+    <string name="camera_msg_error_non_exposed_error">Falha ao abrir a câmera selecionada. Acontece que nem todas as câmeras ocultas podem ser usadas por qualquer aplicativo. Muitos fabricantes só permitem seu uso em seus aplicativos nativos. A câmera padrão será aberta.</string>
     <string name="camera_msg_error_unknown_text">A câmera está temporariamente (não estava) disponível para abrir no seu dispositivo (erro do sistema da câmera)</string>
     <string name="camera_support_error">Ocorreu um erro ao usar a câmera.</string>
-
+    <string name="close">Fechar</string>
+    <string name="default_text">Padrão</string>
     <string name="dialog_camera_not_found_msg_text">Este dispositivo não possui uma câmera embutida e não oferece suporte a câmeras externas. Fechando…</string>
     <string name="dialog_camera_not_found_text">Câmera não encontrada</string>
     <string name="dialog_go_to_settings_text">Abrir configurações</string>
     <string name="dialog_report_the_error_text_btn">Reportar um erro</string>
     <string name="dialog_select_camera_text">Selecione a câmera</string>
-    <string name="dialog_skip_btn_title">Pular</string>
     <string name="dialog_unlock_video_text">Desbloquear o vídeo atual para não ser sobrescrito\?</string>
-
+    <string name="disabled_text">Desativado</string>
+    <string name="donate_dialog_item_no_ads_text">(Sem publicidade)</string>
+    <string name="donate_disable_ads_text">Doação, remover anúncios</string>
     <string name="donate_success_thanks_msg_text">Muito obrigado pelo seu apoio!</string>
+    <string name="donate_text">Doação</string>
+    <string name="donation_any_amount_text">sem publicidade de qualquer valor</string>
     <string name="donation_dlg_has_ads_text">Para remover anúncios, a doação deve ser ou mais.</string>
+    <string name="donation_dlg_limited_ads_message_text">Para doações menores, a publicidade é removida apenas da tela principal</string>
     <string name="donation_dlg_no_ads_text">Você não tem anúncios.</string>
     <string name="donation_level_text">Seu nível de doação:</string>
     <string name="donation_purchase_info_loading_text">As informações de compras ainda não foram carregadas. Você está online e conectado à sua conta do Google\?</string>
-    <string name="donation_subs_check_box_text">Manter mensalmente (sem anúncios de qualquer valor)</string>
+    <string name="donation_remove_ads_by_any_amount_text">Remova os anúncios para sempre com uma doação única de qualquer valor. Você também pode doar qualquer valor mensalmente para remover anúncios</string>
+    <string name="donation_subs_any_amount_text">Além disso, a publicidade é completamente removida quando você assina qualquer valor.</string>
     <string name="donation_subs_manage_btn_text">Cancelar subscrição</string>
-
+    <string name="donation_subs_text">Doe mensalmente</string>
     <string name="format_altitude">Altura</string>
     <string name="format_degrees">Coordenadas</string>
     <string name="format_gb">Gigabyte</string>
+    <string name="format_gps_speed">Velocidade GPS</string>
     <string name="format_hz">Hz</string>
     <string name="format_kbits">kbps</string>
     <string name="format_mbits">Mbps</string>
     <string name="format_meters">m</string>
     <string name="format_minutes">min.</string>
-    <string name="format_gps_speed">Velocidade GPS</string>
     <string name="format_speed_measure_kilometers">km/h</string>
     <string name="format_speed_measure_miles">mph</string>
-
-    <string name="msg_activity_battery_is_not_ignoring_msg_text">O Droid Dashcam não foi excluído da otimização da bateria. Se a câmera não estiver funcionando em segundo plano ou outra coisa, adicione este aplicativo às exceções do modo de economia de energia.</string>
+    <string name="from">a partir de</string>
+    <string name="msg_activity_battery_is_not_ignoring_msg_text">O aplicativo não está excluído da otimização da bateria. Se a câmera não estiver funcionando em segundo plano ou qualquer outra coisa, adicione este aplicativo às exceções do modo de economia de energia.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Se você reinstalou o aplicativo no Android 11, os arquivos antigos devem ser excluídos manualmente</string>
-    <string name="msg_app_has_lost_camera_control_text">O controle da câmera foi perdido para DroidDashcam. Abra o DroidDashcam novamente para recuperar o controle da câmera.</string>
-    <string name="msg_battery_optimization_tip_text">Otimização da bateria -&gt; Todos os aplicativos -&gt; Droid Dashcam -&gt; Não otimizar /salvar</string>
-    <string name="msg_camera_died_text">DroidDashcam: a câmera parou de funcionar inesperadamente, reiniciando…</string>
+    <string name="msg_auto_recording_service_was_stopped">Você interrompeu o serviço em segundo plano para iniciar automaticamente a gravação de vídeo. Abra o aplicativo para iniciá-lo novamente.</string>
+    <string name="msg_battery_optimization_tip_text">Otimização da bateria -&gt; Todos os aplicativos -&gt; Encontre o aplicativo -&gt; Não otimizar/salvar</string>
+    <string name="msg_camera_died_text">a câmera parou de funcionar inesperadamente, reiniciando…</string>
     <string name="msg_camera_not_opened">Câmera não está funcionando</string>
     <string name="msg_close_settings_before_recording_text">Feche as preferências do aplicativo antes de iniciar a gravação</string>
     <string name="msg_could_not_enable_microphone">Falha ao ligar o microfone, a gravação continuará sem som</string>
@@ -67,9 +66,8 @@
     <string name="msg_could_not_open_text">Falha ao abrir o aplicativo…</string>
     <string name="msg_could_not_start_floating_window_text">Falha ao iniciar janela flutuante</string>
     <string name="msg_detected_impact_text">O sensor G detectou um choque, o vídeo será impedido de ser substituído</string>
-    <string name="msg_dlg_found_old_videos_message">Parece que você reinstalou o aplicativo. Você tem vídeos antigos que o aplicativo não pode excluir durante a gravação em loop. Remova-os manualmente na tela de vídeo antes de gravar novos vídeos. A partir do Android 11+, o aplicativo perde os direitos de acesso aos arquivos antigos após a reinstalação. Ou você pode dar permissão de gravação para a pasta de gravação</string>
-    <string name="msg_dlg_found_old_videos_title">Arquivos de vídeo antigos encontrados</string>
-    <string name="msg_dlg_incorrect_folder_path">Pasta inválida. Por favor, não mude o caminho. Você deve conceder permissão para uma pasta específica. Você pode alterar a pasta de gravação nas configurações.</string>
+    <string name="msg_dialog_camera_battery_optimization_subtitle">Desative a otimização da bateria para este aplicativo nas configurações do seu dispositivo para evitar futuros erros da câmera</string>
+    <string name="msg_dialog_camera_battery_optimization_title">Ocorreu um erro ao acessar a câmera. Otimização da bateria ativada</string>
     <string name="msg_initializing_please_wait">Inicializando… Aguarde!</string>
     <string name="msg_no_browser">Instale um aplicativo da web para abrir o link</string>
     <string name="msg_no_gps_signal">Sem sinal GPS</string>
@@ -77,57 +75,50 @@
     <string name="msg_no_permission_to_delete_file">Falha ao excluir o arquivo de vídeo. Você pode ter reinstalado o aplicativo e a permissão do arquivo foi perdida, tente desinstalá-lo manualmente</string>
     <string name="msg_not_enough_memory_free_some_text">Libere espaço para continuar gravando o vídeo</string>
     <string name="msg_not_enough_memory_text">Memória insuficiente</string>
+    <string name="msg_notification_could_launch_app_activity">A tela principal do aplicativo não pôde ser iniciada porque a permissão SYSTEM_ALERT_WINDOW (exibir em cima de todas as outras janelas do aplicativo) não foi concedida ou a tela do dispositivo foi desligada</string>
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">O aplicativo especificado não pôde ser iniciado para abrir automaticamente porque a permissão \"mostrar no topo de todos os aplicativos\" não foi concedida.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Não foi possível abrir o aplicativo porque a tela estava desligada (bloqueada).</string>
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Não foi possível abrir o aplicativo para iniciar a gravação porque a tela estava desligada (bloqueada). Execute um serviço de gravação em segundo plano (Watcher) para corrigir isso.</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Não foi possível abrir o aplicativo para iniciar a gravação porque a permissão “mostrar no topo de todos os aplicativos” não foi concedida. Clique para fornecer</string>
     <string name="msg_photo_failed_to_take">Falha ao tirar foto</string>
     <string name="msg_photo_was_saved">Foto salva</string>
     <string name="msg_please_close_other_app_and_restart_text">Feche outros aplicativos usando a câmera e reinicie este aplicativo</string>
-    <string name="msg_record_path_has_changed_text">A pasta de gravação foi alterada. Porque indisponível ou nenhuma permissão para armazenar (gravar) foi concedida</string>
     <string name="msg_recorder_init_error_file_not_found">Exclua vídeos antigos, formate seu cartão SD ou tente outro. Além disso, limite o espaço máximo de gravação de vídeo (quanto menos, melhor). Um grande número de vídeos salvos pode causar esses problemas. Veja também as perguntas frequentes sobre cartões SD em Configurações /Perguntas frequentes. Você também pode tentar gravar na memória do telefone em vez de em um cartão externo</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Pare de gravar. Memória insuficiente para continuar</string>
     <string name="msg_settings_opened_stopped_recording_text">Parar a gravação… (as configurações foram abertas)</string>
-    <string name="msg_should_stop_recording_before_closing_service">Primeiro pare a gravação e depois feche o serviço</string>
     <string name="msg_stop_rec_too_fast_text">Aguarde um segundo antes de parar a gravação imediatamente após o início</string>
     <string name="msg_stop_recording_to_change_camera_text">Para mudar a câmera, você deve parar a gravação atual</string>
-    <string name="msg_to_close_this_service_close_app">Para fechar este serviço, primeiro minimize ou feche o aplicativo Droid Dashcam</string>
     <string name="msg_video_become_locked_text">O vídeo será impedido de ser substituído.</string>
     <string name="msg_video_folder_size">Tamanho de todos os vídeos do tamanho máximo permitido</string>
-    <string name="msg_video_has_locked_text">O vídeo é bloqueado e salvo, o próximo vídeo também será marcado como bloqueado (pode ser cancelado clicando no botão)</string>
     <string name="msg_video_rec_battery_not_enough_text">Não há bateria suficiente no dispositivo. Coloque a carga ou comece a gravar se a carga estiver acima de 1%%</string>
     <string name="msg_video_recorder_error">Algo deu errado com o gravador de vídeo.</string>
     <string name="msg_voice_tts_lang_data_missing_text">O pacote de idioma para TTS (Android Text-to-Speech) não está instalado. Ligue a internet para iniciar o download</string>
-    <string name="msg_auto_recording_service_was_stopped">Você interrompeu o serviço de início automático de vídeo em segundo plano. Abra o aplicativo DroidDashcam para iniciá-lo novamente.</string>
-
+    <string name="notification_could_not_start_recording_service">O serviço de gravação falhou ao iniciar. Toque para desativar a otimização da bateria para este aplicativo</string>
     <string name="notification_service_aux_checker">conector de áudio (Aux)</string>
     <string name="notification_service_bl_checker">Bluetooth</string>
     <string name="notification_service_checker">análise</string>
     <string name="notification_service_power_checker">cobrando</string>
-    <string name="notification_start_service_error_sub_text">Clique na notificação para iniciar o aplicativo. Você não tem permissão para todos os aplicativos ou o aparelho foi bloqueado</string>
-    <string name="notification_start_service_error_text">Falha ao iniciar serviço de gravação na inicialização do dispositivo</string>
     <string name="notification_stop_text">Pare</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Para gravação de ligar /desligar automático</string>
-    <string name="notification_could_not_start_recording_service">O serviço de gravação falhou ao iniciar. Toque para desativar a otimização da bateria para este aplicativo</string>
-
     <string name="permission_audio_dlg_msg">O áudio é necessário para gravar uma trilha de áudio ao gravar um vídeo</string>
-    <string name="permission_audio_dlg_title">Resolução de áudio</string>
     <string name="permission_camera_dlg_msg">A câmera é necessária para gravação de vídeo e visualização da câmera.</string>
-    <string name="permission_camera_dlg_title">Resolução da câmera</string>
     <string name="permission_camera_request_canceled">Este aplicativo requer permissão para usar a câmera para gravar vídeo. Mas você recusou. Fechando… Tente conceder permissão para a câmera nas configurações do sistema deste aplicativo</string>
-    <string name="permission_location_dlg_explanation_msg">A localização é necessária para desenhar coordenadas, endereço e velocidade no vídeo gravado, ou exibir esses dados na tela principal (dependendo de suas configurações).</string>
-    <string name="permission_location_dlg_explanation_settings_msg">No Android 11 (R), você precisa selecionar manualmente \"O tempo todo (qualquer modo)\" nas preferências do sistema para permitir a localização em segundo plano. As configurações serão abertas após esta janela.</string>
-    <string name="permission_location_dlg_msg">A localização é necessária para determinar a velocidade de transporte usando dados de GPS, o endereço atual e as coordenadas para exibição na tela e para gravação de legendas em vídeo</string>
-    <string name="permission_location_dlg_title">Permissão de localização</string>
+    <string name="permission_location_dlg_msg">A localização é necessária para desenhar coordenadas, endereço e velocidade no vídeo gravado, ou exibir esses dados na tela principal (dependendo de suas configurações).</string>
+    <string name="permission_notifications_dlg_msg">As notificações são necessárias para poder exibir o serviço de gravação em segundo plano e o status da gravação no painel de notificações.</string>
     <string name="permission_storage_dlg_msg">O armazenamento é necessário para salvar o vídeo em uma pasta compartilhada e para o modo de gravação em loop</string>
-    <string name="permission_storage_dlg_title">Permissão de armazenamento</string>
-    <string name="permissions_audio_location_dlg_title">Resolução de áudio e localização</string>
-    <string name="permissions_audio_location_storage_dlg_title">Loja de áudio, localização e permissão</string>
-    <string name="permissions_audio_storage_dlg_title">Armazenamento de áudio e permissão</string>
-    <string name="permissions_camera_location_dlg_title">Resolução de câmera e localização</string>
+    <string name="permissions_bluetooth_missing_msg_text">Você deve conceder permissão a Dispositivos próximos (Bluetooth) para gravação automática de eventos. Isso pode ser feito nas configurações do sistema do aplicativo.</string>
     <string name="permissions_grant_storage_btn_text">Conceder direitos</string>
-    <string name="permissions_location_storage_dlg_title">Permissões de localização e armazenamento</string>
-
+    <string name="permissions_saf_incorrect_path">Tente selecionar um caminho diferente (armazenamento local do dispositivo)</string>
+    <string name="photos_count_one">foto</string>
+    <string name="photos_count_other">fotos</string>
+    <string name="photos_folder_name">Fotos</string>
     <string name="prefs_address_geocoding_no_support_text">Desativado porque o dispositivo não suporta geocodificação</string>
-    <string name="prefs_animated_rec_circle_sum_text">Mostre a animação ao redor do botão para iniciar a gravação</string>
-    <string name="prefs_animated_rec_circle_text">Gravando animação</string>
     <string name="prefs_audio_bitrate_text">Taxa de bits (qualidade)</string>
+    <string name="prefs_audio_bt_recording_text">Grave áudio de um dispositivo Bluetooth</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Use apenas com fones de ouvido Bluetooth. Se você se conectar à unidade principal (rádio do carro) via Bluetooth, por algum motivo isso poderá acionar automaticamente uma chamada telefônica para o número padrão neste dispositivo</string>
+    <string name="prefs_audio_bt_recording_warning_title_text">Não use com unidade principal (rádio de carro)!</string>
+    <string name="prefs_audio_priority_sum">Se ativado, outros aplicativos não poderão usar o microfone. Se desativado, este aplicativo pode não conseguir gravar áudio quando vários aplicativos estiverem sendo executados usando o microfone (o Android nem sempre permite o uso simultâneo do microfone)</string>
+    <string name="prefs_audio_priority_title">Priorizar o áudio para este app</string>
     <string name="prefs_audio_rate_text">Frequência de amostragem</string>
     <string name="prefs_audio_recording_text">Gravação de áudio</string>
     <string name="prefs_audio_settings_sum_text">Qualidade, gravação de som desligada /ligada</string>
@@ -150,23 +141,22 @@
     <string name="prefs_aux_auto_start_sum_text">Começa a gravar automaticamente quando conectado à entrada de áudio (AUX)</string>
     <string name="prefs_aux_auto_start_text">Executar quando conectado à entrada de áudio (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Pare quando for desconectado do conector de áudio (AUX)</string>
-    <string name="prefs_background_location_sum_text">Sem permissão concedida. É necessário atualizar a velocidade, endereço e coordenadas durante a gravação de vídeo em segundo plano. Clique aqui para consertar agora</string>
-    <string name="prefs_background_location_text">Localização em segundo plano</string>
     <string name="prefs_battery_optimization_sum_text">A otimização da bateria pode impedir que o aplicativo funcione corretamente (por exemplo, usando a câmera ou atualizando o local enquanto grava um vídeo em segundo plano). Clique aqui para desativá-lo para este aplicativo agora</string>
     <string name="prefs_battery_optimization_text">Otimização da bateria</string>
+    <string name="prefs_beep_each_start_recording_sum_text">Sinal no início da gravação do próximo arquivo de vídeo</string>
+    <string name="prefs_beep_each_start_recording_text">Bip ao gravar</string>
+    <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">O fabricante do dispositivo pode não fornecer acesso a todas as câmeras, então algumas podem não abrir</string>
+    <string name="prefs_camera_why_wide_lens_not_available_sum">O fabricante do dispositivo pode não fornecer uma câmera de lente ampla para todas as aplicações</string>
     <string name="prefs_day_night_mode_auto_text">Automático (dia /noite), por hora</string>
     <string name="prefs_day_night_mode_day_text">Dia</string>
     <string name="prefs_day_night_mode_night_text">Noite</string>
-    <string name="prefs_donate_action_text">Doar</string>
-    <string name="donate_disable_ads_text">Doação, remover anúncios</string>
     <string name="prefs_donate_sum_text">Suporte ao desenvolvimento de aplicativos</string>
-    <string name="donate_text">Doação</string>
     <string name="prefs_faq_sum_text">Perguntas frequentes</string>
+    <string name="prefs_flashlight_turn_on_recording_automatically">Ligue automaticamente a lanterna durante a gravação</string>
     <string name="prefs_float_size_increase_text">Tamanho dos botões em uma janela flutuante</string>
-    <string name="from">a partir de</string>
-    <string name="to">antes de</string>
     <string name="prefs_fps_value_from_to_stable_text">(apenas dia, estável)</string>
     <string name="prefs_fps_value_from_to_text">(dia e noite)</string>
+    <string name="prefs_fps_why_fps_60_not_available_sum">O fabricante do dispositivo pode não fornecer 60 FPS para todos os aplicativos</string>
     <string name="prefs_frequent_network_requests_text">(solicitações de rede frequentes)</string>
     <string name="prefs_g_sensor_force_high">Alto</string>
     <string name="prefs_g_sensor_force_low">Baixo</string>
@@ -181,11 +171,18 @@
     <string name="prefs_info_more_category_text">Informações /Mais…</string>
     <string name="prefs_kill_services_sum_text">Existem configurações em seu dispositivo para permitir que os aplicativos sejam reproduzidos automaticamente e executados em segundo plano. Clique aqui e adicione o aplicativo às exceções (permitir inicialização automática e assim por diante) para permitir sua execução em segundo plano e quando a tela estiver desligada, se proibido</string>
     <string name="prefs_kill_services_text">Permitindo trabalho em segundo plano</string>
+    <string name="prefs_launch_activity_on_auto_rec_start_text">Abra o aplicativo quando a gravação começar automaticamente</string>
+    <string name="prefs_launch_app_auto_text">Inicie o aplicativo quando a gravação de vídeo começar</string>
+    <string name="prefs_launch_app_limitation_text">Com o Android 11 e superior, talvez você não consiga selecionar nenhum dos aplicativos instalados, pois o próprio sistema restringe a visibilidade do aplicativo (política de privacidade)</string>
     <string name="prefs_launch_app_none_text">Não escolhido</string>
     <string name="prefs_launch_app_text">Aplicativo de iniciador de botão</string>
     <string name="prefs_location_manager">Gerente de localização (obsoleto)</string>
     <string name="prefs_location_manager_gps_only_text">Atualize a localização usando apenas GPS (não use rede)</string>
     <string name="prefs_location_method_provider_sum_text">Se os valores de velocidade forem ruins, tente o método antigo. Se os valores forem zero ou raramente forem atualizados, tente o novo método</string>
+    <string name="prefs_location_mode_balanced_text">Equilíbrio entre precisão de localização (coordenadas), velocidade e consumo de energia da bateria.</string>
+    <string name="prefs_location_mode_high_accuracy_text">A localização (coordenadas) e velocidade mais precisas devido ao maior consumo de energia da bateria.</string>
+    <string name="prefs_location_mode_low_power_text">Baixa precisão de localização (coordenadas) e velocidade devido ao baixo consumo de energia da bateria.</string>
+    <string name="prefs_location_mode_text">Prioridade de GPS (bateria ou precisão)</string>
     <string name="prefs_location_provider_method_text">Método de aquisição de localização (GPS)</string>
     <string name="prefs_location_update_frequency_text">Taxa de atualização de GPS</string>
     <string name="prefs_meters_accuracy_value_text">metros de precisão</string>
@@ -195,9 +192,12 @@
     <string name="prefs_orientation_portrait">Retrato</string>
     <string name="prefs_other_auto_deleting_sum_text">Exclua automaticamente os vídeos mais antigos durante a gravação, se não houver espaço suficiente para novos vídeos</string>
     <string name="prefs_other_auto_deleting_text">Gravação de loop</string>
+    <string name="prefs_other_date_time_text">data e hora</string>
     <string name="prefs_other_keep_screen_on_text">Deixe a tela ligada</string>
+    <string name="prefs_other_keep_screen_on_while_recording_only_text">Mantenha a tela ligada apenas durante a gravação</string>
     <string name="prefs_other_miles_sum_text">Ative para usar milhas em vez de quilômetros</string>
     <string name="prefs_other_miles_text">Exibir em milhas, pés</string>
+    <string name="prefs_other_path_not_set">O caminho de gravação não está definido, clique aqui para defini-lo</string>
     <string name="prefs_other_path_photo_text">Local da foto (pasta /caminho)</string>
     <string name="prefs_other_path_text">Localização do vídeo (pasta /caminho)</string>
     <string name="prefs_other_settings_sum_text">Localização do vídeo (salvar pasta), duração do vídeo, gravação em loop, G-sensor, GPS</string>
@@ -219,7 +219,6 @@
     <string name="prefs_policy_text">Política de Privacidade</string>
     <string name="prefs_rate_sum_text">Avalie o aplicativo na Play Store</string>
     <string name="prefs_rate_text">Estimativa</string>
-    <string name="prefs_recommendations_category_text">Recomendações</string>
     <string name="prefs_rules_auto_category_camera_motion_text">Detecção de movimento por câmera</string>
     <string name="prefs_rules_auto_lock_file_sum_text">Bloquear vídeo para exclusão automática (sobrescrever) quando o hit for detectado</string>
     <string name="prefs_rules_auto_lock_file_text">Sensor G (sensor de choque)</string>
@@ -227,9 +226,12 @@
     <string name="prefs_rules_auto_lock_file_vibrate_text">Vibração quando o choque é detectado</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Comece a gravar quando o movimento for detectado</string>
     <string name="prefs_rules_auto_start_speed_text">Comece a gravar quando a velocidade for igual /superior (com base no GPS)</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Você pode desativar esta opção para que o aplicativo execute a gravação automática apenas se o serviço de segundo plano do aplicativo (Watcher) estiver em execução.\n- A gravação automática de eventos como carregamento, Bluetooth ou AUX pode ser realizada sem problemas até Android 7.1.\n- A partir do Android 8, a gravação automática sem serviço de aplicativo em segundo plano (Watcher) só pode ser realizada para eventos Bluetooth e, em outros casos (ao carregar ou AUX), você precisa primeiro iniciar o serviço de aplicativo em segundo plano (Watcher) - iniciando o aplicativo em si uma vez.\n- A partir do Android 11 sem o serviço de aplicativo em segundo plano (Watcher), o acesso à câmera sem interação do usuário só é possível se o telefone estiver desbloqueado (tela ligada) e a permissão \"em cima de todos os aplicativos\" for concedida.\n- Assim, para Android 11 e superior, é necessário iniciar manualmente o aplicativo uma vez para que o serviço de segundo plano do aplicativo (Watcher) comece a gravar automaticamente durante quaisquer eventos e quando a tela do telefone for desligada.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Gravação automática mesmo se o serviço em segundo plano (Watcher) não estiver em execução</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Pare de gravar depois</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Pare de gravar quando não houver movimento</string>
     <string name="prefs_rules_auto_stop_speed_text">Pare de gravar quando a velocidade for mais baixa (com base no GPS)</string>
+    <string name="prefs_rules_bl_auto_start_only_if_charging_text">Gravando apenas quando o dispositivo está carregando</string>
     <string name="prefs_rules_video_space_text">Capacidade máxima de memória de todos os vídeos (gravação em loop)</string>
     <string name="prefs_screen_autostart_sum_text">Ao iniciar o aplicativo, ligue /desligue o carregamento e inicialize o sistema</string>
     <string name="prefs_screen_autostart_text">Gravação de inicialização automática</string>
@@ -241,8 +243,10 @@
     <string name="prefs_settings_fps_sum_text">Mais FPS - vídeo mais uniforme, mas consumo de bateria mais rápido. É melhor definir o primeiro valor para o mais baixo (o segundo pode ser mais alto) para uma melhor gravação no escuro</string>
     <string name="prefs_share_sum_text">Envie este aplicativo para seus amigos</string>
     <string name="prefs_share_text">Compartilhar isso</string>
+    <string name="prefs_shortcut_launcher_has_been_added">Atalho (lançador) foi adicionado</string>
+    <string name="prefs_shortcut_rec_start_launcher_sum">Para iniciar/parar a gravação sem abrir a tela principal</string>
+    <string name="prefs_shortcut_rec_start_launcher_title">Adicionar atalho (iniciador)</string>
     <string name="prefs_show_audio_btn_text">Gravação de áudio ligada /desligada</string>
-    <string name="prefs_show_buttons_sum_text">Botões para trocar de câmeras, ligar /desligar a gravação de áudio, flash, modo noturno, bloqueando a substituição de vídeo</string>
     <string name="prefs_show_buttons_text">Botões na tela</string>
     <string name="prefs_show_camera_change_btn_text">Mudança de câmera</string>
     <string name="prefs_show_day_night_mode_btn_text">Modos Dia /Noite /Automático</string>
@@ -252,10 +256,7 @@
     <string name="prefs_show_overlay_btn_text">Mostrar janela flutuante</string>
     <string name="prefs_show_status_bar_text">Mostrar barra de status do sistema</string>
     <string name="prefs_show_take_photo_btn_text">Para fazer uma foto</string>
-    <string name="prefs_show_ui_elements_sum_text">Endereço, velocidade, coordenadas</string>
-    <string name="prefs_stabilization_eis_text">Eletrônico (digital, EIS) - recomendado</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Não compatível com a câmera atual. Os fabricantes costumam restringir seu uso - está disponível apenas no aplicativo de câmera padrão</string>
-    <string name="prefs_stabilization_ois_text">Ótico (OIS)</string>
     <string name="prefs_start_stop_voice_sum_text">Som no início, parada ou erro de gravação</string>
     <string name="prefs_start_stop_voice_text">Status de gravação de som</string>
     <string name="prefs_subtitles_address_text">O endereço</string>
@@ -266,7 +267,12 @@
     <string name="prefs_subtitles_date_format_text">Formato de data</string>
     <string name="prefs_subtitles_date_text">Data hora)</string>
     <string name="prefs_subtitles_date_time_system_text">Sistêmico</string>
+    <string name="prefs_subtitles_gpx_delay_title">Taxa mínima de atualização GPX</string>
+    <string name="prefs_subtitles_gpx_no_delay_entry">Todas as atualizações de coordenadas</string>
+    <string name="prefs_subtitles_gpx_title">Criar arquivo GPX para cada vídeo</string>
     <string name="prefs_subtitles_in_english_text">Legendas em inglês</string>
+    <string name="prefs_subtitles_position_bottom_sum_text">Sobreponha legendas na parte inferior do vídeo</string>
+    <string name="prefs_subtitles_position_bottom_text">Legendas na parte inferior</string>
     <string name="prefs_subtitles_settings_sum_text">Sobrepor legendas de vídeo: data (hora), endereço de localização, coordenadas e velocidade</string>
     <string name="prefs_subtitles_settings_text">Configurações de legenda</string>
     <string name="prefs_subtitles_size_text">Aumentar o tamanho do texto</string>
@@ -280,8 +286,13 @@
     <string name="prefs_support_text">Suporte (feedback)</string>
     <string name="prefs_system_alert_window_sum_text">Permita que este aplicativo apareça acima de todos os outros aplicativos. Isso é necessário para iniciar /parar automaticamente a gravação de vídeo ou para exibir uma janela flutuante</string>
     <string name="prefs_system_alert_window_text">Resolução em cima de todas as janelas</string>
+    <string name="prefs_theme_mode_dark">Tema escuro</string>
+    <string name="prefs_theme_mode_light">Tema claro</string>
+    <string name="prefs_theme_mode_system_auto">Como no sistema (automático)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Retorne à tela inicial (gravações) para aplicar esta configuração e iniciar o serviço de rastreamento</string>
     <string name="prefs_toolbar_title_setting">Configurações</string>
+    <string name="prefs_translate_sum_text">Ajude a melhorar ou corrigir a tradução de texto em seu idioma</string>
+    <string name="prefs_translate_text">Tradução do aplicativo</string>
     <string name="prefs_ui_click_none_text">Nada para fazer</string>
     <string name="prefs_ui_click_start_stop_rec_text">Iniciar /parar a gravação</string>
     <string name="prefs_ui_click_text">Toque rápido na tela</string>
@@ -291,15 +302,21 @@
     <string name="prefs_value_secs_one_text">segundo</string>
     <string name="prefs_value_secs_other_text">segundos</string>
     <string name="prefs_version_text">Versão do aplicativo</string>
+    <string name="prefs_vibrate_rec_start_stop_text">Vibração ao iniciar ou parar a gravação</string>
     <string name="prefs_video_bitrate_text">Taxa de bits (qualidade)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Modo de cena de controle da câmera (noite)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Modo de cena de controle da câmera (dia)</string>
+    <string name="prefs_video_control_scene_mode_beach_text">Praia (tempo claro)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Prioridade geral /facial</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (High Dynamic Range)</string>
     <string name="prefs_video_control_scene_mode_night_text">Noite (para condições de pouca luz)</string>
+    <string name="prefs_video_control_scene_mode_snow_text">Neve</string>
+    <string name="prefs_video_control_scene_mode_sunset_text">Pôr do sol</string>
     <string name="prefs_video_day_night_auto_mode_day_start_time_text">Hora do nascer do sol (nascer do sol)</string>
     <string name="prefs_video_day_night_auto_mode_night_start_time_text">Hora do pôr do sol (pôr do sol)</string>
     <string name="prefs_video_day_night_mode_text">Dia, noite ou modo automático</string>
+    <string name="prefs_video_exposure_auto_mode_sum_text">Desative se quiser controlar manualmente a duração do quadro do sensor, o tempo de exposição, a sensibilidade e a abertura</string>
+    <string name="prefs_video_exposure_auto_mode_text">Modo de exposição automática</string>
     <string name="prefs_video_exposure_night_text">Compensação de exposição (noite)</string>
     <string name="prefs_video_exposure_text">Compensação de exposição (dia)</string>
     <string name="prefs_video_flip_x_sum_text">Espelhamento horizontal de vídeo. A imagem muda apenas para gravação de vídeo, a visualização não muda</string>
@@ -319,22 +336,30 @@
     <string name="prefs_video_size_sum_text">Tamanho maior - consumo de bateria mais rápido</string>
     <string name="prefs_video_space_unlimited">Ilimitado</string>
     <string name="prefs_video_stabilization_text">Estabilização de vídeo</string>
+    <string name="prefs_warning_location_precise_sum_text">Isso é necessário para obter a velocidade baseada em GPS mais precisa, bem como o endereço e as coordenadas. Clique para enviar</string>
+    <string name="prefs_warning_location_precise_text">Permissão para localização exata</string>
+    <string name="prefs_warning_notifications_sum_text">Necessário para poder exibir o serviço de gravação em segundo plano e os status no painel de notificação. Clique para enviar</string>
+    <string name="prefs_warning_notifications_text">Permissão de Notificação</string>
+    <string name="prefs_warning_permission_bluetooth_sum_text">A gravação automática através de conexões Bluetooth requer permissão. Clique aqui para enviar</string>
+    <string name="prefs_warning_permission_bluetooth_text">Permissão Bluetooth não concedida</string>
+    <string name="prefs_warnings_text">Avisos</string>
+    <string name="prefs_zoom_out_desc_text">Para acessar a câmera ultra grande angular (lente), você pode definir o fator de zoom</string>
     <string name="prefs_zoom_text">Zoom digital (zoom)</string>
-
+    <string name="rec_audio_silence_text">No momento, a gravação de áudio não é possível porque o microfone é interceptado por outro aplicativo</string>
+    <string name="rec_available_space_text">Disponível</string>
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">Corrigir</string>
     <string name="rec_fix_text">Corrigir</string>
-    <string name="rec_available_space_text">Disponível</string>
     <string name="rec_gps_status_satellites_few_text">satélites</string>
     <string name="rec_gps_status_satellites_many_text">satélites</string>
     <string name="rec_gps_status_satellites_one_text">satélite</string>
     <string name="rec_gps_status_satellites_other_text">satélites</string>
-    <string name="rec_location_text">Localização</string>
     <string name="rec_gps_text">GPS</string>
+    <string name="rec_location_text">Localização</string>
     <string name="rec_network_text">Internet</string>
     <string name="rec_off_text">Fora</string>
     <string name="rec_on_text">Incl.</string>
-
+    <string name="rec_service_msg">Privacidade: todos os vídeos que você gravar serão salvos apenas no seu dispositivo local. O aplicativo não faz backup de seus vídeos (não possui conexões com servidores)\n\nO aplicativo continuará sendo executado em segundo plano (o serviço em primeiro plano que aparece na barra de notificação) se você iniciar uma nova gravação e retornar à tela inicial, mudar para outro aplicativo ou bloquear seu telefone para poder continuar a gravação, ou se você ativa as funções de gravação automática (se você fechar o serviço em segundo plano, essas funções não funcionarão).</string>
     <string name="recording_start_text">Comece a gravar</string>
     <string name="recording_started_failed_text">Erro ao iniciar a gravação</string>
     <string name="recording_started_with_audio_text">Uma nova gravação de vídeo com gravação de áudio começou</string>
@@ -347,15 +372,14 @@
     <string name="recording_text">Gravando…</string>
     <string name="recording_voice_started_text">A gravação começou</string>
     <string name="recording_voice_stopped_text">Gravação parada</string>
-
-    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Não foi possível abrir o aplicativo para iniciar a gravação porque a permissão “mostrar no topo de todos os aplicativos” não foi concedida. Clique para fornecer</string>
-    <string name="service_watch_on_boot_completed_text">Ao ligar o dispositivo</string>
-
+    <string name="reset">descarga</string>
     <string name="storage_external_single">Cartão microSD</string>
     <string name="storage_external_single_free">Cartão microSD</string>
     <string name="storage_phone">Memória do telefone</string>
     <string name="storage_phone_free">Memória do telefone</string>
-
+    <string name="to">antes de</string>
+    <string name="unknown">Desconhecido</string>
+    <string name="videos_ask_which_player">Pergunte em qual jogador jogar</string>
     <string name="videos_count_one">vídeo</string>
     <string name="videos_count_other">vídeo</string>
     <string name="videos_deleting_text">Excluindo arquivos… Aguarde!</string>
@@ -382,156 +406,9 @@
     <string name="videos_menu_storage">Memória</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Abra as configurações do aplicativo e permita o acesso ao armazenamento na memória do telefone</string>
     <string name="videos_no_storage_permission_dlg_title_text">Sem permissão de armazenamento</string>
-    <string name="videos_select_files_for_deleting">Selecione os arquivos de vídeo para excluir</string>
+    <string name="videos_no_storage_saf_permission_dlg_msg_text">Selecione uma pasta para registros</string>
     <string name="videos_storage_select_dlg_title">Selecione o armazenamento de vídeo</string>
     <string name="videos_temporary_folder_text">Vídeos cronometrados</string>
     <string name="videos_toolbar_subtitle">Gravações de vídeo</string>
-
-	
-    <string name="prefs_app_launch_list_loading_msg_text">Por favor, aguarde. Lista de aplicativos ainda carregando…</string>
-    <string name="prefs_warnings_text">Avisos</string>
-    <string name="prefs_beep_each_start_recording_sum_text">Sinal no início da gravação do próximo arquivo de vídeo</string>
-    <string name="prefs_beep_each_start_recording_text">Bip ao gravar</string>
-    <string name="prefs_translate_text">Tradução do aplicativo</string>
-    <string name="prefs_translate_sum_text">Ajude a melhorar ou corrigir a tradução de texto em seu idioma</string>
-    <string name="prefs_launch_app_auto_text">Inicie o aplicativo quando a gravação de vídeo começar</string>
-
-    <string name="msg_dialog_camera_battery_optimization_title">Ocorreu um erro ao acessar a câmera. Otimização da bateria ativada</string>
-    <string name="msg_dialog_camera_battery_optimization_subtitle">Desative a otimização da bateria para este aplicativo nas configurações do seu dispositivo para evitar futuros erros da câmera</string>
-
-	
-    <string name="prefs_rules_auto_start_without_service_text">Gravação automática mesmo se o serviço em segundo plano (Watcher) não estiver em execução</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Você pode desativar esta opção para que o aplicativo execute a gravação automática apenas se o serviço de segundo plano do aplicativo (Watcher) estiver em execução.\n- A gravação automática de eventos como carregamento, Bluetooth ou AUX pode ser realizada sem problemas até Android 7.1.\n- A partir do Android 8, a gravação automática sem serviço de aplicativo em segundo plano (Watcher) só pode ser realizada para eventos Bluetooth e, em outros casos (ao carregar ou AUX), você precisa primeiro iniciar o serviço de aplicativo em segundo plano (Watcher) - iniciando o aplicativo em si uma vez.\n- A partir do Android 11 sem o serviço de aplicativo em segundo plano (Watcher), o acesso à câmera sem interação do usuário só é possível se o telefone estiver desbloqueado (tela ligada) e a permissão \"em cima de todos os aplicativos\" for concedida.\n- Assim, para Android 11 e superior, é necessário iniciar manualmente o aplicativo uma vez para que o serviço de segundo plano do aplicativo (Watcher) comece a gravar automaticamente durante quaisquer eventos e quando a tela do telefone for desligada.</string>
-
-	
-    <string name="prefs_subtitles_position_bottom_text">Legendas na parte inferior</string>
-    <string name="prefs_subtitles_position_bottom_sum_text">Sobreponha legendas na parte inferior do vídeo</string>
-
-	
-    <string name="accept_text">eu aceito</string>
-
-    <string name="prefs_launch_app_limitation_text">Com o Android 11 e superior, talvez você não consiga selecionar nenhum dos aplicativos instalados, pois o próprio sistema restringe a visibilidade do aplicativo (política de privacidade)</string>
-
-    <string name="prefs_rules_bl_auto_start_only_if_charging_text">Gravando apenas quando o dispositivo está carregando</string>
-
-    <string name="prefs_other_keep_screen_on_while_recording_only_text">Mantenha a tela ligada apenas durante a gravação</string>
-    <string name="prefs_other_date_time_text">data e hora</string>
-
-    
-    
-
-    
-
-    <string name="prefs_launch_activity_on_auto_rec_start_text">Abra o aplicativo quando a gravação começar automaticamente</string>
-
-    <string name="msg_notification_could_launch_app_activity">A tela principal do aplicativo não pôde ser iniciada porque a permissão SYSTEM_ALERT_WINDOW (exibir em cima de todas as outras janelas do aplicativo) não foi concedida ou a tela do dispositivo foi desligada</string>
-
-    <string name="prefs_zoom_out_desc_text">Para acessar a câmera ultra grande angular (lente), você pode definir o fator de zoom</string>
-    <string name="prefs_warning_location_precise_sum_text">Isso é necessário para obter a velocidade baseada em GPS mais precisa, bem como o endereço e as coordenadas. Clique para enviar</string>
-    <string name="prefs_warning_location_precise_text">Permissão para localização exata</string>
-    <string name="prefs_warning_notifications_sum_text">Necessário para poder exibir o serviço de gravação em segundo plano e os status no painel de notificação. Clique para enviar</string>
-    <string name="prefs_warning_notifications_text">Permissão de Notificação</string>
-
-    <string name="donation_dlg_limited_ads_message_text">Para doações menores, a publicidade é removida apenas da tela principal</string>photo
-    <string name="photos_folder_name">Fotos</string>
-
-    <string name="photos_count_one">foto</string>
-    <string name="photos_count_other">fotos</string>
-
-    <string name="prefs_audio_priority_title">Priorizar o áudio para este app</string>
-    <string name="prefs_audio_priority_sum">Se ativado, outros aplicativos não poderão usar o microfone. Se desativado, este aplicativo pode não conseguir gravar áudio quando vários aplicativos estiverem sendo executados usando o microfone (o Android nem sempre permite o uso simultâneo do microfone)</string>
-    <string name="rec_audio_silence_text">No momento, a gravação de áudio não é possível porque o microfone é interceptado por outro aplicativo</string>
-
-    <string name="prefs_subtitles_gpx_title">Criar arquivo GPX para cada vídeo</string>
-    <string name="prefs_subtitles_gpx_delay_title">Taxa mínima de atualização GPX</string>
-    <string name="prefs_subtitles_gpx_no_delay_entry">Todas as atualizações de coordenadas</string>
-
-    <string name="prefs_shortcut_rec_start_launcher_title">Adicionar atalho (iniciador)</string>
-    <string name="prefs_shortcut_rec_start_launcher_sum">Para iniciar/parar a gravação sem abrir a tela principal</string>
-
-    <string name="prefs_camera_why_wide_lens_not_available_sum">O fabricante do dispositivo pode não fornecer uma câmera de lente ampla para todas as aplicações</string>
-    <string name="prefs_fps_why_fps_60_not_available_sum">O fabricante do dispositivo pode não fornecer 60 FPS para todos os aplicativos</string>
-    <string name="prefs_video_control_scene_mode_sunset_text">Pôr do sol</string>
-    <string name="prefs_video_control_scene_mode_snow_text">Neve</string>
-    <string name="prefs_video_control_scene_mode_beach_text">Praia (tempo claro)</string>
-
-    <string name="prefs_video_exposure_auto_mode_text">Modo de exposição automática</string>
-    <string name="prefs_video_exposure_auto_mode_sum_text">Desative se quiser controlar manualmente a duração do quadro do sensor, o tempo de exposição, a sensibilidade e a abertura</string>
-
-    <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">O fabricante do dispositivo pode não fornecer acesso a todas as câmeras, então algumas podem não abrir</string>
-
-    <string name="camera_msg_error_non_exposed_error">Falha ao abrir a câmera selecionada. Acontece que nem todas as câmeras ocultas podem ser usadas por qualquer aplicativo. Muitos fabricantes só permitem seu uso em seus aplicativos nativos. A câmera padrão será aberta.</string>
-
-    <string name="videos_ask_which_player">Pergunte em qual jogador jogar</string>
-
-    <string name="prefs_location_mode_text">Prioridade de GPS (bateria ou precisão)</string>
-    <string name="prefs_location_mode_balanced_text">Equilíbrio entre precisão de localização (coordenadas), velocidade e consumo de energia da bateria.</string>
-    <string name="prefs_location_mode_high_accuracy_text">A localização (coordenadas) e velocidade mais precisas devido ao maior consumo de energia da bateria.</string>
-    <string name="prefs_location_mode_low_power_text">Baixa precisão de localização (coordenadas) e velocidade devido ao baixo consumo de energia da bateria.</string>
-
-    <string name="prefs_location_accuracy_explanation">Disponível apenas para Fused Location Provider API e prioridade de alta precisão ou Gerenciador de localização</string>
-
-	<string name="rec_service_msg">Privacidade: todos os vídeos que você gravar serão salvos apenas no seu dispositivo local. O aplicativo não faz backup de seus vídeos (não possui conexões com servidores)\n\nO aplicativo continuará sendo executado em segundo plano (o serviço em primeiro plano que aparece na barra de notificação) se você iniciar uma nova gravação e retornar à tela inicial, mudar para outro aplicativo ou bloquear seu telefone para poder continuar a gravação, ou se você ativa as funções de gravação automática (se você fechar o serviço em segundo plano, essas funções não funcionarão).</string>
-
-	
-
-	
-
-	
-
-	
-
-    
-
-    
-
-    <string name="permissions_saf_incorrect_path">Tente selecionar um caminho diferente (armazenamento local do dispositivo)</string>
-
-	<string name="prefs_vibrate_rec_start_stop_text">Vibração ao iniciar ou parar a gravação</string>
-
-    <string name="donation_subs_text">Doe mensalmente</string>
-    <string name="donation_any_amount_text">sem publicidade de qualquer valor</string>
-    <string name="donation_subs_any_amount_text">Além disso, a publicidade é completamente removida quando você assina qualquer valor.</string>
-    <string name="donation_remove_ads_by_any_amount_text">Remova os anúncios para sempre com uma doação única de qualquer valor. Você também pode doar qualquer valor mensalmente para remover anúncios</string>
-
-    <string name="prefs_audio_bt_recording_text">Grave áudio de um dispositivo Bluetooth</string>
-
-    <string name="prefs_audio_bt_recording_warning_title_text">Não use com unidade principal (rádio de carro)!</string>
-    <string name="prefs_audio_bt_recording_warning_message_text">Use apenas com fones de ouvido Bluetooth. Se você se conectar à unidade principal (rádio do carro) via Bluetooth, por algum motivo isso poderá acionar automaticamente uma chamada telefônica para o número padrão neste dispositivo</string>
-
-    <string name="prefs_warning_permission_bluetooth_sum_text">A gravação automática através de conexões Bluetooth requer permissão. Clique aqui para enviar</string>
-    <string name="prefs_warning_permission_bluetooth_text">Permissão Bluetooth não concedida</string>
-
-    
-    
-
-    
-
-    
-    
-
-    
-
-    <string name="msg_notification_could_not_start_recording_with_locked_screen">Não foi possível abrir o aplicativo para iniciar a gravação porque a tela estava desligada (bloqueada). Execute um serviço de gravação em segundo plano (Watcher) para corrigir isso.</string>
-    <string name="msg_notification_could_not_open_with_locked_screen">Não foi possível abrir o aplicativo porque a tela estava desligada (bloqueada).</string>
-
-	
-    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">O aplicativo especificado não pôde ser iniciado para abrir automaticamente porque a permissão \"mostrar no topo de todos os aplicativos\" não foi concedida.</string>
-    
-
-    
-
-    <string name="permissions_bluetooth_missing_msg_text">Você deve conceder permissão a Dispositivos próximos (Bluetooth) para gravação automática de eventos. Isso pode ser feito nas configurações do sistema do aplicativo.</string>
-
-    
-
-    
-
-    
-
-    
-
-    <string name="permission_notifications_dlg_msg">As notificações são necessárias para poder exibir o serviço de gravação em segundo plano e o status da gravação no painel de notificações.</string>
-
-    
+    <string name="zoom_text">ampliação</string>
 </resources>

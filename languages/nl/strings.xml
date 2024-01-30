@@ -1,65 +1,64 @@
 <resources>
-    <string name="app_name">Droid Dashcam - DVR rijden</string>
-
+    <string name="accept_text">ik aanvaard</string>
     <string name="any_text">Ieder</string>
-    <string name="close">Dichtbij</string>
-    <string name="default_text">Standaard</string>
-    <string name="disabled_text">Gehandicapt</string>
-    <string name="donate_dialog_item_no_ads_text">(Zonder reclame)</string>
-    <string name="zoom_text">zoom</string>
-    <string name="reset">afvoer</string>
-    <string name="unknown">Onbekend</string>
-
+    <string name="app_name">Droid Dashcam - DVR rijden</string>
     <string name="camera">Camera</string>
     <string name="camera_aperture">Diafragma</string>
     <string name="camera_back">achteruitrijcamera</string>
     <string name="camera_background_permission_error_msg">U moet de app één keer uitvoeren om toegang te krijgen tot de camera op de achtergrond</string>
     <string name="camera_error_background_tried_use_text">Op Android 11+ moet de applicatie, voordat de opname op de achtergrond wordt gestart, minimaal één keer actief en zichtbaar zijn om de camera op de achtergrond te kunnen gebruiken. Maak daarom na het opnieuw opstarten van het apparaat de applicatie zichtbaar en sluit daarna de opnameservice niet, deze moet in het meldingscentrum blijven.</string>
-    <string name="camera_error_busy">DroidDashcam: video-opname is gestopt omdat de camera door een andere applicatie wordt gebruikt</string>
-    <string name="camera_error_text">DroidDashcam: video-opname is gestopt omdat de camera van het apparaat niet meer werkt</string>
+    <string name="camera_error_busy">video-opname is gestopt omdat de camera door een andere applicatie wordt gebruikt</string>
+    <string name="camera_error_text">video-opname is gestopt omdat de camera van het apparaat niet meer werkt</string>
     <string name="camera_external">Externe USB-camera</string>
     <string name="camera_focal_length">Brandpuntsafstand</string>
+    <string name="camera_fov_horbizonal_text">horizontaal</string>
     <string name="camera_fov_text">Kijkhoeken (16: 9)</string>
     <string name="camera_fov_vertical_text">verticaal</string>
-    <string name="camera_fov_horbizonal_text">horizontaal</string>
     <string name="camera_front">Voor camera</string>
     <string name="camera_msg_error_in_use_text">De camera werd gebruikt door een andere toepassing. Voer geen andere toepassingen uit die de camera mogelijk gebruiken tijdens het opnemen van video. Android staat slechts één app toe om de camera tegelijk te gebruiken</string>
+    <string name="camera_msg_error_non_exposed_error">Kan de geselecteerde camera niet openen. Het gebeurt zo dat niet alle verborgen camera\'s door elke toepassing kunnen worden gebruikt. Veel fabrikanten staan ​​het gebruik ervan alleen toe in hun eigen toepassingen. De standaardcamera wordt geopend.</string>
     <string name="camera_msg_error_unknown_text">De camera kan (tijdelijk) niet worden geopend op uw apparaat (camerasysteemfout)</string>
     <string name="camera_support_error">Er is een fout opgetreden tijdens het gebruik van de camera.</string>
-
+    <string name="close">Dichtbij</string>
+    <string name="default_text">Standaard</string>
     <string name="dialog_camera_not_found_msg_text">Dit apparaat heeft geen ingebouwde camera en ondersteunt geen externe camera\'s. Sluitend…</string>
     <string name="dialog_camera_not_found_text">Camera niet gevonden</string>
     <string name="dialog_go_to_settings_text">Open instellingen</string>
     <string name="dialog_report_the_error_text_btn">Een bug melden</string>
     <string name="dialog_select_camera_text">Selecteer camera</string>
-    <string name="dialog_skip_btn_title">Overslaan</string>
     <string name="dialog_unlock_video_text">Ontgrendelen dat de huidige video wordt overschreven\?</string>
-
+    <string name="disabled_text">Gehandicapt</string>
+    <string name="donate_dialog_item_no_ads_text">(Zonder reclame)</string>
+    <string name="donate_disable_ads_text">Doneren, advertenties verwijderen</string>
     <string name="donate_success_thanks_msg_text">Heel erg bedankt voor je steun!</string>
+    <string name="donate_text">Bijdrage</string>
+    <string name="donation_any_amount_text">geen reclame voor welk bedrag dan ook</string>
     <string name="donation_dlg_has_ads_text">Als u advertenties wilt verwijderen, moet donatie of hoger zijn.</string>
+    <string name="donation_dlg_limited_ads_message_text">Voor kleinere donaties worden advertenties alleen op het hoofdscherm verwijderd</string>
     <string name="donation_dlg_no_ads_text">U heeft geen advertenties.</string>
     <string name="donation_level_text">Uw donatieniveau:</string>
     <string name="donation_purchase_info_loading_text">De winkelinformatie is nog niet geüpload. Ben je online en ingelogd op je Google-account\?</string>
-    <string name="donation_subs_check_box_text">Maandelijks onderhouden (geen advertenties voor welk bedrag dan ook)</string>
+    <string name="donation_remove_ads_by_any_amount_text">Verwijder advertenties voor altijd met een eenmalige donatie van welk bedrag dan ook. U kunt ook maandelijks een willekeurig bedrag doneren om advertenties te verwijderen</string>
+    <string name="donation_subs_any_amount_text">Ook worden advertenties volledig verwijderd wanneer u zich voor welk bedrag dan ook abonneert.</string>
     <string name="donation_subs_manage_btn_text">Uitschrijven</string>
-
+    <string name="donation_subs_text">Doneer maandelijks</string>
     <string name="format_altitude">Hoogte</string>
     <string name="format_degrees">Coördinaten</string>
     <string name="format_gb">Gigabyte</string>
+    <string name="format_gps_speed">GPS-snelheid</string>
     <string name="format_hz">Hz</string>
     <string name="format_kbits">kbps</string>
     <string name="format_mbits">Mbps</string>
     <string name="format_meters">m</string>
     <string name="format_minutes">min.</string>
-    <string name="format_gps_speed">GPS-snelheid</string>
     <string name="format_speed_measure_kilometers">km /u</string>
     <string name="format_speed_measure_miles">mph</string>
-
-    <string name="msg_activity_battery_is_not_ignoring_msg_text">Droid Dashcam is niet uitgesloten van batterij-optimalisatie. Als de camera niet op de achtergrond werkt of iets anders, voeg deze applicatie dan toe aan de uitzonderingen van de energiebesparende modus.</string>
+    <string name="from">van</string>
+    <string name="msg_activity_battery_is_not_ignoring_msg_text">De toepassing is niet uitgesloten van batterijoptimalisatie. Als de camera niet op de achtergrond draait of iets anders, voeg deze applicatie dan toe aan de uitzonderingen van de energiebesparende modus.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Als je de applicatie opnieuw hebt geïnstalleerd op Android 11, dan moeten de oude bestanden handmatig worden verwijderd</string>
-    <string name="msg_app_has_lost_camera_control_text">Camerabesturing gaat verloren voor DroidDashcam. Open DroidDashcam opnieuw om de camera weer onder controle te krijgen.</string>
-    <string name="msg_battery_optimization_tip_text">Batterij-optimalisatie -&gt; Alle apps -&gt; Droid Dashcam -&gt; Niet optimaliseren /opslaan</string>
-    <string name="msg_camera_died_text">DroidDashcam: camera werkt onverwacht niet meer, herstart…</string>
+    <string name="msg_auto_recording_service_was_stopped">Je hebt de achtergrondservice gestopt voor het automatisch starten van de video-opname. Open de applicatie om deze opnieuw te starten.</string>
+    <string name="msg_battery_optimization_tip_text">Batterijoptimalisatie -&gt; Alle apps -&gt; Zoek de app -&gt; Niet optimaliseren/opslaan</string>
+    <string name="msg_camera_died_text">camera werkt onverwacht niet meer, herstart…</string>
     <string name="msg_camera_not_opened">Camera loopt niet</string>
     <string name="msg_close_settings_before_recording_text">Sluit applicatievoorkeuren voordat u begint met opnemen</string>
     <string name="msg_could_not_enable_microphone">Kan de microfoon niet inschakelen, de opname gaat door zonder geluid</string>
@@ -67,9 +66,8 @@
     <string name="msg_could_not_open_text">Kan toepassing niet openen…</string>
     <string name="msg_could_not_start_floating_window_text">Kan zwevend venster niet starten</string>
     <string name="msg_detected_impact_text">G-sensor heeft een schok gedetecteerd, de video kan niet worden overschreven</string>
-    <string name="msg_dlg_found_old_videos_message">Het lijkt erop dat je de app opnieuw hebt geïnstalleerd. Je hebt oude video\'s die de app niet kan verwijderen tijdens lusopname. Verwijder ze handmatig op het videoscherm voordat u nieuwe video\'s opneemt. Vanaf Android 11+ verliest de applicatie de toegangsrechten tot oude bestanden na herinstallatie. Of u kunt schrijftoestemming geven aan de opnamemap</string>
-    <string name="msg_dlg_found_old_videos_title">Oude videobestanden gevonden</string>
-    <string name="msg_dlg_incorrect_folder_path">Ongeldige map. Verander het pad alstublieft niet. U moet toestemming verlenen voor een specifieke map. U kunt de opnamemap wijzigen in de instellingen.</string>
+    <string name="msg_dialog_camera_battery_optimization_subtitle">Schakel batterijoptimalisatie voor deze app uit in de instellingen van je apparaat om toekomstige camerafouten te voorkomen</string>
+    <string name="msg_dialog_camera_battery_optimization_title">Er is een fout opgetreden bij het openen van de camera. Batterijoptimalisatie ingeschakeld</string>
     <string name="msg_initializing_please_wait">Initialiseren… Even geduld!</string>
     <string name="msg_no_browser">Installeer een web-app om de link te openen</string>
     <string name="msg_no_gps_signal">Geen GPS-signaal</string>
@@ -77,57 +75,50 @@
     <string name="msg_no_permission_to_delete_file">Kan videobestand niet verwijderen. Mogelijk hebt u de applicatie opnieuw geïnstalleerd en is de bestandsmachtiging verloren gegaan. Probeer deze handmatig te verwijderen</string>
     <string name="msg_not_enough_memory_free_some_text">Maak wat ruimte vrij om door te gaan met het opnemen van video</string>
     <string name="msg_not_enough_memory_text">Niet genoeg geheugen</string>
+    <string name="msg_notification_could_launch_app_activity">Het hoofdscherm van de applicatie kon niet worden gestart omdat de toestemming SYSTEM_ALERT_WINDOW (weergave boven alle andere applicatievensters) niet was verleend of het scherm van het apparaat was uitgeschakeld</string>
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">De opgegeven applicatie kan niet worden gestart om automatisch te worden geopend, omdat de machtiging \'Alle applicaties weergeven\' niet is verleend.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">De applicatie kon niet worden geopend omdat het scherm was uitgeschakeld (vergrendeld).</string>
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">De applicatie kon niet worden geopend om de opname te starten, omdat het scherm was uitgeschakeld (vergrendeld). Voer een achtergrondopnameservice (Watcher) uit om dit op te lossen.</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">De app kon niet worden geopend om de opname te starten, omdat de toestemming \"bovenop alle apps weergeven\" niet was verleend. Klik om te verstrekken</string>
     <string name="msg_photo_failed_to_take">Kan geen foto maken</string>
     <string name="msg_photo_was_saved">Foto opgeslagen</string>
     <string name="msg_please_close_other_app_and_restart_text">Sluit andere applicaties met de camera en start deze applicatie opnieuw</string>
-    <string name="msg_record_path_has_changed_text">De opnamemap is gewijzigd. Omdat er geen of geen toestemming is verleend om op te slaan (schrijven)</string>
     <string name="msg_recorder_init_error_file_not_found">Verwijder oude video\'s, formatteer je SD-kaart of probeer een andere. Beperk ook de maximale video-opnameruimte (minder is beter). Een groot aantal opgeslagen video\'s kan dergelijke problemen veroorzaken. Zie ook de FAQ over SD-kaarten in Instellingen /FAQ. U kunt ook proberen naar het telefoongeheugen te schrijven in plaats van naar een externe kaart</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Stop met opnemen. Niet genoeg geheugen om door te gaan</string>
     <string name="msg_settings_opened_stopped_recording_text">Opname stoppen… (instellingen zijn geopend)</string>
-    <string name="msg_should_stop_recording_before_closing_service">Stop eerst met opnemen, daarna kun je de dienst sluiten</string>
     <string name="msg_stop_rec_too_fast_text">Wacht een seconde voordat u de opname direct na het starten stopt</string>
     <string name="msg_stop_recording_to_change_camera_text">Om de camera te wijzigen, moet u de huidige opname stoppen</string>
-    <string name="msg_to_close_this_service_close_app">Om deze service te sluiten, minimaliseer of sluit u eerst de Droid Dashcam-app</string>
     <string name="msg_video_become_locked_text">De video wordt geblokkeerd om te worden overschreven.</string>
     <string name="msg_video_folder_size">Grootte van alle video\'s vanaf de toegestane maximale grootte</string>
-    <string name="msg_video_has_locked_text">De video is vergrendeld en opgeslagen, de volgende video wordt ook gemarkeerd als vergrendeld (kan worden geannuleerd door op de knop te klikken)</string>
     <string name="msg_video_rec_battery_not_enough_text">Er is onvoldoende batterijvermogen op het apparaat. Opladen of beginnen met opnemen als de lading hoger is dan 1%%</string>
     <string name="msg_video_recorder_error">Er is iets misgegaan met de videorecorder.</string>
     <string name="msg_voice_tts_lang_data_missing_text">Het taalpakket voor TTS (Android Text-to-Speech) is niet geïnstalleerd. Schakel internet in om te beginnen met downloaden</string>
-    <string name="msg_auto_recording_service_was_stopped">U hebt de auto-start video-achtergrondservice gestopt. Open de DroidDashcam-app om deze opnieuw te starten.</string>
-
+    <string name="notification_could_not_start_recording_service">Opnameservice kan niet worden gestart. Tik om batterijoptimalisatie voor deze app uit te schakelen</string>
     <string name="notification_service_aux_checker">audio-aansluiting (Aux)</string>
     <string name="notification_service_bl_checker">Bluetooth</string>
     <string name="notification_service_checker">analyse</string>
     <string name="notification_service_power_checker">opladen</string>
-    <string name="notification_start_service_error_sub_text">Klik op de melding om de applicatie te starten. Je hebt geen toestemming voor alle applicaties of het apparaat is vergrendeld</string>
-    <string name="notification_start_service_error_text">Kan de opnameservice niet starten bij het opstarten van het apparaat</string>
     <string name="notification_stop_text">Stoppen</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Voor automatisch aan/uit opnemen</string>
-    <string name="notification_could_not_start_recording_service">Opnameservice kan niet worden gestart. Tik om batterijoptimalisatie voor deze app uit te schakelen</string>
-
     <string name="permission_audio_dlg_msg">Audio is vereist om een ​​audiotrack op te nemen bij het opnemen van video</string>
-    <string name="permission_audio_dlg_title">Audio Resolutie</string>
     <string name="permission_camera_dlg_msg">De camera is vereist voor video-opname en cameravoorbeeld.</string>
-    <string name="permission_camera_dlg_title">Camera resolutie</string>
     <string name="permission_camera_request_canceled">Deze applicatie vereist toestemming om de camera te gebruiken om video op te nemen. Maar je wees het af. Sluiten… Probeer toestemming te verlenen aan de camera in de systeeminstellingen van deze applicatie</string>
-    <string name="permission_location_dlg_explanation_msg">De locatie is nodig om coördinaten, adres en snelheid op de opgenomen video te tekenen, of deze gegevens op het hoofdscherm weer te geven (afhankelijk van uw instellingen).</string>
-    <string name="permission_location_dlg_explanation_settings_msg">Op Android 11 (R) moet je handmatig \"Altijd (elke modus)\" selecteren in de systeemvoorkeuren om de locatie op de achtergrond toe te staan. Na dit venster worden de instellingen geopend.</string>
-    <string name="permission_location_dlg_msg">De locatie is nodig om de transportsnelheid te bepalen met behulp van GPS-gegevens, het huidige adres en de coördinaten voor weergave op het scherm en voor het opnemen van ondertitels op video</string>
-    <string name="permission_location_dlg_title">Locatietoestemming</string>
+    <string name="permission_location_dlg_msg">De locatie is nodig om coördinaten, adres en snelheid op de opgenomen video te tekenen, of deze gegevens op het hoofdscherm weer te geven (afhankelijk van uw instellingen).</string>
+    <string name="permission_notifications_dlg_msg">Meldingen zijn vereist om de achtergrondopnameservice en de opnamestatus in het meldingenpaneel te kunnen weergeven.</string>
     <string name="permission_storage_dlg_msg">Opslag is nodig om video op te slaan in een gedeelde map en voor lusopnamemodus</string>
-    <string name="permission_storage_dlg_title">Opslag toestemming</string>
-    <string name="permissions_audio_location_dlg_title">Audio- en locatieresolutie</string>
-    <string name="permissions_audio_location_storage_dlg_title">Audio-, locatie- en machtigingsopslag</string>
-    <string name="permissions_audio_storage_dlg_title">Audio- en toestemmingsopslag</string>
-    <string name="permissions_camera_location_dlg_title">Camera- en locatieresolutie</string>
+    <string name="permissions_bluetooth_missing_msg_text">U moet Apparaten in de buurt (Bluetooth) toestemming geven voor het automatisch opnemen van gebeurtenissen. Dit kan gedaan worden in de systeeminstellingen van de applicatie.</string>
     <string name="permissions_grant_storage_btn_text">Rechten verlenen</string>
-    <string name="permissions_location_storage_dlg_title">Locatie- en opslagrechten</string>
-
+    <string name="permissions_saf_incorrect_path">Probeer een ander pad te selecteren (lokale opslag van het apparaat)</string>
+    <string name="photos_count_one">foto</string>
+    <string name="photos_count_other">foto\'s</string>
+    <string name="photos_folder_name">Foto\'s</string>
     <string name="prefs_address_geocoding_no_support_text">Uitgeschakeld omdat het apparaat geen geocodering ondersteunt</string>
-    <string name="prefs_animated_rec_circle_sum_text">Toon animatie rond de knop om de opname te starten</string>
-    <string name="prefs_animated_rec_circle_text">Animatie opnemen</string>
     <string name="prefs_audio_bitrate_text">Bitsnelheid (kwaliteit)</string>
+    <string name="prefs_audio_bt_recording_text">Neem audio op van een Bluetooth-apparaat</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Alleen gebruiken met Bluetooth-hoofdtelefoons. Als u via Bluetooth verbinding maakt met de hoofdunit (autoradio), kan dit om de een of andere reden automatisch leiden tot een oproep naar het standaardnummer op dit apparaat</string>
+    <string name="prefs_audio_bt_recording_warning_title_text">Niet gebruiken met hoofdunit (autoradio)!</string>
+    <string name="prefs_audio_priority_sum">Indien ingeschakeld, kunnen andere toepassingen de microfoon niet gebruiken. Indien uitgeschakeld, kan deze applicatie mogelijk geen audio opnemen wanneer meerdere applicaties worden uitgevoerd met behulp van de microfoon (Android staat niet altijd gelijktijdig gebruik van de microfoon toe)</string>
+    <string name="prefs_audio_priority_title">Geef prioriteit aan audio voor deze app</string>
     <string name="prefs_audio_rate_text">bemonsteringsfrequentie:</string>
     <string name="prefs_audio_recording_text">Geluidsopname</string>
     <string name="prefs_audio_settings_sum_text">Kwaliteit, uit /aan geluidsopname</string>
@@ -150,23 +141,22 @@
     <string name="prefs_aux_auto_start_sum_text">Start automatisch met opnemen wanneer aangesloten op de audio-aansluiting (AUX)</string>
     <string name="prefs_aux_auto_start_text">Uitvoeren wanneer aangesloten op de audio-aansluiting (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Stop wanneer losgekoppeld van audio-aansluiting (AUX)</string>
-    <string name="prefs_background_location_sum_text">Geen toestemming verleend. Het is noodzakelijk om de snelheid, het adres en de coördinaten bij te werken tijdens het opnemen van video op de achtergrond. Klik hier om het nu te repareren</string>
-    <string name="prefs_background_location_text">Locatie op de achtergrond</string>
     <string name="prefs_battery_optimization_sum_text">Batterij-optimalisatie kan ervoor zorgen dat de app niet goed werkt (bijvoorbeeld door de camera te gebruiken of de locatie bij te werken tijdens het opnemen van een video op de achtergrond). Klik hier om het nu voor deze toepassing uit te schakelen</string>
     <string name="prefs_battery_optimization_text">Batterij optimalisatie</string>
+    <string name="prefs_beep_each_start_recording_sum_text">Signaal aan het begin van de opname van het volgende videobestand</string>
+    <string name="prefs_beep_each_start_recording_text">Piep tijdens opnemen</string>
+    <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">De fabrikant van het apparaat biedt mogelijk geen toegang tot alle camera\'s, dus sommige kunnen niet worden geopend</string>
+    <string name="prefs_camera_why_wide_lens_not_available_sum">De fabrikant van het apparaat levert mogelijk niet voor alle toepassingen een camera met brede lens</string>
     <string name="prefs_day_night_mode_auto_text">Automatisch (dag /nacht), op tijd</string>
     <string name="prefs_day_night_mode_day_text">Dag</string>
     <string name="prefs_day_night_mode_night_text">Nacht</string>
-    <string name="prefs_donate_action_text">Doneren</string>
-    <string name="donate_disable_ads_text">Doneren, advertenties verwijderen</string>
     <string name="prefs_donate_sum_text">Ondersteuning applicatie ontwikkeling</string>
-    <string name="donate_text">Bijdrage</string>
     <string name="prefs_faq_sum_text">Veel Gestelde Vragen</string>
+    <string name="prefs_flashlight_turn_on_recording_automatically">Schakel de zaklamp automatisch in tijdens het opnemen</string>
     <string name="prefs_float_size_increase_text">Grootte van knoppen op een zwevend venster</string>
-    <string name="from">van</string>
-    <string name="to">voordat</string>
     <string name="prefs_fps_value_from_to_stable_text">(alleen dag, stabiel)</string>
     <string name="prefs_fps_value_from_to_text">(dag en nacht)</string>
+    <string name="prefs_fps_why_fps_60_not_available_sum">De fabrikant van het apparaat levert mogelijk niet 60 FPS voor alle toepassingen</string>
     <string name="prefs_frequent_network_requests_text">(frequente netwerkverzoeken)</string>
     <string name="prefs_g_sensor_force_high">Hoog</string>
     <string name="prefs_g_sensor_force_low">Laag</string>
@@ -181,11 +171,18 @@
     <string name="prefs_info_more_category_text">Informatie /Meer…</string>
     <string name="prefs_kill_services_sum_text">Er zijn instellingen op uw apparaat waarmee apps automatisch kunnen worden afgespeeld en op de achtergrond kunnen worden uitgevoerd. Klik hier en voeg de toepassing toe aan de uitzonderingen (autostart toestaan ​​enzovoort) zodat deze op de achtergrond kan worden uitgevoerd en wanneer het scherm is uitgeschakeld, indien verboden</string>
     <string name="prefs_kill_services_text">Achtergrondwerk toestaan</string>
+    <string name="prefs_launch_activity_on_auto_rec_start_text">Applicatie openen wanneer de opname automatisch start</string>
+    <string name="prefs_launch_app_auto_text">App starten wanneer video-opname begint</string>
+    <string name="prefs_launch_app_limitation_text">Met Android 11 en hoger kunt u mogelijk geen van de geïnstalleerde apps selecteren omdat het systeem zelf de zichtbaarheid van de app beperkt (privacybeleid)</string>
     <string name="prefs_launch_app_none_text">Niet gekozen</string>
     <string name="prefs_launch_app_text">Knop Launcher-applicatie</string>
     <string name="prefs_location_manager">Locatiemanager (verouderd)</string>
     <string name="prefs_location_manager_gps_only_text">Update locatie alleen met GPS (gebruik geen netwerk)</string>
     <string name="prefs_location_method_provider_sum_text">Als de snelheidswaarden slecht zijn, probeer dan de oude methode. Als de waarden nul zijn of zelden worden bijgewerkt, probeer dan de nieuwe methode</string>
+    <string name="prefs_location_mode_balanced_text">Evenwicht tussen locatienauwkeurigheid (coördinaten), snelheid en batterijverbruik.</string>
+    <string name="prefs_location_mode_high_accuracy_text">De meest nauwkeurige locatie (coördinaten) en snelheid dankzij hoger batterijverbruik.</string>
+    <string name="prefs_location_mode_low_power_text">Lage nauwkeurigheid van locatie (coördinaten) en snelheid vanwege laag batterijverbruik.</string>
+    <string name="prefs_location_mode_text">GPS-prioriteit (batterij of nauwkeurigheid)</string>
     <string name="prefs_location_provider_method_text">Locatie acquisitie methode (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS-updatesnelheid</string>
     <string name="prefs_meters_accuracy_value_text">meter nauwkeurigheid</string>
@@ -195,9 +192,12 @@
     <string name="prefs_orientation_portrait">Portret</string>
     <string name="prefs_other_auto_deleting_sum_text">Verwijder automatisch de oudste video\'s tijdens het opnemen als er niet genoeg ruimte is voor nieuwe video\'s</string>
     <string name="prefs_other_auto_deleting_text">Loop-opname</string>
+    <string name="prefs_other_date_time_text">datum en tijd</string>
     <string name="prefs_other_keep_screen_on_text">Laat het scherm aan</string>
+    <string name="prefs_other_keep_screen_on_while_recording_only_text">Houd het scherm alleen aan tijdens het opnemen</string>
     <string name="prefs_other_miles_sum_text">Schakel dit in om mijlen in plaats van kilometers te gebruiken</string>
     <string name="prefs_other_miles_text">Weergave in mijlen, voeten</string>
+    <string name="prefs_other_path_not_set">Het opnamepad is niet ingesteld. Klik hier om dit in te stellen</string>
     <string name="prefs_other_path_photo_text">Fotolocatie (map /pad)</string>
     <string name="prefs_other_path_text">Videolocatie (map /pad)</string>
     <string name="prefs_other_settings_sum_text">Videolocatie (map opslaan), videoduur, lusopname, G-sensor, GPS</string>
@@ -219,7 +219,6 @@
     <string name="prefs_policy_text">Privacybeleid</string>
     <string name="prefs_rate_sum_text">Beoordeel de app in de Play Store</string>
     <string name="prefs_rate_text">Schatting</string>
-    <string name="prefs_recommendations_category_text">Aanbevelingen</string>
     <string name="prefs_rules_auto_category_camera_motion_text">Bewegingsdetectie door camera</string>
     <string name="prefs_rules_auto_lock_file_sum_text">Blokkeer video van automatisch verwijderen (overschrijven) wanneer treffer wordt gedetecteerd</string>
     <string name="prefs_rules_auto_lock_file_text">G-sensor (schoksensor)</string>
@@ -227,9 +226,12 @@
     <string name="prefs_rules_auto_lock_file_vibrate_text">Trilling wanneer schok wordt gedetecteerd</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Start opnemen wanneer beweging wordt gedetecteerd</string>
     <string name="prefs_rules_auto_start_speed_text">Start opname wanneer snelheid gelijk/hoger is (op basis van GPS)</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* U kunt deze optie uitschakelen, zodat de applicatie alleen automatische opnames uitvoert als de achtergrondservice van de applicatie (Watcher) actief is.\n- Automatische opname voor gebeurtenissen zoals opladen, Bluetooth of AUX kan zonder problemen worden uitgevoerd tot Android 7.1.\n- Vanaf Android 8 kan automatische opname zonder een achtergrondapplicatieservice (Watcher) alleen worden uitgevoerd voor Bluetooth-gebeurtenissen, en in andere gevallen (bij opladen of AUX) moet u eerst de achtergrondapplicatieservice (Watcher) starten - door de één keer zelf aanvragen.\n- Vanaf Android 11 zonder de app-service op de achtergrond (Watcher) is toegang tot de camera zonder gebruikersinteractie alleen mogelijk als de telefoon ontgrendeld is (scherm aan) en toestemming \"bovenop alle apps\" wordt verleend.\n- Voor Android 11 en hoger moet u de applicatie dus één keer handmatig starten, zodat de achtergrondservice van de applicatie (Watcher) automatisch begint met opnemen tijdens evenementen en wanneer het telefoonscherm is uitgeschakeld.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Automatische opname, zelfs als de achtergrondservice (Watcher) niet actief is</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Stop met opnemen na</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Stop met opnemen als er geen beweging is</string>
     <string name="prefs_rules_auto_stop_speed_text">Stop met opnemen als de snelheid lager is (gebaseerd op GPS)</string>
+    <string name="prefs_rules_bl_auto_start_only_if_charging_text">Alleen opnemen wanneer het apparaat wordt opgeladen</string>
     <string name="prefs_rules_video_space_text">Maximale geheugencapaciteit van alle video\'s (loopopname)</string>
     <string name="prefs_screen_autostart_sum_text">Wanneer u de applicatie start, schakelt u het opladen in /uit, start u het systeem op</string>
     <string name="prefs_screen_autostart_text">Opname automatisch starten</string>
@@ -241,8 +243,10 @@
     <string name="prefs_settings_fps_sum_text">Meer FPS - vloeiendere video, maar sneller leeglopen van de batterij. Het is beter om de eerste waarde op de laagste te zetten (de tweede kan hoger zijn) voor betere opnames in het donker</string>
     <string name="prefs_share_sum_text">Stuur deze app naar je vrienden</string>
     <string name="prefs_share_text">Deel dit</string>
+    <string name="prefs_shortcut_launcher_has_been_added">Snelkoppeling (launcher) is toegevoegd</string>
+    <string name="prefs_shortcut_rec_start_launcher_sum">Om de opname te starten/stoppen zonder het hoofdscherm te starten</string>
+    <string name="prefs_shortcut_rec_start_launcher_title">Snelkoppeling toevoegen (launcher)</string>
     <string name="prefs_show_audio_btn_text">Aan/uit audio-opname</string>
-    <string name="prefs_show_buttons_sum_text">Knoppen voor het wisselen van camera\'s, aan /uit audio-opname, flitser, nachtmodus, video tegen overschrijven blokkeren</string>
     <string name="prefs_show_buttons_text">Knoppen op het scherm</string>
     <string name="prefs_show_camera_change_btn_text">Camerawissel</string>
     <string name="prefs_show_day_night_mode_btn_text">Dag /Nacht /Automatische modi</string>
@@ -252,10 +256,7 @@
     <string name="prefs_show_overlay_btn_text">Zwevend venster tonen</string>
     <string name="prefs_show_status_bar_text">Systeemstatusbalk weergeven</string>
     <string name="prefs_show_take_photo_btn_text">Om een ​​foto te maken</string>
-    <string name="prefs_show_ui_elements_sum_text">Adres, snelheid, coördinaten</string>
-    <string name="prefs_stabilization_eis_text">Elektronisch (digitaal, EIS) - aanbevolen</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Wordt niet ondersteund door de huidige camera. Fabrikanten beperken het gebruik ervan vaak - het is alleen beschikbaar in de standaard Camera-applicatie</string>
-    <string name="prefs_stabilization_ois_text">Optisch (OIS)</string>
     <string name="prefs_start_stop_voice_sum_text">Geluid bij start, stop of opnamefout</string>
     <string name="prefs_start_stop_voice_text">Geluidsopnamestatus</string>
     <string name="prefs_subtitles_address_text">Het adres</string>
@@ -266,7 +267,12 @@
     <string name="prefs_subtitles_date_format_text">Datumnotatie</string>
     <string name="prefs_subtitles_date_text">Datum Tijd)</string>
     <string name="prefs_subtitles_date_time_system_text">systemisch</string>
+    <string name="prefs_subtitles_gpx_delay_title">GPX minimale updatesnelheid</string>
+    <string name="prefs_subtitles_gpx_no_delay_entry">Alle coördinatenupdates</string>
+    <string name="prefs_subtitles_gpx_title">Maak een GPX-bestand voor elke video</string>
     <string name="prefs_subtitles_in_english_text">Engelse ondertiteling</string>
+    <string name="prefs_subtitles_position_bottom_sum_text">Overlay ondertitels onderaan de video</string>
+    <string name="prefs_subtitles_position_bottom_text">Ondertitels onderaan</string>
     <string name="prefs_subtitles_settings_sum_text">Overlay video-onderschriften: datum (tijd), locatieadres, coördinaten en snelheid</string>
     <string name="prefs_subtitles_settings_text">Ondertitel instellingen</string>
     <string name="prefs_subtitles_size_text">Tekstgrootte vergroten</string>
@@ -280,8 +286,13 @@
     <string name="prefs_support_text">Ondersteuning (feedback)</string>
     <string name="prefs_system_alert_window_sum_text">Laat deze app boven alle andere apps verschijnen. Dit is nodig om de video-opname automatisch te starten/stoppen of om een ​​zwevend venster weer te geven</string>
     <string name="prefs_system_alert_window_text">Resolutie bovenop alle vensters</string>
+    <string name="prefs_theme_mode_dark">Donker thema</string>
+    <string name="prefs_theme_mode_light">Licht thema</string>
+    <string name="prefs_theme_mode_system_auto">Zoals in het systeem (automatisch)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Keer terug naar het startscherm (opnames) om deze instelling toe te passen en de volgservice te starten</string>
     <string name="prefs_toolbar_title_setting">Instellingen</string>
+    <string name="prefs_translate_sum_text">Help de vertaling van tekst in uw taal te verbeteren of te corrigeren</string>
+    <string name="prefs_translate_text">Toepassingsvertaling</string>
     <string name="prefs_ui_click_none_text">Niets te doen</string>
     <string name="prefs_ui_click_start_stop_rec_text">Opname starten /stoppen</string>
     <string name="prefs_ui_click_text">Tik snel op het scherm</string>
@@ -291,15 +302,21 @@
     <string name="prefs_value_secs_one_text">seconde</string>
     <string name="prefs_value_secs_other_text">seconden</string>
     <string name="prefs_version_text">Applicatie versie</string>
+    <string name="prefs_vibrate_rec_start_stop_text">Trillingen bij het starten of stoppen van de opname</string>
     <string name="prefs_video_bitrate_text">Bitsnelheid (kwaliteit)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Camerabediening Scènemodus (Nacht)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Camerabediening Scènemodus (dag)</string>
+    <string name="prefs_video_control_scene_mode_beach_text">Strand (helder weer)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Algemeen /Gezichtsprioriteit</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (hoog dynamisch bereik)</string>
     <string name="prefs_video_control_scene_mode_night_text">Nacht (voor omstandigheden met weinig licht)</string>
+    <string name="prefs_video_control_scene_mode_snow_text">Sneeuw</string>
+    <string name="prefs_video_control_scene_mode_sunset_text">Zonsondergang</string>
     <string name="prefs_video_day_night_auto_mode_day_start_time_text">Zonsopgang (zonsopgang)</string>
     <string name="prefs_video_day_night_auto_mode_night_start_time_text">Zonsondergangtijd (zonsondergang)</string>
     <string name="prefs_video_day_night_mode_text">Dag-, nacht- of automatische modus</string>
+    <string name="prefs_video_exposure_auto_mode_sum_text">Schakel uit als u de duur van het sensorframe, de belichtingstijd, de gevoeligheid en het diafragma handmatig wilt regelen</string>
+    <string name="prefs_video_exposure_auto_mode_text">Automatische belichtingsmodus</string>
     <string name="prefs_video_exposure_night_text">Belichtingscompensatie (nacht)</string>
     <string name="prefs_video_exposure_text">Belichtingscompensatie (dag)</string>
     <string name="prefs_video_flip_x_sum_text">Horizontale spiegeling van video. Het beeld verandert alleen voor video-opname, het voorbeeld verandert niet</string>
@@ -319,22 +336,30 @@
     <string name="prefs_video_size_sum_text">Groter formaat - sneller leeglopen van de batterij</string>
     <string name="prefs_video_space_unlimited">Onbeperkt</string>
     <string name="prefs_video_stabilization_text">Videostabilisatie</string>
+    <string name="prefs_warning_location_precise_sum_text">Dit is nodig om de meest nauwkeurige op GPS gebaseerde snelheid te krijgen, evenals adres en coördinaten. Klik om in te dienen</string>
+    <string name="prefs_warning_location_precise_text">Toestemming voor exacte locatie</string>
+    <string name="prefs_warning_notifications_sum_text">Vereist om de achtergrondopnameservice en statussen op het meldingenpaneel te kunnen weergeven. Klik om in te dienen</string>
+    <string name="prefs_warning_notifications_text">Meldingstoestemming</string>
+    <string name="prefs_warning_permission_bluetooth_sum_text">Voor automatisch opnemen via Bluetooth-verbindingen is toestemming vereist. Klik hier om in te dienen</string>
+    <string name="prefs_warning_permission_bluetooth_text">Bluetooth-toestemming niet verleend</string>
+    <string name="prefs_warnings_text">Waarschuwingen</string>
+    <string name="prefs_zoom_out_desc_text">Om toegang te krijgen tot de ultragroothoekcamera (lens), kunt u de zoomfactor instellen</string>
     <string name="prefs_zoom_text">Digitale zoom (zoom)</string>
-
+    <string name="rec_audio_silence_text">Op dit moment is audio-opname niet mogelijk omdat de microfoon wordt onderschept door een andere applicatie</string>
+    <string name="rec_available_space_text">Beschikbaar</string>
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">Corrigeren</string>
     <string name="rec_fix_text">Corrigeren</string>
-    <string name="rec_available_space_text">Beschikbaar</string>
     <string name="rec_gps_status_satellites_few_text">satellieten</string>
     <string name="rec_gps_status_satellites_many_text">satellieten</string>
     <string name="rec_gps_status_satellites_one_text">satelliet</string>
     <string name="rec_gps_status_satellites_other_text">satellieten</string>
-    <string name="rec_location_text">Plaats</string>
     <string name="rec_gps_text">GPS</string>
+    <string name="rec_location_text">Plaats</string>
     <string name="rec_network_text">Netto</string>
     <string name="rec_off_text">Uit</string>
     <string name="rec_on_text">Incl.</string>
-
+    <string name="rec_service_msg">Privacy: Alle video\'s die u opneemt, worden alleen op uw lokale apparaat opgeslagen. De applicatie maakt geen back-up van uw video\'s (heeft geen verbindingen met servers)\n\nDe app blijft op de achtergrond draaien (de voorgrondservice die in de notificatiebalk verschijnt) als u een nieuwe opname start en terugkeert naar het startscherm, overschakelt naar een andere app of uw telefoon vergrendelt om door te kunnen gaan met opnemen, of als u schakelt functies in voor automatisch opnemen (als u de achtergrondservice sluit, werken deze functies niet).</string>
     <string name="recording_start_text">Start met opnemen</string>
     <string name="recording_started_failed_text">Fout bij starten van opname</string>
     <string name="recording_started_with_audio_text">Een nieuwe video-opname met audio-opname is begonnen</string>
@@ -347,15 +372,14 @@
     <string name="recording_text">Opnemen…</string>
     <string name="recording_voice_started_text">Opname is begonnen</string>
     <string name="recording_voice_stopped_text">Opname gestopt</string>
-
-    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">De app kon niet worden geopend om de opname te starten, omdat de toestemming \"bovenop alle apps weergeven\" niet was verleend. Klik om te verstrekken</string>
-    <string name="service_watch_on_boot_completed_text">Bij het inschakelen van het apparaat</string>
-
+    <string name="reset">afvoer</string>
     <string name="storage_external_single">Micro SD kaart</string>
     <string name="storage_external_single_free">Micro SD kaart</string>
     <string name="storage_phone">Telefoon geheugen</string>
     <string name="storage_phone_free">Telefoon geheugen</string>
-
+    <string name="to">voordat</string>
+    <string name="unknown">Onbekend</string>
+    <string name="videos_ask_which_player">Vraag met welke speler je wilt spelen</string>
     <string name="videos_count_one">video-</string>
     <string name="videos_count_other">video-</string>
     <string name="videos_deleting_text">Bestanden verwijderen… Even geduld!</string>
@@ -382,156 +406,9 @@
     <string name="videos_menu_storage">Geheugen</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Open de applicatie-instellingen en geef toegang tot de opslag in het telefoongeheugen</string>
     <string name="videos_no_storage_permission_dlg_title_text">Geen opslagrechten</string>
-    <string name="videos_select_files_for_deleting">Selecteer videobestanden om te verwijderen</string>
+    <string name="videos_no_storage_saf_permission_dlg_msg_text">Selecteer een map voor records</string>
     <string name="videos_storage_select_dlg_title">Selecteer video-opslag</string>
     <string name="videos_temporary_folder_text">Getimede video\'s</string>
     <string name="videos_toolbar_subtitle">Video-opnames</string>
-
-	
-    <string name="prefs_app_launch_list_loading_msg_text">Wacht alsjeblieft. Applicatielijst wordt nog steeds geladen…</string>
-    <string name="prefs_warnings_text">Waarschuwingen</string>
-    <string name="prefs_beep_each_start_recording_sum_text">Signaal aan het begin van de opname van het volgende videobestand</string>
-    <string name="prefs_beep_each_start_recording_text">Piep tijdens opnemen</string>
-    <string name="prefs_translate_text">Toepassingsvertaling</string>
-    <string name="prefs_translate_sum_text">Help de vertaling van tekst in uw taal te verbeteren of te corrigeren</string>
-    <string name="prefs_launch_app_auto_text">App starten wanneer video-opname begint</string>
-
-    <string name="msg_dialog_camera_battery_optimization_title">Er is een fout opgetreden bij het openen van de camera. Batterijoptimalisatie ingeschakeld</string>
-    <string name="msg_dialog_camera_battery_optimization_subtitle">Schakel batterijoptimalisatie voor deze app uit in de instellingen van je apparaat om toekomstige camerafouten te voorkomen</string>
-
-	
-    <string name="prefs_rules_auto_start_without_service_text">Automatische opname, zelfs als de achtergrondservice (Watcher) niet actief is</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* U kunt deze optie uitschakelen, zodat de applicatie alleen automatische opnames uitvoert als de achtergrondservice van de applicatie (Watcher) actief is.\n- Automatische opname voor gebeurtenissen zoals opladen, Bluetooth of AUX kan zonder problemen worden uitgevoerd tot Android 7.1.\n- Vanaf Android 8 kan automatische opname zonder een achtergrondapplicatieservice (Watcher) alleen worden uitgevoerd voor Bluetooth-gebeurtenissen, en in andere gevallen (bij opladen of AUX) moet u eerst de achtergrondapplicatieservice (Watcher) starten - door de één keer zelf aanvragen.\n- Vanaf Android 11 zonder de app-service op de achtergrond (Watcher) is toegang tot de camera zonder gebruikersinteractie alleen mogelijk als de telefoon ontgrendeld is (scherm aan) en toestemming \"bovenop alle apps\" wordt verleend.\n- Voor Android 11 en hoger moet u de applicatie dus één keer handmatig starten, zodat de achtergrondservice van de applicatie (Watcher) automatisch begint met opnemen tijdens evenementen en wanneer het telefoonscherm is uitgeschakeld.</string>
-
-	
-    <string name="prefs_subtitles_position_bottom_text">Ondertitels onderaan</string>
-    <string name="prefs_subtitles_position_bottom_sum_text">Overlay ondertitels onderaan de video</string>
-
-	
-    <string name="accept_text">ik aanvaard</string>
-
-    <string name="prefs_launch_app_limitation_text">Met Android 11 en hoger kunt u mogelijk geen van de geïnstalleerde apps selecteren omdat het systeem zelf de zichtbaarheid van de app beperkt (privacybeleid)</string>
-
-    <string name="prefs_rules_bl_auto_start_only_if_charging_text">Alleen opnemen wanneer het apparaat wordt opgeladen</string>
-
-    <string name="prefs_other_keep_screen_on_while_recording_only_text">Houd het scherm alleen aan tijdens het opnemen</string>
-    <string name="prefs_other_date_time_text">datum en tijd</string>
-
-    
-    
-
-    
-
-    <string name="prefs_launch_activity_on_auto_rec_start_text">Applicatie openen wanneer de opname automatisch start</string>
-
-    <string name="msg_notification_could_launch_app_activity">Het hoofdscherm van de applicatie kon niet worden gestart omdat de toestemming SYSTEM_ALERT_WINDOW (weergave boven alle andere applicatievensters) niet was verleend of het scherm van het apparaat was uitgeschakeld</string>
-
-    <string name="prefs_zoom_out_desc_text">Om toegang te krijgen tot de ultragroothoekcamera (lens), kunt u de zoomfactor instellen</string>
-    <string name="prefs_warning_location_precise_sum_text">Dit is nodig om de meest nauwkeurige op GPS gebaseerde snelheid te krijgen, evenals adres en coördinaten. Klik om in te dienen</string>
-    <string name="prefs_warning_location_precise_text">Toestemming voor exacte locatie</string>
-    <string name="prefs_warning_notifications_sum_text">Vereist om de achtergrondopnameservice en statussen op het meldingenpaneel te kunnen weergeven. Klik om in te dienen</string>
-    <string name="prefs_warning_notifications_text">Meldingstoestemming</string>
-
-    <string name="donation_dlg_limited_ads_message_text">Voor kleinere donaties worden advertenties alleen op het hoofdscherm verwijderd</string>photo
-    <string name="photos_folder_name">Foto\'s</string>
-
-    <string name="photos_count_one">foto</string>
-    <string name="photos_count_other">foto\'s</string>
-
-    <string name="prefs_audio_priority_title">Geef prioriteit aan audio voor deze app</string>
-    <string name="prefs_audio_priority_sum">Indien ingeschakeld, kunnen andere toepassingen de microfoon niet gebruiken. Indien uitgeschakeld, kan deze applicatie mogelijk geen audio opnemen wanneer meerdere applicaties worden uitgevoerd met behulp van de microfoon (Android staat niet altijd gelijktijdig gebruik van de microfoon toe)</string>
-    <string name="rec_audio_silence_text">Op dit moment is audio-opname niet mogelijk omdat de microfoon wordt onderschept door een andere applicatie</string>
-
-    <string name="prefs_subtitles_gpx_title">Maak een GPX-bestand voor elke video</string>
-    <string name="prefs_subtitles_gpx_delay_title">GPX minimale updatesnelheid</string>
-    <string name="prefs_subtitles_gpx_no_delay_entry">Alle coördinatenupdates</string>
-
-    <string name="prefs_shortcut_rec_start_launcher_title">Snelkoppeling toevoegen (launcher)</string>
-    <string name="prefs_shortcut_rec_start_launcher_sum">Om de opname te starten/stoppen zonder het hoofdscherm te starten</string>
-
-    <string name="prefs_camera_why_wide_lens_not_available_sum">De fabrikant van het apparaat levert mogelijk niet voor alle toepassingen een camera met brede lens</string>
-    <string name="prefs_fps_why_fps_60_not_available_sum">De fabrikant van het apparaat levert mogelijk niet 60 FPS voor alle toepassingen</string>
-    <string name="prefs_video_control_scene_mode_sunset_text">Zonsondergang</string>
-    <string name="prefs_video_control_scene_mode_snow_text">Sneeuw</string>
-    <string name="prefs_video_control_scene_mode_beach_text">Strand (helder weer)</string>
-
-    <string name="prefs_video_exposure_auto_mode_text">Automatische belichtingsmodus</string>
-    <string name="prefs_video_exposure_auto_mode_sum_text">Schakel uit als u de duur van het sensorframe, de belichtingstijd, de gevoeligheid en het diafragma handmatig wilt regelen</string>
-
-    <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">De fabrikant van het apparaat biedt mogelijk geen toegang tot alle camera\'s, dus sommige kunnen niet worden geopend</string>
-
-    <string name="camera_msg_error_non_exposed_error">Kan de geselecteerde camera niet openen. Het gebeurt zo dat niet alle verborgen camera\'s door elke toepassing kunnen worden gebruikt. Veel fabrikanten staan ​​het gebruik ervan alleen toe in hun eigen toepassingen. De standaardcamera wordt geopend.</string>
-
-    <string name="videos_ask_which_player">Vraag met welke speler je wilt spelen</string>
-
-    <string name="prefs_location_mode_text">GPS-prioriteit (batterij of nauwkeurigheid)</string>
-    <string name="prefs_location_mode_balanced_text">Evenwicht tussen locatienauwkeurigheid (coördinaten), snelheid en batterijverbruik.</string>
-    <string name="prefs_location_mode_high_accuracy_text">De meest nauwkeurige locatie (coördinaten) en snelheid dankzij hoger batterijverbruik.</string>
-    <string name="prefs_location_mode_low_power_text">Lage nauwkeurigheid van locatie (coördinaten) en snelheid vanwege laag batterijverbruik.</string>
-
-    <string name="prefs_location_accuracy_explanation">Alleen beschikbaar voor Fused Location Provider API en hoge nauwkeurigheidsprioriteit of Location Manager</string>
-
-	<string name="rec_service_msg">Privacy: Alle video\'s die u opneemt, worden alleen op uw lokale apparaat opgeslagen. De applicatie maakt geen back-up van uw video\'s (heeft geen verbindingen met servers)\n\nDe app blijft op de achtergrond draaien (de voorgrondservice die in de notificatiebalk verschijnt) als u een nieuwe opname start en terugkeert naar het startscherm, overschakelt naar een andere app of uw telefoon vergrendelt om door te kunnen gaan met opnemen, of als u schakelt functies in voor automatisch opnemen (als u de achtergrondservice sluit, werken deze functies niet).</string>
-
-	
-
-	
-
-	
-
-	
-
-    
-
-    
-
-    <string name="permissions_saf_incorrect_path">Probeer een ander pad te selecteren (lokale opslag van het apparaat)</string>
-
-	<string name="prefs_vibrate_rec_start_stop_text">Trillingen bij het starten of stoppen van de opname</string>
-
-    <string name="donation_subs_text">Doneer maandelijks</string>
-    <string name="donation_any_amount_text">geen reclame voor welk bedrag dan ook</string>
-    <string name="donation_subs_any_amount_text">Ook worden advertenties volledig verwijderd wanneer u zich voor welk bedrag dan ook abonneert.</string>
-    <string name="donation_remove_ads_by_any_amount_text">Verwijder advertenties voor altijd met een eenmalige donatie van welk bedrag dan ook. U kunt ook maandelijks een willekeurig bedrag doneren om advertenties te verwijderen</string>
-
-    <string name="prefs_audio_bt_recording_text">Neem audio op van een Bluetooth-apparaat</string>
-
-    <string name="prefs_audio_bt_recording_warning_title_text">Niet gebruiken met hoofdunit (autoradio)!</string>
-    <string name="prefs_audio_bt_recording_warning_message_text">Alleen gebruiken met Bluetooth-hoofdtelefoons. Als u via Bluetooth verbinding maakt met de hoofdunit (autoradio), kan dit om de een of andere reden automatisch leiden tot een oproep naar het standaardnummer op dit apparaat</string>
-
-    <string name="prefs_warning_permission_bluetooth_sum_text">Voor automatisch opnemen via Bluetooth-verbindingen is toestemming vereist. Klik hier om in te dienen</string>
-    <string name="prefs_warning_permission_bluetooth_text">Bluetooth-toestemming niet verleend</string>
-
-    
-    
-
-    
-
-    
-    
-
-    
-
-    <string name="msg_notification_could_not_start_recording_with_locked_screen">De applicatie kon niet worden geopend om de opname te starten, omdat het scherm was uitgeschakeld (vergrendeld). Voer een achtergrondopnameservice (Watcher) uit om dit op te lossen.</string>
-    <string name="msg_notification_could_not_open_with_locked_screen">De applicatie kon niet worden geopend omdat het scherm was uitgeschakeld (vergrendeld).</string>
-
-	
-    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">De opgegeven applicatie kan niet worden gestart om automatisch te worden geopend, omdat de machtiging \'Alle applicaties weergeven\' niet is verleend.</string>
-    
-
-    
-
-    <string name="permissions_bluetooth_missing_msg_text">U moet Apparaten in de buurt (Bluetooth) toestemming geven voor het automatisch opnemen van gebeurtenissen. Dit kan gedaan worden in de systeeminstellingen van de applicatie.</string>
-
-    
-
-    
-
-    
-
-    
-
-    <string name="permission_notifications_dlg_msg">Meldingen zijn vereist om de achtergrondopnameservice en de opnamestatus in het meldingenpaneel te kunnen weergeven.</string>
-
-    
+    <string name="zoom_text">zoom</string>
 </resources>

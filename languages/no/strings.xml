@@ -1,65 +1,64 @@
 <resources>
-    <string name="app_name">Droid Dashcam - Driving DVR</string>
-
+    <string name="accept_text">jeg aksepterer</string>
     <string name="any_text">Noen</string>
-    <string name="close">Lukk</string>
-    <string name="default_text">Misligholde</string>
-    <string name="disabled_text">Funksjonshemmet</string>
-    <string name="donate_dialog_item_no_ads_text">(Uten reklame)</string>
-    <string name="zoom_text">zoom</string>
-    <string name="reset">utslipp</string>
-    <string name="unknown">Ukjent</string>
-
+    <string name="app_name">Droid Dashcam - Driving DVR</string>
     <string name="camera">Kamera</string>
     <string name="camera_aperture">Diafragma</string>
     <string name="camera_back">Ryggekamera</string>
     <string name="camera_background_permission_error_msg">Du må kjøre appen én gang for å få tilgang til kameraet i bakgrunnen</string>
     <string name="camera_error_background_tried_use_text">På Android 11+, før du starter opptaket i bakgrunnen, må applikasjonen kjøres og være synlig minst én gang for å kunne bruke kameraet i bakgrunnen. Derfor, etter å ha startet enheten på nytt, gjør applikasjonen synlig og etter det ikke lukk opptakstjenesten, bør den forbli i varslingssenteret.</string>
-    <string name="camera_error_busy">DroidDashcam: Videoopptaket har stoppet fordi kameraet brukes av en annen applikasjon</string>
-    <string name="camera_error_text">DroidDashcam: Videoopptak stoppet fordi enhetens kamera sluttet å virke</string>
+    <string name="camera_error_busy">Videoopptaket har stoppet fordi kameraet brukes av en annen applikasjon</string>
+    <string name="camera_error_text">Videoopptak stoppet fordi enhetens kamera sluttet å virke</string>
     <string name="camera_external">Eksternt USB-kamera</string>
     <string name="camera_focal_length">Brennvidde</string>
+    <string name="camera_fov_horbizonal_text">horisontal</string>
     <string name="camera_fov_text">Betraktningsvinkler (16:9)</string>
     <string name="camera_fov_vertical_text">vertikal</string>
-    <string name="camera_fov_horbizonal_text">horisontal</string>
     <string name="camera_front">Frontkamera</string>
     <string name="camera_msg_error_in_use_text">Kameraet ble brukt av en annen applikasjon. Ikke kjør andre programmer som kan bruke kameraet mens du tar opp video. Android lar bare én app bruke kameraet om gangen</string>
+    <string name="camera_msg_error_non_exposed_error">Kunne ikke åpne det valgte kameraet. Det har seg slik at ikke alle skjulte kameraer kan brukes av noen applikasjoner. Mange produsenter tillater kun bruk i deres opprinnelige applikasjoner. Standardkameraet åpnes.</string>
     <string name="camera_msg_error_unknown_text">Kameraet er midlertidig (var) utilgjengelig for åpning på enheten din (kamerasystemfeil)</string>
     <string name="camera_support_error">Det har oppstått en feil under bruk av kameraet.</string>
-
+    <string name="close">Lukk</string>
+    <string name="default_text">Misligholde</string>
     <string name="dialog_camera_not_found_msg_text">Denne enheten har ikke et innebygd kamera og støtter ikke eksterne kameraer. Lukking…</string>
     <string name="dialog_camera_not_found_text">Kameraet ble ikke funnet</string>
     <string name="dialog_go_to_settings_text">Åpne innstillinger</string>
     <string name="dialog_report_the_error_text_btn">Rapporter en feil</string>
     <string name="dialog_select_camera_text">Velg kamera</string>
-    <string name="dialog_skip_btn_title">Hopp over</string>
     <string name="dialog_unlock_video_text">Vil du låse opp den gjeldende videoen fra å bli overskrevet\?</string>
-
+    <string name="disabled_text">Funksjonshemmet</string>
+    <string name="donate_dialog_item_no_ads_text">(Uten reklame)</string>
+    <string name="donate_disable_ads_text">Donasjon, fjern annonser</string>
     <string name="donate_success_thanks_msg_text">Tusen takk for din støtte!</string>
+    <string name="donate_text">Donasjon</string>
+    <string name="donation_any_amount_text">ingen reklame for noe beløp</string>
     <string name="donation_dlg_has_ads_text">For å fjerne annonser må donasjonen være eller mer.</string>
+    <string name="donation_dlg_limited_ads_message_text">For mindre donasjoner fjernes reklame kun på hovedskjermen</string>
     <string name="donation_dlg_no_ads_text">Du har ingen annonser.</string>
     <string name="donation_level_text">Ditt donasjonsnivå:</string>
     <string name="donation_purchase_info_loading_text">Handleinformasjonen er ikke lastet opp ennå. Er du tilkoblet og logget på Google-kontoen din\?</string>
-    <string name="donation_subs_check_box_text">Vedlikehold månedlig (ingen annonser for noe beløp)</string>
+    <string name="donation_remove_ads_by_any_amount_text">Fjern annonser for alltid med en engangsdonasjon uansett beløp. Du kan også donere et hvilket som helst beløp månedlig for å fjerne annonser</string>
+    <string name="donation_subs_any_amount_text">Dessuten fjernes reklame fullstendig når du abonnerer for et hvilket som helst beløp.</string>
     <string name="donation_subs_manage_btn_text">Avslutte abonnementet</string>
-
+    <string name="donation_subs_text">Doner månedlig</string>
     <string name="format_altitude">Høyde</string>
     <string name="format_degrees">Koordinater</string>
     <string name="format_gb">Gigabyte</string>
+    <string name="format_gps_speed">GPS-hastighet</string>
     <string name="format_hz">Hz</string>
     <string name="format_kbits">kbps</string>
     <string name="format_mbits">Mbps</string>
     <string name="format_meters">m</string>
     <string name="format_minutes">min.</string>
-    <string name="format_gps_speed">GPS-hastighet</string>
     <string name="format_speed_measure_kilometers">km/t</string>
     <string name="format_speed_measure_miles">mph</string>
-
-    <string name="msg_activity_battery_is_not_ignoring_msg_text">Droid Dashcam er ikke ekskludert fra batterioptimalisering. Hvis kameraet ikke fungerer i bakgrunnen eller noe annet, så legg til denne applikasjonen til unntakene for strømsparingsmodus.</string>
+    <string name="from">fra</string>
+    <string name="msg_activity_battery_is_not_ignoring_msg_text">Applikasjonen er ikke ekskludert fra batterioptimalisering. Hvis kameraet ikke kjører i bakgrunnen eller noe annet, så legg til denne applikasjonen til unntakene for strømsparingsmodus.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Hvis du reinstallerte applikasjonen på Android 11, må de gamle filene slettes manuelt</string>
-    <string name="msg_app_has_lost_camera_control_text">Kamerakontrollen går tapt for DroidDashcam. Åpne DroidDashcam igjen for å gjenvinne kontrollen over kameraet.</string>
-    <string name="msg_battery_optimization_tip_text">Batterioptimalisering -&gt; Alle apper -&gt; Droid Dashcam -&gt; Ikke optimaliser /lagre</string>
-    <string name="msg_camera_died_text">DroidDashcam: Kameraet sluttet å fungere uventet og startet på nytt…</string>
+    <string name="msg_auto_recording_service_was_stopped">Du har stoppet bakgrunnstjenesten for automatisk å starte videoopptak. Åpne programmet for å starte det igjen.</string>
+    <string name="msg_battery_optimization_tip_text">Batterioptimalisering -&gt; Alle apper -&gt; Finn appen -&gt; Ikke optimaliser/lagre</string>
+    <string name="msg_camera_died_text">Kameraet sluttet å fungere uventet og startet på nytt…</string>
     <string name="msg_camera_not_opened">Kameraet kjører ikke</string>
     <string name="msg_close_settings_before_recording_text">Lukk applikasjonspreferanser før du starter opptaket</string>
     <string name="msg_could_not_enable_microphone">Kunne ikke slå på mikrofonen, opptaket fortsetter uten lyd</string>
@@ -67,9 +66,8 @@
     <string name="msg_could_not_open_text">Kunne ikke åpne programmet…</string>
     <string name="msg_could_not_start_floating_window_text">Kunne ikke starte flytende vindu</string>
     <string name="msg_detected_impact_text">G-sensor har oppdaget et sjokk, videoen vil bli blokkert fra å bli overskrevet</string>
-    <string name="msg_dlg_found_old_videos_message">Det virker som du har installert appen på nytt. Du har gamle videoer som appen ikke kan slette under loop-opptak. Fjern dem manuelt på videoskjermen før du tar opp nye videoer. Fra Android 11+ mister applikasjonen tilgangsrettigheter til gamle filer etter ominstallering. Eller du kan gi skrivetillatelse til opptaksmappen</string>
-    <string name="msg_dlg_found_old_videos_title">Gamle videofiler funnet</string>
-    <string name="msg_dlg_incorrect_folder_path">Ugyldig mappe. Vennligst ikke endre banen. Du må gi tillatelse til en bestemt mappe. Du kan endre opptaksmappen i innstillingene.</string>
+    <string name="msg_dialog_camera_battery_optimization_subtitle">Deaktiver batterioptimalisering for denne appen i enhetsinnstillingene for å unngå fremtidige kamerafeil</string>
+    <string name="msg_dialog_camera_battery_optimization_title">Det oppsto en feil under tilgang til kameraet. Batterioptimalisering aktivert</string>
     <string name="msg_initializing_please_wait">Initialiserer… Vennligst vent!</string>
     <string name="msg_no_browser">Installer en nettapp for å åpne koblingen</string>
     <string name="msg_no_gps_signal">Ingen GPS-signal</string>
@@ -77,57 +75,50 @@
     <string name="msg_no_permission_to_delete_file">Kunne ikke slette videofilen. Du kan ha installert programmet på nytt og filtillatelsen gikk tapt. Prøv å avinstallere den manuelt</string>
     <string name="msg_not_enough_memory_free_some_text">Frigjør plass for å fortsette å spille inn video</string>
     <string name="msg_not_enough_memory_text">Ikke nok minne</string>
+    <string name="msg_notification_could_launch_app_activity">Programmets hovedskjerm kunne ikke startes fordi tillatelsen SYSTEM_ALERT_WINDOW (visning på toppen av alle andre programvinduer) ikke ble gitt eller enhetens skjerm ble slått av</string>
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Den angitte applikasjonen kunne ikke startes for å åpnes automatisk fordi tillatelsen \"vis på toppen av alle applikasjoner\" ikke ble gitt.</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">Applikasjonen kunne ikke åpnes fordi skjermen var slått av (låst).</string>
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Appen kunne ikke åpnes for å starte opptaket fordi skjermen var slått av (låst). Kjør en bakgrunnsopptakstjeneste (Watcher) for å fikse dette.</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Appen kunne ikke åpnes for å starte opptaket fordi tillatelsen «vis på toppen av alle apper» ikke ble gitt. Klikk for å oppgi</string>
     <string name="msg_photo_failed_to_take">Kunne ikke ta bilde</string>
     <string name="msg_photo_was_saved">Bildet er lagret</string>
     <string name="msg_please_close_other_app_and_restart_text">Lukk andre applikasjoner med kameraet og start denne applikasjonen på nytt</string>
-    <string name="msg_record_path_has_changed_text">Opptaksmappen er endret. Fordi utilgjengelig eller ingen tillatelse til å lagre (skrive) er gitt</string>
     <string name="msg_recorder_init_error_file_not_found">Slett gamle videoer, formater SD-kortet ditt, eller prøv en annen. Begrens også den maksimale videoopptaksplassen (mindre er bedre). Et stort antall lagrede videoer kan forårsake slike problemer. Se også FAQ om SD-kort i Innstillinger /FAQ. Du kan også prøve å skrive til telefonminnet i stedet for et eksternt kort</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Stopp opptaket. Ikke nok minne til å fortsette</string>
     <string name="msg_settings_opened_stopped_recording_text">Stopp opptaket… (innstillingene ble åpnet)</string>
-    <string name="msg_should_stop_recording_before_closing_service">Stopp først opptaket, så kan du lukke tjenesten</string>
     <string name="msg_stop_rec_too_fast_text">Vent et sekund før du stopper opptaket umiddelbart etter start</string>
     <string name="msg_stop_recording_to_change_camera_text">For å bytte kamera må du stoppe det gjeldende opptaket</string>
-    <string name="msg_to_close_this_service_close_app">For å lukke denne tjenesten, minimer eller lukk Droid Dashcam-appen først</string>
     <string name="msg_video_become_locked_text">Videoen vil bli blokkert fra å bli overskrevet.</string>
     <string name="msg_video_folder_size">Størrelsen på alle videoer fra den tillatte maksimale størrelsen</string>
-    <string name="msg_video_has_locked_text">Videoen er låst og lagret, neste video vil også bli merket som låst (kan avbrytes ved å klikke på knappen)</string>
     <string name="msg_video_rec_battery_not_enough_text">Det er ikke nok batteristrøm på enheten. Sett på lading eller start opptak hvis ladningen er over 1%%</string>
     <string name="msg_video_recorder_error">Noe gikk galt med videoopptakeren.</string>
     <string name="msg_voice_tts_lang_data_missing_text">Språkpakken for TTS (Android Text-to-Speech) er ikke installert. Slå på Internett for å starte nedlastingen</string>
-    <string name="msg_auto_recording_service_was_stopped">Du har stoppet automatisk start av videobakgrunnstjenesten. Åpne DroidDashcam-appen for å starte den igjen.</string>
-
+    <string name="notification_could_not_start_recording_service">Opptakstjenesten kunne ikke starte. Trykk for å deaktivere batterioptimalisering for denne appen</string>
     <string name="notification_service_aux_checker">lydkontakt (Aux)</string>
     <string name="notification_service_bl_checker">blåtann</string>
     <string name="notification_service_checker">analyse</string>
     <string name="notification_service_power_checker">lader</string>
-    <string name="notification_start_service_error_sub_text">Klikk på varselet for å starte programmet. Du har ikke tillatelse på toppen av alle applikasjoner eller enheten er låst</string>
-    <string name="notification_start_service_error_text">Kunne ikke starte opptakstjenesten ved oppstart av enheten</string>
     <string name="notification_stop_text">Stoppe</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">For automatisk på/av-opptak</string>
-    <string name="notification_could_not_start_recording_service">Opptakstjenesten kunne ikke starte. Trykk for å deaktivere batterioptimalisering for denne appen</string>
-
     <string name="permission_audio_dlg_msg">Lyd kreves for å ta opp et lydspor når du spiller inn video</string>
-    <string name="permission_audio_dlg_title">Lydoppløsning</string>
     <string name="permission_camera_dlg_msg">Kameraet er nødvendig for videoopptak og forhåndsvisning av kamera.</string>
-    <string name="permission_camera_dlg_title">Kameraoppløsning</string>
     <string name="permission_camera_request_canceled">Denne applikasjonen krever tillatelse for å bruke kameraet til å ta opp video. Men du avviste det. Lukker… Prøv å gi tillatelse til kameraet i systeminnstillingene til denne applikasjonen</string>
-    <string name="permission_location_dlg_explanation_msg">Plasseringen er nødvendig for å tegne koordinater, adresse og hastighet på den innspilte videoen, eller vise disse dataene på hovedskjermen (avhengig av innstillingene dine).</string>
-    <string name="permission_location_dlg_explanation_settings_msg">På Android 11 (R) må du manuelt velge \"Hele tiden (alle modus)\" i systeminnstillingene for å tillate plasseringen i bakgrunnen. Innstillingene åpnes etter dette vinduet.</string>
-    <string name="permission_location_dlg_msg">Plasseringen er nødvendig for å bestemme transporthastigheten ved hjelp av GPS-data, gjeldende adresse og koordinater for visning på skjermen og for opptak av undertekster på video</string>
-    <string name="permission_location_dlg_title">Stedstillatelse</string>
+    <string name="permission_location_dlg_msg">Plasseringen er nødvendig for å tegne koordinater, adresse og hastighet på den innspilte videoen, eller vise disse dataene på hovedskjermen (avhengig av innstillingene dine).</string>
+    <string name="permission_notifications_dlg_msg">Det kreves varslinger for å kunne vise bakgrunnsopptakstjenesten og opptaksstatus i varslingspanelet.</string>
     <string name="permission_storage_dlg_msg">Lagring er nødvendig for å lagre video i en delt mappe og for loop-opptaksmodus</string>
-    <string name="permission_storage_dlg_title">Lagringstillatelse</string>
-    <string name="permissions_audio_location_dlg_title">Lyd og plasseringsoppløsning</string>
-    <string name="permissions_audio_location_storage_dlg_title">Store for lyd, plassering og tillatelser</string>
-    <string name="permissions_audio_storage_dlg_title">Lagring av lyd og tillatelser</string>
-    <string name="permissions_camera_location_dlg_title">Kamera og plasseringsoppløsning</string>
+    <string name="permissions_bluetooth_missing_msg_text">Du må gi Nearby Devices (Bluetooth) tillatelse for automatisk opptak av hendelser. Dette kan gjøres i applikasjonens systeminnstillinger.</string>
     <string name="permissions_grant_storage_btn_text">Gi rettigheter</string>
-    <string name="permissions_location_storage_dlg_title">Plassering og lagringstillatelser</string>
-
+    <string name="permissions_saf_incorrect_path">Prøv å velge en annen bane (lokal lagring på enheten)</string>
+    <string name="photos_count_one">bilde</string>
+    <string name="photos_count_other">bilder</string>
+    <string name="photos_folder_name">Bilder</string>
     <string name="prefs_address_geocoding_no_support_text">Deaktivert fordi enheten ikke støtter geokoding</string>
-    <string name="prefs_animated_rec_circle_sum_text">Vis animasjon rundt knappen for å starte opptaket</string>
-    <string name="prefs_animated_rec_circle_text">Opptak av animasjon</string>
     <string name="prefs_audio_bitrate_text">Bitrate (kvalitet)</string>
+    <string name="prefs_audio_bt_recording_text">Ta opp lyd fra en Bluetooth-enhet</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">Bruk kun med Bluetooth-hodetelefoner. Hvis du kobler til hovedenheten (bilradioen) via Bluetooth, kan dette av en eller annen grunn automatisk utløse en telefonsamtale til standardnummeret på denne enheten</string>
+    <string name="prefs_audio_bt_recording_warning_title_text">Ikke bruk med hovedenhet (bilradio)!</string>
+    <string name="prefs_audio_priority_sum">Hvis aktivert, vil ikke andre applikasjoner kunne bruke mikrofonen. Hvis den er deaktivert, kan det hende at denne applikasjonen ikke kan ta opp lyd når flere applikasjoner kjører med mikrofonen (Android tillater ikke alltid samtidig bruk av mikrofonen)</string>
+    <string name="prefs_audio_priority_title">Prioriter lyd til denne appen</string>
     <string name="prefs_audio_rate_text">Prøvetakingsfrekvens</string>
     <string name="prefs_audio_recording_text">Lydopptak</string>
     <string name="prefs_audio_settings_sum_text">Kvalitet, av/på lydopptak</string>
@@ -150,23 +141,22 @@
     <string name="prefs_aux_auto_start_sum_text">Starter opptaket automatisk når den kobles til lydkontakten (AUX)</string>
     <string name="prefs_aux_auto_start_text">Kjør når den er koblet til lydkontakten (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Stopp når du er koblet fra lydkontakten (AUX)</string>
-    <string name="prefs_background_location_sum_text">Ingen tillatelse gitt. Det er nødvendig å oppdatere hastigheten, adressen og koordinatene mens du spiller inn video i bakgrunnen. Klikk her for å fikse det nå</string>
-    <string name="prefs_background_location_text">Plassering i bakgrunnen</string>
     <string name="prefs_battery_optimization_sum_text">Batterioptimalisering kan forhindre at appen fungerer som den skal (for eksempel ved å bruke kameraet eller oppdatere posisjonen mens du spiller inn en video i bakgrunnen). Klikk her for å deaktivere den for denne applikasjonen nå</string>
     <string name="prefs_battery_optimization_text">Batterioptimalisering</string>
+    <string name="prefs_beep_each_start_recording_sum_text">Signal ved begynnelsen av opptak av neste videofil</string>
+    <string name="prefs_beep_each_start_recording_text">Piper under opptak</string>
+    <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Enhetsprodusenten gir kanskje ikke tilgang til alle kameraer, så noen kan ikke åpnes</string>
+    <string name="prefs_camera_why_wide_lens_not_available_sum">Enhetsprodusenten tilbyr kanskje ikke et vidobjektivkamera for alle applikasjoner</string>
     <string name="prefs_day_night_mode_auto_text">Automatisk (dag /natt), etter tid</string>
     <string name="prefs_day_night_mode_day_text">Dag</string>
     <string name="prefs_day_night_mode_night_text">Natt</string>
-    <string name="prefs_donate_action_text">Donere</string>
-    <string name="donate_disable_ads_text">Donasjon, fjern annonser</string>
     <string name="prefs_donate_sum_text">Støtte applikasjonsutvikling</string>
-    <string name="donate_text">Donasjon</string>
     <string name="prefs_faq_sum_text">Ofte stilte spørsmål</string>
+    <string name="prefs_flashlight_turn_on_recording_automatically">Slå på lommelykten automatisk under opptak</string>
     <string name="prefs_float_size_increase_text">Størrelse på knapper på et flytende vindu</string>
-    <string name="from">fra</string>
-    <string name="to">før</string>
     <string name="prefs_fps_value_from_to_stable_text">(bare dag, stabil)</string>
     <string name="prefs_fps_value_from_to_text">(dag og natt)</string>
+    <string name="prefs_fps_why_fps_60_not_available_sum">Enhetsprodusenten gir kanskje ikke 60 FPS for alle applikasjoner</string>
     <string name="prefs_frequent_network_requests_text">(hyppige nettverksforespørsler)</string>
     <string name="prefs_g_sensor_force_high">Høy</string>
     <string name="prefs_g_sensor_force_low">Lav</string>
@@ -181,11 +171,18 @@
     <string name="prefs_info_more_category_text">Informasjon /Mer…</string>
     <string name="prefs_kill_services_sum_text">Det er innstillinger på enheten din som lar apper spille av automatisk og kjøre i bakgrunnen. Klikk her og legg til applikasjonen til unntakene (tillat autostart og så videre) for å la den kjøre i bakgrunnen og når skjermen er av, hvis det er forbudt</string>
     <string name="prefs_kill_services_text">Tillater bakgrunnsarbeid</string>
+    <string name="prefs_launch_activity_on_auto_rec_start_text">Åpne programmet når opptaket starter automatisk</string>
+    <string name="prefs_launch_app_auto_text">Start appen når videoopptaket starter</string>
+    <string name="prefs_launch_app_limitation_text">Med Android 11 og nyere kan det hende du ikke kan velge noen av de installerte appene ettersom systemet i seg selv begrenser appsynlighet (personvernregler)</string>
     <string name="prefs_launch_app_none_text">Ikke valgt</string>
     <string name="prefs_launch_app_text">Button Launcher-applikasjon</string>
     <string name="prefs_location_manager">Stedsadministrator (avviklet)</string>
     <string name="prefs_location_manager_gps_only_text">Oppdater plassering kun ved hjelp av GPS (ikke bruk nettverk)</string>
     <string name="prefs_location_method_provider_sum_text">Hvis hastighetsverdiene er dårlige, prøv den gamle metoden. Hvis verdiene er null eller sjelden oppdateres, prøv den nye metoden</string>
+    <string name="prefs_location_mode_balanced_text">Balanse mellom posisjonsnøyaktighet (koordinater), hastighet og batteristrømforbruk.</string>
+    <string name="prefs_location_mode_high_accuracy_text">Den mest nøyaktige plassering (koordinater) og hastighet på grunn av større batteristrømforbruk.</string>
+    <string name="prefs_location_mode_low_power_text">Lav nøyaktighet på plassering (koordinater) og hastighet på grunn av lavt batteriforbruk.</string>
+    <string name="prefs_location_mode_text">GPS-prioritet (batteri eller nøyaktighet)</string>
     <string name="prefs_location_provider_method_text">Stedsinnhentingsmetode (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS-oppdateringshastighet</string>
     <string name="prefs_meters_accuracy_value_text">meter med nøyaktighet</string>
@@ -195,9 +192,12 @@
     <string name="prefs_orientation_portrait">Portrett</string>
     <string name="prefs_other_auto_deleting_sum_text">Slett automatisk de eldste videoene under opptak hvis det ikke er nok plass til nye videoer</string>
     <string name="prefs_other_auto_deleting_text">Sammenhengende opptak</string>
+    <string name="prefs_other_date_time_text">dato og tid</string>
     <string name="prefs_other_keep_screen_on_text">La skjermen stå på</string>
+    <string name="prefs_other_keep_screen_on_while_recording_only_text">Hold skjermen på bare under opptak</string>
     <string name="prefs_other_miles_sum_text">Slå på for å bruke miles i stedet for kilometer</string>
     <string name="prefs_other_miles_text">Visning i miles, fot</string>
+    <string name="prefs_other_path_not_set">Opptaksbanen er ikke angitt, klikk her for å angi den</string>
     <string name="prefs_other_path_photo_text">Fotoplassering (mappe /bane)</string>
     <string name="prefs_other_path_text">Videoplassering (mappe/bane)</string>
     <string name="prefs_other_settings_sum_text">Videoplassering (lagre mappe), videovarighet, sløyfeopptak, G-sensor, GPS</string>
@@ -219,7 +219,6 @@
     <string name="prefs_policy_text">Personvernerklæring</string>
     <string name="prefs_rate_sum_text">Vurder appen i Play-butikken</string>
     <string name="prefs_rate_text">anslag</string>
-    <string name="prefs_recommendations_category_text">Anbefalinger</string>
     <string name="prefs_rules_auto_category_camera_motion_text">Bevegelsesdeteksjon med kamera</string>
     <string name="prefs_rules_auto_lock_file_sum_text">Blokker video fra automatisk sletting (overskriv) når treff oppdages</string>
     <string name="prefs_rules_auto_lock_file_text">G-sensor (støtsensor)</string>
@@ -227,9 +226,12 @@
     <string name="prefs_rules_auto_lock_file_vibrate_text">Vibrasjon når sjokk oppdages</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Start opptaket når bevegelse oppdages</string>
     <string name="prefs_rules_auto_start_speed_text">Start opptak når hastigheten er lik /høyere (basert på GPS)</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Du kan slå av dette alternativet slik at applikasjonen utfører automatisk opptak bare hvis applikasjonens bakgrunnstjeneste (Watcher) kjører.\n- Automatisk opptak for hendelser som lading, Bluetooth eller AUX kan utføres uten problemer opp til Android 7.1.\n- Fra Android 8 kan automatisk opptak uten bakgrunnsapplikasjonstjeneste (Watcher) bare utføres for Bluetooth-hendelser, og i andre tilfeller (ved lading eller AUX) må du først starte bakgrunnsapplikasjonstjenesten (Watcher) - ved å starte selve søknaden én gang.\n– Fra og med Android 11 uten bakgrunnsapp-tjenesten (Watcher), er tilgang til kameraet uten brukerinteraksjon kun mulig hvis telefonen er låst opp (skjerm på) og \"på toppen av alle apper\" tillatelse er gitt.\n– For Android 11 og nyere må du derfor starte applikasjonen manuelt én gang slik at bakgrunnstjenesten til applikasjonen (Watcher) begynner å ta opp automatisk under alle hendelser og når telefonskjermen er slått av.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Automatisk opptak selv om bakgrunnstjenesten (Watcher) ikke kjører</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Stopp opptaket etter</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Stopp opptaket når det ikke er noen bevegelse</string>
     <string name="prefs_rules_auto_stop_speed_text">Stopp opptak når hastigheten er lavere (basert på GPS)</string>
+    <string name="prefs_rules_bl_auto_start_only_if_charging_text">Tar kun opp når enheten lades</string>
     <string name="prefs_rules_video_space_text">Maksimal minnekapasitet for alle videoer (sløyfeopptak)</string>
     <string name="prefs_screen_autostart_sum_text">Når du starter applikasjonen, slå på/av lading, start opp systemet</string>
     <string name="prefs_screen_autostart_text">Autostart opptak</string>
@@ -241,8 +243,10 @@
     <string name="prefs_settings_fps_sum_text">Mer FPS - jevnere video, men raskere batteritømming. Det er bedre å sette den første verdien til den laveste (den andre kan være høyere) for bedre opptak i mørket</string>
     <string name="prefs_share_sum_text">Send denne appen til vennene dine</string>
     <string name="prefs_share_text">Dele denne</string>
+    <string name="prefs_shortcut_launcher_has_been_added">Snarvei (starter) er lagt til</string>
+    <string name="prefs_shortcut_rec_start_launcher_sum">For å starte/stoppe opptaket uten å starte hovedskjermen</string>
+    <string name="prefs_shortcut_rec_start_launcher_title">Legg til snarvei (starter)</string>
     <string name="prefs_show_audio_btn_text">På/av lydopptak</string>
-    <string name="prefs_show_buttons_sum_text">Knapper for å bytte kamera, på/av lydopptak, blits, nattmodus, blokkering av video fra å overskrive</string>
     <string name="prefs_show_buttons_text">Knapper på skjermen</string>
     <string name="prefs_show_camera_change_btn_text">Kamerabytte</string>
     <string name="prefs_show_day_night_mode_btn_text">Dag /Natt /Auto-modus</string>
@@ -252,10 +256,7 @@
     <string name="prefs_show_overlay_btn_text">Vis flytende vindu</string>
     <string name="prefs_show_status_bar_text">Vis systemstatuslinjen</string>
     <string name="prefs_show_take_photo_btn_text">For å lage et bilde</string>
-    <string name="prefs_show_ui_elements_sum_text">Adresse, hastighet, koordinater</string>
-    <string name="prefs_stabilization_eis_text">Elektronisk (digital, EIS) - anbefales</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Støttes ikke av gjeldende kamera. Produsenter begrenser ofte bruken - den er kun tilgjengelig i standard kameraapplikasjon</string>
-    <string name="prefs_stabilization_ois_text">Optisk (OIS)</string>
     <string name="prefs_start_stop_voice_sum_text">Lyd ved start, stopp eller opptaksfeil</string>
     <string name="prefs_start_stop_voice_text">Lydopptaksstatus</string>
     <string name="prefs_subtitles_address_text">Adressen</string>
@@ -266,7 +267,12 @@
     <string name="prefs_subtitles_date_format_text">Datoformat</string>
     <string name="prefs_subtitles_date_text">Dato tid)</string>
     <string name="prefs_subtitles_date_time_system_text">Systematisk</string>
+    <string name="prefs_subtitles_gpx_delay_title">Minimumsoppdateringshastighet for GPX</string>
+    <string name="prefs_subtitles_gpx_no_delay_entry">Alle koordinatoppdateringer</string>
+    <string name="prefs_subtitles_gpx_title">Lag GPX-fil for hver video</string>
     <string name="prefs_subtitles_in_english_text">engelske undertekster</string>
+    <string name="prefs_subtitles_position_bottom_sum_text">Overlegg undertekster nederst i videoen</string>
+    <string name="prefs_subtitles_position_bottom_text">Undertekster nederst</string>
     <string name="prefs_subtitles_settings_sum_text">Overlegg videotekster: Dato (klokkeslett), stedsadresse, koordinater og hastighet</string>
     <string name="prefs_subtitles_settings_text">Undertekstinnstillinger</string>
     <string name="prefs_subtitles_size_text">Øk tekststørrelsen</string>
@@ -280,8 +286,13 @@
     <string name="prefs_support_text">Støtte (tilbakemelding)</string>
     <string name="prefs_system_alert_window_sum_text">Tillat at denne appen vises over alle andre apper. Dette er nødvendig for å automatisk starte/stoppe videoopptak eller for å vise et flytende vindu</string>
     <string name="prefs_system_alert_window_text">Oppløsning på toppen av alle vinduer</string>
+    <string name="prefs_theme_mode_dark">Mørkt tema</string>
+    <string name="prefs_theme_mode_light">Lett tema</string>
+    <string name="prefs_theme_mode_system_auto">Som i systemet (automatisk)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Gå tilbake til startskjermen (opptak) for å bruke denne innstillingen og starte sporingstjenesten</string>
     <string name="prefs_toolbar_title_setting">Innstillinger</string>
+    <string name="prefs_translate_sum_text">Hjelp til å forbedre eller fikse oversettelsen av tekst på ditt språk</string>
+    <string name="prefs_translate_text">Søknadsoversettelse</string>
     <string name="prefs_ui_click_none_text">Ingenting å gjøre</string>
     <string name="prefs_ui_click_start_stop_rec_text">Start/stopp opptak</string>
     <string name="prefs_ui_click_text">Rask trykk på skjermen</string>
@@ -291,15 +302,21 @@
     <string name="prefs_value_secs_one_text">sekund</string>
     <string name="prefs_value_secs_other_text">sekunder</string>
     <string name="prefs_version_text">Applikasjonsversjon</string>
+    <string name="prefs_vibrate_rec_start_stop_text">Vibrasjon ved start eller stopp av opptak</string>
     <string name="prefs_video_bitrate_text">Bitrate (kvalitet)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kamerakontroll scenemodus (natt)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kamerakontroll Scene-modus (dag)</string>
+    <string name="prefs_video_control_scene_mode_beach_text">Strand (lyst vær)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Generelt /Ansiktsprioritet</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (High Dynamic Range)</string>
     <string name="prefs_video_control_scene_mode_night_text">Natt (for dårlige lysforhold)</string>
+    <string name="prefs_video_control_scene_mode_snow_text">Snø</string>
+    <string name="prefs_video_control_scene_mode_sunset_text">Solnedgang</string>
     <string name="prefs_video_day_night_auto_mode_day_start_time_text">Soloppgangstid (Soloppgang)</string>
     <string name="prefs_video_day_night_auto_mode_night_start_time_text">Solnedgangstid (solnedgang)</string>
     <string name="prefs_video_day_night_mode_text">Dag-, natt- eller automodus</string>
+    <string name="prefs_video_exposure_auto_mode_sum_text">Deaktiver hvis du vil manuelt kontrollere sensorbildevarighet, eksponeringstid, følsomhet og blenderåpning</string>
+    <string name="prefs_video_exposure_auto_mode_text">Automatisk eksponeringsmodus</string>
     <string name="prefs_video_exposure_night_text">Eksponeringskompensasjon (natt)</string>
     <string name="prefs_video_exposure_text">Eksponeringskompensasjon (dag)</string>
     <string name="prefs_video_flip_x_sum_text">Horisontal speiling av video. Bildet endres kun for videoopptak, forhåndsvisningen endres ikke</string>
@@ -319,22 +336,30 @@
     <string name="prefs_video_size_sum_text">Større størrelse - raskere batteritømming</string>
     <string name="prefs_video_space_unlimited">Ubegrenset</string>
     <string name="prefs_video_stabilization_text">Videostabilisering</string>
+    <string name="prefs_warning_location_precise_sum_text">Dette er nødvendig for å få mest mulig nøyaktig GPS-basert hastighet, samt adresse og koordinater. Klikk for å sende inn</string>
+    <string name="prefs_warning_location_precise_text">Tillatelse til nøyaktig plassering</string>
+    <string name="prefs_warning_notifications_sum_text">Påkrevd for å kunne vise bakgrunnsopptakstjenesten og statuser på varslingspanelet. Klikk for å sende inn</string>
+    <string name="prefs_warning_notifications_text">Varslingstillatelse</string>
+    <string name="prefs_warning_permission_bluetooth_sum_text">Automatisk opptak over Bluetooth-tilkoblinger krever tillatelse. Klikk her for å sende inn</string>
+    <string name="prefs_warning_permission_bluetooth_text">Bluetooth-tillatelse ikke gitt</string>
+    <string name="prefs_warnings_text">Advarsler</string>
+    <string name="prefs_zoom_out_desc_text">For å få tilgang til ultravidvinkelkameraet (objektivet), kan du stille inn zoomfaktoren</string>
     <string name="prefs_zoom_text">Digital zoom (zoom)</string>
-
+    <string name="rec_audio_silence_text">For øyeblikket er ikke lydopptak mulig fordi mikrofonen blir fanget opp av en annen applikasjon</string>
+    <string name="rec_available_space_text">Tilgjengelig</string>
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">Å rette</string>
     <string name="rec_fix_text">Å rette</string>
-    <string name="rec_available_space_text">Tilgjengelig</string>
     <string name="rec_gps_status_satellites_few_text">satellitter</string>
     <string name="rec_gps_status_satellites_many_text">satellitter</string>
     <string name="rec_gps_status_satellites_one_text">satellitt</string>
     <string name="rec_gps_status_satellites_other_text">satellitter</string>
-    <string name="rec_location_text">plassering</string>
     <string name="rec_gps_text">Gps</string>
+    <string name="rec_location_text">plassering</string>
     <string name="rec_network_text">Nett</string>
     <string name="rec_off_text">Av</string>
     <string name="rec_on_text">Inkl.</string>
-
+    <string name="rec_service_msg">Personvern: Alle videoer du tar opp vil bare bli lagret på din lokale enhet. Applikasjonen sikkerhetskopierer ikke videoene dine (har ingen tilkoblinger til servere)\n\nAppen vil fortsette å kjøre i bakgrunnen (forgrunnstjenesten som vises i varslingslinjen) hvis du starter et nytt opptak og går tilbake til startskjermen, bytter til en annen app eller låser telefonen for å kunne fortsette opptaket, eller hvis du slår på funksjoner for automatisk opptak (hvis du lukker bakgrunnstjenesten, vil ikke disse funksjonene fungere).</string>
     <string name="recording_start_text">Start opptak</string>
     <string name="recording_started_failed_text">Feil ved start av opptak</string>
     <string name="recording_started_with_audio_text">Et nytt videoopptak med lydopptak har startet</string>
@@ -347,15 +372,14 @@
     <string name="recording_text">Opptak…</string>
     <string name="recording_voice_started_text">Opptaket har begynt</string>
     <string name="recording_voice_stopped_text">Opptaket stoppet</string>
-
-    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Appen kunne ikke åpnes for å starte opptaket fordi tillatelsen «vis på toppen av alle apper» ikke ble gitt. Klikk for å oppgi</string>
-    <string name="service_watch_on_boot_completed_text">Når du slår på enheten</string>
-
+    <string name="reset">utslipp</string>
     <string name="storage_external_single">MicroSD-kort</string>
     <string name="storage_external_single_free">MicroSD-kort</string>
     <string name="storage_phone">Telefonminne</string>
     <string name="storage_phone_free">Telefonminne</string>
-
+    <string name="to">før</string>
+    <string name="unknown">Ukjent</string>
+    <string name="videos_ask_which_player">Spør hvilken spiller du skal spille i</string>
     <string name="videos_count_one">video</string>
     <string name="videos_count_other">video</string>
     <string name="videos_deleting_text">Sletter filer… Vennligst vent!</string>
@@ -382,156 +406,9 @@
     <string name="videos_menu_storage">Hukommelse</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Åpne applikasjonsinnstillingene og gi tilgang til lagringen i telefonminnet</string>
     <string name="videos_no_storage_permission_dlg_title_text">Ingen lagringstillatelse</string>
-    <string name="videos_select_files_for_deleting">Velg videofiler som skal slettes</string>
+    <string name="videos_no_storage_saf_permission_dlg_msg_text">Velg en mappe for poster</string>
     <string name="videos_storage_select_dlg_title">Velg videolagring</string>
     <string name="videos_temporary_folder_text">Tidsinnstilte videoer</string>
     <string name="videos_toolbar_subtitle">Videoopptak</string>
-
-	
-    <string name="prefs_app_launch_list_loading_msg_text">Vennligst vent. Søknadslisten lastes fortsatt inn…</string>
-    <string name="prefs_warnings_text">Advarsler</string>
-    <string name="prefs_beep_each_start_recording_sum_text">Signal ved begynnelsen av opptak av neste videofil</string>
-    <string name="prefs_beep_each_start_recording_text">Piper under opptak</string>
-    <string name="prefs_translate_text">Søknadsoversettelse</string>
-    <string name="prefs_translate_sum_text">Hjelp til å forbedre eller fikse oversettelsen av tekst på ditt språk</string>
-    <string name="prefs_launch_app_auto_text">Start appen når videoopptaket starter</string>
-
-    <string name="msg_dialog_camera_battery_optimization_title">Det oppsto en feil under tilgang til kameraet. Batterioptimalisering aktivert</string>
-    <string name="msg_dialog_camera_battery_optimization_subtitle">Deaktiver batterioptimalisering for denne appen i enhetsinnstillingene for å unngå fremtidige kamerafeil</string>
-
-	
-    <string name="prefs_rules_auto_start_without_service_text">Automatisk opptak selv om bakgrunnstjenesten (Watcher) ikke kjører</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Du kan slå av dette alternativet slik at applikasjonen utfører automatisk opptak bare hvis applikasjonens bakgrunnstjeneste (Watcher) kjører.\n- Automatisk opptak for hendelser som lading, Bluetooth eller AUX kan utføres uten problemer opp til Android 7.1.\n- Fra Android 8 kan automatisk opptak uten bakgrunnsapplikasjonstjeneste (Watcher) bare utføres for Bluetooth-hendelser, og i andre tilfeller (ved lading eller AUX) må du først starte bakgrunnsapplikasjonstjenesten (Watcher) - ved å starte selve søknaden én gang.\n– Fra og med Android 11 uten bakgrunnsapp-tjenesten (Watcher), er tilgang til kameraet uten brukerinteraksjon kun mulig hvis telefonen er låst opp (skjerm på) og \"på toppen av alle apper\" tillatelse er gitt.\n– For Android 11 og nyere må du derfor starte applikasjonen manuelt én gang slik at bakgrunnstjenesten til applikasjonen (Watcher) begynner å ta opp automatisk under alle hendelser og når telefonskjermen er slått av.</string>
-
-	
-    <string name="prefs_subtitles_position_bottom_text">Undertekster nederst</string>
-    <string name="prefs_subtitles_position_bottom_sum_text">Overlegg undertekster nederst i videoen</string>
-
-	
-    <string name="accept_text">jeg aksepterer</string>
-
-    <string name="prefs_launch_app_limitation_text">Med Android 11 og nyere kan det hende du ikke kan velge noen av de installerte appene ettersom systemet i seg selv begrenser appsynlighet (personvernregler)</string>
-
-    <string name="prefs_rules_bl_auto_start_only_if_charging_text">Tar kun opp når enheten lades</string>
-
-    <string name="prefs_other_keep_screen_on_while_recording_only_text">Hold skjermen på bare under opptak</string>
-    <string name="prefs_other_date_time_text">dato og tid</string>
-
-    
-    
-
-    
-
-    <string name="prefs_launch_activity_on_auto_rec_start_text">Åpne programmet når opptaket starter automatisk</string>
-
-    <string name="msg_notification_could_launch_app_activity">Programmets hovedskjerm kunne ikke startes fordi tillatelsen SYSTEM_ALERT_WINDOW (visning på toppen av alle andre programvinduer) ikke ble gitt eller enhetens skjerm ble slått av</string>
-
-    <string name="prefs_zoom_out_desc_text">For å få tilgang til ultravidvinkelkameraet (objektivet), kan du stille inn zoomfaktoren</string>
-    <string name="prefs_warning_location_precise_sum_text">Dette er nødvendig for å få mest mulig nøyaktig GPS-basert hastighet, samt adresse og koordinater. Klikk for å sende inn</string>
-    <string name="prefs_warning_location_precise_text">Tillatelse til nøyaktig plassering</string>
-    <string name="prefs_warning_notifications_sum_text">Påkrevd for å kunne vise bakgrunnsopptakstjenesten og statuser på varslingspanelet. Klikk for å sende inn</string>
-    <string name="prefs_warning_notifications_text">Varslingstillatelse</string>
-
-    <string name="donation_dlg_limited_ads_message_text">For mindre donasjoner fjernes reklame kun på hovedskjermen</string>photo
-    <string name="photos_folder_name">Bilder</string>
-
-    <string name="photos_count_one">bilde</string>
-    <string name="photos_count_other">bilder</string>
-
-    <string name="prefs_audio_priority_title">Prioriter lyd til denne appen</string>
-    <string name="prefs_audio_priority_sum">Hvis aktivert, vil ikke andre applikasjoner kunne bruke mikrofonen. Hvis den er deaktivert, kan det hende at denne applikasjonen ikke kan ta opp lyd når flere applikasjoner kjører med mikrofonen (Android tillater ikke alltid samtidig bruk av mikrofonen)</string>
-    <string name="rec_audio_silence_text">For øyeblikket er ikke lydopptak mulig fordi mikrofonen blir fanget opp av en annen applikasjon</string>
-
-    <string name="prefs_subtitles_gpx_title">Lag GPX-fil for hver video</string>
-    <string name="prefs_subtitles_gpx_delay_title">Minimumsoppdateringshastighet for GPX</string>
-    <string name="prefs_subtitles_gpx_no_delay_entry">Alle koordinatoppdateringer</string>
-
-    <string name="prefs_shortcut_rec_start_launcher_title">Legg til snarvei (starter)</string>
-    <string name="prefs_shortcut_rec_start_launcher_sum">For å starte/stoppe opptaket uten å starte hovedskjermen</string>
-
-    <string name="prefs_camera_why_wide_lens_not_available_sum">Enhetsprodusenten tilbyr kanskje ikke et vidobjektivkamera for alle applikasjoner</string>
-    <string name="prefs_fps_why_fps_60_not_available_sum">Enhetsprodusenten gir kanskje ikke 60 FPS for alle applikasjoner</string>
-    <string name="prefs_video_control_scene_mode_sunset_text">Solnedgang</string>
-    <string name="prefs_video_control_scene_mode_snow_text">Snø</string>
-    <string name="prefs_video_control_scene_mode_beach_text">Strand (lyst vær)</string>
-
-    <string name="prefs_video_exposure_auto_mode_text">Automatisk eksponeringsmodus</string>
-    <string name="prefs_video_exposure_auto_mode_sum_text">Deaktiver hvis du vil manuelt kontrollere sensorbildevarighet, eksponeringstid, følsomhet og blenderåpning</string>
-
-    <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Enhetsprodusenten gir kanskje ikke tilgang til alle kameraer, så noen kan ikke åpnes</string>
-
-    <string name="camera_msg_error_non_exposed_error">Kunne ikke åpne det valgte kameraet. Det har seg slik at ikke alle skjulte kameraer kan brukes av noen applikasjoner. Mange produsenter tillater kun bruk i deres opprinnelige applikasjoner. Standardkameraet åpnes.</string>
-
-    <string name="videos_ask_which_player">Spør hvilken spiller du skal spille i</string>
-
-    <string name="prefs_location_mode_text">GPS-prioritet (batteri eller nøyaktighet)</string>
-    <string name="prefs_location_mode_balanced_text">Balanse mellom posisjonsnøyaktighet (koordinater), hastighet og batteristrømforbruk.</string>
-    <string name="prefs_location_mode_high_accuracy_text">Den mest nøyaktige plassering (koordinater) og hastighet på grunn av større batteristrømforbruk.</string>
-    <string name="prefs_location_mode_low_power_text">Lav nøyaktighet på plassering (koordinater) og hastighet på grunn av lavt batteriforbruk.</string>
-
-    <string name="prefs_location_accuracy_explanation">Kun tilgjengelig for Fused Location Provider API og høy nøyaktighetsprioritet eller Location Manager</string>
-
-	<string name="rec_service_msg">Personvern: Alle videoer du tar opp vil bare bli lagret på din lokale enhet. Applikasjonen sikkerhetskopierer ikke videoene dine (har ingen tilkoblinger til servere)\n\nAppen vil fortsette å kjøre i bakgrunnen (forgrunnstjenesten som vises i varslingslinjen) hvis du starter et nytt opptak og går tilbake til startskjermen, bytter til en annen app eller låser telefonen for å kunne fortsette opptaket, eller hvis du slår på funksjoner for automatisk opptak (hvis du lukker bakgrunnstjenesten, vil ikke disse funksjonene fungere).</string>
-
-	
-
-	
-
-	
-
-	
-
-    
-
-    
-
-    <string name="permissions_saf_incorrect_path">Prøv å velge en annen bane (lokal lagring på enheten)</string>
-
-	<string name="prefs_vibrate_rec_start_stop_text">Vibrasjon ved start eller stopp av opptak</string>
-
-    <string name="donation_subs_text">Doner månedlig</string>
-    <string name="donation_any_amount_text">ingen reklame for noe beløp</string>
-    <string name="donation_subs_any_amount_text">Dessuten fjernes reklame fullstendig når du abonnerer for et hvilket som helst beløp.</string>
-    <string name="donation_remove_ads_by_any_amount_text">Fjern annonser for alltid med en engangsdonasjon uansett beløp. Du kan også donere et hvilket som helst beløp månedlig for å fjerne annonser</string>
-
-    <string name="prefs_audio_bt_recording_text">Ta opp lyd fra en Bluetooth-enhet</string>
-
-    <string name="prefs_audio_bt_recording_warning_title_text">Ikke bruk med hovedenhet (bilradio)!</string>
-    <string name="prefs_audio_bt_recording_warning_message_text">Bruk kun med Bluetooth-hodetelefoner. Hvis du kobler til hovedenheten (bilradioen) via Bluetooth, kan dette av en eller annen grunn automatisk utløse en telefonsamtale til standardnummeret på denne enheten</string>
-
-    <string name="prefs_warning_permission_bluetooth_sum_text">Automatisk opptak over Bluetooth-tilkoblinger krever tillatelse. Klikk her for å sende inn</string>
-    <string name="prefs_warning_permission_bluetooth_text">Bluetooth-tillatelse ikke gitt</string>
-
-    
-    
-
-    
-
-    
-    
-
-    
-
-    <string name="msg_notification_could_not_start_recording_with_locked_screen">Appen kunne ikke åpnes for å starte opptaket fordi skjermen var slått av (låst). Kjør en bakgrunnsopptakstjeneste (Watcher) for å fikse dette.</string>
-    <string name="msg_notification_could_not_open_with_locked_screen">Applikasjonen kunne ikke åpnes fordi skjermen var slått av (låst).</string>
-
-	
-    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Den angitte applikasjonen kunne ikke startes for å åpnes automatisk fordi tillatelsen \"vis på toppen av alle applikasjoner\" ikke ble gitt.</string>
-    
-
-    
-
-    <string name="permissions_bluetooth_missing_msg_text">Du må gi Nearby Devices (Bluetooth) tillatelse for automatisk opptak av hendelser. Dette kan gjøres i applikasjonens systeminnstillinger.</string>
-
-    
-
-    
-
-    
-
-    
-
-    <string name="permission_notifications_dlg_msg">Det kreves varslinger for å kunne vise bakgrunnsopptakstjenesten og opptaksstatus i varslingspanelet.</string>
-
-    
+    <string name="zoom_text">zoom</string>
 </resources>

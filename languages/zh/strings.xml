@@ -1,66 +1,65 @@
 <resources>
     <!--<string name="app_name">Droid Dashcam - 驾驶 DVR</string>-->
-    <string name="app_name">Droid Dashcam</string>
-
+    <string name="accept_text">我接受</string>
     <string name="any_text">任何</string>
-    <string name="close">关闭</string>
-    <string name="default_text">默认</string>
-    <string name="disabled_text">无障碍</string>
-    <string name="donate_dialog_item_no_ads_text">（无广告）</string>
-    <string name="zoom_text">缩放</string>
-    <string name="reset">重置</string>
-    <string name="unknown">未知</string>
-
+    <string name="app_name">Droid Dashcam</string>
     <string name="camera">相机</string>
     <string name="camera_aperture">光圈</string>
     <string name="camera_back">摄像头（后）</string>
     <string name="camera_background_permission_error_msg">您需要运行应用程序一次才能在后台访问摄像头</string>
     <string name="camera_error_background_tried_use_text">在 Android 11+ 上，在后台开始录制之前，应用程序必须至少运行并且可见一次才能在后台使用摄像头。因此，重启设备后，使应用程序可见，之后不要关闭录音服务，它应该留在通知中心。</string>
-    <string name="camera_error_busy">DroidDashcam：视频录制已停止，因为其他应用程序正在使用该摄像头</string>
-    <string name="camera_error_text">DroidDashcam：视频录制停止，因为设备的摄像头停止工作</string>
+    <string name="camera_error_busy">视频录制已停止，因为其他应用程序正在使用该摄像头</string>
+    <string name="camera_error_text">视频录制停止，因为设备的摄像头停止工作</string>
     <string name="camera_external">外接 USB 摄像头</string>
     <string name="camera_focal_length">焦距</string>
+    <string name="camera_fov_horbizonal_text">水平</string>
     <string name="camera_fov_text">视角 (16: 9)</string>
     <string name="camera_fov_vertical_text">垂直</string>
-    <string name="camera_fov_horbizonal_text">水平</string>
     <string name="camera_front">摄像头（前）</string>
     <string name="camera_msg_error_in_use_text">摄像头正被另一个应用程序使用。请不要在录制视频时运行其他可能正在使用摄像头的应用程序。 Android 一次只允许一个应用使用摄像头</string>
+    <string name="camera_msg_error_non_exposed_error">无法打开所选摄像头。碰巧的是，并非所有隐藏摄像头都可以被任何应用程序使用。许多制造商只允许在其本机应用程序中使用它们。默认相机将打开。</string>
     <string name="camera_msg_error_unknown_text">暂时无法在您的设备上打开摄像头设备（相机系统错误）</string>
     <string name="camera_support_error">使用摄像头时发生错误。</string>
-
+    <string name="close">关闭</string>
+    <string name="default_text">默认</string>
     <string name="dialog_camera_not_found_msg_text">未在此设备上发现内置或外接摄像头。此应用即将关闭…</string>
     <string name="dialog_camera_not_found_text">未找到摄像头</string>
     <string name="dialog_go_to_settings_text">打开设置</string>
     <string name="dialog_report_the_error_text_btn">报告错误</string>
     <string name="dialog_select_camera_text">选择摄像头</string>
-    <string name="dialog_skip_btn_title">跳过</string>
     <string name="dialog_unlock_video_text">解锁此视频（意味着此视频将允许被覆盖）？</string>
-
+    <string name="disabled_text">无障碍</string>
+    <string name="donate_dialog_item_no_ads_text">（无广告）</string>
+    <string name="donate_disable_ads_text">捐赠，删除广告</string>
     <string name="donate_success_thanks_msg_text">多谢您的支持！</string>
+    <string name="donate_text">捐赠</string>
+    <string name="donation_any_amount_text">不做任何金额的广告</string>
     <string name="donation_dlg_has_ads_text">要免除广告，捐赠必须达到或更多。</string>
+    <string name="donation_dlg_limited_ads_message_text">对于较小的捐款，仅在主屏幕上删除广告</string>
     <string name="donation_dlg_no_ads_text">您现在已免除任何广告。</string>
     <string name="donation_level_text">您的捐赠级别：</string>
     <string name="donation_purchase_info_loading_text">购物信息尚未上传。您是否在线并登录了您的 Google 帐户？</string>
-    <string name="donation_subs_check_box_text">每月捐赠（任意金额均可免除广告）</string>
+    <string name="donation_remove_ads_by_any_amount_text">通过一次性捐赠任意金额，永久删除广告。您还可以每月捐赠任意金额来删除广告</string>
+    <string name="donation_subs_any_amount_text">此外，当您订阅任何金额时，广告将被完全删除。</string>
     <string name="donation_subs_manage_btn_text">退订</string>
-
+    <string name="donation_subs_text">每月捐款</string>
     <string name="format_altitude">高度</string>
     <string name="format_degrees">坐标</string>
     <string name="format_gb">GB</string>
+    <string name="format_gps_speed">GPS速度</string>
     <string name="format_hz">Hz</string>
     <string name="format_kbits">kbps</string>
     <string name="format_mbits">Mbps</string>
     <string name="format_meters">m</string>
     <string name="format_minutes">分钟</string>
-    <string name="format_gps_speed">GPS速度</string>
     <string name="format_speed_measure_kilometers">公里/小时</string>
     <string name="format_speed_measure_miles">时速</string>
-
-    <string name="msg_activity_battery_is_not_ignoring_msg_text">Droid Dashcam 处于电池优化模式。如果摄像头没有在工作或出现其它问题，请将此应用程序移出电池优化模式应用名单。</string>
+    <string name="from">从</string>
+    <string name="msg_activity_battery_is_not_ignoring_msg_text">该应用程序不排除在电池优化之外。如果相机没有在后台运行或其他情况，则将此应用程序添加到省电模式的例外中。</string>
     <string name="msg_android_r_deleting_manual_tip_text">如果您在 Android 11 上重新安装了该应用程序，则必须手动删除旧文件</string>
-    <string name="msg_app_has_lost_camera_control_text">DroidDashcam 已失去摄像头控制。请再次打开 Droid Dashcam 以重新控制摄像头。</string>
-    <string name="msg_battery_optimization_tip_text">电池优化 -&gt; 所有应用 -&gt; Droid Dashcam -&gt; 不要优化（无优化）/保存</string>
-    <string name="msg_camera_died_text">DroidDashcam：摄像头意外停止工作，正在重新启动…</string>
+    <string name="msg_auto_recording_service_was_stopped">您已停止自动开始录像的后台服务。打开应用程序以再次启动它。</string>
+    <string name="msg_battery_optimization_tip_text">电池优化 -&gt; 所有应用 -&gt; 查找应用 -&gt; 不优化/保存</string>
+    <string name="msg_camera_died_text">摄像头意外停止工作，正在重新启动…</string>
     <string name="msg_camera_not_opened">摄像头未运行</string>
     <string name="msg_close_settings_before_recording_text">开始录制前请先关闭设置菜单</string>
     <string name="msg_could_not_enable_microphone">无法打开麦克风，录像将没有声音</string>
@@ -68,9 +67,8 @@
     <string name="msg_could_not_open_text">无法打开应用程序…</string>
     <string name="msg_could_not_start_floating_window_text">无法启动浮动窗口</string>
     <string name="msg_detected_impact_text">G-sensor 检测到震动，视频将阻止被覆盖</string>
-    <string name="msg_dlg_found_old_videos_message">您好像重新安装了该应用程序。您有应用程序无法删除的旧视频。在录制新视频之前，在视频列表中手动删除它们。从 Android 11+ 开始，应用程序在重新安装后将失去对旧文件的访问权限，或者你可以给录音文件夹写权限</string>
-    <string name="msg_dlg_found_old_videos_title">找到旧的视频文件</string>
-    <string name="msg_dlg_incorrect_folder_path">文件夹无效。请不要更改路径。您必须授予特定文件夹的权限。您可以在设置中更改录制文件夹。</string>
+    <string name="msg_dialog_camera_battery_optimization_subtitle">在您的设备设置中禁用此应用的电池优化，以避免将来出现相机错误</string>
+    <string name="msg_dialog_camera_battery_optimization_title">访问相机时发生错误。启用电池优化</string>
     <string name="msg_initializing_please_wait">正在初始化…请稍候！</string>
     <string name="msg_no_browser">请安装浏览器以打开链接</string>
     <string name="msg_no_gps_signal">没有 GPS 信号</string>
@@ -78,57 +76,50 @@
     <string name="msg_no_permission_to_delete_file">无法删除视频文件。您可能已经重新安装了应用程序并且Droid Dashcam丢失了文件读写权限，请尝试手动删除它们。</string>
     <string name="msg_not_enough_memory_free_some_text">释放一些空间以继续录制视频</string>
     <string name="msg_not_enough_memory_text">内存不足</string>
+    <string name="msg_notification_could_launch_app_activity">无法启动应用程序的主屏幕，因为未授予 SYSTEM_ALERT_WINDOW（显示在所有其他应用程序窗口之上）权限或设备的屏幕已关闭</string>
+    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">指定的应用程序无法启动自动打开，因为未授予“显示在所有应用程序之上”权限。</string>
+    <string name="msg_notification_could_not_open_with_locked_screen">由于屏幕已关闭（锁定），因此无法打开应用程序。</string>
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">由于屏幕已关闭（锁定），因此无法打开应用程序以开始录制。运行后台记录服务（Watcher）来解决此问题。</string>
+    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">无法打开应用程序开始录制，因为未授予“显示在所有应用程序之上”权限。点击提供</string>
     <string name="msg_photo_failed_to_take">无法拍照</string>
     <string name="msg_photo_was_saved">照片已保存</string>
     <string name="msg_please_close_other_app_and_restart_text">关闭其他使用摄像头的应用程序并重新启动此应用程序</string>
-    <string name="msg_record_path_has_changed_text">录制文件夹已更改。因为旧文件夹不可用或没有写入权限</string>
     <string name="msg_recorder_init_error_file_not_found">尝试删除旧视频、格式化 SD 卡或尝试其他视频。此外，限制最大视频录制空间（越少越好）。大量保存的视频会导致此类问题。另请参阅设置/常见问题中有关 SD 卡的常见问题。您也可以尝试写入手机内存而不是SD卡</string>
     <string name="msg_recording_stopping_not_enough_memory_text">停止录音。内存不足，无法继续</string>
     <string name="msg_settings_opened_stopped_recording_text">设置已打开，停止录音…</string>
-    <string name="msg_should_stop_recording_before_closing_service">先停止录音，然后可以关闭录制</string>
     <string name="msg_stop_rec_too_fast_text">开始后请稍等片刻再停止录音</string>
     <string name="msg_stop_recording_to_change_camera_text">要更换摄像头，您必须停止当前的录制</string>
-    <string name="msg_to_close_this_service_close_app">要关闭此服务，请首先最小化或关闭 Droid Dashcam 应用程序</string>
     <string name="msg_video_become_locked_text">视频将阻止被覆盖。</string>
     <string name="msg_video_folder_size">录制可用空间</string>
-    <string name="msg_video_has_locked_text">视频被锁定并保存，下一个视频也会被标记为锁定（点击按钮可以取消）</string>
     <string name="msg_video_rec_battery_not_enough_text">设备上的电池电量不足。请插入充电器，当电量高于 1%%时，系统将自动开启录制</string>
     <string name="msg_video_recorder_error">录像机出了点问题。</string>
     <string name="msg_voice_tts_lang_data_missing_text">未安装 文字转语音 (Android Text-to-Speech，TTS) 引擎。连接互联网以便程序开始下载</string>
-    <string name="msg_auto_recording_service_was_stopped">您已停止自动启动视频后台服务。打开 DroidDashcam 应用程序以再次启动它。</string>
-
+    <string name="notification_could_not_start_recording_service">录制服务无法启动。点按可禁用此应用的电池优化</string>
     <string name="notification_service_aux_checker">AUX（音频插孔）</string>
     <string name="notification_service_bl_checker">蓝牙</string>
     <string name="notification_service_checker">分析</string>
     <string name="notification_service_power_checker">充电中</string>
-    <string name="notification_start_service_error_sub_text">单击通知以启动应用程序。您无权使用所有应用程序或设备已被锁定</string>
-    <string name="notification_start_service_error_text">无法在设备启动时启动录制服务</string>
     <string name="notification_stop_text">停止</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">用于自动开/关录音</string>
-    <string name="notification_could_not_start_recording_service">录制服务无法启动。点按可禁用此应用的电池优化</string>
-
     <string name="permission_audio_dlg_msg">录制视频时需要音频来录制音轨</string>
-    <string name="permission_audio_dlg_title">音频分辨率</string>
     <string name="permission_camera_dlg_msg">摄像头是视频录制和摄像头预览所必需的。</string>
-    <string name="permission_camera_dlg_title">相机分辨率</string>
     <string name="permission_camera_request_canceled">此应用程序需要使用相机录制视频的权限。但是你拒绝了。正在关闭…尝试在此应用程序的系统设置中授予相机权限</string>
-    <string name="permission_location_dlg_explanation_msg">需要该位置来在录制的视频上绘制坐标、地址和速度，或在主屏幕上显示此数据（取决于您的设置）。</string>
-    <string name="permission_location_dlg_explanation_settings_msg">在 Android 11 (R) 上，您需要在系统首选项中手动选择“始终（任何模式）”以允许在后台进行定位。设置将在此窗口之后打开。</string>
-    <string name="permission_location_dlg_msg">位置权限对于使用 GPS 数据确定运输速度、当前地址和坐标是必要的，以便在屏幕上显示并在视频上录制字幕</string>
-    <string name="permission_location_dlg_title">位置权限</string>
+    <string name="permission_location_dlg_msg">需要该位置来在录制的视频上绘制坐标、地址和速度，或在主屏幕上显示此数据（取决于您的设置）。</string>
+    <string name="permission_notifications_dlg_msg">需要通知才能在通知面板中显示后台录音服务和录音状态。</string>
     <string name="permission_storage_dlg_msg">需要存储权限才能将视频保存到共享文件夹和循环录制模式</string>
-    <string name="permission_storage_dlg_title">存储权限</string>
-    <string name="permissions_audio_location_dlg_title">音频和位置分辨率</string>
-    <string name="permissions_audio_location_storage_dlg_title">音频、位置和权限存储</string>
-    <string name="permissions_audio_storage_dlg_title">音频和权限存储</string>
-    <string name="permissions_camera_location_dlg_title">相机和位置分辨率</string>
+    <string name="permissions_bluetooth_missing_msg_text">您必须授予附近设备（蓝牙）自动记录事件的权限。这可以在应用程序的系统设置中完成。</string>
     <string name="permissions_grant_storage_btn_text">授予权限</string>
-    <string name="permissions_location_storage_dlg_title">位置和存储权限</string>
-
+    <string name="permissions_saf_incorrect_path">请尝试选择其他路径（设备本地存储）</string>
+    <string name="photos_count_one">照片</string>
+    <string name="photos_count_other">相片</string>
+    <string name="photos_folder_name">相片</string>
     <string name="prefs_address_geocoding_no_support_text">已禁用，因为设备不支持地理编码</string>
-    <string name="prefs_animated_rec_circle_sum_text">在按钮周围显示动画以开始录制</string>
-    <string name="prefs_animated_rec_circle_text">录制动画</string>
     <string name="prefs_audio_bitrate_text">比特率（质量）</string>
+    <string name="prefs_audio_bt_recording_text">从蓝牙设备录制音频</string>
+    <string name="prefs_audio_bt_recording_warning_message_text">仅与蓝牙耳机一起使用。如果您通过蓝牙连接到主机（汽车收音机），则由于某种原因，这可能会自动触发拨打该设备上的标准号码的电话</string>
+    <string name="prefs_audio_bt_recording_warning_title_text">请勿与主机（汽车收音机）一起使用！</string>
+    <string name="prefs_audio_priority_sum">如果启用，其他应用程序将无法使用麦克风。如果禁用，当多个应用程序使用麦克风运行时，此应用程序可能无法录制音频（Android 并不总是允许同时使用麦克风）</string>
+    <string name="prefs_audio_priority_title">优先播放此应用程序的音频</string>
     <string name="prefs_audio_rate_text">采样率</string>
     <string name="prefs_audio_recording_text">录音</string>
     <string name="prefs_audio_settings_sum_text">质量，关闭/开启录音</string>
@@ -151,23 +142,22 @@
     <string name="prefs_aux_auto_start_sum_text">插入音频插孔 (AUX) 时自动开始录音</string>
     <string name="prefs_aux_auto_start_text">插入音频插孔 (AUX) 时运行</string>
     <string name="prefs_aux_auto_stop_text">与音频插孔 (AUX) 断开连接时停止</string>
-    <string name="prefs_background_location_sum_text">未授予许可。在后台录制视频时需要更新速度、地址和坐标。单击此处立即修复</string>
-    <string name="prefs_background_location_text">背景中的位置</string>
     <string name="prefs_battery_optimization_sum_text">电池优化可能会阻止应用程序正常运行（例如，在后台录制视频时使用相机或更新位置）。单击此处立即为此应用程序禁用它</string>
     <string name="prefs_battery_optimization_text">电池优化</string>
+    <string name="prefs_beep_each_start_recording_sum_text">下一个视频文件录制开始时的信号</string>
+    <string name="prefs_beep_each_start_recording_text">录音时发出哔哔声</string>
+    <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">设备制造商可能不提供对所有摄像头的访问，因此某些摄像头可能无法打开</string>
+    <string name="prefs_camera_why_wide_lens_not_available_sum">设备制造商可能不会为所有应用程序提供广角镜头相机</string>
     <string name="prefs_day_night_mode_auto_text">自动（白天/黑夜），按时间</string>
     <string name="prefs_day_night_mode_day_text">白天</string>
     <string name="prefs_day_night_mode_night_text">夜晚</string>
-    <string name="prefs_donate_action_text">捐赠</string>
-    <string name="donate_disable_ads_text">捐赠，删除广告</string>
     <string name="prefs_donate_sum_text">支持应用开发</string>
-    <string name="donate_text">捐赠</string>
     <string name="prefs_faq_sum_text">经常问的问题（frequently-Asked Questions, FAQ）</string>
+    <string name="prefs_flashlight_turn_on_recording_automatically">录音时自动打开手电筒</string>
     <string name="prefs_float_size_increase_text">浮动窗口上按钮的大小</string>
-    <string name="from">从</string>
-    <string name="to">到</string>
     <string name="prefs_fps_value_from_to_stable_text">（恒定帧率）</string>
     <string name="prefs_fps_value_from_to_text">（日夜）</string>
+    <string name="prefs_fps_why_fps_60_not_available_sum">设备制造商可能无法为所有应用程序提供 60 FPS</string>
     <string name="prefs_frequent_network_requests_text">（频繁的网络请求）</string>
     <string name="prefs_g_sensor_force_high">高的</string>
     <string name="prefs_g_sensor_force_low">低的</string>
@@ -182,11 +172,18 @@
     <string name="prefs_info_more_category_text">资讯 /更多…</string>
     <string name="prefs_kill_services_sum_text">您的设备上有一些设置，允许应用程序在后台自动播放和运行。单击此处并将应用程序添加到例外（允许自动启动等）中，以允许它在后台和屏幕关闭时运行（如果被禁止）</string>
     <string name="prefs_kill_services_text">允许后台工作</string>
+    <string name="prefs_launch_activity_on_auto_rec_start_text">自动开始录制时打开应用程序</string>
+    <string name="prefs_launch_app_auto_text">视频录制开始时启动应用程序</string>
+    <string name="prefs_launch_app_limitation_text">对于 Android 11 及更高版本，您可能无法选择任何已安装的应用程序，因为系统本身会限制应用程序的可见性（隐私政策）</string>
     <string name="prefs_launch_app_none_text">未选择</string>
     <string name="prefs_launch_app_text">按钮启动器应用程序</string>
     <string name="prefs_location_manager">位置管理器（已弃用）</string>
     <string name="prefs_location_manager_gps_only_text">仅使用 GPS 更新位置（不使用网络）</string>
     <string name="prefs_location_method_provider_sum_text">如果速度值不好，那就试试老方法。如果值为零或很少更新，则尝试新方法</string>
+    <string name="prefs_location_mode_balanced_text">定位精度（坐标）、速度和电池功耗之间的平衡。</string>
+    <string name="prefs_location_mode_high_accuracy_text">由于电池功耗较大，因此可以实现最准确的位置（坐标）和速度。</string>
+    <string name="prefs_location_mode_low_power_text">由于电池功耗低，定位（坐标）和速度精度低。</string>
+    <string name="prefs_location_mode_text">GPS 优先（电池或精度）</string>
     <string name="prefs_location_provider_method_text">位置获取方法（GPS）</string>
     <string name="prefs_location_update_frequency_text">GPS更新率</string>
     <string name="prefs_meters_accuracy_value_text">米精度</string>
@@ -196,9 +193,12 @@
     <string name="prefs_orientation_portrait">肖像</string>
     <string name="prefs_other_auto_deleting_sum_text">如果新视频没有足够空间，录制时自动删除最旧的视频</string>
     <string name="prefs_other_auto_deleting_text">循环记录</string>
+    <string name="prefs_other_date_time_text">日期和时间</string>
     <string name="prefs_other_keep_screen_on_text">保持屏幕开启</string>
+    <string name="prefs_other_keep_screen_on_while_recording_only_text">仅在录制时保持屏幕开启</string>
     <string name="prefs_other_miles_sum_text">打开以使用英里而不是公里</string>
     <string name="prefs_other_miles_text">以英里、英尺为单位显示</string>
+    <string name="prefs_other_path_not_set">录音路径未设置，点击此处设置</string>
     <string name="prefs_other_path_photo_text">照片位置（文件夹/路径）</string>
     <string name="prefs_other_path_text">视频位置（文件夹/路径）</string>
     <string name="prefs_other_settings_sum_text">视频位置（保存文件夹）、视频时长、循环录制、重力传感器、GPS</string>
@@ -220,7 +220,6 @@
     <string name="prefs_policy_text">隐私政策</string>
     <string name="prefs_rate_sum_text">在 Play 商店中为应用评分</string>
     <string name="prefs_rate_text">估计</string>
-    <string name="prefs_recommendations_category_text">建议</string>
     <string name="prefs_rules_auto_category_camera_motion_text">摄像头移动侦测</string>
     <string name="prefs_rules_auto_lock_file_sum_text">检测到命中时阻止视频自动删除（覆盖）</string>
     <string name="prefs_rules_auto_lock_file_text">G-sensor（震动传感器）</string>
@@ -228,9 +227,12 @@
     <string name="prefs_rules_auto_lock_file_vibrate_text">检测到震动时的振动</string>
     <string name="prefs_rules_auto_start_camera_motion_text">检测到运动时开始录制</string>
     <string name="prefs_rules_auto_start_speed_text">当速度相等/更高时开始记录（基于 GPS）</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* 您可以关闭此选项，以便应用程序仅在应用程序的后台服务（Watcher）运行时才执行自动录制。\n- 在 Android 7.1 之前，可以毫无问题地执行充电、蓝牙或 AUX 等事件的自动记录。\n- 从Android 8开始，无后台应用服务（Watcher）的自动录制只能针对蓝牙事件进行，在其他情况下（充电或AUX时）需要先启动后台应用服务（Watcher） - 通过启动应用程序本身一次。\n- 从没有后台应用程序服务（Watcher）的 Android 11 开始，只有在手机解锁（屏幕打开）并且授予“所有应用程序之上”权限的情况下，才可以在没有用户交互的情况下访问相机。\n- 因此，对于Android 11及更高版本，您需要手动启动应用程序一次，以便应用程序的后台服务（Watcher）开始在任何事件期间以及手机屏幕关闭时自动录制。</string>
+    <string name="prefs_rules_auto_start_without_service_text">即使后台服务（Watcher）未运行也自动录制</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">结束后停止录音</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">没有动作时停止录音</string>
     <string name="prefs_rules_auto_stop_speed_text">当速度较低时停止记录（基于 GPS）</string>
+    <string name="prefs_rules_bl_auto_start_only_if_charging_text">仅在设备充电时录制</string>
     <string name="prefs_rules_video_space_text">所有视频的最大内存容量（循环录制）</string>
     <string name="prefs_screen_autostart_sum_text">当您启动应用程序时，打开/关闭充电，启动系统</string>
     <string name="prefs_screen_autostart_text">自动开始录音</string>
@@ -242,8 +244,10 @@
     <string name="prefs_settings_fps_sum_text">更多 FPS - 更流畅的视频，但更快的电池消耗。最好将第一个值设置为最低（第二个可能更高），以便在黑暗中更好地记录</string>
     <string name="prefs_share_sum_text">将此应用发送给您的朋友</string>
     <string name="prefs_share_text">分享这个</string>
+    <string name="prefs_shortcut_launcher_has_been_added">添加了快捷方式（启动器）</string>
+    <string name="prefs_shortcut_rec_start_launcher_sum">在不启动主屏幕的情况下开始/停止录制</string>
+    <string name="prefs_shortcut_rec_start_launcher_title">添加快捷方式（启动器）</string>
     <string name="prefs_show_audio_btn_text">开/关录音</string>
-    <string name="prefs_show_buttons_sum_text">用于更换相机、开/关录音、闪光灯、夜间模式、阻止视频覆盖的按钮</string>
     <string name="prefs_show_buttons_text">屏幕上的按钮</string>
     <string name="prefs_show_camera_change_btn_text">相机更换</string>
     <string name="prefs_show_day_night_mode_btn_text">日/夜/自动模式</string>
@@ -253,10 +257,7 @@
     <string name="prefs_show_overlay_btn_text">显示浮动窗口</string>
     <string name="prefs_show_status_bar_text">显示系统状态栏</string>
     <string name="prefs_show_take_photo_btn_text">拍照</string>
-    <string name="prefs_show_ui_elements_sum_text">地址、速度、坐标</string>
-    <string name="prefs_stabilization_eis_text">电子（数字、EIS） - 推荐</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">当前相机不支持。制造商经常限制其使用 - 它仅在标准相机应用程序中可用</string>
-    <string name="prefs_stabilization_ois_text">光学 (OIS)</string>
     <string name="prefs_start_stop_voice_sum_text">开始、停止或录音错误时发出声音</string>
     <string name="prefs_start_stop_voice_text">录音状态</string>
     <string name="prefs_subtitles_address_text">地址</string>
@@ -267,7 +268,12 @@
     <string name="prefs_subtitles_date_format_text">日期格式</string>
     <string name="prefs_subtitles_date_text">日期）</string>
     <string name="prefs_subtitles_date_time_system_text">系统性</string>
+    <string name="prefs_subtitles_gpx_delay_title">GPX 最低更新率</string>
+    <string name="prefs_subtitles_gpx_no_delay_entry">所有坐标更新</string>
+    <string name="prefs_subtitles_gpx_title">为每个视频创建 GPX 文件</string>
     <string name="prefs_subtitles_in_english_text">英文字幕</string>
+    <string name="prefs_subtitles_position_bottom_sum_text">在视频底部叠加字幕</string>
+    <string name="prefs_subtitles_position_bottom_text">字幕在底部</string>
     <string name="prefs_subtitles_settings_sum_text">叠加视频字幕：日期（时间）、位置地址、坐标和速度</string>
     <string name="prefs_subtitles_settings_text">字幕设置</string>
     <string name="prefs_subtitles_size_text">增加文字大小</string>
@@ -281,8 +287,13 @@
     <string name="prefs_support_text">支持（反馈）</string>
     <string name="prefs_system_alert_window_sum_text">允许此应用出现在所有其他应用之上。这是自动开始/停止视频录制或显示浮动窗口所必需的</string>
     <string name="prefs_system_alert_window_text">所有窗口顶部的分辨率</string>
+    <string name="prefs_theme_mode_dark">深色主题</string>
+    <string name="prefs_theme_mode_light">浅色主题</string>
+    <string name="prefs_theme_mode_system_auto">与系统中一样（自动）</string>
     <string name="prefs_tip_apply_auto_rec_on_text">返回主屏幕（录音）应用此设置并启动跟踪服务</string>
     <string name="prefs_toolbar_title_setting">设置</string>
+    <string name="prefs_translate_sum_text">帮助改进或修复您所用语言的文本翻译</string>
+    <string name="prefs_translate_text">申请翻译</string>
     <string name="prefs_ui_click_none_text">不做什么</string>
     <string name="prefs_ui_click_start_stop_rec_text">开始/停止录音</string>
     <string name="prefs_ui_click_text">快速点击屏幕</string>
@@ -292,15 +303,21 @@
     <string name="prefs_value_secs_one_text">第二</string>
     <string name="prefs_value_secs_other_text">秒</string>
     <string name="prefs_version_text">应用版本</string>
+    <string name="prefs_vibrate_rec_start_stop_text">开始或停止录音时振动</string>
     <string name="prefs_video_bitrate_text">比特率（质量）</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">相机控制场景模式（夜间）</string>
     <string name="prefs_video_camera_control_scene_mode_text">相机控制场景模式（白天）</string>
+    <string name="prefs_video_control_scene_mode_beach_text">海滩（晴朗的天气）</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">一般 /人脸优先</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR（高动态范围）</string>
     <string name="prefs_video_control_scene_mode_night_text">夜间（适用于弱光条件）</string>
+    <string name="prefs_video_control_scene_mode_snow_text">雪</string>
+    <string name="prefs_video_control_scene_mode_sunset_text">日落</string>
     <string name="prefs_video_day_night_auto_mode_day_start_time_text">日出时间（Sunrise）</string>
     <string name="prefs_video_day_night_auto_mode_night_start_time_text">日落时间（日落）</string>
     <string name="prefs_video_day_night_mode_text">日间、夜间或自动模式</string>
+    <string name="prefs_video_exposure_auto_mode_sum_text">如果要手动控制传感器帧持续时间、曝光时间、灵敏度和光圈，请禁用</string>
+    <string name="prefs_video_exposure_auto_mode_text">自动曝光模式</string>
     <string name="prefs_video_exposure_night_text">曝光补偿（夜间）</string>
     <string name="prefs_video_exposure_text">曝光补偿（白天）</string>
     <string name="prefs_video_flip_x_sum_text">视频的水平镜像。图像变化仅用于视频录制，预览不变化</string>
@@ -320,22 +337,30 @@
     <string name="prefs_video_size_sum_text">更大的尺寸 - 更快的电池消耗</string>
     <string name="prefs_video_space_unlimited">无限</string>
     <string name="prefs_video_stabilization_text">视频稳定</string>
+    <string name="prefs_warning_location_precise_sum_text">这是获得最准确的基于 GPS 的速度以及地址和坐标所必需的。点击提交</string>
+    <string name="prefs_warning_location_precise_text">准确位置许可</string>
+    <string name="prefs_warning_notifications_sum_text">需要能够在通知面板上显示后台录制服务和状态。点击提交</string>
+    <string name="prefs_warning_notifications_text">通知权限</string>
+    <string name="prefs_warning_permission_bluetooth_sum_text">通过蓝牙连接自动录音需要许可。点击这里提交</string>
+    <string name="prefs_warning_permission_bluetooth_text">未授予蓝牙权限</string>
+    <string name="prefs_warnings_text">警告</string>
+    <string name="prefs_zoom_out_desc_text">要访问超广角相机（镜头），您可以设置变焦倍数</string>
     <string name="prefs_zoom_text">数码变焦（变焦）</string>
-
+    <string name="rec_audio_silence_text">目前无法录音，因为麦克风被另一个应用程序拦截</string>
+    <string name="rec_available_space_text">空间剩余</string>
     <string name="rec_day_night_btn_auto_text">汽车</string>
     <string name="rec_fix_short_text">纠正</string>
     <string name="rec_fix_text">纠正</string>
-    <string name="rec_available_space_text">空间剩余</string>
     <string name="rec_gps_status_satellites_few_text">卫星</string>
     <string name="rec_gps_status_satellites_many_text">卫星</string>
     <string name="rec_gps_status_satellites_one_text">卫星</string>
     <string name="rec_gps_status_satellites_other_text">卫星</string>
-    <string name="rec_location_text">地点</string>
     <string name="rec_gps_text">全球定位系统</string>
+    <string name="rec_location_text">地点</string>
     <string name="rec_network_text">网</string>
     <string name="rec_off_text">离开</string>
     <string name="rec_on_text">包括</string>
-
+    <string name="rec_service_msg">隐私：您录制的所有视频将仅保存在您的本地设备上。该应用程序不会备份您的视频（没有与服务器的任何连接）\n\n如果您开始新的录制并返回主屏幕、切换到另一个应用程序或锁定手机以便能够继续录制，或者如果您开启自动录音功能（如果关闭后台服务，这些功能将不起作用）。</string>
     <string name="recording_start_text">开始录音</string>
     <string name="recording_started_failed_text">启动录制时出错</string>
     <string name="recording_started_with_audio_text">一个带有录音的新视频录制已经开始</string>
@@ -348,15 +373,14 @@
     <string name="recording_text">正在录制…</string>
     <string name="recording_voice_started_text">录音开始</string>
     <string name="recording_voice_stopped_text">录音结束</string>
-
-    <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">无法打开应用程序开始录制，因为未授予“显示在所有应用程序之上”权限。点击提供</string>
-    <string name="service_watch_on_boot_completed_text">打开设备时</string>
-
+    <string name="reset">重置</string>
     <string name="storage_external_single">MicroSD 卡</string>
     <string name="storage_external_single_free">MicroSD 卡</string>
     <string name="storage_phone">手机内存</string>
     <string name="storage_phone_free">手机内存</string>
-
+    <string name="to">到</string>
+    <string name="unknown">未知</string>
+    <string name="videos_ask_which_player">询问哪个球员参加比赛</string>
     <string name="videos_count_one">视频</string>
     <string name="videos_count_other">视频</string>
     <string name="videos_deleting_text">正在删除文件…请稍候！</string>
@@ -383,152 +407,9 @@
     <string name="videos_menu_storage">导出</string>
     <string name="videos_no_storage_permission_dlg_msg_text">请打开应用程序设置并允许访问手机内存中的存储</string>
     <string name="videos_no_storage_permission_dlg_title_text">没有存储权限</string>
-    <string name="videos_select_files_for_deleting">选择要删除的视频文件</string>
+    <string name="videos_no_storage_saf_permission_dlg_msg_text">请选择一个文件夹用于记录</string>
     <string name="videos_storage_select_dlg_title">选择视频存储</string>
     <string name="videos_temporary_folder_text">定时视频</string>
     <string name="videos_toolbar_subtitle">录像</string>
-
-
-    <string name="prefs_app_launch_list_loading_msg_text">请稍等。应用程序列表仍在加载中…</string>
-    <string name="prefs_warnings_text">警告</string>
-    <string name="prefs_beep_each_start_recording_sum_text">下一个视频文件录制开始时的信号</string>
-    <string name="prefs_beep_each_start_recording_text">录音时发出哔哔声</string>
-    <string name="prefs_translate_text">申请翻译</string>
-    <string name="prefs_translate_sum_text">帮助改进或修复您所用语言的文本翻译</string>
-    <string name="prefs_launch_app_auto_text">视频录制开始时启动应用程序</string>
-
-    <string name="msg_dialog_camera_battery_optimization_title">访问相机时发生错误。启用电池优化</string>
-    <string name="msg_dialog_camera_battery_optimization_subtitle">在您的设备设置中禁用此应用的电池优化，以避免将来出现相机错误</string>
-
-
-    <string name="prefs_rules_auto_start_without_service_text">即使后台服务（Watcher）未运行也自动录制</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* 您可以关闭此选项，以便应用程序仅在应用程序的后台服务（Watcher）运行时才执行自动录制。\n- 在 Android 7.1 之前，可以毫无问题地执行充电、蓝牙或 AUX 等事件的自动记录。\n- 从Android 8开始，无后台应用服务（Watcher）的自动录制只能针对蓝牙事件进行，在其他情况下（充电或AUX时）需要先启动后台应用服务（Watcher） - 通过启动应用程序本身一次。\n- 从没有后台应用程序服务（Watcher）的 Android 11 开始，只有在手机解锁（屏幕打开）并且授予“所有应用程序之上”权限的情况下，才可以在没有用户交互的情况下访问相机。\n- 因此，对于Android 11及更高版本，您需要手动启动应用程序一次，以便应用程序的后台服务（Watcher）开始在任何事件期间以及手机屏幕关闭时自动录制。</string>
-
-
-    <string name="prefs_subtitles_position_bottom_text">字幕在底部</string>
-    <string name="prefs_subtitles_position_bottom_sum_text">在视频底部叠加字幕</string>
-
-
-    <string name="accept_text">我接受</string>
-
-    <string name="prefs_launch_app_limitation_text">对于 Android 11 及更高版本，您可能无法选择任何已安装的应用程序，因为系统本身会限制应用程序的可见性（隐私政策）</string>
-
-    <string name="prefs_rules_bl_auto_start_only_if_charging_text">仅在设备充电时录制</string>
-
-    <string name="prefs_other_keep_screen_on_while_recording_only_text">仅在录制时保持屏幕开启</string>
-    <string name="prefs_other_date_time_text">日期和时间</string>
-
-
-    <string name="prefs_launch_activity_on_auto_rec_start_text">自动开始录制时打开应用程序</string>
-
-    <string name="msg_notification_could_launch_app_activity">无法启动应用程序的主屏幕，因为未授予 SYSTEM_ALERT_WINDOW（显示在所有其他应用程序窗口之上）权限或设备的屏幕已关闭</string>
-
-    <string name="prefs_zoom_out_desc_text">要访问超广角相机（镜头），您可以设置变焦倍数</string>
-    <string name="prefs_warning_location_precise_sum_text">这是获得最准确的基于 GPS 的速度以及地址和坐标所必需的。点击提交</string>
-    <string name="prefs_warning_location_precise_text">准确位置许可</string>
-    <string name="prefs_warning_notifications_sum_text">需要能够在通知面板上显示后台录制服务和状态。点击提交</string>
-    <string name="prefs_warning_notifications_text">通知权限</string>
-
-    <string name="donation_dlg_limited_ads_message_text">对于较小的捐款，仅在主屏幕上删除广告</string>photo
-    <string name="photos_folder_name">相片</string>
-
-    <string name="photos_count_one">照片</string>
-    <string name="photos_count_other">相片</string>
-
-    <string name="prefs_audio_priority_title">优先播放此应用程序的音频</string>
-    <string name="prefs_audio_priority_sum">如果启用，其他应用程序将无法使用麦克风。如果禁用，当多个应用程序使用麦克风运行时，此应用程序可能无法录制音频（Android 并不总是允许同时使用麦克风）</string>
-    <string name="rec_audio_silence_text">目前无法录音，因为麦克风被另一个应用程序拦截</string>
-
-    <string name="prefs_subtitles_gpx_title">为每个视频创建 GPX 文件</string>
-    <string name="prefs_subtitles_gpx_delay_title">GPX 最低更新率</string>
-    <string name="prefs_subtitles_gpx_no_delay_entry">所有坐标更新</string>
-
-    <string name="prefs_shortcut_rec_start_launcher_title">添加快捷方式（启动器）</string>
-    <string name="prefs_shortcut_rec_start_launcher_sum">在不启动主屏幕的情况下开始/停止录制</string>
-
-    <string name="prefs_camera_why_wide_lens_not_available_sum">设备制造商可能不会为所有应用程序提供广角镜头相机</string>
-    <string name="prefs_fps_why_fps_60_not_available_sum">设备制造商可能无法为所有应用程序提供 60 FPS</string>
-    <string name="prefs_video_control_scene_mode_sunset_text">日落</string>
-    <string name="prefs_video_control_scene_mode_snow_text">雪</string>
-    <string name="prefs_video_control_scene_mode_beach_text">海滩（晴朗的天气）</string>
-
-    <string name="prefs_video_exposure_auto_mode_text">自动曝光模式</string>
-    <string name="prefs_video_exposure_auto_mode_sum_text">如果要手动控制传感器帧持续时间、曝光时间、灵敏度和光圈，请禁用</string>
-
-    <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">设备制造商可能不提供对所有摄像头的访问，因此某些摄像头可能无法打开</string>
-
-    <string name="camera_msg_error_non_exposed_error">无法打开所选摄像头。碰巧的是，并非所有隐藏摄像头都可以被任何应用程序使用。许多制造商只允许在其本机应用程序中使用它们。默认相机将打开。</string>
-
-    <string name="videos_ask_which_player">询问哪个球员参加比赛</string>
-
-    <string name="prefs_location_mode_text">GPS 优先（电池或精度）</string>
-    <string name="prefs_location_mode_balanced_text">定位精度（坐标）、速度和电池功耗之间的平衡。</string>
-    <string name="prefs_location_mode_high_accuracy_text">由于电池功耗较大，因此可以实现最准确的位置（坐标）和速度。</string>
-    <string name="prefs_location_mode_low_power_text">由于电池功耗低，定位（坐标）和速度精度低。</string>
-
-    <string name="prefs_location_accuracy_explanation">仅适用于 Fused Location Provider API 和高精度优先级或位置管理器</string>
-
-	<string name="rec_service_msg">隐私：您录制的所有视频将仅保存在您的本地设备上。该应用程序不会备份您的视频（没有与服务器的任何连接）\n\n如果您开始新的录制并返回主屏幕、切换到另一个应用程序或锁定手机以便能够继续录制，或者如果您开启自动录音功能（如果关闭后台服务，这些功能将不起作用）。</string>
-
-	
-
-	
-
-	
-
-	
-
-    
-
-    
-
-    <string name="permissions_saf_incorrect_path">请尝试选择其他路径（设备本地存储）</string>
-
-	<string name="prefs_vibrate_rec_start_stop_text">开始或停止录音时振动</string>
-
-    <string name="donation_subs_text">每月捐款</string>
-    <string name="donation_any_amount_text">不做任何金额的广告</string>
-    <string name="donation_subs_any_amount_text">此外，当您订阅任何金额时，广告将被完全删除。</string>
-    <string name="donation_remove_ads_by_any_amount_text">通过一次性捐赠任意金额，永久删除广告。您还可以每月捐赠任意金额来删除广告</string>
-
-    <string name="prefs_audio_bt_recording_text">从蓝牙设备录制音频</string>
-
-    <string name="prefs_audio_bt_recording_warning_title_text">请勿与主机（汽车收音机）一起使用！</string>
-    <string name="prefs_audio_bt_recording_warning_message_text">仅与蓝牙耳机一起使用。如果您通过蓝牙连接到主机（汽车收音机），则由于某种原因，这可能会自动触发拨打该设备上的标准号码的电话</string>
-
-    <string name="prefs_warning_permission_bluetooth_sum_text">通过蓝牙连接自动录音需要许可。点击这里提交</string>
-    <string name="prefs_warning_permission_bluetooth_text">未授予蓝牙权限</string>
-
-    
-    
-
-    
-
-    
-    
-
-    
-
-    <string name="msg_notification_could_not_start_recording_with_locked_screen">由于屏幕已关闭（锁定），因此无法打开应用程序以开始录制。运行后台记录服务（Watcher）来解决此问题。</string>
-    <string name="msg_notification_could_not_open_with_locked_screen">由于屏幕已关闭（锁定），因此无法打开应用程序。</string>
-
-	
-    <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">指定的应用程序无法启动自动打开，因为未授予“显示在所有应用程序之上”权限。</string>
-    
-
-    
-
-    <string name="permissions_bluetooth_missing_msg_text">您必须授予附近设备（蓝牙）自动记录事件的权限。这可以在应用程序的系统设置中完成。</string>
-
-    
-
-    
-
-    
-
-    
-
-    <string name="permission_notifications_dlg_msg">需要通知才能在通知面板中显示后台录音服务和录音状态。</string>
-
-    
+    <string name="zoom_text">缩放</string>
 </resources>
