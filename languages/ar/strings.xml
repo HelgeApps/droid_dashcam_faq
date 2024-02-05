@@ -1,7 +1,7 @@
 <resources>
     <string name="accept_text">موافق</string>
     <string name="any_text">أي</string>
-    <string name="app_name">Droid Dashcam - قيادة DVR</string>
+    <string name="app_name_droid_dashcam">Droid Dashcam - قيادة DVR</string>
     <string name="camera">الة تصوير</string>
     <string name="camera_aperture">الحجاب الحاجز</string>
     <string name="camera_back">الكاميرا الخلفية</string>
@@ -54,10 +54,14 @@
     <string name="format_speed_measure_kilometers">كم /ساعة</string>
     <string name="format_speed_measure_miles">ميلا في الساعة</string>
     <string name="from">من</string>
+    <string name="hour">ساعة</string>
+    <string name="hours">ساعات</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">لا يتم استبعاد التطبيق من تحسين البطارية. إذا كانت الكاميرا لا تعمل في الخلفية أو أي شيء آخر، فقم بإضافة هذا التطبيق إلى استثناءات وضع توفير الطاقة.</string>
     <string name="msg_android_r_deleting_manual_tip_text">إذا أعدت تثبيت التطبيق على Android 11 ، فيجب حذف الملفات القديمة يدويًا</string>
     <string name="msg_auto_recording_service_was_stopped">لقد قمت بإيقاف خدمة الخلفية لبدء تسجيل الفيديو تلقائيًا. افتح التطبيق لتشغيله مرة أخرى.</string>
     <string name="msg_battery_optimization_tip_text">تحسين البطارية -&gt; جميع التطبيقات -&gt; ابحث عن التطبيق -&gt; لا تقم بالتحسين/الحفظ</string>
+    <string name="msg_beta_version_warning">هذه نسخة تجريبية من التطبيق، لذا قد لا تعمل بعض الأشياء أو تكون غير مستقرة.</string>
+    <string name="msg_beta_version_warning_sum">قم بتثبيت الإصدار الثابت من متجر Play لتجنب الأخطاء.</string>
     <string name="msg_camera_died_text">توقفت الكاميرا عن العمل بشكل غير متوقع ، إعادة التشغيل…</string>
     <string name="msg_camera_not_opened">الكاميرا لا تعمل</string>
     <string name="msg_close_settings_before_recording_text">أغلق تفضيلات التطبيق قبل بدء التسجيل</string>
@@ -78,7 +82,7 @@
     <string name="msg_notification_could_launch_app_activity">تعذر تشغيل الشاشة الرئيسية للتطبيق لأنه لم يتم منح إذن SYSTEM_ALERT_WINDOW (العرض أعلى جميع نوافذ التطبيق الأخرى) أو تم إيقاف تشغيل شاشة الجهاز</string>
     <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">تعذر تشغيل التطبيق المحدد لفتحه تلقائيًا لأنه لم يتم منح إذن \"العرض أعلى كل التطبيقات\".</string>
     <string name="msg_notification_could_not_open_with_locked_screen">لا يمكن فتح التطبيق لأن الشاشة كانت مغلقة (مقفلة).</string>
-    <string name="msg_notification_could_not_start_recording_with_locked_screen">لا يمكن فتح التطبيق لبدء التسجيل لأن الشاشة كانت مطفأة (مقفلة). قم بتشغيل خدمة تسجيل الخلفية (Watcher) لإصلاح ذلك.</string>
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">لا يمكن فتح التطبيق لبدء التسجيل لأن الشاشة كانت مطفأة (مقفلة). قم بتشغيل خدمة تسجيل الخلفية (AutoStart) لإصلاح ذلك.</string>
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">تعذر فتح التطبيق لبدء التسجيل لأنه لم يتم منح إذن \"العرض أعلى جميع التطبيقات\". انقر لتقديم</string>
     <string name="msg_photo_failed_to_take">فشل في التقاط الصورة</string>
     <string name="msg_photo_was_saved">تم حفظ الصورة</string>
@@ -96,7 +100,6 @@
     <string name="notification_could_not_start_recording_service">فشل خدمة التسجيل في البدء. انقر لتعطيل تحسين البطارية لهذا التطبيق</string>
     <string name="notification_service_aux_checker">مقبس صوت (Aux)</string>
     <string name="notification_service_bl_checker">بلوتوث</string>
-    <string name="notification_service_checker">التحليلات</string>
     <string name="notification_service_power_checker">الشحن</string>
     <string name="notification_stop_text">قف</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">للتسجيل التلقائي /إيقاف التشغيل</string>
@@ -226,8 +229,8 @@
     <string name="prefs_rules_auto_lock_file_vibrate_text">الاهتزاز عند اكتشاف الصدمة</string>
     <string name="prefs_rules_auto_start_camera_motion_text">ابدأ التسجيل عند اكتشاف الحركة</string>
     <string name="prefs_rules_auto_start_speed_text">ابدأ التسجيل عندما تكون السرعة متساوية /أعلى (بناءً على نظام تحديد المواقع العالمي)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* يمكنك إيقاف تشغيل هذا الخيار بحيث يقوم التطبيق بالتسجيل التلقائي فقط في حالة تشغيل خدمة الخلفية الخاصة بالتطبيق (المراقب).\n- يمكن إجراء التسجيل التلقائي لأحداث مثل الشحن أو Bluetooth أو AUX دون مشاكل حتى Android 7.1.\n- بدءًا من Android 8، لا يمكن إجراء التسجيل التلقائي بدون خدمة تطبيق الخلفية (Watcher) إلا لأحداث Bluetooth، وفي الحالات الأخرى (عند الشحن أو AUX) تحتاج أولاً إلى بدء تشغيل خدمة تطبيق الخلفية (Watcher) - عن طريق تشغيل التطبيق نفسه مرة واحدة.\n- بدءًا من Android 11 بدون خدمة التطبيقات في الخلفية (Watcher)، لا يمكن الوصول إلى الكاميرا دون تدخل المستخدم إلا إذا كان الهاتف مفتوحًا (تشغيل الشاشة) وتم منح إذن \"فوق كل التطبيقات\".\n- وبالتالي، بالنسبة لنظام Android 11 والإصدارات الأحدث، تحتاج إلى تشغيل التطبيق يدويًا مرة واحدة حتى تبدأ خدمة الخلفية للتطبيق (Watcher) في التسجيل تلقائيًا أثناء أي أحداث وعند إيقاف تشغيل شاشة الهاتف.</string>
-    <string name="prefs_rules_auto_start_without_service_text">التسجيل التلقائي حتى لو كانت خدمة الخلفية (المراقب) لا تعمل</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* يمكنك إيقاف تشغيل هذا الخيار ليقوم التطبيق بإجراء التسجيل التلقائي فقط عند تشغيل خدمة الخلفية للتطبيق (AutoStart).\n- يمكن إجراء التسجيل التلقائي لأحداث مثل الشحن أو Bluetooth أو AUX دون مشاكل حتى Android 7.1.\n- بدءًا من Android 8، لا يمكن إجراء التسجيل التلقائي بدون خدمة تطبيق الخلفية (AutoStart) إلا لأحداث Bluetooth، وفي الحالات الأخرى (عند الشحن أو AUX) تحتاج أولاً إلى بدء تشغيل خدمة تطبيق الخلفية (AutoStart) - عن طريق تشغيل التطبيق نفسه مرة واحدة.\n- بدءًا من Android 11 بدون خدمة التطبيقات في الخلفية (AutoStart)، لا يمكن الوصول إلى الكاميرا دون تدخل المستخدم إلا إذا كان الهاتف مفتوحًا (تشغيل الشاشة) وتم منح إذن \"فوق كل التطبيقات\".\n- وبالتالي، بالنسبة لنظام Android 11 والإصدارات الأحدث، تحتاج إلى تشغيل التطبيق يدويًا مرة واحدة حتى تبدأ خدمة الخلفية للتطبيق (AutoStart) للتسجيل التلقائي أثناء أي أحداث وعند إيقاف تشغيل شاشة الهاتف.</string>
+    <string name="prefs_rules_auto_start_without_service_text">التسجيل التلقائي حتى في حالة عدم تشغيل خدمة الخلفية (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">توقف عن التسجيل بعد</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">أوقف التسجيل عند عدم وجود حركة</string>
     <string name="prefs_rules_auto_stop_speed_text">أوقف التسجيل عندما تكون السرعة أقل (بناءً على نظام تحديد المواقع العالمي)</string>
@@ -257,6 +260,7 @@
     <string name="prefs_show_status_bar_text">إظهار شريط حالة النظام</string>
     <string name="prefs_show_take_photo_btn_text">لعمل صورة</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">لا تدعمه الكاميرا الحالية. غالبًا ما يقيد المصنعون استخدامه - فهو متاح فقط في تطبيق الكاميرا القياسي</string>
+    <string name="prefs_start_stop_toast_message_text">عرض رسالة عند بدء التسجيل أو إيقافه أثناء التسجيل في الخلفية</string>
     <string name="prefs_start_stop_voice_sum_text">صوت عند البدء أو التوقف أو خطأ في التسجيل</string>
     <string name="prefs_start_stop_voice_text">حالة التسجيل الصوتي</string>
     <string name="prefs_subtitles_address_text">العنوان</string>
@@ -269,6 +273,7 @@
     <string name="prefs_subtitles_date_time_system_text">النظامية</string>
     <string name="prefs_subtitles_gpx_delay_title">الحد الأدنى لمعدل تحديث GPX</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">كل تنسيق التحديثات</string>
+    <string name="prefs_subtitles_gpx_sum">GPX - مخطط XML تم تصميمه كتنسيق بيانات GPS شائع لتطبيقات البرامج. يمكن استخدامه لوصف الإحداثيات والمسارات والمسارات</string>
     <string name="prefs_subtitles_gpx_title">قم بإنشاء ملف GPX لكل مقطع فيديو</string>
     <string name="prefs_subtitles_in_english_text">ترجمة باللغة الانجليزية</string>
     <string name="prefs_subtitles_position_bottom_sum_text">ترجمات تراكب في الجزء السفلي من الفيديو</string>
@@ -298,7 +303,6 @@
     <string name="prefs_ui_click_text">نقرة سريعة على الشاشة</string>
     <string name="prefs_ui_long_click_text">الضغط لفترة طويلة على الشاشة</string>
     <string name="prefs_value_secs_few_text">ثواني</string>
-    <string name="prefs_value_secs_many_text">ثواني</string>
     <string name="prefs_value_secs_one_text">ثانيا</string>
     <string name="prefs_value_secs_other_text">ثواني</string>
     <string name="prefs_version_text">إصدار التطبيق</string>
@@ -351,7 +355,6 @@
     <string name="rec_fix_short_text">لتصحيح</string>
     <string name="rec_fix_text">لتصحيح</string>
     <string name="rec_gps_status_satellites_few_text">الأقمار الصناعية</string>
-    <string name="rec_gps_status_satellites_many_text">الأقمار الصناعية</string>
     <string name="rec_gps_status_satellites_one_text">الأقمار الصناعية</string>
     <string name="rec_gps_status_satellites_other_text">الأقمار الصناعية</string>
     <string name="rec_gps_text">نظام تحديد المواقع</string>
@@ -374,9 +377,15 @@
     <string name="recording_voice_stopped_text">توقف التسجيل</string>
     <string name="reset">إبراء الذمة</string>
     <string name="storage_external_single">بطاقة مايكرو التنمية المستدامة</string>
-    <string name="storage_external_single_free">بطاقة مايكرو التنمية المستدامة</string>
     <string name="storage_phone">ذاكرة الهاتف</string>
-    <string name="storage_phone_free">ذاكرة الهاتف</string>
+    <string name="timer_auto_start">الموقت</string>
+    <string name="timer_auto_start_dlg_type_title">اضبط مؤقتًا لبدء التسجيل</string>
+    <string name="timer_auto_start_every_day_text">كل يوم</string>
+    <string name="timer_auto_start_once">مرة واحدة</string>
+    <string name="timer_auto_start_recording_cancel_message_text">هل تريد إلغاء تسجيل الفيديو التلقائي بناءً على المؤقت الحالي؟</string>
+    <string name="timer_auto_start_recording_datetime_past_error_text">تم ضبط الوقت في الماضي</string>
+    <string name="timer_auto_start_recording_duration_text">مدة تسجيل الفيديو</string>
+    <string name="timer_auto_start_service_notification_subtitle_text">خدمة المؤقت لبدء تسجيل الفيديو تلقائيًا</string>
     <string name="to">قبل</string>
     <string name="unknown">مجهول</string>
     <string name="videos_ask_which_player">اسأل أي لاعب ستلعب فيه</string>

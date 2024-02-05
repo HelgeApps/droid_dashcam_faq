@@ -17,7 +17,7 @@
   -->
     <string name="accept_text">accetto</string>
     <string name="any_text">Qualsiasi</string>
-    <string name="app_name">Droid Dashcam - Dashcam per Android</string>
+    <string name="app_name_droid_dashcam">Droid Dashcam - Dashcam per Android</string>
     <string name="camera">Telecamera</string>
     <string name="camera_aperture">Apertura</string>
     <string name="camera_back">Videocamera posteriore</string>
@@ -70,10 +70,14 @@
     <string name="format_speed_measure_kilometers">km/h</string>
     <string name="format_speed_measure_miles">mph</string>
     <string name="from">da</string>
+    <string name="hour">ora</string>
+    <string name="hours">ore</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">L\'applicazione non è esclusa dall\'ottimizzazione della batteria. Se la fotocamera non è in esecuzione in background o qualcos\'altro, aggiungi questa applicazione alle eccezioni della modalità di risparmio energetico.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Se hai reinstallato l\'applicazione su Android 11, i vecchi file devono essere eliminati manualmente</string>
     <string name="msg_auto_recording_service_was_stopped">Hai interrotto il servizio in background per l\'avvio automatico della registrazione video. Apri l\'applicazione per avviarla nuovamente.</string>
     <string name="msg_battery_optimization_tip_text">Ottimizzazione della batteria -&gt; Tutte le app -&gt; Trova l\'app -&gt; Non ottimizzare/salvare</string>
+    <string name="msg_beta_version_warning">Questa è una versione beta dell\'applicazione, quindi alcune cose potrebbero non funzionare o essere instabili.</string>
+    <string name="msg_beta_version_warning_sum">Installa la versione stabile dal Play Store per evitare errori.</string>
     <string name="msg_camera_died_text">la fotocamera ha smesso di funzionare in modo imprevisto,  riavviandosi…</string>
     <string name="msg_camera_not_opened">La fotocamera non funziona</string>
     <string name="msg_close_settings_before_recording_text">Chiudi le preferenze dell\'applicazione prima di avviare la registrazione</string>
@@ -94,7 +98,7 @@
     <string name="msg_notification_could_launch_app_activity">Non è stato possibile avviare la schermata principale dell\'applicazione perché l\'autorizzazione SYSTEM_ALERT_WINDOW (visualizzazione in cima a tutte le altre finestre dell\'applicazione) non è stata concessa o lo schermo del dispositivo è stato spento</string>
     <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Non è stato possibile avviare automaticamente l\'applicazione specificata perché non è stata concessa l\'autorizzazione \"mostra sopra tutte le applicazioni\".</string>
     <string name="msg_notification_could_not_open_with_locked_screen">Impossibile aprire l\'applicazione perché lo schermo era spento (bloccato).</string>
-    <string name="msg_notification_could_not_start_recording_with_locked_screen">Non è stato possibile aprire l\'applicazione per avviare la registrazione perché lo schermo era spento (bloccato). Esegui un servizio di registrazione in background (Watcher) per risolvere questo problema.</string>
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Non è stato possibile aprire l\'applicazione per avviare la registrazione perché lo schermo era spento (bloccato). Esegui un servizio di registrazione in background (AutoStart) per risolvere questo problema.</string>
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Non è stato possibile aprire l\'app per avviare la registrazione perché l\'autorizzazione \"mostra sopra tutte le app\" non è stata concessa. Fare clic per fornire</string>
     <string name="msg_photo_failed_to_take">Impossibile scattare la foto</string>
     <string name="msg_photo_was_saved">Foto salvata</string>
@@ -112,7 +116,6 @@
     <string name="notification_could_not_start_recording_service">Impossibile avviare il servizio di registrazione. Fare clic per disabilitare l\'ottimizzazione della batteria per questa app</string>
     <string name="notification_service_aux_checker">Presa audio (AUX)</string>
     <string name="notification_service_bl_checker">Bluetooth</string>
-    <string name="notification_service_checker">analisi</string>
     <string name="notification_service_power_checker">in carica</string>
     <string name="notification_stop_text">Fermare</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Per l\'accensione/spegnimento automatico della registrazione</string>
@@ -242,8 +245,8 @@
     <string name="prefs_rules_auto_lock_file_vibrate_text">Vibrazione quando viene rilevato uno shock</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Avvia la registrazione quando viene rilevato un movimento</string>
     <string name="prefs_rules_auto_start_speed_text">Avvia la registrazione quando la velocità è uguale/superiore (basata sul GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* È possibile disattivare questa opzione in modo che l\'applicazione esegua la registrazione automatica solo se il servizio in background dell\'applicazione (Watcher) è in esecuzione.\n- La registrazione automatica per eventi come ricarica, Bluetooth o AUX può essere eseguita senza problemi fino ad Android 7.1.\n- A partire da Android 8, la registrazione automatica senza servizio di applicazione in background (Watcher) può essere eseguita solo per eventi Bluetooth e in altri casi (durante la ricarica o AUX) è necessario prima avviare il servizio di applicazione in background (Watcher) - avviando il l\'applicazione stessa una volta.\n- A partire da Android 11 senza il servizio app in background (Watcher), l\'accesso alla fotocamera senza l\'interazione dell\'utente è possibile solo se il telefono è sbloccato (schermo acceso) e viene concessa l\'autorizzazione \"sopra tutte le app\".\n- Pertanto, per Android 11 e versioni successive, è necessario avviare manualmente l\'applicazione una volta in modo che il servizio in background dell\'applicazione (Watcher) inizi a registrare automaticamente durante qualsiasi evento e quando lo schermo del telefono è spento.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Registrazione automatica anche se il servizio in background (Watcher) non è in esecuzione</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Puoi disattivare questa opzione per fare in modo che l\'app esegua la registrazione automatica solo quando il servizio in background dell\'app (Avvio automatico) è in esecuzione.\n- La registrazione automatica per eventi come ricarica, Bluetooth o AUX può essere eseguita senza problemi fino ad Android 7.1.\n- A partire da Android 8, la registrazione automatica senza servizio di applicazione in background (AutoStart) può essere eseguita solo per eventi Bluetooth e in altri casi (durante la ricarica o AUX) è necessario prima avviare il servizio di applicazione in background (AutoStart) - avviando il l\'applicazione stessa una volta.\n- A partire da Android 11 senza il servizio app in background (Avvio automatico), l\'accesso alla fotocamera senza interazione da parte dell\'utente è possibile solo se il telefono è sbloccato (schermo acceso) e viene concessa l\'autorizzazione \"sopra tutte le app\".\n- Pertanto, per Android 11 e versioni successive, è necessario avviare manualmente l\'applicazione una volta in modo che il servizio in background dell\'applicazione (AutoStart) si avvii per la registrazione automatica durante qualsiasi evento e quando lo schermo del telefono è spento.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Registrazione automatica anche se il servizio in background non è in esecuzione (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Interrompi registrazione dopo</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Interrompi la registrazione quando non c\'è movimento</string>
     <string name="prefs_rules_auto_stop_speed_text">Interrompi la registrazione quando la velocità è inferiore (in base al GPS)</string>
@@ -273,6 +276,7 @@
     <string name="prefs_show_status_bar_text">Mostra la barra di stato del sistema</string>
     <string name="prefs_show_take_photo_btn_text">Per fare una foto</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Non supportato dalla fotocamera corrente. I produttori spesso ne limitano l\'uso: è disponibile solo nell\'applicazione Fotocamera standard</string>
+    <string name="prefs_start_stop_toast_message_text">Visualizza un messaggio all\'avvio o all\'interruzione della registrazione durante la registrazione in background</string>
     <string name="prefs_start_stop_voice_sum_text">Suono all\'avvio, all\'arresto o errore di registrazione</string>
     <string name="prefs_start_stop_voice_text">Stato della registrazione del suono</string>
     <string name="prefs_subtitles_address_text">Indirizzo</string>
@@ -285,6 +289,7 @@
     <string name="prefs_subtitles_date_time_system_text">Da sistema operativo</string>
     <string name="prefs_subtitles_gpx_delay_title">Tasso di aggiornamento minimo GPX</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Tutti gli aggiornamenti delle coordinate</string>
+    <string name="prefs_subtitles_gpx_sum">GPX: uno schema XML progettato come formato dati GPS comune per applicazioni software. Può essere utilizzato per descrivere waypoint, tracce e percorsi</string>
     <string name="prefs_subtitles_gpx_title">Crea un file GPX per ogni video</string>
     <string name="prefs_subtitles_in_english_text">Sottotitoli in inglese</string>
     <string name="prefs_subtitles_position_bottom_sum_text">Sovrapporre i sottotitoli nella parte inferiore del video</string>
@@ -314,7 +319,6 @@
     <string name="prefs_ui_click_text">Tocco rapido sullo schermo</string>
     <string name="prefs_ui_long_click_text">Premi a lungo sullo schermo</string>
     <string name="prefs_value_secs_few_text">secondi</string>
-    <string name="prefs_value_secs_many_text">secondi</string>
     <string name="prefs_value_secs_one_text">secondo</string>
     <string name="prefs_value_secs_other_text">secondi</string>
     <string name="prefs_version_text">Versione dell\'applicazione</string>
@@ -367,7 +371,6 @@
     <string name="rec_fix_short_text">Corretta</string>
     <string name="rec_fix_text">Per correggere</string>
     <string name="rec_gps_status_satellites_few_text">satelliti</string>
-    <string name="rec_gps_status_satellites_many_text">satelliti</string>
     <string name="rec_gps_status_satellites_one_text">satellite</string>
     <string name="rec_gps_status_satellites_other_text">satelliti</string>
     <string name="rec_gps_text">GPS</string>
@@ -391,6 +394,14 @@
     <string name="reset">ripristinare</string>
     <string name="storage_external_single">Scheda MicroSD</string>
     <string name="storage_phone">Memoria del telefono</string>
+    <string name="timer_auto_start">Timer</string>
+    <string name="timer_auto_start_dlg_type_title">Imposta un timer per avviare la registrazione</string>
+    <string name="timer_auto_start_every_day_text">Ogni giorno</string>
+    <string name="timer_auto_start_once">Una volta</string>
+    <string name="timer_auto_start_recording_cancel_message_text">Annullare la registrazione video automatica in base al timer corrente?</string>
+    <string name="timer_auto_start_recording_datetime_past_error_text">Il tempo era fissato nel passato</string>
+    <string name="timer_auto_start_recording_duration_text">Durata della registrazione video</string>
+    <string name="timer_auto_start_service_notification_subtitle_text">Servizio timer per l\'avvio automatico della registrazione video</string>
     <string name="to">a</string>
     <string name="unknown">Sconosciuto</string>
     <string name="videos_ask_which_player">Chiedi con quale giocatore giocare</string>

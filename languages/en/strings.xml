@@ -18,7 +18,7 @@
     <!-- it's about storage space, use "available" word for translation! -->
     <string name="accept_text">I accept</string>
     <string name="any_text">Any</string>
-    <string name="app_name">Droid Dashcam - Driving video recorder</string>
+    <string name="app_name_droid_dashcam">Droid Dashcam - Driving video recorder</string>
     <string name="camera">Camera</string>
     <string name="camera_aperture">Aperture</string>
     <string name="camera_back">Back Camera</string>
@@ -71,10 +71,14 @@
     <string name="format_speed_measure_kilometers">km/h</string>
     <string name="format_speed_measure_miles">mph</string>
     <string name="from">from</string>
+    <string name="hour">hour</string>
+    <string name="hours">hours</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">The application is not excluded from battery optimization. If the camera is not running in the background or something else, then add this application to the exceptions of the power saving mode.</string>
     <string name="msg_android_r_deleting_manual_tip_text">If you reinstalled App on Android 11, then the old files must be deleted manually</string>
     <string name="msg_auto_recording_service_was_stopped">You have stopped the background service for automatically starting video recording. Open the application to launch it again.</string>
     <string name="msg_battery_optimization_tip_text">Battery optimization -&gt; All apps -&gt; Find the app -&gt; Do not optimize/save</string>
+    <string name="msg_beta_version_warning">This is a beta version of the application, so some things may not work or be unstable.</string>
+    <string name="msg_beta_version_warning_sum">Install the stable version from the play store to avoid errors.</string>
     <string name="msg_camera_died_text">Device camera service has died, restarting…</string>
     <string name="msg_camera_not_opened">Camera is not started</string>
     <string name="msg_close_settings_before_recording_text">Close app settings before starting recording</string>
@@ -95,7 +99,7 @@
     <string name="msg_notification_could_launch_app_activity">The application\'s main screen could not be launched because the SYSTEM_ALERT_WINDOW (display on top of all other application windows) permission was not granted or the device\'s screen was turned off</string>
     <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">The specified application could not be launched to open automatically because the \"show on top of all applications\" permission was not granted.</string>
     <string name="msg_notification_could_not_open_with_locked_screen">The application could not be opened because the screen was turned off (locked).</string>
-    <string name="msg_notification_could_not_start_recording_with_locked_screen">The application could not be opened to start recording because the screen was turned off (locked). Run a background recording service (Watcher) to fix this.</string>
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">The application could not be opened to start recording because the screen was turned off (locked). Run a background recording service (AutoStart) to fix this.</string>
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">The app could not be opened to start recording because the \"show on top of all apps\" permission was not granted. Click to provide</string>
     <string name="msg_photo_failed_to_take">Failed to take photo</string>
     <string name="msg_photo_was_saved">Photo saved</string>
@@ -113,7 +117,6 @@
     <string name="notification_could_not_start_recording_service">Could not start recording service. Please click to disable battery optimization for this app</string>
     <string name="notification_service_aux_checker">AudioJack(Aux)</string>
     <string name="notification_service_bl_checker">Bluetooth</string>
-    <string name="notification_service_checker">Watcher</string>
     <string name="notification_service_power_checker">Charging</string>
     <string name="notification_stop_text">Stop</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">To auto start/stop recording</string>
@@ -243,8 +246,8 @@
     <string name="prefs_rules_auto_lock_file_vibrate_text">Vibrate on impact detection</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Start recording on motion detection</string>
     <string name="prefs_rules_auto_start_speed_text">Start recording when speed is equal to/greater than (based on GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* You can turn off this option so that the application performs automatic recording only if the application\'s background service (Watcher) is running.\n- Automatic recording for events such as charging, Bluetooth or AUX can be performed without problems up to Android 7.1.\n- Starting from Android 8, automatic recording without a background application service (Watcher) can only be performed for Bluetooth events, and in other cases (when charging or AUX) you need to first start the background application service (Watcher) - by launching the application itself once.\n- Starting with Android 11 without the background app service (Watcher), access to the camera without user interaction is only possible if the phone is unlocked (screen on) and \"on top of all apps\" permission is granted.\n- Thus, for Android 11 and higher, you need to manually launch the application once so that the background service of the application (Watcher) starts to automatically record during any events and when the phone screen is turned off.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Automatic recording even if the background service (Watcher) is not running</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* You can turn this option off to have the app perform automatic recording only when the app\'s background service (AutoStart) is running.\n- Automatic recording for events such as charging, Bluetooth or AUX can be performed without problems up to Android 7.1.\n- Starting from Android 8, automatic recording without a background application service (AutoStart) can only be performed for Bluetooth events, and in other cases (when charging or AUX) you need to first start the background application service (AutoStart) - by launching the application itself once.\n- Starting with Android 11 without the background app service (AutoStart), access to the camera without user interaction is only possible if the phone is unlocked (screen on) and \"on top of all apps\" permission is granted.\n- Thus, for Android 11 and higher, you need to manually launch the application once so that the background service of the application (AutoStart) starts for automatic recording during any events and when the phone screen is turned off.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Automatic recording even if the background service is not running (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Stop recording after</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Stop recording when there is no movement</string>
     <string name="prefs_rules_auto_stop_speed_text">Stop recording when speed is below (based on GPS)</string>
@@ -274,6 +277,7 @@
     <string name="prefs_show_status_bar_text">Show system status bar</string>
     <string name="prefs_show_take_photo_btn_text">Take photo</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">It\'s not supported by current camera. Manufacturers often restrict its use and it\'s available only in standard Camera app</string>
+    <string name="prefs_start_stop_toast_message_text">Display a message when starting or stopping recording during background recording</string>
     <string name="prefs_start_stop_voice_sum_text">Voice over when recording starts, stops or fails</string>
     <string name="prefs_start_stop_voice_text">Voice on recording status change</string>
     <string name="prefs_subtitles_address_text">Location Address Overlay</string>
@@ -286,6 +290,7 @@
     <string name="prefs_subtitles_date_time_system_text">System</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX minimum update rate</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">All coordinate updates</string>
+    <string name="prefs_subtitles_gpx_sum">GPX - an XML schema designed as a common GPS data format for software applications. It can be used to describe waypoints, tracks, and routes</string>
     <string name="prefs_subtitles_gpx_title">Create GPX file for each video</string>
     <string name="prefs_subtitles_in_english_text">Subtitles in English</string>
     <string name="prefs_subtitles_position_bottom_sum_text">Overlay subtitles at the bottom of the video</string>
@@ -315,7 +320,6 @@
     <string name="prefs_ui_click_text">Quick tap on the screen</string>
     <string name="prefs_ui_long_click_text">Long tap on the screen</string>
     <string name="prefs_value_secs_few_text">seconds</string>
-    <string name="prefs_value_secs_many_text">seconds</string>
     <string name="prefs_value_secs_one_text">second</string>
     <string name="prefs_value_secs_other_text">seconds</string>
     <string name="prefs_version_text">App version</string>
@@ -368,7 +372,6 @@
     <string name="rec_fix_short_text">@string/rec_fix_text</string>
     <string name="rec_fix_text">Fix</string>
     <string name="rec_gps_status_satellites_few_text">satellites</string>
-    <string name="rec_gps_status_satellites_many_text">satellites</string>
     <string name="rec_gps_status_satellites_one_text">satellite</string>
     <string name="rec_gps_status_satellites_other_text">satellites</string>
     <string name="rec_gps_text">GPS</string>
@@ -392,6 +395,14 @@
     <string name="reset">reset</string>
     <string name="storage_external_single">MicroSD card</string>
     <string name="storage_phone">Phone Storage</string>
+    <string name="timer_auto_start">Timer</string>
+    <string name="timer_auto_start_dlg_type_title">Set a timer to start recording</string>
+    <string name="timer_auto_start_every_day_text">Every day</string>
+    <string name="timer_auto_start_once">Once</string>
+    <string name="timer_auto_start_recording_cancel_message_text">Cancel automatic video recording based on the current timer?</string>
+    <string name="timer_auto_start_recording_datetime_past_error_text">Time was set in the past</string>
+    <string name="timer_auto_start_recording_duration_text">Video recording duration</string>
+    <string name="timer_auto_start_service_notification_subtitle_text">Timer service for automatically starting video recording</string>
     <string name="to">to</string>
     <string name="unknown">Unknown</string>
     <string name="videos_ask_which_player">Ask which player to play in</string>

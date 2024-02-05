@@ -1,7 +1,7 @@
 <resources>
     <string name="accept_text">Δέχομαι</string>
     <string name="any_text">Οποιος</string>
-    <string name="app_name">Droid Dashcam - Οδήγηση DVR</string>
+    <string name="app_name_droid_dashcam">Droid Dashcam - Οδήγηση DVR</string>
     <string name="camera">ΦΩΤΟΓΡΑΦΙΚΗ ΜΗΧΑΝΗ</string>
     <string name="camera_aperture">Διάφραγμα</string>
     <string name="camera_back">Πίσω κάμερα</string>
@@ -54,10 +54,14 @@
     <string name="format_speed_measure_kilometers">km/h</string>
     <string name="format_speed_measure_miles">μίλι/ώρα</string>
     <string name="from">από</string>
+    <string name="hour">ώρα</string>
+    <string name="hours">ώρες</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Η εφαρμογή δεν εξαιρείται από τη βελτιστοποίηση μπαταρίας. Εάν η κάμερα δεν εκτελείται στο παρασκήνιο ή κάτι άλλο, προσθέστε αυτήν την εφαρμογή στις εξαιρέσεις της λειτουργίας εξοικονόμησης ενέργειας.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Εάν εγκαταστήσατε ξανά την εφαρμογή στο Android 11, τότε τα παλιά αρχεία πρέπει να διαγραφούν με μη αυτόματο τρόπο</string>
     <string name="msg_auto_recording_service_was_stopped">Έχετε διακόψει την υπηρεσία παρασκηνίου για αυτόματη έναρξη της εγγραφής βίντεο. Ανοίξτε την εφαρμογή για να την εκκινήσετε ξανά.</string>
     <string name="msg_battery_optimization_tip_text">Βελτιστοποίηση μπαταρίας -&gt; Όλες οι εφαρμογές -&gt; Βρείτε την εφαρμογή -&gt; Να μην γίνεται βελτιστοποίηση/αποθήκευση</string>
+    <string name="msg_beta_version_warning">Αυτή είναι μια έκδοση beta της εφαρμογής, επομένως ορισμένα πράγματα ενδέχεται να μην λειτουργούν ή να είναι ασταθή.</string>
+    <string name="msg_beta_version_warning_sum">Εγκαταστήστε τη σταθερή έκδοση από το play store για να αποφύγετε σφάλματα.</string>
     <string name="msg_camera_died_text">Η κάμερα σταμάτησε να λειτουργεί απροσδόκητα, επανεκκίνηση…</string>
     <string name="msg_camera_not_opened">Η κάμερα δεν λειτουργεί</string>
     <string name="msg_close_settings_before_recording_text">Κλείστε τις προτιμήσεις της εφαρμογής πριν ξεκινήσετε την εγγραφή</string>
@@ -78,7 +82,7 @@
     <string name="msg_notification_could_launch_app_activity">Δεν ήταν δυνατή η εκκίνηση της κύριας οθόνης της εφαρμογής επειδή δεν παραχωρήθηκε η άδεια SYSTEM_ALERT_WINDOW (εμφάνιση πάνω από όλα τα άλλα παράθυρα εφαρμογής) ή η οθόνη της συσκευής ήταν απενεργοποιημένη</string>
     <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Δεν ήταν δυνατή η εκκίνηση της καθορισμένης εφαρμογής για να ανοίξει αυτόματα επειδή δεν παραχωρήθηκε η άδεια \"εμφάνιση πάνω από όλες τις εφαρμογές\".</string>
     <string name="msg_notification_could_not_open_with_locked_screen">Δεν ήταν δυνατό να ανοίξει η εφαρμογή επειδή η οθόνη ήταν απενεργοποιημένη (κλειδωμένη).</string>
-    <string name="msg_notification_could_not_start_recording_with_locked_screen">Δεν ήταν δυνατό να ανοίξει η εφαρμογή για να ξεκινήσει η εγγραφή επειδή η οθόνη ήταν απενεργοποιημένη (κλειδωμένη). Εκτελέστε μια υπηρεσία εγγραφής στο παρασκήνιο (Watcher) για να το διορθώσετε.</string>
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Δεν ήταν δυνατό να ανοίξει η εφαρμογή για να ξεκινήσει η εγγραφή επειδή η οθόνη ήταν απενεργοποιημένη (κλειδωμένη). Εκτελέστε μια υπηρεσία εγγραφής στο παρασκήνιο (AutoStart) για να το διορθώσετε.</string>
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Δεν ήταν δυνατό να ανοίξει η εφαρμογή για να ξεκινήσει η εγγραφή επειδή δεν παραχωρήθηκε η άδεια \"εμφάνιση πάνω από όλες τις εφαρμογές\". Κάντε κλικ για παροχή</string>
     <string name="msg_photo_failed_to_take">Αποτυχία λήψης φωτογραφίας</string>
     <string name="msg_photo_was_saved">Η φωτογραφία αποθηκεύτηκε</string>
@@ -96,7 +100,6 @@
     <string name="notification_could_not_start_recording_service">Η υπηρεσία εγγραφής απέτυχε να ξεκινήσει. Πατήστε για να απενεργοποιήσετε τη βελτιστοποίηση μπαταρίας για αυτήν την εφαρμογή</string>
     <string name="notification_service_aux_checker">υποδοχή ήχου (Aux)</string>
     <string name="notification_service_bl_checker">bluetooth</string>
-    <string name="notification_service_checker">ανάλυση</string>
     <string name="notification_service_power_checker">φόρτιση</string>
     <string name="notification_stop_text">Να σταματήσει</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Για αυτόματη ενεργοποίηση/απενεργοποίηση εγγραφής</string>
@@ -226,8 +229,8 @@
     <string name="prefs_rules_auto_lock_file_vibrate_text">Δόνηση όταν ανιχνεύεται σοκ</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Ξεκινήστε την εγγραφή όταν ανιχνευτεί κίνηση</string>
     <string name="prefs_rules_auto_start_speed_text">Ξεκινήστε την εγγραφή όταν η ταχύτητα είναι ίση /υψηλότερη (βάσει GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Μπορείτε να απενεργοποιήσετε αυτήν την επιλογή, ώστε η εφαρμογή να πραγματοποιεί αυτόματη εγγραφή μόνο εάν εκτελείται η υπηρεσία παρασκηνίου της εφαρμογής (Watcher).\n- Η αυτόματη εγγραφή συμβάντων όπως φόρτιση, Bluetooth ή AUX μπορεί να πραγματοποιηθεί χωρίς προβλήματα έως το Android 7.1.\n- Ξεκινώντας από το Android 8, η αυτόματη εγγραφή χωρίς υπηρεσία εφαρμογών παρασκηνίου (Watcher) μπορεί να πραγματοποιηθεί μόνο για συμβάντα Bluetooth και σε άλλες περιπτώσεις (κατά τη φόρτιση ή AUX) πρέπει πρώτα να ξεκινήσετε την υπηρεσία εφαρμογής παρασκηνίου (Watcher) - εκκινώντας το η ίδια η εφαρμογή μία φορά.\n- Ξεκινώντας με το Android 11 χωρίς την υπηρεσία εφαρμογών παρασκηνίου (Watcher), η πρόσβαση στην κάμερα χωρίς αλληλεπίδραση με τον χρήστη είναι δυνατή μόνο εάν το τηλέφωνο είναι ξεκλείδωτο (οθόνη ενεργή) και παραχωρηθεί άδεια \"πάνω από όλες τις εφαρμογές\".\n- Έτσι, για Android 11 και νεότερη έκδοση, πρέπει να εκκινήσετε χειροκίνητα την εφαρμογή μία φορά, ώστε η υπηρεσία παρασκηνίου της εφαρμογής (Watcher) να αρχίσει να καταγράφει αυτόματα κατά τη διάρκεια τυχόν συμβάντων και όταν η οθόνη του τηλεφώνου είναι απενεργοποιημένη.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Αυτόματη εγγραφή ακόμα κι αν δεν εκτελείται η υπηρεσία παρασκηνίου (Watcher).</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Μπορείτε να απενεργοποιήσετε αυτήν την επιλογή ώστε η εφαρμογή να πραγματοποιεί αυτόματη εγγραφή μόνο όταν εκτελείται η υπηρεσία παρασκηνίου της εφαρμογής (AutoStart).\n- Η αυτόματη εγγραφή συμβάντων όπως φόρτιση, Bluetooth ή AUX μπορεί να πραγματοποιηθεί χωρίς προβλήματα έως το Android 7.1.\n- Ξεκινώντας από το Android 8, η αυτόματη εγγραφή χωρίς υπηρεσία εφαρμογών παρασκηνίου (AutoStart) μπορεί να πραγματοποιηθεί μόνο για συμβάντα Bluetooth και σε άλλες περιπτώσεις (κατά τη φόρτιση ή AUX) πρέπει πρώτα να ξεκινήσετε την υπηρεσία εφαρμογών παρασκηνίου (AutoStart) - εκκινώντας το η ίδια η εφαρμογή μία φορά.\n- Ξεκινώντας με το Android 11 χωρίς την υπηρεσία εφαρμογών στο παρασκήνιο (AutoStart), η πρόσβαση στην κάμερα χωρίς αλληλεπίδραση με τον χρήστη είναι δυνατή μόνο εάν το τηλέφωνο είναι ξεκλείδωτο (οθόνη ενεργή) και παραχωρηθεί άδεια \"πάνω από όλες τις εφαρμογές\".\n- Έτσι, για Android 11 και νεότερη έκδοση, πρέπει να εκκινήσετε χειροκίνητα την εφαρμογή μία φορά, ώστε η υπηρεσία παρασκηνίου της εφαρμογής (AutoStart) να ξεκινήσει για αυτόματη εγγραφή κατά τη διάρκεια τυχόν συμβάντων και όταν η οθόνη του τηλεφώνου είναι απενεργοποιημένη.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Αυτόματη εγγραφή ακόμα κι αν η υπηρεσία παρασκηνίου δεν εκτελείται (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Διακοπή εγγραφής μετά</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Σταματήστε την εγγραφή όταν δεν υπάρχει κίνηση</string>
     <string name="prefs_rules_auto_stop_speed_text">Διακοπή εγγραφής όταν η ταχύτητα είναι χαμηλότερη (βάσει GPS)</string>
@@ -257,6 +260,7 @@
     <string name="prefs_show_status_bar_text">Εμφάνιση γραμμής κατάστασης συστήματος</string>
     <string name="prefs_show_take_photo_btn_text">Για να φτιάξετε μια φωτογραφία</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Δεν υποστηρίζεται από την τρέχουσα κάμερα. Οι κατασκευαστές συχνά περιορίζουν τη χρήση του - είναι διαθέσιμο μόνο στην τυπική εφαρμογή Κάμερα</string>
+    <string name="prefs_start_stop_toast_message_text">Εμφανίστε ένα μήνυμα κατά την έναρξη ή τη διακοπή της εγγραφής κατά την εγγραφή στο παρασκήνιο</string>
     <string name="prefs_start_stop_voice_sum_text">Ήχος κατά την εκκίνηση, διακοπή ή σφάλμα εγγραφής</string>
     <string name="prefs_start_stop_voice_text">Κατάσταση εγγραφής ήχου</string>
     <string name="prefs_subtitles_address_text">Η διεύθυνση</string>
@@ -269,6 +273,7 @@
     <string name="prefs_subtitles_date_time_system_text">Συστήματος</string>
     <string name="prefs_subtitles_gpx_delay_title">Ελάχιστος ρυθμός ενημέρωσης GPX</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Όλες οι ενημερώσεις συντεταγμένων</string>
+    <string name="prefs_subtitles_gpx_sum">GPX - ένα σχήμα XML σχεδιασμένο ως κοινή μορφή δεδομένων GPS για εφαρμογές λογισμικού. Μπορεί να χρησιμοποιηθεί για να περιγράψει σημεία, διαδρομές και διαδρομές</string>
     <string name="prefs_subtitles_gpx_title">Δημιουργήστε αρχείο GPX για κάθε βίντεο</string>
     <string name="prefs_subtitles_in_english_text">αγγλικοί υπότιτλοι</string>
     <string name="prefs_subtitles_position_bottom_sum_text">Επικάλυψη υπότιτλων στο κάτω μέρος του βίντεο</string>
@@ -298,7 +303,6 @@
     <string name="prefs_ui_click_text">Γρήγορο πάτημα στην οθόνη</string>
     <string name="prefs_ui_long_click_text">Πατήστε παρατεταμένα στην οθόνη</string>
     <string name="prefs_value_secs_few_text">δευτερόλεπτα</string>
-    <string name="prefs_value_secs_many_text">δευτερόλεπτα</string>
     <string name="prefs_value_secs_one_text">δεύτερος</string>
     <string name="prefs_value_secs_other_text">δευτερόλεπτα</string>
     <string name="prefs_version_text">Έκδοση εφαρμογής</string>
@@ -351,7 +355,6 @@
     <string name="rec_fix_short_text">Να διορθώσει</string>
     <string name="rec_fix_text">Να διορθώσει</string>
     <string name="rec_gps_status_satellites_few_text">δορυφόρους</string>
-    <string name="rec_gps_status_satellites_many_text">δορυφόρους</string>
     <string name="rec_gps_status_satellites_one_text">δορυφόρος</string>
     <string name="rec_gps_status_satellites_other_text">δορυφόρους</string>
     <string name="rec_gps_text">GPS</string>
@@ -374,9 +377,15 @@
     <string name="recording_voice_stopped_text">Η εγγραφή σταμάτησε</string>
     <string name="reset">απαλλάσσω</string>
     <string name="storage_external_single">Κάρτα MicroSD</string>
-    <string name="storage_external_single_free">Κάρτα MicroSD</string>
     <string name="storage_phone">Μνήμη τηλεφώνου</string>
-    <string name="storage_phone_free">Μνήμη τηλεφώνου</string>
+    <string name="timer_auto_start">Μετρών την ώραν</string>
+    <string name="timer_auto_start_dlg_type_title">Ρυθμίστε ένα χρονόμετρο για να ξεκινήσει η εγγραφή</string>
+    <string name="timer_auto_start_every_day_text">Κάθε μέρα</string>
+    <string name="timer_auto_start_once">Μια φορά</string>
+    <string name="timer_auto_start_recording_cancel_message_text">Να ακυρωθεί η αυτόματη εγγραφή βίντεο βάσει του τρέχοντος χρονοδιακόπτη;</string>
+    <string name="timer_auto_start_recording_datetime_past_error_text">Ο χρόνος είχε οριστεί στο παρελθόν</string>
+    <string name="timer_auto_start_recording_duration_text">Διάρκεια εγγραφής βίντεο</string>
+    <string name="timer_auto_start_service_notification_subtitle_text">Υπηρεσία χρονοδιακόπτη για αυτόματη έναρξη εγγραφής βίντεο</string>
     <string name="to">πριν</string>
     <string name="unknown">Αγνωστος</string>
     <string name="videos_ask_which_player">Ρωτήστε σε ποιον παίκτη να παίξετε</string>

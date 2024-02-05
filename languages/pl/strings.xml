@@ -18,7 +18,7 @@
     -->
     <string name="accept_text">Akceptuję</string>
     <string name="any_text">Każdy</string>
-    <string name="app_name">Droid Dashcam - Rejestrator jazdy</string>
+    <string name="app_name_droid_dashcam">Droid Dashcam - Rejestrator jazdy</string>
     <string name="camera">Aparat fotograficzny</string>
     <string name="camera_aperture">Przysłona</string>
     <string name="camera_back">Tylna kamera</string>
@@ -71,10 +71,14 @@
     <string name="format_speed_measure_kilometers">km/h</string>
     <string name="format_speed_measure_miles">mph</string>
     <string name="from">od</string>
+    <string name="hour">godzina</string>
+    <string name="hours">godziny</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Aplikacja nie jest wyłączona z optymalizacji baterii. Jeśli kamera nie działa w tle lub w inny sposób, dodaj tę aplikację do wyjątków trybu oszczędzania energii.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Jeśli ponownie zainstalowałeś aplikację na Androidzie 11, stare pliki należy usunąć ręcznie</string>
     <string name="msg_auto_recording_service_was_stopped">Zatrzymałeś usługę działającą w tle, umożliwiającą automatyczne rozpoczynanie nagrywania wideo. Otwórz aplikację, aby uruchomić ją ponownie.</string>
     <string name="msg_battery_optimization_tip_text">Optymalizacja baterii -&gt; Wszystkie aplikacje -&gt; Znajdź aplikację -&gt; Nie optymalizuj/nie zapisuj</string>
+    <string name="msg_beta_version_warning">To jest wersja beta aplikacji, dlatego niektóre elementy mogą nie działać lub działać niestabilnie.</string>
+    <string name="msg_beta_version_warning_sum">Zainstaluj stabilną wersję ze Sklepu Play, aby uniknąć błędów.</string>
     <string name="msg_camera_died_text">Kamera niespodziewanie przestała działać,  uruchamia się ponownie…</string>
     <string name="msg_camera_not_opened">Aparat nie działa</string>
     <string name="msg_close_settings_before_recording_text">Zamknij ustawienia aplikacji przed rozpoczęciem nagrywania</string>
@@ -95,7 +99,7 @@
     <string name="msg_notification_could_launch_app_activity">Nie można uruchomić głównego ekranu aplikacji, ponieważ nie udzielono uprawnień SYSTEM_ALERT_WINDOW (wyświetlanie nad wszystkimi innymi oknami aplikacji) lub ekran urządzenia był wyłączony</string>
     <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Nie można uruchomić określonej aplikacji w celu automatycznego otwarcia, ponieważ nie przyznano pozwolenia „pokaż na wierzchu wszystkich aplikacji”.</string>
     <string name="msg_notification_could_not_open_with_locked_screen">Nie można było otworzyć aplikacji, ponieważ ekran był wyłączony (zablokowany).</string>
-    <string name="msg_notification_could_not_start_recording_with_locked_screen">Nie można było otworzyć aplikacji w celu rozpoczęcia nagrywania, ponieważ ekran był wyłączony (zablokowany). Aby to naprawić, uruchom usługę nagrywania w tle (Watcher).</string>
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Nie można było otworzyć aplikacji w celu rozpoczęcia nagrywania, ponieważ ekran był wyłączony (zablokowany). Aby to naprawić, uruchom usługę nagrywania w tle (AutoStart).</string>
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Nie można otworzyć aplikacji w celu rozpoczęcia nagrywania, ponieważ nie przyznano pozwolenia „pokaż na wierzchu wszystkich aplikacji”. Kliknij, aby podać</string>
     <string name="msg_photo_failed_to_take">Nie udało się zrobić zdjęcia</string>
     <string name="msg_photo_was_saved">Zdjęcie zostało zapisane</string>
@@ -113,7 +117,6 @@
     <string name="notification_could_not_start_recording_service">Nie można uruchomić nagrywania. Kliknij, aby wyłączyć optymalizację baterii dla tej aplikacji</string>
     <string name="notification_service_aux_checker">Gniazdo audio (AUX)</string>
     <string name="notification_service_bl_checker">Bluetooth</string>
-    <string name="notification_service_checker">Czuwak</string>
     <string name="notification_service_power_checker">Ładowanie</string>
     <string name="notification_stop_text">Zatrzymaj</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Do automatycznego włączania/wyłączania nagrywania</string>
@@ -243,8 +246,8 @@
     <string name="prefs_rules_auto_lock_file_vibrate_text">Wibracje po wykryciu wstrząsu</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Rozpocznij nagrywanie po wykryciu ruchu</string>
     <string name="prefs_rules_auto_start_speed_text">Rozpocznij nagrywanie, gdy prędkość jest równa/wyższa (na podstawie GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Możesz wyłączyć tę opcję, aby aplikacja wykonywała automatyczne nagrywanie tylko wtedy, gdy działa usługa aplikacji w tle (Watcher).\n- Automatyczne nagrywanie zdarzeń takich jak ładowanie, Bluetooth lub AUX można wykonywać bez problemów aż do Androida 7.1.\n- Począwszy od Androida 8, automatyczne nagrywanie bez usługi aplikacji działającej w tle (Watcher) można wykonywać tylko dla zdarzeń Bluetooth, a w pozostałych przypadkach (podczas ładowania lub AUX) należy najpierw uruchomić usługę aplikacji działającej w tle (Watcher) - uruchamiając samą aplikację raz.\n- Począwszy od Androida 11 bez usługi aplikacji działającej w tle (Watcher), dostęp do kamery bez interakcji z użytkownikiem jest możliwy tylko wtedy, gdy telefon jest odblokowany (ekran włączony) i udzielono pozwolenia „na wszystkich aplikacjach”.\n- Dlatego w przypadku Androida 11 i nowszych wersji należy raz ręcznie uruchomić aplikację, aby usługa działająca w tle aplikacji (Watcher) zaczęła automatycznie nagrywać podczas wszelkich zdarzeń i gdy ekran telefonu jest wyłączony.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Automatyczne nagrywanie, nawet jeśli usługa w tle (Watcher) nie jest uruchomiona</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Możesz wyłączyć tę opcję, aby aplikacja automatycznie nagrywała tylko wtedy, gdy działa usługa aplikacji w tle (AutoStart).\n- Automatyczne nagrywanie zdarzeń takich jak ładowanie, Bluetooth lub AUX można wykonywać bez problemów aż do Androida 7.1.\n- Począwszy od Androida 8, automatyczne nagrywanie bez usługi aplikacji działającej w tle (AutoStart) można wykonywać tylko dla zdarzeń Bluetooth, a w pozostałych przypadkach (podczas ładowania lub AUX) należy najpierw uruchomić usługę aplikacji działającej w tle (AutoStart) - uruchamiając samą aplikację raz.\n- Począwszy od Androida 11 bez usługi aplikacji działającej w tle (AutoStart), dostęp do aparatu bez interakcji z użytkownikiem jest możliwy tylko wtedy, gdy telefon jest odblokowany (ekran włączony) i udzielono pozwolenia „na wszystkich aplikacjach”.\n- Dlatego w przypadku systemu Android 11 i nowszych wersji należy raz ręcznie uruchomić aplikację, aby usługa aplikacji w tle (AutoStart) uruchomiła się w celu automatycznego nagrywania podczas dowolnych zdarzeń oraz po wyłączeniu ekranu telefonu.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Automatyczne nagrywanie, nawet jeśli usługa w tle nie jest uruchomiona (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Zatrzymaj nagrywanie po</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Zatrzymaj nagrywanie, gdy nie ma ruchu</string>
     <string name="prefs_rules_auto_stop_speed_text">Zatrzymaj nagrywanie, gdy prędkość jest mniejsza (na podstawie GPS)</string>
@@ -274,6 +277,7 @@
     <string name="prefs_show_status_bar_text">Pokaż pasek stanu systemu</string>
     <string name="prefs_show_take_photo_btn_text">Zrób zdjęcie</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Nie jest obsługiwana przez obecną kamerę. Producenci często ograniczają jej stosowanie – jest dostępna tylko w standardowej aplikacji aparatu</string>
+    <string name="prefs_start_stop_toast_message_text">Wyświetl komunikat podczas rozpoczynania lub zatrzymywania nagrywania podczas nagrywania w tle</string>
     <string name="prefs_start_stop_voice_sum_text">Dźwięk przy starcie, zatrzymaniu lub błędach nagrywania</string>
     <string name="prefs_start_stop_voice_text">Stan nagrywania dźwięku</string>
     <string name="prefs_subtitles_address_text">Adres</string>
@@ -286,6 +290,7 @@
     <string name="prefs_subtitles_date_time_system_text">Systemowa</string>
     <string name="prefs_subtitles_gpx_delay_title">Minimalna częstotliwość aktualizacji GPX</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Wszystkie aktualizacje współrzędnych</string>
+    <string name="prefs_subtitles_gpx_sum">GPX – schemat XML zaprojektowany jako powszechny format danych GPS dla aplikacji. Można go używać do opisywania punktów orientacyjnych, śladów i tras</string>
     <string name="prefs_subtitles_gpx_title">Utwórz plik GPX dla każdego filmu</string>
     <string name="prefs_subtitles_in_english_text">Napisy po angielsku</string>
     <string name="prefs_subtitles_position_bottom_sum_text">Nakładaj napisy na dole filmu</string>
@@ -315,7 +320,6 @@
     <string name="prefs_ui_click_text">Szybkie dotknięcie ekranu</string>
     <string name="prefs_ui_long_click_text">Długie naciśnięcie na ekranie</string>
     <string name="prefs_value_secs_few_text">sekundy</string>
-    <string name="prefs_value_secs_many_text">sekund</string>
     <string name="prefs_value_secs_one_text">sekunda</string>
     <string name="prefs_value_secs_other_text">sekund</string>
     <string name="prefs_version_text">Wersja aplikacji</string>
@@ -368,7 +372,6 @@
     <string name="rec_fix_short_text">@string/rec_fix_text</string>
     <string name="rec_fix_text">Napraw</string>
     <string name="rec_gps_status_satellites_few_text">satelity</string>
-    <string name="rec_gps_status_satellites_many_text">satelit</string>
     <string name="rec_gps_status_satellites_one_text">satelita</string>
     <string name="rec_gps_status_satellites_other_text">satelit</string>
     <string name="rec_gps_text">GPS</string>
@@ -392,6 +395,14 @@
     <string name="reset">resetuj</string>
     <string name="storage_external_single">Karta microSD</string>
     <string name="storage_phone">Pamięć telefonu</string>
+    <string name="timer_auto_start">Regulator czasowy</string>
+    <string name="timer_auto_start_dlg_type_title">Ustaw timer, aby rozpocząć nagrywanie</string>
+    <string name="timer_auto_start_every_day_text">Codziennie</string>
+    <string name="timer_auto_start_once">Raz</string>
+    <string name="timer_auto_start_recording_cancel_message_text">Anulować automatyczne nagrywanie wideo w oparciu o bieżący timer?</string>
+    <string name="timer_auto_start_recording_datetime_past_error_text">Czas był ustawiony w przeszłości</string>
+    <string name="timer_auto_start_recording_duration_text">Czas nagrywania wideo</string>
+    <string name="timer_auto_start_service_notification_subtitle_text">Usługa timera umożliwiająca automatyczne rozpoczęcie nagrywania wideo</string>
     <string name="to">do</string>
     <string name="unknown">Nieznany</string>
     <string name="videos_ask_which_player">Zapytaj, którym graczem chcesz grać</string>

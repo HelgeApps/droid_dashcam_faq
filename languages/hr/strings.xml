@@ -17,7 +17,7 @@
     -->
     <string name="accept_text">prihvaćam</string>
     <string name="any_text">Bilo koji</string>
-    <string name="app_name">Droid Dashcam - Video snimač za vožnju</string>
+    <string name="app_name_droid_dashcam">Droid Dashcam - Video snimač za vožnju</string>
     <string name="camera">Kamera</string>
     <string name="camera_aperture">Otvor</string>
     <string name="camera_back">Zadnja kamera</string>
@@ -70,10 +70,14 @@
     <string name="format_speed_measure_kilometers">km/h</string>
     <string name="format_speed_measure_miles">mph</string>
     <string name="from">od</string>
+    <string name="hour">sat</string>
+    <string name="hours">sati</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Aplikacija nije isključena iz optimizacije baterije. Ako kamera ne radi u pozadini ili nešto drugo, dodajte ovu aplikaciju među iznimke načina rada za uštedu energije.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Ako ste ponovo instalirali aplikaciju na Android 11, stare datoteke morate ručno izbrisati</string>
     <string name="msg_auto_recording_service_was_stopped">Zaustavili ste pozadinsku uslugu za automatsko pokretanje video snimanja. Otvorite aplikaciju da je ponovno pokrenete.</string>
     <string name="msg_battery_optimization_tip_text">Optimizacija baterije -&gt; Sve aplikacije -&gt; Pronađite aplikaciju -&gt; Ne optimiziraj/spremi</string>
+    <string name="msg_beta_version_warning">Ovo je beta verzija aplikacije, tako da neke stvari možda neće raditi ili biti nestabilne.</string>
+    <string name="msg_beta_version_warning_sum">Instalirajte stabilnu verziju iz trgovine Play kako biste izbjegli pogreške.</string>
     <string name="msg_camera_died_text">Usluga kamere uređaja je prekinuta, ponovno se pokreće…</string>
     <string name="msg_camera_not_opened">Kamera nije pokrenuta</string>
     <string name="msg_close_settings_before_recording_text">Zatvorite postavke aplikacije prije početka snimanja</string>
@@ -94,7 +98,7 @@
     <string name="msg_notification_could_launch_app_activity">Glavni zaslon aplikacije nije se mogao pokrenuti jer dopuštenje SYSTEM_ALERT_WINDOW (prikaz na vrhu svih ostalih prozora aplikacije) nije dodijeljeno ili je zaslon uređaja bio isključen</string>
     <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Navedenu aplikaciju nije bilo moguće pokrenuti za automatsko otvaranje jer dopuštenje \"prikaži na vrhu svih aplikacija\" nije dodijeljeno.</string>
     <string name="msg_notification_could_not_open_with_locked_screen">Aplikaciju nije bilo moguće otvoriti jer je ekran bio isključen (zaključan).</string>
-    <string name="msg_notification_could_not_start_recording_with_locked_screen">Aplikaciju nije bilo moguće otvoriti za početak snimanja jer je zaslon bio isključen (zaključan). Pokrenite uslugu snimanja u pozadini (Watcher) da to popravite.</string>
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Aplikaciju nije bilo moguće otvoriti za početak snimanja jer je ekran bio isključen (zaključan). Pokrenite uslugu snimanja u pozadini (AutoStart) da to popravite.</string>
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Aplikaciju nije bilo moguće otvoriti za početak snimanja jer dopuštenje \"prikaži na vrhu svih aplikacija\" nije dodijeljeno. Kliknite za pružanje</string>
     <string name="msg_photo_failed_to_take">Snimanje fotografije nije uspjelo</string>
     <string name="msg_photo_was_saved">Fotografija je spremljena</string>
@@ -112,7 +116,6 @@
     <string name="notification_could_not_start_recording_service">Nije moguće pokrenuti uslugu snimanja. Kliknite da biste onemogućili optimizaciju baterije za ovu aplikaciju</string>
     <string name="notification_service_aux_checker">AudioJack(Aux)</string>
     <string name="notification_service_bl_checker">Bluetooth</string>
-    <string name="notification_service_checker">Watcher</string>
     <string name="notification_service_power_checker">Punjenje</string>
     <string name="notification_stop_text">Zaustavljanje</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Za automatsko pokretanje/zaustavljanje snimanja</string>
@@ -242,8 +245,8 @@
     <string name="prefs_rules_auto_lock_file_vibrate_text">Vibrirajte pri detekciji udara</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Započnite snimanje kada se otkrije pokret</string>
     <string name="prefs_rules_auto_start_speed_text">Počnite snimati kada je brzina jednaka / veća (na temelju GPS-a)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Ovu opciju možete isključiti tako da aplikacija obavlja automatsko snimanje samo ako je pokrenuta pozadinska usluga aplikacije (Watcher).\n- Automatsko snimanje za događaje kao što su punjenje, Bluetooth ili AUX može se izvesti bez problema do Android 7.1.\n- Počevši od Androida 8, automatsko snimanje bez usluge pozadinske aplikacije (Watcher) može se izvoditi samo za Bluetooth događaje, au ostalim slučajevima (prilikom punjenja ili AUX-a) potrebno je prvo pokrenuti uslugu pozadinske aplikacije (Watcher) - pokretanjem sama aplikacija jednom.\n- Počevši od Androida 11 bez usluge pozadinske aplikacije (Watcher), pristup kameri bez interakcije s korisnikom moguć je samo ako je telefon otključan (zaslon uključen) i odobreno je dopuštenje \"povrh svih aplikacija\".\n- Dakle, za Android 11 i novije, morate jednom ručno pokrenuti aplikaciju kako bi pozadinska usluga aplikacije (Watcher) počela automatski snimati tijekom bilo kakvih događaja i kada je ekran telefona isključen.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Automatsko snimanje čak i ako pozadinska usluga (Watcher) nije pokrenuta</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Možete isključiti ovu opciju kako bi aplikacija izvodila automatsko snimanje samo kada je pokrenuta pozadinska usluga aplikacije (AutoStart).\n- Automatsko snimanje za događaje kao što su punjenje, Bluetooth ili AUX može se izvesti bez problema do Android 7.1.\n- Počevši od Androida 8, automatsko snimanje bez usluge pozadinske aplikacije (AutoStart) može se izvoditi samo za Bluetooth događaje, au ostalim slučajevima (prilikom punjenja ili AUX-a) potrebno je prvo pokrenuti uslugu pozadinske aplikacije (AutoStart) - pokretanjem sama aplikacija jednom.\n- Počevši od Androida 11 bez usluge pozadinske aplikacije (AutoStart), pristup kameri bez interakcije s korisnikom moguć je samo ako je telefon otključan (zaslon uključen) i odobreno je dopuštenje \"povrh svih aplikacija\".\n- Dakle, za Android 11 i novije, morate jednom ručno pokrenuti aplikaciju kako bi se pokrenula pozadinska usluga aplikacije (AutoStart) za automatsko snimanje tijekom bilo kakvih događaja i kada je zaslon telefona isključen.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Automatsko snimanje čak i ako pozadinska usluga nije pokrenuta (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Zaustavite snimanje nakon</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Zaustavite snimanje kada nema kretanja</string>
     <string name="prefs_rules_auto_stop_speed_text">Zaustavite snimanje kada je brzina manja (na temelju GPS-a)</string>
@@ -273,6 +276,7 @@
     <string name="prefs_show_status_bar_text">Prikaži statusnu traku sustava</string>
     <string name="prefs_show_take_photo_btn_text">Uslikaj</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Trenutna kamera ga ne podržava. Proizvođači često ograničavaju njegovu upotrebu i dostupna je samo u standardnoj aplikaciji Kamera</string>
+    <string name="prefs_start_stop_toast_message_text">Prikaz poruke prilikom pokretanja ili zaustavljanja snimanja tijekom pozadinskog snimanja</string>
     <string name="prefs_start_stop_voice_sum_text">Preko glasa kada snimanje započne, prestane ili ne uspije</string>
     <string name="prefs_start_stop_voice_text">Glas o promjeni statusa snimanja</string>
     <string name="prefs_subtitles_address_text">Preklapanje adrese lokacije</string>
@@ -285,6 +289,7 @@
     <string name="prefs_subtitles_date_time_system_text">Sustav</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX minimalna stopa ažuriranja</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Sva ažuriranja koordinata</string>
+    <string name="prefs_subtitles_gpx_sum">GPX - XML ​​shema dizajnirana kao uobičajeni format GPS podataka za softverske aplikacije. Može se koristiti za opisivanje putnih točaka, tragova i ruta</string>
     <string name="prefs_subtitles_gpx_title">Stvorite GPX datoteku za svaki video</string>
     <string name="prefs_subtitles_in_english_text">Titlovi na Hrvatskom</string>
     <string name="prefs_subtitles_position_bottom_sum_text">Preklapanje titlova na dnu videozapisa</string>
@@ -314,7 +319,6 @@
     <string name="prefs_ui_click_text">Kratki dodir po ekranu</string>
     <string name="prefs_ui_long_click_text">Dugi dodir po ekranu</string>
     <string name="prefs_value_secs_few_text">sekundi</string>
-    <string name="prefs_value_secs_many_text">sekundi</string>
     <string name="prefs_value_secs_one_text">sekunda</string>
     <string name="prefs_value_secs_other_text">sekundi</string>
     <string name="prefs_version_text">Verzija aplikacije</string>
@@ -367,7 +371,6 @@
     <string name="rec_fix_short_text">@string/rec_fix_text</string>
     <string name="rec_fix_text">Popraviti</string>
     <string name="rec_gps_status_satellites_few_text">satelita</string>
-    <string name="rec_gps_status_satellites_many_text">satelita</string>
     <string name="rec_gps_status_satellites_one_text">satelit</string>
     <string name="rec_gps_status_satellites_other_text">satelita</string>
     <string name="rec_gps_text">GPS</string>
@@ -391,6 +394,14 @@
     <string name="reset">resetiranje</string>
     <string name="storage_external_single">MicroSD kartica</string>
     <string name="storage_phone">Pohrana telefona</string>
+    <string name="timer_auto_start">Timer</string>
+    <string name="timer_auto_start_dlg_type_title">Postavite mjerač vremena za početak snimanja</string>
+    <string name="timer_auto_start_every_day_text">Svaki dan</string>
+    <string name="timer_auto_start_once">Jednom</string>
+    <string name="timer_auto_start_recording_cancel_message_text">Otkazati automatsko snimanje videozapisa na temelju trenutnog mjerača vremena?</string>
+    <string name="timer_auto_start_recording_datetime_past_error_text">Vrijeme je postavljeno u prošlosti</string>
+    <string name="timer_auto_start_recording_duration_text">Trajanje video snimanja</string>
+    <string name="timer_auto_start_service_notification_subtitle_text">Usluga tajmera za automatsko pokretanje video snimanja</string>
     <string name="to">do</string>
     <string name="unknown">Unknown</string>
     <string name="videos_ask_which_player">Pitajte u kojem igraču igrati</string>

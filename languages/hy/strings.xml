@@ -1,7 +1,7 @@
 <resources>
     <string name="accept_text">համաձայն եմ</string>
     <string name="any_text">Ցանկացած</string>
-    <string name="app_name">Droid Dashcam - վարելու DVR</string>
+    <string name="app_name_droid_dashcam">Droid Dashcam - վարելու DVR</string>
     <string name="camera">Տեսախցիկ</string>
     <string name="camera_aperture">Դիֆրագմ</string>
     <string name="camera_back">Հետևի տեսախցիկ</string>
@@ -54,10 +54,14 @@
     <string name="format_speed_measure_kilometers">կմ/ժ</string>
     <string name="format_speed_measure_miles">մղոն/ժ</string>
     <string name="from">-ից</string>
+    <string name="hour">ժամ</string>
+    <string name="hours">ժամեր</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Հավելվածը չի բացառվում մարտկոցի օպտիմալացումից։ Եթե ​​տեսախցիկը չի աշխատում հետին պլանում կամ որևէ այլ բան, ապա ավելացրեք այս հավելվածը էներգախնայողության ռեժիմի բացառություններին:</string>
     <string name="msg_android_r_deleting_manual_tip_text">Եթե ​​դուք նորից տեղադրել եք հավելվածը Android 11-ում, ապա հին ֆայլերը պետք է ձեռքով ջնջվեն</string>
     <string name="msg_auto_recording_service_was_stopped">Դուք դադարեցրել եք ֆոնային ծառայությունը՝ տեսագրումը ավտոմատ սկսելու համար: Բացեք հավելվածը՝ այն նորից գործարկելու համար:</string>
     <string name="msg_battery_optimization_tip_text">Մարտկոցի օպտիմիզացում -&gt; Բոլոր հավելվածները -&gt; Գտեք հավելվածը -&gt; Մի օպտիմիզացրեք/պահեք</string>
+    <string name="msg_beta_version_warning">Սա հավելվածի բետա տարբերակն է, ուստի որոշ բաներ կարող են չաշխատել կամ անկայուն լինել:</string>
+    <string name="msg_beta_version_warning_sum">Սխալներից խուսափելու համար տեղադրեք կայուն տարբերակը play store-ից:</string>
     <string name="msg_camera_died_text">տեսախցիկը անսպասելիորեն դադարել է աշխատել, վերագործարկում է…</string>
     <string name="msg_camera_not_opened">Տեսախցիկը չի աշխատում</string>
     <string name="msg_close_settings_before_recording_text">Ձայնագրումը սկսելուց առաջ փակեք հավելվածի նախապատվությունները</string>
@@ -78,7 +82,7 @@
     <string name="msg_notification_could_launch_app_activity">Հավելվածի հիմնական էկրանը չհաջողվեց գործարկել, քանի որ SYSTEM_ALERT_WINDOW (հավելվածի բոլոր մյուս պատուհանների վերևում ցուցադրվող) թույլտվությունը չի տրվել կամ սարքի էկրանն անջատվել է։</string>
     <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Նշված հավելվածը չհաջողվեց գործարկել՝ ինքնաբերաբար բացելու համար, քանի որ «ցուցադրել բոլոր հավելվածների վերևում» թույլտվությունը չի տրվել:</string>
     <string name="msg_notification_could_not_open_with_locked_screen">Հավելվածը չհաջողվեց բացել, քանի որ էկրանն անջատված էր (կողպված):</string>
-    <string name="msg_notification_could_not_start_recording_with_locked_screen">Ձայնագրումը սկսելու համար հավելվածը չհաջողվեց բացել, քանի որ էկրանն անջատված էր (կողպված): Սա շտկելու համար գործարկեք ֆոնային ձայնագրման ծառայություն (Watcher):</string>
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Ձայնագրումը սկսելու համար հավելվածը չհաջողվեց բացել, քանի որ էկրանն անջատված էր (կողպված): Սա շտկելու համար գործարկեք ֆոնային ձայնագրման ծառայություն (AutoStart):</string>
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Հավելվածը չհաջողվեց բացել՝ ձայնագրումը սկսելու համար, քանի որ «ցուցադրել բոլոր հավելվածների վերևում» թույլտվությունը չի տրվել: Սեղմեք տրամադրելու համար</string>
     <string name="msg_photo_failed_to_take">Չհաջողվեց լուսանկարել</string>
     <string name="msg_photo_was_saved">Լուսանկարը պահված է</string>
@@ -96,7 +100,6 @@
     <string name="notification_could_not_start_recording_service">Ձայնագրման ծառայությունը չհաջողվեց սկսել: Հպեք՝ այս հավելվածի համար մարտկոցի օպտիմիզացումն անջատելու համար</string>
     <string name="notification_service_aux_checker">աուդիո խցիկ (Aux)</string>
     <string name="notification_service_bl_checker">bluetooth</string>
-    <string name="notification_service_checker">վերլուծություն</string>
     <string name="notification_service_power_checker">լիցքավորումը</string>
     <string name="notification_stop_text">Դադարեցրեք</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Ավտոմատ միացման/անջատման ձայնագրման համար</string>
@@ -226,8 +229,8 @@
     <string name="prefs_rules_auto_lock_file_vibrate_text">Թրթռում, երբ հայտնաբերվում է ցնցում</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Սկսեք ձայնագրել, երբ շարժումը հայտնաբերվի</string>
     <string name="prefs_rules_auto_start_speed_text">Սկսեք ձայնագրել, երբ արագությունը հավասար է /ավելի բարձր (հիմնված GPS-ի վրա)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Դուք կարող եք անջատել այս տարբերակը, որպեսզի հավելվածը կատարի ավտոմատ ձայնագրում միայն այն դեպքում, եթե գործարկվի հավելվածի ֆոնային ծառայությունը (Watcher):\n- Իրադարձությունների ավտոմատ ձայնագրումը, ինչպիսիք են լիցքավորումը, Bluetooth-ը կամ AUX-ը, կարող է իրականացվել առանց խնդիրների մինչև Android 7.1:\n- Սկսած Android 8-ից, ավտոմատ ձայնագրումն առանց ֆոնային հավելվածի ծառայության (Watcher) կարող է իրականացվել միայն Bluetooth-ի իրադարձությունների համար, իսկ մյուս դեպքերում (լիցքավորման կամ AUX-ի ժամանակ) նախ պետք է գործարկել ֆոնային հավելվածի ծառայությունը (Watcher)՝ գործարկելով դիմումը ինքնին մեկ անգամ:\n- Սկսած Android 11-ից՝ առանց ֆոնային հավելվածների ծառայության (Watcher), տեսախցիկի մուտքն առանց օգտատիրոջ փոխազդեցության հնարավոր է միայն այն դեպքում, եթե հեռախոսն ապակողպված է (էկրանը միացված է) և «բոլոր հավելվածների վերևում» թույլտվություն է տրվում:\n- Այսպիսով, Android 11-ի և ավելի բարձր տարբերակների համար անհրաժեշտ է մեկ անգամ ձեռքով գործարկել հավելվածը, որպեսզի հավելվածի ֆոնային ծառայությունը (Watcher) սկսի ավտոմատ ձայնագրվել ցանկացած իրադարձությունների ժամանակ և երբ հեռախոսի էկրանն անջատված է:</string>
-    <string name="prefs_rules_auto_start_without_service_text">Ավտոմատ ձայնագրում, նույնիսկ եթե ֆոնային ծառայությունը (Watcher) չի աշխատում</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Դուք կարող եք անջատել այս տարբերակը, որպեսզի հավելվածը ավտոմատ ձայնագրություն կատարի միայն այն ժամանակ, երբ գործարկվում է հավելվածի ֆոնային ծառայությունը (AutoStart):\n- Իրադարձությունների ավտոմատ ձայնագրումը, ինչպիսիք են լիցքավորումը, Bluetooth-ը կամ AUX-ը, կարող է իրականացվել առանց խնդիրների մինչև Android 7.1:\n- Սկսած Android 8-ից, ավտոմատ ձայնագրումն առանց ֆոնային հավելվածի ծառայության (AutoStart) կարող է իրականացվել միայն Bluetooth իրադարձությունների համար, իսկ մյուս դեպքերում (լիցքավորման կամ AUX-ի ժամանակ) նախ պետք է գործարկել ֆոնային հավելվածի ծառայությունը (AutoStart)՝ գործարկելով դիմումը ինքնին մեկ անգամ:\n- Սկսած Android 11-ից՝ առանց ֆոնային հավելվածների ծառայության (AutoStart), տեսախցիկի մուտքն առանց օգտատիրոջ փոխազդեցության հնարավոր է միայն այն դեպքում, եթե հեռախոսն ապակողպված է (էկրանը միացված է) և տրամադրվում է «բոլոր հավելվածների վերևում» թույլտվությունը:\n- Այսպիսով, Android 11-ի և ավելի բարձր տարբերակների համար անհրաժեշտ է մեկ անգամ ձեռքով գործարկել հավելվածը, որպեսզի հավելվածի ֆոնային ծառայությունը (AutoStart) սկսի ավտոմատ ձայնագրման համար ցանկացած իրադարձությունների ժամանակ և երբ հեռախոսի էկրանն անջատված է:</string>
+    <string name="prefs_rules_auto_start_without_service_text">Ավտոմատ ձայնագրում, նույնիսկ եթե ֆոնային ծառայությունը չի աշխատում (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Դադարեցնել ձայնագրումը հետո</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Դադարեցրեք ձայնագրումը, երբ շարժում չկա</string>
     <string name="prefs_rules_auto_stop_speed_text">Դադարեցրեք ձայնագրումը, երբ արագությունը ցածր է (հիմնված GPS-ի վրա)</string>
@@ -257,6 +260,7 @@
     <string name="prefs_show_status_bar_text">Ցույց տալ համակարգի կարգավիճակի տողը</string>
     <string name="prefs_show_take_photo_btn_text">Լուսանկար պատրաստելու համար</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Չի աջակցվում ընթացիկ տեսախցիկի կողմից: Արտադրողները հաճախ սահմանափակում են դրա օգտագործումը. այն հասանելի է միայն ստանդարտ Camera հավելվածում</string>
+    <string name="prefs_start_stop_toast_message_text">Ցուցադրել հաղորդագրություն ֆոնային ձայնագրման ընթացքում ձայնագրությունը սկսելիս կամ դադարեցնելիս</string>
     <string name="prefs_start_stop_voice_sum_text">Ձայն մեկնարկի, դադարեցման կամ ձայնագրման սխալ</string>
     <string name="prefs_start_stop_voice_text">Ձայնագրման կարգավիճակը</string>
     <string name="prefs_subtitles_address_text">Հասցեն</string>
@@ -269,6 +273,7 @@
     <string name="prefs_subtitles_date_time_system_text">Համակարգային</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX թարմացման նվազագույն արագությունը</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Բոլոր կոորդինատների թարմացումները</string>
+    <string name="prefs_subtitles_gpx_sum">GPX - XML ​​սխեման, որը նախագծված է որպես ծրագրային ապահովման ծրագրերի համար ընդհանուր GPS տվյալների ձևաչափ: Այն կարող է օգտագործվել ճանապարհային կետեր, ուղիներ և երթուղիներ նկարագրելու համար</string>
     <string name="prefs_subtitles_gpx_title">Ստեղծեք GPX ֆայլ յուրաքանչյուր տեսանյութի համար</string>
     <string name="prefs_subtitles_in_english_text">Անգլերեն ենթագրեր</string>
     <string name="prefs_subtitles_position_bottom_sum_text">Տեսանյութի ներքևի մասում ծածկել ենթագրերը</string>
@@ -298,7 +303,6 @@
     <string name="prefs_ui_click_text">Արագ հպեք էկրանին</string>
     <string name="prefs_ui_long_click_text">Երկար սեղմեք էկրանին</string>
     <string name="prefs_value_secs_few_text">վայրկյան</string>
-    <string name="prefs_value_secs_many_text">վայրկյան</string>
     <string name="prefs_value_secs_one_text">երկրորդ</string>
     <string name="prefs_value_secs_other_text">վայրկյան</string>
     <string name="prefs_version_text">Դիմումի տարբերակը</string>
@@ -351,7 +355,6 @@
     <string name="rec_fix_short_text">Ուղղել</string>
     <string name="rec_fix_text">Ուղղել</string>
     <string name="rec_gps_status_satellites_few_text">արբանյակներ</string>
-    <string name="rec_gps_status_satellites_many_text">արբանյակներ</string>
     <string name="rec_gps_status_satellites_one_text">արբանյակ</string>
     <string name="rec_gps_status_satellites_other_text">արբանյակներ</string>
     <string name="rec_gps_text">GPS</string>
@@ -374,9 +377,15 @@
     <string name="recording_voice_stopped_text">Ձայնագրումը դադարեցվեց</string>
     <string name="reset">արտանետում</string>
     <string name="storage_external_single">MicroSD քարտ</string>
-    <string name="storage_external_single_free">MicroSD քարտ</string>
     <string name="storage_phone">Հեռախոսի հիշողություն</string>
-    <string name="storage_phone_free">Հեռախոսի հիշողություն</string>
+    <string name="timer_auto_start">Ժամաչափ</string>
+    <string name="timer_auto_start_dlg_type_title">Սահմանեք ժմչփ՝ ձայնագրումը սկսելու համար</string>
+    <string name="timer_auto_start_every_day_text">Ամեն օր</string>
+    <string name="timer_auto_start_once">Մի անգամ</string>
+    <string name="timer_auto_start_recording_cancel_message_text">Չեղարկե՞լ ավտոմատ տեսագրումը ընթացիկ ժամանակաչափի հիման վրա:</string>
+    <string name="timer_auto_start_recording_datetime_past_error_text">Ժամանակը դրված էր անցյալում</string>
+    <string name="timer_auto_start_recording_duration_text">Տեսանկարահանման տևողությունը</string>
+    <string name="timer_auto_start_service_notification_subtitle_text">Ժամաչափի ծառայություն՝ տեսագրումը ավտոմատ սկսելու համար</string>
     <string name="to">նախքան</string>
     <string name="unknown">Անհայտ</string>
     <string name="videos_ask_which_player">Հարցրեք, թե որ խաղացողի մեջ խաղալ</string>

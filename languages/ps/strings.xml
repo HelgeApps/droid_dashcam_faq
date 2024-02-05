@@ -1,7 +1,7 @@
 <resources>
     <string name="accept_text">زه منم</string>
     <string name="any_text">کوم</string>
-    <string name="app_name">Droid Dashcam - DVR چلول</string>
+    <string name="app_name_droid_dashcam">Droid Dashcam - DVR چلول</string>
     <string name="camera">کیمره</string>
     <string name="camera_aperture">ډایفراګم</string>
     <string name="camera_back">شاته کیمره</string>
@@ -54,10 +54,14 @@
     <string name="format_speed_measure_kilometers">km/h</string>
     <string name="format_speed_measure_miles">mph</string>
     <string name="from">څخه</string>
+    <string name="hour">ساعت</string>
+    <string name="hours">ساعتونه</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">غوښتنلیک د بیټرۍ اصلاح کولو څخه ندي ایستل شوی. که کیمره په شالید کې نه چلیږي یا بل څه ، نو دا غوښتنلیک د بریښنا سپمولو حالت استثناء کې اضافه کړئ.</string>
     <string name="msg_android_r_deleting_manual_tip_text">که تاسو په Android 11 کې غوښتنلیک له سره انسټال کړی، نو زاړه فایلونه باید په لاسي ډول حذف شي</string>
     <string name="msg_auto_recording_service_was_stopped">تاسو د ویډیو ثبتولو په اتوماتيک ډول پیل کولو لپاره د شالید خدمت بند کړی دی. د بیا پیلولو لپاره غوښتنلیک خلاص کړئ.</string>
     <string name="msg_battery_optimization_tip_text">د بیټرۍ اصلاح کول -&gt; ټول اطلاقات -&gt; اپلیکیشن ومومئ -&gt; اصلاح مه کوئ /خوندي کړئ</string>
+    <string name="msg_beta_version_warning">دا د غوښتنلیک بیټا نسخه ده، نو ځینې شیان ممکن کار ونکړي یا بې ثباته وي.</string>
+    <string name="msg_beta_version_warning_sum">د پلی سټور څخه مستحکم نسخه نصب کړئ ترڅو د خطا څخه مخنیوی وشي.</string>
     <string name="msg_camera_died_text">کیمره په ناڅاپي ډول کار کول بند کړل، بیا پیل کول…</string>
     <string name="msg_camera_not_opened">کیمره نه چلیږي</string>
     <string name="msg_close_settings_before_recording_text">د ثبت کولو پیل کولو دمخه د غوښتنلیک غوره توبونه بند کړئ</string>
@@ -78,7 +82,7 @@
     <string name="msg_notification_could_launch_app_activity">د اپلیکیشن اصلي سکرین نه شو پیل کولی ځکه چې SYSTEM_ALERT_WINDOW (د ټولو نورو اپلیکیشن وینډوز په سر کې ښودل) اجازه نه وه ورکړل شوې یا د آلې سکرین بند شوی و</string>
     <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">ټاکل شوی غوښتنلیک په اوتومات ډول خلاصیدو لپاره نشي پیل کیدی ځکه چې \"د ټولو غوښتنلیکونو په سر کې ښودل\" اجازه نه وه ورکړل شوې.</string>
     <string name="msg_notification_could_not_open_with_locked_screen">غوښتنلیک نشي خلاصیدلی ځکه چې سکرین بند شوی (بند شوی).</string>
-    <string name="msg_notification_could_not_start_recording_with_locked_screen">د ثبت کولو پیل کولو لپاره غوښتنلیک نشي خلاصیدلی ځکه چې سکرین بند شوی (بند شوی). د دې د حل لپاره د شالید ثبتولو خدمت (څارونکی) پرمخ وړئ.</string>
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">د ثبت کولو پیل کولو لپاره غوښتنلیک نشي خلاصیدلی ځکه چې سکرین بند شوی (بند شوی). د دې د حل کولو لپاره د شالید ثبتولو خدمت (آټو سټارټ) پرمخ وړئ.</string>
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">د ثبت کولو پیل کولو لپاره ایپ نشي خلاصیدلی ځکه چې \"د ټولو ایپسونو په سر کې ښودل\" اجازه نه وه ورکړل شوې. د چمتو کولو لپاره کلیک وکړئ</string>
     <string name="msg_photo_failed_to_take">د عکس اخیستلو کې پاتې راغلی</string>
     <string name="msg_photo_was_saved">عکس خوندي شو</string>
@@ -96,7 +100,6 @@
     <string name="notification_could_not_start_recording_service">د ثبتولو خدمت پیل کولو کې پاتې راغلی. د دې اپلیکیشن لپاره د بیټرۍ اصلاح کولو غیر فعالولو لپاره ټایپ کړئ</string>
     <string name="notification_service_aux_checker">آډیو جیک (آکس)</string>
     <string name="notification_service_bl_checker">بلوتوث</string>
-    <string name="notification_service_checker">تحلیل</string>
     <string name="notification_service_power_checker">چارج کول</string>
     <string name="notification_stop_text">درېدل</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">د اتوماتیک آن /بند ثبتولو لپاره</string>
@@ -226,8 +229,8 @@
     <string name="prefs_rules_auto_lock_file_vibrate_text">کمپن کله چې شاک کشف شي</string>
     <string name="prefs_rules_auto_start_camera_motion_text">کله چې حرکت کشف شي ثبت کول پیل کړئ</string>
     <string name="prefs_rules_auto_start_speed_text">ثبت کول پیل کړئ کله چې سرعت مساوي /لوړ وي (د GPS پراساس)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* تاسو کولی شئ دا اختیار بند کړئ ترڅو غوښتنلیک اتوماتیک ثبت کول یوازې هغه وخت ترسره کړي کله چې د غوښتنلیک شالید خدمت (واچر) روان وي.\n- د پیښو لپاره اتوماتیک ثبت کول لکه چارج کول ، بلوتوث یا AUX د Android 7.1 پورې ستونزې پرته ترسره کیدی شي.\n- د Android 8 څخه پیل کول ، د شالید غوښتنلیک خدمت (واچر) پرته اتومات ثبت کول یوازې د بلوتوټ پیښو لپاره ترسره کیدی شي ، او په نورو قضیو کې (کله چې چارج کیږي یا AUX) تاسو اړتیا لرئ لومړی د شالید غوښتنلیک خدمت (واچر) پیل کړئ - په پیل کولو سره. پخپله یو ځل غوښتنلیک.\n- د شالید ایپ خدمت (واچر) پرته د Android 11 سره پیل کول ، د کارونکي متقابل عمل پرته کیمرې ته لاسرسی یوازې هغه وخت ممکن دی که تلیفون خلاص وي (سکرین آن) او \"د ټولو ایپسونو په سر کې\" اجازه ورکړل شوې وي.\n- پدې توګه ، د Android 11 او لوړ لپاره ، تاسو اړتیا لرئ په لاسي ډول یو ځل اپلیکیشن پیل کړئ ترڅو د غوښتنلیک شالید خدمت (واچر) په اتوماتيک ډول د هرې پیښې پرمهال ثبت شي او کله چې د تلیفون سکرین بند شي.</string>
-    <string name="prefs_rules_auto_start_without_service_text">اتوماتیک ثبت کول حتی که د شالید خدمت (څارونکی) روان نه وي</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* تاسو کولی شئ دا اختیار بند کړئ ترڅو ایپ یوازې هغه وخت اتومات ثبت کړي کله چې د اپلیکیشن شالید خدمت (آټو سټارټ) روان وي.\n- د پیښو لپاره اتوماتیک ثبت کول لکه چارج کول ، بلوتوث یا AUX د Android 7.1 پورې ستونزې پرته ترسره کیدی شي.\n- د Android 8 څخه پیل کول ، د شالید غوښتنلیک خدمت (آټو سټارټ) پرته اتومات ثبت کول یوازې د بلوتوت پیښو لپاره ترسره کیدی شي ، او په نورو قضیو کې (کله چې چارج کول یا AUX) تاسو اړتیا لرئ لومړی د شالید غوښتنلیک خدمت (آټو سټارټ) پیل کړئ - د پیل کولو سره. پخپله یو ځل غوښتنلیک.\n- د Android 11 سره د شالید ایپ خدمت (آټو سټارټ) پرته پیل کول ، د کارونکي متقابل عمل پرته کیمرې ته لاسرسی یوازې هغه وخت ممکن دی که تلیفون خلاص وي (سکرین آن) او \"د ټولو ایپسونو په سر کې\" اجازه ورکړل شوې وي.\n- پدې توګه ، د Android 11 او لوړ لپاره ، تاسو اړتیا لرئ په لاسي ډول یوځل اپلیکیشن پیل کړئ ترڅو د غوښتنلیک شالید خدمت (آټو سټارټ) د هرې پیښې پرمهال او کله چې د تلیفون سکرین بند وي د اتوماتیک ثبت کولو لپاره پیل شي.</string>
+    <string name="prefs_rules_auto_start_without_service_text">اتوماتیک ثبت کول حتی که د شالید خدمت روان نه وي (آټو سټارټ)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">وروسته ثبت کول بند کړئ</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">د ثبت کولو مخه ونیسئ کله چې هیڅ حرکت شتون نلري</string>
     <string name="prefs_rules_auto_stop_speed_text">ثبت کول بند کړئ کله چې سرعت ټیټ وي (د GPS پراساس)</string>
@@ -257,6 +260,7 @@
     <string name="prefs_show_status_bar_text">د سیسټم حالت بار وښایاست</string>
     <string name="prefs_show_take_photo_btn_text">د عکس جوړولو لپاره</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">د اوسني کیمرې لخوا نه ملاتړ کیږي. جوړونکي اکثرا د دې کارول محدودوي - دا یوازې د معیاري کیمرې غوښتنلیک کې شتون لري</string>
+    <string name="prefs_start_stop_toast_message_text">یو پیغام ښکاره کړئ کله چې د شالید ثبت کولو پرمهال ریکارډ پیل کړئ یا ودروئ</string>
     <string name="prefs_start_stop_voice_sum_text">په پیل کې غږ، ودرول یا د ثبت کولو تېروتنه</string>
     <string name="prefs_start_stop_voice_text">د غږ ثبتولو حالت</string>
     <string name="prefs_subtitles_address_text">پته</string>
@@ -269,6 +273,7 @@
     <string name="prefs_subtitles_date_time_system_text">سیسټمیک</string>
     <string name="prefs_subtitles_gpx_delay_title">د GPX لږترلږه تازه کولو نرخ</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">ټول همغږي تازه</string>
+    <string name="prefs_subtitles_gpx_sum">GPX - د XML سکیما د سافټویر غوښتنلیکونو لپاره د عام GPS ډیټا فارمیټ په توګه ډیزاین شوی. دا د لارې پوائنټونو، لاریو، او لارو تشریح کولو لپاره کارول کیدی شي</string>
     <string name="prefs_subtitles_gpx_title">د هرې ویډیو لپاره GPX فایل جوړ کړئ</string>
     <string name="prefs_subtitles_in_english_text">انګلیسي فرعي سرلیکونه</string>
     <string name="prefs_subtitles_position_bottom_sum_text">د ویډیو په پای کې فرعي سرلیکونه پوښئ</string>
@@ -298,7 +303,6 @@
     <string name="prefs_ui_click_text">په سکرین کې چټک ټایپ وکړئ</string>
     <string name="prefs_ui_long_click_text">په سکرین کې اوږد فشار ورکړئ</string>
     <string name="prefs_value_secs_few_text">ثانیې</string>
-    <string name="prefs_value_secs_many_text">ثانیې</string>
     <string name="prefs_value_secs_one_text">دوهم</string>
     <string name="prefs_value_secs_other_text">ثانیې</string>
     <string name="prefs_version_text">د غوښتنلیک نسخه</string>
@@ -351,7 +355,6 @@
     <string name="rec_fix_short_text">د سمولو لپاره</string>
     <string name="rec_fix_text">د سمولو لپاره</string>
     <string name="rec_gps_status_satellites_few_text">سپوږمکۍ</string>
-    <string name="rec_gps_status_satellites_many_text">سپوږمکۍ</string>
     <string name="rec_gps_status_satellites_one_text">سپوږمکۍ</string>
     <string name="rec_gps_status_satellites_other_text">سپوږمکۍ</string>
     <string name="rec_gps_text">جی پی ایس</string>
@@ -374,9 +377,15 @@
     <string name="recording_voice_stopped_text">ثبتول ودرول شول</string>
     <string name="reset">خارجول</string>
     <string name="storage_external_single">د مایکرو ایس ډی کارت</string>
-    <string name="storage_external_single_free">د مایکرو ایس ډی کارت</string>
     <string name="storage_phone">د تلیفون حافظه</string>
-    <string name="storage_phone_free">د تلیفون حافظه</string>
+    <string name="timer_auto_start">ټایمر</string>
+    <string name="timer_auto_start_dlg_type_title">د ثبت پیل کولو لپاره ټایمر تنظیم کړئ</string>
+    <string name="timer_auto_start_every_day_text">هره ورځ</string>
+    <string name="timer_auto_start_once">یوځل</string>
+    <string name="timer_auto_start_recording_cancel_message_text">د اوسني ټایمر پراساس اتوماتیک ویډیو ثبت کول لغوه کړئ؟</string>
+    <string name="timer_auto_start_recording_datetime_past_error_text">وخت په تیرو وختونو کې ټاکل شوی و</string>
+    <string name="timer_auto_start_recording_duration_text">د ویډیو ثبت کولو موده</string>
+    <string name="timer_auto_start_service_notification_subtitle_text">د ویډیو ثبتولو په اوتومات ډول پیل کولو لپاره د ټایمر خدمت</string>
     <string name="to">مخکې</string>
     <string name="unknown">نامعلوم</string>
     <string name="videos_ask_which_player">پوښتنه وکړئ چې کوم لوبغاړی به لوبه وکړي</string>

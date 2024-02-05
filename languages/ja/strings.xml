@@ -1,7 +1,7 @@
 <resources>
     <string name="accept_text">承諾します</string>
     <string name="any_text">どれでも</string>
-    <string name="app_name">DroidDashcam-DVRの運転</string>
+    <string name="app_name_droid_dashcam">DroidDashcam-DVRの運転</string>
     <string name="camera">カメラ</string>
     <string name="camera_aperture">絞り</string>
     <string name="camera_back">リアカメラ</string>
@@ -53,11 +53,15 @@
     <string name="format_minutes">分</string>
     <string name="format_speed_measure_kilometers">km/h</string>
     <string name="format_speed_measure_miles">mph</string>
-    <string name="from"/>
+    <string name="from">から</string>
+    <string name="hour">時間</string>
+    <string name="hours">時間</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">アプリケーションはバッテリーの最適化の対象から除外されません。カメラがバックグラウンドなどで動作していない場合は、本アプリを省電力モードの例外に追加してください。</string>
     <string name="msg_android_r_deleting_manual_tip_text">Android 11にアプリケーションを再インストールした場合は、古いファイルを手動で削除する必要があります</string>
     <string name="msg_auto_recording_service_was_stopped">ビデオ録画を自動的に開始するバックグラウンド サービスを停止しました。アプリケーションを開いて再度起動します。</string>
     <string name="msg_battery_optimization_tip_text">バッテリーの最適化 -&gt; すべてのアプリ -&gt; アプリを探す -&gt; 最適化/保存しない</string>
+    <string name="msg_beta_version_warning">これはアプリケーションのベータ版であるため、いくつかの機能が動作しない、または不安定になる可能性があります。</string>
+    <string name="msg_beta_version_warning_sum">エラーを避けるために、Play ストアから安定バージョンをインストールしてください。</string>
     <string name="msg_camera_died_text">カメラが予期せず動作を停止し、再起動しました…</string>
     <string name="msg_camera_not_opened">カメラが動作していません</string>
     <string name="msg_close_settings_before_recording_text">記録を開始する前にアプリケーション設定を閉じます</string>
@@ -78,7 +82,7 @@
     <string name="msg_notification_could_launch_app_activity">SYSTEM_ALERT_WINDOW (他のすべてのアプリケーション ウィンドウの上に表示) 権限が付与されていないか、デバイスの画面がオフになっているため、アプリケーションのメイン画面を起動できませんでした</string>
     <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">「すべてのアプリケーションの一番上に表示」権限が付与されていないため、指定されたアプリケーションを起動して自動的に開くことができませんでした。</string>
     <string name="msg_notification_could_not_open_with_locked_screen">画面がオフ（ロック）になっているため、アプリケーションを開けませんでした。</string>
-    <string name="msg_notification_could_not_start_recording_with_locked_screen">画面がオフ（ロック）になっているため、アプリケーションを開いて録画を開始できませんでした。これを修正するには、バックグラウンド記録サービス (Watcher) を実行します。</string>
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">画面がオフ（ロック）になっているため、アプリケーションを開いて録画を開始できませんでした。これを修正するには、バックグラウンド記録サービス (AutoStart) を実行します。</string>
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">「すべてのアプリの一番上に表示」権限が付与されていないため、アプリを開いて録画を開始できませんでした。クリックして提供します</string>
     <string name="msg_photo_failed_to_take">写真を撮れませんでした</string>
     <string name="msg_photo_was_saved">写真を保存しました</string>
@@ -96,7 +100,6 @@
     <string name="notification_could_not_start_recording_service">録画サービスを開始できませんでした。このアプリのバッテリー最適化を無効にするにはタップします</string>
     <string name="notification_service_aux_checker">オーディオジャック（Aux）</string>
     <string name="notification_service_bl_checker">Bluetooth</string>
-    <string name="notification_service_checker">分析</string>
     <string name="notification_service_power_checker">充電</string>
     <string name="notification_stop_text">やめる</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">自動録画オン/オフ用</string>
@@ -226,8 +229,8 @@
     <string name="prefs_rules_auto_lock_file_vibrate_text">衝撃を検出したときの振動</string>
     <string name="prefs_rules_auto_start_camera_motion_text">動きが検出されたら録画を開始します</string>
     <string name="prefs_rules_auto_start_speed_text">速度が等しい/速いときに記録を開始します（GPSに基づく）</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* このオプションをオフにして、アプリケーションのバックグラウンド サービス (Watcher) が実行されている場合にのみアプリケーションが自動録画を実行するようにすることができます。\n- 充電、Bluetooth、AUXなどのイベントの自動録画はAndroid 7.1まで問題なく実行できます。\n- Android 8 以降、バックグラウンド アプリケーション サービス (Watcher) を使用しない自動録画は Bluetooth イベントに対してのみ実行できます。その他の場合 (充電時または AUX 時)、最初にバックグラウンド アプリケーション サービス (Watcher) を開始する必要があります。アプリケーション自体を一度だけ実行します。\n- バックグラウンド アプリ サービス (ウォッチャー) のない Android 11 以降では、ユーザーの操作なしでカメラにアクセスできるのは、携帯電話のロックが解除され (画面がオン)、「すべてのアプリの上に」権限が付与されている場合のみです。\n- したがって、Android 11 以降の場合は、アプリケーションのバックグラウンド サービス (Watcher) がイベント中および電話画面がオフになっているときに自動的に記録を開始するように、アプリケーションを手動で 1 回起動する必要があります。</string>
-    <string name="prefs_rules_auto_start_without_service_text">バックグラウンドサービス（Watcher）が動作していなくても自動録画</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* このオプションをオフにすると、アプリのバックグラウンド サービス (AutoStart) が実行されている場合にのみアプリが自動録画を実行するようにできます。\n・充電、Bluetooth、AUXなどのイベントの自動録画はAndroid 7.1まで問題なく行えます。\n- Android 8 以降、バックグラウンド アプリケーション サービス (AutoStart) を使用しない自動録画は Bluetooth イベントに対してのみ実行できます。その他の場合 (充電時または AUX 時)、最初にバックグラウンド アプリケーション サービス (AutoStart) を開始する必要があります。アプリケーション自体を一度だけ実行します。\n- バックグラウンド アプリ サービス (AutoStart) のない Android 11 以降では、ユーザーの操作なしでカメラにアクセスできるのは、携帯電話のロックが解除され (画面がオン)、「すべてのアプリの上に」権限が付与されている場合のみです。\n- したがって、Android 11 以降の場合、イベント中や電話画面がオフのときにアプリケーションのバックグラウンド サービス (AutoStart) が自動録画を開始するように、アプリケーションを手動で 1 回起動する必要があります。</string>
+    <string name="prefs_rules_auto_start_without_service_text">バックグラウンドサービスが実行されていない場合でも自動録画 (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">後に録画を停止します</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">動きがなくなったら録画を停止します</string>
     <string name="prefs_rules_auto_stop_speed_text">速度が遅くなったときに記録を停止します（GPSに基づく）</string>
@@ -257,6 +260,7 @@
     <string name="prefs_show_status_bar_text">システムステータスバーを表示する</string>
     <string name="prefs_show_take_photo_btn_text">写真撮影</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">現在のカメラではサポートされていません。メーカーはしばしばその使用を制限します-それは標準のカメラアプリケーションでのみ利用可能です</string>
+    <string name="prefs_start_stop_toast_message_text">バックグラウンド録画中に録画を開始または停止するときにメッセージを表示します</string>
     <string name="prefs_start_stop_voice_sum_text">開始時、停止時、または録画エラー時の音</string>
     <string name="prefs_start_stop_voice_text">録画状況</string>
     <string name="prefs_subtitles_address_text">住所</string>
@@ -269,6 +273,7 @@
     <string name="prefs_subtitles_date_time_system_text">システム</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX 最小更新レート</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">すべての座標の更新</string>
+    <string name="prefs_subtitles_gpx_sum">GPX - ソフトウェア アプリケーションの共通 GPS データ形式として設計された XML スキーマ。ウェイポイント、トラック、ルートの説明に使用できます</string>
     <string name="prefs_subtitles_gpx_title">動画ごとに GPX ファイルを作成する</string>
     <string name="prefs_subtitles_in_english_text">字幕を英語で表示</string>
     <string name="prefs_subtitles_position_bottom_sum_text">ビデオの下部に字幕をオーバーレイする</string>
@@ -298,7 +303,6 @@
     <string name="prefs_ui_click_text">画面をすばやくタップする</string>
     <string name="prefs_ui_long_click_text">画面を長押しします</string>
     <string name="prefs_value_secs_few_text">秒</string>
-    <string name="prefs_value_secs_many_text">秒</string>
     <string name="prefs_value_secs_one_text">2番目</string>
     <string name="prefs_value_secs_other_text">秒</string>
     <string name="prefs_version_text">アプリケーションバージョン</string>
@@ -350,10 +354,9 @@
     <string name="rec_day_night_btn_auto_text">自動</string>
     <string name="rec_fix_short_text">なおす</string>
     <string name="rec_fix_text">なおす</string>
-    <string name="rec_gps_status_satellites_few_text"/>
-    <string name="rec_gps_status_satellites_many_text"/>
-    <string name="rec_gps_status_satellites_one_text"/>
-    <string name="rec_gps_status_satellites_other_text"/>
+    <string name="rec_gps_status_satellites_few_text">衛星</string>
+    <string name="rec_gps_status_satellites_one_text">衛星</string>
+    <string name="rec_gps_status_satellites_other_text">衛星</string>
     <string name="rec_gps_text">GPS</string>
     <string name="rec_location_text">位置</string>
     <string name="rec_network_text">ネット</string>
@@ -374,9 +377,15 @@
     <string name="recording_voice_stopped_text">録音を停止しました</string>
     <string name="reset">リセット</string>
     <string name="storage_external_single">MicroSDカード</string>
-    <string name="storage_external_single_free">MicroSDカード</string>
     <string name="storage_phone">電話のメモリ</string>
-    <string name="storage_phone_free">電話のメモリ</string>
+    <string name="timer_auto_start">タイマー</string>
+    <string name="timer_auto_start_dlg_type_title">タイマーを設定して録音を開始する</string>
+    <string name="timer_auto_start_every_day_text">毎日</string>
+    <string name="timer_auto_start_once">一度</string>
+    <string name="timer_auto_start_recording_cancel_message_text">現在のタイマーに基づいて自動ビデオ録画をキャンセルしますか?</string>
+    <string name="timer_auto_start_recording_datetime_past_error_text">時間は過去に設定されました</string>
+    <string name="timer_auto_start_recording_duration_text">ビデオ録画時間</string>
+    <string name="timer_auto_start_service_notification_subtitle_text">自動で動画撮影を開始するタイマーサービス</string>
     <string name="to">～</string>
     <string name="unknown">不明</string>
     <string name="videos_ask_which_player">どのプレイヤーでプレーするかを尋ねる</string>

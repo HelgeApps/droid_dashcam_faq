@@ -1,8 +1,8 @@
 <resources>
-    <!--<string name="app_name">Droid Dashcam - 駕駛 DVR</string>-->
+    <!--<string name="app_name_droid_dashcam">Droid Dashcam - 駕駛 DVR</string>-->
     <string name="accept_text">我接受</string>
     <string name="any_text">任何</string>
-    <string name="app_name">Droid Dashcam</string>
+    <string name="app_name_droid_dashcam">Droid Dashcam</string>
     <string name="camera">相機</string>
     <string name="camera_aperture">光圈</string>
     <string name="camera_back">主相機
@@ -56,10 +56,14 @@
     <string name="format_speed_measure_kilometers">公里/小時</string>
     <string name="format_speed_measure_miles">時速</string>
     <string name="from">從</string>
+    <string name="hour">小時</string>
+    <string name="hours">小時</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">該應用程式不排除在電池優化之外。如果相機沒有在背景運作或其他情況，則將此應用程式新增至省電模式的例外。</string>
     <string name="msg_android_r_deleting_manual_tip_text">如果您在 Android 11 上重新安裝了該應用程式，則必須手動刪除舊檔案</string>
     <string name="msg_auto_recording_service_was_stopped">您已停止自動開始錄影的後台服務。打開應用程式以再次啟動它。</string>
     <string name="msg_battery_optimization_tip_text">電池優化 -&gt; 所有應用程式 -&gt; 尋找應用程式 -&gt; 不優化/儲存</string>
+    <string name="msg_beta_version_warning">這是該應用程式的測試版，因此某些功能可能無法運作或不穩定。</string>
+    <string name="msg_beta_version_warning_sum">從 Play 商店安裝穩定版本以避免錯誤。</string>
     <string name="msg_camera_died_text">應用程式意外停止工作，請重新啟動…</string>
     <string name="msg_camera_not_opened">鏡頭未開始運作</string>
     <string name="msg_close_settings_before_recording_text">開始錄製前關閉應用程式選項</string>
@@ -80,7 +84,7 @@
     <string name="msg_notification_could_launch_app_activity">無法啟動應用程式的主螢幕，因為未授予 SYSTEM_ALERT_WINDOW（顯示在所有其他應用程式視窗之上）權限或設備的螢幕已關閉</string>
     <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">指定的應用程式無法啟動自動打開，因為未授予「顯示在所有應用程式之上」權限。</string>
     <string name="msg_notification_could_not_open_with_locked_screen">由於螢幕已關閉（鎖定），因此無法開啟應用程式。</string>
-    <string name="msg_notification_could_not_start_recording_with_locked_screen">由於螢幕已關閉（鎖定），因此無法開啟應用程式以開始錄製。運行後台記錄服務（Watcher）來解決此問題。</string>
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">由於螢幕已關閉（鎖定），因此無法開啟應用程式以開始錄製。執行後台錄製服務（自動啟動）來解決此問題。</string>
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">無法開啟應用程式開始錄製，因為未授予「顯示在所有應用程式之上」權限。點擊提供</string>
     <string name="msg_photo_failed_to_take">無法拍照</string>
     <string name="msg_photo_was_saved">照片已保存</string>
@@ -98,7 +102,6 @@
     <string name="notification_could_not_start_recording_service">錄製功能無法啟動。點按可禁用此應用程式的電池最佳化</string>
     <string name="notification_service_aux_checker">音頻輸入插孔（輔助）</string>
     <string name="notification_service_bl_checker">藍芽</string>
-    <string name="notification_service_checker">分析</string>
     <string name="notification_service_power_checker">收費</string>
     <string name="notification_stop_text">停止</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">用於自動開/關錄音功能</string>
@@ -228,8 +231,8 @@
     <string name="prefs_rules_auto_lock_file_vibrate_text">檢測到撞擊時的震動</string>
     <string name="prefs_rules_auto_start_camera_motion_text">檢測到運動時開始錄制</string>
     <string name="prefs_rules_auto_start_speed_text">當速度相等/更高時開始記錄（基於 GPS）</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* 您可以關閉此選項，以便應用程式僅在應用程式的背景服務（Watcher）運行時才執行自動錄製。\n- 在 Android 7.1 之前，可以毫無問題地執行充電、藍牙或 AUX 等事件的自動記錄。\n- 從Android 8開始，無背景應用服務（Watcher）的自動錄製只能針對藍牙事件進行，在其他情況下（充電或AUX時）需要先啟動背景應用服務（Watcher） - 透過啟動應用程式本身一次。\n- 從沒有背景應用程式服務（Watcher）的 Android 11 開始，只有在手機解鎖（螢幕開啟）並且授予「所有應用程式之上」權限的情況下，才可以在沒有使用者互動的情況下存取相機。\n- 因此，對於Android 11及更高版本，您需要手動啟動應用程式一次，以便應用程式的後台服務（Watcher）開始在任何事件期間以及手機螢幕關閉時自動錄製。</string>
-    <string name="prefs_rules_auto_start_without_service_text">即使後台服務（Watcher）未運行也自動錄製</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* 您可以關閉此選項，讓應用程式僅在應用程式的背景服務（AutoStart）執行時執行自動錄製。\n- 在 Android 7.1 之前，可以毫無問題地執行充電、藍牙或 AUX 等事件的自動記錄。\n- 從Android 8開始，無背景應用服務（AutoStart）的自動錄製只能針對藍牙事件進行，在其他情況下（充電或AUX時）您需要先啟動背景應用服務（AutoStart） - 透過啟動應用程式本身一次。\n- 從沒有背景應用程式服務（自動啟動）的Android 11 開始，只有在手機解鎖（螢幕開啟）並且授予「在所有應用程式之上」權限的情況下，才可以在沒有使用者互動的情況下存取相機。\n- 因此，對於Android 11及更高版本，您需要手動啟動應用程式一次，以便應用程式的背景服務（AutoStart）啟動，以便在任何事件期間以及手機螢幕關閉時自動錄製。</string>
+    <string name="prefs_rules_auto_start_without_service_text">即使後台服務未運作（自動啟動）也會自動錄製</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">结束後停止錄影</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">沒有動作時停止錄影</string>
     <string name="prefs_rules_auto_stop_speed_text">當速度較低時停止記錄（基於 GPS）</string>
@@ -259,6 +262,7 @@
     <string name="prefs_show_status_bar_text">顯示系統狀態列</string>
     <string name="prefs_show_take_photo_btn_text">拍照</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">當前相機不支持。製造商經常限制其使用 - 它僅在標準相機應用程式中可用</string>
+    <string name="prefs_start_stop_toast_message_text">在背景錄製期間開始或停止錄製時顯示訊息</string>
     <string name="prefs_start_stop_voice_sum_text">開始、停止或錄影錯誤時發出聲音</string>
     <string name="prefs_start_stop_voice_text">錄影狀態</string>
     <string name="prefs_subtitles_address_text">地址</string>
@@ -271,6 +275,7 @@
     <string name="prefs_subtitles_date_time_system_text">系統默認</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX 最低更新率</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">所有坐標更新</string>
+    <string name="prefs_subtitles_gpx_sum">GPX - 一種 XML 模式，設計為軟體應用程式的通用 GPS 資料格式。它可用於描述航路點、軌跡和路線</string>
     <string name="prefs_subtitles_gpx_title">為每個視頻創建 GPX 文件</string>
     <string name="prefs_subtitles_in_english_text">英文字幕</string>
     <string name="prefs_subtitles_position_bottom_sum_text">在影片底部疊加字幕</string>
@@ -300,7 +305,6 @@
     <string name="prefs_ui_click_text">快速點擊螢幕</string>
     <string name="prefs_ui_long_click_text">長按螢幕</string>
     <string name="prefs_value_secs_few_text">秒</string>
-    <string name="prefs_value_secs_many_text">秒</string>
     <string name="prefs_value_secs_one_text">第二</string>
     <string name="prefs_value_secs_other_text">秒</string>
     <string name="prefs_version_text">應用程式版本</string>
@@ -353,7 +357,6 @@
     <string name="rec_fix_short_text">糾正</string>
     <string name="rec_fix_text">糾正</string>
     <string name="rec_gps_status_satellites_few_text">衛星</string>
-    <string name="rec_gps_status_satellites_many_text">衛星</string>
     <string name="rec_gps_status_satellites_one_text">衛星</string>
     <string name="rec_gps_status_satellites_other_text">衛星</string>
     <string name="rec_gps_text">全球定位系統</string>
@@ -376,9 +379,15 @@
     <string name="recording_voice_stopped_text">錄影停止</string>
     <string name="reset">釋放</string>
     <string name="storage_external_single">MicroSD 卡</string>
-    <string name="storage_external_single_free">MicroSD 卡</string>
     <string name="storage_phone">手機内存</string>
-    <string name="storage_phone_free">手機内存</string>
+    <string name="timer_auto_start">計時器</string>
+    <string name="timer_auto_start_dlg_type_title">設定計時器開始錄製</string>
+    <string name="timer_auto_start_every_day_text">每天</string>
+    <string name="timer_auto_start_once">一次</string>
+    <string name="timer_auto_start_recording_cancel_message_text">取消基於目前定時器的自動錄影？</string>
+    <string name="timer_auto_start_recording_datetime_past_error_text">時間設定在過去</string>
+    <string name="timer_auto_start_recording_duration_text">錄影時長</string>
+    <string name="timer_auto_start_service_notification_subtitle_text">自動開始錄影的定時器服務</string>
     <string name="to">前</string>
     <string name="unknown">未知</string>
     <string name="videos_ask_which_player">問哪個球員參加比賽</string>

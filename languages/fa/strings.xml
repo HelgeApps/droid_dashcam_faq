@@ -1,7 +1,7 @@
 <resources>
     <string name="accept_text">قبول میکنم</string>
     <string name="any_text">هر</string>
-    <string name="app_name">Droid Dashcam - DVR رانندگی</string>
+    <string name="app_name_droid_dashcam">Droid Dashcam - DVR رانندگی</string>
     <string name="camera">دوربین</string>
     <string name="camera_aperture">دیافراگم</string>
     <string name="camera_back">دوربین عقب</string>
@@ -54,10 +54,14 @@
     <string name="format_speed_measure_kilometers">کیلومتر در ساعت</string>
     <string name="format_speed_measure_miles">مایل در ساعت</string>
     <string name="from">از جانب</string>
+    <string name="hour">ساعت</string>
+    <string name="hours">ساعت ها</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">این برنامه از بهینه سازی باتری مستثنی نیست. اگر دوربین در پس‌زمینه اجرا نمی‌شود یا چیز دیگری، این برنامه را به استثناهای حالت ذخیره انرژی اضافه کنید.</string>
     <string name="msg_android_r_deleting_manual_tip_text">اگر برنامه را دوباره روی اندروید 11 نصب کردید، فایل های قدیمی باید به صورت دستی پاک شوند</string>
     <string name="msg_auto_recording_service_was_stopped">شما سرویس پس زمینه را برای شروع خودکار ضبط ویدیو متوقف کرده اید. برنامه را باز کنید تا دوباره راه اندازی شود.</string>
     <string name="msg_battery_optimization_tip_text">بهینه سازی باتری -&gt; همه برنامه ها -&gt; برنامه را پیدا کنید -&gt; بهینه سازی/ذخیره نکنید</string>
+    <string name="msg_beta_version_warning">این یک نسخه بتا از برنامه است، بنابراین برخی از چیزها ممکن است کار نکنند یا ناپایدار باشند.</string>
+    <string name="msg_beta_version_warning_sum">برای جلوگیری از خطا، نسخه پایدار را از play store نصب کنید.</string>
     <string name="msg_camera_died_text">دوربین به طور غیرمنتظره ای کار نمی کند، راه اندازی مجدد…</string>
     <string name="msg_camera_not_opened">دوربین در حال اجرا نیست</string>
     <string name="msg_close_settings_before_recording_text">قبل از شروع ضبط، تنظیمات برگزیده برنامه را ببندید</string>
@@ -78,7 +82,7 @@
     <string name="msg_notification_could_launch_app_activity">صفحه اصلی برنامه راه اندازی نشد زیرا مجوز SYSTEM_ALERT_WINDOW (نمایش در بالای همه پنجره های برنامه دیگر) اعطا نشد یا صفحه دستگاه خاموش بود</string>
     <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">برنامه مشخص شده برای باز کردن خودکار راه اندازی نشد زیرا مجوز \"نمایش در بالای همه برنامه ها\" داده نشد.</string>
     <string name="msg_notification_could_not_open_with_locked_screen">برنامه باز نشد زیرا صفحه نمایش خاموش (قفل) بود.</string>
-    <string name="msg_notification_could_not_start_recording_with_locked_screen">برنامه برای شروع ضبط باز نشد زیرا صفحه خاموش (قفل) بود. برای رفع این مشکل، سرویس ضبط پس‌زمینه (Watcher) را اجرا کنید.</string>
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">برنامه برای شروع ضبط باز نشد زیرا صفحه خاموش (قفل) بود. برای رفع این مشکل، سرویس ضبط پس‌زمینه (AutoStart) را اجرا کنید.</string>
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">برنامه برای شروع ضبط باز نشد زیرا مجوز \"نمایش در بالای همه برنامه ها\" داده نشد. برای ارائه کلیک کنید</string>
     <string name="msg_photo_failed_to_take">عکس گرفتن ناموفق بود</string>
     <string name="msg_photo_was_saved">عکس ذخیره شد</string>
@@ -96,7 +100,6 @@
     <string name="notification_could_not_start_recording_service">سرویس ضبط شروع نشد. برای غیرفعال کردن بهینه سازی باتری برای این برنامه ضربه بزنید</string>
     <string name="notification_service_aux_checker">جک صدا (Aux)</string>
     <string name="notification_service_bl_checker">بلوتوث</string>
-    <string name="notification_service_checker">تحلیل و بررسی</string>
     <string name="notification_service_power_checker">شارژ کردن</string>
     <string name="notification_stop_text">متوقف کردن</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">برای ضبط خودکار روشن /خاموش</string>
@@ -226,8 +229,8 @@
     <string name="prefs_rules_auto_lock_file_vibrate_text">لرزش هنگام تشخیص شوک</string>
     <string name="prefs_rules_auto_start_camera_motion_text">هنگامی که حرکت شناسایی شد شروع به ضبط کنید</string>
     <string name="prefs_rules_auto_start_speed_text">شروع ضبط زمانی که سرعت برابر /بالاتر است (بر اساس GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* می توانید این گزینه را خاموش کنید تا برنامه تنها در صورتی که سرویس پس زمینه برنامه (Watcher) در حال اجرا باشد، ضبط خودکار را انجام دهد.\n- ضبط خودکار رویدادهایی مانند شارژ، بلوتوث یا AUX بدون مشکل تا اندروید 7.1 قابل انجام است.\n- از اندروید 8 شروع به ضبط خودکار بدون سرویس برنامه پس‌زمینه (Watcher) فقط برای رویدادهای بلوتوث می‌کند و در سایر موارد (هنگام شارژ یا AUX) باید ابتدا سرویس برنامه پس‌زمینه (Watcher) را با راه‌اندازی راه‌اندازی کنید. خود برنامه یک بار\n- با شروع اندروید 11 بدون سرویس برنامه پس‌زمینه (Watcher)، دسترسی به دوربین بدون تعامل کاربر تنها در صورتی امکان‌پذیر است که قفل تلفن باز باشد (صفحه روشن) و مجوز «در بالای همه برنامه‌ها» داده شود.\n- بنابراین برای اندروید 11 و بالاتر، باید یک بار اپلیکیشن را به صورت دستی اجرا کنید تا در هنگام هر رویداد و زمانی که صفحه گوشی خاموش است، سرویس پس زمینه اپلیکیشن (Watcher) شروع به ضبط خودکار کند.</string>
-    <string name="prefs_rules_auto_start_without_service_text">ضبط خودکار حتی اگر سرویس پس زمینه (Watcher) در حال اجرا نباشد</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* می‌توانید این گزینه را خاموش کنید تا برنامه فقط زمانی که سرویس پس‌زمینه برنامه (AutoStart) در حال اجرا است، ضبط خودکار انجام دهد.\n- ضبط خودکار رویدادهایی مانند شارژ، بلوتوث یا AUX بدون مشکل تا اندروید 7.1 قابل انجام است.\n- از اندروید 8 شروع به ضبط خودکار بدون سرویس برنامه پس‌زمینه (AutoStart) فقط برای رویدادهای بلوتوث می‌شود و در سایر موارد (هنگام شارژ یا AUX) باید ابتدا سرویس برنامه پس‌زمینه (AutoStart) را با راه‌اندازی راه‌اندازی کنید. خود برنامه یک بار\n- با شروع با Android 11 بدون سرویس برنامه پس‌زمینه (AutoStart)، دسترسی به دوربین بدون تعامل کاربر تنها در صورتی امکان‌پذیر است که قفل تلفن باز باشد (صفحه نمایش روشن) و مجوز «در بالای همه برنامه‌ها» داده شود.\n- بنابراین برای اندروید 11 و بالاتر، باید یک بار برنامه را به صورت دستی اجرا کنید تا در هنگام هر رویداد و زمانی که صفحه گوشی خاموش است، سرویس پس زمینه برنامه (AutoStart) برای ضبط خودکار شروع شود.</string>
+    <string name="prefs_rules_auto_start_without_service_text">ضبط خودکار حتی اگر سرویس پس زمینه در حال اجرا نباشد (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">پس از آن ضبط را متوقف کنید</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">هنگامی که هیچ حرکتی وجود ندارد ضبط را متوقف کنید</string>
     <string name="prefs_rules_auto_stop_speed_text">وقتی سرعت کمتر است ضبط را متوقف کنید (بر اساس GPS)</string>
@@ -257,6 +260,7 @@
     <string name="prefs_show_status_bar_text">نمایش نوار وضعیت سیستم</string>
     <string name="prefs_show_take_photo_btn_text">برای ساخت عکس</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">توسط دوربین فعلی پشتیبانی نمی شود. سازندگان اغلب استفاده از آن را محدود می کنند - فقط در برنامه استاندارد دوربین موجود است</string>
+    <string name="prefs_start_stop_toast_message_text">هنگام شروع یا توقف ضبط در هنگام ضبط پس‌زمینه، پیامی را نمایش دهید</string>
     <string name="prefs_start_stop_voice_sum_text">صدا در شروع، توقف یا خطای ضبط</string>
     <string name="prefs_start_stop_voice_text">وضعیت ضبط صدا</string>
     <string name="prefs_subtitles_address_text">آدرس</string>
@@ -269,6 +273,7 @@
     <string name="prefs_subtitles_date_time_system_text">سیستمیک</string>
     <string name="prefs_subtitles_gpx_delay_title">حداقل نرخ به روز رسانی GPX</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">همه به روز رسانی مختصات</string>
+    <string name="prefs_subtitles_gpx_sum">GPX - یک طرح XML که به عنوان یک فرمت معمول داده GPS برای برنامه های نرم افزاری طراحی شده است. می توان از آن برای توصیف ایستگاه های بین راه، مسیرها و مسیرها استفاده کرد</string>
     <string name="prefs_subtitles_gpx_title">برای هر ویدیو فایل GPX ایجاد کنید</string>
     <string name="prefs_subtitles_in_english_text">زیرنویس انگلیسی</string>
     <string name="prefs_subtitles_position_bottom_sum_text">زیرنویس ها را در پایین ویدیو قرار دهید</string>
@@ -298,7 +303,6 @@
     <string name="prefs_ui_click_text">ضربه سریع بر روی صفحه نمایش</string>
     <string name="prefs_ui_long_click_text">فشار طولانی روی صفحه نمایش</string>
     <string name="prefs_value_secs_few_text">ثانیه</string>
-    <string name="prefs_value_secs_many_text">ثانیه</string>
     <string name="prefs_value_secs_one_text">دومین</string>
     <string name="prefs_value_secs_other_text">ثانیه</string>
     <string name="prefs_version_text">نسخه برنامه</string>
@@ -351,7 +355,6 @@
     <string name="rec_fix_short_text">برای اصلاح</string>
     <string name="rec_fix_text">برای اصلاح</string>
     <string name="rec_gps_status_satellites_few_text">ماهواره ها</string>
-    <string name="rec_gps_status_satellites_many_text">ماهواره ها</string>
     <string name="rec_gps_status_satellites_one_text">ماهواره</string>
     <string name="rec_gps_status_satellites_other_text">ماهواره ها</string>
     <string name="rec_gps_text">جی پی اس</string>
@@ -374,9 +377,15 @@
     <string name="recording_voice_stopped_text">ضبط متوقف شد</string>
     <string name="reset">تخلیه</string>
     <string name="storage_external_single">کارت MicroSD</string>
-    <string name="storage_external_single_free">کارت MicroSD</string>
     <string name="storage_phone">حافظه تلفن</string>
-    <string name="storage_phone_free">حافظه تلفن</string>
+    <string name="timer_auto_start">تایمر</string>
+    <string name="timer_auto_start_dlg_type_title">یک تایمر برای شروع ضبط تنظیم کنید</string>
+    <string name="timer_auto_start_every_day_text">هر روز</string>
+    <string name="timer_auto_start_once">یک بار</string>
+    <string name="timer_auto_start_recording_cancel_message_text">ضبط ویدیوی خودکار براساس تایمر فعلی لغو شود؟</string>
+    <string name="timer_auto_start_recording_datetime_past_error_text">زمان در گذشته تعیین شده بود</string>
+    <string name="timer_auto_start_recording_duration_text">مدت زمان ضبط ویدیو</string>
+    <string name="timer_auto_start_service_notification_subtitle_text">سرویس تایمر برای شروع خودکار ضبط ویدیو</string>
     <string name="to">قبل از</string>
     <string name="unknown">ناشناخته</string>
     <string name="videos_ask_which_player">بپرسید در کدام بازیکن بازی کنید</string>

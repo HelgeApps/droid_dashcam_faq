@@ -18,7 +18,7 @@
     -->
     <string name="accept_text">Принять</string>
     <string name="any_text">Любое</string>
-    <string name="app_name">Droid Dashcam - Видеорегистратор для вождения</string>
+    <string name="app_name_droid_dashcam">Droid Dashcam - Видеорегистратор для вождения</string>
     <string name="camera">Камера</string>
     <string name="camera_aperture">Диафрагма</string>
     <string name="camera_back">Задняя камера</string>
@@ -71,10 +71,14 @@
     <string name="format_speed_measure_kilometers">км/ч</string>
     <string name="format_speed_measure_miles">mph</string>
     <string name="from">от</string>
+    <string name="hour">время</string>
+    <string name="hours">часов</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Приложение не исключено из оптимизации батареи. Если камера не работает в фоновом режиме или что-то еще, то добавьте это приложение в исключения энергосберегающего режима.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Если вы переустанавливали приложение на Android 11, то старые файлы необходимо удалить вручную</string>
     <string name="msg_auto_recording_service_was_stopped">Вы остановили фоновую службу автоматического начала видеозаписи. Откройте приложение, чтобы запустить её снова.</string>
     <string name="msg_battery_optimization_tip_text">Оптимизация батареи -&gt; Все приложения -&gt; Найдите приложение -&gt; Не оптимизировать/экономить</string>
+    <string name="msg_beta_version_warning">Это бета версия приложения, поэтому что-то может не работать или нестабильно.</string>
+    <string name="msg_beta_version_warning_sum">Установите стабильную версию из плей-маркета, чтобы не было ошибок.</string>
     <string name="msg_camera_died_text">Камера неожиданно прекратила свою работу,  перезапуск…</string>
     <string name="msg_camera_not_opened">Камера не запущена</string>
     <string name="msg_close_settings_before_recording_text">Закройте настройки приложения перед началом записи</string>
@@ -95,7 +99,7 @@
     <string name="msg_notification_could_launch_app_activity">Не удалось запустить главный экран приложения поскольку разрешение SYSTEM_ALERT_WINDOW (отображение поверх всех окон других приложений) не предоставлено или был выключен экран устройства</string>
     <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">Не удалось запустить заданное приложение для автоматического открытия, поскольку разрешение \"отображение поверх всех приложений\" не предоставлено.</string>
     <string name="msg_notification_could_not_open_with_locked_screen">Не удалось открыть приложение, так как экран был выключен (заблокирован).</string>
-    <string name="msg_notification_could_not_start_recording_with_locked_screen">Не удалось открыть приложение, чтобы начать запись, поскольку экран был выключен (заблокирован). Запустите сервис фоновой записи (Watcher), чтобы исправить это.</string>
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">Не удалось открыть приложение, чтобы начать запись, поскольку экран был выключен (заблокирован). Запустите сервис фоновой записи (AutoStart), чтобы исправить это.</string>
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Не удалось открыть приложение, чтобы начать запись, поскольку разрешение \"отображение поверх всех приложений\" не предоставлено. Нажмите, чтобы предоставить</string>
     <string name="msg_photo_failed_to_take">Не удалось сделать фото</string>
     <string name="msg_photo_was_saved">Фото сохранено</string>
@@ -113,7 +117,6 @@
     <string name="notification_could_not_start_recording_service">Не удалось запустить службу записи. Нажмите, чтобы отключить оптимизацию заряда батареи для этого приложения</string>
     <string name="notification_service_aux_checker">аудиоразъем (Aux)</string>
     <string name="notification_service_bl_checker">блютуза</string>
-    <string name="notification_service_checker">Анализ</string>
     <string name="notification_service_power_checker">зарядки</string>
     <string name="notification_stop_text">Остановить</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Для авто вкл/выкл записи</string>
@@ -243,8 +246,8 @@
     <string name="prefs_rules_auto_lock_file_vibrate_text">Вибрация при обнаружении удара</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Начать запись при обнаружении движения</string>
     <string name="prefs_rules_auto_start_speed_text">Начать запись, когда скорость равна/больше (на основе GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Вы можете выключить эту опцию, чтобы приложение выполняло автоматическую запись только при условии, что запущен фоновой сервис приложения (Watcher).\n- Автоматическая запись по таким событиям, как зарядка, Bluetooth или AUX может без проблем выполнятся до Android 7.1.\n- Начиная с Android 8, автоматическая запись без фонового сервиса приложения (Watcher) может выполнятся только для Bluetooth событий, а в остальных случаях (при зарядке или AUX) вам нужно предварительно запустить фоновой сервис приложения (Watcher) - запустив один раз само приложение.\n- Начиная с Android 11 без фонового сервиса приложения (Watcher) доступ к камере без взаимодействия пользователя возможен только при условии, что телефон разблокирован (экран включен) и предоставлено разрешение \"поверх всех приложений\".\n- Таким образом, для Android 11 и выше, требуется вручную запустить один раз приложение, чтобы запустился фоновой сервис приложения (Watcher) для автоматической записи при любых событиях и при выключенном экраном телефона.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Автоматическая запись даже, если не запущен фоновой сервис (Watcher)</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* Вы можете выключить эту опцию, чтобы приложение выполняло автоматическую запись только при условии, что запущен фоновой сервис приложения (AutoStart).\n- Автоматическая запись по таким событиям, как зарядка, Bluetooth или AUX может без проблем выполнятся до Android 7.1.\n- Начиная с Android 8, автоматическая запись без фонового сервиса приложения (AutoStart) может выполнятся только для Bluetooth событий, а в остальных случаях (при зарядке или AUX) вам нужно предварительно запустить фоновой сервис приложения (AutoStart) - запустив один раз само приложение.\n- Начиная с Android 11 без фонового сервиса приложения (AutoStart) доступ к камере без взаимодействия пользователя возможен только при условии, что телефон разблокирован (экран включен) и предоставлено разрешение \"поверх всех приложений\".\n- Таким образом, для Android 11 и выше, требуется вручную запустить один раз приложение, чтобы запустился фоновой сервис приложения (AutoStart) для автоматической записи при любых событиях и при выключенном экраном телефона.</string>
+    <string name="prefs_rules_auto_start_without_service_text">Автоматическая запись даже, если не запущен фоновой сервис (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Остановить запись после</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Остановить запись при отсутствии движения</string>
     <string name="prefs_rules_auto_stop_speed_text">Остановить запись, когда скорость ниже (на основе GPS)</string>
@@ -274,6 +277,7 @@
     <string name="prefs_show_status_bar_text">Показывать строку состояния системы</string>
     <string name="prefs_show_take_photo_btn_text">Сделать фото</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Не поддерживается текущей камерой. Часто производители ограничивают ее использование - доступна только в стандартном приложении Камера</string>
+    <string name="prefs_start_stop_toast_message_text">Отображать сообщение при начале или остановке записи во время фоновой записи</string>
     <string name="prefs_start_stop_voice_sum_text">Озвучивание при начале, остановке или ошибке записи</string>
     <string name="prefs_start_stop_voice_text">Озвучивать состояние записи</string>
     <string name="prefs_subtitles_address_text">Адрес</string>
@@ -286,6 +290,7 @@
     <string name="prefs_subtitles_date_time_system_text">Системное</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX минимальная частота обновлений</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Все обновления координат</string>
+    <string name="prefs_subtitles_gpx_sum">GPX — схема XML, разработанная как общий формат данных GPS для программных приложений. Его можно использовать для описания путевых точек, треков и маршрутов.</string>
     <string name="prefs_subtitles_gpx_title">Создавать GPX файл для каждой видеозаписи</string>
     <string name="prefs_subtitles_in_english_text">Субтитры на английском</string>
     <string name="prefs_subtitles_position_bottom_sum_text">Накладывать субтитры внизу видео</string>
@@ -315,7 +320,6 @@
     <string name="prefs_ui_click_text">Быстрое нажатие по экрану</string>
     <string name="prefs_ui_long_click_text">Длительное нажатие по экрану</string>
     <string name="prefs_value_secs_few_text">секунды</string>
-    <string name="prefs_value_secs_many_text">секунд</string>
     <string name="prefs_value_secs_one_text">секунда</string>
     <string name="prefs_value_secs_other_text">секунд</string>
     <string name="prefs_version_text">Версия приложения</string>
@@ -368,7 +372,6 @@
     <string name="rec_fix_short_text">Исправить</string>
     <string name="rec_fix_text">Исправить</string>
     <string name="rec_gps_status_satellites_few_text">спутники</string>
-    <string name="rec_gps_status_satellites_many_text">спутников</string>
     <string name="rec_gps_status_satellites_one_text">спутник</string>
     <string name="rec_gps_status_satellites_other_text">спутников</string>
     <string name="rec_gps_text">GPS</string>
@@ -392,6 +395,14 @@
     <string name="reset">сброс</string>
     <string name="storage_external_single">MicroSD карта</string>
     <string name="storage_phone">Память телефона</string>
+    <string name="timer_auto_start">Таймер</string>
+    <string name="timer_auto_start_dlg_type_title">Установите таймер, чтобы начать запись</string>
+    <string name="timer_auto_start_every_day_text">Каждый день</string>
+    <string name="timer_auto_start_once">Один раз</string>
+    <string name="timer_auto_start_recording_cancel_message_text">Отменить автоматическую видеозапись по текущему таймеру?</string>
+    <string name="timer_auto_start_recording_datetime_past_error_text">Время было задано в прошлом</string>
+    <string name="timer_auto_start_recording_duration_text">Продолжительность видеозаписи</string>
+    <string name="timer_auto_start_service_notification_subtitle_text">Таймер-сервис автоматического начала видеозаписи</string>
     <string name="to">до</string>
     <string name="unknown">Неизвестный</string>
     <string name="videos_ask_which_player">Спрашивать в каком плеере воспроизводить</string>

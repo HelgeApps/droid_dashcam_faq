@@ -1,7 +1,7 @@
 <resources>
     <string name="accept_text">مجھے قبول ہے</string>
     <string name="any_text">کوئی بھی</string>
-    <string name="app_name">Droid Dashcam - ڈرائیونگ DVR</string>
+    <string name="app_name_droid_dashcam">Droid Dashcam - ڈرائیونگ DVR</string>
     <string name="camera">کیمرہ</string>
     <string name="camera_aperture">ڈایافرام</string>
     <string name="camera_back">پچھلا کیمرہ</string>
@@ -54,10 +54,14 @@
     <string name="format_speed_measure_kilometers">کلومیٹر فی گھنٹہ</string>
     <string name="format_speed_measure_miles">میل فی گھنٹہ</string>
     <string name="from">سے</string>
+    <string name="hour">گھنٹہ</string>
+    <string name="hours">گھنٹے</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">ایپلی کیشن کو بیٹری کی اصلاح سے خارج نہیں کیا گیا ہے۔ اگر کیمرہ بیک گراؤنڈ میں نہیں چل رہا ہے یا کوئی اور چیز ہے، تو اس ایپلی کیشن کو پاور سیونگ موڈ کے استثناء میں شامل کریں۔</string>
     <string name="msg_android_r_deleting_manual_tip_text">اگر آپ نے اینڈرائیڈ 11 پر ایپلی کیشن کو دوبارہ انسٹال کیا ہے، تو پرانی فائلوں کو دستی طور پر ڈیلیٹ کرنا ہوگا۔</string>
     <string name="msg_auto_recording_service_was_stopped">آپ نے خود بخود ویڈیو ریکارڈنگ شروع کرنے کے لیے بیک گراؤنڈ سروس بند کر دی ہے۔ اسے دوبارہ شروع کرنے کے لیے ایپلیکیشن کھولیں۔</string>
     <string name="msg_battery_optimization_tip_text">بیٹری کی اصلاح -&gt; تمام ایپس -&gt; ایپ تلاش کریں -&gt; بہتر نہ بنائیں/محفوظ کریں</string>
+    <string name="msg_beta_version_warning">یہ ایپلیکیشن کا بیٹا ورژن ہے، اس لیے ہو سکتا ہے کہ کچھ چیزیں کام نہ کریں یا غیر مستحکم ہوں۔</string>
+    <string name="msg_beta_version_warning_sum">غلطیوں سے بچنے کے لیے پلے اسٹور سے مستحکم ورژن انسٹال کریں۔</string>
     <string name="msg_camera_died_text">کیمرے نے غیر متوقع طور پر کام کرنا بند کر دیا، دوبارہ شروع ہو رہا ہے…</string>
     <string name="msg_camera_not_opened">کیمرہ نہیں چل رہا ہے۔</string>
     <string name="msg_close_settings_before_recording_text">ریکارڈنگ شروع کرنے سے پہلے درخواست کی ترجیحات کو بند کریں۔</string>
@@ -78,7 +82,7 @@
     <string name="msg_notification_could_launch_app_activity">ایپلیکیشن کی مین اسکرین کو لانچ نہیں کیا جا سکا کیونکہ SYSTEM_ALERT_WINDOW (دیگر تمام ایپلیکیشن ونڈوز کے اوپر ڈسپلے) کی اجازت نہیں دی گئی تھی یا ڈیوائس کی اسکرین آف کر دی گئی تھی۔</string>
     <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">مخصوص ایپلیکیشن کو خود بخود کھولنے کے لیے لانچ نہیں کیا جا سکا کیونکہ \"تمام ایپلیکیشنز کے اوپر دکھائیں\" کی اجازت نہیں دی گئی تھی۔</string>
     <string name="msg_notification_could_not_open_with_locked_screen">ایپلیکیشن کو نہیں کھولا جا سکا کیونکہ اسکرین بند (مقفل) تھی۔</string>
-    <string name="msg_notification_could_not_start_recording_with_locked_screen">ایپلیکیشن کو ریکارڈنگ شروع کرنے کے لیے نہیں کھولا جا سکا کیونکہ اسکرین آف (مقفل) تھی۔ اسے ٹھیک کرنے کے لیے بیک گراؤنڈ ریکارڈنگ سروس (Watcher) چلائیں۔</string>
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">ایپلیکیشن کو ریکارڈنگ شروع کرنے کے لیے نہیں کھولا جا سکا کیونکہ اسکرین آف (مقفل) تھی۔ اسے ٹھیک کرنے کے لیے بیک گراؤنڈ ریکارڈنگ سروس (آٹو اسٹارٹ) چلائیں۔</string>
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">ایپ کو ریکارڈنگ شروع کرنے کے لیے نہیں کھولا جا سکا کیونکہ \"تمام ایپس کے اوپر دکھائیں\" کی اجازت نہیں دی گئی تھی۔ فراہم کرنے کے لیے کلک کریں۔</string>
     <string name="msg_photo_failed_to_take">تصویر لینے میں ناکام</string>
     <string name="msg_photo_was_saved">تصویر محفوظ ہو گئی۔</string>
@@ -96,7 +100,6 @@
     <string name="notification_could_not_start_recording_service">ریکارڈنگ سروس شروع نہیں ہو سکی۔ اس ایپ کے لیے بیٹری کی اصلاح کو غیر فعال کرنے کے لیے تھپتھپائیں۔</string>
     <string name="notification_service_aux_checker">آڈیو جیک (آکس)</string>
     <string name="notification_service_bl_checker">بلوٹوتھ</string>
-    <string name="notification_service_checker">تجزیہ</string>
     <string name="notification_service_power_checker">چارج کر رہا ہے</string>
     <string name="notification_stop_text">رک جاؤ</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">آٹو آن/آف ریکارڈنگ کے لیے</string>
@@ -226,8 +229,8 @@
     <string name="prefs_rules_auto_lock_file_vibrate_text">جھٹکے کا پتہ چلنے پر کمپن</string>
     <string name="prefs_rules_auto_start_camera_motion_text">حرکت کا پتہ چلنے پر ریکارڈنگ شروع کریں۔</string>
     <string name="prefs_rules_auto_start_speed_text">رفتار برابر/زیادہ ہونے پر ریکارڈنگ شروع کریں (GPS کی بنیاد پر)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* آپ اس آپشن کو بند کر سکتے ہیں تاکہ ایپلی کیشن خودکار ریکارڈنگ صرف اسی صورت میں کرے جب ایپلی کیشن کی بیک گراؤنڈ سروس (Watcher) چل رہی ہو۔\n- چارجنگ، بلوٹوتھ یا AUX جیسے ایونٹس کے لیے خودکار ریکارڈنگ اینڈرائیڈ 7.1 تک بغیر کسی پریشانی کے کی جا سکتی ہے۔\n- اینڈروئیڈ 8 سے شروع کرتے ہوئے، بیک گراؤنڈ ایپلی کیشن سروس (واچر) کے بغیر خودکار ریکارڈنگ صرف بلوٹوتھ ایونٹس کے لیے کی جا سکتی ہے، اور دیگر معاملات میں (چارج کرتے وقت یا AUX) آپ کو پہلے بیک گراؤنڈ ایپلیکیشن سروس (واچر) شروع کرنے کی ضرورت ہوتی ہے۔ درخواست خود ایک بار.\n- بیک گراؤنڈ ایپ سروس (واچر) کے بغیر اینڈرائیڈ 11 کے ساتھ شروع کرتے ہوئے، صارف کی بات چیت کے بغیر کیمرہ تک رسائی صرف اسی صورت میں ممکن ہے جب فون ان لاک ہو (اسکرین آن) اور \"تمام ایپس کے اوپر\" کی اجازت دی جائے۔\n- اس طرح، اینڈرائیڈ 11 اور اس سے زیادہ کے لیے، آپ کو ایک بار دستی طور پر ایپلیکیشن لانچ کرنے کی ضرورت ہے تاکہ ایپلیکیشن کی بیک گراؤنڈ سروس (Watcher) کسی بھی ایونٹ کے دوران اور فون کی اسکرین آف ہونے پر خود بخود ریکارڈ ہونا شروع کر دے۔</string>
-    <string name="prefs_rules_auto_start_without_service_text">خودکار ریکارڈنگ چاہے بیک گراؤنڈ سروس (Watcher) نہ چل رہی ہو۔</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* آپ اس آپشن کو بند کر سکتے ہیں تاکہ ایپ صرف اس وقت خودکار ریکارڈنگ کرائے جب ایپ کی بیک گراؤنڈ سروس (آٹو اسٹارٹ) چل رہی ہو۔\n- چارجنگ، بلوٹوتھ یا AUX جیسے ایونٹس کے لیے خودکار ریکارڈنگ اینڈرائیڈ 7.1 تک بغیر کسی پریشانی کے کی جا سکتی ہے۔\n- اینڈرائیڈ 8 سے شروع کرتے ہوئے، بیک گراؤنڈ ایپلیکیشن سروس (آٹو اسٹارٹ) کے بغیر خودکار ریکارڈنگ صرف بلوٹوتھ ایونٹس کے لیے کی جا سکتی ہے، اور دیگر معاملات میں (چارج کرتے وقت یا AUX) آپ کو پہلے بیک گراؤنڈ ایپلیکیشن سروس (آٹو اسٹارٹ) شروع کرنے کی ضرورت ہوتی ہے۔ درخواست خود ایک بار.\n- بیک گراؤنڈ ایپ سروس (آٹو اسٹارٹ) کے بغیر اینڈرائیڈ 11 کے ساتھ شروع کرتے ہوئے، صارف کی بات چیت کے بغیر کیمرہ تک رسائی صرف اسی صورت میں ممکن ہے جب فون ان لاک ہو (اسکرین آن) اور \"تمام ایپس کے اوپر\" کی اجازت دی جائے۔\n- اس طرح، اینڈرائیڈ 11 اور اس سے زیادہ کے لیے، آپ کو ایک بار دستی طور پر ایپلیکیشن لانچ کرنے کی ضرورت ہے تاکہ ایپلیکیشن کی بیک گراؤنڈ سروس (آٹو اسٹارٹ) کسی بھی ایونٹ کے دوران اور فون کی اسکرین آف ہونے پر خودکار ریکارڈنگ کے لیے شروع ہوجائے۔</string>
+    <string name="prefs_rules_auto_start_without_service_text">خودکار ریکارڈنگ چاہے بیک گراؤنڈ سروس نہ چل رہی ہو (آٹو اسٹارٹ)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">اس کے بعد ریکارڈنگ بند کریں۔</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">جب کوئی حرکت نہ ہو تو ریکارڈنگ بند کریں۔</string>
     <string name="prefs_rules_auto_stop_speed_text">رفتار کم ہونے پر ریکارڈنگ بند کریں (GPS پر مبنی)</string>
@@ -257,6 +260,7 @@
     <string name="prefs_show_status_bar_text">سسٹم اسٹیٹس بار دکھائیں۔</string>
     <string name="prefs_show_take_photo_btn_text">تصویر بنانے کے لیے</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">موجودہ کیمرے سے تعاون یافتہ نہیں ہے۔ مینوفیکچررز اکثر اس کے استعمال پر پابندی لگاتے ہیں - یہ صرف معیاری کیمرہ ایپلی کیشن میں دستیاب ہے۔</string>
+    <string name="prefs_start_stop_toast_message_text">پس منظر کی ریکارڈنگ کے دوران ریکارڈنگ شروع یا بند کرتے وقت پیغام دکھائیں۔</string>
     <string name="prefs_start_stop_voice_sum_text">شروع، بند یا ریکارڈنگ کی غلطی پر آواز</string>
     <string name="prefs_start_stop_voice_text">صوتی ریکارڈنگ کی حیثیت</string>
     <string name="prefs_subtitles_address_text">پتہ</string>
@@ -269,6 +273,7 @@
     <string name="prefs_subtitles_date_time_system_text">نظامی</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX کم از کم اپ ڈیٹ کی شرح</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">تمام کوآرڈینیٹ اپ ڈیٹس</string>
+    <string name="prefs_subtitles_gpx_sum">GPX - سافٹ ویئر ایپلی کیشنز کے لیے ایک عام GPS ڈیٹا فارمیٹ کے طور پر ڈیزائن کیا گیا ایک XML سکیما۔ اس کا استعمال وے پوائنٹس، پٹریوں اور راستوں کو بیان کرنے کے لیے کیا جا سکتا ہے۔</string>
     <string name="prefs_subtitles_gpx_title">ہر ویڈیو کے لیے GPX فائل بنائیں</string>
     <string name="prefs_subtitles_in_english_text">انگریزی ترجمے کے ساتھ</string>
     <string name="prefs_subtitles_position_bottom_sum_text">ویڈیو کے نیچے سب ٹائٹلز کو اوورلے کریں۔</string>
@@ -298,7 +303,6 @@
     <string name="prefs_ui_click_text">اسکرین پر فوری تھپتھپائیں۔</string>
     <string name="prefs_ui_long_click_text">اسکرین پر دیر تک دبائیں۔</string>
     <string name="prefs_value_secs_few_text">سیکنڈ</string>
-    <string name="prefs_value_secs_many_text">سیکنڈ</string>
     <string name="prefs_value_secs_one_text">دوسرا</string>
     <string name="prefs_value_secs_other_text">سیکنڈ</string>
     <string name="prefs_version_text">درخواست کا ورژن</string>
@@ -351,7 +355,6 @@
     <string name="rec_fix_short_text">درست کرنا</string>
     <string name="rec_fix_text">درست کرنا</string>
     <string name="rec_gps_status_satellites_few_text">سیٹلائٹس</string>
-    <string name="rec_gps_status_satellites_many_text">سیٹلائٹس</string>
     <string name="rec_gps_status_satellites_one_text">سیٹلائٹ</string>
     <string name="rec_gps_status_satellites_other_text">سیٹلائٹس</string>
     <string name="rec_gps_text">GPS</string>
@@ -374,9 +377,15 @@
     <string name="recording_voice_stopped_text">ریکارڈنگ رک گئی۔</string>
     <string name="reset">خارج ہونے والے مادہ</string>
     <string name="storage_external_single">مائیکرو ایس ڈی کارڈ</string>
-    <string name="storage_external_single_free">مائیکرو ایس ڈی کارڈ</string>
     <string name="storage_phone">فون میموری</string>
-    <string name="storage_phone_free">فون میموری</string>
+    <string name="timer_auto_start">ٹائمر</string>
+    <string name="timer_auto_start_dlg_type_title">ریکارڈنگ شروع کرنے کے لیے ٹائمر سیٹ کریں۔</string>
+    <string name="timer_auto_start_every_day_text">ہر روز</string>
+    <string name="timer_auto_start_once">ایک بار</string>
+    <string name="timer_auto_start_recording_cancel_message_text">موجودہ ٹائمر کی بنیاد پر خودکار ویڈیو ریکارڈنگ منسوخ کریں؟</string>
+    <string name="timer_auto_start_recording_datetime_past_error_text">وقت ماضی میں مقرر کیا گیا تھا</string>
+    <string name="timer_auto_start_recording_duration_text">ویڈیو ریکارڈنگ کا دورانیہ</string>
+    <string name="timer_auto_start_service_notification_subtitle_text">خود بخود ویڈیو ریکارڈنگ شروع کرنے کے لیے ٹائمر سروس</string>
     <string name="to">پہلے</string>
     <string name="unknown">نامعلوم</string>
     <string name="videos_ask_which_player">پوچھیں کہ کس کھلاڑی میں کھیلنا ہے۔</string>

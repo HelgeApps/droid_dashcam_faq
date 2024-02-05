@@ -1,7 +1,7 @@
 <resources>
     <string name="accept_text">ฉันยอมรับ</string>
     <string name="any_text">ใด ๆ</string>
-    <string name="app_name">Droid Dashcam - ขับรถ DVR</string>
+    <string name="app_name_droid_dashcam">Droid Dashcam - ขับรถ DVR</string>
     <string name="camera">กล้อง</string>
     <string name="camera_aperture">กะบังลม</string>
     <string name="camera_back">กล้องหลัง</string>
@@ -54,10 +54,14 @@
     <string name="format_speed_measure_kilometers">กม. /ชม</string>
     <string name="format_speed_measure_miles">ไมล์ต่อชั่วโมง</string>
     <string name="from">จาก</string>
+    <string name="hour">ชั่วโมง</string>
+    <string name="hours">ชั่วโมง</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">แอปพลิเคชันไม่ได้รับการยกเว้นจากการเพิ่มประสิทธิภาพแบตเตอรี่ หากกล้องไม่ได้ทำงานอยู่เบื้องหลังหรืออย่างอื่น ให้เพิ่มแอปพลิเคชันนี้เข้าข้อยกเว้นของโหมดประหยัดพลังงาน</string>
     <string name="msg_android_r_deleting_manual_tip_text">หากคุณติดตั้งแอปพลิเคชันใหม่บน Android 11 ไฟล์เก่าจะต้องถูกลบด้วยตนเอง</string>
     <string name="msg_auto_recording_service_was_stopped">คุณได้หยุดบริการพื้นหลังเพื่อเริ่มการบันทึกวิดีโอโดยอัตโนมัติ เปิดแอปพลิเคชันเพื่อเปิดใช้งานอีกครั้ง</string>
     <string name="msg_battery_optimization_tip_text">การเพิ่มประสิทธิภาพแบตเตอรี่ -&gt; แอปทั้งหมด -&gt; ค้นหาแอป -&gt; อย่าปรับให้เหมาะสม/บันทึก</string>
+    <string name="msg_beta_version_warning">นี่เป็นแอปพลิเคชันเวอร์ชันเบต้า ดังนั้นบางสิ่งอาจไม่ทำงานหรือไม่เสถียร</string>
+    <string name="msg_beta_version_warning_sum">ติดตั้งเวอร์ชันเสถียรจาก play store เพื่อหลีกเลี่ยงข้อผิดพลาด</string>
     <string name="msg_camera_died_text">กล้องหยุดทำงานกะทันหัน รีสตาร์ท…</string>
     <string name="msg_camera_not_opened">กล้องไม่ทำงาน</string>
     <string name="msg_close_settings_before_recording_text">ปิดการตั้งค่าแอปพลิเคชันก่อนเริ่มบันทึก</string>
@@ -78,7 +82,7 @@
     <string name="msg_notification_could_launch_app_activity">ไม่สามารถเปิดหน้าจอหลักของแอปพลิเคชันได้เนื่องจากไม่ได้รับอนุญาต SYSTEM_ALERT_WINDOW (แสดงที่ด้านบนของหน้าต่างแอปพลิเคชันอื่นทั้งหมด) หรือปิดหน้าจอของอุปกรณ์</string>
     <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">ไม่สามารถเปิดแอปพลิเคชันที่ระบุให้เปิดโดยอัตโนมัติได้เนื่องจากไม่ได้รับอนุญาตให้ \"แสดงที่ด้านบนของแอปพลิเคชันทั้งหมด\"</string>
     <string name="msg_notification_could_not_open_with_locked_screen">ไม่สามารถเปิดแอปพลิเคชันได้เนื่องจากหน้าจอปิดอยู่ (ล็อคอยู่)</string>
-    <string name="msg_notification_could_not_start_recording_with_locked_screen">ไม่สามารถเปิดแอปพลิเคชันเพื่อเริ่มการบันทึกได้เนื่องจากหน้าจอปิดอยู่ (ล็อคอยู่) เรียกใช้บริการบันทึกพื้นหลัง (Watcher) เพื่อแก้ไขปัญหานี้</string>
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">ไม่สามารถเปิดแอปพลิเคชันเพื่อเริ่มการบันทึกได้เนื่องจากหน้าจอปิดอยู่ (ล็อคอยู่) เรียกใช้บริการบันทึกพื้นหลัง (เริ่มอัตโนมัติ) เพื่อแก้ไขปัญหานี้</string>
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">ไม่สามารถเปิดแอปเพื่อเริ่มการบันทึกได้เนื่องจากไม่ได้รับอนุญาตให้ \"แสดงที่ด้านบนของแอปทั้งหมด\" คลิกเพื่อให้</string>
     <string name="msg_photo_failed_to_take">ถ่ายรูปไม่สำเร็จ</string>
     <string name="msg_photo_was_saved">บันทึกรูปภาพแล้ว</string>
@@ -96,7 +100,6 @@
     <string name="notification_could_not_start_recording_service">ไม่สามารถเริ่มบริการบันทึก แตะเพื่อปิดใช้งานการเพิ่มประสิทธิภาพแบตเตอรี่สำหรับแอปนี้</string>
     <string name="notification_service_aux_checker">แจ็คเสียง (Aux)</string>
     <string name="notification_service_bl_checker">บลูทู ธ</string>
-    <string name="notification_service_checker">การวิเคราะห์</string>
     <string name="notification_service_power_checker">กำลังชาร์จ</string>
     <string name="notification_stop_text">หยุด</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">สำหรับเปิด/ปิดการบันทึกอัตโนมัติ</string>
@@ -226,8 +229,8 @@
     <string name="prefs_rules_auto_lock_file_vibrate_text">การสั่นสะเทือนเมื่อตรวจพบการกระแทก</string>
     <string name="prefs_rules_auto_start_camera_motion_text">เริ่มบันทึกเมื่อตรวจพบการเคลื่อนไหว</string>
     <string name="prefs_rules_auto_start_speed_text">เริ่มบันทึกเมื่อความเร็วเท่ากัน/สูงกว่า (ตาม GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* คุณสามารถปิดตัวเลือกนี้เพื่อให้แอปพลิเคชันทำการบันทึกอัตโนมัติเฉพาะในกรณีที่บริการพื้นหลังของแอปพลิเคชัน (Watcher) กำลังทำงานอยู่\n- บันทึกเหตุการณ์อัตโนมัติ เช่น การชาร์จ บลูทูธ หรือ AUX ได้โดยไม่มีปัญหา จนถึง Android 7.1\n- เริ่มต้นจาก Android 8 การบันทึกอัตโนมัติโดยไม่มีบริการแอปพลิเคชันพื้นหลัง (Watcher) สามารถทำได้สำหรับกิจกรรม Bluetooth เท่านั้น และในกรณีอื่น ๆ (เมื่อชาร์จหรือ AUX) คุณต้องเริ่มบริการแอปพลิเคชันพื้นหลัง (Watcher) ก่อน - โดยการเปิดตัว สมัครเองครั้งเดียว\n- เริ่มต้นด้วย Android 11 ที่ไม่มีบริการแอปพื้นหลัง (Watcher) การเข้าถึงกล้องโดยไม่ต้องมีการโต้ตอบจากผู้ใช้จะทำได้ก็ต่อเมื่อโทรศัพท์ถูกปลดล็อค (เปิดหน้าจอ) และได้รับอนุญาต \"ที่ด้านบนของแอปทั้งหมด\"\n- ดังนั้น สำหรับ Android 11 และสูงกว่า คุณจะต้องเปิดแอปพลิเคชันด้วยตนเองหนึ่งครั้งเพื่อให้บริการพื้นหลังของแอปพลิเคชัน (Watcher) เริ่มบันทึกโดยอัตโนมัติระหว่างเหตุการณ์ใด ๆ และเมื่อหน้าจอโทรศัพท์ปิดอยู่</string>
-    <string name="prefs_rules_auto_start_without_service_text">บันทึกอัตโนมัติแม้ว่าบริการพื้นหลัง (Watcher) จะไม่ได้ทำงานอยู่ก็ตาม</string>
+    <string name="prefs_rules_auto_start_without_service_sum_text">* คุณสามารถปิดตัวเลือกนี้เพื่อให้แอปทำการบันทึกอัตโนมัติเฉพาะเมื่อบริการพื้นหลังของแอป (เริ่มอัตโนมัติ) ทำงานอยู่เท่านั้น\n- บันทึกเหตุการณ์อัตโนมัติ เช่น การชาร์จ บลูทูธ หรือ AUX ได้โดยไม่มีปัญหา จนถึง Android 7.1\n- เริ่มต้นจาก Android 8 การบันทึกอัตโนมัติโดยไม่มีบริการแอปพลิเคชันพื้นหลัง (เริ่มอัตโนมัติ) สามารถทำได้สำหรับกิจกรรม Bluetooth เท่านั้น และในกรณีอื่น ๆ (เมื่อชาร์จหรือ AUX) คุณต้องเริ่มบริการแอปพลิเคชันพื้นหลังก่อน (เริ่มอัตโนมัติ) - โดยการเปิดตัว สมัครเองครั้งเดียว\n- เริ่มต้นด้วย Android 11 ที่ไม่มีบริการแอปพื้นหลัง (เริ่มอัตโนมัติ) การเข้าถึงกล้องโดยไม่ต้องมีการโต้ตอบจากผู้ใช้จะทำได้ก็ต่อเมื่อโทรศัพท์ถูกปลดล็อค (เปิดหน้าจอ) และได้รับอนุญาต \"ที่ด้านบนของแอปทั้งหมด\"\n- ดังนั้น สำหรับ Android 11 และสูงกว่า คุณต้องเปิดแอปพลิเคชันด้วยตนเองหนึ่งครั้งเพื่อให้บริการพื้นหลังของแอปพลิเคชัน (เริ่มอัตโนมัติ) เริ่มต้นสำหรับการบันทึกอัตโนมัติระหว่างเหตุการณ์ใด ๆ และเมื่อหน้าจอโทรศัพท์ปิดอยู่</string>
+    <string name="prefs_rules_auto_start_without_service_text">บันทึกอัตโนมัติแม้ว่าบริการพื้นหลังไม่ได้ทำงานอยู่ (เริ่มอัตโนมัติ)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">หยุดบันทึกหลังจาก</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">หยุดบันทึกเมื่อไม่มีการเคลื่อนไหว</string>
     <string name="prefs_rules_auto_stop_speed_text">หยุดบันทึกเมื่อความเร็วต่ำลง (ตาม GPS)</string>
@@ -257,6 +260,7 @@
     <string name="prefs_show_status_bar_text">แสดงแถบสถานะระบบ</string>
     <string name="prefs_show_take_photo_btn_text">ในการถ่ายรูป</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">ไม่รองรับกล้องปัจจุบัน ผู้ผลิตมักจำกัดการใช้งาน - มีเฉพาะในแอปพลิเคชันกล้องมาตรฐานเท่านั้น</string>
+    <string name="prefs_start_stop_toast_message_text">แสดงข้อความเมื่อเริ่มหรือหยุดการบันทึกระหว่างการบันทึกในเบื้องหลัง</string>
     <string name="prefs_start_stop_voice_sum_text">เสียงเมื่อเริ่ม หยุด หรือบันทึกผิดพลาด</string>
     <string name="prefs_start_stop_voice_text">สถานะการบันทึกเสียง</string>
     <string name="prefs_subtitles_address_text">ที่อยู่</string>
@@ -269,6 +273,7 @@
     <string name="prefs_subtitles_date_time_system_text">ระบบ</string>
     <string name="prefs_subtitles_gpx_delay_title">อัตราการอัปเดตขั้นต่ำของ GPX</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">อัปเดตพิกัดทั้งหมด</string>
+    <string name="prefs_subtitles_gpx_sum">GPX - สคีมา XML ที่ออกแบบมาเป็นรูปแบบข้อมูล GPS ทั่วไปสำหรับแอปพลิเคชันซอฟต์แวร์ สามารถใช้เพื่ออธิบายเวย์พอยท์ แทร็ก และเส้นทาง</string>
     <string name="prefs_subtitles_gpx_title">สร้างไฟล์ GPX สำหรับแต่ละวิดีโอ</string>
     <string name="prefs_subtitles_in_english_text">ซับภาษาอังกฤษ</string>
     <string name="prefs_subtitles_position_bottom_sum_text">คำบรรยายซ้อนทับที่ด้านล่างของวิดีโอ</string>
@@ -298,7 +303,6 @@
     <string name="prefs_ui_click_text">แตะบนหน้าจออย่างรวดเร็ว</string>
     <string name="prefs_ui_long_click_text">กดบนหน้าจอค้างไว้</string>
     <string name="prefs_value_secs_few_text">วินาที</string>
-    <string name="prefs_value_secs_many_text">วินาที</string>
     <string name="prefs_value_secs_one_text">ที่สอง</string>
     <string name="prefs_value_secs_other_text">วินาที</string>
     <string name="prefs_version_text">เวอร์ชันแอปพลิเคชัน</string>
@@ -351,7 +355,6 @@
     <string name="rec_fix_short_text">ถูกต้อง</string>
     <string name="rec_fix_text">ถูกต้อง</string>
     <string name="rec_gps_status_satellites_few_text">ดาวเทียม</string>
-    <string name="rec_gps_status_satellites_many_text">ดาวเทียม</string>
     <string name="rec_gps_status_satellites_one_text">ดาวเทียม</string>
     <string name="rec_gps_status_satellites_other_text">ดาวเทียม</string>
     <string name="rec_gps_text">จีพีเอส</string>
@@ -374,9 +377,15 @@
     <string name="recording_voice_stopped_text">การบันทึกหยุดลง</string>
     <string name="reset">ปล่อย</string>
     <string name="storage_external_single">การ์ด MicroSD</string>
-    <string name="storage_external_single_free">การ์ด MicroSD</string>
     <string name="storage_phone">หน่วยความจำโทรศัพท์</string>
-    <string name="storage_phone_free">หน่วยความจำโทรศัพท์</string>
+    <string name="timer_auto_start">ตัวจับเวลา</string>
+    <string name="timer_auto_start_dlg_type_title">ตั้งเวลาเพื่อเริ่มการบันทึก</string>
+    <string name="timer_auto_start_every_day_text">ทุกวัน</string>
+    <string name="timer_auto_start_once">ครั้งหนึ่ง</string>
+    <string name="timer_auto_start_recording_cancel_message_text">ยกเลิกการบันทึกวิดีโออัตโนมัติตามตัวจับเวลาปัจจุบันหรือไม่</string>
+    <string name="timer_auto_start_recording_datetime_past_error_text">เวลาถูกกำหนดไว้ในอดีต</string>
+    <string name="timer_auto_start_recording_duration_text">ระยะเวลาการบันทึกวิดีโอ</string>
+    <string name="timer_auto_start_service_notification_subtitle_text">บริการตั้งเวลาสำหรับการเริ่มบันทึกวิดีโอโดยอัตโนมัติ</string>
     <string name="to">ก่อน</string>
     <string name="unknown">ไม่รู้จัก</string>
     <string name="videos_ask_which_player">ถามว่าผู้เล่นคนไหนที่จะเล่นด้วย</string>
