@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">Ndinobvuma</string>
     <string name="any_text">Chero</string>
+    <string name="app_alternative_name_audio">Vadivelu Comedy Audio</string>
+    <string name="app_alternative_name_battery">Battery Settings</string>
+    <string name="app_alternative_name_media">Media</string>
+    <string name="app_alternative_name_media_player">Vadivelu Comedy Media Player</string>
+    <string name="app_alternative_name_video">Vhidhiyo</string>
+    <string name="app_name_backgroundvideorecorder">Background vhidhiyo kurekodha</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - Kutyaira DVR</string>
     <string name="camera">Kamera</string>
     <string name="camera_aperture">Diaphragm</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">Iyo kamera parizvino (yanga) haipo kuti ivhure pachishandiso chako (kamera system kukanganisa)</string>
     <string name="camera_support_error">Pane chikanganiso chaitika tichishandisa kamera.</string>
     <string name="close">Close</string>
+    <string name="days">mazuva</string>
     <string name="default_text">Default</string>
     <string name="dialog_camera_not_found_msg_text">Ichi chishandiso hachina kamera yakavakirwa mukati uye haitsigire makamera ekunze. Kuvhara…</string>
     <string name="dialog_camera_not_found_text">Kamera haina kuwanikwa</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">Hauna ads.</string>
     <string name="donation_level_text">Chipo chako</string>
     <string name="donation_purchase_info_loading_text">Ruzivo rwekutenga hausati rwaiswa. Uri online uye wakasaina kuGoogle account yako?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Bvisa ads zvachose nemupiro wenguva imwe chete chero huwandu. Iwe unogona zvakare kupa chero mari pamwedzi kubvisa ads</string>
-    <string name="donation_subs_any_amount_text">Zvakare, kushambadza kunobviswa zvachose kana iwe uchinyorera kune chero huwandu.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Bvisa ads zvachose nemupiro wenguva imwe chete chero huwandu. Unogonawo kupa mwedzi wega wega kuti ubvise ads</string>
+    <string name="donation_subs_any_amount_text">Kushambadzira kunobviswa zvachose nepo kunyoreswa kwechero mari pamwedzi kuri kushanda.</string>
     <string name="donation_subs_manage_btn_text">Unsubscribe</string>
+    <string name="donation_subs_no_free_trial_explanation_text">Chishandiso hachipi nguva yekuyedzwa yekunyoreswa, sezvo ese mabasa echikumbiro atove emahara, kunyoreswa kunobvisa chete kushambadzira.</string>
+    <string name="donation_subs_one_text">Kushambadza kunobviswa zvachose apo kunyoreswa kuri kushanda.</string>
     <string name="donation_subs_text">Ipa mwedzi wega wega</string>
     <string name="format_altitude">Urefu</string>
     <string name="format_degrees">Coordinates</string>
@@ -56,6 +65,7 @@
     <string name="from">kubva</string>
     <string name="hour">awa</string>
     <string name="hours">maawa</string>
+    <string name="month">mwedzi</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Iyo application haina kubviswa kubva kubhatiri optimization. Kana iyo kamera isiri kumhanya kumashure kana chimwe chinhu, wobva wawedzera iyi application kune kunze kweiyo nzira yekuchengetedza simba.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Kana iwe wakadzosera iyo application pa Android 11, ipapo mafaera ekare anofanira kubviswa nemaoko</string>
     <string name="msg_auto_recording_service_was_stopped">Wamisa sevhisi yekumashure kuti utange otomatiki kurekodha vhidhiyo. Vhura iyo application kuti uitange zvakare.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Rekodha odhiyo kubva kuBluetooth mudziyo</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Shandisa chete nemahedhifoni eBluetooth. Kana iwe ukabatanidza kune yemusoro unit (redhiyo yemotokari) kuburikidza neBluetooth, saka nekuda kwechimwe chikonzero izvi zvinogona kukonzeresa kufona kune yakajairwa nhamba pachigadzirwa ichi.</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Usashandise nemusoro unit (redhiyo yemotokari)!</string>
+    <string name="prefs_audio_codec_title">Audio codec</string>
     <string name="prefs_audio_priority_sum">Kana ikagoneswa, mamwe maapplication haazokwanisi kushandisa maikorofoni. Kana yakadzimwa, iyi application inogona kusakwanisa kurekodha odhiyo kana akawanda maapplication ari kushanda uchishandisa maikorofoni (Android haigaro bvumidza kushandiswa panguva imwe chete yemakrofoni)</string>
     <string name="prefs_audio_priority_title">Koshesa odhiyo kune iyi app</string>
     <string name="prefs_audio_rate_text">Sampling frequency</string>
     <string name="prefs_audio_recording_text">Audio kurekodha</string>
     <string name="prefs_audio_settings_sum_text">Hunhu, kudzima /pakurekodha ruzha</string>
     <string name="prefs_audio_settings_text">Zvirongwa zvenzwi</string>
+    <string name="prefs_audio_source_camcorder_text">Kurekodha kubva kuCAMCORDER kunogona kusashanda pane mimwe michina, panguva iyi edza kuchinja kuita MIC</string>
+    <string name="prefs_audio_source_text">Sravana Sameeralu Serial 4th Audio Source</string>
     <string name="prefs_audio_stereo_text">Stereo</string>
     <string name="prefs_auto_start_app_launch_sum_text">Tanga vhidhiyo kurekodha otomatiki kana app yatanga</string>
     <string name="prefs_auto_start_app_launch_text">Pakutanga application</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Mhanya kana wabatanidzwa mujeki yekuteerera (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Mira kana wabviswa kubva kuodhiyo jack (AUX)</string>
     <string name="prefs_battery_optimization_sum_text">Battery optimization inogona kudzivirira app kuti isashande nemazvo (semuenzaniso, kushandisa kamera kana kugadzirisa nzvimbo uchirekodha vhidhiyo kumashure). Dzvanya apa kuti uiregedze kune iyi application izvozvi</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">Battery optimization inogona kudzivirira chishandiso kubva kushanda nemazvo (semuenzaniso, kushandisa kamera nemakrofoni). Dzvanya apa kuti uiregedze kune iyi application izvozvi</string>
     <string name="prefs_battery_optimization_text">Battery optimization</string>
     <string name="prefs_beep_each_start_recording_sum_text">Chiratidzo pakutanga kwekurekodha kweinotevera vhidhiyo faira</string>
     <string name="prefs_beep_each_start_recording_text">Beep paunenge uchirekodha</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Nzvimbo</string>
     <string name="prefs_orientation_landscape_reversed">Album reverse</string>
     <string name="prefs_orientation_portrait">Mufananidzo</string>
+    <string name="prefs_orientation_sensor_automatic">Automatic</string>
     <string name="prefs_other_auto_deleting_sum_text">Dzima otomatiki mavhidhiyo ekare uchirekodha kana pasina nzvimbo yakakwana yemavhidhiyo matsva</string>
     <string name="prefs_other_auto_deleting_text">Loop kurekodha</string>
     <string name="prefs_other_date_time_text">zuva nenguva</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Nzvimbo yemufananidzo (forodha /nzira)</string>
     <string name="prefs_other_path_text">Vhidhiyo nzvimbo (forodha /nzira)</string>
     <string name="prefs_other_settings_sum_text">Vhidhiyo nzvimbo (chengetedza folda), nguva yevhidhiyo, loop kurekodha, G-sensor, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Nzvimbo yemavhidhiyo kurekodha (forodha yekuchengetedza), nguva yevhidhiyo, loop kurekodha, yakakura vhidhiyo saizi</string>
     <string name="prefs_other_settings_text">Zvimwe zvirongwa</string>
     <string name="prefs_other_show_address_text">Kero yenzvimbo yazvino</string>
     <string name="prefs_other_show_altitude_text">Kureba pamusoro pegungwa</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Paunotanga application, vhura /dzima kuchaja, bhutsu system</string>
     <string name="prefs_screen_autostart_text">Autostart kurekodha</string>
     <string name="prefs_screen_ui_summary_text">Screen nekukurumidza /kureba kudzvanya, kudzima skrini, kero uye nekumhanyisa kuratidza, popup hwindo, mabhatani uye nezvimwe</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Kudimbudzira kuti utange kurekodha, kukurumidza uye kureba kudzvanya pachiratidziri, pop-up hwindo, vibration paunenge uchirekodha, ziviso yekurira, vibration, mabhatani pachiratidziri, kudzima skrini nezvimwe.</string>
     <string name="prefs_screen_ui_title">Interface (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Inoshandura otomatiki kamera masikati /husiku modhi panguva dzakatarwa</string>
     <string name="prefs_screen_video_day_night_mode_text">Auto Zuva /Husiku Zvirongwa</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">Kuvharisa mavhidhiyo kubva pakunyorwa</string>
     <string name="prefs_show_overlay_btn_sum_text">Inoratidza hwindo rine mabhatani ekudzora pamusoro peese maapplication</string>
     <string name="prefs_show_overlay_btn_text">Ratidza hwindo rinoyangarara</string>
+    <string name="prefs_show_overlay_on_recording_text">Ratidza hwindo rinoyangarara kana kurekodha kwatanga</string>
     <string name="prefs_show_status_bar_text">Ratidza system mamiriro bar</string>
     <string name="prefs_show_take_photo_btn_text">Kugadzira mufananidzo</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Haisi kutsigirwa nekamera iripo. Vagadziri vanowanzo rambidza kushandiswa kwayo - inowanikwa chete mune yakajairwa Kamera application</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Fukidzira zvinyorwa zvidiki pazasi pevhidhiyo</string>
     <string name="prefs_subtitles_position_bottom_text">Subtitles pazasi</string>
     <string name="prefs_subtitles_settings_sum_text">Fukidzira zvinyorwa zvevhidhiyo: Zuva (nguva), kero yenzvimbo, marongero uye kumhanya</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Fukidzira zvinyorwa pamavhidhiyo: zuva (chitambi chenguva), chinyorwa chetsika</string>
     <string name="prefs_subtitles_settings_text">Subtitle settings</string>
     <string name="prefs_subtitles_size_text">Wedzera saizi yemavara</string>
     <string name="prefs_subtitles_speed_text">Speed</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Mhan\'ara tsikidzi, kuparara kana kupa chinopihwa</string>
     <string name="prefs_support_text">Tsigiro (mhinduro)</string>
     <string name="prefs_system_alert_window_sum_text">Bvumira Anwendung iyi kuti ibude pamusoro pemamwe ese. Izvi zvinodikanwa kuti utange /kumisa kurekodha vhidhiyo kana kuratidza hwindo rinoyangarara</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Bvumira Anwendung iyi kuti ibude pamusoro pemamwe maapuro ese. Izvi zvinodiwa kuratidza hwindo rinoyangarara</string>
     <string name="prefs_system_alert_window_text">Resolution pamusoro pemahwindo ese</string>
     <string name="prefs_theme_mode_dark">Dingindira rakasviba</string>
+    <string name="prefs_theme_mode_dynamic">Dynamic</string>
     <string name="prefs_theme_mode_light">Chiedza dingindira</string>
     <string name="prefs_theme_mode_system_auto">Sezviri muhurongwa (otomatiki)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Dzokera kuchidzitiro chekumba (zvakarekodhwa) kuti uise iyi seti uye tanga sevhisi yekutevera</string>
     <string name="prefs_toolbar_title_setting">Settings</string>
     <string name="prefs_translate_sum_text">Batsira kunatsa kana kugadzirisa shanduro yemutauro wako</string>
     <string name="prefs_translate_text">Shanduro Yekushandisa</string>
+    <string name="prefs_ui_app_icon_and_label_change">Chinja icon uye zita rekushandisa muhurongwa</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">Mushure mekuchinja, application inogona kuvhara, iyo yekare icon ichabviswa pachiratidziro chefoni (kana mune runyorwa rwese maapplication), uye itsva ichaonekwa.</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Seta iyo icon uye zita reanovhura</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Chinja ziviso icon uye zita</string>
+    <string name="prefs_ui_camera_preview_sum_text">Ratidza kutarisa kwekamera pane main app skrini</string>
+    <string name="prefs_ui_camera_preview_text">Kamera preview</string>
     <string name="prefs_ui_click_none_text">Hapana zvekuita</string>
     <string name="prefs_ui_click_start_stop_rec_text">Tanga /mira kurekodha</string>
     <string name="prefs_ui_click_text">Kurumidza kubaya pachiratidziri</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Bitrate (mhando)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kamera Kudzora Scene Mode (Husiku)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kamera Kudzora Scene Mode (Zuva)</string>
+    <string name="prefs_video_codec_sum_text">H.265 HEVC uye AV1 macodecs anopa mhando iri nani pane yakaderera bitrate pane H.264 AVC, saka unogona kuchengetedza nzvimbo nekudzikisa bitrate. Asi mavhidhiyo anogona kusatamba mune mamwe mavhidhiyo anotamba</string>
+    <string name="prefs_video_codec_text">Video codec</string>
     <string name="prefs_video_control_scene_mode_beach_text">Beach (kupenya kwemamiriro okunze)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Zvakawanda /Kutarisana Nekukosha</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (High Dynamic Range)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Kutarisa kwekamera (husiku)</string>
     <string name="prefs_video_focus_text">Kutarisa kwekamera (zuva)</string>
     <string name="prefs_video_fps_range_text">Mafuremu paSekondi (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Rekodha muHEVC (H.265) fomati kuchengetedza nzvimbo. Iwe unogona kusakwanisa kuridza mavhidhiyo akadaro pane zvimwe mavhidhiyo ekutamba ekutamba kana maapplication. Ichagadzirisa kugadzirisa uye bitrate mushure mekuchinja</string>
-    <string name="prefs_video_hevc_text">Yakanyanya kushanda zvakanaka vhidhiyo kukodha</string>
     <string name="prefs_video_orientation_text">Vhidhiyo uye kutaridzika kwefoni</string>
     <string name="prefs_video_resolution_text">Kugadziriswa kwevhidhiyo</string>
     <string name="prefs_video_settings_sum_text">Resolution, bit rate, kutarisisa, kutarisa, kamera, husiku modhi</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Saizi yakakura - inokurumidza kupera bhatiri</string>
     <string name="prefs_video_space_unlimited">Unlimited</string>
     <string name="prefs_video_stabilization_text">Vhidhiyo kugadzikana</string>
+    <string name="prefs_voice_recorder_app">Voice Recorder in Background</string>
     <string name="prefs_warning_location_precise_sum_text">Izvi zvinodikanwa kuti uwane yakanyanya kurongeka GPS-yakavakirwa kumhanya, pamwe nekero nemarongedzero. Dzvanya kuti utumire</string>
     <string name="prefs_warning_location_precise_text">Mvumo yenzvimbo chaiyo</string>
     <string name="prefs_warning_notifications_sum_text">Inodiwa kuti ugone kuratidza kumashure kurekodha sevhisi uye mastatus pane yekuzivisa panhi. Dzvanya kuti utumire</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">Net</string>
     <string name="rec_off_text">Off</string>
     <string name="rec_on_text">Incl.</string>
-    <string name="rec_service_msg">Kuvanzika: Ese mavhidhiyo aunorekodha anozochengetwa chete pane yako yemuno mudziyo. Chishandiso hachichengetedze mavhidhiyo ako (hachina chinongedzo kumaseva)\n\nIyo app icharamba ichimhanya kumashure (iyo yepamberi sevhisi inoonekwa mubhaa yekuzivisa) kana iwe ukatanga kurekodha kutsva uye wodzokera kuchiratidziro chekumba, chinja kune imwe app kana kukiya foni yako kuti ukwanise kuenderera kurekodha, kana kana unobatidza mabasa ekurekodha otomatiki (kana ukavhara sevhisi yekumashure, aya mabasa haashande).</string>
+    <string name="rec_service_msg">Kuvanzika: Ese mavhidhiyo aunorekodha anozochengetwa chete pane yako yemuno mudziyo. Chishandiso hachichengetedze mavhidhiyo ako (hachina chinongedzo kumaseva)\n\nIyo app icharamba ichimhanya kumashure (iyo yepamberi sevhisi inoonekwa mubhaa yekuzivisa) uchirekodha uchishanda, paunodzokera kuchiratidziro chekumba, chinja kune imwe app kana kukiya foni yako kuti uenderere mberi kurekodha, uye paunobatidza. maficha ekurekodha otomatiki (kana ukavhara iyo yekumashure sevhisi, aya mabasa haashande). Iyo app inoshandisa Firebase Analytics kune yekutanga isingazivikanwe analytics (ona chinongedzo pazasi)</string>
+    <string name="recording_file_name_prefix">Prefix yemazita emafaira evhidhiyo</string>
     <string name="recording_start_text">Tanga kurekodha</string>
     <string name="recording_started_failed_text">Kutadza kutanga kurekodha</string>
     <string name="recording_started_with_audio_text">Vhidhiyo itsva yekurekodhwa ine maodhiyo ekurekodha yatanga</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">Kurekodha…</string>
     <string name="recording_voice_started_text">Kurekodha kwatanga</string>
     <string name="recording_voice_stopped_text">Kurekodha kwakamira</string>
+    <string name="records_file_sorting_date">Date</string>
+    <string name="records_file_sorting_duration">Duration</string>
+    <string name="records_file_sorting_name">Zita</string>
+    <string name="records_file_sorting_size">Saizi yefaira</string>
+    <string name="records_file_upload_drive">Sevha ku \"Google Drive\"</string>
     <string name="reset">discharge</string>
     <string name="storage_external_single">MicroSD kadhi</string>
     <string name="storage_phone">Phone memory</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Delete mode</string>
     <string name="videos_file_item_share">Goveranai izvi</string>
     <string name="videos_file_item_watch">Watch</string>
+    <string name="videos_file_open_with">Vhura ne</string>
+    <string name="videos_file_select">Sarudza nokuda</string>
     <string name="videos_file_sort_asc">Ronga Kukwira</string>
     <string name="videos_file_sort_desc">Ronga kudzika</string>
     <string name="videos_file_was_locked_text">Vhidhiyo faira raendeswa kune rakachengetedzwa folda</string>

@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">Men kabul edýärin</string>
     <string name="any_text">Islendik</string>
+    <string name="app_alternative_name_audio">Ses</string>
+    <string name="app_alternative_name_battery">Batareýa sazlamalary</string>
+    <string name="app_alternative_name_media">Mediýa</string>
+    <string name="app_alternative_name_media_player">Media pleýer</string>
+    <string name="app_alternative_name_video">Wideo</string>
+    <string name="app_name_backgroundvideorecorder">Fon ýazgysy</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - DVR sürmek</string>
     <string name="camera">Kamera</string>
     <string name="camera_aperture">Diafragma</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">Kamera enjamyňyzda açmak üçin wagtlaýyn (elýeterli däl) (kamera ulgamynyň ýalňyşlygy)</string>
     <string name="camera_support_error">Kamerany ulananyňyzda säwlik ýüze çykdy.</string>
     <string name="close">.Akyn</string>
+    <string name="days">günler</string>
     <string name="default_text">Bellenen</string>
     <string name="dialog_camera_not_found_msg_text">Bu enjamda oturdylan kamera ýok we daşarky kameralary goldamaýar. Osingapylýar…</string>
     <string name="dialog_camera_not_found_text">Kamera tapylmady</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">Sizde mahabat ýok.</string>
     <string name="donation_level_text">Haýyr-sahawat derejäňiz:</string>
     <string name="donation_purchase_info_loading_text">Söwda maglumatlary entek ýüklenmedi. Onlaýn bolup, Google hasabyňyza girýärsiňizmi?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Islendik mukdarda bir gezeklik sadaka bilen mahabatlary hemişelik aýyryň. Şeýle hem mahabatlary aýyrmak üçin aýda islendik mukdarda pul berip bilersiňiz</string>
-    <string name="donation_subs_any_amount_text">Şeýle hem, islendik mukdarda abuna ýazylanyňyzda mahabat düýbünden aýrylýar.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Islendik mukdarda bir gezeklik sadaka bilen mahabatlary hemişelik aýyryň. Şeýle hem mahabatlary aýyrmak üçin her aý sadaka berip bilersiňiz</string>
+    <string name="donation_subs_any_amount_text">Aýda islendik mukdarda abuna ýazylanda mahabat doly aýrylýar.</string>
     <string name="donation_subs_manage_btn_text">Abunalygy ýatyryň</string>
+    <string name="donation_subs_no_free_trial_explanation_text">Programma abuna ýazylmak üçin synag möhletini bermeýär, sebäbi programmanyň ähli funksiýalary eýýäm mugt, abunalyk diňe mahabaty aýyrýar</string>
+    <string name="donation_subs_one_text">Abuna ýazylanda mahabat düýbünden aýrylýar.</string>
     <string name="donation_subs_text">Aýlyk sadaka beriň</string>
     <string name="format_altitude">Boý</string>
     <string name="format_degrees">Koordinatlar</string>
@@ -56,6 +65,7 @@
     <string name="from">dan</string>
     <string name="hour">sagat</string>
     <string name="hours">sagat</string>
+    <string name="month">aý</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Programma batareýany optimizirlemekden aýrylmaýar. Kamera fonda ýa-da başga bir zat işlemeýän bolsa, bu programmany güýç tygşytlamak tertibinden başga ýagdaýlara goşuň.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Programmany “Android 11” -e täzeden gurnasaňyz, köne faýllar el bilen ýok edilmeli</string>
     <string name="msg_auto_recording_service_was_stopped">Wideo ýazgyny awtomatiki başlamak üçin fon hyzmatyny bes etdiňiz. Programmany täzeden açmak üçin açyň.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Sesleri Bluetooth enjamyndan ýazga alyň</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Diňe Bluetooth nauşnikleri bilen ulanyň. Baş bölüme (awtoulag radiosy) Bluetooth arkaly birikseňiz, käbir sebäplere görä bu enjamdaky adaty belgä telefon jaňyny awtomatiki usulda döredip biler.</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Baş bölüm (awtoulag radiosy) bilen ulanmaň!</string>
+    <string name="prefs_audio_codec_title">Ses kodek</string>
     <string name="prefs_audio_priority_sum">Işledilen bolsa, beýleki programmalar mikrofony ulanyp bilmezler. Öçürilen bolsa, bu programma mikrofonyň kömegi bilen birnäçe programma işleýän wagtynda ses ýazga geçirip bilmez (Android hemişe mikrofony bir wagtda ulanmaga rugsat bermeýär)</string>
     <string name="prefs_audio_priority_title">Bu programma üçin sesleri ileri tutuň</string>
     <string name="prefs_audio_rate_text">Nusga almagyň ýygylygy</string>
     <string name="prefs_audio_recording_text">Ses ýazgysy</string>
     <string name="prefs_audio_settings_sum_text">Ses ýazgysynyň hili, öçürilmegi /ýapylmagy</string>
     <string name="prefs_audio_settings_text">Ses sazlamalary</string>
+    <string name="prefs_audio_source_camcorder_text">CAMCORDER-den ses ýazgysy käbir enjamlarda işlemän biler, bu ýagdaýda MIC-e geçmäge synanyşyň</string>
+    <string name="prefs_audio_source_text">Ses çeşmesi</string>
     <string name="prefs_audio_stereo_text">Stereo</string>
     <string name="prefs_auto_start_app_launch_sum_text">Programma başlanda wideo ýazgyny awtomatiki başlaň</string>
     <string name="prefs_auto_start_app_launch_text">Programmany başlanyňyzda</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Ses jakasyna dakylanda işlediň (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Ses jakasyndan (AUX) aýrylanda saklaň.</string>
     <string name="prefs_battery_optimization_sum_text">Batareýany optimizasiýa etmek programmanyň dogry işlemeginiň öňüni alyp biler (mysal üçin kamerany ulanmak ýa-da fonda wideo ýazga alýan ýeriňizi täzelemek). Indi bu programma üçin öçürmek üçin şu ýere basyň</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">Batareýany optimizasiýa etmek programmanyň dogry işlemeginiň öňüni alyp biler (mysal üçin kamera we mikrofon ulanmak). Indi bu programma üçin öçürmek üçin şu ýere basyň</string>
     <string name="prefs_battery_optimization_text">Batareýany optimizasiýa</string>
     <string name="prefs_beep_each_start_recording_sum_text">Indiki wideo faýlyň ýazgysynyň başynda signal</string>
     <string name="prefs_beep_each_start_recording_text">Ordingazga alanyňyzda ses beriň</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Peýza</string>
     <string name="prefs_orientation_landscape_reversed">Albom tersine</string>
     <string name="prefs_orientation_portrait">Portret</string>
+    <string name="prefs_orientation_sensor_automatic">Awtomat</string>
     <string name="prefs_other_auto_deleting_sum_text">Täze wideolar üçin ýeterlik ýer ýok bolsa ýazga alanyňyzda iň köne wideolary awtomatiki pozuň</string>
     <string name="prefs_other_auto_deleting_text">Aýlawly ýazgy</string>
     <string name="prefs_other_date_time_text">senesi we wagty</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Suratyň ýerleşýän ýeri (bukja /ýol)</string>
     <string name="prefs_other_path_text">Wideo ýeri (bukja /ýol)</string>
     <string name="prefs_other_settings_sum_text">Wideo ýerleşişi (bukjany ýatda saklaň), wideo dowamlylygy, aýlaw ýazgysy, G-sensor, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Wideo ýazgylaryň ýerleşýän ýeri (saklamak üçin bukja), wideo dowamlylygy, aýlaw ýazgysy, iň uly wideo ululygy</string>
     <string name="prefs_other_settings_text">Beýleki sazlamalar</string>
     <string name="prefs_other_show_address_text">Häzirki ýerleşýän ýeri</string>
     <string name="prefs_other_show_altitude_text">Deňiz derejesinden beýiklik</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Programmany başlanyňyzda zarýad bermegi açyň /öçüriň, ulgamy açyň</string>
     <string name="prefs_screen_autostart_text">Awtomatiki ýazgy</string>
     <string name="prefs_screen_ui_summary_text">Ekrany çalt /uzyn basmak, ekrany öçürmek, salgy we tizlik görkezmek, açylýan penjire, düwmeler we ş.m.</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Ordingazga başlamak üçin gysga ýol, ekranda çalt we uzyn basmak, açylan penjire, ýazga alanyňda titremek, ses habarnamasy, yrgyldy, ekrandaky düwmeler, ekrany öçürmek we ş.m.</string>
     <string name="prefs_screen_ui_title">Interfeýs (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Belli bir wagtda kameranyň gije-gündiz reesimlerini awtomatiki usulda açýar</string>
     <string name="prefs_screen_video_day_night_mode_text">Awtoulag güni /gije sazlamalary</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">Wideolaryň gaýtadan ýazylmagynyň öňüni almak</string>
     <string name="prefs_show_overlay_btn_sum_text">Applicationshli goýmalaryň üstünde dolandyryş düwmeleri bolan penjiräni görkezýär</string>
     <string name="prefs_show_overlay_btn_text">Floüzýän penjiräni görkeziň</string>
+    <string name="prefs_show_overlay_on_recording_text">Ordingazga başlanda ýüzýän penjire görkeziň</string>
     <string name="prefs_show_status_bar_text">Ulgam ýagdaýyny görkeziň</string>
     <string name="prefs_show_take_photo_btn_text">Surata almak</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Häzirki kamera tarapyndan goldanylmaýar. Öndürijiler köplenç onuň ulanylyşyny çäklendirýärler - diňe adaty Kamera programmasynda bolýar</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Wideonyň aşagyndaky subtitrleri örtüň</string>
     <string name="prefs_subtitles_position_bottom_text">Aşakdaky subtitrler</string>
     <string name="prefs_subtitles_settings_sum_text">Wideo ýazgylarynyň üstüni ýapyň: Sene (wagt), ýerleşiş salgysy, koordinatlar we tizlik</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Wideolardaky ýazgylar: senesi (wagt möhüri), adaty tekst</string>
     <string name="prefs_subtitles_settings_text">Subtitr sazlamalary</string>
     <string name="prefs_subtitles_size_text">Tekstiň ululygyny ulaltmak</string>
     <string name="prefs_subtitles_speed_text">Tizlik</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Bir näsazlyk barada habar beriň, ýykyň ýa-da teklip ediň</string>
     <string name="prefs_support_text">Goldaw (seslenme)</string>
     <string name="prefs_system_alert_window_sum_text">Bu programmanyň beýleki programmalaryň üstünde görünmegine rugsat beriň. Wideo ýazgyny awtomatiki başlamak /duruzmak ýa-da ýüzýän penjire görkezmek üçin zerurdyr</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Bu programmanyň beýleki ähli programmalaryň üstünde peýda bolmagyna rugsat beriň. Floüzýän penjiräni görkezmek üçin zerurdyr</string>
     <string name="prefs_system_alert_window_text">Windowshli penjireleriň üstünde çözgüt</string>
     <string name="prefs_theme_mode_dark">Garaňky tema</string>
+    <string name="prefs_theme_mode_dynamic">Dinamiki</string>
     <string name="prefs_theme_mode_light">Lighteňil tema</string>
     <string name="prefs_theme_mode_system_auto">Ulgamda bolşy ýaly (awtomatiki)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Bu sazlamany ulanmak we yzarlamak hyzmatyny başlamak üçin baş ekrana (ýazgylara) gaýdyp geliň</string>
     <string name="prefs_toolbar_title_setting">Sazlamalar</string>
     <string name="prefs_translate_sum_text">Diliňizdäki tekstiň terjimesini gowulaşdyrmaga ýa-da düzetmäge kömek ediň</string>
     <string name="prefs_translate_text">Programmanyň terjimesi</string>
+    <string name="prefs_ui_app_icon_and_label_change">Ulgamdaky programmanyň nyşanyny we adyny üýtgediň</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">Üýtgeşmeden soň programma ýapylyp biler, köne nyşan telefonyň esasy ekranynda (ýa-da ähli programmalaryň sanawynda) aýrylar we täzesi peýda bolar.</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Başlaýjynyň nyşanyny we adyny düzüň</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Duýduryş nyşanyny we adyny üýtgediň</string>
+    <string name="prefs_ui_camera_preview_sum_text">Esasy programma ekranynda kameranyň deslapky synyny görkeziň</string>
+    <string name="prefs_ui_camera_preview_text">Kameranyň deslapky syn</string>
     <string name="prefs_ui_click_none_text">Hiç zat etmeli däl</string>
     <string name="prefs_ui_click_start_stop_rec_text">Ordingazga almagy başla /bes et</string>
     <string name="prefs_ui_click_text">Ekrana çalt basyň</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Bitrate (hil)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kamera dolandyryş sahnasy tertibi (Gije)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kamera dolandyryş sahnasy tertibi (Gün)</string>
+    <string name="prefs_video_codec_sum_text">H.265 HEVC we AV1 kodekleri, pes bitratlarda H.264 AVC-den has gowy hilli üpjün edýär, şonuň üçin bitraty azaldyp boş ýer tygşytlap bilersiňiz. Emma wideo käbir pleýerlerde oýnamazlygy mümkin</string>
+    <string name="prefs_video_codec_text">Wideo kodek</string>
     <string name="prefs_video_control_scene_mode_beach_text">Pla Beach (ýagty howa)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Umumy /aceüzüň ileri tutulmagy</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (Dynokary dinamiki aralyk)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Kameranyň ünsi (gije)</string>
     <string name="prefs_video_focus_text">Kameranyň ünsi (gün)</string>
     <string name="prefs_video_fps_range_text">Sekuntda çarçuwalar (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Spaceeri tygşytlamak üçin HEVC (H.265) görnüşinde ýazga alyň. Beýleki wideo oýnamak enjamlarynda ýa-da programmalarynda beýle wideolary oýnap bilmezligiňiz mümkin. Üýtgeşmeden soň çözgüdi täzelär we bitrate eder</string>
-    <string name="prefs_video_hevc_text">Videookary täsirli wideo kodlamagy</string>
     <string name="prefs_video_orientation_text">Wideo we telefon ugry</string>
     <string name="prefs_video_resolution_text">Wideo çözgüdi</string>
     <string name="prefs_video_settings_sum_text">Rezolýusiýa, bit tizligi, ugrukdyrma, fokus, kamera, gijeki re .im</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Uly ululyk - batareýanyň has çalt akmagy</string>
     <string name="prefs_video_space_unlimited">Çäklendirilmedik</string>
     <string name="prefs_video_stabilization_text">Wideo durnuklaşdyrmak</string>
+    <string name="prefs_voice_recorder_app">Fonda ses ýazgysy</string>
     <string name="prefs_warning_location_precise_sum_text">Iň takyk GPS esasly tizligi, şeýle hem salgy we koordinatlary almak üçin zerurdyr. Ibermek üçin basyň</string>
     <string name="prefs_warning_location_precise_text">Takyk ýerleşýän ýeri üçin rugsat</string>
     <string name="prefs_warning_notifications_sum_text">Fon ýazgy hyzmatyny we habarnamalar panelinde statuslary görkezip bilmek zerur. Ibermek üçin basyň</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">Arassa</string>
     <string name="rec_off_text">Öçürilen</string>
     <string name="rec_on_text">Incl.</string>
-    <string name="rec_service_msg">Gizlinlik: recordazga alýan ähli wideolaryňyz diňe ýerli enjamyňyzda saklanar. Programma wideolaryňyzy ätiýaçlandyrmaýar (serwerlere hiç hili baglanyşygy ýok)\n\nTäze ýazga başlasaňyz we baş ekrana gaýdyp gelseňiz, başga bir programma geçseňiz ýa-da ýazgyny dowam etdirmek üçin telefonyňyzy gulplasaňyz ýa-da bolsa, programma fonda işlemegini dowam etdirer (habarnamada görkezilen hyzmat). awtomatiki ýazgy funksiýalaryny açýarsyňyz (fon hyzmatyny ýapsaňyz, bu funksiýalar işlemez).</string>
+    <string name="rec_service_msg">Gizlinlik: recordazga alýan ähli wideolaryňyz diňe ýerli enjamyňyzda saklanar. Programma wideolaryňyzy ätiýaçlandyrmaýar (serwerlere hiç hili baglanyşygy ýok)\n\nProgramma ýazgy işjeň bolanda, baş ekrana gaýdyp baranyňyzda, başga bir programma geçiň ýa-da ýazgyny dowam etdirmek üçin telefonyňyzy gulplap, açanyňyzda, fonda işlemegi dowam etdirer (habarnamada görkezilen ilkinji hyzmat). awtomatiki ýazgy üçin aýratynlyklar (fon hyzmatyny ýapsaňyz, bu funksiýalar işlemez). Programma esasy anonim analitika üçin Firebase Analytics-i ulanýar (aşakdaky baglanyşyga serediň)</string>
+    <string name="recording_file_name_prefix">Wideo faýl atlarynyň prefiksi</string>
     <string name="recording_start_text">Ordingazga geçirmäge başlaň</string>
     <string name="recording_started_failed_text">Ordingazga almakda säwlik</string>
     <string name="recording_started_with_audio_text">Ses ýazgysy bilen täze wideo ýazgysy başlandy</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">Ordingazga almak…</string>
     <string name="recording_voice_started_text">Ordingazga almak başlandy</string>
     <string name="recording_voice_stopped_text">Ordingazga almak bes edildi</string>
+    <string name="records_file_sorting_date">Sene</string>
+    <string name="records_file_sorting_duration">Dowamlylygy</string>
+    <string name="records_file_sorting_name">Ady</string>
+    <string name="records_file_sorting_size">Faýlyň ululygy</string>
+    <string name="records_file_upload_drive">\"Google Drive\" -a ýazdyryň</string>
     <string name="reset">çykarmak</string>
     <string name="storage_external_single">MicroSD kart</string>
     <string name="storage_phone">Telefon ýady</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Re modeimi pozuň</string>
     <string name="videos_file_item_share">Muny paýlaş</string>
     <string name="videos_file_item_watch">Serediň</string>
+    <string name="videos_file_open_with">Açyň</string>
+    <string name="videos_file_select">Üçin saýlaň</string>
     <string name="videos_file_sort_asc">Asma tertibi</string>
     <string name="videos_file_sort_desc">Aşakdakylary tertipläň</string>
     <string name="videos_file_was_locked_text">Wideo faýly goralýan bukja geçirildi</string>

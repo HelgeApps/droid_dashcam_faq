@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">Ndikuvomera</string>
     <string name="any_text">Aliyense</string>
+    <string name="app_alternative_name_audio">Zomvera</string>
+    <string name="app_alternative_name_battery">Zokonda Battery</string>
+    <string name="app_alternative_name_media">Media</string>
+    <string name="app_alternative_name_media_player">Media Player</string>
+    <string name="app_alternative_name_video">Kanema</string>
+    <string name="app_name_backgroundvideorecorder">Kujambula kanema wakumbuyo</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - Kuyendetsa DVR</string>
     <string name="camera">Kamera</string>
     <string name="camera_aperture">Diaphragm</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">Kamerayi kwakanthawi (inali) sinapezeke kuti itsegule pa chipangizo chanu (zolakwika pamakina a kamera)</string>
     <string name="camera_support_error">Panali vuto mukugwiritsa ntchito kamera.</string>
     <string name="close">Tsekani</string>
+    <string name="days">masiku</string>
     <string name="default_text">Zofikira</string>
     <string name="dialog_camera_not_found_msg_text">Chipangizochi chilibe kamera yomangidwa mkati ndipo sichigwirizana ndi makamera akunja. Kutseka…</string>
     <string name="dialog_camera_not_found_text">Kamera sinapezeke</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">Mulibe zotsatsa.</string>
     <string name="donation_level_text">Mulingo wanu wa zopereka:</string>
     <string name="donation_purchase_info_loading_text">Zambiri zamalonda sizinakwezedwebe. Kodi mwalowa pa intaneti ndikulowa muakaunti yanu ya Google?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Chotsani zotsatsa mpaka kalekale ndi chopereka chamtundu uliwonse. Mutha kuperekanso ndalama zilizonse pamwezi kuti muchotse zotsatsa</string>
-    <string name="donation_subs_any_amount_text">Komanso, kutsatsa kumachotsedwa kwathunthu mukalembetsa ndalama zilizonse.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Chotsani zotsatsa mpaka kalekale ndi chopereka kamodzi chandalama zilizonse. Mukhozanso kupereka mwezi uliwonse kuti muchotse zotsatsa</string>
+    <string name="donation_subs_any_amount_text">Kutsatsa kumachotsedwa kwathunthu pomwe kulembetsa kwa ndalama zilizonse pamwezi kumagwira ntchito.</string>
     <string name="donation_subs_manage_btn_text">Chotsani kulembetsa</string>
+    <string name="donation_subs_no_free_trial_explanation_text">Pulogalamuyi sipereka nthawi yoyeserera yolembetsa, chifukwa ntchito zonse za pulogalamuyi ndi zaulere kale, kulembetsa kumangochotsa kutsatsa.</string>
+    <string name="donation_subs_one_text">Kutsatsa kumachotsedwa kwathunthu pomwe kulembetsa kumagwira ntchito.</string>
     <string name="donation_subs_text">Perekani mwezi uliwonse</string>
     <string name="format_altitude">Kutalika</string>
     <string name="format_degrees">Coordinates</string>
@@ -56,6 +65,7 @@
     <string name="from">kuchokera</string>
     <string name="hour">ola</string>
     <string name="hours">maola</string>
+    <string name="month">mwezi</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Pulogalamuyi siyikuphatikizidwa pakukhathamiritsa kwa batri. Ngati kamera sikuyenda chakumbuyo kapena china chake, yonjezerani pulogalamu iyi kupatula njira yopulumutsira mphamvu.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Ngati mudayikanso pulogalamuyi pa Android 11, ndiye kuti mafayilo akale ayenera kuchotsedwa pamanja</string>
     <string name="msg_auto_recording_service_was_stopped">Mwayimitsa ntchito yakumbuyo kuti muyambe kujambula kanema. Tsegulani pulogalamu kuti muyambitsenso.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Jambulani mawu kuchokera pa chipangizo cha Bluetooth</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Gwiritsani ntchito ndi mahedifoni a Bluetooth okha. Mukalumikiza kumutu (wailesi yamagalimoto) kudzera pa Bluetooth, pazifukwa zina izi zitha kuyambitsa kuyimba foni ku nambala yokhazikika pa chipangizochi.</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Osagwiritsa ntchito ndi mutu (wailesi yamagalimoto)!</string>
+    <string name="prefs_audio_codec_title">Audio codec</string>
     <string name="prefs_audio_priority_sum">Mukayatsidwa, mapulogalamu ena sangathe kugwiritsa ntchito maikolofoni. Ngati yayimitsidwa, pulogalamuyi siyitha kujambula mawu pomwe mapulogalamu angapo akugwiritsa ntchito maikolofoni (Android siyilola kugwiritsa ntchito maikolofoni nthawi imodzi)</string>
     <string name="prefs_audio_priority_title">Ikani patsogolo zomvetsera ku pulogalamuyi</string>
     <string name="prefs_audio_rate_text">Zitsanzo pafupipafupi</string>
     <string name="prefs_audio_recording_text">Kujambula mawu</string>
     <string name="prefs_audio_settings_sum_text">Ubwino, kuzimitsa /pa kujambula mawu</string>
     <string name="prefs_audio_settings_text">Zokonda zomveka</string>
+    <string name="prefs_audio_source_camcorder_text">Kujambulitsa mawu kuchokera ku CAMCORDER sikungagwire ntchito pazida zina, pamenepa yesani kusintha kukhala MIC</string>
+    <string name="prefs_audio_source_text">Audio Source</string>
     <string name="prefs_audio_stereo_text">Sitiriyo</string>
     <string name="prefs_auto_start_app_launch_sum_text">Yambani kujambula kanema basi pulogalamu ikayamba</string>
     <string name="prefs_auto_start_app_launch_text">Mukayamba kugwiritsa ntchito</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Thamangani mukalumikizidwa mu jack audio (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Imani mukalumikizidwa ku jack audio (AUX)</string>
     <string name="prefs_battery_optimization_sum_text">Kukhathamiritsa kwa batri kumatha kulepheretsa pulogalamuyi kugwira ntchito moyenera (mwachitsanzo, kugwiritsa ntchito kamera kapena kukonza malo pomwe mukujambula kanema chakumbuyo). Dinani apa kuti muyimitse pa pulogalamuyi tsopano</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">Kukhathamiritsa kwa batri kungalepheretse pulogalamuyo kugwira ntchito moyenera (mwachitsanzo, kugwiritsa ntchito kamera ndi maikolofoni). Dinani apa kuti muyimitse pa pulogalamuyi tsopano</string>
     <string name="prefs_battery_optimization_text">Kukhathamiritsa kwa batri</string>
     <string name="prefs_beep_each_start_recording_sum_text">Chizindikiro kumayambiriro kwa kujambula kwa fayilo yotsatira ya kanema</string>
     <string name="prefs_beep_each_start_recording_text">Beep pojambula</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Malo</string>
     <string name="prefs_orientation_landscape_reversed">Album reverse</string>
     <string name="prefs_orientation_portrait">Chithunzi</string>
+    <string name="prefs_orientation_sensor_automatic">Zadzidzidzi</string>
     <string name="prefs_other_auto_deleting_sum_text">Chotsani zokha mavidiyo akale pamene mukujambula ngati palibe malo okwanira mavidiyo atsopano</string>
     <string name="prefs_other_auto_deleting_text">Lupu kujambula</string>
     <string name="prefs_other_date_time_text">tsiku ndi nthawi</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Malo azithunzi (foda /njira)</string>
     <string name="prefs_other_path_text">Malo amakanema (foda /njira)</string>
     <string name="prefs_other_settings_sum_text">Malo amakanema (sungani chikwatu), nthawi yamavidiyo, kujambula kwa loop, G-sensor, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Malo ojambulira mavidiyo (foda yosungira), nthawi ya kanema, kujambula kwa loop, kukula kwamavidiyo</string>
     <string name="prefs_other_settings_text">Zokonda zina</string>
     <string name="prefs_other_show_address_text">Adilesi yapano</string>
     <string name="prefs_other_show_altitude_text">Kutalika pamwamba pa nyanja</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Mukayamba kugwiritsa ntchito, yatsani /kuzimitsa, yambitsani dongosolo</string>
     <string name="prefs_screen_autostart_text">Yambani kujambula</string>
     <string name="prefs_screen_ui_summary_text">Tsitsani mwachangu /kukanikiza kwakutali, kuzimitsa, adilesi ndikuwonetsa liwiro, zenera lotulukira, mabatani ndi zina zambiri</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Njira yachidule kuti muyambe kujambula, dinani mwachangu komanso kwanthawi yayitali pazenera, zenera la pop-up, kugwedezeka pojambula, zidziwitso za mawu, kugwedezeka, mabatani omwe ali pazenera, kuzimitsa skrini ndi zina zambiri.</string>
     <string name="prefs_screen_ui_title">Chiyankhulo (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Imasintha zokha mitundu ya kamera ya masana /usiku nthawi zina</string>
     <string name="prefs_screen_video_day_night_mode_text">Zokonda Masana /Usiku Wagalimoto</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">Kuletsa makanema kuti asalembedwe</string>
     <string name="prefs_show_overlay_btn_sum_text">Imawonetsa zenera lomwe lili ndi mabatani owongolera pamwamba pa mapulogalamu onse</string>
     <string name="prefs_show_overlay_btn_text">Onetsani zenera loyandama</string>
+    <string name="prefs_show_overlay_on_recording_text">Onetsani zenera loyandama mukayamba kujambula</string>
     <string name="prefs_show_status_bar_text">Onetsani kapamwamba kachitidwe</string>
     <string name="prefs_show_take_photo_btn_text">Kupanga chithunzi</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Osathandizidwa ndi kamera yamakono. Opanga nthawi zambiri amaletsa kugwiritsa ntchito kwake - kumapezeka kokha mu pulogalamu yokhazikika ya Kamera</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Lembani mawu ang\'onoang\'ono pansi pa kanema</string>
     <string name="prefs_subtitles_position_bottom_text">Ma subtitles pansi</string>
     <string name="prefs_subtitles_settings_sum_text">Onetsani mawu omasulira amakanema: Tsiku (nthawi), adilesi yamalo, makonzedwe ndi liwiro</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Lembani mawu omasulira pamavidiyo: tsiku (chidindo cha nthawi), zolemba zamakonda</string>
     <string name="prefs_subtitles_settings_text">Zokonda pamutu</string>
     <string name="prefs_subtitles_size_text">Wonjezerani kukula kwa mawu</string>
     <string name="prefs_subtitles_speed_text">Liwiro</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Nenani za cholakwika, kugwa kapena perekani zotsatsa</string>
     <string name="prefs_support_text">Thandizo (ndemanga)</string>
     <string name="prefs_system_alert_window_sum_text">Lolani kuti pulogalamuyi iwoneke pamwamba pa mapulogalamu ena onse. Izi ndizofunikira kuti muyambe /kuyimitsa kujambula kanema kapena kuwonetsa zenera loyandama</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Lolani kuti pulogalamuyi iwoneke pamwamba pa mapulogalamu ena onse. Izi ndizofunikira kuwonetsa zenera loyandama</string>
     <string name="prefs_system_alert_window_text">Chisankho pamwamba pa mawindo onse</string>
     <string name="prefs_theme_mode_dark">Mutu wakuda</string>
+    <string name="prefs_theme_mode_dynamic">Zamphamvu</string>
     <string name="prefs_theme_mode_light">Mutu wopepuka</string>
     <string name="prefs_theme_mode_system_auto">Monga mu dongosolo (zodziwikiratu)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Bwererani ku sikirini yakunyumba (zojambula) kuti mugwiritse ntchito zochunirazi ndikuyamba ntchito yolondolera</string>
     <string name="prefs_toolbar_title_setting">Zokonda</string>
     <string name="prefs_translate_sum_text">Thandizani kukonza kapena kukonza zomasulira zachiyankhulo chanu</string>
     <string name="prefs_translate_text">Kumasulira kwa Ntchito</string>
+    <string name="prefs_ui_app_icon_and_label_change">Sinthani chizindikiro ndi dzina la pulogalamuyo mudongosolo</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">Pambuyo pakusintha, pulogalamuyo ikhoza kutseka, chithunzi chakale chidzachotsedwa pazenera lalikulu la foni (kapena pamndandanda wa mapulogalamu onse), ndipo chatsopano chidzawonekera.</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Khazikitsani chizindikiro ndi dzina la oyambitsa</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Sinthani chizindikiro chazidziwitso ndi dzina</string>
+    <string name="prefs_ui_camera_preview_sum_text">Onetsani chithunzithunzi cha kamera pazenera lalikulu la pulogalamu</string>
+    <string name="prefs_ui_camera_preview_text">Chiwonetsero cha kamera</string>
     <string name="prefs_ui_click_none_text">Palibe chochita</string>
     <string name="prefs_ui_click_start_stop_rec_text">Yambani /siyani kujambula</string>
     <string name="prefs_ui_click_text">Dinani mwachangu pazenera</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Bitrate (ubwino)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Mawonekedwe a Kamera (Usiku)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Mawonekedwe a Kamera (Tsiku)</string>
+    <string name="prefs_video_codec_sum_text">Ma codec a H.265 HEVC ndi AV1 amapereka zabwino kwambiri pama bitrate otsika kuposa H.264 AVC, kotero mutha kusunga malo pochepetsa bitrate. Koma mavidiyo sangasewedwe m\'masewero ena a kanema</string>
+    <string name="prefs_video_codec_text">Video codec</string>
     <string name="prefs_video_control_scene_mode_beach_text">Beach (nyengo yowala)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">General /Kuyang\'ana Kwambiri</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (High Dynamic Range)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Camera focus (usiku)</string>
     <string name="prefs_video_focus_text">Kuyika kwa kamera (tsiku)</string>
     <string name="prefs_video_fps_range_text">Mafelemu Pa Sekondi iliyonse (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Lembani mu mtundu wa HEVC (H.265) kuti musunge malo. Simungathe kusewera makanema otere pazida zina zosewerera makanema kapena mapulogalamu. Idzakhazikitsanso kusintha ndi bitrate pambuyo pa kusintha</string>
-    <string name="prefs_video_hevc_text">Kwambiri kothandiza mavidiyo</string>
     <string name="prefs_video_orientation_text">Mavidiyo ndi matelefoni</string>
     <string name="prefs_video_resolution_text">Kusintha kwamavidiyo</string>
     <string name="prefs_video_settings_sum_text">Resolution, bit rate, orientation, focus, camera, night mode</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Kukula kwakukulu - kukhetsa kwa batri mwachangu</string>
     <string name="prefs_video_space_unlimited">Zopanda malire</string>
     <string name="prefs_video_stabilization_text">Kukhazikika kwamavidiyo</string>
+    <string name="prefs_voice_recorder_app">Voice Recorder mu Background</string>
     <string name="prefs_warning_location_precise_sum_text">Izi ndizofunikira kuti mupeze liwiro lolondola kwambiri la GPS, komanso ma adilesi ndi ma coordinates. Dinani kuti mupereke</string>
     <string name="prefs_warning_location_precise_text">Chilolezo cha malo enieni</string>
     <string name="prefs_warning_notifications_sum_text">Ndikofunikira kuti muzitha kuwonetsa ntchito yojambulira yakumbuyo ndi ma status pagawo lazidziwitso. Dinani kuti mupereke</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">Net</string>
     <string name="rec_off_text">Yazimitsa</string>
     <string name="rec_on_text">Kuphatikiza.</string>
-    <string name="rec_service_msg">Zazinsinsi: Makanema onse omwe mumajambulitsa adzasungidwa pazida zanu zapafupi. Pulogalamuyi siyisunga mavidiyo anu (ilibe zolumikizana ndi maseva)\n\nPulogalamuyi ipitilira kugwira ntchito chakumbuyo (ntchito yakutsogolo yomwe imapezeka pazidziwitso) ngati mutayamba kujambula kwatsopano ndikubwerera kuseri kwanyumba, sinthani pulogalamu ina kapena kutseka foni yanu kuti mupitirize kujambula, kapena ngati mumayatsa ntchito kuti mujambule (ngati mutseka ntchito yakumbuyo, izi sizigwira ntchito).</string>
+    <string name="rec_service_msg">Zazinsinsi: Makanema onse omwe mungajambule azisungidwa pazida zanu zokha. Pulogalamuyi siyisunga mavidiyo anu (ilibe zolumikizana ndi maseva)\n\nPulogalamuyi ipitiliza kugwira ntchito chakumbuyo (ntchito yakutsogolo yomwe imapezeka pazidziwitso) pomwe kujambula kumagwira ntchito, mukabwerera ku zenera lakunyumba, sinthani pulogalamu ina kapena kutseka foni yanu kuti mupitirize kujambula, komanso mukayatsa. zojambulira zokha (ngati mutseka ntchito yakumbuyo, izi sizigwira ntchito). Pulogalamuyi imagwiritsa ntchito Firebase Analytics pazambiri zosadziwika (onani ulalo pansipa)</string>
+    <string name="recording_file_name_prefix">Chiyambi cha mayina a fayilo ya kanema</string>
     <string name="recording_start_text">Yambani kujambula</string>
     <string name="recording_started_failed_text">Vuto poyambira kujambula</string>
     <string name="recording_started_with_audio_text">Kanema watsopano wojambulira mawu wayamba</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">Kujambula…</string>
     <string name="recording_voice_started_text">Kujambula kwayamba</string>
     <string name="recording_voice_stopped_text">Kujambulitsa kwayimitsidwa</string>
+    <string name="records_file_sorting_date">Tsiku</string>
+    <string name="records_file_sorting_duration">Kutalika</string>
+    <string name="records_file_sorting_name">Dzina</string>
+    <string name="records_file_sorting_size">Kukula kwa fayilo</string>
+    <string name="records_file_upload_drive">Sungani ku \"Google Drive\"</string>
     <string name="reset">kutulutsa</string>
     <string name="storage_external_single">MicroSD khadi</string>
     <string name="storage_phone">Foni kukumbukira</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Chotsani mode</string>
     <string name="videos_file_item_share">Gawani izi</string>
     <string name="videos_file_item_watch">Penyani</string>
+    <string name="videos_file_open_with">Tsegulani ndi</string>
+    <string name="videos_file_select">Sankhani kwa</string>
     <string name="videos_file_sort_asc">Sanjani Pokwera</string>
     <string name="videos_file_sort_desc">Sinthani potsika</string>
     <string name="videos_file_was_locked_text">Fayilo ya kanema yasunthidwa ku chikwatu chotetezedwa</string>

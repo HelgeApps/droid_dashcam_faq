@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">համաձայն եմ</string>
     <string name="any_text">Ցանկացած</string>
+    <string name="app_alternative_name_audio">Աուդիո</string>
+    <string name="app_alternative_name_battery">Մարտկոցի կարգավորումներ</string>
+    <string name="app_alternative_name_media">Մեդիա</string>
+    <string name="app_alternative_name_media_player">Մեդիա նվագարկիչ</string>
+    <string name="app_alternative_name_video">Տեսանյութ</string>
+    <string name="app_name_backgroundvideorecorder">Ֆոնային տեսանկարահանում</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - վարելու DVR</string>
     <string name="camera">Տեսախցիկ</string>
     <string name="camera_aperture">Դիֆրագմ</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">Տեսախցիկը ժամանակավորապես (հասանելի էր) ձեր սարքում բացելու համար (խցիկի համակարգի սխալ)</string>
     <string name="camera_support_error">Տեսախցիկը օգտագործելիս սխալ է տեղի ունեցել:</string>
     <string name="close">փակել</string>
+    <string name="days">օրեր</string>
     <string name="default_text">Կանխադրված</string>
     <string name="dialog_camera_not_found_msg_text">Այս սարքը չունի ներկառուցված տեսախցիկ և չի աջակցում արտաքին տեսախցիկներին: Փակվում է…</string>
     <string name="dialog_camera_not_found_text">Տեսախցիկը չի գտնվել</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">Դուք գովազդ չունեք:</string>
     <string name="donation_level_text">Ձեր նվիրատվության մակարդակը.</string>
     <string name="donation_purchase_info_loading_text">Գնումների մասին տեղեկությունները դեռ չեն վերբեռնվել։ Դուք առցանց եք և մուտք եք գործել ձեր Google հաշիվ:</string>
-    <string name="donation_remove_ads_by_any_amount_text">Հեռացրեք գովազդները ընդմիշտ ցանկացած գումարի միանվագ նվիրատվության միջոցով: Կարող եք նաև ամսական ցանկացած գումար նվիրաբերել գովազդը հեռացնելու համար</string>
-    <string name="donation_subs_any_amount_text">Բացի այդ, գովազդն ամբողջությամբ հանվում է, երբ բաժանորդագրվում եք ցանկացած գումարով:</string>
+    <string name="donation_remove_ads_by_any_amount_text">Հեռացրեք գովազդները ընդմիշտ ցանկացած գումարի միանվագ նվիրատվության միջոցով: Կարող եք նաև ամսական նվիրատվություն կատարել՝ գովազդը հեռացնելու համար</string>
+    <string name="donation_subs_any_amount_text">Գովազդն ամբողջությամբ հանվում է, քանի դեռ ամսական ցանկացած գումարի բաժանորդագրությունն ակտիվ է:</string>
     <string name="donation_subs_manage_btn_text">Չեղարկել բաժանորդագրությունը</string>
+    <string name="donation_subs_no_free_trial_explanation_text">Հավելվածը բաժանորդագրությունների համար փորձաշրջան չի տրամադրում, քանի որ հավելվածի բոլոր գործառույթներն արդեն անվճար են, բաժանորդագրությունը միայն հեռացնում է գովազդը</string>
+    <string name="donation_subs_one_text">Գովազդն ամբողջությամբ հեռացվում է, քանի դեռ բաժանորդագրությունն ակտիվ է:</string>
     <string name="donation_subs_text">Նվիրաբերեք ամսական</string>
     <string name="format_altitude">Բարձրություն</string>
     <string name="format_degrees">Կոորդինատներ</string>
@@ -56,6 +65,7 @@
     <string name="from">-ից</string>
     <string name="hour">ժամ</string>
     <string name="hours">ժամեր</string>
+    <string name="month">ամիս</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Հավելվածը չի բացառվում մարտկոցի օպտիմալացումից։ Եթե ​​տեսախցիկը չի աշխատում հետին պլանում կամ որևէ այլ բան, ապա ավելացրեք այս հավելվածը էներգախնայողության ռեժիմի բացառություններին:</string>
     <string name="msg_android_r_deleting_manual_tip_text">Եթե ​​դուք նորից տեղադրել եք հավելվածը Android 11-ում, ապա հին ֆայլերը պետք է ձեռքով ջնջվեն</string>
     <string name="msg_auto_recording_service_was_stopped">Դուք դադարեցրել եք ֆոնային ծառայությունը՝ տեսագրումը ավտոմատ սկսելու համար: Բացեք հավելվածը՝ այն նորից գործարկելու համար:</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Ձայնագրեք ձայնագրությունը Bluetooth սարքից</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Օգտագործեք միայն Bluetooth ականջակալներով: Եթե ​​դուք միանում եք գլխավոր միավորին (մեքենայի ռադիոյին) Bluetooth-ի միջոցով, ապա ինչ-ինչ պատճառներով դա կարող է ավտոմատ կերպով գործարկել հեռախոսազանգ այս սարքի ստանդարտ համարին:</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Մի օգտագործեք գլխամասային միավորի հետ (մեքենայի ռադիո):</string>
+    <string name="prefs_audio_codec_title">Աուդիո կոդեկ</string>
     <string name="prefs_audio_priority_sum">Եթե ​​միացված է, մյուս հավելվածները չեն կարողանա օգտագործել խոսափողը: Եթե ​​անջատված է, այս հավելվածը կարող է չկարողանալ ձայնագրել, երբ մի քանի հավելվածներ աշխատում են խոսափողի միջոցով (Android-ը միշտ չէ, որ թույլ է տալիս խոսափողի միաժամանակյա օգտագործումը)</string>
     <string name="prefs_audio_priority_title">Առաջնահերթություն տվեք աուդիո այս հավելվածին</string>
     <string name="prefs_audio_rate_text">Նմուշառման հաճախականությունը</string>
     <string name="prefs_audio_recording_text">Աուդիո ձայնագրություն</string>
     <string name="prefs_audio_settings_sum_text">Որակյալ, անջատված /միացված ձայնագրություն</string>
     <string name="prefs_audio_settings_text">Ձայնի կարգավորումներ</string>
+    <string name="prefs_audio_source_camcorder_text">CAMCORDER-ից ձայնագրումը կարող է չաշխատել որոշ սարքերում, այս դեպքում փորձեք փոխել MIC-ի</string>
+    <string name="prefs_audio_source_text">Աուդիո Աղբյուր</string>
     <string name="prefs_audio_stereo_text">Ստերեո</string>
     <string name="prefs_auto_start_app_launch_sum_text">Հավելվածի մեկնարկից հետո ավտոմատ կերպով սկսեք տեսագրումը</string>
     <string name="prefs_auto_start_app_launch_text">Հավելվածը սկսելիս</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Աշխատում է, երբ միացված է աուդիո վարդակին (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Դադարեցրեք, երբ անջատված եք աուդիո վարդակից (AUX)</string>
     <string name="prefs_battery_optimization_sum_text">Մարտկոցի օպտիմիզացումը կարող է խանգարել հավելվածի ճիշտ աշխատանքին (օրինակ՝ օգտագործելով տեսախցիկը կամ թարմացնել տեղադրությունը ֆոնային ռեժիմում տեսանյութ ձայնագրելիս): Սեղմեք այստեղ՝ այն այս հավելվածի համար այժմ անջատելու համար</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">Մարտկոցի օպտիմիզացումը կարող է խանգարել հավելվածի ճիշտ աշխատանքին (օրինակ՝ օգտագործելով տեսախցիկը և խոսափողը): Սեղմեք այստեղ՝ այն այս հավելվածի համար այժմ անջատելու համար</string>
     <string name="prefs_battery_optimization_text">Մարտկոցի օպտիմիզացում</string>
     <string name="prefs_beep_each_start_recording_sum_text">Ազդանշան՝ հաջորդ վիդեո ֆայլի ձայնագրման սկզբում</string>
     <string name="prefs_beep_each_start_recording_text">Ձայնագրելիս ձայնային ազդանշան</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Լանդշաֆտ</string>
     <string name="prefs_orientation_landscape_reversed">Ալբոմի հակառակ կողմը</string>
     <string name="prefs_orientation_portrait">Դիմանկար</string>
+    <string name="prefs_orientation_sensor_automatic">Ավտոմատ</string>
     <string name="prefs_other_auto_deleting_sum_text">Ավտոմատ ջնջեք ամենահին տեսանյութերը ձայնագրման ընթացքում, եթե նոր տեսանյութերի համար բավարար տարածք չկա</string>
     <string name="prefs_other_auto_deleting_text">Օղակային ձայնագրություն</string>
     <string name="prefs_other_date_time_text">ամսաթիվը և ժամը</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Լուսանկարի գտնվելու վայրը (թղթապանակ /ուղի)</string>
     <string name="prefs_other_path_text">Տեսանյութի գտնվելու վայրը (թղթապանակ /ուղի)</string>
     <string name="prefs_other_settings_sum_text">Տեսանյութի գտնվելու վայրը (պահել թղթապանակը), տեսանյութի տևողությունը, հանգույցի ձայնագրում, G-սենսոր, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Տեսագրությունների գտնվելու վայրը (պահպանման համար նախատեսված թղթապանակ), տեսահոլովակի տեւողությունը, ցիկլային ձայնագրումը, տեսանյութի առավելագույն չափը</string>
     <string name="prefs_other_settings_text">Այլ կարգավորումներ</string>
     <string name="prefs_other_show_address_text">Ընթացիկ գտնվելու վայրը</string>
     <string name="prefs_other_show_altitude_text">Բարձրությունը ծովի մակարդակից</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Երբ սկսում եք հավելվածը, միացրեք /անջատեք լիցքավորումը, բեռնեք համակարգը</string>
     <string name="prefs_screen_autostart_text">Ձայնագրման ավտոմատ մեկնարկ</string>
     <string name="prefs_screen_ui_summary_text">Էկրանի արագ /երկար սեղմում, էկրանի անջատում, հասցեի և արագության ցուցադրում, թռուցիկ պատուհան, կոճակներ և այլն</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Ձայնագրումը սկսելու դյուրանցում, արագ և երկար սեղմում էկրանին, ելնող պատուհան, թրթռում ձայնագրման ժամանակ, ձայնային ծանուցում, թրթռում, էկրանի կոճակներ, էկրանի անջատում և այլն։</string>
     <string name="prefs_screen_ui_title">Ինտերֆեյս (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Ավտոմատ կերպով փոխում է տեսախցիկի ցերեկային/գիշերային ռեժիմները որոշակի ժամերին</string>
     <string name="prefs_screen_video_day_night_mode_text">Ավտոմատ օր /գիշերային կարգավորումներ</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">Տեսանյութերի վերագրանցման արգելափակում</string>
     <string name="prefs_show_overlay_btn_sum_text">Բոլոր հավելվածների վերևում ցուցադրում է կառավարման կոճակներով պատուհան</string>
     <string name="prefs_show_overlay_btn_text">Ցույց տալ լողացող պատուհանը</string>
+    <string name="prefs_show_overlay_on_recording_text">Ցույց տալ լողացող պատուհանը, երբ ձայնագրությունը սկսվի</string>
     <string name="prefs_show_status_bar_text">Ցույց տալ համակարգի կարգավիճակի տողը</string>
     <string name="prefs_show_take_photo_btn_text">Լուսանկար պատրաստելու համար</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Չի աջակցվում ընթացիկ տեսախցիկի կողմից: Արտադրողները հաճախ սահմանափակում են դրա օգտագործումը. այն հասանելի է միայն ստանդարտ Camera հավելվածում</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Տեսանյութի ներքևի մասում ծածկել ենթագրերը</string>
     <string name="prefs_subtitles_position_bottom_text">Ենթագրերը ներքևում</string>
     <string name="prefs_subtitles_settings_sum_text">Տեսանյութերի ենթագրեր՝ Ամսաթիվ (ժամ), գտնվելու վայրի հասցե, կոորդինատներ և արագություն</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Տեսանյութերի վրա վերնագրեր՝ ամսաթիվ (ժամանակի կնիք), հատուկ տեքստ</string>
     <string name="prefs_subtitles_settings_text">Ենթագրերի կարգավորումներ</string>
     <string name="prefs_subtitles_size_text">Մեծացնել տեքստի չափը</string>
     <string name="prefs_subtitles_speed_text">Արագություն</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Զեկուցեք սխալի մասին, վթարի մասին կամ առաջարկ արեք</string>
     <string name="prefs_support_text">Աջակցություն (հետադարձ կապ)</string>
     <string name="prefs_system_alert_window_sum_text">Թույլ տվեք այս հավելվածին հայտնվել բոլոր մյուս հավելվածների վերևում: Սա անհրաժեշտ է ավտոմատ կերպով սկսել/դադարեցնել տեսագրումը կամ լողացող պատուհան ցուցադրելու համար</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Թույլ տվեք այս հավելվածին հայտնվել բոլոր մյուս հավելվածների վերևում: Սա անհրաժեշտ է լողացող պատուհան ցուցադրելու համար</string>
     <string name="prefs_system_alert_window_text">Բանաձևը բոլոր պատուհանների վերևում</string>
     <string name="prefs_theme_mode_dark">Մութ թեմա</string>
+    <string name="prefs_theme_mode_dynamic">Դինամիկ</string>
     <string name="prefs_theme_mode_light">Թեթև թեմա</string>
     <string name="prefs_theme_mode_system_auto">Ինչպես համակարգում (ավտոմատ)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Վերադարձեք հիմնական էկրան (ձայնագրություններ)՝ այս կարգավորումը կիրառելու և հետևելու ծառայությունը սկսելու համար</string>
     <string name="prefs_toolbar_title_setting">Կարգավորումներ</string>
     <string name="prefs_translate_sum_text">Օգնեք բարելավել կամ ուղղել տեքստի թարգմանությունը ձեր լեզվով</string>
     <string name="prefs_translate_text">Դիմումի թարգմանություն</string>
+    <string name="prefs_ui_app_icon_and_label_change">Փոխեք ծրագրի պատկերակը և անունը համակարգում</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">Փոփոխությունից հետո հավելվածը կարող է փակվել, հին պատկերակը կհեռացվի հեռախոսի հիմնական էկրանից (կամ բոլոր հավելվածների ցանկում), և կհայտնվի նորը։</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Սահմանեք գործարկիչի պատկերակը և անունը</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Փոխել ծանուցման պատկերակը և անունը</string>
+    <string name="prefs_ui_camera_preview_sum_text">Ցույց տալ տեսախցիկի նախադիտումը ծրագրի հիմնական էկրանին</string>
+    <string name="prefs_ui_camera_preview_text">Տեսախցիկի նախադիտում</string>
     <string name="prefs_ui_click_none_text">Ոչինչ չկա անելու</string>
     <string name="prefs_ui_click_start_stop_rec_text">Սկսել /դադարեցնել ձայնագրությունը</string>
     <string name="prefs_ui_click_text">Արագ հպեք էկրանին</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">բիթային արագություն (որակ)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Տեսախցիկի կառավարման տեսարանի ռեժիմ (գիշերային)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Տեսախցիկի կառավարման տեսարանի ռեժիմ (օր)</string>
+    <string name="prefs_video_codec_sum_text">H.265 HEVC և AV1 կոդեկներն ավելի լավ որակ են ապահովում ավելի ցածր բիթային արագությամբ, քան H.264 AVC-ն, այնպես որ կարող եք տարածք խնայել՝ նվազեցնելով բիթերի արագությունը: Սակայն տեսանյութերը կարող են չնվագարկվել որոշ վիդեո նվագարկիչներում</string>
+    <string name="prefs_video_codec_text">Տեսանյութի կոդեկ</string>
     <string name="prefs_video_control_scene_mode_beach_text">Լողափ (պայծառ եղանակ)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Ընդհանուր /Դեմքի առաջնահերթություն</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (բարձր դինամիկ տիրույթ)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Տեսախցիկի ֆոկուս (գիշեր)</string>
     <string name="prefs_video_focus_text">Ֆոտոխցիկի ֆոկուս (օր)</string>
     <string name="prefs_video_fps_range_text">Կադրեր մեկ վայրկյանում (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Ձայնագրեք HEVC (H.265) ձևաչափով՝ տարածք խնայելու համար: Հնարավոր է, որ չկարողանաք նման տեսանյութեր նվագարկել վիդեո նվագարկման այլ սարքերում կամ հավելվածներում: Փոփոխությունից հետո կվերակայվի լուծաչափը և բիթերի արագությունը</string>
-    <string name="prefs_video_hevc_text">Բարձր արդյունավետ տեսանյութերի կոդավորում</string>
     <string name="prefs_video_orientation_text">Տեսանյութի և հեռախոսի կողմնորոշում</string>
     <string name="prefs_video_resolution_text">Տեսանյութի լուծում</string>
     <string name="prefs_video_settings_sum_text">Բանաձև, բիթային արագություն, կողմնորոշում, ֆոկուս, տեսախցիկ, գիշերային ռեժիմ</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Ավելի մեծ չափս՝ մարտկոցի ավելի արագ արտահոսք</string>
     <string name="prefs_video_space_unlimited">Անսահմանափակ</string>
     <string name="prefs_video_stabilization_text">Տեսանյութի կայունացում</string>
+    <string name="prefs_voice_recorder_app">Ձայնի ձայնագրիչ ֆոնին</string>
     <string name="prefs_warning_location_precise_sum_text">Սա անհրաժեշտ է GPS-ի վրա հիմնված առավել ճշգրիտ արագությունը, ինչպես նաև հասցեն և կոորդինատները ստանալու համար: Սեղմեք ներկայացնելու համար</string>
     <string name="prefs_warning_location_precise_text">Ստույգ գտնվելու վայրի թույլտվություն</string>
     <string name="prefs_warning_notifications_sum_text">Պահանջվում է, որպեսզի կարողանանք ցուցադրել ֆոնային ձայնագրման ծառայությունը և կարգավիճակները ծանուցման վահանակում: Սեղմեք ներկայացնելու համար</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">Ցանց</string>
     <string name="rec_off_text">Անջատված</string>
     <string name="rec_on_text">Ներառյալ</string>
-    <string name="rec_service_msg">Գաղտնիություն. Ձեր ձայնագրած բոլոր տեսանյութերը կպահվեն միայն ձեր տեղական սարքում: Հավելվածը չի կրկնօրինակում ձեր տեսանյութերը (սերվերների հետ կապեր չունի)\n\nՀավելվածը կշարունակի աշխատել հետին պլանում (առաջին պլանի ծառայությունը, որը հայտնվում է ծանուցման տողում), եթե սկսեք նոր ձայնագրություն և վերադառնաք հիմնական էկրան, միացնեք մեկ այլ հավելված կամ կողպեք ձեր հեռախոսը, որպեսզի կարողանաք շարունակել ձայնագրությունը, կամ եթե դուք միացնում եք ավտոմատ ձայնագրման գործառույթները (եթե փակեք ֆոնային ծառայությունը, այդ գործառույթները չեն աշխատի):</string>
+    <string name="rec_service_msg">Գաղտնիություն. Ձեր ձայնագրած բոլոր տեսանյութերը կպահվեն միայն ձեր տեղական սարքում: Հավելվածը չի կրկնօրինակում ձեր տեսանյութերը (սերվերների հետ կապեր չունի)\n\nՀավելվածը կշարունակի աշխատել հետին պլանում (առաջին պլանի ծառայությունը, որը հայտնվում է ծանուցումների տողում), երբ ձայնագրությունն ակտիվ է, երբ վերադառնաք հիմնական էկրան, միացնեք մեկ այլ հավելված կամ կողպեք ձեր հեռախոսը՝ ձայնագրումը շարունակելու համար և երբ միացնեք։ ավտոմատ ձայնագրման հնարավորություններ (եթե փակեք ֆոնային ծառայությունը, այս գործառույթները չեն աշխատի): Հավելվածն օգտագործում է Firebase Analytics-ը հիմնական անանուն վերլուծության համար (տես ստորև նշված հղումը)</string>
+    <string name="recording_file_name_prefix">Վիդեո ֆայլերի անունների նախածանց</string>
     <string name="recording_start_text">Սկսեք ձայնագրել</string>
     <string name="recording_started_failed_text">Սխալ՝ ձայնագրումը սկսելիս</string>
     <string name="recording_started_with_audio_text">Սկսվել է աուդիո ձայնագրությամբ նոր տեսանկարահանում</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">Ձայնագրությունը…</string>
     <string name="recording_voice_started_text">Ձայնագրությունը սկսվել է</string>
     <string name="recording_voice_stopped_text">Ձայնագրումը դադարեցվեց</string>
+    <string name="records_file_sorting_date">Ամսաթիվ</string>
+    <string name="records_file_sorting_duration">Տեւողությունը</string>
+    <string name="records_file_sorting_name">Անուն</string>
+    <string name="records_file_sorting_size">Ֆայլի չափ</string>
+    <string name="records_file_upload_drive">Պահել «Google Drive»</string>
     <string name="reset">արտանետում</string>
     <string name="storage_external_single">MicroSD քարտ</string>
     <string name="storage_phone">Հեռախոսի հիշողություն</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Ջնջել ռեժիմը</string>
     <string name="videos_file_item_share">Տարածեք սա</string>
     <string name="videos_file_item_watch">Դիտեք</string>
+    <string name="videos_file_open_with">Բացել հետ</string>
+    <string name="videos_file_select">Ընտրեք համար</string>
     <string name="videos_file_sort_asc">Տեսակավորել աճող</string>
     <string name="videos_file_sort_desc">Տեսակավորել նվազող</string>
     <string name="videos_file_was_locked_text">Տեսանյութի ֆայլը տեղափոխվել է պաշտպանված պանակ</string>

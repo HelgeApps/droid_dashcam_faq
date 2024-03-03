@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">موافق</string>
     <string name="any_text">أي</string>
+    <string name="app_alternative_name_audio">صوتي</string>
+    <string name="app_alternative_name_battery">إعدادات البطارية</string>
+    <string name="app_alternative_name_media">وسائط</string>
+    <string name="app_alternative_name_media_player">مشغل الوسائط</string>
+    <string name="app_alternative_name_video">فيديو</string>
+    <string name="app_name_backgroundvideorecorder">تسجيل فيديو في الخلفية</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - قيادة DVR</string>
     <string name="camera">الة تصوير</string>
     <string name="camera_aperture">الحجاب الحاجز</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">الكاميرا مؤقتًا (كانت) غير متاحة للفتح على جهازك (خطأ في نظام الكاميرا)</string>
     <string name="camera_support_error">حدث خطأ أثناء استخدام الكاميرا.</string>
     <string name="close">قريب</string>
+    <string name="days">أيام</string>
     <string name="default_text">تقصير</string>
     <string name="dialog_camera_not_found_msg_text">لا يحتوي هذا الجهاز على كاميرا مدمجة ولا يدعم الكاميرات الخارجية. إغلاق…</string>
     <string name="dialog_camera_not_found_text">الكاميرا غير موجودة</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">ليس لديك إعلانات.</string>
     <string name="donation_level_text">مستوى تبرعك:</string>
     <string name="donation_purchase_info_loading_text">لم يتم تحميل معلومات التسوق حتى الآن. هل أنت متصل بالإنترنت وقمت بتسجيل الدخول إلى حساب Google الخاص بك؟</string>
-    <string name="donation_remove_ads_by_any_amount_text">قم بإزالة الإعلانات إلى الأبد من خلال التبرع لمرة واحدة بأي مبلغ. يمكنك أيضًا التبرع بأي مبلغ شهريًا لإزالة الإعلانات</string>
-    <string name="donation_subs_any_amount_text">كما يتم إزالة الإعلانات بالكامل عند الاشتراك بأي مبلغ.</string>
+    <string name="donation_remove_ads_by_any_amount_text">قم بإزالة الإعلانات إلى الأبد من خلال التبرع لمرة واحدة بأي مبلغ. يمكنك أيضًا التبرع شهريًا لإزالة الإعلانات</string>
+    <string name="donation_subs_any_amount_text">تتم إزالة الإعلانات بالكامل أثناء تنشيط الاشتراك بأي مبلغ شهريًا.</string>
     <string name="donation_subs_manage_btn_text">إلغاء الاشتراك</string>
+    <string name="donation_subs_no_free_trial_explanation_text">لا يوفر التطبيق فترة تجريبية للاشتراكات، نظرًا لأن جميع وظائف التطبيق مجانية بالفعل، والاشتراك يزيل الإعلانات فقط</string>
+    <string name="donation_subs_one_text">تتم إزالة الإعلانات بالكامل أثناء تنشيط الاشتراك.</string>
     <string name="donation_subs_text">تبرع شهريا</string>
     <string name="format_altitude">ارتفاع</string>
     <string name="format_degrees">إحداثيات</string>
@@ -56,6 +65,7 @@
     <string name="from">من</string>
     <string name="hour">ساعة</string>
     <string name="hours">ساعات</string>
+    <string name="month">شهر</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">لا يتم استبعاد التطبيق من تحسين البطارية. إذا كانت الكاميرا لا تعمل في الخلفية أو أي شيء آخر، فقم بإضافة هذا التطبيق إلى استثناءات وضع توفير الطاقة.</string>
     <string name="msg_android_r_deleting_manual_tip_text">إذا أعدت تثبيت التطبيق على Android 11 ، فيجب حذف الملفات القديمة يدويًا</string>
     <string name="msg_auto_recording_service_was_stopped">لقد قمت بإيقاف خدمة الخلفية لبدء تسجيل الفيديو تلقائيًا. افتح التطبيق لتشغيله مرة أخرى.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">تسجيل الصوت من جهاز بلوتوث</string>
     <string name="prefs_audio_bt_recording_warning_message_text">استخدم فقط مع سماعات البلوتوث. إذا قمت بالاتصال بالوحدة الرئيسية (راديو السيارة) عبر البلوتوث، فقد يؤدي ذلك لسبب ما إلى إجراء مكالمة هاتفية تلقائيًا إلى الرقم القياسي على هذا الجهاز</string>
     <string name="prefs_audio_bt_recording_warning_title_text">لا تستخدم مع الوحدة الرئيسية (راديو السيارة)!</string>
+    <string name="prefs_audio_codec_title">ترميز الصوت</string>
     <string name="prefs_audio_priority_sum">في حالة التمكين ، لن تتمكن التطبيقات الأخرى من استخدام الميكروفون. إذا تم تعطيله ، فقد لا يتمكن هذا التطبيق من تسجيل الصوت عند تشغيل عدة تطبيقات باستخدام الميكروفون (لا يسمح Android دائمًا بالاستخدام المتزامن للميكروفون)</string>
     <string name="prefs_audio_priority_title">إعطاء الأولوية للصوت لهذا التطبيق</string>
     <string name="prefs_audio_rate_text">تردد أخذ العينات</string>
     <string name="prefs_audio_recording_text">تسجيل الصوت</string>
     <string name="prefs_audio_settings_sum_text">الجودة ، إيقاف /تشغيل تسجيل الصوت</string>
     <string name="prefs_audio_settings_text">إعدادات الصوت</string>
+    <string name="prefs_audio_source_camcorder_text">قد لا يعمل التسجيل الصوتي من CAMCORDER على بعض الأجهزة، في هذه الحالة حاول التغيير إلى MIC</string>
+    <string name="prefs_audio_source_text">مصدر الصوت</string>
     <string name="prefs_audio_stereo_text">ستيريو</string>
     <string name="prefs_auto_start_app_launch_sum_text">ابدأ تسجيل الفيديو تلقائيًا عند بدء تشغيل التطبيق</string>
     <string name="prefs_auto_start_app_launch_text">عند بدء التطبيق</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">تشغيل عند توصيله بمقبس الصوت (AUX)</string>
     <string name="prefs_aux_auto_stop_text">توقف عند فصله من مقبس الصوت (AUX)</string>
     <string name="prefs_battery_optimization_sum_text">يمكن أن يمنع تحسين البطارية التطبيق من العمل بشكل صحيح (على سبيل المثال ، استخدام الكاميرا أو تحديث الموقع أثناء تسجيل مقطع فيديو في الخلفية). انقر هنا لتعطيله لهذا التطبيق الآن</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">قد يؤدي تحسين البطارية إلى منع التطبيق من العمل بشكل صحيح (على سبيل المثال، استخدام الكاميرا والميكروفون). انقر هنا لتعطيله لهذا التطبيق الآن</string>
     <string name="prefs_battery_optimization_text">تحسين البطارية</string>
     <string name="prefs_beep_each_start_recording_sum_text">إشارة في بداية تسجيل ملف الفيديو التالي</string>
     <string name="prefs_beep_each_start_recording_text">صفير عند التسجيل</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">المناظر الطبيعيه</string>
     <string name="prefs_orientation_landscape_reversed">عكس الألبوم</string>
     <string name="prefs_orientation_portrait">لوحة</string>
+    <string name="prefs_orientation_sensor_automatic">تلقائي</string>
     <string name="prefs_other_auto_deleting_sum_text">احذف مقاطع الفيديو الأقدم تلقائيًا أثناء التسجيل إذا لم تكن هناك مساحة كافية لمقاطع الفيديو الجديدة</string>
     <string name="prefs_other_auto_deleting_text">التسجيل المتكرر</string>
     <string name="prefs_other_date_time_text">التاريخ و الوقت</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">موقع الصورة (المجلد /المسار)</string>
     <string name="prefs_other_path_text">موقع الفيديو (المجلد /المسار)</string>
     <string name="prefs_other_settings_sum_text">موقع الفيديو (حفظ المجلد) ، مدة الفيديو ، تسجيل الحلقة ، مستشعر G ، GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">موقع تسجيلات الفيديو (المجلد المراد حفظه)، مدة الفيديو، التسجيل المتكرر، الحد الأقصى لحجم الفيديو</string>
     <string name="prefs_other_settings_text">اعدادات اخرى</string>
     <string name="prefs_other_show_address_text">عنوان الموقع الحالي</string>
     <string name="prefs_other_show_altitude_text">الإرتفاع فوق مستوى سطح البحر</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">عند بدء تشغيل التطبيق ، قم بتشغيل /إيقاف الشحن ، قم بتشغيل النظام</string>
     <string name="prefs_screen_autostart_text">تسجيل تلقائي</string>
     <string name="prefs_screen_ui_summary_text">الشاشة السريعة /الضغط لفترة طويلة ، وإيقاف الشاشة ، وعرض العنوان والسرعة ، والنافذة المنبثقة ، والأزرار والمزيد</string>
+    <string name="prefs_screen_ui_summary_text_bvr">اختصار لبدء التسجيل، الضغط السريع والمطول على الشاشة، النافذة المنبثقة، الاهتزاز عند التسجيل، إشعار الصوت، الاهتزاز، الأزرار الموجودة على الشاشة، إيقاف تشغيل الشاشة والمزيد</string>
     <string name="prefs_screen_ui_title">الواجهة (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">يقوم تلقائيًا بتبديل أوضاع الكاميرا ليلاً ونهارًا في أوقات محددة</string>
     <string name="prefs_screen_video_day_night_mode_text">إعدادات تلقائية ليلا ونهارا</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">حظر الكتابة فوق مقاطع الفيديو</string>
     <string name="prefs_show_overlay_btn_sum_text">يعرض نافذة بها أزرار تحكم أعلى كل التطبيقات</string>
     <string name="prefs_show_overlay_btn_text">عرض النافذة العائمة</string>
+    <string name="prefs_show_overlay_on_recording_text">إظهار النافذة العائمة عند بدء التسجيل</string>
     <string name="prefs_show_status_bar_text">إظهار شريط حالة النظام</string>
     <string name="prefs_show_take_photo_btn_text">لعمل صورة</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">لا تدعمه الكاميرا الحالية. غالبًا ما يقيد المصنعون استخدامه - فهو متاح فقط في تطبيق الكاميرا القياسي</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">ترجمات تراكب في الجزء السفلي من الفيديو</string>
     <string name="prefs_subtitles_position_bottom_text">ترجمات في الأسفل</string>
     <string name="prefs_subtitles_settings_sum_text">تراكب شرح الفيديو: التاريخ (الوقت) ، عنوان الموقع ، الإحداثيات والسرعة</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">تراكب التسميات التوضيحية على مقاطع الفيديو: التاريخ (الطابع الزمني)، النص المخصص</string>
     <string name="prefs_subtitles_settings_text">إعدادات الترجمة</string>
     <string name="prefs_subtitles_size_text">زيادة حجم النص</string>
     <string name="prefs_subtitles_speed_text">سرعة</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">الإبلاغ عن خطأ أو تعطل أو تقديم عرض</string>
     <string name="prefs_support_text">الدعم (ردود الفعل)</string>
     <string name="prefs_system_alert_window_sum_text">اسمح لهذا التطبيق بالظهور فوق جميع التطبيقات الأخرى. يعد ذلك ضروريًا لبدء /إيقاف تسجيل الفيديو تلقائيًا أو لعرض نافذة عائمة</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">السماح لهذا التطبيق بالظهور فوق جميع التطبيقات الأخرى. يعد ذلك ضروريًا لعرض نافذة عائمة</string>
     <string name="prefs_system_alert_window_text">القرار أعلى جميع النوافذ</string>
     <string name="prefs_theme_mode_dark">موضوع مظلم</string>
+    <string name="prefs_theme_mode_dynamic">متحرك</string>
     <string name="prefs_theme_mode_light">موضوع خفيف</string>
     <string name="prefs_theme_mode_system_auto">كما هو الحال في النظام (التلقائي)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">ارجع إلى الشاشة الرئيسية (التسجيلات) لتطبيق هذا الإعداد وبدء خدمة التتبع</string>
     <string name="prefs_toolbar_title_setting">إعدادات</string>
     <string name="prefs_translate_sum_text">ساعد في تحسين أو إصلاح ترجمة النص بلغتك</string>
     <string name="prefs_translate_text">ترجمة التطبيق</string>
+    <string name="prefs_ui_app_icon_and_label_change">تغيير أيقونة واسم التطبيق في النظام</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">بعد التغيير، قد يتم إغلاق التطبيق، وستتم إزالة الأيقونة القديمة على الشاشة الرئيسية للهاتف (أو في قائمة جميع التطبيقات)، وسيظهر رمز جديد</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">قم بتعيين رمز واسم المشغل</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">تغيير أيقونة الإخطار والاسم</string>
+    <string name="prefs_ui_camera_preview_sum_text">إظهار معاينة الكاميرا على شاشة التطبيق الرئيسية</string>
+    <string name="prefs_ui_camera_preview_text">معاينة الكاميرا</string>
     <string name="prefs_ui_click_none_text">لا شيء لأفعله</string>
     <string name="prefs_ui_click_start_stop_rec_text">بدء /إيقاف التسجيل</string>
     <string name="prefs_ui_click_text">نقرة سريعة على الشاشة</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">معدل البت (الجودة)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">وضع مشهد التحكم في الكاميرا (ليلي)</string>
     <string name="prefs_video_camera_control_scene_mode_text">وضع مشهد التحكم في الكاميرا (اليوم)</string>
+    <string name="prefs_video_codec_sum_text">توفر برامج الترميز H.265 HEVC وAV1 جودة أفضل بمعدلات بت أقل من H.264 AVC، لذا يمكنك توفير المساحة عن طريق تقليل معدل البت. لكن قد لا يتم تشغيل مقاطع الفيديو في بعض مشغلات الفيديو</string>
+    <string name="prefs_video_codec_text">ترميز الفيديو</string>
     <string name="prefs_video_control_scene_mode_beach_text">الشاطئ (طقس مشرق)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">عام /أولوية الوجه</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (المدى الديناميكي العالي)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">تركيز الكاميرا (ليلاً)</string>
     <string name="prefs_video_focus_text">تركيز الكاميرا (اليوم)</string>
     <string name="prefs_video_fps_range_text">عدد الإطارات في الثانية (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">قم بالتسجيل بتنسيق HEVC (H.265) لتوفير مساحة. قد لا تتمكن من تشغيل مقاطع الفيديو هذه على أجهزة أو تطبيقات تشغيل الفيديو الأخرى. سيتم إعادة تعيين الدقة ومعدل البت بعد التغيير</string>
-    <string name="prefs_video_hevc_text">ترميز فيديو عالي الكفاءة</string>
     <string name="prefs_video_orientation_text">اتجاه الفيديو والهاتف</string>
     <string name="prefs_video_resolution_text">دقة الفيديو</string>
     <string name="prefs_video_settings_sum_text">الدقة ، معدل البت ، الاتجاه ، التركيز ، الكاميرا ، الوضع الليلي</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">حجم أكبر - استنزاف أسرع للبطارية</string>
     <string name="prefs_video_space_unlimited">غير محدود</string>
     <string name="prefs_video_stabilization_text">تثبيت الفيديو</string>
+    <string name="prefs_voice_recorder_app">مسجل صوت في الخلفية</string>
     <string name="prefs_warning_location_precise_sum_text">يعد ذلك ضروريًا للحصول على أدق سرعة تعتمد على نظام تحديد المواقع العالمي (GPS) ، بالإضافة إلى العنوان والإحداثيات. انقر للإرسال</string>
     <string name="prefs_warning_location_precise_text">إذن للموقع الدقيق</string>
     <string name="prefs_warning_notifications_sum_text">مطلوب لتتمكن من عرض خدمة التسجيل في الخلفية والحالات على لوحة الإشعارات. انقر للإرسال</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">شبكة</string>
     <string name="rec_off_text">إيقاف</string>
     <string name="rec_on_text">بما في ذلك.</string>
-    <string name="rec_service_msg">الخصوصية: سيتم حفظ جميع مقاطع الفيديو التي تسجلها على جهازك المحلي فقط. لا يقوم التطبيق بعمل نسخة احتياطية لمقاطع الفيديو الخاصة بك (ليس لديه أي اتصالات بالخوادم)\n\nسيستمر التطبيق في العمل في الخلفية (الخدمة الأمامية التي تظهر في شريط الإشعارات) إذا بدأت تسجيلًا جديدًا ورجعت إلى الشاشة الرئيسية، أو قمت بالتبديل إلى تطبيق آخر أو قفل هاتفك لتتمكن من متابعة التسجيل، أو إذا تقوم بتشغيل وظائف التسجيل التلقائي (إذا قمت بإغلاق خدمة الخلفية، فلن تعمل هذه الوظائف).</string>
+    <string name="rec_service_msg">الخصوصية: سيتم حفظ جميع مقاطع الفيديو التي تسجلها على جهازك المحلي فقط. لا يقوم التطبيق بعمل نسخة احتياطية لمقاطع الفيديو الخاصة بك (ليس لديه أي اتصالات بالخوادم)\n\nسيستمر التطبيق في العمل في الخلفية (الخدمة الأمامية التي تظهر في شريط الإشعارات) أثناء تنشيط التسجيل، وعندما تعود إلى الشاشة الرئيسية، قم بالتبديل إلى تطبيق آخر أو قم بقفل هاتفك لمواصلة التسجيل، وعندما تقوم بتشغيله ميزات التسجيل التلقائي (إذا قمت بإغلاق خدمة الخلفية، فلن تعمل هذه الوظائف). يستخدم التطبيق Firebase Analytics للتحليلات الأساسية المجهولة (انظر الرابط أدناه)</string>
+    <string name="recording_file_name_prefix">بادئة لأسماء ملفات الفيديو</string>
     <string name="recording_start_text">ابدأ التسجيل</string>
     <string name="recording_started_failed_text">خطأ في بدء التسجيل</string>
     <string name="recording_started_with_audio_text">بدأ تسجيل فيديو جديد مع تسجيل صوتي</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">تسجيل…</string>
     <string name="recording_voice_started_text">بدأ التسجيل</string>
     <string name="recording_voice_stopped_text">توقف التسجيل</string>
+    <string name="records_file_sorting_date">تاريخ</string>
+    <string name="records_file_sorting_duration">مدة</string>
+    <string name="records_file_sorting_name">اسم</string>
+    <string name="records_file_sorting_size">حجم الملف</string>
+    <string name="records_file_upload_drive">حفظ في \"جوجل درايف\"</string>
     <string name="reset">إبراء الذمة</string>
     <string name="storage_external_single">بطاقة مايكرو التنمية المستدامة</string>
     <string name="storage_phone">ذاكرة الهاتف</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">وضع الحذف</string>
     <string name="videos_file_item_share">شارك هذا</string>
     <string name="videos_file_item_watch">يشاهد</string>
+    <string name="videos_file_open_with">مفتوحة مع</string>
+    <string name="videos_file_select">اختر ل</string>
     <string name="videos_file_sort_asc">فرز تصاعدي</string>
     <string name="videos_file_sort_desc">ترتيب تنازلي</string>
     <string name="videos_file_was_locked_text">تم نقل ملف الفيديو إلى مجلد محمي</string>

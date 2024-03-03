@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">sprejmem</string>
     <string name="any_text">Kaj</string>
+    <string name="app_alternative_name_audio">Avdio</string>
+    <string name="app_alternative_name_battery">Nastavitve baterije</string>
+    <string name="app_alternative_name_media">Mediji</string>
+    <string name="app_alternative_name_media_player">Medijski predvajalnik</string>
+    <string name="app_alternative_name_video">Video</string>
+    <string name="app_name_backgroundvideorecorder">Snemanje videa v ozadju</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - DVR za vožnjo</string>
     <string name="camera">Kamera</string>
     <string name="camera_aperture">Diafragma</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">Kamera začasno (bila) ni na voljo za odpiranje v vaši napravi (sistemska napaka kamere)</string>
     <string name="camera_support_error">Pri uporabi fotoaparata je prišlo do napake.</string>
     <string name="close">Zapri</string>
+    <string name="days">dnevi</string>
     <string name="default_text">Privzeto</string>
     <string name="dialog_camera_not_found_msg_text">Ta naprava nima vgrajene kamere in ne podpira zunanjih kamer. Zapiranje…</string>
     <string name="dialog_camera_not_found_text">Kamere ni bilo mogoče najti</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">Nimate oglasov.</string>
     <string name="donation_level_text">Vaša raven donacije:</string>
     <string name="donation_purchase_info_loading_text">Informacije o nakupovanju še niso bile naložene. Ste na spletu in prijavljeni v svoj Google Račun?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Odstranite oglase za vedno z enkratno donacijo poljubnega zneska. Mesečno lahko donirate tudi poljuben znesek za odstranitev oglasov</string>
-    <string name="donation_subs_any_amount_text">Prav tako je oglaševanje popolnoma odstranjeno, ko se naročite za kateri koli znesek.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Odstranite oglase za vedno z enkratno donacijo poljubnega zneska. Prav tako lahko mesečno donirate za odstranitev oglasov</string>
+    <string name="donation_subs_any_amount_text">Oglaševanje je popolnoma odstranjeno, medtem ko je aktivna naročnina za kateri koli znesek na mesec.</string>
     <string name="donation_subs_manage_btn_text">Odjavi se</string>
+    <string name="donation_subs_no_free_trial_explanation_text">Aplikacija ne omogoča preizkusnega obdobja za naročnine, saj so vse funkcije aplikacije že brezplačne, naročnina samo odstrani oglaševanje</string>
+    <string name="donation_subs_one_text">Oglaševanje je v celoti odstranjeno, medtem ko je naročnina aktivna.</string>
     <string name="donation_subs_text">Donirajte mesečno</string>
     <string name="format_altitude">Višina</string>
     <string name="format_degrees">Koordinate</string>
@@ -56,6 +65,7 @@
     <string name="from">od</string>
     <string name="hour">uro</string>
     <string name="hours">ure</string>
+    <string name="month">mesec</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Aplikacija ni izključena iz optimizacije baterije. Če kamera ne deluje v ozadju ali kaj drugega, dodajte to aplikacijo med izjeme načina varčevanja z energijo.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Če ste aplikacijo znova namestili na Android 11, morate stare datoteke izbrisati ročno</string>
     <string name="msg_auto_recording_service_was_stopped">Ustavili ste storitev v ozadju za samodejni začetek snemanja videa. Odprite aplikacijo, da jo znova zaženete.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Posnemite zvok iz naprave Bluetooth</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Uporabljajte samo s slušalkami Bluetooth. Če se povežete z glavno enoto (avtoradio) prek Bluetootha, lahko to iz nekega razloga samodejno sproži telefonski klic na standardno številko v tej napravi</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Ne uporabljajte z glavno enoto (avtoradio)!</string>
+    <string name="prefs_audio_codec_title">Avdio kodek</string>
     <string name="prefs_audio_priority_sum">Če je omogočeno, druge aplikacije ne bodo mogle uporabljati mikrofona. Če je onemogočena, ta aplikacija morda ne bo mogla snemati zvoka, ko se prek mikrofona izvaja več aplikacij (Android ne dovoljuje vedno hkratne uporabe mikrofona)</string>
     <string name="prefs_audio_priority_title">Dajte prednost zvoku tej aplikaciji</string>
     <string name="prefs_audio_rate_text">Pogostost vzorčenja</string>
     <string name="prefs_audio_recording_text">Zvočni posnetek</string>
     <string name="prefs_audio_settings_sum_text">Kakovost, izklop/vklop snemanja zvoka</string>
     <string name="prefs_audio_settings_text">Nastavitve zvoka</string>
+    <string name="prefs_audio_source_camcorder_text">Snemanje zvoka iz KAMERE morda ne bo delovalo na nekaterih napravah; v tem primeru poskusite preklopiti na MIC</string>
+    <string name="prefs_audio_source_text">Zvočni vir</string>
     <string name="prefs_audio_stereo_text">Stereo</string>
     <string name="prefs_auto_start_app_launch_sum_text">Samodejno začnite snemati video, ko se aplikacija zažene</string>
     <string name="prefs_auto_start_app_launch_text">Ob zagonu aplikacije</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Zaženi, ko je priključen na avdio priključek (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Ustavi se, ko je odklopljen iz avdio priključka (AUX)</string>
     <string name="prefs_battery_optimization_sum_text">Optimizacija baterije lahko prepreči pravilno delovanje aplikacije (na primer uporaba kamere ali posodabljanje lokacije med snemanjem videoposnetka v ozadju). Kliknite tukaj, da ga onemogočite za to aplikacijo zdaj</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">Optimizacija baterije lahko prepreči pravilno delovanje aplikacije (na primer uporaba kamere in mikrofona). Kliknite tukaj, da ga zdaj onemogočite za to aplikacijo</string>
     <string name="prefs_battery_optimization_text">Optimizacija baterije</string>
     <string name="prefs_beep_each_start_recording_sum_text">Signal na začetku snemanja naslednje video datoteke</string>
     <string name="prefs_beep_each_start_recording_text">Pisk med snemanjem</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Pokrajina</string>
     <string name="prefs_orientation_landscape_reversed">Zadnja stran albuma</string>
     <string name="prefs_orientation_portrait">Portret</string>
+    <string name="prefs_orientation_sensor_automatic">Samodejno</string>
     <string name="prefs_other_auto_deleting_sum_text">Samodejno izbrišite najstarejše videoposnetke med snemanjem, če ni dovolj prostora za nove videoposnetke</string>
     <string name="prefs_other_auto_deleting_text">Snemanje v zanki</string>
     <string name="prefs_other_date_time_text">datum in čas</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Lokacija fotografije (mapa/pot)</string>
     <string name="prefs_other_path_text">Lokacija videa (mapa/pot)</string>
     <string name="prefs_other_settings_sum_text">Lokacija videa (mapa za shranjevanje), trajanje videa, snemanje zanke, G-senzor, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Lokacija video posnetkov (mapa za shranjevanje), trajanje videa, snemanje v zanki, največja velikost videa</string>
     <string name="prefs_other_settings_text">Druge nastavitve</string>
     <string name="prefs_other_show_address_text">Naslov trenutne lokacije</string>
     <string name="prefs_other_show_altitude_text">Višina nad morsko gladino</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Ko zaženete aplikacijo, vklopite /izklopite polnjenje, zaženite sistem</string>
     <string name="prefs_screen_autostart_text">Samodejni zagon snemanja</string>
     <string name="prefs_screen_ui_summary_text">Hiter/dolg pritisk na zaslon, izklop zaslona, ​​prikaz naslova in hitrosti, pojavno okno, gumbi in drugo</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Bližnjica za začetek snemanja, hiter in dolg pritisk na zaslonu, pojavno okno, vibriranje pri snemanju, zvočno obvestilo, vibriranje, gumbi na zaslonu, izklop zaslona in več</string>
     <string name="prefs_screen_ui_title">vmesnik (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Samodejno preklopi dnevni/nočni način fotoaparata ob določenih urah</string>
     <string name="prefs_screen_video_day_night_mode_text">Samodejne nastavitve dan/noč</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">Blokiranje videoposnetkov pred prepisovanjem</string>
     <string name="prefs_show_overlay_btn_sum_text">Prikaže okno z nadzornimi gumbi na vrhu vseh aplikacij</string>
     <string name="prefs_show_overlay_btn_text">Pokaži plavajoče okno</string>
+    <string name="prefs_show_overlay_on_recording_text">Pokaži plavajoče okno, ko se snemanje začne</string>
     <string name="prefs_show_status_bar_text">Pokaži vrstico stanja sistema</string>
     <string name="prefs_show_take_photo_btn_text">Za izdelavo fotografije</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Trenutna kamera ne podpira. Proizvajalci pogosto omejujejo njegovo uporabo – na voljo je samo v standardni aplikaciji Camera</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Prekrivni podnapisi na dnu videoposnetka</string>
     <string name="prefs_subtitles_position_bottom_text">Podnapisi na dnu</string>
     <string name="prefs_subtitles_settings_sum_text">Prekrivni video napisi: datum (čas), naslov lokacije, koordinate in hitrost</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Prekrivni napisi na videoposnetkih: datum (časovni žig), besedilo po meri</string>
     <string name="prefs_subtitles_settings_text">Nastavitve podnapisov</string>
     <string name="prefs_subtitles_size_text">Povečajte velikost besedila</string>
     <string name="prefs_subtitles_speed_text">Hitrost</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Prijavite napako, zrušitev ali dajte ponudbo</string>
     <string name="prefs_support_text">Podpora (povratne informacije)</string>
     <string name="prefs_system_alert_window_sum_text">Dovoli, da se ta aplikacija prikaže nad vsemi drugimi aplikacijami. To je potrebno za samodejno zagon/ustavitev snemanja videa ali za prikaz plavajočega okna</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Dovoli, da se ta aplikacija prikaže na vrhu vseh drugih aplikacij. To je potrebno za prikaz plavajočega okna</string>
     <string name="prefs_system_alert_window_text">Ločljivost na vrhu vseh oken</string>
     <string name="prefs_theme_mode_dark">Temna tema</string>
+    <string name="prefs_theme_mode_dynamic">Dinamično</string>
     <string name="prefs_theme_mode_light">Svetla tema</string>
     <string name="prefs_theme_mode_system_auto">Kot v sistemu (samodejno)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Vrnite se na začetni zaslon (posnetki), da uporabite to nastavitev in zaženete storitev sledenja</string>
     <string name="prefs_toolbar_title_setting">Nastavitve</string>
     <string name="prefs_translate_sum_text">Pomagajte izboljšati ali popraviti prevod besedila v vašem jeziku</string>
     <string name="prefs_translate_text">Prevajanje aplikacij</string>
+    <string name="prefs_ui_app_icon_and_label_change">Spremenite ikono in ime aplikacije v sistemu</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">Po spremembi se lahko aplikacija zapre, stara ikona bo odstranjena na glavnem zaslonu telefona (ali na seznamu vseh aplikacij) in pojavila se bo nova</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Nastavite ikono in ime zaganjalnika</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Spremenite ikono in ime obvestila</string>
+    <string name="prefs_ui_camera_preview_sum_text">Pokaži predogled kamere na glavnem zaslonu aplikacije</string>
+    <string name="prefs_ui_camera_preview_text">Predogled kamere</string>
     <string name="prefs_ui_click_none_text">Nič za početi</string>
     <string name="prefs_ui_click_start_stop_rec_text">Začni /ustavi snemanje</string>
     <string name="prefs_ui_click_text">Hitro tapnite po zaslonu</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Bitna hitrost (kakovost)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Scenski način nadzora kamere (nočni)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Scenski način nadzora kamere (dan)</string>
+    <string name="prefs_video_codec_sum_text">Kodeka H.265 HEVC in AV1 zagotavljata boljšo kakovost pri nižjih bitnih hitrostih kot H.264 AVC, tako da lahko prihranite prostor z zmanjšanjem bitne hitrosti. Vendar se videoposnetki morda ne bodo predvajali v nekaterih video predvajalnikih</string>
+    <string name="prefs_video_codec_text">Video kodek</string>
     <string name="prefs_video_control_scene_mode_beach_text">Plaža (svetlo vreme)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Splošno /Prednost obraza</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (visok dinamični razpon)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Fokus kamere (noč)</string>
     <string name="prefs_video_focus_text">Fokus kamere (dan)</string>
     <string name="prefs_video_fps_range_text">Število sličic na sekundo (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Snemajte v formatu HEVC (H.265), da prihranite prostor. Takšnih videoposnetkov morda ne boste mogli predvajati na drugih napravah ali aplikacijah za predvajanje videoposnetkov. Po spremembi bo ponastavljena ločljivost in bitna hitrost</string>
-    <string name="prefs_video_hevc_text">Visoko učinkovito kodiranje videa</string>
     <string name="prefs_video_orientation_text">Usmerjenost videa in telefona</string>
     <string name="prefs_video_resolution_text">Ločljivost videa</string>
     <string name="prefs_video_settings_sum_text">Ločljivost, bitna hitrost, orientacija, fokus, kamera, nočni način</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Večja velikost - hitrejše praznjenje baterije</string>
     <string name="prefs_video_space_unlimited">Neomejeno</string>
     <string name="prefs_video_stabilization_text">Video stabilizacija</string>
+    <string name="prefs_voice_recorder_app">Snemalnik zvoka v ozadju</string>
     <string name="prefs_warning_location_precise_sum_text">To je potrebno za pridobitev najnatančnejše hitrosti na podlagi GPS-a ter naslova in koordinat. Kliknite za oddajo</string>
     <string name="prefs_warning_location_precise_text">Dovoljenje za točno lokacijo</string>
     <string name="prefs_warning_notifications_sum_text">Zahtevano za prikaz storitve snemanja v ozadju in statusov na obvestilni plošči. Kliknite za oddajo</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">Mreža</string>
     <string name="rec_off_text">Izklopljeno</string>
     <string name="rec_on_text">vklj.</string>
-    <string name="rec_service_msg">Zasebnost: vsi posnetki, ki jih posnamete, bodo shranjeni samo v vaši lokalni napravi. Aplikacija ne varnostno kopira vaših videoposnetkov (nima povezave s strežniki)\n\nAplikacija bo še naprej delovala v ozadju (storitev v ospredju, ki se prikaže v vrstici z obvestili), če začnete novo snemanje in se vrnete na začetni zaslon, preklopite na drugo aplikacijo ali zaklenete telefon, da lahko nadaljujete s snemanjem, ali če vklopite funkcije za samodejno snemanje (če zaprete storitev v ozadju, te funkcije ne bodo delovale).</string>
+    <string name="rec_service_msg">Zasebnost: vsi posnetki, ki jih posnamete, bodo shranjeni samo v vaši lokalni napravi. Aplikacija ne varnostno kopira vaših videoposnetkov (nima povezave s strežniki)\n\nAplikacija bo še naprej delovala v ozadju (storitev v ospredju, ki se prikaže v vrstici z obvestili), medtem ko je snemanje aktivno, ko se vrnete na začetni zaslon, preklopite na drugo aplikacijo ali zaklenete telefon, da nadaljujete s snemanjem, in ko vklopite funkcije za samodejno snemanje (če zaprete storitev v ozadju, te funkcije ne bodo delovale). Aplikacija uporablja Firebase Analytics za osnovno anonimno analitiko (glejte spodnjo povezavo)</string>
+    <string name="recording_file_name_prefix">Predpona za imena video datotek</string>
     <string name="recording_start_text">Začni snemati</string>
     <string name="recording_started_failed_text">Napaka pri začetku snemanja</string>
     <string name="recording_started_with_audio_text">Začelo se je novo video snemanje z zvočnim snemanjem</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">Snemanje…</string>
     <string name="recording_voice_started_text">Snemanje se je začelo</string>
     <string name="recording_voice_stopped_text">Snemanje se je ustavilo</string>
+    <string name="records_file_sorting_date">Datum</string>
+    <string name="records_file_sorting_duration">Trajanje</string>
+    <string name="records_file_sorting_name">Ime</string>
+    <string name="records_file_sorting_size">Velikost datoteke</string>
+    <string name="records_file_upload_drive">Shrani v \"Google Drive\"</string>
     <string name="reset">praznjenje</string>
     <string name="storage_external_single">kartico microSD</string>
     <string name="storage_phone">Pomnilnik telefona</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Način brisanja</string>
     <string name="videos_file_item_share">Deliti to</string>
     <string name="videos_file_item_watch">Pazi</string>
+    <string name="videos_file_open_with">Odpri z</string>
+    <string name="videos_file_select">Izberite za</string>
     <string name="videos_file_sort_asc">Razvrsti naraščajoče</string>
     <string name="videos_file_sort_desc">Razvrsti padajoče</string>
     <string name="videos_file_was_locked_text">Video datoteka je bila premaknjena v zaščiteno mapo</string>

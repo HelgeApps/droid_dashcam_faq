@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">Δέχομαι</string>
     <string name="any_text">Οποιος</string>
+    <string name="app_alternative_name_audio">Ήχος</string>
+    <string name="app_alternative_name_battery">Ρυθμίσεις μπαταρίας</string>
+    <string name="app_alternative_name_media">Μεσο ΜΑΖΙΚΗΣ ΕΝΗΜΕΡΩΣΗΣ</string>
+    <string name="app_alternative_name_media_player">Media Player</string>
+    <string name="app_alternative_name_video">βίντεο</string>
+    <string name="app_name_backgroundvideorecorder">Εγγραφή βίντεο στο παρασκήνιο</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - Οδήγηση DVR</string>
     <string name="camera">ΦΩΤΟΓΡΑΦΙΚΗ ΜΗΧΑΝΗ</string>
     <string name="camera_aperture">Διάφραγμα</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">Η κάμερα είναι προσωρινά (δεν ήταν) διαθέσιμη για άνοιγμα στη συσκευή σας (σφάλμα συστήματος κάμερας)</string>
     <string name="camera_support_error">Παρουσιάστηκε σφάλμα κατά τη χρήση της κάμερας.</string>
     <string name="close">Κλείσε</string>
+    <string name="days">ημέρες</string>
     <string name="default_text">Προκαθορισμένο</string>
     <string name="dialog_camera_not_found_msg_text">Αυτή η συσκευή δεν διαθέτει ενσωματωμένη κάμερα και δεν υποστηρίζει εξωτερικές κάμερες. Κλείσιμο…</string>
     <string name="dialog_camera_not_found_text">Η κάμερα δεν βρέθηκε</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">Δεν έχετε διαφημίσεις.</string>
     <string name="donation_level_text">Επίπεδο δωρεάς σας:</string>
     <string name="donation_purchase_info_loading_text">Οι πληροφορίες αγορών δεν έχουν ανέβει ακόμα. Είστε συνδεδεμένοι και συνδεδεμένοι στον λογαριασμό σας Google;</string>
-    <string name="donation_remove_ads_by_any_amount_text">Καταργήστε τις διαφημίσεις για πάντα με μια εφάπαξ δωρεά οποιουδήποτε ποσού. Μπορείτε επίσης να δωρίσετε οποιοδήποτε ποσό μηνιαίως για την κατάργηση διαφημίσεων</string>
-    <string name="donation_subs_any_amount_text">Επίσης, η διαφήμιση αφαιρείται εντελώς όταν εγγραφείτε για οποιοδήποτε ποσό.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Καταργήστε τις διαφημίσεις για πάντα με μια εφάπαξ δωρεά οποιουδήποτε ποσού. Μπορείτε επίσης να κάνετε μηνιαία δωρεά για την κατάργηση διαφημίσεων</string>
+    <string name="donation_subs_any_amount_text">Η διαφήμιση καταργείται πλήρως ενώ είναι ενεργή μια συνδρομή για οποιοδήποτε ποσό ανά μήνα.</string>
     <string name="donation_subs_manage_btn_text">Απεγγραφή</string>
+    <string name="donation_subs_no_free_trial_explanation_text">Η εφαρμογή δεν παρέχει δοκιμαστική περίοδο για συνδρομές, καθώς όλες οι λειτουργίες της εφαρμογής είναι ήδη δωρεάν, η συνδρομή αφαιρεί μόνο τη διαφήμιση</string>
+    <string name="donation_subs_one_text">Η διαφήμιση καταργείται πλήρως όσο η συνδρομή είναι ενεργή.</string>
     <string name="donation_subs_text">Δωρείστε μηνιαία</string>
     <string name="format_altitude">Υψος</string>
     <string name="format_degrees">Συντεταγμένες</string>
@@ -56,6 +65,7 @@
     <string name="from">από</string>
     <string name="hour">ώρα</string>
     <string name="hours">ώρες</string>
+    <string name="month">μήνας</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Η εφαρμογή δεν εξαιρείται από τη βελτιστοποίηση μπαταρίας. Εάν η κάμερα δεν εκτελείται στο παρασκήνιο ή κάτι άλλο, προσθέστε αυτήν την εφαρμογή στις εξαιρέσεις της λειτουργίας εξοικονόμησης ενέργειας.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Εάν εγκαταστήσατε ξανά την εφαρμογή στο Android 11, τότε τα παλιά αρχεία πρέπει να διαγραφούν με μη αυτόματο τρόπο</string>
     <string name="msg_auto_recording_service_was_stopped">Έχετε διακόψει την υπηρεσία παρασκηνίου για αυτόματη έναρξη της εγγραφής βίντεο. Ανοίξτε την εφαρμογή για να την εκκινήσετε ξανά.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Εγγραφή ήχου από συσκευή Bluetooth</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Χρησιμοποιήστε μόνο με ακουστικά Bluetooth. Εάν συνδεθείτε στην κεντρική μονάδα (ραδιόφωνο αυτοκινήτου) μέσω Bluetooth, τότε για κάποιο λόγο αυτό μπορεί να ενεργοποιήσει αυτόματα μια τηλεφωνική κλήση στον τυπικό αριθμό αυτής της συσκευής</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Μη χρησιμοποιείτε με κεντρική μονάδα (ραδιόφωνο αυτοκινήτου)!</string>
+    <string name="prefs_audio_codec_title">Κωδικοποιητής ήχου</string>
     <string name="prefs_audio_priority_sum">Εάν είναι ενεργοποιημένο, άλλες εφαρμογές δεν θα μπορούν να χρησιμοποιήσουν το μικρόφωνο. Εάν είναι απενεργοποιημένη, αυτή η εφαρμογή ενδέχεται να μην μπορεί να εγγράψει ήχο όταν εκτελούνται πολλές εφαρμογές χρησιμοποιώντας το μικρόφωνο (το Android δεν επιτρέπει πάντα την ταυτόχρονη χρήση του μικροφώνου)</string>
     <string name="prefs_audio_priority_title">Δώστε προτεραιότητα στον ήχο σε αυτήν την εφαρμογή</string>
     <string name="prefs_audio_rate_text">Συχνότητα δειγματοληψίας</string>
     <string name="prefs_audio_recording_text">εγγραφή ήχου</string>
     <string name="prefs_audio_settings_sum_text">Ποιότητα, απενεργοποιημένη /ενεργή εγγραφή ήχου</string>
     <string name="prefs_audio_settings_text">Ρυθμίσεις ήχου</string>
+    <string name="prefs_audio_source_camcorder_text">Η εγγραφή ήχου από CAMCORDER ενδέχεται να μην λειτουργεί σε ορισμένες συσκευές, σε αυτήν την περίπτωση δοκιμάστε να αλλάξετε σε MIC</string>
+    <string name="prefs_audio_source_text">Πηγή ήχου</string>
     <string name="prefs_audio_stereo_text">Στέρεο</string>
     <string name="prefs_auto_start_app_launch_sum_text">Ξεκινήστε αυτόματα την εγγραφή βίντεο όταν ξεκινήσει η εφαρμογή</string>
     <string name="prefs_auto_start_app_launch_text">Κατά την εκκίνηση της εφαρμογής</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Εκτελείται όταν είναι συνδεδεμένο στην υποδοχή ήχου (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Σταματήστε όταν αποσυνδεθείτε από την υποδοχή ήχου (AUX)</string>
     <string name="prefs_battery_optimization_sum_text">Η βελτιστοποίηση της μπαταρίας μπορεί να εμποδίσει τη σωστή λειτουργία της εφαρμογής (για παράδειγμα, χρήση της κάμερας ή ενημέρωση της τοποθεσίας κατά την εγγραφή βίντεο στο παρασκήνιο). Κάντε κλικ εδώ για να το απενεργοποιήσετε για αυτήν την εφαρμογή τώρα</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">Η βελτιστοποίηση της μπαταρίας μπορεί να εμποδίσει τη σωστή λειτουργία της εφαρμογής (για παράδειγμα, χρησιμοποιώντας την κάμερα και το μικρόφωνο). Κάντε κλικ εδώ για να το απενεργοποιήσετε για αυτήν την εφαρμογή τώρα</string>
     <string name="prefs_battery_optimization_text">Βελτιστοποίηση μπαταρίας</string>
     <string name="prefs_beep_each_start_recording_sum_text">Σήμα στην αρχή της εγγραφής του επόμενου αρχείου βίντεο</string>
     <string name="prefs_beep_each_start_recording_text">Ηχητικό σήμα κατά την εγγραφή</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Τοπίο</string>
     <string name="prefs_orientation_landscape_reversed">Άλμπουμ πίσω</string>
     <string name="prefs_orientation_portrait">Πορτρέτο</string>
+    <string name="prefs_orientation_sensor_automatic">Αυτόματο</string>
     <string name="prefs_other_auto_deleting_sum_text">Διαγράψτε αυτόματα τα παλαιότερα βίντεο κατά την εγγραφή, εάν δεν υπάρχει αρκετός χώρος για νέα βίντεο</string>
     <string name="prefs_other_auto_deleting_text">Εγγραφή βρόχου</string>
     <string name="prefs_other_date_time_text">ημερομηνία και ώρα</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Τοποθεσία φωτογραφίας (φάκελος /διαδρομή)</string>
     <string name="prefs_other_path_text">Τοποθεσία βίντεο (φάκελος /διαδρομή)</string>
     <string name="prefs_other_settings_sum_text">Θέση βίντεο (αποθήκευση φακέλου), διάρκεια βίντεο, εγγραφή βρόχου, αισθητήρας G, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Θέση εγγραφών βίντεο (φάκελος για αποθήκευση), διάρκεια βίντεο, εγγραφή βρόχου, μέγιστο μέγεθος βίντεο</string>
     <string name="prefs_other_settings_text">Αλλες ρυθμίσεις</string>
     <string name="prefs_other_show_address_text">Τρέχουσα διεύθυνση τοποθεσίας</string>
     <string name="prefs_other_show_altitude_text">Ύψος πάνω από την επιφάνεια της θάλασσας</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Όταν ξεκινάτε την εφαρμογή, ενεργοποιήστε /απενεργοποιήστε τη φόρτιση, εκκινήστε το σύστημα</string>
     <string name="prefs_screen_autostart_text">Αυτόματη έναρξη εγγραφής</string>
     <string name="prefs_screen_ui_summary_text">Γρήγορο /παρατεταμένο πάτημα οθόνης, απενεργοποίηση οθόνης, εμφάνιση διεύθυνσης και ταχύτητας, αναδυόμενο παράθυρο, κουμπιά και άλλα</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Συντόμευση για έναρξη εγγραφής, γρήγορο και παρατεταμένο πάτημα στην οθόνη, αναδυόμενο παράθυρο, δόνηση κατά την εγγραφή, ειδοποίηση ήχου, δόνηση, κουμπιά στην οθόνη, απενεργοποίηση της οθόνης και άλλα</string>
     <string name="prefs_screen_ui_title">Διεπαφή (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Αλλάζει αυτόματα τις λειτουργίες ημέρας /νύχτας της κάμερας σε συγκεκριμένες ώρες</string>
     <string name="prefs_screen_video_day_night_mode_text">Αυτόματες ρυθμίσεις ημέρας /νύχτας</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">Αποκλεισμός αντικατάστασης βίντεο</string>
     <string name="prefs_show_overlay_btn_sum_text">Εμφανίζει ένα παράθυρο με κουμπιά ελέγχου πάνω από όλες τις εφαρμογές</string>
     <string name="prefs_show_overlay_btn_text">Εμφάνιση αιωρούμενου παραθύρου</string>
+    <string name="prefs_show_overlay_on_recording_text">Εμφάνιση αιωρούμενου παραθύρου κατά την έναρξη της εγγραφής</string>
     <string name="prefs_show_status_bar_text">Εμφάνιση γραμμής κατάστασης συστήματος</string>
     <string name="prefs_show_take_photo_btn_text">Για να φτιάξετε μια φωτογραφία</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Δεν υποστηρίζεται από την τρέχουσα κάμερα. Οι κατασκευαστές συχνά περιορίζουν τη χρήση του - είναι διαθέσιμο μόνο στην τυπική εφαρμογή Κάμερα</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Επικάλυψη υπότιτλων στο κάτω μέρος του βίντεο</string>
     <string name="prefs_subtitles_position_bottom_text">Υπότιτλοι στο κάτω μέρος</string>
     <string name="prefs_subtitles_settings_sum_text">Επικάλυψη λεζάντες βίντεο: Ημερομηνία (ώρα), διεύθυνση τοποθεσίας, συντεταγμένες και ταχύτητα</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Υπότιτλοι επικάλυψης σε βίντεο: ημερομηνία (σήμανση ώρας), προσαρμοσμένο κείμενο</string>
     <string name="prefs_subtitles_settings_text">Ρυθμίσεις υπότιτλων</string>
     <string name="prefs_subtitles_size_text">Αυξήστε το μέγεθος του κειμένου</string>
     <string name="prefs_subtitles_speed_text">Ταχύτητα</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Αναφέρετε ένα σφάλμα, σφάλμα ή κάντε μια προσφορά</string>
     <string name="prefs_support_text">Υποστήριξη (ανατροφοδότηση)</string>
     <string name="prefs_system_alert_window_sum_text">Επιτρέψτε σε αυτήν την εφαρμογή να εμφανίζεται πάνω από όλες τις άλλες εφαρμογές. Αυτό είναι απαραίτητο για την αυτόματη έναρξη/διακοπή της εγγραφής βίντεο ή για την εμφάνιση ενός αιωρούμενου παραθύρου</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Επιτρέψτε σε αυτήν την εφαρμογή να εμφανίζεται πάνω από όλες τις άλλες εφαρμογές. Αυτό είναι απαραίτητο για την εμφάνιση ενός αιωρούμενου παραθύρου</string>
     <string name="prefs_system_alert_window_text">Ανάλυση πάνω από όλα τα παράθυρα</string>
     <string name="prefs_theme_mode_dark">Σκοτεινό θέμα</string>
+    <string name="prefs_theme_mode_dynamic">Δυναμικός</string>
     <string name="prefs_theme_mode_light">Ελαφρύ θέμα</string>
     <string name="prefs_theme_mode_system_auto">Όπως στο σύστημα (αυτόματο)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Επιστρέψτε στην αρχική οθόνη (εγγραφές) για να εφαρμόσετε αυτήν τη ρύθμιση και να ξεκινήσετε την υπηρεσία παρακολούθησης</string>
     <string name="prefs_toolbar_title_setting">Ρυθμίσεις</string>
     <string name="prefs_translate_sum_text">Βοηθήστε να βελτιώσετε ή να διορθώσετε τη μετάφραση του κειμένου στη γλώσσα σας</string>
     <string name="prefs_translate_text">Μετάφραση Εφαρμογής</string>
+    <string name="prefs_ui_app_icon_and_label_change">Αλλάξτε το εικονίδιο και το όνομα της εφαρμογής στο σύστημα</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">Μετά την αλλαγή, η εφαρμογή μπορεί να κλείσει, το παλιό εικονίδιο θα αφαιρεθεί στην κύρια οθόνη του τηλεφώνου (ή στη λίστα όλων των εφαρμογών) και θα εμφανιστεί ένα νέο</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Ορίστε το εικονίδιο και το όνομα του προγράμματος εκκίνησης</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Αλλαγή εικονιδίου ειδοποίησης και ονόματος</string>
+    <string name="prefs_ui_camera_preview_sum_text">Εμφάνιση προεπισκόπησης κάμερας στην κύρια οθόνη της εφαρμογής</string>
+    <string name="prefs_ui_camera_preview_text">Προεπισκόπηση κάμερας</string>
     <string name="prefs_ui_click_none_text">Τίποτα να κάνω</string>
     <string name="prefs_ui_click_start_stop_rec_text">Έναρξη /διακοπή εγγραφής</string>
     <string name="prefs_ui_click_text">Γρήγορο πάτημα στην οθόνη</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Ρυθμός bit (ποιότητα)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Λειτουργία σκηνής ελέγχου κάμερας (νυχτερινή)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Λειτουργία σκηνής ελέγχου κάμερας (ημέρα)</string>
+    <string name="prefs_video_codec_sum_text">Οι κωδικοποιητές H.265 HEVC και AV1 παρέχουν καλύτερη ποιότητα σε χαμηλότερους ρυθμούς bit από τον H.264 AVC, ώστε να εξοικονομείτε χώρο μειώνοντας το bitrate. Ωστόσο, τα βίντεο ενδέχεται να μην αναπαράγονται σε ορισμένα προγράμματα αναπαραγωγής βίντεο</string>
+    <string name="prefs_video_codec_text">Κωδικοποιητής βίντεο</string>
     <string name="prefs_video_control_scene_mode_beach_text">Παραλία (φωτεινός καιρός)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Γενική /Προτεραιότητα προσώπου</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (Υψηλό δυναμικό εύρος)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Εστίαση κάμερας (νύχτα)</string>
     <string name="prefs_video_focus_text">Εστίαση κάμερας (ημέρα)</string>
     <string name="prefs_video_fps_range_text">Καρέ ανά δευτερόλεπτο (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Εγγραφή σε μορφή HEVC (H.265) για εξοικονόμηση χώρου. Ενδέχεται να μην μπορείτε να αναπαράγετε τέτοια βίντεο σε άλλες συσκευές ή εφαρμογές αναπαραγωγής βίντεο. Θα επαναφέρει την ανάλυση και το bitrate μετά την αλλαγή</string>
-    <string name="prefs_video_hevc_text">Εξαιρετικά αποδοτική κωδικοποίηση βίντεο</string>
     <string name="prefs_video_orientation_text">Προσανατολισμός βίντεο και τηλεφώνου</string>
     <string name="prefs_video_resolution_text">Ανάλυση βίντεο</string>
     <string name="prefs_video_settings_sum_text">Ανάλυση, ρυθμός bit, προσανατολισμός, εστίαση, κάμερα, νυχτερινή λειτουργία</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Μεγαλύτερο μέγεθος - ταχύτερη αποστράγγιση της μπαταρίας</string>
     <string name="prefs_video_space_unlimited">Απεριόριστος</string>
     <string name="prefs_video_stabilization_text">Σταθεροποίηση βίντεο</string>
+    <string name="prefs_voice_recorder_app">Φωνητική συσκευή εγγραφής στο παρασκήνιο</string>
     <string name="prefs_warning_location_precise_sum_text">Αυτό είναι απαραίτητο για να έχετε την πιο ακριβή ταχύτητα με βάση το GPS, καθώς και τη διεύθυνση και τις συντεταγμένες. Κάντε κλικ για υποβολή</string>
     <string name="prefs_warning_location_precise_text">Άδεια για την ακριβή τοποθεσία</string>
     <string name="prefs_warning_notifications_sum_text">Απαιτείται για να είναι δυνατή η εμφάνιση της υπηρεσίας εγγραφής στο παρασκήνιο και των καταστάσεων στον πίνακα ειδοποιήσεων. Κάντε κλικ για υποβολή</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">Καθαρά</string>
     <string name="rec_off_text">Μακριά από</string>
     <string name="rec_on_text">Συμπ.</string>
-    <string name="rec_service_msg">Απόρρητο: Όλα τα βίντεο που εγγράφετε θα αποθηκευτούν μόνο στην τοπική σας συσκευή. Η εφαρμογή δεν δημιουργεί αντίγραφα ασφαλείας των βίντεό σας (δεν έχει καμία σύνδεση με διακομιστές)\n\nΗ εφαρμογή θα συνεχίσει να εκτελείται στο παρασκήνιο (η υπηρεσία στο προσκήνιο που εμφανίζεται στη γραμμή ειδοποιήσεων) εάν ξεκινήσετε μια νέα εγγραφή και επιστρέψετε στην αρχική οθόνη, μεταβείτε σε άλλη εφαρμογή ή κλειδώσετε το τηλέφωνό σας για να μπορέσετε να συνεχίσετε την εγγραφή ή εάν ενεργοποιείτε τις λειτουργίες για αυτόματη εγγραφή (αν κλείσετε την υπηρεσία παρασκηνίου, αυτές οι λειτουργίες δεν θα λειτουργήσουν).</string>
+    <string name="rec_service_msg">Απόρρητο: Όλα τα βίντεο που εγγράφετε θα αποθηκευτούν μόνο στην τοπική σας συσκευή. Η εφαρμογή δεν δημιουργεί αντίγραφα ασφαλείας των βίντεό σας (δεν έχει καμία σύνδεση με διακομιστές)\n\nΗ εφαρμογή θα συνεχίσει να εκτελείται στο παρασκήνιο (η υπηρεσία στο προσκήνιο που εμφανίζεται στη γραμμή ειδοποιήσεων) ενώ η εγγραφή είναι ενεργή, όταν επιστρέψετε στην αρχική οθόνη, μεταβείτε σε άλλη εφαρμογή ή κλειδώσετε το τηλέφωνό σας για να συνεχίσετε την εγγραφή και όταν ενεργοποιείτε λειτουργίες για αυτόματη εγγραφή (αν κλείσετε την υπηρεσία παρασκηνίου, αυτές οι λειτουργίες δεν θα λειτουργήσουν). Η εφαρμογή χρησιμοποιεί το Firebase Analytics για βασικά ανώνυμα αναλυτικά στοιχεία (δείτε τον παρακάτω σύνδεσμο)</string>
+    <string name="recording_file_name_prefix">Πρόθεμα για ονόματα αρχείων βίντεο</string>
     <string name="recording_start_text">Ξεκινήστε την εγγραφή</string>
     <string name="recording_started_failed_text">Σφάλμα κατά την έναρξη της εγγραφής</string>
     <string name="recording_started_with_audio_text">Ξεκίνησε μια νέα εγγραφή βίντεο με ηχογράφηση</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">Ηχογράφηση…</string>
     <string name="recording_voice_started_text">Η ηχογράφηση ξεκίνησε</string>
     <string name="recording_voice_stopped_text">Η εγγραφή σταμάτησε</string>
+    <string name="records_file_sorting_date">Ημερομηνία</string>
+    <string name="records_file_sorting_duration">Διάρκεια</string>
+    <string name="records_file_sorting_name">Ονομα</string>
+    <string name="records_file_sorting_size">Μέγεθος αρχείου</string>
+    <string name="records_file_upload_drive">Αποθήκευση στο \"Google Drive\"</string>
     <string name="reset">απαλλάσσω</string>
     <string name="storage_external_single">Κάρτα MicroSD</string>
     <string name="storage_phone">Μνήμη τηλεφώνου</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Λειτουργία διαγραφής</string>
     <string name="videos_file_item_share">Μοιραστείτε αυτό</string>
     <string name="videos_file_item_watch">Ρολόι</string>
+    <string name="videos_file_open_with">Ανοιγμα με</string>
+    <string name="videos_file_select">Επιλέξτε για</string>
     <string name="videos_file_sort_asc">Αύξουσα ταξινόμηση</string>
     <string name="videos_file_sort_desc">Ταξινόμηση φθίνουσα</string>
     <string name="videos_file_was_locked_text">Το αρχείο βίντεο έχει μετακινηθεί σε έναν προστατευμένο φάκελο</string>

@@ -2,6 +2,12 @@
     <!--<string name="app_name_droid_dashcam">Droid Dashcam - 驾驶 DVR</string>-->
     <string name="accept_text">我接受</string>
     <string name="any_text">任何</string>
+    <string name="app_alternative_name_audio">声音的</string>
+    <string name="app_alternative_name_battery">电池设置</string>
+    <string name="app_alternative_name_media">媒体</string>
+    <string name="app_alternative_name_media_player">媒体播放器</string>
+    <string name="app_alternative_name_video">视频</string>
+    <string name="app_name_backgroundvideorecorder">后台视频录制</string>
     <string name="app_name_droid_dashcam">Droid Dashcam</string>
     <string name="camera">相机</string>
     <string name="camera_aperture">光圈</string>
@@ -21,6 +27,7 @@
     <string name="camera_msg_error_unknown_text">暂时无法在您的设备上打开摄像头设备（相机系统错误）</string>
     <string name="camera_support_error">使用摄像头时发生错误。</string>
     <string name="close">关闭</string>
+    <string name="days">天</string>
     <string name="default_text">默认</string>
     <string name="dialog_camera_not_found_msg_text">未在此设备上发现内置或外接摄像头。此应用即将关闭…</string>
     <string name="dialog_camera_not_found_text">未找到摄像头</string>
@@ -39,9 +46,11 @@
     <string name="donation_dlg_no_ads_text">您现在已免除任何广告。</string>
     <string name="donation_level_text">您的捐赠级别：</string>
     <string name="donation_purchase_info_loading_text">购物信息尚未上传。您是否在线并登录了您的 Google 帐户？</string>
-    <string name="donation_remove_ads_by_any_amount_text">通过一次性捐赠任意金额，永久删除广告。您还可以每月捐赠任意金额来删除广告</string>
-    <string name="donation_subs_any_amount_text">此外，当您订阅任何金额时，广告将被完全删除。</string>
+    <string name="donation_remove_ads_by_any_amount_text">通过一次性捐赠任意金额，永久删除广告。您还可以每月捐款以删除广告</string>
+    <string name="donation_subs_any_amount_text">当每月任意金额的订阅处于活动状态时，广告将被完全删除。</string>
     <string name="donation_subs_manage_btn_text">退订</string>
+    <string name="donation_subs_no_free_trial_explanation_text">该应用程序不提供订阅试用期，因为该应用程序的所有功能已经免费，订阅仅去除广告</string>
+    <string name="donation_subs_one_text">当订阅有效时，广告将被完全删除。</string>
     <string name="donation_subs_text">每月捐款</string>
     <string name="format_altitude">高度</string>
     <string name="format_degrees">坐标</string>
@@ -57,6 +66,7 @@
     <string name="from">从</string>
     <string name="hour">小时</string>
     <string name="hours">小时</string>
+    <string name="month">月</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">该应用程序不排除在电池优化之外。如果相机没有在后台运行或其他情况，则将此应用程序添加到省电模式的例外中。</string>
     <string name="msg_android_r_deleting_manual_tip_text">如果您在 Android 11 上重新安装了该应用程序，则必须手动删除旧文件</string>
     <string name="msg_auto_recording_service_was_stopped">您已停止自动开始录像的后台服务。打开应用程序以再次启动它。</string>
@@ -121,12 +131,15 @@
     <string name="prefs_audio_bt_recording_text">从蓝牙设备录制音频</string>
     <string name="prefs_audio_bt_recording_warning_message_text">仅与蓝牙耳机一起使用。如果您通过蓝牙连接到主机（汽车收音机），则由于某种原因，这可能会自动触发拨打该设备上的标准号码的电话</string>
     <string name="prefs_audio_bt_recording_warning_title_text">请勿与主机（汽车收音机）一起使用！</string>
+    <string name="prefs_audio_codec_title">音频编解码器</string>
     <string name="prefs_audio_priority_sum">如果启用，其他应用程序将无法使用麦克风。如果禁用，当多个应用程序使用麦克风运行时，此应用程序可能无法录制音频（Android 并不总是允许同时使用麦克风）</string>
     <string name="prefs_audio_priority_title">优先播放此应用程序的音频</string>
     <string name="prefs_audio_rate_text">采样率</string>
     <string name="prefs_audio_recording_text">录音</string>
     <string name="prefs_audio_settings_sum_text">质量，关闭/开启录音</string>
     <string name="prefs_audio_settings_text">声音设置</string>
+    <string name="prefs_audio_source_camcorder_text">摄像机录音可能无法在某些设备上工作，在这种情况下请尝试更改为 MIC</string>
+    <string name="prefs_audio_source_text">音源</string>
     <string name="prefs_audio_stereo_text">立体声</string>
     <string name="prefs_auto_start_app_launch_sum_text">应用程序启动时自动开始视频录制</string>
     <string name="prefs_auto_start_app_launch_text">启动应用程序时</string>
@@ -146,6 +159,7 @@
     <string name="prefs_aux_auto_start_text">插入音频插孔 (AUX) 时运行</string>
     <string name="prefs_aux_auto_stop_text">与音频插孔 (AUX) 断开连接时停止</string>
     <string name="prefs_battery_optimization_sum_text">电池优化可能会阻止应用程序正常运行（例如，在后台录制视频时使用相机或更新位置）。单击此处立即为此应用程序禁用它</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">电池优化可能会导致应用程序无法正常工作（例如，使用摄像头和麦克风）。单击此处立即为此应用程序禁用它</string>
     <string name="prefs_battery_optimization_text">电池优化</string>
     <string name="prefs_beep_each_start_recording_sum_text">下一个视频文件录制开始时的信号</string>
     <string name="prefs_beep_each_start_recording_text">录音时发出哔哔声</string>
@@ -194,6 +208,7 @@
     <string name="prefs_orientation_landscape">景观</string>
     <string name="prefs_orientation_landscape_reversed">专辑反转</string>
     <string name="prefs_orientation_portrait">肖像</string>
+    <string name="prefs_orientation_sensor_automatic">自动的</string>
     <string name="prefs_other_auto_deleting_sum_text">如果新视频没有足够空间，录制时自动删除最旧的视频</string>
     <string name="prefs_other_auto_deleting_text">循环记录</string>
     <string name="prefs_other_date_time_text">日期和时间</string>
@@ -205,6 +220,7 @@
     <string name="prefs_other_path_photo_text">照片位置（文件夹/路径）</string>
     <string name="prefs_other_path_text">视频位置（文件夹/路径）</string>
     <string name="prefs_other_settings_sum_text">视频位置（保存文件夹）、视频时长、循环录制、重力传感器、GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">视频录制位置（保存文件夹）、视频时长、循环录制、最大视频大小</string>
     <string name="prefs_other_settings_text">其他设置</string>
     <string name="prefs_other_show_address_text">当前位置地址</string>
     <string name="prefs_other_show_altitude_text">海拔</string>
@@ -240,6 +256,7 @@
     <string name="prefs_screen_autostart_sum_text">当您启动应用程序时，打开/关闭充电，启动系统</string>
     <string name="prefs_screen_autostart_text">自动开始录音</string>
     <string name="prefs_screen_ui_summary_text">屏幕快速/长按、屏幕关闭、地址和速度显示、弹出窗口、按钮等</string>
+    <string name="prefs_screen_ui_summary_text_bvr">快捷开始录音、快速长按屏幕、弹出窗口、录音时振动、声音通知、振动、屏幕按钮、关闭屏幕等</string>
     <string name="prefs_screen_ui_title">界面（UI）</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">在特定时间自动切换相机日/夜模式</string>
     <string name="prefs_screen_video_day_night_mode_text">自动日/夜设置</string>
@@ -258,6 +275,7 @@
     <string name="prefs_show_lock_btn_text">阻止视频被覆盖</string>
     <string name="prefs_show_overlay_btn_sum_text">在所有应用程序顶部显示一个带有控制按钮的窗口</string>
     <string name="prefs_show_overlay_btn_text">显示浮动窗口</string>
+    <string name="prefs_show_overlay_on_recording_text">录制开始时显示浮动窗口</string>
     <string name="prefs_show_status_bar_text">显示系统状态栏</string>
     <string name="prefs_show_take_photo_btn_text">拍照</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">当前相机不支持。制造商经常限制其使用 - 它仅在标准相机应用程序中可用</string>
@@ -280,6 +298,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">在视频底部叠加字幕</string>
     <string name="prefs_subtitles_position_bottom_text">字幕在底部</string>
     <string name="prefs_subtitles_settings_sum_text">叠加视频字幕：日期（时间）、位置地址、坐标和速度</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">视频上叠加字幕：日期（时间戳）、自定义文本</string>
     <string name="prefs_subtitles_settings_text">字幕设置</string>
     <string name="prefs_subtitles_size_text">增加文字大小</string>
     <string name="prefs_subtitles_speed_text">速度</string>
@@ -291,14 +310,22 @@
     <string name="prefs_support_sum_text">报告错误、崩溃或提出报价</string>
     <string name="prefs_support_text">支持（反馈）</string>
     <string name="prefs_system_alert_window_sum_text">允许此应用出现在所有其他应用之上。这是自动开始/停止视频录制或显示浮动窗口所必需的</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">允许此应用程序出现在所有其他应用程序之上。这是显示浮动窗口所必需的</string>
     <string name="prefs_system_alert_window_text">所有窗口顶部的分辨率</string>
     <string name="prefs_theme_mode_dark">深色主题</string>
+    <string name="prefs_theme_mode_dynamic">动态的</string>
     <string name="prefs_theme_mode_light">浅色主题</string>
     <string name="prefs_theme_mode_system_auto">与系统中一样（自动）</string>
     <string name="prefs_tip_apply_auto_rec_on_text">返回主屏幕（录音）应用此设置并启动跟踪服务</string>
     <string name="prefs_toolbar_title_setting">设置</string>
     <string name="prefs_translate_sum_text">帮助改进或修复您所用语言的文本翻译</string>
     <string name="prefs_translate_text">申请翻译</string>
+    <string name="prefs_ui_app_icon_and_label_change">更改应用程序在系统中的图标和名称</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">更改后，应用程序可能会关闭，手机主屏幕（或所有应用程序列表）上的旧图标将被删除，并会出现一个新图标</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">设置启动器的图标和名称</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">更改通知图标和名称</string>
+    <string name="prefs_ui_camera_preview_sum_text">在主应用程序屏幕上显示相机预览</string>
+    <string name="prefs_ui_camera_preview_text">相机预览</string>
     <string name="prefs_ui_click_none_text">不做什么</string>
     <string name="prefs_ui_click_start_stop_rec_text">开始/停止录音</string>
     <string name="prefs_ui_click_text">快速点击屏幕</string>
@@ -311,6 +338,8 @@
     <string name="prefs_video_bitrate_text">比特率（质量）</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">相机控制场景模式（夜间）</string>
     <string name="prefs_video_camera_control_scene_mode_text">相机控制场景模式（白天）</string>
+    <string name="prefs_video_codec_sum_text">与 H.264 AVC 相比，H.265 HEVC 和 AV1 编解码器以更低的比特率提供更好的质量，因此您可以通过降低比特率来节省空间。但视频可能无法在某些视频播放器中播放</string>
+    <string name="prefs_video_codec_text">视频编解码器</string>
     <string name="prefs_video_control_scene_mode_beach_text">海滩（晴朗的天气）</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">一般 /人脸优先</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR（高动态范围）</string>
@@ -332,8 +361,6 @@
     <string name="prefs_video_focus_night_text">相机对焦（夜间）</string>
     <string name="prefs_video_focus_text">相机对焦（白天）</string>
     <string name="prefs_video_fps_range_text">每秒帧数 (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">以 HEVC (H.265) 格式录制以节省空间。您可能无法在其他视频播放设备或应用程序上播放此类视频。更改后将重置分辨率和比特率</string>
-    <string name="prefs_video_hevc_text">高效的视频编码</string>
     <string name="prefs_video_orientation_text">视频和电话方向</string>
     <string name="prefs_video_resolution_text">视频分辨率</string>
     <string name="prefs_video_settings_sum_text">分辨率、比特率、方向、对焦、相机、夜间模式</string>
@@ -341,6 +368,7 @@
     <string name="prefs_video_size_sum_text">更大的尺寸 - 更快的电池消耗</string>
     <string name="prefs_video_space_unlimited">无限</string>
     <string name="prefs_video_stabilization_text">视频稳定</string>
+    <string name="prefs_voice_recorder_app">后台录音机</string>
     <string name="prefs_warning_location_precise_sum_text">这是获得最准确的基于 GPS 的速度以及地址和坐标所必需的。点击提交</string>
     <string name="prefs_warning_location_precise_text">准确位置许可</string>
     <string name="prefs_warning_notifications_sum_text">需要能够在通知面板上显示后台录制服务和状态。点击提交</string>
@@ -363,7 +391,8 @@
     <string name="rec_network_text">网</string>
     <string name="rec_off_text">离开</string>
     <string name="rec_on_text">包括</string>
-    <string name="rec_service_msg">隐私：您录制的所有视频将仅保存在您的本地设备上。该应用程序不会备份您的视频（没有与服务器的任何连接）\n\n如果您开始新的录制并返回主屏幕、切换到另一个应用程序或锁定手机以便能够继续录制，或者如果您开启自动录音功能（如果关闭后台服务，这些功能将不起作用）。</string>
+    <string name="rec_service_msg">隐私：您录制的所有视频将仅保存在您的本地设备上。该应用程序不会备份您的视频（没有与服务器的任何连接）\n\n当录制处于活动状态时、当您返回主屏幕、切换到另一个应用程序或锁定手机以继续录制时以及当您开机时，该应用程序将继续在后台运行（通知栏中显示的前台服务）自动录音功能（如果关闭后台服务，这些功能将不起作用）。该应用程序使用 Firebase Analytics 进行基本的匿名分析（请参阅下面的链接）</string>
+    <string name="recording_file_name_prefix">视频文件名的前缀</string>
     <string name="recording_start_text">开始录音</string>
     <string name="recording_started_failed_text">启动录制时出错</string>
     <string name="recording_started_with_audio_text">一个带有录音的新视频录制已经开始</string>
@@ -376,6 +405,11 @@
     <string name="recording_text">正在录制…</string>
     <string name="recording_voice_started_text">录音开始</string>
     <string name="recording_voice_stopped_text">录音结束</string>
+    <string name="records_file_sorting_date">日期</string>
+    <string name="records_file_sorting_duration">期间</string>
+    <string name="records_file_sorting_name">姓名</string>
+    <string name="records_file_sorting_size">文件大小</string>
+    <string name="records_file_upload_drive">保存到“Google 云端硬盘”</string>
     <string name="reset">重置</string>
     <string name="storage_external_single">MicroSD 卡</string>
     <string name="storage_phone">手机内存</string>
@@ -404,6 +438,8 @@
     <string name="videos_file_deletion_mode">删除</string>
     <string name="videos_file_item_share">分享</string>
     <string name="videos_file_item_watch">查看</string>
+    <string name="videos_file_open_with">打开用</string>
+    <string name="videos_file_select">选择用于</string>
     <string name="videos_file_sort_asc">升序</string>
     <string name="videos_file_sort_desc">降序</string>
     <string name="videos_file_was_locked_text">视频文件已移至受保护的文件夹</string>

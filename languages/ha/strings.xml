@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">na yarda</string>
     <string name="any_text">Kowa</string>
+    <string name="app_alternative_name_audio">Audio</string>
+    <string name="app_alternative_name_battery">Saitunan baturi</string>
+    <string name="app_alternative_name_media">Mai jarida</string>
+    <string name="app_alternative_name_media_player">Mai kunnawa Media</string>
+    <string name="app_alternative_name_video">Bidiyo</string>
+    <string name="app_name_backgroundvideorecorder">Rikodin bidiyo na bango</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - Tuki DVR</string>
     <string name="camera">Kamara</string>
     <string name="camera_aperture">diaphragm</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">Kamara na ɗan lokaci (ba shi) don buɗewa akan na\'urarka (kuskuren tsarin kamara)</string>
     <string name="camera_support_error">An sami kuskure yayin amfani da kyamara.</string>
     <string name="close">Kusa</string>
+    <string name="days">kwanaki</string>
     <string name="default_text">Na asali</string>
     <string name="dialog_camera_not_found_msg_text">Wannan na\'urar ba ta da ginanniyar kamara kuma baya goyan bayan kyamarori na waje. Ana rufe…</string>
     <string name="dialog_camera_not_found_text">Ba a sami kyamara ba</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">Ba ku da talla.</string>
     <string name="donation_level_text">Matsayin gudummawar ku:</string>
     <string name="donation_purchase_info_loading_text">Har yanzu ba a ɗora bayanan siyayya ba. Kuna kan layi kuma kuna shiga asusunku na Google?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Cire tallace-tallace har abada tare da gudummawar lokaci ɗaya na kowane adadin. Hakanan zaka iya ba da gudummawar kowane adadin kowane wata don cire tallace-tallace</string>
-    <string name="donation_subs_any_amount_text">Har ila yau, an cire talla gaba ɗaya lokacin da kuka yi rajista na kowane adadin.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Cire tallace-tallace har abada tare da gudummawar lokaci ɗaya na kowane adadin. Hakanan zaka iya ba da gudummawa kowane wata don cire tallace-tallace</string>
+    <string name="donation_subs_any_amount_text">An cire talla gaba ɗaya yayin biyan kuɗin kowane adadin kowane wata yana aiki.</string>
     <string name="donation_subs_manage_btn_text">Cire rajista</string>
+    <string name="donation_subs_no_free_trial_explanation_text">Aikace-aikacen baya samar da lokacin gwaji don biyan kuɗi, tunda duk ayyukan aikace-aikacen sun riga sun zama kyauta, biyan kuɗi yana cire talla kawai.</string>
+    <string name="donation_subs_one_text">An cire talla gaba ɗaya yayin biyan kuɗi yana aiki.</string>
     <string name="donation_subs_text">Ba da gudummawa kowane wata</string>
     <string name="format_altitude">Tsayi</string>
     <string name="format_degrees">Daidaitawa</string>
@@ -56,6 +65,7 @@
     <string name="from">daga</string>
     <string name="hour">awa</string>
     <string name="hours">hours</string>
+    <string name="month">wata</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Ba a cire aikace-aikacen daga inganta baturi ba. Idan kyamara ba ta gudana a bango ko wani abu dabam, to ƙara wannan aikace-aikacen zuwa keɓanta yanayin adana wutar lantarki.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Idan kun sake shigar da aikace-aikacen akan Android 11, to dole ne a share tsoffin fayilolin da hannu</string>
     <string name="msg_auto_recording_service_was_stopped">Ka dakatar da sabis na bango don fara rikodin bidiyo ta atomatik. Bude aikace-aikacen don sake ƙaddamar da shi.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Yi rikodin sauti daga na\'urar Bluetooth</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Yi amfani kawai tare da belun kunne na Bluetooth. Idan kun haɗa zuwa naúrar kai (rediyon mota) ta Bluetooth, to saboda wasu dalilai wannan na iya haifar da kiran waya ta atomatik zuwa daidaitaccen lamba akan wannan na\'urar.</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Kar a yi amfani da naúrar kai (rediyon mota)!</string>
+    <string name="prefs_audio_codec_title">Codec audio</string>
     <string name="prefs_audio_priority_sum">Idan an kunna, wasu aikace-aikacen ba za su iya amfani da makirufo ba. Idan an kashe, wannan aikace-aikacen bazai iya yin rikodin sauti ba lokacin da aikace-aikacen da yawa ke gudana ta amfani da makirufo (Android ba koyaushe yana ba da izinin amfani da makirufo lokaci guda ba)</string>
     <string name="prefs_audio_priority_title">Bada fifikon sauti ga wannan app</string>
     <string name="prefs_audio_rate_text">Mitar samfur</string>
     <string name="prefs_audio_recording_text">Rikodin sauti</string>
     <string name="prefs_audio_settings_sum_text">Ingancin, kashewa/kan rikodin sauti</string>
     <string name="prefs_audio_settings_text">Saitunan sauti</string>
+    <string name="prefs_audio_source_camcorder_text">Rikodin sauti daga CAMCORDER na iya yin aiki akan wasu na\'urori, a wannan yanayin gwada canzawa zuwa MIC</string>
+    <string name="prefs_audio_source_text">Tushen Audio</string>
     <string name="prefs_audio_stereo_text">Sitiriyo</string>
     <string name="prefs_auto_start_app_launch_sum_text">Fara rikodin bidiyo ta atomatik lokacin da app ya fara</string>
     <string name="prefs_auto_start_app_launch_text">Lokacin fara aikace-aikacen</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Gudu lokacin da aka toshe cikin jack audio (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Tsaya lokacin da aka cire haɗin daga jack audio (AUX)</string>
     <string name="prefs_battery_optimization_sum_text">Haɓaka baturi na iya hana ƙa\'idar aiki daidai (misali, amfani da kyamara ko sabunta wurin yayin yin rikodin bidiyo a bango). Danna nan don kashe shi don wannan aikace-aikacen yanzu</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">Haɓaka baturi na iya hana aikace-aikacen yin aiki daidai (misali, ta amfani da kyamara da makirufo). Danna nan don kashe shi don wannan aikace-aikacen yanzu</string>
     <string name="prefs_battery_optimization_text">Inganta baturi</string>
     <string name="prefs_beep_each_start_recording_sum_text">Sigina a farkon rikodin fayil ɗin bidiyo na gaba</string>
     <string name="prefs_beep_each_start_recording_text">Ƙara ƙara lokacin yin rikodi</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Tsarin ƙasa</string>
     <string name="prefs_orientation_landscape_reversed">Album baya</string>
     <string name="prefs_orientation_portrait">Hoton hoto</string>
+    <string name="prefs_orientation_sensor_automatic">Na atomatik</string>
     <string name="prefs_other_auto_deleting_sum_text">Share tsoffin bidiyoyi ta atomatik yayin yin rikodi idan babu isasshen sarari don sabbin bidiyoyi</string>
     <string name="prefs_other_auto_deleting_text">Rikodin madauki</string>
     <string name="prefs_other_date_time_text">kwanan wata da lokaci</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Wurin hoto (fayil /hanya)</string>
     <string name="prefs_other_path_text">Wurin bidiyo (fayil /hanya)</string>
     <string name="prefs_other_settings_sum_text">Wurin bidiyo (ajiye babban fayil), tsawon lokacin bidiyo, rikodin madauki, G-sensor, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Wurin rikodin bidiyo (fayil don adanawa), tsawon lokacin bidiyo, rikodin madauki, matsakaicin girman bidiyo</string>
     <string name="prefs_other_settings_text">Sauran saituna</string>
     <string name="prefs_other_show_address_text">Adireshin wurin na yanzu</string>
     <string name="prefs_other_show_altitude_text">Tsayi sama da matakin teku</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Lokacin da kuka fara aikace-aikacen, kunna /kashe caji, kunna tsarin</string>
     <string name="prefs_screen_autostart_text">Fara rikodi ta atomatik</string>
     <string name="prefs_screen_ui_summary_text">Allon sauri /dogon latsawa, kashe allo, adreshi da nunin saurin gudu, taga mai bayyanawa, maɓalli da ƙari</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Gajerar hanya don fara rikodi, sauri da tsayin latsa kan allo, taga pop-up, girgiza lokacin yin rikodi, sanarwar sauti, jijjiga, maɓalli akan allo, kashe allo da ƙari.</string>
     <string name="prefs_screen_ui_title">Interface (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Yana canza yanayin kyamarar rana/dare ta atomatik a takamaiman lokuta</string>
     <string name="prefs_screen_video_day_night_mode_text">Saitunan Ranar Auto /Dare</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">Toshe bidiyo daga sake rubutawa</string>
     <string name="prefs_show_overlay_btn_sum_text">Nuna taga tare da maɓallin sarrafawa a saman duk aikace-aikacen</string>
     <string name="prefs_show_overlay_btn_text">Nuna taga mai iyo</string>
+    <string name="prefs_show_overlay_on_recording_text">Nuna taga mai iyo lokacin da aka fara rikodi</string>
     <string name="prefs_show_status_bar_text">Nuna sandar matsayi na tsarin</string>
     <string name="prefs_show_take_photo_btn_text">Don yin hoto</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Kamara na yanzu baya goyan bayansa. Masu kera sukan hana amfani da shi - ana samunsa kawai a daidaitaccen aikace-aikacen Kamara</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Rufe rubutun kalmomi a kasan bidiyon</string>
     <string name="prefs_subtitles_position_bottom_text">Subtitles a kasa</string>
     <string name="prefs_subtitles_settings_sum_text">Littattafan bidiyo mai rufewa: Kwanan wata (lokaci), adireshin wuri, daidaitawa da sauri</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Littattafan rubutu akan bidiyo: kwanan wata (tambarin lokaci), rubutu na al\'ada</string>
     <string name="prefs_subtitles_settings_text">Saitunan rubutu</string>
     <string name="prefs_subtitles_size_text">Ƙara girman rubutu</string>
     <string name="prefs_subtitles_speed_text">Gudu</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Ba da rahoton bug, karo ko yin tayin</string>
     <string name="prefs_support_text">Taimako (sake amsa)</string>
     <string name="prefs_system_alert_window_sum_text">Bada izinin wannan app ya bayyana a saman duk sauran apps. Wannan wajibi ne don farawa /dakatar da rikodin bidiyo ta atomatik ko don nuna taga mai iyo</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Bada izinin wannan app ɗin ya bayyana a saman duk sauran ƙa\'idodin. Wannan wajibi ne don nuna taga mai iyo</string>
     <string name="prefs_system_alert_window_text">Ƙaddamarwa a saman duk windows</string>
     <string name="prefs_theme_mode_dark">Jigon duhu</string>
+    <string name="prefs_theme_mode_dynamic">Mai ƙarfi</string>
     <string name="prefs_theme_mode_light">Taken haske</string>
     <string name="prefs_theme_mode_system_auto">Kamar yadda a cikin tsarin (atomatik)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Komawa kan allo na gida (rikodi) don amfani da wannan saitin kuma fara sabis ɗin sa ido</string>
     <string name="prefs_toolbar_title_setting">Saituna</string>
     <string name="prefs_translate_sum_text">Taimaka inganta ko gyara fassarar rubutu a cikin yaren ku</string>
     <string name="prefs_translate_text">Fassarar Aikace-aikacen</string>
+    <string name="prefs_ui_app_icon_and_label_change">Canja gunki da sunan aikace-aikacen a cikin tsarin</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">Bayan an canza, aikace-aikacen na iya rufewa, za a cire tsohon icon a kan babban allon wayar (ko a cikin jerin duk aikace-aikacen), kuma sabon zai bayyana.</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Saita gunki da sunan mai ƙaddamarwa</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Canja alamar sanarwa da suna</string>
+    <string name="prefs_ui_camera_preview_sum_text">Nuna samfotin kamara akan babban allon aikace-aikacen</string>
+    <string name="prefs_ui_camera_preview_text">Duban kyamara</string>
     <string name="prefs_ui_click_none_text">Babu abin yi</string>
     <string name="prefs_ui_click_start_stop_rec_text">Fara /dakatar da rikodi</string>
     <string name="prefs_ui_click_text">Saurin matsa akan allon</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Bitrate (mai inganci)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Yanayin Yanayin Kyamara (Dare)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Yanayin Yanayin Kyamara (Ranar)</string>
+    <string name="prefs_video_codec_sum_text">H.265 HEVC da AV1 codecs suna ba da mafi kyawun inganci a ƙananan bitrates fiye da H.264 AVC, don haka zaka iya ajiye sararin samaniya ta hanyar rage bitrate. Amma bidiyoyi bazai kunna a wasu yan wasan bidiyo ba</string>
+    <string name="prefs_video_codec_text">Codec na bidiyo</string>
     <string name="prefs_video_control_scene_mode_beach_text">bakin teku (yanayi mai haske)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Gabaɗaya /fifikon Fuska</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (High Dynamic Range)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Mayar da hankali kamara (dare)</string>
     <string name="prefs_video_focus_text">Mayar da hankali kamara (rana)</string>
     <string name="prefs_video_fps_range_text">Frames Per Second (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Yi rikodin a tsarin HEVC (H.265) don adana sarari. Wataƙila ba za ku iya kunna irin waɗannan bidiyon akan wasu na\'urorin sake kunna bidiyo ko aikace-aikace ba. Zai sake saita ƙuduri da bitrate bayan canji</string>
-    <string name="prefs_video_hevc_text">Ingantacciyar hanyar rikodin bidiyo</string>
     <string name="prefs_video_orientation_text">Bidiyo da daidaitawar waya</string>
     <string name="prefs_video_resolution_text">Ƙaddamar bidiyo</string>
     <string name="prefs_video_settings_sum_text">Ƙaddamarwa, ƙimar bit, daidaitawa, mayar da hankali, kyamara, yanayin dare</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Girman girma - saurin magudanar baturi</string>
     <string name="prefs_video_space_unlimited">Unlimited</string>
     <string name="prefs_video_stabilization_text">Gyaran bidiyo</string>
+    <string name="prefs_voice_recorder_app">Mai rikodin murya a bango</string>
     <string name="prefs_warning_location_precise_sum_text">Wannan yana da mahimmanci don samun ingantaccen saurin tushen GPS, da adireshi da masu daidaitawa. Danna don ƙaddamarwa</string>
     <string name="prefs_warning_location_precise_text">Izinin ainihin wurin</string>
     <string name="prefs_warning_notifications_sum_text">Ana buƙata don samun damar nuna sabis na rikodi na baya da matsayi akan kwamitin sanarwa. Danna don ƙaddamarwa</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">Net</string>
     <string name="rec_off_text">Kashe</string>
     <string name="rec_on_text">Incl.</string>
-    <string name="rec_service_msg">Keɓantawa: Duk bidiyon da kuka yi rikodin za a adana su kawai akan na\'urar ku ta gida. Aikace-aikacen ba ya adana bidiyon ku (ba shi da wata hanyar haɗi zuwa sabobin)\n\nApp ɗin zai ci gaba da aiki a bango (sabis na gaba wanda ke bayyana a sandar sanarwa) idan kun fara sabon rikodi kuma komawa kan allon gida, canza zuwa wani app ko kulle wayarka don samun damar ci gaba da yin rikodi, ko kuma idan kun kunna ayyuka don yin rikodi ta atomatik (idan kun rufe sabis ɗin bango, waɗannan ayyukan ba za su yi aiki ba).</string>
+    <string name="rec_service_msg">Keɓantawa: Duk bidiyon da kuka yi rikodin za a adana su kawai akan na\'urar ku ta gida. Aikace-aikacen ba ya adana bidiyon ku (ba shi da wata hanyar haɗi zuwa sabobin)\n\nApp ɗin zai ci gaba da aiki a bango (sabis na gaba wanda ke bayyana a sandar sanarwa) yayin da ake yin rikodi, lokacin da kuka dawo kan allo, canza zuwa wani app ko kulle wayar don ci gaba da yin rikodi, da kuma lokacin da kuka kunna. fasalulluka don yin rikodi ta atomatik (idan kun rufe sabis ɗin bango, waɗannan ayyukan ba za su yi aiki ba). Ka\'idar tana amfani da Binciken Firebase don ainihin ƙididdigar da ba a san su ba (duba hanyar haɗin da ke ƙasa)</string>
+    <string name="recording_file_name_prefix">Prefix don sunayen fayil ɗin bidiyo</string>
     <string name="recording_start_text">Fara rikodi</string>
     <string name="recording_started_failed_text">Kuskuren fara rikodi</string>
     <string name="recording_started_with_audio_text">An fara sabon rikodin bidiyo tare da rikodin sauti</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">Rikodi…</string>
     <string name="recording_voice_started_text">An fara yin rikodi</string>
     <string name="recording_voice_stopped_text">An daina yin rikodi</string>
+    <string name="records_file_sorting_date">Kwanan wata</string>
+    <string name="records_file_sorting_duration">Tsawon lokaci</string>
+    <string name="records_file_sorting_name">Suna</string>
+    <string name="records_file_sorting_size">Girman fayil</string>
+    <string name="records_file_upload_drive">Ajiye zuwa \"Google Drive\"</string>
     <string name="reset">fitarwa</string>
     <string name="storage_external_single">Katin MicroSD</string>
     <string name="storage_phone">Ƙwaƙwalwar waya</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Yanayin sharewa</string>
     <string name="videos_file_item_share">Raba wannan</string>
     <string name="videos_file_item_watch">Kalli</string>
+    <string name="videos_file_open_with">Bude da</string>
+    <string name="videos_file_select">Zaɓi don</string>
     <string name="videos_file_sort_asc">Tsara Hawan</string>
     <string name="videos_file_sort_desc">Tsarin sauka</string>
     <string name="videos_file_was_locked_text">An matsar da fayil ɗin bidiyo zuwa babban fayil mai kariya</string>

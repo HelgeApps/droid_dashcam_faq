@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">Ez qebûl dikim</string>
     <string name="any_text">Herçiyek</string>
+    <string name="app_alternative_name_audio">Audio</string>
+    <string name="app_alternative_name_battery">Mîhengên Pîlê</string>
+    <string name="app_alternative_name_media">Medya</string>
+    <string name="app_alternative_name_media_player">Media Player</string>
+    <string name="app_alternative_name_video">Video</string>
+    <string name="app_name_backgroundvideorecorder">Tomarkirina vîdyoya paşîn</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - DVR ajotinê</string>
     <string name="camera">Kamîra</string>
     <string name="camera_aperture">Diaphragm</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">Kamera bi demkî (ji bo vekirina li ser cîhaza we tune bû) (çewtiya pergala kamerayê)</string>
     <string name="camera_support_error">Di dema bikaranîna kamerayê de xeletiyek derket.</string>
     <string name="close">Nêzîkî</string>
+    <string name="days">rojan</string>
     <string name="default_text">Destçûnî</string>
     <string name="dialog_camera_not_found_msg_text">Vê cîhazê kamerayek çêkirî tune û kamerayên derveyî piştgirî nake. Girtin…</string>
     <string name="dialog_camera_not_found_text">Kamera nehat dîtin</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">Te reklam tune.</string>
     <string name="donation_level_text">Asta bexşîna we:</string>
     <string name="donation_purchase_info_loading_text">Agahdariya kirînê hîn nehatiye barkirin. Ma hûn serhêl in û têkevin hesabê xweya Google?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Bi bexşîna yek-carî ya her mîqdar re reklaman her û her jêbirin. Her weha hûn dikarin her mehê her mîqdarê bidin da ku reklaman jêbirin</string>
-    <string name="donation_subs_any_amount_text">Di heman demê de, dema ku hûn ji bo her mîqdarê bibin abone, reklam bi tevahî tê rakirin.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Bi bexşîna yek-carî ya her mîqdar re reklaman her û her jêbirin. Her weha hûn dikarin mehane bexş bikin da ku reklaman jêbirin</string>
+    <string name="donation_subs_any_amount_text">Reklam bi tevahî tê rakirin dema ku abonetiyek ji bo her mehê mehê çalak e.</string>
     <string name="donation_subs_manage_btn_text">Ji abonetiyê derbikeve</string>
+    <string name="donation_subs_no_free_trial_explanation_text">Serlêdan ji bo aboneyan heyamek ceribandinê peyda nake, ji ber ku hemî fonksiyonên serîlêdanê jixwe belaş in, abonetî tenê reklamê radike</string>
+    <string name="donation_subs_one_text">Dema ku abonetî çalak be reklam bi tevahî tê rakirin.</string>
     <string name="donation_subs_text">Her meh bexş bikin</string>
     <string name="format_altitude">Bilindî</string>
     <string name="format_degrees">Koordînat</string>
@@ -56,6 +65,7 @@
     <string name="from">ji</string>
     <string name="hour">seet</string>
     <string name="hours">saetan</string>
+    <string name="month">meh</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Serlêdan ji xweşbîniya batterê nayê derxistin. Ger kamera li paşnavê an tiştek din naxebite, wê hingê vê serîlêdanê li îstîsnayên moda hilanîna hêzê zêde bikin.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Ger we serîlêdana li ser Android 11-ê ji nû ve saz kir, wê hingê pêdivî ye ku pelên kevn bi destan werin jêbirin</string>
     <string name="msg_auto_recording_service_was_stopped">We karûbarê paşnavê ji bo destpêkirina otomatîkî tomarkirina vîdyoyê rawestand. Serlêdanê vekin da ku wê dîsa dest pê bikin.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Ji cîhazek Bluetooth-ê deng tomar bikin</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Tenê bi guhên Bluetooth-ê bikar bînin. Ger hûn bi riya Bluetooth-ê bi yekîneya serî (radyoya gerîdeyê) ve girêdin, wê hingê ji ber hin sedeman ev dibe ku bixweber têlefonek bi jimareya standard a li ser vê cîhazê vebike.</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Bi yekîneya serî (radyoya gerîdeyê) re bikar neynin!</string>
+    <string name="prefs_audio_codec_title">Kodek deng</string>
     <string name="prefs_audio_priority_sum">Ger çalak be, sepanên din dê nikaribin mîkrofonê bikar bînin. Heke neçalak be, dibe ku ev serîlêdan nekare deng tomar bike dema ku pir sepan bi karanîna mîkrofonê dixebitin (Android her gav destûrê nade karanîna hevdemî ya mîkrofonê)</string>
     <string name="prefs_audio_priority_title">Ji bo vê sepanê deng bidin pêşîn</string>
     <string name="prefs_audio_rate_text">Frekansa nimûneyê</string>
     <string name="prefs_audio_recording_text">Tomarkirina deng</string>
     <string name="prefs_audio_settings_sum_text">Qalîteyê, off /li ser tomara deng</string>
     <string name="prefs_audio_settings_text">Mîhengên deng</string>
+    <string name="prefs_audio_source_camcorder_text">Dibe ku tomarkirina deng ji CAMCORDER li ser hin cîhazan nexebite, di vê rewşê de hewl bidin ku biguherînin MIC</string>
+    <string name="prefs_audio_source_text">Çavkaniya Deng</string>
     <string name="prefs_audio_stereo_text">Dûdeng</string>
     <string name="prefs_auto_start_app_launch_sum_text">Dema ku sepan dest pê dike, tomarkirina vîdyoyê bixweber dest pê bikin</string>
     <string name="prefs_auto_start_app_launch_text">Dema ku serîlêdanê dest pê dike</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Dema ku tê girêdana dengbêjê (AUX) bixebite</string>
     <string name="prefs_aux_auto_stop_text">Dema ku ji jacka deng (AUX) veqetandî bisekine</string>
     <string name="prefs_battery_optimization_sum_text">Optimîzasyona bataryayê dikare rê li ber xebitandina rast a sepanê bigire (mînak, karanîna kamerayê an nûvekirina cîhê dema ku vîdyoyek li paşnavê tomar dike). Li vir bikirtînin da ku wê ji bo vê serîlêdanê niha neçalak bikin</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">Optimîzasyona bataryayê dibe ku pêşî lê bigire ku serîlêdan rast bixebite (mînakî, kamera û mîkrofon bikar bînin). Li vir bikirtînin da ku wê ji bo vê serîlêdanê niha neçalak bikin</string>
     <string name="prefs_battery_optimization_text">Optimîzasyona Pîlê</string>
     <string name="prefs_beep_each_start_recording_sum_text">Signal di destpêka tomarkirina pelê vîdyoya din de</string>
     <string name="prefs_beep_each_start_recording_text">Bip dema tomarkirinê</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Dorhalî</string>
     <string name="prefs_orientation_landscape_reversed">Album berepaş</string>
     <string name="prefs_orientation_portrait">Portrait</string>
+    <string name="prefs_orientation_sensor_automatic">Otomatîkî</string>
     <string name="prefs_other_auto_deleting_sum_text">Ger cîhê têr ji bo vîdyoyên nû tune be dema tomarkirinê vîdyoyên herî kevn bixweber jêbirin</string>
     <string name="prefs_other_auto_deleting_text">Loop recording</string>
     <string name="prefs_other_date_time_text">roj û dem</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Cihê wêneyê (peldank /rê)</string>
     <string name="prefs_other_path_text">Cihê vîdyoyê (peldank /rê)</string>
     <string name="prefs_other_settings_sum_text">Cihê vîdyoyê (peldanka hilanînê), dirêjahiya vîdyoyê, tomarkirina lûkê, G-sensor, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Cihê tomarên vîdyoyê (peldanka tomarkirinê), dirêjahiya vîdyoyê, tomarkirina lûkê, mezinahiya vîdyoyê ya herî zêde</string>
     <string name="prefs_other_settings_text">Mîhengên din</string>
     <string name="prefs_other_show_address_text">Navnîşana cîhê niha</string>
     <string name="prefs_other_show_altitude_text">Bilindahiya ji asta deryayê</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Dema ku hûn serîlêdanê dest pê dikin, barkirinê çalak bikin /vekin, pergalê boot bikin</string>
     <string name="prefs_screen_autostart_text">Destpêkirina bixweber tomarkirinê</string>
     <string name="prefs_screen_ui_summary_text">Bişkojka bilez /dirêj, dîmendera veqetandî, nîşana navnîşan û bilez, pencereya popupê, bişkok û hêj bêtir</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Kurtebira destpêkirina tomarkirinê, pêldana bilez û dirêj li ser ekranê, pencereya pop-up, lerizîna dema tomarkirinê, ragihandina deng, lerzîn, bişkokên li ser ekranê, qutkirina ekranê û hêj bêtir</string>
     <string name="prefs_screen_ui_title">Navber (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Otomatîk di demên taybetî de modên rojê /şevê yên kamerayê diguherîne</string>
     <string name="prefs_screen_video_day_night_mode_text">Mîhengên Roj /Şev Otomatîk</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">Astengkirina vîdyoyan ji sernivîsandinê</string>
     <string name="prefs_show_overlay_btn_sum_text">Li ser hemî serlêdanan pencereyek bi bişkokên kontrolê nîşan dide</string>
     <string name="prefs_show_overlay_btn_text">Pencereya herikîn nîşan bide</string>
+    <string name="prefs_show_overlay_on_recording_text">Dema ku tomarkirin dest pê dike pencereya herikîn nîşan bide</string>
     <string name="prefs_show_status_bar_text">Bara rewşa pergalê nîşan bide</string>
     <string name="prefs_show_take_photo_btn_text">Ji bo ku wêneyek çêbikin</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Ji hêla kamera heyî ve nayê piştgirî kirin. Hilberîner bi gelemperî karanîna wê sînordar dikin - ew tenê di serîlêdana Kamera standard de heye</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Di binê vîdyoyê de binnivîsan bişopînin</string>
     <string name="prefs_subtitles_position_bottom_text">Subtitles li jêr</string>
     <string name="prefs_subtitles_settings_sum_text">Sernavên vîdyoyê yên sergirtî: Dîrok (dem), navnîşana cîh, hevrêz û lez</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Sernivîsên li ser vîdyoyan: tarîx (mohra dem), nivîsa xwerû</string>
     <string name="prefs_subtitles_settings_text">Mîhengên binnivîsê</string>
     <string name="prefs_subtitles_size_text">Mezinahiya nivîsê zêde bike</string>
     <string name="prefs_subtitles_speed_text">Zûbûnî</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Çewtiyek, xeletiyek rapor bikin an pêşniyarek çêbikin</string>
     <string name="prefs_support_text">Piştgirî (bersivdan)</string>
     <string name="prefs_system_alert_window_sum_text">Destûr bidin ku ev sepan li ser hemî sepanên din xuya bibe. Ev pêdivî ye ku bixweber dest pê bike /rawestîne tomarkirina vîdyoyê an jî pencereyek herikbar nîşan bide</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Destûrê bide ku ev sepan li ser hemî sepanên din xuya bibe. Ev pêdivî ye ku ji bo pencereyek herikîn nîşan bide</string>
     <string name="prefs_system_alert_window_text">Resolution li ser hemî pencereyan</string>
     <string name="prefs_theme_mode_dark">Mijara tarî</string>
+    <string name="prefs_theme_mode_dynamic">Dynamic</string>
     <string name="prefs_theme_mode_light">Mijara ronahî</string>
     <string name="prefs_theme_mode_system_auto">Wekî ku di pergalê de (otomatîk)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Vegere ser ekrana malê (qeydan) da ku vê mîhengê bicîh bîne û karûbarê şopandinê dest pê bike</string>
     <string name="prefs_toolbar_title_setting">Settings</string>
     <string name="prefs_translate_sum_text">Alîkariya çêtirkirin an rastkirina wergera nivîsê ya bi zimanê xwe bikin</string>
     <string name="prefs_translate_text">Serlêdan Wergera</string>
+    <string name="prefs_ui_app_icon_and_label_change">Di pergalê de îkon û navê serîlêdanê biguherînin</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">Piştî guhertinê, dibe ku serîlêdan bigire, îkona kevn dê li ser ekrana sereke ya têlefonê (an di navnîşa hemî serlêdanan de) were rakirin, û yekî nû dê xuya bibe.</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Îkon û navê destpêkerê saz bikin</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Icon û navê agahdariyê biguherînin</string>
+    <string name="prefs_ui_camera_preview_sum_text">Pêşdîtina kamerayê li ser ekrana serîlêdana sereke nîşan bide</string>
+    <string name="prefs_ui_camera_preview_text">Pêşdîtina kamerayê</string>
     <string name="prefs_ui_click_none_text">Tiştekî ku bikin</string>
     <string name="prefs_ui_click_start_stop_rec_text">Destpêk /rawestandina tomarkirinê</string>
     <string name="prefs_ui_click_text">Bi lez li ser ekranê tap bike</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Bitrate (kalîteyê)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Moda Dîmenê ya Kontrola Kamera (Şev)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Moda Dîmenê ya Kontrola Kamera (Roj)</string>
+    <string name="prefs_video_codec_sum_text">Kodekên H.265 HEVC û AV1 li gorî H.264 AVC di bitrateyên kêmtir de kalîteya çêtir peyda dikin, ji ber vê yekê hûn dikarin bi kêmkirina bitrateyê cîh xilas bikin. Lê dibe ku vîdyoyan di hin lîstikvanên vîdyoyê de neleyizin</string>
+    <string name="prefs_video_codec_text">Kodeka vîdyoyê</string>
     <string name="prefs_video_control_scene_mode_beach_text">Beach (hewa ronahî)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Giştî /Pêşîniya rûyê</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (Rêza Dînamîk a Bilind)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Fokusa kamerayê (şev)</string>
     <string name="prefs_video_focus_text">Fokusa kamerayê (roj)</string>
     <string name="prefs_video_fps_range_text">Frames Per Second (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Bi formata HEVC (H.265) tomar bikin da ku cîh hilînin. Dibe ku hûn nikaribin vîdeoyên weha li ser cîhazên din an serîlêdanên lîstika vîdyoyê bilîzin. Dê piştî guheztinê çareserî û bitrate ji nû ve bike</string>
-    <string name="prefs_video_hevc_text">Kodkirina vîdyoyê ya pir bikêrhatî</string>
     <string name="prefs_video_orientation_text">Oryantasyona vîdyoyê û têlefonê</string>
     <string name="prefs_video_resolution_text">Çareserkirina vîdyoyê</string>
     <string name="prefs_video_settings_sum_text">Çareserkirin, rêjeya bit, rêgez, baldarî, kamera, moda şevê</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Pîvana mezintir - zuhakirina batterê zûtir</string>
     <string name="prefs_video_space_unlimited">Bêsînor</string>
     <string name="prefs_video_stabilization_text">Stabilîzasyona vîdyoyê</string>
+    <string name="prefs_voice_recorder_app">Recorder Deng li Paş</string>
     <string name="prefs_warning_location_precise_sum_text">Ev pêdivî ye ku bileziya herî rast a GPS-ê, û her weha navnîşan û hevrêzan bistînin. Ji bo şandinê bikirtînin</string>
     <string name="prefs_warning_location_precise_text">Destûr ji bo cîhê rastîn</string>
     <string name="prefs_warning_notifications_sum_text">Pêdivî ye ku meriv karûbarê tomarkirina paşîn û statûyan li ser panela ragihandinê nîşan bide. Ji bo şandinê bikirtînin</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">Tor</string>
     <string name="rec_off_text">Ji</string>
     <string name="rec_on_text">Incl.</string>
-    <string name="rec_service_msg">Nepenî: Hemî vîdyoyên ku hûn tomar dikin dê tenê li ser cîhaza weya herêmî bêne tomar kirin. Serlêdan vîdyoyên we paşve nagire (têkiliyek bi serveran re tune)\n\nHeke hûn tomarek nû dest pê bikin û vegerin ser ekrana malê, biguhezînin serîlêdanek din an jî têlefona xwe kilît bikin da ku hûn bikarin tomarkirinê bidomînin, sepan dê di paşerojê de bixebite (xizmeta pêşîn a ku di barika ragihandinê de xuya dike) hûn fonksiyonên ji bo tomarkirina otomatîk vedikin (heke hûn karûbarê paşnavê bigirin, ev fonksiyon dê nexebitin).</string>
+    <string name="rec_service_msg">Nepenî: Hemî vîdyoyên ku hûn tomar dikin dê tenê li ser cîhaza weya herêmî bêne tomar kirin. Serlêdan vîdyoyên we paşve nagire (têkiliyek bi serveran re tune)\n\nDema ku tomar aktîf e, dema ku hûn vedigerin dîmendera malê, ji bo domandina tomarkirinê veguhezînin serîlêdanek din an jî têlefona xwe kilît bikin da ku tomarkirinê bidomînin, sepan dê di paşerojê de bixebite (xizmeta pêşîn a ku di barika ragihandinê de xuya dike) taybetmendiyên ji bo tomarkirina otomatîk (heke hûn karûbarê paşîn bigire, ev fonksiyon dê nexebitin). Serlêdan ji bo analîtîkên nenas ên bingehîn Firebase Analytics bikar tîne (li jêr binêre)</string>
+    <string name="recording_file_name_prefix">Pêşgir ji bo navên pelên vîdyoyê</string>
     <string name="recording_start_text">Dest bi tomarkirinê bikin</string>
     <string name="recording_started_failed_text">Di destpêkirina tomarkirinê de çewtî</string>
     <string name="recording_started_with_audio_text">Tomarkirina vîdyoyek nû bi tomarkirina deng dest pê kir</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">Tomarkirin…</string>
     <string name="recording_voice_started_text">Tomarkirinê dest pê kir</string>
     <string name="recording_voice_stopped_text">Tomar rawestiya</string>
+    <string name="records_file_sorting_date">Rojek</string>
+    <string name="records_file_sorting_duration">Demajok</string>
+    <string name="records_file_sorting_name">Nav</string>
+    <string name="records_file_sorting_size">Mezinahiya pelê</string>
+    <string name="records_file_upload_drive">Tomar bike li \"Google Drive\"</string>
     <string name="reset">jêherrik</string>
     <string name="storage_external_single">karta MicroSD</string>
     <string name="storage_phone">Bîra telefonê</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Modê jêbirin</string>
     <string name="videos_file_item_share">Vê parve bikin</string>
     <string name="videos_file_item_watch">Seet</string>
+    <string name="videos_file_open_with">Bi vekin</string>
+    <string name="videos_file_select">Ji bo hilbijêre</string>
     <string name="videos_file_sort_asc">Rêzkirina Hilkişînê</string>
     <string name="videos_file_sort_desc">Rêjeya daketinê</string>
     <string name="videos_file_was_locked_text">Pelê vîdyoyê hate barkirin peldankek parastî</string>

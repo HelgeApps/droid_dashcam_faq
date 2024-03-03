@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">Кабул итәм</string>
     <string name="any_text">Anyәрхәлдә</string>
+    <string name="app_alternative_name_audio">Аудио</string>
+    <string name="app_alternative_name_battery">Батарея көйләүләре</string>
+    <string name="app_alternative_name_media">Медиа</string>
+    <string name="app_alternative_name_media_player">Медиа Плеер</string>
+    <string name="app_alternative_name_video">Видео</string>
+    <string name="app_name_backgroundvideorecorder">Фон видео язу</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - DVR йөртү</string>
     <string name="camera">Камера</string>
     <string name="camera_aperture">Диафрагма</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">Камера җайланмагызда вакытлыча (мөмкин түгел) (камера системасы хата)</string>
     <string name="camera_support_error">Камераны кулланганда хата килеп чыкты.</string>
     <string name="close">Ябу</string>
+    <string name="days">көннәр</string>
     <string name="default_text">Килешү</string>
     <string name="dialog_camera_not_found_msg_text">Бу җайланманың урнаштырылган камерасы юк һәм тышкы камераларга булышмый. Ябу…</string>
     <string name="dialog_camera_not_found_text">Камера табылмады</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">Сездә реклама юк.</string>
     <string name="donation_level_text">Сезнең иганә дәрәҗәсе:</string>
     <string name="donation_purchase_info_loading_text">Сәүдә турында мәгълүмат әле йөкләнмәгән. Сез онлайнда һәм Google хисап язмасына кердегезме?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Рекламаны теләсә нинди суммадагы иганә белән мәңгегә бетерегез. Сез шулай ук ​​рекламаны бетерү өчен ай саен теләсә нинди сумма бирә аласыз</string>
-    <string name="donation_subs_any_amount_text">Шулай ук, реклама теләсә нинди суммага язылгач тулысынча бетерелә.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Рекламаны теләсә нинди суммадагы иганә белән мәңгегә бетерегез. Сез шулай ук ​​рекламаны бетерү өчен ай саен иганә бирә аласыз</string>
+    <string name="donation_subs_any_amount_text">Реклама ай саен теләсә нинди суммага язылу актив булганда тулысынча бетерелә.</string>
     <string name="donation_subs_manage_btn_text">Язылудан баш тарту</string>
+    <string name="donation_subs_no_free_trial_explanation_text">Кушымта язылу өчен сынау вакыты бирми, чөнки кушымтаның барлык функцияләре дә бушлай, язылу рекламаны бетерә</string>
+    <string name="donation_subs_one_text">Подписка актив булганда реклама тулысынча бетерелә.</string>
     <string name="donation_subs_text">Ай саен бүләк итегез</string>
     <string name="format_altitude">Биеклек</string>
     <string name="format_degrees">Координаталар</string>
@@ -56,6 +65,7 @@
     <string name="from">дан</string>
     <string name="hour">сәгать</string>
     <string name="hours">сәгатьләр</string>
+    <string name="month">ай</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Кушымта батареяны оптимизацияләүдән читтә калмый. Әгәр дә фотоаппарат фонда яки башка берәр нәрсәдә эшләми икән, бу кушымтаны энергия саклау режимыннан кала өстәгез.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Әгәр дә сез кушымтаны Android 11\'ка яңадан урнаштырсагыз, иске файллар кул белән бетерелергә тиеш</string>
     <string name="msg_auto_recording_service_was_stopped">Видео язуны автоматик рәвештә башлау өчен сез фон хезмәтен туктаттыгыз. Аны яңадан җибәрү өчен кушымтаны ачыгыз.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Аудионы Bluetooth җайланмасыннан яздырып алыгыз</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Bluetooth гарнитуры белән генә кулланыгыз. Әгәр сез баш җайланмага (машина радиосы) Bluetooth аша тоташсагыз, нигәдер бу автоматик рәвештә бу җайланмадагы стандарт номерга шалтыратуны җибәрергә мөмкин.</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Баш агрегат (машина радиосы) белән кулланмагыз!</string>
+    <string name="prefs_audio_codec_title">Аудио кодек</string>
     <string name="prefs_audio_priority_sum">Кушылса, башка кушымталар микрофонны куллана алмаячак. Инвалид булса, бу кушымта микрофон ярдәмендә берничә кушымта эшләгәндә аудио яздыра алмый (Android һәрвакыт микрофонны берьюлы кулланырга рөхсәт итми).</string>
     <string name="prefs_audio_priority_title">Бу кушымтага аудио өстенлек бирегез</string>
     <string name="prefs_audio_rate_text">Plрнәк алу ешлыгы</string>
     <string name="prefs_audio_recording_text">Аудио язу</string>
     <string name="prefs_audio_settings_sum_text">Тавыш язуда сыйфат, сүндерү</string>
     <string name="prefs_audio_settings_text">Тавыш көйләүләре</string>
+    <string name="prefs_audio_source_camcorder_text">CAMCORDER-тан аудио язу кайбер җайланмаларда эшләмәскә мөмкин, бу очракта MIC-ка үзгәрергә тырышыгыз</string>
+    <string name="prefs_audio_source_text">Аудио чыганак</string>
     <string name="prefs_audio_stereo_text">Стерео</string>
     <string name="prefs_auto_start_app_launch_sum_text">Кушымта башлангач, видео язуны автоматик рәвештә башлагыз</string>
     <string name="prefs_auto_start_app_launch_text">Кушымтаны эшләтеп җибәргәндә</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Аудио джекка тоташканда йөгерегез (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Аудио джектан өзелгәндә туктагыз (AUX)</string>
     <string name="prefs_battery_optimization_sum_text">Батарейканы оптимизацияләү кушымтаның дөрес эшләвенә комачаулый ала (мәсәлән, фотоаппаратны куллану яки фонда видео яздырганда урынны яңарту). Бу кушымтаны сүндерү өчен монда басыгыз</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">Батарейканы оптимизацияләү кушымтаның дөрес эшләвенә комачаулый ала (мәсәлән, камера һәм микрофон кулланып). Бу кушымтаны сүндерү өчен монда басыгыз</string>
     <string name="prefs_battery_optimization_text">Батареяны оптимизацияләү</string>
     <string name="prefs_beep_each_start_recording_sum_text">Киләсе видео файлны яздыру башында сигнал</string>
     <string name="prefs_beep_each_start_recording_text">Язганда тавыш бирегез</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Пейзаж</string>
     <string name="prefs_orientation_landscape_reversed">Альбом кире</string>
     <string name="prefs_orientation_portrait">Портрет</string>
+    <string name="prefs_orientation_sensor_automatic">Автомат</string>
     <string name="prefs_other_auto_deleting_sum_text">Яңа видеолар өчен урын җитмәсә, яздырганда иң иске видеоларны автоматик рәвештә бетерегез</string>
     <string name="prefs_other_auto_deleting_text">Күчереп язу</string>
     <string name="prefs_other_date_time_text">дата һәм вакыт</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Фото урыны (папка /юл)</string>
     <string name="prefs_other_path_text">Видео урыны (папка /юл)</string>
     <string name="prefs_other_settings_sum_text">Видео урыны (папканы саклагыз), видео озынлыгы, цикл язу, G-сенсор, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Видео язмаларның урнашуы (саклау өчен папка), видео озынлыгы, цикл язу, максималь видео зурлыгы</string>
     <string name="prefs_other_settings_text">Башка көйләүләр</string>
     <string name="prefs_other_show_address_text">Хәзерге урнашу адресы</string>
     <string name="prefs_other_show_altitude_text">Диңгез өслегеннән биеклек</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Кушымтаны эшләтеп җибәргәндә, зарядны кабызыгыз /сүндерегез, системаны йөкләгез</string>
     <string name="prefs_screen_autostart_text">Автостарт язу</string>
     <string name="prefs_screen_ui_summary_text">Экран тиз /озын басу, экранны сүндерү, адрес һәм тизлекне күрсәтү, ачылган тәрәзә, төймәләр һ.б.</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Язуны башлау өчен кыска юл, экранда тиз һәм озын басу, ачылган тәрәзә, язганда тибрәнү, тавыш хәбәр итү, тибрәнү, экрандагы төймәләр, экранны сүндерү һ.б.</string>
     <string name="prefs_screen_ui_title">Интерфейс (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Билгеле вакытта камера көндез /төн режимын автоматик рәвештә күчә</string>
     <string name="prefs_screen_video_day_night_mode_text">Автомобиль көне /Төнге көйләүләр</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">Видеоларны кабат язудан тыю</string>
     <string name="prefs_show_overlay_btn_sum_text">Барлык кушымталар өстендә контроль төймәләре булган тәрәзәне күрсәтә</string>
     <string name="prefs_show_overlay_btn_text">Йөзүче тәрәзәне күрсәт</string>
+    <string name="prefs_show_overlay_on_recording_text">Язу башланганда йөзүче тәрәзәне күрсәт</string>
     <string name="prefs_show_status_bar_text">Система статусын күрсәтегез</string>
     <string name="prefs_show_take_photo_btn_text">Фото ясау</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Хәзерге камера ярдәмендә түгел. Manufactитештерүчеләр аны куллануны еш чиклиләр - ул стандарт Камера кушымтасында гына бар</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Видео астындагы субтитрларны каплагыз</string>
     <string name="prefs_subtitles_position_bottom_text">Түбәндәге субтитрлар</string>
     <string name="prefs_subtitles_settings_sum_text">Видео язмаларны каплагыз: Дата (вакыт), урнашу адресы, координаталар һәм тизлек</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Видеодагы язуларны каплау: дата (вакыт маркасы), махсус текст</string>
     <string name="prefs_subtitles_settings_text">Субтитр көйләүләре</string>
     <string name="prefs_subtitles_size_text">Текст күләмен арттыру</string>
     <string name="prefs_subtitles_speed_text">Тизлек</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Хаталар турында хәбәр итү, ватылу яки тәкъдим ясау</string>
     <string name="prefs_support_text">Ярдәм (кире кайту)</string>
     <string name="prefs_system_alert_window_sum_text">Бу кушымтаны бүтән кушымталар өстендә күрергә рөхсәт итегез. Бу видео язуны автоматик рәвештә башлау /туктату яки йөзүче тәрәзәне күрсәтү өчен кирәк</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Бу кушымтаны бүтән кушымталар өстендә күрергә рөхсәт итегез. Йөзүче тәрәзәне күрсәтү өчен бу кирәк</string>
     <string name="prefs_system_alert_window_text">Барлык тәрәзәләр өстендә резолюция</string>
     <string name="prefs_theme_mode_dark">Кара тема</string>
+    <string name="prefs_theme_mode_dynamic">Динамик</string>
     <string name="prefs_theme_mode_light">Lightиңел тема</string>
     <string name="prefs_theme_mode_system_auto">Системада булган кебек (автоматик)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Бу көйләнүне куллану һәм күзәтү хезмәтен башлау өчен төп экранга (язмалар) кире кайтыгыз</string>
     <string name="prefs_toolbar_title_setting">Көйләүләр</string>
     <string name="prefs_translate_sum_text">Сезнең телегездәге текст тәрҗемәсен яхшыртырга яки төзәтергә булышыгыз</string>
     <string name="prefs_translate_text">Кушымта тәрҗемәсе</string>
+    <string name="prefs_ui_app_icon_and_label_change">Системада кушымтаның иконасын һәм исемен үзгәртегез</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">Changeзгәрешләрдән соң кушымта ябылырга мөмкин, иске иконка телефонның төп экранында (яки барлык кушымталар исемлегендә) бетереләчәк, һәм яңасы барлыкка киләчәк.</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Эшләтүченең иконасын һәм исемен куегыз</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Хәбәрләр иконасын һәм исемен үзгәртү</string>
+    <string name="prefs_ui_camera_preview_sum_text">Төп кушымта экранында камера алдан карау</string>
+    <string name="prefs_ui_camera_preview_text">Камераны алдан карау</string>
     <string name="prefs_ui_click_none_text">Бернәрсә дә эшләргә ярамый</string>
     <string name="prefs_ui_click_start_stop_rec_text">Язуны башлау /туктату</string>
     <string name="prefs_ui_click_text">Экранга тиз басыгыз</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Битрат (сыйфат)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Камера белән идарә итү күренеше режимы (Төн)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Камера белән идарә итү сәхнә режимы (көн)</string>
+    <string name="prefs_video_codec_sum_text">H.265 HEVC һәм AV1 кодеклары түбән битратларда H.264 AVC белән чагыштырганда яхшырак сыйфат бирә, шуңа күрә битратны киметеп урынны саклап кала аласыз. Ләкин видео кайбер плейерларда уйнамаска мөмкин</string>
+    <string name="prefs_video_codec_text">Видео кодек</string>
     <string name="prefs_video_control_scene_mode_beach_text">Пляж (якты һава торышы)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Гомуми /йөз өстенлеге</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (югары динамик диапазон)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Камера фокусы (төн)</string>
     <string name="prefs_video_focus_text">Камера фокусы (көн)</string>
     <string name="prefs_video_fps_range_text">Секундка кадрлар (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Урынны саклау өчен HEVC (H.265) форматында яздырыгыз. Сез бүтән видео уйнау җайланмаларында яки кушымталарда андый видеолар уйный алмыйсыз. Resolutionзгәрешләрдән соң резолюцияне яңартачак һәм битрат</string>
-    <string name="prefs_video_hevc_text">Videoгары эффектив видео кодлау</string>
     <string name="prefs_video_orientation_text">Видео һәм телефон юнәлеше</string>
     <string name="prefs_video_resolution_text">Видео резолюциясе</string>
     <string name="prefs_video_settings_sum_text">Резолюция, бит дәрәҗәсе, юнәлеш, фокус, камера, төнге режим</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Зуррак зурлык - тизрәк батарея агызу</string>
     <string name="prefs_video_space_unlimited">Чикләнмәгән</string>
     <string name="prefs_video_stabilization_text">Видео тотрыклылыгы</string>
+    <string name="prefs_voice_recorder_app">Фонда магнитофон</string>
     <string name="prefs_warning_location_precise_sum_text">Бу GPS нигезендә иң төгәл тизлекне, адрес һәм координаталарны алу өчен кирәк. Тапшыру өчен басыгыз</string>
     <string name="prefs_warning_location_precise_text">Төгәл урнашу өчен рөхсәт</string>
     <string name="prefs_warning_notifications_sum_text">Фон язу хезмәтен һәм статусны хәбәр итү панелендә күрсәтә белү таләп ителә. Тапшыру өчен басыгыз</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">Чиста</string>
     <string name="rec_off_text">Сүндерелгән</string>
     <string name="rec_on_text">Incәр сүзнең.</string>
-    <string name="rec_service_msg">Хосусыйлык: Сез язган барлык видеолар сезнең җирле җайланмада гына сакланачак. Кушымта сезнең видеоларны резервламый (серверларга бернинди бәйләнеше дә юк)\n\nӘгәр дә сез яңа язуны башлап, төп экранга кире кайтсагыз, бүтән кушымтага күчә яки язуны дәвам итәр өчен телефоныгызны ябсагыз, кушымта фонда эшләвен дәвам итәчәк (хәбәр итү тактасында күрсәтелгән алгы хезмәт). сез автоматик язу өчен функцияләрне кабызасыз (фон хезмәтен япсагыз, бу функцияләр эшләмәячәк).</string>
+    <string name="rec_service_msg">Хосусыйлык: Сез язган барлык видеолар сезнең җирле җайланмада гына сакланачак. Кушымта сезнең видеоларны резервламый (серверларга бернинди бәйләнеше дә юк)\n\nКушымта фонда эшләүне дәвам итәчәк (хәбәр итү тактасында күрсәтелгән алгы хезмәт), язу актив булганда, төп экранга кайткач, бүтән кушымтага күчә яки язуны дәвам итәр өчен телефоныгызны бикләгез, һәм сез кабызганда автоматик язу өчен үзенчәлекләр (фон хезмәтен япсагыз, бу функцияләр эшләмәячәк). Кушымта төп аноним аналитика өчен Firebase Analytics куллана (астагы сылтаманы карагыз)</string>
+    <string name="recording_file_name_prefix">Видео файл исемнәре өчен префикс</string>
     <string name="recording_start_text">Язуны башлау</string>
     <string name="recording_started_failed_text">Язуны башлауда хата</string>
     <string name="recording_started_with_audio_text">Аудио язу белән яңа видео язу башланды</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">Язу…</string>
     <string name="recording_voice_started_text">Язу башланды</string>
     <string name="recording_voice_stopped_text">Язу туктады</string>
+    <string name="records_file_sorting_date">Дата</string>
+    <string name="records_file_sorting_duration">Озынлыгы</string>
+    <string name="records_file_sorting_name">Исем</string>
+    <string name="records_file_sorting_size">Файл зурлыгы</string>
+    <string name="records_file_upload_drive">\"Google Drive\" га саклагыз</string>
     <string name="reset">агызу</string>
     <string name="storage_external_single">MicroSD картасы</string>
     <string name="storage_phone">Телефон хәтере</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Бетерү режимы</string>
     <string name="videos_file_item_share">Моны бүлешегез</string>
     <string name="videos_file_item_watch">Карагыз</string>
+    <string name="videos_file_open_with">Ачык</string>
+    <string name="videos_file_select">Өчен сайлагыз</string>
     <string name="videos_file_sort_asc">Сортны күтәрү</string>
     <string name="videos_file_sort_desc">Төшү</string>
     <string name="videos_file_was_locked_text">Видео файл сакланган папкага күчерелде</string>

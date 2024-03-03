@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">ech akzeptéieren</string>
     <string name="any_text">All</string>
+    <string name="app_alternative_name_audio">Audio</string>
+    <string name="app_alternative_name_battery">Batterie Astellunge</string>
+    <string name="app_alternative_name_media">Medien</string>
+    <string name="app_alternative_name_media_player">Media Player</string>
+    <string name="app_alternative_name_video">Video</string>
+    <string name="app_name_backgroundvideorecorder">Hannergrond Video Opnahmen</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - Driving DVR</string>
     <string name="camera">Kamera</string>
     <string name="camera_aperture">Diaphragma</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">D\'Kamera ass temporär (war) net verfügbar fir op Ärem Apparat opzemaachen (Kamerasystemfehler)</string>
     <string name="camera_support_error">E Feeler ass geschitt beim Gebrauch vun der Kamera.</string>
     <string name="close">Zoumaachen</string>
+    <string name="days">Deeg</string>
     <string name="default_text">Default</string>
     <string name="dialog_camera_not_found_msg_text">Dësen Apparat huet keng agebaut Kamera an ënnerstëtzt keng extern Kameraen. Ofschloss…</string>
     <string name="dialog_camera_not_found_text">Kamera net fonnt</string>
@@ -39,8 +46,10 @@
     <string name="donation_level_text">Ären Don Niveau:</string>
     <string name="donation_purchase_info_loading_text">D\'Akaafsinformatioun gouf nach net eropgelueden. Sidd Dir online an aloggen op Äre Google Kont?</string>
     <string name="donation_remove_ads_by_any_amount_text">Ewechzehuelen Annoncen fir ëmmer mat engem eemolegen Don vun all Betrag. Dir kënnt och all Mount spenden fir Annoncen ze läschen</string>
-    <string name="donation_subs_any_amount_text">Och Reklamm gëtt komplett geläscht wann Dir Iech fir all Betrag abonnéiert.</string>
+    <string name="donation_subs_any_amount_text">Reklamm gëtt komplett geläscht wärend en Abonnement fir all Betrag pro Mount aktiv ass.</string>
     <string name="donation_subs_manage_btn_text">Abonnéieren</string>
+    <string name="donation_subs_no_free_trial_explanation_text">D\'Applikatioun bitt keng Testperiod fir Abonnementer, well all Funktiounen vun der Applikatioun scho gratis sinn, Abonnement läscht nëmme Reklammen</string>
+    <string name="donation_subs_one_text">D\'Reklamm gëtt komplett geläscht wärend den Abonnement aktiv ass.</string>
     <string name="donation_subs_text">Spende monatlecht</string>
     <string name="format_altitude">Héicht</string>
     <string name="format_degrees">Koordinaten</string>
@@ -56,6 +65,7 @@
     <string name="from">vun</string>
     <string name="hour">Stonn</string>
     <string name="hours">Stonnen</string>
+    <string name="month">Mount</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">D\'Applikatioun ass net vun der Batterieoptimiséierung ausgeschloss. Wann d\'Kamera net am Hannergrond leeft oder soss eppes, füügt dës Applikatioun un d\'Ausnahmen vum Energiespuermodus.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Wann Dir d\'Applikatioun op Android 11 nei installéiert hutt, da mussen déi al Dateien manuell geläscht ginn</string>
     <string name="msg_auto_recording_service_was_stopped">Dir hutt den Hannergronddéngscht gestoppt fir automatesch Videoopnam ze starten. Öffnen d\'Applikatioun fir se erëm ze starten.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Rekord Audio vun engem Bluetooth Apparat</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Benotzt nëmme mat Bluetooth Kopfhörer. Wann Dir mat der Kopfhörer (Autoradio) iwwer Bluetooth verbënnt, da kann dëst aus iergendengem Grond automatesch en Uruff un d\'Standardnummer op dësem Apparat ausléisen</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Benotzt net mat Kapp Eenheet (Autoradio)!</string>
+    <string name="prefs_audio_codec_title">Audio codec</string>
     <string name="prefs_audio_priority_sum">Wann aktivéiert, kënnen aner Uwendungen de Mikrofon net benotzen. Wann deaktivéiert ass, kann dës Applikatioun net fäeg sinn Audio opzehuelen wann verschidde Applikatioune mam Mikrofon lafen (Android erlaabt net ëmmer gläichzäiteg Benotzung vum Mikro)</string>
     <string name="prefs_audio_priority_title">Prioritéit Audio fir dës App</string>
     <string name="prefs_audio_rate_text">Sampling Frequenz</string>
     <string name="prefs_audio_recording_text">Audio Opnam</string>
     <string name="prefs_audio_settings_sum_text">Qualitéit, aus /op Tounopnam</string>
     <string name="prefs_audio_settings_text">Sound Astellunge</string>
+    <string name="prefs_audio_source_camcorder_text">Audioopname vu CAMCORDER funktionnéiert vläicht net op e puer Apparater, probéiert an dësem Fall op MIC z\'änneren</string>
+    <string name="prefs_audio_source_text">Audio Quell</string>
     <string name="prefs_audio_stereo_text">Stereo</string>
     <string name="prefs_auto_start_app_launch_sum_text">Start Video Recording automatesch wann d\'App ufänkt</string>
     <string name="prefs_auto_start_app_launch_text">Beim Start vun der Applikatioun</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Run wann se an den Audio Jack (AUX) gesteckt sinn</string>
     <string name="prefs_aux_auto_stop_text">Stop wann Dir vum Audio Jack (AUX) getrennt ass</string>
     <string name="prefs_battery_optimization_sum_text">Batterieoptimiséierung kann verhënneren datt d\'App richteg funktionnéiert (zum Beispill d\'Kamera benotzen oder d\'Location aktualiséieren wärend e Video am Hannergrond opgeholl gëtt). Klickt hei fir et elo fir dës Applikatioun auszeschalten</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">Batterieoptimiséierung kann verhënneren datt d\'Applikatioun richteg funktionnéiert (zum Beispill d\'Kamera a Mikrofon benotzen). Klickt hei fir et elo fir dës Applikatioun auszeschalten</string>
     <string name="prefs_battery_optimization_text">Batterie Optimisatioun</string>
     <string name="prefs_beep_each_start_recording_sum_text">Signal am Ufank vun der Opnam vun der nächster Videodatei</string>
     <string name="prefs_beep_each_start_recording_text">Beep beim Opnam</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Landschaft</string>
     <string name="prefs_orientation_landscape_reversed">Album ëmgedréint</string>
     <string name="prefs_orientation_portrait">Portrait</string>
+    <string name="prefs_orientation_sensor_automatic">Automatesch</string>
     <string name="prefs_other_auto_deleting_sum_text">Läscht automatesch déi eelst Videoen beim Opnam wann et net genuch Plaz fir nei Videoen ass</string>
     <string name="prefs_other_auto_deleting_text">Loop Opnam</string>
     <string name="prefs_other_date_time_text">Datum an Zäit</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Foto Location (Dossier /Wee)</string>
     <string name="prefs_other_path_text">Video Location (Dossier /Wee)</string>
     <string name="prefs_other_settings_sum_text">Video Location (Späicheren Dossier), Video Dauer, Loop Opnam, G-Sensor, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Location vu Videoopnamen (Dossier fir ze späicheren), Videodauer, Loopopnam, maximal Videogréisst</string>
     <string name="prefs_other_settings_text">Aner Astellungen</string>
     <string name="prefs_other_show_address_text">Aktuell Standuert Adress</string>
     <string name="prefs_other_show_altitude_text">Héicht iwwer dem Mieresspigel</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Wann Dir d\'Applikatioun start, schalt d\'Laden un /aus, boot de System</string>
     <string name="prefs_screen_autostart_text">Autostart Opnahmen</string>
     <string name="prefs_screen_ui_summary_text">Écran séier /laang Press, Écran aus, Adress- a Geschwindegkeetsdisplay, Popupfenster, Knäppercher a méi</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Ofkiirzung fir den Opnahmen unzefänken, séier a laang Press um Écran, Pop-up Fënster, Schwéngung beim Opnam, Toun Notifikatioun, Schwéngung, Knäppercher um Écran, Écran ausschalten a méi</string>
     <string name="prefs_screen_ui_title">Interface (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Schalt automatesch Kamera Dag /Nuecht Modi op spezifesch Zäiten</string>
     <string name="prefs_screen_video_day_night_mode_text">Auto Dag /Nuecht Astellungen</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">Blockéiert Videoe fir iwwerschriwwe ginn</string>
     <string name="prefs_show_overlay_btn_sum_text">Weist eng Fënster mat Kontrollknäppchen uewen op all Applikatiounen</string>
     <string name="prefs_show_overlay_btn_text">Show schwiewend Fënster</string>
+    <string name="prefs_show_overlay_on_recording_text">Show schwiewend Fënster wann d\'Opnahm ufänkt</string>
     <string name="prefs_show_status_bar_text">Show System Status Bar</string>
     <string name="prefs_show_take_photo_btn_text">Fir eng Foto ze maachen</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Net ënnerstëtzt vun der aktueller Kamera. Hiersteller limitéieren dacks seng Notzung - et ass nëmmen an der Standard Kamera Applikatioun verfügbar</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Overlay Ënnertitelen um Enn vum Video</string>
     <string name="prefs_subtitles_position_bottom_text">Ënnertitelen um ënnen</string>
     <string name="prefs_subtitles_settings_sum_text">Overlay Video Ënnerschrëften: Datum (Zäit), Adress Adress, Koordinaten a Geschwindegkeet</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Iwwerschrëft Iwwerschrëften op Videoen: Datum (Zäitstempel), personaliséierten Text</string>
     <string name="prefs_subtitles_settings_text">Ënnertitel Astellunge</string>
     <string name="prefs_subtitles_size_text">Erhéijung Text Gréisst</string>
     <string name="prefs_subtitles_speed_text">Speed</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Bericht e Feeler, Crash oder maacht eng Offer</string>
     <string name="prefs_support_text">Ënnerstëtzung (Feedback)</string>
     <string name="prefs_system_alert_window_sum_text">Erlaabt dës App uewen op all aner Apps ze erschéngen. Dëst ass néideg fir automatesch d\'Videoopnam ze starten /ze stoppen oder eng schwiewend Fënster ze weisen</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Erlaabt dës App uewen op all aner Apps ze erschéngen. Dëst ass néideg fir eng schwiewend Fënster ze weisen</string>
     <string name="prefs_system_alert_window_text">Resolutioun uewen op all Fënsteren</string>
     <string name="prefs_theme_mode_dark">Däischter Thema</string>
+    <string name="prefs_theme_mode_dynamic">Dynamesch</string>
     <string name="prefs_theme_mode_light">Liicht Thema</string>
     <string name="prefs_theme_mode_system_auto">Wéi am System (automatesch)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Zréck op den Heembildschierm (Opzeechnungen) fir dës Astellung z\'applizéieren an den Tracking Service unzefänken</string>
     <string name="prefs_toolbar_title_setting">Astellungen</string>
     <string name="prefs_translate_sum_text">Hëlleft d\'Iwwersetzung vum Text an Ärer Sprooch ze verbesseren oder ze fixéieren</string>
     <string name="prefs_translate_text">Applikatioun Iwwersetzung</string>
+    <string name="prefs_ui_app_icon_and_label_change">Ännert d\'Ikon an den Numm vun der Applikatioun am System</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">No der Ännerung kann d\'Applikatioun zoumaachen, déi al Ikon gëtt um Haaptbildschierm vum Telefon geläscht (oder an der Lëscht vun all Uwendungen), an eng nei erschéngt</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Setzt d\'Ikon an den Numm vum Starter</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Änneren Notifikatioun Ikon an Numm</string>
+    <string name="prefs_ui_camera_preview_sum_text">Show Kamera Virschau op Haaptapp Écran</string>
+    <string name="prefs_ui_camera_preview_text">Kamera Virschau</string>
     <string name="prefs_ui_click_none_text">Näischt ze dinn</string>
     <string name="prefs_ui_click_start_stop_rec_text">Opname starten /stoppen</string>
     <string name="prefs_ui_click_text">Schnell tippt um Écran</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Bitrate (Qualitéit)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kamera Kontroll Szene Modus (Nuecht)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kamera Kontroll Szene Modus (Dag)</string>
+    <string name="prefs_video_codec_sum_text">H.265 HEVC an AV1 Codecs bidden besser Qualitéit bei méi nidderegen Bitrates wéi H.264 AVC, sou datt Dir Plaz spuere kënnt andeems Dir de Bitrate reduzéiert. Awer Videoe kënnen net an e puer Videospiller spillen</string>
+    <string name="prefs_video_codec_text">Video Codec</string>
     <string name="prefs_video_control_scene_mode_beach_text">Plage (hell Wieder)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Allgemeng /Gesiicht Prioritéit</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (High Dynamic Range)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Kamerafokus (Nuecht)</string>
     <string name="prefs_video_focus_text">Kamerafokus (Dag)</string>
     <string name="prefs_video_fps_range_text">Frames pro Second (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Rekord am HEVC (H.265) Format fir Plaz ze spueren. Dir kënnt net kënnen esou Videoen op anere Video playback Apparater oder Uwendungen ze spillen. Wäert Resolutioun an bitrate no Ännerung zréckgesat</string>
-    <string name="prefs_video_hevc_text">Héich effizient Videokodéierung</string>
     <string name="prefs_video_orientation_text">Video an Telefon Orientatioun</string>
     <string name="prefs_video_resolution_text">Video Resolutioun</string>
     <string name="prefs_video_settings_sum_text">Resolutioun, Bitrate, Orientéierung, Fokus, Kamera, Nuetsmodus</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Méi grouss Gréisst - méi séier Batterie drain</string>
     <string name="prefs_video_space_unlimited">Onlimitéiert</string>
     <string name="prefs_video_stabilization_text">Video Stabiliséierung</string>
+    <string name="prefs_voice_recorder_app">Stëmm Recorder am Hannergrond</string>
     <string name="prefs_warning_location_precise_sum_text">Dëst ass néideg fir déi genaust GPS-baséiert Geschwindegkeet ze kréien, souwéi Adress a Koordinaten. Klickt fir ofzeginn</string>
     <string name="prefs_warning_location_precise_text">Erlaabnis fir exakt Plaz</string>
     <string name="prefs_warning_notifications_sum_text">Erfuerderlech fir den Hannergrondopnamservice an d\'Status op der Notifikatiounspanel ze weisen. Klickt fir ofzeginn</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">Net</string>
     <string name="rec_off_text">Off</string>
     <string name="rec_on_text">Inkl.</string>
-    <string name="rec_service_msg">Privatsphär: All Videoen déi Dir opgeholl hutt ginn nëmmen op Ärem lokalen Apparat gespäichert. D\'Applikatioun mécht keng Backupsatellit vun Äre Videoen (huet keng Verbindunge mat Serveren)\n\nD\'App leeft weider am Hannergrond (de Virdergrond Service deen an der Notifikatiounsbar erschéngt) wann Dir eng nei Opnam ufänkt an op den Heembildschierm zréckkënnt, op eng aner App wiesselt oder Ären Telefon gespaart fir weider opzehuelen, oder wann Dir schalt Funktiounen fir automatesch Opnahmen un (wann Dir den Hannergrondservice zoumaacht, funktionnéieren dës Funktiounen net).</string>
+    <string name="rec_service_msg">Privatsphär: All Videoen, déi Dir opgeholl hutt, ginn nëmmen op Ärem lokalen Apparat gespäichert. D\'Applikatioun mécht keng Backupsatellit vun Äre Videoen (huet keng Verbindunge mat Serveren)\n\nD\'App leeft weider am Hannergrond (de Virdergrond Service deen an der Notifikatiounsbar erschéngt) wärend den Opnahmen aktiv ass, wann Dir op den Heembildschierm zréckkënnt, op eng aner App wiesselt oder Ären Telefon gespaart fir weider opzehuelen, a wann Dir aschalt Features fir automatesch Opnam (wann Dir den Hannergrondservice zoumaacht, funktionnéieren dës Funktiounen net). D\'App benotzt Firebase Analytics fir Basis anonym Analyse (kuckt de Link hei ënnen)</string>
+    <string name="recording_file_name_prefix">Präfix fir Videodateiennimm</string>
     <string name="recording_start_text">Start opzehuelen</string>
     <string name="recording_started_failed_text">Feeler beim Start vun der Opnam</string>
     <string name="recording_started_with_audio_text">Eng nei Videoopnam mat Audioopnam huet ugefaang</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">Opnam…</string>
     <string name="recording_voice_started_text">D\'Opnahmen hunn ugefaang</string>
     <string name="recording_voice_stopped_text">Opnahmen gestoppt</string>
+    <string name="records_file_sorting_date">Datum</string>
+    <string name="records_file_sorting_duration">Dauer</string>
+    <string name="records_file_sorting_name">Numm</string>
+    <string name="records_file_sorting_size">Dateigréisst</string>
+    <string name="records_file_upload_drive">Späichert op \"Google Drive\"</string>
     <string name="reset">Auslaaf</string>
     <string name="storage_external_single">MicroSD Kaart</string>
     <string name="storage_phone">Telefon Erënnerung</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Modus läschen</string>
     <string name="videos_file_item_share">Deelt dëst</string>
     <string name="videos_file_item_watch">Kuckt</string>
+    <string name="videos_file_open_with">Oppen mat</string>
+    <string name="videos_file_select">Wielt fir</string>
     <string name="videos_file_sort_asc">Sortéieren opsteigend</string>
     <string name="videos_file_sort_desc">Sortéieren erofgaang</string>
     <string name="videos_file_was_locked_text">D\'Videodatei gouf an e geschützte Dossier geplënnert</string>

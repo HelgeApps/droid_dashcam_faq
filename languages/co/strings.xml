@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">Accettu</string>
     <string name="any_text">Qualchese</string>
+    <string name="app_alternative_name_audio">Audio</string>
+    <string name="app_alternative_name_battery">Paràmetri di a batteria</string>
+    <string name="app_alternative_name_media">Media</string>
+    <string name="app_alternative_name_media_player">Media Player</string>
+    <string name="app_alternative_name_video">Video</string>
+    <string name="app_name_backgroundvideorecorder">Registrazione video di fondo</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - Guida DVR</string>
     <string name="camera">Camera</string>
     <string name="camera_aperture">Diaframma</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">A camera hè temporaneamente (era) indisponibile per apre nantu à u vostru dispositivu (errore di u sistema di càmera)</string>
     <string name="camera_support_error">Un errore hè accadutu durante l\'usu di a camera.</string>
     <string name="close">Chiudi</string>
+    <string name="days">ghjorni</string>
     <string name="default_text">Default</string>
     <string name="dialog_camera_not_found_msg_text">Stu dispusitivu ùn hà micca una camera integrata è ùn sustene micca e camere esterne. Chiusu…</string>
     <string name="dialog_camera_not_found_text">Camera ùn hè micca trovu</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">Ùn avete micca annunzii.</string>
     <string name="donation_level_text">U vostru livellu di donazione:</string>
     <string name="donation_purchase_info_loading_text">L\'infurmazione di shopping ùn hè ancu stata caricata. Sò in linea è cunnessu à u vostru contu Google?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Eliminate l\'annunzii per sempre cun una donazione una volta di qualsiasi quantità. Pudete ancu donà ogni quantità mensili per sguassà l\'annunzii</string>
-    <string name="donation_subs_any_amount_text">Inoltre, a publicità hè sguassata cumplettamente quandu vi abbonate per qualsiasi quantità.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Eliminate l\'annunzii per sempre cun una donazione una volta di qualsiasi quantità. Pudete ancu donate mensili per sguassà l\'annunzii</string>
+    <string name="donation_subs_any_amount_text">A publicità hè sguassata cumplettamente mentre un abbonamentu per ogni quantità per mese hè attivu.</string>
     <string name="donation_subs_manage_btn_text">Unsubscribe</string>
+    <string name="donation_subs_no_free_trial_explanation_text">L\'applicazione ùn furnisce micca un periodu di prova per l\'abbonamenti, postu chì tutte e funzioni di l\'applicazione sò digià gratuite, l\'abbonamentu elimina solu a publicità</string>
+    <string name="donation_subs_one_text">A publicità hè completamente eliminata mentre l\'abbonamentu hè attivu.</string>
     <string name="donation_subs_text">Donate mensili</string>
     <string name="format_altitude">Altezza</string>
     <string name="format_degrees">Coordenate</string>
@@ -56,6 +65,7 @@
     <string name="from">da</string>
     <string name="hour">ora</string>
     <string name="hours">ore</string>
+    <string name="month">mese</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">L\'applicazione ùn hè micca escluduta da l\'ottimisazione di a bateria. Se a camera ùn hè micca in sfondate o qualcosa d\'altru, allora aghjunghje sta applicazione à l\'eccezzioni di u modu di risparmiu di energia.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Se avete reinstallatu l\'applicazione in Android 11, allora i vechji schedari devenu esse sguassati manualmente</string>
     <string name="msg_auto_recording_service_was_stopped">Avete firmatu u serviziu di fondo per inizià automaticamente a registrazione video. Aprite l\'applicazione per lancià di novu.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Registra l\'audio da un dispositivu Bluetooth</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Aduprà solu cù cuffie Bluetooth. Se cunnette à l\'unità principale (radio di vittura) via Bluetooth, allora per qualchì mutivu questu pò automaticamente attivà una telefonata à u numeru standard di stu dispusitivu.</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Ùn aduprate micca cù l\'unità principale (radio di vittura)!</string>
+    <string name="prefs_audio_codec_title">Codec audio</string>
     <string name="prefs_audio_priority_sum">Se attivatu, altre applicazioni ùn puderanu micca aduprà u microfonu. Se disabilitata, sta applicazione pò esse micca capace di registrà l\'audio quandu parechje applicazioni sò in esecuzione cù u microfonu (Android ùn permette micca sempre l\'usu simultaneo di u microfonu)</string>
     <string name="prefs_audio_priority_title">Priorità audio à sta app</string>
     <string name="prefs_audio_rate_text">Frequenza di campionamentu</string>
     <string name="prefs_audio_recording_text">Arregistramentu audio</string>
     <string name="prefs_audio_settings_sum_text">Qualità, off /on registrazione di sonu</string>
     <string name="prefs_audio_settings_text">Paràmetri di u sonu</string>
+    <string name="prefs_audio_source_camcorder_text">L\'arregistramentu audio da CAMCORDER pò micca funziona in certi dispositi, in questu casu pruvate à cambià à MIC</string>
+    <string name="prefs_audio_source_text">Fonte Audio</string>
     <string name="prefs_audio_stereo_text">Stereo</string>
     <string name="prefs_auto_start_app_launch_sum_text">Cumincià a registrazione video automaticamente quandu l\'app principia</string>
     <string name="prefs_auto_start_app_launch_text">Quandu principia l\'applicazione</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Eseguite quandu cunnessu à u jack audio (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Arresta quandu hè scollegatu da u jack audio (AUX)</string>
     <string name="prefs_battery_optimization_sum_text">L\'ottimisazione di a bateria pò impedisce chì l\'app funziona correttamente (per esempiu, usendu a camera o aghjurnà u locu mentre registra un video in fondo). Cliccate quì per disattivà per questa applicazione avà</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">L\'ottimisazione di a bateria pò impedisce chì l\'applicazione funziona correttamente (per esempiu, utilizendu a camera è u microfonu). Cliccate quì per disattivà per questa applicazione avà</string>
     <string name="prefs_battery_optimization_text">Ottimisazione di a bateria</string>
     <string name="prefs_beep_each_start_recording_sum_text">Segnale à u principiu di a registrazione di u prossimu file video</string>
     <string name="prefs_beep_each_start_recording_text">Bip durante a registrazione</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">U paisaghju</string>
     <string name="prefs_orientation_landscape_reversed">Album inversu</string>
     <string name="prefs_orientation_portrait">Ritrattu</string>
+    <string name="prefs_orientation_sensor_automatic">autumàticu</string>
     <string name="prefs_other_auto_deleting_sum_text">Sguassate automaticamente i video più antichi durante a registrazione s\'ellu ùn ci hè abbastanza spaziu per i video novi</string>
     <string name="prefs_other_auto_deleting_text">Registrazione in loop</string>
     <string name="prefs_other_date_time_text">data è ora</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Locu di a foto (cartulare /percorsu)</string>
     <string name="prefs_other_path_text">Locu di u video (cartulare /percorsu)</string>
     <string name="prefs_other_settings_sum_text">Locu di u video (cartulare di salvezza), durata di u video, registrazione in loop, G-sensor, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Locu di registrazioni video (cartulare per salvà), durata di video, registrazione in loop, dimensione massima di video</string>
     <string name="prefs_other_settings_text">Altri paràmetri</string>
     <string name="prefs_other_show_address_text">Indirizzu di u locu attuale</string>
     <string name="prefs_other_show_altitude_text">Altezza sopra u livellu di u mari</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Quandu avete principiatu l\'applicazione, accende /spegne a carica, avvia u sistema</string>
     <string name="prefs_screen_autostart_text">Autostart a registrazione</string>
     <string name="prefs_screen_ui_summary_text">Schermata rapida /longa pressa, schermu off, indirizzu è visualizazione di velocità, finestra popup, buttone è più</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Shortcut per inizià a registrazione, pressa rapida è longa nantu à u screnu, finestra pop-up, vibrazione durante a registrazione, notificazione di sonu, vibrazione, buttone nantu à u screnu, spegnimentu di u screnu è più</string>
     <string name="prefs_screen_ui_title">Interfaccia (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Cambia automaticamente i modi di ghjornu /notte di a camera à ore specifiche</string>
     <string name="prefs_screen_video_day_night_mode_text">Paràmetri Auto Day /Night</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">Bloccà i video da esse sovrascritti</string>
     <string name="prefs_show_overlay_btn_sum_text">Mostra una finestra cù i buttoni di cuntrollu nantu à tutte l\'applicazioni</string>
     <string name="prefs_show_overlay_btn_text">Mostra a finestra flottante</string>
+    <string name="prefs_show_overlay_on_recording_text">Mostra a finestra flottante quandu a registrazione principia</string>
     <string name="prefs_show_status_bar_text">Mostra a barra di statutu di u sistema</string>
     <string name="prefs_show_take_photo_btn_text">Per fà una foto</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Ùn hè micca supportatu da a camera attuale. Manufacturers spessu restringe u so usu - hè disponibile solu in l \'applicazzioni Camera standard</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Overlay subtitles à u fondu di u video</string>
     <string name="prefs_subtitles_position_bottom_text">Subtitulos à u fondu</string>
     <string name="prefs_subtitles_settings_sum_text">Sovrapponi dititoli video: Data (ora), indirizzu di locu, coordenate è velocità</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Sovrapponi didascalia nantu à i video: data (timbra di l\'ora), testu persunalizatu</string>
     <string name="prefs_subtitles_settings_text">Paràmetri di sottutituli</string>
     <string name="prefs_subtitles_size_text">Aumentà a dimensione di u testu</string>
     <string name="prefs_subtitles_speed_text">Velocità</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Segnala un bug, crash o fate un\'offerta</string>
     <string name="prefs_support_text">Supportu (feedback)</string>
     <string name="prefs_system_alert_window_sum_text">Permette chì sta app apparissi sopra à tutte l\'altri app. Questu hè necessariu per inizià /piantà automaticamente a registrazione video o per vede una finestra flottante</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Permette chì sta app apparissi sopra à tutte l\'altri app. Questu hè necessariu per vede una finestra flottante</string>
     <string name="prefs_system_alert_window_text">Risoluzione sopra tutte e finestri</string>
     <string name="prefs_theme_mode_dark">Tema scuru</string>
+    <string name="prefs_theme_mode_dynamic">Dinamica</string>
     <string name="prefs_theme_mode_light">Tema luminoso</string>
     <string name="prefs_theme_mode_system_auto">Cum\'è in u sistema (automaticu)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Ritorna à a pantalla di casa (registrazioni) per applicà sta paràmetra è inizià u serviziu di seguimentu</string>
     <string name="prefs_toolbar_title_setting">Settings</string>
     <string name="prefs_translate_sum_text">Aiutate à migliurà o corregge a traduzzione di u testu in a vostra lingua</string>
     <string name="prefs_translate_text">Traduzzione di l\'applicazione</string>
+    <string name="prefs_ui_app_icon_and_label_change">Cambia l\'icona è u nome di l\'applicazione in u sistema</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">Dopu à u cambiamentu, l\'applicazione pò chjude, a vechja icona serà sguassata nantu à a pantalla principale di u telefunu (o in a lista di tutte l\'applicazioni), è apparirà una nova.</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Definite l\'icona è u nome di u lanciatore</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Cambia l\'icona di notificazione è u nome</string>
+    <string name="prefs_ui_camera_preview_sum_text">Mostra l\'anteprima di a camera nantu à a pantalla principale di l\'app</string>
+    <string name="prefs_ui_camera_preview_text">Preview camera</string>
     <string name="prefs_ui_click_none_text">Nunda da fà</string>
     <string name="prefs_ui_click_start_stop_rec_text">Cumincià /ferma a registrazione</string>
     <string name="prefs_ui_click_text">Tap rapidu nantu à u screnu</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Bitrate (qualità)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Modu di scena di cuntrollu di a camera (notte)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Modu di scena di cuntrollu di càmera (ghjornu)</string>
+    <string name="prefs_video_codec_sum_text">I codecs H.265 HEVC è AV1 furniscenu una qualità più bona à bitrates più bassi di H.264 AVC, cusì pudete risparmià spaziu riducendu u bitrate. Ma i video ùn ponu micca ghjucà in certi video players</string>
+    <string name="prefs_video_codec_text">Codec video</string>
     <string name="prefs_video_control_scene_mode_beach_text">Spiaggia (tempu luminoso)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Priorità generale /Face</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (High Dynamic Range)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Focus camera (notte)</string>
     <string name="prefs_video_focus_text">Focus camera (ghjornu)</string>
     <string name="prefs_video_fps_range_text">Frames Per Second (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Registra in u formatu HEVC (H.265) per risparmià spaziu. Ùn pudete micca esse capace di ghjucà tali video nantu à altri dispositi o applicazioni di riproduzione video. Resettarà a risoluzione è u bitrate dopu u cambiamentu</string>
-    <string name="prefs_video_hevc_text">Codificazione video altamente efficiente</string>
     <string name="prefs_video_orientation_text">Orientazione video è telefuninu</string>
     <string name="prefs_video_resolution_text">Risoluzione Video</string>
     <string name="prefs_video_settings_sum_text">Risoluzione, bit rate, orientazione, focus, camera, modalità notte</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Taglia più grande - scaricamentu di a batteria più veloce</string>
     <string name="prefs_video_space_unlimited">Illimitatu</string>
     <string name="prefs_video_stabilization_text">Stabilizazione Video</string>
+    <string name="prefs_voice_recorder_app">Registratore di voce in sfondate</string>
     <string name="prefs_warning_location_precise_sum_text">Questu hè necessariu per ottene a velocità più precisa basata in GPS, è ancu l\'indirizzu è e coordenate. Cliccate per mandà</string>
     <string name="prefs_warning_location_precise_text">Permissione per u locu esatta</string>
     <string name="prefs_warning_notifications_sum_text">Hè necessariu per pudè vede u serviziu di registrazione di fondo è i stati nantu à u pannellu di notificazione. Cliccate per mandà</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">Net</string>
     <string name="rec_off_text">Off</string>
     <string name="rec_on_text">Incl.</string>
-    <string name="rec_service_msg">Privacy: Tutti i video chì arregistrate seranu salvati solu in u vostru dispositivu lucale. L\'applicazione ùn face micca una copia di salvezza di i vostri video (ùn hà micca cunnessione à i servitori)\n\nL\'app cuntinuerà à eseguisce in sfondate (u serviziu di primu pianu chì appare in a barra di notificazione) se cuminciate una nova registrazione è torna à a pantalla di casa, cambiate à un\'altra app o chjude u vostru telefunu per pudè cuntinuà a registrazione, o se attivate e funzioni per a registrazione automatica (se chjude u serviziu di fondo, queste funzioni ùn funziona micca).</string>
+    <string name="rec_service_msg">Privacy: Tutti i video chì arregistrate seranu salvati solu in u vostru dispositivu lucale. L\'applicazione ùn face micca una copia di salvezza di i vostri video (ùn hà micca cunnessione à i servitori)\n\nL\'app cuntinueghja à eseguisce in u sfondate (u serviziu di primu pianu chì appare in a barra di notificazione) mentre a registrazione hè attiva, quandu torna à a pantalla di casa, cambia à un\'altra app o chjude u vostru telefunu per cuntinuà a registrazione, è quandu accende. funziunalità per a registrazione automatica (se chjude u serviziu di fondo, queste funzioni ùn funzionanu micca). L\'app usa Firebase Analytics per analitiche anonime basiche (vede u ligame sottu)</string>
+    <string name="recording_file_name_prefix">Prefissu per i nomi di file video</string>
     <string name="recording_start_text">Cumincià a registrazione</string>
     <string name="recording_started_failed_text">Errore à inizià a registrazione</string>
     <string name="recording_started_with_audio_text">Una nova registrazione video cù registrazione audio hè cuminciata</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">Registrazione…</string>
     <string name="recording_voice_started_text">A registrazione hè principiata</string>
     <string name="recording_voice_stopped_text">A registrazione si ferma</string>
+    <string name="records_file_sorting_date">Data</string>
+    <string name="records_file_sorting_duration">Durata</string>
+    <string name="records_file_sorting_name">Nome</string>
+    <string name="records_file_sorting_size">Dimensione di u schedariu</string>
+    <string name="records_file_upload_drive">Salvà in \"Google Drive\"</string>
     <string name="reset">scaricamentu</string>
     <string name="storage_external_single">carta MicroSD</string>
     <string name="storage_phone">Memoria di u telefunu</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Sguassà u modu</string>
     <string name="videos_file_item_share">Sparte questu</string>
     <string name="videos_file_item_watch">Fighjate</string>
+    <string name="videos_file_open_with">Apertura cun</string>
+    <string name="videos_file_select">Selezziunà per</string>
     <string name="videos_file_sort_asc">Sort Ascending</string>
     <string name="videos_file_sort_desc">Sorte discendente</string>
     <string name="videos_file_was_locked_text">U schedariu video hè statu spustatu in un cartulare prutettu</string>

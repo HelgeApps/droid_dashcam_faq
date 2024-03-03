@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">accepto</string>
     <string name="any_text">Cap</string>
+    <string name="app_alternative_name_audio">Àudio</string>
+    <string name="app_alternative_name_battery">Configuració de la bateria</string>
+    <string name="app_alternative_name_media">Mitjans de comunicació</string>
+    <string name="app_alternative_name_media_player">Reproductor multimèdia</string>
+    <string name="app_alternative_name_video">Vídeo</string>
+    <string name="app_name_backgroundvideorecorder">Enregistrament de vídeo de fons</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - Conduint DVR</string>
     <string name="camera">Càmera</string>
     <string name="camera_aperture">Diafragma</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">La càmera no està (estava) disponible temporalment per obrir-se al dispositiu (error del sistema de càmera)</string>
     <string name="camera_support_error">S\'ha produït un error en utilitzar la càmera.</string>
     <string name="close">Tanca</string>
+    <string name="days">dies</string>
     <string name="default_text">Per defecte</string>
     <string name="dialog_camera_not_found_msg_text">Aquest dispositiu no té una càmera integrada i no admet càmeres externes. Tancament…</string>
     <string name="dialog_camera_not_found_text">No s\'ha trobat la càmera</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">No tens anuncis.</string>
     <string name="donation_level_text">El teu nivell de donació:</string>
     <string name="donation_purchase_info_loading_text">La informació de compres encara no s\'ha carregat. Esteu en línia i heu iniciat la sessió al vostre compte de Google?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Elimina els anuncis per sempre amb una donació única de qualsevol quantitat. També podeu donar qualsevol quantitat mensual per eliminar anuncis</string>
-    <string name="donation_subs_any_amount_text">A més, la publicitat s\'elimina completament quan us subscriviu per qualsevol import.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Elimina els anuncis per sempre amb una donació única de qualsevol quantitat. També podeu fer una donació mensual per eliminar anuncis</string>
+    <string name="donation_subs_any_amount_text">La publicitat s\'elimina completament mentre una subscripció per qualsevol import mensual està activa.</string>
     <string name="donation_subs_manage_btn_text">Cancel·la la subscripció</string>
+    <string name="donation_subs_no_free_trial_explanation_text">L\'aplicació no ofereix un període de prova per a les subscripcions, ja que totes les funcions de l\'aplicació ja són gratuïtes, la subscripció només elimina la publicitat</string>
+    <string name="donation_subs_one_text">La publicitat s\'elimina completament mentre la subscripció està activa.</string>
     <string name="donation_subs_text">Donar mensualment</string>
     <string name="format_altitude">Alçada</string>
     <string name="format_degrees">Coordenades</string>
@@ -56,6 +65,7 @@
     <string name="from">des de</string>
     <string name="hour">hores</string>
     <string name="hours">hores</string>
+    <string name="month">mes</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">L\'aplicació no està exclosa de l\'optimització de la bateria. Si la càmera no s\'executa en segon pla o una altra cosa, afegiu aquesta aplicació a les excepcions del mode d\'estalvi d\'energia.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Si heu tornat a instal·lar l\'aplicació a Android 11, els fitxers antics s\'han de suprimir manualment</string>
     <string name="msg_auto_recording_service_was_stopped">Heu aturat el servei de fons per iniciar automàticament la gravació de vídeo. Obriu l\'aplicació per tornar-la a iniciar.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Grava àudio des d\'un dispositiu Bluetooth</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Utilitzeu només amb auriculars Bluetooth. Si us connecteu a la unitat principal (ràdio del cotxe) mitjançant Bluetooth, per alguna raó això pot activar automàticament una trucada telefònica al número estàndard d\'aquest dispositiu</string>
     <string name="prefs_audio_bt_recording_warning_title_text">No l\'utilitzeu amb la unitat principal (ràdio del cotxe)!</string>
+    <string name="prefs_audio_codec_title">Còdec d\'àudio</string>
     <string name="prefs_audio_priority_sum">Si està activat, altres aplicacions no podran utilitzar el micròfon. Si està desactivada, és possible que aquesta aplicació no pugui gravar àudio quan s\'executen diverses aplicacions utilitzant el micròfon (Android no sempre permet l\'ús simultani del micròfon)</string>
     <string name="prefs_audio_priority_title">Prioritza l\'àudio a aquesta aplicació</string>
     <string name="prefs_audio_rate_text">Freqüència de mostreig</string>
     <string name="prefs_audio_recording_text">Gravació d\'àudio</string>
     <string name="prefs_audio_settings_sum_text">Qualitat, enregistrament de so apagat /activat</string>
     <string name="prefs_audio_settings_text">Configuració de so</string>
+    <string name="prefs_audio_source_camcorder_text">És possible que l\'enregistrament d\'àudio des de la CÀMARA no funcioni en alguns dispositius; en aquest cas, proveu de canviar a MIC</string>
+    <string name="prefs_audio_source_text">Font d\'àudio</string>
     <string name="prefs_audio_stereo_text">estèreo</string>
     <string name="prefs_auto_start_app_launch_sum_text">Inicieu la gravació de vídeo automàticament quan s\'iniciï l\'aplicació</string>
     <string name="prefs_auto_start_app_launch_text">En iniciar l\'aplicació</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Executar quan està connectat a la presa d\'àudio (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Atura quan estàs desconnectat de la presa d\'àudio (AUX)</string>
     <string name="prefs_battery_optimization_sum_text">L\'optimització de la bateria pot impedir que l\'aplicació funcioni correctament (per exemple, utilitzant la càmera o actualitzant la ubicació mentre es grava un vídeo en segon pla). Feu clic aquí per desactivar-lo ara per a aquesta aplicació</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">L\'optimització de la bateria pot impedir que l\'aplicació funcioni correctament (per exemple, utilitzant la càmera i el micròfon). Feu clic aquí per desactivar-lo ara per a aquesta aplicació</string>
     <string name="prefs_battery_optimization_text">Optimització de la bateria</string>
     <string name="prefs_beep_each_start_recording_sum_text">Senyal a l\'inici de l\'enregistrament del següent fitxer de vídeo</string>
     <string name="prefs_beep_each_start_recording_text">Bip en gravar</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Paisatge</string>
     <string name="prefs_orientation_landscape_reversed">Revers de l\'àlbum</string>
     <string name="prefs_orientation_portrait">Retrat</string>
+    <string name="prefs_orientation_sensor_automatic">Automàtic</string>
     <string name="prefs_other_auto_deleting_sum_text">Suprimeix automàticament els vídeos més antics durant la gravació si no hi ha prou espai per als vídeos nous</string>
     <string name="prefs_other_auto_deleting_text">Enregistrament en bucle</string>
     <string name="prefs_other_date_time_text">data i hora</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Ubicació de la foto (carpeta/camí)</string>
     <string name="prefs_other_path_text">Ubicació del vídeo (carpeta/camí)</string>
     <string name="prefs_other_settings_sum_text">Ubicació del vídeo (carpeta desada), durada del vídeo, enregistrament en bucle, sensor G, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Ubicació de les gravacions de vídeo (carpeta per guardar), durada del vídeo, enregistrament en bucle, mida màxima del vídeo</string>
     <string name="prefs_other_settings_text">Altres configuracions</string>
     <string name="prefs_other_show_address_text">Adreça de la ubicació actual</string>
     <string name="prefs_other_show_altitude_text">Altura sobre el nivell del mar</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Quan inicieu l\'aplicació, activeu /apagueu la càrrega, arrenqueu el sistema</string>
     <string name="prefs_screen_autostart_text">Enregistrament d\'inici automàtic</string>
     <string name="prefs_screen_ui_summary_text">Pantalla ràpida /llarga, pantalla apagada, adreça i visualització de velocitat, finestra emergent, botons i molt més</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Drecera per començar a gravar, prem ràpid i llarg a la pantalla, finestra emergent, vibració en gravar, notificació de so, vibració, botons a la pantalla, apagar la pantalla i molt més</string>
     <string name="prefs_screen_ui_title">Interfície (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Canvia automàticament els modes dia/nit de la càmera a hores específiques</string>
     <string name="prefs_screen_video_day_night_mode_text">Configuració automàtica de dia/nit</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">Bloqueig de vídeos per sobreescriure\'s</string>
     <string name="prefs_show_overlay_btn_sum_text">Mostra una finestra amb botons de control a la part superior de totes les aplicacions</string>
     <string name="prefs_show_overlay_btn_text">Mostra la finestra flotant</string>
+    <string name="prefs_show_overlay_on_recording_text">Mostra la finestra flotant quan comenci la gravació</string>
     <string name="prefs_show_status_bar_text">Mostra la barra d\'estat del sistema</string>
     <string name="prefs_show_take_photo_btn_text">Per fer una foto</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">No és compatible amb la càmera actual. Els fabricants sovint restringeixen el seu ús: només està disponible a l\'aplicació estàndard de la càmera</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Superposeu subtítols a la part inferior del vídeo</string>
     <string name="prefs_subtitles_position_bottom_text">Subtítols a la part inferior</string>
     <string name="prefs_subtitles_settings_sum_text">Subtítols de vídeo superposats: data (hora), adreça d\'ubicació, coordenades i velocitat</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Subtítols superposats als vídeos: data (marca de temps), text personalitzat</string>
     <string name="prefs_subtitles_settings_text">Configuració dels subtítols</string>
     <string name="prefs_subtitles_size_text">Augmenta la mida del text</string>
     <string name="prefs_subtitles_speed_text">Velocitat</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Informa d\'un error, falla o fes una oferta</string>
     <string name="prefs_support_text">Suport (opinió)</string>
     <string name="prefs_system_alert_window_sum_text">Permet que aquesta aplicació aparegui a sobre de totes les altres. Això és necessari per iniciar/aturar automàticament la gravació de vídeo o per mostrar una finestra flotant</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Permet que aquesta aplicació aparegui a sobre de totes les altres. Això és necessari per mostrar una finestra flotant</string>
     <string name="prefs_system_alert_window_text">Resolució a la part superior de totes les finestres</string>
     <string name="prefs_theme_mode_dark">Tema fosc</string>
+    <string name="prefs_theme_mode_dynamic">Dinàmic</string>
     <string name="prefs_theme_mode_light">Tema lleuger</string>
     <string name="prefs_theme_mode_system_auto">Com en el sistema (automàtic)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Torna a la pantalla d\'inici (enregistraments) per aplicar aquesta configuració i iniciar el servei de seguiment</string>
     <string name="prefs_toolbar_title_setting">Configuració</string>
     <string name="prefs_translate_sum_text">Ajuda a millorar o corregir la traducció del text al teu idioma</string>
     <string name="prefs_translate_text">Traducció d\'aplicacions</string>
+    <string name="prefs_ui_app_icon_and_label_change">Canvia la icona i el nom de l\'aplicació al sistema</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">Després del canvi, l\'aplicació pot tancar-se, la icona antiga s\'eliminarà a la pantalla principal del telèfon (o a la llista de totes les aplicacions) i en apareixerà una de nova.</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Estableix la icona i el nom del llançador</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Canvia la icona i el nom de la notificació</string>
+    <string name="prefs_ui_camera_preview_sum_text">Mostra la vista prèvia de la càmera a la pantalla principal de l\'aplicació</string>
+    <string name="prefs_ui_camera_preview_text">Vista prèvia de la càmera</string>
     <string name="prefs_ui_click_none_text">Res a fer</string>
     <string name="prefs_ui_click_start_stop_rec_text">Iniciar/aturar la gravació</string>
     <string name="prefs_ui_click_text">Toc ràpid a la pantalla</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Taxa de bits (qualitat)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Mode d\'escena de control de la càmera (nit)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Mode d\'escena de control de càmera (dia)</string>
+    <string name="prefs_video_codec_sum_text">Els còdecs H.265 HEVC i AV1 ofereixen una millor qualitat a velocitats de bits més baixes que H.264 AVC, de manera que podeu estalviar espai reduint la taxa de bits. Però és possible que els vídeos no es reprodueixin en alguns reproductors de vídeo</string>
+    <string name="prefs_video_codec_text">Còdec de vídeo</string>
     <string name="prefs_video_control_scene_mode_beach_text">Platja (clima brillant)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">General /Prioritat facial</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (alt rang dinàmic)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Enfocament de la càmera (nit)</string>
     <string name="prefs_video_focus_text">Enfocament de la càmera (dia)</string>
     <string name="prefs_video_fps_range_text">Fotogrames per segon (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Grava en format HEVC (H.265) per estalviar espai. És possible que no pugueu reproduir aquests vídeos en altres dispositius o aplicacions de reproducció de vídeo. Restablirà la resolució i la taxa de bits després del canvi</string>
-    <string name="prefs_video_hevc_text">Codificació de vídeo altament eficient</string>
     <string name="prefs_video_orientation_text">Vídeo i orientació telefònica</string>
     <string name="prefs_video_resolution_text">Resolució de vídeo</string>
     <string name="prefs_video_settings_sum_text">Resolució, velocitat de bits, orientació, enfocament, càmera, mode nocturn</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Mida més gran - consum de bateria més ràpid</string>
     <string name="prefs_video_space_unlimited">Il·limitat</string>
     <string name="prefs_video_stabilization_text">Estabilització de vídeo</string>
+    <string name="prefs_voice_recorder_app">Gravadora de veu en segon pla</string>
     <string name="prefs_warning_location_precise_sum_text">Això és necessari per obtenir la velocitat més precisa basada en GPS, així com l\'adreça i les coordenades. Feu clic per enviar</string>
     <string name="prefs_warning_location_precise_text">Permís per a la ubicació exacta</string>
     <string name="prefs_warning_notifications_sum_text">Necessari per poder mostrar el servei de gravació en segon pla i els estats al tauler de notificacions. Feu clic per enviar</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">Net</string>
     <string name="rec_off_text">Apagat</string>
     <string name="rec_on_text">Incl.</string>
-    <string name="rec_service_msg">Privadesa: tots els vídeos que enregistreu només es desaran al vostre dispositiu local. L\'aplicació no fa còpies de seguretat dels vostres vídeos (no té cap connexió als servidors)\n\nL\'aplicació continuarà executant-se en segon pla (el servei en primer pla que apareix a la barra de notificacions) si inicieu una gravació nova i torneu a la pantalla d\'inici, canvieu a una altra aplicació o bloquegeu el telèfon per poder continuar gravant, o si activeu les funcions per a l\'enregistrament automàtic (si tanqueu el servei de fons, aquestes funcions no funcionaran).</string>
+    <string name="rec_service_msg">Privadesa: tots els vídeos que enregistreu només es desaran al vostre dispositiu local. L\'aplicació no fa còpies de seguretat dels vostres vídeos (no té cap connexió als servidors)\n\nL\'aplicació continuarà executant-se en segon pla (el servei de primer pla que apareix a la barra de notificacions) mentre la gravació estigui activa, quan torneu a la pantalla d\'inici, canvieu a una altra aplicació o bloquegeu el telèfon per continuar gravant i quan l\'enceneu. funcions per a la gravació automàtica (si tanqueu el servei de fons, aquestes funcions no funcionaran). L\'aplicació utilitza Firebase Analytics per a analítiques anònimes bàsiques (vegeu l\'enllaç següent)</string>
+    <string name="recording_file_name_prefix">Prefix per als noms dels fitxers de vídeo</string>
     <string name="recording_start_text">Comença a gravar</string>
     <string name="recording_started_failed_text">S\'ha produït un error en iniciar la gravació</string>
     <string name="recording_started_with_audio_text">Ha començat una nova gravació de vídeo amb gravació d\'àudio</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">Gravació…</string>
     <string name="recording_voice_started_text">La gravació ha començat</string>
     <string name="recording_voice_stopped_text">S\'ha aturat la gravació</string>
+    <string name="records_file_sorting_date">Data</string>
+    <string name="records_file_sorting_duration">Durada</string>
+    <string name="records_file_sorting_name">Nom</string>
+    <string name="records_file_sorting_size">Mida de l\'arxiu</string>
+    <string name="records_file_upload_drive">Desa a \"Google Drive\"</string>
     <string name="reset">descàrrega</string>
     <string name="storage_external_single">Targeta MicroSD</string>
     <string name="storage_phone">Memòria del telèfon</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Suprimeix el mode</string>
     <string name="videos_file_item_share">Comparteix això</string>
     <string name="videos_file_item_watch">Veure</string>
+    <string name="videos_file_open_with">Obert amb</string>
+    <string name="videos_file_select">Seleccioneu per</string>
     <string name="videos_file_sort_asc">Ordena ascendent</string>
     <string name="videos_file_sort_desc">Ordena descendent</string>
     <string name="videos_file_was_locked_text">El fitxer de vídeo s\'ha mogut a una carpeta protegida</string>

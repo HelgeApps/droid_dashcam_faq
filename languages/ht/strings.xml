@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">mwen aksepte</string>
     <string name="any_text">Nenpòt</string>
+    <string name="app_alternative_name_audio">Odyo</string>
+    <string name="app_alternative_name_battery">Anviwònman batri</string>
+    <string name="app_alternative_name_media">Medya</string>
+    <string name="app_alternative_name_media_player">Media Player</string>
+    <string name="app_alternative_name_video">Videyo</string>
+    <string name="app_name_backgroundvideorecorder">Anrejistreman videyo background</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - Kondwi DVR</string>
     <string name="camera">Kamera</string>
     <string name="camera_aperture">Dyafram</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">Kamera a pou yon ti tan (te) pa disponib pou louvri sou aparèy ou an (erè sistèm kamera)</string>
     <string name="camera_support_error">Yon erè te fèt pandan w ap itilize kamera a.</string>
     <string name="close">Fèmen</string>
+    <string name="days">jou</string>
     <string name="default_text">Default</string>
     <string name="dialog_camera_not_found_msg_text">Aparèy sa a pa gen yon kamera entegre epi li pa sipòte kamera ekstèn. Fèmen…</string>
     <string name="dialog_camera_not_found_text">Kamera pa jwenn</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">Ou pa gen okenn anons.</string>
     <string name="donation_level_text">Nivo don ou:</string>
     <string name="donation_purchase_info_loading_text">Enfòmasyon sou fè makèt la poko telechaje. Èske w sou entènèt epi ou konekte sou kont Google ou a?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Retire piblisite pou tout tan ak yon don yon sèl fwa nan nenpòt ki kantite lajan. Ou kapab tou bay nenpòt kantite lajan chak mwa pou retire anons</string>
-    <string name="donation_subs_any_amount_text">Epitou, piblisite konplètman retire lè ou abònman pou nenpòt ki kantite lajan.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Retire anons pou tout tan ak yon don yon sèl fwa nan nenpòt ki kantite lajan. Ou ka bay tou chak mwa pou retire anons</string>
+    <string name="donation_subs_any_amount_text">Piblisite konplètman retire pandan yon abònman pou nenpòt ki kantite pa mwa aktif.</string>
     <string name="donation_subs_manage_btn_text">Dezabòne</string>
+    <string name="donation_subs_no_free_trial_explanation_text">Aplikasyon an pa bay yon peryòd esè pou abònman, paske tout fonksyon aplikasyon an deja gratis, abònman sèlman retire piblisite.</string>
+    <string name="donation_subs_one_text">Piblisite konplètman retire pandan abònman an aktif.</string>
     <string name="donation_subs_text">Fè don chak mwa</string>
     <string name="format_altitude">Wotè</string>
     <string name="format_degrees">Kowòdone</string>
@@ -56,6 +65,7 @@
     <string name="from">soti nan</string>
     <string name="hour">èdtan</string>
     <string name="hours">èdtan</string>
+    <string name="month">mwa</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Aplikasyon an pa eskli nan optimize batri. Si kamera a pa kouri nan background nan oswa yon lòt bagay, Lè sa a, ajoute aplikasyon sa a nan eksepsyon ki genyen nan mòd nan ekonomize pouvwa.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Si ou reenstale aplikasyon an sou Android 11, Lè sa a, ansyen dosye yo dwe efase manyèlman</string>
     <string name="msg_auto_recording_service_was_stopped">Ou te sispann sèvis background pou otomatikman kòmanse anrejistreman videyo. Louvri aplikasyon an pou lanse li ankò.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Ekri odyo soti nan yon aparèy Bluetooth</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Itilize sèlman ak kas ekoutè Bluetooth. Si ou konekte ak inite tèt la (radyo machin) atravè Bluetooth, Lè sa a, pou kèk rezon sa a ka otomatikman deklanche yon apèl nan telefòn nan nimewo estanda sou aparèy sa a.</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Pa itilize ak inite tèt (radyo machin)!</string>
+    <string name="prefs_audio_codec_title">Codec odyo</string>
     <string name="prefs_audio_priority_sum">Si yo aktive, lòt aplikasyon yo p ap kapab sèvi ak mikwofòn la. Si li enfim, aplikasyon sa a ka pa kapab anrejistre odyo lè plizyè aplikasyon ap kouri lè l sèvi avèk mikwofòn la (Android pa toujou pèmèt itilizasyon similtane mikwofòn la)</string>
     <string name="prefs_audio_priority_title">Priyorite odyo nan aplikasyon sa a</string>
     <string name="prefs_audio_rate_text">Frekans echantiyon</string>
     <string name="prefs_audio_recording_text">Anrejistreman odyo</string>
     <string name="prefs_audio_settings_sum_text">Kalite, koupe /sou anrejistreman son</string>
     <string name="prefs_audio_settings_text">Anviwònman son</string>
+    <string name="prefs_audio_source_camcorder_text">Anrejistreman odyo soti nan CAMCORDER ka pa travay sou kèk aparèy, nan ka sa a eseye chanje nan MIC</string>
+    <string name="prefs_audio_source_text">Sous odyo</string>
     <string name="prefs_audio_stereo_text">Stereo</string>
     <string name="prefs_auto_start_app_launch_sum_text">Kòmanse anrejistreman videyo otomatikman lè aplikasyon an kòmanse</string>
     <string name="prefs_auto_start_app_launch_text">Lè w kòmanse aplikasyon an</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Kouri lè ploge nan jack odyo a (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Sispann lè dekonekte nan jack odyo (AUX)</string>
     <string name="prefs_battery_optimization_sum_text">Optimize batri ka anpeche aplikasyon an travay kòrèkteman (pa egzanp, lè l sèvi avèk kamera a oswa mete ajou kote a pandan y ap anrejistre yon videyo nan background nan). Klike la a pou enfim li pou aplikasyon sa a kounye a</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">Optimize batri ka anpeche aplikasyon an fonksyone kòrèkteman (pa egzanp, lè l sèvi avèk kamera a ak mikwofòn). Klike la a pou enfim li pou aplikasyon sa a kounye a</string>
     <string name="prefs_battery_optimization_text">Optimize batri</string>
     <string name="prefs_beep_each_start_recording_sum_text">Siyal nan kòmansman an nan anrejistreman an nan pwochen dosye videyo a</string>
     <string name="prefs_beep_each_start_recording_text">Bip lè w ap anrejistre</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Peyizaj</string>
     <string name="prefs_orientation_landscape_reversed">Album ranvèse</string>
     <string name="prefs_orientation_portrait">Pòtre</string>
+    <string name="prefs_orientation_sensor_automatic">Otomatik</string>
     <string name="prefs_other_auto_deleting_sum_text">Otomatikman efase pi ansyen videyo yo pandan y ap anrejistre si pa gen ase espas pou nouvo videyo</string>
     <string name="prefs_other_auto_deleting_text">Anrejistreman bouk</string>
     <string name="prefs_other_date_time_text">dat ak lè</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Kote foto (dosye /chemen)</string>
     <string name="prefs_other_path_text">Kote videyo (dosye /chemen)</string>
     <string name="prefs_other_settings_sum_text">Kote videyo (sove katab), dire videyo, anrejistreman bouk, G-capteur, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Kote anrejistreman videyo (dosye pou konsève pou), dire videyo, anrejistreman bouk, gwosè videyo maksimòm</string>
     <string name="prefs_other_settings_text">Lòt paramèt</string>
     <string name="prefs_other_show_address_text">Kote adrès aktyèl la</string>
     <string name="prefs_other_show_altitude_text">Wotè anwo nivo lanmè</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Lè ou kòmanse aplikasyon an, vire sou /koupe chaje, bòt sistèm lan</string>
     <string name="prefs_screen_autostart_text">Autostart anrejistreman</string>
     <string name="prefs_screen_ui_summary_text">Ekran rapid /laprès long, ekran koupe, adrès ak ekspozisyon vitès, fenèt popup, bouton ak plis ankò</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Raccourci pou kòmanse anrejistreman, peze rapid ak long sou ekran an, fenèt pop-up, Vibration lè anrejistreman, notifikasyon son, Vibration, bouton sou ekran an, fèmen ekran an ak plis ankò.</string>
     <string name="prefs_screen_ui_title">Entèfas (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Otomatikman chanje mòd kamera lajounen /lannwit nan moman espesifik</string>
     <string name="prefs_screen_video_day_night_mode_text">Anviwònman oto lajounen /lannwit</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">Bloke videyo pou yo pa ranplase yo</string>
     <string name="prefs_show_overlay_btn_sum_text">Montre yon fenèt ak bouton kontwòl anlè tout aplikasyon yo</string>
     <string name="prefs_show_overlay_btn_text">Montre fenèt k ap flote</string>
+    <string name="prefs_show_overlay_on_recording_text">Montre fenèt k ap flote lè anrejistreman kòmanse</string>
     <string name="prefs_show_status_bar_text">Montre sistèm estati ba</string>
     <string name="prefs_show_take_photo_btn_text">Pou fè yon foto</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Pa sipòte pa kamera aktyèl la. Manifakti yo souvan mete restriksyon sou itilizasyon li yo - li disponib sèlman nan aplikasyon Kamera estanda a</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Superpose sous-titres nan pati anba videyo a</string>
     <string name="prefs_subtitles_position_bottom_text">Sous-titres nan pati anba a</string>
     <string name="prefs_subtitles_settings_sum_text">Koupe tit videyo: Dat (lè), adrès kote, kowòdone ak vitès</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Koupe tit sou videyo yo: dat (tande tan), tèks koutim</string>
     <string name="prefs_subtitles_settings_text">Anviwònman sous-titres</string>
     <string name="prefs_subtitles_size_text">Ogmante gwosè tèks la</string>
     <string name="prefs_subtitles_speed_text">Vitès</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Rapòte yon ensèk, aksidan oswa fè yon òf</string>
     <string name="prefs_support_text">Sipò (feedback)</string>
     <string name="prefs_system_alert_window_sum_text">Pèmèt aplikasyon sa a parèt sou tout lòt aplikasyon yo. Sa nesesè pou otomatikman kòmanse /sispann anrejistreman videyo oswa pou montre yon fenèt k ap flote</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Pèmèt aplikasyon sa a parèt sou tout lòt aplikasyon yo. Sa nesesè pou montre yon fenèt k ap flote</string>
     <string name="prefs_system_alert_window_text">Rezolisyon anlè tout fenèt yo</string>
     <string name="prefs_theme_mode_dark">Tèm nwa</string>
+    <string name="prefs_theme_mode_dynamic">Dinamik</string>
     <string name="prefs_theme_mode_light">Tèm limyè</string>
     <string name="prefs_theme_mode_system_auto">Kòm nan sistèm nan (otomatik)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Retounen nan ekran an lakay ou (anrejistreman) pou aplike anviwònman sa a epi kòmanse sèvis la swiv</string>
     <string name="prefs_toolbar_title_setting">Anviwònman</string>
     <string name="prefs_translate_sum_text">Ede amelyore oswa ranje tradiksyon tèks nan lang ou a</string>
     <string name="prefs_translate_text">Tradiksyon aplikasyon</string>
+    <string name="prefs_ui_app_icon_and_label_change">Chanje icon ak non aplikasyon an nan sistèm lan</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">Apre chanjman an, aplikasyon an ka fèmen, ansyen icon yo pral retire sou ekran prensipal telefòn lan (oswa nan lis tout aplikasyon yo), epi yon nouvo ap parèt.</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Mete icon a ak non lans la</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Chanje icon notifikasyon ak non</string>
+    <string name="prefs_ui_camera_preview_sum_text">Montre aperçu kamera sou ekran aplikasyon prensipal la</string>
+    <string name="prefs_ui_camera_preview_text">Aperçu kamera</string>
     <string name="prefs_ui_click_none_text">Anyen pou fe</string>
     <string name="prefs_ui_click_start_stop_rec_text">Kòmanse /sispann anrejistreman</string>
     <string name="prefs_ui_click_text">Tape rapid sou ekran an</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Bitrate (bon jan kalite)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Mòd sèn kontwòl kamera (lannwit)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Mòd sèn kontwòl kamera (jou)</string>
+    <string name="prefs_video_codec_sum_text">H.265 HEVC ak AV1 kodèk bay pi bon kalite nan pi ba pousantaj pase H.264 AVC, kidonk, ou ka ekonomize espas lè w diminye vitès la. Men, videyo yo ka pa jwe nan kèk jwè videyo</string>
+    <string name="prefs_video_codec_text">Kodèk videyo</string>
     <string name="prefs_video_control_scene_mode_beach_text">Beach (tan klere)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Jeneral /Priyorite figi</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (Segondè Gamme dinamik)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Konsantre kamera (lannwit)</string>
     <string name="prefs_video_focus_text">Konsantre kamera (jou)</string>
     <string name="prefs_video_fps_range_text">Ankadreman pou chak segonn (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Ekri nan fòma HEVC (H.265) pou ekonomize espas. Ou ka pa kapab jwe videyo sa yo sou lòt aparèy oswa aplikasyon pou lèktur videyo. Pral Reyajiste rezolisyon ak bitrate apre chanjman</string>
-    <string name="prefs_video_hevc_text">Trè efikas kodaj videyo</string>
     <string name="prefs_video_orientation_text">Oryantasyon videyo ak telefòn</string>
     <string name="prefs_video_resolution_text">Rezolisyon videyo</string>
     <string name="prefs_video_settings_sum_text">Rezolisyon, pousantaj ti jan, oryantasyon, konsantre, kamera, mòd lannwit</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Pi gwo gwosè - pi vit drenaj batri</string>
     <string name="prefs_video_space_unlimited">San limit</string>
     <string name="prefs_video_stabilization_text">Videyo estabilizasyon</string>
+    <string name="prefs_voice_recorder_app">Anrejistrè vwa nan background</string>
     <string name="prefs_warning_location_precise_sum_text">Sa a se nesesè yo jwenn vitès ki pi egzak ki baze sou GPS, osi byen ke adrès ak kowòdone. Klike pou soumèt</string>
     <string name="prefs_warning_location_precise_text">Pèmisyon pou kote egzak</string>
     <string name="prefs_warning_notifications_sum_text">Obligatwa pou kapab montre sèvis anrejistreman background ak estati sou panèl notifikasyon an. Klike pou soumèt</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">Net</string>
     <string name="rec_off_text">Off</string>
     <string name="rec_on_text">Incl.</string>
-    <string name="rec_service_msg">Konfidansyalite: Tout videyo ou anrejistre yo pral sove sèlman sou aparèy lokal ou a. Aplikasyon an pa fè backup videyo ou yo (pa gen okenn koneksyon ak sèvè)\n\nAplikasyon an ap kontinye kouri nan background nan (sèvis premye plan ki parèt nan ba notifikasyon an) si ou kòmanse yon nouvo anrejistreman epi retounen nan ekran lakay la, chanje nan yon lòt aplikasyon oswa fèmen telefòn ou pou kapab kontinye anrejistreman, oswa si ou aktive fonksyon pou anrejistreman otomatik (si ou fèmen sèvis background nan, fonksyon sa yo p ap travay).</string>
+    <string name="rec_service_msg">Konfidansyalite: Tout videyo ou anrejistre yo pral sove sèlman sou aparèy lokal ou a. Aplikasyon an pa fè backup videyo ou yo (pa gen okenn koneksyon ak sèvè)\n\nAplikasyon an ap kontinye kouri nan background nan (sèvis premye plan ki parèt nan ba notifikasyon an) pandan y ap anrejistreman aktif, lè ou retounen nan ekran lakay ou, chanje nan yon lòt aplikasyon oswa fèmen telefòn ou pou kontinye anrejistreman, epi lè ou limen. karakteristik pou anrejistreman otomatik (si ou fèmen sèvis la background, fonksyon sa yo pa pral travay). Aplikasyon an sèvi ak Firebase Analytics pou analiz debaz anonim (gade lyen ki anba a)</string>
+    <string name="recording_file_name_prefix">Prefiks pou non dosye videyo</string>
     <string name="recording_start_text">Kòmanse anrejistreman</string>
     <string name="recording_started_failed_text">Erè lè w kòmanse anrejistreman an</string>
     <string name="recording_started_with_audio_text">Yon nouvo anrejistreman videyo ak anrejistreman odyo te kòmanse</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">Anrejistreman…</string>
     <string name="recording_voice_started_text">Anrejistreman te kòmanse</string>
     <string name="recording_voice_stopped_text">Anrejistreman sispann</string>
+    <string name="records_file_sorting_date">Dat</string>
+    <string name="records_file_sorting_duration">Dire</string>
+    <string name="records_file_sorting_name">Non</string>
+    <string name="records_file_sorting_size">Gwosè dosye</string>
+    <string name="records_file_upload_drive">Sove sou \"Google Drive\"</string>
     <string name="reset">egzeyat</string>
     <string name="storage_external_single">kat MicroSD</string>
     <string name="storage_phone">Memwa telefòn</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Efase mòd</string>
     <string name="videos_file_item_share">Pataje sa</string>
     <string name="videos_file_item_watch">Gade</string>
+    <string name="videos_file_open_with">Louvri ak</string>
+    <string name="videos_file_select">Chwazi pou</string>
     <string name="videos_file_sort_asc">Triye Asandan</string>
     <string name="videos_file_sort_desc">Triye desann</string>
     <string name="videos_file_was_locked_text">Fichye videyo a te deplase nan yon katab pwoteje</string>

@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">ik aanvaard</string>
     <string name="any_text">Ieder</string>
+    <string name="app_alternative_name_audio">Audio</string>
+    <string name="app_alternative_name_battery">Batterij-instellingen</string>
+    <string name="app_alternative_name_media">Media</string>
+    <string name="app_alternative_name_media_player">Mediaspeler</string>
+    <string name="app_alternative_name_video">Video</string>
+    <string name="app_name_backgroundvideorecorder">Achtergrondvideo-opname</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - DVR rijden</string>
     <string name="camera">Camera</string>
     <string name="camera_aperture">Diafragma</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">De camera kan (tijdelijk) niet worden geopend op uw apparaat (camerasysteemfout)</string>
     <string name="camera_support_error">Er is een fout opgetreden tijdens het gebruik van de camera.</string>
     <string name="close">Dichtbij</string>
+    <string name="days">dagen</string>
     <string name="default_text">Standaard</string>
     <string name="dialog_camera_not_found_msg_text">Dit apparaat heeft geen ingebouwde camera en ondersteunt geen externe camera\'s. Sluitend…</string>
     <string name="dialog_camera_not_found_text">Camera niet gevonden</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">U heeft geen advertenties.</string>
     <string name="donation_level_text">Uw donatieniveau:</string>
     <string name="donation_purchase_info_loading_text">De winkelinformatie is nog niet geüpload. Ben je online en ingelogd op je Google-account?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Verwijder advertenties voor altijd met een eenmalige donatie van welk bedrag dan ook. U kunt ook maandelijks een willekeurig bedrag doneren om advertenties te verwijderen</string>
-    <string name="donation_subs_any_amount_text">Ook worden advertenties volledig verwijderd wanneer u zich voor welk bedrag dan ook abonneert.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Verwijder advertenties voor altijd met een eenmalige donatie van welk bedrag dan ook. U kunt ook maandelijks doneren om advertenties te verwijderen</string>
+    <string name="donation_subs_any_amount_text">Reclame wordt volledig verwijderd zolang er een abonnement voor welk bedrag dan ook per maand actief is.</string>
     <string name="donation_subs_manage_btn_text">Uitschrijven</string>
+    <string name="donation_subs_no_free_trial_explanation_text">De applicatie biedt geen proefperiode voor abonnementen, aangezien alle functies van de applicatie al gratis zijn, verwijdert het abonnement alleen advertenties</string>
+    <string name="donation_subs_one_text">Advertenties worden volledig verwijderd zolang het abonnement actief is.</string>
     <string name="donation_subs_text">Doneer maandelijks</string>
     <string name="format_altitude">Hoogte</string>
     <string name="format_degrees">Coördinaten</string>
@@ -56,6 +65,7 @@
     <string name="from">van</string>
     <string name="hour">uur</string>
     <string name="hours">uur</string>
+    <string name="month">maand</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">De toepassing is niet uitgesloten van batterijoptimalisatie. Als de camera niet op de achtergrond draait of iets anders, voeg deze applicatie dan toe aan de uitzonderingen van de energiebesparende modus.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Als je de applicatie opnieuw hebt geïnstalleerd op Android 11, dan moeten de oude bestanden handmatig worden verwijderd</string>
     <string name="msg_auto_recording_service_was_stopped">Je hebt de achtergrondservice gestopt voor het automatisch starten van de video-opname. Open de applicatie om deze opnieuw te starten.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Neem audio op van een Bluetooth-apparaat</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Alleen gebruiken met Bluetooth-hoofdtelefoons. Als u via Bluetooth verbinding maakt met de hoofdunit (autoradio), kan dit om de een of andere reden automatisch leiden tot een oproep naar het standaardnummer op dit apparaat</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Niet gebruiken met hoofdunit (autoradio)!</string>
+    <string name="prefs_audio_codec_title">Audiocodec</string>
     <string name="prefs_audio_priority_sum">Indien ingeschakeld, kunnen andere toepassingen de microfoon niet gebruiken. Indien uitgeschakeld, kan deze applicatie mogelijk geen audio opnemen wanneer meerdere applicaties worden uitgevoerd met behulp van de microfoon (Android staat niet altijd gelijktijdig gebruik van de microfoon toe)</string>
     <string name="prefs_audio_priority_title">Geef prioriteit aan audio voor deze app</string>
     <string name="prefs_audio_rate_text">bemonsteringsfrequentie:</string>
     <string name="prefs_audio_recording_text">Geluidsopname</string>
     <string name="prefs_audio_settings_sum_text">Kwaliteit, uit /aan geluidsopname</string>
     <string name="prefs_audio_settings_text">Geluidsinstellingen</string>
+    <string name="prefs_audio_source_camcorder_text">Audio-opname van CAMCORDER werkt mogelijk niet op sommige apparaten. Probeer in dit geval over te schakelen naar MIC</string>
+    <string name="prefs_audio_source_text">Geluidsbron</string>
     <string name="prefs_audio_stereo_text">Stereo</string>
     <string name="prefs_auto_start_app_launch_sum_text">Start video-opname automatisch wanneer de app start</string>
     <string name="prefs_auto_start_app_launch_text">Bij het starten van de applicatie</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Uitvoeren wanneer aangesloten op de audio-aansluiting (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Stop wanneer losgekoppeld van audio-aansluiting (AUX)</string>
     <string name="prefs_battery_optimization_sum_text">Batterij-optimalisatie kan ervoor zorgen dat de app niet goed werkt (bijvoorbeeld door de camera te gebruiken of de locatie bij te werken tijdens het opnemen van een video op de achtergrond). Klik hier om het nu voor deze toepassing uit te schakelen</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">Batterijoptimalisatie kan ervoor zorgen dat de applicatie niet correct werkt (bijvoorbeeld bij gebruik van de camera en microfoon). Klik hier om het nu voor deze toepassing uit te schakelen</string>
     <string name="prefs_battery_optimization_text">Batterij optimalisatie</string>
     <string name="prefs_beep_each_start_recording_sum_text">Signaal aan het begin van de opname van het volgende videobestand</string>
     <string name="prefs_beep_each_start_recording_text">Piep tijdens opnemen</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Landschap</string>
     <string name="prefs_orientation_landscape_reversed">Omgekeerd album</string>
     <string name="prefs_orientation_portrait">Portret</string>
+    <string name="prefs_orientation_sensor_automatic">Automatisch</string>
     <string name="prefs_other_auto_deleting_sum_text">Verwijder automatisch de oudste video\'s tijdens het opnemen als er niet genoeg ruimte is voor nieuwe video\'s</string>
     <string name="prefs_other_auto_deleting_text">Loop-opname</string>
     <string name="prefs_other_date_time_text">datum en tijd</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Fotolocatie (map /pad)</string>
     <string name="prefs_other_path_text">Videolocatie (map /pad)</string>
     <string name="prefs_other_settings_sum_text">Videolocatie (map opslaan), videoduur, lusopname, G-sensor, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Locatie van video-opnamen (map om op te slaan), videoduur, lusopname, maximale videogrootte</string>
     <string name="prefs_other_settings_text">Andere instellingen</string>
     <string name="prefs_other_show_address_text">Huidige locatie adres</string>
     <string name="prefs_other_show_altitude_text">Hoogte boven zeeniveau</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Wanneer u de applicatie start, schakelt u het opladen in /uit, start u het systeem op</string>
     <string name="prefs_screen_autostart_text">Opname automatisch starten</string>
     <string name="prefs_screen_ui_summary_text">Scherm snel /lang indrukken, scherm uit, adres- en snelheidsweergave, pop-upvenster, knoppen en meer</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Snelkoppeling om de opname te starten, snel en lang op het scherm drukken, pop-upvenster, trillen tijdens opnemen, geluidsmelding, trillen, knoppen op het scherm, het scherm uitschakelen en meer</string>
     <string name="prefs_screen_ui_title">Interface (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Schakelt automatisch de dag-/nachtmodus van de camera op specifieke tijden</string>
     <string name="prefs_screen_video_day_night_mode_text">Automatische Dag/Nacht Instellingen</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">Blokkeren dat video\'s worden overschreven</string>
     <string name="prefs_show_overlay_btn_sum_text">Toont een venster met bedieningsknoppen bovenop alle applicaties</string>
     <string name="prefs_show_overlay_btn_text">Zwevend venster tonen</string>
+    <string name="prefs_show_overlay_on_recording_text">Zwevend venster weergeven wanneer de opname start</string>
     <string name="prefs_show_status_bar_text">Systeemstatusbalk weergeven</string>
     <string name="prefs_show_take_photo_btn_text">Om een ​​foto te maken</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Wordt niet ondersteund door de huidige camera. Fabrikanten beperken het gebruik ervan vaak - het is alleen beschikbaar in de standaard Camera-applicatie</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Overlay ondertitels onderaan de video</string>
     <string name="prefs_subtitles_position_bottom_text">Ondertitels onderaan</string>
     <string name="prefs_subtitles_settings_sum_text">Overlay video-onderschriften: datum (tijd), locatieadres, coördinaten en snelheid</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Overlay-bijschriften op video\'s: datum (tijdstempel), aangepaste tekst</string>
     <string name="prefs_subtitles_settings_text">Ondertitel instellingen</string>
     <string name="prefs_subtitles_size_text">Tekstgrootte vergroten</string>
     <string name="prefs_subtitles_speed_text">Snelheid</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Meld een bug, crash of doe een bod</string>
     <string name="prefs_support_text">Ondersteuning (feedback)</string>
     <string name="prefs_system_alert_window_sum_text">Laat deze app boven alle andere apps verschijnen. Dit is nodig om de video-opname automatisch te starten/stoppen of om een ​​zwevend venster weer te geven</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Sta toe dat deze app boven alle andere apps verschijnt. Dit is nodig om een ​​zwevend venster weer te geven</string>
     <string name="prefs_system_alert_window_text">Resolutie bovenop alle vensters</string>
     <string name="prefs_theme_mode_dark">Donker thema</string>
+    <string name="prefs_theme_mode_dynamic">Dynamisch</string>
     <string name="prefs_theme_mode_light">Licht thema</string>
     <string name="prefs_theme_mode_system_auto">Zoals in het systeem (automatisch)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Keer terug naar het startscherm (opnames) om deze instelling toe te passen en de volgservice te starten</string>
     <string name="prefs_toolbar_title_setting">Instellingen</string>
     <string name="prefs_translate_sum_text">Help de vertaling van tekst in uw taal te verbeteren of te corrigeren</string>
     <string name="prefs_translate_text">Toepassingsvertaling</string>
+    <string name="prefs_ui_app_icon_and_label_change">Wijzig het pictogram en de naam van de applicatie in het systeem</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">Na de wijziging wordt de applicatie mogelijk gesloten, wordt het oude pictogram verwijderd op het hoofdscherm van de telefoon (of in de lijst met alle applicaties) en verschijnt er een nieuw pictogram</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Stel het pictogram en de naam van het opstartprogramma in</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Wijzig het meldingspictogram en de naam</string>
+    <string name="prefs_ui_camera_preview_sum_text">Toon cameravoorbeeld op het hoofdscherm van de app</string>
+    <string name="prefs_ui_camera_preview_text">Cameravoorbeeld</string>
     <string name="prefs_ui_click_none_text">Niets te doen</string>
     <string name="prefs_ui_click_start_stop_rec_text">Opname starten /stoppen</string>
     <string name="prefs_ui_click_text">Tik snel op het scherm</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Bitsnelheid (kwaliteit)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Camerabediening Scènemodus (Nacht)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Camerabediening Scènemodus (dag)</string>
+    <string name="prefs_video_codec_sum_text">H.265 HEVC- en AV1-codecs bieden betere kwaliteit bij lagere bitrates dan H.264 AVC, dus u kunt ruimte besparen door de bitrate te verlagen. Maar video\'s worden mogelijk niet afgespeeld in sommige videospelers</string>
+    <string name="prefs_video_codec_text">Video codec</string>
     <string name="prefs_video_control_scene_mode_beach_text">Strand (helder weer)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Algemeen /Gezichtsprioriteit</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (hoog dynamisch bereik)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Camerafocus (nacht)</string>
     <string name="prefs_video_focus_text">Camerafocus (dag)</string>
     <string name="prefs_video_fps_range_text">Frames per seconde (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Neem op in HEVC-indeling (H.265) om ruimte te besparen. Het is mogelijk dat u dergelijke video\'s niet kunt afspelen op andere apparaten of toepassingen voor het afspelen van video\'s. Zal resolutie en bitrate resetten na wijziging</string>
-    <string name="prefs_video_hevc_text">Uiterst efficiënte videocodering</string>
     <string name="prefs_video_orientation_text">Video- en telefoonoriëntatie</string>
     <string name="prefs_video_resolution_text">Video resolutie</string>
     <string name="prefs_video_settings_sum_text">Resolutie, bitsnelheid, oriëntatie, focus, camera, nachtmodus</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Groter formaat - sneller leeglopen van de batterij</string>
     <string name="prefs_video_space_unlimited">Onbeperkt</string>
     <string name="prefs_video_stabilization_text">Videostabilisatie</string>
+    <string name="prefs_voice_recorder_app">Spraakrecorder op de achtergrond</string>
     <string name="prefs_warning_location_precise_sum_text">Dit is nodig om de meest nauwkeurige op GPS gebaseerde snelheid te krijgen, evenals adres en coördinaten. Klik om in te dienen</string>
     <string name="prefs_warning_location_precise_text">Toestemming voor exacte locatie</string>
     <string name="prefs_warning_notifications_sum_text">Vereist om de achtergrondopnameservice en statussen op het meldingenpaneel te kunnen weergeven. Klik om in te dienen</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">Netto</string>
     <string name="rec_off_text">Uit</string>
     <string name="rec_on_text">Incl.</string>
-    <string name="rec_service_msg">Privacy: Alle video\'s die u opneemt, worden alleen op uw lokale apparaat opgeslagen. De applicatie maakt geen back-up van uw video\'s (heeft geen verbindingen met servers)\n\nDe app blijft op de achtergrond draaien (de voorgrondservice die in de notificatiebalk verschijnt) als u een nieuwe opname start en terugkeert naar het startscherm, overschakelt naar een andere app of uw telefoon vergrendelt om door te kunnen gaan met opnemen, of als u schakelt functies in voor automatisch opnemen (als u de achtergrondservice sluit, werken deze functies niet).</string>
+    <string name="rec_service_msg">Privacy: Alle video\'s die u opneemt, worden alleen op uw lokale apparaat opgeslagen. De applicatie maakt geen back-up van uw video\'s (heeft geen verbindingen met servers)\n\nDe app blijft op de achtergrond actief (de voorgrondservice die in de meldingenbalk verschijnt) terwijl de opname actief is, wanneer u terugkeert naar het startscherm, overschakelt naar een andere app of uw telefoon vergrendelt om door te gaan met opnemen, en wanneer u de app inschakelt functies voor automatisch opnemen (als u de achtergrondservice sluit, werken deze functies niet). De app gebruikt Firebase Analytics voor eenvoudige anonieme analyses (zie onderstaande link)</string>
+    <string name="recording_file_name_prefix">Voorvoegsel voor videobestandsnamen</string>
     <string name="recording_start_text">Start met opnemen</string>
     <string name="recording_started_failed_text">Fout bij starten van opname</string>
     <string name="recording_started_with_audio_text">Een nieuwe video-opname met audio-opname is begonnen</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">Opnemen…</string>
     <string name="recording_voice_started_text">Opname is begonnen</string>
     <string name="recording_voice_stopped_text">Opname gestopt</string>
+    <string name="records_file_sorting_date">Datum</string>
+    <string name="records_file_sorting_duration">Duur</string>
+    <string name="records_file_sorting_name">Naam</string>
+    <string name="records_file_sorting_size">Bestandsgrootte</string>
+    <string name="records_file_upload_drive">Opslaan in \"Google Drive\"</string>
     <string name="reset">afvoer</string>
     <string name="storage_external_single">Micro SD kaart</string>
     <string name="storage_phone">Telefoon geheugen</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Modus verwijderen</string>
     <string name="videos_file_item_share">Deel dit</string>
     <string name="videos_file_item_watch">Kijk maar</string>
+    <string name="videos_file_open_with">Openen met</string>
+    <string name="videos_file_select">Selecteer voor</string>
     <string name="videos_file_sort_asc">Oplopend sorteren</string>
     <string name="videos_file_sort_desc">Aflopend sorteren</string>
     <string name="videos_file_was_locked_text">Het videobestand is verplaatst naar een beveiligde map</string>

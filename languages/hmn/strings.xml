@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">kuv txais</string>
     <string name="any_text">Ib qho</string>
+    <string name="app_alternative_name_audio">Suab</string>
+    <string name="app_alternative_name_battery">Roj teeb nqis</string>
+    <string name="app_alternative_name_media">Media</string>
+    <string name="app_alternative_name_media_player">Media Player</string>
+    <string name="app_alternative_name_video">Video</string>
+    <string name="app_name_backgroundvideorecorder">Background video kaw</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - Tsav DVR</string>
     <string name="camera">Lub koob yees duab</string>
     <string name="camera_aperture">Diaphragm</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">Lub koob yees duab yog ib ntus (yog) tsis muaj qhib rau koj lub cuab yeej (lub koob yees duab system yuam kev)</string>
     <string name="camera_support_error">Ib qho yuam kev tau tshwm sim thaum siv lub koob yees duab.</string>
     <string name="close">Kaw</string>
+    <string name="days">hnub</string>
     <string name="default_text">Default</string>
     <string name="dialog_camera_not_found_msg_text">Cov cuab yeej no tsis muaj lub koob yees duab built-in thiab tsis txhawb lub koob yees duab sab nraud. Kaw…</string>
     <string name="dialog_camera_not_found_text">Tsis pom lub koob yees duab</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">Koj tsis muaj kev tshaj tawm.</string>
     <string name="donation_level_text">Koj qib pub dawb:</string>
     <string name="donation_purchase_info_loading_text">Cov ntaub ntawv yuav khoom tseem tsis tau muab tso rau. Koj puas online thiab nkag rau hauv koj tus account Google?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Tshem tawm kev tshaj tawm mus ib txhis nrog kev pub dawb ib zaug ntawm ib qho twg. Koj tuaj yeem pub dawb txhua hli kom tshem tawm cov tshaj tawm</string>
-    <string name="donation_subs_any_amount_text">Tsis tas li, kev tshaj tawm raug tshem tawm tag nrho thaum koj sau npe rau ib qho twg.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Tshem tawm kev tshaj tawm mus ib txhis nrog kev pub dawb ib zaug ntawm ib qho twg. Koj tuaj yeem pub dawb txhua hli kom tshem tawm kev tshaj tawm</string>
+    <string name="donation_subs_any_amount_text">Kev tshaj tawm raug tshem tawm tag nrho thaum qhov kev tso npe rau ib qho twg hauv ib hlis yog nquag.</string>
     <string name="donation_subs_manage_btn_text">Unsubscribe</string>
+    <string name="donation_subs_no_free_trial_explanation_text">Daim ntawv thov tsis muab lub sijhawm sim rau kev tso npe, vim tias txhua txoj haujlwm ntawm daim ntawv thov twb tau pub dawb, kev tso npe tsuas yog tshem tawm tshaj tawm.</string>
+    <string name="donation_subs_one_text">Kev tshaj tawm raug tshem tawm tag nrho thaum qhov kev tso npe ua haujlwm.</string>
     <string name="donation_subs_text">Pub dawb txhua hli</string>
     <string name="format_altitude">Qhov siab</string>
     <string name="format_degrees">Coordinates</string>
@@ -56,6 +65,7 @@
     <string name="from">los ntawm</string>
     <string name="hour">teev</string>
     <string name="hours">teev</string>
+    <string name="month">hli</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Daim ntawv thov tsis raug cais los ntawm kev txhim kho roj teeb. Yog tias lub koob yees duab tsis khiav hauv keeb kwm yav dhau los lossis lwm yam, ces ntxiv daim ntawv thov no rau qhov kev zam ntawm hom kev txuag hluav taws xob.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Yog tias koj rov nruab daim ntawv thov ntawm Android 11, tom qab ntawd cov ntaub ntawv qub yuav tsum tau muab tshem tawm manually</string>
     <string name="msg_auto_recording_service_was_stopped">Koj tau tso tseg qhov kev pabcuam keeb kwm yav dhau los kom pib kaw cov yeeb yaj kiab. Qhib daim ntawv thov kom tso nws dua.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Sau cov suab los ntawm lub cuab yeej Bluetooth</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Tsuas yog siv nrog Bluetooth headphones. Yog tias koj txuas mus rau lub taub hau chav tsev (lub xov tooj cua hauv tsheb) ntawm Bluetooth, yog vim li cas qhov no yuav cia li ua rau tus xov tooj hu rau tus lej xov tooj ntawm lub cuab yeej no.</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Tsis txhob siv lub taub hau (lub tsheb xov tooj cua)!</string>
+    <string name="prefs_audio_codec_title">Audio codec</string>
     <string name="prefs_audio_priority_sum">Yog tias qhib, lwm daim ntawv thov yuav tsis tuaj yeem siv lub microphone. Yog tias xiam oob qhab, daim ntawv thov no yuav tsis tuaj yeem kaw suab thaum ntau daim ntawv thov siv lub microphone (Android tsis tas yuav tso cai siv lub microphone ib txhij)</string>
     <string name="prefs_audio_priority_title">Ua ntej lub suab rau lub app no</string>
     <string name="prefs_audio_rate_text">Sampling zaus</string>
     <string name="prefs_audio_recording_text">Kev kaw suab</string>
     <string name="prefs_audio_settings_sum_text">Zoo, tawm /ntawm lub suab kaw</string>
     <string name="prefs_audio_settings_text">Kev teeb tsa suab</string>
+    <string name="prefs_audio_source_camcorder_text">Kev kaw suab los ntawm CAMCORDER yuav tsis ua haujlwm ntawm qee cov khoom siv, hauv qhov no sim hloov mus rau MIC</string>
+    <string name="prefs_audio_source_text">Audio Source</string>
     <string name="prefs_audio_stereo_text">Lub tso suab</string>
     <string name="prefs_auto_start_app_launch_sum_text">Pib kaw video cia li thaum lub app pib</string>
     <string name="prefs_auto_start_app_launch_text">Thaum pib daim ntawv thov</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Khiav thaum ntsaws rau hauv lub suab jack (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Nres thaum txiav tawm ntawm lub suab jack (AUX)</string>
     <string name="prefs_battery_optimization_sum_text">Roj teeb optimization tuaj yeem tiv thaiv lub app los ntawm kev ua haujlwm kom raug (piv txwv li, siv lub koob yees duab lossis hloov kho qhov chaw thaum kaw cov yeeb yaj kiab hauv keeb kwm yav dhau). Nyem qhov no txhawm rau kaw nws rau daim ntawv thov tam sim no</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">Kev ua kom zoo roj teeb tuaj yeem tiv thaiv daim ntawv thov ua haujlwm kom raug (piv txwv li, siv lub koob yees duab thiab microphone). Nyem qhov no kom lov tes taw nws rau daim ntawv thov tam sim no</string>
     <string name="prefs_battery_optimization_text">Roj teeb optimization</string>
     <string name="prefs_beep_each_start_recording_sum_text">Teeb liab thaum pib ntawm kev kaw cov ntaub ntawv video tom ntej</string>
     <string name="prefs_beep_each_start_recording_text">Beep thaum kaw</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Toj roob hauv pes</string>
     <string name="prefs_orientation_landscape_reversed">Album rov qab</string>
     <string name="prefs_orientation_portrait">Portrait</string>
+    <string name="prefs_orientation_sensor_automatic">Tsis siv neeg</string>
     <string name="prefs_other_auto_deleting_sum_text">Yuav rho tawm cov yeeb yaj kiab qub tshaj plaws thaum kaw yog tias tsis muaj chaw txaus rau cov yeeb yaj kiab tshiab</string>
     <string name="prefs_other_auto_deleting_text">Loop kaw</string>
     <string name="prefs_other_date_time_text">hnub thiab sijhawm</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Yees duab qhov chaw (folder /path)</string>
     <string name="prefs_other_path_text">Video qhov chaw (folder /path)</string>
     <string name="prefs_other_settings_sum_text">Video qhov chaw (txuag nplaub tshev), video ntev, voj kaw, G-sensor, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Qhov chaw ntawm kev kaw cov yeeb yaj kiab (folder kom txuag tau), video ntev, voj kaw, qhov siab tshaj plaws video loj</string>
     <string name="prefs_other_settings_text">Lwm qhov chaw</string>
     <string name="prefs_other_show_address_text">Qhov chaw nyob tam sim no</string>
     <string name="prefs_other_show_altitude_text">Qhov siab tshaj hiav txwv theem</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Thaum koj pib daim ntawv thov, qhib /tawm them, khau raj lub kaw lus</string>
     <string name="prefs_screen_autostart_text">Autostart kaw</string>
     <string name="prefs_screen_ui_summary_text">Screen ceev /ntev nias, tshuaj ntsuam tawm, chaw nyob thiab ceev zaub, popup qhov rai, nyees khawm thiab ntau dua</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Shortcut pib sau, ceev thiab ntev nias ntawm lub vijtsam, lub qhov rai pop-up, vibration thaum kaw, suab ceeb toom, vibration, nyees khawm ntawm lub vijtsam, tua lub vijtsam thiab ntau dua</string>
     <string name="prefs_screen_ui_title">Interface (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Hloov lub koob yees duab hnub /hmo ntuj hom ntawm lub sijhawm tshwj xeeb</string>
     <string name="prefs_screen_video_day_night_mode_text">Pib Hnub /Hmo Ntuj Teeb</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">Thaiv cov yeeb yaj duab los ntawm overwritten</string>
     <string name="prefs_show_overlay_btn_sum_text">Qhia lub qhov rais nrog cov nyees khawm tswj nyob rau saum toj ntawm txhua daim ntawv thov</string>
     <string name="prefs_show_overlay_btn_text">Qhia qhov rai ntab</string>
+    <string name="prefs_show_overlay_on_recording_text">Qhia qhov rai ntab thaum sau cia pib</string>
     <string name="prefs_show_status_bar_text">Qhia qhov system xwm txheej bar</string>
     <string name="prefs_show_take_photo_btn_text">Ua ib daim duab</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Tsis txhawb los ntawm lub koob yees duab tam sim no. Cov neeg tsim khoom feem ntau txwv tsis pub siv - nws tsuas yog muaj nyob rau hauv daim ntawv thov lub koob yees duab txheem</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Overlay subtitles hauv qab ntawm video</string>
     <string name="prefs_subtitles_position_bottom_text">Subtitles hauv qab</string>
     <string name="prefs_subtitles_settings_sum_text">Overlay video captions: Hnub tim (lub sij hawm), qhov chaw nyob, kev tswj xyuas thiab ceev</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Overlay captions ntawm cov yeeb yaj duab: hnub tim (lub sij hawm stamp), cov ntawv kev cai</string>
     <string name="prefs_subtitles_settings_text">Subtitle nqis</string>
     <string name="prefs_subtitles_size_text">Nce cov ntawv loj</string>
     <string name="prefs_subtitles_speed_text">Ceev</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Qhia txog kab laum, sib tsoo lossis ua qhov kev thov</string>
     <string name="prefs_support_text">Kev them nyiaj yug (feedback)</string>
     <string name="prefs_system_alert_window_sum_text">Tso cai rau lub app no ​​​​los tshwm rau saum tag nrho lwm cov apps. Qhov no yog tsim nyog los pib /nres video kaw lossis tso saib lub qhov rais ntab</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Tso cai rau lub app no ​​​​los tshwm rau saum tag nrho lwm cov apps. Qhov no yog tsim nyog los tso saib lub qhov rais ntab</string>
     <string name="prefs_system_alert_window_text">Kev daws teeb meem saum toj ntawm txhua qhov rais</string>
     <string name="prefs_theme_mode_dark">Tsaus ntsiab</string>
+    <string name="prefs_theme_mode_dynamic">Dynamic</string>
     <string name="prefs_theme_mode_light">Lub ntsiab lus</string>
     <string name="prefs_theme_mode_system_auto">Raws li nyob rau hauv lub system (automatic)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Rov qab mus rau lub vijtsam hauv tsev (cov ntaub ntawv kaw) txhawm rau siv qhov teeb tsa no thiab pib qhov kev pabcuam taug qab</string>
     <string name="prefs_toolbar_title_setting">Chaw</string>
     <string name="prefs_translate_sum_text">Pab txhim kho lossis kho cov kev txhais cov ntawv hauv koj cov lus</string>
     <string name="prefs_translate_text">Kev txhais lus thov</string>
+    <string name="prefs_ui_app_icon_and_label_change">Hloov lub icon thiab lub npe ntawm daim ntawv thov hauv qhov system</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">Tom qab qhov kev hloov pauv, daim ntawv thov yuav raug kaw, lub cim qub yuav raug tshem tawm ntawm lub vijtsam tseem ceeb ntawm lub xov tooj (lossis hauv cov npe ntawm txhua daim ntawv thov), thiab ib qho tshiab yuav tshwm sim.</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Teem lub icon thiab lub npe ntawm lub launcher</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Hloov cov ntawv ceeb toom icon thiab lub npe</string>
+    <string name="prefs_ui_camera_preview_sum_text">Qhia lub koob yees duab saib ua ntej ntawm lub ntsiab app screen</string>
+    <string name="prefs_ui_camera_preview_text">Lub koob yees duab saib ua ntej</string>
     <string name="prefs_ui_click_none_text">Tsis muaj dab tsi ua</string>
     <string name="prefs_ui_click_start_stop_rec_text">Pib /nres kaw</string>
     <string name="prefs_ui_click_text">Kov ceev ntawm qhov screen</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Bitrate (zoo)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Lub koob yees duab tswj Scene hom (Hmo ntuj)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Lub koob yees duab tswj Scene hom (Hnub)</string>
+    <string name="prefs_video_codec_sum_text">H.265 HEVC thiab AV1 codecs muab qhov zoo dua ntawm cov bitrates qis dua H.264 AVC, yog li koj tuaj yeem txuag qhov chaw los ntawm kev txo cov bitrate. Tab sis cov yeeb yaj kiab yuav tsis ua si hauv qee cov yeeb yaj kiab</string>
+    <string name="prefs_video_codec_text">Video codec</string>
     <string name="prefs_video_control_scene_mode_beach_text">Puam (ciaj huab cua)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">General /Face Priority</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (High Dynamic Range)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Lub koob yees duab tsom (hnub)</string>
     <string name="prefs_video_focus_text">Lub koob yees duab tsom (hnub)</string>
     <string name="prefs_video_fps_range_text">Ncej Ib Thib Ob (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Sau hauv HEVC (H.265) hom ntawv kom txuag tau qhov chaw. Tej zaum koj yuav tsis muaj peev xwm ua si cov yeeb yaj duab ntawm lwm yam video playback li lossis daim ntawv thov. Yuav rov pib daws teeb meem thiab bitrate tom qab hloov</string>
-    <string name="prefs_video_hevc_text">Ua tau zoo video coding</string>
     <string name="prefs_video_orientation_text">Video thiab xov tooj orientation</string>
     <string name="prefs_video_resolution_text">Video daws teeb meem</string>
     <string name="prefs_video_settings_sum_text">Resolution, ntsis tus nqi, orientation, tsom, lub koob yees duab, hmo ntuj hom</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Loj dua - roj teeb nrawm dua</string>
     <string name="prefs_video_space_unlimited">Unlimited</string>
     <string name="prefs_video_stabilization_text">Video stabilization</string>
+    <string name="prefs_voice_recorder_app">Lub suab Recorder hauv keeb kwm yav dhau</string>
     <string name="prefs_warning_location_precise_sum_text">Qhov no yog qhov tsim nyog kom tau txais qhov tseeb tshaj plaws GPS-raws li ceev, nrog rau qhov chaw nyob thiab kev tswj xyuas. Nyem rau xa</string>
     <string name="prefs_warning_location_precise_text">Tso cai rau qhov chaw nyob</string>
     <string name="prefs_warning_notifications_sum_text">Yuav tsum tau muaj peev xwm tso saib cov kev pab cuam kaw cia thiab cov xwm txheej ntawm lub vaj huam sib luag ceeb toom. Nyem rau xa</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">Net</string>
     <string name="rec_off_text">Tawm</string>
     <string name="rec_on_text">Incl.</string>
-    <string name="rec_service_msg">Tsis pub twg paub: Txhua cov yeeb yaj kiab uas koj kaw yuav raug cawm hauv koj lub cuab yeej hauv zos xwb. Daim ntawv thov tsis backup koj cov yeeb yaj duab (tsis muaj kev sib txuas rau servers)\n\nLub app yuav khiav mus ntxiv rau hauv keeb kwm yav dhau (qhov kev pabcuam pem hauv ntej uas tshwm hauv qhov ceeb toom bar) yog tias koj pib sau ntawv tshiab thiab rov qab mus rau lub vijtsam hauv tsev, hloov mus rau lwm lub app lossis kaw koj lub xov tooj kom tuaj yeem kaw txuas ntxiv, lossis yog tias koj qhib lub zog rau kev kaw cia tsis siv neeg (yog tias koj kaw qhov kev pabcuam tom qab, cov haujlwm no yuav tsis ua haujlwm).</string>
+    <string name="rec_service_msg">Tsis pub twg paub: Txhua cov yeeb yaj kiab uas koj kaw yuav raug cawm hauv koj lub cuab yeej hauv zos xwb. Daim ntawv thov tsis backup koj cov yeeb yaj duab (tsis muaj kev sib txuas rau servers)\n\nLub app tseem yuav khiav hauv keeb kwm yav dhau (qhov kev pabcuam pem hauv ntej uas tshwm hauv qhov ceeb toom bar) thaum cov ntaubntawv povthawj siv ua haujlwm, thaum koj rov qab mus rau lub vijtsam hauv tsev, hloov mus rau lwm lub app lossis kaw koj lub xov tooj mus txuas ntxiv, thiab thaum koj qhib. nta rau kev kaw cia tsis siv neeg (yog tias koj kaw qhov kev pabcuam tom qab, cov haujlwm no yuav tsis ua haujlwm). Lub app siv Firebase Analytics rau kev txheeb xyuas tsis qhia npe (saib qhov txuas hauv qab no)</string>
+    <string name="recording_file_name_prefix">Prefix rau cov npe video file</string>
     <string name="recording_start_text">Pib sau</string>
     <string name="recording_started_failed_text">yuam kev pib kaw</string>
     <string name="recording_started_with_audio_text">Kev kaw video tshiab nrog kev kaw suab tau pib</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">Kev kaw…</string>
     <string name="recording_voice_started_text">Kev kaw cia tau pib</string>
     <string name="recording_voice_stopped_text">Kev kaw tseg nres</string>
+    <string name="records_file_sorting_date">Hnub tim</string>
+    <string name="records_file_sorting_duration">Duration</string>
+    <string name="records_file_sorting_name">Lub npe</string>
+    <string name="records_file_sorting_size">Cov ntaub ntawv loj</string>
+    <string name="records_file_upload_drive">Txuag rau \"Google Drive\"</string>
     <string name="reset">tso tawm</string>
     <string name="storage_external_single">MicroSD daim npav</string>
     <string name="storage_phone">Xov tooj nco</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Rho tawm hom</string>
     <string name="videos_file_item_share">Qhia qhov no</string>
     <string name="videos_file_item_watch">Saib</string>
+    <string name="videos_file_open_with">Qhib nrog</string>
+    <string name="videos_file_select">Xaiv rau</string>
     <string name="videos_file_sort_asc">Sib Ascending</string>
     <string name="videos_file_sort_desc">Txim nqis</string>
     <string name="videos_file_was_locked_text">Cov ntaub ntawv video tau raug tsiv mus rau ib daim ntawv tiv thaiv</string>

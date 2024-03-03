@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">ma nõustun</string>
     <string name="any_text">Ükskõik milline</string>
+    <string name="app_alternative_name_audio">Heli</string>
+    <string name="app_alternative_name_battery">Aku seaded</string>
+    <string name="app_alternative_name_media">Meedia</string>
+    <string name="app_alternative_name_media_player">Meediumipleier</string>
+    <string name="app_alternative_name_video">Video</string>
+    <string name="app_name_backgroundvideorecorder">Taustal videosalvestus</string>
     <string name="app_name_droid_dashcam">Droid Dashcam – DVR-i juhtimine</string>
     <string name="camera">Kaamera</string>
     <string name="camera_aperture">Diafragma</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">Kaamera ei ole ajutiselt (ei olnud) teie seadmes avamiseks saadaval (kaamera süsteemiviga)</string>
     <string name="camera_support_error">Kaamera kasutamisel ilmnes viga.</string>
     <string name="close">Sulge</string>
+    <string name="days">päevadel</string>
     <string name="default_text">Vaikimisi</string>
     <string name="dialog_camera_not_found_msg_text">Sellel seadmel ei ole sisseehitatud kaamerat ja see ei toeta väliseid kaameraid. Sulgemine…</string>
     <string name="dialog_camera_not_found_text">Kaamerat ei leitud</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">Teil pole reklaame.</string>
     <string name="donation_level_text">Teie annetuse tase:</string>
     <string name="donation_purchase_info_loading_text">Ostuinfot pole veel üles laaditud. Kas olete võrgus ja oma Google\'i kontole sisse logitud?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Eemaldage reklaamid igaveseks mis tahes summa ühekordse annetusega. Samuti saate reklaamide eemaldamiseks igakuiselt annetada mis tahes summa</string>
-    <string name="donation_subs_any_amount_text">Samuti eemaldatakse reklaam täielikult, kui tellite mis tahes summa eest.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Eemaldage reklaamid igaveseks mis tahes summa ühekordse annetusega. Samuti saate reklaamide eemaldamiseks annetada iga kuu</string>
+    <string name="donation_subs_any_amount_text">Reklaamid eemaldatakse täielikult, kui igakuine tellimus on aktiivne.</string>
     <string name="donation_subs_manage_btn_text">Loobu tellimusest</string>
+    <string name="donation_subs_no_free_trial_explanation_text">Rakendus ei paku tellimustele prooviperioodi, kuna kõik rakenduse funktsioonid on juba tasuta, tellimus eemaldab ainult reklaami</string>
+    <string name="donation_subs_one_text">Kui tellimus on aktiivne, eemaldatakse reklaam täielikult.</string>
     <string name="donation_subs_text">Anneta igakuiselt</string>
     <string name="format_altitude">Kõrgus</string>
     <string name="format_degrees">Koordinaadid</string>
@@ -56,6 +65,7 @@
     <string name="from">alates</string>
     <string name="hour">tund</string>
     <string name="hours">tundi</string>
+    <string name="month">kuu</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Rakendus ei ole aku optimeerimisest välistatud. Kui kaamera taustal ei tööta või midagi muud, siis lisa see rakendus energiasäästurežiimi erandite hulka.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Kui installisite rakenduse Android 11-le uuesti, tuleb vanad failid käsitsi kustutada</string>
     <string name="msg_auto_recording_service_was_stopped">Peatasite videosalvestuse automaatse alustamise taustateenuse. Avage rakendus, et see uuesti käivitada.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Salvestage heli Bluetooth-seadmest</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Kasutage ainult Bluetooth-kõrvaklappidega. Kui ühendate peaseadme (autoraadio) Bluetoothi ​​kaudu, võib see mingil põhjusel käivitada automaatselt telefonikõne selle seadme standardnumbril</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Ärge kasutage koos peaseadmega (autoraadio)!</string>
+    <string name="prefs_audio_codec_title">Heli kodek</string>
     <string name="prefs_audio_priority_sum">Kui see on lubatud, ei saa teised rakendused mikrofoni kasutada. Kui see on keelatud, ei pruugi see rakendus olla võimeline heli salvestama, kui mikrofoni kasutavad mitu rakendust (Android ei luba alati mikrofoni samaaegset kasutamist)</string>
     <string name="prefs_audio_priority_title">Eelistage heli sellele rakendusele</string>
     <string name="prefs_audio_rate_text">Proovivõtu sagedus</string>
     <string name="prefs_audio_recording_text">Helisalvestus</string>
     <string name="prefs_audio_settings_sum_text">Kvaliteet, helisalvestus väljas /sisse</string>
     <string name="prefs_audio_settings_text">Heli seaded</string>
+    <string name="prefs_audio_source_camcorder_text">Helisalvestus kaamerast CAMCORDER ei pruugi mõnes seadmes töötada, sel juhul proovige valida MIC</string>
+    <string name="prefs_audio_source_text">Heli allikas</string>
     <string name="prefs_audio_stereo_text">Stereo</string>
     <string name="prefs_auto_start_app_launch_sum_text">Alustage video salvestamist automaatselt, kui rakendus käivitub</string>
     <string name="prefs_auto_start_app_launch_text">Rakenduse käivitamisel</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Käivitage, kui see on ühendatud helipessa (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Peatus, kui see on helipistikust lahti ühendatud (AUX)</string>
     <string name="prefs_battery_optimization_sum_text">Aku optimeerimine võib takistada rakenduse korrektset töötamist (näiteks kaamera kasutamine või asukoha värskendamine taustal video salvestamise ajal). Selle rakenduse jaoks selle kohe keelamiseks klõpsake siin</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">Aku optimeerimine võib takistada rakenduse korrektset töötamist (näiteks kaamera ja mikrofoni kasutamist). Selle rakenduse jaoks kohe keelamiseks klõpsake siin</string>
     <string name="prefs_battery_optimization_text">Aku optimeerimine</string>
     <string name="prefs_beep_each_start_recording_sum_text">Signaal järgmise videofaili salvestamise alguses</string>
     <string name="prefs_beep_each_start_recording_text">Piiks salvestamisel</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Maastik</string>
     <string name="prefs_orientation_landscape_reversed">Albumi tagurpidi</string>
     <string name="prefs_orientation_portrait">Portree</string>
+    <string name="prefs_orientation_sensor_automatic">Automaatne</string>
     <string name="prefs_other_auto_deleting_sum_text">Kui uute videote jaoks pole piisavalt ruumi, kustutage salvestamise ajal automaatselt vanimad videod</string>
     <string name="prefs_other_auto_deleting_text">Loopsalvestus</string>
     <string name="prefs_other_date_time_text">päev ja aeg</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Foto asukoht (kaust/tee)</string>
     <string name="prefs_other_path_text">Video asukoht (kaust/tee)</string>
     <string name="prefs_other_settings_sum_text">Video asukoht (salvesta kaust), video kestus, silmussalvestus, G-sensor, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Videosalvestiste asukoht (salvestatav kaust), video kestus, silmussalvestus, maksimaalne video suurus</string>
     <string name="prefs_other_settings_text">Muud seaded</string>
     <string name="prefs_other_show_address_text">Praeguse asukoha aadress</string>
     <string name="prefs_other_show_altitude_text">Kõrgus merepinnast</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Rakenduse käivitamisel lülitage laadimine sisse /välja, käivitage süsteem</string>
     <string name="prefs_screen_autostart_text">Salvestamise automaatne käivitamine</string>
     <string name="prefs_screen_ui_summary_text">Ekraani kiire /pikk vajutus, ekraan välja lülitatud, aadressi ja kiiruse kuvamine, hüpikaken, nupud ja palju muud</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Salvestamise alustamise otsetee, kiire ja pikk vajutus ekraanil, hüpikaken, vibratsioon salvestamisel, helimärguanne, vibratsioon, nupud ekraanil, ekraani väljalülitamine ja palju muud</string>
     <string name="prefs_screen_ui_title">Liides (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Lülitab automaatselt teatud kellaaegadel kaamera päeva-/öörežiimi</string>
     <string name="prefs_screen_video_day_night_mode_text">Automaatsed päeva/öö seadistused</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">Videote ülekirjutamise blokeerimine</string>
     <string name="prefs_show_overlay_btn_sum_text">Kuvab kõigi rakenduste peal juhtnuppudega akna</string>
     <string name="prefs_show_overlay_btn_text">Kuva ujuv aken</string>
+    <string name="prefs_show_overlay_on_recording_text">Salvestamise alustamisel kuvatakse ujuv aken</string>
     <string name="prefs_show_status_bar_text">Kuva süsteemi olekuriba</string>
     <string name="prefs_show_take_photo_btn_text">Foto tegemiseks</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Praegune kaamera ei toeta. Tootjad piiravad sageli selle kasutamist – see on saadaval ainult tavalises kaamerarakenduses</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Ülekattega subtiitrid video allosas</string>
     <string name="prefs_subtitles_position_bottom_text">Subtiitrid allosas</string>
     <string name="prefs_subtitles_settings_sum_text">Ülekattega videotiitrid: kuupäev (kellaaeg), asukoha aadress, koordinaadid ja kiirus</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Kattetiitrid videotel: kuupäev (ajatempel), kohandatud tekst</string>
     <string name="prefs_subtitles_settings_text">Subtiitrite seaded</string>
     <string name="prefs_subtitles_size_text">Suurendage teksti suurust</string>
     <string name="prefs_subtitles_speed_text">Kiirus</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Teatage veast, krahhist või tehke pakkumine</string>
     <string name="prefs_support_text">Tugi (tagasiside)</string>
     <string name="prefs_system_alert_window_sum_text">Lubage sellel rakendusel kuvada kõigi teiste rakenduste peal. See on vajalik videosalvestuse automaatseks käivitamiseks/peatamiseks või ujuva akna kuvamiseks</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Lubage sellel rakendusel kuvada kõigi teiste rakenduste kohal. See on vajalik ujuva akna kuvamiseks</string>
     <string name="prefs_system_alert_window_text">Resolutsioon kõigi akende peal</string>
     <string name="prefs_theme_mode_dark">Tume teema</string>
+    <string name="prefs_theme_mode_dynamic">Dünaamiline</string>
     <string name="prefs_theme_mode_light">Kerge teema</string>
     <string name="prefs_theme_mode_system_auto">Nagu süsteemis (automaatne)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Selle sätte rakendamiseks ja jälgimisteenuse käivitamiseks naaske avakuvale (salvestused).</string>
     <string name="prefs_toolbar_title_setting">Seaded</string>
     <string name="prefs_translate_sum_text">Aidake parandada või parandada teksti tõlget teie keeles</string>
     <string name="prefs_translate_text">Rakenduse tõlge</string>
+    <string name="prefs_ui_app_icon_and_label_change">Muutke süsteemis rakenduse ikooni ja nime</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">Pärast muudatust võib rakendus sulgeda, vana ikoon eemaldatakse telefoni põhiekraanilt (või kõigi rakenduste loendist) ja ilmub uus</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Määrake käiviti ikoon ja nimi</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Muutke teatise ikooni ja nime</string>
+    <string name="prefs_ui_camera_preview_sum_text">Kuva kaamera eelvaade rakenduse põhiekraanil</string>
+    <string name="prefs_ui_camera_preview_text">Kaamera eelvaade</string>
     <string name="prefs_ui_click_none_text">Pole midagi teha</string>
     <string name="prefs_ui_click_start_stop_rec_text">Salvestamise alustamine /peatamine</string>
     <string name="prefs_ui_click_text">Puudutage kiiresti ekraani</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Bitikiirus (kvaliteet)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kaamera juhtimise stseenirežiim (öine)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kaamera juhtimise stseenirežiim (päevane)</string>
+    <string name="prefs_video_codec_sum_text">H.265 HEVC ja AV1 koodekid tagavad parema kvaliteedi madalama bitikiirusega kui H.264 AVC, nii et saate bitikiirust vähendades ruumi kokku hoida. Kuid mõnes videopleieris ei pruugita videoid esitada</string>
+    <string name="prefs_video_codec_text">Videokodek</string>
     <string name="prefs_video_control_scene_mode_beach_text">Rand (helge ilm)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Üldine /näoprioriteet</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (suur dünaamiline ulatus)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Kaamera teravustamine (öine)</string>
     <string name="prefs_video_focus_text">Kaamera teravustamine (päev)</string>
     <string name="prefs_video_fps_range_text">Kaadrit sekundis (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Salvestage ruumi säästmiseks HEVC (H.265) vormingus. Võimalik, et te ei saa selliseid videoid esitada teistes video taasesitusseadmetes või rakendustes. Pärast muutmist lähtestab eraldusvõime ja bitikiirus</string>
-    <string name="prefs_video_hevc_text">Väga tõhus videokodeerimine</string>
     <string name="prefs_video_orientation_text">Video ja telefoni orientatsioon</string>
     <string name="prefs_video_resolution_text">Video eraldusvõime</string>
     <string name="prefs_video_settings_sum_text">Eraldusvõime, bitikiirus, orientatsioon, fookus, kaamera, öörežiim</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Suurem suurus – kiirem aku tühjendamine</string>
     <string name="prefs_video_space_unlimited">Piiramatu</string>
     <string name="prefs_video_stabilization_text">Video stabiliseerimine</string>
+    <string name="prefs_voice_recorder_app">Diktofon taustal</string>
     <string name="prefs_warning_location_precise_sum_text">See on vajalik kõige täpsema GPS-põhise kiiruse, samuti aadressi ja koordinaatide saamiseks. Klõpsake esitamiseks</string>
     <string name="prefs_warning_location_precise_text">Luba täpse asukoha saamiseks</string>
     <string name="prefs_warning_notifications_sum_text">Vajalik taustsalvestusteenuse ja olekute kuvamiseks teavituspaneelil. Klõpsake esitamiseks</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">Net</string>
     <string name="rec_off_text">Väljas</string>
     <string name="rec_on_text">Sealhulgas</string>
-    <string name="rec_service_msg">Privaatsus: kõik salvestatud videod salvestatakse ainult teie kohalikku seadmesse. Rakendus ei varunda teie videoid (ei ole serveritega ühendust)\n\nRakendus jätkab taustal töötamist (esiplaani teenus, mis kuvatakse teavitusribal), kui alustate uut salvestust ja naasete avakuvale, lülitute mõnele muule rakendusele või lukustate telefoni, et saaksite salvestamist jätkata või kui lülitate sisse automaatse salvestamise funktsioonid (taustateenuse sulgemisel need funktsioonid ei tööta).</string>
+    <string name="rec_service_msg">Privaatsus: kõik salvestatud videod salvestatakse ainult teie kohalikku seadmesse. Rakendus ei varunda teie videoid (ei ole serveritega ühendust)\n\nRakendus jätkab töötamist taustal (esiplaani teenus, mis kuvatakse teavitusribal), kui salvestamine on aktiivne, kui naasete avakuvale, lülitute mõnele teisele rakendusele või lukustate telefoni salvestamise jätkamiseks ja sisselülitamisel automaatse salvestamise funktsioonid (taustateenuse sulgemisel need funktsioonid ei tööta). Rakendus kasutab Firebase Analyticsit põhilise anonüümse analüüsi jaoks (vt linki allpool)</string>
+    <string name="recording_file_name_prefix">Videofailide nimede eesliide</string>
     <string name="recording_start_text">Alustage salvestamist</string>
     <string name="recording_started_failed_text">Viga salvestamise alustamisel</string>
     <string name="recording_started_with_audio_text">Uus videosalvestus koos helisalvestusega on alanud</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">Salvestamine…</string>
     <string name="recording_voice_started_text">Salvestamine on alanud</string>
     <string name="recording_voice_stopped_text">Salvestamine peatus</string>
+    <string name="records_file_sorting_date">Kuupäev</string>
+    <string name="records_file_sorting_duration">Kestus</string>
+    <string name="records_file_sorting_name">Nimi</string>
+    <string name="records_file_sorting_size">Faili suurus</string>
+    <string name="records_file_upload_drive">Salvesta \"Google Drive\'i\"</string>
     <string name="reset">tühjenemine</string>
     <string name="storage_external_single">MicroSD-kaart</string>
     <string name="storage_phone">Telefoni mälu</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Kustuta režiim</string>
     <string name="videos_file_item_share">Jaga seda</string>
     <string name="videos_file_item_watch">Vaata</string>
+    <string name="videos_file_open_with">Ava koos</string>
+    <string name="videos_file_select">Valige jaoks</string>
     <string name="videos_file_sort_asc">Järjesta kasvavalt</string>
     <string name="videos_file_sort_desc">Sordi kahanevalt</string>
     <string name="videos_file_was_locked_text">Videofail on teisaldatud kaitstud kausta</string>

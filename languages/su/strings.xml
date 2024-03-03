@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">Abdi nampi</string>
     <string name="any_text">Sakur</string>
+    <string name="app_alternative_name_audio">Audio</string>
+    <string name="app_alternative_name_battery">Setélan batré</string>
+    <string name="app_alternative_name_media">Média</string>
+    <string name="app_alternative_name_media_player">Pamuter média</string>
+    <string name="app_alternative_name_video">Video</string>
+    <string name="app_name_backgroundvideorecorder">Ngarékam pidéo latar</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - Nyetir DVR</string>
     <string name="camera">Kaméra</string>
     <string name="camera_aperture">Diafragma</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">Kaméra samentawis (teu aya) teu tiasa dibuka dina alat anjeun (kasalahan sistem kaméra)</string>
     <string name="camera_support_error">Aya kasalahan nalika nganggo kaméra.</string>
     <string name="close">Tutup</string>
+    <string name="days">poé</string>
     <string name="default_text">Default</string>
     <string name="dialog_camera_not_found_msg_text">Alat ieu teu gaduh kaméra internal sareng henteu ngadukung kaméra éksternal. Panutup…</string>
     <string name="dialog_camera_not_found_text">Kaméra teu kapanggih</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">Anjeun teu boga iklan.</string>
     <string name="donation_level_text">Tingkat sumbangan anjeun:</string>
     <string name="donation_purchase_info_loading_text">Inpormasi balanja teu acan diunggah. Naha anjeun online sareng asup kana akun Google anjeun?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Hapus iklan salamina kalayan sumbangan sakali tina jumlah naon waé. Anjeun ogé tiasa nyumbangkeun jumlah naon waé bulanan pikeun ngahapus iklan</string>
-    <string name="donation_subs_any_amount_text">Ogé, pariwara tos dihapus nalika anjeun ngalanggan jumlah naon waé.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Hapus iklan salamina kalayan sumbangan sakali tina jumlah naon waé. Anjeun ogé tiasa nyumbang bulanan pikeun ngahapus iklan</string>
+    <string name="donation_subs_any_amount_text">Iklan tos rengse dihapus bari langganan pikeun jumlah naon per bulan aktip.</string>
     <string name="donation_subs_manage_btn_text">Unsubscribe</string>
+    <string name="donation_subs_no_free_trial_explanation_text">Aplikasina henteu nyayogikeun jaman uji coba pikeun langganan, sabab sadaya fungsi aplikasina parantos gratis, langganan ngan ngahapus pariwara.</string>
+    <string name="donation_subs_one_text">Iklan tos dipupus nalika langganan aktip.</string>
     <string name="donation_subs_text">Ngadon bulanan</string>
     <string name="format_altitude">Jangkungna</string>
     <string name="format_degrees">Koordinat</string>
@@ -56,6 +65,7 @@
     <string name="from">ti</string>
     <string name="hour">jam</string>
     <string name="hours">jam</string>
+    <string name="month">sasih</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Aplikasina henteu kalebet tina optimasi batré. Upami kaméra henteu jalan di latar tukang atanapi anu sanés, teras tambahkeun aplikasi ieu kana pengecualian mode hemat daya.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Upami anjeun masang deui aplikasi dina Android 11, maka file anu lami kedah dihapus sacara manual</string>
     <string name="msg_auto_recording_service_was_stopped">Anjeun parantos ngeureunkeun ladenan latar pikeun ngamimitian ngarékam pidéo sacara otomatis. Buka aplikasi pikeun ngajalankeun deui.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Rékam audio tina alat Bluetooth</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Anggo ngan nganggo headphone Bluetooth. Upami anjeun nyambung ka unit sirah (radio mobil) via Bluetooth, maka pikeun sababaraha alesan ieu tiasa otomatis memicu telepon ka nomer standar dina alat ieu.</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Entong nganggo unit sirah (radio mobil)!</string>
+    <string name="prefs_audio_codec_title">Audio codec</string>
     <string name="prefs_audio_priority_sum">Lamun diaktipkeun, aplikasi sejenna moal bisa make mikropon. Upami ditumpurkeun, aplikasi ieu moal tiasa ngarékam audio nalika sababaraha aplikasi dijalankeun nganggo mikropon (Android henteu salawasna ngamungkinkeun panggunaan mikropon sakaligus)</string>
     <string name="prefs_audio_priority_title">Prioritaskeun audio kana aplikasi ieu</string>
     <string name="prefs_audio_rate_text">Frékuénsi sampling</string>
     <string name="prefs_audio_recording_text">Rékam audio</string>
     <string name="prefs_audio_settings_sum_text">Kualitas, pareum /on rekaman sora</string>
     <string name="prefs_audio_settings_text">Setélan sora</string>
+    <string name="prefs_audio_source_camcorder_text">Rékam audio tina CAMCORDER tiasa waé henteu tiasa dianggo dina sababaraha alat, dina hal ieu cobian gentos kana MIC</string>
+    <string name="prefs_audio_source_text">Sumber Audio</string>
     <string name="prefs_audio_stereo_text">Stereo</string>
     <string name="prefs_auto_start_app_launch_sum_text">Mimitian ngarékam pidéo sacara otomatis sawaktos aplikasi dimimitian</string>
     <string name="prefs_auto_start_app_launch_text">Nalika ngamimitian aplikasi</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Jalankeun nalika dicolokkeun kana jack audio (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Eureun nalika dipegatkeun tina jack audio (AUX)</string>
     <string name="prefs_battery_optimization_sum_text">Optimasi batre tiasa nyegah aplikasi tiasa jalan leres (contona, nganggo kaméra atanapi ngamutahirkeun lokasi nalika ngarékam pidéo di latar tukang). Pencét di dieu pikeun nganonaktipkeun aplikasi ieu ayeuna</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">Optimasi batre tiasa nyegah aplikasi tiasa jalan leres (contona, nganggo kaméra sareng mikropon). Pencét di dieu pikeun nganonaktipkeun aplikasi ieu ayeuna</string>
     <string name="prefs_battery_optimization_text">optimasi batré</string>
     <string name="prefs_beep_each_start_recording_sum_text">Sinyal dina awal ngarékam file pidéo salajengna</string>
     <string name="prefs_beep_each_start_recording_text">Bip nalika ngarékam</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Bentang</string>
     <string name="prefs_orientation_landscape_reversed">Albeum ngabalikeun</string>
     <string name="prefs_orientation_portrait">Potrét</string>
+    <string name="prefs_orientation_sensor_automatic">Otomatis</string>
     <string name="prefs_other_auto_deleting_sum_text">Pupus otomatis pidéo pangkolotna nalika ngarékam upami teu aya rohangan pikeun pidéo énggal</string>
     <string name="prefs_other_auto_deleting_text">Ngarekam loop</string>
     <string name="prefs_other_date_time_text">tanggal jeung waktu</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Lokasi poto (folder /jalur)</string>
     <string name="prefs_other_path_text">Lokasi video (folder /jalur)</string>
     <string name="prefs_other_settings_sum_text">Lokasi video (simpen folder), durasi video, rekaman loop, G-sensor, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Lokasi rekaman video (folder pikeun disimpen), durasi video, rekaman loop, ukuran video maksimum</string>
     <string name="prefs_other_settings_text">Setélan séjén</string>
     <string name="prefs_other_show_address_text">Alamat lokasi ayeuna</string>
     <string name="prefs_other_show_altitude_text">Jangkungna luhureun beungeut laut</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Nalika anjeun ngamimitian aplikasi, hurungkeun /pareumkeun ngecas, boot sistem</string>
     <string name="prefs_screen_autostart_text">Autostart ngarékam</string>
     <string name="prefs_screen_ui_summary_text">Pencét gancang /panjang layar, layar pareum, alamat sareng tampilan laju, jandela pop-up, tombol sareng seueur deui</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Potong kompas pikeun ngamimitian ngarékam, pencét gancang sareng panjang dina layar, jandela pop-up, geter nalika ngarékam, béwara sora, geter, tombol dina layar, mareuman layar sareng seueur deui.</string>
     <string name="prefs_screen_ui_title">Antarmuka (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Ngarobih modeu kaméra siang /wengi sacara otomatis dina waktos anu khusus</string>
     <string name="prefs_screen_video_day_night_mode_text">Otomatis Poé /Wengi Setélan</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">Ngablokir pidéo tina ditimpa</string>
     <string name="prefs_show_overlay_btn_sum_text">Nampilkeun jandela sareng tombol kontrol dina luhureun sadaya aplikasi</string>
     <string name="prefs_show_overlay_btn_text">Témbongkeun jandela ngambang</string>
+    <string name="prefs_show_overlay_on_recording_text">Tampilkeun jandela ngambang nalika ngarékam dimimitian</string>
     <string name="prefs_show_status_bar_text">Témbongkeun bar status sistem</string>
     <string name="prefs_show_take_photo_btn_text">Pikeun nyieun poto</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Teu dirojong ku kaméra ayeuna. Pabrikan sering ngabatesan panggunaanna - éta ngan ukur aya dina aplikasi Kaméra standar</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Overlay subtitle di handapeun video</string>
     <string name="prefs_subtitles_position_bottom_text">Subtitle di handap</string>
     <string name="prefs_subtitles_settings_sum_text">Overlay captions video: Tanggal (waktu), alamat lokasi, koordinat jeung speed</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Overlay captions dina video: titimangsa (cap waktu), téks custom</string>
     <string name="prefs_subtitles_settings_text">Setélan subjudul</string>
     <string name="prefs_subtitles_size_text">Ningkatkeun ukuran téks</string>
     <string name="prefs_subtitles_speed_text">Laju</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Ngalaporkeun bug, kacilakaan atanapi ngadamel tawaran</string>
     <string name="prefs_support_text">Dukungan (eupan balik)</string>
     <string name="prefs_system_alert_window_sum_text">Idinan aplikasi ieu nembongan di luhureun sakabeh aplikasi sejenna. Ieu dipikabutuh pikeun otomatis ngamimitian /ngeureunkeun ngarékam pidéo atanapi ningalikeun jandela ngambang</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Idinan aplikasi ieu nembongan di luhureun sakabeh aplikasi sejenna. Ieu diperlukeun pikeun nembongkeun jandela ngambang</string>
     <string name="prefs_system_alert_window_text">Resolusi dina luhureun sakabeh jandéla</string>
     <string name="prefs_theme_mode_dark">Téma poék</string>
+    <string name="prefs_theme_mode_dynamic">Dinamis</string>
     <string name="prefs_theme_mode_light">Téma cahaya</string>
     <string name="prefs_theme_mode_system_auto">Saperti dina sistem (otomatis)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Balik deui ka layar utama (rekaman) pikeun nerapkeun setelan ieu sareng ngamimitian jasa tracking</string>
     <string name="prefs_toolbar_title_setting">Setélan</string>
     <string name="prefs_translate_sum_text">Ngabantosan ningkatkeun atanapi ngalereskeun tarjamahan téks dina basa anjeun</string>
     <string name="prefs_translate_text">Tarjamahan Aplikasi</string>
+    <string name="prefs_ui_app_icon_and_label_change">Robah ikon sareng nami aplikasi dina sistem</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">Saatos parobihan, aplikasi tiasa ditutup, ikon lami bakal dipupus dina layar utama telepon (atanapi dina daptar sadaya aplikasi), sareng anu énggal bakal muncul.</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Setel ikon sareng nami launcher</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Ganti ikon sareng nami bewara</string>
+    <string name="prefs_ui_camera_preview_sum_text">Tampilkeun sawangan kaméra dina layar aplikasi utama</string>
+    <string name="prefs_ui_camera_preview_text">Sawangan kaméra</string>
     <string name="prefs_ui_click_none_text">Eweuh nu bisa digawean</string>
     <string name="prefs_ui_click_start_stop_rec_text">Mimitian /eureun ngarékam</string>
     <string name="prefs_ui_click_text">Ketok gancang dina layar</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Bitrate (kualitas)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Modeu Pamandangan Kontrol Kaméra (Peuting)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Modeu Pamandangan Kontrol Kaméra (Poé)</string>
+    <string name="prefs_video_codec_sum_text">H.265 HEVC na AV1 codecs nyadiakeun kualitas hadé dina bitrates handap H.264 AVC, jadi Anjeun bisa ngahemat spasi ku cara ngurangan bitrate nu. Tapi video bisa jadi teu diputer dina sababaraha pamaén video</string>
+    <string name="prefs_video_codec_text">Video codec</string>
     <string name="prefs_video_control_scene_mode_beach_text">Pantai (cuaca cerah)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Umum /Prioritas raray</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (Rentang Dinamis Tinggi)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Pokus kaméra (peuting)</string>
     <string name="prefs_video_focus_text">Pokus kaméra (dinten)</string>
     <string name="prefs_video_fps_range_text">Pigura per detik (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Rékam dina format HEVC (H.265) pikeun ngahémat rohangan. Anjeun bisa jadi teu bisa muterkeun video misalna dina alat playback video sejenna atawa aplikasi. Bakal ngareset resolusi jeung bitrate sanggeus robah</string>
-    <string name="prefs_video_hevc_text">Coding pidéo anu épéktip pisan</string>
     <string name="prefs_video_orientation_text">Orientasi video sareng telepon</string>
     <string name="prefs_video_resolution_text">Resolusi video</string>
     <string name="prefs_video_settings_sum_text">Resolusi, bit rate, orientasi, fokus, kaméra, mode wengi</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Ukuran anu langkung ageung - solokan batré anu langkung gancang</string>
     <string name="prefs_video_space_unlimited">Unlimited</string>
     <string name="prefs_video_stabilization_text">Stabilisasi video</string>
+    <string name="prefs_voice_recorder_app">Recorder Sora dina Latar</string>
     <string name="prefs_warning_location_precise_sum_text">Ieu diperlukeun pikeun meunangkeun speed basis GPS paling akurat, kitu ogé alamat jeung koordinat. Klik pikeun ngalebetkeun</string>
     <string name="prefs_warning_location_precise_text">Idin pikeun lokasi pasti</string>
     <string name="prefs_warning_notifications_sum_text">Diperlukeun pikeun tiasa nampilkeun ladenan rekaman latar tukang sareng status dina panel bewara. Klik pikeun ngalebetkeun</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">Net</string>
     <string name="rec_off_text">Pareum</string>
     <string name="rec_on_text">Incl.</string>
-    <string name="rec_service_msg">Privasi: Sadaya video anu anjeun rekam bakal disimpen ngan dina alat lokal anjeun. Aplikasina henteu nyadangkeun pidéo anjeun (henteu gaduh sambungan kana server)\n\nAplikasi bakal terus dijalankeun di latar tukang (layanan latar hareup anu nembongan dina bar bewara) upami anjeun ngamimitian ngarékam énggal sareng uih deui ka layar utama, pindah ka aplikasi anu sanés atanapi ngonci telepon anjeun pikeun tiasa neraskeun ngarékam, atanapi upami Anjeun ngaktipkeun pungsi pikeun ngarékam otomatis (upami anjeun nutup jasa latar tukang, pungsi ieu moal jalan).</string>
+    <string name="rec_service_msg">Privasi: Sadaya video anu anjeun rekam bakal disimpen ngan dina alat lokal anjeun. Aplikasina henteu nyadangkeun pidéo anjeun (henteu gaduh sambungan kana server)\n\nAplikasi bakal terus dijalankeun di latar tukang (layanan latar hareup anu nembongan dina bar bewara) nalika ngarékam aktip, nalika anjeun uih deui ka layar utama, pindah ka aplikasi anu sanés atanapi ngonci telepon anjeun pikeun neraskeun ngarékam, sareng nalika anjeun ngaktipkeun. fitur pikeun ngarékam otomatis (upami anjeun nutup jasa latar tukang, fungsi ieu moal jalan). Aplikasi ngagunakeun Firebase Analytics pikeun analitik anonim dasar (tingali tautan di handap)</string>
+    <string name="recording_file_name_prefix">Awalan pikeun ngaran file video</string>
     <string name="recording_start_text">Mimitian ngarékam</string>
     <string name="recording_started_failed_text">Kasalahan ngamimitian ngarékam</string>
     <string name="recording_started_with_audio_text">Rékam pidéo énggal kalayan ngarékam audio parantos dimimitian</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">Ngarékam…</string>
     <string name="recording_voice_started_text">Ngarékam geus dimimitian</string>
     <string name="recording_voice_stopped_text">Rékaman dieureunkeun</string>
+    <string name="records_file_sorting_date">Kaping</string>
+    <string name="records_file_sorting_duration">Lilana</string>
+    <string name="records_file_sorting_name">Ngaran</string>
+    <string name="records_file_sorting_size">Ukuran file</string>
+    <string name="records_file_upload_drive">Simpen kana \"Google Drive\"</string>
     <string name="reset">ngurangan</string>
     <string name="storage_external_single">Kartu MicroSD</string>
     <string name="storage_phone">Mémori telepon</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">modeu Hapus</string>
     <string name="videos_file_item_share">Bagikeun ieu</string>
     <string name="videos_file_item_watch">Lalajo</string>
+    <string name="videos_file_open_with">Buka jeung</string>
+    <string name="videos_file_select">Pilih pikeun</string>
     <string name="videos_file_sort_asc">Urut Naek</string>
     <string name="videos_file_sort_desc">Urut turun</string>
     <string name="videos_file_was_locked_text">Payil video geus dipindahkeun ka polder nu ditangtayungan</string>

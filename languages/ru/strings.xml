@@ -18,6 +18,12 @@
     -->
     <string name="accept_text">Принять</string>
     <string name="any_text">Любое</string>
+    <string name="app_alternative_name_audio">Аудио</string>
+    <string name="app_alternative_name_battery">Настройки батареи</string>
+    <string name="app_alternative_name_media">СМИ</string>
+    <string name="app_alternative_name_media_player">Медиа Плеер</string>
+    <string name="app_alternative_name_video">видео</string>
+    <string name="app_name_backgroundvideorecorder">Фоновая запись видео</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - Видеорегистратор для вождения</string>
     <string name="camera">Камера</string>
     <string name="camera_aperture">Диафрагма</string>
@@ -37,6 +43,7 @@
     <string name="camera_msg_error_unknown_text">Камера временно (была) недоступна для открытия на вашем устройстве (системная ошибка камеры)</string>
     <string name="camera_support_error">Произошла ошибка при использовании камеры.</string>
     <string name="close">Закрыть</string>
+    <string name="days">дней</string>
     <string name="default_text">По умолчанию</string>
     <string name="dialog_camera_not_found_msg_text">Это устройство не имеет встроенной камеры и не поддерживает внешние камеры. Закрытие…</string>
     <string name="dialog_camera_not_found_text">Камера не найдена</string>
@@ -55,9 +62,11 @@
     <string name="donation_dlg_no_ads_text">У вас нет рекламы.</string>
     <string name="donation_level_text">Ваш уровень пожертвования:</string>
     <string name="donation_purchase_info_loading_text">Информация о покупках еще не загружена. Доступно ли подключение к сети и вход в Google аккаунт выполнен?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Удалите рекламу навсегда разовым пожертвованием на любую сумму. Также вы можете жертвовать ежемесячно на любую сумму, чтобы удалить рекламу</string>
-    <string name="donation_subs_any_amount_text">Также реклама полностью удаляется при подписке на любую сумму.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Удалите рекламу навсегда разовым пожертвованием на любую сумму. Также вы можете жертвовать ежемесячно, чтобы удалить рекламу</string>
+    <string name="donation_subs_any_amount_text">Реклама полностью удаляется пока активна подписка на любую сумму в месяц.</string>
     <string name="donation_subs_manage_btn_text">Отменить подписку</string>
+    <string name="donation_subs_no_free_trial_explanation_text">Приложение не предоставляет пробный период для подписок, так как все функции приложения и так бесплатны, подписка удаляет только рекламу</string>
+    <string name="donation_subs_one_text">Реклама полностью удаляется пока активна подписка.</string>
     <string name="donation_subs_text">Жертвовать ежемесячно</string>
     <string name="format_altitude">Высота</string>
     <string name="format_degrees">Координаты</string>
@@ -71,8 +80,9 @@
     <string name="format_speed_measure_kilometers">км/ч</string>
     <string name="format_speed_measure_miles">mph</string>
     <string name="from">от</string>
-    <string name="hour">время</string>
+    <string name="hour">час</string>
     <string name="hours">часов</string>
+    <string name="month">месяц</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Приложение не исключено из оптимизации батареи. Если камера не работает в фоновом режиме или что-то еще, то добавьте это приложение в исключения энергосберегающего режима.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Если вы переустанавливали приложение на Android 11, то старые файлы необходимо удалить вручную</string>
     <string name="msg_auto_recording_service_was_stopped">Вы остановили фоновую службу автоматического начала видеозаписи. Откройте приложение, чтобы запустить её снова.</string>
@@ -137,12 +147,15 @@
     <string name="prefs_audio_bt_recording_text">Записывать звук с Bluetooth устройства</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Используйте только с Bluetooth наушниками. Если вы подключаетесь к головному устройству (автомобильному радио) по Bluetooth, то по каким-то причинам это может автоматически вызывать телефонный звонок по стандартному номеру на данном устройстве</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Не используйте с головным устройством (автомобильным радио)!</string>
+    <string name="prefs_audio_codec_title">Аудиокодек</string>
     <string name="prefs_audio_priority_sum">Если включено, то другие приложения не смогут использовать микрофон. Если выключено, то это приложению возможно не сможет записывать аудио, когда работают несколько приложений использующих микрофон (Android не во всех случаях позволяет одновременное использование микрофона)</string>
     <string name="prefs_audio_priority_title">Приоритет аудио этому приложению</string>
     <string name="prefs_audio_rate_text">Частота дискретизации</string>
     <string name="prefs_audio_recording_text">Аудиозапись</string>
     <string name="prefs_audio_settings_sum_text">Качество, выкл/вкл запись звука</string>
     <string name="prefs_audio_settings_text">Настройки звука</string>
+    <string name="prefs_audio_source_camcorder_text">На некоторых устройствах может не работать запись звука с CAMCORDER, попробуйте в таком случае сменить на MIC</string>
+    <string name="prefs_audio_source_text">Источник звука</string>
     <string name="prefs_audio_stereo_text">Стерео</string>
     <string name="prefs_auto_start_app_launch_sum_text">Начать видеозапись автоматически при запуске приложения</string>
     <string name="prefs_auto_start_app_launch_text">При запуске приложения</string>
@@ -158,10 +171,11 @@
     <string name="prefs_auto_start_power_text">Запустить при подкючении зарядки</string>
     <string name="prefs_auto_stop_bl_text">Остановить при отключении блютуз устройства</string>
     <string name="prefs_auto_stop_power_text">Остановить при отключении зарядки</string>
-    <string name="prefs_aux_auto_start_sum_text">Автоматически запускает запись при подключении в аудио разъем (AUX)</string>
+    <string name="prefs_aux_auto_start_sum_text">Автоматически запускает запись при подключении в аудио разъем (AUX). Чтобы служба отслеживания зарядки запустилась после перезагрузки устройства необходимо, чтобы устройство (экран) было разблокировано, если есть пароль</string>
     <string name="prefs_aux_auto_start_text">Запустить при подключении в аудио разъем (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Остановить при отключении от аудио разъема (AUX)</string>
     <string name="prefs_battery_optimization_sum_text">Оптимизация батареи может препятствовать корректной работе приложения (например, использование камеры или обновление местоположения во время записи видео в фоновом режиме). Нажмите здесь, чтобы отключить ее для данного приложения сейчас</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">Оптимизация батареи может препятствовать корректной работе приложения (например, использование камеры и микрофона). Нажмите здесь, чтобы отключить ее для данного приложения сейчас</string>
     <string name="prefs_battery_optimization_text">Оптимизация батареи</string>
     <string name="prefs_beep_each_start_recording_sum_text">Сигнал в начале записи следующего видео файла</string>
     <string name="prefs_beep_each_start_recording_text">Звуковой сигнал при записи</string>
@@ -210,6 +224,7 @@
     <string name="prefs_orientation_landscape">Альбомная</string>
     <string name="prefs_orientation_landscape_reversed">Альбомная обратная</string>
     <string name="prefs_orientation_portrait">Портретная</string>
+    <string name="prefs_orientation_sensor_automatic">Автоматическая</string>
     <string name="prefs_other_auto_deleting_sum_text">Автоматически удалять самые старые видео во время записи, если для новых видео недостаточно места</string>
     <string name="prefs_other_auto_deleting_text">Циклическая запись</string>
     <string name="prefs_other_date_time_text">Дата и время</string>
@@ -221,6 +236,7 @@
     <string name="prefs_other_path_photo_text">Расположение фото (папка/путь)</string>
     <string name="prefs_other_path_text">Расположение видеозаписей (папка/путь)</string>
     <string name="prefs_other_settings_sum_text">Расположение видеозаписей (папка сохранения), продолжительность видео, циклическая запись, G-сенсор, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Расположение видеозаписей (папка для сохранения), продолжительность видео, циклическая запись, максимальный размер видео</string>
     <string name="prefs_other_settings_text">Другие настройки</string>
     <string name="prefs_other_show_address_text">Текущий адрес местоположения</string>
     <string name="prefs_other_show_altitude_text">Высота над уровнем моря</string>
@@ -256,6 +272,7 @@
     <string name="prefs_screen_autostart_sum_text">При запуске приложения, вкл/выкл зарядки, загрузке системы</string>
     <string name="prefs_screen_autostart_text">Автозапуск записи</string>
     <string name="prefs_screen_ui_summary_text">Быстрое/длительное нажатие по экрану, отключение экрана, отображение адреса и скорости, всплывающее окно, кнопки и другое</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Ярлык запуска записи, быстрое и длительное нажатие по экрану, всплывающее окно, вибрация при записи, звуковое оповещение, вибрация, кнопки на экране, отключение экрана и другое</string>
     <string name="prefs_screen_ui_title">Интерфейс (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Автоматически переключает дневной/ночной режимы камеры в определенное время</string>
     <string name="prefs_screen_video_day_night_mode_text">Настройки авто дневного/ночного режима</string>
@@ -274,6 +291,7 @@
     <string name="prefs_show_lock_btn_text">Блокировка видео от перезаписи</string>
     <string name="prefs_show_overlay_btn_sum_text">Отображает окно с кнопками управления поверх всех приложений</string>
     <string name="prefs_show_overlay_btn_text">Отображать плавающее окно</string>
+    <string name="prefs_show_overlay_on_recording_text">Отображать плавающее окно при начале записи</string>
     <string name="prefs_show_status_bar_text">Показывать строку состояния системы</string>
     <string name="prefs_show_take_photo_btn_text">Сделать фото</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Не поддерживается текущей камерой. Часто производители ограничивают ее использование - доступна только в стандартном приложении Камера</string>
@@ -296,6 +314,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Накладывать субтитры внизу видео</string>
     <string name="prefs_subtitles_position_bottom_text">Субтитры внизу</string>
     <string name="prefs_subtitles_settings_sum_text">Накладывание титров на видео: Дата (время), адрес местоположения, координаты и скорость</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Наложение подписей на видео: дата (метка времени), пользовательский текст</string>
     <string name="prefs_subtitles_settings_text">Настройки субтитров</string>
     <string name="prefs_subtitles_size_text">Увеличить размер текста</string>
     <string name="prefs_subtitles_speed_text">Скорость</string>
@@ -307,14 +326,22 @@
     <string name="prefs_support_sum_text">Сообщить об ошибке, сбое или сделать предложение</string>
     <string name="prefs_support_text">Поддержка (обратная связь)</string>
     <string name="prefs_system_alert_window_sum_text">Разрешить этому приложению отображаться поверх всех других приложений. Это необходимо для автоматического запуска/остановки записи видео или для отображения плавающего окна</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Разрешить этому приложению отображаться поверх всех других приложений. Это необходимо для отображения плавающего окна</string>
     <string name="prefs_system_alert_window_text">Разрешение поверх всех окон</string>
     <string name="prefs_theme_mode_dark">Темная тема</string>
+    <string name="prefs_theme_mode_dynamic">Динамическая</string>
     <string name="prefs_theme_mode_light">Светлая тема</string>
     <string name="prefs_theme_mode_system_auto">Как в системе (автоматическая)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Вернитесь на главный экран (записи), чтобы применить этот параметр и запустилась служба отслеживания</string>
     <string name="prefs_toolbar_title_setting">Настройки</string>
     <string name="prefs_translate_sum_text">Помогите улучшить или исправить перевод текста на ваш язык</string>
     <string name="prefs_translate_text">Перевод приложения</string>
+    <string name="prefs_ui_app_icon_and_label_change">Изменить иконку и название приложения в системе</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">После изменения приложение может закрыться, на главном экране телефона (или в списке всех приложений) старая иконка удалиться, а новая появится</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Задайте иконку и название лаунчера</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Изменить иконку уведомлений и имя</string>
+    <string name="prefs_ui_camera_preview_sum_text">Показывать предварительный просмотр камеры на главном экране приложения</string>
+    <string name="prefs_ui_camera_preview_text">Превью камеры</string>
     <string name="prefs_ui_click_none_text">Ничего не делать</string>
     <string name="prefs_ui_click_start_stop_rec_text">Начать/остановить запись</string>
     <string name="prefs_ui_click_text">Быстрое нажатие по экрану</string>
@@ -327,6 +354,8 @@
     <string name="prefs_video_bitrate_text">Битрейт (качество)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Режим сцены управления камерой (ночь)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Режим сцены управления камерой (день)</string>
+    <string name="prefs_video_codec_sum_text">H.265 HEVC и AV1 кодеки выдают лучшее качество при меньших битрейтах чем H.264 AVC, таким образом можно сэкономить место уменьшив битрейт. Но видео могут не воспроизводиться в некоторых видеоплеерах</string>
+    <string name="prefs_video_codec_text">Видеокодек</string>
     <string name="prefs_video_control_scene_mode_beach_text">Пляж (яркая погода)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Общая/Приоритет лиц</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (высокий динамический диапазон)</string>
@@ -348,8 +377,6 @@
     <string name="prefs_video_focus_night_text">Фокус камеры (ночь)</string>
     <string name="prefs_video_focus_text">Фокус камеры (день)</string>
     <string name="prefs_video_fps_range_text">Количество кадров в секунду (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Записывать в формате HEVC (H.265), чтобы сэкономить место. Возможно, вы не сможете воспроизводить такие видео на других устройствах или приложениях для воспроизведения видео. Сбросит разрешение и битрейт после изменения</string>
-    <string name="prefs_video_hevc_text">Высокоэффективное кодирование видеоизображений</string>
     <string name="prefs_video_orientation_text">Ориентация видео и телефона</string>
     <string name="prefs_video_resolution_text">Разрешение видео</string>
     <string name="prefs_video_settings_sum_text">Разрешение, битрейт, ориентация, фокус, камера, ночной режим</string>
@@ -357,6 +384,7 @@
     <string name="prefs_video_size_sum_text">Больше размер - быстрее разряжается батарея</string>
     <string name="prefs_video_space_unlimited">Неограниченно</string>
     <string name="prefs_video_stabilization_text">Стабилизация видео</string>
+    <string name="prefs_voice_recorder_app">Диктофон в фоновом режиме</string>
     <string name="prefs_warning_location_precise_sum_text">Это необходимо для получения наиболее точной скорости на основе GPS, а также адреса и координат. Нажмите, чтобы предоставить</string>
     <string name="prefs_warning_location_precise_text">Разрешение на точное местоположение</string>
     <string name="prefs_warning_notifications_sum_text">Необходимо для возможности отображения фонового сервиса записи и статусов на панели уведомлений. Нажмите, чтобы предоставить</string>
@@ -379,7 +407,8 @@
     <string name="rec_network_text">Сеть</string>
     <string name="rec_off_text">Выкл.</string>
     <string name="rec_on_text">Вкл.</string>
-    <string name="rec_service_msg">Конфиденциальность: все записанные вами видео будут сохранены только на вашем локальном устройстве. Приложение не делает резервные копии ваших видео (не имеет никаких подключений к серверам)\n\nПриложение продолжит работать в фоновом режиме (служба переднего плана, которая отображается на панели уведомлений), если вы начнете новую запись и вернетесь на главный экран, переключитесь на другое приложение или заблокируете телефон для того, чтобы иметь возможность продолжать запись, а также если вы включите функции для автоматической записи (если закрыть фоновую службу, то эти функции не будут работать).</string>
+    <string name="rec_service_msg">Конфиденциальность: все записанные вами видео будут сохранены только на вашем локальном устройстве. Приложение не делает резервные копии ваших видео (не имеет никаких подключений к серверам)\n\nПриложение продолжит работать в фоновом режиме (служба переднего плана, которая отображается на панели уведомлений) при активной записи, когда вы возвращаетесь на главный экран, переключаетесь на другое приложение или блокируете телефон для того, чтобы иметь возможность продолжать запись, а также если вы включите функции для автоматической записи (если закрыть фоновую службу, то эти функции не будут работать). Приложение использует Firebase Analytics для базовой анонимной аналитики (см. ссылку ниже)</string>
+    <string name="recording_file_name_prefix">Префикс для имени файлов видеозаписей</string>
     <string name="recording_start_text">Начать запись</string>
     <string name="recording_started_failed_text">Ошибка при начале записи</string>
     <string name="recording_started_with_audio_text">Началась новая запись видео с аудиозаписью</string>
@@ -392,6 +421,11 @@
     <string name="recording_text">Запись…</string>
     <string name="recording_voice_started_text">Запись началась</string>
     <string name="recording_voice_stopped_text">Запись остановлена</string>
+    <string name="records_file_sorting_date">Дата</string>
+    <string name="records_file_sorting_duration">Продолжительность</string>
+    <string name="records_file_sorting_name">Имя</string>
+    <string name="records_file_sorting_size">Размер файла</string>
+    <string name="records_file_upload_drive">Сохранить на «Google Диск»</string>
     <string name="reset">сброс</string>
     <string name="storage_external_single">MicroSD карта</string>
     <string name="storage_phone">Память телефона</string>
@@ -420,6 +454,8 @@
     <string name="videos_file_deletion_mode">Режим удаления</string>
     <string name="videos_file_item_share">Поделиться</string>
     <string name="videos_file_item_watch">Смотреть</string>
+    <string name="videos_file_open_with">Открыть с</string>
+    <string name="videos_file_select">Выберите для</string>
     <string name="videos_file_sort_asc">Сортировка по возрастанию</string>
     <string name="videos_file_sort_desc">Сортировка по убыванию</string>
     <string name="videos_file_was_locked_text">Видео файл перемещен в защищенную папку</string>

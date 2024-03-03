@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">jag accepterar</string>
     <string name="any_text">Några</string>
+    <string name="app_alternative_name_audio">Audio</string>
+    <string name="app_alternative_name_battery">Batteriinställningar</string>
+    <string name="app_alternative_name_media">Media</string>
+    <string name="app_alternative_name_media_player">Mediaspelare</string>
+    <string name="app_alternative_name_video">Video</string>
+    <string name="app_name_backgroundvideorecorder">Bakgrundsvideoinspelning</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - Kör DVR</string>
     <string name="camera">Kamera</string>
     <string name="camera_aperture">Diafragman</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">Kameran är tillfälligt (var) inte tillgänglig att öppna på din enhet (kamerasystemfel)</string>
     <string name="camera_support_error">Ett fel har uppstått när du använder kameran.</string>
     <string name="close">Stänga</string>
+    <string name="days">dagar</string>
     <string name="default_text">Standard</string>
     <string name="dialog_camera_not_found_msg_text">Den här enheten har ingen inbyggd kamera och stöder inte externa kameror. Stängning…</string>
     <string name="dialog_camera_not_found_text">Kameran hittades inte</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">Du har inga annonser.</string>
     <string name="donation_level_text">Din donationsnivå:</string>
     <string name="donation_purchase_info_loading_text">Shoppinginformationen har inte laddats upp ännu. Är du online och inloggad på ditt Google-konto?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Ta bort annonser för alltid med en engångsdonation oavsett belopp. Du kan också donera valfritt belopp varje månad för att ta bort annonser</string>
-    <string name="donation_subs_any_amount_text">Dessutom tas reklam helt bort när du prenumererar för valfritt belopp.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Ta bort annonser för alltid med en engångsdonation oavsett belopp. Du kan också donera månadsvis för att ta bort annonser</string>
+    <string name="donation_subs_any_amount_text">Reklam tas bort helt medan en prenumeration för valfritt belopp per månad är aktiv.</string>
     <string name="donation_subs_manage_btn_text">Säga upp</string>
+    <string name="donation_subs_no_free_trial_explanation_text">Applikationen ger inte en provperiod för prenumerationer, eftersom alla funktioner i applikationen redan är gratis, tar prenumerationen bara bort reklam</string>
+    <string name="donation_subs_one_text">Reklam tas bort helt medan prenumerationen är aktiv.</string>
     <string name="donation_subs_text">Donera månadsvis</string>
     <string name="format_altitude">Höjd</string>
     <string name="format_degrees">Koordinater</string>
@@ -56,6 +65,7 @@
     <string name="from">från</string>
     <string name="hour">timme</string>
     <string name="hours">timmar</string>
+    <string name="month">månad</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Applikationen är inte utesluten från batterioptimering. Om kameran inte körs i bakgrunden eller något annat, lägg till denna applikation till undantagen för energisparläget.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Om du installerade om applikationen på Android 11 måste de gamla filerna raderas manuellt</string>
     <string name="msg_auto_recording_service_was_stopped">Du har stoppat bakgrundstjänsten för att automatiskt starta videoinspelning. Öppna programmet för att starta det igen.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Spela in ljud från en Bluetooth-enhet</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Använd endast med Bluetooth-hörlurar. Om du ansluter till huvudenheten (bilradion) via Bluetooth, kan detta av någon anledning automatiskt utlösa ett telefonsamtal till standardnumret på denna enhet</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Använd inte med huvudenhet (bilradio)!</string>
+    <string name="prefs_audio_codec_title">Ljud-codec</string>
     <string name="prefs_audio_priority_sum">Om det är aktiverat kommer andra program inte att kunna använda mikrofonen. Om den är inaktiverad kan den här applikationen kanske inte spela in ljud när flera applikationer körs med mikrofonen (Android tillåter inte alltid samtidig användning av mikrofonen)</string>
     <string name="prefs_audio_priority_title">Prioritera ljud till den här appen</string>
     <string name="prefs_audio_rate_text">Samplingsfrekvens</string>
     <string name="prefs_audio_recording_text">Ljudinspelning</string>
     <string name="prefs_audio_settings_sum_text">Kvalitet, av/på ljudinspelning</string>
     <string name="prefs_audio_settings_text">Ljudinställningar</string>
+    <string name="prefs_audio_source_camcorder_text">Ljudinspelning från CAMCORDER kanske inte fungerar på vissa enheter, försök i det här fallet att byta till MIC</string>
+    <string name="prefs_audio_source_text">Ljudkälla</string>
     <string name="prefs_audio_stereo_text">Stereo</string>
     <string name="prefs_auto_start_app_launch_sum_text">Starta videoinspelning automatiskt när appen startar</string>
     <string name="prefs_auto_start_app_launch_text">När du startar applikationen</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Kör när den är ansluten till ljudjacket (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Stopp när du kopplas bort från ljudjacket (AUX)</string>
     <string name="prefs_battery_optimization_sum_text">Batterioptimering kan förhindra att appen fungerar korrekt (till exempel genom att använda kameran eller uppdatera platsen medan du spelar in en video i bakgrunden). Klicka här för att inaktivera det för denna applikation nu</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">Batterioptimering kan förhindra att applikationen fungerar korrekt (till exempel genom att använda kameran och mikrofonen). Klicka här för att inaktivera det för denna applikation nu</string>
     <string name="prefs_battery_optimization_text">Batterioptimering</string>
     <string name="prefs_beep_each_start_recording_sum_text">Signal i början av inspelningen av nästa videofil</string>
     <string name="prefs_beep_each_start_recording_text">Pip vid inspelning</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Landskap</string>
     <string name="prefs_orientation_landscape_reversed">Album omvänt</string>
     <string name="prefs_orientation_portrait">Porträtt</string>
+    <string name="prefs_orientation_sensor_automatic">Automatisk</string>
     <string name="prefs_other_auto_deleting_sum_text">Radera automatiskt de äldsta videorna under inspelning om det inte finns tillräckligt med utrymme för nya videor</string>
     <string name="prefs_other_auto_deleting_text">Loop inspelning</string>
     <string name="prefs_other_date_time_text">datum och tid</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Fotoplats (mapp/sökväg)</string>
     <string name="prefs_other_path_text">Videoplats (mapp/sökväg)</string>
     <string name="prefs_other_settings_sum_text">Videoplats (spara mapp), videolängd, loopinspelning, G-sensor, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Plats för videoinspelningar (mapp att spara), videolängd, loopinspelning, maximal videostorlek</string>
     <string name="prefs_other_settings_text">Andra inställningar</string>
     <string name="prefs_other_show_address_text">Aktuell platsadress</string>
     <string name="prefs_other_show_altitude_text">Höjd över havet</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">När du startar applikationen, slå på/av laddning, starta systemet</string>
     <string name="prefs_screen_autostart_text">Starta inspelning automatiskt</string>
     <string name="prefs_screen_ui_summary_text">Skärm snabbt /långt tryck, skärm av, adress- och hastighetsvisning, popup-fönster, knappar och mer</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Genväg för att starta inspelning, snabbt och långt tryck på skärmen, popup-fönster, vibration vid inspelning, ljudavisering, vibration, knappar på skärmen, stänga av skärmen med mera</string>
     <string name="prefs_screen_ui_title">Gränssnitt (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Växlar automatiskt kamerans dag-/nattläge vid specifika tidpunkter</string>
     <string name="prefs_screen_video_day_night_mode_text">Auto-dag/nattinställningar</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">Blockerar videor från att skrivas över</string>
     <string name="prefs_show_overlay_btn_sum_text">Visar ett fönster med kontrollknappar ovanpå alla applikationer</string>
     <string name="prefs_show_overlay_btn_text">Visa flytande fönster</string>
+    <string name="prefs_show_overlay_on_recording_text">Visa flytande fönster när inspelningen startar</string>
     <string name="prefs_show_status_bar_text">Visa systemets statusfält</string>
     <string name="prefs_show_take_photo_btn_text">Att göra ett foto</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Stöds inte av den aktuella kameran. Tillverkare begränsar ofta användningen - den är endast tillgänglig i standardapplikationen Kamera</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Överlägg undertexter längst ned i videon</string>
     <string name="prefs_subtitles_position_bottom_text">Undertexter längst ner</string>
     <string name="prefs_subtitles_settings_sum_text">Överlägg videotexter: Datum (tid), platsadress, koordinater och hastighet</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Överläggstextning på videor: datum (tidsstämpel), anpassad text</string>
     <string name="prefs_subtitles_settings_text">Undertextinställningar</string>
     <string name="prefs_subtitles_size_text">Öka textstorleken</string>
     <string name="prefs_subtitles_speed_text">Fart</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Rapportera ett fel, kraschar eller lämna ett erbjudande</string>
     <string name="prefs_support_text">Support (feedback)</string>
     <string name="prefs_system_alert_window_sum_text">Tillåt den här appen att visas ovanpå alla andra appar. Detta är nödvändigt för att automatiskt starta/stoppa videoinspelning eller för att visa ett flytande fönster</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Tillåt den här appen att visas ovanpå alla andra appar. Detta är nödvändigt för att visa ett flytande fönster</string>
     <string name="prefs_system_alert_window_text">Upplösning ovanpå alla fönster</string>
     <string name="prefs_theme_mode_dark">Mörkt tema</string>
+    <string name="prefs_theme_mode_dynamic">Dynamisk</string>
     <string name="prefs_theme_mode_light">Lätt tema</string>
     <string name="prefs_theme_mode_system_auto">Som i systemet (automatiskt)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Gå tillbaka till startskärmen (inspelningar) för att tillämpa denna inställning och starta spårningstjänsten</string>
     <string name="prefs_toolbar_title_setting">inställningar</string>
     <string name="prefs_translate_sum_text">Hjälp till att förbättra eller fixa översättningen av text på ditt språk</string>
     <string name="prefs_translate_text">Applikationsöversättning</string>
+    <string name="prefs_ui_app_icon_and_label_change">Ändra ikonen och namnet på programmet i systemet</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">Efter ändringen kan applikationen stängas, den gamla ikonen tas bort på telefonens huvudskärm (eller i listan över alla applikationer), och en ny kommer att visas</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Ställ in ikonen och namnet på startprogrammet</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Ändra meddelandeikon och namn</string>
+    <string name="prefs_ui_camera_preview_sum_text">Visa förhandsvisning av kameran på appens huvudskärm</string>
+    <string name="prefs_ui_camera_preview_text">Förhandsvisning av kamera</string>
     <string name="prefs_ui_click_none_text">Inget att göra</string>
     <string name="prefs_ui_click_start_stop_rec_text">Starta/stoppa inspelning</string>
     <string name="prefs_ui_click_text">Snabbt tryck på skärmen</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Bithastighet (kvalitet)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Scenläge för kamerakontroll (natt)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kamerakontroll Scenläge (dag)</string>
+    <string name="prefs_video_codec_sum_text">H.265 HEVC och AV1 codecs ger bättre kvalitet vid lägre bithastigheter än H.264 AVC, så du kan spara utrymme genom att minska bithastigheten. Men videor kanske inte spelas upp i vissa videospelare</string>
+    <string name="prefs_video_codec_text">Video codec</string>
     <string name="prefs_video_control_scene_mode_beach_text">Strand (ljust väder)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Allmänt /Ansiktsprioritet</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (High Dynamic Range)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Kamerafokus (natt)</string>
     <string name="prefs_video_focus_text">Kamerafokus (dag)</string>
     <string name="prefs_video_fps_range_text">Bildrutor per sekund (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Spela in i HEVC (H.265)-format för att spara utrymme. Du kanske inte kan spela upp sådana videor på andra videouppspelningsenheter eller applikationer. Återställer upplösning och bithastighet efter ändring</string>
-    <string name="prefs_video_hevc_text">Mycket effektiv videokodning</string>
     <string name="prefs_video_orientation_text">Video- och telefonorientering</string>
     <string name="prefs_video_resolution_text">Videoupplösning</string>
     <string name="prefs_video_settings_sum_text">Upplösning, bithastighet, orientering, fokus, kamera, nattläge</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Större storlek - snabbare batteriladdning</string>
     <string name="prefs_video_space_unlimited">Obegränsat</string>
     <string name="prefs_video_stabilization_text">Videostabilisering</string>
+    <string name="prefs_voice_recorder_app">Röstinspelning i bakgrunden</string>
     <string name="prefs_warning_location_precise_sum_text">Detta är nödvändigt för att få den mest exakta GPS-baserade hastigheten, samt adress och koordinater. Klicka för att skicka</string>
     <string name="prefs_warning_location_precise_text">Tillstånd för exakt plats</string>
     <string name="prefs_warning_notifications_sum_text">Krävs för att kunna visa bakgrundsinspelningstjänsten och status på meddelandepanelen. Klicka för att skicka</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">Netto</string>
     <string name="rec_off_text">Av</string>
     <string name="rec_on_text">Inkl.</string>
-    <string name="rec_service_msg">Sekretess: Alla videor du spelar in sparas endast på din lokala enhet. Applikationen säkerhetskopierar inte dina videor (har inga anslutningar till servrar)\n\nAppen fortsätter att köras i bakgrunden (förgrundstjänsten som visas i meddelandefältet) om du startar en ny inspelning och återgår till startskärmen, byter till en annan app eller låser din telefon för att kunna fortsätta inspelningen, eller om du du slår på funktioner för automatisk inspelning (om du stänger bakgrundstjänsten fungerar inte dessa funktioner).</string>
+    <string name="rec_service_msg">Sekretess: Alla videor du spelar in sparas endast på din lokala enhet. Applikationen säkerhetskopierar inte dina videor (har inga anslutningar till servrar)\n\nAppen fortsätter att köras i bakgrunden (förgrundstjänsten som visas i meddelandefältet) medan inspelningen är aktiv, när du återgår till startskärmen, byter till en annan app eller låser telefonen för att fortsätta inspelningen och när du slår på funktioner för automatisk inspelning (om du stänger bakgrundstjänsten kommer dessa funktioner inte att fungera). Appen använder Firebase Analytics för grundläggande anonym analys (se länk nedan)</string>
+    <string name="recording_file_name_prefix">Prefix för videofilnamn</string>
     <string name="recording_start_text">Börja spela in</string>
     <string name="recording_started_failed_text">Fel vid start av inspelning</string>
     <string name="recording_started_with_audio_text">En ny videoinspelning med ljudinspelning har påbörjats</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">Inspelning…</string>
     <string name="recording_voice_started_text">Inspelningen har börjat</string>
     <string name="recording_voice_stopped_text">Inspelningen avbröts</string>
+    <string name="records_file_sorting_date">Datum</string>
+    <string name="records_file_sorting_duration">Varaktighet</string>
+    <string name="records_file_sorting_name">namn</string>
+    <string name="records_file_sorting_size">Filstorlek</string>
+    <string name="records_file_upload_drive">Spara till \"Google Drive\"</string>
     <string name="reset">ansvarsfrihet</string>
     <string name="storage_external_single">MicroSD-kort</string>
     <string name="storage_phone">Telefon minne</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Raderingsläge</string>
     <string name="videos_file_item_share">Dela detta</string>
     <string name="videos_file_item_watch">Kolla på</string>
+    <string name="videos_file_open_with">Öppna med</string>
+    <string name="videos_file_select">Välj för</string>
     <string name="videos_file_sort_asc">Sortera stigande</string>
     <string name="videos_file_sort_desc">Sortera fallande</string>
     <string name="videos_file_was_locked_text">Videofilen har flyttats till en skyddad mapp</string>

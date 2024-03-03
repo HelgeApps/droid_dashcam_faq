@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">Es piekrītu</string>
     <string name="any_text">Jebkurš</string>
+    <string name="app_alternative_name_audio">Audio</string>
+    <string name="app_alternative_name_battery">Akumulatora iestatījumi</string>
+    <string name="app_alternative_name_media">Plašsaziņas līdzekļi</string>
+    <string name="app_alternative_name_media_player">Multivides atskaņotājs</string>
+    <string name="app_alternative_name_video">Video</string>
+    <string name="app_name_backgroundvideorecorder">Fona video ierakstīšana</string>
     <string name="app_name_droid_dashcam">Droid Dashcam — braukšanas DVR</string>
     <string name="camera">Kamera</string>
     <string name="camera_aperture">Diafragma</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">Kamera īslaicīgi (bija) nav pieejama jūsu ierīcē (kameras sistēmas kļūda)</string>
     <string name="camera_support_error">Lietojot kameru, radās kļūda.</string>
     <string name="close">Aizvērt</string>
+    <string name="days">dienas</string>
     <string name="default_text">Noklusējums</string>
     <string name="dialog_camera_not_found_msg_text">Šai ierīcei nav iebūvētas kameras, un tā neatbalsta ārējās kameras. Notiek slēgšana…</string>
     <string name="dialog_camera_not_found_text">Kamera nav atrasta</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">Jums nav reklāmu.</string>
     <string name="donation_level_text">Jūsu ziedojuma līmenis:</string>
     <string name="donation_purchase_info_loading_text">Iepirkšanās informācija vēl nav augšupielādēta. Vai esat tiešsaistē un pierakstījies savā Google kontā?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Noņemiet reklāmas uz visiem laikiem, veicot jebkādas summas vienreizēju ziedojumu. Varat arī ziedot jebkuru summu mēnesī, lai noņemtu reklāmas</string>
-    <string name="donation_subs_any_amount_text">Turklāt, abonējot par jebkuru summu, reklāma tiek pilnībā noņemta.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Noņemiet reklāmas uz visiem laikiem, veicot jebkādas summas vienreizēju ziedojumu. Varat arī ziedot katru mēnesi, lai noņemtu reklāmas</string>
+    <string name="donation_subs_any_amount_text">Reklāma tiek pilnībā noņemta, kamēr ir aktīvs abonements par jebkuru summu mēnesī.</string>
     <string name="donation_subs_manage_btn_text">Anulēt abonementu</string>
+    <string name="donation_subs_no_free_trial_explanation_text">Lietojumprogramma nenodrošina abonementu izmēģinājuma periodu, jo visas lietojumprogrammas funkcijas jau ir bezmaksas, abonements noņem tikai reklāmu</string>
+    <string name="donation_subs_one_text">Reklāma tiek pilnībā noņemta, kamēr abonements ir aktīvs.</string>
     <string name="donation_subs_text">Ziedojiet katru mēnesi</string>
     <string name="format_altitude">Augstums</string>
     <string name="format_degrees">Koordinātas</string>
@@ -56,6 +65,7 @@
     <string name="from">no</string>
     <string name="hour">stunda</string>
     <string name="hours">stundas</string>
+    <string name="month">mēnesis</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Lietojumprogramma nav izslēgta no akumulatora optimizācijas. Ja kamera nedarbojas fonā vai kaut kas cits, pievienojiet šo lietojumprogrammu enerģijas taupīšanas režīma izņēmumiem.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Ja atkārtoti instalējāt lietojumprogrammu operētājsistēmā Android 11, vecie faili ir jādzēš manuāli</string>
     <string name="msg_auto_recording_service_was_stopped">Jūs esat apturējis fona pakalpojumu, lai automātiski sāktu video ierakstīšanu. Atveriet lietojumprogrammu, lai to palaistu vēlreiz.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Ierakstiet audio no Bluetooth ierīces</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Izmantojiet tikai ar Bluetooth austiņām. Ja izveidojat savienojumu ar galveno ierīci (automašīnas radio), izmantojot Bluetooth, kāda iemesla dēļ tas var automātiski aktivizēt tālruņa zvanu uz šīs ierīces standarta numuru.</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Nelietot kopā ar galvas bloku (automašīnas radio)!</string>
+    <string name="prefs_audio_codec_title">Audio kodeks</string>
     <string name="prefs_audio_priority_sum">Ja tas ir iespējots, citas programmas nevarēs izmantot mikrofonu. Ja šī lietojumprogramma ir atspējota, šī lietojumprogramma, iespējams, nevarēs ierakstīt audio, ja vairākas lietojumprogrammas darbojas, izmantojot mikrofonu (Android ne vienmēr ļauj vienlaikus izmantot mikrofonu)</string>
     <string name="prefs_audio_priority_title">Piešķiriet šai lietotnei audio prioritāti</string>
     <string name="prefs_audio_rate_text">Paraugu ņemšanas biežums</string>
     <string name="prefs_audio_recording_text">Audio ieraksts</string>
     <string name="prefs_audio_settings_sum_text">Kvalitāte, izslēgta/ieslēgta skaņas ierakstīšana</string>
     <string name="prefs_audio_settings_text">Skaņas iestatījumi</string>
+    <string name="prefs_audio_source_camcorder_text">Audio ierakstīšana no CAMCORDER var nedarboties dažās ierīcēs, šajā gadījumā mēģiniet mainīt uz MIC</string>
+    <string name="prefs_audio_source_text">Audio avots</string>
     <string name="prefs_audio_stereo_text">Stereo</string>
     <string name="prefs_auto_start_app_launch_sum_text">Sāciet video ierakstīšanu automātiski, kad lietotne tiek startēta</string>
     <string name="prefs_auto_start_app_launch_text">Uzsākot lietojumprogrammu</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Palaist, kad tas ir pievienots audio ligzdai (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Apstāties, kad tas ir atvienots no audio ligzdas (AUX)</string>
     <string name="prefs_battery_optimization_sum_text">Akumulatora optimizācija var neļaut lietotnei pareizi darboties (piemēram, izmantojot kameru vai atjauninot atrašanās vietu, ierakstot video fonā). Noklikšķiniet šeit, lai to tagad atspējotu šai lietojumprogrammai</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">Akumulatora optimizācija var neļaut lietojumprogrammai pareizi darboties (piemēram, izmantojot kameru un mikrofonu). Noklikšķiniet šeit, lai to tagad atspējotu šai lietojumprogrammai</string>
     <string name="prefs_battery_optimization_text">Akumulatora optimizācija</string>
     <string name="prefs_beep_each_start_recording_sum_text">Signāls nākamā video faila ierakstīšanas sākumā</string>
     <string name="prefs_beep_each_start_recording_text">Ierakstīšanas laikā pīkst</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Ainava</string>
     <string name="prefs_orientation_landscape_reversed">Albuma reverss</string>
     <string name="prefs_orientation_portrait">Portrets</string>
+    <string name="prefs_orientation_sensor_automatic">Automātiski</string>
     <string name="prefs_other_auto_deleting_sum_text">Ja nav pietiekami daudz vietas jauniem videoklipiem, ierakstīšanas laikā automātiski dzēsiet vecākos videoklipus</string>
     <string name="prefs_other_auto_deleting_text">Cilpas ierakstīšana</string>
     <string name="prefs_other_date_time_text">datums un laiks</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Fotoattēla atrašanās vieta (mape/ceļš)</string>
     <string name="prefs_other_path_text">Videoklipa atrašanās vieta (mape/ceļš)</string>
     <string name="prefs_other_settings_sum_text">Video atrašanās vieta (saglabāšanas mape), video ilgums, cilpas ierakstīšana, G sensors, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Video ierakstu atrašanās vieta (saglabājama mape), video ilgums, cilpas ierakstīšana, maksimālais video izmērs</string>
     <string name="prefs_other_settings_text">Citi iestatījumi</string>
     <string name="prefs_other_show_address_text">Pašreizējās atrašanās vietas adrese</string>
     <string name="prefs_other_show_altitude_text">Augstums virs jūras līmeņa</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Palaižot lietojumprogrammu, ieslēdziet /izslēdziet uzlādi, palaidiet sistēmu</string>
     <string name="prefs_screen_autostart_text">Automātiski sākt ierakstīšanu</string>
     <string name="prefs_screen_ui_summary_text">Ekrāns ātri /ilgi nospiežot, ekrāns izslēgts, adreses un ātruma displejs, uznirstošais logs, pogas un daudz kas cits</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Īsceļš ierakstīšanas sākšanai, ātra un ilga nospiešana uz ekrāna, uznirstošais logs, vibrācija ierakstīšanas laikā, skaņas paziņojums, vibrācija, pogas uz ekrāna, ekrāna izslēgšana un daudz kas cits</string>
     <string name="prefs_screen_ui_title">Interfeiss (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Konkrētos laikos automātiski pārslēdz kameras dienas/nakts režīmus</string>
     <string name="prefs_screen_video_day_night_mode_text">Automātiski dienas/nakts iestatījumi</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">Videoklipu pārrakstīšanas bloķēšana</string>
     <string name="prefs_show_overlay_btn_sum_text">Parāda logu ar vadības pogām virs visām lietojumprogrammām</string>
     <string name="prefs_show_overlay_btn_text">Rādīt peldošo logu</string>
+    <string name="prefs_show_overlay_on_recording_text">Rādīt peldošo logu, kad sākas ierakstīšana</string>
     <string name="prefs_show_status_bar_text">Rādīt sistēmas statusa joslu</string>
     <string name="prefs_show_take_photo_btn_text">Lai izveidotu fotoattēlu</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Pašreizējā kamera neatbalsta. Ražotāji bieži ierobežo tā lietošanu – tā ir pieejama tikai standarta aplikācijā Kamera</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Pārklājuma subtitri videoklipa apakšā</string>
     <string name="prefs_subtitles_position_bottom_text">Subtitri apakšā</string>
     <string name="prefs_subtitles_settings_sum_text">Pārklājuma video paraksti: datums (laiks), atrašanās vietas adrese, koordinātas un ātrums</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Pārklājuma paraksti uz videoklipiem: datums (laika zīmogs), pielāgots teksts</string>
     <string name="prefs_subtitles_settings_text">Subtitru iestatījumi</string>
     <string name="prefs_subtitles_size_text">Palieliniet teksta izmēru</string>
     <string name="prefs_subtitles_speed_text">Ātrums</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Ziņojiet par kļūdu, avāriju vai izdariet piedāvājumu</string>
     <string name="prefs_support_text">Atbalsts (atsauksmes)</string>
     <string name="prefs_system_alert_window_sum_text">Ļaujiet šai lietotnei parādīties virs visām citām lietotnēm. Tas ir nepieciešams, lai automātiski sāktu/pārtrauktu video ierakstīšanu vai parādītu peldošu logu</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Ļaujiet šai lietotnei parādīties virs visām citām lietotnēm. Tas ir nepieciešams, lai parādītu peldošu logu</string>
     <string name="prefs_system_alert_window_text">Izšķirtspēja visu logu augšpusē</string>
     <string name="prefs_theme_mode_dark">Tumša tēma</string>
+    <string name="prefs_theme_mode_dynamic">Dinamisks</string>
     <string name="prefs_theme_mode_light">Viegla tēma</string>
     <string name="prefs_theme_mode_system_auto">Tāpat kā sistēmā (automātiski)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Atgriezieties sākuma ekrānā (ieraksti), lai lietotu šo iestatījumu un sāktu izsekošanas pakalpojumu</string>
     <string name="prefs_toolbar_title_setting">Iestatījumi</string>
     <string name="prefs_translate_sum_text">Palīdziet uzlabot vai labot teksta tulkojumu savā valodā</string>
     <string name="prefs_translate_text">Lietojumprogrammu tulkošana</string>
+    <string name="prefs_ui_app_icon_and_label_change">Mainiet sistēmā lietojumprogrammas ikonu un nosaukumu</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">Pēc izmaiņām lietojumprogramma var aizvērties, vecā ikona tiks noņemta tālruņa galvenajā ekrānā (vai visu programmu sarakstā), un parādīsies jauna</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Iestatiet palaišanas programmas ikonu un nosaukumu</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Mainiet paziņojuma ikonu un nosaukumu</string>
+    <string name="prefs_ui_camera_preview_sum_text">Rādīt kameras priekšskatījumu galvenajā lietotnes ekrānā</string>
+    <string name="prefs_ui_camera_preview_text">Kameras priekšskatījums</string>
     <string name="prefs_ui_click_none_text">Nav ko darīt</string>
     <string name="prefs_ui_click_start_stop_rec_text">Sākt/pārtraukt ierakstīšanu</string>
     <string name="prefs_ui_click_text">Ātri pieskarieties ekrānam</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Bitu pārraides ātrums (kvalitāte)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kameras vadības sižeta režīms (nakts)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kameras vadības sižeta režīms (diena)</string>
+    <string name="prefs_video_codec_sum_text">H.265 HEVC un AV1 kodeki nodrošina labāku kvalitāti ar zemāku bitu pārraides ātrumu nekā H.264 AVC, tāpēc varat ietaupīt vietu, samazinot bitu pārraides ātrumu. Taču videoklipi var netikt atskaņoti dažos video atskaņotājos</string>
+    <string name="prefs_video_codec_text">Video kodeks</string>
     <string name="prefs_video_control_scene_mode_beach_text">Pludmale (gaišs laiks)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Vispārīgi /Sejas prioritāte</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (augsts dinamiskais diapazons)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Kameras fokuss (nakts)</string>
     <string name="prefs_video_focus_text">Kameras fokuss (diena)</string>
     <string name="prefs_video_fps_range_text">Kadri sekundē (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Lai ietaupītu vietu, ierakstiet HEVC (H.265) formātā. Jūs, iespējams, nevarēsit atskaņot šādus videoklipus citās video atskaņošanas ierīcēs vai lietojumprogrammās. Pēc izmaiņām tiks atiestatīta izšķirtspēja un bitu pārraides ātrums</string>
-    <string name="prefs_video_hevc_text">Ļoti efektīva video kodēšana</string>
     <string name="prefs_video_orientation_text">Video un tālruņa orientācija</string>
     <string name="prefs_video_resolution_text">Video izšķirtspēja</string>
     <string name="prefs_video_settings_sum_text">Izšķirtspēja, bitu pārraides ātrums, orientācija, fokuss, kamera, nakts režīms</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Lielāks izmērs – ātrāka akumulatora izlādēšanās</string>
     <string name="prefs_video_space_unlimited">Neierobežots</string>
     <string name="prefs_video_stabilization_text">Video stabilizācija</string>
+    <string name="prefs_voice_recorder_app">Balss ierakstītājs fonā</string>
     <string name="prefs_warning_location_precise_sum_text">Tas ir nepieciešams, lai iegūtu visprecīzāko GPS ātrumu, kā arī adresi un koordinātas. Noklikšķiniet, lai iesniegtu</string>
     <string name="prefs_warning_location_precise_text">Atļauja precīzai atrašanās vietai</string>
     <string name="prefs_warning_notifications_sum_text">Nepieciešams, lai paziņojumu panelī varētu parādīt fona ierakstīšanas pakalpojumu un statusus. Noklikšķiniet, lai iesniegtu</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">Tīkls</string>
     <string name="rec_off_text">Izslēgts</string>
     <string name="rec_on_text">Ieskaitot</string>
-    <string name="rec_service_msg">Konfidencialitāte: visi jūsu ierakstītie videoklipi tiks saglabāti tikai jūsu vietējā ierīcē. Lietojumprogramma nedublē jūsu videoklipus (tai nav savienojumu ar serveriem)\n\nLietojumprogramma turpinās darboties fonā (paziņojumu joslā redzamais priekšplāna pakalpojums), ja sākat jaunu ierakstu un atgriezīsities sākuma ekrānā, pārslēdzaties uz citu lietotni vai bloķējat tālruni, lai varētu turpināt ierakstīšanu, vai ieslēdzat automātiskās ierakstīšanas funkcijas (ja aizverat fona pakalpojumu, šīs funkcijas nedarbosies).</string>
+    <string name="rec_service_msg">Konfidencialitāte: visi jūsu ierakstītie videoklipi tiks saglabāti tikai jūsu vietējā ierīcē. Lietojumprogramma nedublē jūsu videoklipus (tai nav savienojumu ar serveriem)\n\nLietojumprogramma turpinās darboties fonā (priekšplāna pakalpojums, kas tiek rādīts paziņojumu joslā), kamēr ierakstīšana ir aktīva, kad atgriezīsities sākuma ekrānā, pārslēdzieties uz citu lietotni vai bloķēsiet tālruni, lai turpinātu ierakstīšanu, un ieslēdzot automātiskās ierakstīšanas funkcijas (ja aizverat fona pakalpojumu, šīs funkcijas nedarbosies). Lietotne izmanto Firebase Analytics pamata anonīmai analīzei (skatiet saiti tālāk).</string>
+    <string name="recording_file_name_prefix">Video failu nosaukumu prefikss</string>
     <string name="recording_start_text">Sāciet ierakstīšanu</string>
     <string name="recording_started_failed_text">Kļūda, uzsākot ierakstīšanu</string>
     <string name="recording_started_with_audio_text">Sākts jauns video ieraksts ar audio ierakstu</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">Ierakstīšana…</string>
     <string name="recording_voice_started_text">Ieraksts ir sācies</string>
     <string name="recording_voice_stopped_text">Ierakstīšana pārtraukta</string>
+    <string name="records_file_sorting_date">Datums</string>
+    <string name="records_file_sorting_duration">Ilgums</string>
+    <string name="records_file_sorting_name">Vārds</string>
+    <string name="records_file_sorting_size">Faila lielums</string>
+    <string name="records_file_upload_drive">Saglabāt Google diskā</string>
     <string name="reset">izlāde</string>
     <string name="storage_external_single">MicroSD karte</string>
     <string name="storage_phone">Tālruņa atmiņa</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Dzēst režīmu</string>
     <string name="videos_file_item_share">Dalīties ar šo</string>
     <string name="videos_file_item_watch">Skatīties</string>
+    <string name="videos_file_open_with">Atvērt ar</string>
+    <string name="videos_file_select">Izvēlieties priekš</string>
     <string name="videos_file_sort_asc">Kārtot augošā secībā</string>
     <string name="videos_file_sort_desc">Kārtot dilstošā secībā</string>
     <string name="videos_file_was_locked_text">Video fails ir pārvietots uz aizsargātu mapi</string>

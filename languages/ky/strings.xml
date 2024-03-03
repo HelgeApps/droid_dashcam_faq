@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">мен кабыл алам</string>
     <string name="any_text">каалаган</string>
+    <string name="app_alternative_name_audio">Аудио</string>
+    <string name="app_alternative_name_battery">Батарея орнотуулары</string>
+    <string name="app_alternative_name_media">Медиа</string>
+    <string name="app_alternative_name_media_player">Медиа ойноткуч</string>
+    <string name="app_alternative_name_video">Video</string>
+    <string name="app_name_backgroundvideorecorder">Фондук видео жазуу</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - Айдоо DVR</string>
     <string name="camera">Камера</string>
     <string name="camera_aperture">Диафрагма</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">Камера түзмөгүңүздө убактылуу ачыла албайт (камера тутумунун катасы)</string>
     <string name="camera_support_error">Камераны колдонууда ката кетти.</string>
     <string name="close">Жабуу</string>
+    <string name="days">күн</string>
     <string name="default_text">Демейки</string>
     <string name="dialog_camera_not_found_msg_text">Бул түзмөктө камтылган камера жок жана тышкы камераларды колдоого албайт. Жабылууда…</string>
     <string name="dialog_camera_not_found_text">Камера табылган жок</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">Сизде эч кандай жарнама жок.</string>
     <string name="donation_level_text">Кайрымдуулук деңгээлиңиз:</string>
     <string name="donation_purchase_info_loading_text">Сатып алуу маалыматы азырынча жүктөлө элек. Онлайндасызбы жана Google аккаунтуңузга кирдиңизби?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Каалаган суммадагы бир жолку кайрымдуулук менен жарнамаларды түбөлүккө алып салыңыз. Жарнактарды алып салуу үчүн ай сайын каалаган сумманы кайрымдуулук кыла аласыз</string>
-    <string name="donation_subs_any_amount_text">Ошондой эле, сиз каалаган суммага жазылсаңыз, жарнама толугу менен алынып салынат.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Каалаган суммадагы бир жолку кайрымдуулук менен жарнамаларды түбөлүккө алып салыңыз. Жарнамаларды алып салуу үчүн ай сайын кайрымдуулук кыла аласыз</string>
+    <string name="donation_subs_any_amount_text">Айына каалаган суммага жазылуу активдүү болуп турганда, жарнама толугу менен өчүрүлөт.</string>
     <string name="donation_subs_manage_btn_text">Жазылууну токтотуу</string>
+    <string name="donation_subs_no_free_trial_explanation_text">Тиркеме жазылуу үчүн сыноо мөөнөтүн бербейт, анткени тиркеменин бардык функциялары мурунтан эле бекер, жазылуу жарнаманы гана алып салат</string>
+    <string name="donation_subs_one_text">Жазылуу активдүү болуп турганда, жарнама толугу менен өчүрүлөт.</string>
     <string name="donation_subs_text">Ай сайын кайрымдуулук кылуу</string>
     <string name="format_altitude">Бийиктиги</string>
     <string name="format_degrees">Координаттар</string>
@@ -56,6 +65,7 @@
     <string name="from">тартып</string>
     <string name="hour">саат</string>
     <string name="hours">саат</string>
+    <string name="month">ай</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Колдонмо батареяны оптималдаштыруудан тышкары эмес. Эгерде камера фондо иштебесе же башка нерсе болсо, анда бул тиркемени энергияны үнөмдөө режиминин өзгөчөлүктөрүнө кошуңуз.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Эгер сиз тиркемени Android 11ге кайра орноткон болсоңуз, анда эски файлдар кол менен жок кылынышы керек</string>
     <string name="msg_auto_recording_service_was_stopped">Сиз видео жазууну автоматтык түрдө баштоо үчүн фон кызматын токтоттуңуз. Аны кайра иштетүү үчүн колдонмону ачыңыз.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Bluetooth түзмөгүнөн аудио жазыңыз</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Bluetooth гарнитуралары менен гана колдонуңуз. Эгер сиз Bluetooth аркылуу башкы блокко (унаа радиосу) туташсаңыз, анда кандайдыр бир себептерден улам бул түзмөктөгү стандарттуу номерге телефон чалууга автоматтык түрдө түрткү болушу мүмкүн.</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Башкы блок (унаа радиосу) менен колдонбоңуз!</string>
+    <string name="prefs_audio_codec_title">Аудио кодек</string>
     <string name="prefs_audio_priority_sum">Эгер иштетилсе, башка колдонмолор микрофонду колдоно албайт. Эгер өчүрүлгөн болсо, бул колдонмо микрофонду колдонуп бир нече тиркемелер иштеп жатканда аудио жаздыра албай калышы мүмкүн (Android дайыма эле микрофонду бир эле учурда колдонууга уруксат бербейт)</string>
     <string name="prefs_audio_priority_title">Бул колдонмого аудиого артыкчылык бериңиз</string>
     <string name="prefs_audio_rate_text">Үлгү алуу жыштыгы</string>
     <string name="prefs_audio_recording_text">Аудио жаздыруу</string>
     <string name="prefs_audio_settings_sum_text">Сапат, үн жаздыруу өчүк /күйүк</string>
     <string name="prefs_audio_settings_text">Үн орнотуулары</string>
+    <string name="prefs_audio_source_camcorder_text">CAMCORDERден аудио жаздыруу кээ бир түзмөктөрдө иштебей калышы мүмкүн, бул учурда MICке өзгөртүп көрүңүз</string>
+    <string name="prefs_audio_source_text">Аудио булагы</string>
     <string name="prefs_audio_stereo_text">Стерео</string>
     <string name="prefs_auto_start_app_launch_sum_text">Колдонмо башталганда видео жазууну автоматтык түрдө баштаңыз</string>
     <string name="prefs_auto_start_app_launch_text">Колдонмону баштаганда</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Аудио уячасына (AUX) сайылганда иштетүү</string>
     <string name="prefs_aux_auto_stop_text">Аудио уячасынан (AUX) ажыратылганда токтотуу</string>
     <string name="prefs_battery_optimization_sum_text">Батареяны оптималдаштыруу колдонмонун туура иштешине тоскоол болот (мисалы, камераны колдонуу же фондо видео жазып жатканда жайгашкан жерди жаңыртуу). Аны азыр бул колдонмо үчүн өчүрүү үчүн бул жерди басыңыз</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">Батареяны оптималдаштыруу колдонмонун туура иштешине тоскоол болушу мүмкүн (мисалы, камера менен микрофонду колдонуу). Бул колдонмону азыр өчүрүү үчүн бул жерди басыңыз</string>
     <string name="prefs_battery_optimization_text">Батареяны оптималдаштыруу</string>
     <string name="prefs_beep_each_start_recording_sum_text">Кийинки видеофайлдын жазуусунун башталышында сигнал</string>
     <string name="prefs_beep_each_start_recording_text">Жазып жатканда сигнал</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Пейзаж</string>
     <string name="prefs_orientation_landscape_reversed">Альбом тескери</string>
     <string name="prefs_orientation_portrait">Портрет</string>
+    <string name="prefs_orientation_sensor_automatic">Автоматтык</string>
     <string name="prefs_other_auto_deleting_sum_text">Жаңы видеолор үчүн орун жетишсиз болсо, жаздыруу учурунда эң эски видеолорду автоматтык түрдө жок кылуу</string>
     <string name="prefs_other_auto_deleting_text">Цикл жаздыруу</string>
     <string name="prefs_other_date_time_text">датасы жана убактысы</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Сүрөттүн жайгашкан жери (папка /жол)</string>
     <string name="prefs_other_path_text">Видеонун жайгашкан жери (папка /жол)</string>
     <string name="prefs_other_settings_sum_text">Видеонун жайгашкан жери (папканы сактоо), видеонун узактыгы, укурук жазуу, G-сенсор, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Видео жазуулардын жайгашкан жери (сактоо үчүн папка), видеонун узактыгы, циклдик жазуу, видеонун максималдуу өлчөмү</string>
     <string name="prefs_other_settings_text">Башка орнотуулар</string>
     <string name="prefs_other_show_address_text">Учурдагы жайгашкан дареги</string>
     <string name="prefs_other_show_altitude_text">Деңиз деңгээлинен бийиктиги</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Тиркемени баштаганда, кубаттоону күйгүзүңүз /өчүрүңүз, системаны жүктөңүз</string>
     <string name="prefs_screen_autostart_text">Жазууну автоматтык түрдө баштоо</string>
     <string name="prefs_screen_ui_summary_text">Экранды тез /узак басуу, экранды өчүрүү, дарек жана ылдамдыкты көрсөтүү, калкыма терезе, баскычтар жана башкалар</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Жазууну баштоо үчүн жарлык, экранды тез жана көпкө басуу, калкып чыкма терезе, жаздыруудагы титирөө, үн эскертмеси, титирөө, экрандагы баскычтар, экранды өчүрүү жана башкалар</string>
     <string name="prefs_screen_ui_title">Интерфейс (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Камеранын күндүзгү/түнкү режимдерин белгилүү бир убакта автоматтык түрдө которушат</string>
     <string name="prefs_screen_video_day_night_mode_text">Авто Күн /Түн Орнотуулары</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">Видеолорду кайра жазуудан бөгөт коюу</string>
     <string name="prefs_show_overlay_btn_sum_text">Бардык колдонмолордун үстүндө башкаруу баскычтары бар терезени көрсөтөт</string>
     <string name="prefs_show_overlay_btn_text">Калкыма терезени көрсөтүү</string>
+    <string name="prefs_show_overlay_on_recording_text">Жаздыруу башталганда калкыма терезени көрсөтүү</string>
     <string name="prefs_show_status_bar_text">Системанын абалы тилкесин көрсөтүү</string>
     <string name="prefs_show_take_photo_btn_text">Сүрөткө тартуу үчүн</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Учурдагы камера колдоого албайт. Өндүрүүчүлөр көбүнчө аны колдонууну чектешет - ал стандарттуу Камера тиркемесинде гана жеткиликтүү</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Видеонун ылдый жагындагы субтитрлерди кабаттаңыз</string>
     <string name="prefs_subtitles_position_bottom_text">Төмөндө субтитрлер</string>
     <string name="prefs_subtitles_settings_sum_text">Видеонун коштомо жазуулары: Дата (убакыт), жайгашкан дарек, координаттар жана ылдамдык</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Видеолордогу коштомо жазуулар: дата (убакыт белгиси), ыңгайлаштырылган текст</string>
     <string name="prefs_subtitles_settings_text">Субтитр жөндөөлөрү</string>
     <string name="prefs_subtitles_size_text">Тексттин өлчөмүн көбөйтүү</string>
     <string name="prefs_subtitles_speed_text">Ылдамдык</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Мүчүлүштүк тууралуу кабарлаңыз, ката кетириңиз же сунуш кылыңыз</string>
     <string name="prefs_support_text">Колдоо (пикир)</string>
     <string name="prefs_system_alert_window_sum_text">Бул колдонмого бардык башка колдонмолордун үстүндө чыгуусуна уруксат бериңиз. Бул видео жазууну автоматтык түрдө баштоо/токтоо же калкыма терезени көрсөтүү үчүн зарыл</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Бул колдонмого бардык башка колдонмолордун үстүндө чыгуусуна уруксат бериңиз. Бул калкыма терезени көрсөтүү үчүн зарыл</string>
     <string name="prefs_system_alert_window_text">Резолюция бардык терезелердин үстүндө</string>
     <string name="prefs_theme_mode_dark">Караңгы тема</string>
+    <string name="prefs_theme_mode_dynamic">Динамикалык</string>
     <string name="prefs_theme_mode_light">Жарык тема</string>
     <string name="prefs_theme_mode_system_auto">Системада болгондой (автоматтык)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Бул жөндөөнү колдонуу жана көз салуу кызматын баштоо үчүн үй экранына (жазуулар) кайтыңыз</string>
     <string name="prefs_toolbar_title_setting">Орнотуулар</string>
     <string name="prefs_translate_sum_text">Сиздин тилиңиздеги тексттин котормосун жакшыртууга же оңдоого жардам бериңиз</string>
     <string name="prefs_translate_text">Колдонмо котормосу</string>
+    <string name="prefs_ui_app_icon_and_label_change">Системадагы колдонмонун сөлөкөтүн жана атын өзгөртүңүз</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">Өзгөртүүдөн кийин, колдонмо жабылышы мүмкүн, телефондун негизги экранында (же бардык тиркемелердин тизмесинде) эски сөлөкөт алынып салынат жана жаңысы пайда болот.</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Ишке киргизгичтин сөлөкөтүн жана атын коюңуз</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Эскертме сөлөкөтүн жана атын өзгөртүү</string>
+    <string name="prefs_ui_camera_preview_sum_text">Негизги колдонмо экранында камераны алдын ала көрүү</string>
+    <string name="prefs_ui_camera_preview_text">Камераны алдын ала көрүү</string>
     <string name="prefs_ui_click_none_text">Эч нерсе жасабоо</string>
     <string name="prefs_ui_click_start_stop_rec_text">Жазууну баштоо /токтотуу</string>
     <string name="prefs_ui_click_text">Экранды тез таптаңыз</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Битрейт (сапат)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Камераны башкаруу режими (түнкү)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Камераны башкаруу режими (күн)</string>
+    <string name="prefs_video_codec_sum_text">H.265 HEVC жана AV1 кодектери H.264 AVCге караганда төмөнкү бит ылдамдыктарында жакшыраак сапатты камсыз кылат, андыктан бит ылдамдыгын азайтуу менен мейкиндикти үнөмдөй аласыз. Бирок кээ бир видео ойноткучтарда видеолор ойнотулбашы мүмкүн</string>
+    <string name="prefs_video_codec_text">Видео кодек</string>
     <string name="prefs_video_control_scene_mode_beach_text">Пляж (жарык аба ырайы)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Жалпы /Бет приоритети</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (жогорку динамикалык диапазон)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Камера фокусу (түнкү)</string>
     <string name="prefs_video_focus_text">Камера фокусу (күн)</string>
     <string name="prefs_video_fps_range_text">секундасына кадр (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Орун үнөмдөө үчүн HEVC (H.265) форматында жазыңыз. Мындай видеолорду башка видео ойнотуу түзмөктөрүндө же колдонмолорунда ойной албашыңыз мүмкүн. Резолюцияны жана бит ылдамдыгын өзгөртүүдөн кийин баштапкы абалга келтирет</string>
-    <string name="prefs_video_hevc_text">Жогорку натыйжалуу видео коддоо</string>
     <string name="prefs_video_orientation_text">Видео жана телефон багыты</string>
     <string name="prefs_video_resolution_text">Видеонун чечилиши</string>
     <string name="prefs_video_settings_sum_text">Чечим, бит ылдамдыгы, багыт, фокус, камера, түн режими</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Чоңураак өлчөм - батарейканы тезирээк түгөтөт</string>
     <string name="prefs_video_space_unlimited">Чексиз</string>
     <string name="prefs_video_stabilization_text">Видеону турукташтыруу</string>
+    <string name="prefs_voice_recorder_app">Фондогу үн жазгыч</string>
     <string name="prefs_warning_location_precise_sum_text">Бул эң так GPS негизиндеги ылдамдыкты, ошондой эле даректи жана координаттарды алуу үчүн зарыл. Тапшыруу үчүн чыкылдатыңыз</string>
     <string name="prefs_warning_location_precise_text">Так жайгашкан жерине уруксат</string>
     <string name="prefs_warning_notifications_sum_text">Фондук жаздыруу кызматын жана статустарды эскертме панелинде көрсөтүү үчүн талап кылынат. Тапшыруу үчүн чыкылдатыңыз</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">Net</string>
     <string name="rec_off_text">Өчүк</string>
     <string name="rec_on_text">Incl.</string>
-    <string name="rec_service_msg">Купуялык: Жазган бардык видеолоруңуз жергиликтүү түзмөгүңүздө гана сакталат. Колдонмо видеолоруңуздун камдык көчүрмөсүн сактабайт (серверлерге эч кандай байланышы жок)\n\nКолдонмо фондо иштей берет (эскертме тилкесинде пайда болгон алдыңкы план кызматы), эгер сиз жаңы жаздырууну баштап жана үй экранына кайтсаңыз, башка колдонмого которулсаңыз же жаздыруу үчүн телефонуңузду кулпулап койсоңуз же сиз автоматтык жазуу үчүн функцияларды күйгүзүңүз (эгер сиз фон кызматын жапсаңыз, бул функциялар иштебейт).</string>
+    <string name="rec_service_msg">Купуялык: Жазган бардык видеолоруңуз жергиликтүү түзмөгүңүздө гана сакталат. Колдонмо видеолоруңуздун камдык көчүрмөсүн сактабайт (серверлерге эч кандай байланышы жок)\n\nЖазуу активдүү болуп турганда, сиз үй экранына кайтканыңызда, башка колдонмого которулганда же жаздырууну улантуу үчүн телефонуңузду кулпулап, жана сиз күйгүзгөндө колдонмо фондо иштей берет (эскертме тилкесинде пайда болгон алдыңкы план кызматы) автоматтык жаздыруу функциялары (эгер сиз фондо кызматты жапсаңыз, бул функциялар иштебейт). Колдонмо негизги анонимдүү аналитика үчүн Firebase Analytics колдонот (төмөндөгү шилтемени караңыз)</string>
+    <string name="recording_file_name_prefix">Видео файл аттары үчүн префикс</string>
     <string name="recording_start_text">Жазууну баштаңыз</string>
     <string name="recording_started_failed_text">Жаздырууну баштоодо ката кетти</string>
     <string name="recording_started_with_audio_text">Аудио жаздыруу менен жаңы видео жазуу башталды</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">Жаздыруу…</string>
     <string name="recording_voice_started_text">Жаздыруу башталды</string>
     <string name="recording_voice_stopped_text">Жаздыруу токтотулду</string>
+    <string name="records_file_sorting_date">Дата</string>
+    <string name="records_file_sorting_duration">Узактыгы</string>
+    <string name="records_file_sorting_name">аты</string>
+    <string name="records_file_sorting_size">Файлдын өлчөмү</string>
+    <string name="records_file_upload_drive">\"Google Drive\"га сактоо</string>
     <string name="reset">разряд</string>
     <string name="storage_external_single">MicroSD карта</string>
     <string name="storage_phone">Телефондун эс тутуму</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Жок кылуу режими</string>
     <string name="videos_file_item_share">Муну бөлүшүңүз</string>
     <string name="videos_file_item_watch">Watch</string>
+    <string name="videos_file_open_with">менен ачуу</string>
+    <string name="videos_file_select">үчүн тандаңыз</string>
     <string name="videos_file_sort_asc">Өсүү боюнча сорттоо</string>
     <string name="videos_file_sort_desc">Төмөндөө боюнча сорттоо</string>
     <string name="videos_file_was_locked_text">Видео файл корголгон папкага жылдырылды</string>

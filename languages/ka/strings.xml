@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">მე ვღებულობ</string>
     <string name="any_text">ნებისმიერი</string>
+    <string name="app_alternative_name_audio">აუდიო</string>
+    <string name="app_alternative_name_battery">ბატარეის პარამეტრები</string>
+    <string name="app_alternative_name_media">მედია</string>
+    <string name="app_alternative_name_media_player">მედია ფლეერი</string>
+    <string name="app_alternative_name_video">ვიდეო</string>
+    <string name="app_name_backgroundvideorecorder">ფონური ვიდეოს ჩაწერა</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - მართვის DVR</string>
     <string name="camera">კამერა</string>
     <string name="camera_aperture">Დიაფრაგმა</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">კამერა დროებით (იყო) მიუწვდომელია თქვენს მოწყობილობაზე გასახსნელად (კამერის სისტემის შეცდომა)</string>
     <string name="camera_support_error">კამერის გამოყენებისას მოხდა შეცდომა.</string>
     <string name="close">დახურვა</string>
+    <string name="days">დღეები</string>
     <string name="default_text">ნაგულისხმევი</string>
     <string name="dialog_camera_not_found_msg_text">ამ მოწყობილობას არ აქვს ჩაშენებული კამერა და არ უჭერს მხარს გარე კამერებს. იხურება…</string>
     <string name="dialog_camera_not_found_text">კამერა ვერ მოიძებნა</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">თქვენ არ გაქვთ რეკლამები.</string>
     <string name="donation_level_text">თქვენი შემოწირულობის დონე:</string>
     <string name="donation_purchase_info_loading_text">სავაჭრო ინფორმაცია ჯერ არ არის ატვირთული. ხართ ონლაინ და შესული ხართ თქვენს Google ანგარიშში?</string>
-    <string name="donation_remove_ads_by_any_amount_text">სამუდამოდ წაშალეთ რეკლამები ნებისმიერი თანხის ერთჯერადი შემოწირულობით. ასევე შეგიძლიათ ყოველთვიურად შემოწიროთ ნებისმიერი თანხა რეკლამის წასაშლელად</string>
-    <string name="donation_subs_any_amount_text">ასევე, რეკლამა მთლიანად იშლება, როცა გამოწერთ ნებისმიერ თანხას.</string>
+    <string name="donation_remove_ads_by_any_amount_text">სამუდამოდ წაშალეთ რეკლამები ნებისმიერი თანხის ერთჯერადი შემოწირულობით. თქვენ ასევე შეგიძლიათ ყოველთვიური შემოწირულობა რეკლამების წასაშლელად</string>
+    <string name="donation_subs_any_amount_text">რეკლამა მთლიანად ამოღებულია, სანამ თვეში ნებისმიერი თანხის გამოწერა აქტიურია.</string>
     <string name="donation_subs_manage_btn_text">გამოწერის გაუქმება</string>
+    <string name="donation_subs_no_free_trial_explanation_text">აპლიკაცია არ ითვალისწინებს გამოწერის საცდელ პერიოდს, რადგან აპლიკაციის ყველა ფუნქცია უკვე უფასოა, გამოწერა მხოლოდ ხსნის რეკლამას</string>
+    <string name="donation_subs_one_text">რეკლამა მთლიანად ამოღებულია, სანამ გამოწერა აქტიურია.</string>
     <string name="donation_subs_text">ყოველთვიურად შემოწირულობა</string>
     <string name="format_altitude">სიმაღლე</string>
     <string name="format_degrees">კოორდინატები</string>
@@ -56,6 +65,7 @@
     <string name="from">დან</string>
     <string name="hour">საათი</string>
     <string name="hours">საათები</string>
+    <string name="month">თვე</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">აპლიკაცია არ არის გამორიცხული ბატარეის ოპტიმიზაციისგან. თუ კამერა არ მუშაობს ფონზე ან რაიმე სხვა, მაშინ დაამატეთ ეს აპლიკაცია ენერგიის დაზოგვის რეჟიმის გამონაკლისებს.</string>
     <string name="msg_android_r_deleting_manual_tip_text">თუ თქვენ ხელახლა დააინსტალირეთ აპლიკაცია Android 11-ზე, მაშინ ძველი ფაილები ხელით უნდა წაიშალოს</string>
     <string name="msg_auto_recording_service_was_stopped">თქვენ შეაჩერეთ ფონური სერვისი ვიდეოს ჩაწერის ავტომატურად დასაწყებად. გახსენით აპლიკაცია ხელახლა გასაშვებად.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">აუდიოს ჩაწერა Bluetooth მოწყობილობიდან</string>
     <string name="prefs_audio_bt_recording_warning_message_text">გამოიყენეთ მხოლოდ Bluetooth ყურსასმენებით. თუ თქვენ უკავშირდებით სათავე ერთეულს (მანქანის რადიოს) Bluetooth-ის საშუალებით, მაშინ რაიმე მიზეზით ამან შეიძლება ავტომატურად გამოიწვიოს სატელეფონო ზარი ამ მოწყობილობის სტანდარტულ ნომერზე.</string>
     <string name="prefs_audio_bt_recording_warning_title_text">არ გამოიყენოთ სათავე ერთეულთან (მანქანის რადიო)!</string>
+    <string name="prefs_audio_codec_title">აუდიო კოდეკი</string>
     <string name="prefs_audio_priority_sum">თუ ჩართულია, სხვა აპლიკაციები ვერ გამოიყენებენ მიკროფონს. თუ გამორთულია, ამ აპლიკაციას შეიძლება არ შეეძლოს აუდიოს ჩაწერა, როდესაც მიკროფონის გამოყენებით რამდენიმე აპლიკაცია მუშაობს (Android ყოველთვის არ იძლევა მიკროფონის ერთდროულ გამოყენებას)</string>
     <string name="prefs_audio_priority_title">პრიორიტეტული აუდიო ამ აპისთვის</string>
     <string name="prefs_audio_rate_text">შერჩევის სიხშირე</string>
     <string name="prefs_audio_recording_text">აუდიო ჩანაწერი</string>
     <string name="prefs_audio_settings_sum_text">ხარისხიანი, გამორთული /ჩართული ხმის ჩაწერა</string>
     <string name="prefs_audio_settings_text">ხმის პარამეტრები</string>
+    <string name="prefs_audio_source_camcorder_text">აუდიო ჩანაწერმა CAMCORDER-დან შეიძლება არ იმუშაოს ზოგიერთ მოწყობილობაზე, ამ შემთხვევაში სცადეთ MIC-ზე შეცვლა</string>
+    <string name="prefs_audio_source_text">აუდიო წყარო</string>
     <string name="prefs_audio_stereo_text">სტერეო</string>
     <string name="prefs_auto_start_app_launch_sum_text">ავტომატურად დაიწყეთ ვიდეოს ჩაწერა აპის დაწყებისას</string>
     <string name="prefs_auto_start_app_launch_text">განაცხადის დაწყებისას</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">გაშვება აუდიო ჯეკში (AUX) მიერთებისას</string>
     <string name="prefs_aux_auto_stop_text">შეჩერება აუდიო ბუდედან (AUX) გათიშვისას</string>
     <string name="prefs_battery_optimization_sum_text">ბატარეის ოპტიმიზაციამ შეიძლება ხელი შეუშალოს აპის გამართულ მუშაობას (მაგალითად, კამერის გამოყენება ან მდებარეობის განახლება ვიდეოს ფონზე ჩაწერისას). დააწკაპუნეთ აქ, რომ გამორთოთ ის ახლა ამ აპლიკაციისთვის</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">ბატარეის ოპტიმიზაციამ შესაძლოა ხელი შეუშალოს აპლიკაციის გამართულ მუშაობას (მაგალითად, კამერისა და მიკროფონის გამოყენებით). დააწკაპუნეთ აქ, რომ გამორთოთ ის ახლა ამ აპლიკაციისთვის</string>
     <string name="prefs_battery_optimization_text">ბატარეის ოპტიმიზაცია</string>
     <string name="prefs_beep_each_start_recording_sum_text">სიგნალი შემდეგი ვიდეო ფაილის ჩაწერის დასაწყისში</string>
     <string name="prefs_beep_each_start_recording_text">სიგნალი ჩაწერისას</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">პეიზაჟი</string>
     <string name="prefs_orientation_landscape_reversed">ალბომის უკუსვლა</string>
     <string name="prefs_orientation_portrait">პორტრეტი</string>
+    <string name="prefs_orientation_sensor_automatic">Ავტომატური</string>
     <string name="prefs_other_auto_deleting_sum_text">ავტომატურად წაშალეთ უძველესი ვიდეოები ჩაწერისას, თუ ახალი ვიდეოებისთვის საკმარისი ადგილი არ არის</string>
     <string name="prefs_other_auto_deleting_text">მარყუჟის ჩაწერა</string>
     <string name="prefs_other_date_time_text">თარიღი და დრო</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">ფოტოს ადგილმდებარეობა (საქაღალდე /გზა)</string>
     <string name="prefs_other_path_text">ვიდეოს ადგილმდებარეობა (საქაღალდე /გზა)</string>
     <string name="prefs_other_settings_sum_text">ვიდეოს ადგილმდებარეობა (საქაღალდის შენახვა), ვიდეოს ხანგრძლივობა, ციკლის ჩაწერა, G-სენსორი, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">ვიდეო ჩანაწერების ადგილმდებარეობა (საქაღალდე შესანახად), ვიდეოს ხანგრძლივობა, ციკლის ჩაწერა, ვიდეოს მაქსიმალური ზომა</string>
     <string name="prefs_other_settings_text">სხვა პარამეტრები</string>
     <string name="prefs_other_show_address_text">ამჟამინდელი მდებარეობის მისამართი</string>
     <string name="prefs_other_show_altitude_text">სიმაღლე ზღვის დონიდან</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">როდესაც დაიწყებთ აპლიკაციას, ჩართეთ /გამორთეთ დატენვა, ჩატვირთეთ სისტემა</string>
     <string name="prefs_screen_autostart_text">ჩაწერის ავტომატური დაწყება</string>
     <string name="prefs_screen_ui_summary_text">ეკრანის სწრაფი /ხანგრძლივი დაჭერა, ეკრანის გამორთვა, მისამართის და სიჩქარის ჩვენება, ამომხტარი ფანჯარა, ღილაკები და სხვა</string>
+    <string name="prefs_screen_ui_summary_text_bvr">მალსახმობი ჩაწერის დასაწყებად, ეკრანზე სწრაფი და ხანგრძლივი დაჭერა, ამომხტარი ფანჯარა, ვიბრაცია ჩაწერისას, ხმის შეტყობინება, ვიბრაცია, ღილაკები ეკრანზე, ეკრანის გამორთვა და სხვა</string>
     <string name="prefs_screen_ui_title">ინტერფეისი (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">ავტომატურად ცვლის კამერის დღის/ღამის რეჟიმებს კონკრეტულ დროს</string>
     <string name="prefs_screen_video_day_night_mode_text">დღის /ღამის ავტომატური პარამეტრები</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">ვიდეოების გადაწერის ბლოკირება</string>
     <string name="prefs_show_overlay_btn_sum_text">აჩვენებს ფანჯარას საკონტროლო ღილაკებით ყველა აპლიკაციის თავზე</string>
     <string name="prefs_show_overlay_btn_text">მცურავი ფანჯრის ჩვენება</string>
+    <string name="prefs_show_overlay_on_recording_text">ჩაწერის დაწყებისას მცურავი ფანჯრის ჩვენება</string>
     <string name="prefs_show_status_bar_text">სისტემის სტატუსის ზოლის ჩვენება</string>
     <string name="prefs_show_take_photo_btn_text">ფოტოს გადასაღებად</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">არ არის მხარდაჭერილი მიმდინარე კამერით. მწარმოებლები ხშირად ზღუდავენ მის გამოყენებას - ის ხელმისაწვდომია მხოლოდ სტანდარტული კამერის აპლიკაციაში</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">გადაფარეთ სუბტიტრები ვიდეოს ბოლოში</string>
     <string name="prefs_subtitles_position_bottom_text">სუბტიტრები ბოლოში</string>
     <string name="prefs_subtitles_settings_sum_text">გადაფარვის ვიდეო წარწერები: თარიღი (დრო), მდებარეობის მისამართი, კოორდინატები და სიჩქარე</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">ვიდეოების გადაფარვის სუბტიტრები: თარიღი (დროის ბეჭედი), მორგებული ტექსტი</string>
     <string name="prefs_subtitles_settings_text">სუბტიტრების პარამეტრები</string>
     <string name="prefs_subtitles_size_text">ტექსტის ზომის გაზრდა</string>
     <string name="prefs_subtitles_speed_text">სიჩქარე</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">შეატყობინეთ შეცდომას, ავარიას ან გააკეთეთ შეთავაზება</string>
     <string name="prefs_support_text">მხარდაჭერა (გამოხმაურება)</string>
     <string name="prefs_system_alert_window_sum_text">მიეცით საშუალება ამ აპს გამოჩნდეს ყველა სხვა აპის თავზე. ეს აუცილებელია ვიდეოს ჩაწერის ავტომატურად დასაწყებად/შეწყვეტისთვის ან მცურავი ფანჯრის გამოსაჩენად</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">მიეცით საშუალება ამ აპს გამოჩნდეს ყველა სხვა აპის თავზე. ეს აუცილებელია მცურავი ფანჯრის საჩვენებლად</string>
     <string name="prefs_system_alert_window_text">რეზოლუცია ყველა ფანჯრის თავზე</string>
     <string name="prefs_theme_mode_dark">მუქი თემა</string>
+    <string name="prefs_theme_mode_dynamic">დინამიური</string>
     <string name="prefs_theme_mode_light">მსუბუქი თემა</string>
     <string name="prefs_theme_mode_system_auto">როგორც სისტემაში (ავტომატური)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">დაბრუნდით მთავარ ეკრანზე (ჩანაწერები), რომ გამოიყენოთ ეს პარამეტრი და დაიწყოთ თვალთვალის სერვისი</string>
     <string name="prefs_toolbar_title_setting">პარამეტრები</string>
     <string name="prefs_translate_sum_text">დაეხმარეთ თქვენს ენაზე ტექსტის თარგმანის გაუმჯობესებას ან დაფიქსირებას</string>
     <string name="prefs_translate_text">განაცხადის თარგმანი</string>
+    <string name="prefs_ui_app_icon_and_label_change">შეცვალეთ აპლიკაციის ხატი და სახელი სისტემაში</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">ცვლილების შემდეგ, აპლიკაცია შეიძლება დაიხუროს, ძველი ხატულა წაიშლება ტელეფონის მთავარ ეკრანზე (ან ყველა აპლიკაციის სიაში) და გამოჩნდება ახალი.</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">დააყენეთ გამშვების ხატი და სახელი</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">შეცვალეთ შეტყობინების ხატულა და სახელი</string>
+    <string name="prefs_ui_camera_preview_sum_text">კამერის გადახედვის ჩვენება აპის მთავარ ეკრანზე</string>
+    <string name="prefs_ui_camera_preview_text">კამერის გადახედვა</string>
     <string name="prefs_ui_click_none_text">Არაფერია გასაკეთებელი</string>
     <string name="prefs_ui_click_start_stop_rec_text">ჩაწერის დაწყება/შეწყვეტა</string>
     <string name="prefs_ui_click_text">სწრაფი შეხება ეკრანზე</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">ბიტის სიხშირე (ხარისხი)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">კამერის კონტროლის სცენის რეჟიმი (ღამე)</string>
     <string name="prefs_video_camera_control_scene_mode_text">კამერის კონტროლის სცენის რეჟიმი (დღე)</string>
+    <string name="prefs_video_codec_sum_text">H.265 HEVC და AV1 კოდეკები უზრუნველყოფენ უკეთეს ხარისხს უფრო დაბალი ბიტი სიჩქარით, ვიდრე H.264 AVC, ასე რომ თქვენ შეგიძლიათ დაზოგოთ სივრცე ბიტური სიჩქარის შემცირებით. მაგრამ ვიდეო შეიძლება არ დაკვრა ზოგიერთ ვიდეო პლეერში</string>
+    <string name="prefs_video_codec_text">ვიდეო კოდეკი</string>
     <string name="prefs_video_control_scene_mode_beach_text">სანაპირო (ნათელი ამინდი)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">ზოგადი /სახის პრიორიტეტი</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (მაღალი დინამიური დიაპაზონი)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">კამერის ფოკუსი (ღამე)</string>
     <string name="prefs_video_focus_text">კამერის ფოკუსი (დღე)</string>
     <string name="prefs_video_fps_range_text">კადრები წამში (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">ჩაწერეთ HEVC (H.265) ფორმატში სივრცის დაზოგვის მიზნით. თქვენ შეიძლება ვერ შეძლოთ ასეთი ვიდეოების დაკვრა სხვა ვიდეო აღწარმოების მოწყობილობებზე ან აპლიკაციებზე. გადაიტვირთება გარჩევადობა და ბიტირიტი ცვლილების შემდეგ</string>
-    <string name="prefs_video_hevc_text">ძალიან ეფექტური ვიდეო კოდირება</string>
     <string name="prefs_video_orientation_text">ვიდეო და ტელეფონის ორიენტაცია</string>
     <string name="prefs_video_resolution_text">ვიდეოს გარჩევადობა</string>
     <string name="prefs_video_settings_sum_text">გარჩევადობა, ბიტის სიჩქარე, ორიენტაცია, ფოკუსი, კამერა, ღამის რეჟიმი</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">უფრო დიდი ზომა - ბატარეის უფრო სწრაფი გადინება</string>
     <string name="prefs_video_space_unlimited">შეუზღუდავი</string>
     <string name="prefs_video_stabilization_text">ვიდეო სტაბილიზაცია</string>
+    <string name="prefs_voice_recorder_app">ხმის ჩამწერი ფონზე</string>
     <string name="prefs_warning_location_precise_sum_text">ეს აუცილებელია GPS-ზე დაფუძნებული ყველაზე ზუსტი სიჩქარის, ასევე მისამართისა და კოორდინატების მისაღებად. დააწკაპუნეთ გასაგზავნად</string>
     <string name="prefs_warning_location_precise_text">ზუსტი ადგილმდებარეობის ნებართვა</string>
     <string name="prefs_warning_notifications_sum_text">საჭიროა ფონური ჩაწერის სერვისის და სტატუსების ჩვენება შეტყობინებების პანელზე. დააწკაპუნეთ გასაგზავნად</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">წმინდა</string>
     <string name="rec_off_text">გამორთულია</string>
     <string name="rec_on_text">ჩათვლით</string>
-    <string name="rec_service_msg">კონფიდენციალურობა: თქვენ მიერ ჩაწერილი ყველა ვიდეო შეინახება მხოლოდ თქვენს ადგილობრივ მოწყობილობაზე. აპლიკაცია არ ახდენს თქვენი ვიდეოების სარეზერვო ასლს (არ აქვს კავშირი სერვერებთან)\n\nაპი გააგრძელებს მუშაობას ფონზე (წინა პლანზე გამოსახული სერვისი, რომელიც გამოჩნდება შეტყობინებების ზოლში), თუ დაიწყებთ ახალ ჩაწერას და დაბრუნდებით მთავარ ეკრანზე, გადართავთ სხვა აპლიკაციას ან დაბლოკავთ ტელეფონს, რომ შეძლოთ ჩაწერის გაგრძელება, ან თუ თქვენ ჩართავთ ფუნქციებს ავტომატური ჩაწერისთვის (თუ დახურავთ ფონურ სერვისს, ეს ფუნქციები არ იმუშავებს).</string>
+    <string name="rec_service_msg">კონფიდენციალურობა: თქვენ მიერ ჩაწერილი ყველა ვიდეო შეინახება მხოლოდ თქვენს ადგილობრივ მოწყობილობაზე. აპლიკაცია არ ახდენს თქვენი ვიდეოების სარეზერვო ასლს (არ აქვს კავშირი სერვერებთან)\n\nაპი გააგრძელებს მუშაობას ფონზე (წინა პლანზე, რომელიც გამოჩნდება შეტყობინებების ზოლში), სანამ ჩაწერა აქტიურია, როდესაც დაბრუნდებით მთავარ ეკრანზე, გადაერთეთ სხვა აპზე ან დაბლოკავთ ტელეფონს ჩაწერის გასაგრძელებლად და როცა ჩართავთ ავტომატური ჩაწერის ფუნქციები (თუ დახურავთ ფონის სერვისს, ეს ფუნქციები არ იმუშავებს). აპლიკაცია იყენებს Firebase Analytics-ს ძირითადი ანონიმური ანალიტიკისთვის (იხილეთ ბმული ქვემოთ)</string>
+    <string name="recording_file_name_prefix">პრეფიქსი ვიდეო ფაილების სახელებისთვის</string>
     <string name="recording_start_text">დაიწყეთ ჩაწერა</string>
     <string name="recording_started_failed_text">შეცდომა ჩაწერის დაწყებისას</string>
     <string name="recording_started_with_audio_text">დაიწყო ახალი ვიდეო გადაღება აუდიოჩანაწერით</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">ჩაწერა…</string>
     <string name="recording_voice_started_text">ჩაწერა დაიწყო</string>
     <string name="recording_voice_stopped_text">ჩაწერა შეწყდა</string>
+    <string name="records_file_sorting_date">თარიღი</string>
+    <string name="records_file_sorting_duration">ხანგრძლივობა</string>
+    <string name="records_file_sorting_name">სახელი</string>
+    <string name="records_file_sorting_size">Ფაილის ზომა</string>
+    <string name="records_file_upload_drive">შენახვა \"Google Drive\"-ში</string>
     <string name="reset">გამონადენი</string>
     <string name="storage_external_single">MicroSD ბარათი</string>
     <string name="storage_phone">ტელეფონის მეხსიერება</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">წაშლის რეჟიმი</string>
     <string name="videos_file_item_share">გააზიარე ეს</string>
     <string name="videos_file_item_watch">Უყურებს</string>
+    <string name="videos_file_open_with">გახსენით</string>
+    <string name="videos_file_select">აირჩიეთ ამისთვის</string>
     <string name="videos_file_sort_asc">დალაგება აღმავალი</string>
     <string name="videos_file_sort_desc">დახარისხება კლებადობით</string>
     <string name="videos_file_was_locked_text">ვიდეო ფაილი გადატანილია დაცულ საქაღალდეში</string>

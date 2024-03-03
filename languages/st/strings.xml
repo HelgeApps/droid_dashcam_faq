@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">Kea lumela</string>
     <string name="any_text">Leha e le efe</string>
+    <string name="app_alternative_name_audio">Audio</string>
+    <string name="app_alternative_name_battery">Litlhophiso tsa Battery</string>
+    <string name="app_alternative_name_media">Mecha ea litaba</string>
+    <string name="app_alternative_name_media_player">Sebapali sa Media</string>
+    <string name="app_alternative_name_video">Video</string>
+    <string name="app_name_backgroundvideorecorder">Rekota video e ka morao</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - Ho khanna DVR</string>
     <string name="camera">Khamera</string>
     <string name="camera_aperture">Diaphragm</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">Khamera ha e fumanehe hajoale (e ne e le) hore e ka buloa sesebelisoa sa hau (phoso ea sistimi ea khamera)</string>
     <string name="camera_support_error">Phoso e etsahetse nakong eo o sebelisang khamera.</string>
     <string name="close">Koala</string>
+    <string name="days">matsatsi</string>
     <string name="default_text">Ea kamehla</string>
     <string name="dialog_camera_not_found_msg_text">Sesebelisoa sena ha se na kh\'amera e hahelletsoeng kahare ebile ha se tšehetse lik\'hamera tsa kantle. E ea koala…</string>
     <string name="dialog_camera_not_found_text">Khamera ha e fumanehe</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">Ha u na lipapatso.</string>
     <string name="donation_level_text">Boemo ba monehelo oa hau:</string>
     <string name="donation_purchase_info_loading_text">Litaba tsa ho reka ha li so kenngoe. Na u inthaneteng \'me u kene ka har\'a ak\'haonte ea hau ea Google?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Tlosa lipapatso ka ho sa feleng ka monehelo oa nako e le \'ngoe oa chelete leha e le efe. U ka fana ka chelete efe kapa efe khoeli le khoeli ho tlosa lipapatso</string>
-    <string name="donation_subs_any_amount_text">Hape, papatso e tlosoa ka ho feletseng ha u ngolisa chelete leha e le efe.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Tlosa lipapatso ka ho sa feleng ka monehelo oa nako e le \'ngoe oa chelete leha e le efe. U ka boela ua fana ka khoeli le khoeli ho tlosa lipapatso</string>
+    <string name="donation_subs_any_amount_text">Papatso e tlosoa ka ho feletseng ha peeletso ea chelete leha e le efe ka khoeli e ntse e sebetsa.</string>
     <string name="donation_subs_manage_btn_text">Hlakola boingodiso</string>
+    <string name="donation_subs_no_free_trial_explanation_text">Sesebelisoa ha se fane ka nako ea teko bakeng sa lipeeletso, kaha lits\'ebetso tsohle tsa kopo li se li sa lefelloe, ho ngolisoa ho tlosa lipapatso feela.</string>
+    <string name="donation_subs_one_text">Papatso e tlositsoe ka botlalo ha peeletso e ntse e sebetsa.</string>
     <string name="donation_subs_text">Nehela khoeli le khoeli</string>
     <string name="format_altitude">Bophahamo</string>
     <string name="format_degrees">Lihokahanyi</string>
@@ -56,6 +65,7 @@
     <string name="from">ho tloha</string>
     <string name="hour">hora</string>
     <string name="hours">lihora</string>
+    <string name="month">khoeli</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Sesebelisoa ha se qheleloe ka thoko ho ntlafatso ea betri. Haeba kh\'amera e sa sebetse ka morao kapa ntho e \'ngoe, eketsa ts\'ebeliso ena ho mekhelo ea mokhoa oa ho boloka matla.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Haeba u kentse kopo hape ho Android 11, lifaele tsa khale li tlameha ho hlakoloa ka letsoho</string>
     <string name="msg_auto_recording_service_was_stopped">U emisitse tšebeletso ea bokamorao bakeng sa ho qala ho rekota video ka bo eona. Bula sesebelisoa ho qala hape.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Rekota molumo ho tsoa sesebelisoa sa Bluetooth</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Sebelisa feela ka li-headphones tsa Bluetooth. Haeba o hokela hloohong (sea-le-moea sa koloi) ka Bluetooth, ka lebaka le itseng sena se ka \'na sa etsa hore mohala o tsoe ho nomoro e tloaelehileng ea sesebelisoa sena.</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Se ke oa sebelisa le yuniti ea hlooho (sea-le-moea sa koloi)!</string>
+    <string name="prefs_audio_codec_title">Codec ea molumo</string>
     <string name="prefs_audio_priority_sum">Ha e butse, lits\'ebetso tse ling li ke ke tsa khona ho sebelisa maekrofounu. Haeba e koetsoe, sesebelisoa sena se kanna sa se khone ho hatisa molumo ha lits\'ebetso tse ngata li sebelisa maekrofounu (Android ha e lumelle tšebeliso ea maekrofounu ka nako e le \'ngoe kamehla)</string>
     <string name="prefs_audio_priority_title">Beha molumo pele ho sesebelisoa sena</string>
     <string name="prefs_audio_rate_text">Sampling frequency</string>
     <string name="prefs_audio_recording_text">Rekoto ea molumo</string>
     <string name="prefs_audio_settings_sum_text">Boleng, tima /ha rekota molumo</string>
     <string name="prefs_audio_settings_text">Litlhophiso tsa molumo</string>
+    <string name="prefs_audio_source_camcorder_text">Ho rekota molumo ho tsoa ho CAMCORDER ho kanna ha se sebetse lisebelisoa tse ling, maemong ana leka ho fetohela ho MIC</string>
+    <string name="prefs_audio_source_text">Mohloli oa Audio</string>
     <string name="prefs_audio_stereo_text">Setereo</string>
     <string name="prefs_auto_start_app_launch_sum_text">Qala ho rekota video ka ho iketsa ha sesebelisoa se qala</string>
     <string name="prefs_auto_start_app_launch_text">Ha o qala kopo</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Matha ha o hoketsoe ho jeko ea molumo (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Emisa ha o khaotsoe ho jack ea molumo (AUX)</string>
     <string name="prefs_battery_optimization_sum_text">Ntlafatso ea betri e ka thibela sesebelisoa ho sebetsa ka nepo (mohlala, ho sebelisa khamera kapa ho nchafatsa sebaka ha u ntse u rekota video ka morao). Tobetsa mona ho e tima bakeng sa sesebelisoa sena hona joale</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">Ntlafatso ea betri e ka thibela sesebelisoa ho sebetsa ka nepo (mohlala, ho sebelisa khamera le maekerofounu). Tobetsa mona ho e tima bakeng sa sesebelisoa sena hona joale</string>
     <string name="prefs_battery_optimization_text">Ntlafatso ea betri</string>
     <string name="prefs_beep_each_start_recording_sum_text">Letšoao qalong ea ho rekota faele e latelang ea video</string>
     <string name="prefs_beep_each_start_recording_text">lla ha o rekota</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Boemo ba naha</string>
     <string name="prefs_orientation_landscape_reversed">Album reverse</string>
     <string name="prefs_orientation_portrait">Setšoantšo</string>
+    <string name="prefs_orientation_sensor_automatic">Ka ho iketsa</string>
     <string name="prefs_other_auto_deleting_sum_text">Hlakola livideo tsa khale ka ho fetesisa ha u ntse u rekota haeba ho se na sebaka se lekaneng bakeng sa livideo tse ncha</string>
     <string name="prefs_other_auto_deleting_text">Ho rekota ka loop</string>
     <string name="prefs_other_date_time_text">letsatsi le nako</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Sebaka sa lifoto (sephutheli /tsela)</string>
     <string name="prefs_other_path_text">Sebaka sa video (sephutheli /tsela)</string>
     <string name="prefs_other_settings_sum_text">Sebaka sa video (boloka foldara), nako ea video, ho rekota loop, G-sensor, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Sebaka sa lirekoto tsa video (foldara e lokelang ho bolokoa), nako ea video, ho rekota loop, boholo bo boholo ba video</string>
     <string name="prefs_other_settings_text">Litlhophiso tse ling</string>
     <string name="prefs_other_show_address_text">Aterese ea sebaka sa hajoale</string>
     <string name="prefs_other_show_altitude_text">Bophahamo hodima bophahamo ba lewatle</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Ha o qala ts\'ebeliso, bulela /tima ho tjhaja, qala sistimi</string>
     <string name="prefs_screen_autostart_text">Qala ho rekota</string>
     <string name="prefs_screen_ui_summary_text">Ho tobetsa skrineng ka potlako /nako e telele, ho tima skrineng, aterese le ponts\'o ea lebelo, fensetere ea popup, likonopo le tse ling</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Tsela e khuts\'oane ea ho qala ho rekota, tobetsa kapele le ka nako e telele skrineng, fensetere ea pop-up, ho thothomela ha o rekota, tsebiso ea molumo, vibrate, likonopo tse skrineng, ho tima skrini le tse ling.</string>
     <string name="prefs_screen_ui_title">Sebopeho (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">E fetola ka bo eona mekhoa ea khamera ea motšehare /bosiu ka linako tse itseng</string>
     <string name="prefs_screen_video_day_night_mode_text">Litlhophiso tsa Letsatsi la Auto /Bosiu</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">E thibela livideo hore li se ke tsa ngoloa</string>
     <string name="prefs_show_overlay_btn_sum_text">E hlahisa fensetere e nang le likonopo tsa taolo holim\'a lits\'ebetso tsohle</string>
     <string name="prefs_show_overlay_btn_text">Hlahisa fensetere e phaphametseng</string>
+    <string name="prefs_show_overlay_on_recording_text">Hlahisa fensetere e phaphametseng ha ho rekota ho qala</string>
     <string name="prefs_show_status_bar_text">Hlahisa sebaka sa boemo ba sistimi</string>
     <string name="prefs_show_take_photo_btn_text">Ho etsa senepe</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Ha e tšehetsoe ke khamera ea hajoale. Hangata bahlahisi ba thibela tšebeliso ea eona - e fumaneha feela ts\'ebelisong e tloaelehileng ea Khamera</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Koahela mengolo e tlase botlaaseng ba video</string>
     <string name="prefs_subtitles_position_bottom_text">Subtitles ka tlase</string>
     <string name="prefs_subtitles_settings_sum_text">Kopanya mantsoe a hlalosang video: Letsatsi (nako), aterese ea sebaka, likhokahano le lebelo</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Koahela litlhaloso ho livideo: letsatsi (setempe sa nako), mongolo oa tloaelo</string>
     <string name="prefs_subtitles_settings_text">Litlhophiso tsa Subtitle</string>
     <string name="prefs_subtitles_size_text">Eketsa boholo ba mongolo</string>
     <string name="prefs_subtitles_speed_text">Lebelo</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Tlaleha bothata, ho oa kapa ho fana ka tlhahiso</string>
     <string name="prefs_support_text">Tšehetso (maikutlo)</string>
     <string name="prefs_system_alert_window_sum_text">Lumella sesebelisoa sena ho hlahella holim\'a lits\'ebetso tse ling kaofela. Sena sea hlokahala ho qala /ho emisa ho rekota video kapa ho hlahisa fensetere e phaphametseng</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Lumella sesebelisoa sena ho hlaha holim\'a lits\'ebetso tse ling kaofela. Sena sea hlokahala ho hlahisa fensetere e phaphametseng</string>
     <string name="prefs_system_alert_window_text">Qeto ka holim\'a lifensetere tsohle</string>
     <string name="prefs_theme_mode_dark">Tema e lefifi</string>
+    <string name="prefs_theme_mode_dynamic">Matla</string>
     <string name="prefs_theme_mode_light">Theme e khanyang</string>
     <string name="prefs_theme_mode_system_auto">Joalo ka sistimi (othomathiki)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Khutlela skrineng sa lapeng (lirekoto) ho sebelisa tlhophiso ena le ho qala ts\'ebeletso ea ho latedisa</string>
     <string name="prefs_toolbar_title_setting">Litlhophiso</string>
     <string name="prefs_translate_sum_text">Thusa ho ntlafatsa kapa ho lokisa phetolelo ea mongolo puong ea hau</string>
     <string name="prefs_translate_text">Phetolelo ea Tšebeliso</string>
+    <string name="prefs_ui_app_icon_and_label_change">Fetola aekhone le lebitso la sesebelisoa tsamaisong</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">Kamora phetoho, ts\'ebeliso e ka koaloa, letšoao la khale le tla tlosoa skrineng se seholo sa mohala (kapa lenaneng la lits\'ebetso tsohle), \'me e ncha e tla hlaha.</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Seta aekhone le lebitso la sebui</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Fetola letšoao la tsebiso le lebitso</string>
+    <string name="prefs_ui_camera_preview_sum_text">Hlahisa ponelopele ea khamera skrineng sa mantlha sa app</string>
+    <string name="prefs_ui_camera_preview_text">Ponahalo ea khamera</string>
     <string name="prefs_ui_click_none_text">Ha ho letho le ka etsoang</string>
     <string name="prefs_ui_click_start_stop_rec_text">Qala /emisa ho rekota</string>
     <string name="prefs_ui_click_text">Tlanya kapele skrineng</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Bitrate (boleng)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Mokhoa oa Taolo ea Khamera (Bosiu)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Mokhoa oa Taolo ea Khamera (Letsatsi)</string>
+    <string name="prefs_video_codec_sum_text">H.265 HEVC le AV1 codecs li fana ka boleng bo ntlafetseng ka li-bitrate tse tlase ho feta H.264 AVC, kahoo u ka boloka sebaka ka ho fokotsa bitrate. Empa livideo li kanna tsa se bapale ho libapali tse ling tsa livideo</string>
+    <string name="prefs_video_codec_text">Codec ea video</string>
     <string name="prefs_video_control_scene_mode_beach_text">Lebōpo (leratadima le khanyang)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Kakaretso /Sefahleho sa Bohlokoa</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (High Dynamic Range)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Tsepamiso ea khamera (bosiu)</string>
     <string name="prefs_video_focus_text">Tsepamiso ea khamera (letsatsi)</string>
     <string name="prefs_video_fps_range_text">Liforeimi ka Motsotsoana (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Rekota ka sebopeho sa HEVC (H.265) ho boloka sebaka. U kanna oa se khone ho bapala livideo tse joalo lisebelisoa tse ling tsa ho bapala kapa lits\'ebetso. E tla reset resolution le bitrate kamora phetoho</string>
-    <string name="prefs_video_hevc_text">Khoutu ea video e sebetsang hantle haholo</string>
     <string name="prefs_video_orientation_text">Mokhoa oa video le fono</string>
     <string name="prefs_video_resolution_text">Qeto ea video</string>
     <string name="prefs_video_settings_sum_text">Resolution, bit rate, orientation, focus, khamera, mokhoa oa bosiu</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">E kholoanyane - ho tsoa ha betri kapele</string>
     <string name="prefs_video_space_unlimited">Se nang moeli</string>
     <string name="prefs_video_stabilization_text">Ho tsitsisa video</string>
+    <string name="prefs_voice_recorder_app">Sehatisi sa lentsoe ka Background</string>
     <string name="prefs_warning_location_precise_sum_text">Sena sea hlokahala ho fumana lebelo le nepahetseng ka ho fetesisa la GPS, hammoho le aterese le likhokahano. Tobetsa ho romela</string>
     <string name="prefs_warning_location_precise_text">Tumello ea sebaka se nepahetseng</string>
     <string name="prefs_warning_notifications_sum_text">Hoa hlokahala hore o tsebe ho bonts\'a ts\'ebeletso ea ho rekota e ka morao le li-status ho phanele ea litsebiso. Tobetsa ho romela</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">Nete</string>
     <string name="rec_off_text">E tima</string>
     <string name="rec_on_text">Kenyellelitse.</string>
-    <string name="rec_service_msg">Lekunutu: Livideo tsohle tseo u li rekotileng li tla bolokoa sesebelisoa sa hau sa lehae feela. Sesebelisoa ha se boloke livideo tsa hau (ha se na likhokahano ho li-server)\n\nSesebelisoa se tla tsoela pele ho sebetsa ka morao (ts\'ebeletso e ka pele e hlahang bareng ea tsebiso) haeba u qala rekoto e ncha \'me u khutlela skrineng sa lapeng, u fetohela ho sesebelisoa se seng kapa u notle fono ea hau hore u tsebe ho tsoela pele ho rekota, kapa haeba o bulela ditshebetso bakeng sa ho rekota ka boiketsetso (haeba o kwala tshebeletso ya bokamorao, ditshebetso tsena di ke ke tsa sebetsa).</string>
+    <string name="rec_service_msg">Lekunutu: Livideo tsohle tseo u li rekotileng li tla bolokoa sesebelisoa sa hau sa lehae feela. Sesebelisoa ha se boloke livideo tsa hau (ha se na likhokahano ho li-server)\n\nSesebelisoa se tla tsoelapele ho sebetsa ka morao (ts\'ebeletso e ka pele e hlahang bareng ea tsebiso) ha ho rekota ho ntse ho sebetsa, ha u khutlela skrineng sa lapeng, fetohela ho sesebelisoa se seng kapa u notle fono ea hau ho tsoela pele ho rekota, le ha u bulela. likarolo tsa ho rekota ka boiketsetso (haeba u koala ts\'ebeletso ea bokamorao, lits\'ebetso tsena li ke ke tsa sebetsa). Sesebelisoa se sebelisa Firebase Analytics bakeng sa litlhahlobo tsa mantlha tse sa tsejoeng (sheba sehokelo se ka tlase)</string>
+    <string name="recording_file_name_prefix">Selelekela sa mabitso a lifaele tsa video</string>
     <string name="recording_start_text">Qala ho rekota</string>
     <string name="recording_started_failed_text">Phoso ea ho qala ho rekota</string>
     <string name="recording_started_with_audio_text">Ho se ho qalile ho rekota video e ncha e rekotiloeng</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">E rekota…</string>
     <string name="recording_voice_started_text">Ho qala ho rekota</string>
     <string name="recording_voice_stopped_text">Ho rekota ho emisitsoe</string>
+    <string name="records_file_sorting_date">Letsatsi</string>
+    <string name="records_file_sorting_duration">Nako</string>
+    <string name="records_file_sorting_name">Lebitso</string>
+    <string name="records_file_sorting_size">Boholo ba faele</string>
+    <string name="records_file_upload_drive">Boloka ho \"Google Drive\"</string>
     <string name="reset">phallela</string>
     <string name="storage_external_single">Karete ea MicroSD</string>
     <string name="storage_phone">Memori ya fono</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Hlakola mokhoa</string>
     <string name="videos_file_item_share">Arolelana sena</string>
     <string name="videos_file_item_watch">Sheba</string>
+    <string name="videos_file_open_with">Bula ka</string>
+    <string name="videos_file_select">Khetha bakeng sa</string>
     <string name="videos_file_sort_asc">Hlopha ka Ho Nyoloha</string>
     <string name="videos_file_sort_desc">Hlophisa ka ho theoha</string>
     <string name="videos_file_was_locked_text">Faele ea video e tlositsoe ho sephutheli se sirelelitsoeng</string>

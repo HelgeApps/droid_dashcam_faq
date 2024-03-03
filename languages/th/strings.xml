@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">ฉันยอมรับ</string>
     <string name="any_text">ใด ๆ</string>
+    <string name="app_alternative_name_audio">เสียง</string>
+    <string name="app_alternative_name_battery">การตั้งค่าแบตเตอรี่</string>
+    <string name="app_alternative_name_media">สื่อ</string>
+    <string name="app_alternative_name_media_player">เครื่องเล่นมีเดีย</string>
+    <string name="app_alternative_name_video">วีดีโอ</string>
+    <string name="app_name_backgroundvideorecorder">การบันทึกวิดีโอพื้นหลัง</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - ขับรถ DVR</string>
     <string name="camera">กล้อง</string>
     <string name="camera_aperture">กะบังลม</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">กล้องไม่สามารถเปิดได้ชั่วคราว (เคย) ในอุปกรณ์ของคุณ (ข้อผิดพลาดของระบบกล้อง)</string>
     <string name="camera_support_error">เกิดข้อผิดพลาดขณะใช้กล้อง</string>
     <string name="close">ปิด</string>
+    <string name="days">วัน</string>
     <string name="default_text">ค่าเริ่มต้น</string>
     <string name="dialog_camera_not_found_msg_text">อุปกรณ์นี้ไม่มีกล้องในตัวและไม่รองรับกล้องภายนอก ปิด…</string>
     <string name="dialog_camera_not_found_text">ไม่พบกล้อง</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">คุณไม่มีโฆษณา</string>
     <string name="donation_level_text">ระดับการบริจาคของคุณ:</string>
     <string name="donation_purchase_info_loading_text">ข้อมูลการช้อปปิ้งยังไม่ได้รับการอัปโหลด คุณออนไลน์และลงชื่อเข้าใช้บัญชี Google ของคุณหรือไม่</string>
-    <string name="donation_remove_ads_by_any_amount_text">ลบโฆษณาออกอย่างถาวรด้วยการบริจาคครั้งเดียวในจำนวนเท่าใดก็ได้ คุณสามารถบริจาคเงินจำนวนเท่าใดก็ได้ทุกเดือนเพื่อลบโฆษณา</string>
-    <string name="donation_subs_any_amount_text">นอกจากนี้ โฆษณาจะถูกลบออกโดยสมบูรณ์เมื่อคุณสมัครรับข้อมูลจำนวนเท่าใดก็ได้</string>
+    <string name="donation_remove_ads_by_any_amount_text">ลบโฆษณาออกอย่างถาวรด้วยการบริจาคครั้งเดียวในจำนวนเท่าใดก็ได้ คุณสามารถบริจาครายเดือนเพื่อลบโฆษณาได้</string>
+    <string name="donation_subs_any_amount_text">การโฆษณาจะถูกลบออกโดยสมบูรณ์ในขณะที่มีการสมัครรับข้อมูลจำนวนเท่าใดก็ได้ต่อเดือน</string>
     <string name="donation_subs_manage_btn_text">Unsubscribe</string>
+    <string name="donation_subs_no_free_trial_explanation_text">แอปพลิเคชันไม่มีช่วงทดลองใช้งานสำหรับการสมัครสมาชิก เนื่องจากฟังก์ชันทั้งหมดของแอปพลิเคชันนั้นฟรีอยู่แล้ว การสมัครสมาชิกจะลบเฉพาะโฆษณาเท่านั้น</string>
+    <string name="donation_subs_one_text">การโฆษณาจะถูกลบออกอย่างสมบูรณ์ในขณะที่การสมัครสมาชิกยังใช้งานอยู่</string>
     <string name="donation_subs_text">บริจาครายเดือน</string>
     <string name="format_altitude">ส่วนสูง</string>
     <string name="format_degrees">พิกัด</string>
@@ -56,6 +65,7 @@
     <string name="from">จาก</string>
     <string name="hour">ชั่วโมง</string>
     <string name="hours">ชั่วโมง</string>
+    <string name="month">เดือน</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">แอปพลิเคชันไม่ได้รับการยกเว้นจากการเพิ่มประสิทธิภาพแบตเตอรี่ หากกล้องไม่ได้ทำงานอยู่เบื้องหลังหรืออย่างอื่น ให้เพิ่มแอปพลิเคชันนี้เข้าข้อยกเว้นของโหมดประหยัดพลังงาน</string>
     <string name="msg_android_r_deleting_manual_tip_text">หากคุณติดตั้งแอปพลิเคชันใหม่บน Android 11 ไฟล์เก่าจะต้องถูกลบด้วยตนเอง</string>
     <string name="msg_auto_recording_service_was_stopped">คุณได้หยุดบริการพื้นหลังเพื่อเริ่มการบันทึกวิดีโอโดยอัตโนมัติ เปิดแอปพลิเคชันเพื่อเปิดใช้งานอีกครั้ง</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">บันทึกเสียงจากอุปกรณ์บลูทูธ</string>
     <string name="prefs_audio_bt_recording_warning_message_text">ใช้กับหูฟังบลูทูธเท่านั้น หากคุณเชื่อมต่อกับเครื่องเสียงรถยนต์ (วิทยุในรถยนต์) ผ่านบลูทูธ ด้วยเหตุผลบางประการ การทำเช่นนี้อาจทำให้มีการโทรไปยังหมายเลขมาตรฐานบนอุปกรณ์นี้โดยอัตโนมัติ</string>
     <string name="prefs_audio_bt_recording_warning_title_text">ห้ามใช้กับเครื่องเสียงรถยนต์ (วิทยุติดรถยนต์)!</string>
+    <string name="prefs_audio_codec_title">ตัวแปลงสัญญาณเสียง</string>
     <string name="prefs_audio_priority_sum">หากเปิดใช้งาน แอปพลิเคชันอื่นจะไม่สามารถใช้ไมโครโฟนได้ หากปิดใช้งาน แอปพลิเคชันนี้อาจไม่สามารถบันทึกเสียงได้เมื่อมีแอปพลิเคชันหลายตัวทำงานโดยใช้ไมโครโฟน (Android ไม่อนุญาตให้ใช้ไมโครโฟนพร้อมกันทุกครั้ง)</string>
     <string name="prefs_audio_priority_title">จัดลำดับความสำคัญของเสียงให้กับแอปนี้</string>
     <string name="prefs_audio_rate_text">ความถี่ในการสุ่มตัวอย่าง</string>
     <string name="prefs_audio_recording_text">บันทึกเสียง</string>
     <string name="prefs_audio_settings_sum_text">คุณภาพ ปิด/เปิด บันทึกเสียง</string>
     <string name="prefs_audio_settings_text">การตั้งค่าเสียง</string>
+    <string name="prefs_audio_source_camcorder_text">การบันทึกเสียงจาก CAMCORDER อาจใช้งานไม่ได้กับอุปกรณ์บางรุ่น ในกรณีนี้ ให้ลองเปลี่ยนเป็น MIC</string>
+    <string name="prefs_audio_source_text">แหล่งกำเนิดเสียง</string>
     <string name="prefs_audio_stereo_text">ระบบเสียงสเตอริโอ</string>
     <string name="prefs_auto_start_app_launch_sum_text">เริ่มการบันทึกวิดีโอโดยอัตโนมัติเมื่อแอปเริ่มทำงาน</string>
     <string name="prefs_auto_start_app_launch_text">เมื่อเริ่มสมัคร</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">ทำงานเมื่อเสียบเข้ากับแจ็คเสียง (AUX)</string>
     <string name="prefs_aux_auto_stop_text">หยุดเมื่อตัดการเชื่อมต่อจากแจ็คเสียง (AUX)</string>
     <string name="prefs_battery_optimization_sum_text">การเพิ่มประสิทธิภาพแบตเตอรี่อาจทำให้แอปทำงานไม่ถูกต้อง (เช่น ใช้กล้องหรืออัปเดตตำแหน่งขณะบันทึกวิดีโอในพื้นหลัง) คลิกที่นี่เพื่อปิดการใช้งานสำหรับแอปพลิเคชันนี้ทันที</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">การเพิ่มประสิทธิภาพแบตเตอรี่อาจทำให้แอปพลิเคชันทำงานไม่ถูกต้อง (เช่น การใช้กล้องและไมโครโฟน) คลิกที่นี่เพื่อปิดการใช้งานสำหรับแอปพลิเคชันนี้ทันที</string>
     <string name="prefs_battery_optimization_text">การเพิ่มประสิทธิภาพแบตเตอรี่</string>
     <string name="prefs_beep_each_start_recording_sum_text">สัญญาณที่จุดเริ่มต้นของการบันทึกไฟล์วิดีโอถัดไป</string>
     <string name="prefs_beep_each_start_recording_text">บี๊บเมื่อบันทึก</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">ภูมิประเทศ</string>
     <string name="prefs_orientation_landscape_reversed">อัลบั้มย้อนกลับ</string>
     <string name="prefs_orientation_portrait">ภาพเหมือน</string>
+    <string name="prefs_orientation_sensor_automatic">อัตโนมัติ</string>
     <string name="prefs_other_auto_deleting_sum_text">ลบวิดีโอที่เก่าที่สุดโดยอัตโนมัติขณะบันทึกหากมีพื้นที่ไม่เพียงพอสำหรับวิดีโอใหม่</string>
     <string name="prefs_other_auto_deleting_text">การบันทึกแบบวนซ้ำ</string>
     <string name="prefs_other_date_time_text">วันและเวลา</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">ตำแหน่งภาพถ่าย (โฟลเดอร์ /เส้นทาง)</string>
     <string name="prefs_other_path_text">ตำแหน่งวิดีโอ (โฟลเดอร์ /เส้นทาง)</string>
     <string name="prefs_other_settings_sum_text">ตำแหน่งวิดีโอ (บันทึกโฟลเดอร์), ระยะเวลาของวิดีโอ, การบันทึกแบบวนซ้ำ, G-sensor, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">ตำแหน่งของการบันทึกวิดีโอ (โฟลเดอร์ที่จะบันทึก), ระยะเวลาของวิดีโอ, การบันทึกแบบวนซ้ำ, ขนาดวิดีโอสูงสุด</string>
     <string name="prefs_other_settings_text">การตั้งค่าอื่นๆ</string>
     <string name="prefs_other_show_address_text">ที่อยู่ปัจจุบัน</string>
     <string name="prefs_other_show_altitude_text">ความสูงเหนือระดับน้ำทะเล</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">เมื่อคุณเปิดแอปพลิเคชั่น ให้เปิด/ปิดการชาร์จ บูตระบบ</string>
     <string name="prefs_screen_autostart_text">เริ่มบันทึกอัตโนมัติ</string>
     <string name="prefs_screen_ui_summary_text">กดหน้าจอเร็ว /ค้าง, ปิดหน้าจอ, แสดงที่อยู่และความเร็ว, หน้าต่างป๊อปอัป, ปุ่มและอื่น ๆ</string>
+    <string name="prefs_screen_ui_summary_text_bvr">ทางลัดเพื่อเริ่มการบันทึก กดอย่างรวดเร็วและยาวบนหน้าจอ หน้าต่างป๊อปอัป การสั่นขณะบันทึก การแจ้งเตือนด้วยเสียง การสั่น ปุ่มบนหน้าจอ การปิดหน้าจอ และอื่นๆ</string>
     <string name="prefs_screen_ui_title">อินเทอร์เฟซ (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">สลับโหมดกลางวัน/กลางคืนของกล้องโดยอัตโนมัติตามเวลาที่กำหนด</string>
     <string name="prefs_screen_video_day_night_mode_text">ตั้งค่ากลางวัน/กลางคืนอัตโนมัติ</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">การบล็อกวิดีโอไม่ให้ถูกเขียนทับ</string>
     <string name="prefs_show_overlay_btn_sum_text">แสดงหน้าต่างพร้อมปุ่มควบคุมที่ด้านบนของแอพพลิเคชั่นทั้งหมด</string>
     <string name="prefs_show_overlay_btn_text">แสดงหน้าต่างลอย</string>
+    <string name="prefs_show_overlay_on_recording_text">แสดงหน้าต่างลอยเมื่อเริ่มการบันทึก</string>
     <string name="prefs_show_status_bar_text">แสดงแถบสถานะระบบ</string>
     <string name="prefs_show_take_photo_btn_text">ในการถ่ายรูป</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">ไม่รองรับกล้องปัจจุบัน ผู้ผลิตมักจำกัดการใช้งาน - มีเฉพาะในแอปพลิเคชันกล้องมาตรฐานเท่านั้น</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">คำบรรยายซ้อนทับที่ด้านล่างของวิดีโอ</string>
     <string name="prefs_subtitles_position_bottom_text">คำบรรยายที่ด้านล่าง</string>
     <string name="prefs_subtitles_settings_sum_text">คำบรรยายวิดีโอซ้อนทับ: วันที่ (เวลา), ที่อยู่, พิกัดและความเร็ว</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">คำบรรยายซ้อนทับบนวิดีโอ: วันที่ (ประทับเวลา) ข้อความที่กำหนดเอง</string>
     <string name="prefs_subtitles_settings_text">การตั้งค่าคำบรรยาย</string>
     <string name="prefs_subtitles_size_text">เพิ่มขนาดตัวอักษร</string>
     <string name="prefs_subtitles_speed_text">ความเร็ว</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">รายงานจุดบกพร่อง ขัดข้อง หรือยื่นข้อเสนอ</string>
     <string name="prefs_support_text">การสนับสนุน (ข้อเสนอแนะ)</string>
     <string name="prefs_system_alert_window_sum_text">อนุญาตให้แอปนี้ปรากฏทับแอปอื่นๆ ทั้งหมด นี่เป็นสิ่งจำเป็นในการเริ่ม /หยุดการบันทึกวิดีโอโดยอัตโนมัติหรือเพื่อแสดงหน้าต่างลอย</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">อนุญาตให้แอปนี้ปรากฏเหนือแอปอื่นๆ ทั้งหมด นี่เป็นสิ่งจำเป็นในการแสดงหน้าต่างแบบลอย</string>
     <string name="prefs_system_alert_window_text">ความละเอียดที่ด้านบนของหน้าต่างทั้งหมด</string>
     <string name="prefs_theme_mode_dark">ธีมสีเข้ม</string>
+    <string name="prefs_theme_mode_dynamic">พลวัต</string>
     <string name="prefs_theme_mode_light">ธีมแสง</string>
     <string name="prefs_theme_mode_system_auto">เช่นเดียวกับในระบบ (อัตโนมัติ)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">กลับไปที่หน้าจอหลัก (บันทึก) เพื่อใช้การตั้งค่านี้และเริ่มบริการติดตาม</string>
     <string name="prefs_toolbar_title_setting">การตั้งค่า</string>
     <string name="prefs_translate_sum_text">ช่วยปรับปรุงหรือแก้ไขการแปลข้อความในภาษาของคุณ</string>
     <string name="prefs_translate_text">แปลใบสมัคร</string>
+    <string name="prefs_ui_app_icon_and_label_change">เปลี่ยนไอคอนและชื่อของแอปพลิเคชันในระบบ</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">หลังจากการเปลี่ยนแปลง แอปพลิเคชันอาจปิดลง ไอคอนเก่าจะถูกลบออกจากหน้าจอหลักของโทรศัพท์ (หรือในรายการแอปพลิเคชันทั้งหมด) และไอคอนใหม่จะปรากฏขึ้น</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">ตั้งค่าไอคอนและชื่อของตัวเรียกใช้งาน</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">เปลี่ยนไอคอนและชื่อการแจ้งเตือน</string>
+    <string name="prefs_ui_camera_preview_sum_text">แสดงตัวอย่างกล้องบนหน้าจอแอปหลัก</string>
+    <string name="prefs_ui_camera_preview_text">ตัวอย่างกล้อง</string>
     <string name="prefs_ui_click_none_text">ไม่มีอะไรทำ</string>
     <string name="prefs_ui_click_start_stop_rec_text">เริ่ม /หยุดการบันทึก</string>
     <string name="prefs_ui_click_text">แตะบนหน้าจออย่างรวดเร็ว</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">บิตเรต (คุณภาพ)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">โหมดฉากควบคุมกล้อง (กลางคืน)</string>
     <string name="prefs_video_camera_control_scene_mode_text">โหมดฉากควบคุมกล้อง (วัน)</string>
+    <string name="prefs_video_codec_sum_text">ตัวแปลงสัญญาณ H.265 HEVC และ AV1 ให้คุณภาพที่ดีกว่าที่บิตเรตต่ำกว่า H.264 AVC ดังนั้นคุณจึงประหยัดพื้นที่ได้โดยการลดบิตเรต แต่วิดีโออาจไม่เล่นในเครื่องเล่นวิดีโอบางตัว</string>
+    <string name="prefs_video_codec_text">ตัวแปลงสัญญาณวิดีโอ</string>
     <string name="prefs_video_control_scene_mode_beach_text">ชายหาด (อากาศสดใส)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">ทั่วไป /ใบหน้าสำคัญ</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (ช่วงไดนามิกสูง)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">โฟกัสของกล้อง (กลางคืน)</string>
     <string name="prefs_video_focus_text">โฟกัสของกล้อง (วัน)</string>
     <string name="prefs_video_fps_range_text">เฟรมต่อวินาที (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">บันทึกในรูปแบบ HEVC (H.265) เพื่อประหยัดพื้นที่ คุณอาจไม่สามารถเล่นวิดีโอดังกล่าวบนอุปกรณ์หรือแอปพลิเคชันเล่นวิดีโออื่นได้ จะรีเซ็ตความละเอียดและบิตเรตหลังการเปลี่ยนแปลง</string>
-    <string name="prefs_video_hevc_text">การเข้ารหัสวิดีโอที่มีประสิทธิภาพสูง</string>
     <string name="prefs_video_orientation_text">การวางแนววิดีโอและโทรศัพท์</string>
     <string name="prefs_video_resolution_text">ความละเอียดวิดีโอ</string>
     <string name="prefs_video_settings_sum_text">ความละเอียด อัตราบิต การวางแนว โฟกัส กล้อง โหมดกลางคืน</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">ขนาดใหญ่ขึ้น - แบตเตอรี่หมดเร็วขึ้น</string>
     <string name="prefs_video_space_unlimited">ไม่ จำกัด</string>
     <string name="prefs_video_stabilization_text">ความเสถียรของวิดีโอ</string>
+    <string name="prefs_voice_recorder_app">เครื่องบันทึกเสียงในพื้นหลัง</string>
     <string name="prefs_warning_location_precise_sum_text">นี่เป็นสิ่งจำเป็นเพื่อให้ได้ความเร็วตาม GPS ที่แม่นยำที่สุด ตลอดจนที่อยู่และพิกัด คลิกเพื่อส่ง</string>
     <string name="prefs_warning_location_precise_text">การอนุญาตสำหรับตำแหน่งที่แน่นอน</string>
     <string name="prefs_warning_notifications_sum_text">จำเป็นเพื่อให้สามารถแสดงบริการบันทึกพื้นหลังและสถานะบนแผงการแจ้งเตือนได้ คลิกเพื่อส่ง</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">สุทธิ</string>
     <string name="rec_off_text">ปิด</string>
     <string name="rec_on_text">รวม</string>
-    <string name="rec_service_msg">ความเป็นส่วนตัว: วิดีโอทั้งหมดที่คุณบันทึกจะถูกบันทึกไว้ในอุปกรณ์ท้องถิ่นของคุณเท่านั้น แอปพลิเคชันไม่ได้สำรองวิดีโอของคุณ (ไม่มีการเชื่อมต่อกับเซิร์ฟเวอร์)\n\nแอพจะทำงานต่อไปในพื้นหลัง (บริการเบื้องหน้าที่ปรากฏในแถบการแจ้งเตือน) หากคุณเริ่มการบันทึกใหม่และกลับไปที่หน้าจอหลัก สลับไปที่แอพอื่นหรือล็อคโทรศัพท์ของคุณเพื่อให้สามารถบันทึกต่อได้ หรือหาก คุณเปิดฟังก์ชั่นสำหรับการบันทึกอัตโนมัติ (หากคุณปิดบริการพื้นหลัง ฟังก์ชั่นเหล่านี้จะไม่ทำงาน)</string>
+    <string name="rec_service_msg">ความเป็นส่วนตัว: วิดีโอทั้งหมดที่คุณบันทึกจะถูกบันทึกไว้ในอุปกรณ์ท้องถิ่นของคุณเท่านั้น แอปพลิเคชันไม่ได้สำรองวิดีโอของคุณ (ไม่มีการเชื่อมต่อกับเซิร์ฟเวอร์)\n\nแอพจะยังคงทำงานต่อไปในพื้นหลัง (บริการเบื้องหน้าที่ปรากฏในแถบการแจ้งเตือน) ในขณะที่การบันทึกทำงานอยู่ เมื่อคุณกลับไปที่หน้าจอหลัก สลับไปยังแอพอื่นหรือล็อคโทรศัพท์ของคุณเพื่อบันทึกต่อ และเมื่อคุณเปิด คุณสมบัติสำหรับการบันทึกอัตโนมัติ (หากคุณปิดบริการพื้นหลัง ฟังก์ชั่นเหล่านี้จะไม่ทำงาน) แอปใช้ Firebase Analytics สำหรับการวิเคราะห์แบบไม่ระบุชื่อขั้นพื้นฐาน (ดูลิงก์ด้านล่าง)</string>
+    <string name="recording_file_name_prefix">คำนำหน้าชื่อไฟล์วิดีโอ</string>
     <string name="recording_start_text">เริ่มบันทึก</string>
     <string name="recording_started_failed_text">เกิดข้อผิดพลาดในการเริ่มบันทึก</string>
     <string name="recording_started_with_audio_text">เริ่มการบันทึกวิดีโอใหม่พร้อมการบันทึกเสียงแล้ว</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">การบันทึก…</string>
     <string name="recording_voice_started_text">เริ่มบันทึกแล้ว</string>
     <string name="recording_voice_stopped_text">การบันทึกหยุดลง</string>
+    <string name="records_file_sorting_date">วันที่</string>
+    <string name="records_file_sorting_duration">ระยะเวลา</string>
+    <string name="records_file_sorting_name">ชื่อ</string>
+    <string name="records_file_sorting_size">ขนาดไฟล์</string>
+    <string name="records_file_upload_drive">บันทึกไปที่ \"Google ไดรฟ์\"</string>
     <string name="reset">ปล่อย</string>
     <string name="storage_external_single">การ์ด MicroSD</string>
     <string name="storage_phone">หน่วยความจำโทรศัพท์</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">โหมดลบ</string>
     <string name="videos_file_item_share">แบ่งปันสิ่งนี้</string>
     <string name="videos_file_item_watch">ดู</string>
+    <string name="videos_file_open_with">เปิดด้วย</string>
+    <string name="videos_file_select">เลือกสำหรับ</string>
     <string name="videos_file_sort_asc">เรียงลำดับจากน้อยไปมาก</string>
     <string name="videos_file_sort_desc">เรียงลำดับจากมากไปน้อย</string>
     <string name="videos_file_was_locked_text">ไฟล์วิดีโอถูกย้ายไปยังโฟลเดอร์ที่มีการป้องกัน</string>

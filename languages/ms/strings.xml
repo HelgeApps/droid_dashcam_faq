@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">saya terima</string>
     <string name="any_text">mana-mana</string>
+    <string name="app_alternative_name_audio">Audio</string>
+    <string name="app_alternative_name_battery">Tetapan Bateri</string>
+    <string name="app_alternative_name_media">Media</string>
+    <string name="app_alternative_name_media_player">Pemain media</string>
+    <string name="app_alternative_name_video">Video</string>
+    <string name="app_name_backgroundvideorecorder">Rakaman video latar belakang</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - DVR Memandu</string>
     <string name="camera">Kamera</string>
     <string name="camera_aperture">Diafragma</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">Kamera buat sementara waktu (telah) tidak tersedia untuk dibuka pada peranti anda (ralat sistem kamera)</string>
     <string name="camera_support_error">Ralat telah berlaku semasa menggunakan kamera.</string>
     <string name="close">tutup</string>
+    <string name="days">hari</string>
     <string name="default_text">lalai</string>
     <string name="dialog_camera_not_found_msg_text">Peranti ini tidak mempunyai kamera terbina dalam dan tidak menyokong kamera luaran. penutup…</string>
     <string name="dialog_camera_not_found_text">Kamera tidak ditemui</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">Anda tiada iklan.</string>
     <string name="donation_level_text">Tahap derma anda:</string>
     <string name="donation_purchase_info_loading_text">Maklumat membeli-belah masih belum dimuat naik. Adakah anda dalam talian dan log masuk ke akaun Google anda?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Alih keluar iklan selama-lamanya dengan derma sekali bagi sebarang jumlah. Anda juga boleh menderma sebarang jumlah bulanan untuk mengalih keluar iklan</string>
-    <string name="donation_subs_any_amount_text">Selain itu, pengiklanan akan dialih keluar sepenuhnya apabila anda melanggan sebarang jumlah.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Alih keluar iklan selama-lamanya dengan derma sekali bagi sebarang jumlah. Anda juga boleh menderma setiap bulan untuk mengalih keluar iklan</string>
+    <string name="donation_subs_any_amount_text">Pengiklanan dialih keluar sepenuhnya sementara langganan untuk sebarang amaun setiap bulan aktif.</string>
     <string name="donation_subs_manage_btn_text">Nyahlanggan</string>
+    <string name="donation_subs_no_free_trial_explanation_text">Aplikasi ini tidak menyediakan tempoh percubaan untuk langganan, kerana semua fungsi aplikasi sudah pun percuma, langganan hanya mengalih keluar pengiklanan</string>
+    <string name="donation_subs_one_text">Pengiklanan dialih keluar sepenuhnya semasa langganan aktif.</string>
     <string name="donation_subs_text">Menderma bulanan</string>
     <string name="format_altitude">Ketinggian</string>
     <string name="format_degrees">Koordinat</string>
@@ -56,6 +65,7 @@
     <string name="from">daripada</string>
     <string name="hour">jam</string>
     <string name="hours">Jam</string>
+    <string name="month">bulan</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Aplikasi ini tidak dikecualikan daripada pengoptimuman bateri. Jika kamera tidak berjalan di latar belakang atau sesuatu yang lain, kemudian tambahkan aplikasi ini pada pengecualian mod penjimatan kuasa.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Jika anda memasang semula aplikasi pada Android 11, maka fail lama mesti dipadamkan secara manual</string>
     <string name="msg_auto_recording_service_was_stopped">Anda telah menghentikan perkhidmatan latar belakang untuk memulakan rakaman video secara automatik. Buka aplikasi untuk melancarkannya semula.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Rakam audio daripada peranti Bluetooth</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Gunakan hanya dengan fon kepala Bluetooth. Jika anda menyambung ke unit kepala (radio kereta) melalui Bluetooth, maka atas sebab tertentu ini mungkin mencetuskan panggilan telefon ke nombor standard pada peranti ini secara automatik</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Jangan gunakan dengan unit kepala (radio kereta)!</string>
+    <string name="prefs_audio_codec_title">Codec audio</string>
     <string name="prefs_audio_priority_sum">Jika didayakan, aplikasi lain tidak akan dapat menggunakan mikrofon. Jika dilumpuhkan, aplikasi ini mungkin tidak dapat merakam audio apabila berbilang aplikasi berjalan menggunakan mikrofon (Android tidak selalu membenarkan penggunaan mikrofon serentak)</string>
     <string name="prefs_audio_priority_title">Utamakan audio kepada apl ini</string>
     <string name="prefs_audio_rate_text">Kekerapan pensampelan</string>
     <string name="prefs_audio_recording_text">Rakaman audio</string>
     <string name="prefs_audio_settings_sum_text">Kualiti, padam/hidup rakaman bunyi</string>
     <string name="prefs_audio_settings_text">Tetapan bunyi</string>
+    <string name="prefs_audio_source_camcorder_text">Rakaman audio daripada CAMCORDER mungkin tidak berfungsi pada sesetengah peranti, dalam kes ini cuba tukar kepada MIC</string>
+    <string name="prefs_audio_source_text">Sumber Audio</string>
     <string name="prefs_audio_stereo_text">Stereo</string>
     <string name="prefs_auto_start_app_launch_sum_text">Mulakan rakaman video secara automatik apabila apl dimulakan</string>
     <string name="prefs_auto_start_app_launch_text">Apabila memulakan aplikasi</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Jalankan apabila dipalamkan ke dalam bicu audio (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Berhenti apabila diputuskan sambungan daripada bicu audio (AUX)</string>
     <string name="prefs_battery_optimization_sum_text">Pengoptimuman bateri boleh menghalang apl daripada berfungsi dengan betul (contohnya, menggunakan kamera atau mengemas kini lokasi semasa merakam video di latar belakang). Klik di sini untuk melumpuhkannya untuk aplikasi ini sekarang</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">Pengoptimuman bateri mungkin menghalang aplikasi daripada berfungsi dengan betul (contohnya, menggunakan kamera dan mikrofon). Klik di sini untuk melumpuhkannya untuk aplikasi ini sekarang</string>
     <string name="prefs_battery_optimization_text">Pengoptimuman bateri</string>
     <string name="prefs_beep_each_start_recording_sum_text">Isyarat pada permulaan rakaman fail video seterusnya</string>
     <string name="prefs_beep_each_start_recording_text">Bip semasa merakam</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Landskap</string>
     <string name="prefs_orientation_landscape_reversed">Album terbalik</string>
     <string name="prefs_orientation_portrait">Potret</string>
+    <string name="prefs_orientation_sensor_automatic">Automatik</string>
     <string name="prefs_other_auto_deleting_sum_text">Padamkan video tertua secara automatik semasa merakam jika tidak ada ruang yang mencukupi untuk video baharu</string>
     <string name="prefs_other_auto_deleting_text">Rakaman gelung</string>
     <string name="prefs_other_date_time_text">tarikh dan masa</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Lokasi foto (folder /laluan)</string>
     <string name="prefs_other_path_text">Lokasi video (folder /laluan)</string>
     <string name="prefs_other_settings_sum_text">Lokasi video (simpan folder), tempoh video, rakaman gelung, G-sensor, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Lokasi rakaman video (folder untuk disimpan), tempoh video, rakaman gelung, saiz video maksimum</string>
     <string name="prefs_other_settings_text">Tetapan lain</string>
     <string name="prefs_other_show_address_text">Alamat lokasi semasa</string>
     <string name="prefs_other_show_altitude_text">Ketinggian di atas paras laut</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Apabila anda memulakan aplikasi, hidupkan /matikan pengecasan, but sistem</string>
     <string name="prefs_screen_autostart_text">Autostart rakaman</string>
     <string name="prefs_screen_ui_summary_text">Skrin tekan cepat /lama, skrin padam, alamat dan paparan kelajuan, tetingkap timbul, butang dan banyak lagi</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Pintasan untuk mula merakam, tekan cepat dan lama pada skrin, tetingkap pop timbul, getaran semasa merakam, pemberitahuan bunyi, getaran, butang pada skrin, mematikan skrin dan banyak lagi</string>
     <string name="prefs_screen_ui_title">Antara muka (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Menukar mod siang /malam kamera secara automatik pada masa tertentu</string>
     <string name="prefs_screen_video_day_night_mode_text">Tetapan Siang /Malam Auto</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">Menyekat video daripada ditulis ganti</string>
     <string name="prefs_show_overlay_btn_sum_text">Memaparkan tetingkap dengan butang kawalan di atas semua aplikasi</string>
     <string name="prefs_show_overlay_btn_text">Tunjukkan tingkap terapung</string>
+    <string name="prefs_show_overlay_on_recording_text">Tunjukkan tetingkap terapung apabila rakaman bermula</string>
     <string name="prefs_show_status_bar_text">Tunjukkan bar status sistem</string>
     <string name="prefs_show_take_photo_btn_text">Untuk membuat foto</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Tidak disokong oleh kamera semasa. Pengilang sering mengehadkan penggunaannya - ia hanya tersedia dalam aplikasi Kamera standard</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Tindanan sari kata di bahagian bawah video</string>
     <string name="prefs_subtitles_position_bottom_text">Sari kata di bahagian bawah</string>
     <string name="prefs_subtitles_settings_sum_text">Tindanan kapsyen video: Tarikh (masa), alamat lokasi, koordinat dan kelajuan</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Tindanan kapsyen pada video: tarikh (cap masa), teks tersuai</string>
     <string name="prefs_subtitles_settings_text">Tetapan sari kata</string>
     <string name="prefs_subtitles_size_text">Besarkan saiz teks</string>
     <string name="prefs_subtitles_speed_text">Kelajuan</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Laporkan pepijat, ranap sistem atau buat tawaran</string>
     <string name="prefs_support_text">Sokongan (maklum balas)</string>
     <string name="prefs_system_alert_window_sum_text">Benarkan apl ini muncul di atas semua apl lain. Ini diperlukan untuk memulakan /menghentikan rakaman video secara automatik atau untuk memaparkan tetingkap terapung</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Benarkan apl ini muncul di atas semua apl lain. Ini adalah perlu untuk memaparkan tetingkap terapung</string>
     <string name="prefs_system_alert_window_text">Resolusi di atas semua tingkap</string>
     <string name="prefs_theme_mode_dark">Tema gelap</string>
+    <string name="prefs_theme_mode_dynamic">Dinamik</string>
     <string name="prefs_theme_mode_light">Tema ringan</string>
     <string name="prefs_theme_mode_system_auto">Seperti dalam sistem (automatik)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Kembali ke skrin utama (rakaman) untuk menggunakan tetapan ini dan mulakan perkhidmatan penjejakan</string>
     <string name="prefs_toolbar_title_setting">tetapan</string>
     <string name="prefs_translate_sum_text">Bantu perbaiki atau betulkan terjemahan teks dalam bahasa anda</string>
     <string name="prefs_translate_text">Terjemahan Permohonan</string>
+    <string name="prefs_ui_app_icon_and_label_change">Tukar ikon dan nama aplikasi dalam sistem</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">Selepas perubahan, aplikasi mungkin ditutup, ikon lama akan dialih keluar pada skrin utama telefon (atau dalam senarai semua aplikasi), dan yang baharu akan muncul</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Tetapkan ikon dan nama pelancar</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Tukar ikon dan nama pemberitahuan</string>
+    <string name="prefs_ui_camera_preview_sum_text">Tunjukkan pratonton kamera pada skrin apl utama</string>
+    <string name="prefs_ui_camera_preview_text">Pratonton kamera</string>
     <string name="prefs_ui_click_none_text">Tiada apa yang perlu dilakukan</string>
     <string name="prefs_ui_click_start_stop_rec_text">Mula /hentikan rakaman</string>
     <string name="prefs_ui_click_text">Ketik pantas pada skrin</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Kadar bit (kualiti)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Mod Pemandangan Kawalan Kamera (Malam)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Mod Pemandangan Kawalan Kamera (Hari)</string>
+    <string name="prefs_video_codec_sum_text">Codec H.265 HEVC dan AV1 memberikan kualiti yang lebih baik pada kadar bit yang lebih rendah daripada H.264 AVC, jadi anda boleh menjimatkan ruang dengan mengurangkan kadar bit. Tetapi video mungkin tidak dimainkan dalam sesetengah pemain video</string>
+    <string name="prefs_video_codec_text">Codec video</string>
     <string name="prefs_video_control_scene_mode_beach_text">Pantai (cuaca cerah)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Keutamaan Umum /Muka</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (Julat Dinamik Tinggi)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Fokus kamera (malam)</string>
     <string name="prefs_video_focus_text">Fokus kamera (hari)</string>
     <string name="prefs_video_fps_range_text">Bingkai Sesaat (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Rakam dalam format HEVC (H.265) untuk menjimatkan ruang. Anda mungkin tidak dapat memainkan video sedemikian pada peranti atau aplikasi main balik video lain. Akan menetapkan semula resolusi dan kadar bit selepas perubahan</string>
-    <string name="prefs_video_hevc_text">Pengekodan video yang sangat cekap</string>
     <string name="prefs_video_orientation_text">Orientasi video dan telefon</string>
     <string name="prefs_video_resolution_text">Resolusi video</string>
     <string name="prefs_video_settings_sum_text">Resolusi, kadar bit, orientasi, fokus, kamera, mod malam</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Saiz lebih besar - lebih cepat habis bateri</string>
     <string name="prefs_video_space_unlimited">Tidak terhad</string>
     <string name="prefs_video_stabilization_text">Penstabilan video</string>
+    <string name="prefs_voice_recorder_app">Perakam Suara dalam Latar Belakang</string>
     <string name="prefs_warning_location_precise_sum_text">Ini adalah perlu untuk mendapatkan kelajuan berasaskan GPS yang paling tepat, serta alamat dan koordinat. Klik untuk menyerahkan</string>
     <string name="prefs_warning_location_precise_text">Kebenaran untuk lokasi yang tepat</string>
     <string name="prefs_warning_notifications_sum_text">Diperlukan untuk dapat memaparkan perkhidmatan rakaman latar belakang dan status pada panel pemberitahuan. Klik untuk menyerahkan</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">bersih</string>
     <string name="rec_off_text">Mati</string>
     <string name="rec_on_text">Incl.</string>
-    <string name="rec_service_msg">Privasi: Semua video yang anda rakam akan disimpan hanya pada peranti tempatan anda. Aplikasi ini tidak membuat sandaran video anda (tidak mempunyai sebarang sambungan ke pelayan)\n\nApl akan terus berjalan di latar belakang (perkhidmatan latar depan yang muncul dalam bar pemberitahuan) jika anda memulakan rakaman baharu dan kembali ke skrin utama, beralih kepada apl lain atau mengunci telefon anda untuk dapat meneruskan rakaman, atau jika anda menghidupkan fungsi untuk rakaman automatik (jika anda menutup perkhidmatan latar belakang, fungsi ini tidak akan berfungsi).</string>
+    <string name="rec_service_msg">Privasi: Semua video yang anda rakam akan disimpan hanya pada peranti tempatan anda. Aplikasi ini tidak membuat sandaran video anda (tidak mempunyai sebarang sambungan ke pelayan)\n\nApl akan terus berjalan di latar belakang (perkhidmatan latar depan yang muncul dalam bar pemberitahuan) semasa rakaman aktif, apabila anda kembali ke skrin utama, beralih ke aplikasi lain atau mengunci telefon anda untuk meneruskan rakaman dan apabila anda menghidupkan ciri untuk rakaman automatik (jika anda menutup perkhidmatan latar belakang, fungsi ini tidak akan berfungsi). Apl menggunakan Analitis Firebase untuk analitis tanpa nama asas (lihat pautan di bawah)</string>
+    <string name="recording_file_name_prefix">Awalan untuk nama fail video</string>
     <string name="recording_start_text">Mula merakam</string>
     <string name="recording_started_failed_text">Ralat memulakan rakaman</string>
     <string name="recording_started_with_audio_text">Rakaman video baharu dengan rakaman audio telah bermula</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">Rakaman…</string>
     <string name="recording_voice_started_text">Rakaman telah bermula</string>
     <string name="recording_voice_stopped_text">Rakaman dihentikan</string>
+    <string name="records_file_sorting_date">Tarikh</string>
+    <string name="records_file_sorting_duration">Tempoh</string>
+    <string name="records_file_sorting_name">Nama</string>
+    <string name="records_file_sorting_size">Saiz fail</string>
+    <string name="records_file_upload_drive">Simpan ke \"Google Drive\"</string>
     <string name="reset">pelepasan</string>
     <string name="storage_external_single">Kad MicroSD</string>
     <string name="storage_phone">Memori telefon</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Padam mod</string>
     <string name="videos_file_item_share">Berkongsi ini</string>
     <string name="videos_file_item_watch">Tonton</string>
+    <string name="videos_file_open_with">Buka dengan</string>
+    <string name="videos_file_select">Pilih untuk</string>
     <string name="videos_file_sort_asc">Isih Menaik</string>
     <string name="videos_file_sort_desc">Isih menurun</string>
     <string name="videos_file_was_locked_text">Fail video telah dialihkan ke folder yang dilindungi</string>

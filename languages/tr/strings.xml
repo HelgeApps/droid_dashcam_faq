@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">Kabul ediyorum</string>
     <string name="any_text">Herhangi </string>
+    <string name="app_alternative_name_audio">Ses</string>
+    <string name="app_alternative_name_battery">Pil Ayarları</string>
+    <string name="app_alternative_name_media">Medya</string>
+    <string name="app_alternative_name_media_player">Medya oynatıcı</string>
+    <string name="app_alternative_name_video">Video</string>
+    <string name="app_name_backgroundvideorecorder">Arka planda video kaydı</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - Sürüş Video Kaydı</string>
     <string name="camera">Kamera</string>
     <string name="camera_aperture">Diyafram</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">Kamera geçici olarak cihazınızda açılamıyor (sistem kamera hatası)</string>
     <string name="camera_support_error">Kamerayı kullanırken bir hata oluştu.</string>
     <string name="close">Kapat</string>
+    <string name="days">günler</string>
     <string name="default_text">Varsayılan</string>
     <string name="dialog_camera_not_found_msg_text">Bu cihazda yerleşik bir kamera yoktur ve harici kameraları desteklemez. Kapanıyor…</string>
     <string name="dialog_camera_not_found_text">Kamera bulunamadı</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">Reklamsız kullanabilirsiniz.</string>
     <string name="donation_level_text">Bağış seviyeniz:</string>
     <string name="donation_purchase_info_loading_text">Alışveriş bilgileri henüz yüklenmedi. Çevrimiçi misiniz ve Google hesabınızda oturum açtınız mı?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Herhangi bir miktarda tek seferlik bağışla reklamları sonsuza kadar kaldırın. Ayrıca reklamları kaldırmak için aylık olarak istediğiniz miktarda bağışta bulunabilirsiniz.</string>
-    <string name="donation_subs_any_amount_text">Ayrıca herhangi bir miktara abone olduğunuzda reklamlar tamamen kaldırılır.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Herhangi bir miktarda tek seferlik bağışla reklamları sonsuza kadar kaldırın. Ayrıca reklamları kaldırmak için aylık bağışta bulunabilirsiniz</string>
+    <string name="donation_subs_any_amount_text">Aylık herhangi bir tutardaki abonelik aktifken reklamlar tamamen kaldırılır.</string>
     <string name="donation_subs_manage_btn_text">Aboneliği iptal et</string>
+    <string name="donation_subs_no_free_trial_explanation_text">Uygulamanın tüm fonksiyonları zaten ücretsiz olduğundan, uygulama abonelikler için bir deneme süresi sağlamaz, abonelik yalnızca reklamları kaldırır</string>
+    <string name="donation_subs_one_text">Abonelik aktifken reklamlar tamamen kaldırılır.</string>
     <string name="donation_subs_text">Aylık bağış yapın</string>
     <string name="format_altitude">Rakım</string>
     <string name="format_degrees">Koordinatlar</string>
@@ -56,6 +65,7 @@
     <string name="from">from (\'den\'dan)</string>
     <string name="hour">saat</string>
     <string name="hours">saat</string>
+    <string name="month">ay</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Uygulama pil optimizasyonunun dışında tutulmaz. Kamera arka planda çalışmıyorsa veya başka bir şey varsa, bu uygulamayı güç tasarrufu modunun istisnalarına ekleyin.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Uygulamayı Android 11\'e yeniden yüklediyseniz, eski dosyalar elle olarak silinmelidir.</string>
     <string name="msg_auto_recording_service_was_stopped">Video kaydını otomatik olarak başlatmak için arka plan hizmetini durdurdunuz. Tekrar başlatmak için uygulamayı açın.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Bluetooth cihazından ses kaydetme</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Yalnızca Bluetooth kulaklıklarla kullanın. Ana üniteye (araba radyosu) Bluetooth aracılığıyla bağlanırsanız, bazı nedenlerden dolayı bu, bu cihazdaki standart numaraya otomatik olarak bir telefon aramasını tetikleyebilir.</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Ana ünite (araba radyosu) ile birlikte kullanmayın!</string>
+    <string name="prefs_audio_codec_title">Ses codec\'i</string>
     <string name="prefs_audio_priority_sum">Etkinleştirilirse, diğer uygulamalar mikrofonu kullanamaz. Devre dışı bırakılırsa bu uygulama, mikrofonu kullanarak birden çok uygulama çalışırken ses kaydı yapamayabilir (Android her zaman mikrofonun aynı anda kullanılmasına izin vermez)</string>
     <string name="prefs_audio_priority_title">Sesi bu uygulamaya öncelik verin</string>
     <string name="prefs_audio_rate_text">Örnekleme oranı</string>
     <string name="prefs_audio_recording_text">Ses kaydı</string>
     <string name="prefs_audio_settings_sum_text">Kaliteli, kapalı /açık ses kaydı</string>
     <string name="prefs_audio_settings_text">Ses ayarları</string>
+    <string name="prefs_audio_source_camcorder_text">CAMCORDER\'dan ses kaydı bazı cihazlarda çalışmayabilir, bu durumda MIC\'e geçmeyi deneyin</string>
+    <string name="prefs_audio_source_text">Ses kaynağı</string>
     <string name="prefs_audio_stereo_text">Stereo</string>
     <string name="prefs_auto_start_app_launch_sum_text">Uygulama başladığında video kaydını otomatik olarak başlat</string>
     <string name="prefs_auto_start_app_launch_text">Uygulama başlangıcında</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Ses jakına (AUX) takıldığında başlar</string>
     <string name="prefs_aux_auto_stop_text">Ses jakından (AUX) ayrıldığında dur</string>
     <string name="prefs_battery_optimization_sum_text">Pil optimizasyonu, uygulamanın düzgün çalışmasını engelleyebilir (örneğin, arka planda video kaydederken kamerayı kullanmak veya konumu güncellemek). Bu uygulama için şimdi devre dışı bırakmak için buraya tıklayın</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">Pil optimizasyonu, uygulamanın düzgün çalışmasını engelleyebilir (örneğin, kamera ve mikrofonun kullanılması). Bu uygulamayı şimdi devre dışı bırakmak için burayı tıklayın</string>
     <string name="prefs_battery_optimization_text">Pil optimizasyonu</string>
     <string name="prefs_beep_each_start_recording_sum_text">Sonraki video dosyasının kaydının başlangıcındaki sinyal</string>
     <string name="prefs_beep_each_start_recording_text">Kayıt sırasında bip sesi</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Manzara</string>
     <string name="prefs_orientation_landscape_reversed">Ters manzara</string>
     <string name="prefs_orientation_portrait">Portre</string>
+    <string name="prefs_orientation_sensor_automatic">Otomatik</string>
     <string name="prefs_other_auto_deleting_sum_text">Yeni videolar için yeterli alan yoksa kayıt sırasında en eski videoları otomatik olarak sil</string>
     <string name="prefs_other_auto_deleting_text">Döngü kaydı</string>
     <string name="prefs_other_date_time_text">tarih ve saat</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Fotoğraf konumu (Klasör / Yol)</string>
     <string name="prefs_other_path_text">Video konumu (Klasör / Yol)</string>
     <string name="prefs_other_settings_sum_text">Kayıt konumu (Klasör), Video Süresi, Döngü Kaydı, G-Sensörü, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Video kayıtlarının konumu (kaydedilecek klasör), video süresi, döngü kaydı, maksimum video boyutu</string>
     <string name="prefs_other_settings_text">Diğer Ayarlar</string>
     <string name="prefs_other_show_address_text">Geçerli Konum Adresi</string>
     <string name="prefs_other_show_altitude_text">Rakım</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Uygulamayı Başlattığınızda, Şarj Açık/Kapalı, Önyüklemede</string>
     <string name="prefs_screen_autostart_text">Kaydı Otomatik Başlatma</string>
     <string name="prefs_screen_ui_summary_text">Kısa/Uzun dokunma, Ekranı Açık Tutma, Adres ve Hızı Görüntüleme, Yüzen Pencere, Düğmeler vb.</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Kaydı başlatmak için kısayol, ekrana hızlı ve uzun basma, açılır pencere, kayıt sırasında titreşim, sesli bildirim, titreşim, ekrandaki düğmeler, ekranı kapatma ve daha fazlası</string>
     <string name="prefs_screen_ui_title">Arayüz (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Kamera gündüz/gece modlarını belirli bir zamanda (gün doğumu ve gün batımı) otomatik olarak değiştirir</string>
     <string name="prefs_screen_video_day_night_mode_text">Otomatik Gündüz/Gece Ayarları</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">Videoların üzerine yazılmasını engelleme (kaydet)</string>
     <string name="prefs_show_overlay_btn_sum_text">Tüm uygulamaların üzerinde kontrol düğmeleri olan bir pencere görüntüler</string>
     <string name="prefs_show_overlay_btn_text">Yüzen pencereyi göster</string>
+    <string name="prefs_show_overlay_on_recording_text">Kayıt başladığında kayan pencereyi göster</string>
     <string name="prefs_show_status_bar_text">Sistem durum çubuğunu göster</string>
     <string name="prefs_show_take_photo_btn_text">Fotoğraf çek</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Mevcut kamera tarafından desteklenmiyor. Üreticiler genellikle kullanımını kısıtlar - yalnızca standart Kamera uygulamasında bulunur</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Altyazıları videonun altına yerleştirin</string>
     <string name="prefs_subtitles_position_bottom_text">Altyazılar en altta</string>
     <string name="prefs_subtitles_settings_sum_text">Video Üzerine Yer Paylaşımlı Altyazılar: Tarih (Zaman Damgası), Konum Adresi, Koordinatlar ve Hız</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Videolara altyazı ekleme: tarih (zaman damgası), özel metin</string>
     <string name="prefs_subtitles_settings_text">Altyazı Ayarları</string>
     <string name="prefs_subtitles_size_text">Metin Boyutunu Büyüt</string>
     <string name="prefs_subtitles_speed_text">Hız</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Hata, çökme hakkında rapor verin veya öneride bulunun</string>
     <string name="prefs_support_text">Destek (Geri Bildirim)</string>
     <string name="prefs_system_alert_window_sum_text">Bu uygulamanın diğer tüm uygulamaların üzerinde görünmesine izin verin. Bu, video kaydını otomatik olarak başlatmak/durdurmak veya yüzen pencerede görüntülemek için gereklidir.</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Bu uygulamanın diğer tüm uygulamaların üstünde görünmesine izin verin. Kayan bir pencere görüntülemek için bu gereklidir</string>
     <string name="prefs_system_alert_window_text">Tüm pencerelerin üstünde görünme</string>
     <string name="prefs_theme_mode_dark">Koyu tema</string>
+    <string name="prefs_theme_mode_dynamic">Dinamik</string>
     <string name="prefs_theme_mode_light">Işık teması</string>
     <string name="prefs_theme_mode_system_auto">Sistemde olduğu gibi (otomatik)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Bu ayarı uygulamak için ana (kayıt) ekranına dönün (izleyici hizmetini başlatmak için)</string>
     <string name="prefs_toolbar_title_setting">Ayarlar</string>
     <string name="prefs_translate_sum_text">Kendi dilinizdeki metnin çevirisini iyileştirmeye veya düzeltmeye yardımcı olun</string>
     <string name="prefs_translate_text">Çeviri Yardımı</string>
+    <string name="prefs_ui_app_icon_and_label_change">Sistemdeki uygulamanın simgesini ve adını değiştirme</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">Değişiklikten sonra uygulama kapanabilir, telefonun ana ekranındaki (veya tüm uygulamalar listesindeki) eski simge kaldırılacak ve yeni bir simge görünecektir.</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Başlatıcının simgesini ve adını ayarlayın</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Bildirim simgesini ve adını değiştirme</string>
+    <string name="prefs_ui_camera_preview_sum_text">Ana uygulama ekranında kamera önizlemesini göster</string>
+    <string name="prefs_ui_camera_preview_text">Kamera önizlemesi</string>
     <string name="prefs_ui_click_none_text">Yapacak bir şey yok</string>
     <string name="prefs_ui_click_start_stop_rec_text">Kaydı Başlat/Durdur</string>
     <string name="prefs_ui_click_text">Ekrana Hızlı Dokunun</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Kayıt bit hızı (kalite)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kamera Kontrolü Sahne Modu (Gece)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kamera Kontrollü Sahne Modu (Gündüz)</string>
+    <string name="prefs_video_codec_sum_text">H.265 HEVC ve AV1 codec\'leri, H.264 AVC\'ye göre daha düşük bit hızlarında daha iyi kalite sağlar, böylece bit hızını azaltarak yerden tasarruf edebilirsiniz. Ancak bazı video oynatıcılarda videolar oynatılamayabilir</string>
+    <string name="prefs_video_codec_text">Video codec\'i</string>
     <string name="prefs_video_control_scene_mode_beach_text">Sahil (parlak hava)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Genel/Yüz Önceliği</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (Yüksek Dinamik Aralık)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Kamera odağı (gece)</string>
     <string name="prefs_video_focus_text">Kamera odağı (gün)</string>
     <string name="prefs_video_fps_range_text">Saniyedeki Kare Sayısı (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Yer kazanmak için HEVC (H.265) formatında kaydedin. Bu tür videoları diğer video oynatma cihazlarında veya uygulamalarında oynatamayabilirsiniz. Değişiklikten sonra çözünürlüğü ve bit hızını sıfırlar</string>
-    <string name="prefs_video_hevc_text">Yüksek verimli video kodlama</string>
     <string name="prefs_video_orientation_text">Video ve telefon yönü</string>
     <string name="prefs_video_resolution_text">Video çözünürlüğü</string>
     <string name="prefs_video_settings_sum_text">Çözünürlük, Bit Hızı, Yön, Odak, Kamera, Gece modu</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Daha büyük boyut - daha hızlı pil tüketimi</string>
     <string name="prefs_video_space_unlimited">Sınırsız</string>
     <string name="prefs_video_stabilization_text">Video sabitleme</string>
+    <string name="prefs_voice_recorder_app">Arka Planda Ses Kaydedici</string>
     <string name="prefs_warning_location_precise_sum_text">Bu, en doğru GPS tabanlı hızın yanı sıra adres ve koordinatları elde etmek için gereklidir. göndermek için tıklayın</string>
     <string name="prefs_warning_location_precise_text">Tam konum için izin</string>
     <string name="prefs_warning_notifications_sum_text">Arka planda kayıt servisini ve durumlarını bildirim panelinde görüntüleyebilmek için gereklidir. göndermek için tıklayın</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">Ağ</string>
     <string name="rec_off_text">Kapalı</string>
     <string name="rec_on_text">Açık</string>
-    <string name="rec_service_msg">Gizlilik: Kaydettiğiniz tüm videolar yalnızca yerel cihazınıza kaydedilecektir. Uygulama videolarınızı yedeklemez (sunucularla herhangi bir bağlantısı yoktur)\n\nYeni bir kayıt başlatıp ana ekrana döndüğünüzde, başka bir uygulamaya geçtiğinizde veya kayda devam edebilmek için telefonunuzu kilitlediğinizde veya otomatik kayıt işlevlerini açarsınız (arka plan hizmetini kapatırsanız bu işlevler çalışmaz).</string>
+    <string name="rec_service_msg">Gizlilik: Kaydettiğiniz tüm videolar yalnızca yerel cihazınıza kaydedilecektir. Uygulama videolarınızı yedeklemez (sunucularla herhangi bir bağlantısı yoktur)\n\nUygulama, kayıt etkinken, ana ekrana döndüğünüzde, başka bir uygulamaya geçtiğinizde veya kayda devam etmek için telefonunuzu kilitlediğinizde ve uygulamayı açtığınızda arka planda (bildirim çubuğunda görünen ön plan hizmeti) çalışmaya devam edecektir. otomatik kayıt özellikleri (arka plan hizmetini kapatırsanız bu işlevler çalışmaz). Uygulama, temel anonim analizler için Firebase Analytics\'i kullanıyor (aşağıdaki bağlantıya bakın)</string>
+    <string name="recording_file_name_prefix">Video dosyası adları için önek</string>
     <string name="recording_start_text">Kayda başla</string>
     <string name="recording_started_failed_text">Kayıt başlatılırken hata oluştu</string>
     <string name="recording_started_with_audio_text">Ses kaydı ile yeni bir video kaydı başladı</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">Kayıt…</string>
     <string name="recording_voice_started_text">Kayıt başladı</string>
     <string name="recording_voice_stopped_text">Kayıt durduruldu</string>
+    <string name="records_file_sorting_date">Tarih</string>
+    <string name="records_file_sorting_duration">Süre</string>
+    <string name="records_file_sorting_name">İsim</string>
+    <string name="records_file_sorting_size">Dosya boyutu</string>
+    <string name="records_file_upload_drive">\"Google Drive\"a kaydet</string>
     <string name="reset">Sıfırla</string>
     <string name="storage_external_single">Mikro SD kart</string>
     <string name="storage_phone">Telefon hafızası</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Silme modu</string>
     <string name="videos_file_item_share">Paylaş</string>
     <string name="videos_file_item_watch">İzle</string>
+    <string name="videos_file_open_with">Bununla aç</string>
+    <string name="videos_file_select">Şunun için seçin:</string>
     <string name="videos_file_sort_asc">Artan Sıralama</string>
     <string name="videos_file_sort_desc">Azalan Sıralama</string>
     <string name="videos_file_was_locked_text">Video dosyası korumalı bir klasöre taşındı</string>

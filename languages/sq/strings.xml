@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">Unë pranoj</string>
     <string name="any_text">Çdo</string>
+    <string name="app_alternative_name_audio">Audio</string>
+    <string name="app_alternative_name_battery">Cilësimet e baterisë</string>
+    <string name="app_alternative_name_media">Media</string>
+    <string name="app_alternative_name_media_player">Media Player</string>
+    <string name="app_alternative_name_video">Video</string>
+    <string name="app_name_backgroundvideorecorder">Regjistrimi i videos në sfond</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - Driving DVR</string>
     <string name="camera">Kamera</string>
     <string name="camera_aperture">Diafragma</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">Kamera është përkohësisht (ishte) e padisponueshme për t\'u hapur në pajisjen tuaj (gabim i sistemit të kamerës)</string>
     <string name="camera_support_error">Ka ndodhur një gabim gjatë përdorimit të kamerës.</string>
     <string name="close">Mbylle</string>
+    <string name="days">ditë</string>
     <string name="default_text">E paracaktuar</string>
     <string name="dialog_camera_not_found_msg_text">Kjo pajisje nuk ka një kamerë të integruar dhe nuk mbështet kamera të jashtme. Duke u mbyllur…</string>
     <string name="dialog_camera_not_found_text">Kamera nuk u gjet</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">Nuk keni reklama.</string>
     <string name="donation_level_text">Niveli i dhurimit tuaj:</string>
     <string name="donation_purchase_info_loading_text">Informacioni i blerjeve nuk është ngarkuar ende. Jeni në linjë dhe jeni identifikuar në llogarinë tuaj Google?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Hiqni reklamat përgjithmonë me një donacion një herë të çdo shume. Ju gjithashtu mund të dhuroni çdo shumë mujore për të hequr reklamat</string>
-    <string name="donation_subs_any_amount_text">Gjithashtu, reklamimi hiqet plotësisht kur abonoheni për çdo shumë.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Hiqni reklamat përgjithmonë me një donacion një herë të çdo shume. Ju gjithashtu mund të dhuroni çdo muaj për të hequr reklamat</string>
+    <string name="donation_subs_any_amount_text">Reklamimi hiqet plotësisht ndërsa një abonim për çdo shumë në muaj është aktiv.</string>
     <string name="donation_subs_manage_btn_text">Çregjistrohu</string>
+    <string name="donation_subs_no_free_trial_explanation_text">Aplikacioni nuk ofron një periudhë prove për abonimet, pasi të gjitha funksionet e aplikacionit janë tashmë falas, abonimi heq vetëm reklamat</string>
+    <string name="donation_subs_one_text">Reklamimi hiqet plotësisht ndërsa abonimi është aktiv.</string>
     <string name="donation_subs_text">Dhuroni çdo muaj</string>
     <string name="format_altitude">Lartësia</string>
     <string name="format_degrees">Koordinatat</string>
@@ -56,6 +65,7 @@
     <string name="from">nga</string>
     <string name="hour">orë</string>
     <string name="hours">orë</string>
+    <string name="month">muaj</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Aplikacioni nuk përjashtohet nga optimizimi i baterisë. Nëse kamera nuk funksionon në sfond ose diçka tjetër, atëherë shtoni këtë aplikacion në përjashtimet e modalitetit të kursimit të energjisë.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Nëse e keni riinstaluar aplikacionin në Android 11, atëherë skedarët e vjetër duhet të fshihen manualisht</string>
     <string name="msg_auto_recording_service_was_stopped">Ju keni ndaluar shërbimin e sfondit për fillimin automatik të regjistrimit të videos. Hapni aplikacionin për ta nisur përsëri.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Regjistroni audio nga një pajisje Bluetooth</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Përdoreni vetëm me kufje Bluetooth. Nëse lidheni me njësinë kryesore (radio makinën) përmes Bluetooth, atëherë për ndonjë arsye kjo mund të shkaktojë automatikisht një telefonatë në numrin standard në këtë pajisje</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Mos e përdorni me njësinë kryesore (radio makinë)!</string>
+    <string name="prefs_audio_codec_title">Kodiku i audios</string>
     <string name="prefs_audio_priority_sum">Nëse aktivizohet, aplikacionet e tjera nuk do të mund të përdorin mikrofonin. Nëse është i çaktivizuar, ky aplikacion mund të mos jetë në gjendje të regjistrojë audio kur shumë aplikacione janë duke përdorur mikrofonin (Android nuk lejon gjithmonë përdorimin e njëkohshëm të mikrofonit)</string>
     <string name="prefs_audio_priority_title">Jepi përparësi audios në këtë aplikacion</string>
     <string name="prefs_audio_rate_text">Frekuenca e marrjes së mostrave</string>
     <string name="prefs_audio_recording_text">Regjistrimi audio</string>
     <string name="prefs_audio_settings_sum_text">Regjistrimi cilësor, i çaktivizuar /aktiv</string>
     <string name="prefs_audio_settings_text">Cilësimet e zërit</string>
+    <string name="prefs_audio_source_camcorder_text">Regjistrimi audio nga CAMCORDER mund të mos funksionojë në disa pajisje, në këtë rast provo të ndryshosh në MIC</string>
+    <string name="prefs_audio_source_text">Burimi i audios</string>
     <string name="prefs_audio_stereo_text">Stereo</string>
     <string name="prefs_auto_start_app_launch_sum_text">Filloni regjistrimin e videos automatikisht kur të fillojë aplikacioni</string>
     <string name="prefs_auto_start_app_launch_text">Kur filloni aplikacionin</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Punoni kur lidhet në folenë e audios (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Ndalo kur shkëputet nga foleja e audios (AUX)</string>
     <string name="prefs_battery_optimization_sum_text">Optimizimi i baterisë mund të parandalojë që aplikacioni të funksionojë siç duhet (për shembull, përdorimi i kamerës ose përditësimi i vendndodhjes gjatë regjistrimit të një videoje në sfond). Kliko këtu për ta çaktivizuar atë për këtë aplikacion tani</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">Optimizimi i baterisë mund të parandalojë funksionimin e duhur të aplikacionit (për shembull, duke përdorur kamerën dhe mikrofonin). Klikoni këtu për ta çaktivizuar atë për këtë aplikacion tani</string>
     <string name="prefs_battery_optimization_text">Optimizimi i baterisë</string>
     <string name="prefs_beep_each_start_recording_sum_text">Sinjalizoni në fillim të regjistrimit të skedarit të ardhshëm video</string>
     <string name="prefs_beep_each_start_recording_text">Bip gjatë regjistrimit</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Peizazhi</string>
     <string name="prefs_orientation_landscape_reversed">Albumi mbrapa</string>
     <string name="prefs_orientation_portrait">Portret</string>
+    <string name="prefs_orientation_sensor_automatic">Automatik</string>
     <string name="prefs_other_auto_deleting_sum_text">Fshini automatikisht videot më të vjetra gjatë regjistrimit nëse nuk ka hapësirë ​​të mjaftueshme për video të reja</string>
     <string name="prefs_other_auto_deleting_text">Regjistrimi në qark</string>
     <string name="prefs_other_date_time_text">Data dhe ora</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Vendndodhja e fotografisë (dosja /shtegu)</string>
     <string name="prefs_other_path_text">Vendndodhja e videos (dosja /shtegu)</string>
     <string name="prefs_other_settings_sum_text">Vendndodhja e videos (ruajtja e dosjes), kohëzgjatja e videos, regjistrimi i ciklit, sensori G, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Vendndodhja e regjistrimeve video (dosja për t\'u ruajtur), kohëzgjatja e videos, regjistrimi i ciklit, madhësia maksimale e videos</string>
     <string name="prefs_other_settings_text">Cilësimet e tjera</string>
     <string name="prefs_other_show_address_text">Adresa e vendndodhjes aktuale</string>
     <string name="prefs_other_show_altitude_text">Lartësia mbi nivelin e detit</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Kur filloni aplikacionin, aktivizoni /çaktivizoni karikimin, nisni sistemin</string>
     <string name="prefs_screen_autostart_text">Fillimi automatik i regjistrimit</string>
     <string name="prefs_screen_ui_summary_text">Ekrani me shtypje të shpejtë/gjatë, ekrani fikur, shfaqja e adresës dhe shpejtësisë, dritarja kërcyese, butonat dhe më shumë</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Shkurtorja për të filluar regjistrimin, shtypja e shpejtë dhe e gjatë në ekran, dritarja kërcyese, dridhja gjatë regjistrimit, njoftimi i zërit, dridhja, butonat në ekran, fikja e ekranit etj.</string>
     <string name="prefs_screen_ui_title">Ndërfaqja (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Ndërron automatikisht modalitetet e kamerës ditën/natën në kohë të caktuara</string>
     <string name="prefs_screen_video_day_night_mode_text">Cilësimet automatike të ditës /natës</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">Bllokimi i videove nga mbishkrimi</string>
     <string name="prefs_show_overlay_btn_sum_text">Shfaq një dritare me butona kontrolli në krye të të gjitha aplikacioneve</string>
     <string name="prefs_show_overlay_btn_text">Shfaq dritaren lundruese</string>
+    <string name="prefs_show_overlay_on_recording_text">Shfaq dritaren lundruese kur fillon regjistrimi</string>
     <string name="prefs_show_status_bar_text">Shfaq shiritin e statusit të sistemit</string>
     <string name="prefs_show_take_photo_btn_text">Për të bërë një foto</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Nuk mbështetet nga kamera aktuale. Prodhuesit shpesh e kufizojnë përdorimin e tij - është i disponueshëm vetëm në aplikacionin standard të Kamera</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Mbivendosni titrat në fund të videos</string>
     <string name="prefs_subtitles_position_bottom_text">Titrat në fund</string>
     <string name="prefs_subtitles_settings_sum_text">Mbivendosja e titrave të videos: Data (ora), adresa e vendndodhjes, koordinatat dhe shpejtësia</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Mbivendosja e titrave në video: data (vula e kohës), teksti i personalizuar</string>
     <string name="prefs_subtitles_settings_text">Cilësimet e titrave</string>
     <string name="prefs_subtitles_size_text">Rritni madhësinë e tekstit</string>
     <string name="prefs_subtitles_speed_text">Shpejtësia</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Raportoni një defekt, përplasje ose bëni një ofertë</string>
     <string name="prefs_support_text">Mbështetje (feedback)</string>
     <string name="prefs_system_alert_window_sum_text">Lejo që ky aplikacion të shfaqet në krye të të gjitha aplikacioneve të tjera. Kjo është e nevojshme për të filluar/ndaluar automatikisht regjistrimin e videos ose për të shfaqur një dritare lundruese</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Lejo që ky aplikacion të shfaqet në krye të të gjitha aplikacioneve të tjera. Kjo është e nevojshme për të shfaqur një dritare lundruese</string>
     <string name="prefs_system_alert_window_text">Rezolucioni në krye të të gjitha dritareve</string>
     <string name="prefs_theme_mode_dark">Tema e errët</string>
+    <string name="prefs_theme_mode_dynamic">Dinamik</string>
     <string name="prefs_theme_mode_light">Tema e lehtë</string>
     <string name="prefs_theme_mode_system_auto">Si në sistem (automatik)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Kthehuni në ekranin bazë (regjistrimet) për të aplikuar këtë cilësim dhe për të nisur shërbimin e gjurmimit</string>
     <string name="prefs_toolbar_title_setting">Cilësimet</string>
     <string name="prefs_translate_sum_text">Ndihmoni në përmirësimin ose rregullimin e përkthimit të tekstit në gjuhën tuaj</string>
     <string name="prefs_translate_text">Përkthimi i aplikacionit</string>
+    <string name="prefs_ui_app_icon_and_label_change">Ndryshoni ikonën dhe emrin e aplikacionit në sistem</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">Pas ndryshimit, aplikacioni mund të mbyllet, ikona e vjetër do të hiqet në ekranin kryesor të telefonit (ose në listën e të gjitha aplikacioneve) dhe do të shfaqet një e re.</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Vendosni ikonën dhe emrin e lëshuesit</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Ndryshoni ikonën dhe emrin e njoftimit</string>
+    <string name="prefs_ui_camera_preview_sum_text">Shfaq pamjen paraprake të kamerës në ekranin kryesor të aplikacionit</string>
+    <string name="prefs_ui_camera_preview_text">Pamja paraprake e kamerës</string>
     <string name="prefs_ui_click_none_text">Asgje per te bere</string>
     <string name="prefs_ui_click_start_stop_rec_text">Filloni /ndaloni regjistrimin</string>
     <string name="prefs_ui_click_text">Trokitni shpejt në ekran</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Shpejtësia e biteve (cilësia)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Modaliteti i skenës së kontrollit të kamerës (natë)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Modaliteti i skenës së kontrollit të kamerës (ditë)</string>
+    <string name="prefs_video_codec_sum_text">Kodekët H.265 HEVC dhe AV1 ofrojnë cilësi më të mirë me shpejtësi më të ulët se H.264 AVC, kështu që mund të kurseni hapësirë ​​duke ulur shpejtësinë e biteve. Por videot mund të mos luhen në disa luajtës video</string>
+    <string name="prefs_video_codec_text">Kodeku i videos</string>
     <string name="prefs_video_control_scene_mode_beach_text">Plazhi (mot i ndritshëm)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Prioriteti i Përgjithshëm /Fytyra</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (gamë e lartë dinamike)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Fokusi i kamerës (natë)</string>
     <string name="prefs_video_focus_text">Fokusi i kamerës (ditë)</string>
     <string name="prefs_video_fps_range_text">Korniza për sekondë (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Regjistroni në formatin HEVC (H.265) për të kursyer hapësirë. Ju mund të mos jeni në gjendje të luani video të tilla në pajisje ose aplikacione të tjera për riprodhimin e videos. Do të rivendosë rezolucionin dhe shpejtësinë e biteve pas ndryshimit</string>
-    <string name="prefs_video_hevc_text">Kodim video shumë efikas</string>
     <string name="prefs_video_orientation_text">Orientimi i videos dhe telefonit</string>
     <string name="prefs_video_resolution_text">Rezolucioni i videos</string>
     <string name="prefs_video_settings_sum_text">Rezolucioni, shpejtësia e biteve, orientimi, fokusi, kamera, modaliteti i natës</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Madhësia më e madhe - shkarkimi më i shpejtë i baterisë</string>
     <string name="prefs_video_space_unlimited">e pakufizuar</string>
     <string name="prefs_video_stabilization_text">Stabilizimi i videos</string>
+    <string name="prefs_voice_recorder_app">Regjistruesi i zërit në sfond</string>
     <string name="prefs_warning_location_precise_sum_text">Kjo është e nevojshme për të marrë shpejtësinë më të saktë të bazuar në GPS, si dhe adresën dhe koordinatat. Kliko për të dorëzuar</string>
     <string name="prefs_warning_location_precise_text">Leje për vendndodhjen e saktë</string>
     <string name="prefs_warning_notifications_sum_text">Kërkohet për të qenë në gjendje të shfaqni shërbimin e regjistrimit të sfondit dhe statuset në panelin e njoftimeve. Kliko për të dorëzuar</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">Neto</string>
     <string name="rec_off_text">Joaktiv</string>
     <string name="rec_on_text">Përfshirë</string>
-    <string name="rec_service_msg">Privatësia: Të gjitha videot që regjistroni do të ruhen vetëm në pajisjen tuaj lokale. Aplikacioni nuk rezervon videot tuaja (nuk ka asnjë lidhje me serverët)\n\nAplikacioni do të vazhdojë të funksionojë në sfond (shërbimi në plan të parë që shfaqet në shiritin e njoftimeve) nëse filloni një regjistrim të ri dhe ktheheni në ekranin bazë, kaloni në një aplikacion tjetër ose bllokoni telefonin tuaj për të vazhduar regjistrimin, ose nëse aktivizoni funksionet për regjistrim automatik (nëse mbyllni shërbimin e sfondit, këto funksione nuk do të funksionojnë).</string>
+    <string name="rec_service_msg">Privatësia: Të gjitha videot që regjistroni do të ruhen vetëm në pajisjen tuaj lokale. Aplikacioni nuk rezervon videot tuaja (nuk ka asnjë lidhje me serverët)\n\nAplikacioni do të vazhdojë të funksionojë në sfond (shërbimi në plan të parë që shfaqet në shiritin e njoftimeve) ndërsa regjistrimi është aktiv, kur ktheheni në ekranin bazë, kaloni në një aplikacion tjetër ose kyçni telefonin tuaj për të vazhduar regjistrimin dhe kur aktivizoni veçoritë për regjistrimin automatik (nëse mbyllni shërbimin e sfondit, këto funksione nuk do të funksionojnë). Aplikacioni përdor Firebase Analytics për analitikë anonime bazë (shih lidhjen më poshtë)</string>
+    <string name="recording_file_name_prefix">Parashtesa për emrat e skedarëve video</string>
     <string name="recording_start_text">Filloni regjistrimin</string>
     <string name="recording_started_failed_text">Gabim në fillimin e regjistrimit</string>
     <string name="recording_started_with_audio_text">Një video incizim i ri me regjistrim audio ka filluar</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">Po regjistron…</string>
     <string name="recording_voice_started_text">Regjistrimi ka filluar</string>
     <string name="recording_voice_stopped_text">Regjistrimi u ndal</string>
+    <string name="records_file_sorting_date">Data</string>
+    <string name="records_file_sorting_duration">Kohëzgjatja</string>
+    <string name="records_file_sorting_name">Emri</string>
+    <string name="records_file_sorting_size">Madhësia e skedarit</string>
+    <string name="records_file_upload_drive">Ruaj në \"Google Drive\"</string>
     <string name="reset">shkarkimi</string>
     <string name="storage_external_single">Kartë MicroSD</string>
     <string name="storage_phone">Kujtesa e telefonit</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Modaliteti i fshirjes</string>
     <string name="videos_file_item_share">Shperndaje kete</string>
     <string name="videos_file_item_watch">Shikoni</string>
+    <string name="videos_file_open_with">Hap me</string>
+    <string name="videos_file_select">Zgjidhni për</string>
     <string name="videos_file_sort_asc">Rendit në rritje</string>
     <string name="videos_file_sort_desc">Rendit në zbritje</string>
     <string name="videos_file_was_locked_text">Skedari i videos është zhvendosur në një dosje të mbrojtur</string>

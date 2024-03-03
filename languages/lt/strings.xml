@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">Aš priimu</string>
     <string name="any_text">Bet koks</string>
+    <string name="app_alternative_name_audio">Garsas</string>
+    <string name="app_alternative_name_battery">Akumuliatoriaus nustatymai</string>
+    <string name="app_alternative_name_media">Žiniasklaida</string>
+    <string name="app_alternative_name_media_player">Grotuvas</string>
+    <string name="app_alternative_name_video">Vaizdo įrašas</string>
+    <string name="app_name_backgroundvideorecorder">Fono vaizdo įrašymas</string>
     <string name="app_name_droid_dashcam">Droid Dashcam – vairavimo DVR</string>
     <string name="camera">Fotoaparatas</string>
     <string name="camera_aperture">Diafragma</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">Fotoaparato laikinai (buvo) negalima atidaryti jūsų įrenginyje (kameros sistemos klaida)</string>
     <string name="camera_support_error">Naudojant fotoaparatą įvyko klaida.</string>
     <string name="close">Uždaryti</string>
+    <string name="days">dienų</string>
     <string name="default_text">Numatytas</string>
     <string name="dialog_camera_not_found_msg_text">Šis įrenginys neturi integruotos kameros ir nepalaiko išorinių kamerų. Uždarymas…</string>
     <string name="dialog_camera_not_found_text">Kamera nerasta</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">Neturite skelbimų.</string>
     <string name="donation_level_text">Jūsų aukos lygis:</string>
     <string name="donation_purchase_info_loading_text">Apsipirkimo informacija dar neįkelta. Ar esate prisijungę ir esate prisijungę prie „Google“ paskyros?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Visam laikui pašalinkite skelbimus, paaukodami vienkartinę bet kokią sumą. Taip pat galite kas mėnesį paaukoti bet kokią sumą, kad pašalintumėte skelbimus</string>
-    <string name="donation_subs_any_amount_text">Be to, reklama visiškai pašalinama, kai užsiprenumeruojate bet kokią sumą.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Visam laikui pašalinkite skelbimus, paaukodami vienkartinę bet kokią sumą. Taip pat galite kas mėnesį paaukoti skelbimams pašalinti</string>
+    <string name="donation_subs_any_amount_text">Reklama visiškai pašalinama, kol yra aktyvi prenumerata bet kokia suma per mėnesį.</string>
     <string name="donation_subs_manage_btn_text">Atsisakyti prenumeratos</string>
+    <string name="donation_subs_no_free_trial_explanation_text">Programa nenumato prenumeratos bandomojo laikotarpio, nes visos programos funkcijos jau yra nemokamos, prenumerata pašalina tik reklamą</string>
+    <string name="donation_subs_one_text">Kol prenumerata aktyvi, reklama visiškai pašalinama.</string>
     <string name="donation_subs_text">Aukokite kas mėnesį</string>
     <string name="format_altitude">Aukštis</string>
     <string name="format_degrees">Koordinatės</string>
@@ -56,6 +65,7 @@
     <string name="from">iš</string>
     <string name="hour">valandą</string>
     <string name="hours">valandų</string>
+    <string name="month">mėnuo</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Programa nėra pašalinta iš akumuliatoriaus optimizavimo. Jei fotoaparatas neveikia fone ar dar kas nors, pridėkite šią programą prie energijos taupymo režimo išimčių.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Jei iš naujo įdiegėte programą „Android 11“, senus failus reikia ištrinti rankiniu būdu</string>
     <string name="msg_auto_recording_service_was_stopped">Sustabdėte foninę paslaugą automatiškai pradėti vaizdo įrašymą. Atidarykite programą, kad ją paleistumėte dar kartą.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Įrašykite garsą iš „Bluetooth“ įrenginio</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Naudokite tik su Bluetooth ausinėmis. Jei prie galvos įrenginio (automobilinio radijo) prisijungiate per „Bluetooth“, dėl kokių nors priežasčių tai gali automatiškai suaktyvinti telefono skambutį standartiniu šio įrenginio numeriu</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Nenaudokite su galvos bloku (automobiliniu radiju)!</string>
+    <string name="prefs_audio_codec_title">Garso kodekas</string>
     <string name="prefs_audio_priority_sum">Jei įjungta, kitos programos negalės naudoti mikrofono. Jei išjungta, ši programa gali negalėti įrašyti garso, kai naudojant mikrofoną veikia kelios programos („Android“ ne visada leidžia vienu metu naudoti mikrofoną)</string>
     <string name="prefs_audio_priority_title">Suteikite pirmenybę garsui šiai programai</string>
     <string name="prefs_audio_rate_text">Mėginių ėmimo dažnis</string>
     <string name="prefs_audio_recording_text">Garso įrašymas</string>
     <string name="prefs_audio_settings_sum_text">Kokybiškas, išjungtas/įjungtas garso įrašymas</string>
     <string name="prefs_audio_settings_text">Garso nustatymai</string>
+    <string name="prefs_audio_source_camcorder_text">Garso įrašymas iš CAMCORDER gali neveikti kai kuriuose įrenginiuose, tokiu atveju pabandykite pakeisti į MIC</string>
+    <string name="prefs_audio_source_text">Garso šaltinis</string>
     <string name="prefs_audio_stereo_text">Stereo</string>
     <string name="prefs_auto_start_app_launch_sum_text">Paleidus programą, automatiškai paleiskite vaizdo įrašą</string>
     <string name="prefs_auto_start_app_launch_text">Pradėjus taikyti programą</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Paleiskite, kai įjungtas į garso lizdą (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Sustabdykite, kai atjungsite nuo garso lizdo (AUX)</string>
     <string name="prefs_battery_optimization_sum_text">Akumuliatoriaus optimizavimas gali neleisti programai tinkamai veikti (pavyzdžiui, naudojant fotoaparatą arba atnaujinant vietą įrašant vaizdo įrašą fone). Spustelėkite čia, kad išjungtumėte šią programą dabar</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">Akumuliatoriaus optimizavimas gali neleisti programai tinkamai veikti (pavyzdžiui, naudojant fotoaparatą ir mikrofoną). Spustelėkite čia, kad išjungtumėte šią programą dabar</string>
     <string name="prefs_battery_optimization_text">Akumuliatoriaus optimizavimas</string>
     <string name="prefs_beep_each_start_recording_sum_text">Signalas kito vaizdo failo įrašymo pradžioje</string>
     <string name="prefs_beep_each_start_recording_text">Įrašymo metu pypsi</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Peizažas</string>
     <string name="prefs_orientation_landscape_reversed">Albumo reversas</string>
     <string name="prefs_orientation_portrait">Portretas</string>
+    <string name="prefs_orientation_sensor_automatic">Automatinis</string>
     <string name="prefs_other_auto_deleting_sum_text">Jei neužtenka vietos naujiems vaizdo įrašams, įrašymo metu automatiškai ištrinkite seniausius vaizdo įrašus</string>
     <string name="prefs_other_auto_deleting_text">Ciklo įrašymas</string>
     <string name="prefs_other_date_time_text">data ir laikas</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Nuotraukos vieta (aplankas /kelias)</string>
     <string name="prefs_other_path_text">Vaizdo įrašo vieta (aplankas /kelias)</string>
     <string name="prefs_other_settings_sum_text">Vaizdo įrašo vieta (išsaugoti aplanką), vaizdo įrašo trukmė, ciklo įrašymas, G jutiklis, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Vaizdo įrašų vieta (aplankas, skirtas išsaugoti), vaizdo įrašo trukmė, ciklo įrašymas, maksimalus vaizdo įrašo dydis</string>
     <string name="prefs_other_settings_text">Kiti nustatymai</string>
     <string name="prefs_other_show_address_text">Dabartinės vietos adresas</string>
     <string name="prefs_other_show_altitude_text">Aukštis virš jūros lygio</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Kai paleidžiate programą, įjunkite /išjunkite įkrovimą, paleiskite sistemą</string>
     <string name="prefs_screen_autostart_text">Automatiškai paleisti įrašymą</string>
     <string name="prefs_screen_ui_summary_text">Greitas /ilgas ekrano paspaudimas, ekrano išjungimas, adreso ir greičio rodymas, iššokantis langas, mygtukai ir kt</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Spartusis įrašymo pradžios klavišas, greitas ir ilgas ekrano paspaudimas, iššokantis langas, vibracija įrašant, garso pranešimas, vibracija, mygtukai ekrane, ekrano išjungimas ir kt.</string>
     <string name="prefs_screen_ui_title">Sąsaja (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Automatiškai perjungia fotoaparato dienos /nakties režimus tam tikru laiku</string>
     <string name="prefs_screen_video_day_night_mode_text">Automatiniai dienos /nakties nustatymai</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">Vaizdo įrašų blokavimas, kad jie nebūtų perrašyti</string>
     <string name="prefs_show_overlay_btn_sum_text">Visų programų viršuje rodomas langas su valdymo mygtukais</string>
     <string name="prefs_show_overlay_btn_text">Rodyti slankųjį langą</string>
+    <string name="prefs_show_overlay_on_recording_text">Pradėjus įrašymą rodyti slankųjį langą</string>
     <string name="prefs_show_status_bar_text">Rodyti sistemos būsenos juostą</string>
     <string name="prefs_show_take_photo_btn_text">Norėdami padaryti nuotrauką</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Dabartinė kamera nepalaikoma. Gamintojai dažnai riboja jo naudojimą – jis pasiekiamas tik standartinėje fotoaparato programoje</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Perdengiami subtitrai vaizdo įrašo apačioje</string>
     <string name="prefs_subtitles_position_bottom_text">Subtitrai apačioje</string>
     <string name="prefs_subtitles_settings_sum_text">Perdangos vaizdo antraštės: data (laikas), vietos adresas, koordinatės ir greitis</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Perdangos antraštės ant vaizdo įrašų: data (laiko žyma), pasirinktinis tekstas</string>
     <string name="prefs_subtitles_settings_text">Subtitrų nustatymai</string>
     <string name="prefs_subtitles_size_text">Padidinti teksto dydį</string>
     <string name="prefs_subtitles_speed_text">Greitis</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Praneškite apie klaidą, gedimą arba pateikite pasiūlymą</string>
     <string name="prefs_support_text">Pagalba (atsiliepimai)</string>
     <string name="prefs_system_alert_window_sum_text">Leiskite šiai programai pasirodyti virš visų kitų programų. Tai būtina norint automatiškai pradėti /sustabdyti vaizdo įrašymą arba rodyti slankųjį langą</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Leiskite šiai programai pasirodyti virš visų kitų programų. Tai būtina norint parodyti slankųjį langą</string>
     <string name="prefs_system_alert_window_text">Raiška visų langų viršuje</string>
     <string name="prefs_theme_mode_dark">Tamsi tema</string>
+    <string name="prefs_theme_mode_dynamic">Dinamiškas</string>
     <string name="prefs_theme_mode_light">Šviesi tema</string>
     <string name="prefs_theme_mode_system_auto">Kaip sistemoje (automatinis)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Grįžkite į pagrindinį ekraną (įrašai), kad pritaikytumėte šį nustatymą ir paleistumėte sekimo paslaugą</string>
     <string name="prefs_toolbar_title_setting">Nustatymai</string>
     <string name="prefs_translate_sum_text">Padėkite tobulinti arba pataisyti teksto vertimą jūsų kalba</string>
     <string name="prefs_translate_text">Programos vertimas</string>
+    <string name="prefs_ui_app_icon_and_label_change">Pakeiskite sistemos piktogramą ir programos pavadinimą</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">Po pakeitimo programa gali užsidaryti, senoji piktograma bus pašalinta pagrindiniame telefono ekrane (arba visų programų sąraše) ir atsiras nauja</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Nustatykite paleidimo priemonės piktogramą ir pavadinimą</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Pakeiskite pranešimo piktogramą ir pavadinimą</string>
+    <string name="prefs_ui_camera_preview_sum_text">Rodyti fotoaparato peržiūrą pagrindiniame programos ekrane</string>
+    <string name="prefs_ui_camera_preview_text">Kameros peržiūra</string>
     <string name="prefs_ui_click_none_text">Nėra ką veikti</string>
     <string name="prefs_ui_click_start_stop_rec_text">Pradėti /sustabdyti įrašymą</string>
     <string name="prefs_ui_click_text">Greitai bakstelėkite ekraną</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Bitų sparta (kokybė)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kameros valdymo scenos režimas (naktis)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kameros valdymo scenos režimas (dieną)</string>
+    <string name="prefs_video_codec_sum_text">H.265 HEVC ir AV1 kodekai užtikrina geresnę kokybę esant mažesniam pralaidumui nei H.264 AVC, todėl galite sutaupyti vietos sumažindami bitų spartą. Tačiau kai kuriuose vaizdo įrašų grotuvuose vaizdo įrašai gali nepaleisti</string>
+    <string name="prefs_video_codec_text">Vaizdo kodekas</string>
     <string name="prefs_video_control_scene_mode_beach_text">Paplūdimys (šviesus oras)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Bendra /Pirmenybė veidui</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (didelis dinaminis diapazonas)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Fotoaparato fokusavimas (naktis)</string>
     <string name="prefs_video_focus_text">Fotoaparato fokusavimas (dieną)</string>
     <string name="prefs_video_fps_range_text">Kadrai per sekundę (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Įrašykite HEVC (H.265) formatu, kad sutaupytumėte vietos. Gali būti, kad negalėsite leisti tokių vaizdo įrašų kituose vaizdo įrašų atkūrimo įrenginiuose ar programose. Po pakeitimo bus iš naujo nustatyta skiriamoji geba ir pralaidumas</string>
-    <string name="prefs_video_hevc_text">Labai efektyvus vaizdo kodavimas</string>
     <string name="prefs_video_orientation_text">Vaizdo ir telefono orientacija</string>
     <string name="prefs_video_resolution_text">Vaizdo raiška</string>
     <string name="prefs_video_settings_sum_text">Rezoliucija, bitų sparta, orientacija, fokusavimas, fotoaparatas, naktinis režimas</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Didesnis dydis – greitesnis akumuliatoriaus išsikrovimas</string>
     <string name="prefs_video_space_unlimited">Neribota</string>
     <string name="prefs_video_stabilization_text">Vaizdo stabilizavimas</string>
+    <string name="prefs_voice_recorder_app">Diktofonas fone</string>
     <string name="prefs_warning_location_precise_sum_text">Tai būtina norint gauti tiksliausią GPS greitį, adresą ir koordinates. Spustelėkite, kad pateiktumėte</string>
     <string name="prefs_warning_location_precise_text">Leidimas tiksliai vietai</string>
     <string name="prefs_warning_notifications_sum_text">Būtina, kad pranešimų skydelyje būtų galima rodyti fono įrašymo paslaugą ir būsenas. Spustelėkite, kad pateiktumėte</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">Grynasis</string>
     <string name="rec_off_text">Išjungta</string>
     <string name="rec_on_text">Įsk.</string>
-    <string name="rec_service_msg">Privatumas: visi įrašyti vaizdo įrašai bus išsaugoti tik jūsų vietiniame įrenginyje. Programa nekuria jūsų vaizdo įrašų atsarginės kopijos (neturi jokių ryšių su serveriais)\n\nPrograma ir toliau veiks fone (pranešimų juostoje rodoma priekinio plano paslauga), jei pradėsite naują įrašymą ir grįšite į pagrindinį ekraną, perjungsite į kitą programą arba užrakinsite telefoną, kad galėtumėte tęsti įrašymą, arba jei įjungiate automatinio įrašymo funkcijas (jei uždarysite foninę paslaugą, šios funkcijos neveiks).</string>
+    <string name="rec_service_msg">Privatumas: visi įrašyti vaizdo įrašai bus išsaugoti tik jūsų vietiniame įrenginyje. Programa nekuria jūsų vaizdo įrašų atsarginės kopijos (neturi jokių ryšių su serveriais)\n\nPrograma ir toliau veiks fone (pranešimų juostoje rodoma priekinio plano paslauga), kol įrašymas bus aktyvus, kai grįšite į pagrindinį ekraną, perjungsite į kitą programą arba užrakinsite telefoną, kad tęstumėte įrašymą, ir kai įjungsite automatinio įrašymo funkcijos (jei uždarysite foninę paslaugą, šios funkcijos neveiks). Programa naudoja „Firebase Analytics“ pagrindinei anoniminei analizei (žr. toliau pateiktą nuorodą)</string>
+    <string name="recording_file_name_prefix">Vaizdo įrašų failų pavadinimų priešdėlis</string>
     <string name="recording_start_text">Pradėti įrašymą</string>
     <string name="recording_started_failed_text">Pradedant įrašymą įvyko klaida</string>
     <string name="recording_started_with_audio_text">Prasidėjo naujas vaizdo įrašymas su garso įrašymu</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">Įrašas…</string>
     <string name="recording_voice_started_text">Įrašymas prasidėjo</string>
     <string name="recording_voice_stopped_text">Įrašymas sustabdytas</string>
+    <string name="records_file_sorting_date">Data</string>
+    <string name="records_file_sorting_duration">Trukmė</string>
+    <string name="records_file_sorting_name">vardas</string>
+    <string name="records_file_sorting_size">Failo dydis</string>
+    <string name="records_file_upload_drive">Išsaugoti „Google“ diske</string>
     <string name="reset">iškrovimas</string>
     <string name="storage_external_single">MicroSD kortelė</string>
     <string name="storage_phone">Telefono atmintis</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Naikinimo režimas</string>
     <string name="videos_file_item_share">Pasidalinti</string>
     <string name="videos_file_item_watch">Žiūrėti</string>
+    <string name="videos_file_open_with">Atidaryti naudojant</string>
+    <string name="videos_file_select">Pasirinkite už</string>
     <string name="videos_file_sort_asc">Rūšiuoti didėjančia tvarka</string>
     <string name="videos_file_sort_desc">Rūšiuoti mažėjančia tvarka</string>
     <string name="videos_file_was_locked_text">Vaizdo įrašo failas buvo perkeltas į apsaugotą aplanką</string>

@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">onartzen dut</string>
     <string name="any_text">Edozein</string>
+    <string name="app_alternative_name_audio">Audioa</string>
+    <string name="app_alternative_name_battery">Bateria ezarpenak</string>
+    <string name="app_alternative_name_media">Komunikabideak</string>
+    <string name="app_alternative_name_media_player">Multimedia erreproduzitzailea</string>
+    <string name="app_alternative_name_video">Bideoa</string>
+    <string name="app_name_backgroundvideorecorder">Atzeko planoko bideo-grabaketa</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - DVR gidatzea</string>
     <string name="camera">Kamera</string>
     <string name="camera_aperture">Diafragma</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">Kamera aldi baterako (ez zegoen) erabilgarri zure gailuan irekitzeko (kameraren sistemaren errorea)</string>
     <string name="camera_support_error">Errore bat gertatu da kamera erabiltzean.</string>
     <string name="close">Itxi</string>
+    <string name="days">egunak</string>
     <string name="default_text">Lehenetsia</string>
     <string name="dialog_camera_not_found_msg_text">Gailu honek ez du kamera integraturik eta ez du kanpoko kamerarik onartzen. Itxiera…</string>
     <string name="dialog_camera_not_found_text">Ez da kamera aurkitu</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">Ez duzu iragarkirik.</string>
     <string name="donation_level_text">Zure dohaintza maila:</string>
     <string name="donation_purchase_info_loading_text">Erosketa-informazioa oraindik ez da kargatu. Sarean al zaude eta zure Google kontuan saioa hasi duzu?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Kendu iragarkiak betiko edozein zenbatekoaren dohaintza batekin. Hilero edozein zenbatekoa ere eman dezakezu iragarkiak kentzeko</string>
-    <string name="donation_subs_any_amount_text">Gainera, publizitatea guztiz kentzen da edozein kopurutan harpidetzen zarenean.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Kendu iragarkiak betiko edozein zenbatekoaren dohaintza batekin. Hilero ere eman dezakezu iragarkiak kentzeko</string>
+    <string name="donation_subs_any_amount_text">Iragarkia guztiz kentzen da hileko edozein zenbatekoaren harpidetza aktibo dagoen bitartean.</string>
     <string name="donation_subs_manage_btn_text">Harpidetza kendu</string>
+    <string name="donation_subs_no_free_trial_explanation_text">Aplikazioak ez du harpidetzak probatzeko eperik eskaintzen, aplikazioaren funtzio guztiak doakoak direnez, harpidetzak publizitatea kentzen du soilik.</string>
+    <string name="donation_subs_one_text">Publizitatea guztiz kentzen da harpidetza aktibo dagoen bitartean.</string>
     <string name="donation_subs_text">Dohaintza hilero</string>
     <string name="format_altitude">Altuera</string>
     <string name="format_degrees">Koordenatuak</string>
@@ -56,6 +65,7 @@
     <string name="from">tik</string>
     <string name="hour">ordua</string>
     <string name="hours">orduak</string>
+    <string name="month">hilabetea</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Aplikazioa ez dago bateriaren optimizaziotik kanpo. Kamera atzeko planoan edo beste zerbait ez bada exekutatzen, gehitu aplikazio hau energia aurrezteko moduaren salbuespenetara.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Aplikazioa Android 11n berriro instalatu baduzu, fitxategi zaharrak eskuz ezabatu behar dira</string>
     <string name="msg_auto_recording_service_was_stopped">Atzeko planoko zerbitzua gelditu duzu bideoa grabatzen automatikoki hasteko. Ireki aplikazioa berriro abiarazteko.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Grabatu audioa Bluetooth gailu batetik</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Erabili Bluetooth entzungailuekin soilik. Unitate nagusira (autoko irratia) Bluetooth bidez konektatzen bazara, arrazoiren batengatik automatikoki telefono dei bat abiarazi dezake gailu honetako zenbaki estandarrera.</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Ez erabili buruko unitatearekin (autoko irratia)!</string>
+    <string name="prefs_audio_codec_title">Audio-kodeka</string>
     <string name="prefs_audio_priority_sum">Gaituta badago, beste aplikazio batzuek ezin izango dute mikrofonoa erabili. Desgaituta badago, baliteke aplikazio honek ezin izango duela audioa grabatu hainbat aplikazio exekutatzen ari direnean mikrofonoa erabiliz (Androidek ez du beti onartzen mikrofonoa aldi berean erabiltzea)</string>
     <string name="prefs_audio_priority_title">Lehenetsi audioa aplikazio honi</string>
     <string name="prefs_audio_rate_text">Laginketa-maiztasuna</string>
     <string name="prefs_audio_recording_text">Audio grabazioa</string>
     <string name="prefs_audio_settings_sum_text">Kalitatezko, soinua aktibatuta /aktibatuta</string>
     <string name="prefs_audio_settings_text">Soinu ezarpenak</string>
+    <string name="prefs_audio_source_camcorder_text">Baliteke KAMERAKO audio-grabaketak gailu batzuetan ez funtzionatzea; kasu honetan, saiatu MIC-era aldatzen</string>
+    <string name="prefs_audio_source_text">Audio iturria</string>
     <string name="prefs_audio_stereo_text">Estereoa</string>
     <string name="prefs_auto_start_app_launch_sum_text">Hasi bideoa grabatzen automatikoki aplikazioa abiarazten denean</string>
     <string name="prefs_auto_start_app_launch_text">Aplikazioa hastean</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Exekutatu audio jackera konektatzean (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Gelditu audio jacketik (AUX) deskonektatzen zarenean</string>
     <string name="prefs_battery_optimization_sum_text">Bateria optimizatzeak aplikazioak behar bezala funtzionatzea eragotzi dezake (adibidez, kamera erabiltzea edo kokapena eguneratzea atzeko planoan bideo bat grabatzen duzun bitartean). Egin klik hemen aplikazio honetarako desgaitzeko</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">Bateriaren optimizazioak aplikazioak behar bezala funtzionatzea eragotzi dezake (adibidez, kamera eta mikrofonoa erabiltzea). Egin klik hemen aplikazio honetarako desgaitzeko</string>
     <string name="prefs_battery_optimization_text">Bateria optimizatzea</string>
     <string name="prefs_beep_each_start_recording_sum_text">Seinalea hurrengo bideo-fitxategiaren grabazioaren hasieran</string>
     <string name="prefs_beep_each_start_recording_text">Bip-a grabatzean</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Paisaia</string>
     <string name="prefs_orientation_landscape_reversed">Albumaren alderantziz</string>
     <string name="prefs_orientation_portrait">Erretratua</string>
+    <string name="prefs_orientation_sensor_automatic">Automatikoa</string>
     <string name="prefs_other_auto_deleting_sum_text">Ezabatu automatikoki bideo zaharrenak grabatzen ari zaren bitartean bideo berrietarako leku nahikorik ez badago</string>
     <string name="prefs_other_auto_deleting_text">Begizta grabaketa</string>
     <string name="prefs_other_date_time_text">data eta ordua</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Argazkiaren kokapena (karpeta /bidea)</string>
     <string name="prefs_other_path_text">Bideoaren kokapena (karpeta/bidea)</string>
     <string name="prefs_other_settings_sum_text">Bideoaren kokapena (gorde karpeta), bideoaren iraupena, begizta grabaketa, G-sentsorea, GPSa</string>
+    <string name="prefs_other_settings_sum_text_bvr">Bideo-grabaketen kokapena (gordetzeko karpeta), bideoaren iraupena, begizta grabaketa, bideoaren gehienezko tamaina</string>
     <string name="prefs_other_settings_text">Beste ezarpen batzuk</string>
     <string name="prefs_other_show_address_text">Uneko kokapena helbidea</string>
     <string name="prefs_other_show_altitude_text">Itsas mailaren gaineko altuera</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Aplikazioa abiarazten duzunean, aktibatu /desaktibatu kargatzea, abiarazi sistema</string>
     <string name="prefs_screen_autostart_text">Grabaketa automatikoki abiarazi</string>
     <string name="prefs_screen_ui_summary_text">Pantaila azkar /luze sakatu, pantaila itzali, helbidea eta abiadura bistaratzea, laster-leihoa, botoiak eta gehiago</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Grabatzen hasteko lasterbidea, pantailan azkar eta luze sakatu, pop-up leihoa, bibrazioa grabatzerakoan, soinuaren jakinarazpena, bibrazioa, pantailako botoiak, pantaila itzaltzea eta abar.</string>
     <string name="prefs_screen_ui_title">Interfazea (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Kamera eguneko /gaueko moduak automatikoki aldatzen ditu ordu zehatzetan</string>
     <string name="prefs_screen_video_day_night_mode_text">Eguneko /Gaueko ezarpen automatikoak</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">Bideoak gainidatzi ez daitezen blokeatzea</string>
     <string name="prefs_show_overlay_btn_sum_text">Aplikazio guztien gainean kontrol-botoiak dituen leiho bat bistaratzen du</string>
     <string name="prefs_show_overlay_btn_text">Erakutsi leiho mugikorra</string>
+    <string name="prefs_show_overlay_on_recording_text">Erakutsi leiho mugikorra grabaketa hasten denean</string>
     <string name="prefs_show_status_bar_text">Erakutsi sistemaren egoera-barra</string>
     <string name="prefs_show_take_photo_btn_text">Argazki bat egiteko</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Uneko kamerak ez du onartzen. Fabrikatzaileek askotan erabilera mugatzen dute - Kamera aplikazio estandarrean bakarrik dago eskuragarri</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Gainjarri azpitituluak bideoaren behealdean</string>
     <string name="prefs_subtitles_position_bottom_text">Azpitituluak behealdean</string>
     <string name="prefs_subtitles_settings_sum_text">Gainjarri bideo-oinak: data (ordua), kokapena helbidea, koordenatuak eta abiadura</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Bideoen azpitituluak gainjarri: data (ordu-zigilua), testu pertsonalizatua</string>
     <string name="prefs_subtitles_settings_text">Azpitituluen ezarpenak</string>
     <string name="prefs_subtitles_size_text">Handitu testuaren tamaina</string>
     <string name="prefs_subtitles_speed_text">Abiadura</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Eman akats bat, hutsegite bat edo egin eskaintza</string>
     <string name="prefs_support_text">Laguntza (iritzia)</string>
     <string name="prefs_system_alert_window_sum_text">Baimendu aplikazio hau beste aplikazio guztien gainean agertzea. Hau beharrezkoa da bideo-grabaketa automatikoki hasteko/gelditzeko edo leiho mugikor bat bistaratzeko</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Baimendu aplikazio hau beste aplikazio guztien gainean agertzea. Hau beharrezkoa da leiho mugikor bat bistaratzeko</string>
     <string name="prefs_system_alert_window_text">Ebazpena leiho guztien gainean</string>
     <string name="prefs_theme_mode_dark">Gai iluna</string>
+    <string name="prefs_theme_mode_dynamic">Dinamikoa</string>
     <string name="prefs_theme_mode_light">Gai argia</string>
     <string name="prefs_theme_mode_system_auto">Sisteman bezala (automatikoa)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Itzuli hasierako pantailara (grabaketak) ezarpen hau aplikatzeko eta jarraipena egiteko zerbitzua abiarazteko</string>
     <string name="prefs_toolbar_title_setting">Ezarpenak</string>
     <string name="prefs_translate_sum_text">Lagundu zure hizkuntzako testuaren itzulpena hobetzen edo konpontzen</string>
     <string name="prefs_translate_text">Aplikazioaren itzulpena</string>
+    <string name="prefs_ui_app_icon_and_label_change">Aldatu sisteman aplikazioaren ikonoa eta izena</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">Aldaketa egin ondoren, aplikazioa itxi egin daiteke, ikono zaharra kenduko da telefonoaren pantaila nagusian (edo aplikazio guztien zerrendan) eta berri bat agertuko da.</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Ezarri abiarazlearen ikonoa eta izena</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Aldatu jakinarazpenen ikonoa eta izena</string>
+    <string name="prefs_ui_camera_preview_sum_text">Erakutsi kameraren aurrebista aplikazioaren pantaila nagusian</string>
+    <string name="prefs_ui_camera_preview_text">Kameraren aurrebista</string>
     <string name="prefs_ui_click_none_text">Ezer ez egiteko</string>
     <string name="prefs_ui_click_start_stop_rec_text">Hasi /gelditu grabaketa</string>
     <string name="prefs_ui_click_text">Sakatu azkar pantailan</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Bit-tasa (kalitatea)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kamera kontrolatzeko eszena modua (gaua)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kamera kontrolatzeko eszena modua (eguna)</string>
+    <string name="prefs_video_codec_sum_text">H.265 HEVC eta AV1 kodekek H.264 AVC baino kalitate hobea eskaintzen dute bit-tasa baxuagoetan, bit-tasa murriztuz lekua aurreztu dezakezu. Baina baliteke bideoak bideo-erreproduzitzaile batzuetan ez erreproduzitzea</string>
+    <string name="prefs_video_codec_text">Bideo-kodeka</string>
     <string name="prefs_video_control_scene_mode_beach_text">Hondartza (eguraldi argia)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Orokorra /Aurpegi Lehentasuna</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (Barruti Dinamiko Handia)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Kameraren fokua (gauean)</string>
     <string name="prefs_video_focus_text">Kameraren fokua (eguna)</string>
     <string name="prefs_video_fps_range_text">segundoko fotogramak (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Grabatu HEVC (H.265) formatuan lekua aurrezteko. Baliteke bideo horiek erreproduzitu ezin izango dituzu bideoak erreproduzitzeko beste gailu edo aplikazio batzuetan. Aldaketaren ondoren bereizmena eta bit-tasa berrezartuko ditu</string>
-    <string name="prefs_video_hevc_text">Bideo-kodeketa eraginkorra</string>
     <string name="prefs_video_orientation_text">Bideoa eta telefonoaren orientazioa</string>
     <string name="prefs_video_resolution_text">Bideoaren bereizmena</string>
     <string name="prefs_video_settings_sum_text">Bereizmena, bit-tasa, orientazioa, fokua, kamera, gaueko modua</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Tamaina handiagoa - bateria deskargatu azkarragoa</string>
     <string name="prefs_video_space_unlimited">Mugagabea</string>
     <string name="prefs_video_stabilization_text">Bideoaren egonkortzea</string>
+    <string name="prefs_voice_recorder_app">Ahots-grabagailua atzeko planoan</string>
     <string name="prefs_warning_location_precise_sum_text">Hau beharrezkoa da GPSan oinarritutako abiadura zehatzena lortzeko, baita helbidea eta koordenatuak ere. Egin klik bidaltzeko</string>
     <string name="prefs_warning_location_precise_text">Kokapen zehatza lortzeko baimena</string>
     <string name="prefs_warning_notifications_sum_text">Beharrezkoa da atzeko planoko grabazio zerbitzua eta egoerak jakinarazpen-panelean bistaratu ahal izateko. Egin klik bidaltzeko</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">Sarea</string>
     <string name="rec_off_text">Desaktibatuta</string>
     <string name="rec_on_text">barne.</string>
-    <string name="rec_service_msg">Pribatutasuna: grabatzen dituzun bideo guztiak zure tokiko gailuan soilik gordeko dira. Aplikazioak ez ditu zure bideoen babeskopiak egiten (ez du zerbitzarietarako konexiorik)\n\nAplikazioak atzeko planoan exekutatzen jarraituko du (jakinarazpen-barran agertzen den lehen planoko zerbitzua) grabaketa berri bat hasi eta hasierako pantailara itzultzen bazara, beste aplikazio batera aldatzen baduzu edo telefonoa blokeatzen baduzu, grabatzen jarraitu ahal izateko edo grabaketa automatikorako funtzioak aktibatzen dituzu (atzeko planoko zerbitzua ixten baduzu, funtzio hauek ez dute funtzionatuko).</string>
+    <string name="rec_service_msg">Pribatutasuna: grabatzen dituzun bideo guztiak zure tokiko gailuan soilik gordeko dira. Aplikazioak ez ditu zure bideoen babeskopiak egiten (ez du zerbitzarietarako konexiorik)\n\nAplikazioak atzeko planoan exekutatzen jarraituko du (jakinarazpen-barran agertzen den lehen planoko zerbitzua) grabaketa aktibo dagoen bitartean, hasierako pantailara itzultzen zarenean, beste aplikazio batera aldatzen zarenean edo telefonoa blokeatzen duzunean grabatzen jarraitzeko eta pizten duzunean. Grabaketa automatikorako eginbideak (atzeko planoko zerbitzua ixten baduzu, funtzio hauek ez dute funtzionatuko). Aplikazioak Firebase Analytics erabiltzen du oinarrizko analisi anonimoetarako (ikus beheko esteka)</string>
+    <string name="recording_file_name_prefix">Bideo-fitxategien izenen aurrizkia</string>
     <string name="recording_start_text">Hasi grabatzen</string>
     <string name="recording_started_failed_text">Errore bat gertatu da grabatzen hastean</string>
     <string name="recording_started_with_audio_text">Bideo grabaketa berri bat audio grabaketarekin hasi da</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">Grabatzen…</string>
     <string name="recording_voice_started_text">Grabaketa hasi da</string>
     <string name="recording_voice_stopped_text">Grabaketa gelditu da</string>
+    <string name="records_file_sorting_date">Data</string>
+    <string name="records_file_sorting_duration">Iraupena</string>
+    <string name="records_file_sorting_name">Izena</string>
+    <string name="records_file_sorting_size">Fitxategiaren tamaina</string>
+    <string name="records_file_upload_drive">Gorde \"Google Drive\"-n</string>
     <string name="reset">isurketa</string>
     <string name="storage_external_single">MicroSD txartela</string>
     <string name="storage_phone">Telefonoaren memoria</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Ezabatu modua</string>
     <string name="videos_file_item_share">Partekatu hau</string>
     <string name="videos_file_item_watch">Ikusi</string>
+    <string name="videos_file_open_with">Ireki honekin</string>
+    <string name="videos_file_select">Hautatu</string>
     <string name="videos_file_sort_asc">Goranzko ordenatu</string>
     <string name="videos_file_sort_desc">Beheranzko ordenatu</string>
     <string name="videos_file_was_locked_text">Bideo-fitxategia babestutako karpeta batera eraman da</string>

@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">J\'accepte</string>
     <string name="any_text">Quelconque</string>
+    <string name="app_alternative_name_audio">l\'audio</string>
+    <string name="app_alternative_name_battery">Paramètres de la batterie</string>
+    <string name="app_alternative_name_media">Médias</string>
+    <string name="app_alternative_name_media_player">Lecteur multimédia</string>
+    <string name="app_alternative_name_video">Vidéo</string>
+    <string name="app_name_backgroundvideorecorder">Enregistrement vidéo en arrière-plan</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - Conduite DVR</string>
     <string name="camera">Caméra</string>
     <string name="camera_aperture">Diaphragme</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">L\'appareil photo est temporairement (était) indisponible pour s\'ouvrir sur votre appareil (erreur système de l\'appareil photo)</string>
     <string name="camera_support_error">Une erreur s\'est produite lors de l\'utilisation de l\'appareil photo.</string>
     <string name="close">Fermer</string>
+    <string name="days">jours</string>
     <string name="default_text">Défaut</string>
     <string name="dialog_camera_not_found_msg_text">Cet appareil n\'a pas de caméra intégrée et ne prend pas en charge les caméras externes. Fermeture…</string>
     <string name="dialog_camera_not_found_text">Caméra introuvable</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">Vous n\'avez aucune annonce.</string>
     <string name="donation_level_text">Votre niveau de don :</string>
     <string name="donation_purchase_info_loading_text">Les informations d\'achat n\'ont pas encore été téléchargées. Êtes-vous en ligne et connecté à votre compte Google ?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Supprimez les publicités pour toujours avec un don unique de n\'importe quel montant. Vous pouvez également donner n\'importe quel montant mensuellement pour supprimer les publicités.</string>
-    <string name="donation_subs_any_amount_text">De plus, la publicité est complètement supprimée lorsque vous vous abonnez pour n’importe quel montant.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Supprimez les publicités pour toujours avec un don unique de n\'importe quel montant. Vous pouvez également faire un don mensuel pour supprimer les publicités</string>
+    <string name="donation_subs_any_amount_text">La publicité est complètement supprimée lorsqu\'un abonnement pour n\'importe quel montant mensuel est actif.</string>
     <string name="donation_subs_manage_btn_text">Se désabonner</string>
+    <string name="donation_subs_no_free_trial_explanation_text">L\'application ne propose pas de période d\'essai pour les abonnements, puisque toutes les fonctions de l\'application sont déjà gratuites, l\'abonnement supprime uniquement la publicité</string>
+    <string name="donation_subs_one_text">La publicité est complètement supprimée tant que l\'abonnement est actif.</string>
     <string name="donation_subs_text">Faire un don mensuellement</string>
     <string name="format_altitude">Hauteur</string>
     <string name="format_degrees">Coordonnées</string>
@@ -56,6 +65,7 @@
     <string name="from">à partir de</string>
     <string name="hour">heure</string>
     <string name="hours">heures</string>
+    <string name="month">mois</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">L\'application n\'est pas exclue de l\'optimisation de la batterie. Si la caméra ne fonctionne pas en arrière-plan ou autre chose, ajoutez cette application aux exceptions du mode d\'économie d\'énergie.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Si vous avez réinstallé l\'application sur Android 11, alors les anciens fichiers doivent être supprimés manuellement</string>
     <string name="msg_auto_recording_service_was_stopped">Vous avez arrêté le service d\'arrière-plan pour démarrer automatiquement l\'enregistrement vidéo. Ouvrez l\'application pour la relancer.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Enregistrer l\'audio à partir d\'un appareil Bluetooth</string>
     <string name="prefs_audio_bt_recording_warning_message_text">À utiliser uniquement avec des écouteurs Bluetooth. Si vous vous connectez à l\'unité principale (autoradio) via Bluetooth, cela peut, pour une raison quelconque, déclencher automatiquement un appel téléphonique vers le numéro standard de cet appareil.</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Ne pas utiliser avec une unité principale (autoradio) !</string>
+    <string name="prefs_audio_codec_title">Un codec audio</string>
     <string name="prefs_audio_priority_sum">S\'il est activé, les autres applications ne pourront pas utiliser le microphone. Si elle est désactivée, cette application peut ne pas être en mesure d\'enregistrer de l\'audio lorsque plusieurs applications sont en cours d\'exécution à l\'aide du microphone (Android ne permet pas toujours l\'utilisation simultanée du microphone)</string>
     <string name="prefs_audio_priority_title">Donner la priorité à l\'audio de cette application</string>
     <string name="prefs_audio_rate_text">Fréquence d\'échantillonnage</string>
     <string name="prefs_audio_recording_text">Enregistrement audio</string>
     <string name="prefs_audio_settings_sum_text">Qualité, off/on enregistrement sonore</string>
     <string name="prefs_audio_settings_text">Paramètres sonores</string>
+    <string name="prefs_audio_source_camcorder_text">L\'enregistrement audio à partir d\'un CAMÉCOPE peut ne pas fonctionner sur certains appareils. Dans ce cas, essayez de passer à MIC.</string>
+    <string name="prefs_audio_source_text">Source audio</string>
     <string name="prefs_audio_stereo_text">Stéréo</string>
     <string name="prefs_auto_start_app_launch_sum_text">Démarrer l\'enregistrement vidéo automatiquement au démarrage de l\'application</string>
     <string name="prefs_auto_start_app_launch_text">Au démarrage de l\'application</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Fonctionne lorsqu\'il est branché sur la prise audio (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Arrêtez-vous lorsque déconnecté de la prise audio (AUX)</string>
     <string name="prefs_battery_optimization_sum_text">L\'optimisation de la batterie peut empêcher l\'application de fonctionner correctement (par exemple, en utilisant l\'appareil photo ou en mettant à jour l\'emplacement lors de l\'enregistrement d\'une vidéo en arrière-plan). Cliquez ici pour le désactiver pour cette application maintenant</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">L\'optimisation de la batterie peut empêcher l\'application de fonctionner correctement (par exemple, l\'utilisation de la caméra et du microphone). Cliquez ici pour le désactiver pour cette application maintenant</string>
     <string name="prefs_battery_optimization_text">Optimisation de la batterie</string>
     <string name="prefs_beep_each_start_recording_sum_text">Signal au début de l\'enregistrement du prochain fichier vidéo</string>
     <string name="prefs_beep_each_start_recording_text">Bip lors de l\'enregistrement</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Paysage</string>
     <string name="prefs_orientation_landscape_reversed">Retour de l\'album</string>
     <string name="prefs_orientation_portrait">Portrait</string>
+    <string name="prefs_orientation_sensor_automatic">Automatique</string>
     <string name="prefs_other_auto_deleting_sum_text">Supprimez automatiquement les vidéos les plus anciennes lors de l\'enregistrement s\'il n\'y a pas assez d\'espace pour les nouvelles vidéos</string>
     <string name="prefs_other_auto_deleting_text">Enregistrement en boucle</string>
     <string name="prefs_other_date_time_text">date et l\'heure</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Emplacement de la photo (dossier /chemin)</string>
     <string name="prefs_other_path_text">Emplacement de la vidéo (dossier /chemin)</string>
     <string name="prefs_other_settings_sum_text">Emplacement de la vidéo (dossier de sauvegarde), durée de la vidéo, enregistrement en boucle, capteur G, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Emplacement des enregistrements vidéo (dossier à sauvegarder), durée de la vidéo, enregistrement en boucle, taille maximale de la vidéo</string>
     <string name="prefs_other_settings_text">Autres réglages</string>
     <string name="prefs_other_show_address_text">Adresse de l\'emplacement actuel</string>
     <string name="prefs_other_show_altitude_text">Hauteur au-dessus du niveau de la mer</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Lorsque vous démarrez l\'application, activez /désactivez la charge, démarrez le système</string>
     <string name="prefs_screen_autostart_text">Démarrage automatique de l\'enregistrement</string>
     <string name="prefs_screen_ui_summary_text">Écran rapide/appui long, écran éteint, affichage de l\'adresse et de la vitesse, fenêtre contextuelle, boutons et plus</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Raccourci pour démarrer l\'enregistrement, appui rapide et long sur l\'écran, fenêtre pop-up, vibration lors de l\'enregistrement, notification sonore, vibration, boutons sur l\'écran, extinction de l\'écran et plus encore</string>
     <string name="prefs_screen_ui_title">Interface (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Bascule automatiquement les modes jour/nuit de la caméra à des heures spécifiques</string>
     <string name="prefs_screen_video_day_night_mode_text">Paramètres jour/nuit automatiques</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">Empêcher l\'écrasement des vidéos</string>
     <string name="prefs_show_overlay_btn_sum_text">Affiche une fenêtre avec des boutons de contrôle au-dessus de toutes les applications</string>
     <string name="prefs_show_overlay_btn_text">Afficher la fenêtre flottante</string>
+    <string name="prefs_show_overlay_on_recording_text">Afficher la fenêtre flottante lorsque l\'enregistrement démarre</string>
     <string name="prefs_show_status_bar_text">Afficher la barre d\'état du système</string>
     <string name="prefs_show_take_photo_btn_text">Pour faire une photo</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Non pris en charge par la caméra actuelle. Les fabricants restreignent souvent son utilisation - il n\'est disponible que dans l\'application Appareil photo standard</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Superposer les sous-titres en bas de la vidéo</string>
     <string name="prefs_subtitles_position_bottom_text">Sous-titres en bas</string>
     <string name="prefs_subtitles_settings_sum_text">Superposition des sous-titres vidéo : date (heure), adresse de localisation, coordonnées et vitesse</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Sous-titres superposés sur les vidéos : date (horodatage), texte personnalisé</string>
     <string name="prefs_subtitles_settings_text">Paramètres de sous-titres</string>
     <string name="prefs_subtitles_size_text">Augmenter la taille du texte</string>
     <string name="prefs_subtitles_speed_text">Vitesse</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Signaler un bug, planter ou faire une offre</string>
     <string name="prefs_support_text">Soutien (rétroaction)</string>
     <string name="prefs_system_alert_window_sum_text">Autorisez cette application à apparaître au-dessus de toutes les autres applications. Ceci est nécessaire pour démarrer/arrêter automatiquement l\'enregistrement vidéo ou pour afficher une fenêtre flottante</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Autorisez cette application à apparaître au-dessus de toutes les autres applications. Ceci est nécessaire pour afficher une fenêtre flottante</string>
     <string name="prefs_system_alert_window_text">Résolution au-dessus de toutes les fenêtres</string>
     <string name="prefs_theme_mode_dark">Thème sombre</string>
+    <string name="prefs_theme_mode_dynamic">Dynamique</string>
     <string name="prefs_theme_mode_light">Thème lumière</string>
     <string name="prefs_theme_mode_system_auto">Comme dans le système (automatique)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Retournez à l\'écran d\'accueil (enregistrements) pour appliquer ce paramètre et démarrer le service de suivi</string>
     <string name="prefs_toolbar_title_setting">Réglages</string>
     <string name="prefs_translate_sum_text">Aidez à améliorer ou à corriger la traduction de texte dans votre langue</string>
     <string name="prefs_translate_text">Traduction d\'applications</string>
+    <string name="prefs_ui_app_icon_and_label_change">Changer l\'icône et le nom de l\'application dans le système</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">Après le changement, l\'application peut se fermer, l\'ancienne icône sera supprimée sur l\'écran principal du téléphone (ou dans la liste de toutes les applications) et une nouvelle apparaîtra</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Définir l\'icône et le nom du lanceur</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Modifier l\'icône et le nom de la notification</string>
+    <string name="prefs_ui_camera_preview_sum_text">Afficher l\'aperçu de la caméra sur l\'écran principal de l\'application</string>
+    <string name="prefs_ui_camera_preview_text">Aperçu de la caméra</string>
     <string name="prefs_ui_click_none_text">Rien à faire</string>
     <string name="prefs_ui_click_start_stop_rec_text">Démarrer/arrêter l\'enregistrement</string>
     <string name="prefs_ui_click_text">Taper rapidement sur l\'écran</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Débit (qualité)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Mode scène de contrôle de la caméra (nuit)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Mode scène de contrôle de la caméra (jour)</string>
+    <string name="prefs_video_codec_sum_text">Les codecs H.265 HEVC et AV1 offrent une meilleure qualité à des débits inférieurs à ceux du H.264 AVC, vous pouvez donc économiser de l\'espace en réduisant le débit. Mais les vidéos peuvent ne pas être lues sur certains lecteurs vidéo</string>
+    <string name="prefs_video_codec_text">Codec vidéo</string>
     <string name="prefs_video_control_scene_mode_beach_text">Plage (temps clair)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Général /Priorité visage</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (plage dynamique élevée)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Mise au point de la caméra (nuit)</string>
     <string name="prefs_video_focus_text">Mise au point de la caméra (jour)</string>
     <string name="prefs_video_fps_range_text">Images par seconde (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Enregistrez au format HEVC (H.265) pour économiser de l\'espace. Vous ne pourrez peut-être pas lire de telles vidéos sur d\'autres appareils ou applications de lecture vidéo. Réinitialise la résolution et le débit après le changement</string>
-    <string name="prefs_video_hevc_text">Codage vidéo très efficace</string>
     <string name="prefs_video_orientation_text">Orientation vidéo et téléphone</string>
     <string name="prefs_video_resolution_text">Résolution vidéo</string>
     <string name="prefs_video_settings_sum_text">Résolution, débit binaire, orientation, mise au point, appareil photo, mode nuit</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Plus grande taille - décharge plus rapide de la batterie</string>
     <string name="prefs_video_space_unlimited">Illimité</string>
     <string name="prefs_video_stabilization_text">Stabilisation vidéo</string>
+    <string name="prefs_voice_recorder_app">Enregistreur vocal en arrière-plan</string>
     <string name="prefs_warning_location_precise_sum_text">Cela est nécessaire pour obtenir la vitesse GPS la plus précise, ainsi que l\'adresse et les coordonnées. Cliquez pour soumettre</string>
     <string name="prefs_warning_location_precise_text">Autorisation pour l\'emplacement exact</string>
     <string name="prefs_warning_notifications_sum_text">Nécessaire pour pouvoir afficher le service d\'enregistrement en arrière-plan et les statuts sur le panneau de notification. Cliquez pour soumettre</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">Rapporter</string>
     <string name="rec_off_text">Désactivé</string>
     <string name="rec_on_text">Incl.</string>
-    <string name="rec_service_msg">Confidentialité : toutes les vidéos que vous enregistrez seront enregistrées uniquement sur votre appareil local. L\'application ne sauvegarde pas vos vidéos (n\'a aucune connexion aux serveurs)\n\nL\'application continuera à s\'exécuter en arrière-plan (le service de premier plan qui apparaît dans la barre de notification) si vous démarrez un nouvel enregistrement et revenez à l\'écran d\'accueil, passez à une autre application ou verrouillez votre téléphone pour pouvoir continuer l\'enregistrement, ou si vous activez les fonctions d\'enregistrement automatique (si vous fermez le service en arrière-plan, ces fonctions ne fonctionneront pas).</string>
+    <string name="rec_service_msg">Confidentialité : toutes les vidéos que vous enregistrez seront enregistrées uniquement sur votre appareil local. L\'application ne sauvegarde pas vos vidéos (n\'a aucune connexion aux serveurs)\n\nL\'application continuera à s\'exécuter en arrière-plan (le service de premier plan qui apparaît dans la barre de notification) pendant que l\'enregistrement est actif, lorsque vous revenez à l\'écran d\'accueil, passez à une autre application ou verrouillez votre téléphone pour continuer l\'enregistrement, et lorsque vous l\'allumez. fonctionnalités d\'enregistrement automatique (si vous fermez le service en arrière-plan, ces fonctions ne fonctionneront pas). L\'application utilise Firebase Analytics pour les analyses anonymes de base (voir le lien ci-dessous)</string>
+    <string name="recording_file_name_prefix">Préfixe pour les noms de fichiers vidéo</string>
     <string name="recording_start_text">Commencer l\'enregistrement</string>
     <string name="recording_started_failed_text">Erreur lors du démarrage de l\'enregistrement</string>
     <string name="recording_started_with_audio_text">Un nouvel enregistrement vidéo avec enregistrement audio a commencé</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">Enregistrement…</string>
     <string name="recording_voice_started_text">L\'enregistrement a commencé</string>
     <string name="recording_voice_stopped_text">Enregistrement arrêté</string>
+    <string name="records_file_sorting_date">Date</string>
+    <string name="records_file_sorting_duration">Durée</string>
+    <string name="records_file_sorting_name">Nom</string>
+    <string name="records_file_sorting_size">Taille du fichier</string>
+    <string name="records_file_upload_drive">Enregistrer sur « Google Drive »</string>
     <string name="reset">décharge</string>
     <string name="storage_external_single">Carte Micro SD</string>
     <string name="storage_phone">Mémoire du téléphone</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Mode de suppression</string>
     <string name="videos_file_item_share">Partagez ceci</string>
     <string name="videos_file_item_watch">Regardez</string>
+    <string name="videos_file_open_with">Ouvrir avec</string>
+    <string name="videos_file_select">Sélectionnez pour</string>
     <string name="videos_file_sort_asc">Trier par ordre croissant</string>
     <string name="videos_file_sort_desc">Trier par ordre décroissant</string>
     <string name="videos_file_was_locked_text">Le fichier vidéo a été déplacé dans un dossier protégé</string>

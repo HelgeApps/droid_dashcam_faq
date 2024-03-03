@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">אני מקבל</string>
     <string name="any_text">כל</string>
+    <string name="app_alternative_name_audio">שֶׁמַע</string>
+    <string name="app_alternative_name_battery">הגדרות סוללה</string>
+    <string name="app_alternative_name_media">כְּלֵי תִקְשׁוֹרֶת</string>
+    <string name="app_alternative_name_media_player">נגן מדיה</string>
+    <string name="app_alternative_name_video">וִידֵאוֹ</string>
+    <string name="app_name_backgroundvideorecorder">הקלטת וידאו ברקע</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - נהיגה ב-DVR</string>
     <string name="camera">מַצלֵמָה</string>
     <string name="camera_aperture">דִיאָפרַגמָה</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">המצלמה זמנית (לא הייתה) זמינה לפתיחה במכשיר שלך (שגיאת מערכת מצלמה)</string>
     <string name="camera_support_error">אירעה שגיאה במהלך השימוש במצלמה.</string>
     <string name="close">סגור</string>
+    <string name="days">ימים</string>
     <string name="default_text">בְּרִירַת מֶחדָל</string>
     <string name="dialog_camera_not_found_msg_text">למכשיר זה אין מצלמה מובנית ואינו תומך במצלמות חיצוניות. סוגרים…</string>
     <string name="dialog_camera_not_found_text">מצלמה לא נמצאה</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">אין לך מודעות.</string>
     <string name="donation_level_text">רמת התרומה שלך:</string>
     <string name="donation_purchase_info_loading_text">פרטי הקניות עדיין לא הועלו. האם אתה מחובר לחשבון Google שלך?</string>
-    <string name="donation_remove_ads_by_any_amount_text">הסר מודעות לתמיד עם תרומה חד פעמית בכל סכום. אתה יכול גם לתרום כל סכום מדי חודש כדי להסיר מודעות</string>
-    <string name="donation_subs_any_amount_text">כמו כן, הפרסום מוסר לחלוטין כאשר אתה מנוי עבור כל סכום.</string>
+    <string name="donation_remove_ads_by_any_amount_text">הסר מודעות לתמיד עם תרומה חד פעמית בכל סכום. אתה יכול גם לתרום מדי חודש כדי להסיר מודעות</string>
+    <string name="donation_subs_any_amount_text">הפרסום מוסר לחלוטין בעוד מנוי בכל סכום בחודש פעיל.</string>
     <string name="donation_subs_manage_btn_text">בטל את המנוי</string>
+    <string name="donation_subs_no_free_trial_explanation_text">האפליקציה אינה מספקת תקופת ניסיון למנויים, מכיוון שכל הפונקציות של האפליקציה כבר חינמיות, המנוי רק מסיר פרסום</string>
+    <string name="donation_subs_one_text">הפרסום מוסר לחלוטין בזמן שהמנוי פעיל.</string>
     <string name="donation_subs_text">לתרום מדי חודש</string>
     <string name="format_altitude">גוֹבַה</string>
     <string name="format_degrees">קואורדינטות</string>
@@ -56,6 +65,7 @@
     <string name="from">מ</string>
     <string name="hour">שָׁעָה</string>
     <string name="hours">שעה (ות</string>
+    <string name="month">חוֹדֶשׁ</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">האפליקציה אינה נכללת באופטימיזציה של הסוללה. אם המצלמה לא פועלת ברקע או משהו אחר, הוסף את היישום הזה לחריגים של מצב חיסכון בחשמל.</string>
     <string name="msg_android_r_deleting_manual_tip_text">אם התקנת מחדש את האפליקציה באנדרואיד 11, יש למחוק את הקבצים הישנים באופן ידני</string>
     <string name="msg_auto_recording_service_was_stopped">הפסקת את שירות הרקע להתחלה אוטומטית של הקלטת וידאו. פתח את היישום כדי להפעיל אותו שוב.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">הקלט אודיו ממכשיר Bluetooth</string>
     <string name="prefs_audio_bt_recording_warning_message_text">השתמש רק עם אוזניות Bluetooth. אם אתה מתחבר ליחידה הראשית (רדיו לרכב) באמצעות Bluetooth, אז מסיבה כלשהי זה עלול להפעיל אוטומטית שיחת טלפון למספר הרגיל במכשיר זה</string>
     <string name="prefs_audio_bt_recording_warning_title_text">אין להשתמש עם יחידת ראש (רדיו לרכב)!</string>
+    <string name="prefs_audio_codec_title">Codec אודיו</string>
     <string name="prefs_audio_priority_sum">אם מופעל, יישומים אחרים לא יוכלו להשתמש במיקרופון. אם מושבת, ייתכן שאפליקציה זו לא תוכל להקליט אודיו כאשר מספר יישומים פועלים באמצעות המיקרופון (אנדרואיד לא תמיד מאפשר שימוש בו זמנית במיקרופון)</string>
     <string name="prefs_audio_priority_title">תעדוף אודיו לאפליקציה זו</string>
     <string name="prefs_audio_rate_text">תדר דגימה</string>
     <string name="prefs_audio_recording_text">הקלטת שמע</string>
     <string name="prefs_audio_settings_sum_text">איכות, כבוי/מופעל הקלטת קול</string>
     <string name="prefs_audio_settings_text">הגדרות שמע</string>
+    <string name="prefs_audio_source_camcorder_text">ייתכן שהקלטת אודיו מ-CAMCORDER לא תעבוד במכשירים מסוימים, במקרה זה נסה לשנות ל-MIC</string>
+    <string name="prefs_audio_source_text">מקור שמע</string>
     <string name="prefs_audio_stereo_text">סטריאו</string>
     <string name="prefs_auto_start_app_launch_sum_text">התחל את הקלטת הווידאו באופן אוטומטי עם הפעלת האפליקציה</string>
     <string name="prefs_auto_start_app_launch_text">בעת הפעלת האפליקציה</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">הפעל כאשר הוא מחובר לשקע השמע (AUX)</string>
     <string name="prefs_aux_auto_stop_text">עצור בעת ניתוק משקע השמע (AUX)</string>
     <string name="prefs_battery_optimization_sum_text">אופטימיזציה של הסוללה יכולה למנוע מהאפליקציה לפעול בצורה תקינה (לדוגמה, שימוש במצלמה או עדכון המיקום תוך כדי הקלטת סרטון ברקע). לחץ כאן כדי להשבית אותו עבור יישום זה כעת</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">אופטימיזציה של הסוללה עשויה למנוע מהאפליקציה לפעול כהלכה (לדוגמה, שימוש במצלמה ובמיקרופון). לחץ כאן כדי להשבית אותו עבור יישום זה כעת</string>
     <string name="prefs_battery_optimization_text">אופטימיזציה של סוללה</string>
     <string name="prefs_beep_each_start_recording_sum_text">אות בתחילת ההקלטה של ​​קובץ הווידאו הבא</string>
     <string name="prefs_beep_each_start_recording_text">צפצוף בעת ההקלטה</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">נוֹף</string>
     <string name="prefs_orientation_landscape_reversed">אלבום הפוך</string>
     <string name="prefs_orientation_portrait">דְיוֹקָן</string>
+    <string name="prefs_orientation_sensor_automatic">אוֹטוֹמָטִי</string>
     <string name="prefs_other_auto_deleting_sum_text">מחק אוטומטית את הסרטונים הישנים ביותר בזמן ההקלטה אם אין מספיק מקום לסרטונים חדשים</string>
     <string name="prefs_other_auto_deleting_text">הקלטת לולאה</string>
     <string name="prefs_other_date_time_text">תאריך ושעה</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">מיקום התמונה (תיקיה /נתיב)</string>
     <string name="prefs_other_path_text">מיקום הסרטון (תיקיה /נתיב)</string>
     <string name="prefs_other_settings_sum_text">מיקום וידאו (שמור תיקייה), משך וידאו, הקלטת לולאה, חיישן G, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">מיקום הקלטות וידאו (תיקיה לשמירה), משך וידאו, הקלטת לולאה, גודל וידאו מקסימלי</string>
     <string name="prefs_other_settings_text">הגדרות אחרות</string>
     <string name="prefs_other_show_address_text">כתובת המיקום הנוכחית</string>
     <string name="prefs_other_show_altitude_text">גובה מעל פני הים</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">כאשר אתה מפעיל את היישום, הפעל/כבה את הטעינה, אתחל את המערכת</string>
     <string name="prefs_screen_autostart_text">הפעלה אוטומטית של הקלטה</string>
     <string name="prefs_screen_ui_summary_text">לחיצה מהירה /ארוכה על המסך, כיבוי מסך, תצוגת כתובת ומהירות, חלון קופץ, כפתורים ועוד</string>
+    <string name="prefs_screen_ui_summary_text_bvr">קיצור דרך לתחילת ההקלטה, לחיצה מהירה וארוכה על המסך, חלון מוקפץ, רטט בעת הקלטה, התראת קול, רטט, כפתורים על המסך, כיבוי מסך ועוד</string>
     <string name="prefs_screen_ui_title">ממשק (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">מחליף אוטומטית מצבי יום /לילה במצלמה בזמנים ספציפיים</string>
     <string name="prefs_screen_video_day_night_mode_text">הגדרות יום /לילה אוטומטיות</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">חסימת סרטונים להחלפתם</string>
     <string name="prefs_show_overlay_btn_sum_text">מציג חלון עם לחצני שליטה על גבי כל היישומים</string>
     <string name="prefs_show_overlay_btn_text">הצג חלון צף</string>
+    <string name="prefs_show_overlay_on_recording_text">הצג חלון צף כאשר ההקלטה מתחילה</string>
     <string name="prefs_show_status_bar_text">הצג את שורת המצב של המערכת</string>
     <string name="prefs_show_take_photo_btn_text">כדי לעשות תמונה</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">לא נתמך על ידי המצלמה הנוכחית. לעתים קרובות יצרנים מגבילים את השימוש בו - הוא זמין רק באפליקציית המצלמה הרגילה</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">שכבת כתוביות בתחתית הסרטון</string>
     <string name="prefs_subtitles_position_bottom_text">כתוביות בתחתית</string>
     <string name="prefs_subtitles_settings_sum_text">כתוביות וידאו עם שכבת-על: תאריך (שעה), כתובת מיקום, קואורדינטות ומהירות</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">כתוביות שכבת-על בסרטונים: תאריך (חותמת זמן), טקסט מותאם אישית</string>
     <string name="prefs_subtitles_settings_text">הגדרות כתוביות</string>
     <string name="prefs_subtitles_size_text">הגדל את גודל הטקסט</string>
     <string name="prefs_subtitles_speed_text">מְהִירוּת</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">דווח על באג, קריסה או הצע הצעה</string>
     <string name="prefs_support_text">תמיכה (משוב)</string>
     <string name="prefs_system_alert_window_sum_text">אפשר לאפליקציה הזו להופיע מעל כל שאר האפליקציות. זה הכרחי כדי להתחיל /לעצור את הקלטת וידאו אוטומטית או כדי להציג חלון צף</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">אפשר לאפליקציה הזו להופיע מעל כל שאר האפליקציות. זה הכרחי כדי להציג חלון צף</string>
     <string name="prefs_system_alert_window_text">רזולוציה מעל כל החלונות</string>
     <string name="prefs_theme_mode_dark">ערכת נושא כהה</string>
+    <string name="prefs_theme_mode_dynamic">דִינָמִי</string>
     <string name="prefs_theme_mode_light">נושא קליל</string>
     <string name="prefs_theme_mode_system_auto">כמו במערכת (אוטומטית)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">חזור למסך הבית (הקלטות) כדי להחיל הגדרה זו ולהתחיל את שירות המעקב</string>
     <string name="prefs_toolbar_title_setting">הגדרות</string>
     <string name="prefs_translate_sum_text">עזור לשפר או לתקן את התרגום של טקסט בשפה שלך</string>
     <string name="prefs_translate_text">תרגום יישומים</string>
+    <string name="prefs_ui_app_icon_and_label_change">שנה את הסמל והשם של האפליקציה במערכת</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">לאחר השינוי, האפליקציה עשויה להיסגר, הסמל הישן יוסר במסך הראשי של הטלפון (או ברשימת כל האפליקציות), ויופיע אחד חדש</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">הגדר את הסמל והשם של המשגר</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">שנה את סמל ההודעה ואת השם</string>
+    <string name="prefs_ui_camera_preview_sum_text">הצג תצוגה מקדימה של המצלמה במסך האפליקציה הראשי</string>
+    <string name="prefs_ui_camera_preview_text">תצוגה מקדימה של המצלמה</string>
     <string name="prefs_ui_click_none_text">אין מה לעשות</string>
     <string name="prefs_ui_click_start_stop_rec_text">התחל/הפסק הקלטה</string>
     <string name="prefs_ui_click_text">הקשה מהירה על המסך</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">קצב סיביות (איכות)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">מצב סצנת בקרת מצלמה (לילה)</string>
     <string name="prefs_video_camera_control_scene_mode_text">מצב סצנת בקרת מצלמה (יום)</string>
+    <string name="prefs_video_codec_sum_text">H.265 HEVC ו-AV1 codec מספקים איכות טובה יותר בקצבי סיביות נמוכים יותר מאשר H.264 AVC, כך שתוכל לחסוך מקום על ידי הפחתת קצב הסיביות. אבל ייתכן שסרטונים לא יתנגנו בנגני וידאו מסוימים</string>
+    <string name="prefs_video_codec_text">Codec וידאו</string>
     <string name="prefs_video_control_scene_mode_beach_text">חוף (מזג אוויר בהיר)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">כללי /עדיפות פנים</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (טווח דינמי גבוה)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">מיקוד המצלמה (לילה)</string>
     <string name="prefs_video_focus_text">מיקוד המצלמה (יום)</string>
     <string name="prefs_video_fps_range_text">פריימים לשנייה (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">הקלט בפורמט HEVC (H.265) כדי לחסוך במקום. ייתכן שלא תוכל להפעיל סרטונים כאלה במכשירים או יישומים אחרים להפעלת וידאו. יאפס את הרזולוציה וקצב הסיביות לאחר השינוי</string>
-    <string name="prefs_video_hevc_text">קידוד וידאו יעיל ביותר</string>
     <string name="prefs_video_orientation_text">התמצאות בווידאו ובטלפון</string>
     <string name="prefs_video_resolution_text">רזולוציית וידאו</string>
     <string name="prefs_video_settings_sum_text">רזולוציה, קצב סיביות, כיוון, פוקוס, מצלמה, מצב לילה</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">גודל גדול יותר - התרוקנות מהירה יותר של הסוללה</string>
     <string name="prefs_video_space_unlimited">ללא הגבלה</string>
     <string name="prefs_video_stabilization_text">ייצוב וידאו</string>
+    <string name="prefs_voice_recorder_app">מקליט קול ברקע</string>
     <string name="prefs_warning_location_precise_sum_text">זה הכרחי כדי לקבל את המהירות המדויקת ביותר מבוססת GPS, כמו גם כתובת וקואורדינטות. לחץ להגשה</string>
     <string name="prefs_warning_location_precise_text">אישור למיקום מדויק</string>
     <string name="prefs_warning_notifications_sum_text">נדרש כדי להיות מסוגל להציג את שירות ההקלטה ברקע ואת הסטטוסים בלוח ההתראות. לחץ להגשה</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">נֶטוֹ</string>
     <string name="rec_off_text">כבוי</string>
     <string name="rec_on_text">כולל</string>
-    <string name="rec_service_msg">פרטיות: כל הסרטונים שתקליט יישמרו רק במכשיר המקומי שלך. האפליקציה לא מגבה את הסרטונים שלך (אין לה חיבורים לשרתים)\n\nהאפליקציה תמשיך לפעול ברקע (שירות החזית המופיע בשורת ההתראות) אם תתחיל הקלטה חדשה ותחזור למסך הבית, תעבור לאפליקציה אחרת או תנעל את הטלפון כדי שתוכל להמשיך להקליט, או אם אתה מפעיל פונקציות להקלטה אוטומטית (אם תסגור את שירות הרקע, הפונקציות הללו לא יעבדו).</string>
+    <string name="rec_service_msg">פרטיות: כל הסרטונים שתקליט יישמרו רק במכשיר המקומי שלך. האפליקציה לא מגבה את הסרטונים שלך (אין לה חיבורים לשרתים)\n\nהאפליקציה תמשיך לפעול ברקע (שירות החזית המופיע בשורת ההתראות) בזמן ההקלטה פעילה, כשתחזרו למסך הבית, תעברו לאפליקציה אחרת או תנעלו את הטלפון להמשך ההקלטה, וכאשר תפעילו תכונות להקלטה אוטומטית (אם תסגור את שירות הרקע, פונקציות אלו לא יפעלו). האפליקציה משתמשת ב-Firebase Analytics לניתוח אנונימי בסיסי (ראה קישור למטה)</string>
+    <string name="recording_file_name_prefix">קידומת לשמות קבצי וידאו</string>
     <string name="recording_start_text">התחל להקליט</string>
     <string name="recording_started_failed_text">שגיאה בהתחלת ההקלטה</string>
     <string name="recording_started_with_audio_text">הקלטת וידאו חדשה עם הקלטת אודיו החלה</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">הקלטה…</string>
     <string name="recording_voice_started_text">ההקלטה החלה</string>
     <string name="recording_voice_stopped_text">ההקלטה הופסקה</string>
+    <string name="records_file_sorting_date">תַאֲרִיך</string>
+    <string name="records_file_sorting_duration">מֶשֶׁך</string>
+    <string name="records_file_sorting_name">שֵׁם</string>
+    <string name="records_file_sorting_size">גודל הקובץ</string>
+    <string name="records_file_upload_drive">שמור ב-\"Google Drive\"</string>
     <string name="reset">פְּרִיקָה</string>
     <string name="storage_external_single">כרטיס מיקרו אס די</string>
     <string name="storage_phone">זיכרון טלפון</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">מצב מחיקה</string>
     <string name="videos_file_item_share">שתף זאת</string>
     <string name="videos_file_item_watch">שעון</string>
+    <string name="videos_file_open_with">לפתוח עם</string>
+    <string name="videos_file_select">בחר עבור</string>
     <string name="videos_file_sort_asc">מיין בסדר עולה</string>
     <string name="videos_file_sort_desc">מיון יורד</string>
     <string name="videos_file_was_locked_text">קובץ הווידאו הועבר לתיקיה מוגנת</string>

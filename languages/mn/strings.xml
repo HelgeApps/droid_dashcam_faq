@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">би зөвшөөрч байна</string>
     <string name="any_text">Ямар ч</string>
+    <string name="app_alternative_name_audio">Аудио</string>
+    <string name="app_alternative_name_battery">Зайны тохиргоо</string>
+    <string name="app_alternative_name_media">Хэвлэл мэдээлэл</string>
+    <string name="app_alternative_name_media_player">Медиа тоглуулагч</string>
+    <string name="app_alternative_name_video">Видео</string>
+    <string name="app_name_backgroundvideorecorder">Арын дэвсгэр видео бичлэг</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - DVR жолоодох</string>
     <string name="camera">Камер</string>
     <string name="camera_aperture">Диафрагм</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">Камерыг таны төхөөрөмж дээр түр хугацаанд нээх боломжгүй (камерын системийн алдаа)</string>
     <string name="camera_support_error">Камерыг ашиглах явцад алдаа гарлаа.</string>
     <string name="close">Хаах</string>
+    <string name="days">өдрүүд</string>
     <string name="default_text">Өгөгдмөл</string>
     <string name="dialog_camera_not_found_msg_text">Энэ төхөөрөмж нь суурилуулсан камергүй бөгөөд гадны камерыг дэмждэггүй. Хааж байна…</string>
     <string name="dialog_camera_not_found_text">Камер олдсонгүй</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">Танд зар байхгүй байна.</string>
     <string name="donation_level_text">Таны хандивын түвшин:</string>
     <string name="donation_purchase_info_loading_text">Худалдааны мэдээллийг хараахан байршуулаагүй байна. Та онлайн бөгөөд Google бүртгэлдээ нэвтэрсэн үү?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Ямар ч хэмжээний нэг удаагийн хандиваар зарыг үүрд устга. Мөн та зарыг устгахын тулд сар бүр ямар ч хэмжээгээр хандивлаж болно</string>
-    <string name="donation_subs_any_amount_text">Мөн ямар ч үнээр бүртгүүлэхэд сурталчилгаа бүрэн устдаг.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Ямар ч хэмжээний нэг удаагийн хандиваар зар сурталчилгааг үүрд устга. Та мөн зарыг устгахын тулд сар бүр хандив өгч болно</string>
+    <string name="donation_subs_any_amount_text">Сард ямар ч үнийн дүнтэй захиалга идэвхтэй байх үед зар сурталчилгаа бүрэн устдаг.</string>
     <string name="donation_subs_manage_btn_text">Бүртгэлээ цуцлах</string>
+    <string name="donation_subs_no_free_trial_explanation_text">Аппликешн нь захиалгын туршилтын хугацааг өгдөггүй, учир нь програмын бүх функцууд үнэ төлбөргүй байдаг тул захиалга нь зөвхөн зар сурталчилгааг арилгадаг.</string>
+    <string name="donation_subs_one_text">Захиалга идэвхтэй байх үед зар сурталчилгаа бүрэн арилдаг.</string>
     <string name="donation_subs_text">Сар бүр хандивлах</string>
     <string name="format_altitude">Өндөр</string>
     <string name="format_degrees">Координатууд</string>
@@ -56,6 +65,7 @@
     <string name="from">-аас</string>
     <string name="hour">цаг</string>
     <string name="hours">цаг</string>
+    <string name="month">сар</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Аппликейшн нь батерейны оновчлолоос хасагдаагүй болно. Хэрэв камер арын дэвсгэр дээр эсвэл өөр зүйл ажиллахгүй бол энэ програмыг эрчим хүч хэмнэх горимоос үл хамаарах зүйлд нэмнэ үү.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Хэрэв та Android 11 дээр програмыг дахин суулгасан бол хуучин файлуудыг гараар устгах ёстой</string>
     <string name="msg_auto_recording_service_was_stopped">Та видео бичлэгийг автоматаар эхлүүлэх арын үйлчилгээг зогсоосон байна. Аппликешныг дахин эхлүүлэхийн тулд нээнэ үү.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Bluetooth төхөөрөмжөөс дуу бичих</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Зөвхөн Bluetooth чихэвчээр ашиглана уу. Хэрэв та Bluetooth-ээр толгойн төхөөрөмжид (машины радио) холбогдсон бол энэ нь ямар нэг шалтгааны улмаас энэ төхөөрөмж дээрх стандарт дугаар руу автоматаар дуудлага хийх боломжтой.</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Толгойн хэсэгтэй (машины радио) бүү ашигла!</string>
+    <string name="prefs_audio_codec_title">Аудио кодлогч</string>
     <string name="prefs_audio_priority_sum">Хэрэв идэвхжүүлсэн бол бусад програмууд микрофоныг ашиглах боломжгүй болно. Хэрэв идэвхгүй болгосон бол энэ программ нь микрофон ашиглан олон програм ажиллаж байх үед дуу бичих боломжгүй байж магадгүй (Android нь микрофоныг нэгэн зэрэг ашиглахыг үргэлж зөвшөөрдөггүй)</string>
     <string name="prefs_audio_priority_title">Энэ аппликейшнд аудиог чухалчил</string>
     <string name="prefs_audio_rate_text">Дээж авах давтамж</string>
     <string name="prefs_audio_recording_text">Аудио бичлэг</string>
     <string name="prefs_audio_settings_sum_text">Чанартай, унтраасан /асаалттай дуу бичлэг</string>
     <string name="prefs_audio_settings_text">Дууны тохиргоо</string>
+    <string name="prefs_audio_source_camcorder_text">CAMCORDER-ийн аудио бичлэг нь зарим төхөөрөмж дээр ажиллахгүй байж магадгүй, энэ тохиолдолд MIC болгож үзнэ үү</string>
+    <string name="prefs_audio_source_text">Аудио эх сурвалж</string>
     <string name="prefs_audio_stereo_text">Стерео</string>
     <string name="prefs_auto_start_app_launch_sum_text">Аппликешн эхлэхэд автоматаар видео бичлэг хийж эхэлнэ</string>
     <string name="prefs_auto_start_app_launch_text">Програмыг эхлүүлэх үед</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Аудио залгуурт (AUX) холбогдсон үед ажиллуулна</string>
     <string name="prefs_aux_auto_stop_text">Аудио залгуураас (AUX) салгах үед зогсоох</string>
     <string name="prefs_battery_optimization_sum_text">Зайны оновчлол нь програмыг зөв ажиллахаас сэргийлж чадна (жишээлбэл, камер ашиглах эсвэл арын дэвсгэр дээр видео бичлэг хийх үед байршлыг шинэчлэх). Энэ аппликешныг одоо идэвхгүй болгохын тулд энд дарна уу</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">Зайны оновчлол нь програмыг зөв ажиллуулахад саад учруулж болзошгүй (жишээлбэл, камер, микрофон ашиглах). Энэ аппликешныг одоо идэвхгүй болгохын тулд энд дарна уу</string>
     <string name="prefs_battery_optimization_text">Батерейг оновчтой болгох</string>
     <string name="prefs_beep_each_start_recording_sum_text">Дараагийн видео файлын бичлэгийн эхэнд дохио өгнө</string>
     <string name="prefs_beep_each_start_recording_text">Бичлэг хийх үед дуугарах</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Ландшафт</string>
     <string name="prefs_orientation_landscape_reversed">Цомгийн урвуу</string>
     <string name="prefs_orientation_portrait">Хөрөг зураг</string>
+    <string name="prefs_orientation_sensor_automatic">Автомат</string>
     <string name="prefs_other_auto_deleting_sum_text">Шинэ видеонуудад хангалттай зай байхгүй бол бичлэг хийх явцад хамгийн хуучин видеог автоматаар устгана</string>
     <string name="prefs_other_auto_deleting_text">Давталтын бичлэг</string>
     <string name="prefs_other_date_time_text">огноо, цаг</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Зургийн байршил (хавтас /зам)</string>
     <string name="prefs_other_path_text">Видеоны байршил (хавтас /зам)</string>
     <string name="prefs_other_settings_sum_text">Видео байршил (хадгалах хавтас), видео үргэлжлэх хугацаа, давталтын бичлэг, G-мэдрэгч, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Видео бичлэгийн байршил (хадгалах хавтас), видео үргэлжлэх хугацаа, давталтын бичлэг, видеоны дээд хэмжээ</string>
     <string name="prefs_other_settings_text">Бусад тохиргоо</string>
     <string name="prefs_other_show_address_text">Одоогийн байршлын хаяг</string>
     <string name="prefs_other_show_altitude_text">Далайн түвшнээс дээш өндөр</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Аппликешныг эхлүүлэх үед цэнэглэгчийг асааж, унтрааж, системийг ачаална уу</string>
     <string name="prefs_screen_autostart_text">Бичлэгийг автоматаар эхлүүлэх</string>
     <string name="prefs_screen_ui_summary_text">Дэлгэц хурдан /удаан дарах, дэлгэц унтрах, хаяг болон хурд харуулах, гарч ирэх цонх, товчлуурууд гэх мэт</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Бичлэг эхлүүлэх товчлол, дэлгэцэн дээр хурдан бөгөөд удаан дарах, гарч ирэх цонх, бичлэг хийх үед чичиргээ, дууны мэдэгдэл, чичиргээ, дэлгэц дээрх товчлуурууд, дэлгэцийг унтраах гэх мэт.</string>
     <string name="prefs_screen_ui_title">Интерфэйс (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Камерын өдөр /шөнийн горимыг тодорхой цагт автоматаар сольдог</string>
     <string name="prefs_screen_video_day_night_mode_text">Автомат өдөр /шөнийн тохиргоо</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">Видеонуудыг дарж бичихийг хориглох</string>
     <string name="prefs_show_overlay_btn_sum_text">Бүх програмын дээд талд байрлах хяналтын товчлуур бүхий цонхыг харуулна</string>
     <string name="prefs_show_overlay_btn_text">Хөвөгч цонхыг харуулах</string>
+    <string name="prefs_show_overlay_on_recording_text">Бичлэг эхлэх үед хөвөгч цонхыг харуулах</string>
     <string name="prefs_show_status_bar_text">Системийн төлөвийн мөрийг харуулах</string>
     <string name="prefs_show_take_photo_btn_text">Зураг хийх</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Одоогийн камер дэмждэггүй. Үйлдвэрлэгчид ихэвчлэн түүний хэрэглээг хязгаарладаг - энэ нь зөвхөн стандарт Camera програм дээр байдаг</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Видеоны доод хэсэгт хадмал орчуулгыг давхарлана</string>
     <string name="prefs_subtitles_position_bottom_text">Доод талд нь хадмал орчуулга</string>
     <string name="prefs_subtitles_settings_sum_text">Давхардсан видео тайлбар: Огноо (цаг), байршлын хаяг, координат, хурд</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Видеон дээрх давхар тайлбар: огноо (цаг хугацааны тамга), захиалгат текст</string>
     <string name="prefs_subtitles_settings_text">Хадмал орчуулгын тохиргоо</string>
     <string name="prefs_subtitles_size_text">Текстийн хэмжээг нэмэгдүүлэх</string>
     <string name="prefs_subtitles_speed_text">Хурд</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Алдаа мэдээлэх, эвдрэх эсвэл санал тавих</string>
     <string name="prefs_support_text">Дэмжлэг (санал хүсэлт)</string>
     <string name="prefs_system_alert_window_sum_text">Энэ апп-ыг бусад бүх програмын дээр гарч ирэхийг зөвшөөрнө үү. Энэ нь видео бичлэгийг автоматаар эхлүүлэх /зогсоох эсвэл хөвөгч цонхыг харуулахад шаардлагатай</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Энэ апп-ыг бусад бүх програмын дээр гарч ирэхийг зөвшөөрнө үү. Энэ нь хөвөгч цонхыг харуулахад шаардлагатай</string>
     <string name="prefs_system_alert_window_text">Бүх цонхны дээд талд байгаа нягтрал</string>
     <string name="prefs_theme_mode_dark">Харанхуй сэдэв</string>
+    <string name="prefs_theme_mode_dynamic">Динамик</string>
     <string name="prefs_theme_mode_light">Хөнгөн сэдэв</string>
     <string name="prefs_theme_mode_system_auto">Системд байгаа шиг (автомат)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Энэ тохиргоог хийж, мөрдөх үйлчилгээг эхлүүлэхийн тулд үндсэн дэлгэц (бичлэг) рүү буцна уу</string>
     <string name="prefs_toolbar_title_setting">Тохиргоо</string>
     <string name="prefs_translate_sum_text">Өөрийн хэл дээрх текстийн орчуулгыг сайжруулах эсвэл засахад тусална уу</string>
     <string name="prefs_translate_text">Хэрэглээний орчуулга</string>
+    <string name="prefs_ui_app_icon_and_label_change">Систем дэх програмын дүрс болон нэрийг өөрчил</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">Өөрчлөлт хийсний дараа програм хаагдаж, хуучин дүрс нь утасны үндсэн дэлгэц дээр (эсвэл бүх програмын жагсаалтад) устгагдах бөгөөд шинээр гарч ирэх болно.</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Эхлүүлэгчийн дүрс болон нэрийг тохируулна уу</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Мэдэгдлийн дүрс болон нэрийг өөрчлөх</string>
+    <string name="prefs_ui_camera_preview_sum_text">Програмын үндсэн дэлгэц дээр камерын урьдчилж харах</string>
+    <string name="prefs_ui_camera_preview_text">Камерыг урьдчилан харах</string>
     <string name="prefs_ui_click_none_text">Хийх зүйлгүй</string>
     <string name="prefs_ui_click_start_stop_rec_text">Бичлэг эхлүүлэх /зогсоох</string>
     <string name="prefs_ui_click_text">Дэлгэц дээр хурдан товш</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Битийн хурд (чанар)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Камерын хяналтын горим (шөнийн)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Камерын хяналтын горим (өдөр)</string>
+    <string name="prefs_video_codec_sum_text">H.265 HEVC болон AV1 кодлогч нь H.264 AVC-ээс бага битийн хурдаар илүү сайн чанарыг хангадаг тул та битийн хурдыг бууруулснаар зай хэмнэх боломжтой. Гэхдээ зарим видео тоглуулагчид видео тоглуулахгүй байж магадгүй</string>
+    <string name="prefs_video_codec_text">Видео кодлогч</string>
     <string name="prefs_video_control_scene_mode_beach_text">Далайн эрэг (гэрэлт цаг агаар)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Ерөнхий /Нүүрний тэргүүлэх чиглэл</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (Өндөр динамик хүрээ)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Камерын фокус (шөнө)</string>
     <string name="prefs_video_focus_text">Камерын фокус (өдөр)</string>
     <string name="prefs_video_fps_range_text">Секундэд фрэйм ​​(FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Зай хэмнэхийн тулд HEVC (H.265) форматаар бичнэ үү. Та ийм видеог бусад видео тоглуулах төхөөрөмж эсвэл програм дээр тоглуулах боломжгүй байж магадгүй. Өөрчлөлтийн дараа нягтрал болон битийн хурдыг дахин тохируулна</string>
-    <string name="prefs_video_hevc_text">Өндөр үр ашигтай видео кодчилол</string>
     <string name="prefs_video_orientation_text">Видео болон утасны чиг баримжаа</string>
     <string name="prefs_video_resolution_text">Видеоны нягтрал</string>
     <string name="prefs_video_settings_sum_text">Нарийвчлал, битийн хурд, чиг баримжаа, фокус, камер, шөнийн горим</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Том хэмжээтэй - батерейг хурдан шавхдаг</string>
     <string name="prefs_video_space_unlimited">Хязгааргүй</string>
     <string name="prefs_video_stabilization_text">Видео тогтворжуулах</string>
+    <string name="prefs_voice_recorder_app">Арын дэвсгэр дээрх дуу хураагч</string>
     <string name="prefs_warning_location_precise_sum_text">Энэ нь хамгийн зөв GPS-д суурилсан хурд, түүнчлэн хаяг, координатыг олж авахад зайлшгүй шаардлагатай. Илгээхийн тулд товшино уу</string>
     <string name="prefs_warning_location_precise_text">Тодорхой байршлын зөвшөөрөл</string>
     <string name="prefs_warning_notifications_sum_text">Мэдэгдлийн самбар дээр дэвсгэр бичлэгийн үйлчилгээ болон статусыг харуулах боломжтой байх шаардлагатай. Илгээхийн тулд товшино уу</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">цэвэр</string>
     <string name="rec_off_text">Унтраах</string>
     <string name="rec_on_text">Incl.</string>
-    <string name="rec_service_msg">Нууцлал: Таны бичсэн бүх видео зөвхөн таны дотоод төхөөрөмж дээр хадгалагдах болно. Аппликешн нь таны видеог нөөцлөхгүй (сервертэй ямар ч холболт байхгүй)\n\nХэрэв та шинэ бичлэг эхлүүлээд үндсэн дэлгэц рүү буцах, өөр програм руу шилжих, утсаа түгжих эсвэл үргэлжлүүлэн бичлэг хийх боломжтой бол уг програм арын горимд (мэдэгдлийн талбарт гарч ирэх үйлчилгээ) үргэлжлүүлэн ажиллана. та автомат бичлэг хийх функцийг асаана уу (хэрэв та арын үйлчилгээг хаавал эдгээр функц ажиллахгүй болно).</string>
+    <string name="rec_service_msg">Нууцлал: Таны бичсэн бүх видео зөвхөн таны дотоод төхөөрөмж дээр хадгалагдах болно. Аппликешн нь таны видеог нөөцлөхгүй (серверт ямар ч холболт байхгүй)\n\nБичлэг идэвхтэй байх үед, таныг үндсэн дэлгэц рүү буцах, өөр програм руу шилжих эсвэл утсаа түгжиж үргэлжлүүлэн бичлэг хийх, мөн асаалттай байх үед програм нь ард ажиллана (мэдэгдлийн талбарт харагдах үйлчилгээ). автомат бичлэг хийх боломжууд (хэрэв та арын үйлчилгээг хаавал эдгээр функц ажиллахгүй). Аппликешн нь үндсэн нэргүй анализ хийхэд Firebase Analytics ашигладаг (доорх холбоосыг үзнэ үү)</string>
+    <string name="recording_file_name_prefix">Видео файлын нэрийн угтвар</string>
     <string name="recording_start_text">Бичлэг хийж эхлээрэй</string>
     <string name="recording_started_failed_text">Бичлэг эхлүүлэхэд алдаа гарлаа</string>
     <string name="recording_started_with_audio_text">Аудио бичлэгтэй шинэ видео бичлэг хийж эхэллээ</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">Бичлэг хийж байна…</string>
     <string name="recording_voice_started_text">Бичлэг эхэлсэн</string>
     <string name="recording_voice_stopped_text">Бичлэг зогссон</string>
+    <string name="records_file_sorting_date">Огноо</string>
+    <string name="records_file_sorting_duration">Үргэлжлэх хугацаа</string>
+    <string name="records_file_sorting_name">Нэр</string>
+    <string name="records_file_sorting_size">Файлын хэмжээ</string>
+    <string name="records_file_upload_drive">\"Google Drive\"-д хадгалах</string>
     <string name="reset">гадагшлуулах</string>
     <string name="storage_external_single">MicroSD карт</string>
     <string name="storage_phone">Утасны санах ой</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Устгах горим</string>
     <string name="videos_file_item_share">Үүнийг хуваалц</string>
     <string name="videos_file_item_watch">үзэх</string>
+    <string name="videos_file_open_with">-тай нээх</string>
+    <string name="videos_file_select">Сонгох</string>
     <string name="videos_file_sort_asc">Өсөхөөр эрэмбэлэх</string>
     <string name="videos_file_sort_desc">Буурах байдлаар эрэмбэлэх</string>
     <string name="videos_file_was_locked_text">Видео файлыг хамгаалагдсан хавтас руу зөөсөн</string>

@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">jeg accepterer</string>
     <string name="any_text">Nogen</string>
+    <string name="app_alternative_name_audio">Lyd</string>
+    <string name="app_alternative_name_battery">Batteriindstillinger</string>
+    <string name="app_alternative_name_media">Medier</string>
+    <string name="app_alternative_name_media_player">Medie afspiller</string>
+    <string name="app_alternative_name_video">Video</string>
+    <string name="app_name_backgroundvideorecorder">Baggrundsvideooptagelse</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - Kører DVR</string>
     <string name="camera">Kamera</string>
     <string name="camera_aperture">Mellemgulv</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">Kameraet er midlertidigt (var) ikke tilgængeligt til at åbne på din enhed (kamerasystemfejl)</string>
     <string name="camera_support_error">Der opstod en fejl under brug af kameraet.</string>
     <string name="close">Tæt</string>
+    <string name="days">dage</string>
     <string name="default_text">Standard</string>
     <string name="dialog_camera_not_found_msg_text">Denne enhed har ikke et indbygget kamera og understøtter ikke eksterne kameraer. Lukker…</string>
     <string name="dialog_camera_not_found_text">Kamera ikke fundet</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">Du har ingen annoncer.</string>
     <string name="donation_level_text">Dit donationsniveau:</string>
     <string name="donation_purchase_info_loading_text">Indkøbsinformationen er ikke blevet uploadet endnu. Er du online og logget ind på din Google-konto?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Fjern annoncer for altid med en engangsdonation af ethvert beløb. Du kan også donere ethvert beløb månedligt for at fjerne annoncer</string>
-    <string name="donation_subs_any_amount_text">Desuden fjernes reklamer fuldstændigt, når du abonnerer for et hvilket som helst beløb.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Fjern annoncer for altid med en engangsdonation af ethvert beløb. Du kan også donere månedligt for at fjerne annoncer</string>
+    <string name="donation_subs_any_amount_text">Annoncering fjernes fuldstændigt, mens et abonnement for ethvert beløb pr. måned er aktivt.</string>
     <string name="donation_subs_manage_btn_text">Opsige abonnement</string>
+    <string name="donation_subs_no_free_trial_explanation_text">Applikationen giver ikke en prøveperiode for abonnementer, da alle funktioner i applikationen allerede er gratis, fjerner abonnementet kun reklamer</string>
+    <string name="donation_subs_one_text">Annoncering fjernes helt, mens abonnementet er aktivt.</string>
     <string name="donation_subs_text">Doner månedligt</string>
     <string name="format_altitude">Højde</string>
     <string name="format_degrees">Koordinater</string>
@@ -56,6 +65,7 @@
     <string name="from">fra</string>
     <string name="hour">time</string>
     <string name="hours">timer</string>
+    <string name="month">måned</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Applikationen er ikke udelukket fra batterioptimering. Hvis kameraet ikke kører i baggrunden eller noget andet, skal du tilføje denne applikation til undtagelserne af strømbesparende tilstand.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Hvis du geninstallerede applikationen på Android 11, skal de gamle filer slettes manuelt</string>
     <string name="msg_auto_recording_service_was_stopped">Du har stoppet baggrundstjenesten for automatisk at starte videooptagelse. Åbn programmet for at starte det igen.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Optag lyd fra en Bluetooth-enhed</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Brug kun med Bluetooth-hovedtelefoner. Hvis du forbinder til hovedenheden (bilradioen) via Bluetooth, kan dette af en eller anden grund automatisk udløse et telefonopkald til standardnummeret på denne enhed</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Må ikke bruges med hovedenhed (bilradio)!</string>
+    <string name="prefs_audio_codec_title">Audio codec</string>
     <string name="prefs_audio_priority_sum">Hvis det er aktiveret, vil andre applikationer ikke kunne bruge mikrofonen. Hvis den er deaktiveret, kan denne applikation muligvis ikke optage lyd, når flere applikationer kører ved hjælp af mikrofonen (Android tillader ikke altid samtidig brug af mikrofonen)</string>
     <string name="prefs_audio_priority_title">Prioriter lyd til denne app</string>
     <string name="prefs_audio_rate_text">Sampling frekvens</string>
     <string name="prefs_audio_recording_text">Lydoptagelse</string>
     <string name="prefs_audio_settings_sum_text">Kvalitet, slukket/til lydoptagelse</string>
     <string name="prefs_audio_settings_text">Lydindstillinger</string>
+    <string name="prefs_audio_source_camcorder_text">Lydoptagelse fra CAMCORDER virker muligvis ikke på nogle enheder, prøv i dette tilfælde at skifte til MIC</string>
+    <string name="prefs_audio_source_text">Lydkilde</string>
     <string name="prefs_audio_stereo_text">Stereoanlæg</string>
     <string name="prefs_auto_start_app_launch_sum_text">Start videooptagelse automatisk, når appen starter</string>
     <string name="prefs_auto_start_app_launch_text">Når du starter applikationen</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Kør, når den er tilsluttet lydstikket (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Stop, når den er frakoblet lydstikket (AUX)</string>
     <string name="prefs_battery_optimization_sum_text">Batterioptimering kan forhindre appen i at fungere korrekt (for eksempel ved at bruge kameraet eller opdatere placeringen, mens du optager en video i baggrunden). Klik her for at deaktivere det for denne applikation nu</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">Batterioptimering kan forhindre applikationen i at fungere korrekt (f.eks. ved at bruge kameraet og mikrofonen). Klik her for at deaktivere det for denne applikation nu</string>
     <string name="prefs_battery_optimization_text">Batterioptimering</string>
     <string name="prefs_beep_each_start_recording_sum_text">Signal ved begyndelsen af ​​optagelsen af ​​den næste videofil</string>
     <string name="prefs_beep_each_start_recording_text">Bip under optagelse</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Landskab</string>
     <string name="prefs_orientation_landscape_reversed">Album omvendt</string>
     <string name="prefs_orientation_portrait">Portræt</string>
+    <string name="prefs_orientation_sensor_automatic">Automatisk</string>
     <string name="prefs_other_auto_deleting_sum_text">Slet automatisk de ældste videoer under optagelse, hvis der ikke er plads nok til nye videoer</string>
     <string name="prefs_other_auto_deleting_text">Loop-optagelse</string>
     <string name="prefs_other_date_time_text">dato og tid</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Billedplacering (mappe/sti)</string>
     <string name="prefs_other_path_text">Videoplacering (mappe/sti)</string>
     <string name="prefs_other_settings_sum_text">Videoplacering (gem mappe), videovarighed, loop-optagelse, G-sensor, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Placering af videooptagelser (mappe til at gemme), videovarighed, loop-optagelse, maksimal videostørrelse</string>
     <string name="prefs_other_settings_text">Andre indstillinger</string>
     <string name="prefs_other_show_address_text">Nuværende placeringsadresse</string>
     <string name="prefs_other_show_altitude_text">Højde over havets overflade</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Når du starter applikationen, skal du tænde /slukke for opladning, starte systemet</string>
     <string name="prefs_screen_autostart_text">Autostart optagelse</string>
     <string name="prefs_screen_ui_summary_text">Hurtigt/langt tryk på skærmen, slukket skærm, adresse- og hastighedsvisning, pop op-vindue, knapper og mere</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Genvej til at starte optagelse, hurtigt og langt tryk på skærmen, pop op-vindue, vibration ved optagelse, lydmeddelelse, vibration, knapper på skærmen, slukning af skærmen og mere</string>
     <string name="prefs_screen_ui_title">Interface (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Skifter automatisk kameraets dag-/nattilstand på bestemte tidspunkter</string>
     <string name="prefs_screen_video_day_night_mode_text">Auto Dag /Nat indstillinger</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">Blokerer videoer fra at blive overskrevet</string>
     <string name="prefs_show_overlay_btn_sum_text">Viser et vindue med kontrolknapper oven på alle applikationer</string>
     <string name="prefs_show_overlay_btn_text">Vis flydende vindue</string>
+    <string name="prefs_show_overlay_on_recording_text">Vis flydende vindue, når optagelsen starter</string>
     <string name="prefs_show_status_bar_text">Vis systemstatuslinje</string>
     <string name="prefs_show_take_photo_btn_text">At lave et foto</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Ikke understøttet af det aktuelle kamera. Producenter begrænser ofte brugen af ​​det - det er kun tilgængeligt i standardkameraapplikationen</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Overlay undertekster i bunden af ​​videoen</string>
     <string name="prefs_subtitles_position_bottom_text">Undertekster nederst</string>
     <string name="prefs_subtitles_settings_sum_text">Overlay videotekster: Dato (klokkeslæt), lokationsadresse, koordinater og hastighed</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Overlejringstekster på videoer: dato (tidsstempel), tilpasset tekst</string>
     <string name="prefs_subtitles_settings_text">Indstillinger for undertekster</string>
     <string name="prefs_subtitles_size_text">Forøg tekststørrelsen</string>
     <string name="prefs_subtitles_speed_text">Fart</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Rapporter en fejl, nedbrud eller kom med et tilbud</string>
     <string name="prefs_support_text">Support (feedback)</string>
     <string name="prefs_system_alert_window_sum_text">Tillad, at denne app vises oven på alle andre apps. Dette er nødvendigt for automatisk at starte/stoppe videooptagelse eller for at vise et flydende vindue</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Tillad, at denne app vises oven på alle andre apps. Dette er nødvendigt for at vise et flydende vindue</string>
     <string name="prefs_system_alert_window_text">Opløsning oven på alle vinduer</string>
     <string name="prefs_theme_mode_dark">Mørkt tema</string>
+    <string name="prefs_theme_mode_dynamic">Dynamisk</string>
     <string name="prefs_theme_mode_light">Lys tema</string>
     <string name="prefs_theme_mode_system_auto">Som i systemet (automatisk)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Vend tilbage til startskærmen (optagelser) for at anvende denne indstilling og starte sporingstjenesten</string>
     <string name="prefs_toolbar_title_setting">Indstillinger</string>
     <string name="prefs_translate_sum_text">Hjælp med at forbedre eller rette oversættelsen af ​​tekst på dit sprog</string>
     <string name="prefs_translate_text">Ansøgningsoversættelse</string>
+    <string name="prefs_ui_app_icon_and_label_change">Skift ikonet og navnet på programmet i systemet</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">Efter ændringen kan applikationen lukke, det gamle ikon fjernes på telefonens hovedskærm (eller på listen over alle applikationer), og et nyt vises</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Indstil ikonet og navnet på launcheren</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Skift meddelelsesikon og navn</string>
+    <string name="prefs_ui_camera_preview_sum_text">Vis kameraeksempel på appens hovedskærm</string>
+    <string name="prefs_ui_camera_preview_text">Forhåndsvisning af kamera</string>
     <string name="prefs_ui_click_none_text">Ingenting at lave</string>
     <string name="prefs_ui_click_start_stop_rec_text">Start/stop optagelse</string>
     <string name="prefs_ui_click_text">Hurtigt tryk på skærmen</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Bitrate (kvalitet)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kamerastyringsscenetilstand (nat)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kamerastyring Scenetilstand (dag)</string>
+    <string name="prefs_video_codec_sum_text">H.265 HEVC og AV1 codecs giver bedre kvalitet ved lavere bithastigheder end H.264 AVC, så du kan spare plads ved at reducere bithastigheden. Men videoer afspilles muligvis ikke i nogle videoafspillere</string>
+    <string name="prefs_video_codec_text">Video codec</string>
     <string name="prefs_video_control_scene_mode_beach_text">Strand (lyst vejr)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Generelt /Ansigtsprioritet</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (High Dynamic Range)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Kamerafokus (nat)</string>
     <string name="prefs_video_focus_text">Kamerafokus (dag)</string>
     <string name="prefs_video_fps_range_text">Frames Per Second (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Optag i HEVC (H.265) format for at spare plads. Du kan muligvis ikke afspille sådanne videoer på andre videoafspilningsenheder eller applikationer. Vil nulstille opløsning og bitrate efter ændring</string>
-    <string name="prefs_video_hevc_text">Meget effektiv videokodning</string>
     <string name="prefs_video_orientation_text">Video- og telefonorientering</string>
     <string name="prefs_video_resolution_text">Video opløsning</string>
     <string name="prefs_video_settings_sum_text">Opløsning, bithastighed, orientering, fokus, kamera, nattilstand</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Større størrelse - hurtigere batteriafladning</string>
     <string name="prefs_video_space_unlimited">Ubegrænset</string>
     <string name="prefs_video_stabilization_text">Video stabilisering</string>
+    <string name="prefs_voice_recorder_app">Stemmeoptager i baggrunden</string>
     <string name="prefs_warning_location_precise_sum_text">Dette er nødvendigt for at få den mest nøjagtige GPS-baserede hastighed, samt adresse og koordinater. Klik for at indsende</string>
     <string name="prefs_warning_location_precise_text">Tilladelse til nøjagtig placering</string>
     <string name="prefs_warning_notifications_sum_text">Påkrævet for at kunne vise baggrundsoptagelsestjenesten og statusser på meddelelsespanelet. Klik for at indsende</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">Net</string>
     <string name="rec_off_text">Af</string>
     <string name="rec_on_text">Inkl.</string>
-    <string name="rec_service_msg">Fortrolighed: Alle videoer, du optager, bliver kun gemt på din lokale enhed. Applikationen sikkerhedskopierer ikke dine videoer (har ingen forbindelser til servere)\n\nAppen fortsætter med at køre i baggrunden (forgrundstjenesten, der vises i meddelelseslinjen), hvis du starter en ny optagelse og vender tilbage til startskærmen, skifter til en anden app eller låser din telefon for at kunne fortsætte optagelsen, eller hvis du slår funktioner til for automatisk optagelse (hvis du lukker baggrundstjenesten, vil disse funktioner ikke virke).</string>
+    <string name="rec_service_msg">Fortrolighed: Alle videoer, du optager, bliver kun gemt på din lokale enhed. Applikationen sikkerhedskopierer ikke dine videoer (har ingen forbindelser til servere)\n\nAppen fortsætter med at køre i baggrunden (forgrundstjenesten, der vises i meddelelseslinjen), mens optagelsen er aktiv, når du vender tilbage til startskærmen, skifter til en anden app eller låser din telefon for at fortsætte optagelsen, og når du tænder funktioner til automatisk optagelse (hvis du lukker baggrundstjenesten, vil disse funktioner ikke fungere). Appen bruger Firebase Analytics til grundlæggende anonym analyse (se linket nedenfor)</string>
+    <string name="recording_file_name_prefix">Præfiks for videofilnavne</string>
     <string name="recording_start_text">Start optagelsen</string>
     <string name="recording_started_failed_text">Fejl ved start af optagelse</string>
     <string name="recording_started_with_audio_text">En ny videooptagelse med lydoptagelse er begyndt</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">Optager…</string>
     <string name="recording_voice_started_text">Optagelsen er begyndt</string>
     <string name="recording_voice_stopped_text">Optagelse stoppet</string>
+    <string name="records_file_sorting_date">Dato</string>
+    <string name="records_file_sorting_duration">Varighed</string>
+    <string name="records_file_sorting_name">Navn</string>
+    <string name="records_file_sorting_size">Filstørrelse</string>
+    <string name="records_file_upload_drive">Gem i \"Google Drev\"</string>
     <string name="reset">udledning</string>
     <string name="storage_external_single">MicroSD kort</string>
     <string name="storage_phone">Telefonhukommelse</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Slet tilstand</string>
     <string name="videos_file_item_share">Del dette</string>
     <string name="videos_file_item_watch">Kigge på</string>
+    <string name="videos_file_open_with">Åben med</string>
+    <string name="videos_file_select">Vælg for</string>
     <string name="videos_file_sort_asc">Sorter stigende</string>
     <string name="videos_file_sort_desc">Sorter faldende</string>
     <string name="videos_file_was_locked_text">Videofilen er blevet flyttet til en beskyttet mappe</string>

@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">ég samþykki</string>
     <string name="any_text">Einhver</string>
+    <string name="app_alternative_name_audio">Hljóð</string>
+    <string name="app_alternative_name_battery">Rafhlöðustillingar</string>
+    <string name="app_alternative_name_media">Fjölmiðlar</string>
+    <string name="app_alternative_name_media_player">Fjölmiðlaspilari</string>
+    <string name="app_alternative_name_video">Myndband</string>
+    <string name="app_name_backgroundvideorecorder">Bakgrunnsmyndbandsupptaka</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - Akstur DVR</string>
     <string name="camera">Myndavél</string>
     <string name="camera_aperture">Þind</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">Það er tímabundið (var) ekki hægt að opna myndavélina í tækinu þínu (kerfisvilla í myndavél)</string>
     <string name="camera_support_error">Villa kom upp við notkun myndavélarinnar.</string>
     <string name="close">Loka</string>
+    <string name="days">daga</string>
     <string name="default_text">Sjálfgefið</string>
     <string name="dialog_camera_not_found_msg_text">Þetta tæki er ekki með innbyggða myndavél og styður ekki ytri myndavélar. Lokar…</string>
     <string name="dialog_camera_not_found_text">Myndavél fannst ekki</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">Þú átt engar auglýsingar.</string>
     <string name="donation_level_text">Framlag þitt:</string>
     <string name="donation_purchase_info_loading_text">Innkaupaupplýsingunum hefur ekki verið hlaðið upp ennþá. Ertu á netinu og skráður inn á Google reikninginn þinn?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Fjarlægðu auglýsingar að eilífu með einu sinni framlagi af hvaða upphæð sem er. Þú getur líka gefið hvaða upphæð sem er mánaðarlega til að fjarlægja auglýsingar</string>
-    <string name="donation_subs_any_amount_text">Einnig eru auglýsingar algjörlega fjarlægðar þegar þú gerist áskrifandi fyrir hvaða upphæð sem er.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Fjarlægðu auglýsingar að eilífu með einu sinni framlagi af hvaða upphæð sem er. Þú getur líka gefið mánaðarlega til að fjarlægja auglýsingar</string>
+    <string name="donation_subs_any_amount_text">Auglýsingar eru alveg fjarlægðar á meðan áskrift fyrir hvaða upphæð sem er á mánuði er virk.</string>
     <string name="donation_subs_manage_btn_text">Hætta áskrift</string>
+    <string name="donation_subs_no_free_trial_explanation_text">Forritið veitir ekki prufutíma fyrir áskrift, þar sem allar aðgerðir forritsins eru þegar ókeypis, fjarlægir áskrift aðeins auglýsingar</string>
+    <string name="donation_subs_one_text">Auglýsingar eru alveg fjarlægðar á meðan áskriftin er virk.</string>
     <string name="donation_subs_text">Gefðu mánaðarlega</string>
     <string name="format_altitude">Hæð</string>
     <string name="format_degrees">Hnit</string>
@@ -56,6 +65,7 @@
     <string name="from">frá</string>
     <string name="hour">klukkustund</string>
     <string name="hours">klukkustundir</string>
+    <string name="month">mánuði</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Forritið er ekki útilokað frá hagræðingu rafhlöðunnar. Ef myndavélin er ekki í gangi í bakgrunni eða eitthvað annað skaltu bæta þessu forriti við undantekningarnar á orkusparnaðarstillingunni.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Ef þú settir forritið upp aftur á Android 11 verður að eyða gömlum skrám handvirkt</string>
     <string name="msg_auto_recording_service_was_stopped">Þú hefur stöðvað bakgrunnsþjónustuna til að hefja myndbandsupptöku sjálfkrafa. Opnaðu forritið til að ræsa það aftur.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Taktu upp hljóð úr Bluetooth tæki</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Notist aðeins með Bluetooth heyrnartólum. Ef þú tengist höfuðeiningunni (bílaútvarpinu) í gegnum Bluetooth, getur þetta af einhverjum ástæðum kallað sjálfkrafa af stað símtali í venjulega númerið á þessu tæki</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Ekki nota með höfuðeiningu (bílaútvarp)!</string>
+    <string name="prefs_audio_codec_title">Hljóð merkjamál</string>
     <string name="prefs_audio_priority_sum">Ef það er virkt munu önnur forrit ekki geta notað hljóðnemann. Ef slökkt er á því gæti þetta forrit ekki tekið upp hljóð þegar mörg forrit eru í gangi með hljóðnemanum (Android leyfir ekki alltaf samtímis notkun hljóðnemans)</string>
     <string name="prefs_audio_priority_title">Forgangsraðaðu hljóði í þetta forrit</string>
     <string name="prefs_audio_rate_text">Sýnatökutíðni</string>
     <string name="prefs_audio_recording_text">Hljóðupptaka</string>
     <string name="prefs_audio_settings_sum_text">Gæði, slökkt /á hljóðupptöku</string>
     <string name="prefs_audio_settings_text">Hljóðstillingar</string>
+    <string name="prefs_audio_source_camcorder_text">Hljóðupptaka frá CAMCORDER virkar kannski ekki í sumum tækjum, í þessu tilviki skaltu reyna að breyta í MIC</string>
+    <string name="prefs_audio_source_text">Hljóðgjafi</string>
     <string name="prefs_audio_stereo_text">Hljómtæki</string>
     <string name="prefs_auto_start_app_launch_sum_text">Byrjaðu myndbandsupptöku sjálfkrafa þegar appið ræsir</string>
     <string name="prefs_auto_start_app_launch_text">Þegar þú byrjar forritið</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Keyra þegar það er tengt við hljóðtengið (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Stöðva þegar það er aftengt frá hljóðtengi (AUX)</string>
     <string name="prefs_battery_optimization_sum_text">Rafhlaða fínstilling getur komið í veg fyrir að appið virki rétt (til dæmis með því að nota myndavélina eða uppfæra staðsetninguna á meðan myndband er tekið upp í bakgrunni). Smelltu hér til að slökkva á því fyrir þetta forrit núna</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">Hagræðing rafhlöðu getur komið í veg fyrir að forritið virki rétt (til dæmis með því að nota myndavélina og hljóðnemann). Smelltu hér til að slökkva á því fyrir þetta forrit núna</string>
     <string name="prefs_battery_optimization_text">Rafhlaða fínstilling</string>
     <string name="prefs_beep_each_start_recording_sum_text">Merki í upphafi upptöku á næstu myndbandsskrá</string>
     <string name="prefs_beep_each_start_recording_text">Píp við upptöku</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Landslag</string>
     <string name="prefs_orientation_landscape_reversed">Albúm afturábak</string>
     <string name="prefs_orientation_portrait">Andlitsmynd</string>
+    <string name="prefs_orientation_sensor_automatic">Sjálfvirk</string>
     <string name="prefs_other_auto_deleting_sum_text">Eyddu sjálfkrafa elstu myndböndunum meðan á upptöku stendur ef ekki er nóg pláss fyrir ný myndbönd</string>
     <string name="prefs_other_auto_deleting_text">Lykkjuupptaka</string>
     <string name="prefs_other_date_time_text">Dagsetning og tími</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Staðsetning mynd (mappa /slóð)</string>
     <string name="prefs_other_path_text">Staðsetning myndbands (mappa /slóð)</string>
     <string name="prefs_other_settings_sum_text">Staðsetning myndbands (vista möppu), lengd myndbands, upptaka lykkja, G-skynjari, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Staðsetning myndbandsupptöku (möppu til að vista), lengd myndbands, lykkjaupptaka, hámarks myndbandsstærð</string>
     <string name="prefs_other_settings_text">Aðrar stillingar</string>
     <string name="prefs_other_show_address_text">Heimilisfang núverandi staðsetningar</string>
     <string name="prefs_other_show_altitude_text">Hæð yfir sjávarmáli</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Þegar þú ræsir forritið skaltu kveikja /slökkva á hleðslu, ræstu kerfið</string>
     <string name="prefs_screen_autostart_text">Sjálfvirk ræsing upptöku</string>
     <string name="prefs_screen_ui_summary_text">Hratt/langt ýtt á skjáinn, slökkt á skjánum, vistfang og hraðaskjár, sprettigluggi, hnappar og fleira</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Flýtileið til að hefja upptöku, stutt og lengi á skjáinn, sprettigluggi, titringur við upptöku, hljóðtilkynning, titringur, hnappar á skjánum, slökkt á skjánum og fleira</string>
     <string name="prefs_screen_ui_title">Viðmót (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Skiptir sjálfkrafa um dag /næturstillingu myndavélarinnar á ákveðnum tímum</string>
     <string name="prefs_screen_video_day_night_mode_text">Sjálfvirkar stillingar dag/nætur</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">Lokar á að vídeó verði skrifað yfir</string>
     <string name="prefs_show_overlay_btn_sum_text">Sýnir glugga með stýrihnappum ofan á öll forrit</string>
     <string name="prefs_show_overlay_btn_text">Sýna fljótandi glugga</string>
+    <string name="prefs_show_overlay_on_recording_text">Sýna fljótandi glugga þegar upptaka hefst</string>
     <string name="prefs_show_status_bar_text">Sýna stöðustiku kerfisins</string>
     <string name="prefs_show_take_photo_btn_text">Til að gera mynd</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Ekki stutt af núverandi myndavél. Framleiðendur takmarka oft notkun þess - það er aðeins fáanlegt í venjulegu myndavélaforritinu</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Leggðu yfir texta neðst í myndbandinu</string>
     <string name="prefs_subtitles_position_bottom_text">Texti neðst</string>
     <string name="prefs_subtitles_settings_sum_text">Yfirlögðu myndtextar: Dagsetning (tími), heimilisfang staðsetningar, hnit og hraði</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Yfirlögðu skjátextar á myndböndum: dagsetning (tímastimpill), sérsniðinn texti</string>
     <string name="prefs_subtitles_settings_text">Textastillingar</string>
     <string name="prefs_subtitles_size_text">Auka textastærð</string>
     <string name="prefs_subtitles_speed_text">Hraði</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Tilkynntu villu, hrun eða gerðu tilboð</string>
     <string name="prefs_support_text">Stuðningur (viðbrögð)</string>
     <string name="prefs_system_alert_window_sum_text">Leyfa þessu forriti að birtast ofan á öll önnur forrit. Þetta er nauðsynlegt til að hefja /stöðva myndbandsupptöku sjálfkrafa eða til að birta fljótandi glugga</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Leyfa þessu forriti að birtast ofan á öll önnur forrit. Þetta er nauðsynlegt til að birta fljótandi glugga</string>
     <string name="prefs_system_alert_window_text">Upplausn ofan á alla glugga</string>
     <string name="prefs_theme_mode_dark">Dökkt þema</string>
+    <string name="prefs_theme_mode_dynamic">Dynamic</string>
     <string name="prefs_theme_mode_light">Létt þema</string>
     <string name="prefs_theme_mode_system_auto">Eins og í kerfinu (sjálfvirkt)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Farðu aftur á heimaskjáinn (upptökur) til að beita þessari stillingu og hefja mælingarþjónustuna</string>
     <string name="prefs_toolbar_title_setting">Stillingar</string>
     <string name="prefs_translate_sum_text">Hjálpaðu til við að bæta eða laga þýðingu texta á þínu tungumáli</string>
     <string name="prefs_translate_text">Þýðing forrita</string>
+    <string name="prefs_ui_app_icon_and_label_change">Breyttu tákninu og nafni forritsins í kerfinu</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">Eftir breytinguna gæti forritinu lokað, gamla táknið verður fjarlægt á aðalskjá símans (eða á lista yfir öll forrit) og nýtt birtist</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Stilltu táknið og nafn ræsiforritsins</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Breyta tilkynningartákni og nafni</string>
+    <string name="prefs_ui_camera_preview_sum_text">Sýna forskoðun myndavélar á aðal appskjánum</string>
+    <string name="prefs_ui_camera_preview_text">Forskoðun myndavélar</string>
     <string name="prefs_ui_click_none_text">Ekkert að gera</string>
     <string name="prefs_ui_click_start_stop_rec_text">Byrja /hætta upptöku</string>
     <string name="prefs_ui_click_text">Bankaðu hratt á skjáinn</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Bitahraði (gæði)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Umhverfisstilling myndavélarstýringar (nótt)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Umhverfisstilling myndavélarstýringar (dagur)</string>
+    <string name="prefs_video_codec_sum_text">H.265 HEVC og AV1 merkjamál veita betri gæði við lægri bitahraða en H.264 AVC, svo þú getur sparað pláss með því að minnka bitahraðann. En myndbönd geta ekki spilað í sumum myndspilurum</string>
+    <string name="prefs_video_codec_text">Vídeó merkjamál</string>
     <string name="prefs_video_control_scene_mode_beach_text">Strönd (bjart veður)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Almennt /Andlitsforgangur</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (High Dynamic Range)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Fókus myndavélar (nótt)</string>
     <string name="prefs_video_focus_text">Fókus myndavélar (dagur)</string>
     <string name="prefs_video_fps_range_text">Rammar á sekúndu (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Taktu upp á HEVC (H.265) sniði til að spara pláss. Þú gætir ekki spilað slík myndbönd í öðrum myndspilunartækjum eða forritum. Mun endurstilla upplausn og bitahraða eftir breytingu</string>
-    <string name="prefs_video_hevc_text">Mjög skilvirk myndkóðun</string>
     <string name="prefs_video_orientation_text">Kynning á myndbandi og síma</string>
     <string name="prefs_video_resolution_text">Myndbandsupplausn</string>
     <string name="prefs_video_settings_sum_text">Upplausn, bitahraði, stefnu, fókus, myndavél, næturstilling</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Stærri stærð - hraðari tæmingu rafhlöðunnar</string>
     <string name="prefs_video_space_unlimited">Ótakmarkað</string>
     <string name="prefs_video_stabilization_text">Stöðugleiki myndbands</string>
+    <string name="prefs_voice_recorder_app">Raddupptökutæki í bakgrunni</string>
     <string name="prefs_warning_location_precise_sum_text">Þetta er nauðsynlegt til að fá sem nákvæmastan GPS-hraða, sem og heimilisfang og hnit. Smelltu til að senda inn</string>
     <string name="prefs_warning_location_precise_text">Leyfi fyrir nákvæma staðsetningu</string>
     <string name="prefs_warning_notifications_sum_text">Nauðsynlegt til að geta sýnt bakgrunnsupptökuþjónustuna og stöður á tilkynningaborðinu. Smelltu til að senda inn</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">Nettó</string>
     <string name="rec_off_text">Af</string>
     <string name="rec_on_text">Þ.m.t.</string>
-    <string name="rec_service_msg">Friðhelgi: Öll myndbönd sem þú tekur upp verða aðeins vistuð á þínu staðbundna tæki. Forritið tekur ekki afrit af myndböndunum þínum (er ekki með neinar tengingar við netþjóna)\n\nForritið mun halda áfram að keyra í bakgrunni (forgrunnsþjónustan sem birtist á tilkynningastikunni) ef þú byrjar nýja upptöku og fer aftur á heimaskjáinn, skiptir yfir í annað forrit eða læsir símanum þínum til að geta haldið áfram upptöku, eða ef þú kveikir á aðgerðum fyrir sjálfvirka upptöku (ef þú lokar bakgrunnsþjónustunni virka þessar aðgerðir ekki).</string>
+    <string name="rec_service_msg">Persónuvernd: Öll myndbönd sem þú tekur upp verða aðeins vistuð á þínu staðbundna tæki. Forritið tekur ekki afrit af myndböndunum þínum (er ekki með neinar tengingar við netþjóna)\n\nForritið mun halda áfram að keyra í bakgrunni (forgrunnsþjónustan sem birtist á tilkynningastikunni) á meðan upptaka er virk, þegar þú ferð aftur á heimaskjáinn, skiptir yfir í annað forrit eða læsir símanum þínum til að halda upptöku áfram og þegar þú kveikir á eiginleikar fyrir sjálfvirka upptöku (ef þú lokar bakgrunnsþjónustunni virka þessar aðgerðir ekki). Forritið notar Firebase Analytics fyrir grunn nafnlausar greiningar (sjá tengil hér að neðan)</string>
+    <string name="recording_file_name_prefix">Forskeyti fyrir nöfn myndbandsskráa</string>
     <string name="recording_start_text">Byrjaðu að taka upp</string>
     <string name="recording_started_failed_text">Villa við að hefja upptöku</string>
     <string name="recording_started_with_audio_text">Ný myndbandsupptaka með hljóðupptöku er hafin</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">Tekur upp…</string>
     <string name="recording_voice_started_text">Upptaka er hafin</string>
     <string name="recording_voice_stopped_text">Upptaka hætt</string>
+    <string name="records_file_sorting_date">Dagsetning</string>
+    <string name="records_file_sorting_duration">Lengd</string>
+    <string name="records_file_sorting_name">Nafn</string>
+    <string name="records_file_sorting_size">Skjala stærð</string>
+    <string name="records_file_upload_drive">Vista á „Google Drive“</string>
     <string name="reset">útskrift</string>
     <string name="storage_external_single">MicroSD kort</string>
     <string name="storage_phone">Minni símans</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Eyða ham</string>
     <string name="videos_file_item_share">Deildu þessu</string>
     <string name="videos_file_item_watch">Horfðu á</string>
+    <string name="videos_file_open_with">Opna með</string>
+    <string name="videos_file_select">Veldu fyrir</string>
     <string name="videos_file_sort_asc">Raða Hækkandi</string>
     <string name="videos_file_sort_desc">Raða lækkandi</string>
     <string name="videos_file_was_locked_text">Myndbandsskráin hefur verið færð í verndaða möppu</string>

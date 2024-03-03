@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">Tha mi a\' gabhail</string>
     <string name="any_text">Sam bith</string>
+    <string name="app_alternative_name_audio">Fuaim</string>
+    <string name="app_alternative_name_battery">Suidheachaidhean bataraidh</string>
+    <string name="app_alternative_name_media">Na meadhanan</string>
+    <string name="app_alternative_name_media_player">Cluicheadair mheadhanan</string>
+    <string name="app_alternative_name_video">Bhideo</string>
+    <string name="app_name_backgroundvideorecorder">Clàradh bhidio cùl-fhiosrachaidh</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - A ’dràibheadh ​​DVR</string>
     <string name="camera">Camara</string>
     <string name="camera_aperture">Diaphragm</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">Chan eil an camara ri fhaighinn airson ùine ghoirid (cha robh) ri fhosgladh air an inneal agad (mearachd siostam camara)</string>
     <string name="camera_support_error">Thachair mearachd fhad ‘s a bha thu a’ cleachdadh a ’chamara.</string>
     <string name="close">Dùin</string>
+    <string name="days">làithean</string>
     <string name="default_text">Default</string>
     <string name="dialog_camera_not_found_msg_text">Chan eil camara togte aig an inneal seo agus chan eil e a ’toirt taic do chamarathan taobh a-muigh. A ’dùnadh…</string>
     <string name="dialog_camera_not_found_text">Cha deach an camara a lorg</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">Chan eil sanasan agad.</string>
     <string name="donation_level_text">An ìre tabhartais agad:</string>
     <string name="donation_purchase_info_loading_text">Cha deach am fiosrachadh ceannach a luchdachadh suas fhathast. A bheil thu air-loidhne agus air logadh a-steach don chunntas Ghoogle agad?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Thoir air falbh sanasan gu bràth le tabhartas aon-ùine de mheud sam bith. Faodaidh tu cuideachd suim sam bith a thoirt seachad gach mìos gus sanasan a thoirt air falbh</string>
-    <string name="donation_subs_any_amount_text">Cuideachd, thèid sanasachd a thoirt air falbh gu tur nuair a nì thu ballrachd airson suim sam bith.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Thoir air falbh sanasan gu bràth le tabhartas aon-ùine de mheud sam bith. Faodaidh tu cuideachd tabhartas mìosail a thoirt seachad gus sanasan a thoirt air falbh</string>
+    <string name="donation_subs_any_amount_text">Thèid sanasachd a thoirt air falbh gu tur fhad ‘s a tha ballrachd airson suim sam bith gach mìos gnìomhach.</string>
     <string name="donation_subs_manage_btn_text">Gun chlàradh</string>
+    <string name="donation_subs_no_free_trial_explanation_text">Chan eil an aplacaid a’ toirt seachad ùine deuchainn airson ballrachdan, leis gu bheil a h-uile gnìomh den aplacaid an-asgaidh mu thràth, cha toir ballrachd ach sanasachd air falbh</string>
+    <string name="donation_subs_one_text">Thèid sanasachd a thoirt air falbh gu tur fhad ‘s a tha an fho-sgrìobhadh gnìomhach.</string>
     <string name="donation_subs_text">Thoir seachad mìosail</string>
     <string name="format_altitude">Àirde</string>
     <string name="format_degrees">Co-chomharran</string>
@@ -56,6 +65,7 @@
     <string name="from">bho</string>
     <string name="hour">uair</string>
     <string name="hours">uairean</string>
+    <string name="month">mìos</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Chan eil an tagradh air a thoirmeasg bho optimization bataraidh. Mura h-eil an camara a’ ruith air a’ chùl no rudeigin eile, cuir an aplacaid seo ris ach a-mhàin am modh sàbhalaidh cumhachd.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Ma chuir thu a-steach an aplacaid a-rithist air Android 11, feumar na seann fhaidhlichean a thoirt às le làimh</string>
     <string name="msg_auto_recording_service_was_stopped">Tha thu air stad a chuir air an t-seirbheis cùl-fhiosrachaidh airson tòiseachadh air clàradh bhidio gu fèin-ghluasadach. Fosgail an aplacaid gus a chuir air bhog a-rithist.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Clàraich fuaim bho inneal Bluetooth</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Cleachd a-mhàin le fònaichean-cluaise Bluetooth. Ma cheanglas tu ris an aonad ceann (rèidio càr) tro Bluetooth, an uairsin airson adhbhar air choireigin faodaidh seo fios fòn a chuir gu fèin-ghluasadach chun àireamh àbhaisteach air an inneal seo</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Na cleachd le aonad ceann (rèidio càr)!</string>
+    <string name="prefs_audio_codec_title">Codec airson fuaim</string>
     <string name="prefs_audio_priority_sum">Ma tha e air a chomasachadh, cha bhith e comasach dha tagraidhean eile am micreofon a chleachdadh. Ma tha e ciorramach, is dòcha nach bi an aplacaid seo comasach air claisneachd a chlàradh nuair a bhios grunn thagraidhean a’ ruith a ’cleachdadh a’ mhaicreafòn (cha leig Android an-còmhnaidh am micreofon a chleachdadh aig an aon àm)</string>
     <string name="prefs_audio_priority_title">Cuir prìomhachas air fuaim don aplacaid seo</string>
     <string name="prefs_audio_rate_text">Tricead samplachaidh</string>
     <string name="prefs_audio_recording_text">Clàradh claisneachd</string>
     <string name="prefs_audio_settings_sum_text">Càileachd, dheth /air clàradh fuaim</string>
     <string name="prefs_audio_settings_text">Suidhichidhean fuaim</string>
+    <string name="prefs_audio_source_camcorder_text">Is dòcha nach obraich clàradh claisneachd bho CAMCORDER air cuid de dh’ innealan, sa chùis seo feuch ri atharrachadh gu MIC</string>
+    <string name="prefs_audio_source_text">Stòr Fuaim</string>
     <string name="prefs_audio_stereo_text">Stereo</string>
     <string name="prefs_auto_start_app_launch_sum_text">Tòisich a ’clàradh bhidio gu fèin-ghluasadach nuair a thòisicheas an aplacaid</string>
     <string name="prefs_auto_start_app_launch_text">Nuair a thòisicheas tu air an tagradh</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Ruith nuair a thèid a phlugadh a-steach don jack claisneachd (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Stad nuair a tha thu air do sgaradh bho jack claisneachd (AUX)</string>
     <string name="prefs_battery_optimization_sum_text">Faodaidh optimization bataraidh casg a chuir air an aplacaid bho bhith ag obair gu ceart (mar eisimpleir, a ’cleachdadh a’ chamara no ag ùrachadh an àite fhad ‘s a tha thu a’ clàradh bhidio air a ’chùl). Cliog an seo gus a chuir dheth airson an tagradh seo a-nis</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">Faodaidh optimization bataraidh casg a chuir air an tagradh bho bhith ag obair gu ceart (mar eisimpleir, a ’cleachdadh a’ chamara agus am micreofon). Cliog an seo gus a chuir dheth airson an aplacaid seo a-nis</string>
     <string name="prefs_battery_optimization_text">Optimization bataraidh</string>
     <string name="prefs_beep_each_start_recording_sum_text">Comharradh aig toiseach clàradh an ath fhaidhle bhidio</string>
     <string name="prefs_beep_each_start_recording_text">Beep nuair a bhios tu a’ clàradh</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Cruth-tìre</string>
     <string name="prefs_orientation_landscape_reversed">Album air ais</string>
     <string name="prefs_orientation_portrait">Dealbh</string>
+    <string name="prefs_orientation_sensor_automatic">fèin-ghluasadach</string>
     <string name="prefs_other_auto_deleting_sum_text">Cuir às gu fèin-ghluasadach na bhideothan as sine fhad ‘s a tha iad a’ clàradh mura h-eil àite gu leòr ann airson bhideothan ùra</string>
     <string name="prefs_other_auto_deleting_text">Clàradh lùb</string>
     <string name="prefs_other_date_time_text">ceann-latha agus uair</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Suidheachadh dealbh (pasgan /slighe)</string>
     <string name="prefs_other_path_text">Suidheachadh bhidio (pasgan /slighe)</string>
     <string name="prefs_other_settings_sum_text">Suidheachadh bhidio (pasgan sàbhalaidh), fad bhidio, clàradh lùb, G-sensor, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Suidheachadh chlàran bhidio (pasgan ri shàbhaladh), fad bhidio, clàradh lùb, meud bhidio as àirde</string>
     <string name="prefs_other_settings_text">Suidhichidhean eile</string>
     <string name="prefs_other_show_address_text">Seòladh suidheachaidh gnàthach</string>
     <string name="prefs_other_show_altitude_text">Àirde os cionn ìre na mara</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Nuair a thòisicheas tu an tagradh, cuir air /dheth cosgais, cuir greim air an t-siostam</string>
     <string name="prefs_screen_autostart_text">Clàradh autostart</string>
     <string name="prefs_screen_ui_summary_text">Sgrion preas luath /fada, sgrion dheth, taisbeanadh seòladh is astar, uinneag popup, putanan agus barrachd</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Ath-ghoirid gus tòiseachadh air clàradh, brùth luath is fada air an sgrion, uinneag pop-up, crathadh nuair a bhios tu a ’clàradh, fios fuaim, crathadh, putanan air an sgrion, cuir dheth an scrion agus barrachd</string>
     <string name="prefs_screen_ui_title">Eadar-aghaidh (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Bidh e gu fèin-ghluasadach ag atharrachadh modhan latha /oidhche camara aig amannan sònraichte</string>
     <string name="prefs_screen_video_day_night_mode_text">Suidhichidhean latha /oidhche fèin-ghluasadach</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">A ’blocadh bhideothan bho bhith air an sgrìobhadh thairis</string>
     <string name="prefs_show_overlay_btn_sum_text">A ’taisbeanadh uinneag le putanan smachd air mullach gach tagradh</string>
     <string name="prefs_show_overlay_btn_text">Seall uinneag air bhog</string>
+    <string name="prefs_show_overlay_on_recording_text">Seall uinneag air bhog nuair a thòisicheas clàradh</string>
     <string name="prefs_show_status_bar_text">Seall bàr inbhe siostam</string>
     <string name="prefs_show_take_photo_btn_text">Gus dealbh a dhèanamh</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Gun taic bhon chamara gnàthach. Bidh luchd-saothrachaidh gu tric a ’cuingealachadh cleachdadh - tha e ri fhaighinn a-mhàin san tagradh Camara àbhaisteach</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Cuir thairis fo-thiotalan aig bonn a’ bhidio</string>
     <string name="prefs_subtitles_position_bottom_text">Fo-thiotalan aig a’ bhonn</string>
     <string name="prefs_subtitles_settings_sum_text">Cuir a-steach fo-thiotalan bhidio: Ceann-latha (àm), seòladh àite, co-chomharran agus astar</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Fo-thiotalan ath-chòmhdach air bhideothan: ceann-latha (stampa ùine), teacsa àbhaisteach</string>
     <string name="prefs_subtitles_settings_text">Suidhich fo-thiotalan</string>
     <string name="prefs_subtitles_size_text">Meudaich meud teacsa</string>
     <string name="prefs_subtitles_speed_text">Astar</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Dèan aithris air bug, tubaist no dèan tairgse</string>
     <string name="prefs_support_text">Taic (fios air ais)</string>
     <string name="prefs_system_alert_window_sum_text">Leig leis an aplacaid seo nochdadh air mullach a h-uile aplacaid eile. Tha seo riatanach gus clàradh bhidio a thòiseachadh /stad gu fèin-ghluasadach no gus uinneag a tha a ’fleòdradh a thaisbeanadh</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Leig leis an aplacaid seo nochdadh air mullach gach aplacaid eile. Tha seo riatanach gus uinneag fleòdraidh a thaisbeanadh</string>
     <string name="prefs_system_alert_window_text">Rùn air mullach na h-uinneige gu lèir</string>
     <string name="prefs_theme_mode_dark">Cuspair dorcha</string>
+    <string name="prefs_theme_mode_dynamic">fiùghantach</string>
     <string name="prefs_theme_mode_light">Cuspair aotrom</string>
     <string name="prefs_theme_mode_system_auto">Mar anns an t-siostam (fèin-ghluasadach)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Till air ais chun sgrion dachaigh (clàraidhean) gus an suidheachadh seo a chuir an gnìomh agus tòiseachadh air an t-seirbheis tracadh</string>
     <string name="prefs_toolbar_title_setting">Suidhichidhean</string>
     <string name="prefs_translate_sum_text">Cuidich le bhith ag adhartachadh no a’ càradh eadar-theangachadh teacsa sa chànan agad</string>
     <string name="prefs_translate_text">Eadar-theangachadh Iarrtais</string>
+    <string name="prefs_ui_app_icon_and_label_change">Atharraich ìomhaigh agus ainm an tagraidh san t-siostam</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">Às deidh an atharrachadh, faodaidh an tagradh dùnadh, thèid an seann ìomhaigh a thoirt air falbh air prìomh scrion an fhòn (no anns an liosta de na h-aplacaidean gu lèir), agus nochdaidh fear ùr</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Suidhich ìomhaigh agus ainm an lannsair</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Atharraich ìomhaigh fios agus ainm</string>
+    <string name="prefs_ui_camera_preview_sum_text">Seall ro-shealladh camara air prìomh scrion an aplacaid</string>
+    <string name="prefs_ui_camera_preview_text">Ro-shealladh camara</string>
     <string name="prefs_ui_click_none_text">Chan eil dad ri dhèanamh</string>
     <string name="prefs_ui_click_start_stop_rec_text">Tòisich /stad a ’clàradh</string>
     <string name="prefs_ui_click_text">Tap luath air an sgrion</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Bitrate (càileachd)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Modh Seallaidh Smachd Camara (Oidhche)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Modh Seallaidh Smachd Camara (Latha)</string>
+    <string name="prefs_video_codec_sum_text">Bidh codecs H.265 HEVC agus AV1 a’ toirt seachad càileachd nas fheàrr aig bitrates nas ìsle na H.264 AVC, gus an urrainn dhut àite a shàbhaladh le bhith a’ lughdachadh am bitrate. Ach is dòcha nach bi bhideothan a’ cluich ann an cuid de chluicheadairean bhidio</string>
+    <string name="prefs_video_codec_text">Codec airson bhidio</string>
     <string name="prefs_video_control_scene_mode_beach_text">tràigh (sìde shoilleir)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Prìomhachas Coitcheann /Aghaidh</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (Raon Àrd Dynamic)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Fòcas air a ’chamara (oidhche)</string>
     <string name="prefs_video_focus_text">Fòcas camara (latha)</string>
     <string name="prefs_video_fps_range_text">Frèamaichean gach diog (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Clàraich ann an cruth HEVC (H.265) gus àite a shàbhaladh. Is dòcha nach urrainn dhut a leithid de bhideothan a chluich air innealan no tagraidhean ath-chluich bhidio eile. Bidh ath-shuidheachadh rùn agus bitrate às deidh atharrachadh</string>
-    <string name="prefs_video_hevc_text">Còdadh bhidio fìor èifeachdach</string>
     <string name="prefs_video_orientation_text">Stiùireadh bhidio agus fòn</string>
     <string name="prefs_video_resolution_text">Fuasgladh bhidio</string>
     <string name="prefs_video_settings_sum_text">Fuasgladh, ìre bit, stiùireadh, fòcas, camara, modh oidhche</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Meud nas motha - drèanadh bataraidh nas luaithe</string>
     <string name="prefs_video_space_unlimited">Gun chrìoch</string>
     <string name="prefs_video_stabilization_text">Seasmhachd bhidio</string>
+    <string name="prefs_voice_recorder_app">Clàradh Guth ann an Cùl-fhiosrachadh</string>
     <string name="prefs_warning_location_precise_sum_text">Tha seo riatanach gus an astar GPS as ceart fhaighinn, a bharrachd air seòladh agus co-chomharran. Cliog gus a chuir a-steach</string>
     <string name="prefs_warning_location_precise_text">Cead airson an dearbh àite</string>
     <string name="prefs_warning_notifications_sum_text">A dhìth gus a bhith comasach air an t-seirbheis clàraidh cùl-fhiosrachaidh agus na h-inbhean a thaisbeanadh air a’ phannal fios. Cliog gus a chuir a-steach</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">Net</string>
     <string name="rec_off_text">Air falbh</string>
     <string name="rec_on_text">Incl.</string>
-    <string name="rec_service_msg">Prìobhaideachd: Cha tèid a h-uile bhidio a chlàras tu a shàbhaladh ach air an inneal ionadail agad. Cha dèan an aplacaid cùl-taic de na bhideothan agad (chan eil ceanglaichean aige ri frithealaichean)\n\nLeanaidh an aplacaid a’ ruith air a’ chùl (an t-seirbheis aghaidh a tha a’ nochdadh anns a’ bhàr fios) ma thòisicheas tu air clàradh ùr agus gun till thu chun sgrion dachaigh, atharraich gu app eile no ma ghlasas tu am fòn agad gus an urrainn dhut leantainn air adhart a’ clàradh, no ma tionndaidhidh tu air gnìomhan airson clàradh fèin-ghluasadach (ma dhùineas tu an t-seirbheis cùl-fhiosrachaidh, chan obraich na gnìomhan sin).</string>
+    <string name="rec_service_msg">Prìobhaideachd: Cha tèid a h-uile bhidio a chlàras tu a shàbhaladh ach air an inneal ionadail agad. Cha dèan an aplacaid cùl-taic de na bhideothan agad (chan eil ceanglaichean aige ri frithealaichean)\n\nLeanaidh an aplacaid a ’ruith air a’ chùl (an t-seirbheis aghaidh a tha a ’nochdadh sa bhàr fios) fhad‘ s a tha clàradh gnìomhach, nuair a thilleas tu chun sgrion dachaigh, gluais gu app eile no glas am fòn agad gus leantainn air adhart a ’clàradh, agus nuair a thionndaidheas tu air feartan airson clàradh fèin-ghluasadach (ma dhùineas tu an t-seirbheis cùl-fhiosrachaidh, chan obraich na gnìomhan sin). Bidh an app a’ cleachdadh Firebase Analytics airson mion-sgrùdadh bunaiteach gun urra (faic an ceangal gu h-ìosal)</string>
+    <string name="recording_file_name_prefix">Ro-leasachan airson ainmean faidhle bhidio</string>
     <string name="recording_start_text">Tòisich a ’clàradh</string>
     <string name="recording_started_failed_text">Mearachd a ’tòiseachadh a’ clàradh</string>
     <string name="recording_started_with_audio_text">Tha clàradh bhidio ùr le clàradh claisneachd air tòiseachadh</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">A ’clàradh…</string>
     <string name="recording_voice_started_text">Tha clàradh air tòiseachadh</string>
     <string name="recording_voice_stopped_text">Sguir an clàradh</string>
+    <string name="records_file_sorting_date">Ceann-latha</string>
+    <string name="records_file_sorting_duration">Fad</string>
+    <string name="records_file_sorting_name">Ainm</string>
+    <string name="records_file_sorting_size">Meud an fhaidhle</string>
+    <string name="records_file_upload_drive">Sàbhail gu \"Google Drive\"</string>
     <string name="reset">sgaoileadh</string>
     <string name="storage_external_single">Cairt MicroSD</string>
     <string name="storage_phone">Cuimhne fòn</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Cuir às do mhodh</string>
     <string name="videos_file_item_share">Roinn seo</string>
     <string name="videos_file_item_watch">Coimhead</string>
+    <string name="videos_file_open_with">Fosgail le</string>
+    <string name="videos_file_select">Tagh airson</string>
     <string name="videos_file_sort_asc">Deasaich dìreadh</string>
     <string name="videos_file_sort_desc">Deasaich a ’teàrnadh</string>
     <string name="videos_file_was_locked_text">Chaidh am faidhle bhidio a ghluasad gu pasgan dìon</string>

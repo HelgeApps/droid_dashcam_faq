@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">मुझे स्वीकार है</string>
     <string name="any_text">कोई</string>
+    <string name="app_alternative_name_audio">ऑडियो</string>
+    <string name="app_alternative_name_battery">बैटरी सेटिंग्स</string>
+    <string name="app_alternative_name_media">मिडिया</string>
+    <string name="app_alternative_name_media_player">मीडिया प्लेयर</string>
+    <string name="app_alternative_name_video">वीडियो</string>
+    <string name="app_name_backgroundvideorecorder">पृष्ठभूमि वीडियो रिकॉर्डिंग</string>
     <string name="app_name_droid_dashcam">Droid डैशकैम - ड्राइविंग DVR</string>
     <string name="camera">कैमरा</string>
     <string name="camera_aperture">डायाफ्राम</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">कैमरा अस्थायी रूप से (था) आपके डिवाइस पर खोलने के लिए अनुपलब्ध है (कैमरा सिस्टम त्रुटि)</string>
     <string name="camera_support_error">कैमरे का उपयोग करते समय एक त्रुटि हुई है।</string>
     <string name="close">बंद करे</string>
+    <string name="days">दिन</string>
     <string name="default_text">चूक</string>
     <string name="dialog_camera_not_found_msg_text">इस डिवाइस में बिल्ट-इन कैमरा नहीं है और यह बाहरी कैमरों को सपोर्ट नहीं करता है। समापन…</string>
     <string name="dialog_camera_not_found_text">कैमरा नहीं मिला</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">आपके पास कोई विज्ञापन नहीं है।</string>
     <string name="donation_level_text">आपका दान स्तर:</string>
     <string name="donation_purchase_info_loading_text">खरीदारी की जानकारी अभी तक अपलोड नहीं की गई है। क्या आप ऑनलाइन हैं और अपने Google खाते में साइन इन हैं?</string>
-    <string name="donation_remove_ads_by_any_amount_text">किसी भी राशि के एकमुश्त दान से विज्ञापनों को हमेशा के लिए हटा दें। आप विज्ञापनों को हटाने के लिए मासिक रूप से कितनी भी राशि दान कर सकते हैं</string>
-    <string name="donation_subs_any_amount_text">साथ ही, जब आप किसी भी राशि की सदस्यता लेते हैं तो विज्ञापन पूरी तरह से हटा दिया जाता है।</string>
+    <string name="donation_remove_ads_by_any_amount_text">किसी भी राशि के एकमुश्त दान से विज्ञापनों को हमेशा के लिए हटा दें। आप विज्ञापन हटाने के लिए मासिक दान भी कर सकते हैं</string>
+    <string name="donation_subs_any_amount_text">प्रति माह किसी भी राशि की सदस्यता सक्रिय होने पर विज्ञापन पूरी तरह हटा दिया जाता है।</string>
     <string name="donation_subs_manage_btn_text">सदस्यता रद्द</string>
+    <string name="donation_subs_no_free_trial_explanation_text">एप्लिकेशन सदस्यता के लिए परीक्षण अवधि प्रदान नहीं करता है, क्योंकि एप्लिकेशन के सभी कार्य पहले से ही निःशुल्क हैं, सदस्यता केवल विज्ञापन हटाती है</string>
+    <string name="donation_subs_one_text">सदस्यता सक्रिय होने पर विज्ञापन पूरी तरह हटा दिया जाता है।</string>
     <string name="donation_subs_text">मासिक दान करें</string>
     <string name="format_altitude">कद</string>
     <string name="format_degrees">COORDINATES</string>
@@ -56,6 +65,7 @@
     <string name="from">से</string>
     <string name="hour">घंटा</string>
     <string name="hours">घंटे</string>
+    <string name="month">महीना</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">एप्लिकेशन को बैटरी अनुकूलन से बाहर नहीं रखा गया है। यदि कैमरा बैकग्राउंड में नहीं चल रहा है या कुछ और है, तो इस एप्लिकेशन को पावर सेविंग मोड के अपवादों में जोड़ें।</string>
     <string name="msg_android_r_deleting_manual_tip_text">यदि आपने Android 11 पर एप्लिकेशन को फिर से इंस्टॉल किया है, तो पुरानी फ़ाइलों को मैन्युअल रूप से हटा दिया जाना चाहिए</string>
     <string name="msg_auto_recording_service_was_stopped">आपने स्वचालित रूप से वीडियो रिकॉर्डिंग प्रारंभ करने के लिए पृष्ठभूमि सेवा बंद कर दी है. एप्लिकेशन को दोबारा लॉन्च करने के लिए उसे खोलें.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">ब्लूटूथ डिवाइस से ऑडियो रिकॉर्ड करें</string>
     <string name="prefs_audio_bt_recording_warning_message_text">केवल ब्लूटूथ हेडफ़ोन के साथ उपयोग करें। यदि आप ब्लूटूथ के माध्यम से हेड यूनिट (कार रेडियो) से कनेक्ट होते हैं, तो किसी कारण से इस डिवाइस पर मानक नंबर पर फोन कॉल स्वचालित रूप से ट्रिगर हो सकती है</string>
     <string name="prefs_audio_bt_recording_warning_title_text">हेड यूनिट (कार रेडियो) के साथ प्रयोग न करें!</string>
+    <string name="prefs_audio_codec_title">ऑडियो कोडेक</string>
     <string name="prefs_audio_priority_sum">यदि सक्षम है, तो अन्य एप्लिकेशन माइक्रोफ़ोन का उपयोग नहीं कर पाएंगे। यदि अक्षम है, तो यह एप्लिकेशन तब ऑडियो रिकॉर्ड करने में सक्षम नहीं हो सकता है जब माइक्रोफ़ोन का उपयोग करके कई एप्लिकेशन चल रहे हों (एंड्रॉइड हमेशा माइक्रोफ़ोन के एक साथ उपयोग की अनुमति नहीं देता है)</string>
     <string name="prefs_audio_priority_title">इस ऐप में ऑडियो को प्राथमिकता दें</string>
     <string name="prefs_audio_rate_text">नमूनाचयन आवृत्ति</string>
     <string name="prefs_audio_recording_text">ऑडियो रिकॉर्डिंग</string>
     <string name="prefs_audio_settings_sum_text">गुणवत्ता, बंद /ध्वनि रिकॉर्डिंग पर</string>
     <string name="prefs_audio_settings_text">ध्वनि सेटिंग</string>
+    <string name="prefs_audio_source_camcorder_text">कैमकॉर्डर से ऑडियो रिकॉर्डिंग कुछ डिवाइस पर काम नहीं कर सकती है, इस स्थिति में एमआईसी में बदलने का प्रयास करें</string>
+    <string name="prefs_audio_source_text">ऑडियो स्रोत</string>
     <string name="prefs_audio_stereo_text">स्टीरियो</string>
     <string name="prefs_auto_start_app_launch_sum_text">ऐप शुरू होने पर वीडियो रिकॉर्डिंग अपने आप शुरू हो जाती है</string>
     <string name="prefs_auto_start_app_launch_text">आवेदन शुरू करते समय</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">ऑडियो जैक (AUX) में प्लग किए जाने पर चलाएं</string>
     <string name="prefs_aux_auto_stop_text">ऑडियो जैक (AUX) से डिस्कनेक्ट होने पर रुकें</string>
     <string name="prefs_battery_optimization_sum_text">बैटरी अनुकूलन ऐप को ठीक से काम करने से रोक सकता है (उदाहरण के लिए, कैमरे का उपयोग करना या पृष्ठभूमि में वीडियो रिकॉर्ड करते समय स्थान को अपडेट करना)। इस एप्लिकेशन के लिए इसे अभी अक्षम करने के लिए यहां क्लिक करें</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">बैटरी अनुकूलन एप्लिकेशन को सही ढंग से काम करने से रोक सकता है (उदाहरण के लिए, कैमरा और माइक्रोफ़ोन का उपयोग करना)। इस एप्लिकेशन के लिए इसे अभी अक्षम करने के लिए यहां क्लिक करें</string>
     <string name="prefs_battery_optimization_text">बैटरी अनुकूलन</string>
     <string name="prefs_beep_each_start_recording_sum_text">अगली वीडियो फ़ाइल की रिकॉर्डिंग की शुरुआत में संकेत</string>
     <string name="prefs_beep_each_start_recording_text">रिकॉर्डिंग करते समय बीप करें</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">परिदृश्य</string>
     <string name="prefs_orientation_landscape_reversed">एल्बम उल्टा</string>
     <string name="prefs_orientation_portrait">चित्र</string>
+    <string name="prefs_orientation_sensor_automatic">स्वचालित</string>
     <string name="prefs_other_auto_deleting_sum_text">यदि नए वीडियो के लिए पर्याप्त जगह नहीं है तो रिकॉर्डिंग करते समय सबसे पुराने वीडियो को स्वचालित रूप से हटा दें</string>
     <string name="prefs_other_auto_deleting_text">लूप रिकॉर्डिंग</string>
     <string name="prefs_other_date_time_text">तिथि और समय</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">फोटो स्थान (फ़ोल्डर /पथ)</string>
     <string name="prefs_other_path_text">वीडियो स्थान (फ़ोल्डर /पथ)</string>
     <string name="prefs_other_settings_sum_text">वीडियो स्थान (फ़ोल्डर सहेजें), वीडियो अवधि, लूप रिकॉर्डिंग, जी-सेंसर, जीपीएस</string>
+    <string name="prefs_other_settings_sum_text_bvr">वीडियो रिकॉर्डिंग का स्थान (सहेजने के लिए फ़ोल्डर), वीडियो अवधि, लूप रिकॉर्डिंग, अधिकतम वीडियो आकार</string>
     <string name="prefs_other_settings_text">अन्य सेटिंग</string>
     <string name="prefs_other_show_address_text">वर्तमान स्थान का पता</string>
     <string name="prefs_other_show_altitude_text">समुद्र तल से ऊँचाई</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">जब आप एप्लिकेशन शुरू करते हैं, तो चार्जिंग चालू /बंद करें, सिस्टम को बूट करें</string>
     <string name="prefs_screen_autostart_text">ऑटोस्टार्ट रिकॉर्डिंग</string>
     <string name="prefs_screen_ui_summary_text">स्क्रीन तेज /लंबी प्रेस, स्क्रीन बंद, पता और गति प्रदर्शन, पॉपअप विंडो, बटन और बहुत कुछ</string>
+    <string name="prefs_screen_ui_summary_text_bvr">रिकॉर्डिंग शुरू करने के लिए शॉर्टकट, स्क्रीन पर त्वरित और लंबे समय तक प्रेस, पॉप-अप विंडो, रिकॉर्डिंग करते समय कंपन, ध्वनि अधिसूचना, कंपन, स्क्रीन पर बटन, स्क्रीन बंद करना और बहुत कुछ</string>
     <string name="prefs_screen_ui_title">इंटरफ़ेस (यूआई)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">विशिष्ट समय पर कैमरा दिन /रात मोड स्वचालित रूप से स्विच करता है</string>
     <string name="prefs_screen_video_day_night_mode_text">ऑटो दिन /रात सेटिंग्स</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">वीडियो को ओवरराइट होने से रोकना</string>
     <string name="prefs_show_overlay_btn_sum_text">सभी अनुप्रयोगों के शीर्ष पर नियंत्रण बटन वाली एक विंडो प्रदर्शित करता है</string>
     <string name="prefs_show_overlay_btn_text">फ़्लोटिंग विंडो दिखाएं</string>
+    <string name="prefs_show_overlay_on_recording_text">रिकॉर्डिंग शुरू होने पर फ्लोटिंग विंडो दिखाएं</string>
     <string name="prefs_show_status_bar_text">सिस्टम स्थिति बार दिखाएं</string>
     <string name="prefs_show_take_photo_btn_text">फोटो बनाने के लिए</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">वर्तमान कैमरे द्वारा समर्थित नहीं है। निर्माता अक्सर इसके उपयोग को प्रतिबंधित करते हैं - यह केवल मानक कैमरा एप्लिकेशन में उपलब्ध है</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">वीडियो के नीचे उपशीर्षक उपशीर्षक</string>
     <string name="prefs_subtitles_position_bottom_text">नीचे उपशीर्षक</string>
     <string name="prefs_subtitles_settings_sum_text">ओवरले वीडियो कैप्शन: दिनांक (समय), स्थान का पता, निर्देशांक और गति</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">वीडियो पर ओवरले कैप्शन: दिनांक (समय टिकट), कस्टम टेक्स्ट</string>
     <string name="prefs_subtitles_settings_text">उपशीर्षक सेटिंग्स</string>
     <string name="prefs_subtitles_size_text">टेक्स्ट का आकार बढ़ाएँ</string>
     <string name="prefs_subtitles_speed_text">स्पीड</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">बग की रिपोर्ट करें, क्रैश करें या ऑफ़र करें</string>
     <string name="prefs_support_text">समर्थन (प्रतिक्रिया)</string>
     <string name="prefs_system_alert_window_sum_text">इस ऐप को अन्य सभी ऐप में सबसे ऊपर दिखने दें। वीडियो रिकॉर्डिंग को स्वचालित रूप से शुरू /बंद करने या फ्लोटिंग विंडो प्रदर्शित करने के लिए यह आवश्यक है</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">इस ऐप को अन्य सभी ऐप्स के शीर्ष पर प्रदर्शित होने दें। फ्लोटिंग विंडो प्रदर्शित करने के लिए यह आवश्यक है</string>
     <string name="prefs_system_alert_window_text">सभी विंडो के शीर्ष पर संकल्प</string>
     <string name="prefs_theme_mode_dark">डार्क थीम</string>
+    <string name="prefs_theme_mode_dynamic">गतिशील</string>
     <string name="prefs_theme_mode_light">प्रकाश विषय</string>
     <string name="prefs_theme_mode_system_auto">सिस्टम में के रूप में (स्वचालित)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">इस सेटिंग को लागू करने और ट्रैकिंग सेवा शुरू करने के लिए होम स्क्रीन (रिकॉर्डिंग) पर वापस लौटें</string>
     <string name="prefs_toolbar_title_setting">समायोजन</string>
     <string name="prefs_translate_sum_text">अपनी भाषा में टेक्स्ट के अनुवाद को सुधारने या ठीक करने में सहायता करें</string>
     <string name="prefs_translate_text">आवेदन अनुवाद</string>
+    <string name="prefs_ui_app_icon_and_label_change">सिस्टम में एप्लिकेशन का आइकन और नाम बदलें</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">परिवर्तन के बाद, एप्लिकेशन बंद हो सकता है, पुराना आइकन फ़ोन की मुख्य स्क्रीन पर (या सभी एप्लिकेशन की सूची में) हटा दिया जाएगा, और एक नया दिखाई देगा</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">लॉन्चर का आइकन और नाम सेट करें</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">अधिसूचना आइकन और नाम बदलें</string>
+    <string name="prefs_ui_camera_preview_sum_text">मुख्य ऐप स्क्रीन पर कैमरा पूर्वावलोकन दिखाएं</string>
+    <string name="prefs_ui_camera_preview_text">कैमरा पूर्वावलोकन</string>
     <string name="prefs_ui_click_none_text">कुछ भी नहीं करना</string>
     <string name="prefs_ui_click_start_stop_rec_text">रिकॉर्डिंग शुरू /बंद करो</string>
     <string name="prefs_ui_click_text">स्क्रीन पर तुरंत टैप करें</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">बिटरेट (गुणवत्ता)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">कैमरा नियंत्रण दृश्य मोड (रात)</string>
     <string name="prefs_video_camera_control_scene_mode_text">कैमरा नियंत्रण दृश्य मोड (दिन)</string>
+    <string name="prefs_video_codec_sum_text">H.265 HEVC और AV1 कोडेक्स, H.264 AVC की तुलना में कम बिटरेट पर बेहतर गुणवत्ता प्रदान करते हैं, इसलिए आप बिटरेट को कम करके स्थान बचा सकते हैं। लेकिन हो सकता है कि कुछ वीडियो प्लेयर में वीडियो न चलें</string>
+    <string name="prefs_video_codec_text">वीडियो कोडेक</string>
     <string name="prefs_video_control_scene_mode_beach_text">समुद्र तट (उज्ज्वल मौसम)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">सामान्य /चेहरा प्राथमिकता</string>
     <string name="prefs_video_control_scene_mode_hdr_text">एचडीआर (उच्च गतिशील रेंज)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">कैमरा फोकस (रात)</string>
     <string name="prefs_video_focus_text">कैमरा फोकस (दिन)</string>
     <string name="prefs_video_fps_range_text">फ्रेम्स प्रति सेकेंड (एफपीएस)</string>
-    <string name="prefs_video_hevc_sum_text">स्थान बचाने के लिए HEVC (H.265) प्रारूप में रिकॉर्ड करें। हो सकता है कि आप ऐसे वीडियो को अन्य वीडियो प्लेबैक डिवाइस या एप्लिकेशन पर चलाने में सक्षम न हों। परिवर्तन के बाद संकल्प और बिटरेट को रीसेट कर देगा</string>
-    <string name="prefs_video_hevc_text">अत्यधिक कुशल वीडियो कोडिंग</string>
     <string name="prefs_video_orientation_text">वीडियो और फोन अभिविन्यास</string>
     <string name="prefs_video_resolution_text">वीडियो संकल्प</string>
     <string name="prefs_video_settings_sum_text">रिज़ॉल्यूशन, बिट रेट, ओरिएंटेशन, फ़ोकस, कैमरा, नाइट मोड</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">बड़ा आकार - तेज बैटरी ड्रेन</string>
     <string name="prefs_video_space_unlimited">असीमित</string>
     <string name="prefs_video_stabilization_text">वीडियो स्थिरीकरण</string>
+    <string name="prefs_voice_recorder_app">बैकग्राउंड में वॉयस रिकॉर्डर</string>
     <string name="prefs_warning_location_precise_sum_text">यह सबसे सटीक GPS-आधारित गति, साथ ही पता और निर्देशांक प्राप्त करने के लिए आवश्यक है। सबमिट करने के लिए क्लिक करें</string>
     <string name="prefs_warning_location_precise_text">सटीक स्थान के लिए अनुमति</string>
     <string name="prefs_warning_notifications_sum_text">अधिसूचना पैनल पर पृष्ठभूमि रिकॉर्डिंग सेवा और स्थिति प्रदर्शित करने में सक्षम होने के लिए आवश्यक है। सबमिट करने के लिए क्लिक करें</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">जाल</string>
     <string name="rec_off_text">बंद</string>
     <string name="rec_on_text">सहित</string>
-    <string name="rec_service_msg">गोपनीयता: आपके द्वारा रिकॉर्ड किए गए सभी वीडियो केवल आपके स्थानीय डिवाइस पर सहेजे जाएंगे। एप्लिकेशन आपके वीडियो का बैकअप नहीं लेता है (सर्वर से कोई कनेक्शन नहीं है)\n\nयदि आप एक नई रिकॉर्डिंग शुरू करते हैं और होम स्क्रीन पर लौटते हैं, किसी अन्य ऐप पर स्विच करते हैं या रिकॉर्डिंग जारी रखने में सक्षम होने के लिए अपने फोन को लॉक करते हैं, तो ऐप बैकग्राउंड में चलता रहेगा (अग्रभूमि सेवा जो अधिसूचना बार में दिखाई देती है), या यदि आप स्वचालित रिकॉर्डिंग के लिए फ़ंक्शन चालू करते हैं (यदि आप पृष्ठभूमि सेवा बंद करते हैं, तो ये फ़ंक्शन काम नहीं करेंगे)।</string>
+    <string name="rec_service_msg">गोपनीयता: आपके द्वारा रिकॉर्ड किए गए सभी वीडियो केवल आपके स्थानीय डिवाइस पर सहेजे जाएंगे। एप्लिकेशन आपके वीडियो का बैकअप नहीं लेता है (सर्वर से कोई कनेक्शन नहीं है)\n\nरिकॉर्डिंग सक्रिय होने पर ऐप पृष्ठभूमि में चलता रहेगा (अधिसूचना पट्टी में दिखाई देने वाली अग्रभूमि सेवा), जब आप होम स्क्रीन पर लौटते हैं, तो किसी अन्य ऐप पर स्विच करें या रिकॉर्डिंग जारी रखने के लिए अपने फोन को लॉक करें, और जब आप चालू करें स्वचालित रिकॉर्डिंग के लिए सुविधाएँ (यदि आप पृष्ठभूमि सेवा बंद करते हैं, तो ये फ़ंक्शन काम नहीं करेंगे)। ऐप बुनियादी अनाम विश्लेषण के लिए फायरबेस एनालिटिक्स का उपयोग करता है (नीचे लिंक देखें)</string>
+    <string name="recording_file_name_prefix">वीडियो फ़ाइल नामों के लिए उपसर्ग</string>
     <string name="recording_start_text">रिकॉर्डिंग शुरू</string>
     <string name="recording_started_failed_text">रिकॉर्डिंग शुरू करने में त्रुटि</string>
     <string name="recording_started_with_audio_text">ऑडियो रिकॉर्डिंग के साथ एक नई वीडियो रिकॉर्डिंग शुरू हो गई है</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">रिकॉर्डिंग…</string>
     <string name="recording_voice_started_text">रिकॉर्डिंग शुरू हो गई है</string>
     <string name="recording_voice_stopped_text">रिकॉर्डिंग बंद हो गई</string>
+    <string name="records_file_sorting_date">तारीख</string>
+    <string name="records_file_sorting_duration">अवधि</string>
+    <string name="records_file_sorting_name">नाम</string>
+    <string name="records_file_sorting_size">फ़ाइल का साइज़</string>
+    <string name="records_file_upload_drive">\"Google ड्राइव\" में सहेजें</string>
     <string name="reset">मुक्ति</string>
     <string name="storage_external_single">माइक्रो एसडी कार्ड</string>
     <string name="storage_phone">फोन की मेमोरी</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">मोड हटाएं</string>
     <string name="videos_file_item_share">इसे साझा करें</string>
     <string name="videos_file_item_watch">घड़ी</string>
+    <string name="videos_file_open_with">के साथ खोलें</string>
+    <string name="videos_file_select">के लिए चयन करें</string>
     <string name="videos_file_sort_asc">छोटे से बड़े क्रम में क्रमबद्ध करें</string>
     <string name="videos_file_sort_desc">अवरोही छांट</string>
     <string name="videos_file_was_locked_text">वीडियो फ़ाइल को एक सुरक्षित फ़ोल्डर में ले जाया गया है</string>

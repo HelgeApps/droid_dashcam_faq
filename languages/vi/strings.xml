@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">tôi chấp nhận</string>
     <string name="any_text">Bất kì</string>
+    <string name="app_alternative_name_audio">Âm thanh</string>
+    <string name="app_alternative_name_battery">Cài đặt pin</string>
+    <string name="app_alternative_name_media">Phương tiện truyền thông</string>
+    <string name="app_alternative_name_media_player">Media Player</string>
+    <string name="app_alternative_name_video">Băng hình</string>
+    <string name="app_name_backgroundvideorecorder">Quay video nền</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - Lái xe DVR</string>
     <string name="camera">Máy ảnh</string>
     <string name="camera_aperture">Cơ hoành</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">Máy ảnh tạm thời (đã) không khả dụng để mở trên thiết bị của bạn (lỗi hệ thống máy ảnh)</string>
     <string name="camera_support_error">Đã xảy ra lỗi khi sử dụng máy ảnh.</string>
     <string name="close">Đóng</string>
+    <string name="days">ngày</string>
     <string name="default_text">Vỡ nợ</string>
     <string name="dialog_camera_not_found_msg_text">Thiết bị này không có camera tích hợp và không hỗ trợ camera ngoài. Đóng cửa…</string>
     <string name="dialog_camera_not_found_text">Không tìm thấy máy ảnh</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">Bạn không có quảng cáo.</string>
     <string name="donation_level_text">Mức đóng góp của bạn:</string>
     <string name="donation_purchase_info_loading_text">Thông tin mua sắm vẫn chưa được tải lên. Bạn có trực tuyến và đăng nhập vào tài khoản Google của mình không?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Xóa quảng cáo mãi mãi bằng cách quyên góp một lần với số tiền bất kỳ. Bạn cũng có thể quyên góp bất kỳ số tiền nào hàng tháng để xóa quảng cáo</string>
-    <string name="donation_subs_any_amount_text">Ngoài ra, quảng cáo sẽ bị loại bỏ hoàn toàn khi bạn đăng ký với bất kỳ số tiền nào.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Xóa quảng cáo mãi mãi bằng cách quyên góp một lần với số tiền bất kỳ. Bạn cũng có thể quyên góp hàng tháng để loại bỏ quảng cáo</string>
+    <string name="donation_subs_any_amount_text">Quảng cáo bị xóa hoàn toàn khi đăng ký với số tiền bất kỳ mỗi tháng đang hoạt động.</string>
     <string name="donation_subs_manage_btn_text">Hủy đăng ký</string>
+    <string name="donation_subs_no_free_trial_explanation_text">Ứng dụng không cung cấp thời gian dùng thử cho các đăng ký vì tất cả các chức năng của ứng dụng đều miễn phí nên đăng ký chỉ loại bỏ quảng cáo</string>
+    <string name="donation_subs_one_text">Quảng cáo bị loại bỏ hoàn toàn trong khi đăng ký đang hoạt động.</string>
     <string name="donation_subs_text">Đóng góp hàng tháng</string>
     <string name="format_altitude">Chiều cao</string>
     <string name="format_degrees">Tọa độ</string>
@@ -56,6 +65,7 @@
     <string name="from">từ</string>
     <string name="hour">giờ</string>
     <string name="hours">giờ</string>
+    <string name="month">tháng</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Ứng dụng này không bị loại trừ khỏi việc tối ưu hóa pin. Nếu máy ảnh không chạy ở chế độ nền hoặc thứ gì khác, hãy thêm ứng dụng này vào các trường hợp ngoại lệ của chế độ tiết kiệm năng lượng.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Nếu bạn đã cài đặt lại ứng dụng trên Android 11, thì các tệp cũ phải được xóa theo cách thủ công</string>
     <string name="msg_auto_recording_service_was_stopped">Bạn đã dừng dịch vụ nền để tự động bắt đầu quay video. Mở ứng dụng để khởi chạy lại.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Ghi âm thanh từ thiết bị Bluetooth</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Chỉ sử dụng với tai nghe Bluetooth. Nếu bạn kết nối với bộ phận đầu (radio ô tô) qua Bluetooth thì vì lý do nào đó, điều này có thể tự động kích hoạt cuộc gọi đến số tiêu chuẩn trên thiết bị này</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Không sử dụng với bộ phận đầu (radio ô tô)!</string>
+    <string name="prefs_audio_codec_title">Audio codec</string>
     <string name="prefs_audio_priority_sum">Nếu được bật, các ứng dụng khác sẽ không thể sử dụng micrô. Nếu bị tắt, ứng dụng này có thể không ghi được âm thanh khi nhiều ứng dụng đang chạy bằng micrô (Android không phải lúc nào cũng cho phép sử dụng đồng thời micrô)</string>
     <string name="prefs_audio_priority_title">Ưu tiên âm thanh cho ứng dụng này</string>
     <string name="prefs_audio_rate_text">Tần số lấy mẫu</string>
     <string name="prefs_audio_recording_text">Ghi âm</string>
     <string name="prefs_audio_settings_sum_text">Chất lượng, tắt /bật ghi âm</string>
     <string name="prefs_audio_settings_text">Cài đặt âm thanh</string>
+    <string name="prefs_audio_source_camcorder_text">Ghi âm từ CAMCORDER có thể không hoạt động trên một số thiết bị, trong trường hợp này hãy thử đổi sang MIC</string>
+    <string name="prefs_audio_source_text">Nguồn âm thanh</string>
     <string name="prefs_audio_stereo_text">Âm thanh nổi</string>
     <string name="prefs_auto_start_app_launch_sum_text">Bắt đầu quay video tự động khi ứng dụng khởi động</string>
     <string name="prefs_auto_start_app_launch_text">Khi bắt đầu ứng dụng</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Chạy khi được cắm vào giắc cắm âm thanh (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Dừng khi ngắt kết nối khỏi giắc cắm âm thanh (AUX)</string>
     <string name="prefs_battery_optimization_sum_text">Tối ưu hóa pin có thể ngăn ứng dụng hoạt động bình thường (ví dụ: sử dụng máy ảnh hoặc cập nhật vị trí trong khi quay video ở chế độ nền). Bấm vào đây để tắt nó cho ứng dụng này ngay bây giờ</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">Tối ưu hóa pin có thể khiến ứng dụng không hoạt động chính xác (ví dụ: sử dụng máy ảnh và micrô). Bấm vào đây để tắt nó cho ứng dụng này ngay bây giờ</string>
     <string name="prefs_battery_optimization_text">Tối ưu hóa pin</string>
     <string name="prefs_beep_each_start_recording_sum_text">Báo hiệu khi bắt đầu ghi tệp video tiếp theo</string>
     <string name="prefs_beep_each_start_recording_text">Bíp khi ghi âm</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Phong cảnh</string>
     <string name="prefs_orientation_landscape_reversed">Đảo ngược anbom</string>
     <string name="prefs_orientation_portrait">Chân dung</string>
+    <string name="prefs_orientation_sensor_automatic">Tự động</string>
     <string name="prefs_other_auto_deleting_sum_text">Tự động xóa các video cũ nhất trong khi quay nếu không có đủ dung lượng cho các video mới</string>
     <string name="prefs_other_auto_deleting_text">Ghi vòng lặp</string>
     <string name="prefs_other_date_time_text">ngày và giờ</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Vị trí ảnh (thư mục /đường dẫn)</string>
     <string name="prefs_other_path_text">Vị trí video (thư mục /đường dẫn)</string>
     <string name="prefs_other_settings_sum_text">Vị trí video (lưu thư mục), thời lượng video, ghi vòng lặp, G-sensor, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Vị trí ghi video (thư mục lưu), thời lượng video, ghi vòng lặp, kích thước video tối đa</string>
     <string name="prefs_other_settings_text">Các thiết lập khác</string>
     <string name="prefs_other_show_address_text">Địa chỉ vị trí hiện tại</string>
     <string name="prefs_other_show_altitude_text">Chiều cao trên mực nước biển</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Khi khởi động ứng dụng, bật /tắt sạc, khởi động hệ thống</string>
     <string name="prefs_screen_autostart_text">Tự động ghi âm</string>
     <string name="prefs_screen_ui_summary_text">Nhấn nhanh /giữ màn hình, tắt màn hình, hiển thị địa chỉ và tốc độ, cửa sổ bật lên, các nút và hơn thế nữa</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Phím tắt để bắt đầu ghi, nhấn nhanh và giữ trên màn hình, cửa sổ bật lên, rung khi ghi, thông báo âm thanh, rung, các nút trên màn hình, tắt màn hình và hơn thế nữa</string>
     <string name="prefs_screen_ui_title">Giao diện (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Tự động chuyển đổi chế độ ngày /đêm của máy ảnh vào những thời điểm cụ thể</string>
     <string name="prefs_screen_video_day_night_mode_text">Cài đặt Ngày /Đêm Tự động</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">Chặn video bị ghi đè</string>
     <string name="prefs_show_overlay_btn_sum_text">Hiển thị một cửa sổ với các nút điều khiển trên đầu tất cả các ứng dụng</string>
     <string name="prefs_show_overlay_btn_text">Hiển thị cửa sổ nổi</string>
+    <string name="prefs_show_overlay_on_recording_text">Hiển thị cửa sổ nổi khi bắt đầu ghi</string>
     <string name="prefs_show_status_bar_text">Hiển thị thanh trạng thái hệ thống</string>
     <string name="prefs_show_take_photo_btn_text">Để tạo một bức ảnh</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Không được hỗ trợ bởi máy ảnh hiện tại. Các nhà sản xuất thường hạn chế việc sử dụng nó - nó chỉ có sẵn trong ứng dụng Máy ảnh tiêu chuẩn</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Lớp phủ phụ đề ở cuối video</string>
     <string name="prefs_subtitles_position_bottom_text">Phụ đề ở dưới cùng</string>
     <string name="prefs_subtitles_settings_sum_text">Lớp phủ phụ đề video: Ngày (giờ), địa chỉ vị trí, tọa độ và tốc độ</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Lớp phủ chú thích trên video: ngày (dấu thời gian), văn bản tùy chỉnh</string>
     <string name="prefs_subtitles_settings_text">Cài đặt phụ đề</string>
     <string name="prefs_subtitles_size_text">Tăng kích thước văn bản</string>
     <string name="prefs_subtitles_speed_text">Tốc độ, vận tốc</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Báo cáo lỗi, sự cố hoặc đưa ra đề nghị</string>
     <string name="prefs_support_text">Hỗ trợ (phản hồi)</string>
     <string name="prefs_system_alert_window_sum_text">Cho phép ứng dụng này xuất hiện trên tất cả các ứng dụng khác. Điều này là cần thiết để tự động bắt đầu /dừng quay video hoặc để hiển thị cửa sổ nổi</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Cho phép ứng dụng này xuất hiện trên tất cả các ứng dụng khác. Điều này là cần thiết để hiển thị một cửa sổ nổi</string>
     <string name="prefs_system_alert_window_text">Độ phân giải trên tất cả các cửa sổ</string>
     <string name="prefs_theme_mode_dark">Chủ đề tối</string>
+    <string name="prefs_theme_mode_dynamic">Năng động</string>
     <string name="prefs_theme_mode_light">Chủ đề nhẹ nhàng</string>
     <string name="prefs_theme_mode_system_auto">Như trong hệ thống (tự động)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Quay lại màn hình chính (bản ghi) để áp dụng cài đặt này và bắt đầu dịch vụ theo dõi</string>
     <string name="prefs_toolbar_title_setting">Cài đặt</string>
     <string name="prefs_translate_sum_text">Giúp cải thiện hoặc sửa bản dịch văn bản bằng ngôn ngữ của bạn</string>
     <string name="prefs_translate_text">Dịch ứng dụng</string>
+    <string name="prefs_ui_app_icon_and_label_change">Thay đổi icon và tên ứng dụng trong hệ thống</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">Sau khi thay đổi, ứng dụng có thể đóng lại, biểu tượng cũ sẽ bị xóa trên màn hình chính của điện thoại (hoặc trong danh sách tất cả các ứng dụng) và một biểu tượng mới sẽ xuất hiện</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Đặt biểu tượng và tên của trình khởi chạy</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Thay đổi biểu tượng và tên thông báo</string>
+    <string name="prefs_ui_camera_preview_sum_text">Hiển thị bản xem trước của camera trên màn hình ứng dụng chính</string>
+    <string name="prefs_ui_camera_preview_text">Xem trước máy ảnh</string>
     <string name="prefs_ui_click_none_text">Không có gì làm</string>
     <string name="prefs_ui_click_start_stop_rec_text">Bắt đầu /dừng ghi</string>
     <string name="prefs_ui_click_text">Nhấn nhanh trên màn hình</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Tốc độ bit (chất lượng)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Chế độ cảnh điều khiển máy ảnh (Ban đêm)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Chế độ cảnh điều khiển máy ảnh (Ngày)</string>
+    <string name="prefs_video_codec_sum_text">Các codec H.265 HEVC và AV1 cung cấp chất lượng tốt hơn ở tốc độ bit thấp hơn H.264 AVC, vì vậy bạn có thể tiết kiệm dung lượng bằng cách giảm tốc độ bit. Nhưng video có thể không phát ở một số trình phát video</string>
+    <string name="prefs_video_codec_text">Bộ giải mã video</string>
     <string name="prefs_video_control_scene_mode_beach_text">Bãi biển (thời tiết tươi sáng)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Ưu tiên chung /khuôn mặt</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (Dải động cao)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Tiêu điểm máy ảnh (ban đêm)</string>
     <string name="prefs_video_focus_text">Tiêu điểm máy ảnh (ngày)</string>
     <string name="prefs_video_fps_range_text">Khung hình trên giây (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Ghi ở định dạng HEVC (H.265) để tiết kiệm dung lượng. Bạn có thể không phát được những video đó trên các thiết bị hoặc ứng dụng phát lại video khác. Sẽ đặt lại độ phân giải và tốc độ bit sau khi thay đổi</string>
-    <string name="prefs_video_hevc_text">Mã hóa video hiệu quả cao</string>
     <string name="prefs_video_orientation_text">Hướng video và điện thoại</string>
     <string name="prefs_video_resolution_text">Độ phân giải video</string>
     <string name="prefs_video_settings_sum_text">Độ phân giải, tốc độ bit, định hướng, lấy nét, máy ảnh, chế độ ban đêm</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Kích thước lớn hơn - hết pin nhanh hơn</string>
     <string name="prefs_video_space_unlimited">Vô hạn</string>
     <string name="prefs_video_stabilization_text">Ổn định video</string>
+    <string name="prefs_voice_recorder_app">Máy ghi âm ở chế độ nền</string>
     <string name="prefs_warning_location_precise_sum_text">Điều này là cần thiết để có được tốc độ dựa trên GPS, cũng như địa chỉ và tọa độ chính xác nhất. Nhấp để gửi</string>
     <string name="prefs_warning_location_precise_text">Quyền cho vị trí chính xác</string>
     <string name="prefs_warning_notifications_sum_text">Cần thiết để có thể hiển thị dịch vụ ghi nền và trạng thái trên bảng thông báo. Nhấp để gửi</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">Mạng lưới</string>
     <string name="rec_off_text">Tắt</string>
     <string name="rec_on_text">Bao gồm</string>
-    <string name="rec_service_msg">Quyền riêng tư: Tất cả video bạn quay sẽ chỉ được lưu trên thiết bị cục bộ của bạn. Ứng dụng không sao lưu video của bạn (không có bất kỳ kết nối nào đến máy chủ)\n\nỨng dụng sẽ tiếp tục chạy ở chế độ nền (dịch vụ nền trước xuất hiện trên thanh thông báo) nếu bạn bắt đầu bản ghi mới và quay lại màn hình chính, chuyển sang ứng dụng khác hoặc khóa điện thoại của bạn để có thể tiếp tục ghi hoặc nếu bạn bật chức năng ghi tự động (nếu tắt dịch vụ nền thì các chức năng này sẽ không hoạt động).</string>
+    <string name="rec_service_msg">Quyền riêng tư: Tất cả video bạn quay sẽ chỉ được lưu trên thiết bị cục bộ của bạn. Ứng dụng không sao lưu video của bạn (không có bất kỳ kết nối nào đến máy chủ)\n\nỨng dụng sẽ tiếp tục chạy ở chế độ nền (dịch vụ nền trước xuất hiện trên thanh thông báo) trong khi quá trình ghi đang hoạt động, khi bạn quay lại màn hình chính, chuyển sang ứng dụng khác hoặc khóa điện thoại để tiếp tục ghi và khi bạn bật tính năng ghi âm tự động (nếu bạn đóng dịch vụ nền thì các chức năng này sẽ không hoạt động). Ứng dụng sử dụng Firebase Analytics cho các phân tích ẩn danh cơ bản (xem liên kết bên dưới)</string>
+    <string name="recording_file_name_prefix">Tiền tố cho tên tệp video</string>
     <string name="recording_start_text">Bắt đầu ghi âm</string>
     <string name="recording_started_failed_text">Lỗi khi bắt đầu ghi</string>
     <string name="recording_started_with_audio_text">Một bản ghi video mới có ghi âm đã bắt đầu</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">Ghi âm…</string>
     <string name="recording_voice_started_text">Quá trình ghi đã bắt đầu</string>
     <string name="recording_voice_stopped_text">Ghi đã dừng</string>
+    <string name="records_file_sorting_date">Ngày</string>
+    <string name="records_file_sorting_duration">Khoảng thời gian</string>
+    <string name="records_file_sorting_name">Tên</string>
+    <string name="records_file_sorting_size">Kích thước tập tin</string>
+    <string name="records_file_upload_drive">Lưu vào \"Google Drive\"</string>
     <string name="reset">phóng điện</string>
     <string name="storage_external_single">Thẻ micro SD</string>
     <string name="storage_phone">Bộ nhớ điện thoại</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Xóa chế độ</string>
     <string name="videos_file_item_share">Chia sẻ cái này</string>
     <string name="videos_file_item_watch">Đồng hồ</string>
+    <string name="videos_file_open_with">Mở với</string>
+    <string name="videos_file_select">Chọn cho</string>
     <string name="videos_file_sort_asc">Sắp xếp Tăng dần</string>
     <string name="videos_file_sort_desc">Sắp xếp giảm dần</string>
     <string name="videos_file_was_locked_text">Tệp video đã được chuyển đến một thư mục được bảo vệ</string>

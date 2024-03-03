@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">Rwy\'n derbyn</string>
     <string name="any_text">Unrhyw</string>
+    <string name="app_alternative_name_audio">Sain</string>
+    <string name="app_alternative_name_battery">Gosodiadau Batri</string>
+    <string name="app_alternative_name_media">Cyfryngau</string>
+    <string name="app_alternative_name_media_player">Chwaraewr Cyfryngau</string>
+    <string name="app_alternative_name_video">Fideo</string>
+    <string name="app_name_backgroundvideorecorder">Recordiad fideo cefndir</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - Gyrru DVR</string>
     <string name="camera">Camera</string>
     <string name="camera_aperture">Diaffram</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">Nid yw\'r camera ar gael dros dro (nid oedd) ar agor ar eich dyfais (gwall system camera)</string>
     <string name="camera_support_error">Mae gwall wedi digwydd wrth ddefnyddio\'r camera.</string>
     <string name="close">Agos</string>
+    <string name="days">dyddiau</string>
     <string name="default_text">Rhagosodiad</string>
     <string name="dialog_camera_not_found_msg_text">Nid oes gan y ddyfais hon gamera adeiledig ac nid yw\'n cefnogi camerâu allanol. Cau…</string>
     <string name="dialog_camera_not_found_text">Ni ddaethpwyd o hyd i\'r camera</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">Nid oes gennych unrhyw hysbysebion.</string>
     <string name="donation_level_text">Lefel eich rhodd:</string>
     <string name="donation_purchase_info_loading_text">Nid yw\'r wybodaeth siopa wedi\'i llwytho i fyny eto. Ydych chi ar-lein ac wedi mewngofnodi i\'ch cyfrif Google?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Dileu hysbysebion am byth gyda rhodd un-amser o unrhyw swm. Gallwch hefyd roi unrhyw swm yn fisol i ddileu hysbysebion</string>
-    <string name="donation_subs_any_amount_text">Hefyd, caiff hysbysebu ei ddileu\'n llwyr pan fyddwch chi\'n tanysgrifio am unrhyw swm.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Dileu hysbysebion am byth gyda rhodd un-amser o unrhyw swm. Gallwch hefyd gyfrannu\'n fisol i ddileu hysbysebion</string>
+    <string name="donation_subs_any_amount_text">Mae hysbysebu\'n cael ei dynnu\'n llwyr tra bod tanysgrifiad am unrhyw swm y mis yn weithredol.</string>
     <string name="donation_subs_manage_btn_text">Dad-danysgrifio</string>
+    <string name="donation_subs_no_free_trial_explanation_text">Nid yw\'r rhaglen yn darparu cyfnod prawf ar gyfer tanysgrifiadau, gan fod holl swyddogaethau\'r rhaglen eisoes yn rhad ac am ddim, mae tanysgrifiad yn dileu hysbysebu yn unig</string>
+    <string name="donation_subs_one_text">Mae hysbysebu\'n cael ei dynnu\'n llwyr tra bod y tanysgrifiad yn weithredol.</string>
     <string name="donation_subs_text">Cyfrannwch yn fisol</string>
     <string name="format_altitude">Uchder</string>
     <string name="format_degrees">Cyfesurynnau</string>
@@ -56,6 +65,7 @@
     <string name="from">o</string>
     <string name="hour">awr</string>
     <string name="hours">oriau</string>
+    <string name="month">mis</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Nid yw\'r cais wedi\'i eithrio o optimeiddio batri. Os nad yw\'r camera\'n rhedeg yn y cefndir neu rywbeth arall, yna ychwanegwch y cymhwysiad hwn at eithriadau\'r modd arbed pŵer.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Os gwnaethoch chi ailosod y rhaglen ar Android 11, yna mae\'n rhaid dileu\'r hen ffeiliau â llaw</string>
     <string name="msg_auto_recording_service_was_stopped">Rydych chi wedi stopio\'r gwasanaeth cefndir ar gyfer dechrau recordio fideo yn awtomatig. Agorwch y cais i\'w lansio eto.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Recordio sain o ddyfais Bluetooth</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Defnyddiwch gyda chlustffonau Bluetooth yn unig. Os ydych chi\'n cysylltu â\'r brif uned (radio car) trwy Bluetooth, yna am ryw reswm gall hyn ysgogi galwad ffôn yn awtomatig i\'r rhif safonol ar y ddyfais hon</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Peidiwch â defnyddio gyda\'r uned pen (radio car)!</string>
+    <string name="prefs_audio_codec_title">Codec sain</string>
     <string name="prefs_audio_priority_sum">Os caiff ei alluogi, ni fydd rhaglenni eraill yn gallu defnyddio\'r meicroffon. Os yw\'n anabl, efallai na fydd y rhaglen hon yn gallu recordio sain pan fydd cymwysiadau lluosog yn rhedeg gan ddefnyddio\'r meicroffon (nid yw Android bob amser yn caniatáu defnyddio\'r meicroffon ar yr un pryd)</string>
     <string name="prefs_audio_priority_title">Blaenoriaethwch sain i\'r app hon</string>
     <string name="prefs_audio_rate_text">Amledd samplu</string>
     <string name="prefs_audio_recording_text">Recordiad sain</string>
     <string name="prefs_audio_settings_sum_text">Recordiad ansawdd, i ffwrdd /ymlaen</string>
     <string name="prefs_audio_settings_text">Gosodiadau sain</string>
+    <string name="prefs_audio_source_camcorder_text">Efallai na fydd recordiad sain o CAMCORDER yn gweithio ar rai dyfeisiau, yn yr achos hwn ceisiwch newid i MIC</string>
+    <string name="prefs_audio_source_text">Ffynhonnell Sain</string>
     <string name="prefs_audio_stereo_text">Stereo</string>
     <string name="prefs_auto_start_app_launch_sum_text">Dechreuwch recordio fideo yn awtomatig pan fydd yr ap yn cychwyn</string>
     <string name="prefs_auto_start_app_launch_text">Wrth ddechrau\'r cais</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Rhedeg wrth blygio i\'r jack sain (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Stopiwch wrth gael eich datgysylltu o\'r jack sain (AUX)</string>
     <string name="prefs_battery_optimization_sum_text">Gall optimeiddio batri atal yr ap rhag gweithio\'n gywir (er enghraifft, defnyddio\'r camera neu ddiweddaru\'r lleoliad wrth recordio fideo yn y cefndir). Cliciwch yma i\'w analluogi ar gyfer y cais hwn nawr</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">Gall optimeiddio batri atal y cymhwysiad rhag gweithio\'n gywir (er enghraifft, defnyddio\'r camera a\'r meicroffon). Cliciwch yma i\'w analluogi ar gyfer y cais hwn nawr</string>
     <string name="prefs_battery_optimization_text">Optimeiddio batri</string>
     <string name="prefs_beep_each_start_recording_sum_text">Signal ar ddechrau\'r recordiad o\'r ffeil fideo nesaf</string>
     <string name="prefs_beep_each_start_recording_text">Bîp wrth recordio</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Tirwedd</string>
     <string name="prefs_orientation_landscape_reversed">Albwm i\'r gwrthwyneb</string>
     <string name="prefs_orientation_portrait">Portread</string>
+    <string name="prefs_orientation_sensor_automatic">Awtomatig</string>
     <string name="prefs_other_auto_deleting_sum_text">Dileu\'r fideos hynaf yn awtomatig wrth recordio os nad oes digon o le ar gyfer fideos newydd</string>
     <string name="prefs_other_auto_deleting_text">Recordio dolen</string>
     <string name="prefs_other_date_time_text">dyddiad ac amser</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Lleoliad llun (ffolder /llwybr)</string>
     <string name="prefs_other_path_text">Lleoliad fideo (ffolder /llwybr)</string>
     <string name="prefs_other_settings_sum_text">Lleoliad fideo (arbed ffolder), hyd fideo, recordio dolen, synhwyrydd G, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Lleoliad recordiadau fideo (ffolder i\'w gadw), hyd fideo, recordiad dolen, maint fideo mwyaf</string>
     <string name="prefs_other_settings_text">Gosodiadau eraill</string>
     <string name="prefs_other_show_address_text">Cyfeiriad lleoliad cyfredol</string>
     <string name="prefs_other_show_altitude_text">Uchder uwch lefel y môr</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Pan fyddwch chi\'n cychwyn y cais, trowch ymlaen /i ffwrdd â gwefru, cistiwch y system</string>
     <string name="prefs_screen_autostart_text">Recordiad autostart</string>
     <string name="prefs_screen_ui_summary_text">Sgrin wasg gyflym /hir, sgrinio i ffwrdd, arddangosfa cyfeiriad a chyflymder, ffenestr naid, botymau a mwy</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Llwybr byr i ddechrau recordio, gwasgu\'n gyflym a hir ar y sgrin, ffenestr naid, dirgryniad wrth recordio, hysbysiad sain, dirgryniad, botymau ar y sgrin, diffodd y sgrin a mwy</string>
     <string name="prefs_screen_ui_title">Rhyngwyneb (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Yn newid moddau dydd /nos camera yn awtomatig ar adegau penodol</string>
     <string name="prefs_screen_video_day_night_mode_text">Gosodiadau Dydd /Nos Auto</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">Blocio fideos rhag cael eu trosysgrifo</string>
     <string name="prefs_show_overlay_btn_sum_text">Yn arddangos ffenestr gyda botymau rheoli ar ben pob cais</string>
     <string name="prefs_show_overlay_btn_text">Dangos ffenestr arnofio</string>
+    <string name="prefs_show_overlay_on_recording_text">Dangos ffenestr arnofio pan fydd recordio yn dechrau</string>
     <string name="prefs_show_status_bar_text">Dangos bar statws system</string>
     <string name="prefs_show_take_photo_btn_text">I wneud llun</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Heb gefnogaeth y camera cyfredol. Mae gweithgynhyrchwyr yn aml yn cyfyngu ar ei ddefnydd - dim ond yn y cymhwysiad Camera safonol y mae ar gael</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Isdeitlau troshaenu ar waelod y fideo</string>
     <string name="prefs_subtitles_position_bottom_text">Isdeitlau ar y gwaelod</string>
     <string name="prefs_subtitles_settings_sum_text">Troshaenau capsiynau fideo: Dyddiad (amser), cyfeiriad lleoliad, cyfesurynnau a chyflymder</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Capsiynau troshaenu ar fideos: dyddiad (stamp amser), testun wedi\'i deilwra</string>
     <string name="prefs_subtitles_settings_text">Gosodiadau is-deitlau</string>
     <string name="prefs_subtitles_size_text">Cynyddu maint y testun</string>
     <string name="prefs_subtitles_speed_text">Cyflymder</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Riportiwch nam, damwain neu wneud cynnig</string>
     <string name="prefs_support_text">Cefnogaeth (adborth)</string>
     <string name="prefs_system_alert_window_sum_text">Gadewch i\'r app hon ymddangos ar ben pob ap arall. Mae hyn yn angenrheidiol i ddechrau /stopio recordio fideo yn awtomatig neu i arddangos ffenestr arnofio</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Caniatáu i\'r ap hwn ymddangos ar ben pob ap arall. Mae hyn yn angenrheidiol i arddangos ffenestr arnofio</string>
     <string name="prefs_system_alert_window_text">Datrys ar ben pob ffenestr</string>
     <string name="prefs_theme_mode_dark">Thema dywyll</string>
+    <string name="prefs_theme_mode_dynamic">Dynamig</string>
     <string name="prefs_theme_mode_light">Thema ysgafn</string>
     <string name="prefs_theme_mode_system_auto">Fel yn y system (awtomatig)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Dychwelwch i\'r sgrin gartref (recordiadau) i gymhwyso\'r gosodiad hwn a chychwyn y gwasanaeth olrhain</string>
     <string name="prefs_toolbar_title_setting">Gosodiadau</string>
     <string name="prefs_translate_sum_text">Helpwch i wella neu drwsio\'r cyfieithiad o destun yn eich iaith</string>
     <string name="prefs_translate_text">Cyfieithiad Cais</string>
+    <string name="prefs_ui_app_icon_and_label_change">Newidiwch eicon ac enw\'r cymhwysiad yn y system</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">Ar ôl y newid, efallai y bydd y cais yn cau, bydd yr hen eicon yn cael ei dynnu ar brif sgrin y ffôn (neu yn y rhestr o\'r holl gymwysiadau), a bydd un newydd yn ymddangos</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Gosodwch yr eicon ac enw\'r lansiwr</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Newid eicon hysbysiad ac enw</string>
+    <string name="prefs_ui_camera_preview_sum_text">Dangos rhagolwg camera ar sgrin prif ap</string>
+    <string name="prefs_ui_camera_preview_text">Rhagolwg camera</string>
     <string name="prefs_ui_click_none_text">Dim byd i wneud</string>
     <string name="prefs_ui_click_start_stop_rec_text">Dechreuwch /stop recordio</string>
     <string name="prefs_ui_click_text">Tap cyflym ar y sgrin</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Bitrate (ansawdd)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Modd Golygfa Rheoli Camera (Nos)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Modd Golygfa Rheoli Camera (Diwrnod)</string>
+    <string name="prefs_video_codec_sum_text">Mae codecau H.265 HEVC ac AV1 yn darparu gwell ansawdd ar gyfraddau didau is na H.264 AVC, felly gallwch arbed lle trwy leihau cyfradd didau. Ond efallai na fydd fideos yn chwarae mewn rhai chwaraewyr fideo</string>
+    <string name="prefs_video_codec_text">Codec fideo</string>
     <string name="prefs_video_control_scene_mode_beach_text">Traeth (tywydd braf)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Blaenoriaeth Gyffredinol /Wyneb</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (Ystod Dynamig Uchel)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Ffocws camera (nos)</string>
     <string name="prefs_video_focus_text">Ffocws camera (diwrnod)</string>
     <string name="prefs_video_fps_range_text">Fframiau\'r Eiliad (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Cofnodwch mewn fformat HEVC (H.265) i arbed lle. Efallai na fyddwch yn gallu chwarae fideos o\'r fath ar ddyfeisiau neu gymwysiadau chwarae fideo eraill. A fydd yn ailosod datrysiad ac yn didoli ar ôl newid</string>
-    <string name="prefs_video_hevc_text">Codio fideo hynod effeithlon</string>
     <string name="prefs_video_orientation_text">Cyfeiriadedd fideo a ffôn</string>
     <string name="prefs_video_resolution_text">Datrysiad fideo</string>
     <string name="prefs_video_settings_sum_text">Datrys, cyfradd didau, cyfeiriadedd, ffocws, camera, modd nos</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Maint mwy - draen batri cyflymach</string>
     <string name="prefs_video_space_unlimited">Diderfyn</string>
     <string name="prefs_video_stabilization_text">Sefydlogi fideo</string>
+    <string name="prefs_voice_recorder_app">Recordydd Llais yn y Cefndir</string>
     <string name="prefs_warning_location_precise_sum_text">Mae hyn yn angenrheidiol i gael y cyflymder GPS mwyaf cywir, yn ogystal â chyfeiriad a chyfesurynnau. Cliciwch i gyflwyno</string>
     <string name="prefs_warning_location_precise_text">Caniatâd ar gyfer union leoliad</string>
     <string name="prefs_warning_notifications_sum_text">Yn ofynnol i allu arddangos y gwasanaeth recordio cefndir a statws ar y panel hysbysu. Cliciwch i gyflwyno</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">Net</string>
     <string name="rec_off_text">I ffwrdd</string>
     <string name="rec_on_text">Yn cynnwys.</string>
-    <string name="rec_service_msg">Preifatrwydd: Bydd yr holl fideos rydych chi\'n eu recordio yn cael eu cadw ar eich dyfais leol yn unig. Nid yw\'r rhaglen yn gwneud copi wrth gefn o\'ch fideos (nid oes ganddo unrhyw gysylltiadau â gweinyddwyr)\n\nBydd yr ap yn parhau i redeg yn y cefndir (y gwasanaeth blaendir sy\'n ymddangos yn y bar hysbysu) os byddwch chi\'n dechrau recordiad newydd ac yn dychwelyd i\'r sgrin gartref, yn newid i ap arall neu\'n cloi\'ch ffôn i allu parhau i recordio, neu os rydych chi\'n troi swyddogaethau ymlaen ar gyfer recordio awtomatig (os byddwch chi\'n cau\'r gwasanaeth cefndir, ni fydd y swyddogaethau hyn yn gweithio).</string>
+    <string name="rec_service_msg">Preifatrwydd: Bydd yr holl fideos rydych chi\'n eu recordio yn cael eu cadw ar eich dyfais leol yn unig. Nid yw\'r rhaglen yn gwneud copi wrth gefn o\'ch fideos (nid oes ganddo unrhyw gysylltiadau â gweinyddwyr)\n\nBydd yr ap yn parhau i redeg yn y cefndir (y gwasanaeth blaendir sy\'n ymddangos yn y bar hysbysu) tra bod y recordio yn weithredol, pan fyddwch chi\'n dychwelyd i\'r sgrin gartref, yn newid i ap arall neu\'n cloi\'ch ffôn i barhau i recordio, a phan fyddwch chi\'n troi ymlaen nodweddion ar gyfer recordio awtomatig (os byddwch yn cau\'r gwasanaeth cefndir, ni fydd y swyddogaethau hyn yn gweithio). Mae\'r ap yn defnyddio Firebase Analytics ar gyfer dadansoddiadau dienw sylfaenol (gweler y ddolen isod)</string>
+    <string name="recording_file_name_prefix">Rhagddodiad ar gyfer enwau ffeiliau fideo</string>
     <string name="recording_start_text">Dechreuwch recordio</string>
     <string name="recording_started_failed_text">Gwall wrth ddechrau recordio</string>
     <string name="recording_started_with_audio_text">Mae recordiad fideo newydd gyda recordiad sain wedi cychwyn</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">Recordio…</string>
     <string name="recording_voice_started_text">Mae\'r recordio wedi dechrau</string>
     <string name="recording_voice_stopped_text">Stopiodd y recordio</string>
+    <string name="records_file_sorting_date">Dyddiad</string>
+    <string name="records_file_sorting_duration">Hyd</string>
+    <string name="records_file_sorting_name">Enw</string>
+    <string name="records_file_sorting_size">Maint ffeil</string>
+    <string name="records_file_upload_drive">Cadw i \"Google Drive\"</string>
     <string name="reset">rhyddhau</string>
     <string name="storage_external_single">Cerdyn MicroSD</string>
     <string name="storage_phone">Cof ffôn</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Dileu modd</string>
     <string name="videos_file_item_share">Rhannwch hyn</string>
     <string name="videos_file_item_watch">Gwylio</string>
+    <string name="videos_file_open_with">Agor gyda</string>
+    <string name="videos_file_select">Dewiswch ar gyfer</string>
     <string name="videos_file_sort_asc">Trefnu esgynnol</string>
     <string name="videos_file_sort_desc">Trefnu yn disgyn</string>
     <string name="videos_file_was_locked_text">Mae\'r ffeil fideo wedi\'i symud i ffolder wedi\'i warchod</string>

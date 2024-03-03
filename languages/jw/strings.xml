@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">Aku nerimo</string>
     <string name="any_text">Sembarang</string>
+    <string name="app_alternative_name_audio">Audio</string>
+    <string name="app_alternative_name_battery">Setelan baterei</string>
+    <string name="app_alternative_name_media">Media</string>
+    <string name="app_alternative_name_media_player">Pamuter media</string>
+    <string name="app_alternative_name_video">Video</string>
+    <string name="app_name_backgroundvideorecorder">Ngrekam video latar mburi</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - DVR Nyopir</string>
     <string name="camera">kamera</string>
     <string name="camera_aperture">Diafragma</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">Kamera sauntara (wis) ora kasedhiya kanggo mbukak ing piranti (kesalahan sistem kamera)</string>
     <string name="camera_support_error">Ana kesalahan nalika nggunakake kamera.</string>
     <string name="close">Nutup</string>
+    <string name="days">dina</string>
     <string name="default_text">Default</string>
     <string name="dialog_camera_not_found_msg_text">Piranti iki ora duwe kamera internal lan ora ndhukung kamera eksternal. Panutup…</string>
     <string name="dialog_camera_not_found_text">Kamera ora ditemokake</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">Sampeyan ora duwe iklan.</string>
     <string name="donation_level_text">Tingkat sumbangan sampeyan:</string>
     <string name="donation_purchase_info_loading_text">Informasi blanja durung diunggah. Apa sampeyan online lan mlebu menyang akun Google sampeyan?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Mbusak iklan ing salawas-lawase kanthi sumbangan siji-wektu kanthi jumlah apa wae. Sampeyan uga bisa nyumbang jumlah apa wae saben wulan kanggo mbusak iklan</string>
-    <string name="donation_subs_any_amount_text">Uga, pariwara bakal dicopot nalika sampeyan langganan jumlah apa wae.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Mbusak iklan ing salawas-lawase kanthi sumbangan siji-wektu kanthi jumlah apa wae. Sampeyan uga bisa nyumbang saben wulan kanggo mbusak iklan</string>
+    <string name="donation_subs_any_amount_text">Iklan rampung dibusak nalika langganan kanggo jumlah apa wae saben sasi aktif.</string>
     <string name="donation_subs_manage_btn_text">Batal langganan</string>
+    <string name="donation_subs_no_free_trial_explanation_text">Aplikasi kasebut ora menehi wektu uji coba kanggo langganan, amarga kabeh fungsi aplikasi wis gratis, langganan mung mbusak pariwara.</string>
+    <string name="donation_subs_one_text">Iklan rampung dibusak nalika langganan aktif.</string>
     <string name="donation_subs_text">Sumbangan saben wulan</string>
     <string name="format_altitude">dhuwur</string>
     <string name="format_degrees">Koordinat</string>
@@ -56,6 +65,7 @@
     <string name="from">saka</string>
     <string name="hour">jam</string>
     <string name="hours">jam</string>
+    <string name="month">wulan</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Aplikasi kasebut ora dikecualian saka optimasi baterei. Yen kamera ora mlaku ing latar mburi utawa liya-liyane, banjur tambahake aplikasi iki ing pangecualian mode hemat daya.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Yen sampeyan nginstal maneh aplikasi ing Android 11, file lawas kudu dibusak kanthi manual</string>
     <string name="msg_auto_recording_service_was_stopped">Sampeyan wis mungkasi layanan latar mburi kanggo miwiti ngrekam video kanthi otomatis. Bukak aplikasi kanggo mbukak maneh.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Rekam audio saka piranti Bluetooth</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Gunakake mung nganggo headphone Bluetooth. Yen sampeyan nyambungake menyang unit sirah (radio mobil) liwat Bluetooth, sakperangan alesan iki bisa kanthi otomatis micu telpon menyang nomer standar ing piranti iki.</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Aja nggunakake unit sirah (radio mobil)!</string>
+    <string name="prefs_audio_codec_title">Audio codec</string>
     <string name="prefs_audio_priority_sum">Yen diaktifake, aplikasi liyane ora bakal bisa nggunakake mikropon. Yen dipateni, aplikasi iki bisa uga ora bisa ngrekam audio nalika sawetara aplikasi mlaku nggunakake mikropon (Android ora tansah ngidini nggunakake mikropon bebarengan)</string>
     <string name="prefs_audio_priority_title">Prioritasake audio kanggo app iki</string>
     <string name="prefs_audio_rate_text">Frekuensi sampling</string>
     <string name="prefs_audio_recording_text">Rekaman audio</string>
     <string name="prefs_audio_settings_sum_text">Kualitas, rekaman swara mati /aktif</string>
     <string name="prefs_audio_settings_text">Setelan swara</string>
+    <string name="prefs_audio_source_camcorder_text">Rekaman audio saka CAMCORDER bisa uga ora bisa digunakake ing sawetara piranti, ing kasus iki coba ganti menyang MIC</string>
+    <string name="prefs_audio_source_text">Sumber Audio</string>
     <string name="prefs_audio_stereo_text">Stereo</string>
     <string name="prefs_auto_start_app_launch_sum_text">Miwiti ngrekam video kanthi otomatis nalika app diwiwiti</string>
     <string name="prefs_auto_start_app_launch_text">Nalika miwiti aplikasi</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Mlaku nalika disambungake menyang jack audio (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Mungkasi nalika pedhot saka jack audio (AUX)</string>
     <string name="prefs_battery_optimization_sum_text">Optimisasi baterei bisa nyegah app supaya ora bisa digunakake kanthi bener (contone, nggunakake kamera utawa nganyari lokasi nalika ngrekam video ing latar mburi). Klik kene kanggo mateni aplikasi iki saiki</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">Optimasi baterei bisa nyegah aplikasi bisa digunakake kanthi bener (contone, nggunakake kamera lan mikropon). Klik kene kanggo mateni aplikasi iki saiki</string>
     <string name="prefs_battery_optimization_text">Optimization baterei</string>
     <string name="prefs_beep_each_start_recording_sum_text">Sinyal ing wiwitan rekaman file video sabanjure</string>
     <string name="prefs_beep_each_start_recording_text">Bip nalika ngrekam</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Lanskap</string>
     <string name="prefs_orientation_landscape_reversed">Album mbalikke</string>
     <string name="prefs_orientation_portrait">Potret</string>
+    <string name="prefs_orientation_sensor_automatic">otomatis</string>
     <string name="prefs_other_auto_deleting_sum_text">Mbusak video paling tuwa kanthi otomatis nalika ngrekam yen ora cukup ruang kanggo video anyar</string>
     <string name="prefs_other_auto_deleting_text">Rekaman loop</string>
     <string name="prefs_other_date_time_text">tanggal lan wektu</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Lokasi foto (folder /path)</string>
     <string name="prefs_other_path_text">Lokasi video (folder /path)</string>
     <string name="prefs_other_settings_sum_text">Lokasi video (simpen folder), durasi video, rekaman loop, G-sensor, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Lokasi rekaman video (folder kanggo disimpen), durasi video, rekaman loop, ukuran video maksimal</string>
     <string name="prefs_other_settings_text">Setelan liyane</string>
     <string name="prefs_other_show_address_text">Alamat lokasi saiki</string>
     <string name="prefs_other_show_altitude_text">Dhuwur ndhuwur segara</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Nalika sampeyan miwiti aplikasi, urip /mateni ngisi daya, boot sistem</string>
     <string name="prefs_screen_autostart_text">Autostart ngrekam</string>
     <string name="prefs_screen_ui_summary_text">Pencet cepet /dawa layar, layar mati, alamat lan tampilan kacepetan, jendhela sembul, tombol lan liya-liyane</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Trabasan kanggo miwiti ngrekam, penet cepet lan dawa ing layar, jendhela pop-up, geter nalika ngrekam, kabar swara, geter, tombol ing layar, mateni layar lan liya-liyane</string>
     <string name="prefs_screen_ui_title">Antarmuka (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Ngalih mode kamera dina /wengi kanthi otomatis ing wektu tartamtu</string>
     <string name="prefs_screen_video_day_night_mode_text">Setelan Dina /Wengi Otomatis</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">Mblokir video supaya ora ditimpa</string>
     <string name="prefs_show_overlay_btn_sum_text">Nampilake jendhela kanthi tombol kontrol ing ndhuwur kabeh aplikasi</string>
     <string name="prefs_show_overlay_btn_text">Tampilake jendhela ngambang</string>
+    <string name="prefs_show_overlay_on_recording_text">Tampilake jendhela ngambang nalika ngrekam diwiwiti</string>
     <string name="prefs_show_status_bar_text">Tampilake garis status sistem</string>
     <string name="prefs_show_take_photo_btn_text">Kanggo nggawe foto</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Ora didhukung dening kamera saiki. Produsen asring mbatesi panggunaan - mung kasedhiya ing aplikasi Kamera standar</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Overlay subtitle ing sisih ngisor video</string>
     <string name="prefs_subtitles_position_bottom_text">Subtitle ing ngisor</string>
     <string name="prefs_subtitles_settings_sum_text">Katrangan video overlay: Tanggal (wektu), alamat lokasi, koordinat lan kacepetan</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Katrangan overlay ing video: tanggal (stempel wektu), teks khusus</string>
     <string name="prefs_subtitles_settings_text">Setelan subtitle</string>
     <string name="prefs_subtitles_size_text">Tambah ukuran teks</string>
     <string name="prefs_subtitles_speed_text">Kacepetan</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Lapor bug, kacilakan utawa gawe tawaran</string>
     <string name="prefs_support_text">Dhukungan (umpan balik)</string>
     <string name="prefs_system_alert_window_sum_text">Idini aplikasi iki katon ing ndhuwur kabeh aplikasi liyane. Iki perlu kanggo miwiti /mungkasi ngrekam video kanthi otomatis utawa kanggo nampilake jendhela ngambang</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Idini aplikasi iki katon ing ndhuwur kabeh aplikasi liyane. Iki perlu kanggo nampilake jendhela ngambang</string>
     <string name="prefs_system_alert_window_text">Resolusi ing ndhuwur kabeh windows</string>
     <string name="prefs_theme_mode_dark">Tema peteng</string>
+    <string name="prefs_theme_mode_dynamic">Dinamis</string>
     <string name="prefs_theme_mode_light">Tema cahya</string>
     <string name="prefs_theme_mode_system_auto">Kaya ing sistem (otomatis)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Bali menyang layar ngarep (rekaman) kanggo ngetrapake setelan iki lan miwiti layanan nelusuri</string>
     <string name="prefs_toolbar_title_setting">Setelan</string>
     <string name="prefs_translate_sum_text">Mbantu nambah utawa ndandani terjemahan teks ing basa sampeyan</string>
     <string name="prefs_translate_text">Terjemahan Aplikasi</string>
+    <string name="prefs_ui_app_icon_and_label_change">Ganti lambang lan jeneng aplikasi ing sistem</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">Sawise pangowahan, aplikasi bisa ditutup, lambang lawas bakal dibusak ing layar utama telpon (utawa ing dhaptar kabeh aplikasi), lan sing anyar bakal katon.</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Setel lambang lan jeneng peluncur</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Ganti lambang kabar lan jeneng</string>
+    <string name="prefs_ui_camera_preview_sum_text">Tampilake pratinjau kamera ing layar aplikasi utama</string>
+    <string name="prefs_ui_camera_preview_text">Pratinjau kamera</string>
     <string name="prefs_ui_click_none_text">Ora ana sing kudu ditindakake</string>
     <string name="prefs_ui_click_start_stop_rec_text">Miwiti /mungkasi ngrekam</string>
     <string name="prefs_ui_click_text">Tutul cepet ing layar</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Bitrate (kualitas)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Mode Pemandangan Kontrol Kamera (Wengi)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Mode Pemandangan Kontrol Kamera (Dina)</string>
+    <string name="prefs_video_codec_sum_text">Codec H.265 HEVC lan AV1 nyedhiyakake kualitas sing luwih apik ing bitrate luwih murah tinimbang H.264 AVC, supaya sampeyan bisa ngirit papan kanthi nyuda bitrate. Nanging video bisa uga ora diputer ing sawetara pamuter video</string>
+    <string name="prefs_video_codec_text">Video codec</string>
     <string name="prefs_video_control_scene_mode_beach_text">Pantai (cuaca padhang)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">Umum /Prioritas pasuryan</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (Rentang Dinamis Dhuwur)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Fokus kamera (wengi)</string>
     <string name="prefs_video_focus_text">Fokus kamera (dina)</string>
     <string name="prefs_video_fps_range_text">Bingkai Per Detik (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Rekam ing format HEVC (H.265) kanggo ngirit papan. Sampeyan bisa uga ora bisa muter video kasebut ing piranti utawa aplikasi puter maneh video liyane. Bakal ngreset resolusi lan bitrate sawise owah-owahan</string>
-    <string name="prefs_video_hevc_text">Kodhe video sing efisien banget</string>
     <string name="prefs_video_orientation_text">Orientasi video lan telpon</string>
     <string name="prefs_video_resolution_text">Resolusi video</string>
     <string name="prefs_video_settings_sum_text">Resolusi, bit rate, orientasi, fokus, kamera, mode wengi</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Ukuran luwih gedhe - saluran baterei luwih cepet</string>
     <string name="prefs_video_space_unlimited">Unlimited</string>
     <string name="prefs_video_stabilization_text">Stabilisasi video</string>
+    <string name="prefs_voice_recorder_app">Perekam swara ing latar mburi</string>
     <string name="prefs_warning_location_precise_sum_text">Iki perlu kanggo entuk kacepetan adhedhasar GPS sing paling akurat, uga alamat lan koordinat. Klik kanggo ngirim</string>
     <string name="prefs_warning_location_precise_text">Ijin kanggo lokasi sing tepat</string>
     <string name="prefs_warning_notifications_sum_text">Dibutuhake supaya bisa nampilake layanan rekaman latar mburi lan status ing panel kabar. Klik kanggo ngirim</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">Net</string>
     <string name="rec_off_text">Mati</string>
     <string name="rec_on_text">Kalebu</string>
-    <string name="rec_service_msg">Privasi: Kabeh video sing direkam mung bakal disimpen ing piranti lokal sampeyan. Aplikasi ora nggawe serep video sampeyan (ora duwe sambungan menyang server)\n\nAplikasi bakal terus mlaku ing latar mburi (layanan latar ngarep sing katon ing garis kabar) yen sampeyan miwiti rekaman anyar lan bali menyang layar ngarep, ngalih menyang aplikasi liyane utawa ngunci telpon supaya bisa terus ngrekam, utawa yen sampeyan ngaktifake fungsi kanggo ngrekam otomatis (yen sampeyan nutup layanan latar mburi, fungsi iki ora bakal bisa).</string>
+    <string name="rec_service_msg">Privasi: Kabeh video sing direkam mung bakal disimpen ing piranti lokal sampeyan. Aplikasi ora nggawe serep video sampeyan (ora duwe sambungan menyang server)\n\nAplikasi bakal terus mlaku ing latar mburi (layanan latar ngarep sing katon ing garis kabar) nalika ngrekam aktif, nalika bali menyang layar ngarep, ngalih menyang app liyane utawa ngunci telpon kanggo terus ngrekam, lan nalika sampeyan nguripake. fitur kanggo ngrekam otomatis (yen sampeyan nutup layanan latar mburi, fungsi iki ora bakal bisa). Aplikasi nggunakake Firebase Analytics kanggo analytics anonim dhasar (ndeleng link ing ngisor iki)</string>
+    <string name="recording_file_name_prefix">Ater-ater kanggo jeneng file video</string>
     <string name="recording_start_text">Miwiti ngrekam</string>
     <string name="recording_started_failed_text">Kesalahan miwiti ngrekam</string>
     <string name="recording_started_with_audio_text">Rekaman video anyar kanthi rekaman audio wis diwiwiti</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">Ngrekam…</string>
     <string name="recording_voice_started_text">Rekaman wis diwiwiti</string>
     <string name="recording_voice_stopped_text">Rekaman mandheg</string>
+    <string name="records_file_sorting_date">Tanggal</string>
+    <string name="records_file_sorting_duration">Duration</string>
+    <string name="records_file_sorting_name">jeneng</string>
+    <string name="records_file_sorting_size">Ukuran berkas</string>
+    <string name="records_file_upload_drive">Simpen menyang \"Google Drive\"</string>
     <string name="reset">discharge</string>
     <string name="storage_external_single">kertu MicroSD</string>
     <string name="storage_phone">Memori telpon</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Busak mode</string>
     <string name="videos_file_item_share">Nuduhake iki</string>
     <string name="videos_file_item_watch">Nonton</string>
+    <string name="videos_file_open_with">Bukak karo</string>
+    <string name="videos_file_select">Pilih kanggo</string>
     <string name="videos_file_sort_asc">Urut munggah</string>
     <string name="videos_file_sort_desc">Urut mudhun</string>
     <string name="videos_file_was_locked_text">File video wis dipindhah menyang folder sing dilindhungi</string>

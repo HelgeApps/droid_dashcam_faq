@@ -1,6 +1,12 @@
 <resources>
     <string name="accept_text">accept</string>
     <string name="any_text">Orice</string>
+    <string name="app_alternative_name_audio">Audio</string>
+    <string name="app_alternative_name_battery">Setări baterie</string>
+    <string name="app_alternative_name_media">Mass-media</string>
+    <string name="app_alternative_name_media_player">Media Player</string>
+    <string name="app_alternative_name_video">Video</string>
+    <string name="app_name_backgroundvideorecorder">Înregistrare video de fundal</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - Conducere DVR</string>
     <string name="camera">aparat foto</string>
     <string name="camera_aperture">Diafragmă</string>
@@ -20,6 +26,7 @@
     <string name="camera_msg_error_unknown_text">Camera este temporar (era) indisponibilă pentru a fi deschisă pe dispozitivul dvs. (eroare de sistem a camerei)</string>
     <string name="camera_support_error">A apărut o eroare în timpul utilizării camerei.</string>
     <string name="close">Închide</string>
+    <string name="days">zile</string>
     <string name="default_text">Mod implicit</string>
     <string name="dialog_camera_not_found_msg_text">Acest dispozitiv nu are o cameră încorporată și nu acceptă camere externe. Închidere…</string>
     <string name="dialog_camera_not_found_text">Aparatul foto nu a fost găsit</string>
@@ -38,9 +45,11 @@
     <string name="donation_dlg_no_ads_text">Nu ai reclame.</string>
     <string name="donation_level_text">Nivelul dvs. de donație:</string>
     <string name="donation_purchase_info_loading_text">Informațiile de cumpărături nu au fost încărcate încă. Ești online și te-ai conectat la contul tău Google?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Eliminați reclamele pentru totdeauna cu o donație unică de orice sumă. De asemenea, puteți dona orice sumă lunar pentru a elimina reclamele</string>
-    <string name="donation_subs_any_amount_text">De asemenea, publicitatea este eliminată complet atunci când vă abonați pentru orice sumă.</string>
+    <string name="donation_remove_ads_by_any_amount_text">Eliminați reclamele pentru totdeauna cu o donație unică de orice sumă. De asemenea, puteți dona lunar pentru a elimina reclamele</string>
+    <string name="donation_subs_any_amount_text">Publicitatea este complet eliminată în timp ce un abonament pentru orice sumă pe lună este activ.</string>
     <string name="donation_subs_manage_btn_text">Dezabonați-vă</string>
+    <string name="donation_subs_no_free_trial_explanation_text">Aplicația nu oferă o perioadă de probă pentru abonamente, deoarece toate funcțiile aplicației sunt deja gratuite, abonamentul elimină doar publicitatea</string>
+    <string name="donation_subs_one_text">Publicitatea este eliminată complet în timp ce abonamentul este activ.</string>
     <string name="donation_subs_text">Donează lunar</string>
     <string name="format_altitude">Înălţime</string>
     <string name="format_degrees">Coordonatele</string>
@@ -56,6 +65,7 @@
     <string name="from">din</string>
     <string name="hour">ora</string>
     <string name="hours">ore</string>
+    <string name="month">lună</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Aplicația nu este exclusă de la optimizarea bateriei. Dacă camera nu rulează în fundal sau altceva, atunci adăugați această aplicație la excepțiile modului de economisire a energiei.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Dacă ați reinstalat aplicația pe Android 11, atunci fișierele vechi trebuie șterse manual</string>
     <string name="msg_auto_recording_service_was_stopped">Ați oprit serviciul de fundal pentru a porni automat înregistrarea video. Deschideți aplicația pentru a o lansa din nou.</string>
@@ -120,12 +130,15 @@
     <string name="prefs_audio_bt_recording_text">Înregistrați sunet de pe un dispozitiv Bluetooth</string>
     <string name="prefs_audio_bt_recording_warning_message_text">Utilizați numai cu căști Bluetooth. Dacă vă conectați la unitatea principală (radio auto) prin Bluetooth, atunci din anumite motive, acest lucru poate declanșa automat un apel telefonic la numărul standard de pe acest dispozitiv</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Nu utilizați cu unitatea principală (radio auto)!</string>
+    <string name="prefs_audio_codec_title">Codec audio</string>
     <string name="prefs_audio_priority_sum">Dacă este activată, alte aplicații nu vor putea folosi microfonul. Dacă este dezactivată, este posibil ca această aplicație să nu poată înregistra sunet atunci când mai multe aplicații rulează folosind microfonul (Android nu permite întotdeauna utilizarea simultană a microfonului)</string>
     <string name="prefs_audio_priority_title">Acordați prioritate audio pentru această aplicație</string>
     <string name="prefs_audio_rate_text">Frecvența de eșantionare</string>
     <string name="prefs_audio_recording_text">Inregistrare audio</string>
     <string name="prefs_audio_settings_sum_text">Calitate, dezactivat /activat înregistrarea sunetului</string>
     <string name="prefs_audio_settings_text">Setări de sunet</string>
+    <string name="prefs_audio_source_camcorder_text">Este posibil ca înregistrarea audio de la CAMCORDER să nu funcționeze pe unele dispozitive; în acest caz, încercați să treceți la MIC</string>
+    <string name="prefs_audio_source_text">Sursă audio</string>
     <string name="prefs_audio_stereo_text">Stereo</string>
     <string name="prefs_auto_start_app_launch_sum_text">Începeți înregistrarea video automat când pornește aplicația</string>
     <string name="prefs_auto_start_app_launch_text">La pornirea aplicației</string>
@@ -145,6 +158,7 @@
     <string name="prefs_aux_auto_start_text">Rulați când este conectat la mufa audio (AUX)</string>
     <string name="prefs_aux_auto_stop_text">Opriți când sunteți deconectat de la mufa audio (AUX)</string>
     <string name="prefs_battery_optimization_sum_text">Optimizarea bateriei poate împiedica aplicația să funcționeze corect (de exemplu, folosind camera sau actualizarea locației în timp ce înregistrați un videoclip în fundal). Faceți clic aici pentru a o dezactiva acum pentru această aplicație</string>
+    <string name="prefs_battery_optimization_sum_text_bvr">Optimizarea bateriei poate împiedica aplicația să funcționeze corect (de exemplu, folosind camera și microfonul). Faceți clic aici pentru a o dezactiva acum pentru această aplicație</string>
     <string name="prefs_battery_optimization_text">Optimizarea bateriei</string>
     <string name="prefs_beep_each_start_recording_sum_text">Semnal la începutul înregistrării următorului fișier video</string>
     <string name="prefs_beep_each_start_recording_text">Bip la înregistrare</string>
@@ -193,6 +207,7 @@
     <string name="prefs_orientation_landscape">Peisaj</string>
     <string name="prefs_orientation_landscape_reversed">Reversul albumului</string>
     <string name="prefs_orientation_portrait">Portret</string>
+    <string name="prefs_orientation_sensor_automatic">Automat</string>
     <string name="prefs_other_auto_deleting_sum_text">Ștergeți automat cele mai vechi videoclipuri în timpul înregistrării dacă nu există suficient spațiu pentru videoclipuri noi</string>
     <string name="prefs_other_auto_deleting_text">Înregistrare în buclă</string>
     <string name="prefs_other_date_time_text">data si ora</string>
@@ -204,6 +219,7 @@
     <string name="prefs_other_path_photo_text">Locația fotografiei (dosar /cale)</string>
     <string name="prefs_other_path_text">Locația videoclipului (dosar /cale)</string>
     <string name="prefs_other_settings_sum_text">Locație video (dosar de salvare), durata video, înregistrare în buclă, senzor G, GPS</string>
+    <string name="prefs_other_settings_sum_text_bvr">Locația înregistrărilor video (dosarul de salvat), durata video, înregistrarea în buclă, dimensiunea maximă a videoclipului</string>
     <string name="prefs_other_settings_text">Alte setari</string>
     <string name="prefs_other_show_address_text">Adresa locației curente</string>
     <string name="prefs_other_show_altitude_text">Înălțimea deasupra nivelului mării</string>
@@ -239,6 +255,7 @@
     <string name="prefs_screen_autostart_sum_text">Când porniți aplicația, porniți /opriți încărcarea, porniți sistemul</string>
     <string name="prefs_screen_autostart_text">Înregistrare pornire automată</string>
     <string name="prefs_screen_ui_summary_text">Ecran apăsare rapidă /lungă, ecran oprit, afișare adrese și viteză, fereastră pop-up, butoane și multe altele</string>
+    <string name="prefs_screen_ui_summary_text_bvr">Comandă rapidă pentru a începe înregistrarea, apăsare rapidă și lungă pe ecran, fereastră pop-up, vibrație la înregistrare, notificare sonoră, vibrație, butoane de pe ecran, oprire a ecranului și multe altele</string>
     <string name="prefs_screen_ui_title">Interfață (UI)</string>
     <string name="prefs_screen_video_day_night_mode_sum_text">Comută automat modurile zi/noapte ale camerei la anumite ore</string>
     <string name="prefs_screen_video_day_night_mode_text">Setări automate zi/noapte</string>
@@ -257,6 +274,7 @@
     <string name="prefs_show_lock_btn_text">Blocarea videoclipurilor pentru a nu fi suprascrise</string>
     <string name="prefs_show_overlay_btn_sum_text">Afișează o fereastră cu butoane de control deasupra tuturor aplicațiilor</string>
     <string name="prefs_show_overlay_btn_text">Afișează fereastra plutitoare</string>
+    <string name="prefs_show_overlay_on_recording_text">Afișează fereastra flotantă când începe înregistrarea</string>
     <string name="prefs_show_status_bar_text">Afișează bara de stare a sistemului</string>
     <string name="prefs_show_take_photo_btn_text">Pentru a face o fotografie</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Nu este acceptat de camera actuală. Producătorii restricționează adesea utilizarea acestuia - este disponibil numai în aplicația standard Camera</string>
@@ -279,6 +297,7 @@
     <string name="prefs_subtitles_position_bottom_sum_text">Suprapuneți subtitrări în partea de jos a videoclipului</string>
     <string name="prefs_subtitles_position_bottom_text">Subtitrări în partea de jos</string>
     <string name="prefs_subtitles_settings_sum_text">Subtitrări video suprapuse: data (ora), adresa locației, coordonatele și viteza</string>
+    <string name="prefs_subtitles_settings_sum_text_bvr">Subtitrări suprapuse pe videoclipuri: dată (marca temporală), text personalizat</string>
     <string name="prefs_subtitles_settings_text">Setări de subtitrare</string>
     <string name="prefs_subtitles_size_text">Măriți dimensiunea textului</string>
     <string name="prefs_subtitles_speed_text">Viteză</string>
@@ -290,14 +309,22 @@
     <string name="prefs_support_sum_text">Raportați o eroare, blocare sau faceți o ofertă</string>
     <string name="prefs_support_text">Asistență (feedback)</string>
     <string name="prefs_system_alert_window_sum_text">Permiteți acestei aplicații să apară deasupra tuturor celorlalte aplicații. Acest lucru este necesar pentru a porni/opri automat înregistrarea video sau pentru a afișa o fereastră plutitoare</string>
+    <string name="prefs_system_alert_window_sum_text_bvr">Permiteți acestei aplicații să apară deasupra tuturor celorlalte aplicații. Acest lucru este necesar pentru a afișa o fereastră plutitoare</string>
     <string name="prefs_system_alert_window_text">Rezoluție deasupra tuturor ferestrelor</string>
     <string name="prefs_theme_mode_dark">Tema întunecată</string>
+    <string name="prefs_theme_mode_dynamic">Dinamic</string>
     <string name="prefs_theme_mode_light">Tema ușoară</string>
     <string name="prefs_theme_mode_system_auto">Ca și în sistem (automat)</string>
     <string name="prefs_tip_apply_auto_rec_on_text">Reveniți la ecranul de start (înregistrări) pentru a aplica această setare și a porni serviciul de urmărire</string>
     <string name="prefs_toolbar_title_setting">Setări</string>
     <string name="prefs_translate_sum_text">Ajutați la îmbunătățirea sau corectarea traducerii textului în limba dvs</string>
     <string name="prefs_translate_text">Traducerea aplicației</string>
+    <string name="prefs_ui_app_icon_and_label_change">Schimbați pictograma și numele aplicației din sistem</string>
+    <string name="prefs_ui_app_icon_and_label_change_sum">După modificare, aplicația se poate închide, vechea pictogramă va fi eliminată de pe ecranul principal al telefonului (sau din lista tuturor aplicațiilor) și va apărea una nouă</string>
+    <string name="prefs_ui_app_icon_and_label_launcher_recording">Setați pictograma și numele lansatorului</string>
+    <string name="prefs_ui_app_notification_icon_and_label_change">Schimbați pictograma de notificare și numele</string>
+    <string name="prefs_ui_camera_preview_sum_text">Afișați previzualizarea camerei pe ecranul principal al aplicației</string>
+    <string name="prefs_ui_camera_preview_text">Previzualizarea camerei</string>
     <string name="prefs_ui_click_none_text">Nimic de făcut</string>
     <string name="prefs_ui_click_start_stop_rec_text">Porniți /opriți înregistrarea</string>
     <string name="prefs_ui_click_text">Atingeți rapid pe ecran</string>
@@ -310,6 +337,8 @@
     <string name="prefs_video_bitrate_text">Rata de biți (calitate)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Mod scenă de control al camerei (noapte)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Mod scenă de control al camerei (zi)</string>
+    <string name="prefs_video_codec_sum_text">Codecurile H.265 HEVC și AV1 oferă o calitate mai bună la rate de biți mai mici decât H.264 AVC, astfel încât să puteți economisi spațiu prin reducerea ratei de biți. Dar este posibil ca videoclipurile să nu fie redate în unele playere video</string>
+    <string name="prefs_video_codec_text">Codec video</string>
     <string name="prefs_video_control_scene_mode_beach_text">Plaja ( vreme luminoasa)</string>
     <string name="prefs_video_control_scene_mode_face_priority_text">General /Prioritate față</string>
     <string name="prefs_video_control_scene_mode_hdr_text">HDR (gamă dinamică ridicată)</string>
@@ -331,8 +360,6 @@
     <string name="prefs_video_focus_night_text">Focalizarea camerei (noapte)</string>
     <string name="prefs_video_focus_text">Focalizarea camerei (zi)</string>
     <string name="prefs_video_fps_range_text">Cadre pe secundă (FPS)</string>
-    <string name="prefs_video_hevc_sum_text">Înregistrați în format HEVC (H.265) pentru a economisi spațiu. Este posibil să nu puteți reda astfel de videoclipuri pe alte dispozitive sau aplicații de redare video. Va reseta rezoluția și rata de biți după modificare</string>
-    <string name="prefs_video_hevc_text">Codare video foarte eficientă</string>
     <string name="prefs_video_orientation_text">Orientare video și telefon</string>
     <string name="prefs_video_resolution_text">Rezoluție video</string>
     <string name="prefs_video_settings_sum_text">Rezoluție, rata de biți, orientare, focalizare, cameră foto, modul noapte</string>
@@ -340,6 +367,7 @@
     <string name="prefs_video_size_sum_text">Dimensiune mai mare - descărcare mai rapidă a bateriei</string>
     <string name="prefs_video_space_unlimited">Nelimitat</string>
     <string name="prefs_video_stabilization_text">Stabilizare video</string>
+    <string name="prefs_voice_recorder_app">Voice Recorder în fundal</string>
     <string name="prefs_warning_location_precise_sum_text">Acest lucru este necesar pentru a obține cea mai precisă viteză bazată pe GPS, precum și adresa și coordonatele. Faceți clic pentru a trimite</string>
     <string name="prefs_warning_location_precise_text">Permisiune pentru locația exactă</string>
     <string name="prefs_warning_notifications_sum_text">Este necesar pentru a putea afișa serviciul de înregistrare în fundal și stările pe panoul de notificare. Faceți clic pentru a trimite</string>
@@ -362,7 +390,8 @@
     <string name="rec_network_text">Net</string>
     <string name="rec_off_text">Off</string>
     <string name="rec_on_text">Incl.</string>
-    <string name="rec_service_msg">Confidențialitate: Toate videoclipurile pe care le înregistrați vor fi salvate numai pe dispozitivul dvs. local. Aplicația nu face backup pentru videoclipurile dvs. (nu are conexiuni la servere)\n\nAplicația va continua să ruleze în fundal (serviciul din prim-plan care apare în bara de notificări) dacă începeți o nouă înregistrare și reveniți la ecranul de start, comutați la altă aplicație sau blocați telefonul pentru a putea continua înregistrarea sau dacă activați funcții pentru înregistrarea automată (dacă închideți serviciul de fundal, aceste funcții nu vor funcționa).</string>
+    <string name="rec_service_msg">Confidențialitate: Toate videoclipurile pe care le înregistrați vor fi salvate numai pe dispozitivul dvs. local. Aplicația nu face backup pentru videoclipurile dvs. (nu are conexiuni la servere)\n\nAplicația va continua să ruleze în fundal (serviciul din prim-plan care apare în bara de notificări) în timp ce înregistrarea este activă, când reveniți la ecranul de pornire, comutați la altă aplicație sau blocați telefonul pentru a continua înregistrarea și când porniți caracteristici pentru înregistrarea automată (dacă închideți serviciul de fundal, aceste funcții nu vor funcționa). Aplicația folosește Firebase Analytics pentru analize anonime de bază (vezi linkul de mai jos)</string>
+    <string name="recording_file_name_prefix">Prefix pentru numele fișierelor video</string>
     <string name="recording_start_text">Începe să înregistrezi</string>
     <string name="recording_started_failed_text">Eroare la începerea înregistrării</string>
     <string name="recording_started_with_audio_text">A început o nouă înregistrare video cu înregistrare audio</string>
@@ -375,6 +404,11 @@
     <string name="recording_text">Înregistrare…</string>
     <string name="recording_voice_started_text">Înregistrarea a început</string>
     <string name="recording_voice_stopped_text">Înregistrarea sa oprit</string>
+    <string name="records_file_sorting_date">Data</string>
+    <string name="records_file_sorting_duration">Durată</string>
+    <string name="records_file_sorting_name">Nume</string>
+    <string name="records_file_sorting_size">Mărime fișier</string>
+    <string name="records_file_upload_drive">Salvați în „Google Drive”</string>
     <string name="reset">deversare</string>
     <string name="storage_external_single">Card microSD</string>
     <string name="storage_phone">Memoria telefonului</string>
@@ -403,6 +437,8 @@
     <string name="videos_file_deletion_mode">Șterge modul</string>
     <string name="videos_file_item_share">Imparte asta</string>
     <string name="videos_file_item_watch">Ceas</string>
+    <string name="videos_file_open_with">Deschis cu</string>
+    <string name="videos_file_select">Selectați pentru</string>
     <string name="videos_file_sort_asc">Sortare ascendentă</string>
     <string name="videos_file_sort_desc">Sortează descrescător</string>
     <string name="videos_file_was_locked_text">Fișierul video a fost mutat într-un folder protejat</string>
