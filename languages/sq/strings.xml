@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Informacion /Më shumë…</string>
     <string name="prefs_kill_services_sum_text">Ka cilësime në pajisjen tuaj për të lejuar që aplikacionet të luajnë automatikisht dhe të ekzekutohen në sfond. Klikoni këtu dhe shtoni aplikacionin te përjashtimet (lejo nisjen automatike dhe kështu me radhë) për ta lejuar atë të funksionojë në sfond dhe kur ekrani është i fikur, nëse ndalohet</string>
     <string name="prefs_kill_services_text">Lejimi i punës në sfond</string>
+    <string name="prefs_language">Gjuhe</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Hapni aplikacionin kur regjistrimi fillon automatikisht</string>
     <string name="prefs_launch_app_auto_text">Hap aplikacionin kur fillon regjistrimi i videos</string>
     <string name="prefs_launch_app_limitation_text">Me Android 11 dhe më të lartë, mund të mos jeni në gjendje të zgjidhni asnjë nga aplikacionet e instaluara pasi vetë sistemi kufizon dukshmërinë e aplikacionit (politika e privatësisë)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Metoda e marrjes së vendndodhjes (GPS)</string>
     <string name="prefs_location_update_frequency_text">Shkalla e përditësimit GPS</string>
     <string name="prefs_meters_accuracy_value_text">metra saktësi</string>
+    <string name="prefs_open_source_notices_text">Njoftimet me burim të hapur</string>
     <string name="prefs_optical_zoom_text">Zmadhimi optik (Zmadhimi) /Gjatësia fokale</string>
     <string name="prefs_orientation_landscape">Peizazhi</string>
     <string name="prefs_orientation_landscape_reversed">Albumi mbrapa</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">Ndjeshmëria e sensorit G</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Dridhja kur zbulohet goditje</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Filloni regjistrimin kur zbulohet lëvizja</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Për ngjarjet Bluetooth është e mundur vetëm nëse opsioni \"regjistro vetëm kur karikohet\" është i çaktivizuar.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Mos e hapni shërbimin e aplikacionit AutoStart për të kursyer baterinë ndërsa prisni që ngjarjet të nisin automatikisht regjistrimin. Për Android 8+ kjo është e mundur nëse aktivizohen vetëm ngjarjet Bluetooth dhe pjesa tjetër janë çaktivizuar.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Mund ta çaktivizoni këtë opsion që aplikacioni të kryejë regjistrim automatik vetëm kur funksionon shërbimi i sfondit të aplikacionit (AutoStart).\n- Regjistrimi automatik për ngjarje të tilla si karikimi, Bluetooth ose AUX mund të kryhet pa probleme deri në Android 7.1.\n- Duke filluar nga Android 8+, regjistrimi automatik pa një shërbim aplikacioni në sfond (AutoStart) mund të kryhet vetëm për ngjarjet Bluetooth, dhe në raste të tjera (kur karikoni ose AUX) duhet të filloni fillimisht shërbimin e aplikacionit në sfond (AutoStart) - duke nisur vetë aplikacioni një herë.\n- Duke filluar me Android 11+, pa shërbimin e aplikacionit në sfond (AutoStart), qasja në kamerë pa ndërveprim të përdoruesit për të filluar regjistrimin është e mundur vetëm nëse jepet leja \"mbi të gjitha aplikacionet\".</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Regjistrim automatik edhe nëse shërbimi i sfondit nuk funksionon (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Filloni regjistrimin kur shpejtësia është e barabartë /më e lartë (bazuar në GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Mund ta çaktivizoni këtë opsion që aplikacioni të kryejë regjistrim automatik vetëm kur funksionon shërbimi i sfondit të aplikacionit (AutoStart).\n- Regjistrimi automatik për ngjarje të tilla si karikimi, Bluetooth ose AUX mund të kryhet pa probleme deri në Android 7.1.\n- Duke filluar nga Android 8, regjistrimi automatik pa një shërbim aplikacioni në sfond (AutoStart) mund të kryhet vetëm për ngjarjet Bluetooth, dhe në raste të tjera (kur karikoni ose AUX) duhet të filloni fillimisht shërbimin e aplikacionit në sfond (AutoStart) - duke hapur vetë aplikimi një herë.\n- Duke filluar me Android 11 pa shërbimin e aplikacionit në sfond (AutoStart), qasja në kamerë pa ndërveprim të përdoruesit është e mundur vetëm nëse telefoni është i shkyçur (ekrani i ndezur) dhe jepet leja \"në krye të të gjitha aplikacioneve\".\n- Kështu, për Android 11 dhe më të lartë, duhet të nisni manualisht aplikacionin një herë në mënyrë që shërbimi i sfondit të aplikacionit (AutoStart) të fillojë për regjistrim automatik gjatë çdo ngjarjeje dhe kur ekrani i telefonit është i fikur.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Regjistrim automatik edhe nëse shërbimi i sfondit nuk funksionon (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Ndalo regjistrimin më pas</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Ndalo regjistrimin kur nuk ka lëvizje</string>
     <string name="prefs_rules_auto_stop_speed_text">Ndalo regjistrimin kur shpejtësia është më e ulët (bazuar në GPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Bllokimi i videove nga mbishkrimi</string>
     <string name="prefs_show_overlay_btn_sum_text">Shfaq një dritare me butona kontrolli në krye të të gjitha aplikacioneve</string>
     <string name="prefs_show_overlay_btn_text">Shfaq dritaren lundruese</string>
-    <string name="prefs_show_overlay_on_recording_text">Shfaq dritaren lundruese kur fillon regjistrimi</string>
+    <string name="prefs_show_overlay_on_recording_text">Shfaq dritaren lundruese vetëm kur regjistrimi është aktiv (dhe mbyllet automatikisht kur ndalon)</string>
     <string name="prefs_show_status_bar_text">Shfaq shiritin e statusit të sistemit</string>
     <string name="prefs_show_take_photo_btn_text">Për të bërë një foto</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Nuk mbështetet nga kamera aktuale. Prodhuesit shpesh e kufizojnë përdorimin e tij - është i disponueshëm vetëm në aplikacionin standard të Kamera</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Mbështetje (feedback)</string>
     <string name="prefs_system_alert_window_sum_text">Lejo që ky aplikacion të shfaqet në krye të të gjitha aplikacioneve të tjera. Kjo është e nevojshme për të filluar/ndaluar automatikisht regjistrimin e videos ose për të shfaqur një dritare lundruese</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Lejo që ky aplikacion të shfaqet në krye të të gjitha aplikacioneve të tjera. Kjo është e nevojshme për të shfaqur një dritare lundruese</string>
-    <string name="prefs_system_alert_window_text">Rezolucioni në krye të të gjitha dritareve</string>
+    <string name="prefs_system_alert_window_text">Shfaq në krye të aplikacioneve të tjera</string>
     <string name="prefs_theme_mode_dark">Tema e errët</string>
     <string name="prefs_theme_mode_dynamic">Dinamik</string>
     <string name="prefs_theme_mode_light">Tema e lehtë</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Po regjistron…</string>
     <string name="recording_voice_started_text">Regjistrimi ka filluar</string>
     <string name="recording_voice_stopped_text">Regjistrimi u ndal</string>
+    <string name="records_file_edit_trim_crop">Modifiko (Trim) në \"Fotografitë e Google\"</string>
     <string name="records_file_sorting_date">Data</string>
     <string name="records_file_sorting_duration">Kohëzgjatja</string>
     <string name="records_file_sorting_name">Emri</string>
     <string name="records_file_sorting_size">Madhësia e skedarit</string>
     <string name="records_file_upload_drive">Ruaj në \"Google Drive\"</string>
+    <string name="records_file_upload_youtube">Ngarko në YouTube</string>
     <string name="reset">shkarkimi</string>
     <string name="storage_external_single">Kartë MicroSD</string>
     <string name="storage_phone">Kujtesa e telefonit</string>

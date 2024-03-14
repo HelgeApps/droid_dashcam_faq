@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Thông tin /Thêm…</string>
     <string name="prefs_kill_services_sum_text">Có các cài đặt trên thiết bị của bạn để cho phép các ứng dụng tự động phát và chạy trong nền. Nhấp vào đây và thêm ứng dụng vào các trường hợp ngoại lệ (cho phép tự khởi động lại, v.v.) để cho phép ứng dụng chạy trong nền và khi màn hình tắt, nếu bị cấm</string>
     <string name="prefs_kill_services_text">Cho phép công việc nền</string>
+    <string name="prefs_language">Ngôn ngữ</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Mở ứng dụng khi quá trình ghi bắt đầu tự động</string>
     <string name="prefs_launch_app_auto_text">Khởi chạy ứng dụng khi bắt đầu quay video</string>
     <string name="prefs_launch_app_limitation_text">Với Android 11 trở lên, bạn có thể không chọn được bất kỳ ứng dụng nào đã cài đặt vì bản thân hệ thống hạn chế khả năng hiển thị của ứng dụng (chính sách bảo mật)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Phương pháp thu nhận vị trí (GPS)</string>
     <string name="prefs_location_update_frequency_text">Tỷ lệ cập nhật GPS</string>
     <string name="prefs_meters_accuracy_value_text">mét độ chính xác</string>
+    <string name="prefs_open_source_notices_text">Thông báo nguồn mở</string>
     <string name="prefs_optical_zoom_text">Thu phóng quang học (Zoom) /Độ dài tiêu cự</string>
     <string name="prefs_orientation_landscape">Phong cảnh</string>
     <string name="prefs_orientation_landscape_reversed">Đảo ngược anbom</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">Độ nhạy cảm biến G</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Rung khi phát hiện sốc</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Bắt đầu ghi khi phát hiện chuyển động</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Đối với các sự kiện Bluetooth, điều này chỉ có thể thực hiện được nếu tùy chọn \"chỉ ghi khi sạc\" bị tắt.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Không khởi chạy dịch vụ ứng dụng AutoStart để tiết kiệm pin trong khi chờ sự kiện tự động bắt đầu ghi. Đối với Android 8+, điều này có thể thực hiện được nếu chỉ bật các sự kiện Bluetooth và các sự kiện còn lại bị tắt.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Bạn có thể tắt tùy chọn này để ứng dụng chỉ thực hiện ghi tự động khi dịch vụ nền của ứng dụng (AutoStart) đang chạy.\n- Có thể thực hiện ghi âm tự động cho các sự kiện như sạc pin, Bluetooth hoặc Aux mà không gặp vấn đề gì cho đến Android 7.1.\n- Bắt đầu từ Android 8+, chỉ có thể thực hiện ghi âm tự động không có dịch vụ ứng dụng nền (AutoStart) cho các sự kiện Bluetooth và trong các trường hợp khác (khi sạc hoặc Aux), trước tiên bạn cần khởi động dịch vụ ứng dụng nền (AutoStart) - bằng cách khởi chạy chính ứng dụng đó một lần.\n- Bắt đầu với Android 11+, không có dịch vụ ứng dụng nền (AutoStart), việc truy cập camera mà không có sự tương tác của người dùng để bắt đầu ghi chỉ có thể thực hiện được nếu được cấp quyền \"trên tất cả các ứng dụng\".</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Tự động ghi ngay cả khi dịch vụ nền không chạy (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Bắt đầu ghi khi tốc độ bằng /cao hơn (dựa trên GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Bạn có thể tắt tùy chọn này để ứng dụng chỉ thực hiện ghi tự động khi dịch vụ nền của ứng dụng (AutoStart) đang chạy.\n- Có thể thực hiện ghi âm tự động cho các sự kiện như sạc pin, Bluetooth hoặc Aux mà không gặp vấn đề gì cho đến Android 7.1.\n- Bắt đầu từ Android 8, việc ghi âm tự động không có dịch vụ ứng dụng nền (AutoStart) chỉ có thể được thực hiện cho các sự kiện Bluetooth và trong các trường hợp khác (khi sạc hoặc Aux), trước tiên bạn cần khởi động dịch vụ ứng dụng nền (AutoStart) - bằng cách khởi chạy ứng dụng chính nó một lần.\n- Bắt đầu với Android 11 không có dịch vụ ứng dụng nền (AutoStart), chỉ có thể truy cập vào camera mà không có sự tương tác của người dùng nếu điện thoại được mở khóa (bật màn hình) và được cấp quyền \"trên tất cả các ứng dụng\".\n- Do đó, đối với Android 11 trở lên, bạn cần khởi chạy ứng dụng theo cách thủ công một lần để dịch vụ nền của ứng dụng (AutoStart) khởi động để tự động ghi hình trong bất kỳ sự kiện nào và khi màn hình điện thoại tắt.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Tự động ghi ngay cả khi dịch vụ nền không chạy (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Dừng ghi sau khi</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Dừng ghi khi không có chuyển động</string>
     <string name="prefs_rules_auto_stop_speed_text">Dừng ghi khi tốc độ thấp hơn (dựa trên GPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Chặn video bị ghi đè</string>
     <string name="prefs_show_overlay_btn_sum_text">Hiển thị một cửa sổ với các nút điều khiển trên đầu tất cả các ứng dụng</string>
     <string name="prefs_show_overlay_btn_text">Hiển thị cửa sổ nổi</string>
-    <string name="prefs_show_overlay_on_recording_text">Hiển thị cửa sổ nổi khi bắt đầu ghi</string>
+    <string name="prefs_show_overlay_on_recording_text">Chỉ hiển thị cửa sổ nổi khi quá trình ghi đang hoạt động (và tự động đóng khi dừng)</string>
     <string name="prefs_show_status_bar_text">Hiển thị thanh trạng thái hệ thống</string>
     <string name="prefs_show_take_photo_btn_text">Để tạo một bức ảnh</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Không được hỗ trợ bởi máy ảnh hiện tại. Các nhà sản xuất thường hạn chế việc sử dụng nó - nó chỉ có sẵn trong ứng dụng Máy ảnh tiêu chuẩn</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Hỗ trợ (phản hồi)</string>
     <string name="prefs_system_alert_window_sum_text">Cho phép ứng dụng này xuất hiện trên tất cả các ứng dụng khác. Điều này là cần thiết để tự động bắt đầu /dừng quay video hoặc để hiển thị cửa sổ nổi</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Cho phép ứng dụng này xuất hiện trên tất cả các ứng dụng khác. Điều này là cần thiết để hiển thị một cửa sổ nổi</string>
-    <string name="prefs_system_alert_window_text">Độ phân giải trên tất cả các cửa sổ</string>
+    <string name="prefs_system_alert_window_text">Hiển thị trên đầu các ứng dụng khác</string>
     <string name="prefs_theme_mode_dark">Chủ đề tối</string>
     <string name="prefs_theme_mode_dynamic">Năng động</string>
     <string name="prefs_theme_mode_light">Chủ đề nhẹ nhàng</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Ghi âm…</string>
     <string name="recording_voice_started_text">Quá trình ghi đã bắt đầu</string>
     <string name="recording_voice_stopped_text">Ghi đã dừng</string>
+    <string name="records_file_edit_trim_crop">Chỉnh sửa (Cắt) trong \"Google Photos\"</string>
     <string name="records_file_sorting_date">Ngày</string>
     <string name="records_file_sorting_duration">Khoảng thời gian</string>
     <string name="records_file_sorting_name">Tên</string>
     <string name="records_file_sorting_size">Kích thước tập tin</string>
     <string name="records_file_upload_drive">Lưu vào \"Google Drive\"</string>
+    <string name="records_file_upload_youtube">Tải lên YouTube</string>
     <string name="reset">phóng điện</string>
     <string name="storage_external_single">Thẻ micro SD</string>
     <string name="storage_phone">Bộ nhớ điện thoại</string>

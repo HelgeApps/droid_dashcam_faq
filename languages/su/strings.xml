@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Inpormasi /langkung…</string>
     <string name="prefs_kill_services_sum_text">Aya setelan dina alat Anjeun pikeun ngidinan aktip muter otomatis tur ngajalankeun di latar tukang. Pencét di dieu sareng tambahkeun aplikasi kana pangecualian (ngawenangkeun ngamimitian otomatis sareng saterasna) pikeun ngamungkinkeun éta jalan di latar tukang sareng nalika layar pareum, upami dilarang.</string>
     <string name="prefs_kill_services_text">Ngidinan karya latar</string>
+    <string name="prefs_language">Basa</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Buka aplikasi nalika ngarékam dimimitian sacara otomatis</string>
     <string name="prefs_launch_app_auto_text">Jalankeun aplikasi nalika ngarékam pidéo dimimitian</string>
     <string name="prefs_launch_app_limitation_text">Kalayan Android 11 sareng anu langkung luhur, anjeun moal tiasa milih salah sahiji aplikasi anu dipasang sabab sistemna sorangan ngabatesan visibilitas aplikasi (kabijakan privasi)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Métode akuisisi lokasi (GPS)</string>
     <string name="prefs_location_update_frequency_text">Laju apdet GPS</string>
     <string name="prefs_meters_accuracy_value_text">méter akurasi</string>
+    <string name="prefs_open_source_notices_text">Bewara open source</string>
     <string name="prefs_optical_zoom_text">Zoom Optik (Zoom) /Panjang Fokus</string>
     <string name="prefs_orientation_landscape">Bentang</string>
     <string name="prefs_orientation_landscape_reversed">Albeum ngabalikeun</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">Sensitipitas G-sensor</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Geter nalika shock dideteksi</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Mimitian ngarékam nalika gerakan dideteksi</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Pikeun acara Bluetooth ngan mungkin lamun pilihan \"rékam ukur nalika ngecas\" dinonaktipkeun.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Ulah ngajalankeun ladenan aplikasi AutoStart pikeun ngahemat batré bari ngantosan kajadian pikeun ngamimitian otomatis ngarekam. Pikeun Android 8+ ieu mungkin upami ngan ukur acara Bluetooth diaktipkeun sareng sésana ditumpurkeun.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Anjeun tiasa mareuman pilihan ieu supados aplikasi ngarékam otomatis ngan ukur nalika ladenan latar tukang aplikasi (AutoStart) jalan.\n- Rékam otomatis pikeun acara sapertos ngecas, Bluetooth atanapi AUX tiasa dilakukeun tanpa masalah dugi ka Android 7.1.\n- Mimitian ti Android 8+, ngarékam otomatis tanpa ladenan aplikasi latar (AutoStart) ngan ukur tiasa dilakukeun pikeun acara Bluetooth, sareng dina kasus sanésna (nalika ngecas atanapi AUX) anjeun kedah mimiti ngamimitian jasa aplikasi latar (AutoStart) - ku ngaluncurkeun aplikasi sorangan sakali.\n- Dimimitian ku Android 11+, tanpa jasa aplikasi latar (AutoStart), ngaksés kaméra tanpa interaksi pangguna pikeun ngamimitian ngarékam ngan ukur tiasa upami idin \"di luhureun sadaya aplikasi\" dipasihkeun.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Rékam otomatis sanajan ladenan latar henteu jalan (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Mimitian ngarékam nalika laju sami /langkung luhur (dumasar kana GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Anjeun tiasa mareuman pilihan ieu supados aplikasi ngarékam otomatis ngan ukur nalika ladenan latar tukang aplikasi (AutoStart) jalan.\n- Rékam otomatis pikeun acara sapertos ngecas, Bluetooth atanapi AUX tiasa dilakukeun tanpa masalah dugi ka Android 7.1.\n- Mimitian ti Android 8, ngarékam otomatis tanpa ladenan aplikasi latar (AutoStart) ngan ukur tiasa dilakukeun pikeun acara Bluetooth, sareng dina kasus sanés (nalika ngecas atanapi AUX) anjeun kedah ngamimitian heula jasa aplikasi latar (AutoStart) - ku ngaluncurkeun aplikasi sorangan sakali.\n- Dimimitian ku Android 11 tanpa jasa aplikasi latar (AutoStart), aksés ka kaméra tanpa interaksi pangguna ngan ukur tiasa upami teleponna dikonci (layar hurung) sareng idin \"di luhureun sadaya aplikasi\" dipasihkeun.\n- Janten, pikeun Android 11 sareng anu langkung luhur, anjeun kedah ngaluncurkeun aplikasi sacara manual sakali supados jasa latar tukang aplikasi (AutoStart) dimimitian pikeun ngarékam otomatis nalika aya kajadian sareng nalika layar telepon dipareuman.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Rékam otomatis sanajan ladenan latar henteu jalan (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Eureun ngarékam sanggeus</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Eureun ngarékam nalika teu aya gerakan</string>
     <string name="prefs_rules_auto_stop_speed_text">Eureun ngarékam nalika laju langkung handap (dumasar kana GPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Ngablokir pidéo tina ditimpa</string>
     <string name="prefs_show_overlay_btn_sum_text">Nampilkeun jandela sareng tombol kontrol dina luhureun sadaya aplikasi</string>
     <string name="prefs_show_overlay_btn_text">Témbongkeun jandela ngambang</string>
-    <string name="prefs_show_overlay_on_recording_text">Tampilkeun jandela ngambang nalika ngarékam dimimitian</string>
+    <string name="prefs_show_overlay_on_recording_text">Tampilkeun jandela ngambang ngan ukur nalika ngarékam aktip (sareng tutup otomatis nalika eureun)</string>
     <string name="prefs_show_status_bar_text">Témbongkeun bar status sistem</string>
     <string name="prefs_show_take_photo_btn_text">Pikeun nyieun poto</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Teu dirojong ku kaméra ayeuna. Pabrikan sering ngabatesan panggunaanna - éta ngan ukur aya dina aplikasi Kaméra standar</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Dukungan (eupan balik)</string>
     <string name="prefs_system_alert_window_sum_text">Idinan aplikasi ieu nembongan di luhureun sakabeh aplikasi sejenna. Ieu dipikabutuh pikeun otomatis ngamimitian /ngeureunkeun ngarékam pidéo atanapi ningalikeun jandela ngambang</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Idinan aplikasi ieu nembongan di luhureun sakabeh aplikasi sejenna. Ieu diperlukeun pikeun nembongkeun jandela ngambang</string>
-    <string name="prefs_system_alert_window_text">Resolusi dina luhureun sakabeh jandéla</string>
+    <string name="prefs_system_alert_window_text">Pintonan dina luhureun aplikasi sejenna</string>
     <string name="prefs_theme_mode_dark">Téma poék</string>
     <string name="prefs_theme_mode_dynamic">Dinamis</string>
     <string name="prefs_theme_mode_light">Téma cahaya</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Ngarékam…</string>
     <string name="recording_voice_started_text">Ngarékam geus dimimitian</string>
     <string name="recording_voice_stopped_text">Rékaman dieureunkeun</string>
+    <string name="records_file_edit_trim_crop">Édit (Potong) dina \"Foto Google\"</string>
     <string name="records_file_sorting_date">Kaping</string>
     <string name="records_file_sorting_duration">Lilana</string>
     <string name="records_file_sorting_name">Ngaran</string>
     <string name="records_file_sorting_size">Ukuran file</string>
     <string name="records_file_upload_drive">Simpen kana \"Google Drive\"</string>
+    <string name="records_file_upload_youtube">Unggah ka YouTube</string>
     <string name="reset">ngurangan</string>
     <string name="storage_external_single">Kartu MicroSD</string>
     <string name="storage_phone">Mémori telepon</string>

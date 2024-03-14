@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Informācija /Vairāk…</string>
     <string name="prefs_kill_services_sum_text">Jūsu ierīcē ir iestatījumi, kas ļauj lietotnēm automātiski atskaņot un darboties fonā. Noklikšķiniet šeit un pievienojiet lietojumprogrammu izņēmumiem (atļaut automātisko palaišanu un tā tālāk), lai ļautu tai darboties fonā un, ja ekrāns ir izslēgts, ja tas ir aizliegts</string>
     <string name="prefs_kill_services_text">Ļauj strādāt fonā</string>
+    <string name="prefs_language">Valoda</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Atveriet programmu, kad ierakstīšana sākas automātiski</string>
     <string name="prefs_launch_app_auto_text">Palaidiet lietotni, kad sākas video ierakstīšana</string>
     <string name="prefs_launch_app_limitation_text">Izmantojot operētājsistēmu Android 11 un jaunāku versiju, iespējams, nevarēsit atlasīt nevienu no instalētajām lietotnēm, jo ​​pati sistēma ierobežo lietotņu redzamību (konfidencialitātes politika).</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Atrašanās vietas iegūšanas metode (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS atjaunināšanas ātrums</string>
     <string name="prefs_meters_accuracy_value_text">metru precizitāte</string>
+    <string name="prefs_open_source_notices_text">Atvērtā koda paziņojumi</string>
     <string name="prefs_optical_zoom_text">Optiskā tālummaiņa (tālummaiņa) /fokusa attālums</string>
     <string name="prefs_orientation_landscape">Ainava</string>
     <string name="prefs_orientation_landscape_reversed">Albuma reverss</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">G-sensora jutība</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Vibrācija, kad tiek atklāts trieciens</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Sāciet ierakstīšanu, kad tiek noteikta kustība</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Bluetooth notikumiem tas ir iespējams tikai tad, ja ir atspējota opcija “Ierakstīt tikai uzlādes laikā”.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Nepalaidiet lietojumprogrammas AutoStart pakalpojumu, lai taupītu akumulatoru, gaidot notikumu automātisku ierakstīšanu. Operētājsistēmā Android 8+ tas ir iespējams, ja ir iespējoti tikai Bluetooth notikumi, bet pārējie ir atspējoti.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Varat izslēgt šo opciju, lai lietotne veiktu automātisku ierakstīšanu tikai tad, kad darbojas lietotnes fona pakalpojums (AutoStart).\n- Automātisku notikumu, piemēram, uzlādes, Bluetooth vai AUX ierakstīšanu var veikt bez problēmām līdz operētājsistēmai Android 7.1.\n- Sākot ar operētājsistēmu Android 8+, automātisko ierakstīšanu bez fona lietojumprogrammas pakalpojuma (AutoStart) var veikt tikai Bluetooth notikumiem, un citos gadījumos (uzlādējot vai AUX) vispirms ir jāstartē fona lietojumprogrammas pakalpojums (AutoStart) - palaižot pati lietojumprogramma vienreiz.\n- Sākot ar operētājsistēmu Android 11+, bez fona lietotņu pakalpojuma (AutoStart), piekļuve kamerai bez lietotāja iejaukšanās, lai sāktu ierakstīšanu, ir iespējama tikai tad, ja ir piešķirta atļauja \"visu lietotņu augšdaļā\".</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Automātiska ierakstīšana pat tad, ja fona pakalpojums nedarbojas (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Sāciet ierakstīšanu, kad ātrums ir vienāds/lielāks (pamatojoties uz GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Varat izslēgt šo opciju, lai lietotne veiktu automātisku ierakstīšanu tikai tad, kad darbojas lietotnes fona pakalpojums (AutoStart).\n- Automātisku notikumu, piemēram, uzlādes, Bluetooth vai AUX ierakstīšanu var veikt bez problēmām līdz operētājsistēmai Android 7.1.\n- Sākot ar operētājsistēmu Android 8, automātisko ierakstīšanu bez fona lietojumprogrammas pakalpojuma (AutoStart) var veikt tikai Bluetooth notikumiem, un citos gadījumos (uzlādējot vai AUX) vispirms ir jāstartē fona lietojumprogrammas pakalpojums (AutoStart) - palaižot pati lietojumprogramma vienreiz.\n- Sākot ar operētājsistēmu Android 11 bez fona lietotņu pakalpojuma (AutoStart), piekļuve kamerai bez lietotāja iejaukšanās ir iespējama tikai tad, ja tālrunis ir atbloķēts (ekrāns ir ieslēgts) un ir piešķirta atļauja \"visām lietotnēm virsū\".\n- Tādējādi operētājsistēmām Android 11 un jaunākām versijām vienreiz ir manuāli jāpalaiž lietojumprogramma, lai lietojumprogrammas fona pakalpojums (AutoStart) sāktu automātisku ierakstīšanu jebkādu notikumu laikā un tad, kad tālruņa ekrāns ir izslēgts.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Automātiska ierakstīšana pat tad, ja fona pakalpojums nedarbojas (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Pēc tam pārtrauciet ierakstīšanu</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Pārtrauciet ierakstīšanu, ja nav kustības</string>
     <string name="prefs_rules_auto_stop_speed_text">Pārtraukt ierakstīšanu, kad ātrums ir mazāks (pamatojoties uz GPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Videoklipu pārrakstīšanas bloķēšana</string>
     <string name="prefs_show_overlay_btn_sum_text">Parāda logu ar vadības pogām virs visām lietojumprogrammām</string>
     <string name="prefs_show_overlay_btn_text">Rādīt peldošo logu</string>
-    <string name="prefs_show_overlay_on_recording_text">Rādīt peldošo logu, kad sākas ierakstīšana</string>
+    <string name="prefs_show_overlay_on_recording_text">Rādīt peldošo logu tikai tad, kad ierakstīšana ir aktīva (un aizveriet automātiski, kad tā apstājas)</string>
     <string name="prefs_show_status_bar_text">Rādīt sistēmas statusa joslu</string>
     <string name="prefs_show_take_photo_btn_text">Lai izveidotu fotoattēlu</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Pašreizējā kamera neatbalsta. Ražotāji bieži ierobežo tā lietošanu – tā ir pieejama tikai standarta aplikācijā Kamera</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Atbalsts (atsauksmes)</string>
     <string name="prefs_system_alert_window_sum_text">Ļaujiet šai lietotnei parādīties virs visām citām lietotnēm. Tas ir nepieciešams, lai automātiski sāktu/pārtrauktu video ierakstīšanu vai parādītu peldošu logu</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Ļaujiet šai lietotnei parādīties virs visām citām lietotnēm. Tas ir nepieciešams, lai parādītu peldošu logu</string>
-    <string name="prefs_system_alert_window_text">Izšķirtspēja visu logu augšpusē</string>
+    <string name="prefs_system_alert_window_text">Parādīt virs citām lietojumprogrammām</string>
     <string name="prefs_theme_mode_dark">Tumša tēma</string>
     <string name="prefs_theme_mode_dynamic">Dinamisks</string>
     <string name="prefs_theme_mode_light">Viegla tēma</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Ierakstīšana…</string>
     <string name="recording_voice_started_text">Ieraksts ir sācies</string>
     <string name="recording_voice_stopped_text">Ierakstīšana pārtraukta</string>
+    <string name="records_file_edit_trim_crop">Rediģēt (apgriezt) pakalpojumā Google fotoattēli</string>
     <string name="records_file_sorting_date">Datums</string>
     <string name="records_file_sorting_duration">Ilgums</string>
     <string name="records_file_sorting_name">Vārds</string>
     <string name="records_file_sorting_size">Faila lielums</string>
     <string name="records_file_upload_drive">Saglabāt Google diskā</string>
+    <string name="records_file_upload_youtube">Augšupielādējiet pakalpojumā YouTube</string>
     <string name="reset">izlāde</string>
     <string name="storage_external_single">MicroSD karte</string>
     <string name="storage_phone">Tālruņa atmiņa</string>

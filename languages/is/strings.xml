@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Upplýsingar /Meira…</string>
     <string name="prefs_kill_services_sum_text">Það eru stillingar á tækinu þínu til að leyfa forritum að spila sjálfvirkt og keyra í bakgrunni. Smelltu hér og bættu forritinu við undantekningarnar (leyfa sjálfvirka ræsingu og svo framvegis) til að leyfa því að keyra í bakgrunni og þegar slökkt er á skjánum, ef það er bannað</string>
     <string name="prefs_kill_services_text">Leyfa bakgrunnsvinnu</string>
+    <string name="prefs_language">Tungumál</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Opnaðu forritið þegar upptaka hefst sjálfkrafa</string>
     <string name="prefs_launch_app_auto_text">Ræstu forritið þegar myndbandsupptaka hefst</string>
     <string name="prefs_launch_app_limitation_text">Með Android 11 og nýrri geturðu hugsanlega ekki valið uppsett forrit þar sem kerfið sjálft takmarkar sýnileika forrita (persónuverndarstefna)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Staðsetningaröflunaraðferð (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS uppfærsluhraði</string>
     <string name="prefs_meters_accuracy_value_text">metra af nákvæmni</string>
+    <string name="prefs_open_source_notices_text">Tilkynningar um opinn uppspretta</string>
     <string name="prefs_optical_zoom_text">Optískur aðdráttur (aðdráttur) /brennivídd</string>
     <string name="prefs_orientation_landscape">Landslag</string>
     <string name="prefs_orientation_landscape_reversed">Albúm afturábak</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">G-skynjari næmi</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Titringur þegar högg greinist</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Byrjaðu upptöku þegar hreyfing greinist</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Fyrir Bluetooth-viðburði er það aðeins mögulegt ef valmöguleikinn „taka aðeins upp við hleðslu“ er óvirkur.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Ekki ræsa AutoStart forritaþjónustuna til að spara rafhlöðuna á meðan beðið er eftir atburðum til að hefja upptöku sjálfkrafa. Fyrir Android 8+ er þetta mögulegt ef aðeins Bluetooth-viðburðir eru virkir og restin óvirk.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Þú getur slökkt á þessum valkosti til að láta appið framkvæma sjálfvirka upptöku aðeins þegar bakgrunnsþjónusta appsins (AutoStart) er í gangi.\n- Hægt er að framkvæma sjálfvirka upptöku fyrir atburði eins og hleðslu, Bluetooth eða AUX án vandræða allt að Android 7.1.\n- Frá og með Android 8+ er sjálfvirk upptaka án bakgrunnsforritaþjónustu (AutoStart) aðeins hægt að framkvæma fyrir Bluetooth-viðburði, og í öðrum tilvikum (við hleðslu eða AUX) þarftu fyrst að ræsa bakgrunnsforritaþjónustuna (AutoStart) - með því að ræsa forritið sjálft einu sinni.\n- Frá og með Android 11+, án bakgrunnsforritaþjónustunnar (AutoStart), er aðgangur að myndavélinni án notendaviðskipta til að hefja upptöku aðeins möguleg ef leyfið „ofan á öll forrit“ er veitt.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Sjálfvirk upptaka jafnvel þótt bakgrunnsþjónustan sé ekki í gangi (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Byrjaðu upptöku þegar hraði er jafn/hærri (byggt á GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Þú getur slökkt á þessum valkosti til að láta appið framkvæma sjálfvirka upptöku aðeins þegar bakgrunnsþjónusta appsins (AutoStart) er í gangi.\n- Hægt er að framkvæma sjálfvirka upptöku fyrir atburði eins og hleðslu, Bluetooth eða AUX án vandræða allt að Android 7.1.\n- Frá og með Android 8 er sjálfvirk upptaka án bakgrunnsforritaþjónustu (AutoStart) aðeins hægt að framkvæma fyrir Bluetooth atburði, og í öðrum tilvikum (við hleðslu eða AUX) þarftu fyrst að ræsa bakgrunnsforritsþjónustuna (AutoStart) - með því að ræsa umsókn sjálft einu sinni.\n- Frá og með Android 11 án bakgrunnsforritaþjónustunnar (AutoStart), aðgangur að myndavélinni án notendaviðskipta er aðeins mögulegur ef síminn er ólæstur (skjárinn á) og „ofan á öll forrit“ leyfi er veitt.\n- Þannig, fyrir Android 11 og nýrri, þarftu að ræsa forritið handvirkt einu sinni svo að bakgrunnsþjónusta forritsins (AutoStart) byrji fyrir sjálfvirka upptöku við hvaða atburði sem er og þegar slökkt er á símaskjánum.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Sjálfvirk upptaka jafnvel þótt bakgrunnsþjónustan sé ekki í gangi (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Hættu að taka upp eftir</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Hættu að taka upp þegar engin hreyfing er</string>
     <string name="prefs_rules_auto_stop_speed_text">Stöðva upptöku þegar hraði er minni (byggt á GPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Lokar á að vídeó verði skrifað yfir</string>
     <string name="prefs_show_overlay_btn_sum_text">Sýnir glugga með stýrihnappum ofan á öll forrit</string>
     <string name="prefs_show_overlay_btn_text">Sýna fljótandi glugga</string>
-    <string name="prefs_show_overlay_on_recording_text">Sýna fljótandi glugga þegar upptaka hefst</string>
+    <string name="prefs_show_overlay_on_recording_text">Sýna fljótandi glugga aðeins þegar upptaka er virk (og loka sjálfkrafa þegar hún hættir)</string>
     <string name="prefs_show_status_bar_text">Sýna stöðustiku kerfisins</string>
     <string name="prefs_show_take_photo_btn_text">Til að gera mynd</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Ekki stutt af núverandi myndavél. Framleiðendur takmarka oft notkun þess - það er aðeins fáanlegt í venjulegu myndavélaforritinu</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Stuðningur (viðbrögð)</string>
     <string name="prefs_system_alert_window_sum_text">Leyfa þessu forriti að birtast ofan á öll önnur forrit. Þetta er nauðsynlegt til að hefja /stöðva myndbandsupptöku sjálfkrafa eða til að birta fljótandi glugga</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Leyfa þessu forriti að birtast ofan á öll önnur forrit. Þetta er nauðsynlegt til að birta fljótandi glugga</string>
-    <string name="prefs_system_alert_window_text">Upplausn ofan á alla glugga</string>
+    <string name="prefs_system_alert_window_text">Birta ofan á önnur forrit</string>
     <string name="prefs_theme_mode_dark">Dökkt þema</string>
     <string name="prefs_theme_mode_dynamic">Dynamic</string>
     <string name="prefs_theme_mode_light">Létt þema</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Tekur upp…</string>
     <string name="recording_voice_started_text">Upptaka er hafin</string>
     <string name="recording_voice_stopped_text">Upptaka hætt</string>
+    <string name="records_file_edit_trim_crop">Breyta (klippa) í \"Google myndir\"</string>
     <string name="records_file_sorting_date">Dagsetning</string>
     <string name="records_file_sorting_duration">Lengd</string>
     <string name="records_file_sorting_name">Nafn</string>
     <string name="records_file_sorting_size">Skjala stærð</string>
     <string name="records_file_upload_drive">Vista á „Google Drive“</string>
+    <string name="records_file_upload_youtube">Hladdu upp á YouTube</string>
     <string name="reset">útskrift</string>
     <string name="storage_external_single">MicroSD kort</string>
     <string name="storage_phone">Minni símans</string>

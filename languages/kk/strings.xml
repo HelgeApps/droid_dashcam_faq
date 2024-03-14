@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Ақпарат /Толығырақ…</string>
     <string name="prefs_kill_services_sum_text">Құрылғыңызда қолданбаларға автоматты ойнатуға және фондық режимде жұмыс істеуге мүмкіндік беретін параметрлер бар. Тыйым салынған болса, фондық режимде және экран өшірулі кезде жұмыс істеуге рұқсат беру үшін осы жерді басыңыз және қолданбаны ерекше жағдайларға қосыңыз (автоматты іске қосуға рұқсат беру және т.б.).</string>
     <string name="prefs_kill_services_text">Фондық жұмысқа рұқсат беру</string>
+    <string name="prefs_language">Тіл</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Жазу автоматты түрде басталған кезде қолданбаны ашыңыз</string>
     <string name="prefs_launch_app_auto_text">Бейне жазу басталған кезде қолданбаны іске қосыңыз</string>
     <string name="prefs_launch_app_limitation_text">Android 11 және одан жоғары нұсқаларында орнатылған қолданбалардың ешқайсысын таңдай алмауыңыз мүмкін, себебі жүйенің өзі қолданбаның көрінуін шектейді (құпиялылық саясаты)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Орынды анықтау әдісі (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS жаңарту жылдамдығы</string>
     <string name="prefs_meters_accuracy_value_text">метр дәлдік</string>
+    <string name="prefs_open_source_notices_text">Ашық бастапқы бастапқы ескертулер</string>
     <string name="prefs_optical_zoom_text">Оптикалық масштабтау (масштабтау) /Фокус ұзындығы</string>
     <string name="prefs_orientation_landscape">Пейзаж</string>
     <string name="prefs_orientation_landscape_reversed">Альбом кері</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">G-сенсорының сезімталдығы</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Соққы анықталған кездегі діріл</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Қозғалыс анықталған кезде жазуды бастаңыз</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Bluetooth оқиғалары үшін «тек зарядтау кезінде жазу» опциясы өшірілген жағдайда ғана мүмкін болады.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Жазуды автобастау оқиғаларын күту кезінде батареяны үнемдеу үшін AutoStart қолданбасының қызметін іске қоспаңыз. Android 8+ үшін бұл тек Bluetooth оқиғалары қосылып, қалғандары өшірілген болса мүмкін болады.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Қолданбаның фондық қызметі (AutoStart) жұмыс істеп тұрғанда ғана қолданбаның автоматты жазуды орындауы үшін бұл опцияны өшіруге болады.\n- Зарядтау, Bluetooth немесе AUX сияқты оқиғаларды автоматты түрде жазуды Android 7.1 нұсқасына дейін еш қиындықсыз орындауға болады.\n- Android 8+ жүйесінен бастап фондық қолданба қызметінсіз автоматты жазуды (AutoStart) тек Bluetooth оқиғалары үшін орындауға болады, ал басқа жағдайларда (зарядтау немесе AUX кезінде) алдымен фондық қолданба қызметін (AutoStart) іске қосу керек - іске қосу арқылы қолданбаның өзі бір рет.\n- Android 11+ жүйесінен бастап, фондық қолданба қызметінсіз (AutoStart), жазуды бастау үшін камераға пайдаланушының араласуынсыз қол жеткізу \"барлық қолданбалардың үстіне\" рұқсаты берілген жағдайда ғана мүмкін болады.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Фондық қызмет іске қосылмаса да, автоматты жазу (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Жылдамдық тең /жоғары болған кезде жазуды бастаңыз (GPS негізінде)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Қолданбаның фондық қызметі (AutoStart) жұмыс істеп тұрғанда ғана қолданбаның автоматты жазуды орындауы үшін бұл опцияны өшіруге болады.\n- Зарядтау, Bluetooth немесе AUX сияқты оқиғаларды автоматты түрде жазуды Android 7.1 нұсқасына дейін еш қиындықсыз орындауға болады.\n- Android 8 жүйесінен бастап фондық қолданба қызметінсіз автоматты жазуды (AutoStart) тек Bluetooth оқиғалары үшін орындауға болады, ал басқа жағдайларда (зарядтау немесе AUX кезінде) алдымен фондық қолданба қызметін (AutoStart) іске қосу керек - іске қосу арқылы қолданбаның өзі бір рет.\n- Фондық қолданба қызметі (AutoStart) жоқ Android 11 жүйесінен бастап камераға пайдаланушының араласуынсыз қол жеткізу телефон құлпы ашылғанда (экран қосулы) және «барлық қолданбалардың үстінде» рұқсаты берілгенде ғана мүмкін болады.\n- Осылайша, Android 11 және одан жоғары нұсқалары үшін қолданбаның фондық қызметі (AutoStart) кез келген оқиғалар кезінде және телефон экраны өшірілген кезде автоматты түрде жазу үшін іске қосылуы үшін қолданбаны бір рет қолмен іске қосу керек.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Фондық қызмет іске қосылмаса да, автоматты жазу (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Жазуды тоқтатқаннан кейін</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Қозғалыс болмаған кезде жазуды тоқтатыңыз</string>
     <string name="prefs_rules_auto_stop_speed_text">Жылдамдық төмендеген кезде жазуды тоқтату (GPS негізінде)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Бейнелерді қайта жазуды блоктау</string>
     <string name="prefs_show_overlay_btn_sum_text">Барлық қолданбалардың үстінде басқару түймелері бар терезені көрсетеді</string>
     <string name="prefs_show_overlay_btn_text">Қалқымалы терезені көрсету</string>
-    <string name="prefs_show_overlay_on_recording_text">Жазу басталған кезде қалқымалы терезені көрсету</string>
+    <string name="prefs_show_overlay_on_recording_text">Жазу белсенді болғанда ғана қалқымалы терезені көрсету (және ол тоқтаған кезде автоматты түрде жабылады)</string>
     <string name="prefs_show_status_bar_text">Жүйе күй жолағын көрсету</string>
     <string name="prefs_show_take_photo_btn_text">Фотоға түсіру үшін</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Ағымдағы камера қолдамайды. Өндірушілер жиі оны пайдалануды шектейді - ол тек стандартты Camera қолданбасында қол жетімді</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Қолдау (кері байланыс)</string>
     <string name="prefs_system_alert_window_sum_text">Бұл қолданбаға барлық басқа қолданбалардың үстінде шығуына рұқсат беріңіз. Бұл бейне жазуды автоматты түрде бастау/тоқтату немесе қалқымалы терезені көрсету үшін қажет</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Бұл қолданбаға барлық басқа қолданбалардың үстінен шығуына рұқсат беріңіз. Бұл қалқымалы терезені көрсету үшін қажет</string>
-    <string name="prefs_system_alert_window_text">Ажыратымдылық барлық терезелердің үстінде</string>
+    <string name="prefs_system_alert_window_text">Басқа қолданбалардың үстіне көрсету</string>
     <string name="prefs_theme_mode_dark">Қараңғы тақырып</string>
     <string name="prefs_theme_mode_dynamic">Динамикалық</string>
     <string name="prefs_theme_mode_light">Жеңіл тақырып</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Жазылуда…</string>
     <string name="recording_voice_started_text">Жазу басталды</string>
     <string name="recording_voice_stopped_text">Жазу тоқтатылды</string>
+    <string name="records_file_edit_trim_crop">\"Google Photos\" қолданбасында өңдеу (қию)</string>
     <string name="records_file_sorting_date">Күн</string>
     <string name="records_file_sorting_duration">Ұзақтығы</string>
     <string name="records_file_sorting_name">Аты</string>
     <string name="records_file_sorting_size">Файл өлшемі</string>
     <string name="records_file_upload_drive">\"Google Drive\" ішіне сақтау</string>
+    <string name="records_file_upload_youtube">YouTube сайтына жүктеп салу</string>
     <string name="reset">разряд</string>
     <string name="storage_external_single">MicroSD картасы</string>
     <string name="storage_phone">Телефон жады</string>

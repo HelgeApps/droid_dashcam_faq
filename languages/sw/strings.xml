@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Taarifa /Zaidi…</string>
     <string name="prefs_kill_services_sum_text">Kuna mipangilio kwenye kifaa chako ili kuruhusu programu kucheza kiotomatiki na kufanya kazi chinichini. Bofya hapa na uongeze programu kwa kando (ruhusu kuanzisha otomatiki na kadhalika) ili kuiruhusu kufanya kazi chinichini na wakati skrini imezimwa, ikiwa imepigwa marufuku.</string>
     <string name="prefs_kill_services_text">Inaruhusu kazi ya usuli</string>
+    <string name="prefs_language">Lugha</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Fungua programu wakati kurekodi kunaanza kiotomatiki</string>
     <string name="prefs_launch_app_auto_text">Fungua programu wakati kurekodi video kunaanza</string>
     <string name="prefs_launch_app_limitation_text">Ukiwa na Android 11 na matoleo mapya zaidi, huenda usiweze kuchagua programu zozote zilizosakinishwa kwani mfumo wenyewe unazuia mwonekano wa programu (sera ya faragha)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Mbinu ya kupata eneo (GPS)</string>
     <string name="prefs_location_update_frequency_text">Kiwango cha sasisho za GPS</string>
     <string name="prefs_meters_accuracy_value_text">mita za usahihi</string>
+    <string name="prefs_open_source_notices_text">Arifa za chanzo wazi</string>
     <string name="prefs_optical_zoom_text">Kuza Macho (Kuza) /Urefu wa Kuzingatia</string>
     <string name="prefs_orientation_landscape">Mandhari</string>
     <string name="prefs_orientation_landscape_reversed">Albamu kinyume</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">Unyeti wa G-sensor</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Mtetemo wakati mshtuko unagunduliwa</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Anza kurekodi wakati mwendo umegunduliwa</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Kwa matukio ya Bluetooth inawezekana tu ikiwa chaguo la \"rekodi tu wakati wa kuchaji\" limezimwa.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Usizindue huduma ya programu ya Anzisha Kiotomatiki ili kuokoa betri huku ukingoja matukio kuanza kurekodi kiotomatiki. Kwa Android 8+ hii inawezekana ikiwa tu matukio ya Bluetooth yamewashwa na mengine yamezimwa.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Unaweza kuzima chaguo hili ili programu irekodi kiotomatiki tu wakati huduma ya usuli ya programu (AutoStart) inafanya kazi.\n- Kurekodi kiotomatiki kwa matukio kama vile kuchaji, Bluetooth au AUX kunaweza kufanywa bila matatizo hadi Android 7.1.\n- Kuanzia Android 8+, kurekodi kiotomatiki bila huduma ya utumaji chinichini (AutoStart) kunaweza tu kufanywa kwa hafla za Bluetooth, na katika hali zingine (wakati wa kuchaji au AUX) unahitaji kwanza kuanza huduma ya programu ya usuli (AutoStart) - kwa kuzindua maombi yenyewe mara moja.\n- Kuanzia na Android 11+, bila huduma ya programu ya usuli (AutoStart), kufikia kamera bila mwingiliano wa mtumiaji ili kuanza kurekodi inawezekana tu ikiwa ruhusa ya \"juu ya programu zote\" imetolewa.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Kurekodi kiotomatiki hata kama huduma ya usuli haifanyiki (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Anza kurekodi wakati kasi ni sawa /juu (kulingana na GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Unaweza kuzima chaguo hili ili programu irekodi kiotomatiki tu wakati huduma ya usuli ya programu (AutoStart) inafanya kazi.\n- Kurekodi kiotomatiki kwa matukio kama vile kuchaji, Bluetooth au AUX kunaweza kufanywa bila matatizo hadi Android 7.1.\n- Kuanzia Android 8, kurekodi kiotomatiki bila huduma ya chinichini ya programu (AutoStart) kunaweza kufanywa tu kwa hafla za Bluetooth, na katika hali zingine (wakati wa kuchaji au AUX) unahitaji kwanza kuanza huduma ya programu ya usuli (AutoStart) - kwa kuzindua maombi yenyewe mara moja.\n- Kuanzia na Android 11 bila huduma ya programu ya usuli (AutoStart), ufikiaji wa kamera bila mwingiliano wa mtumiaji inawezekana tu ikiwa simu imefunguliwa (skrini imewashwa) na ruhusa ya \"juu ya programu zote\" imetolewa.\n- Kwa hivyo, kwa Android 11 na zaidi, unahitaji kuzindua programu mwenyewe mara moja ili huduma ya usuli ya programu (AutoStart) ianze kwa kurekodi kiotomatiki wakati wa hafla yoyote na wakati skrini ya simu imezimwa.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Kurekodi kiotomatiki hata kama huduma ya usuli haifanyiki (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Acha kurekodi baada ya</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Acha kurekodi wakati hakuna harakati</string>
     <string name="prefs_rules_auto_stop_speed_text">Acha kurekodi wakati kasi iko chini (kulingana na GPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Inazuia video kufutwa</string>
     <string name="prefs_show_overlay_btn_sum_text">Inaonyesha dirisha na vitufe vya kudhibiti juu ya programu zote</string>
     <string name="prefs_show_overlay_btn_text">Onyesha dirisha linaloelea</string>
-    <string name="prefs_show_overlay_on_recording_text">Onyesha dirisha linaloelea wakati kurekodi kunaanza</string>
+    <string name="prefs_show_overlay_on_recording_text">Onyesha dirisha linaloelea tu wakati kurekodi kunatumika (na funga kiotomatiki inaposimama)</string>
     <string name="prefs_show_status_bar_text">Onyesha upau wa hali ya mfumo</string>
     <string name="prefs_show_take_photo_btn_text">Ili kutengeneza picha</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Haitumiki na kamera ya sasa. Watengenezaji mara nyingi huzuia matumizi yake - inapatikana tu katika programu ya kawaida ya Kamera</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Usaidizi (maoni)</string>
     <string name="prefs_system_alert_window_sum_text">Ruhusu programu hii kuonekana juu ya programu zingine zote. Hii ni muhimu ili kuanza /kuacha kurekodi video kiotomatiki au kuonyesha dirisha linaloelea</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Ruhusu programu hii kuonekana juu ya programu zingine zote. Hii ni muhimu ili kuonyesha dirisha linaloelea</string>
-    <string name="prefs_system_alert_window_text">Azimio juu ya madirisha yote</string>
+    <string name="prefs_system_alert_window_text">Onyesha juu ya programu zingine</string>
     <string name="prefs_theme_mode_dark">Mandhari meusi</string>
     <string name="prefs_theme_mode_dynamic">Nguvu</string>
     <string name="prefs_theme_mode_light">Mandhari nyepesi</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Inarekodi…</string>
     <string name="recording_voice_started_text">Kurekodi kumeanza</string>
     <string name="recording_voice_stopped_text">Kurekodi kumesimamishwa</string>
+    <string name="records_file_edit_trim_crop">Badilisha (Punguza) katika \"Picha kwenye Google\"</string>
     <string name="records_file_sorting_date">Tarehe</string>
     <string name="records_file_sorting_duration">Muda</string>
     <string name="records_file_sorting_name">Jina</string>
     <string name="records_file_sorting_size">Ukubwa wa faili</string>
     <string name="records_file_upload_drive">Hifadhi kwenye \"Hifadhi ya Google\"</string>
+    <string name="records_file_upload_youtube">Pakia kwenye YouTube</string>
     <string name="reset">kutokwa</string>
     <string name="storage_external_single">Kadi ya MicroSD</string>
     <string name="storage_phone">Kumbukumbu ya simu</string>

@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Informoj /Pli…</string>
     <string name="prefs_kill_services_sum_text">Estas agordoj en via aparato por permesi al aplikaĵoj aŭtomate ludi kaj funkcii en la fono. Klaku ĉi tie kaj aldonu la aplikaĵon al la esceptoj (permesu aŭtomatan ekfunkciigon kaj tiel plu) por permesi ĝin funkcii en la fono kaj kiam la ekrano estas malŝaltita, se malpermesite.</string>
     <string name="prefs_kill_services_text">Permesante fonan laboron</string>
+    <string name="prefs_language">Lingvo</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Malfermu aplikaĵon kiam registrado komenciĝas aŭtomate</string>
     <string name="prefs_launch_app_auto_text">Lanĉu apon kiam videoregistrado komenciĝas</string>
     <string name="prefs_launch_app_limitation_text">Kun Android 11 kaj pli, vi eble ne povos elekti iun ajn el la instalitaj aplikaĵoj ĉar la sistemo mem limigas la videblecon de la aplikaĵo (politiko pri privateco)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Loka akirmetodo (GPS)</string>
     <string name="prefs_location_update_frequency_text">Gps-ĝisdatigrapideco</string>
     <string name="prefs_meters_accuracy_value_text">metroj da precizeco</string>
+    <string name="prefs_open_source_notices_text">Malfermfontaj avizoj</string>
     <string name="prefs_optical_zoom_text">Optika Zoom (Zoom) /Foksa Longo</string>
     <string name="prefs_orientation_landscape">Pejzaĝo</string>
     <string name="prefs_orientation_landscape_reversed">Album reverso</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">G-sensilo-sentemo</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Vibrado kiam ŝoko estas detektita</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Komencu registri kiam moviĝo estas detektita</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Por Bluetooth-okazaĵoj eblas nur se la opcio \"registri nur dum ŝarĝo\" estas malŝaltita.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Ne lanĉu la servon de la aplikaĵo AutoStart por ŝpari kuirilaron dum atendado de eventoj por aŭtomate komenci registradon. Por Android 8+ tio eblas se nur Bluetooth-eventoj estas ebligitaj kaj la ceteraj estas malŝaltitaj.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Vi povas malŝalti ĉi tiun opcion por ke la aplikaĵo realigu aŭtomatan registradon nur kiam la fona servo de la programo (AutoStart) funkcias.\n- Aŭtomata registrado por eventoj kiel ŝargado, Bluetooth aŭ AUX povas esti farita sen problemoj ĝis Android 7.1.\n- Komencante de Android 8+, aŭtomata registrado sen fona aplika servo (AutoStart) povas esti farita nur por Bluetooth-eventoj, kaj en aliaj kazoj (dum ŝargado aŭ AUX) vi devas unue komenci la fonan aplikaĵon (AutoStart) - lanĉante la aplikaĵo mem unufoje.\n- Komencante per Android 11+, sen la fona aplika servo (AutoStart), aliri la fotilon sen uzantinterago por komenci registradon eblas nur se la permeso \"super ĉiuj aplikaĵoj\" estas donita.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Aŭtomata registrado eĉ se la fona servo ne funkcias (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Komencu registri kiam rapideco estas egala/pli alta (surbaze de GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Vi povas malŝalti ĉi tiun opcion por ke la aplikaĵo realigu aŭtomatan registradon nur kiam la fona servo de la programo (AutoStart) funkcias.\n- Aŭtomata registrado por eventoj kiel ŝargado, Bluetooth aŭ AUX povas esti farita sen problemoj ĝis Android 7.1.\n- Ekde Android 8, aŭtomata registrado sen fona aplika servo (AutoStart) povas esti farita nur por Bluetooth-okazaĵoj, kaj en aliaj kazoj (dum ŝarĝo aŭ AUX) vi devas unue komenci la fonan aplikaĵon (AutoStart) - lanĉante la aplikaĵo mem unufoje.\n- Komencante kun Android 11 sen la fona aplika servo (AutoStart), aliro al la fotilo sen uzantinterago nur eblas se la telefono estas malŝlosita (ekrano ŝaltita) kaj \"krom ĉiuj aplikaĵoj\" permeso estas donita.\n- Tiel, por Android 11 kaj pli, vi devas mane lanĉi la aplikaĵon unufoje, por ke la fona servo de la aplikaĵo (AutoStart) komenciĝu por aŭtomata registrado dum iuj eventoj kaj kiam la telefona ekrano estas malŝaltita.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Aŭtomata registrado eĉ se la fona servo ne funkcias (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Ĉesu registri poste</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Ĉesu registradon kiam ne estas movado</string>
     <string name="prefs_rules_auto_stop_speed_text">Ĉesu registradon kiam rapideco estas pli malalta (surbaze de GPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Blokante videojn por esti anstataŭitaj</string>
     <string name="prefs_show_overlay_btn_sum_text">Montras fenestron kun kontrolbutonoj supre de ĉiuj aplikaĵoj</string>
     <string name="prefs_show_overlay_btn_text">Montru flosantan fenestron</string>
-    <string name="prefs_show_overlay_on_recording_text">Montru ŝveban fenestron kiam registrado komenciĝas</string>
+    <string name="prefs_show_overlay_on_recording_text">Montru ŝveban fenestron nur kiam registrado estas aktiva (kaj fermu aŭtomate kiam ĝi ĉesas)</string>
     <string name="prefs_show_status_bar_text">Montru sisteman statusbreton</string>
     <string name="prefs_show_take_photo_btn_text">Por fari foton</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Ne subtenata de la nuna fotilo. Fabrikistoj ofte limigas ĝian uzon - ĝi haveblas nur en la norma aplikaĵo Fotilo</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Subteno (reago)</string>
     <string name="prefs_system_alert_window_sum_text">Permesu ĉi tiun apon aperi super ĉiuj aliaj apoj. Ĉi tio estas necesa por aŭtomate komenci /haltigi videoregistradon aŭ por montri ŝveban fenestron</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Permesu ĉi tiun programon aperi super ĉiuj aliaj programoj. Ĉi tio estas necesa por montri ŝveban fenestron</string>
-    <string name="prefs_system_alert_window_text">Rezolucio super ĉiuj fenestroj</string>
+    <string name="prefs_system_alert_window_text">Montru aldone al aliaj aplikoj</string>
     <string name="prefs_theme_mode_dark">Malhela temo</string>
     <string name="prefs_theme_mode_dynamic">Dinamika</string>
     <string name="prefs_theme_mode_light">Luma temo</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Registrado…</string>
     <string name="recording_voice_started_text">Registrado komenciĝis</string>
     <string name="recording_voice_stopped_text">Registrado ĉesis</string>
+    <string name="records_file_edit_trim_crop">Redaktu (Tondi) en \"Google Fotoj\"</string>
     <string name="records_file_sorting_date">Dato</string>
     <string name="records_file_sorting_duration">Daŭro</string>
     <string name="records_file_sorting_name">Nomo</string>
     <string name="records_file_sorting_size">Dosiera grandeco</string>
     <string name="records_file_upload_drive">Konservu al \"Google Drive\"</string>
+    <string name="records_file_upload_youtube">Alŝutu al Jutubo</string>
     <string name="reset">malŝarĝo</string>
     <string name="storage_external_single">MicroSD-karto</string>
     <string name="storage_phone">Telefona memoro</string>

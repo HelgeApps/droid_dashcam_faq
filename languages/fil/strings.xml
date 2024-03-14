@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Impormasyon /Higit pa…</string>
     <string name="prefs_kill_services_sum_text">May mga setting sa iyong device upang payagan ang mga app na mag-autoplay at tumakbo sa background. Mag-click dito at idagdag ang application sa mga exception (payagan ang autostart at iba pa) upang payagan itong tumakbo sa background at kapag naka-off ang screen, kung ipinagbabawal.</string>
     <string name="prefs_kill_services_text">Pinapayagan ang background work</string>
+    <string name="prefs_language">Wika</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Buksan ang application kapag awtomatikong nagsisimula ang pag-record</string>
     <string name="prefs_launch_app_auto_text">Ilunsad ang app kapag nagsimula ang pag-record ng video</string>
     <string name="prefs_launch_app_limitation_text">Sa Android 11 at mas bago, maaaring hindi ka makapili ng alinman sa mga naka-install na app dahil ang system mismo ang naghihigpit sa visibility ng app (patakaran sa privacy)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Paraan ng pagkuha ng lokasyon (GPS)</string>
     <string name="prefs_location_update_frequency_text">Rate ng pag-update ng GPS</string>
     <string name="prefs_meters_accuracy_value_text">metro ng katumpakan</string>
+    <string name="prefs_open_source_notices_text">Mga abiso sa open source</string>
     <string name="prefs_optical_zoom_text">Optical Zoom (Zoom) /Focal Length</string>
     <string name="prefs_orientation_landscape">Landscape</string>
     <string name="prefs_orientation_landscape_reversed">Baliktarin ang album</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">G-sensor sensitivity</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Panginginig ng boses kapag may nakitang shock</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Magsimulang mag-record kapag may nakitang paggalaw</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Para sa mga kaganapang Bluetooth posible lamang kung ang opsyong \"i-record lamang kapag nagcha-charge\" ay hindi pinagana.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Huwag ilunsad ang serbisyo ng AutoStart na application upang makatipid ng baterya habang naghihintay ng mga kaganapan na mag-autostart sa pagre-record. Para sa Android 8+ posible ito kung ang mga Bluetooth event lang ang pinagana at ang iba ay hindi pinagana.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Maaari mong i-off ang opsyong ito para magsagawa lang ang app ng awtomatikong pag-record kapag tumatakbo ang background service ng app (AutoStart).\n- Ang awtomatikong pag-record para sa mga kaganapan tulad ng pag-charge, Bluetooth o AUX ay maaaring isagawa nang walang mga problema hanggang sa Android 7.1.\n- Simula sa Android 8+, ang awtomatikong pag-record na walang background application service (AutoStart) ay maaari lang gawin para sa mga Bluetooth event, at sa ibang mga kaso (kapag nagcha-charge o AUX) kailangan mo munang simulan ang background application service (AutoStart) - sa pamamagitan ng paglulunsad ang application mismo minsan.\n- Simula sa Android 11+, nang walang serbisyo sa background ng app (AutoStart), ang pag-access sa camera nang walang pakikipag-ugnayan ng user upang simulan ang pag-record ay posible lamang kung ang pahintulot na \"sa itaas ng lahat ng app\" ay ibinigay.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Awtomatikong pag-record kahit na ang serbisyo sa background ay hindi tumatakbo (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Simulan ang pag-record kapag ang bilis ay katumbas /mas mataas (batay sa GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Maaari mong i-off ang opsyong ito para magsagawa lang ang app ng awtomatikong pag-record kapag tumatakbo ang background service ng app (AutoStart).\n- Ang awtomatikong pag-record para sa mga kaganapan tulad ng pag-charge, Bluetooth o AUX ay maaaring isagawa nang walang mga problema hanggang sa Android 7.1.\n- Simula sa Android 8, ang awtomatikong pagre-record na walang serbisyo sa background ng application (AutoStart) ay maaari lamang isagawa para sa mga kaganapan sa Bluetooth, at sa ibang mga kaso (kapag nagcha-charge o AUX) kailangan mo munang simulan ang serbisyo ng application sa background (AutoStart) - sa pamamagitan ng paglulunsad ng application mismo nang isang beses.\n- Simula sa Android 11 nang walang background app service (AutoStart), ang pag-access sa camera nang walang interaksyon ng user ay posible lamang kung ang telepono ay naka-unlock (naka-on ang screen) at ang \"sa itaas ng lahat ng mga app\" ay binibigyan ng pahintulot.\n- Kaya, para sa Android 11 at mas mataas, kailangan mong manu-manong ilunsad ang application nang isang beses upang ang serbisyo sa background ng application (AutoStart) ay magsimula para sa awtomatikong pag-record sa anumang mga kaganapan at kapag naka-off ang screen ng telepono.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Awtomatikong pag-record kahit na ang serbisyo sa background ay hindi tumatakbo (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Itigil ang pagre-record pagkatapos</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Itigil ang pagre-record kapag walang paggalaw</string>
     <string name="prefs_rules_auto_stop_speed_text">Ihinto ang pagre-record kapag mas mababa ang bilis (batay sa GPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Pag-block sa mga video mula sa pag-overwrite</string>
     <string name="prefs_show_overlay_btn_sum_text">Nagpapakita ng window na may mga control button sa itaas ng lahat ng application</string>
     <string name="prefs_show_overlay_btn_text">Ipakita ang lumulutang na bintana</string>
-    <string name="prefs_show_overlay_on_recording_text">Ipakita ang lumulutang na window kapag nagsimula ang pag-record</string>
+    <string name="prefs_show_overlay_on_recording_text">Ipakita lamang ang lumulutang na window kapag aktibo ang pagre-record (at awtomatikong isara kapag huminto ito)</string>
     <string name="prefs_show_status_bar_text">Ipakita ang status bar ng system</string>
     <string name="prefs_show_take_photo_btn_text">Para gumawa ng litrato</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Hindi sinusuportahan ng kasalukuyang camera. Madalas na pinaghihigpitan ng mga tagagawa ang paggamit nito - magagamit lamang ito sa karaniwang application ng Camera</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Suporta (feedback)</string>
     <string name="prefs_system_alert_window_sum_text">Payagan ang app na ito na lumabas sa itaas ng lahat ng iba pang app. Ito ay kinakailangan upang awtomatikong simulan /ihinto ang pag-record ng video o upang ipakita ang isang lumulutang na window</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Payagan ang app na ito na lumabas sa itaas ng lahat ng iba pang app. Ito ay kinakailangan upang ipakita ang isang lumulutang na window</string>
-    <string name="prefs_system_alert_window_text">Resolution sa itaas ng lahat ng mga bintana</string>
+    <string name="prefs_system_alert_window_text">Ipakita sa itaas ng iba pang mga application</string>
     <string name="prefs_theme_mode_dark">Madilim na tema</string>
     <string name="prefs_theme_mode_dynamic">Dynamic</string>
     <string name="prefs_theme_mode_light">Banayad na tema</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Nagre-record…</string>
     <string name="recording_voice_started_text">Nagsimula na ang pagre-record</string>
     <string name="recording_voice_stopped_text">Huminto ang pagre-record</string>
+    <string name="records_file_edit_trim_crop">I-edit (Trim) sa \"Google Photos\"</string>
     <string name="records_file_sorting_date">Petsa</string>
     <string name="records_file_sorting_duration">Tagal</string>
     <string name="records_file_sorting_name">Pangalan</string>
     <string name="records_file_sorting_size">Laki ng file</string>
     <string name="records_file_upload_drive">I-save sa \"Google Drive\"</string>
+    <string name="records_file_upload_youtube">I-upload sa YouTube</string>
     <string name="reset">discharge</string>
     <string name="storage_external_single">MicroSD card</string>
     <string name="storage_phone">Memorya ng telepono</string>

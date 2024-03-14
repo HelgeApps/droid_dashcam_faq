@@ -204,6 +204,7 @@
     <string name="prefs_info_more_category_text">Informazioni / Altro…</string>
     <string name="prefs_kill_services_sum_text">Ci sono impostazioni sul tuo dispositivo per consentire la riproduzione automatica e l\'esecuzione delle app in background. Fare clic qui e aggiungere l\'applicazione alle eccezioni (consentire l\'avvio automatico e così via) per consentirne l\'esecuzione in background e quando lo schermo è spento, se vietato</string>
     <string name="prefs_kill_services_text">Consentire il funzionamento in background</string>
+    <string name="prefs_language">Lingua</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Aprire l\'applicazione quando la registrazione si avvia automaticamente</string>
     <string name="prefs_launch_app_auto_text">Avvia l\'app all\'avvio della registrazione video</string>
     <string name="prefs_launch_app_limitation_text">Con Android 11 e versioni successive, potresti non essere in grado di selezionare nessuna delle app installate poiché il sistema stesso limita la visibilità delle app (informativa sulla privacy)</string>
@@ -219,6 +220,7 @@
     <string name="prefs_location_provider_method_text">Metodo di acquisizione della posizione (GPS)</string>
     <string name="prefs_location_update_frequency_text">Frequenza di aggiornamento GPS</string>
     <string name="prefs_meters_accuracy_value_text">Precisione di metri</string>
+    <string name="prefs_open_source_notices_text">Avvisi sull\'open source</string>
     <string name="prefs_optical_zoom_text">Zoom ottico (Zoom) / Lunghezza focale</string>
     <string name="prefs_orientation_landscape">Paesaggio (orizzontale)</string>
     <string name="prefs_orientation_landscape_reversed">Paesaggio invertito (orizzontale invertito)</string>
@@ -260,9 +262,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">Sensibilità del sensore G</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Vibrazione quando viene rilevato uno shock</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Avvia la registrazione quando viene rilevato un movimento</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Per gli eventi Bluetooth è possibile solo se l\'opzione \"registra solo durante la ricarica\" ​​è disabilitata.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Non avviare il servizio dell\'applicazione AutoStart per risparmiare batteria mentre si attende che gli eventi avviino automaticamente la registrazione. Per Android 8+ questo è possibile se sono abilitati solo gli eventi Bluetooth e il resto è disabilitato.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Puoi disattivare questa opzione per fare in modo che l\'app esegua la registrazione automatica solo quando il servizio in background dell\'app (Avvio automatico) è in esecuzione.\n- La registrazione automatica per eventi come ricarica, Bluetooth o AUX può essere eseguita senza problemi fino ad Android 7.1.\n- A partire da Android 8+, la registrazione automatica senza servizio di applicazione in background (AutoStart) può essere eseguita solo per eventi Bluetooth e in altri casi (durante la ricarica o AUX) è necessario prima avviare il servizio di applicazione in background (AutoStart) - avviando l\'applicazione stessa una volta.\n- A partire da Android 11+, senza il servizio app in background (AutoStart), l\'accesso alla fotocamera senza l\'interazione dell\'utente per avviare la registrazione è possibile solo se viene concessa l\'autorizzazione \"su tutte le app\".</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Registrazione automatica anche se il servizio in background non è in esecuzione (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Avvia la registrazione quando la velocità è uguale/superiore (basata sul GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Puoi disattivare questa opzione per fare in modo che l\'app esegua la registrazione automatica solo quando il servizio in background dell\'app (Avvio automatico) è in esecuzione.\n- La registrazione automatica per eventi come ricarica, Bluetooth o AUX può essere eseguita senza problemi fino ad Android 7.1.\n- A partire da Android 8, la registrazione automatica senza servizio di applicazione in background (AutoStart) può essere eseguita solo per eventi Bluetooth e in altri casi (durante la ricarica o AUX) è necessario prima avviare il servizio di applicazione in background (AutoStart) - avviando il l\'applicazione stessa una volta.\n- A partire da Android 11 senza il servizio app in background (Avvio automatico), l\'accesso alla fotocamera senza interazione da parte dell\'utente è possibile solo se il telefono è sbloccato (schermo acceso) e viene concessa l\'autorizzazione \"sopra tutte le app\".\n- Pertanto, per Android 11 e versioni successive, è necessario avviare manualmente l\'applicazione una volta in modo che il servizio in background dell\'applicazione (AutoStart) si avvii per la registrazione automatica durante qualsiasi evento e quando lo schermo del telefono è spento.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Registrazione automatica anche se il servizio in background non è in esecuzione (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Interrompi registrazione dopo</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Interrompi la registrazione quando non c\'è movimento</string>
     <string name="prefs_rules_auto_stop_speed_text">Interrompi la registrazione quando la velocità è inferiore (in base al GPS)</string>
@@ -290,7 +294,7 @@
     <string name="prefs_show_lock_btn_text">Blocco della sovrascrittura dei video</string>
     <string name="prefs_show_overlay_btn_sum_text">Visualizza una finestra con i pulsanti di controllo in cima a tutte le applicazioni</string>
     <string name="prefs_show_overlay_btn_text">Mostra finestra mobile</string>
-    <string name="prefs_show_overlay_on_recording_text">Mostra la finestra mobile all\'avvio della registrazione</string>
+    <string name="prefs_show_overlay_on_recording_text">Mostra la finestra mobile solo quando la registrazione è attiva (e si chiude automaticamente quando si interrompe)</string>
     <string name="prefs_show_status_bar_text">Mostra la barra di stato del sistema</string>
     <string name="prefs_show_take_photo_btn_text">Per fare una foto</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Non supportato dalla fotocamera corrente. I produttori spesso ne limitano l\'uso: è disponibile solo nell\'applicazione Fotocamera standard</string>
@@ -326,7 +330,7 @@
     <string name="prefs_support_text">Supporto</string>
     <string name="prefs_system_alert_window_sum_text">Consenti a questa app di apparire sopra tutte le altre app. Ciò è necessario per avviare/interrompere automaticamente la registrazione video o per visualizzare una finestra mobile</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Consenti a questa app di apparire sopra tutte le altre app. Ciò è necessario per visualizzare una finestra mobile</string>
-    <string name="prefs_system_alert_window_text">Risoluzione su tutte le finestre</string>
+    <string name="prefs_system_alert_window_text">Visualizza sopra altre applicazioni</string>
     <string name="prefs_theme_mode_dark">Tema scuro</string>
     <string name="prefs_theme_mode_dynamic">Dinamico</string>
     <string name="prefs_theme_mode_light">Tema leggero</string>
@@ -420,11 +424,13 @@
     <string name="recording_text">Registrazione…</string>
     <string name="recording_voice_started_text">La registrazione è iniziata</string>
     <string name="recording_voice_stopped_text">Registrazione interrotta</string>
+    <string name="records_file_edit_trim_crop">Modifica (Taglia) in \"Google Foto\"</string>
     <string name="records_file_sorting_date">Data</string>
     <string name="records_file_sorting_duration">Durata</string>
     <string name="records_file_sorting_name">Nome</string>
     <string name="records_file_sorting_size">Dimensione del file</string>
     <string name="records_file_upload_drive">Salva su \"Google Drive\"</string>
+    <string name="records_file_upload_youtube">Carica su YouTube</string>
     <string name="reset">ripristinare</string>
     <string name="storage_external_single">Scheda MicroSD</string>
     <string name="storage_phone">Memoria del telefono</string>

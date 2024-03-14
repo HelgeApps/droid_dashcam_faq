@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Інформація / Більше…</string>
     <string name="prefs_kill_services_sum_text">На вашому пристрої виявлені настройки для дозволу автозапуску додатків і їх роботи у фоновому режимі. Натисніть тут і додайте додаток в виключення (дозволити автозапуск і т.д.), щоб дозволити роботу в фоновому режимі і при вимкненому екрані, якщо заборонено</string>
     <string name="prefs_kill_services_text">Дозвіл роботи у фоновому режимі</string>
+    <string name="prefs_language">Мова</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Відкривати програму при автоматичному початку запису</string>
     <string name="prefs_launch_app_auto_text">Запускати програму при початку відеозапису</string>
     <string name="prefs_launch_app_limitation_text">З Android 11 і вище, ви, можливо, не зможете вибрати будь-яку зі встановлених програм, оскільки сама система обмежує видимість програм (політика конфіденційності)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Метод отримання позиціонування (GPS)</string>
     <string name="prefs_location_update_frequency_text">Частота оновлення GPS</string>
     <string name="prefs_meters_accuracy_value_text">метрів точності</string>
+    <string name="prefs_open_source_notices_text">Повідомлення з відкритого джерела</string>
     <string name="prefs_optical_zoom_text">Оптичний зум (масштабування) / Фокусна відстань</string>
     <string name="prefs_orientation_landscape">Альбомна</string>
     <string name="prefs_orientation_landscape_reversed">Альбомна зворотна</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">Чутливість G-сенсора</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Вібрація при виявленні удару</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Почати запис при виявленні руху</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Для Bluetooth подій можливе лише якщо \"запис тільки під час заряджання\" опція вимкнена.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Не запускати AutoStart сервіс програми для економії батареї при очікуванні подій для автозапуску запису. Для Android 8+ це можливо, якщо увімкнено лише Bluetooth події, а решту вимкнено.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Ви можете вимкнути цю опцію, щоб програма виконувала автоматичний запис лише за умови, що запущено фоновий сервіс програми (AutoStart).\n- Автоматичний запис таких подій, як зарядка, Bluetooth або AUX може без проблем виконуватися до Android 7.1.\n- Починаючи з Android 8+, автоматичний запис без фонового сервісу програми (AutoStart) може виконуватися тільки для Bluetooth подій, а в інших випадках (при зарядці або AUX) вам потрібно запустити фоновий сервіс програми (AutoStart) - запустивши один раз сам додаток.\n- Починаючи з Android 11+, без фонового сервісу програми (AutoStart) доступ до камери без взаємодії користувача для початку запису можливий лише за умови, що надано дозвіл \"поверх усіх програм\".</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Автоматичний запис навіть, якщо не запущено фоновий сервіс (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Почати запис, коли швидкість дорівнює/більше (на основі GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Ви можете вимкнути цю опцію, щоб програма виконувала автоматичний запис лише за умови, що запущено фоновий сервіс програми (AutoStart).\n- Автоматичний запис таких подій, як зарядка, Bluetooth або AUX може без проблем виконуватися до Android 7.1.\n- Починаючи з Android 8, автоматичний запис без фонового сервісу програми (AutoStart) може виконуватися тільки для Bluetooth подій, а в інших випадках (при зарядці або AUX) вам потрібно попередньо запустити фоновий сервіс програми (AutoStart) - запустивши один раз сам додаток.\n- Починаючи з Android 11 без фонового сервісу програми (AutoStart) доступ до камери без взаємодії користувача можливий лише за умови, що телефон розблокований (екран увімкнено) і надано дозвіл \"поверх усіх програм\".\n- Таким чином, для Android 11 і вище, потрібно вручну запустити один раз програму, щоб запустився фоновий сервіс програми (AutoStart) для автоматичного запису за будь-яких подій і при вимкненому екраном телефону.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Автоматичний запис навіть, якщо не запущено фоновий сервіс (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Зупинити запис після</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Зупинити запис за відсутності руху</string>
     <string name="prefs_rules_auto_stop_speed_text">Зупинити запис, коли швидкість нижча (на основі GPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Блокування перезапису поточного відео</string>
     <string name="prefs_show_overlay_btn_sum_text">Показує вікно з кнопками управління поверх всіх додатків</string>
     <string name="prefs_show_overlay_btn_text">Відображати плаваюче вікно</string>
-    <string name="prefs_show_overlay_on_recording_text">Відображати плаваюче вікно на початку запису</string>
+    <string name="prefs_show_overlay_on_recording_text">Відображати плаваюче вікно тільки при активному записі (і автоматично закривати її зупинці)</string>
     <string name="prefs_show_status_bar_text">Показувати рядок стану системи</string>
     <string name="prefs_show_take_photo_btn_text">Зробити фото</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Не підтримується поточною камерою. Часто виробники обмежують її використання - доступна тільки в стандартному додатку Камера</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Підтримка (зворотний зв\'язок)</string>
     <string name="prefs_system_alert_window_sum_text">Дозволити цьому додатку відображатися поверх всіх інших додатків. Це необхідно для автоматичного запуску/зупинки запису відео або для відображення плаваючого вікна</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Дозволити цій програмі відображатися поверх всіх інших програм. Це необхідно для відображення плаваючого вікна</string>
-    <string name="prefs_system_alert_window_text">Дозвіл поверх всіх вікон</string>
+    <string name="prefs_system_alert_window_text">Відображення поверх інших програм</string>
     <string name="prefs_theme_mode_dark">Темна тема</string>
     <string name="prefs_theme_mode_dynamic">Динамічна</string>
     <string name="prefs_theme_mode_light">Світла тема</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Запис…</string>
     <string name="recording_voice_started_text">Запис розпочато</string>
     <string name="recording_voice_stopped_text">Запис зупинено</string>
+    <string name="records_file_edit_trim_crop">Редагувати (обрізати) в \"Google Фото\"</string>
     <string name="records_file_sorting_date">Дата</string>
     <string name="records_file_sorting_duration">Тривалість</string>
     <string name="records_file_sorting_name">Ім\'я</string>
     <string name="records_file_sorting_size">Розмір файлу</string>
     <string name="records_file_upload_drive">Зберегти на \"Google Drive\"</string>
+    <string name="records_file_upload_youtube">Завантажити на YouTube</string>
     <string name="reset">скинути</string>
     <string name="storage_external_single">MicroSD карта</string>
     <string name="storage_phone">Пам\'ять телефону</string>

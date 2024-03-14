@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Информация /Още…</string>
     <string name="prefs_kill_services_sum_text">На вашето устройство има настройки, които позволяват на приложенията да се възпроизвеждат автоматично и да работят във фонов режим. Щракнете тук и добавете приложението към изключенията (разрешаване на автоматично стартиране и т.н.), за да му позволите да работи във фонов режим и когато екранът е изключен, ако е забранено</string>
     <string name="prefs_kill_services_text">Позволяване на фонова работа</string>
+    <string name="prefs_language">език</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Отворете приложението, когато записът започне автоматично</string>
     <string name="prefs_launch_app_auto_text">Стартирайте приложението, когато видеозаписът започне</string>
     <string name="prefs_launch_app_limitation_text">С Android 11 и по-нова версия може да не успеете да изберете нито едно от инсталираните приложения, тъй като самата система ограничава видимостта на приложението (политика за поверителност)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Метод за получаване на местоположение (GPS)</string>
     <string name="prefs_location_update_frequency_text">Скорост на актуализиране на GPS</string>
     <string name="prefs_meters_accuracy_value_text">метри с точност</string>
+    <string name="prefs_open_source_notices_text">Бележки с отворен код</string>
     <string name="prefs_optical_zoom_text">Оптично увеличение (увеличение) /фокусно разстояние</string>
     <string name="prefs_orientation_landscape">Пейзаж</string>
     <string name="prefs_orientation_landscape_reversed">Обратна страна на албума</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">G-сензор чувствителност</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Вибрация при откриване на удар</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Започнете да записвате, когато бъде засечено движение</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">За Bluetooth събития е възможно само ако опцията \"запис само при зареждане\" е деактивирана.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Не стартирайте услугата на приложението AutoStart, за да пестите батерия, докато чакате събития за автоматично стартиране на записа. За Android 8+ това е възможно, ако са активирани само Bluetooth събития, а останалите са деактивирани.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Можете да изключите тази опция, за да накарате приложението да извършва автоматичен запис само когато фоновата услуга на приложението (AutoStart) работи.\n- Автоматичен запис за събития като зареждане, Bluetooth или AUX може да се извършва без проблеми до Android 7.1.\n- Започвайки от Android 8+, автоматичният запис без услуга за фоново приложение (AutoStart) може да се извършва само за Bluetooth събития, а в други случаи (при зареждане или AUX) трябва първо да стартирате услугата за фоново приложение (AutoStart) - чрез стартиране самото приложение веднъж.\n- Започвайки с Android 11+, без услугата за фоново приложение (AutoStart), достъпът до камерата без намеса на потребителя за започване на запис е възможен само ако е дадено разрешението „върху всички приложения“.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Автоматичен запис, дори ако фоновата услуга не работи (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Започнете да записвате, когато скоростта е равна /по-висока (въз основа на GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Можете да изключите тази опция, за да накарате приложението да извършва автоматичен запис само когато фоновата услуга на приложението (AutoStart) работи.\n- Автоматичен запис за събития като зареждане, Bluetooth или AUX може да се извършва без проблеми до Android 7.1.\n- Започвайки от Android 8, автоматичният запис без услуга за фоново приложение (AutoStart) може да се извършва само за Bluetooth събития, а в други случаи (при зареждане или AUX) трябва първо да стартирате услугата за фоново приложение (AutoStart) - чрез стартиране на самото приложение веднъж.\n- Започвайки с Android 11 без услугата за фоново приложение (AutoStart), достъпът до камерата без взаимодействие с потребителя е възможен само ако телефонът е отключен (екранът е включен) и е дадено разрешение „върху всички приложения“.\n- По този начин, за Android 11 и по-нова версия, трябва ръчно да стартирате приложението веднъж, така че фоновата услуга на приложението (AutoStart) да стартира за автоматично записване по време на всякакви събития и когато екранът на телефона е изключен.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Автоматичен запис, дори ако фоновата услуга не работи (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Спрете записа след</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Спрете записа, когато няма движение</string>
     <string name="prefs_rules_auto_stop_speed_text">Спрете записа, когато скоростта е по-ниска (въз основа на GPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Блокиране на презаписване на видеоклипове</string>
     <string name="prefs_show_overlay_btn_sum_text">Показва прозорец с бутони за управление отгоре на всички приложения</string>
     <string name="prefs_show_overlay_btn_text">Показване на плаващ прозорец</string>
-    <string name="prefs_show_overlay_on_recording_text">Показване на плаващ прозорец при започване на записа</string>
+    <string name="prefs_show_overlay_on_recording_text">Показване на плаващ прозорец само когато записът е активен (и затваряне автоматично, когато спре)</string>
     <string name="prefs_show_status_bar_text">Показване на лентата на състоянието на системата</string>
     <string name="prefs_show_take_photo_btn_text">За да направите снимка</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Не се поддържа от текущата камера. Производителите често ограничават употребата му – той е достъпен само в стандартното приложение Camera</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Поддръжка (обратна връзка)</string>
     <string name="prefs_system_alert_window_sum_text">Позволете на това приложение да се показва отгоре на всички други приложения. Това е необходимо за автоматично стартиране/спиране на видеозаписа или за показване на плаващ прозорец</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Разрешете на това приложение да се показва над всички други приложения. Това е необходимо за показване на плаващ прозорец</string>
-    <string name="prefs_system_alert_window_text">Резолюция отгоре на всички прозорци</string>
+    <string name="prefs_system_alert_window_text">Показване върху други приложения</string>
     <string name="prefs_theme_mode_dark">Тъмна тема</string>
     <string name="prefs_theme_mode_dynamic">Динамичен</string>
     <string name="prefs_theme_mode_light">Лека тема</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Записване…</string>
     <string name="recording_voice_started_text">Записването започна</string>
     <string name="recording_voice_stopped_text">Записването спря</string>
+    <string name="records_file_edit_trim_crop">Редактиране (изрязване) в \"Google Photos\"</string>
     <string name="records_file_sorting_date">Дата</string>
     <string name="records_file_sorting_duration">Продължителност</string>
     <string name="records_file_sorting_name">Име</string>
     <string name="records_file_sorting_size">Размер на файла</string>
     <string name="records_file_upload_drive">Запазване в \"Google Диск\"</string>
+    <string name="records_file_upload_youtube">Качване в YouTube</string>
     <string name="reset">освобождаване от отговорност</string>
     <string name="storage_external_single">MicroSD карта</string>
     <string name="storage_phone">Памет на телефона</string>

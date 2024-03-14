@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Інфармацыя /Больш…</string>
     <string name="prefs_kill_services_sum_text">На вашым прыладзе выяўлены налады для дазволу аўтазапуску прыкладанняў і іх працы ў фонавым рэжыме. Націсніце тут і дадайце прыкладанне ў выключэнні (дазволіць аўтазапуск і гэтак далей), каб дазволіць працу ў фонавым рэжыме і пры выключаным экране, калі забаронена</string>
     <string name="prefs_kill_services_text">Дазвол працы ў фонавым рэжыме</string>
+    <string name="prefs_language">мова</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Адкрываць прыкладанне пры аўтаматычным пачатку запісу</string>
     <string name="prefs_launch_app_auto_text">Запускаць дадатак пры пачатку відэазапісы</string>
     <string name="prefs_launch_app_limitation_text">З Android 11 і вышэй, вы, магчыма, не зможаце абраць любое з устаноўленых прыкладанняў, так як сама сістэма абмяжоўвае бачнасць прыкладанняў (палітыка прыватнасці)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Метад атрымання месцазнаходжання (GPS)</string>
     <string name="prefs_location_update_frequency_text">Частата абнаўлення GPS</string>
     <string name="prefs_meters_accuracy_value_text">метраў дакладнасці</string>
+    <string name="prefs_open_source_notices_text">Апавяшчэнні з адкрытым зыходным кодам</string>
     <string name="prefs_optical_zoom_text">Аптычны зум (маштабаванне) /Фокусная адлегласць</string>
     <string name="prefs_orientation_landscape">Альбомная</string>
     <string name="prefs_orientation_landscape_reversed">Альбомная зваротная</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">Адчувальнасць G-сэнсара</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Вібрацыя пры выяўленні ўдару</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Пачаць запіс пры выяўленні руху</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Для Bluetooth падзей магчыма толькі калі \"запіс толькі пры зарадцы\" опцыя адключаная.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Ня запускаць AutoStart сэрвіс прыкладання для эканоміі батарэі пры чаканні падзей для аўтазапуску запісу. Для Android 8+ гэта магчыма, калі ўключаны толькі Bluetooth падзеі, а астатнія выключаны.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Вы можаце выключыць гэтую опцыю, каб прыкладанне выконвала аўтаматычную запіс толькі пры ўмове, што запушчаны фонавай сэрвіс прыкладання (AutoStart).\n- Аўтаматычны запіс па такіх падзеях, як зарадка, Bluetooth ці AUX можа без праблем выканаюцца да Android 7.1.\n- Пачынаючы з Android 8+, аўтаматычная запіс без фонавага сэрвісу прыкладання (AutoStart) можа выконваюцца толькі для Bluetooth падзей, а ў астатніх выпадках (пры зарадцы або AUX) вам трэба папярэдне запусціць фонавай сэрвіс прыкладання (AutoStart) - запусціўшы адзін раз само прыкладанне.\n- Пачынаючы з Android 11+, без фонавага сэрвісу прыкладання (AutoStart) доступ да камеры без узаемадзеяння карыстальніка для пачатку запісу магчымы толькі пры ўмове, што прадастаўлена дазвол \"па-над усімі прыкладаннямі\".</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Аўтаматычны запіс нават, калі не запушчаны фонавы сэрвіс (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Пачаць запіс, калі хуткасць роўная/большая (на аснове GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Вы можаце выключыць гэтую опцыю, каб прыкладанне выконвала аўтаматычную запіс толькі пры ўмове, што запушчаны фонавай сэрвіс прыкладання (AutoStart).\n- Аўтаматычны запіс па такіх падзеях, як зарадка, Bluetooth або AUX можа без праблем выканаюцца да Android 7.1.\n- Пачынаючы з Android 8, аўтаматычная запіс без фонавага сэрвісу прыкладання (AutoStart) можа выконваюцца толькі для Bluetooth падзей, а ў астатніх выпадках (пры зарадцы або AUX) вам трэба папярэдне запусціць фонавай сэрвіс прыкладання (AutoStart) - запусціўшы адзін раз само прыкладанне.\n- Пачынаючы з Android 11 без фонавага сэрвісу прыкладання (AutoStart) доступ да камеры без узаемадзеяння карыстальніка магчымы толькі пры ўмове, што тэлефон разблакаваны (экран уключаны) і прадастаўлена дазвол \"па-над усімі прыкладаннямі\".\n- Такім чынам, для Android 11 і вышэй, патрабуецца ўручную запусціць адзін раз прыкладанне, каб запусціўся фонавай сэрвіс прыкладання (AutoStart) для аўтаматычнага запісу пры любых падзеях і пры выключаным экранам тэлефона.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Аўтаматычны запіс нават, калі не запушчаны фонавы сэрвіс (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Спыніць запіс пасля</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Спыніць запіс пры адсутнасці руху</string>
     <string name="prefs_rules_auto_stop_speed_text">Спыніць запіс, калі хуткасць ніжэй (на аснове GPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Блакаванне відэа ад перазапісу</string>
     <string name="prefs_show_overlay_btn_sum_text">Адлюстроўвае акно з кнопкамі кіравання-над ўсіх прыкладанняў</string>
     <string name="prefs_show_overlay_btn_text">Адлюстроўваць плаваючае акно</string>
-    <string name="prefs_show_overlay_on_recording_text">Адлюстроўваць плаваючае акно пры пачатку запісу</string>
+    <string name="prefs_show_overlay_on_recording_text">Адлюстроўваць якое плавае акно толькі пры актыўным запісе (і зачыняць аўтаматычна яго прыпынку)</string>
     <string name="prefs_show_status_bar_text">Паказваць радок стану сістэмы</string>
     <string name="prefs_show_take_photo_btn_text">Зрабіць фота</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Не падтрымліваецца бягучай камерай. Часта вытворцы абмяжоўваюць яе выкарыстанне - даступная толькі ў стандартным дадатку Камера</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Падтрымка (зваротная сувязь)</string>
     <string name="prefs_system_alert_window_sum_text">Дазволіць гэтаму з дадаткам адлюстроўвацца па-над усімі іншымі прыкладаннямі. Гэта неабходна для аўтаматычнага запуску/спынення запісу відэа ці для адлюстравання плаваючага акна</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Дазволіць гэтаму з дадаткам адлюстроўвацца па-над усімі іншымі прыкладаннямі. Гэта неабходна для адлюстравання плаваючага акна</string>
-    <string name="prefs_system_alert_window_text">Дазвол па-над усімі вокнамі</string>
+    <string name="prefs_system_alert_window_text">Адлюстраванне-над іншых прыкладанняў</string>
     <string name="prefs_theme_mode_dark">Цёмная тэма</string>
     <string name="prefs_theme_mode_dynamic">Дынамічная</string>
     <string name="prefs_theme_mode_light">Светлая тэма</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Запіс…</string>
     <string name="recording_voice_started_text">Запіс пачаўся</string>
     <string name="recording_voice_stopped_text">Запіс спынены</string>
+    <string name="records_file_edit_trim_crop">Рэдагаваць (абрэзаць) у \"Google Фота\"</string>
     <string name="records_file_sorting_date">Дата</string>
     <string name="records_file_sorting_duration">Працягласць</string>
     <string name="records_file_sorting_name">Імя</string>
     <string name="records_file_sorting_size">Памер файла</string>
     <string name="records_file_upload_drive">Захаваць на \"Google Drive\"</string>
+    <string name="records_file_upload_youtube">Загрузіць на \"YouTube\"</string>
     <string name="reset">скід</string>
     <string name="storage_external_single">MicroSD карта</string>
     <string name="storage_phone">Памяць тэлефона</string>

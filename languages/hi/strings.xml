@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">सूचना /अधिक…</string>
     <string name="prefs_kill_services_sum_text">ऐप्स को ऑटोप्ले और बैकग्राउंड में चलने की अनुमति देने के लिए आपके डिवाइस पर सेटिंग्स हैं। यहां क्लिक करें और एप्लिकेशन को अपवादों में जोड़ें (ऑटोस्टार्ट की अनुमति दें और इसी तरह) इसे पृष्ठभूमि में चलाने की अनुमति दें और जब स्क्रीन बंद हो, यदि निषिद्ध हो</string>
     <string name="prefs_kill_services_text">पृष्ठभूमि कार्य की अनुमति देना</string>
+    <string name="prefs_language">भाषा</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">रिकॉर्डिंग स्वचालित रूप से शुरू होने पर एप्लिकेशन खोलें</string>
     <string name="prefs_launch_app_auto_text">वीडियो रिकॉर्डिंग शुरू होने पर ऐप लॉन्च करें</string>
     <string name="prefs_launch_app_limitation_text">एंड्रॉइड 11 और उच्चतर के साथ, आप किसी भी इंस्टॉल किए गए ऐप का चयन करने में सक्षम नहीं हो सकते हैं क्योंकि सिस्टम स्वयं ऐप दृश्यता (गोपनीयता नीति) को प्रतिबंधित करता है।</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">स्थान अधिग्रहण विधि (जीपीएस)</string>
     <string name="prefs_location_update_frequency_text">जीपीएस अद्यतन दर</string>
     <string name="prefs_meters_accuracy_value_text">सटीकता के मीटर</string>
+    <string name="prefs_open_source_notices_text">ओपन सोर्स नोटिस</string>
     <string name="prefs_optical_zoom_text">ऑप्टिकल ज़ूम (ज़ूम) /फोकल लंबाई</string>
     <string name="prefs_orientation_landscape">परिदृश्य</string>
     <string name="prefs_orientation_landscape_reversed">एल्बम उल्टा</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">जी-सेंसर संवेदनशीलता</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">झटके का पता चलने पर कंपन</string>
     <string name="prefs_rules_auto_start_camera_motion_text">गति का पता चलने पर रिकॉर्डिंग प्रारंभ करें</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">ब्लूटूथ इवेंट के लिए यह तभी संभव है जब \"केवल चार्ज करते समय रिकॉर्ड करें\" विकल्प अक्षम हो।</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">रिकॉर्डिंग के ऑटोस्टार्ट होने की घटनाओं की प्रतीक्षा करते समय बैटरी बचाने के लिए ऑटोस्टार्ट एप्लिकेशन सेवा लॉन्च न करें। एंड्रॉइड 8+ के लिए यह तभी संभव है जब केवल ब्लूटूथ इवेंट सक्षम हों और बाकी अक्षम हों।</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* आप इस विकल्प को बंद कर सकते हैं ताकि ऐप केवल तभी स्वचालित रिकॉर्डिंग कर सके जब ऐप की पृष्ठभूमि सेवा (ऑटोस्टार्ट) चल रही हो।\n- एंड्रॉइड 7.1 तक चार्जिंग, ब्लूटूथ या औक्स जैसी घटनाओं के लिए स्वचालित रिकॉर्डिंग बिना किसी समस्या के की जा सकती है।\n- एंड्रॉइड 8+ से शुरू होकर, पृष्ठभूमि एप्लिकेशन सेवा (ऑटोस्टार्ट) के बिना स्वचालित रिकॉर्डिंग केवल ब्लूटूथ इवेंट के लिए की जा सकती है, और अन्य मामलों में (चार्जिंग या औक्स के दौरान) आपको पहले पृष्ठभूमि एप्लिकेशन सेवा (ऑटोस्टार्ट) शुरू करने की आवश्यकता है - लॉन्च करके आवेदन स्वयं एक बार।\n- एंड्रॉइड 11+ से शुरू करके, बैकग्राउंड ऐप सेवा (ऑटोस्टार्ट) के बिना, रिकॉर्डिंग शुरू करने के लिए उपयोगकर्ता इंटरेक्शन के बिना कैमरे तक पहुंच केवल तभी संभव है जब \"सभी ऐप्स के शीर्ष पर\" अनुमति दी गई हो।</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">पृष्ठभूमि सेवा न चलने पर भी स्वचालित रिकॉर्डिंग (ऑटोस्टार्ट)</string>
     <string name="prefs_rules_auto_start_speed_text">गति समान/उच्च होने पर रिकॉर्डिंग प्रारंभ करें (जीपीएस पर आधारित)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* आप इस विकल्प को बंद कर सकते हैं ताकि ऐप केवल तभी स्वचालित रिकॉर्डिंग कर सके जब ऐप की पृष्ठभूमि सेवा (ऑटोस्टार्ट) चल रही हो।\n- एंड्रॉइड 7.1 तक चार्जिंग, ब्लूटूथ या औक्स जैसी घटनाओं के लिए स्वचालित रिकॉर्डिंग बिना किसी समस्या के की जा सकती है।\n- एंड्रॉइड 8 से शुरू होकर, बैकग्राउंड एप्लिकेशन सेवा (ऑटोस्टार्ट) के बिना स्वचालित रिकॉर्डिंग केवल ब्लूटूथ इवेंट के लिए की जा सकती है, और अन्य मामलों में (चार्जिंग या AUX होने पर) आपको सबसे पहले बैकग्राउंड एप्लिकेशन सेवा (ऑटोस्टार्ट) शुरू करने की आवश्यकता है - लॉन्च करके एक बार ही आवेदन करें।\n- बैकग्राउंड ऐप सेवा (ऑटोस्टार्ट) के बिना एंड्रॉइड 11 से शुरू करके, उपयोगकर्ता इंटरेक्शन के बिना कैमरे तक पहुंच केवल तभी संभव है जब फोन अनलॉक हो (स्क्रीन चालू हो) और \"सभी ऐप्स के शीर्ष पर\" अनुमति दी गई हो।\n- इस प्रकार, एंड्रॉइड 11 और उच्चतर के लिए, आपको एप्लिकेशन को एक बार मैन्युअल रूप से लॉन्च करना होगा ताकि एप्लिकेशन की पृष्ठभूमि सेवा (ऑटोस्टार्ट) किसी भी घटना के दौरान और फोन स्क्रीन बंद होने पर स्वचालित रिकॉर्डिंग के लिए शुरू हो जाए।</string>
-    <string name="prefs_rules_auto_start_without_service_text">पृष्ठभूमि सेवा न चलने पर भी स्वचालित रिकॉर्डिंग (ऑटोस्टार्ट)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">इसके बाद रिकॉर्डिंग बंद करें</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">जब कोई हलचल न हो तो रिकॉर्डिंग बंद कर दें</string>
     <string name="prefs_rules_auto_stop_speed_text">गति कम होने पर रिकॉर्डिंग बंद कर दें (जीपीएस पर आधारित)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">वीडियो को ओवरराइट होने से रोकना</string>
     <string name="prefs_show_overlay_btn_sum_text">सभी अनुप्रयोगों के शीर्ष पर नियंत्रण बटन वाली एक विंडो प्रदर्शित करता है</string>
     <string name="prefs_show_overlay_btn_text">फ़्लोटिंग विंडो दिखाएं</string>
-    <string name="prefs_show_overlay_on_recording_text">रिकॉर्डिंग शुरू होने पर फ्लोटिंग विंडो दिखाएं</string>
+    <string name="prefs_show_overlay_on_recording_text">रिकॉर्डिंग सक्रिय होने पर ही फ़्लोटिंग विंडो दिखाएं (और रुकने पर स्वचालित रूप से बंद करें)</string>
     <string name="prefs_show_status_bar_text">सिस्टम स्थिति बार दिखाएं</string>
     <string name="prefs_show_take_photo_btn_text">फोटो बनाने के लिए</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">वर्तमान कैमरे द्वारा समर्थित नहीं है। निर्माता अक्सर इसके उपयोग को प्रतिबंधित करते हैं - यह केवल मानक कैमरा एप्लिकेशन में उपलब्ध है</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">समर्थन (प्रतिक्रिया)</string>
     <string name="prefs_system_alert_window_sum_text">इस ऐप को अन्य सभी ऐप में सबसे ऊपर दिखने दें। वीडियो रिकॉर्डिंग को स्वचालित रूप से शुरू /बंद करने या फ्लोटिंग विंडो प्रदर्शित करने के लिए यह आवश्यक है</string>
     <string name="prefs_system_alert_window_sum_text_bvr">इस ऐप को अन्य सभी ऐप्स के शीर्ष पर प्रदर्शित होने दें। फ्लोटिंग विंडो प्रदर्शित करने के लिए यह आवश्यक है</string>
-    <string name="prefs_system_alert_window_text">सभी विंडो के शीर्ष पर संकल्प</string>
+    <string name="prefs_system_alert_window_text">अन्य अनुप्रयोगों के शीर्ष पर प्रदर्शित करें</string>
     <string name="prefs_theme_mode_dark">डार्क थीम</string>
     <string name="prefs_theme_mode_dynamic">गतिशील</string>
     <string name="prefs_theme_mode_light">प्रकाश विषय</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">रिकॉर्डिंग…</string>
     <string name="recording_voice_started_text">रिकॉर्डिंग शुरू हो गई है</string>
     <string name="recording_voice_stopped_text">रिकॉर्डिंग बंद हो गई</string>
+    <string name="records_file_edit_trim_crop">\"Google फ़ोटो\" में संपादित करें (ट्रिम करें)</string>
     <string name="records_file_sorting_date">तारीख</string>
     <string name="records_file_sorting_duration">अवधि</string>
     <string name="records_file_sorting_name">नाम</string>
     <string name="records_file_sorting_size">फ़ाइल का साइज़</string>
     <string name="records_file_upload_drive">\"Google ड्राइव\" में सहेजें</string>
+    <string name="records_file_upload_youtube">यूट्यूब पर अपलोड करें</string>
     <string name="reset">मुक्ति</string>
     <string name="storage_external_single">माइक्रो एसडी कार्ड</string>
     <string name="storage_phone">फोन की मेमोरी</string>

@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">معلومات /المزيد…</string>
     <string name="prefs_kill_services_sum_text">توجد إعدادات على جهازك للسماح للتطبيقات بالتشغيل التلقائي والتشغيل في الخلفية. انقر هنا وأضف التطبيق إلى الاستثناءات (السماح بالتشغيل التلقائي وما إلى ذلك) للسماح له بالعمل في الخلفية وعند إيقاف تشغيل الشاشة ، إذا كان محظورًا</string>
     <string name="prefs_kill_services_text">السماح بالعمل في الخلفية</string>
+    <string name="prefs_language">لغة</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">افتح التطبيق عندما يبدأ التسجيل تلقائيًا</string>
     <string name="prefs_launch_app_auto_text">قم بتشغيل التطبيق عند بدء تسجيل الفيديو</string>
     <string name="prefs_launch_app_limitation_text">مع Android 11 والإصدارات الأحدث ، قد لا تتمكن من تحديد أي من التطبيقات المثبتة لأن النظام نفسه يقيد رؤية التطبيق (سياسة الخصوصية)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">طريقة الحصول على الموقع (GPS)</string>
     <string name="prefs_location_update_frequency_text">معدل تحديث GPS</string>
     <string name="prefs_meters_accuracy_value_text">متر من الدقة</string>
+    <string name="prefs_open_source_notices_text">إشعارات مفتوحة المصدر</string>
     <string name="prefs_optical_zoom_text">تكبير بصري (تكبير) /طول بؤري</string>
     <string name="prefs_orientation_landscape">المناظر الطبيعيه</string>
     <string name="prefs_orientation_landscape_reversed">عكس الألبوم</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">حساسية مستشعر G</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">الاهتزاز عند اكتشاف الصدمة</string>
     <string name="prefs_rules_auto_start_camera_motion_text">ابدأ التسجيل عند اكتشاف الحركة</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">بالنسبة لأحداث Bluetooth، يكون ذلك ممكنًا فقط إذا تم تعطيل خيار \"التسجيل فقط عند الشحن\".</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">لا تقم بتشغيل خدمة تطبيق AutoStart لحفظ البطارية أثناء انتظار بدء تسجيل الأحداث تلقائيًا. بالنسبة لنظام التشغيل Android 8+، يكون هذا ممكنًا إذا تم تمكين أحداث Bluetooth فقط وتم تعطيل الباقي.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* يمكنك إيقاف تشغيل هذا الخيار ليقوم التطبيق بإجراء التسجيل التلقائي فقط عند تشغيل خدمة الخلفية للتطبيق (AutoStart).\n- يمكن إجراء التسجيل التلقائي لأحداث مثل الشحن أو Bluetooth أو AUX دون مشاكل حتى Android 7.1.\n- بدءًا من Android 8+، لا يمكن إجراء التسجيل التلقائي بدون خدمة تطبيق الخلفية (AutoStart) إلا لأحداث Bluetooth، وفي حالات أخرى (عند الشحن أو AUX) تحتاج أولاً إلى بدء تشغيل خدمة تطبيق الخلفية (AutoStart) - عن طريق التشغيل التطبيق نفسه مرة واحدة.\n- بدءًا من Android 11+، بدون خدمة تطبيقات الخلفية (AutoStart)، لا يمكن الوصول إلى الكاميرا دون تدخل المستخدم لبدء التسجيل إلا إذا تم منح إذن \"أعلى جميع التطبيقات\".</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">التسجيل التلقائي حتى في حالة عدم تشغيل خدمة الخلفية (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">ابدأ التسجيل عندما تكون السرعة متساوية /أعلى (بناءً على نظام تحديد المواقع العالمي)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* يمكنك إيقاف تشغيل هذا الخيار ليقوم التطبيق بإجراء التسجيل التلقائي فقط عند تشغيل خدمة الخلفية للتطبيق (AutoStart).\n- يمكن إجراء التسجيل التلقائي لأحداث مثل الشحن أو Bluetooth أو AUX دون مشاكل حتى Android 7.1.\n- بدءًا من Android 8، لا يمكن إجراء التسجيل التلقائي بدون خدمة تطبيق الخلفية (AutoStart) إلا لأحداث Bluetooth، وفي الحالات الأخرى (عند الشحن أو AUX) تحتاج أولاً إلى بدء تشغيل خدمة تطبيق الخلفية (AutoStart) - عن طريق تشغيل التطبيق نفسه مرة واحدة.\n- بدءًا من Android 11 بدون خدمة التطبيقات في الخلفية (AutoStart)، لا يمكن الوصول إلى الكاميرا دون تدخل المستخدم إلا إذا كان الهاتف مفتوحًا (تشغيل الشاشة) وتم منح إذن \"فوق كل التطبيقات\".\n- وبالتالي، بالنسبة لنظام Android 11 والإصدارات الأحدث، تحتاج إلى تشغيل التطبيق يدويًا مرة واحدة حتى تبدأ خدمة الخلفية للتطبيق (AutoStart) للتسجيل التلقائي أثناء أي أحداث وعند إيقاف تشغيل شاشة الهاتف.</string>
-    <string name="prefs_rules_auto_start_without_service_text">التسجيل التلقائي حتى في حالة عدم تشغيل خدمة الخلفية (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">توقف عن التسجيل بعد</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">أوقف التسجيل عند عدم وجود حركة</string>
     <string name="prefs_rules_auto_stop_speed_text">أوقف التسجيل عندما تكون السرعة أقل (بناءً على نظام تحديد المواقع العالمي)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">حظر الكتابة فوق مقاطع الفيديو</string>
     <string name="prefs_show_overlay_btn_sum_text">يعرض نافذة بها أزرار تحكم أعلى كل التطبيقات</string>
     <string name="prefs_show_overlay_btn_text">عرض النافذة العائمة</string>
-    <string name="prefs_show_overlay_on_recording_text">إظهار النافذة العائمة عند بدء التسجيل</string>
+    <string name="prefs_show_overlay_on_recording_text">إظهار النافذة العائمة فقط عندما يكون التسجيل نشطًا (ويغلق تلقائيًا عندما يتوقف)</string>
     <string name="prefs_show_status_bar_text">إظهار شريط حالة النظام</string>
     <string name="prefs_show_take_photo_btn_text">لعمل صورة</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">لا تدعمه الكاميرا الحالية. غالبًا ما يقيد المصنعون استخدامه - فهو متاح فقط في تطبيق الكاميرا القياسي</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">الدعم (ردود الفعل)</string>
     <string name="prefs_system_alert_window_sum_text">اسمح لهذا التطبيق بالظهور فوق جميع التطبيقات الأخرى. يعد ذلك ضروريًا لبدء /إيقاف تسجيل الفيديو تلقائيًا أو لعرض نافذة عائمة</string>
     <string name="prefs_system_alert_window_sum_text_bvr">السماح لهذا التطبيق بالظهور فوق جميع التطبيقات الأخرى. يعد ذلك ضروريًا لعرض نافذة عائمة</string>
-    <string name="prefs_system_alert_window_text">القرار أعلى جميع النوافذ</string>
+    <string name="prefs_system_alert_window_text">العرض فوق التطبيقات الأخرى</string>
     <string name="prefs_theme_mode_dark">موضوع مظلم</string>
     <string name="prefs_theme_mode_dynamic">متحرك</string>
     <string name="prefs_theme_mode_light">موضوع خفيف</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">تسجيل…</string>
     <string name="recording_voice_started_text">بدأ التسجيل</string>
     <string name="recording_voice_stopped_text">توقف التسجيل</string>
+    <string name="records_file_edit_trim_crop">تحرير (تقليم) في \"صور Google\"</string>
     <string name="records_file_sorting_date">تاريخ</string>
     <string name="records_file_sorting_duration">مدة</string>
     <string name="records_file_sorting_name">اسم</string>
     <string name="records_file_sorting_size">حجم الملف</string>
     <string name="records_file_upload_drive">حفظ في \"جوجل درايف\"</string>
+    <string name="records_file_upload_youtube">تحميل على يوتيوب</string>
     <string name="reset">إبراء الذمة</string>
     <string name="storage_external_single">بطاقة مايكرو التنمية المستدامة</string>
     <string name="storage_phone">ذاكرة الهاتف</string>

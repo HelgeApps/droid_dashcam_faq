@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Enfòmasyon /Plis…</string>
     <string name="prefs_kill_services_sum_text">Gen paramèt sou aparèy ou an pou pèmèt aplikasyon yo jwe otomatikman epi kouri nan background nan. Klike la a epi ajoute aplikasyon an nan eksepsyon yo (pèmèt autostart ak sou sa) pou pèmèt li kouri nan background nan epi lè ekran an koupe, si entèdi.</string>
     <string name="prefs_kill_services_text">Pèmèt travay background</string>
+    <string name="prefs_language">Lang</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Louvri aplikasyon lè anrejistreman kòmanse otomatikman</string>
     <string name="prefs_launch_app_auto_text">Lanse aplikasyon lè anrejistreman videyo kòmanse</string>
     <string name="prefs_launch_app_limitation_text">Avèk Android 11 ak pi wo, ou ka pa kapab chwazi nenpòt nan aplikasyon yo enstale kòm sistèm nan tèt li mete restriksyon sou vizibilite aplikasyon an (politik sou enfòmasyon prive)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Metòd akizisyon kote (GPS)</string>
     <string name="prefs_location_update_frequency_text">Pousantaj aktyalizasyon GPS</string>
     <string name="prefs_meters_accuracy_value_text">mèt nan presizyon</string>
+    <string name="prefs_open_source_notices_text">Avi sous louvri</string>
     <string name="prefs_optical_zoom_text">Zoom optik (Zoom) /Longè Fokal</string>
     <string name="prefs_orientation_landscape">Peyizaj</string>
     <string name="prefs_orientation_landscape_reversed">Album ranvèse</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">G-capteur sansiblite</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Vibration lè yo detekte chòk</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Kòmanse anrejistreman lè yo detekte mouvman</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Pou evènman Bluetooth li posib sèlman si opsyon \"dosye sèlman lè chaje\" la enfim.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Pa lanse sèvis aplikasyon AutoStart pou konsève pou batri pandan y ap tann evènman yo kòmanse anrejistreman otomatikman. Pou Android 8+ sa a posib si se sèlman evènman Bluetooth yo aktive epi rès yo enfim.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Ou ka fèmen opsyon sa a pou fè aplikasyon an fè anrejistreman otomatik sèlman lè sèvis background aplikasyon an (AutoStart) ap kouri.\n- Anrejistreman otomatik pou evènman tankou chaje, Bluetooth oswa AUX ka fèt san pwoblèm jiska Android 7.1.\n- Apati de Android 8+, anrejistreman otomatik san yon sèvis aplikasyon background (AutoStart) ka fèt sèlman pou evènman Bluetooth, ak nan lòt ka (lè chaje oswa AUX) ou bezwen premye kòmanse sèvis aplikasyon an background (AutoStart) - pa lanse. aplikasyon an tèt li yon fwa.\n- Kòmanse ak Android 11+, san yo pa sèvis aplikasyon an background (AutoStart), aksè nan kamera a san entèraksyon itilizatè yo kòmanse anrejistreman se sèlman posib si yo akòde pèmisyon an \"sou tout aplikasyon yo\".</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Anrejistreman otomatik menm si sèvis background nan pa kouri (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Kòmanse anrejistreman lè vitès egal /pi wo (ki baze sou GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Ou ka fèmen opsyon sa a pou fè aplikasyon an fè anrejistreman otomatik sèlman lè sèvis background aplikasyon an (AutoStart) ap kouri.\n- Anrejistreman otomatik pou evènman tankou chaje, Bluetooth oswa AUX ka fèt san pwoblèm jiska Android 7.1.\n- Apati de Android 8, anrejistreman otomatik san yon sèvis aplikasyon background (AutoStart) ka fèt sèlman pou evènman Bluetooth, ak nan lòt ka (lè chaje oswa AUX) ou bezwen premye kòmanse sèvis aplikasyon an background (AutoStart) - pa lanse a. aplikasyon tèt li yon fwa.\n- Kòmanse ak Android 11 san sèvis aplikasyon background (AutoStart), aksè nan kamera a san entèraksyon itilizatè a se sèlman posib si telefòn nan debloke (ekran an limen) epi yo akòde pèmisyon \"sou tout aplikasyon yo\".\n- Kidonk, pou Android 11 ak pi wo, ou bezwen manyèlman lanse aplikasyon an yon fwa pou sèvis background nan aplikasyon an (AutoStart) kòmanse pou anrejistreman otomatik pandan nenpòt evènman ak lè ekran telefòn la etenn.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Anrejistreman otomatik menm si sèvis background nan pa kouri (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Sispann anrejistreman apre</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Sispann anrejistreman lè pa gen okenn mouvman</string>
     <string name="prefs_rules_auto_stop_speed_text">Sispann anrejistreman lè vitès la pi ba (ki baze sou GPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Bloke videyo pou yo pa ranplase yo</string>
     <string name="prefs_show_overlay_btn_sum_text">Montre yon fenèt ak bouton kontwòl anlè tout aplikasyon yo</string>
     <string name="prefs_show_overlay_btn_text">Montre fenèt k ap flote</string>
-    <string name="prefs_show_overlay_on_recording_text">Montre fenèt k ap flote lè anrejistreman kòmanse</string>
+    <string name="prefs_show_overlay_on_recording_text">Montre fenèt k ap flote sèlman lè anrejistreman aktif (epi fèmen otomatikman lè li sispann)</string>
     <string name="prefs_show_status_bar_text">Montre sistèm estati ba</string>
     <string name="prefs_show_take_photo_btn_text">Pou fè yon foto</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Pa sipòte pa kamera aktyèl la. Manifakti yo souvan mete restriksyon sou itilizasyon li yo - li disponib sèlman nan aplikasyon Kamera estanda a</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Sipò (feedback)</string>
     <string name="prefs_system_alert_window_sum_text">Pèmèt aplikasyon sa a parèt sou tout lòt aplikasyon yo. Sa nesesè pou otomatikman kòmanse /sispann anrejistreman videyo oswa pou montre yon fenèt k ap flote</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Pèmèt aplikasyon sa a parèt sou tout lòt aplikasyon yo. Sa nesesè pou montre yon fenèt k ap flote</string>
-    <string name="prefs_system_alert_window_text">Rezolisyon anlè tout fenèt yo</string>
+    <string name="prefs_system_alert_window_text">Montre anlè lòt aplikasyon yo</string>
     <string name="prefs_theme_mode_dark">Tèm nwa</string>
     <string name="prefs_theme_mode_dynamic">Dinamik</string>
     <string name="prefs_theme_mode_light">Tèm limyè</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Anrejistreman…</string>
     <string name="recording_voice_started_text">Anrejistreman te kòmanse</string>
     <string name="recording_voice_stopped_text">Anrejistreman sispann</string>
+    <string name="records_file_edit_trim_crop">Edit (Taye) nan \"Google Foto\"</string>
     <string name="records_file_sorting_date">Dat</string>
     <string name="records_file_sorting_duration">Dire</string>
     <string name="records_file_sorting_name">Non</string>
     <string name="records_file_sorting_size">Gwosè dosye</string>
     <string name="records_file_upload_drive">Sove sou \"Google Drive\"</string>
+    <string name="records_file_upload_youtube">Telechaje sou YouTube</string>
     <string name="reset">egzeyat</string>
     <string name="storage_external_single">kat MicroSD</string>
     <string name="storage_phone">Memwa telefòn</string>

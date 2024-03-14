@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">መረጃ /ተጨማሪ…</string>
     <string name="prefs_kill_services_sum_text">መተግበሪያዎች በራስ-ሰር እንዲጫወቱ እና ከበስተጀርባ እንዲያሄዱ ለማድረግ በመሣሪያዎ ላይ ቅንብሮች አሉ። እዚህ ጠቅ ያድርጉ እና አፕሊኬሽኑ ከተከለከለው ከበስተጀርባ እንዲሰራ እና ስክሪኑ ሲጠፋ ወደ ልዩነቱ ያክሉት (ራስን ማስጀመር እና የመሳሰሉትን ይፍቀዱ)</string>
     <string name="prefs_kill_services_text">የበስተጀርባ ስራን መፍቀድ</string>
+    <string name="prefs_language">ቋንቋ</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">መቅዳት በራስ-ሰር ሲጀምር መተግበሪያን ይክፈቱ</string>
     <string name="prefs_launch_app_auto_text">ቪዲዮ መቅዳት ሲጀምር መተግበሪያን ያስጀምሩ</string>
     <string name="prefs_launch_app_limitation_text">በአንድሮይድ 11 እና ከዚያ በላይ፣ ስርዓቱ ራሱ የመተግበሪያ ታይነትን (የግላዊነት መመሪያን) ስለሚገድብ ማናቸውንም የተጫኑ መተግበሪያዎች መምረጥ ላይችሉ ይችላሉ።</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">የአካባቢ ማግኛ ዘዴ (ጂፒኤስ)</string>
     <string name="prefs_location_update_frequency_text">የጂፒኤስ ዝማኔ መጠን</string>
     <string name="prefs_meters_accuracy_value_text">ሜትር ትክክለኛነት</string>
+    <string name="prefs_open_source_notices_text">ክፍት ምንጭ ማስታወቂያዎች</string>
     <string name="prefs_optical_zoom_text">የጨረር ማጉላት (ማጉላት) /የትኩረት ርዝመት</string>
     <string name="prefs_orientation_landscape">የመሬት ገጽታ</string>
     <string name="prefs_orientation_landscape_reversed">የአልበም ተቃራኒ</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">የጂ-ዳሳሽ ስሜት</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">ድንጋጤ በሚታወቅበት ጊዜ ንዝረት</string>
     <string name="prefs_rules_auto_start_camera_motion_text">እንቅስቃሴ ሲገኝ መቅዳት ይጀምሩ</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">ለብሉቱዝ ዝግጅቶች የሚቻለው \"መመዝገብ በሚሞላበት ጊዜ ብቻ\" የሚለው አማራጭ ከተሰናከለ ብቻ ነው።</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">ቀረጻ በራስ-ሰር ለመጀመር ክስተቶችን በመጠባበቅ ላይ እያሉ ባትሪ ለመቆጠብ የAutoStart መተግበሪያ አገልግሎትን አያስጀምሩ። ለአንድሮይድ 8+ ይህ የሚቻለው የብሉቱዝ ዝግጅቶች ብቻ ከነቃ እና የተቀሩት ከተሰናከሉ ነው።</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* አፕ አውቶማቲክ ቀረጻ እንዲሰራ ይህን አማራጭ ማጥፋት የሚችሉት የመተግበሪያው የጀርባ አገልግሎት (AutoStart) ሲሰራ ብቻ ነው።\n- እንደ ባትሪ መሙላት፣ ብሉቱዝ ወይም AUX ያሉ ክስተቶችን በራስ ሰር መቅዳት እስከ አንድሮይድ 7.1 ድረስ ያለ ችግር ሊከናወን ይችላል።\n- ከ አንድሮይድ 8+ ጀምሮ፣ ያለ ዳራ አፕሊኬሽን አገልግሎት (AutoStart) አውቶማቲክ ቀረጻ ለብሉቱዝ ዝግጅቶች ብቻ ሊከናወን ይችላል፣ እና በሌሎች ሁኔታዎች (ሲሞሉ ወይም AUX) መጀመሪያ የጀርባ አፕሊኬሽን አገልግሎትን (AutoStart) መጀመር ያስፈልግዎታል - በማስጀመር። ማመልከቻው አንድ ጊዜ.\n- ከአንድሮይድ 11+ ጀምሮ ያለ ዳራ አፕ አገልግሎት (AutoStart) ቀረጻ ለመጀመር ያለተጠቃሚ መስተጋብር ካሜራውን ማግኘት የሚቻለው \"በሁሉም መተግበሪያዎች ላይ\" ፍቃድ ከተሰጠ ብቻ ነው።</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">የበስተጀርባ አገልግሎት እየሰራ ባይሆንም በራስ ሰር መቅዳት (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">ፍጥነቱ እኩል/ከፍተኛ ሲሆን መቅዳት ጀምር (በጂፒኤስ ላይ በመመስረት)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* አፕ አውቶማቲክ ቀረጻ እንዲሰራ ይህን አማራጭ ማጥፋት የሚችሉት የመተግበሪያው የጀርባ አገልግሎት (AutoStart) ሲሰራ ብቻ ነው።\n- እንደ ባትሪ መሙላት፣ ብሉቱዝ ወይም AUX ያሉ ክስተቶችን በራስ ሰር መቅዳት እስከ አንድሮይድ 7.1 ድረስ ያለ ችግር ሊከናወን ይችላል።\n- ከ አንድሮይድ 8 ጀምሮ ያለ ዳራ አፕሊኬሽን አገልግሎት (AutoStart) አውቶማቲክ ቀረጻ ለብሉቱዝ ዝግጅቶች ብቻ ሊከናወን ይችላል፣ እና በሌሎች ሁኔታዎች (ሲሞሉ ወይም AUX) መጀመሪያ የጀርባ አፕሊኬሽን አገልግሎትን (AutoStart) መጀመር ያስፈልግዎታል - በማስጀመር። እራሱን አንድ ጊዜ ማመልከቻ.\n- ከአንድሮይድ 11 ጀምሮ ያለ የጀርባ አፕ አገልግሎት (AutoStart) የካሜራውን ያለተጠቃሚ መስተጋብር ማግኘት የሚቻለው ስልኩ ከተከፈተ (ስክሪን በርቶ) እና \"ከሁሉም መተግበሪያዎች በላይ\" ፈቃድ ከተሰጠ ብቻ ነው።\n- ስለዚህ ለአንድሮይድ 11 እና ከዚያ በላይ የመተግበሪያው የጀርባ አገልግሎት (AutoStart) በማንኛውም ክስተት ላይ እና የስልኩ ስክሪን ሲጠፋ በራስ ሰር ለመቅዳት እንዲጀምር አንድ ጊዜ ትግበራውን በእጅ ማስጀመር ያስፈልግዎታል።</string>
-    <string name="prefs_rules_auto_start_without_service_text">የበስተጀርባ አገልግሎት እየሰራ ባይሆንም በራስ ሰር መቅዳት (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">በኋላ መቅዳት አቁም</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">እንቅስቃሴ በማይኖርበት ጊዜ መቅዳት ያቁሙ</string>
     <string name="prefs_rules_auto_stop_speed_text">ፍጥነቱ ዝቅተኛ ሲሆን መቅዳት ያቁሙ (በጂፒኤስ ላይ በመመስረት)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">ቪዲዮዎች እንዳይገለበጡ ማገድ</string>
     <string name="prefs_show_overlay_btn_sum_text">በሁሉም መተግበሪያዎች ላይ የመቆጣጠሪያ አዝራሮች ያሉት መስኮት ያሳያል</string>
     <string name="prefs_show_overlay_btn_text">ተንሳፋፊ መስኮት አሳይ</string>
-    <string name="prefs_show_overlay_on_recording_text">መቅዳት ሲጀምር ተንሳፋፊ መስኮት አሳይ</string>
+    <string name="prefs_show_overlay_on_recording_text">ቀረጻ ንቁ ሲሆን ብቻ ተንሳፋፊ መስኮት አሳይ (እና ሲቆም በራስ-ሰር ዝጋ)</string>
     <string name="prefs_show_status_bar_text">የስርዓት ሁኔታ አሞሌን አሳይ</string>
     <string name="prefs_show_take_photo_btn_text">ፎቶ ለመስራት</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">አሁን ባለው ካሜራ አይደገፍም። አምራቾች ብዙውን ጊዜ አጠቃቀሙን ይገድባሉ - በመደበኛ የካሜራ መተግበሪያ ውስጥ ብቻ ይገኛል።</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">ድጋፍ (ምላሽ)</string>
     <string name="prefs_system_alert_window_sum_text">ይህ መተግበሪያ ከሁሉም መተግበሪያዎች በላይ እንዲታይ ይፍቀዱለት። የቪዲዮ ቀረጻን በራስ ሰር ለመጀመር/ለማቆም ወይም ተንሳፋፊ መስኮት ለማሳየት ይህ አስፈላጊ ነው።</string>
     <string name="prefs_system_alert_window_sum_text_bvr">ይህ መተግበሪያ በሁሉም ሌሎች መተግበሪያዎች ላይ እንዲታይ ይፍቀዱለት። ይህ ተንሳፋፊ መስኮት ለማሳየት አስፈላጊ ነው</string>
-    <string name="prefs_system_alert_window_text">በሁሉም መስኮቶች ላይ ያለው ጥራት</string>
+    <string name="prefs_system_alert_window_text">በሌሎች መተግበሪያዎች ላይ አሳይ</string>
     <string name="prefs_theme_mode_dark">ጨለማ ጭብጥ</string>
     <string name="prefs_theme_mode_dynamic">ተለዋዋጭ</string>
     <string name="prefs_theme_mode_light">ፈካ ያለ ጭብጥ</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">በመቅዳት ላይ…</string>
     <string name="recording_voice_started_text">መቅዳት ተጀምሯል።</string>
     <string name="recording_voice_stopped_text">መቅዳት ቆሟል</string>
+    <string name="records_file_edit_trim_crop">በ\"Google ፎቶዎች\" ውስጥ ያርትዑ (ክሪሙ)</string>
     <string name="records_file_sorting_date">ቀን</string>
     <string name="records_file_sorting_duration">ቆይታ</string>
     <string name="records_file_sorting_name">ስም</string>
     <string name="records_file_sorting_size">የፋይል መጠን</string>
     <string name="records_file_upload_drive">ወደ \"Google Drive\" አስቀምጥ</string>
+    <string name="records_file_upload_youtube">ወደ YouTube ይስቀሉ</string>
     <string name="reset">መፍሰስ</string>
     <string name="storage_external_single">የማይክሮ ኤስዲ ካርድ</string>
     <string name="storage_phone">የስልክ ማህደረ ትውስታ</string>

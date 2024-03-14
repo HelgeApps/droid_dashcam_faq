@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Amakuru /Ibindi…</string>
     <string name="prefs_kill_services_sum_text">Hano hari igenamiterere kubikoresho byawe kugirango wemerere porogaramu gukora autoplay no gukora inyuma. Kanda hano hanyuma wongere porogaramu kubidasanzwe (emerera autostart nibindi) kugirango wemererwe gukora inyuma kandi mugihe ecran yazimye, niba bibujijwe</string>
     <string name="prefs_kill_services_text">Emerera akazi kambere</string>
+    <string name="prefs_language">Ururimi</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Fungura porogaramu iyo gufata amajwi bitangiye</string>
     <string name="prefs_launch_app_auto_text">Tangiza porogaramu iyo gufata amashusho bitangiye</string>
     <string name="prefs_launch_app_limitation_text">Hamwe na Android 11 no hejuru yayo, ntushobora guhitamo porogaramu iyo ari yo yose yashyizweho kuko sisitemu ubwayo igabanya porogaramu igaragara (politiki y’ibanga)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Uburyo bwo kubona ahantu (GPS)</string>
     <string name="prefs_location_update_frequency_text">Igipimo cyo kuvugurura GPS</string>
     <string name="prefs_meters_accuracy_value_text">metero yukuri</string>
+    <string name="prefs_open_source_notices_text">Gufungura amatangazo</string>
     <string name="prefs_optical_zoom_text">Kuzamura neza (Kuzamura) /Uburebure bwibanze</string>
     <string name="prefs_orientation_landscape">Ahantu nyaburanga</string>
     <string name="prefs_orientation_landscape_reversed">Album ihinduka</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">G-sensor sensibilité</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Kunyeganyega iyo hagaragaye ihungabana</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Tangira gufata amajwi mugihe hagaragaye icyerekezo</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Kubikorwa bya Bluetooth birashoboka gusa niba \"inyandiko gusa iyo kwishyuza\" ihagaritswe.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Ntugatangire serivise ya AutoStart kugirango ubike bateri mugihe utegereje ibyabaye kuri autostart yafashwe. Kuri Android 8+ ibi birashoboka niba gusa ibyabaye kuri Bluetooth byashobotse naho ibindi bigahagarikwa.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Urashobora kuzimya ubu buryo kugirango porogaramu ikore amajwi yikora gusa mugihe serivisi yinyuma ya porogaramu (AutoStart) ikora.\n- Kwandika byikora kubintu nko kwishyuza, Bluetooth cyangwa AUX birashobora gukorwa nta kibazo kigera kuri Android 7.1.\n- Guhera kuri Android 8+, gufata amajwi byikora bidafite serivisi isaba inyuma (AutoStart) birashobora gukorwa gusa kubikorwa bya Bluetooth, kandi mubindi bihe (mugihe wishyuza cyangwa AUX) ugomba kubanza gutangira serivise yinyuma yibikorwa (AutoStart) - mugutangiza i Porogaramu ubwayo rimwe.\n- Uhereye kuri Android 11+, udafite serivise yinyuma ya porogaramu (AutoStart), kugera kuri kamera nta mikoreshereze yabakoresha kugirango utangire gufata amajwi birashoboka gusa niba uruhushya rutanzwe \"hejuru ya porogaramu zose\".</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Kwandika byikora nubwo serivisi yinyuma idakora (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Tangira gufata amajwi iyo umuvuduko uringaniye /hejuru (ukurikije GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Urashobora kuzimya ubu buryo kugirango porogaramu ikore amajwi yikora gusa mugihe serivisi yinyuma ya porogaramu (AutoStart) ikora.\n- Kwandika byikora kubintu nko kwishyuza, Bluetooth cyangwa AUX birashobora gukorwa nta kibazo kigera kuri Android 7.1.\n- Guhera kuri Android 8, gufata amajwi byikora bidafite serivisi isaba inyuma (AutoStart) birashobora gukorwa gusa kubikorwa bya Bluetooth, kandi mubindi bihe (mugihe wishyuza cyangwa AUX) ugomba kubanza gutangira serivise yinyuma yibikorwa (AutoStart) - mugutangiza Porogaramu ubwayo rimwe.\n- Guhera kuri Android 11 idafite serivise yinyuma ya porogaramu (AutoStart), kugera kuri kamera nta mikoranire yabakoresha birashoboka gusa iyo terefone ifunguye (ecran kuri) kandi \"hejuru ya porogaramu zose\" uruhushya rutanzwe.\n- Rero, kuri Android 11 no hejuru yayo, ugomba gutangiza intoki inshuro imwe kugirango serivise yinyuma ya porogaramu (AutoStart) itangire gufata amajwi mu buryo bwikora mugihe icyo aricyo cyose nigihe ecran ya terefone yazimye.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Kwandika byikora nubwo serivisi yinyuma idakora (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Hagarika gufata amajwi nyuma</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Hagarika gufata amajwi mugihe nta kugenda</string>
     <string name="prefs_rules_auto_stop_speed_text">Hagarika gufata amajwi mugihe umuvuduko uri hasi (ukurikije GPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Guhagarika amashusho kugirango yandike</string>
     <string name="prefs_show_overlay_btn_sum_text">Yerekana idirishya hamwe na buto yo kugenzura hejuru ya progaramu zose</string>
     <string name="prefs_show_overlay_btn_text">Erekana idirishya rireremba</string>
-    <string name="prefs_show_overlay_on_recording_text">Erekana idirishya rireremba mugihe gufata amajwi bitangiye</string>
+    <string name="prefs_show_overlay_on_recording_text">Erekana idirishya rireremba gusa iyo gufata amajwi bikora (hanyuma ufunge byikora iyo bihagaze)</string>
     <string name="prefs_show_status_bar_text">Erekana sisitemu imiterere</string>
     <string name="prefs_show_take_photo_btn_text">Gukora ifoto</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Ntabwo ashyigikiwe na kamera iriho. Ababikora akenshi babuza imikoreshereze yabyo - iraboneka gusa muri porogaramu isanzwe ya Kamera</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Inkunga (ibitekerezo)</string>
     <string name="prefs_system_alert_window_sum_text">Emerera iyi porogaramu kugaragara hejuru yizindi porogaramu zose. Ibi birakenewe guhita utangira /guhagarika gufata amashusho cyangwa kwerekana idirishya rireremba</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Emerera iyi porogaramu kugaragara hejuru yizindi porogaramu zose. Ibi birakenewe kwerekana idirishya rireremba</string>
-    <string name="prefs_system_alert_window_text">Icyemezo hejuru ya Windows yose</string>
+    <string name="prefs_system_alert_window_text">Erekana hejuru yizindi porogaramu</string>
     <string name="prefs_theme_mode_dark">Insanganyamatsiko yijimye</string>
     <string name="prefs_theme_mode_dynamic">Dynamic</string>
     <string name="prefs_theme_mode_light">Insanganyamatsiko yoroheje</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Gufata amajwi…</string>
     <string name="recording_voice_started_text">Gufata amajwi byatangiye</string>
     <string name="recording_voice_stopped_text">Gufata amajwi byarahagaze</string>
+    <string name="records_file_edit_trim_crop">Hindura (Trim) muri \"Amafoto ya Google\"</string>
     <string name="records_file_sorting_date">Itariki</string>
     <string name="records_file_sorting_duration">Ikiringo</string>
     <string name="records_file_sorting_name">Izina</string>
     <string name="records_file_sorting_size">Ingano ya dosiye</string>
     <string name="records_file_upload_drive">Bika kuri \"Google Drive\"</string>
+    <string name="records_file_upload_youtube">Kuramo kuri YouTube</string>
     <string name="reset">gusohora</string>
     <string name="storage_external_single">Ikarita ya MicroSD</string>
     <string name="storage_phone">Ububiko bwa terefone</string>

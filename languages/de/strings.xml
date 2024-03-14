@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Informationen / Mehr…</string>
     <string name="prefs_kill_services_sum_text">Es gibt Einstellungen auf Ihrem Gerät, mit denen Apps automatisch gestartet und im Hintergrund ausgeführt werden können. Klicken Sie hier und fügen Sie die Anwendung zu Ausnahmen hinzu (Autostart zulassen usw.), um Hintergrund und Herunterfahren zuzulassen. Bildschirm, falls nicht zugelasse</string>
     <string name="prefs_kill_services_text">Im Hintergrund laufen lassen</string>
+    <string name="prefs_language">Sprache</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Anwendung öffnen, wenn die Aufnahme automatisch startet</string>
     <string name="prefs_launch_app_auto_text">Starten Sie die App, wenn die Videoaufnahme beginnt</string>
     <string name="prefs_launch_app_limitation_text">Ab Android 11 können Sie möglicherweise keine der installierten Apps auswählen, da das System selbst die App-Sichtbarkeit einschränkt (Datenschutzerklärung)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Standorterfassungsmethode (GPS)</string>
     <string name="prefs_location_update_frequency_text">Aktualisierungsrate der GPS</string>
     <string name="prefs_meters_accuracy_value_text">Genauigkeitsmeter</string>
+    <string name="prefs_open_source_notices_text">Open-Source-Hinweise</string>
     <string name="prefs_optical_zoom_text">Optischer Zoom (Zoom) / Brennweite</string>
     <string name="prefs_orientation_landscape">Landschaft</string>
     <string name="prefs_orientation_landscape_reversed">Umgekehrte Landschaft</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">G-Sensor-Empfindlichkeit</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Vibration bei Erschütterungserkennung</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Aufnahme starten, wenn Bewegung erkannt wird</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Bei Bluetooth-Ereignissen ist dies nur möglich, wenn die Option „Nur beim Laden aufzeichnen“ deaktiviert ist.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Starten Sie den AutoStart-Anwendungsdienst nicht, um Batterie zu sparen, während Sie auf Ereignisse warten, um die Aufzeichnung automatisch zu starten. Für Android 8+ ist dies möglich, wenn nur Bluetooth-Ereignisse aktiviert und der Rest deaktiviert sind.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Sie können diese Option deaktivieren, damit die App nur dann eine automatische Aufzeichnung durchführt, wenn der Hintergrunddienst der App (AutoStart) ausgeführt wird.\n- Die automatische Aufzeichnung von Ereignissen wie Laden, Bluetooth oder AUX ist bis Android 7.1 problemlos möglich.\n- Ab Android 8+ kann die automatische Aufnahme ohne Hintergrundanwendungsdienst (AutoStart) nur für Bluetooth-Ereignisse durchgeführt werden. In anderen Fällen (beim Laden oder AUX) müssen Sie zuerst den Hintergrundanwendungsdienst (AutoStart) starten – durch Starten die Anwendung selbst einmal.\n- Ab Android 11+ ist der Zugriff auf die Kamera ohne Benutzerinteraktion zum Starten der Aufnahme ohne den Hintergrund-App-Dienst (AutoStart) nur möglich, wenn die Berechtigung „Über alle Apps“ erteilt wurde.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Automatische Aufzeichnung, auch wenn der Hintergrunddienst nicht läuft (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Aufnahme starten, wenn die Geschwindigkeit gleich/höher ist (basierend auf GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Sie können diese Option deaktivieren, damit die App nur dann eine automatische Aufzeichnung durchführt, wenn der Hintergrunddienst der App (AutoStart) ausgeführt wird.\n- Die automatische Aufzeichnung von Ereignissen wie Laden, Bluetooth oder AUX ist bis Android 7.1 problemlos möglich.\n- Ab Android 8 kann die automatische Aufnahme ohne Hintergrundanwendungsdienst (AutoStart) nur für Bluetooth-Ereignisse durchgeführt werden. In anderen Fällen (beim Laden oder AUX) müssen Sie zuerst den Hintergrundanwendungsdienst (AutoStart) starten – indem Sie das starten Anwendung selbst einmalig durchführen.\n- Ab Android 11 ohne den Hintergrund-App-Dienst (AutoStart) ist der Zugriff auf die Kamera ohne Benutzerinteraktion nur möglich, wenn das Telefon entsperrt (Bildschirm an) und die Berechtigung „Über alle Apps“ erteilt ist.\n– Daher müssen Sie für Android 11 und höher die Anwendung einmal manuell starten, damit der Hintergrunddienst der Anwendung (AutoStart) für die automatische Aufzeichnung bei Ereignissen und beim Ausschalten des Telefonbildschirms startet.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Automatische Aufzeichnung, auch wenn der Hintergrunddienst nicht läuft (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Aufnahme beenden nach</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Stoppen Sie die Aufnahme, wenn keine Bewegung stattfindet</string>
     <string name="prefs_rules_auto_stop_speed_text">Stoppen Sie die Aufnahme, wenn die Geschwindigkeit niedriger ist (basierend auf GPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Überschreiben von Videos blockieren</string>
     <string name="prefs_show_overlay_btn_sum_text">Zeigt ein Fenster mit Steuerschaltflächen über allen Anwendungen an</string>
     <string name="prefs_show_overlay_btn_text">Schwebendes Fenster anzeigen</string>
-    <string name="prefs_show_overlay_on_recording_text">Schwebendes Fenster anzeigen, wenn die Aufnahme beginnt</string>
+    <string name="prefs_show_overlay_on_recording_text">Schwebendes Fenster nur anzeigen, wenn die Aufnahme aktiv ist (und automatisch schließen, wenn die Aufnahme stoppt)</string>
     <string name="prefs_show_status_bar_text">Systemstatusleiste anzeigen</string>
     <string name="prefs_show_take_photo_btn_text">Foto machen</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Wird von der aktuellen Kamera nicht unterstützt. Hersteller schränken die Verwendung oft ein - sie ist nur in der Standard-Kamera-Anwendung verfügbar</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Unterstützung (Feedback)</string>
     <string name="prefs_system_alert_window_sum_text">Erlauben Sie, dass diese App im Vordergrund aller anderen Apps angezeigt wird.   Dies ist notwendig, um die Videoaufzeichnung automatisch zu starten/stoppen oder um ein schwebendes Fenster anzuzeigen</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Lassen Sie zu, dass diese App über allen anderen Apps angezeigt wird. Dies ist notwendig, um ein schwebendes Fenster anzuzeigen</string>
-    <string name="prefs_system_alert_window_text">Auflösung im Vordergrund aller Fenster</string>
+    <string name="prefs_system_alert_window_text">Über anderen Anwendungen anzeigen</string>
     <string name="prefs_theme_mode_dark">Dunkles Thema</string>
     <string name="prefs_theme_mode_dynamic">Dynamisch</string>
     <string name="prefs_theme_mode_light">Lichtthema</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Aufzeichnung…</string>
     <string name="recording_voice_started_text">Die Aufzeichnung hat begonnen</string>
     <string name="recording_voice_stopped_text">Aufnahme gestoppt</string>
+    <string name="records_file_edit_trim_crop">Bearbeiten (Zuschneiden) in „Google Fotos“</string>
     <string name="records_file_sorting_date">Datum</string>
     <string name="records_file_sorting_duration">Dauer</string>
     <string name="records_file_sorting_name">Name</string>
     <string name="records_file_sorting_size">Dateigröße</string>
     <string name="records_file_upload_drive">Auf „Google Drive“ speichern</string>
+    <string name="records_file_upload_youtube">Auf YouTube hochladen</string>
     <string name="reset">zurücksetzen</string>
     <string name="storage_external_single">MicroSD Karte</string>
     <string name="storage_phone">Telefonspeicher</string>

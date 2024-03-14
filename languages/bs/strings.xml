@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Informacije /Više…</string>
     <string name="prefs_kill_services_sum_text">Na vašem uređaju postoje postavke koje dozvoljavaju aplikacijama da se automatski reproduciraju i rade u pozadini. Kliknite ovdje i dodajte aplikaciju u izuzetke (omogućite automatsko pokretanje i tako dalje) da biste joj omogućili da radi u pozadini i kada je ekran isključen, ako je zabranjeno</string>
     <string name="prefs_kill_services_text">Dozvoljava rad u pozadini</string>
+    <string name="prefs_language">Jezik</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Otvorite aplikaciju kada snimanje počne automatski</string>
     <string name="prefs_launch_app_auto_text">Pokrenite aplikaciju kada počne snimanje videa</string>
     <string name="prefs_launch_app_limitation_text">Uz Android 11 i novije verzije, možda nećete moći odabrati nijednu od instaliranih aplikacija jer sam sistem ograničava vidljivost aplikacija (pravila privatnosti)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Metoda pribavljanja lokacije (GPS)</string>
     <string name="prefs_location_update_frequency_text">Stopa ažuriranja GPS-a</string>
     <string name="prefs_meters_accuracy_value_text">metara tačnosti</string>
+    <string name="prefs_open_source_notices_text">Obavještenja o otvorenom kodu</string>
     <string name="prefs_optical_zoom_text">Optički zum (zum) /žižna daljina</string>
     <string name="prefs_orientation_landscape">Pejzaž</string>
     <string name="prefs_orientation_landscape_reversed">Revers albuma</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">Osetljivost G-senzora</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Vibracija kada se detektuje udar</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Započnite snimanje kada se detektuje pokret</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Za Bluetooth događaje to je moguće samo ako je opcija \"snimanje samo pri punjenju\" onemogućena.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Nemojte pokretati aplikaciju AutoStart da biste uštedjeli bateriju dok čekate da događaji automatski pokrenu snimanje. Za Android 8+ ovo je moguće ako su omogućeni samo Bluetooth događaji, a ostali onemogućeni.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Ovu opciju možete isključiti da bi aplikacija izvršila automatsko snimanje samo kada je pokrenuta pozadinska usluga aplikacije (AutoStart).\n- Automatsko snimanje događaja kao što su punjenje, Bluetooth ili AUX može se izvesti bez problema do Android 7.1.\n- Počevši od Android 8+, automatsko snimanje bez pozadinske aplikacije aplikacije (AutoStart) može se izvoditi samo za Bluetooth događaje, au ostalim slučajevima (pri punjenju ili AUX) potrebno je prvo pokrenuti pozadinsku aplikaciju aplikacije (AutoStart) - pokretanjem samu aplikaciju jednom.\n- Počevši od Androida 11+, bez usluge pozadinske aplikacije (AutoStart), pristup kameri bez interakcije korisnika za početak snimanja moguć je samo ako je odobrena dozvola \"na vrhu svih aplikacija\".</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Automatsko snimanje čak i ako pozadinska usluga nije pokrenuta (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Počnite snimati kada je brzina jednaka /veća (na osnovu GPS-a)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Ovu opciju možete isključiti da bi aplikacija izvršila automatsko snimanje samo kada je pokrenuta pozadinska usluga aplikacije (AutoStart).\n- Automatsko snimanje događaja kao što su punjenje, Bluetooth ili AUX može se izvesti bez problema do Android 7.1.\n- Počevši od Androida 8, automatsko snimanje bez usluge pozadinske aplikacije (AutoStart) može se izvoditi samo za Bluetooth događaje, au drugim slučajevima (prilikom punjenja ili AUX) potrebno je prvo pokrenuti pozadinsku aplikaciju aplikacije (AutoStart) - pokretanjem sama aplikacija jednom.\n- Počevši od Androida 11 bez usluge pozadinske aplikacije (AutoStart), pristup kameri bez interakcije korisnika je moguć samo ako je telefon otključan (uključen ekran) i odobrena je dozvola \"na vrhu svih aplikacija\".\n- Dakle, za Android 11 i novije, trebate ručno pokrenuti aplikaciju jednom kako bi se pokrenula pozadinska usluga aplikacije (AutoStart) za automatsko snimanje tokom bilo kojeg događaja i kada je ekran telefona isključen.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Automatsko snimanje čak i ako pozadinska usluga nije pokrenuta (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Zaustavite snimanje nakon</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Zaustavite snimanje kada nema kretanja</string>
     <string name="prefs_rules_auto_stop_speed_text">Zaustavite snimanje kada je brzina manja (na osnovu GPS-a)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Blokiranje video zapisa od prepisivanja</string>
     <string name="prefs_show_overlay_btn_sum_text">Prikazuje prozor sa kontrolnim dugmadima na vrhu svih aplikacija</string>
     <string name="prefs_show_overlay_btn_text">Prikaži plutajući prozor</string>
-    <string name="prefs_show_overlay_on_recording_text">Prikaži plutajući prozor kada snimanje počne</string>
+    <string name="prefs_show_overlay_on_recording_text">Prikaži plutajući prozor samo kada je snimanje aktivno (i zatvori se automatski kada se zaustavi)</string>
     <string name="prefs_show_status_bar_text">Prikaži statusnu traku sistema</string>
     <string name="prefs_show_take_photo_btn_text">Da napravim fotografiju</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Trenutna kamera ne podržava. Proizvođači često ograničavaju njegovu upotrebu – dostupna je samo u standardnoj aplikaciji Camera</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Podrška (povratne informacije)</string>
     <string name="prefs_system_alert_window_sum_text">Dozvolite ovoj aplikaciji da se pojavi iznad svih drugih aplikacija. Ovo je neophodno za automatsko pokretanje/zaustavljanje video snimanja ili za prikaz plutajućeg prozora</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Dozvolite ovoj aplikaciji da se pojavi iznad svih drugih aplikacija. Ovo je neophodno za prikaz plutajućeg prozora</string>
-    <string name="prefs_system_alert_window_text">Rezolucija na vrhu svih prozora</string>
+    <string name="prefs_system_alert_window_text">Prikaz na vrhu drugih aplikacija</string>
     <string name="prefs_theme_mode_dark">Tamna tema</string>
     <string name="prefs_theme_mode_dynamic">Dynamic</string>
     <string name="prefs_theme_mode_light">Lagana tema</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Snimanje…</string>
     <string name="recording_voice_started_text">Snimanje je počelo</string>
     <string name="recording_voice_stopped_text">Snimanje je zaustavljeno</string>
+    <string name="records_file_edit_trim_crop">Uredite (Skratite) u \"Google fotografijama\"</string>
     <string name="records_file_sorting_date">Datum</string>
     <string name="records_file_sorting_duration">Trajanje</string>
     <string name="records_file_sorting_name">Ime</string>
     <string name="records_file_sorting_size">Veličina fajla</string>
     <string name="records_file_upload_drive">Sačuvaj na \"Google Drive\"</string>
+    <string name="records_file_upload_youtube">Otpremite na YouTube</string>
     <string name="reset">pražnjenje</string>
     <string name="storage_external_single">MicroSD kartica</string>
     <string name="storage_phone">Memorija telefona</string>

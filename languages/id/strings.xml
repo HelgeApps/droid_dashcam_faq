@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Informasi /Selengkapnya…</string>
     <string name="prefs_kill_services_sum_text">Ada pengaturan di perangkat Anda untuk memungkinkan aplikasi diputar secara otomatis dan berjalan di latar belakang. Klik di sini dan tambahkan aplikasi ke pengecualian (izinkan autostart dan sebagainya) untuk memungkinkannya berjalan di latar belakang dan saat layar mati, jika dilarang</string>
     <string name="prefs_kill_services_text">Mengizinkan pekerjaan latar belakang</string>
+    <string name="prefs_language">Bahasa</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Buka aplikasi saat perekaman dimulai secara otomatis</string>
     <string name="prefs_launch_app_auto_text">Luncurkan aplikasi saat perekaman video dimulai</string>
     <string name="prefs_launch_app_limitation_text">Dengan Android 11 dan yang lebih tinggi, Anda mungkin tidak dapat memilih salah satu aplikasi yang diinstal karena sistem itu sendiri membatasi visibilitas aplikasi (kebijakan privasi)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Metode akuisisi lokasi (GPS)</string>
     <string name="prefs_location_update_frequency_text">Tingkat pembaruan GPS</string>
     <string name="prefs_meters_accuracy_value_text">meter akurasi</string>
+    <string name="prefs_open_source_notices_text">Pemberitahuan sumber terbuka</string>
     <string name="prefs_optical_zoom_text">Zoom Optik (Zoom) /Panjang Fokus</string>
     <string name="prefs_orientation_landscape">Lanskap</string>
     <string name="prefs_orientation_landscape_reversed">Album terbalik</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">Sensitivitas G-sensor</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Getaran saat kejutan terdeteksi</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Mulai merekam saat gerakan terdeteksi</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Untuk acara Bluetooth, ini hanya dapat dilakukan jika opsi \"rekam hanya saat mengisi daya\" dinonaktifkan.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Jangan meluncurkan layanan aplikasi AutoStart untuk menghemat baterai sambil menunggu acara mulai direkam secara otomatis. Untuk Android 8+, hal ini dimungkinkan jika hanya peristiwa Bluetooth yang diaktifkan dan peristiwa lainnya dinonaktifkan.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Anda dapat menonaktifkan opsi ini agar aplikasi melakukan perekaman otomatis hanya ketika layanan latar belakang aplikasi (Mulai Otomatis) sedang berjalan.\n- Perekaman otomatis untuk acara seperti pengisian daya, Bluetooth atau AUX dapat dilakukan tanpa masalah hingga Android 7.1.\n- Mulai dari Android 8+, perekaman otomatis tanpa layanan aplikasi latar belakang (AutoStart) hanya dapat dilakukan untuk acara Bluetooth, dan dalam kasus lain (saat mengisi daya atau AUX) Anda harus memulai layanan aplikasi latar belakang (AutoStart) terlebih dahulu - dengan meluncurkan aplikasi itu sendiri satu kali.\n- Dimulai dengan Android 11+, tanpa layanan aplikasi latar belakang (Mulai Otomatis), mengakses kamera tanpa interaksi pengguna untuk mulai merekam hanya dapat dilakukan jika izin \"di atas semua aplikasi\" diberikan.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Perekaman otomatis meskipun layanan latar belakang tidak berjalan (Mulai Otomatis)</string>
     <string name="prefs_rules_auto_start_speed_text">Mulai merekam saat kecepatan sama /lebih tinggi (berdasarkan GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Anda dapat menonaktifkan opsi ini agar aplikasi melakukan perekaman otomatis hanya ketika layanan latar belakang aplikasi (Mulai Otomatis) sedang berjalan.\n- Perekaman otomatis untuk acara seperti pengisian daya, Bluetooth atau AUX dapat dilakukan tanpa masalah hingga Android 7.1.\n- Mulai Android 8, perekaman otomatis tanpa layanan aplikasi latar belakang (AutoStart) hanya dapat dilakukan untuk acara Bluetooth, dan dalam kasus lain (saat mengisi daya atau AUX) Anda harus memulai layanan aplikasi latar belakang (AutoStart) terlebih dahulu - dengan meluncurkan aplikasi itu sendiri satu kali.\n- Dimulai dengan Android 11 tanpa layanan aplikasi latar belakang (Mulai Otomatis), akses ke kamera tanpa interaksi pengguna hanya dimungkinkan jika ponsel tidak terkunci (layar aktif) dan izin \"di atas semua aplikasi\" diberikan.\n- Jadi, untuk Android 11 dan lebih tinggi, Anda perlu meluncurkan aplikasi secara manual satu kali agar layanan latar belakang aplikasi (Mulai Otomatis) dimulai untuk perekaman otomatis selama peristiwa apa pun dan saat layar ponsel dimatikan.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Perekaman otomatis meskipun layanan latar belakang tidak berjalan (Mulai Otomatis)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Berhenti merekam setelah</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Berhenti merekam saat tidak ada gerakan</string>
     <string name="prefs_rules_auto_stop_speed_text">Berhenti merekam saat kecepatan lebih rendah (berdasarkan GPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Memblokir video agar tidak ditimpa</string>
     <string name="prefs_show_overlay_btn_sum_text">Menampilkan jendela dengan tombol kontrol di atas semua aplikasi</string>
     <string name="prefs_show_overlay_btn_text">Tampilkan jendela mengambang</string>
-    <string name="prefs_show_overlay_on_recording_text">Tampilkan jendela mengambang saat perekaman dimulai</string>
+    <string name="prefs_show_overlay_on_recording_text">Tampilkan jendela mengambang hanya ketika perekaman aktif (dan tutup secara otomatis ketika berhenti)</string>
     <string name="prefs_show_status_bar_text">Tampilkan bilah status sistem</string>
     <string name="prefs_show_take_photo_btn_text">Untuk membuat foto</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Tidak didukung oleh kamera saat ini. Pabrikan sering membatasi penggunaannya - ini hanya tersedia di aplikasi Kamera standar</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Dukungan (umpan balik)</string>
     <string name="prefs_system_alert_window_sum_text">Izinkan aplikasi ini muncul di atas semua aplikasi lain. Ini diperlukan untuk memulai /menghentikan perekaman video secara otomatis atau untuk menampilkan jendela mengambang</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Izinkan aplikasi ini muncul di atas semua aplikasi lainnya. Hal ini diperlukan untuk menampilkan jendela mengambang</string>
-    <string name="prefs_system_alert_window_text">Resolusi di atas semua jendela</string>
+    <string name="prefs_system_alert_window_text">Tampilan di atas aplikasi lain</string>
     <string name="prefs_theme_mode_dark">Tema gelap</string>
     <string name="prefs_theme_mode_dynamic">Dinamis</string>
     <string name="prefs_theme_mode_light">Tema ringan</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Merekam…</string>
     <string name="recording_voice_started_text">Perekaman telah dimulai</string>
     <string name="recording_voice_stopped_text">Perekaman berhenti</string>
+    <string name="records_file_edit_trim_crop">Edit (Pangkas) di \"Google Foto\"</string>
     <string name="records_file_sorting_date">Tanggal</string>
     <string name="records_file_sorting_duration">Durasi</string>
     <string name="records_file_sorting_name">Nama</string>
     <string name="records_file_sorting_size">Ukuran file</string>
     <string name="records_file_upload_drive">Simpan ke \"Google Drive\"</string>
+    <string name="records_file_upload_youtube">Unggah ke YouTube</string>
     <string name="reset">memulangkan</string>
     <string name="storage_external_single">Kartu MicroSD</string>
     <string name="storage_phone">Memori telepon</string>

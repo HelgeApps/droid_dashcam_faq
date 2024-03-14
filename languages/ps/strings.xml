@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">معلومات /نور…</string>
     <string name="prefs_kill_services_sum_text">ستاسو په وسیله کې تنظیمات شتون لري ترڅو ایپس ته اجازه ورکړي چې په اتوماتيک ډول پلی شي او په شالید کې چل شي. دلته کلیک وکړئ او غوښتنلیک په استثناییاتو کې اضافه کړئ (آټوسټارټ او داسې نورو ته اجازه ورکړئ) ترڅو دا په شالید کې چلولو ته اجازه ورکړئ او کله چې سکرین بند وي ، که منع وي</string>
     <string name="prefs_kill_services_text">د شاليد کار ته اجازه ورکول</string>
+    <string name="prefs_language">ژبه</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">غوښتنلیک خلاص کړئ کله چې ثبت کول په اوتومات ډول پیل شي</string>
     <string name="prefs_launch_app_auto_text">ایپ لانچ کړئ کله چې د ویډیو ثبت کول پیل شي</string>
     <string name="prefs_launch_app_limitation_text">د Android 11 او لوړ سره ، تاسو ممکن نشئ کولی کوم نصب شوي ایپس غوره کړئ ځکه چې سیسټم پخپله د ایپ لید محدودوي (د محرمیت تګلاره)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">د موقعیت ترلاسه کولو طریقه (GPS)</string>
     <string name="prefs_location_update_frequency_text">د GPS تازه کولو نرخ</string>
     <string name="prefs_meters_accuracy_value_text">دقت متره</string>
+    <string name="prefs_open_source_notices_text">د خلاصې سرچینې خبرتیاوې</string>
     <string name="prefs_optical_zoom_text">نظری زوم (زوم) /فوکل اوږدوالی</string>
     <string name="prefs_orientation_landscape">منظره</string>
     <string name="prefs_orientation_landscape_reversed">البوم ریورس</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">د جی سینسر حساسیت</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">کمپن کله چې شاک کشف شي</string>
     <string name="prefs_rules_auto_start_camera_motion_text">کله چې حرکت کشف شي ثبت کول پیل کړئ</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">د بلوتوټ پیښو لپاره دا یوازې ممکنه ده که چیرې \"یوازې د چارج کولو پرمهال ریکارډ\" اختیار غیر فعال وي.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">د بیټرۍ خوندي کولو لپاره د آټو سټارټ اپلیکیشن خدمت مه پیلوئ پداسې حال کې چې پیښو ته د آټوسټارټ ریکارډ کولو لپاره انتظار کوئ. د Android 8+ لپاره دا ممکنه ده که یوازې د بلوتوټ پیښې فعالې وي او پاتې نور غیر فعال وي.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* تاسو کولی شئ دا اختیار بند کړئ ترڅو ایپ یوازې هغه وخت اتومات ثبت کړي کله چې د اپلیکیشن شالید خدمت (آټو سټارټ) روان وي.\n- د پیښو لپاره اتوماتیک ثبت کول لکه چارج کول ، بلوتوث یا AUX د Android 7.1 پورې ستونزې پرته ترسره کیدی شي.\n- د Android 8+ څخه پیل کول ، د شالید غوښتنلیک خدمت (آټو سټارټ) پرته اتومات ثبت کول یوازې د بلوتوټ پیښو لپاره ترسره کیدی شي ، او په نورو قضیو کې (کله چې چارج کول یا AUX) تاسو اړتیا لرئ لومړی د شالید غوښتنلیک خدمت (آټو سټارټ) پیل کړئ - په پیل کولو سره غوښتنلیک پخپله یو ځل.\n- د Android 11+ سره پیل کول ، د شالید اپلیکیشن خدمت (آټو سټارټ) پرته ، د ثبت پیل کولو لپاره د کارونکي متقابل عمل پرته کیمرې ته لاسرسی یوازې هغه وخت ممکن دی که \"د ټولو ایپسونو سر کې\" اجازه ورکړل شي.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">اتوماتیک ثبت کول حتی که د شالید خدمت روان نه وي (آټو سټارټ)</string>
     <string name="prefs_rules_auto_start_speed_text">ثبت کول پیل کړئ کله چې سرعت مساوي /لوړ وي (د GPS پراساس)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* تاسو کولی شئ دا اختیار بند کړئ ترڅو ایپ یوازې هغه وخت اتومات ثبت کړي کله چې د اپلیکیشن شالید خدمت (آټو سټارټ) روان وي.\n- د پیښو لپاره اتوماتیک ثبت کول لکه چارج کول ، بلوتوث یا AUX د Android 7.1 پورې ستونزې پرته ترسره کیدی شي.\n- د Android 8 څخه پیل کول ، د شالید غوښتنلیک خدمت (آټو سټارټ) پرته اتومات ثبت کول یوازې د بلوتوت پیښو لپاره ترسره کیدی شي ، او په نورو قضیو کې (کله چې چارج کول یا AUX) تاسو اړتیا لرئ لومړی د شالید غوښتنلیک خدمت (آټو سټارټ) پیل کړئ - د پیل کولو سره. پخپله یو ځل غوښتنلیک.\n- د Android 11 سره د شالید ایپ خدمت (آټو سټارټ) پرته پیل کول ، د کارونکي متقابل عمل پرته کیمرې ته لاسرسی یوازې هغه وخت ممکن دی که تلیفون خلاص وي (سکرین آن) او \"د ټولو ایپسونو په سر کې\" اجازه ورکړل شوې وي.\n- پدې توګه ، د Android 11 او لوړ لپاره ، تاسو اړتیا لرئ په لاسي ډول یوځل اپلیکیشن پیل کړئ ترڅو د غوښتنلیک شالید خدمت (آټو سټارټ) د هرې پیښې پرمهال او کله چې د تلیفون سکرین بند وي د اتوماتیک ثبت کولو لپاره پیل شي.</string>
-    <string name="prefs_rules_auto_start_without_service_text">اتوماتیک ثبت کول حتی که د شالید خدمت روان نه وي (آټو سټارټ)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">وروسته ثبت کول بند کړئ</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">د ثبت کولو مخه ونیسئ کله چې هیڅ حرکت شتون نلري</string>
     <string name="prefs_rules_auto_stop_speed_text">ثبت کول بند کړئ کله چې سرعت ټیټ وي (د GPS پراساس)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">د بیا لیکلو څخه د ویډیوګانو بندول</string>
     <string name="prefs_show_overlay_btn_sum_text">د ټولو غوښتنلیکونو په سر کې د کنټرول بټونو سره یوه کړکۍ ښکاره کوي</string>
     <string name="prefs_show_overlay_btn_text">تیرې کړکۍ ښکاره کړئ</string>
-    <string name="prefs_show_overlay_on_recording_text">کله چې ثبت کول پیل شي د تیرولو کړکۍ وښایاست</string>
+    <string name="prefs_show_overlay_on_recording_text">یوازې د تیرولو کړکۍ وښایاست کله چې ریکارډ فعال وي (او په اتوماتيک ډول وتړئ کله چې ودریږي)</string>
     <string name="prefs_show_status_bar_text">د سیسټم حالت بار وښایاست</string>
     <string name="prefs_show_take_photo_btn_text">د عکس جوړولو لپاره</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">د اوسني کیمرې لخوا نه ملاتړ کیږي. جوړونکي اکثرا د دې کارول محدودوي - دا یوازې د معیاري کیمرې غوښتنلیک کې شتون لري</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">ملاتړ (فیډبیک)</string>
     <string name="prefs_system_alert_window_sum_text">دې اپلیکیشن ته اجازه ورکړئ چې د نورو ټولو ایپسونو په سر کې څرګند شي. دا اړینه ده چې په اتوماتيک ډول د ویډیو ثبت کول پیل /ودروي یا د تیرې کړکۍ ښودلو لپاره</string>
     <string name="prefs_system_alert_window_sum_text_bvr">دې اپلیکیشن ته اجازه ورکړئ چې د نورو ټولو ایپسونو په سر کې څرګند شي. دا اړینه ده چې د تیرې کړکۍ ښودلو لپاره</string>
-    <string name="prefs_system_alert_window_text">د ټولو وینډوز په سر کې ریزولوشن</string>
+    <string name="prefs_system_alert_window_text">د نورو غوښتنلیکونو په سر کې ښکاره کړئ</string>
     <string name="prefs_theme_mode_dark">تیاره موضوع</string>
     <string name="prefs_theme_mode_dynamic">متحرک</string>
     <string name="prefs_theme_mode_light">رڼا موضوع</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">ثبت کول…</string>
     <string name="recording_voice_started_text">ثبتول پیل شوي دي</string>
     <string name="recording_voice_stopped_text">ثبتول ودرول شول</string>
+    <string name="records_file_edit_trim_crop">په \"ګوګل عکسونو\" کې ایډیټ (ټریم)</string>
     <string name="records_file_sorting_date">نیټه</string>
     <string name="records_file_sorting_duration">موده</string>
     <string name="records_file_sorting_name">نوم</string>
     <string name="records_file_sorting_size">د فایل اندازه</string>
     <string name="records_file_upload_drive">په \"ګوګل ډرایو\" کې خوندي کړئ</string>
+    <string name="records_file_upload_youtube">یوټیوب ته اپلوډ کړئ</string>
     <string name="reset">خارجول</string>
     <string name="storage_external_single">د مایکرو ایس ډی کارت</string>
     <string name="storage_phone">د تلیفون حافظه</string>

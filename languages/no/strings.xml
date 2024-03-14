@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Informasjon /Mer…</string>
     <string name="prefs_kill_services_sum_text">Det er innstillinger på enheten din som lar apper spille av automatisk og kjøre i bakgrunnen. Klikk her og legg til applikasjonen til unntakene (tillat autostart og så videre) for å la den kjøre i bakgrunnen og når skjermen er av, hvis det er forbudt</string>
     <string name="prefs_kill_services_text">Tillater bakgrunnsarbeid</string>
+    <string name="prefs_language">Språk</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Åpne programmet når opptaket starter automatisk</string>
     <string name="prefs_launch_app_auto_text">Start appen når videoopptaket starter</string>
     <string name="prefs_launch_app_limitation_text">Med Android 11 og nyere kan det hende du ikke kan velge noen av de installerte appene ettersom systemet i seg selv begrenser appsynlighet (personvernregler)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Stedsinnhentingsmetode (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS-oppdateringshastighet</string>
     <string name="prefs_meters_accuracy_value_text">meter med nøyaktighet</string>
+    <string name="prefs_open_source_notices_text">Opplysninger om åpen kildekode</string>
     <string name="prefs_optical_zoom_text">Optisk zoom (Zoom) /Brennvidde</string>
     <string name="prefs_orientation_landscape">Landskap</string>
     <string name="prefs_orientation_landscape_reversed">Album omvendt</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">G-sensor følsomhet</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Vibrasjon når sjokk oppdages</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Start opptaket når bevegelse oppdages</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">For Bluetooth-hendelser er det bare mulig hvis alternativet \"ta opp kun ved lading\" er deaktivert.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Ikke start AutoStart-applikasjonstjenesten for å spare batteri mens du venter på at hendelser skal starte opptaket automatisk. For Android 8+ er dette mulig hvis bare Bluetooth-hendelser er aktivert og resten er deaktivert.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Du kan slå av dette alternativet for å få appen til å utføre automatisk opptak bare når appens bakgrunnstjeneste (AutoStart) kjører.\n- Automatisk opptak for hendelser som lading, Bluetooth eller AUX kan utføres uten problemer opp til Android 7.1.\n- Fra Android 8+ kan automatisk opptak uten bakgrunnsapplikasjonstjeneste (AutoStart) kun utføres for Bluetooth-hendelser, og i andre tilfeller (ved lading eller AUX) må du først starte bakgrunnsapplikasjonstjenesten (AutoStart) - ved å starte selve søknaden én gang.\n- Fra og med Android 11+, uten bakgrunnsapptjenesten (AutoStart), er tilgang til kameraet uten brukerinteraksjon for å starte opptaket bare mulig hvis tillatelsen \"på toppen av alle apper\" er gitt.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Automatisk opptak selv om bakgrunnstjenesten ikke kjører (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Start opptak når hastigheten er lik /høyere (basert på GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Du kan slå av dette alternativet for å få appen til å utføre automatisk opptak bare når appens bakgrunnstjeneste (AutoStart) kjører.\n- Automatisk opptak for hendelser som lading, Bluetooth eller AUX kan utføres uten problemer opp til Android 7.1.\n- Fra Android 8 kan automatisk opptak uten en bakgrunnsapplikasjonstjeneste (AutoStart) bare utføres for Bluetooth-hendelser, og i andre tilfeller (ved lading eller AUX) må du først starte bakgrunnsapplikasjonstjenesten (AutoStart) - ved å starte selve søknaden én gang.\n– Fra og med Android 11 uten bakgrunnsapptjenesten (AutoStart), er tilgang til kameraet uten brukerinteraksjon kun mulig hvis telefonen er låst opp (skjermen på) og «på toppen av alle apper»-tillatelse er gitt.\n– For Android 11 og nyere må du altså starte applikasjonen manuelt én gang slik at bakgrunnstjenesten til applikasjonen (AutoStart) starter for automatisk opptak under eventuelle hendelser og når telefonskjermen er slått av.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Automatisk opptak selv om bakgrunnstjenesten ikke kjører (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Stopp opptaket etter</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Stopp opptaket når det ikke er noen bevegelse</string>
     <string name="prefs_rules_auto_stop_speed_text">Stopp opptak når hastigheten er lavere (basert på GPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Blokkerer videoer fra å bli overskrevet</string>
     <string name="prefs_show_overlay_btn_sum_text">Viser et vindu med kontrollknapper på toppen av alle applikasjoner</string>
     <string name="prefs_show_overlay_btn_text">Vis flytende vindu</string>
-    <string name="prefs_show_overlay_on_recording_text">Vis flytende vindu når opptaket starter</string>
+    <string name="prefs_show_overlay_on_recording_text">Vis flytende vindu bare når opptaket er aktivt (og lukk automatisk når det stopper)</string>
     <string name="prefs_show_status_bar_text">Vis systemstatuslinjen</string>
     <string name="prefs_show_take_photo_btn_text">For å lage et bilde</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Støttes ikke av gjeldende kamera. Produsenter begrenser ofte bruken - den er kun tilgjengelig i standard kameraapplikasjon</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Støtte (tilbakemelding)</string>
     <string name="prefs_system_alert_window_sum_text">Tillat at denne appen vises over alle andre apper. Dette er nødvendig for å automatisk starte/stoppe videoopptak eller for å vise et flytende vindu</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Tillat at denne appen vises over alle andre apper. Dette er nødvendig for å vise et flytende vindu</string>
-    <string name="prefs_system_alert_window_text">Oppløsning på toppen av alle vinduer</string>
+    <string name="prefs_system_alert_window_text">Vis på toppen av andre applikasjoner</string>
     <string name="prefs_theme_mode_dark">Mørkt tema</string>
     <string name="prefs_theme_mode_dynamic">Dynamisk</string>
     <string name="prefs_theme_mode_light">Lett tema</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Opptak…</string>
     <string name="recording_voice_started_text">Opptaket har begynt</string>
     <string name="recording_voice_stopped_text">Opptaket stoppet</string>
+    <string name="records_file_edit_trim_crop">Rediger (Trim) i \"Google Foto\"</string>
     <string name="records_file_sorting_date">Dato</string>
     <string name="records_file_sorting_duration">Varighet</string>
     <string name="records_file_sorting_name">Navn</string>
     <string name="records_file_sorting_size">Filstørrelse</string>
     <string name="records_file_upload_drive">Lagre til «Google Disk»</string>
+    <string name="records_file_upload_youtube">Last opp til YouTube</string>
     <string name="reset">utslipp</string>
     <string name="storage_external_single">MicroSD-kort</string>
     <string name="storage_phone">Telefonminne</string>

@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Informacija /Daugiau…</string>
     <string name="prefs_kill_services_sum_text">Įrenginyje yra nustatymai, leidžiantys programoms automatiškai paleisti ir veikti fone. Spustelėkite čia ir pridėkite programą prie išimčių (leisti automatiškai paleisti ir pan.), kad ji veiktų fone ir išjungus ekraną, jei tai draudžiama</string>
     <string name="prefs_kill_services_text">Leidžiamas foninis darbas</string>
+    <string name="prefs_language">Kalba</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Atidarykite programą, kai įrašymas prasideda automatiškai</string>
     <string name="prefs_launch_app_auto_text">Paleiskite programą, kai prasidės vaizdo įrašymas</string>
     <string name="prefs_launch_app_limitation_text">Naudodami „Android 11“ ir naujesnę versiją, gali nepavykti pasirinkti nė vienos iš įdiegtų programų, nes pati sistema riboja programos matomumą (privatumo politika)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Vietos gavimo metodas (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS atnaujinimo dažnis</string>
     <string name="prefs_meters_accuracy_value_text">metrų tikslumu</string>
+    <string name="prefs_open_source_notices_text">Atvirojo kodo pranešimai</string>
     <string name="prefs_optical_zoom_text">Optinis priartinimas (Mastelio keitimas) /židinio nuotolis</string>
     <string name="prefs_orientation_landscape">Peizažas</string>
     <string name="prefs_orientation_landscape_reversed">Albumo reversas</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">G jutiklio jautrumas</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Vibracija aptikus šoką</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Pradėkite įrašymą, kai aptinkamas judesys</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">„Bluetooth“ įvykiams tai įmanoma tik tada, kai išjungta parinktis „Įrašyti tik įkraunant“.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Nepaleiskite programos „AutoStart“ paslaugos, kad taupytumėte akumuliatorių, kol laukiate, kol įvykiai prasidės automatiškai. „Android 8“ ir naujesnėse versijose tai įmanoma, jei įjungti tik „Bluetooth“ įvykiai, o kiti išjungti.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Galite išjungti šią parinktį, kad programa atliktų automatinį įrašymą tik tada, kai veikia programos foninė paslauga (AutoStart).\n- Automatinis įvykių, tokių kaip įkrovimas, „Bluetooth“ ar AUX, įrašymas gali būti atliekamas be problemų iki „Android 7.1“.\n- Pradedant nuo Android 8+, automatinis įrašymas be foninės programos paslaugos (AutoStart) gali būti atliekamas tik Bluetooth įvykiams, o kitais atvejais (kraunant arba AUX) pirmiausia reikia paleisti foninės programos paslaugą (AutoStart) – paleidžiant pati programa vieną kartą.\n– Pradedant nuo 11 ar naujesnės versijos „Android“, be foninės programos paslaugos („AutoStart“), prieiga prie fotoaparato be vartotojo įsikišimo, kad būtų galima pradėti įrašymą, galima tik suteikus leidimą „visų programų viršuje“.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Automatinis įrašymas, net jei foninė paslauga neveikia (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Pradėkite įrašymą, kai greitis yra lygus /didesnis (pagal GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Galite išjungti šią parinktį, kad programa atliktų automatinį įrašymą tik tada, kai veikia programos foninė paslauga (AutoStart).\n- Automatinis įvykių, tokių kaip įkrovimas, „Bluetooth“ ar AUX, įrašymas gali būti atliekamas be problemų iki „Android 7.1“.\n- Pradedant nuo „Android 8“, automatinis įrašymas be foninės programos paslaugos („AutoStart“) gali būti atliekamas tik „Bluetooth“ įvykiams, o kitais atvejais (kraunant arba AUX) pirmiausia reikia paleisti foninės programos paslaugą („AutoStart“) – paleidžiant pati programa vieną kartą.\n- Pradedant nuo „Android 11“ be foninės programėlės paslaugos („AutoStart“), prieiga prie fotoaparato be vartotojo įsikišimo galima tik tada, kai telefonas yra atrakintas (ekranas įjungtas) ir suteikiamas leidimas „visų programų viršuje“.\n- Taigi, Android 11 ir naujesnėms versijoms, vieną kartą turite paleisti programą rankiniu būdu, kad programos foninė paslauga (AutoStart) pradėtų automatiškai įrašyti bet kokių įvykių metu ir išjungus telefono ekraną.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Automatinis įrašymas, net jei foninė paslauga neveikia (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Po to sustabdykite įrašymą</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Sustabdykite įrašymą, kai nejudate</string>
     <string name="prefs_rules_auto_stop_speed_text">Sustabdyti įrašymą, kai greitis mažesnis (pagal GPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Vaizdo įrašų blokavimas, kad jie nebūtų perrašyti</string>
     <string name="prefs_show_overlay_btn_sum_text">Visų programų viršuje rodomas langas su valdymo mygtukais</string>
     <string name="prefs_show_overlay_btn_text">Rodyti slankųjį langą</string>
-    <string name="prefs_show_overlay_on_recording_text">Pradėjus įrašymą rodyti slankųjį langą</string>
+    <string name="prefs_show_overlay_on_recording_text">Rodyti slankųjį langą tik tada, kai įrašymas aktyvus (ir automatiškai uždaryti, kai jis sustoja)</string>
     <string name="prefs_show_status_bar_text">Rodyti sistemos būsenos juostą</string>
     <string name="prefs_show_take_photo_btn_text">Norėdami padaryti nuotrauką</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Dabartinė kamera nepalaikoma. Gamintojai dažnai riboja jo naudojimą – jis pasiekiamas tik standartinėje fotoaparato programoje</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Pagalba (atsiliepimai)</string>
     <string name="prefs_system_alert_window_sum_text">Leiskite šiai programai pasirodyti virš visų kitų programų. Tai būtina norint automatiškai pradėti /sustabdyti vaizdo įrašymą arba rodyti slankųjį langą</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Leiskite šiai programai pasirodyti virš visų kitų programų. Tai būtina norint parodyti slankųjį langą</string>
-    <string name="prefs_system_alert_window_text">Raiška visų langų viršuje</string>
+    <string name="prefs_system_alert_window_text">Rodyti virš kitų programų</string>
     <string name="prefs_theme_mode_dark">Tamsi tema</string>
     <string name="prefs_theme_mode_dynamic">Dinamiškas</string>
     <string name="prefs_theme_mode_light">Šviesi tema</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Įrašas…</string>
     <string name="recording_voice_started_text">Įrašymas prasidėjo</string>
     <string name="recording_voice_stopped_text">Įrašymas sustabdytas</string>
+    <string name="records_file_edit_trim_crop">Redaguoti (apkarpyti) „Google“ nuotraukose</string>
     <string name="records_file_sorting_date">Data</string>
     <string name="records_file_sorting_duration">Trukmė</string>
     <string name="records_file_sorting_name">vardas</string>
     <string name="records_file_sorting_size">Failo dydis</string>
     <string name="records_file_upload_drive">Išsaugoti „Google“ diske</string>
+    <string name="records_file_upload_youtube">Įkelti į YouTube</string>
     <string name="reset">iškrovimas</string>
     <string name="storage_external_single">MicroSD kortelė</string>
     <string name="storage_phone">Telefono atmintis</string>

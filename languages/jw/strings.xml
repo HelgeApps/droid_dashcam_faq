@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Informasi /Liyane…</string>
     <string name="prefs_kill_services_sum_text">Ana setelan ing piranti kanggo ngidini app muter otomatis lan mbukak ing latar mburi. Klik ing kene lan tambahake aplikasi kasebut menyang pangecualian (idini wiwitan otomatis lan liya-liyane) supaya bisa mlaku ing latar mburi lan nalika layar mati, yen dilarang.</string>
     <string name="prefs_kill_services_text">Ngidini karya latar mburi</string>
+    <string name="prefs_language">Basa</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Bukak aplikasi nalika ngrekam diwiwiti kanthi otomatis</string>
     <string name="prefs_launch_app_auto_text">Bukak app nalika ngrekam video diwiwiti</string>
     <string name="prefs_launch_app_limitation_text">Kanthi Android 11 lan luwih dhuwur, sampeyan bisa uga ora bisa milih aplikasi sing wis diinstal amarga sistem kasebut dhewe mbatesi visibilitas aplikasi (kabijakan privasi)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Metode akuisisi lokasi (GPS)</string>
     <string name="prefs_location_update_frequency_text">tingkat nganyari GPS</string>
     <string name="prefs_meters_accuracy_value_text">meter akurasi</string>
+    <string name="prefs_open_source_notices_text">Kabar mbukak sumber</string>
     <string name="prefs_optical_zoom_text">Zoom Optik (Zoom) /Panjang Fokus</string>
     <string name="prefs_orientation_landscape">Lanskap</string>
     <string name="prefs_orientation_landscape_reversed">Album mbalikke</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">Sensitivitas G-sensor</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Getaran nalika kejut dideteksi</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Miwiti ngrekam nalika gerakan dideteksi</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Kanggo acara Bluetooth mung bisa yen opsi \"rekaman mung nalika ngisi daya\" dipateni.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Aja miwiti layanan aplikasi AutoStart kanggo ngirit baterei nalika ngenteni acara miwiti rekaman otomatis. Kanggo Android 8+ iki bisa ditindakake yen mung acara Bluetooth sing diaktifake lan liyane dipateni.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Sampeyan bisa mateni pilihan iki supaya app nindakake rekaman otomatis mung nalika layanan latar mburi app (Mulai Otomatis) mlaku.\n- Rekaman otomatis kanggo acara kayata ngisi daya, Bluetooth utawa AUX bisa ditindakake tanpa masalah nganti Android 7.1.\n- Miwiti saka Android 8+, ngrekam otomatis tanpa layanan aplikasi latar mburi (AutoStart) mung bisa ditindakake kanggo acara Bluetooth, lan ing kasus liyane (nalika ngisi daya utawa AUX) sampeyan kudu miwiti layanan aplikasi latar mburi (AutoStart) - kanthi miwiti aplikasi dhewe sapisan.\n- Miwiti karo Android 11+, tanpa layanan aplikasi latar mburi (AutoStart), ngakses kamera tanpa interaksi pangguna kanggo miwiti ngrekam mung bisa ditindakake yen ijin \"ing ndhuwur kabeh aplikasi\" diwenehake.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Ngrekam otomatis sanajan layanan latar mburi ora mlaku (Mulai Otomatis)</string>
     <string name="prefs_rules_auto_start_speed_text">Miwiti ngrekam nalika kacepetan padha /luwih dhuwur (adhedhasar GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Sampeyan bisa mateni pilihan iki supaya app nindakake rekaman otomatis mung nalika layanan latar mburi app (Mulai Otomatis) mlaku.\n- Rekaman otomatis kanggo acara kayata ngisi daya, Bluetooth utawa AUX bisa ditindakake tanpa masalah nganti Android 7.1.\n- Wiwit saka Android 8, rekaman otomatis tanpa layanan aplikasi latar mburi (AutoStart) mung bisa ditindakake kanggo acara Bluetooth, lan ing kasus liyane (nalika ngisi daya utawa AUX) sampeyan kudu miwiti layanan aplikasi latar mburi (AutoStart) - kanthi miwiti aplikasi dhewe sapisan.\n- Miwiti Android 11 tanpa layanan aplikasi latar mburi (AutoStart), akses menyang kamera tanpa interaksi pangguna mung bisa ditindakake yen telpon ora dikunci (layar urip) lan ijin \"ing ndhuwur kabeh aplikasi\" diwenehake.\n- Dadi, kanggo Android 11 lan luwih dhuwur, sampeyan kudu mbukak aplikasi kanthi manual sapisan supaya layanan latar mburi aplikasi (AutoStart) diwiwiti kanthi otomatis ngrekam sajrone acara apa wae lan nalika layar telpon dipateni.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Ngrekam otomatis sanajan layanan latar mburi ora mlaku (Mulai Otomatis)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Mungkasi ngrekam sawise</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Mungkasi ngrekam nalika ora ana gerakan</string>
     <string name="prefs_rules_auto_stop_speed_text">Mungkasi ngrekam nalika kacepetan kurang (adhedhasar GPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Mblokir video supaya ora ditimpa</string>
     <string name="prefs_show_overlay_btn_sum_text">Nampilake jendhela kanthi tombol kontrol ing ndhuwur kabeh aplikasi</string>
     <string name="prefs_show_overlay_btn_text">Tampilake jendhela ngambang</string>
-    <string name="prefs_show_overlay_on_recording_text">Tampilake jendhela ngambang nalika ngrekam diwiwiti</string>
+    <string name="prefs_show_overlay_on_recording_text">Tampilake jendhela ngambang mung nalika ngrekam aktif (lan nutup kanthi otomatis nalika mandheg)</string>
     <string name="prefs_show_status_bar_text">Tampilake garis status sistem</string>
     <string name="prefs_show_take_photo_btn_text">Kanggo nggawe foto</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Ora didhukung dening kamera saiki. Produsen asring mbatesi panggunaan - mung kasedhiya ing aplikasi Kamera standar</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Dhukungan (umpan balik)</string>
     <string name="prefs_system_alert_window_sum_text">Idini aplikasi iki katon ing ndhuwur kabeh aplikasi liyane. Iki perlu kanggo miwiti /mungkasi ngrekam video kanthi otomatis utawa kanggo nampilake jendhela ngambang</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Idini aplikasi iki katon ing ndhuwur kabeh aplikasi liyane. Iki perlu kanggo nampilake jendhela ngambang</string>
-    <string name="prefs_system_alert_window_text">Resolusi ing ndhuwur kabeh windows</string>
+    <string name="prefs_system_alert_window_text">Tampilan ing ndhuwur aplikasi liyane</string>
     <string name="prefs_theme_mode_dark">Tema peteng</string>
     <string name="prefs_theme_mode_dynamic">Dinamis</string>
     <string name="prefs_theme_mode_light">Tema cahya</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Ngrekam…</string>
     <string name="recording_voice_started_text">Rekaman wis diwiwiti</string>
     <string name="recording_voice_stopped_text">Rekaman mandheg</string>
+    <string name="records_file_edit_trim_crop">Sunting (Trim) ing \"Foto Google\"</string>
     <string name="records_file_sorting_date">Tanggal</string>
     <string name="records_file_sorting_duration">Duration</string>
     <string name="records_file_sorting_name">jeneng</string>
     <string name="records_file_sorting_size">Ukuran berkas</string>
     <string name="records_file_upload_drive">Simpen menyang \"Google Drive\"</string>
+    <string name="records_file_upload_youtube">Upload menyang YouTube</string>
     <string name="reset">discharge</string>
     <string name="storage_external_single">kertu MicroSD</string>
     <string name="storage_phone">Memori telpon</string>

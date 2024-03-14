@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Information /Mer…</string>
     <string name="prefs_kill_services_sum_text">Det finns inställningar på din enhet som tillåter att appar spelas upp automatiskt och körs i bakgrunden. Klicka här och lägg till applikationen till undantagen (tillåt autostart och så vidare) för att låta den köras i bakgrunden och när skärmen är avstängd, om det är förbjudet</string>
     <string name="prefs_kill_services_text">Tillåter bakgrundsarbete</string>
+    <string name="prefs_language">Språk</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Öppna programmet när inspelningen startar automatiskt</string>
     <string name="prefs_launch_app_auto_text">Starta appen när videoinspelningen startar</string>
     <string name="prefs_launch_app_limitation_text">Med Android 11 och senare kanske du inte kan välja någon av de installerade apparna eftersom systemet i sig begränsar appens synlighet (sekretesspolicy)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Platsförvärvningsmetod (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS-uppdateringshastighet</string>
     <string name="prefs_meters_accuracy_value_text">meters noggrannhet</string>
+    <string name="prefs_open_source_notices_text">Öppen källkod</string>
     <string name="prefs_optical_zoom_text">Optisk zoom (Zoom) /Brännvidd</string>
     <string name="prefs_orientation_landscape">Landskap</string>
     <string name="prefs_orientation_landscape_reversed">Album omvänt</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">G-sensor känslighet</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Vibration när stöt detekteras</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Börja spela in när rörelse upptäcks</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">För Bluetooth-händelser är det endast möjligt om alternativet \"spela in endast vid laddning\" är inaktiverat.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Starta inte applikationstjänsten AutoStart för att spara batteri medan du väntar på att händelser ska starta inspelningen automatiskt. För Android 8+ är detta möjligt om endast Bluetooth-händelser är aktiverade och resten är inaktiverade.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Du kan stänga av det här alternativet för att låta appen utföra automatisk inspelning endast när appens bakgrundstjänst (AutoStart) körs.\n- Automatisk inspelning för händelser som laddning, Bluetooth eller AUX kan utföras utan problem upp till Android 7.1.\n- Från och med Android 8+ kan automatisk inspelning utan bakgrundsapplikationstjänst (AutoStart) endast utföras för Bluetooth-händelser, och i andra fall (vid laddning eller AUX) måste du först starta bakgrundsapplikationstjänsten (AutoStart) - genom att starta själva applikationen en gång.\n- Från och med Android 11+, utan bakgrundsapptjänsten (AutoStart), är det bara möjligt att komma åt kameran utan användarinteraktion för att starta inspelningen om tillståndet \"på toppen av alla appar\" ges.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Automatisk inspelning även om bakgrundstjänsten inte körs (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Börja spela in när hastigheten är lika /högre (baserat på GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Du kan stänga av det här alternativet för att låta appen utföra automatisk inspelning endast när appens bakgrundstjänst (AutoStart) körs.\n- Automatisk inspelning för händelser som laddning, Bluetooth eller AUX kan utföras utan problem upp till Android 7.1.\n- Från och med Android 8 kan automatisk inspelning utan en bakgrundsapplikationstjänst (AutoStart) endast utföras för Bluetooth-händelser, och i andra fall (vid laddning eller AUX) måste du först starta bakgrundsapplikationstjänsten (AutoStart) - genom att starta ansökan själv en gång.\n- Från och med Android 11 utan bakgrundsapptjänsten (AutoStart), är åtkomst till kameran utan användarinteraktion endast möjlig om telefonen är upplåst (skärmen på) och \"på toppen av alla appar\"-tillstånd beviljas.\n– För Android 11 och högre måste du alltså manuellt starta applikationen en gång så att applikationens bakgrundstjänst (AutoStart) startar för automatisk inspelning under eventuella händelser och när telefonskärmen är avstängd.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Automatisk inspelning även om bakgrundstjänsten inte körs (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Sluta spela in efter</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Sluta spela in när det inte finns någon rörelse</string>
     <string name="prefs_rules_auto_stop_speed_text">Sluta spela in när hastigheten är lägre (baserat på GPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Blockerar videor från att skrivas över</string>
     <string name="prefs_show_overlay_btn_sum_text">Visar ett fönster med kontrollknappar ovanpå alla applikationer</string>
     <string name="prefs_show_overlay_btn_text">Visa flytande fönster</string>
-    <string name="prefs_show_overlay_on_recording_text">Visa flytande fönster när inspelningen startar</string>
+    <string name="prefs_show_overlay_on_recording_text">Visa flytande fönster endast när inspelningen är aktiv (och stäng automatiskt när den slutar)</string>
     <string name="prefs_show_status_bar_text">Visa systemets statusfält</string>
     <string name="prefs_show_take_photo_btn_text">Att göra ett foto</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Stöds inte av den aktuella kameran. Tillverkare begränsar ofta användningen - den är endast tillgänglig i standardapplikationen Kamera</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Support (feedback)</string>
     <string name="prefs_system_alert_window_sum_text">Tillåt den här appen att visas ovanpå alla andra appar. Detta är nödvändigt för att automatiskt starta/stoppa videoinspelning eller för att visa ett flytande fönster</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Tillåt den här appen att visas ovanpå alla andra appar. Detta är nödvändigt för att visa ett flytande fönster</string>
-    <string name="prefs_system_alert_window_text">Upplösning ovanpå alla fönster</string>
+    <string name="prefs_system_alert_window_text">Visa ovanpå andra applikationer</string>
     <string name="prefs_theme_mode_dark">Mörkt tema</string>
     <string name="prefs_theme_mode_dynamic">Dynamisk</string>
     <string name="prefs_theme_mode_light">Lätt tema</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Inspelning…</string>
     <string name="recording_voice_started_text">Inspelningen har börjat</string>
     <string name="recording_voice_stopped_text">Inspelningen avbröts</string>
+    <string name="records_file_edit_trim_crop">Redigera (Trim) i \"Google Photos\"</string>
     <string name="records_file_sorting_date">Datum</string>
     <string name="records_file_sorting_duration">Varaktighet</string>
     <string name="records_file_sorting_name">namn</string>
     <string name="records_file_sorting_size">Filstorlek</string>
     <string name="records_file_upload_drive">Spara till \"Google Drive\"</string>
+    <string name="records_file_upload_youtube">Ladda upp till YouTube</string>
     <string name="reset">ansvarsfrihet</string>
     <string name="storage_external_single">MicroSD-kort</string>
     <string name="storage_phone">Telefon minne</string>

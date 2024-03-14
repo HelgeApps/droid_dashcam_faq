@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Bilgi / Daha Fazla…</string>
     <string name="prefs_kill_services_sum_text">Cihazınızda, uygulamaların otomatik olarak başlatılmasına ve arka planda çalışmasına izin veren ayarlar vardır. Yasaksa arka planda ve ekran dışında çalışmaya izin vermek için buraya tıklayın ve uygulamayı istisnalara ekleyin (otomatik başlatmaya izin ver vb.)</string>
     <string name="prefs_kill_services_text">Arka planda ve ekran kapalı çalışmaya izin ver</string>
+    <string name="prefs_language">Dil</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Kayıt otomatik olarak başladığında uygulamayı açın</string>
     <string name="prefs_launch_app_auto_text">Video kaydı başladığında uygulamayı başlatın</string>
     <string name="prefs_launch_app_limitation_text">Android 11 ve sonraki sürümlerde, sistemin kendisi uygulama görünürlüğünü kısıtladığından (gizlilik politikası) yüklü uygulamalardan hiçbirini seçemeyebilirsiniz.</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Konum (GPS) sağlayıcı yöntemi</string>
     <string name="prefs_location_update_frequency_text">GPS güncelleme sıklığı</string>
     <string name="prefs_meters_accuracy_value_text">Metre doğruluğu</string>
+    <string name="prefs_open_source_notices_text">Açık kaynak bildirimleri</string>
     <string name="prefs_optical_zoom_text">Optik Yakınlaştırma (Yakınlaştırma) / Odak Uzaklığı</string>
     <string name="prefs_orientation_landscape">Manzara</string>
     <string name="prefs_orientation_landscape_reversed">Ters manzara</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">G-Sensörü Hassasiyeti</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Darbe Algılandığında Titreşim</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Hareket Algılandığında Kaydetmeye Başla</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Bluetooth etkinlikleri için bu yalnızca \"Yalnızca şarj olurken kaydet\" seçeneği devre dışı bırakıldığında mümkündür.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Olayların kaydın otomatik olarak başlatılmasını beklerken pilden tasarruf etmek için AutoStart uygulama hizmetini başlatmayın. Android 8+ için bu, yalnızca Bluetooth etkinliklerinin etkinleştirilmesi ve geri kalanların devre dışı bırakılması durumunda mümkündür.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Uygulamanın yalnızca uygulamanın arka plan hizmeti (Otomatik Başlatma) çalışırken otomatik kayıt gerçekleştirmesini sağlamak için bu seçeneği kapatabilirsiniz.\n- Android 7.1\'e kadar şarj, Bluetooth veya AUX gibi olayların otomatik kaydı sorunsuz gerçekleştirilebilmektedir.\n- Android 8+\'den başlayarak, arka plan uygulama hizmeti (Otomatik Başlatma) olmadan otomatik kayıt yalnızca Bluetooth etkinlikleri için gerçekleştirilebilir ve diğer durumlarda (şarj ederken veya AUX sırasında) önce arka plan uygulama hizmetini (Otomatik Başlatma) başlatmanız gerekir - başlatarak uygulamanın kendisi bir kez.\n- Android 11+ ile başlayarak, arka plan uygulama hizmeti (Otomatik Başlatma) olmadan, kaydı başlatmak için kullanıcı etkileşimi olmadan kameraya erişim yalnızca \"tüm uygulamaların üstünde\" izninin verilmesi durumunda mümkündür.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Arka plan hizmeti çalışmıyor olsa bile otomatik kayıt (Otomatik Başlatma)</string>
     <string name="prefs_rules_auto_start_speed_text">Hız Eşit / Daha Yüksek Olduğunda Kaydetmeye Başla (GPS\'ye göre)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Uygulamanın yalnızca uygulamanın arka plan hizmeti (Otomatik Başlatma) çalışırken otomatik kayıt gerçekleştirmesini sağlamak için bu seçeneği kapatabilirsiniz.\n- Android 7.1\'e kadar şarj, Bluetooth veya AUX gibi olayların otomatik kaydı sorunsuz gerçekleştirilebilmektedir.\n- Android 8\'den başlayarak, arka plan uygulama hizmeti (Otomatik Başlatma) olmadan otomatik kayıt yalnızca Bluetooth etkinlikleri için gerçekleştirilebilir ve diğer durumlarda (şarj ederken veya AUX sırasında) önce arka plan uygulama hizmetini (Otomatik Başlatma) başlatmanız gerekir - uygulamanın kendisi bir kez.\n- Arka plan uygulama hizmeti (AutoStart) olmayan Android 11\'den başlayarak, kullanıcı etkileşimi olmadan kameraya erişim yalnızca telefonun kilidi açıksa (ekran açıksa) ve \"tüm uygulamaların üstünde\" izni verilmişse mümkündür.\n- Bu nedenle, Android 11 ve üzeri sürümlerde, herhangi bir etkinlik sırasında ve telefon ekranı kapatıldığında uygulamanın arka plan hizmetinin (Otomatik Başlatma) otomatik kayıt için başlaması için uygulamayı manuel olarak bir kez başlatmanız gerekir.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Arka plan hizmeti çalışmıyor olsa bile otomatik kayıt (Otomatik Başlatma)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Şundan Sonra Kaydı Durdur</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Hareket Olmadığında Kaydı Durdur</string>
     <string name="prefs_rules_auto_stop_speed_text">Hız Düştüğünde Kaydı Durdur (GPS\'ye göre)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Videoların üzerine yazılmasını engelleme (kaydet)</string>
     <string name="prefs_show_overlay_btn_sum_text">Tüm uygulamaların üzerinde kontrol düğmeleri olan bir pencere görüntüler</string>
     <string name="prefs_show_overlay_btn_text">Yüzen pencereyi göster</string>
-    <string name="prefs_show_overlay_on_recording_text">Kayıt başladığında kayan pencereyi göster</string>
+    <string name="prefs_show_overlay_on_recording_text">Kayan pencereyi yalnızca kayıt etkinken göster (ve durduğunda otomatik olarak kapat)</string>
     <string name="prefs_show_status_bar_text">Sistem durum çubuğunu göster</string>
     <string name="prefs_show_take_photo_btn_text">Fotoğraf çek</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Mevcut kamera tarafından desteklenmiyor. Üreticiler genellikle kullanımını kısıtlar - yalnızca standart Kamera uygulamasında bulunur</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Destek (Geri Bildirim)</string>
     <string name="prefs_system_alert_window_sum_text">Bu uygulamanın diğer tüm uygulamaların üzerinde görünmesine izin verin. Bu, video kaydını otomatik olarak başlatmak/durdurmak veya yüzen pencerede görüntülemek için gereklidir.</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Bu uygulamanın diğer tüm uygulamaların üstünde görünmesine izin verin. Kayan bir pencere görüntülemek için bu gereklidir</string>
-    <string name="prefs_system_alert_window_text">Tüm pencerelerin üstünde görünme</string>
+    <string name="prefs_system_alert_window_text">Diğer uygulamaların üstünde görüntüle</string>
     <string name="prefs_theme_mode_dark">Koyu tema</string>
     <string name="prefs_theme_mode_dynamic">Dinamik</string>
     <string name="prefs_theme_mode_light">Işık teması</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Kayıt…</string>
     <string name="recording_voice_started_text">Kayıt başladı</string>
     <string name="recording_voice_stopped_text">Kayıt durduruldu</string>
+    <string name="records_file_edit_trim_crop">\"Google Fotoğraflar\"da Düzenle (Kırp)</string>
     <string name="records_file_sorting_date">Tarih</string>
     <string name="records_file_sorting_duration">Süre</string>
     <string name="records_file_sorting_name">İsim</string>
     <string name="records_file_sorting_size">Dosya boyutu</string>
     <string name="records_file_upload_drive">\"Google Drive\"a kaydet</string>
+    <string name="records_file_upload_youtube">YouTube\'a yükle</string>
     <string name="reset">Sıfırla</string>
     <string name="storage_external_single">Mikro SD kart</string>
     <string name="storage_phone">Telefon hafızası</string>

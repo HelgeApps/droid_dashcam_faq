@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Información /Máis…</string>
     <string name="prefs_kill_services_sum_text">Hai configuracións no teu dispositivo para permitir que as aplicacións se reproduzan automaticamente e se executen en segundo plano. Fai clic aquí e engade a aplicación ás excepcións (permitir o inicio automático e así por diante) para permitir que se execute en segundo plano e cando a pantalla estea desactivada, se está prohibido.</string>
     <string name="prefs_kill_services_text">Permitindo traballo en segundo plano</string>
+    <string name="prefs_language">Lingua</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Abra a aplicación cando a gravación se inicie automaticamente</string>
     <string name="prefs_launch_app_auto_text">Inicia a aplicación cando comece a gravación de vídeo</string>
     <string name="prefs_launch_app_limitation_text">Con Android 11 ou superior, é posible que non poidas seleccionar ningunha das aplicacións instaladas xa que o propio sistema restrinxe a visibilidade das aplicacións (política de privacidade)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Método de adquisición de localización (GPS)</string>
     <string name="prefs_location_update_frequency_text">Taxa de actualización do GPS</string>
     <string name="prefs_meters_accuracy_value_text">metros de precisión</string>
+    <string name="prefs_open_source_notices_text">Avisos de código aberto</string>
     <string name="prefs_optical_zoom_text">Zoom óptico (Zoom) /Distancia focal</string>
     <string name="prefs_orientation_landscape">Paisaxe</string>
     <string name="prefs_orientation_landscape_reversed">Álbum reverso</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">Sensibilidade do sensor G</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Vibración cando se detecta un choque</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Comeza a gravar cando se detecte movemento</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Para eventos Bluetooth só é posible se a opción \"gravar só ao cargar\" está desactivada.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Non inicies o servizo de aplicación AutoStart para aforrar batería mentres esperas que os eventos inicien automaticamente a gravación. Para Android 8+, isto é posible se só se activan os eventos Bluetooth e se desactivan o resto.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Podes desactivar esta opción para que a aplicación realice a gravación automática só cando o servizo en segundo plano da aplicación (AutoStart) estea en execución.\n- A gravación automática de eventos como carga, Bluetooth ou AUX pódese realizar sen problemas ata Android 7.1.\n- A partir de Android 8+, a gravación automática sen un servizo de aplicacións en segundo plano (AutoStart) só se pode realizar para eventos de Bluetooth, e noutros casos (ao cargar ou AUX) debes iniciar primeiro o servizo de aplicacións en segundo plano (AutoStart) iniciando a propia aplicación unha vez.\n- A partir de Android 11+, sen o servizo de aplicacións en segundo plano (AutoStart), só é posible acceder á cámara sen interacción do usuario para comezar a gravar se se concede o permiso \"enriba de todas as aplicacións\".</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Gravación automática aínda que o servizo en segundo plano non estea en execución (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Comezar a gravar cando a velocidade sexa igual/maior (baseado no GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Podes desactivar esta opción para que a aplicación realice a gravación automática só cando o servizo en segundo plano da aplicación (AutoStart) estea en execución.\n- A gravación automática de eventos como carga, Bluetooth ou AUX pódese realizar sen problemas ata Android 7.1.\n- A partir de Android 8, a gravación automática sen un servizo de aplicación en segundo plano (AutoStart) só se pode realizar para eventos Bluetooth, e noutros casos (ao cargar ou AUX) cómpre iniciar primeiro o servizo de aplicación en segundo plano (AutoStart) iniciando o a propia aplicación unha vez.\n- A partir de Android 11 sen o servizo de aplicacións en segundo plano (AutoStart), o acceso á cámara sen interacción do usuario só é posible se o teléfono está desbloqueado (pantalla activada) e se concede o permiso \"enriba de todas as aplicacións\".\n- Así, para Android 11 e superior, cómpre iniciar manualmente a aplicación unha vez para que o servizo en segundo plano da aplicación (AutoStart) se inicie para a gravación automática durante calquera evento e cando a pantalla do teléfono estea apagada.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Gravación automática aínda que o servizo en segundo plano non estea en execución (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Deixar de gravar despois</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Deixa de gravar cando non haxa movemento</string>
     <string name="prefs_rules_auto_stop_speed_text">Deixar de gravar cando a velocidade sexa menor (baseado no GPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Bloquear vídeos para que non se sobrescriban</string>
     <string name="prefs_show_overlay_btn_sum_text">Mostra unha ventá con botóns de control na parte superior de todas as aplicacións</string>
     <string name="prefs_show_overlay_btn_text">Mostrar ventá flotante</string>
-    <string name="prefs_show_overlay_on_recording_text">Mostrar a xanela flotante cando se inicie a gravación</string>
+    <string name="prefs_show_overlay_on_recording_text">Mostrar a xanela flotante só cando a gravación estea activa (e pecharase automaticamente cando se deteña)</string>
     <string name="prefs_show_status_bar_text">Mostrar a barra de estado do sistema</string>
     <string name="prefs_show_take_photo_btn_text">Para facer unha foto</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Non é compatible coa cámara actual. Os fabricantes adoitan restrinxir o seu uso: só está dispoñible na aplicación estándar Cámara</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Soporte (retroalimentación)</string>
     <string name="prefs_system_alert_window_sum_text">Permite que esta aplicación apareza encima de todas as demais. Isto é necesario para iniciar/deter automaticamente a gravación de vídeo ou para mostrar unha xanela flotante</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Permite que esta aplicación apareza encima de todas as demais. Isto é necesario para mostrar unha xanela flotante</string>
-    <string name="prefs_system_alert_window_text">Resolución enriba de todas as fiestras</string>
+    <string name="prefs_system_alert_window_text">Mostrar encima doutras aplicacións</string>
     <string name="prefs_theme_mode_dark">Tema escuro</string>
     <string name="prefs_theme_mode_dynamic">Dinámico</string>
     <string name="prefs_theme_mode_light">Tema lixeiro</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Gravando…</string>
     <string name="recording_voice_started_text">Comezou a gravación</string>
     <string name="recording_voice_stopped_text">Detívose a gravación</string>
+    <string name="records_file_edit_trim_crop">Editar (recortar) en \"Google Fotos\"</string>
     <string name="records_file_sorting_date">Data</string>
     <string name="records_file_sorting_duration">Duración</string>
     <string name="records_file_sorting_name">Nome</string>
     <string name="records_file_sorting_size">Tamaño do ficheiro</string>
     <string name="records_file_upload_drive">Gardar en \"Google Drive\"</string>
+    <string name="records_file_upload_youtube">Carga a YouTube</string>
     <string name="reset">descarga</string>
     <string name="storage_external_single">Tarxeta microSD</string>
     <string name="storage_phone">Memoria do teléfono</string>

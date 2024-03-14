@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Məlumat /Ətraflı…</string>
     <string name="prefs_kill_services_sum_text">Cihazınızda proqramların avtomatik oxutmasına və arxa fonda işləməsinə icazə verən parametrlər var. Bura klikləyin və qadağan olunarsa, fonda və ekran sönük olduqda işləməsinə icazə vermək üçün tətbiqi istisnalara əlavə edin (avtomatik başlamağa icazə verin və s.)</string>
     <string name="prefs_kill_services_text">Fonda işləməyə icazə verilir</string>
+    <string name="prefs_language">Dil</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Yazma avtomatik başladıqda proqramı açın</string>
     <string name="prefs_launch_app_auto_text">Video çəkilişi başlayanda proqramı işə salın</string>
     <string name="prefs_launch_app_limitation_text">Android 11 və daha yüksək versiyalarda quraşdırılmış proqramlardan heç birini seçə bilməyəcəksiniz, çünki sistem özü tətbiqin görünməsini məhdudlaşdırır (məxfilik siyasəti)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Məkan əldə etmə üsulu (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS yeniləmə dərəcəsi</string>
     <string name="prefs_meters_accuracy_value_text">metr dəqiqlik</string>
+    <string name="prefs_open_source_notices_text">Açıq mənbə bildirişləri</string>
     <string name="prefs_optical_zoom_text">Optik Zoom (Böyütmə) /Fokus Uzunluğu</string>
     <string name="prefs_orientation_landscape">Mənzərə</string>
     <string name="prefs_orientation_landscape_reversed">Albomun əksi</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">G-sensor həssaslığı</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Zərbə aşkar edildikdə vibrasiya</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Hərəkət aşkar edildikdə yazmağa başlayın</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Bluetooth hadisələri üçün bu, yalnız \"yalnız şarj edərkən qeyd et\" seçimi qeyri-aktiv olduqda mümkündür.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Hadisələrin qeydin avtomatik başlamasını gözləyərkən batareyaya qənaət etmək üçün AutoStart proqram xidmətini işə salmayın. Android 8+ üçün bu, yalnız Bluetooth hadisələri aktivləşdirildikdə və qalanları söndürüldükdə mümkündür.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Yalnız proqramın arxa plan xidməti (AutoStart) işlədiyi zaman proqramın avtomatik qeydi həyata keçirməsi üçün bu seçimi söndürə bilərsiniz.\n- Doldurma, Bluetooth və ya AUX kimi hadisələrin avtomatik qeydi Android 7.1-ə qədər problemsiz həyata keçirilə bilər.\n- Android 8+-dən başlayaraq, fon tətbiqi xidməti olmadan avtomatik qeyd (AutoStart) yalnız Bluetooth hadisələri üçün həyata keçirilə bilər və digər hallarda (doldurma və ya AUX zamanı) əvvəlcə fon tətbiqi xidmətini (AutoStart) işə salmalısınız. tətbiqin özü bir dəfə.\n- Android 11+ ilə başlayaraq, fon tətbiqi xidməti (AutoStart) olmadan, istifadəçinin iştirakı olmadan kameraya daxil olmaq və yazmağa başlamaq yalnız \"bütün proqramların üstündə\" icazəsi verildikdə mümkündür.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Fon xidməti işləməsə belə avtomatik qeyd (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Sürət bərabər/daha yüksək olduqda qeyd etməyə başlayın (GPS əsasında)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Yalnız proqramın arxa plan xidməti (AutoStart) işlədiyi zaman proqramın avtomatik qeydi həyata keçirməsi üçün bu seçimi söndürə bilərsiniz.\n- Doldurma, Bluetooth və ya AUX kimi hadisələrin avtomatik qeydi Android 7.1-ə qədər problemsiz həyata keçirilə bilər.\n- Android 8-dən başlayaraq, fon tətbiqi xidməti olmadan avtomatik qeyd (AutoStart) yalnız Bluetooth hadisələri üçün həyata keçirilə bilər və digər hallarda (doldurma və ya AUX zamanı) əvvəlcə fon tətbiqi xidmətini (AutoStart) işə salmalısınız. tətbiqin özü bir dəfə.\n- Fon proqram xidməti (AutoStart) olmadan Android 11-dən başlayaraq, istifadəçi əlaqəsi olmadan kameraya giriş yalnız telefonun kilidi açıldıqda (ekran açıqdır) və \"bütün proqramların üstündə\" icazəsi verildikdə mümkündür.\n- Beləliklə, Android 11 və daha yüksək versiyalar üçün tətbiqi bir dəfə əl ilə işə salmalısınız ki, proqramın fon xidməti (AutoStart) istənilən hadisə zamanı və telefon ekranı söndürüldükdə avtomatik qeyd üçün işə başlasın.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Fon xidməti işləməsə belə avtomatik qeyd (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Sonra yazmağı dayandırın</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Hərəkət olmadıqda qeydi dayandırın</string>
     <string name="prefs_rules_auto_stop_speed_text">Sürət aşağı olduqda qeydi dayandırın (GPS əsasında)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Videoların üzərinə yazılmasının qarşısını almaq</string>
     <string name="prefs_show_overlay_btn_sum_text">Bütün proqramların üstündə idarəetmə düymələri olan pəncərəni göstərir</string>
     <string name="prefs_show_overlay_btn_text">Üzən pəncərəni göstərin</string>
-    <string name="prefs_show_overlay_on_recording_text">Yazmağa başlayanda üzən pəncərəni göstərin</string>
+    <string name="prefs_show_overlay_on_recording_text">Yalnız qeyd aktiv olduqda üzən pəncərəni göstərin (və dayandıqda avtomatik bağlanın)</string>
     <string name="prefs_show_status_bar_text">Sistem status çubuğunu göstərin</string>
     <string name="prefs_show_take_photo_btn_text">Foto çəkmək üçün</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Cari kamera tərəfindən dəstəklənmir. İstehsalçılar tez-tez onun istifadəsini məhdudlaşdırırlar - o, yalnız standart Camera proqramında mövcuddur</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Dəstək (əlaqə)</string>
     <string name="prefs_system_alert_window_sum_text">Bu tətbiqin bütün digər tətbiqlərin üstündə görünməsinə icazə verin. Bu, video çəkilişini avtomatik başlamaq /dayandırmaq və ya üzən pəncərəni göstərmək üçün lazımdır</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Bu tətbiqin bütün digər tətbiqlərin üstündə görünməsinə icazə verin. Bu üzən pəncərəni göstərmək üçün lazımdır</string>
-    <string name="prefs_system_alert_window_text">Bütün pəncərələrin üstündə qətnamə</string>
+    <string name="prefs_system_alert_window_text">Digər proqramların üstündə göstərin</string>
     <string name="prefs_theme_mode_dark">Qaranlıq mövzu</string>
     <string name="prefs_theme_mode_dynamic">Dinamik</string>
     <string name="prefs_theme_mode_light">Yüngül mövzu</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Qeydə alınır…</string>
     <string name="recording_voice_started_text">Qeydiyyata başlanılıb</string>
     <string name="recording_voice_stopped_text">Qeydiyyat dayandırıldı</string>
+    <string name="records_file_edit_trim_crop">\"Google Foto\"da redaktə edin (Kırpın)</string>
     <string name="records_file_sorting_date">Tarix</string>
     <string name="records_file_sorting_duration">Müddət</string>
     <string name="records_file_sorting_name">ad</string>
     <string name="records_file_sorting_size">Fayl ölçüsü</string>
     <string name="records_file_upload_drive">\"Google Disk\"də yadda saxlayın</string>
+    <string name="records_file_upload_youtube">YouTube-a yükləyin</string>
     <string name="reset">boşalma</string>
     <string name="storage_external_single">MicroSD kart</string>
     <string name="storage_phone">Telefon yaddaşı</string>

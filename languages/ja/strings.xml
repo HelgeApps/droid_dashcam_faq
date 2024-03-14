@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">情報/詳細..。</string>
     <string name="prefs_kill_services_sum_text">アプリをバックグラウンドで自動再生して実行できるようにするための設定がデバイスにあります。ここをクリックして、アプリケーションを例外に追加し（自動起動などを許可）、バックグラウンドで実行できるようにします。禁止されている場合は、画面がオフのときに実行できるようにします。</string>
     <string name="prefs_kill_services_text">バックグラウンド作業を許可する</string>
+    <string name="prefs_language">言語</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">録音が自動的に開始されたときにアプリケーションを開く</string>
     <string name="prefs_launch_app_auto_text">ビデオ録画の開始時にアプリを起動する</string>
     <string name="prefs_launch_app_limitation_text">Android 11 以降では、システム自体がアプリの表示を制限しているため、インストールされているアプリを選択できない場合があります (プライバシー ポリシー)。</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">位置取得方式（GPS）</string>
     <string name="prefs_location_update_frequency_text">GPS更新頻度</string>
     <string name="prefs_meters_accuracy_value_text">メートルの精度</string>
+    <string name="prefs_open_source_notices_text">オープンソースの通知</string>
     <string name="prefs_optical_zoom_text">光学ズーム（ズーム）/焦点距離</string>
     <string name="prefs_orientation_landscape">横向き</string>
     <string name="prefs_orientation_landscape_reversed">横向き(上下逆)</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">Gセンサーの感度</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">衝撃を検出したときの振動</string>
     <string name="prefs_rules_auto_start_camera_motion_text">動きが検出されたら録画を開始します</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Bluetooth イベントの場合、「充電時のみ録画」オプションが無効になっている場合にのみ可能です。</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">イベントの自動記録開始を待機している間は、バッテリーを節約するために AutoStart アプリケーション サービスを起動しないでください。 Android 8 以降では、Bluetooth イベントのみが有効で、残りは無効になっている場合にこれが可能です。</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* このオプションをオフにすると、アプリのバックグラウンド サービス (AutoStart) が実行されている場合にのみアプリが自動録画を実行するようにできます。\n・充電、Bluetooth、AUXなどのイベントの自動録画はAndroid 7.1まで問題なく行えます。\n- Android 8 以降では、バックグラウンド アプリケーション サービス (AutoStart) を使用しない自動録画は Bluetooth イベントに対してのみ実行できます。その他の場合 (充電時または AUX 時)、最初にバックグラウンド アプリケーション サービス (AutoStart) を起動する必要があります。アプリケーション自体を一度だけ実行します。\n- Android 11 以降では、バックグラウンド アプリ サービス (AutoStart) を使用しない場合、ユーザーの操作なしでカメラにアクセスして録画を開始することは、「すべてのアプリの上部」権限が付与されている場合にのみ可能です。</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">バックグラウンドサービスが実行されていない場合でも自動録画 (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">速度が等しい/速いときに記録を開始します（GPSに基づく）</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* このオプションをオフにすると、アプリのバックグラウンド サービス (AutoStart) が実行されている場合にのみアプリが自動録画を実行するようにできます。\n・充電、Bluetooth、AUXなどのイベントの自動録画はAndroid 7.1まで問題なく行えます。\n- Android 8 以降、バックグラウンド アプリケーション サービス (AutoStart) を使用しない自動録画は Bluetooth イベントに対してのみ実行できます。その他の場合 (充電時または AUX 時)、最初にバックグラウンド アプリケーション サービス (AutoStart) を開始する必要があります。アプリケーション自体を一度だけ実行します。\n- バックグラウンド アプリ サービス (AutoStart) のない Android 11 以降では、ユーザーの操作なしでカメラにアクセスできるのは、携帯電話のロックが解除され (画面がオン)、「すべてのアプリの上に」権限が付与されている場合のみです。\n- したがって、Android 11 以降の場合、イベント中や電話画面がオフのときにアプリケーションのバックグラウンド サービス (AutoStart) が自動録画を開始するように、アプリケーションを手動で 1 回起動する必要があります。</string>
-    <string name="prefs_rules_auto_start_without_service_text">バックグラウンドサービスが実行されていない場合でも自動録画 (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">後に録画を停止します</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">動きがなくなったら録画を停止します</string>
     <string name="prefs_rules_auto_stop_speed_text">速度が遅くなったときに記録を停止します（GPSに基づく）</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">動画の上書きをブロックする</string>
     <string name="prefs_show_overlay_btn_sum_text">すべてのアプリケーションの上にコントロールボタンのあるウィンドウを表示します</string>
     <string name="prefs_show_overlay_btn_text">フローティングウィンドウを表示</string>
-    <string name="prefs_show_overlay_on_recording_text">録画開始時にフローティング ウィンドウを表示する</string>
+    <string name="prefs_show_overlay_on_recording_text">記録がアクティブな場合にのみフローティング ウィンドウを表示します (記録が停止すると自動的に閉じます)。</string>
     <string name="prefs_show_status_bar_text">システムステータスバーを表示する</string>
     <string name="prefs_show_take_photo_btn_text">写真撮影</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">現在のカメラではサポートされていません。メーカーはしばしばその使用を制限します-それは標準のカメラアプリケーションでのみ利用可能です</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">サポート（フィードバック）</string>
     <string name="prefs_system_alert_window_sum_text">このアプリを他のすべてのアプリの上に表示できるようにします。これは、ビデオ録画を自動的に開始/停止したり、フローティングウィンドウを表示したりするために必要です</string>
     <string name="prefs_system_alert_window_sum_text_bvr">このアプリが他のすべてのアプリの上に表示されるようにします。これはフローティングウィンドウを表示するために必要です</string>
-    <string name="prefs_system_alert_window_text">すべてのウィンドウの上の解像度</string>
+    <string name="prefs_system_alert_window_text">他のアプリケーションの上に重ねて表示する</string>
     <string name="prefs_theme_mode_dark">暗いテーマ</string>
     <string name="prefs_theme_mode_dynamic">動的</string>
     <string name="prefs_theme_mode_light">ライトテーマ</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">録音 ..​​.</string>
     <string name="recording_voice_started_text">録音が始まりました</string>
     <string name="recording_voice_stopped_text">録音を停止しました</string>
+    <string name="records_file_edit_trim_crop">「Googleフォト」で編集（トリミング）</string>
     <string name="records_file_sorting_date">日付</string>
     <string name="records_file_sorting_duration">間隔</string>
     <string name="records_file_sorting_name">名前</string>
     <string name="records_file_sorting_size">ファイルサイズ</string>
     <string name="records_file_upload_drive">「Googleドライブ」に保存</string>
+    <string name="records_file_upload_youtube">YouTube にアップロードする</string>
     <string name="reset">リセット</string>
     <string name="storage_external_single">MicroSDカード</string>
     <string name="storage_phone">電話のメモリ</string>

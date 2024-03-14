@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">ข้อมูล /เพิ่มเติม…</string>
     <string name="prefs_kill_services_sum_text">มีการตั้งค่าบนอุปกรณ์ของคุณเพื่ออนุญาตให้แอปเล่นอัตโนมัติและทำงานในพื้นหลัง คลิกที่นี่และเพิ่มแอปพลิเคชันในข้อยกเว้น (อนุญาตให้เริ่มอัตโนมัติและอื่น ๆ ) เพื่อให้ทำงานในพื้นหลังและเมื่อปิดหน้าจอหากไม่ได้รับอนุญาต</string>
     <string name="prefs_kill_services_text">อนุญาตให้ทำงานเบื้องหลัง</string>
+    <string name="prefs_language">ภาษา</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">เปิดแอปพลิเคชั่นเมื่อเริ่มการบันทึกโดยอัตโนมัติ</string>
     <string name="prefs_launch_app_auto_text">เปิดแอปเมื่อเริ่มบันทึกวิดีโอ</string>
     <string name="prefs_launch_app_limitation_text">สำหรับ Android 11 ขึ้นไป คุณอาจเลือกแอปที่ติดตั้งไม่ได้เนื่องจากระบบจำกัดการมองเห็นแอป (นโยบายความเป็นส่วนตัว)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">วิธีการรับตำแหน่ง (GPS)</string>
     <string name="prefs_location_update_frequency_text">อัตราการอัปเดต GPS</string>
     <string name="prefs_meters_accuracy_value_text">เมตรความแม่นยำ</string>
+    <string name="prefs_open_source_notices_text">ประกาศโอเพ่นซอร์ส</string>
     <string name="prefs_optical_zoom_text">ซูมออปติคอล (ซูม) /ทางยาวโฟกัส</string>
     <string name="prefs_orientation_landscape">ภูมิประเทศ</string>
     <string name="prefs_orientation_landscape_reversed">อัลบั้มย้อนกลับ</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">ความไวของเซ็นเซอร์ G</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">การสั่นสะเทือนเมื่อตรวจพบการกระแทก</string>
     <string name="prefs_rules_auto_start_camera_motion_text">เริ่มบันทึกเมื่อตรวจพบการเคลื่อนไหว</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">สำหรับเหตุการณ์ Bluetooth จะเป็นไปได้ก็ต่อเมื่อปิดใช้งานตัวเลือก \"บันทึกเฉพาะเมื่อชาร์จ\" เท่านั้น</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">อย่าเปิดบริการแอปพลิเคชัน AutoStart เพื่อประหยัดแบตเตอรี่ขณะรอเหตุการณ์เพื่อเริ่มการบันทึกอัตโนมัติ สำหรับ Android 8+ สิ่งนี้เป็นไปได้หากเปิดใช้งานเฉพาะกิจกรรม Bluetooth และส่วนที่เหลือถูกปิดใช้งาน</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* คุณสามารถปิดตัวเลือกนี้เพื่อให้แอปทำการบันทึกอัตโนมัติเฉพาะเมื่อบริการพื้นหลังของแอป (เริ่มอัตโนมัติ) ทำงานอยู่เท่านั้น\n- บันทึกเหตุการณ์อัตโนมัติ เช่น การชาร์จ บลูทูธ หรือ AUX ได้โดยไม่มีปัญหา จนถึง Android 7.1\n- เริ่มต้นจาก Android 8+ การบันทึกอัตโนมัติโดยไม่มีบริการแอปพลิเคชันพื้นหลัง (เริ่มอัตโนมัติ) สามารถทำได้สำหรับกิจกรรม Bluetooth เท่านั้น และในกรณีอื่น ๆ (เมื่อชาร์จหรือ AUX) คุณต้องเริ่มบริการแอปพลิเคชันพื้นหลังก่อน (เริ่มอัตโนมัติ) - โดยการเปิดตัว แอปพลิเคชันนั้นเองเพียงครั้งเดียว\n- เริ่มต้นด้วย Android 11+ โดยไม่มีบริการแอปพื้นหลัง (เริ่มอัตโนมัติ) การเข้าถึงกล้องโดยไม่ต้องโต้ตอบกับผู้ใช้เพื่อเริ่มการบันทึกจะทำได้ก็ต่อเมื่อได้รับอนุญาต \"ที่ด้านบนของแอปทั้งหมด\"</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">บันทึกอัตโนมัติแม้ว่าบริการพื้นหลังไม่ได้ทำงานอยู่ (เริ่มอัตโนมัติ)</string>
     <string name="prefs_rules_auto_start_speed_text">เริ่มบันทึกเมื่อความเร็วเท่ากัน/สูงกว่า (ตาม GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* คุณสามารถปิดตัวเลือกนี้เพื่อให้แอปทำการบันทึกอัตโนมัติเฉพาะเมื่อบริการพื้นหลังของแอป (เริ่มอัตโนมัติ) ทำงานอยู่เท่านั้น\n- บันทึกเหตุการณ์อัตโนมัติ เช่น การชาร์จ บลูทูธ หรือ AUX ได้โดยไม่มีปัญหา จนถึง Android 7.1\n- เริ่มต้นจาก Android 8 การบันทึกอัตโนมัติโดยไม่มีบริการแอปพลิเคชันพื้นหลัง (เริ่มอัตโนมัติ) สามารถทำได้สำหรับกิจกรรม Bluetooth เท่านั้น และในกรณีอื่น ๆ (เมื่อชาร์จหรือ AUX) คุณต้องเริ่มบริการแอปพลิเคชันพื้นหลังก่อน (เริ่มอัตโนมัติ) - โดยการเปิดตัว สมัครเองครั้งเดียว\n- เริ่มต้นด้วย Android 11 ที่ไม่มีบริการแอปพื้นหลัง (เริ่มอัตโนมัติ) การเข้าถึงกล้องโดยไม่ต้องมีการโต้ตอบจากผู้ใช้จะทำได้ก็ต่อเมื่อโทรศัพท์ถูกปลดล็อค (เปิดหน้าจอ) และได้รับอนุญาต \"ที่ด้านบนของแอปทั้งหมด\"\n- ดังนั้น สำหรับ Android 11 และสูงกว่า คุณต้องเปิดแอปพลิเคชันด้วยตนเองหนึ่งครั้งเพื่อให้บริการพื้นหลังของแอปพลิเคชัน (เริ่มอัตโนมัติ) เริ่มต้นสำหรับการบันทึกอัตโนมัติระหว่างเหตุการณ์ใด ๆ และเมื่อหน้าจอโทรศัพท์ปิดอยู่</string>
-    <string name="prefs_rules_auto_start_without_service_text">บันทึกอัตโนมัติแม้ว่าบริการพื้นหลังไม่ได้ทำงานอยู่ (เริ่มอัตโนมัติ)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">หยุดบันทึกหลังจาก</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">หยุดบันทึกเมื่อไม่มีการเคลื่อนไหว</string>
     <string name="prefs_rules_auto_stop_speed_text">หยุดบันทึกเมื่อความเร็วต่ำลง (ตาม GPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">การบล็อกวิดีโอไม่ให้ถูกเขียนทับ</string>
     <string name="prefs_show_overlay_btn_sum_text">แสดงหน้าต่างพร้อมปุ่มควบคุมที่ด้านบนของแอพพลิเคชั่นทั้งหมด</string>
     <string name="prefs_show_overlay_btn_text">แสดงหน้าต่างลอย</string>
-    <string name="prefs_show_overlay_on_recording_text">แสดงหน้าต่างลอยเมื่อเริ่มการบันทึก</string>
+    <string name="prefs_show_overlay_on_recording_text">แสดงหน้าต่างลอยเฉพาะเมื่อมีการเปิดใช้งานการบันทึก (และปิดโดยอัตโนมัติเมื่อหยุด)</string>
     <string name="prefs_show_status_bar_text">แสดงแถบสถานะระบบ</string>
     <string name="prefs_show_take_photo_btn_text">ในการถ่ายรูป</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">ไม่รองรับกล้องปัจจุบัน ผู้ผลิตมักจำกัดการใช้งาน - มีเฉพาะในแอปพลิเคชันกล้องมาตรฐานเท่านั้น</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">การสนับสนุน (ข้อเสนอแนะ)</string>
     <string name="prefs_system_alert_window_sum_text">อนุญาตให้แอปนี้ปรากฏทับแอปอื่นๆ ทั้งหมด นี่เป็นสิ่งจำเป็นในการเริ่ม /หยุดการบันทึกวิดีโอโดยอัตโนมัติหรือเพื่อแสดงหน้าต่างลอย</string>
     <string name="prefs_system_alert_window_sum_text_bvr">อนุญาตให้แอปนี้ปรากฏเหนือแอปอื่นๆ ทั้งหมด นี่เป็นสิ่งจำเป็นในการแสดงหน้าต่างแบบลอย</string>
-    <string name="prefs_system_alert_window_text">ความละเอียดที่ด้านบนของหน้าต่างทั้งหมด</string>
+    <string name="prefs_system_alert_window_text">แสดงทับแอพพลิเคชั่นอื่นๆ</string>
     <string name="prefs_theme_mode_dark">ธีมสีเข้ม</string>
     <string name="prefs_theme_mode_dynamic">พลวัต</string>
     <string name="prefs_theme_mode_light">ธีมแสง</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">การบันทึก…</string>
     <string name="recording_voice_started_text">เริ่มบันทึกแล้ว</string>
     <string name="recording_voice_stopped_text">การบันทึกหยุดลง</string>
+    <string name="records_file_edit_trim_crop">แก้ไข (ตัดแต่ง) ใน \"Google Photos\"</string>
     <string name="records_file_sorting_date">วันที่</string>
     <string name="records_file_sorting_duration">ระยะเวลา</string>
     <string name="records_file_sorting_name">ชื่อ</string>
     <string name="records_file_sorting_size">ขนาดไฟล์</string>
     <string name="records_file_upload_drive">บันทึกไปที่ \"Google ไดรฟ์\"</string>
+    <string name="records_file_upload_youtube">อัปโหลดไปยัง YouTube</string>
     <string name="reset">ปล่อย</string>
     <string name="storage_external_single">การ์ด MicroSD</string>
     <string name="storage_phone">หน่วยความจำโทรศัพท์</string>

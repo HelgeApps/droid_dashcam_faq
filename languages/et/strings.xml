@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Teave /Veel…</string>
     <string name="prefs_kill_services_sum_text">Teie seadmes on seaded, mis võimaldavad rakendustel automaatset esitamist ja taustal töötamist. Klõpsake siin ja lisage rakendus erandite hulka (lubage automaatkäivitus ja nii edasi), et lubada sellel töötada taustal ja kui ekraan on välja lülitatud, kui see on keelatud</string>
     <string name="prefs_kill_services_text">Taustatöö lubamine</string>
+    <string name="prefs_language">Keel</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Avage rakendus, kui salvestamine algab automaatselt</string>
     <string name="prefs_launch_app_auto_text">Käivitage rakendus, kui video salvestamine algab</string>
     <string name="prefs_launch_app_limitation_text">Android 11 ja uuemate versioonidega ei pruugi te saada ühtegi installitud rakendust valida, kuna süsteem ise piirab rakenduse nähtavust (privaatsuspoliitika)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Asukoha hankimise meetod (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS-i värskendussagedus</string>
     <string name="prefs_meters_accuracy_value_text">meetri täpsusega</string>
+    <string name="prefs_open_source_notices_text">Avatud lähtekoodiga teated</string>
     <string name="prefs_optical_zoom_text">Optiline suum (suum) /fookuskaugus</string>
     <string name="prefs_orientation_landscape">Maastik</string>
     <string name="prefs_orientation_landscape_reversed">Albumi tagurpidi</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">G-sensori tundlikkus</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Vibratsioon šoki tuvastamisel</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Alustage salvestamist, kui tuvastatakse liikumine</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Bluetoothi ​​sündmuste puhul on see võimalik ainult siis, kui valik \"salvesta ainult laadimisel\" on keelatud.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Ärge käivitage rakendust AutoStart aku säästmiseks, oodates sündmuste automaatset salvestamist. Android 8+ puhul on see võimalik, kui ainult Bluetoothi ​​sündmused on lubatud ja ülejäänud on keelatud.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Saate selle valiku välja lülitada, et rakendus teostaks automaatset salvestamist ainult siis, kui rakenduse taustateenus (AutoStart) töötab.\n- Automaatset salvestamist selliste sündmuste jaoks nagu laadimine, Bluetooth või AUX saab kuni Android 7.1-ni probleemideta teha.\n- Alates operatsioonisüsteemist Android 8+ saab automaatset salvestamist ilma taustarakenduse teenuseta (AutoStart) teha ainult Bluetoothi ​​sündmuste puhul ja muudel juhtudel (laadimisel või AUX-i ajal) peate esmalt käivitama taustarakenduse teenuse (AutoStart) - käivitades rakendus ise üks kord.\n- Alates Android 11+ versioonist on ilma taustarakenduse teenuseta (AutoStart) kaamerale juurdepääs ilma kasutaja sekkumiseta salvestamise alustamiseks võimalik ainult siis, kui on antud luba \"Kõigi rakenduste peal\".</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Automaatne salvestamine isegi siis, kui taustateenus ei tööta (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Alustage salvestamist, kui kiirus on võrdne /suurem (GPS-i põhjal)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Saate selle valiku välja lülitada, et rakendus teostaks automaatset salvestamist ainult siis, kui rakenduse taustateenus (AutoStart) töötab.\n- Automaatset salvestamist selliste sündmuste jaoks nagu laadimine, Bluetooth või AUX saab kuni Android 7.1-ni probleemideta teha.\n- Alates Android 8-st saab automaatset salvestamist ilma taustarakenduse teenuseta (AutoStart) teha ainult Bluetooth-sündmuste korral ja muudel juhtudel (laadimisel või AUX-i ajal) peate esmalt käivitama taustarakenduse teenuse (AutoStart) - käivitades rakendus ise üks kord.\n- Alates Android 11-st ilma taustarakenduse teenuseta (AutoStart) on kaamerale juurdepääs ilma kasutaja sekkumiseta võimalik ainult siis, kui telefon on lukustamata (ekraan sees) ja antud luba \"kõigi rakenduste peal\".\n- Seega tuleb Android 11 ja uuemate versioonide puhul rakendus üks kord käsitsi käivitada, et rakenduse taustateenus (AutoStart) hakkaks automaatseks salvestamiseks mis tahes sündmuste ajal ja telefoni ekraani väljalülitamisel.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Automaatne salvestamine isegi siis, kui taustateenus ei tööta (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Pärast seda lõpetage salvestamine</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Peatage salvestamine, kui liikumist pole</string>
     <string name="prefs_rules_auto_stop_speed_text">Peatage salvestamine, kui kiirus on väiksem (GPS-i põhjal)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Videote ülekirjutamise blokeerimine</string>
     <string name="prefs_show_overlay_btn_sum_text">Kuvab kõigi rakenduste peal juhtnuppudega akna</string>
     <string name="prefs_show_overlay_btn_text">Kuva ujuv aken</string>
-    <string name="prefs_show_overlay_on_recording_text">Salvestamise alustamisel kuvatakse ujuv aken</string>
+    <string name="prefs_show_overlay_on_recording_text">Kuva ujuv aken ainult siis, kui salvestamine on aktiivne (ja sulgege automaatselt, kui see peatub)</string>
     <string name="prefs_show_status_bar_text">Kuva süsteemi olekuriba</string>
     <string name="prefs_show_take_photo_btn_text">Foto tegemiseks</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Praegune kaamera ei toeta. Tootjad piiravad sageli selle kasutamist – see on saadaval ainult tavalises kaamerarakenduses</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Tugi (tagasiside)</string>
     <string name="prefs_system_alert_window_sum_text">Lubage sellel rakendusel kuvada kõigi teiste rakenduste peal. See on vajalik videosalvestuse automaatseks käivitamiseks/peatamiseks või ujuva akna kuvamiseks</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Lubage sellel rakendusel kuvada kõigi teiste rakenduste kohal. See on vajalik ujuva akna kuvamiseks</string>
-    <string name="prefs_system_alert_window_text">Resolutsioon kõigi akende peal</string>
+    <string name="prefs_system_alert_window_text">Kuva teiste rakenduste peal</string>
     <string name="prefs_theme_mode_dark">Tume teema</string>
     <string name="prefs_theme_mode_dynamic">Dünaamiline</string>
     <string name="prefs_theme_mode_light">Kerge teema</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Salvestamine…</string>
     <string name="recording_voice_started_text">Salvestamine on alanud</string>
     <string name="recording_voice_stopped_text">Salvestamine peatus</string>
+    <string name="records_file_edit_trim_crop">Muuda (kärbi) teenuses Google Photos</string>
     <string name="records_file_sorting_date">Kuupäev</string>
     <string name="records_file_sorting_duration">Kestus</string>
     <string name="records_file_sorting_name">Nimi</string>
     <string name="records_file_sorting_size">Faili suurus</string>
     <string name="records_file_upload_drive">Salvesta \"Google Drive\'i\"</string>
+    <string name="records_file_upload_youtube">Laadige üles YouTube\'i</string>
     <string name="reset">tühjenemine</string>
     <string name="storage_external_single">MicroSD-kaart</string>
     <string name="storage_phone">Telefoni mälu</string>

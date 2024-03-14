@@ -190,6 +190,7 @@
     <string name="prefs_info_more_category_text">資訊 /更多…</string>
     <string name="prefs_kill_services_sum_text">您的設備上有一些設定，允許應用程式在後台自动播放和運行。點擊此處並將應用程式添加到例外（允许自動啟動等）中，以允許它在後台和屏幕關閉時運行（如果被禁止）</string>
     <string name="prefs_kill_services_text">允許後台工作</string>
+    <string name="prefs_language">語言</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">自動開始錄制時打開應用程式</string>
     <string name="prefs_launch_app_auto_text">影片錄制開始時啟動應用程式</string>
     <string name="prefs_launch_app_limitation_text">對於 Android 11 或更高版本，您可能無法選擇任何已安裝的應用程式，因為系統本身會限制應用程式的可見性（隱私政策）</string>
@@ -205,6 +206,7 @@
     <string name="prefs_location_provider_method_text">位置獲取方法（GPS）</string>
     <string name="prefs_location_update_frequency_text">GPS更新率</string>
     <string name="prefs_meters_accuracy_value_text">公尺精度</string>
+    <string name="prefs_open_source_notices_text">開源聲明</string>
     <string name="prefs_optical_zoom_text">光學變焦（變焦）/焦距</string>
     <string name="prefs_orientation_landscape">景觀</string>
     <string name="prefs_orientation_landscape_reversed">專輯反轉</string>
@@ -246,9 +248,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">重力感應靈敏度</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">檢測到撞擊時的震動</string>
     <string name="prefs_rules_auto_start_camera_motion_text">檢測到運動時開始錄制</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">對於藍牙事件，只有停用「僅在充電時記錄」選項才可能。</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">在等待事件自動開始記錄時，請勿啟動「自動啟動」應用程式服務以節省電池電量。對於 Android 8+，如果僅啟用藍牙事件並停用其餘事件，則這是可能的。</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* 您可以關閉此選項，讓應用程式僅在應用程式的背景服務（AutoStart）執行時執行自動錄製。\n- 在 Android 7.1 以上版本中，可以毫無問題地執行充電、藍牙或 AUX 等事件的自動記錄。\n- 從Android 8+開始，無背景應用服務（AutoStart）的自動錄製只能針對藍牙事件進行，在其他情況下（充電或AUX時）需要先啟動背景應用服務（AutoStart） - 透過啟動應用程式本身一次。\n- 從 Android 11+ 開始，在沒有後台應用程式服務（自動啟動）的情況下，只有授予「在所有應用程式之上」權限時，才可以在沒有使用者互動的情況下存取相機來開始錄製。</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">即使後台服務未運作（自動啟動）也會自動錄製</string>
     <string name="prefs_rules_auto_start_speed_text">當速度相等/更高時開始記錄（基於 GPS）</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* 您可以關閉此選項，讓應用程式僅在應用程式的背景服務（AutoStart）執行時執行自動錄製。\n- 在 Android 7.1 之前，可以毫無問題地執行充電、藍牙或 AUX 等事件的自動記錄。\n- 從Android 8開始，無背景應用服務（AutoStart）的自動錄製只能針對藍牙事件進行，在其他情況下（充電或AUX時）您需要先啟動背景應用服務（AutoStart） - 透過啟動應用程式本身一次。\n- 從沒有背景應用程式服務（自動啟動）的Android 11 開始，只有在手機解鎖（螢幕開啟）並且授予「在所有應用程式之上」權限的情況下，才可以在沒有使用者互動的情況下存取相機。\n- 因此，對於Android 11及更高版本，您需要手動啟動應用程式一次，以便應用程式的背景服務（AutoStart）啟動，以便在任何事件期間以及手機螢幕關閉時自動錄製。</string>
-    <string name="prefs_rules_auto_start_without_service_text">即使後台服務未運作（自動啟動）也會自動錄製</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">结束後停止錄影</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">沒有動作時停止錄影</string>
     <string name="prefs_rules_auto_stop_speed_text">當速度較低時停止記錄（基於 GPS）</string>
@@ -276,7 +280,7 @@
     <string name="prefs_show_lock_btn_text">阻止視頻被覆蓋</string>
     <string name="prefs_show_overlay_btn_sum_text">在所有應用程式頂部顯示一個帶有控制按鈕的視窗</string>
     <string name="prefs_show_overlay_btn_text">顯示浮動視窗</string>
-    <string name="prefs_show_overlay_on_recording_text">錄製開始時顯示浮動視窗</string>
+    <string name="prefs_show_overlay_on_recording_text">僅在錄製處於活動狀態時才顯示浮動視窗（並在停止時自動關閉）</string>
     <string name="prefs_show_status_bar_text">顯示系統狀態列</string>
     <string name="prefs_show_take_photo_btn_text">拍照</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">當前相機不支持。製造商經常限制其使用 - 它僅在標準相機應用程式中可用</string>
@@ -312,7 +316,7 @@
     <string name="prefs_support_text">支持（反饋）</string>
     <string name="prefs_system_alert_window_sum_text">允許此應用程式出現在所有其他應用程式之上。這是自動開始/停止影片錄製或顯示浮動視窗所必需的</string>
     <string name="prefs_system_alert_window_sum_text_bvr">允許此應用程式出現在所有其他應用程式之上。這是顯示浮動視窗所必需的</string>
-    <string name="prefs_system_alert_window_text">所有窗口頂部的分辨率</string>
+    <string name="prefs_system_alert_window_text">顯示在其他應用程式之上</string>
     <string name="prefs_theme_mode_dark">深色主題</string>
     <string name="prefs_theme_mode_dynamic">動態的</string>
     <string name="prefs_theme_mode_light">淺色主題</string>
@@ -406,11 +410,13 @@
     <string name="recording_text">記錄…</string>
     <string name="recording_voice_started_text">錄影開始了</string>
     <string name="recording_voice_stopped_text">錄影停止</string>
+    <string name="records_file_edit_trim_crop">在“Google 相簿”中編輯（修剪）</string>
     <string name="records_file_sorting_date">日期</string>
     <string name="records_file_sorting_duration">期間</string>
     <string name="records_file_sorting_name">姓名</string>
     <string name="records_file_sorting_size">文件大小</string>
     <string name="records_file_upload_drive">儲存到“Google 雲端硬碟”</string>
+    <string name="records_file_upload_youtube">上傳至 YouTube</string>
     <string name="reset">釋放</string>
     <string name="storage_external_single">MicroSD 卡</string>
     <string name="storage_phone">手機内存</string>

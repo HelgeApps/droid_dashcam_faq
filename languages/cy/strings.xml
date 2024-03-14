@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Gwybodaeth /Mwy…</string>
     <string name="prefs_kill_services_sum_text">Mae gosodiadau ar eich dyfais i ganiatáu i apiau awtoplay a rhedeg yn y cefndir. Cliciwch yma ac ychwanegwch y cymhwysiad at yr eithriadau (caniatáu autostart ac ati) i ganiatáu iddo redeg yn y cefndir a phan fydd y sgrin i ffwrdd, os yw wedi\'i wahardd</string>
     <string name="prefs_kill_services_text">Caniatáu gwaith cefndir</string>
+    <string name="prefs_language">Iaith</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Cais agored pan fydd recordio yn cychwyn yn awtomatig</string>
     <string name="prefs_launch_app_auto_text">Lansio app pan fydd recordiad fideo yn dechrau</string>
     <string name="prefs_launch_app_limitation_text">Gyda Android 11 ac uwch, efallai na fyddwch yn gallu dewis unrhyw un o\'r apiau sydd wedi\'u gosod gan fod y system ei hun yn cyfyngu ar welededd ap (polisi preifatrwydd)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Dull caffael lleoliad (GPS)</string>
     <string name="prefs_location_update_frequency_text">Cyfradd diweddaru GPS</string>
     <string name="prefs_meters_accuracy_value_text">metr o gywirdeb</string>
+    <string name="prefs_open_source_notices_text">Hysbysiadau ffynhonnell agored</string>
     <string name="prefs_optical_zoom_text">Chwyddo Optegol (Chwyddo) /Hyd Ffocws</string>
     <string name="prefs_orientation_landscape">Tirwedd</string>
     <string name="prefs_orientation_landscape_reversed">Albwm i\'r gwrthwyneb</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">Sensitifrwydd G-synhwyrydd</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Dirgryniad pan ganfyddir sioc</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Dechreuwch recordio pan ganfyddir cynnig</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Ar gyfer digwyddiadau Bluetooth dim ond os yw\'r opsiwn \"cofnod wrth godi tâl\" yn anabl y mae\'n bosibl.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Peidiwch â lansio\'r gwasanaeth cymhwysiad AutoStart i arbed batri wrth aros am ddigwyddiadau i recordio\'n awtomatig. Ar gyfer Android 8+ mae hyn yn bosibl os mai dim ond digwyddiadau Bluetooth sy\'n cael eu galluogi a\'r gweddill yn anabl.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Dim ond pan fydd gwasanaeth cefndir yr app (AutoStart) yn rhedeg y gallwch chi ddiffodd yr opsiwn hwn i gael yr ap i berfformio recordiad awtomatig.\n- Gellir perfformio recordiad awtomatig ar gyfer digwyddiadau fel gwefru, Bluetooth neu AUX heb broblemau hyd at Android 7.1.\n- Gan ddechrau o Android 8+, dim ond ar gyfer digwyddiadau Bluetooth y gellir recordio awtomatig heb wasanaeth cymhwysiad cefndir (AutoStart), ac mewn achosion eraill (wrth godi tâl neu AUX) mae angen i chi gychwyn y gwasanaeth cymhwysiad cefndir yn gyntaf (AutoStart) - trwy lansio y cais ei hun unwaith.\n- Gan ddechrau gyda Android 11+, heb y gwasanaeth ap cefndir (AutoStart), dim ond os rhoddir caniatâd \"ar ben pob ap\" y mae cyrchu\'r camera heb ryngweithio â defnyddwyr i ddechrau recordio yn bosibl.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Recordio awtomatig hyd yn oed os nad yw\'r gwasanaeth cefndir yn rhedeg (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Dechreuwch recordio pan fo cyflymder yn gyfartal /uwch (yn seiliedig ar GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Dim ond pan fydd gwasanaeth cefndir yr app (AutoStart) yn rhedeg y gallwch chi ddiffodd yr opsiwn hwn i gael yr ap i berfformio recordiad awtomatig.\n- Gellir perfformio recordiad awtomatig ar gyfer digwyddiadau fel gwefru, Bluetooth neu AUX heb broblemau hyd at Android 7.1.\n- Gan ddechrau o Android 8, dim ond ar gyfer digwyddiadau Bluetooth y gellir recordio awtomatig heb wasanaeth cymhwysiad cefndir (AutoStart), ac mewn achosion eraill (wrth godi tâl neu AUX) mae angen i chi gychwyn y gwasanaeth cymhwysiad cefndir (AutoStart) yn gyntaf - trwy lansio\'r cais ei hun unwaith.\n- Gan ddechrau gyda Android 11 heb y gwasanaeth ap cefndir (AutoStart), dim ond os yw\'r ffôn wedi\'i ddatgloi (sgrin ymlaen) ac os rhoddir caniatâd \"ar ben pob ap\" y mae mynediad i\'r camera heb ryngweithio â defnyddwyr yn bosibl.\n- Felly, ar gyfer Android 11 ac uwch, mae angen i chi lansio\'r cais â llaw unwaith fel bod gwasanaeth cefndir y cymhwysiad (AutoStart) yn cychwyn ar gyfer recordio awtomatig yn ystod unrhyw ddigwyddiadau a phan fydd sgrin y ffôn wedi\'i diffodd.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Recordio awtomatig hyd yn oed os nad yw\'r gwasanaeth cefndir yn rhedeg (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Stopiwch recordio ar ôl</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Stopiwch recordio pan nad oes unrhyw symud</string>
     <string name="prefs_rules_auto_stop_speed_text">Stopiwch recordio pan fydd y cyflymder yn is (yn seiliedig ar GPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Blocio fideos rhag cael eu trosysgrifo</string>
     <string name="prefs_show_overlay_btn_sum_text">Yn arddangos ffenestr gyda botymau rheoli ar ben pob cais</string>
     <string name="prefs_show_overlay_btn_text">Dangos ffenestr arnofio</string>
-    <string name="prefs_show_overlay_on_recording_text">Dangos ffenestr arnofio pan fydd recordio yn dechrau</string>
+    <string name="prefs_show_overlay_on_recording_text">Dangos ffenestr arnofio dim ond pan fydd y recordiad yn weithredol (a chau\'n awtomatig pan fydd yn stopio)</string>
     <string name="prefs_show_status_bar_text">Dangos bar statws system</string>
     <string name="prefs_show_take_photo_btn_text">I wneud llun</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Heb gefnogaeth y camera cyfredol. Mae gweithgynhyrchwyr yn aml yn cyfyngu ar ei ddefnydd - dim ond yn y cymhwysiad Camera safonol y mae ar gael</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Cefnogaeth (adborth)</string>
     <string name="prefs_system_alert_window_sum_text">Gadewch i\'r app hon ymddangos ar ben pob ap arall. Mae hyn yn angenrheidiol i ddechrau /stopio recordio fideo yn awtomatig neu i arddangos ffenestr arnofio</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Caniatáu i\'r ap hwn ymddangos ar ben pob ap arall. Mae hyn yn angenrheidiol i arddangos ffenestr arnofio</string>
-    <string name="prefs_system_alert_window_text">Datrys ar ben pob ffenestr</string>
+    <string name="prefs_system_alert_window_text">Arddangos ar ben cymwysiadau eraill</string>
     <string name="prefs_theme_mode_dark">Thema dywyll</string>
     <string name="prefs_theme_mode_dynamic">Dynamig</string>
     <string name="prefs_theme_mode_light">Thema ysgafn</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Recordio…</string>
     <string name="recording_voice_started_text">Mae\'r recordio wedi dechrau</string>
     <string name="recording_voice_stopped_text">Stopiodd y recordio</string>
+    <string name="records_file_edit_trim_crop">Golygu (Trimio) yn \"Google Photos\"</string>
     <string name="records_file_sorting_date">Dyddiad</string>
     <string name="records_file_sorting_duration">Hyd</string>
     <string name="records_file_sorting_name">Enw</string>
     <string name="records_file_sorting_size">Maint ffeil</string>
     <string name="records_file_upload_drive">Cadw i \"Google Drive\"</string>
+    <string name="records_file_upload_youtube">Llwythwch i YouTube</string>
     <string name="reset">rhyddhau</string>
     <string name="storage_external_single">Cerdyn MicroSD</string>
     <string name="storage_phone">Cof ffôn</string>

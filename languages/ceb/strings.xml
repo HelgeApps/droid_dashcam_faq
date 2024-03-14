@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Impormasyon /Dugang…</string>
     <string name="prefs_kill_services_sum_text">Adunay mga setting sa imong device aron tugotan ang mga app nga mag-autoplay ug modagan sa background. Pag-klik dinhi ug idugang ang aplikasyon sa mga eksepsiyon (tugoti ang autostart ug uban pa) aron tugutan kini nga modagan sa background ug kung ang screen wala, kung gidili</string>
     <string name="prefs_kill_services_text">Gitugotan ang pagtrabaho sa background</string>
+    <string name="prefs_language">Pinulongan</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Ablihi ang aplikasyon sa diha nga ang pagrekord awtomatikong magsugod</string>
     <string name="prefs_launch_app_auto_text">Ilunsad ang app kung magsugod ang pagrekord sa video</string>
     <string name="prefs_launch_app_limitation_text">Uban sa Android 11 ug mas taas, mahimo nga dili ka makapili sa bisan unsang na-install nga mga app tungod kay ang sistema mismo nagpugong sa pagkakita sa app (patakaran sa pagkapribado)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Pamaagi sa pagkuha sa lokasyon (GPS)</string>
     <string name="prefs_location_update_frequency_text">Rate sa pag-update sa GPS</string>
     <string name="prefs_meters_accuracy_value_text">metros sa katukma</string>
+    <string name="prefs_open_source_notices_text">Mga pahibalo sa open source</string>
     <string name="prefs_optical_zoom_text">Optical Zoom (Zoom) /Focal Length</string>
     <string name="prefs_orientation_landscape">Landscape</string>
     <string name="prefs_orientation_landscape_reversed">Balikbalik nga album</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">Pagkasensitibo sa G-sensor</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Vibration kung mahibaw-an ang shock</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Sugdi ang pagrekord kung mamatikdan ang paglihok</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Alang sa mga panghitabo sa Bluetooth mahimo ra kung ang kapilian nga \"pagrekord lamang kung nag-charge\" gi-disable.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Ayaw ilunsad ang serbisyo sa aplikasyon sa AutoStart aron makadaginot sa baterya samtang naghulat sa mga panghitabo nga mag-autostart sa pagrekord. Alang sa Android 8+ kini posible kung ang Bluetooth nga mga panghitabo lamang ang ma-enable ug ang uban gi-disable.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Mahimo nimong i-off kini nga opsyon aron ang app mohimo og awtomatik nga pagrekord lamang kung ang serbisyo sa background sa app (AutoStart) nagdagan.\n- Ang awtomatikong pagrekord alang sa mga panghitabo sama sa pag-charge, Bluetooth o AUX mahimong himuon nga wala’y mga problema hangtod sa Android 7.1.\n- Sugod gikan sa Android 8+, ang awtomatikong pagrekord nga wala’y serbisyo sa aplikasyon sa background (AutoStart) mahimo ra alang sa mga panghitabo sa Bluetooth, ug sa ubang mga kaso (kung nag-charge o AUX) kinahanglan nimo nga sugdan una ang serbisyo sa aplikasyon sa background (AutoStart) - pinaagi sa paglansad ang aplikasyon mismo sa makausa.\n- Sugod sa Android 11+, nga wala ang serbisyo sa background app (AutoStart), ang pag-access sa camera nga wala’y interaksyon sa gumagamit aron magsugod sa pagrekord posible ra kung ang pagtugot sa \"sa ibabaw sa tanan nga mga app\" gihatag.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Awtomatikong pagrekord bisan kung ang serbisyo sa background wala magdagan (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Pagsugod sa pagrekord kung ang katulin parehas /mas taas (base sa GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Mahimo nimong i-off kini nga opsyon aron ang app mohimo og awtomatik nga pagrekord lamang kung ang serbisyo sa background sa app (AutoStart) nagdagan.\n- Ang awtomatikong pagrekord alang sa mga panghitabo sama sa pag-charge, Bluetooth o AUX mahimong himuon nga wala’y mga problema hangtod sa Android 7.1.\n- Sugod sa Android 8, ang awtomatikong pagrekord nga wala’y serbisyo sa aplikasyon sa background (AutoStart) mahimo ra alang sa mga panghitabo sa Bluetooth, ug sa ubang mga kaso (kung nag-charge o AUX) kinahanglan nimo nga sugdan una ang serbisyo sa aplikasyon sa background (AutoStart) - pinaagi sa paglansad sa aplikasyon sa iyang kaugalingon sa makausa.\n- Sugod sa Android 11 nga wala ang serbisyo sa background app (AutoStart), ang pag-access sa camera nga wala’y interaksyon sa user posible ra kung ang telepono ma-unlock (screen on) ug ang pagtugot sa \"ibabaw sa tanan nga apps\" gihatag.\n- Sa ingon, alang sa Android 11 ug mas taas, kinahanglan nimo nga mano-mano nga ilunsad ang aplikasyon kausa aron ang serbisyo sa background sa aplikasyon (AutoStart) magsugod alang sa awtomatikong pagrekord sa bisan unsang mga panghitabo ug kung ang screen sa telepono gipalong.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Awtomatikong pagrekord bisan kung ang serbisyo sa background wala magdagan (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Hunonga ang pagrekord pagkahuman</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Hunonga ang pagrekord kung wala’y paglihok</string>
     <string name="prefs_rules_auto_stop_speed_text">Hunonga ang pagrekord kung mubu ang tulin (base sa GPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Pag-ali sa mga video nga dili ma-overwrite</string>
     <string name="prefs_show_overlay_btn_sum_text">Nagpakita sa usa ka bintana nga adunay mga buton sa pagkontrol sa ibabaw sa tanan nga mga aplikasyon</string>
     <string name="prefs_show_overlay_btn_text">Ipakita ang naglutaw nga bintana</string>
-    <string name="prefs_show_overlay_on_recording_text">Ipakita ang naglutaw nga bintana kung magsugod ang pagrekord</string>
+    <string name="prefs_show_overlay_on_recording_text">Ipakita ang naglutaw nga bintana lamang kung aktibo ang pagrekord (ug awtomatikong isira kung kini mohunong)</string>
     <string name="prefs_show_status_bar_text">Ipakita ang status bar sa sistema</string>
     <string name="prefs_show_take_photo_btn_text">Aron makahimo og litrato</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Dili suportado sa kasamtangan nga camera. Ang mga tiggama kanunay nga nagpugong sa paggamit niini - kini magamit lamang sa standard nga aplikasyon sa Camera</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Suporta (feedback)</string>
     <string name="prefs_system_alert_window_sum_text">Tugoti kini nga app nga makita sa ibabaw sa tanan nga uban nga mga app. Kinahanglan kini aron awtomatiko nga magsugod /mohunong sa pagrekord sa video o aron ipakita ang usa ka naglutaw nga bintana</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Tugoti kini nga app nga makita sa ibabaw sa tanan nga uban nga mga app. Kini mao ang gikinahanglan aron sa pagpakita sa usa ka naglutaw nga bintana</string>
-    <string name="prefs_system_alert_window_text">Resolusyon sa ibabaw sa tanan nga mga bintana</string>
+    <string name="prefs_system_alert_window_text">Ipakita sa ibabaw sa ubang mga aplikasyon</string>
     <string name="prefs_theme_mode_dark">Mangitngit nga tema</string>
     <string name="prefs_theme_mode_dynamic">Dinamiko</string>
     <string name="prefs_theme_mode_light">Kahayag nga tema</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Pagrekord…</string>
     <string name="recording_voice_started_text">Nagsugod na ang pagrekord</string>
     <string name="recording_voice_stopped_text">Nahunong ang pagrekord</string>
+    <string name="records_file_edit_trim_crop">I-edit (Trim) sa \"Mga Litrato sa Google\"</string>
     <string name="records_file_sorting_date">Petsa</string>
     <string name="records_file_sorting_duration">Gidugayon</string>
     <string name="records_file_sorting_name">Ngalan</string>
     <string name="records_file_sorting_size">Gidak-on sa file</string>
     <string name="records_file_upload_drive">I-save sa \"Google Drive\"</string>
+    <string name="records_file_upload_youtube">I-upload sa YouTube</string>
     <string name="reset">paggawas</string>
     <string name="storage_external_single">MicroSD card</string>
     <string name="storage_phone">Memorya sa telepono</string>

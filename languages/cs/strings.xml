@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Informace /Více…</string>
     <string name="prefs_kill_services_sum_text">Na vašem zařízení jsou nastavení, která aplikacím umožňují automatické přehrávání a spouštění na pozadí. Klikněte sem a přidejte aplikaci do výjimek (povolit automatické spouštění atd.), aby mohla běžet na pozadí a při vypnuté obrazovce, pokud je to zakázáno</string>
     <string name="prefs_kill_services_text">Povolení práce na pozadí</string>
+    <string name="prefs_language">Jazyk</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Při automatickém spuštění nahrávání otevřete aplikaci</string>
     <string name="prefs_launch_app_auto_text">Spusťte aplikaci při zahájení nahrávání videa</string>
     <string name="prefs_launch_app_limitation_text">V systému Android 11 a vyšším možná nebudete moci vybrat žádnou z nainstalovaných aplikací, protože samotný systém omezuje viditelnost aplikace (zásady ochrany osobních údajů)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Metoda získávání polohy (GPS)</string>
     <string name="prefs_location_update_frequency_text">Rychlost aktualizace GPS</string>
     <string name="prefs_meters_accuracy_value_text">metrů přesnosti</string>
+    <string name="prefs_open_source_notices_text">Upozornění s otevřeným zdrojovým kódem</string>
     <string name="prefs_optical_zoom_text">Optický zoom (Zoom) /Ohnisková vzdálenost</string>
     <string name="prefs_orientation_landscape">Krajina</string>
     <string name="prefs_orientation_landscape_reversed">Rubová strana alba</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">Citlivost G-senzoru</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Vibrace při detekci otřesu</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Začněte nahrávat, když je detekován pohyb</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">U událostí Bluetooth je to možné pouze v případě, že je deaktivována možnost „nahrávat pouze při nabíjení“.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Nespouštějte službu aplikace AutoStart, abyste šetřili baterii během čekání na události, aby se automaticky spustilo nahrávání. U Androidu 8+ je to možné, pokud jsou povoleny pouze události Bluetooth a ostatní jsou zakázány.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Tuto možnost můžete vypnout, aby aplikace prováděla automatické nahrávání pouze v případě, že je spuštěna služba na pozadí aplikace (AutoStart).\n- Automatické nahrávání událostí, jako je nabíjení, Bluetooth nebo AUX, lze bez problémů provádět až do Androidu 7.1.\n- Od Androidu 8+ lze automatické nahrávání bez služby aplikace na pozadí (AutoStart) provádět pouze pro události Bluetooth a v ostatních případech (při nabíjení nebo AUX) je třeba nejprve spustit službu aplikace na pozadí (AutoStart) - spuštěním samotnou aplikaci jednou.\n- Počínaje systémem Android 11+, bez služby aplikace na pozadí (AutoStart), je přístup ke kameře bez zásahu uživatele za účelem zahájení nahrávání možný pouze v případě, že je uděleno oprávnění „navrchu všech aplikací“.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Automatické nahrávání, i když služba na pozadí není spuštěna (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Začněte nahrávat, když je rychlost stejná /vyšší (na základě GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Tuto možnost můžete vypnout, aby aplikace prováděla automatické nahrávání pouze v případě, že je spuštěna služba na pozadí aplikace (AutoStart).\n- Automatické nahrávání událostí, jako je nabíjení, Bluetooth nebo AUX, lze bez problémů provádět až do Androidu 7.1.\n- Od Androidu 8 lze automatické nahrávání bez služby aplikace na pozadí (AutoStart) provádět pouze pro události Bluetooth a v ostatních případech (při nabíjení nebo AUX) je třeba nejprve spustit službu aplikace na pozadí (AutoStart) - spuštěním samotnou aplikaci jednou.\n- Počínaje systémem Android 11 bez služby aplikace na pozadí (AutoStart) je přístup k fotoaparátu bez interakce uživatele možný pouze v případě, že je telefon odemknutý (obrazovka zapnutá) a je uděleno oprávnění „navrchu všech aplikací“.\n- Pro Android 11 a vyšší je tedy potřeba aplikaci jednou spustit ručně, aby se spustila služba na pozadí aplikace (AutoStart) pro automatické nahrávání při jakýchkoli událostech a při zhasnutí obrazovky telefonu.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Automatické nahrávání, i když služba na pozadí není spuštěna (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Poté zastavte nahrávání</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Zastavte nahrávání, když nedochází k žádnému pohybu</string>
     <string name="prefs_rules_auto_stop_speed_text">Zastavit nahrávání, když je rychlost nižší (na základě GPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Blokování přepsání videí</string>
     <string name="prefs_show_overlay_btn_sum_text">Zobrazí okno s ovládacími tlačítky nad všemi aplikacemi</string>
     <string name="prefs_show_overlay_btn_text">Zobrazit plovoucí okno</string>
-    <string name="prefs_show_overlay_on_recording_text">Při zahájení nahrávání zobrazit plovoucí okno</string>
+    <string name="prefs_show_overlay_on_recording_text">Zobrazit plovoucí okno pouze při aktivním nahrávání (a automaticky se zavře, když se zastaví)</string>
     <string name="prefs_show_status_bar_text">Zobrazit stavový řádek systému</string>
     <string name="prefs_show_take_photo_btn_text">Udělat fotku</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Aktuální fotoaparát nepodporuje. Výrobci jeho použití často omezují – je dostupný pouze ve standardní aplikaci Fotoaparát</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Podpora (zpětná vazba)</string>
     <string name="prefs_system_alert_window_sum_text">Povolit, aby se tato aplikace zobrazovala nad všemi ostatními aplikacemi. To je nezbytné pro automatické spuštění/zastavení záznamu videa nebo pro zobrazení plovoucího okna</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Povolit, aby se tato aplikace zobrazovala nad všemi ostatními aplikacemi. To je nezbytné pro zobrazení plovoucího okna</string>
-    <string name="prefs_system_alert_window_text">Rozlišení nad všemi okny</string>
+    <string name="prefs_system_alert_window_text">Zobrazení nad ostatními aplikacemi</string>
     <string name="prefs_theme_mode_dark">Tmavé téma</string>
     <string name="prefs_theme_mode_dynamic">Dynamický</string>
     <string name="prefs_theme_mode_light">Světlé téma</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Nahrávání…</string>
     <string name="recording_voice_started_text">Nahrávání začalo</string>
     <string name="recording_voice_stopped_text">Nahrávání zastaveno</string>
+    <string name="records_file_edit_trim_crop">Upravit (oříznout) ve „Fotkách Google“</string>
     <string name="records_file_sorting_date">datum</string>
     <string name="records_file_sorting_duration">Doba trvání</string>
     <string name="records_file_sorting_name">název</string>
     <string name="records_file_sorting_size">Velikost souboru</string>
     <string name="records_file_upload_drive">Uložit na „Disk Google“</string>
+    <string name="records_file_upload_youtube">Nahrát na YouTube</string>
     <string name="reset">vybít</string>
     <string name="storage_external_single">MicroSD karta</string>
     <string name="storage_phone">Paměť telefonu</string>

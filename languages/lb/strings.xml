@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Informatioun /Méi…</string>
     <string name="prefs_kill_services_sum_text">Et gi Astellungen op Ärem Apparat fir Apps z\'erméiglechen automatesch ze spillen an am Hannergrond ze lafen. Klickt hei a füügt d\'Applikatioun un d\'Ausnahmen derbäi (erlaabt Autostart a sou weider) fir datt se am Hannergrond lafen a wann den Ecran aus ass, wann et verbueden ass</string>
     <string name="prefs_kill_services_text">Erlaabt Hannergrond Aarbecht</string>
+    <string name="prefs_language">Sprooch</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Open Applikatioun wann den Opnahmen automatesch ufänkt</string>
     <string name="prefs_launch_app_auto_text">Lancéiere d\'App wann d\'Videoopnam ufänkt</string>
     <string name="prefs_launch_app_limitation_text">Mat Android 11 a méi héich, kënnt Dir vläicht keng vun den installéierten Apps auswielen, well de System selwer d\'App Visibilitéit beschränkt (Privatsphär Politik)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Location Acquisition Method (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS Update Taux</string>
     <string name="prefs_meters_accuracy_value_text">Meter vun Genauegkeet</string>
+    <string name="prefs_open_source_notices_text">Open Source Notifikatiounen</string>
     <string name="prefs_optical_zoom_text">Optesch Zoom (Zoom) /Brennwäit</string>
     <string name="prefs_orientation_landscape">Landschaft</string>
     <string name="prefs_orientation_landscape_reversed">Album ëmgedréint</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">G-Sensor Empfindlechkeet</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Vibratioun wann Schock festgestallt gëtt</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Start opzehuelen wann Bewegung festgestallt gëtt</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Fir Bluetooth-Evenementer ass et nëmme méiglech wann d\'Optioun \"Nëmme beim Laden\" ausgeschalt ass.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Start den AutoStart Applikatiounsservice net fir Batterie ze spueren wärend Dir op Eventer waart fir den Opnahmen automatesch ze starten. Fir Android 8+ ass dëst méiglech wann nëmmen Bluetooth Eventer aktivéiert sinn an de Rescht behënnert sinn.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Dir kënnt dës Optioun ausschalten fir d\'App automatesch opzehuelen nëmmen wann den Hannergronddéngscht vun der App (AutoStart) leeft.\n- Automatesch Opnam fir Eventer wéi Laden, Bluetooth oder AUX kann ouni Probleemer bis Android 7.1 duerchgefouert ginn.\n- Vun Android 8+ un, automatesch Opnam ouni Hannergrondapplikatiounsservice (AutoStart) kann nëmme fir Bluetooth Eventer ausgefouert ginn, an an anere Fäll (wann Dir gelueden oder AUX) musst Dir als éischt den Hannergrondapplikatiounsservice starten (AutoStart) - andeems Dir lancéiert der Applikatioun selwer eemol.\n- Vun Android 11+ un, ouni den Hannergrond App Service (AutoStart), Zougang zu der Kamera ouni Benotzerinteraktioun fir den Opnahmen unzefänken ass nëmme méiglech wann d\'Erlaabnis \"op all Apps\" erlaabt ass.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Automatesch Opnam och wann den Hannergrond Service net leeft (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Start opzehuelen wann d\'Geschwindegkeet gläich /méi héich ass (baséiert op GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Dir kënnt dës Optioun ausschalten fir d\'App automatesch opzehuelen nëmmen wann den Hannergronddéngscht vun der App (AutoStart) leeft.\n- Automatesch Opnam fir Eventer wéi Laden, Bluetooth oder AUX kann ouni Probleemer bis Android 7.1 duerchgefouert ginn.\n- Vun Android 8 un, automatesch Opnam ouni Hannergrondapplikatiounsservice (AutoStart) kann nëmme fir Bluetooth Eventer ausgefouert ginn, an an anere Fäll (wann Dir gelueden oder AUX) musst Dir fir d\'éischt den Hannergrondapplikatiounsservice starten (AutoStart) - andeems Dir de Start vum Applikatioun selwer eemol.\n- Vun Android 11 un ouni den Hannergrond App Service (AutoStart), Zougang zu der Kamera ouni Benotzerinteraktioun ass nëmme méiglech wann den Telefon opgehuewen ass (Écran op) an d\'Erlaabnis \"op all Apps\" gëtt.\n- Also, fir Android 11 a méi héich, musst Dir d\'Applikatioun eemol manuell starten, sou datt den Hannergronddéngscht vun der Applikatioun (AutoStart) ufänkt fir automatesch opzehuelen wärend all Eventer a wann den Telefonschirm ausgeschalt ass.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Automatesch Opnam och wann den Hannergrond Service net leeft (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Stop opzehuelen na</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Stop opzehuelen wann et keng Bewegung ass</string>
     <string name="prefs_rules_auto_stop_speed_text">Stop opzehuelen wann d\'Geschwindegkeet méi niddereg ass (baséiert op GPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Blockéiert Videoe fir iwwerschriwwe ginn</string>
     <string name="prefs_show_overlay_btn_sum_text">Weist eng Fënster mat Kontrollknäppchen uewen op all Applikatiounen</string>
     <string name="prefs_show_overlay_btn_text">Show schwiewend Fënster</string>
-    <string name="prefs_show_overlay_on_recording_text">Show schwiewend Fënster wann d\'Opnahm ufänkt</string>
+    <string name="prefs_show_overlay_on_recording_text">Weist schwiewend Fënster nëmmen wann d\'Opnahm aktiv ass (a zoumaachen automatesch wann et ophält)</string>
     <string name="prefs_show_status_bar_text">Show System Status Bar</string>
     <string name="prefs_show_take_photo_btn_text">Fir eng Foto ze maachen</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Net ënnerstëtzt vun der aktueller Kamera. Hiersteller limitéieren dacks seng Notzung - et ass nëmmen an der Standard Kamera Applikatioun verfügbar</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Ënnerstëtzung (Feedback)</string>
     <string name="prefs_system_alert_window_sum_text">Erlaabt dës App uewen op all aner Apps ze erschéngen. Dëst ass néideg fir automatesch d\'Videoopnam ze starten /ze stoppen oder eng schwiewend Fënster ze weisen</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Erlaabt dës App uewen op all aner Apps ze erschéngen. Dëst ass néideg fir eng schwiewend Fënster ze weisen</string>
-    <string name="prefs_system_alert_window_text">Resolutioun uewen op all Fënsteren</string>
+    <string name="prefs_system_alert_window_text">Display uewen op aner Uwendungen</string>
     <string name="prefs_theme_mode_dark">Däischter Thema</string>
     <string name="prefs_theme_mode_dynamic">Dynamesch</string>
     <string name="prefs_theme_mode_light">Liicht Thema</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Opnam…</string>
     <string name="recording_voice_started_text">D\'Opnahmen hunn ugefaang</string>
     <string name="recording_voice_stopped_text">Opnahmen gestoppt</string>
+    <string name="records_file_edit_trim_crop">Edit (Trim) an \"Google Fotoen\"</string>
     <string name="records_file_sorting_date">Datum</string>
     <string name="records_file_sorting_duration">Dauer</string>
     <string name="records_file_sorting_name">Numm</string>
     <string name="records_file_sorting_size">Dateigréisst</string>
     <string name="records_file_upload_drive">Späichert op \"Google Drive\"</string>
+    <string name="records_file_upload_youtube">Eroplueden op YouTube</string>
     <string name="reset">Auslaaf</string>
     <string name="storage_external_single">MicroSD Kaart</string>
     <string name="storage_phone">Telefon Erënnerung</string>

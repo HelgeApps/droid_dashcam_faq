@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Informații /Mai multe…</string>
     <string name="prefs_kill_services_sum_text">Există setări pe dispozitivul dvs. pentru a permite aplicațiilor să se redeze automat și să ruleze în fundal. Faceți clic aici și adăugați aplicația la excepții (permiteți pornirea automată și așa mai departe) pentru a-i permite să ruleze în fundal și când ecranul este oprit, dacă este interzis</string>
     <string name="prefs_kill_services_text">Permite lucrul de fundal</string>
+    <string name="prefs_language">Limba</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Deschideți aplicația când înregistrarea începe automat</string>
     <string name="prefs_launch_app_auto_text">Lansați aplicația când începe înregistrarea video</string>
     <string name="prefs_launch_app_limitation_text">Cu Android 11 și versiuni ulterioare, este posibil să nu puteți selecta niciuna dintre aplicațiile instalate, deoarece sistemul însuși restricționează vizibilitatea aplicației (politica de confidențialitate)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Metoda de achiziție a locației (GPS)</string>
     <string name="prefs_location_update_frequency_text">Rata de actualizare GPS</string>
     <string name="prefs_meters_accuracy_value_text">metri de precizie</string>
+    <string name="prefs_open_source_notices_text">Notificări cu sursă deschisă</string>
     <string name="prefs_optical_zoom_text">Zoom optic (zoom) /distanță focală</string>
     <string name="prefs_orientation_landscape">Peisaj</string>
     <string name="prefs_orientation_landscape_reversed">Reversul albumului</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">Sensibilitatea senzorului G</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Vibrație la detectarea șocului</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Începeți înregistrarea când este detectată mișcare</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Pentru evenimentele Bluetooth este posibil doar dacă opțiunea „Înregistrare doar la încărcare” este dezactivată.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Nu lansați serviciul de aplicație AutoStart pentru a economisi bateria în timp ce așteptați ca evenimentele să pornească automat înregistrarea. Pentru Android 8+, acest lucru este posibil dacă numai evenimentele Bluetooth sunt activate, iar restul sunt dezactivate.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Puteți dezactiva această opțiune pentru ca aplicația să efectueze înregistrarea automată numai atunci când serviciul de fundal al aplicației (AutoStart) rulează.\n- Înregistrarea automată pentru evenimente precum încărcare, Bluetooth sau AUX poate fi efectuată fără probleme până la Android 7.1.\n- Începând de la Android 8+, înregistrarea automată fără un serviciu de aplicație în fundal (AutoStart) poate fi efectuată numai pentru evenimente Bluetooth, iar în alte cazuri (la încărcare sau AUX) trebuie să porniți mai întâi serviciul de aplicație în fundal (AutoStart) - prin lansare aplicația în sine o dată.\n- Începând cu Android 11+, fără serviciul de aplicație în fundal (AutoStart), accesarea camerei fără interacțiunea utilizatorului pentru a începe înregistrarea este posibilă numai dacă este acordată permisiunea „pe deasupra tuturor aplicațiilor”.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Înregistrare automată chiar dacă serviciul de fundal nu rulează (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Începeți înregistrarea când viteza este egală/mai mare (pe baza GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Puteți dezactiva această opțiune pentru ca aplicația să efectueze înregistrarea automată numai atunci când serviciul de fundal al aplicației (AutoStart) rulează.\n- Înregistrarea automată pentru evenimente precum încărcare, Bluetooth sau AUX poate fi efectuată fără probleme până la Android 7.1.\n- Începând de la Android 8, înregistrarea automată fără un serviciu de aplicație în fundal (AutoStart) poate fi efectuată doar pentru evenimente Bluetooth, iar în alte cazuri (la încărcare sau AUX) trebuie să porniți mai întâi serviciul de aplicație în fundal (AutoStart) - prin lansarea aplicația în sine o singură dată.\n- Începând cu Android 11 fără serviciul de aplicație în fundal (AutoStart), accesul la cameră fără interacțiunea utilizatorului este posibil numai dacă telefonul este deblocat (ecranul aprins) și este acordată permisiunea „pe deasupra tuturor aplicațiilor”.\n- Astfel, pentru Android 11 și versiuni ulterioare, trebuie să lansați manual aplicația o dată pentru ca serviciul de fundal al aplicației (AutoStart) să pornească pentru înregistrarea automată în timpul oricăror evenimente și când ecranul telefonului este oprit.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Înregistrare automată chiar dacă serviciul de fundal nu rulează (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Opriți înregistrarea după</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Opriți înregistrarea când nu există nicio mișcare</string>
     <string name="prefs_rules_auto_stop_speed_text">Opriți înregistrarea când viteza este mai mică (pe baza GPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Blocarea videoclipurilor pentru a nu fi suprascrise</string>
     <string name="prefs_show_overlay_btn_sum_text">Afișează o fereastră cu butoane de control deasupra tuturor aplicațiilor</string>
     <string name="prefs_show_overlay_btn_text">Afișează fereastra plutitoare</string>
-    <string name="prefs_show_overlay_on_recording_text">Afișează fereastra flotantă când începe înregistrarea</string>
+    <string name="prefs_show_overlay_on_recording_text">Afișează fereastra flotantă numai când înregistrarea este activă (și se închide automat când se oprește)</string>
     <string name="prefs_show_status_bar_text">Afișează bara de stare a sistemului</string>
     <string name="prefs_show_take_photo_btn_text">Pentru a face o fotografie</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Nu este acceptat de camera actuală. Producătorii restricționează adesea utilizarea acestuia - este disponibil numai în aplicația standard Camera</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Asistență (feedback)</string>
     <string name="prefs_system_alert_window_sum_text">Permiteți acestei aplicații să apară deasupra tuturor celorlalte aplicații. Acest lucru este necesar pentru a porni/opri automat înregistrarea video sau pentru a afișa o fereastră plutitoare</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Permiteți acestei aplicații să apară deasupra tuturor celorlalte aplicații. Acest lucru este necesar pentru a afișa o fereastră plutitoare</string>
-    <string name="prefs_system_alert_window_text">Rezoluție deasupra tuturor ferestrelor</string>
+    <string name="prefs_system_alert_window_text">Afișați peste alte aplicații</string>
     <string name="prefs_theme_mode_dark">Tema întunecată</string>
     <string name="prefs_theme_mode_dynamic">Dinamic</string>
     <string name="prefs_theme_mode_light">Tema ușoară</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Înregistrare…</string>
     <string name="recording_voice_started_text">Înregistrarea a început</string>
     <string name="recording_voice_stopped_text">Înregistrarea sa oprit</string>
+    <string name="records_file_edit_trim_crop">Editați (decupați) în „Google Foto”</string>
     <string name="records_file_sorting_date">Data</string>
     <string name="records_file_sorting_duration">Durată</string>
     <string name="records_file_sorting_name">Nume</string>
     <string name="records_file_sorting_size">Mărime fișier</string>
     <string name="records_file_upload_drive">Salvați în „Google Drive”</string>
+    <string name="records_file_upload_youtube">Încărcați pe YouTube</string>
     <string name="reset">deversare</string>
     <string name="storage_external_single">Card microSD</string>
     <string name="storage_phone">Memoria telefonului</string>

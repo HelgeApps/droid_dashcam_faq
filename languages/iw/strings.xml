@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">מידע /עוד…</string>
     <string name="prefs_kill_services_sum_text">יש הגדרות במכשיר שלך כדי לאפשר לאפליקציות לפעול אוטומטית ולרוץ ברקע. לחץ כאן והוסף את האפליקציה לחריגים (אפשר הפעלה אוטומטית וכן הלאה) כדי לאפשר לה לפעול ברקע וכאשר המסך כבוי, אם אסור</string>
     <string name="prefs_kill_services_text">מאפשר עבודת רקע</string>
+    <string name="prefs_language">שפה</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">פתח את האפליקציה כאשר ההקלטה מתחילה באופן אוטומטי</string>
     <string name="prefs_launch_app_auto_text">הפעל את האפליקציה כאשר הקלטת וידאו מתחילה</string>
     <string name="prefs_launch_app_limitation_text">עם אנדרואיד 11 ומעלה, ייתכן שלא תוכל לבחור אף אחת מהאפליקציות המותקנות מכיוון שהמערכת עצמה מגבילה את נראות האפליקציה (מדיניות פרטיות)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">שיטת רכישת מיקום (GPS)</string>
     <string name="prefs_location_update_frequency_text">קצב עדכון GPS</string>
     <string name="prefs_meters_accuracy_value_text">מטרים של דיוק</string>
+    <string name="prefs_open_source_notices_text">הודעות קוד פתוח</string>
     <string name="prefs_optical_zoom_text">זום אופטי (זום) /אורך מוקד</string>
     <string name="prefs_orientation_landscape">נוֹף</string>
     <string name="prefs_orientation_landscape_reversed">אלבום הפוך</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">רגישות חיישן G</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">רטט כאשר מזוהה הלם</string>
     <string name="prefs_rules_auto_start_camera_motion_text">התחל להקליט כאשר מזוהה תנועה</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">עבור אירועי Bluetooth זה אפשרי רק אם האפשרות \"הקלט רק בעת טעינה\" מושבתת.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">אל תפעיל את שירות האפליקציה AutoStart כדי לחסוך בסוללה בזמן ההמתנה לאירועים כדי להתחיל אוטומטית בהקלטה. עבור אנדרואיד 8+ זה אפשרי אם רק אירועי Bluetooth מופעלים והשאר מושבתים.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* ניתן לבטל אפשרות זו כדי שהאפליקציה תבצע הקלטה אוטומטית רק כאשר שירות הרקע של האפליקציה (AutoStart) פועל.\n- הקלטה אוטומטית לאירועים כגון טעינה, בלוטות\' או AUX יכולה להתבצע ללא בעיות עד אנדרואיד 7.1.\n- החל מאנדרואיד 8+, הקלטה אוטומטית ללא שירות אפליקציית רקע (AutoStart) יכולה להתבצע רק עבור אירועי Bluetooth, ובמקרים אחרים (בעת טעינה או AUX) יש להפעיל תחילה את שירות אפליקציית הרקע (AutoStart) - על ידי הפעלה את האפליקציה עצמה פעם אחת.\n- החל מ-Android 11+, ללא שירות אפליקציית הרקע (AutoStart), גישה למצלמה ללא אינטראקציה של המשתמש כדי להתחיל בהקלטה אפשרית רק אם ניתנת הרשאת \"מעל כל האפליקציות\".</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">הקלטה אוטומטית גם אם שירות הרקע אינו פועל (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">התחל להקליט כאשר המהירות שווה /גבוהה יותר (מבוסס על GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* ניתן לבטל אפשרות זו כדי שהאפליקציה תבצע הקלטה אוטומטית רק כאשר שירות הרקע של האפליקציה (AutoStart) פועל.\n- הקלטה אוטומטית לאירועים כגון טעינה, בלוטות\' או AUX יכולה להתבצע ללא בעיות עד אנדרואיד 7.1.\n- החל מאנדרואיד 8, הקלטה אוטומטית ללא שירות אפליקציית רקע (AutoStart) יכולה להתבצע רק עבור אירועי Bluetooth, ובמקרים אחרים (בעת טעינה או AUX) יש להפעיל תחילה את שירות אפליקציית הרקע (AutoStart) - על ידי הפעלת היישום עצמו פעם אחת.\n- החל מאנדרואיד 11 ללא שירות אפליקציית הרקע (AutoStart), גישה למצלמה ללא אינטראקציה של המשתמש אפשרית רק אם הטלפון אינו נעול (מסך מופעל) והרשאה \"מעל כל האפליקציות\" ניתנת.\n- כך, עבור אנדרואיד 11 ומעלה, אתה צריך להפעיל את האפליקציה באופן ידני פעם אחת כדי ששירות הרקע של האפליקציה (AutoStart) יתחיל להקלטה אוטומטית בכל אירוע וכאשר מסך הטלפון כבוי.</string>
-    <string name="prefs_rules_auto_start_without_service_text">הקלטה אוטומטית גם אם שירות הרקע אינו פועל (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">תפסיק להקליט אחרי</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">הפסק את ההקלטה כאשר אין תנועה</string>
     <string name="prefs_rules_auto_stop_speed_text">הפסק את ההקלטה כאשר המהירות נמוכה יותר (מבוסס על GPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">חסימת סרטונים להחלפתם</string>
     <string name="prefs_show_overlay_btn_sum_text">מציג חלון עם לחצני שליטה על גבי כל היישומים</string>
     <string name="prefs_show_overlay_btn_text">הצג חלון צף</string>
-    <string name="prefs_show_overlay_on_recording_text">הצג חלון צף כאשר ההקלטה מתחילה</string>
+    <string name="prefs_show_overlay_on_recording_text">הצג חלון צף רק כשההקלטה פעילה (ונסגר אוטומטית כשהיא מפסיקה)</string>
     <string name="prefs_show_status_bar_text">הצג את שורת המצב של המערכת</string>
     <string name="prefs_show_take_photo_btn_text">כדי לעשות תמונה</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">לא נתמך על ידי המצלמה הנוכחית. לעתים קרובות יצרנים מגבילים את השימוש בו - הוא זמין רק באפליקציית המצלמה הרגילה</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">תמיכה (משוב)</string>
     <string name="prefs_system_alert_window_sum_text">אפשר לאפליקציה הזו להופיע מעל כל שאר האפליקציות. זה הכרחי כדי להתחיל /לעצור את הקלטת וידאו אוטומטית או כדי להציג חלון צף</string>
     <string name="prefs_system_alert_window_sum_text_bvr">אפשר לאפליקציה הזו להופיע מעל כל שאר האפליקציות. זה הכרחי כדי להציג חלון צף</string>
-    <string name="prefs_system_alert_window_text">רזולוציה מעל כל החלונות</string>
+    <string name="prefs_system_alert_window_text">תצוגה על גבי יישומים אחרים</string>
     <string name="prefs_theme_mode_dark">ערכת נושא כהה</string>
     <string name="prefs_theme_mode_dynamic">דִינָמִי</string>
     <string name="prefs_theme_mode_light">נושא קליל</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">הקלטה…</string>
     <string name="recording_voice_started_text">ההקלטה החלה</string>
     <string name="recording_voice_stopped_text">ההקלטה הופסקה</string>
+    <string name="records_file_edit_trim_crop">ערוך (חתוך) ב\"תמונות Google\"</string>
     <string name="records_file_sorting_date">תַאֲרִיך</string>
     <string name="records_file_sorting_duration">מֶשֶׁך</string>
     <string name="records_file_sorting_name">שֵׁם</string>
     <string name="records_file_sorting_size">גודל הקובץ</string>
     <string name="records_file_upload_drive">שמור ב-\"Google Drive\"</string>
+    <string name="records_file_upload_youtube">העלה ליוטיוב</string>
     <string name="reset">פְּרִיקָה</string>
     <string name="storage_external_single">כרטיס מיקרו אס די</string>
     <string name="storage_phone">זיכרון טלפון</string>

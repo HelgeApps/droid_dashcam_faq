@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Ma\'lumot /Batafsil…</string>
     <string name="prefs_kill_services_sum_text">Qurilmangizda ilovalarni avtomatik ijro etishi va fonda ishlashiga ruxsat beruvchi sozlamalar mavjud. Bu yerni bosing va agar taqiqlangan bo\'lsa, fonda va ekran o\'chiq bo\'lganda ishlashiga ruxsat berish uchun ilovani istisnolarga qo\'shing (avtomatik ishga tushirishga ruxsat bering va hokazo).</string>
     <string name="prefs_kill_services_text">Fonda ishlashga ruxsat berish</string>
+    <string name="prefs_language">Til</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Yozish avtomatik ravishda boshlanganda ilovani oching</string>
     <string name="prefs_launch_app_auto_text">Video yozish boshlanganda ilovani ishga tushiring</string>
     <string name="prefs_launch_app_limitation_text">Android 11 va undan yuqori versiyalarida siz oʻrnatilgan ilovalardan birini tanlay olmaysiz, chunki tizimning oʻzi ilovalar koʻrinishini cheklaydi (maxfiylik siyosati)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Joylashuvni aniqlash usuli (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS yangilanish tezligi</string>
     <string name="prefs_meters_accuracy_value_text">metr aniqlik</string>
+    <string name="prefs_open_source_notices_text">Ochiq manba xabarnomalari</string>
     <string name="prefs_optical_zoom_text">Optik kattalashtirish (kattalashtirish) /Fokus uzunligi</string>
     <string name="prefs_orientation_landscape">Peyzaj</string>
     <string name="prefs_orientation_landscape_reversed">Albom teskari</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">G-sensor sezgirligi</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Zarba aniqlanganda tebranish</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Harakat aniqlanganda yozishni boshlang</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Bluetooth hodisalari uchun faqat \"faqat zaryad olayotganda yozib olish\" opsiyasi o\'chirilgan bo\'lsa mumkin.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Voqealarni yozib olishni avtomatik boshlashni kutayotganda batareyani tejash uchun AutoStart ilova xizmatini ishga tushirmang. Android 8+ uchun bu faqat Bluetooth hodisalari yoqilgan bo\'lsa va qolganlari o\'chirilgan bo\'lsa mumkin.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Ilovaning fon xizmati (AutoStart) ishlayotgandagina avtomatik yozishni amalga oshirishi uchun ushbu parametrni oʻchirib qoʻyishingiz mumkin.\n- Zaryadlash, Bluetooth yoki AUX kabi hodisalarni avtomatik yozib olish Android 7.1 ga qadar muammosiz amalga oshirilishi mumkin.\n- Android 8+ dan boshlab, fon ilovasi xizmatisiz avtomatik yozish (AutoStart) faqat Bluetooth hodisalari uchun amalga oshirilishi mumkin, boshqa hollarda (zaryad olayotganda yoki AUXda) avval fon ilovasi xizmatini (AutoStart) ishga tushirishingiz kerak - ishga tushirish orqali ilovaning o\'zi bir marta.\n- Android 11+ dan boshlab, fon ilovasi xizmatisiz (AutoStart) yozishni boshlash uchun kameraga foydalanuvchi shovqinisiz kirish faqat “barcha ilovalar ustiga” ruxsati berilgan taqdirdagina mumkin.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Fon xizmati ishlamayotgan bo\'lsa ham avtomatik yozish (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Tezlik teng /yuqoriroq bo\'lganda yozib olishni boshlang (GPS asosida)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Ilovaning fon xizmati (AutoStart) ishlayotgandagina avtomatik yozishni amalga oshirishi uchun ushbu parametrni oʻchirib qoʻyishingiz mumkin.\n- Zaryadlash, Bluetooth yoki AUX kabi hodisalarni avtomatik yozib olish Android 7.1 ga qadar muammosiz amalga oshirilishi mumkin.\n- Android 8 dan boshlab, fon ilovasi xizmatisiz avtomatik yozib olish (AutoStart) faqat Bluetooth hodisalari uchun amalga oshirilishi mumkin, boshqa hollarda (zaryad olayotganda yoki AUXda) avval fon ilovasi xizmatini (AutoStart) ishga tushirishingiz kerak. ilovaning o\'zi bir marta.\n- Android 11-dan boshlab fon ilovasi xizmatisiz (AutoStart) kameraga foydalanuvchi shovqinisiz kirish faqat telefon qulfdan chiqarilgan (ekran yoqilgan) va “barcha ilovalar ustiga” ruxsati berilgan taqdirdagina mumkin.\n- Shunday qilib, Android 11 va undan yuqori versiyalar uchun ilovaning fon xizmati (AutoStart) har qanday hodisalar paytida va telefon ekrani o\'chirilganda avtomatik yozib olish uchun ishga tushishi uchun dasturni bir marta qo\'lda ishga tushirishingiz kerak.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Fon xizmati ishlamayotgan bo\'lsa ham avtomatik yozish (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Keyin yozishni to\'xtating</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Harakat bo\'lmaganda yozishni to\'xtating</string>
     <string name="prefs_rules_auto_stop_speed_text">Tezlik pastroq bo\'lganda yozib olishni to\'xtating (GPS asosida)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Videolarni qayta yozishni bloklash</string>
     <string name="prefs_show_overlay_btn_sum_text">Barcha ilovalar tepasida boshqaruv tugmalari bo\'lgan oynani ko\'rsatadi</string>
     <string name="prefs_show_overlay_btn_text">Suzuvchi oynani ko\'rsatish</string>
-    <string name="prefs_show_overlay_on_recording_text">Yozish boshlanganda suzuvchi oynani ko\'rsatish</string>
+    <string name="prefs_show_overlay_on_recording_text">Suzuvchi oynani faqat yozib olish faol bo\'lganda ko\'rsatish (va to\'xtaganda avtomatik ravishda yopiladi)</string>
     <string name="prefs_show_status_bar_text">Tizim holati panelini ko\'rsatish</string>
     <string name="prefs_show_take_photo_btn_text">Surat qilish uchun</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Joriy kamera tomonidan qo\'llab-quvvatlanmaydi. Ishlab chiqaruvchilar ko\'pincha undan foydalanishni cheklaydilar - u faqat standart Kamera ilovasida mavjud</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Qo\'llab-quvvatlash (teskari aloqa)</string>
     <string name="prefs_system_alert_window_sum_text">Ushbu ilovaga boshqa barcha ilovalarning tepasida koʻrinishiga ruxsat bering. Bu video yozishni avtomatik ravishda boshlash /to\'xtatish yoki suzuvchi oynani ko\'rsatish uchun kerak</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Bu ilovaga boshqa barcha ilovalarning tepasida koʻrinishiga ruxsat bering. Bu suzuvchi oynani ko\'rsatish uchun kerak</string>
-    <string name="prefs_system_alert_window_text">Ruxsat barcha oynalar tepasida</string>
+    <string name="prefs_system_alert_window_text">Boshqa ilovalar ustida ko\'rsatish</string>
     <string name="prefs_theme_mode_dark">Qorong\'i mavzu</string>
     <string name="prefs_theme_mode_dynamic">Dinamik</string>
     <string name="prefs_theme_mode_light">Engil mavzu</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Yozilmoqda…</string>
     <string name="recording_voice_started_text">Yozib olish boshlandi</string>
     <string name="recording_voice_stopped_text">Yozib olish toʻxtatildi</string>
+    <string name="records_file_edit_trim_crop">“Google Photos”da tahrirlash (qirqish)</string>
     <string name="records_file_sorting_date">Sana</string>
     <string name="records_file_sorting_duration">Davomiyligi</string>
     <string name="records_file_sorting_name">Ism</string>
     <string name="records_file_sorting_size">Fayl hajmi</string>
     <string name="records_file_upload_drive">“Google Drive”ga saqlash</string>
+    <string name="records_file_upload_youtube">YouTubega yuklash</string>
     <string name="reset">tushirish</string>
     <string name="storage_external_single">MicroSD karta</string>
     <string name="storage_phone">Telefon xotirasi</string>

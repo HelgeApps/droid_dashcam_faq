@@ -205,6 +205,7 @@
     <string name="prefs_info_more_category_text">Informacje / Więcej…</string>
     <string name="prefs_kill_services_sum_text">Na urządzeniu są ustawienia, które pozwalają aplikacjom na autoodtwarzanie i działanie w tle. Kliknij tutaj i dodaj aplikację do wyjątków (zezwól na autostart itp.), aby umożliwić jej działanie w tle i przy wyłączonym ekranie, jeśli jest to zabronione</string>
     <string name="prefs_kill_services_text">Zezwolenie na pracę w tle</string>
+    <string name="prefs_language">Język</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Otwórz aplikację, gdy nagrywanie rozpocznie się automatycznie</string>
     <string name="prefs_launch_app_auto_text">Uruchom aplikację po rozpoczęciu nagrywania wideo</string>
     <string name="prefs_launch_app_limitation_text">W systemie Android 11 lub nowszym możesz nie być w stanie wybrać żadnej z zainstalowanych aplikacji, ponieważ sam system ogranicza widoczność aplikacji (polityka prywatności)</string>
@@ -220,6 +221,7 @@
     <string name="prefs_location_provider_method_text">Metoda pobierania lokalizacji (GPS)</string>
     <string name="prefs_location_update_frequency_text">Szybkość aktualizacji GPS</string>
     <string name="prefs_meters_accuracy_value_text">Dokładność lokalizacji (w metrach)</string>
+    <string name="prefs_open_source_notices_text">Powiadomienia o otwartym kodzie źródłowym</string>
     <string name="prefs_optical_zoom_text">Zoom optyczny (Długość ogniskowej)</string>
     <string name="prefs_orientation_landscape">Poziomo</string>
     <string name="prefs_orientation_landscape_reversed">Odwrócony w poziomie</string>
@@ -261,9 +263,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">Czułość G-sensora</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Wibracje po wykryciu wstrząsu</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Rozpocznij nagrywanie po wykryciu ruchu</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">W przypadku zdarzeń Bluetooth jest to możliwe tylko wtedy, gdy wyłączona jest opcja „nagrywaj tylko podczas ładowania”.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Nie uruchamiaj usługi aplikacji AutoStart, aby oszczędzać baterię podczas oczekiwania na zdarzenia, które automatycznie rozpoczną nagrywanie. W przypadku Androida 8 lub nowszego jest to możliwe, jeśli włączone są tylko zdarzenia Bluetooth, a pozostałe są wyłączone.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Możesz wyłączyć tę opcję, aby aplikacja automatycznie nagrywała tylko wtedy, gdy działa usługa aplikacji w tle (AutoStart).\n- Automatyczne nagrywanie zdarzeń takich jak ładowanie, Bluetooth lub AUX można wykonywać bez problemów aż do Androida 7.1.\n- Począwszy od Androida 8+, automatyczne nagrywanie bez usługi aplikacji w tle (AutoStart) można wykonywać tylko dla zdarzeń Bluetooth, a w pozostałych przypadkach (podczas ładowania lub AUX) należy najpierw uruchomić usługę aplikacji w tle (AutoStart) - uruchamiając samą aplikację raz.\n- Począwszy od Androida 11+, bez usługi aplikacji działającej w tle (AutoStart), dostęp do kamery bez interakcji użytkownika w celu rozpoczęcia nagrywania jest możliwy tylko po udzieleniu pozwolenia „na wszystkich aplikacjach”.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Automatyczne nagrywanie, nawet jeśli usługa w tle nie jest uruchomiona (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Rozpocznij nagrywanie, gdy prędkość jest równa/wyższa (na podstawie GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Możesz wyłączyć tę opcję, aby aplikacja automatycznie nagrywała tylko wtedy, gdy działa usługa aplikacji w tle (AutoStart).\n- Automatyczne nagrywanie zdarzeń takich jak ładowanie, Bluetooth lub AUX można wykonywać bez problemów aż do Androida 7.1.\n- Począwszy od Androida 8, automatyczne nagrywanie bez usługi aplikacji działającej w tle (AutoStart) można wykonywać tylko dla zdarzeń Bluetooth, a w pozostałych przypadkach (podczas ładowania lub AUX) należy najpierw uruchomić usługę aplikacji działającej w tle (AutoStart) - uruchamiając samą aplikację raz.\n- Począwszy od Androida 11 bez usługi aplikacji działającej w tle (AutoStart), dostęp do aparatu bez interakcji z użytkownikiem jest możliwy tylko wtedy, gdy telefon jest odblokowany (ekran włączony) i udzielono pozwolenia „na wszystkich aplikacjach”.\n- Dlatego w przypadku systemu Android 11 i nowszych wersji należy raz ręcznie uruchomić aplikację, aby usługa aplikacji w tle (AutoStart) uruchomiła się w celu automatycznego nagrywania podczas dowolnych zdarzeń oraz po wyłączeniu ekranu telefonu.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Automatyczne nagrywanie, nawet jeśli usługa w tle nie jest uruchomiona (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Zatrzymaj nagrywanie po</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Zatrzymaj nagrywanie, gdy nie ma ruchu</string>
     <string name="prefs_rules_auto_stop_speed_text">Zatrzymaj nagrywanie, gdy prędkość jest mniejsza (na podstawie GPS)</string>
@@ -291,7 +295,7 @@
     <string name="prefs_show_lock_btn_text">Zablokuj nagranie przed nadpisaniem</string>
     <string name="prefs_show_overlay_btn_sum_text">Wyświetla okno z przyciskami sterującymi na górze wszystkich aplikacji</string>
     <string name="prefs_show_overlay_btn_text">Pokaż pływające okno</string>
-    <string name="prefs_show_overlay_on_recording_text">Pokaż pływające okno po rozpoczęciu nagrywania</string>
+    <string name="prefs_show_overlay_on_recording_text">Wyświetlaj pływające okno tylko wtedy, gdy nagrywanie jest aktywne (i zamykaj automatycznie po jego zatrzymaniu)</string>
     <string name="prefs_show_status_bar_text">Pokaż pasek stanu systemu</string>
     <string name="prefs_show_take_photo_btn_text">Zrób zdjęcie</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Nie jest obsługiwana przez obecną kamerę. Producenci często ograniczają jej stosowanie – jest dostępna tylko w standardowej aplikacji aparatu</string>
@@ -327,7 +331,7 @@
     <string name="prefs_support_text">Wsparcie / Informacje zwrotne</string>
     <string name="prefs_system_alert_window_sum_text">Zezwól tej aplikacji na wyświetlanie nad wszystkimi innymi aplikacjami. Jest to konieczne, aby automatycznie rozpocząć/zatrzymać nagrywanie wideo lub wyświetlić pływające okno</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Zezwól tej aplikacji na wyświetlanie się nad wszystkimi innymi aplikacjami. Jest to konieczne, aby wyświetlić pływające okno</string>
-    <string name="prefs_system_alert_window_text">Okno alertu systemowego</string>
+    <string name="prefs_system_alert_window_text">Wyświetlaj nad innymi aplikacjami</string>
     <string name="prefs_theme_mode_dark">ciemny schemat</string>
     <string name="prefs_theme_mode_dynamic">Dynamiczny</string>
     <string name="prefs_theme_mode_light">Lekki motyw</string>
@@ -421,11 +425,13 @@
     <string name="recording_text">Nagrywanie…</string>
     <string name="recording_voice_started_text">Rozpoczęło się nagrywanie</string>
     <string name="recording_voice_stopped_text">Nagrywanie zatrzymane</string>
+    <string name="records_file_edit_trim_crop">Edytuj (przytnij) w „Zdjęciach Google”</string>
     <string name="records_file_sorting_date">Data</string>
     <string name="records_file_sorting_duration">Czas trwania</string>
     <string name="records_file_sorting_name">Nazwa</string>
     <string name="records_file_sorting_size">Rozmiar pliku</string>
     <string name="records_file_upload_drive">Zapisz na „Dysku Google”</string>
+    <string name="records_file_upload_youtube">Prześlij do YouTube</string>
     <string name="reset">resetuj</string>
     <string name="storage_external_single">Karta microSD</string>
     <string name="storage_phone">Pamięć telefonu</string>

@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Informazioa /Gehiago…</string>
     <string name="prefs_kill_services_sum_text">Zure gailuan ezarpenak daude aplikazioak automatikoki erreproduzitzeko eta atzeko planoan exekutatzeko. Egin klik hemen eta gehitu aplikazioa salbuespenei (baimendu automatikoki abiarazte eta abar) atzeko planoan exekutatu ahal izateko eta pantaila itzalita dagoenean, debekatuta badago.</string>
     <string name="prefs_kill_services_text">Atzeko planoko lanak baimentzea</string>
+    <string name="prefs_language">Hizkuntza</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Ireki aplikazioa grabaketa automatikoki hasten denean</string>
     <string name="prefs_launch_app_auto_text">Abiarazi aplikazioa bideoa grabatzen hasten denean</string>
     <string name="prefs_launch_app_limitation_text">Android 11 eta bertsio berriagoekin, baliteke instalatutako aplikazioetako bat ezin aukeratu ahal izatea, sistemak berak aplikazioen ikusgarritasuna mugatzen duelako (pribatutasun-politika)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Kokapena eskuratzeko metodoa (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS eguneratze tasa</string>
     <string name="prefs_meters_accuracy_value_text">metroko zehaztasuna</string>
+    <string name="prefs_open_source_notices_text">Kode irekiko oharrak</string>
     <string name="prefs_optical_zoom_text">Zoom optikoa (Zoom) /Fokua</string>
     <string name="prefs_orientation_landscape">Paisaia</string>
     <string name="prefs_orientation_landscape_reversed">Albumaren alderantziz</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">G-sentsorearen sentsibilitatea</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Dardara kolpea hautematen denean</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Hasi grabatzen mugimendua hautematen denean</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Bluetooth gertaeretarako, \"kargatzean soilik grabatu\" aukera desgaituta badago soilik posible da.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Ez abiarazi AutoStart aplikazio-zerbitzua bateria aurrezteko, gertaerak grabaketa automatikoki abiarazteko zain dauden bitartean. Android 8+erako hau posible da Bluetooth gertaerak soilik gaituta badaude eta gainerakoak desgaituta badaude.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Aukera hau desaktibatu dezakezu aplikazioak grabaketa automatikoa egiteko aplikazioaren atzeko planoko zerbitzua (AutoStart) martxan dagoenean soilik.\n- Karga, Bluetooth edo AUX bezalako gertaeren grabaketa automatikoa arazorik gabe egin daiteke Android 7.1 arte.\n- Android 8+etik hasita, atzeko planoko aplikazio-zerbitzurik gabeko grabazio automatikoa (AutoStart) Bluetooth-eko gertakarietarako soilik egin daiteke, eta beste kasu batzuetan (kargatzen edo AUX-ean) atzeko planoko aplikazio-zerbitzua (AutoStart) abiarazi behar duzu lehenik - abiaraziz aplikazioa bera behin.\n- Android 11+ekin hasita, atzeko planoko aplikazio zerbitzurik gabe (AutoStart), kamerara sartzea erabiltzaileen interakziorik gabe grabatzen hasteko soilik posible da \"aplikazio guztien gainean\" baimena ematen bada.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Grabaketa automatikoa atzeko planoko zerbitzua martxan ez badago ere (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Hasi grabatzen abiadura berdina /handiagoa denean (GPSan oinarrituta)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Aukera hau desaktibatu dezakezu aplikazioak grabaketa automatikoa egiteko aplikazioaren atzeko planoko zerbitzua (AutoStart) martxan dagoenean soilik.\n- Karga, Bluetooth edo AUX bezalako gertaeren grabaketa automatikoa arazorik gabe egin daiteke Android 7.1 arte.\n- Android 8tik hasita, atzeko planoko aplikazio-zerbitzurik gabeko grabazio automatikoa (AutoStart) Bluetooth-eko gertaeretarako soilik egin daiteke, eta beste kasu batzuetan (kargatzen edo AUX-ean) atzeko planoko aplikazio-zerbitzua (AutoStart) abiarazi behar duzu lehenik - abiaraziz. aplikazioa bera behin.\n- Atzeko planoko aplikazio zerbitzurik gabe (AutoStart) Android 11-rekin hasita, kamerara sarbidea erabiltzailearen interakziorik gabe telefonoa desblokeatuta badago (pantaila piztuta) eta \"aplikazio guztien gainean\" baimena ematen bada soilik posible da.\n- Horrela, Android 11 eta bertsio berriagorako, aplikazioa eskuz abiarazi behar duzu behin, aplikazioaren atzeko planoko zerbitzua (AutoStart) grabaketa automatikorako abiarazteko edozein ekitalditan eta telefonoaren pantaila itzalita dagoenean.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Grabaketa automatikoa atzeko planoko zerbitzua martxan ez badago ere (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Utzi ondoren grabatzeari</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Utzi grabatzea mugimendurik ez dagoenean</string>
     <string name="prefs_rules_auto_stop_speed_text">Gelditu grabatzea abiadura txikiagoa denean (GPSan oinarrituta)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Bideoak gainidatzi ez daitezen blokeatzea</string>
     <string name="prefs_show_overlay_btn_sum_text">Aplikazio guztien gainean kontrol-botoiak dituen leiho bat bistaratzen du</string>
     <string name="prefs_show_overlay_btn_text">Erakutsi leiho mugikorra</string>
-    <string name="prefs_show_overlay_on_recording_text">Erakutsi leiho mugikorra grabaketa hasten denean</string>
+    <string name="prefs_show_overlay_on_recording_text">Erakutsi leiho mugikorra grabaketa aktibo dagoenean soilik (eta itxi automatikoki gelditzen denean)</string>
     <string name="prefs_show_status_bar_text">Erakutsi sistemaren egoera-barra</string>
     <string name="prefs_show_take_photo_btn_text">Argazki bat egiteko</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Uneko kamerak ez du onartzen. Fabrikatzaileek askotan erabilera mugatzen dute - Kamera aplikazio estandarrean bakarrik dago eskuragarri</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Laguntza (iritzia)</string>
     <string name="prefs_system_alert_window_sum_text">Baimendu aplikazio hau beste aplikazio guztien gainean agertzea. Hau beharrezkoa da bideo-grabaketa automatikoki hasteko/gelditzeko edo leiho mugikor bat bistaratzeko</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Baimendu aplikazio hau beste aplikazio guztien gainean agertzea. Hau beharrezkoa da leiho mugikor bat bistaratzeko</string>
-    <string name="prefs_system_alert_window_text">Ebazpena leiho guztien gainean</string>
+    <string name="prefs_system_alert_window_text">Bistaratu beste aplikazioen gainean</string>
     <string name="prefs_theme_mode_dark">Gai iluna</string>
     <string name="prefs_theme_mode_dynamic">Dinamikoa</string>
     <string name="prefs_theme_mode_light">Gai argia</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Grabatzen…</string>
     <string name="recording_voice_started_text">Grabaketa hasi da</string>
     <string name="recording_voice_stopped_text">Grabaketa gelditu da</string>
+    <string name="records_file_edit_trim_crop">Editatu (moztu) \"Google Argazkiak\" atalean</string>
     <string name="records_file_sorting_date">Data</string>
     <string name="records_file_sorting_duration">Iraupena</string>
     <string name="records_file_sorting_name">Izena</string>
     <string name="records_file_sorting_size">Fitxategiaren tamaina</string>
     <string name="records_file_upload_drive">Gorde \"Google Drive\"-n</string>
+    <string name="records_file_upload_youtube">Igo YouTube-ra</string>
     <string name="reset">isurketa</string>
     <string name="storage_external_single">MicroSD txartela</string>
     <string name="storage_phone">Telefonoaren memoria</string>

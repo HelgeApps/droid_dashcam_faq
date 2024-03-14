@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Πληροφορίες /Περισσότερα…</string>
     <string name="prefs_kill_services_sum_text">Υπάρχουν ρυθμίσεις στη συσκευή σας που επιτρέπουν στις εφαρμογές την αυτόματη αναπαραγωγή και εκτέλεση στο παρασκήνιο. Κάντε κλικ εδώ και προσθέστε την εφαρμογή στις εξαιρέσεις (να επιτρέπεται η αυτόματη εκκίνηση και ούτω καθεξής) για να επιτρέπεται η εκτέλεση στο παρασκήνιο και όταν η οθόνη είναι απενεργοποιημένη, εάν απαγορεύεται</string>
     <string name="prefs_kill_services_text">Επιτρέπεται η εργασία στο παρασκήνιο</string>
+    <string name="prefs_language">Γλώσσα</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Ανοίξτε την εφαρμογή όταν ξεκινήσει αυτόματα η εγγραφή</string>
     <string name="prefs_launch_app_auto_text">Εκκινήστε την εφαρμογή όταν ξεκινήσει η εγγραφή βίντεο</string>
     <string name="prefs_launch_app_limitation_text">Με Android 11 και νεότερη έκδοση, ενδέχεται να μην μπορείτε να επιλέξετε καμία από τις εγκατεστημένες εφαρμογές, καθώς το ίδιο το σύστημα περιορίζει την ορατότητα της εφαρμογής (πολιτική απορρήτου)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Μέθοδος απόκτησης τοποθεσίας (GPS)</string>
     <string name="prefs_location_update_frequency_text">Ρυθμός ενημέρωσης GPS</string>
     <string name="prefs_meters_accuracy_value_text">μέτρα ακρίβειας</string>
+    <string name="prefs_open_source_notices_text">Ανακοινώσεις ανοιχτού κώδικα</string>
     <string name="prefs_optical_zoom_text">Οπτικό ζουμ (Ζουμ) /Εστιακό μήκος</string>
     <string name="prefs_orientation_landscape">Τοπίο</string>
     <string name="prefs_orientation_landscape_reversed">Άλμπουμ πίσω</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">Ευαισθησία αισθητήρα G</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Δόνηση όταν ανιχνεύεται σοκ</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Ξεκινήστε την εγγραφή όταν ανιχνευτεί κίνηση</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Για συμβάντα Bluetooth είναι δυνατή μόνο εάν η επιλογή \"εγγραφή μόνο κατά τη φόρτιση\" είναι απενεργοποιημένη.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Μην εκκινείτε την υπηρεσία εφαρμογής AutoStart για εξοικονόμηση μπαταρίας ενώ περιμένετε να ξεκινήσει η αυτόματη εγγραφή συμβάντων. Για Android 8+ αυτό είναι δυνατό εάν είναι ενεργοποιημένα μόνο τα συμβάντα Bluetooth και τα υπόλοιπα είναι απενεργοποιημένα.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Μπορείτε να απενεργοποιήσετε αυτήν την επιλογή ώστε η εφαρμογή να πραγματοποιεί αυτόματη εγγραφή μόνο όταν εκτελείται η υπηρεσία παρασκηνίου της εφαρμογής (AutoStart).\n- Η αυτόματη εγγραφή συμβάντων όπως φόρτιση, Bluetooth ή AUX μπορεί να πραγματοποιηθεί χωρίς προβλήματα έως το Android 7.1.\n- Ξεκινώντας από το Android 8+, η αυτόματη εγγραφή χωρίς υπηρεσία εφαρμογών παρασκηνίου (AutoStart) μπορεί να πραγματοποιηθεί μόνο για συμβάντα Bluetooth και σε άλλες περιπτώσεις (κατά τη φόρτιση ή AUX) πρέπει πρώτα να ξεκινήσετε την υπηρεσία εφαρμογών παρασκηνίου (AutoStart) - εκκινώντας η ίδια η εφαρμογή μία φορά.\n- Ξεκινώντας με το Android 11+, χωρίς την υπηρεσία εφαρμογών παρασκηνίου (AutoStart), η πρόσβαση στην κάμερα χωρίς αλληλεπίδραση με τον χρήστη για την έναρξη της εγγραφής είναι δυνατή μόνο εάν παραχωρηθεί η άδεια \"πάνω από όλες τις εφαρμογές\".</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Αυτόματη εγγραφή ακόμα κι αν η υπηρεσία παρασκηνίου δεν εκτελείται (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Ξεκινήστε την εγγραφή όταν η ταχύτητα είναι ίση /υψηλότερη (βάσει GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Μπορείτε να απενεργοποιήσετε αυτήν την επιλογή ώστε η εφαρμογή να πραγματοποιεί αυτόματη εγγραφή μόνο όταν εκτελείται η υπηρεσία παρασκηνίου της εφαρμογής (AutoStart).\n- Η αυτόματη εγγραφή συμβάντων όπως φόρτιση, Bluetooth ή AUX μπορεί να πραγματοποιηθεί χωρίς προβλήματα έως το Android 7.1.\n- Ξεκινώντας από το Android 8, η αυτόματη εγγραφή χωρίς υπηρεσία εφαρμογών παρασκηνίου (AutoStart) μπορεί να πραγματοποιηθεί μόνο για συμβάντα Bluetooth και σε άλλες περιπτώσεις (κατά τη φόρτιση ή AUX) πρέπει πρώτα να ξεκινήσετε την υπηρεσία εφαρμογών παρασκηνίου (AutoStart) - εκκινώντας το η ίδια η εφαρμογή μία φορά.\n- Ξεκινώντας με το Android 11 χωρίς την υπηρεσία εφαρμογών στο παρασκήνιο (AutoStart), η πρόσβαση στην κάμερα χωρίς αλληλεπίδραση με τον χρήστη είναι δυνατή μόνο εάν το τηλέφωνο είναι ξεκλείδωτο (οθόνη ενεργή) και παραχωρηθεί άδεια \"πάνω από όλες τις εφαρμογές\".\n- Έτσι, για Android 11 και νεότερη έκδοση, πρέπει να εκκινήσετε χειροκίνητα την εφαρμογή μία φορά, ώστε η υπηρεσία παρασκηνίου της εφαρμογής (AutoStart) να ξεκινήσει για αυτόματη εγγραφή κατά τη διάρκεια τυχόν συμβάντων και όταν η οθόνη του τηλεφώνου είναι απενεργοποιημένη.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Αυτόματη εγγραφή ακόμα κι αν η υπηρεσία παρασκηνίου δεν εκτελείται (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Διακοπή εγγραφής μετά</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Σταματήστε την εγγραφή όταν δεν υπάρχει κίνηση</string>
     <string name="prefs_rules_auto_stop_speed_text">Διακοπή εγγραφής όταν η ταχύτητα είναι χαμηλότερη (βάσει GPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Αποκλεισμός αντικατάστασης βίντεο</string>
     <string name="prefs_show_overlay_btn_sum_text">Εμφανίζει ένα παράθυρο με κουμπιά ελέγχου πάνω από όλες τις εφαρμογές</string>
     <string name="prefs_show_overlay_btn_text">Εμφάνιση αιωρούμενου παραθύρου</string>
-    <string name="prefs_show_overlay_on_recording_text">Εμφάνιση αιωρούμενου παραθύρου κατά την έναρξη της εγγραφής</string>
+    <string name="prefs_show_overlay_on_recording_text">Εμφάνιση αιωρούμενου παραθύρου μόνο όταν η εγγραφή είναι ενεργή (και κλείνει αυτόματα όταν σταματήσει)</string>
     <string name="prefs_show_status_bar_text">Εμφάνιση γραμμής κατάστασης συστήματος</string>
     <string name="prefs_show_take_photo_btn_text">Για να φτιάξετε μια φωτογραφία</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Δεν υποστηρίζεται από την τρέχουσα κάμερα. Οι κατασκευαστές συχνά περιορίζουν τη χρήση του - είναι διαθέσιμο μόνο στην τυπική εφαρμογή Κάμερα</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Υποστήριξη (ανατροφοδότηση)</string>
     <string name="prefs_system_alert_window_sum_text">Επιτρέψτε σε αυτήν την εφαρμογή να εμφανίζεται πάνω από όλες τις άλλες εφαρμογές. Αυτό είναι απαραίτητο για την αυτόματη έναρξη/διακοπή της εγγραφής βίντεο ή για την εμφάνιση ενός αιωρούμενου παραθύρου</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Επιτρέψτε σε αυτήν την εφαρμογή να εμφανίζεται πάνω από όλες τις άλλες εφαρμογές. Αυτό είναι απαραίτητο για την εμφάνιση ενός αιωρούμενου παραθύρου</string>
-    <string name="prefs_system_alert_window_text">Ανάλυση πάνω από όλα τα παράθυρα</string>
+    <string name="prefs_system_alert_window_text">Εμφάνιση πάνω από άλλες εφαρμογές</string>
     <string name="prefs_theme_mode_dark">Σκοτεινό θέμα</string>
     <string name="prefs_theme_mode_dynamic">Δυναμικός</string>
     <string name="prefs_theme_mode_light">Ελαφρύ θέμα</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Ηχογράφηση…</string>
     <string name="recording_voice_started_text">Η ηχογράφηση ξεκίνησε</string>
     <string name="recording_voice_stopped_text">Η εγγραφή σταμάτησε</string>
+    <string name="records_file_edit_trim_crop">Επεξεργασία (Περικοπή) στις \"Φωτογραφίες Google\"</string>
     <string name="records_file_sorting_date">Ημερομηνία</string>
     <string name="records_file_sorting_duration">Διάρκεια</string>
     <string name="records_file_sorting_name">Ονομα</string>
     <string name="records_file_sorting_size">Μέγεθος αρχείου</string>
     <string name="records_file_upload_drive">Αποθήκευση στο \"Google Drive\"</string>
+    <string name="records_file_upload_youtube">Μεταφόρτωση στο YouTube</string>
     <string name="reset">απαλλάσσω</string>
     <string name="storage_external_single">Κάρτα MicroSD</string>
     <string name="storage_phone">Μνήμη τηλεφώνου</string>

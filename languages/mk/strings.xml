@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Информации /Повеќе…</string>
     <string name="prefs_kill_services_sum_text">Има поставки на вашиот уред за да дозволите апликациите да се репродуцираат автоматски и да работат во заднина. Кликнете овде и додајте ја апликацијата во исклучоците (дозволете автоматско стартување и така натаму) за да дозволите да работи во позадина и кога екранот е исклучен, доколку е забрането</string>
     <string name="prefs_kill_services_text">Дозволување работа во заднина</string>
+    <string name="prefs_language">Јазик</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Отворете ја апликацијата кога снимањето ќе започне автоматски</string>
     <string name="prefs_launch_app_auto_text">Стартувајте ја апликацијата кога ќе започне снимањето видео</string>
     <string name="prefs_launch_app_limitation_text">Со Android 11 и понова верзија, можеби нема да можете да изберете ниту една од инсталираните апликации бидејќи самиот систем ја ограничува видливоста на апликациите (политика за приватност)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Метод на стекнување локација (GPS)</string>
     <string name="prefs_location_update_frequency_text">Стапка на ажурирање GPS</string>
     <string name="prefs_meters_accuracy_value_text">метри точност</string>
+    <string name="prefs_open_source_notices_text">Известувања со отворен код</string>
     <string name="prefs_optical_zoom_text">Оптички зум (зум) /Фокусна должина</string>
     <string name="prefs_orientation_landscape">Пејзаж</string>
     <string name="prefs_orientation_landscape_reversed">Реверзија на албумот</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">Чувствителност на Г-сензорот</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Вибрации кога ќе се открие шок</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Започнете со снимање кога ќе се открие движење</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">За настани со Bluetooth тоа е можно само ако опцијата „Снимај само при полнење“ е оневозможена.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Не стартувајте ја услугата апликација AutoStart за да заштедите батерија додека чекате настаните да започнат автоматско снимање. За Android 8+ ова е можно ако се овозможени само настаните со Bluetooth, а останатите се оневозможени.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Може да ја исклучите оваа опција за апликацијата да врши автоматско снимање само кога работи услугата во заднина на апликацијата (AutoStart).\n- Автоматското снимање за настани како што се полнење, Bluetooth или AUX може да се врши без проблеми до Android 7.1.\n- Почнувајќи од Android 8+, автоматското снимање без услуга за апликации во заднина (AutoStart) може да се врши само за настани со Bluetooth, а во други случаи (при полнење или AUX) прво треба да ја стартувате услугата за апликации во заднина (AutoStart) - со стартување самата апликација еднаш.\n- Почнувајќи со Android 11+, без услугата за апликации во заднина (AutoStart), пристапот до камерата без интеракција со корисникот за да започне снимањето е возможен само ако е дадена дозволата „на врвот на сите апликации“.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Автоматско снимање дури и ако услугата за заднина не работи (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Започнете со снимање кога брзината е еднаква /поголема (врз основа на GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Може да ја исклучите оваа опција за апликацијата да врши автоматско снимање само кога работи услугата во заднина на апликацијата (AutoStart).\n- Автоматското снимање за настани како што се полнење, Bluetooth или AUX може да се врши без проблеми до Android 7.1.\n- Почнувајќи од Android 8, автоматското снимање без услуга за апликации во заднина (AutoStart) може да се врши само за настани со Bluetooth, а во други случаи (при полнење или AUX) прво треба да ја стартувате услугата за апликации во заднина (AutoStart) - со стартување на самата апликација еднаш.\n- Почнувајќи со Android 11 без услугата за апликации во заднина (AutoStart), пристапот до камерата без интеракција со корисникот е возможен само ако телефонот е отклучен (екранот е вклучен) и се даде дозвола „на врвот на сите апликации“.\n- Така, за Android 11 и повисоко, треба рачно да ја стартувате апликацијата еднаш за да започне услугата за заднина на апликацијата (AutoStart) за автоматско снимање за време на какви било настани и кога екранот на телефонот е исклучен.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Автоматско снимање дури и ако услугата за заднина не работи (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Стоп за снимање после</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Престанете да снимате кога нема движење</string>
     <string name="prefs_rules_auto_stop_speed_text">Стоп за снимање кога брзината е помала (врз основа на GPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Блокирање видеа да не бидат препишани</string>
     <string name="prefs_show_overlay_btn_sum_text">Прикажува прозорец со контролни копчиња на врвот на сите апликации</string>
     <string name="prefs_show_overlay_btn_text">Прикажи лебдечки прозорец</string>
-    <string name="prefs_show_overlay_on_recording_text">Прикажи лебдечки прозорец кога ќе започне снимањето</string>
+    <string name="prefs_show_overlay_on_recording_text">Прикажи пловечки прозорец само кога снимањето е активно (и затвора автоматски кога ќе престане)</string>
     <string name="prefs_show_status_bar_text">Прикажи ја лентата за статус на системот</string>
     <string name="prefs_show_take_photo_btn_text">За да направите фотографија</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Не е поддржано од тековната камера. Производителите често ја ограничуваат неговата употреба - таа е достапна само во стандардната апликација Камера</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Поддршка (повратна информација)</string>
     <string name="prefs_system_alert_window_sum_text">Дозволете оваа апликација да се појавува над сите други апликации. Ова е неопходно за автоматско започнување/запирање на снимањето видео или за прикажување лебдечки прозорец</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Дозволете оваа апликација да се појавува на врвот на сите други апликации. Ова е неопходно за да се прикаже лебдечки прозорец</string>
-    <string name="prefs_system_alert_window_text">Резолуција на врвот на сите прозорци</string>
+    <string name="prefs_system_alert_window_text">Приказ на врвот на другите апликации</string>
     <string name="prefs_theme_mode_dark">Темна тема</string>
     <string name="prefs_theme_mode_dynamic">Динамичен</string>
     <string name="prefs_theme_mode_light">Лесна тема</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Се снима…</string>
     <string name="recording_voice_started_text">Снимањето започна</string>
     <string name="recording_voice_stopped_text">Снимањето прекина</string>
+    <string name="records_file_edit_trim_crop">Уреди (намали) во „Фотографии на Google“</string>
     <string name="records_file_sorting_date">Датум</string>
     <string name="records_file_sorting_duration">Времетраење</string>
     <string name="records_file_sorting_name">Име</string>
     <string name="records_file_sorting_size">Големина на Фајлот</string>
     <string name="records_file_upload_drive">Зачувај на „Google Drive“</string>
+    <string name="records_file_upload_youtube">Поставете на YouTube</string>
     <string name="reset">празнење</string>
     <string name="storage_external_single">MicroSD картичка</string>
     <string name="storage_phone">Меморија на телефонот</string>

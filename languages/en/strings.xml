@@ -205,6 +205,7 @@
     <string name="prefs_info_more_category_text">Info / More…</string>
     <string name="prefs_kill_services_sum_text">Your device has settings to allow apps to auto-start and run in the background. Click here and add the app to exceptions (allow autostart, etc.) to allow background and off screen work if it\'s forbidden</string>
     <string name="prefs_kill_services_text">Allowing background and off screen work</string>
+    <string name="prefs_language">Language</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Open app when recording starts automatically</string>
     <string name="prefs_launch_app_auto_text">Launch app when video recording starts</string>
     <string name="prefs_launch_app_limitation_text">With Android 11 and higher, you may not be able to select any of the installed apps as the system itself restricts app visibility (privacy policy)</string>
@@ -220,6 +221,7 @@
     <string name="prefs_location_provider_method_text">Location (GPS) provider method</string>
     <string name="prefs_location_update_frequency_text">GPS update frequency</string>
     <string name="prefs_meters_accuracy_value_text">meters of accuracy</string>
+    <string name="prefs_open_source_notices_text">Open source notices</string>
     <string name="prefs_optical_zoom_text">Optical zoom (Focal length)</string>
     <string name="prefs_orientation_landscape">Landscape</string>
     <string name="prefs_orientation_landscape_reversed">Reverse Landscape</string>
@@ -261,9 +263,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">G-sensor sensitivity</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Vibrate on impact detection</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Start recording on motion detection</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">For Bluetooth events it is only possible if the \"record only when charging\" option is disabled.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Do not launch the AutoStart application service to save battery while waiting for events to autostart recording. For Android 8+ this is possible if only Bluetooth events are enabled and the rest are disabled.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* You can turn this option off to have the app perform automatic recording only when the app\'s background service (AutoStart) is running.\n- Automatic recording for events such as charging, Bluetooth or AUX can be performed without problems up to Android 7.1.\n- Starting from Android 8+, automatic recording without a background application service (AutoStart) can only be performed for Bluetooth events, and in other cases (when charging or AUX) you need to first start the background application service (AutoStart) - by launching the application itself once.\n- Starting with Android 11+, without the background app service (AutoStart), accessing the camera without user interaction to start recording is only possible if the \"on top of all apps\" permission is granted.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Automatic recording even if the background service is not running (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Start recording when speed is equal to/greater than (based on GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* You can turn this option off to have the app perform automatic recording only when the app\'s background service (AutoStart) is running.\n- Automatic recording for events such as charging, Bluetooth or AUX can be performed without problems up to Android 7.1.\n- Starting from Android 8, automatic recording without a background application service (AutoStart) can only be performed for Bluetooth events, and in other cases (when charging or AUX) you need to first start the background application service (AutoStart) - by launching the application itself once.\n- Starting with Android 11 without the background app service (AutoStart), access to the camera without user interaction is only possible if the phone is unlocked (screen on) and \"on top of all apps\" permission is granted.\n- Thus, for Android 11 and higher, you need to manually launch the application once so that the background service of the application (AutoStart) starts for automatic recording during any events and when the phone screen is turned off.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Automatic recording even if the background service is not running (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Stop recording after</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Stop recording when there is no movement</string>
     <string name="prefs_rules_auto_stop_speed_text">Stop recording when speed is below (based on GPS)</string>
@@ -291,7 +295,7 @@
     <string name="prefs_show_lock_btn_text">Lock video from overwriting (save)</string>
     <string name="prefs_show_overlay_btn_sum_text">Displays overlay with control buttons over all apps</string>
     <string name="prefs_show_overlay_btn_text">Show floating window</string>
-    <string name="prefs_show_overlay_on_recording_text">Show floating window when recording starts</string>
+    <string name="prefs_show_overlay_on_recording_text">Show floating window only when recording is active (and close automatically when it stops)</string>
     <string name="prefs_show_status_bar_text">Show system status bar</string>
     <string name="prefs_show_take_photo_btn_text">Take photo</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">It\'s not supported by current camera. Manufacturers often restrict its use and it\'s available only in standard Camera app</string>
@@ -327,7 +331,7 @@
     <string name="prefs_support_text">Support / Feedback</string>
     <string name="prefs_system_alert_window_sum_text">Allow this app to show on top of all other apps. It\'s needed to auto start/stop video recording or for displaying floating window</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Allow this app to appear on top of all other apps. This is necessary to display a floating window</string>
-    <string name="prefs_system_alert_window_text">System Alert Window</string>
+    <string name="prefs_system_alert_window_text">Display on top of other applications</string>
     <string name="prefs_theme_mode_dark">Dark theme</string>
     <string name="prefs_theme_mode_dynamic">Dynamic</string>
     <string name="prefs_theme_mode_light">Light theme</string>
@@ -421,11 +425,13 @@
     <string name="recording_text">Recording…</string>
     <string name="recording_voice_started_text">Recording started</string>
     <string name="recording_voice_stopped_text">Recording stopped </string>
+    <string name="records_file_edit_trim_crop">Edit (Trim) in \"Google Photos\"</string>
     <string name="records_file_sorting_date">Date</string>
     <string name="records_file_sorting_duration">Duration</string>
     <string name="records_file_sorting_name">Name</string>
     <string name="records_file_sorting_size">File size</string>
     <string name="records_file_upload_drive">Save to \"Google Drive\"</string>
+    <string name="records_file_upload_youtube">Upload to YouTube</string>
     <string name="reset">reset</string>
     <string name="storage_external_single">MicroSD card</string>
     <string name="storage_phone">Phone Storage</string>

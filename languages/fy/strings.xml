@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Ynformaasje /Mear…</string>
     <string name="prefs_kill_services_sum_text">D\'r binne ynstellings op jo apparaat om apps automatysk te spyljen en op \'e eftergrûn te rinnen. Klikje hjir en foegje de applikaasje ta oan \'e útsûnderingen (tastean autostart ensafuorthinne) om it op \'e eftergrûn te litten rinne en as it skerm út is, as ferbean</string>
     <string name="prefs_kill_services_text">Tastean eftergrûn wurk</string>
+    <string name="prefs_language">Taal</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Iepenje applikaasje as opname automatysk begjint</string>
     <string name="prefs_launch_app_auto_text">Starte app as fideo-opname begjint</string>
     <string name="prefs_launch_app_limitation_text">Mei Android 11 en heger kinne jo miskien net ien fan \'e ynstalleare apps selektearje, om\'t it systeem sels de sichtberens fan\' e app beheint (privacybelied)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Location Acquisition Method (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS update taryf</string>
     <string name="prefs_meters_accuracy_value_text">meters fan krektens</string>
+    <string name="prefs_open_source_notices_text">Iepen boarne meidielings</string>
     <string name="prefs_optical_zoom_text">Optical Zoom (Zoom) /Focal Length</string>
     <string name="prefs_orientation_landscape">Lânskip</string>
     <string name="prefs_orientation_landscape_reversed">Album reverse</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">G-sensor gefoelichheid</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Vibraasje as skok wurdt ûntdutsen</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Begjin opnimmen as beweging wurdt ûntdutsen</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Foar Bluetooth-eveneminten is it allinich mooglik as de opsje \"allinich opnimme by opladen\" is útskeakele.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Start de AutoStart-applikaasjetsjinst net om batterij te besparjen wylst jo wachtsje op eveneminten om de opname automatysk te starten. Foar Android 8+ is dit mooglik as allinich Bluetooth-eveneminten binne ynskeakele en de rest binne útskeakele.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Jo kinne dizze opsje útskeakelje om de app allinich automatyske opname te meitsjen as de eftergrûntsjinst fan \'e app (AutoStart) rint.\n- Automatyske opname foar eveneminten lykas opladen, Bluetooth of AUX kin sûnder problemen wurde útfierd oant Android 7.1.\n- Begjin fan Android 8+, automatyske opname sûnder in eftergrûnapplikaasjetsjinst (AutoStart) kin allinich wurde útfierd foar Bluetooth-eveneminten, en yn oare gefallen (by it opladen as AUX) moatte jo earst de eftergrûnapplikaasjetsjinst (AutoStart) starte - troch te starten de applikaasje sels ien kear.\n- Begjinnend mei Android 11+, sûnder de eftergrûnapptsjinst (AutoStart), tagong ta de kamera sûnder brûkersynteraksje om opname te begjinnen is allinich mooglik as de tastimming \"boppe alle apps\" wurdt ferliend.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Automatyske opname sels as de eftergrûntsjinst net rint (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Begjin opnimmen as snelheid gelyk /heger is (basearre op GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Jo kinne dizze opsje útskeakelje om de app allinich automatyske opname te meitsjen as de eftergrûntsjinst fan \'e app (AutoStart) rint.\n- Automatyske opname foar eveneminten lykas opladen, Bluetooth of AUX kin sûnder problemen wurde útfierd oant Android 7.1.\n- Fanôf Android 8 kin automatyske opname sûnder in eftergrûnapplikaasjetsjinst (AutoStart) allinich wurde útfierd foar Bluetooth-eveneminten, en yn oare gefallen (by it opladen as AUX) moatte jo earst de tsjinst foar eftergrûnapplikaasje (AutoStart) starte - troch de applikaasje sels ien kear.\n- Begjinnend mei Android 11 sûnder de eftergrûnapptsjinst (AutoStart), is tagong ta de kamera sûnder brûkersynteraksje allinich mooglik as de tillefoan is ûntskoattele (skerm oan) en tastimming \"boppe alle apps\" wurdt ferliend.\n- Sa, foar Android 11 en heger, moatte jo de applikaasje ien kear mei de hân starte, sadat de eftergrûntsjinst fan \'e applikaasje (AutoStart) begjint foar automatyske opname tidens alle barrens en as it tillefoanskerm is útskeakele.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Automatyske opname sels as de eftergrûntsjinst net rint (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Stopje opname na</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Stopje mei opnimmen as der gjin beweging is</string>
     <string name="prefs_rules_auto_stop_speed_text">Stopje opnimmen as de snelheid leger is (basearre op GPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Blokkearje dat fideo\'s net oerskreaun wurde</string>
     <string name="prefs_show_overlay_btn_sum_text">Toant in finster mei kontrôleknoppen boppe alle applikaasjes</string>
     <string name="prefs_show_overlay_btn_text">Lit driuwend finster sjen</string>
-    <string name="prefs_show_overlay_on_recording_text">Lit driuwend finster sjen as de opname begjint</string>
+    <string name="prefs_show_overlay_on_recording_text">Lit driuwend finster allinich sjen as de opname aktyf is (en automatysk slute as it ophâldt)</string>
     <string name="prefs_show_status_bar_text">Systeemstatusbalke sjen litte</string>
     <string name="prefs_show_take_photo_btn_text">Om in foto te meitsjen</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Net stipe troch de hjoeddeistige kamera. Fabrikanten beheine it gebrûk faaks - it is allinich beskikber yn \'e standert kamera-applikaasje</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Stipe (feedback)</string>
     <string name="prefs_system_alert_window_sum_text">Tastean dizze app te ferskinen boppe op alle oare apps. Dit is nedich om fideo-opname automatysk te begjinnen /stopjen of om in driuwend finster wer te jaan</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Tastean dizze app te ferskinen boppe op alle oare apps. Dit is nedich om in driuwend finster wer te jaan</string>
-    <string name="prefs_system_alert_window_text">Resolúsje boppe op alle finsters</string>
+    <string name="prefs_system_alert_window_text">Werjaan boppe op oare applikaasjes</string>
     <string name="prefs_theme_mode_dark">Dark tema</string>
     <string name="prefs_theme_mode_dynamic">Dynamic</string>
     <string name="prefs_theme_mode_light">Ljocht tema</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Opname…</string>
     <string name="recording_voice_started_text">De opname is begûn</string>
     <string name="recording_voice_stopped_text">Opname stoppe</string>
+    <string name="records_file_edit_trim_crop">Bewurkje (Trim) yn \"Google Foto\'s\"</string>
     <string name="records_file_sorting_date">Datum</string>
     <string name="records_file_sorting_duration">Doer</string>
     <string name="records_file_sorting_name">Namme</string>
     <string name="records_file_sorting_size">Bestânsgrutte</string>
     <string name="records_file_upload_drive">Bewarje yn \"Google Drive\"</string>
+    <string name="records_file_upload_youtube">Upload nei YouTube</string>
     <string name="reset">ûntslach</string>
     <string name="storage_external_single">MicroSD card</string>
     <string name="storage_phone">Phone ûnthâld</string>

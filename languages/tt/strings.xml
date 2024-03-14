@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Мәгълүмат /Күбрәк…</string>
     <string name="prefs_kill_services_sum_text">Appsайланмагызда кушымталарны автомат рәвештә уйнарга рөхсәт итәр өчен көйләүләр бар. Монда басыгыз һәм кушымтаны искәрмәләргә өстәгез (автостартка рөхсәт итегез һ.б.), аның фонда эшләве рөхсәт ителсә һәм экран сүнгәндә, тыелган булса.</string>
     <string name="prefs_kill_services_text">Фон эшенә рөхсәт</string>
+    <string name="prefs_language">Тел</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Язу автоматик рәвештә башлангач, кушымтаны ачу</string>
     <string name="prefs_launch_app_auto_text">Видео язу башлангач кушымтаны эшләтеп җибәрү</string>
     <string name="prefs_launch_app_limitation_text">Android 11 һәм аннан да югарырак булганда, сез урнаштырылган кушымталарның берсен дә сайлый алмыйсыз, чөнки система кушымталарның күренүен чикли (хосусыйлык политикасы)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Урын алу ысулы (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS яңарту темплары</string>
     <string name="prefs_meters_accuracy_value_text">метр төгәллек</string>
+    <string name="prefs_open_source_notices_text">Ачык чыганак хәбәрләре</string>
     <string name="prefs_optical_zoom_text">Оптик зурайту (зурайту) /Фокаль озынлык</string>
     <string name="prefs_orientation_landscape">Пейзаж</string>
     <string name="prefs_orientation_landscape_reversed">Альбом кире</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">G-сенсор сизгерлеге</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Шок ачыклангач тибрәнү</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Хәрәкәт ачыклангач яздыра башлагыз</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Bluetooth вакыйгалары өчен \"зарядка ясаганда гына язу\" параметры сүндерелгән очракта гына мөмкин.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Автостарт язуны көткәндә батареяны саклап калу өчен AutoStart кушымтасы хезмәтен җибәрмәгез. Android 8+ өчен бу бары тик Bluetooth вакыйгалары кушылган булса, калганнары инвалид булса гына мөмкин.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Кушымта автоматик язуны кушымтаның фон сервисы (AutoStart) эшләгән вакытта гына сүндерә аласыз.\n- Зарядлау, Bluetooth яки AUX кебек вакыйгалар өчен автоматик язу Android 7.1 кадәр проблемаларсыз башкарылырга мөмкин.\n- Android 8+ -тан башлап, фон кушымтасы сервисы булмаган автоматик язу (AutoStart) бары тик Bluetooth вакыйгалары өчен генә башкарылырга мөмкин, һәм башка очракларда (зарядка ясаганда яки AUX) сезгә башта фон кушымтасы хезмәтен (AutoStart) башларга кирәк. кушымта үзе бер тапкыр.\n- Android 11+ белән башлап, фон кушымтасы сервисы булмаса (AutoStart), язуны башлау өчен кулланучы белән аралашмыйча камерага керү \"барлык кушымталар өстендә\" рөхсәт бирелгән очракта гына мөмкин.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Фон сервис эшләмәсә дә автоматик язу (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Тизлек тигез /югарырак булганда яздыра башлагыз (GPS нигезендә)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Кушымта автоматик язуны кушымтаның фон сервисы (AutoStart) эшләгән вакытта гына сүндерә аласыз.\n- Зарядлау, Bluetooth яки AUX кебек вакыйгалар өчен автоматик язу Android 7.1 кадәр проблемаларсыз башкарылырга мөмкин.\n- Android 8-дән башлап, фон кушымтасы сервисы булмаган автоматик язу (AutoStart) бары тик Bluetooth вакыйгалары өчен генә башкарылырга мөмкин, һәм башка очракларда (зарядка ясаганда яки AUX) сезгә башта фон кушымтасы хезмәтен (AutoStart) башларга кирәк - куллану үзе бер тапкыр.\n- Android 11-дән башлап, кушымта сервисы булмаган (AutoStart), камерага кулланучы белән аралашмыйча керү телефон ачылганда (экранда) һәм \"барлык кушымталар өстендә\" рөхсәт бирелгән очракта гына мөмкин.\n- Шулай итеп, Android 11 һәм аннан да югарырак өчен, сез кушымтаны кул белән эшләтеп җибәрергә тиеш, шулай итеп кушымтаның фон сервисы (AutoStart) теләсә нинди вакыйгалар вакытында һәм телефон экраны сүнгәндә автоматик язу өчен башлана.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Фон сервис эшләмәсә дә автоматик язу (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Соңыннан яздыруны туктатыгыз</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Хәрәкәт булмаганда язуны туктатыгыз</string>
     <string name="prefs_rules_auto_stop_speed_text">Тизлек түбән булганда язуны туктатыгыз (GPS нигезендә)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Видеоларны кабат язудан тыю</string>
     <string name="prefs_show_overlay_btn_sum_text">Барлык кушымталар өстендә контроль төймәләре булган тәрәзәне күрсәтә</string>
     <string name="prefs_show_overlay_btn_text">Йөзүче тәрәзәне күрсәт</string>
-    <string name="prefs_show_overlay_on_recording_text">Язу башланганда йөзүче тәрәзәне күрсәт</string>
+    <string name="prefs_show_overlay_on_recording_text">Йөзүче тәрәзәне язу актив булганда гына күрсәтегез (һәм ул туктагач автоматик рәвештә ябыла)</string>
     <string name="prefs_show_status_bar_text">Система статусын күрсәтегез</string>
     <string name="prefs_show_take_photo_btn_text">Фото ясау</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Хәзерге камера ярдәмендә түгел. Manufactитештерүчеләр аны куллануны еш чиклиләр - ул стандарт Камера кушымтасында гына бар</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Ярдәм (кире кайту)</string>
     <string name="prefs_system_alert_window_sum_text">Бу кушымтаны бүтән кушымталар өстендә күрергә рөхсәт итегез. Бу видео язуны автоматик рәвештә башлау /туктату яки йөзүче тәрәзәне күрсәтү өчен кирәк</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Бу кушымтаны бүтән кушымталар өстендә күрергә рөхсәт итегез. Йөзүче тәрәзәне күрсәтү өчен бу кирәк</string>
-    <string name="prefs_system_alert_window_text">Барлык тәрәзәләр өстендә резолюция</string>
+    <string name="prefs_system_alert_window_text">Башка кушымталар өстендә күрсәтегез</string>
     <string name="prefs_theme_mode_dark">Кара тема</string>
     <string name="prefs_theme_mode_dynamic">Динамик</string>
     <string name="prefs_theme_mode_light">Lightиңел тема</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Язу…</string>
     <string name="recording_voice_started_text">Язу башланды</string>
     <string name="recording_voice_stopped_text">Язу туктады</string>
+    <string name="records_file_edit_trim_crop">\"Google фотолары\" нда үзгәртү</string>
     <string name="records_file_sorting_date">Дата</string>
     <string name="records_file_sorting_duration">Озынлыгы</string>
     <string name="records_file_sorting_name">Исем</string>
     <string name="records_file_sorting_size">Файл зурлыгы</string>
     <string name="records_file_upload_drive">\"Google Drive\" га саклагыз</string>
+    <string name="records_file_upload_youtube">YouTube-ка йөкләү</string>
     <string name="reset">агызу</string>
     <string name="storage_external_single">MicroSD картасы</string>
     <string name="storage_phone">Телефон хәтере</string>

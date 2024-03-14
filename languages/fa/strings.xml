@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">اطلاعات /ادامه…</string>
     <string name="prefs_kill_services_sum_text">تنظیماتی در دستگاه شما وجود دارد که به برنامه‌ها اجازه پخش خودکار و اجرا در پس‌زمینه را می‌دهد. اینجا را کلیک کنید و برنامه را به استثناها اضافه کنید (اجازه دادن به شروع خودکار و غیره) تا در صورت ممنوعیت، در پس زمینه و زمانی که صفحه خاموش است اجرا شود.</string>
     <string name="prefs_kill_services_text">اجازه دادن به کار پس زمینه</string>
+    <string name="prefs_language">زبان</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">با شروع خودکار ضبط، برنامه را باز کنید</string>
     <string name="prefs_launch_app_auto_text">با شروع ضبط ویدیو، برنامه را اجرا کنید</string>
     <string name="prefs_launch_app_limitation_text">با Android 11 و بالاتر، ممکن است نتوانید هیچ یک از برنامه های نصب شده را انتخاب کنید زیرا خود سیستم دید برنامه را محدود می کند (خط مشی رازداری)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">روش اکتساب موقعیت مکانی (GPS)</string>
     <string name="prefs_location_update_frequency_text">نرخ به روز رسانی GPS</string>
     <string name="prefs_meters_accuracy_value_text">متر دقت</string>
+    <string name="prefs_open_source_notices_text">اعلامیه های منبع باز</string>
     <string name="prefs_optical_zoom_text">زوم اپتیکال (زوم) /فاصله کانونی</string>
     <string name="prefs_orientation_landscape">چشم انداز</string>
     <string name="prefs_orientation_landscape_reversed">آلبوم معکوس</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">حساسیت حسگر G</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">لرزش هنگام تشخیص شوک</string>
     <string name="prefs_rules_auto_start_camera_motion_text">هنگامی که حرکت شناسایی شد شروع به ضبط کنید</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">برای رویدادهای بلوتوث فقط در صورتی امکان پذیر است که گزینه \"فقط در هنگام شارژ ضبط شود\" غیرفعال باشد.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">هنگام انتظار برای شروع خودکار ضبط، سرویس برنامه AutoStart را برای صرفه جویی در باتری راه اندازی نکنید. برای Android 8+ این امکان وجود دارد که فقط رویدادهای بلوتوث فعال و بقیه غیرفعال باشند.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* می‌توانید این گزینه را خاموش کنید تا برنامه فقط زمانی که سرویس پس‌زمینه برنامه (AutoStart) در حال اجرا است، ضبط خودکار انجام دهد.\n- ضبط خودکار رویدادهایی مانند شارژ، بلوتوث یا AUX بدون مشکل تا اندروید 7.1 قابل انجام است.\n- با شروع از اندروید 8+، ضبط خودکار بدون سرویس برنامه پس‌زمینه (AutoStart) فقط برای رویدادهای بلوتوث قابل انجام است و در سایر موارد (هنگام شارژ یا AUX) باید ابتدا سرویس برنامه پس‌زمینه (AutoStart) را با راه‌اندازی راه‌اندازی کنید. خود برنامه یک بار\n- با شروع با Android 11+، بدون سرویس برنامه پس‌زمینه (AutoStart)، دسترسی به دوربین بدون تعامل کاربر برای شروع ضبط تنها در صورتی امکان‌پذیر است که مجوز \"در بالای همه برنامه‌ها\" داده شود.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">ضبط خودکار حتی اگر سرویس پس زمینه در حال اجرا نباشد (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">شروع ضبط زمانی که سرعت برابر /بالاتر است (بر اساس GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* می‌توانید این گزینه را خاموش کنید تا برنامه فقط زمانی که سرویس پس‌زمینه برنامه (AutoStart) در حال اجرا است، ضبط خودکار انجام دهد.\n- ضبط خودکار رویدادهایی مانند شارژ، بلوتوث یا AUX بدون مشکل تا اندروید 7.1 قابل انجام است.\n- از اندروید 8 شروع به ضبط خودکار بدون سرویس برنامه پس‌زمینه (AutoStart) فقط برای رویدادهای بلوتوث می‌شود و در سایر موارد (هنگام شارژ یا AUX) باید ابتدا سرویس برنامه پس‌زمینه (AutoStart) را با راه‌اندازی راه‌اندازی کنید. خود برنامه یک بار\n- با شروع با Android 11 بدون سرویس برنامه پس‌زمینه (AutoStart)، دسترسی به دوربین بدون تعامل کاربر تنها در صورتی امکان‌پذیر است که قفل تلفن باز باشد (صفحه نمایش روشن) و مجوز «در بالای همه برنامه‌ها» داده شود.\n- بنابراین برای اندروید 11 و بالاتر، باید یک بار برنامه را به صورت دستی اجرا کنید تا در هنگام هر رویداد و زمانی که صفحه گوشی خاموش است، سرویس پس زمینه برنامه (AutoStart) برای ضبط خودکار شروع شود.</string>
-    <string name="prefs_rules_auto_start_without_service_text">ضبط خودکار حتی اگر سرویس پس زمینه در حال اجرا نباشد (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">پس از آن ضبط را متوقف کنید</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">هنگامی که هیچ حرکتی وجود ندارد ضبط را متوقف کنید</string>
     <string name="prefs_rules_auto_stop_speed_text">وقتی سرعت کمتر است ضبط را متوقف کنید (بر اساس GPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">جلوگیری از بازنویسی ویدیوها</string>
     <string name="prefs_show_overlay_btn_sum_text">پنجره ای را با دکمه های کنترل در بالای همه برنامه ها نمایش می دهد</string>
     <string name="prefs_show_overlay_btn_text">نمایش پنجره شناور</string>
-    <string name="prefs_show_overlay_on_recording_text">نمایش پنجره شناور هنگام شروع ضبط</string>
+    <string name="prefs_show_overlay_on_recording_text">نمایش پنجره شناور فقط زمانی که ضبط فعال است (و هنگامی که ضبط متوقف شد به طور خودکار بسته می شود)</string>
     <string name="prefs_show_status_bar_text">نمایش نوار وضعیت سیستم</string>
     <string name="prefs_show_take_photo_btn_text">برای ساخت عکس</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">توسط دوربین فعلی پشتیبانی نمی شود. سازندگان اغلب استفاده از آن را محدود می کنند - فقط در برنامه استاندارد دوربین موجود است</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">پشتیبانی (بازخورد)</string>
     <string name="prefs_system_alert_window_sum_text">به این برنامه اجازه دهید در بالای همه برنامه های دیگر ظاهر شود. این برای شروع /توقف خودکار ضبط ویدیو یا نمایش یک پنجره شناور ضروری است</string>
     <string name="prefs_system_alert_window_sum_text_bvr">به این برنامه اجازه دهید در بالای همه برنامه های دیگر ظاهر شود. این برای نمایش یک پنجره شناور ضروری است</string>
-    <string name="prefs_system_alert_window_text">وضوح بالای تمام پنجره ها</string>
+    <string name="prefs_system_alert_window_text">نمایش در بالای سایر برنامه ها</string>
     <string name="prefs_theme_mode_dark">تم تاریک</string>
     <string name="prefs_theme_mode_dynamic">پویا</string>
     <string name="prefs_theme_mode_light">تم سبک</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">در حال ضبط…</string>
     <string name="recording_voice_started_text">ضبط آغاز شده است</string>
     <string name="recording_voice_stopped_text">ضبط متوقف شد</string>
+    <string name="records_file_edit_trim_crop">ویرایش (تریم) در «Google Photos»</string>
     <string name="records_file_sorting_date">تاریخ</string>
     <string name="records_file_sorting_duration">مدت زمان</string>
     <string name="records_file_sorting_name">نام</string>
     <string name="records_file_sorting_size">حجم فایل</string>
     <string name="records_file_upload_drive">ذخیره در \"Google Drive\"</string>
+    <string name="records_file_upload_youtube">در یوتیوب آپلود کنید</string>
     <string name="reset">تخلیه</string>
     <string name="storage_external_single">کارت MicroSD</string>
     <string name="storage_phone">حافظه تلفن</string>

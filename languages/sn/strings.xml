@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Ruzivo /Zvimwe…</string>
     <string name="prefs_kill_services_sum_text">Pane zvigadziriso pamudziyo wako kubvumira mapurogiramu kuti azvitambe otomatiki uye amhanye kumashure. Dzvanya apa uye wedzera chishandiso kune izvo zvisirizvo (bvumira autostart uye zvichingodaro) kuibvumidza kuti imhanye kumashure uye kana iyo skrini yakadzimwa, kana ikarambidzwa.</string>
     <string name="prefs_kill_services_text">Kubvumira basa rekumashure</string>
+    <string name="prefs_language">Mutauro</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Vhura application kana kurekodha kunotanga otomatiki</string>
     <string name="prefs_launch_app_auto_text">Tangisa app kana vhidhiyo kurekodha kwatanga</string>
     <string name="prefs_launch_app_limitation_text">Ne Android 11 zvichikwira, haungakwanise kusarudza chero maapplication akaiswa sezvo iyo system pachayo inorambidza kuoneka kweapp (yakavanzika mutemo)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Nzira yekuwana nzvimbo (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS update rate</string>
     <string name="prefs_meters_accuracy_value_text">mamita ekururama</string>
+    <string name="prefs_open_source_notices_text">Open source notices</string>
     <string name="prefs_optical_zoom_text">Optical Zoom (Zoom) /Focal Length</string>
     <string name="prefs_orientation_landscape">Nzvimbo</string>
     <string name="prefs_orientation_landscape_reversed">Album reverse</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">G-sensor kunzwa</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Vibration kana kuvhunduka kwaonekwa</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Tanga kurekodha kana kufamba kwaonekwa</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Kune zviitiko zveBluetooth zvinogoneka chete kana iyo \"rekodhi chete kana uchichaja\" sarudzo yakadzimwa.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Usatange iyo AutoStart application sevhisi kuchengetedza bhatiri uchimirira zviitiko kuti zvitange kurekodha. Kune Android 8+ izvi zvinogoneka kana zviitiko zveBluetooth chete zvinogoneswa uye zvimwe zvese zvavharwa.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Unogona kudzima sarudzo iyi kuti app iite otomatiki kurekodha chete kana iyo yekumashure sevhisi (AutoStart) iri kushanda.\n-Otomatiki kurekodha kwezviitiko zvakaita sekuchaja, Bluetooth kana AUX zvinogona kuitwa pasina matambudziko kusvika kuAndroid 7.1.\n-Kutanga kubva kuAndroid 8+, otomatiki kurekodha pasina yekumashure application sevhisi (AutoStart) inogona chete kuitwa yezviitiko zveBluetooth, uye mune dzimwe nguva (kana uchichaja kana AUX) iwe unofanirwa kutanga watanga iyo yekumashure application sevhisi (AutoStart) - nekutanga. application pachayo kamwe.\n-Kutanga ne Android 11+, pasina yekumashure app sevhisi (AutoStart), kuwana kamera pasina kupindirana kwemushandisi kuti utange kurekodha zvinogoneka chete kana mvumo \"pamusoro pezvese mapurogiramu\" yapihwa.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Kurekodha otomatiki kunyangwe sevhisi yekumashure isiri kushanda (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Tanga kurekodha kana kumhanya kwakaenzana /kukwira (zvichienderana neGPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Unogona kudzima sarudzo iyi kuti app iite otomatiki kurekodha chete kana iyo yekumashure sevhisi (AutoStart) iri kushanda.\n-Otomatiki kurekodha kwezviitiko zvakaita sekuchaja, Bluetooth kana AUX zvinogona kuitwa pasina matambudziko kusvika kuAndroid 7.1.\n-Kutanga kubva kuAndroid 8, otomatiki kurekodha pasina yekumashure application sevhisi (AutoStart) inogona chete kuitwa yezviitiko zveBluetooth, uye mune dzimwe nguva (kana uchichaja kana AUX) iwe unofanirwa kutanga watanga iyo yekumashure application sevhisi (AutoStart) - nekutangisa application pachayo kamwe.\n-Kutanga ne Android 11 isina yekumashure app sevhisi (AutoStart), kuwana kamera pasina kupindirana kwemushandisi kunogoneka chete kana foni yakavhurwa (screen on) uye \"pamusoro pese maapplication\" mvumo yakapihwa.\n-Saka, ye Android 11 uye yepamusoro, iwe unofanirwa kuvhura manyore application kamwe chete kuti iyo yekumashure sevhisi yekushandisa (AutoStart) itange yekurekodha otomatiki panguva chero chiitiko uye kana iyo foni skrini yakadzimwa.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Kurekodha otomatiki kunyangwe sevhisi yekumashure isiri kushanda (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Rega kurekodha mushure</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Rega kurekodha kana pasina kufamba</string>
     <string name="prefs_rules_auto_stop_speed_text">Mira kurekodha kana kumhanya kwadzikira (zvichienderana neGPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Kuvharisa mavhidhiyo kubva pakunyorwa</string>
     <string name="prefs_show_overlay_btn_sum_text">Inoratidza hwindo rine mabhatani ekudzora pamusoro peese maapplication</string>
     <string name="prefs_show_overlay_btn_text">Ratidza hwindo rinoyangarara</string>
-    <string name="prefs_show_overlay_on_recording_text">Ratidza hwindo rinoyangarara kana kurekodha kwatanga</string>
+    <string name="prefs_show_overlay_on_recording_text">Ratidza hwindo rinoyangarara chete kana kurekodha kuri kushanda (uye vhara otomatiki kana yamira)</string>
     <string name="prefs_show_status_bar_text">Ratidza system mamiriro bar</string>
     <string name="prefs_show_take_photo_btn_text">Kugadzira mufananidzo</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Haisi kutsigirwa nekamera iripo. Vagadziri vanowanzo rambidza kushandiswa kwayo - inowanikwa chete mune yakajairwa Kamera application</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Tsigiro (mhinduro)</string>
     <string name="prefs_system_alert_window_sum_text">Bvumira Anwendung iyi kuti ibude pamusoro pemamwe ese. Izvi zvinodikanwa kuti utange /kumisa kurekodha vhidhiyo kana kuratidza hwindo rinoyangarara</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Bvumira Anwendung iyi kuti ibude pamusoro pemamwe maapuro ese. Izvi zvinodiwa kuratidza hwindo rinoyangarara</string>
-    <string name="prefs_system_alert_window_text">Resolution pamusoro pemahwindo ese</string>
+    <string name="prefs_system_alert_window_text">Ratidza pamusoro pemamwe maapplication</string>
     <string name="prefs_theme_mode_dark">Dingindira rakasviba</string>
     <string name="prefs_theme_mode_dynamic">Dynamic</string>
     <string name="prefs_theme_mode_light">Chiedza dingindira</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Kurekodha…</string>
     <string name="recording_voice_started_text">Kurekodha kwatanga</string>
     <string name="recording_voice_stopped_text">Kurekodha kwakamira</string>
+    <string name="records_file_edit_trim_crop">Rongedza (Gadzirisa) mu \"Google Photos\"</string>
     <string name="records_file_sorting_date">Date</string>
     <string name="records_file_sorting_duration">Duration</string>
     <string name="records_file_sorting_name">Zita</string>
     <string name="records_file_sorting_size">Saizi yefaira</string>
     <string name="records_file_upload_drive">Sevha ku \"Google Drive\"</string>
+    <string name="records_file_upload_youtube">Isa kuYouTube</string>
     <string name="reset">discharge</string>
     <string name="storage_external_single">MicroSD kadhi</string>
     <string name="storage_phone">Phone memory</string>

@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Informatie /Meer…</string>
     <string name="prefs_kill_services_sum_text">Er zijn instellingen op uw apparaat waarmee apps automatisch kunnen worden afgespeeld en op de achtergrond kunnen worden uitgevoerd. Klik hier en voeg de toepassing toe aan de uitzonderingen (autostart toestaan ​​enzovoort) zodat deze op de achtergrond kan worden uitgevoerd en wanneer het scherm is uitgeschakeld, indien verboden</string>
     <string name="prefs_kill_services_text">Achtergrondwerk toestaan</string>
+    <string name="prefs_language">Taal</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Applicatie openen wanneer de opname automatisch start</string>
     <string name="prefs_launch_app_auto_text">App starten wanneer video-opname begint</string>
     <string name="prefs_launch_app_limitation_text">Met Android 11 en hoger kunt u mogelijk geen van de geïnstalleerde apps selecteren omdat het systeem zelf de zichtbaarheid van de app beperkt (privacybeleid)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Locatie acquisitie methode (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS-updatesnelheid</string>
     <string name="prefs_meters_accuracy_value_text">meter nauwkeurigheid</string>
+    <string name="prefs_open_source_notices_text">Open source-kennisgevingen</string>
     <string name="prefs_optical_zoom_text">Optische zoom (zoom) /brandpuntsafstand</string>
     <string name="prefs_orientation_landscape">Landschap</string>
     <string name="prefs_orientation_landscape_reversed">Omgekeerd album</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">G-sensor gevoeligheid</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Trilling wanneer schok wordt gedetecteerd</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Start opnemen wanneer beweging wordt gedetecteerd</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Voor Bluetooth-evenementen is dit alleen mogelijk als de optie \"alleen opnemen tijdens opladen\" is uitgeschakeld.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Start de AutoStart-toepassingsservice niet om de batterij te sparen terwijl u wacht tot gebeurtenissen automatisch beginnen met opnemen. Voor Android 8+ is dit mogelijk als alleen Bluetooth-gebeurtenissen zijn ingeschakeld en de rest is uitgeschakeld.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* U kunt deze optie uitschakelen om de app alleen automatische opnames te laten uitvoeren als de achtergrondservice van de app (AutoStart) actief is.\n- Automatische opname voor gebeurtenissen zoals opladen, Bluetooth of AUX kan zonder problemen worden uitgevoerd tot Android 7.1.\n- Vanaf Android 8+ kan automatische opname zonder een achtergrondapplicatieservice (AutoStart) alleen worden uitgevoerd voor Bluetooth-gebeurtenissen, en in andere gevallen (bij opladen of AUX) moet u eerst de achtergrondapplicatieservice starten (AutoStart) - door te starten de applicatie zelf een keer.\n- Vanaf Android 11+ is zonder de app-service op de achtergrond (AutoStart) toegang tot de camera zonder gebruikersinteractie om de opname te starten alleen mogelijk als de toestemming \"bovenop alle apps\" is verleend.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Automatische opname, zelfs als de achtergrondservice niet actief is (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Start opname wanneer snelheid gelijk/hoger is (op basis van GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* U kunt deze optie uitschakelen om de app alleen automatische opnames te laten uitvoeren wanneer de achtergrondservice van de app (AutoStart) actief is.\n- Automatische opname voor gebeurtenissen zoals opladen, Bluetooth of AUX kan zonder problemen worden uitgevoerd tot Android 7.1.\n- Vanaf Android 8 kan automatisch opnemen zonder een achtergrondapplicatieservice (AutoStart) alleen worden uitgevoerd voor Bluetooth-gebeurtenissen, en in andere gevallen (bij opladen of AUX) moet u eerst de achtergrondapplicatieservice starten (AutoStart) - door het starten van de één keer zelf aanvragen.\n- Vanaf Android 11 zonder de app-service op de achtergrond (AutoStart) is toegang tot de camera zonder gebruikersinteractie alleen mogelijk als de telefoon ontgrendeld is (scherm aan) en toestemming \"bovenop alle apps\" wordt verleend.\n- Voor Android 11 en hoger moet u de applicatie dus één keer handmatig starten, zodat de achtergrondservice van de applicatie (AutoStart) start voor automatische opname tijdens eventuele gebeurtenissen en wanneer het telefoonscherm is uitgeschakeld.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Automatische opname, zelfs als de achtergrondservice niet actief is (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Stop met opnemen na</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Stop met opnemen als er geen beweging is</string>
     <string name="prefs_rules_auto_stop_speed_text">Stop met opnemen als de snelheid lager is (gebaseerd op GPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Blokkeren dat video\'s worden overschreven</string>
     <string name="prefs_show_overlay_btn_sum_text">Toont een venster met bedieningsknoppen bovenop alle applicaties</string>
     <string name="prefs_show_overlay_btn_text">Zwevend venster tonen</string>
-    <string name="prefs_show_overlay_on_recording_text">Zwevend venster weergeven wanneer de opname start</string>
+    <string name="prefs_show_overlay_on_recording_text">Zwevend venster alleen weergeven als de opname actief is (en automatisch sluiten als deze stopt)</string>
     <string name="prefs_show_status_bar_text">Systeemstatusbalk weergeven</string>
     <string name="prefs_show_take_photo_btn_text">Om een ​​foto te maken</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Wordt niet ondersteund door de huidige camera. Fabrikanten beperken het gebruik ervan vaak - het is alleen beschikbaar in de standaard Camera-applicatie</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Ondersteuning (feedback)</string>
     <string name="prefs_system_alert_window_sum_text">Laat deze app boven alle andere apps verschijnen. Dit is nodig om de video-opname automatisch te starten/stoppen of om een ​​zwevend venster weer te geven</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Sta toe dat deze app boven alle andere apps verschijnt. Dit is nodig om een ​​zwevend venster weer te geven</string>
-    <string name="prefs_system_alert_window_text">Resolutie bovenop alle vensters</string>
+    <string name="prefs_system_alert_window_text">Weergave bovenop andere applicaties</string>
     <string name="prefs_theme_mode_dark">Donker thema</string>
     <string name="prefs_theme_mode_dynamic">Dynamisch</string>
     <string name="prefs_theme_mode_light">Licht thema</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Opnemen…</string>
     <string name="recording_voice_started_text">Opname is begonnen</string>
     <string name="recording_voice_stopped_text">Opname gestopt</string>
+    <string name="records_file_edit_trim_crop">Bewerken (bijsnijden) in \"Google Foto\'s\"</string>
     <string name="records_file_sorting_date">Datum</string>
     <string name="records_file_sorting_duration">Duur</string>
     <string name="records_file_sorting_name">Naam</string>
     <string name="records_file_sorting_size">Bestandsgrootte</string>
     <string name="records_file_upload_drive">Opslaan in \"Google Drive\"</string>
+    <string name="records_file_upload_youtube">Uploaden naar YouTube</string>
     <string name="reset">afvoer</string>
     <string name="storage_external_single">Micro SD kaart</string>
     <string name="storage_phone">Telefoon geheugen</string>

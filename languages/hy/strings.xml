@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Տեղեկություն /Ավելին…</string>
     <string name="prefs_kill_services_sum_text">Ձեր սարքում կան կարգավորումներ, որոնք թույլ են տալիս հավելվածներին ավտոմատ նվագարկել և աշխատել հետին պլանում: Կտտացրեք այստեղ և ավելացրեք հավելվածը բացառություններին (թույլատրել ավտոմատ մեկնարկը և այլն), որպեսզի այն աշխատի հետին պլանում և երբ էկրանն անջատված է, եթե արգելված է:</string>
     <string name="prefs_kill_services_text">Թույլատրել ֆոնային աշխատանքը</string>
+    <string name="prefs_language">Լեզու</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Բացեք հավելվածը, երբ ձայնագրումն ինքնաբերաբար սկսվի</string>
     <string name="prefs_launch_app_auto_text">Գործարկեք հավելվածը, երբ սկսվի տեսագրումը</string>
     <string name="prefs_launch_app_limitation_text">Android 11 և ավելի բարձր օպերացիոն համակարգով դուք չեք կարող ընտրել տեղադրված հավելվածներից որևէ մեկը, քանի որ համակարգն ինքն է սահմանափակում հավելվածների տեսանելիությունը (գաղտնիության քաղաքականություն)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Տեղադրության ձեռքբերման մեթոդ (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS թարմացման արագությունը</string>
     <string name="prefs_meters_accuracy_value_text">մետր ճշգրտությամբ</string>
+    <string name="prefs_open_source_notices_text">Բաց կոդով ծանուցումներ</string>
     <string name="prefs_optical_zoom_text">Օպտիկական խոշորացում (Zoom) /Կիզակետային երկարություն</string>
     <string name="prefs_orientation_landscape">Լանդշաֆտ</string>
     <string name="prefs_orientation_landscape_reversed">Ալբոմի հակառակ կողմը</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">G-սենսորային զգայունություն</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Թրթռում, երբ հայտնաբերվում է ցնցում</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Սկսեք ձայնագրել, երբ շարժումը հայտնաբերվի</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Bluetooth-ի իրադարձությունների համար դա հնարավոր է միայն այն դեպքում, եթե «ձայնագրել միայն լիցքավորման ժամանակ» տարբերակն անջատված է:</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Մի գործարկեք AutoStart հավելվածի ծառայությունը՝ մարտկոցը խնայելու համար, մինչ սպասում եք, որ իրադարձությունները ձայնագրման ավտոմատ մեկնարկեն: Android 8+-ի համար դա հնարավոր է, եթե միացված են միայն Bluetooth իրադարձությունները, իսկ մնացածն անջատված են:</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Դուք կարող եք անջատել այս տարբերակը, որպեսզի հավելվածը ավտոմատ ձայնագրություն կատարի միայն այն ժամանակ, երբ գործարկվում է հավելվածի ֆոնային ծառայությունը (AutoStart):\n- Իրադարձությունների ավտոմատ ձայնագրումը, ինչպիսիք են լիցքավորումը, Bluetooth-ը կամ AUX-ը, կարող է իրականացվել առանց խնդիրների մինչև Android 7.1:\n- Սկսած Android 8+-ից, ավտոմատ ձայնագրումն առանց ֆոնային հավելվածի ծառայության (AutoStart) կարող է իրականացվել միայն Bluetooth-ի իրադարձությունների համար, իսկ մյուս դեպքերում (լիցքավորման կամ AUX-ի ժամանակ) նախ պետք է գործարկել ֆոնային հավելվածի ծառայությունը (AutoStart)՝ գործարկելով: դիմումը ինքնին մեկ անգամ:\n- Սկսած Android 11+-ից, առանց ֆոնային հավելվածների ծառայության (AutoStart), տեսախցիկի մուտքն առանց օգտվողի փոխազդեցության՝ ձայնագրումը սկսելու համար հնարավոր է միայն այն դեպքում, եթե տրված է «բոլոր հավելվածների վերևում» թույլտվությունը:</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Ավտոմատ ձայնագրում, նույնիսկ եթե ֆոնային ծառայությունը չի աշխատում (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Սկսեք ձայնագրել, երբ արագությունը հավասար է /ավելի բարձր (հիմնված GPS-ի վրա)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Դուք կարող եք անջատել այս տարբերակը, որպեսզի հավելվածը ավտոմատ ձայնագրություն կատարի միայն այն ժամանակ, երբ գործարկվում է հավելվածի ֆոնային ծառայությունը (AutoStart):\n- Իրադարձությունների ավտոմատ ձայնագրումը, ինչպիսիք են լիցքավորումը, Bluetooth-ը կամ AUX-ը, կարող է իրականացվել առանց խնդիրների մինչև Android 7.1:\n- Սկսած Android 8-ից, ավտոմատ ձայնագրումն առանց ֆոնային հավելվածի ծառայության (AutoStart) կարող է իրականացվել միայն Bluetooth իրադարձությունների համար, իսկ մյուս դեպքերում (լիցքավորման կամ AUX-ի ժամանակ) նախ պետք է գործարկել ֆոնային հավելվածի ծառայությունը (AutoStart)՝ գործարկելով դիմումը ինքնին մեկ անգամ:\n- Սկսած Android 11-ից՝ առանց ֆոնային հավելվածների ծառայության (AutoStart), տեսախցիկի մուտքն առանց օգտատիրոջ փոխազդեցության հնարավոր է միայն այն դեպքում, եթե հեռախոսն ապակողպված է (էկրանը միացված է) և տրամադրվում է «բոլոր հավելվածների վերևում» թույլտվությունը:\n- Այսպիսով, Android 11-ի և ավելի բարձր տարբերակների համար անհրաժեշտ է մեկ անգամ ձեռքով գործարկել հավելվածը, որպեսզի հավելվածի ֆոնային ծառայությունը (AutoStart) սկսի ավտոմատ ձայնագրման համար ցանկացած իրադարձությունների ժամանակ և երբ հեռախոսի էկրանն անջատված է:</string>
-    <string name="prefs_rules_auto_start_without_service_text">Ավտոմատ ձայնագրում, նույնիսկ եթե ֆոնային ծառայությունը չի աշխատում (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Դադարեցնել ձայնագրումը հետո</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Դադարեցրեք ձայնագրումը, երբ շարժում չկա</string>
     <string name="prefs_rules_auto_stop_speed_text">Դադարեցրեք ձայնագրումը, երբ արագությունը ցածր է (հիմնված GPS-ի վրա)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Տեսանյութերի վերագրանցման արգելափակում</string>
     <string name="prefs_show_overlay_btn_sum_text">Բոլոր հավելվածների վերևում ցուցադրում է կառավարման կոճակներով պատուհան</string>
     <string name="prefs_show_overlay_btn_text">Ցույց տալ լողացող պատուհանը</string>
-    <string name="prefs_show_overlay_on_recording_text">Ցույց տալ լողացող պատուհանը, երբ ձայնագրությունը սկսվի</string>
+    <string name="prefs_show_overlay_on_recording_text">Ցույց տալ լողացող պատուհանը միայն այն ժամանակ, երբ ձայնագրությունն ակտիվ է (և փակել ավտոմատ կերպով, երբ այն դադարում է)</string>
     <string name="prefs_show_status_bar_text">Ցույց տալ համակարգի կարգավիճակի տողը</string>
     <string name="prefs_show_take_photo_btn_text">Լուսանկար պատրաստելու համար</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Չի աջակցվում ընթացիկ տեսախցիկի կողմից: Արտադրողները հաճախ սահմանափակում են դրա օգտագործումը. այն հասանելի է միայն ստանդարտ Camera հավելվածում</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Աջակցություն (հետադարձ կապ)</string>
     <string name="prefs_system_alert_window_sum_text">Թույլ տվեք այս հավելվածին հայտնվել բոլոր մյուս հավելվածների վերևում: Սա անհրաժեշտ է ավտոմատ կերպով սկսել/դադարեցնել տեսագրումը կամ լողացող պատուհան ցուցադրելու համար</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Թույլ տվեք այս հավելվածին հայտնվել բոլոր մյուս հավելվածների վերևում: Սա անհրաժեշտ է լողացող պատուհան ցուցադրելու համար</string>
-    <string name="prefs_system_alert_window_text">Բանաձևը բոլոր պատուհանների վերևում</string>
+    <string name="prefs_system_alert_window_text">Ցուցադրել այլ հավելվածների վերևում</string>
     <string name="prefs_theme_mode_dark">Մութ թեմա</string>
     <string name="prefs_theme_mode_dynamic">Դինամիկ</string>
     <string name="prefs_theme_mode_light">Թեթև թեմա</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Ձայնագրությունը…</string>
     <string name="recording_voice_started_text">Ձայնագրությունը սկսվել է</string>
     <string name="recording_voice_stopped_text">Ձայնագրումը դադարեցվեց</string>
+    <string name="records_file_edit_trim_crop">Խմբագրել (կտրել) «Google Լուսանկարներում»</string>
     <string name="records_file_sorting_date">Ամսաթիվ</string>
     <string name="records_file_sorting_duration">Տեւողությունը</string>
     <string name="records_file_sorting_name">Անուն</string>
     <string name="records_file_sorting_size">Ֆայլի չափ</string>
     <string name="records_file_upload_drive">Պահել «Google Drive»</string>
+    <string name="records_file_upload_youtube">Վերբեռնեք YouTube-ում</string>
     <string name="reset">արտանետում</string>
     <string name="storage_external_single">MicroSD քարտ</string>
     <string name="storage_phone">Հեռախոսի հիշողություն</string>

@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Мэдээлэл /Дэлгэрэнгүй…</string>
     <string name="prefs_kill_services_sum_text">Таны төхөөрөмж дээр програмуудыг автоматаар тоглуулах, ард ажиллуулахыг зөвшөөрөх тохиргоо байдаг. Энд дарж програмыг үл хамаарах зүйлд нэмж (автоматаар эхлүүлэхийг зөвшөөрөх гэх мэт) арын дэвсгэр болон дэлгэц унтарсан үед ажиллахыг зөвшөөрнө үү.</string>
     <string name="prefs_kill_services_text">Ар талд ажиллахыг зөвшөөрч байна</string>
+    <string name="prefs_language">Хэл</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Бичлэг автоматаар эхлэх үед програмыг нээнэ үү</string>
     <string name="prefs_launch_app_auto_text">Видео бичлэг хийж эхлэх үед програмыг ажиллуулна уу</string>
     <string name="prefs_launch_app_limitation_text">Андройд 11 болон түүнээс дээш хувилбартай бол систем өөрөө програмын харагдах байдлыг хязгаарладаг тул та суулгасан ямар ч програмыг сонгох боломжгүй байж магадгүй (нууцлалын бодлого)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Байршил олж авах арга (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS-ийн шинэчлэлтийн хурд</string>
     <string name="prefs_meters_accuracy_value_text">метр нарийвчлалтай</string>
+    <string name="prefs_open_source_notices_text">Нээлттэй эхийн мэдэгдэл</string>
     <string name="prefs_optical_zoom_text">Оптик томруулах (томруулах) /фокусын урт</string>
     <string name="prefs_orientation_landscape">Ландшафт</string>
     <string name="prefs_orientation_landscape_reversed">Цомгийн урвуу</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">G-мэдрэгчийн мэдрэмж</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Цочрол илэрсэн үед чичиргээ</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Хөдөлгөөн илэрсэн үед бичлэг хийж эхэлнэ</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Блютүүт үйл явдлын хувьд \"зөвхөн цэнэглэх үед бичих\" сонголтыг идэвхгүй болгосон тохиолдолд л боломжтой.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Бичлэгийг автоматаар эхлүүлэх үйл явдлуудыг хүлээж байхад батарейг хэмнэхийн тулд AutoStart програмын үйлчилгээг бүү ажиллуул. Android 8+-ийн хувьд энэ нь зөвхөн Bluetooth үйл явдлуудыг идэвхжүүлж, үлдсэнийг нь идэвхгүй болгосон тохиолдолд боломжтой.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Зөвхөн програмын арын үйлчилгээ (AutoStart) ажиллаж байх үед програмыг автоматаар бичихийн тулд та энэ сонголтыг унтрааж болно.\n- Цэнэглэх, Bluetooth эсвэл AUX гэх мэт үйл явдлын автомат бичлэгийг Android 7.1 хүртэл асуудалгүйгээр хийх боломжтой.\n- Android 8+ хувилбараас эхлэн арын програмын үйлчилгээгүйгээр автомат бичлэг хийх (AutoStart) нь зөвхөн Bluetooth үйл явдалд зориулагдсан бөгөөд бусад тохиолдолд (цэнэглэх эсвэл AUX үед) эхлээд арын програмын үйлчилгээг (AutoStart) эхлүүлэх хэрэгтэй. програм өөрөө нэг удаа.\n- Android 11+ хувилбараас эхлэн суурь програмын үйлчилгээ (AutoStart)гүйгээр камерт хандаж, хэрэглэгчийн оролцоогүйгээр бичлэг хийж эхлэх нь зөвхөн \"бүх апп дээр\" зөвшөөрөл олгосон тохиолдолд л боломжтой.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Арын үйлчилгээ ажиллахгүй байсан ч автомат бичлэг хийх (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Хурд тэнцүү /өндөр үед бичлэг хийж эхлэх (GPS дээр суурилсан)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Зөвхөн програмын арын үйлчилгээ (AutoStart) ажиллаж байх үед програмыг автоматаар бичихийн тулд та энэ сонголтыг унтрааж болно.\n- Цэнэглэх, Bluetooth эсвэл AUX гэх мэт үйл явдлын автомат бичлэгийг Android 7.1 хүртэл асуудалгүйгээр хийх боломжтой.\n- Android 8-аас эхлэн суурь програмын үйлчилгээгүйгээр автомат бичлэг хийх (AutoStart) нь зөвхөн Bluetooth үйл явдалд зориулагдсан бөгөөд бусад тохиолдолд (цэнэглэх эсвэл AUX үед) эхлээд арын програмын үйлчилгээг (AutoStart) эхлүүлэх хэрэгтэй. програм өөрөө нэг удаа.\n- Дэвсгэр програмын үйлчилгээ (AutoStart)-гүй Android 11-ээс эхлэн утасны түгжээг тайлсан (дэлгэц асаалттай) болон \"бүх апп дээр\" зөвшөөрөл олгосон тохиолдолд л хэрэглэгчийн оролцоогүйгээр камерт хандах боломжтой.\n- Тиймээс Android 11 ба түүнээс дээш хувилбаруудын хувьд та програмыг нэг удаа гараар эхлүүлэх шаардлагатай бөгөөд ингэснээр програмын арын үйлчилгээ (AutoStart) нь аливаа үйл явдлын үеэр болон утасны дэлгэц унтарсан үед автомат бичлэг хийх боломжтой болно.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Арын үйлчилгээ ажиллахгүй байсан ч автомат бичлэг хийх (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Бичлэгээ зогсоосны дараа</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Хөдөлгөөнгүй үед бичлэг хийхээ зогсоо</string>
     <string name="prefs_rules_auto_stop_speed_text">Хурд багассан үед бичлэг хийхээ зогсоох (GPS дээр суурилсан)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Видеонуудыг дарж бичихийг хориглох</string>
     <string name="prefs_show_overlay_btn_sum_text">Бүх програмын дээд талд байрлах хяналтын товчлуур бүхий цонхыг харуулна</string>
     <string name="prefs_show_overlay_btn_text">Хөвөгч цонхыг харуулах</string>
-    <string name="prefs_show_overlay_on_recording_text">Бичлэг эхлэх үед хөвөгч цонхыг харуулах</string>
+    <string name="prefs_show_overlay_on_recording_text">Зөвхөн бичлэг идэвхтэй үед хөвөгч цонхыг харуулах (мөн зогсох үед автоматаар хаах)</string>
     <string name="prefs_show_status_bar_text">Системийн төлөвийн мөрийг харуулах</string>
     <string name="prefs_show_take_photo_btn_text">Зураг хийх</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Одоогийн камер дэмждэггүй. Үйлдвэрлэгчид ихэвчлэн түүний хэрэглээг хязгаарладаг - энэ нь зөвхөн стандарт Camera програм дээр байдаг</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Дэмжлэг (санал хүсэлт)</string>
     <string name="prefs_system_alert_window_sum_text">Энэ апп-ыг бусад бүх програмын дээр гарч ирэхийг зөвшөөрнө үү. Энэ нь видео бичлэгийг автоматаар эхлүүлэх /зогсоох эсвэл хөвөгч цонхыг харуулахад шаардлагатай</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Энэ апп-ыг бусад бүх програмын дээр гарч ирэхийг зөвшөөрнө үү. Энэ нь хөвөгч цонхыг харуулахад шаардлагатай</string>
-    <string name="prefs_system_alert_window_text">Бүх цонхны дээд талд байгаа нягтрал</string>
+    <string name="prefs_system_alert_window_text">Бусад аппликешн дээр харуулах</string>
     <string name="prefs_theme_mode_dark">Харанхуй сэдэв</string>
     <string name="prefs_theme_mode_dynamic">Динамик</string>
     <string name="prefs_theme_mode_light">Хөнгөн сэдэв</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Бичлэг хийж байна…</string>
     <string name="recording_voice_started_text">Бичлэг эхэлсэн</string>
     <string name="recording_voice_stopped_text">Бичлэг зогссон</string>
+    <string name="records_file_edit_trim_crop">\"Google Зураг\" дотор засах (Таслах)</string>
     <string name="records_file_sorting_date">Огноо</string>
     <string name="records_file_sorting_duration">Үргэлжлэх хугацаа</string>
     <string name="records_file_sorting_name">Нэр</string>
     <string name="records_file_sorting_size">Файлын хэмжээ</string>
     <string name="records_file_upload_drive">\"Google Drive\"-д хадгалах</string>
+    <string name="records_file_upload_youtube">YouTube-д байршуулах</string>
     <string name="reset">гадагшлуулах</string>
     <string name="storage_external_single">MicroSD карт</string>
     <string name="storage_phone">Утасны санах ой</string>

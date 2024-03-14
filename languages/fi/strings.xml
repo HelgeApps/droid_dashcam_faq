@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Tietoja /Lisää…</string>
     <string name="prefs_kill_services_sum_text">Laitteessasi on asetukset, joiden avulla sovellukset voivat toistaa automaattisesti ja toimia taustalla. Napsauta tätä ja lisää sovellus poikkeuksiin (salli automaattinen käynnistys ja niin edelleen), jotta se voi toimia taustalla ja näytön ollessa pois päältä, jos se on kielletty</string>
     <string name="prefs_kill_services_text">Taustatyön salliminen</string>
+    <string name="prefs_language">Kieli</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Avaa sovellus, kun tallennus alkaa automaattisesti</string>
     <string name="prefs_launch_app_auto_text">Käynnistä sovellus, kun videon tallennus alkaa</string>
     <string name="prefs_launch_app_limitation_text">Android 11:ssä ja uudemmissa et ehkä voi valita mitään asennettuja sovelluksia, koska järjestelmä itse rajoittaa sovellusten näkyvyyttä (tietosuojakäytäntö)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Sijainnin hakumenetelmä (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS-päivitysnopeus</string>
     <string name="prefs_meters_accuracy_value_text">metrin tarkkuudella</string>
+    <string name="prefs_open_source_notices_text">Avoimen lähdekoodin ilmoitukset</string>
     <string name="prefs_optical_zoom_text">Optinen zoom (zoom) /polttoväli</string>
     <string name="prefs_orientation_landscape">Maisema</string>
     <string name="prefs_orientation_landscape_reversed">Albumin käänteinen</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">G-sensorin herkkyys</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Tärinä, kun isku havaitaan</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Aloita tallennus, kun liikettä havaitaan</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Bluetooth-tapahtumissa se on mahdollista vain, jos \"tallenna vain latauksen aikana\" -vaihtoehto on poistettu käytöstä.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Älä käynnistä AutoStart-sovelluspalvelua säästääksesi akkua odottaessasi tapahtumien tallennusta automaattisesti. Android 8+ -käyttöjärjestelmässä tämä on mahdollista, jos vain Bluetooth-tapahtumat ovat käytössä ja loput on poistettu käytöstä.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Voit poistaa tämän vaihtoehdon käytöstä, jos haluat, että sovellus suorittaa automaattisen tallennuksen vain, kun sovelluksen taustapalvelu (AutoStart) on käynnissä.\n- Automaattinen tallennus tapahtumille, kuten lataus, Bluetooth tai AUX, voidaan suorittaa ilman ongelmia Android 7.1:een asti.\n- Android 8+ -käyttöjärjestelmästä alkaen automaattinen tallennus ilman taustasovelluspalvelua (AutoStart) voidaan suorittaa vain Bluetooth-tapahtumille, ja muissa tapauksissa (latauksen tai AUX:n aikana) täytyy ensin käynnistää taustasovelluspalvelu (AutoStart) - käynnistämällä itse sovellus kerran.\n- Android 11+ -käyttöjärjestelmästä alkaen ilman taustasovelluspalvelua (AutoStart) kameraan pääseminen ilman käyttäjän toimenpiteitä tallennuksen aloittamiseksi on mahdollista vain, jos \"kaikkien sovellusten päällä\" -lupa myönnetään.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Automaattinen tallennus, vaikka taustapalvelu ei olisi käynnissä (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Aloita tallennus, kun nopeus on sama/suurempi (GPS:n perusteella)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Voit poistaa tämän vaihtoehdon käytöstä, jos haluat, että sovellus suorittaa automaattisen tallennuksen vain, kun sovelluksen taustapalvelu (AutoStart) on käynnissä.\n- Automaattinen tallennus tapahtumille, kuten lataus, Bluetooth tai AUX, voidaan suorittaa ilman ongelmia Android 7.1:een asti.\n- Android 8:sta alkaen automaattinen tallennus ilman taustasovelluspalvelua (AutoStart) voidaan suorittaa vain Bluetooth-tapahtumille, ja muissa tapauksissa (latauksen tai AUX:n aikana) täytyy ensin käynnistää taustasovelluspalvelu (AutoStart) - käynnistämällä sovellus itse kerran.\n- Android 11:stä alkaen ilman taustasovelluspalvelua (AutoStart) pääsy kameraan ilman käyttäjän toimia on mahdollista vain, jos puhelimen lukitus on avattu (näyttö päällä) ja \"on top of all apps\" -käyttöoikeus myönnetään.\n- Näin ollen Android 11:ssä ja uudemmissa versioissa sinun on käynnistettävä sovellus manuaalisesti kerran, jotta sovelluksen taustapalvelu (AutoStart) käynnistyy automaattista tallennusta varten tapahtumien aikana ja puhelimen näytön ollessa pois päältä.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Automaattinen tallennus, vaikka taustapalvelu ei olisi käynnissä (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Lopeta tallennus tämän jälkeen</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Lopeta tallennus, kun liikettä ei ole</string>
     <string name="prefs_rules_auto_stop_speed_text">Lopeta tallennus, kun nopeus on pienempi (GPS:n perusteella)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Videoiden päällekirjoittamisen estäminen</string>
     <string name="prefs_show_overlay_btn_sum_text">Näyttää ikkunan, jossa on ohjauspainikkeet kaikkien sovellusten päällä</string>
     <string name="prefs_show_overlay_btn_text">Näytä kelluva ikkuna</string>
-    <string name="prefs_show_overlay_on_recording_text">Näytä kelluva ikkuna, kun tallennus alkaa</string>
+    <string name="prefs_show_overlay_on_recording_text">Näytä kelluva ikkuna vain, kun tallennus on aktiivinen (ja sulkeutuu automaattisesti, kun se pysähtyy)</string>
     <string name="prefs_show_status_bar_text">Näytä järjestelmän tilapalkki</string>
     <string name="prefs_show_take_photo_btn_text">Valokuvan tekemiseen</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Nykyinen kamera ei tue. Valmistajat rajoittavat usein sen käyttöä - se on saatavana vain vakiokamerasovelluksessa</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Tuki (palaute)</string>
     <string name="prefs_system_alert_window_sum_text">Salli tämän sovelluksen näkyä kaikkien muiden sovellusten päällä. Tämä on tarpeen videotallennuksen käynnistämiseksi/pysäyttämiseksi automaattisesti tai kelluvan ikkunan näyttämiseksi</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Salli tämän sovelluksen näkyä kaikkien muiden sovellusten päällä. Tämä on tarpeen kelluvan ikkunan näyttämiseksi</string>
-    <string name="prefs_system_alert_window_text">Resoluutio kaikkien ikkunoiden päällä</string>
+    <string name="prefs_system_alert_window_text">Näyttö muiden sovellusten päällä</string>
     <string name="prefs_theme_mode_dark">Tumma teema</string>
     <string name="prefs_theme_mode_dynamic">Dynaaminen</string>
     <string name="prefs_theme_mode_light">Kevyt teema</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Äänite…</string>
     <string name="recording_voice_started_text">Tallennus on alkanut</string>
     <string name="recording_voice_stopped_text">Tallennus lopetettiin</string>
+    <string name="records_file_edit_trim_crop">Muokkaa (leikkaa) \"Google Kuvissa\"</string>
     <string name="records_file_sorting_date">Päivämäärä</string>
     <string name="records_file_sorting_duration">Kesto</string>
     <string name="records_file_sorting_name">Nimi</string>
     <string name="records_file_sorting_size">Tiedoston koko</string>
     <string name="records_file_upload_drive">Tallenna \"Google Driveen\"</string>
+    <string name="records_file_upload_youtube">Lataa YouTubeen</string>
     <string name="reset">purkaa</string>
     <string name="storage_external_single">MicroSD-kortti</string>
     <string name="storage_phone">Puhelimen muisti</string>

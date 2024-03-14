@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">Eolas /Tuilleadh…</string>
     <string name="prefs_kill_services_sum_text">Tá socruithe ar do ghléas chun ligean do apps autoplay agus rith sa chúlra. Cliceáil anseo agus cuir an feidhmchlár leis na heisceachtaí (lig autostart agus mar sin de) chun ligean dó rith sa chúlra agus nuair a bheidh an scáileán as, má tá cosc ​​air</string>
     <string name="prefs_kill_services_text">Ag ligean d\'obair chúlra</string>
+    <string name="prefs_language">Teanga</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Feidhmchlár oscailte nuair a thosaíonn an taifeadadh go huathoibríoch</string>
     <string name="prefs_launch_app_auto_text">Seoladh an app nuair a thosaíonn an taifeadadh físe</string>
     <string name="prefs_launch_app_limitation_text">Le Android 11 agus níos airde, b’fhéidir nach mbeidh tú in ann aon cheann de na haipeanna suiteáilte a roghnú toisc go gcuireann an córas féin infheictheacht aipeanna srian (polasaí príobháideachais)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">Modh fála suímh (GPS)</string>
     <string name="prefs_location_update_frequency_text">Ráta nuashonraithe GPS</string>
     <string name="prefs_meters_accuracy_value_text">méadar cruinnis</string>
+    <string name="prefs_open_source_notices_text">Fógraí foinse oscailte</string>
     <string name="prefs_optical_zoom_text">Zúmáil Optúil (Zúmáil) /Fad Fócasach</string>
     <string name="prefs_orientation_landscape">Tírdhreach</string>
     <string name="prefs_orientation_landscape_reversed">Albam droim ar ais</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">Íogaireacht G-braiteoir</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">Chreathadh nuair a bhraitear turraing</string>
     <string name="prefs_rules_auto_start_camera_motion_text">Tosaigh ag taifeadadh nuair a bhraitear tairiscint</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">I gcás imeachtaí Bluetooth ní féidir ach amháin má tá an rogha \"taifead ach amháin nuair a mhuirearú\" díchumasaithe.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">Ná seol an tseirbhís feidhmchláir AutoStart chun ceallraí a shábháil agus tú ag fanacht le himeachtaí chun taifeadadh a thosú go huathoibríoch. I gcás Android 8+ tá sé seo indéanta mura bhfuil ach imeachtaí Bluetooth cumasaithe agus an chuid eile díchumasaithe.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* Is féidir leat an rogha seo a mhúchadh chun go ndéanfaidh an app taifeadadh uathoibríoch ach amháin nuair a bhíonn seirbhís chúlra an aip (AutoStart) ar siúl.\n- Is féidir taifeadadh uathoibríoch le haghaidh imeachtaí mar mhuirearú, Bluetooth nó AUX a dhéanamh gan fadhbanna suas le Android 7.1.\n- Ag tosú ó Android 8+, ní féidir taifeadadh uathoibríoch gan seirbhís feidhmchláir chúlra (AutoStart) a dhéanamh ach amháin le haghaidh imeachtaí Bluetooth, agus i gcásanna eile (agus tú ag muirearú nó AUX) ní mór duit an tseirbhís feidhmchláir chúlra (AutoStart) a thosú ar dtús - trí sheoladh an t-iarratas féin uair amháin.\n- Ag tosú le Android 11+, gan an tseirbhís app cúlra (AutoStart), ní féidir rochtain a fháil ar an gceamara gan idirghníomhú leis an úsáideoir chun taifeadadh a thosú ach amháin má thugtar an cead \"sa bhreis ar gach feidhmchlár\".</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">Taifeadadh uathoibríoch fiú mura bhfuil an tseirbhís chúlra ag rith (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">Tosaigh ag taifeadadh nuair a bhíonn an luas cothrom /níos airde (bunaithe ar GPS)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* Is féidir leat an rogha seo a mhúchadh chun go ndéanfaidh an app taifeadadh uathoibríoch ach amháin nuair a bhíonn seirbhís chúlra an aip (AutoStart) ar siúl.\n- Is féidir taifeadadh uathoibríoch le haghaidh imeachtaí mar mhuirearú, Bluetooth nó AUX a dhéanamh gan fadhbanna suas le Android 7.1.\n- Ag tosú ó Android 8, ní féidir taifeadadh uathoibríoch gan seirbhís feidhmchláir chúlra (AutoStart) a dhéanamh ach amháin le haghaidh imeachtaí Bluetooth, agus i gcásanna eile (agus tú ag muirearú nó AUX) ní mór duit an tseirbhís feidhmchláir chúlra (AutoStart) a thosú ar dtús - trí sheoladh an iarratas féin uair amháin.\n- Ag tosú le Android 11 gan an tseirbhís aipeanna cúlra (AutoStart), ní féidir rochtain a fháil ar an gceamara gan idirghníomhaíocht úsáideora ach amháin má dhíghlasáiltear an fón (scáileán ar aghaidh) agus má thugtar cead \"sa bhreis ar gach feidhmchlár\".\n- Mar sin, le haghaidh Android 11 agus níos airde, ní mór duit an feidhmchlár a sheoladh de láimh uair amháin ionas go gcuirfear tús le seirbhís chúlra an fheidhmchláir (AutoStart) le haghaidh taifeadadh uathoibríoch le linn aon imeachtaí agus nuair a bhíonn scáileán an ghutháin múchta.</string>
-    <string name="prefs_rules_auto_start_without_service_text">Taifeadadh uathoibríoch fiú mura bhfuil an tseirbhís chúlra ag rith (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">Stop ag taifeadadh tar éis</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">Stop ag taifeadadh nuair nach bhfuil aon ghluaiseacht ann</string>
     <string name="prefs_rules_auto_stop_speed_text">Stop a thaifeadadh nuair a bhíonn an luas níos ísle (bunaithe ar GPS)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">Físeáin a bhlocáil ó bheith róscríofa</string>
     <string name="prefs_show_overlay_btn_sum_text">Taispeánann fuinneog le cnaipí rialaithe ar bharr gach feidhmchlár</string>
     <string name="prefs_show_overlay_btn_text">Taispeáin fuinneog ar snámh</string>
-    <string name="prefs_show_overlay_on_recording_text">Taispeáin an fhuinneog ar snámh nuair a thosaíonn an taifeadadh</string>
+    <string name="prefs_show_overlay_on_recording_text">Taispeáin an fhuinneog ar snámh ach amháin nuair atá an taifeadadh gníomhach (agus dún go huathoibríoch nuair a stopann sé)</string>
     <string name="prefs_show_status_bar_text">Taispeáin barra stádais an chórais</string>
     <string name="prefs_show_take_photo_btn_text">Chun grianghraf a dhéanamh</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">Ní thacaíonn an ceamara reatha leis. Is minic a chuireann monaróirí srian ar a úsáid - níl sé ar fáil ach san fheidhmchlár caighdeánach Ceamara</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">Tacaíocht (aiseolas)</string>
     <string name="prefs_system_alert_window_sum_text">Lig don aip seo a bheith le feiceáil ar bharr gach aip eile. Tá sé seo riachtanach chun fístaifeadadh a thosú /a stopadh go huathoibríoch nó chun fuinneog ar snámh a thaispeáint</string>
     <string name="prefs_system_alert_window_sum_text_bvr">Lig don aip seo a bheith le feiceáil ar bharr gach aip eile. Tá sé seo riachtanach chun fuinneog ar snámh a thaispeáint</string>
-    <string name="prefs_system_alert_window_text">Rún ar bharr na bhfuinneoga go léir</string>
+    <string name="prefs_system_alert_window_text">Taispeáin ar bharr feidhmchláir eile</string>
     <string name="prefs_theme_mode_dark">Téama dorcha</string>
     <string name="prefs_theme_mode_dynamic">Dinimiciúla</string>
     <string name="prefs_theme_mode_light">Téama éadrom</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">Taifeadadh…</string>
     <string name="recording_voice_started_text">Tá an taifeadadh tosaithe</string>
     <string name="recording_voice_stopped_text">Stopadh an taifeadadh</string>
+    <string name="records_file_edit_trim_crop">Cuir (Baile Átha Troim) in \"Google Photos\"</string>
     <string name="records_file_sorting_date">Dáta</string>
     <string name="records_file_sorting_duration">Fad</string>
     <string name="records_file_sorting_name">Ainm</string>
     <string name="records_file_sorting_size">Méid comhaid</string>
     <string name="records_file_upload_drive">Sábháil chuig \"Google Drive\"</string>
+    <string name="records_file_upload_youtube">Uaslódáil chuig YouTube</string>
     <string name="reset">urscaoileadh</string>
     <string name="storage_external_single">Cárta MicroSD</string>
     <string name="storage_phone">Cuimhne teileafóin</string>

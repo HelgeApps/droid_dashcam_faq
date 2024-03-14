@@ -188,6 +188,7 @@
     <string name="prefs_info_more_category_text">ინფორმაცია /მეტი…</string>
     <string name="prefs_kill_services_sum_text">თქვენს მოწყობილობაზე არის პარამეტრები, რომლებიც საშუალებას აძლევს აპებს ავტომატურად დაკვრას და იმუშაონ ფონზე. დააწკაპუნეთ აქ და დაამატეთ აპლიკაცია გამონაკლისებს (დაუშვით ავტომატური დაწყება და ა.</string>
     <string name="prefs_kill_services_text">ფონური მუშაობის დაშვება</string>
+    <string name="prefs_language">Ენა</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">გახსენით აპლიკაცია, როდესაც ჩაწერა ავტომატურად დაიწყება</string>
     <string name="prefs_launch_app_auto_text">გაუშვით აპი ვიდეოს ჩაწერის დაწყებისას</string>
     <string name="prefs_launch_app_limitation_text">Android 11 და უფრო მაღალი ვერსიით, თქვენ შეიძლება ვერ აირჩიოთ რომელიმე დაინსტალირებული აპი, რადგან სისტემა თავად ზღუდავს აპების ხილვადობას (კონფიდენციალურობის პოლიტიკა)</string>
@@ -203,6 +204,7 @@
     <string name="prefs_location_provider_method_text">მდებარეობის შეძენის მეთოდი (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS განახლების სიჩქარე</string>
     <string name="prefs_meters_accuracy_value_text">მეტრი სიზუსტით</string>
+    <string name="prefs_open_source_notices_text">ღია წყაროს შეტყობინებები</string>
     <string name="prefs_optical_zoom_text">ოპტიკური ზუმი (ზუმი) /ფოკუსური სიგრძე</string>
     <string name="prefs_orientation_landscape">პეიზაჟი</string>
     <string name="prefs_orientation_landscape_reversed">ალბომის უკუსვლა</string>
@@ -244,9 +246,11 @@
     <string name="prefs_rules_auto_lock_file_threshold_text">G- სენსორის მგრძნობელობა</string>
     <string name="prefs_rules_auto_lock_file_vibrate_text">ვიბრაცია შოკის გამოვლენისას</string>
     <string name="prefs_rules_auto_start_camera_motion_text">დაიწყეთ ჩაწერა, როდესაც მოძრაობა გამოვლინდება</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_sum_text">Bluetooth ღონისძიებებისთვის ეს შესაძლებელია მხოლოდ იმ შემთხვევაში, თუ ოფცია „ჩაწერა მხოლოდ დატენვისას“ გამორთულია.</string>
+    <string name="prefs_rules_auto_start_do_not_start_service_text">არ გაუშვათ AutoStart აპლიკაციის სერვისი ბატარეის დაზოგვის მიზნით, სანამ ელოდებით მოვლენების ავტომატური ჩაწერის დაწყებას. Android 8+-ისთვის ეს შესაძლებელია, თუ ჩართულია მხოლოდ Bluetooth მოვლენები და დანარჩენი გამორთულია.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">* შეგიძლიათ გამორთოთ ეს პარამეტრი, რათა აპმა განახორციელოს ავტომატური ჩაწერა მხოლოდ მაშინ, როდესაც აპის ფონური სერვისი (AutoStart) მუშაობს.\n- მოვლენების ავტომატური ჩაწერა, როგორიცაა დატენვა, Bluetooth ან AUX, შეიძლება შესრულდეს პრობლემების გარეშე Android 7.1-მდე.\n- Android 8+-დან დაწყებული, ავტომატური ჩაწერა ფონური აპლიკაციის სერვისის გარეშე (AutoStart) შეიძლება შესრულდეს მხოლოდ Bluetooth მოვლენებისთვის, ხოლო სხვა შემთხვევებში (დატენვისას ან AUX) ჯერ უნდა დაიწყოთ ფონური აპლიკაციის სერვისი (AutoStart) - გაშვებით. თავად აპლიკაცია ერთხელ.\n- Android 11+-ით დაწყებული, ფონური აპლიკაციის სერვისის გარეშე (AutoStart), კამერაზე წვდომა მომხმარებლის ინტერაქციის გარეშე ჩაწერის დასაწყებად შესაძლებელია მხოლოდ იმ შემთხვევაში, თუ მინიჭებული იქნება ნებართვა „ყველა აპის თავზე“.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">ავტომატური ჩაწერა მაშინაც კი, თუ ფონური სერვისი არ მუშაობს (AutoStart)</string>
     <string name="prefs_rules_auto_start_speed_text">ჩაწერის დაწყება, როდესაც სიჩქარე თანაბარი /მაღალია (GPS-ზე დაყრდნობით)</string>
-    <string name="prefs_rules_auto_start_without_service_sum_text">* შეგიძლიათ გამორთოთ ეს პარამეტრი, რათა აპმა განახორციელოს ავტომატური ჩაწერა მხოლოდ მაშინ, როდესაც აპის ფონური სერვისი (AutoStart) მუშაობს.\n- მოვლენების ავტომატური ჩაწერა, როგორიცაა დატენვა, Bluetooth ან AUX, შეიძლება შესრულდეს პრობლემების გარეშე Android 7.1-მდე.\n- Android 8-დან დაწყებული, ავტომატური ჩაწერა ფონური აპლიკაციის სერვისის გარეშე (AutoStart) შეიძლება შესრულდეს მხოლოდ Bluetooth ღონისძიებებისთვის, ხოლო სხვა შემთხვევებში (დატენვისას ან AUX) ჯერ უნდა დაიწყოთ ფონური აპლიკაციის სერვისი (AutoStart) - გაშვებით. განაცხადი თავად ერთხელ.\n- Android 11-ით დაწყებული ფონური აპლიკაციის სერვისის გარეშე (AutoStart), კამერაზე წვდომა მომხმარებლის ინტერაქციის გარეშე შესაძლებელია მხოლოდ იმ შემთხვევაში, თუ ტელეფონი განბლოკილია (ეკრანი ჩართულია) და მინიჭებული იქნება ნებართვა „ყველა აპის თავზე“.\n- ამგვარად, Android 11 და უფრო მაღალი ვერსიისთვის, საჭიროა ერთხელ ხელით გაუშვათ აპლიკაცია, რათა აპლიკაციის ფონური სერვისი (AutoStart) დაიწყოს ავტომატური ჩაწერისთვის ნებისმიერი მოვლენის დროს და როცა ტელეფონის ეკრანი გამორთულია.</string>
-    <string name="prefs_rules_auto_start_without_service_text">ავტომატური ჩაწერა მაშინაც კი, თუ ფონური სერვისი არ მუშაობს (AutoStart)</string>
     <string name="prefs_rules_auto_stop_after_specific_time_text">შემდეგ შეწყვიტე ჩაწერა</string>
     <string name="prefs_rules_auto_stop_camera_motion_text">შეწყვიტე ჩაწერა, როცა მოძრაობა არ არის</string>
     <string name="prefs_rules_auto_stop_speed_text">შეწყვიტე ჩაწერა, როდესაც სიჩქარე დაბალია (GPS-ზე დაყრდნობით)</string>
@@ -274,7 +278,7 @@
     <string name="prefs_show_lock_btn_text">ვიდეოების გადაწერის ბლოკირება</string>
     <string name="prefs_show_overlay_btn_sum_text">აჩვენებს ფანჯარას საკონტროლო ღილაკებით ყველა აპლიკაციის თავზე</string>
     <string name="prefs_show_overlay_btn_text">მცურავი ფანჯრის ჩვენება</string>
-    <string name="prefs_show_overlay_on_recording_text">ჩაწერის დაწყებისას მცურავი ფანჯრის ჩვენება</string>
+    <string name="prefs_show_overlay_on_recording_text">მცურავი ფანჯრის ჩვენება მხოლოდ მაშინ, როდესაც ჩაწერა აქტიურია (და ავტომატურად იხურება, როდესაც ის შეჩერდება)</string>
     <string name="prefs_show_status_bar_text">სისტემის სტატუსის ზოლის ჩვენება</string>
     <string name="prefs_show_take_photo_btn_text">ფოტოს გადასაღებად</string>
     <string name="prefs_stabilization_not_supported_by_camera_or_device_text">არ არის მხარდაჭერილი მიმდინარე კამერით. მწარმოებლები ხშირად ზღუდავენ მის გამოყენებას - ის ხელმისაწვდომია მხოლოდ სტანდარტული კამერის აპლიკაციაში</string>
@@ -310,7 +314,7 @@
     <string name="prefs_support_text">მხარდაჭერა (გამოხმაურება)</string>
     <string name="prefs_system_alert_window_sum_text">მიეცით საშუალება ამ აპს გამოჩნდეს ყველა სხვა აპის თავზე. ეს აუცილებელია ვიდეოს ჩაწერის ავტომატურად დასაწყებად/შეწყვეტისთვის ან მცურავი ფანჯრის გამოსაჩენად</string>
     <string name="prefs_system_alert_window_sum_text_bvr">მიეცით საშუალება ამ აპს გამოჩნდეს ყველა სხვა აპის თავზე. ეს აუცილებელია მცურავი ფანჯრის საჩვენებლად</string>
-    <string name="prefs_system_alert_window_text">რეზოლუცია ყველა ფანჯრის თავზე</string>
+    <string name="prefs_system_alert_window_text">ჩვენება სხვა აპლიკაციების თავზე</string>
     <string name="prefs_theme_mode_dark">მუქი თემა</string>
     <string name="prefs_theme_mode_dynamic">დინამიური</string>
     <string name="prefs_theme_mode_light">მსუბუქი თემა</string>
@@ -404,11 +408,13 @@
     <string name="recording_text">ჩაწერა…</string>
     <string name="recording_voice_started_text">ჩაწერა დაიწყო</string>
     <string name="recording_voice_stopped_text">ჩაწერა შეწყდა</string>
+    <string name="records_file_edit_trim_crop">რედაქტირება (მოჭრა) „Google Photos“-ში</string>
     <string name="records_file_sorting_date">თარიღი</string>
     <string name="records_file_sorting_duration">ხანგრძლივობა</string>
     <string name="records_file_sorting_name">სახელი</string>
     <string name="records_file_sorting_size">Ფაილის ზომა</string>
     <string name="records_file_upload_drive">შენახვა \"Google Drive\"-ში</string>
+    <string name="records_file_upload_youtube">ატვირთეთ YouTube-ზე</string>
     <string name="reset">გამონადენი</string>
     <string name="storage_external_single">MicroSD ბარათი</string>
     <string name="storage_phone">ტელეფონის მეხსიერება</string>
