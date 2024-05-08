@@ -45,12 +45,14 @@
     <string name="donation_dlg_no_ads_text">U heeft geen advertenties.</string>
     <string name="donation_level_text">Uw donatieniveau:</string>
     <string name="donation_purchase_info_loading_text">De winkelinformatie is nog niet geüpload. Ben je online en ingelogd op je Google-account?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Verwijder advertenties voor altijd met een eenmalige donatie van welk bedrag dan ook. U kunt ook maandelijks doneren om advertenties te verwijderen</string>
+    <string name="donation_remove_ads_by_any_amount_text">Verwijder advertenties voor altijd met een eenmalige donatie van welk bedrag dan ook.</string>
+    <string name="donation_remove_ads_by_subscribing_text">U kunt ook maandelijks doneren om advertenties te verwijderen.</string>
     <string name="donation_subs_any_amount_text">Reclame wordt volledig verwijderd zolang er een abonnement voor welk bedrag dan ook per maand actief is.</string>
     <string name="donation_subs_manage_btn_text">Uitschrijven</string>
     <string name="donation_subs_no_free_trial_explanation_text">De applicatie biedt geen proefperiode voor abonnementen, aangezien alle functies van de applicatie al gratis zijn, verwijdert het abonnement alleen advertenties</string>
     <string name="donation_subs_one_text">Advertenties worden volledig verwijderd zolang het abonnement actief is.</string>
     <string name="donation_subs_text">Doneer maandelijks</string>
+    <string name="donation_subscribtions_can_be_cancelled_any_time_text">Het abonnement kan op elk moment worden opgezegd (de knop “Abonnement opzeggen” zal beschikbaar zijn, u kunt dit ook opzeggen in de Google Play-applicatie)</string>
     <string name="format_altitude">Hoogte</string>
     <string name="format_degrees">Coördinaten</string>
     <string name="format_gb">Gigabyte</string>
@@ -140,6 +142,8 @@
     <string name="prefs_audio_source_camcorder_text">Audio-opname van CAMCORDER werkt mogelijk niet op sommige apparaten. Probeer in dit geval over te schakelen naar MIC</string>
     <string name="prefs_audio_source_text">Geluidsbron</string>
     <string name="prefs_audio_stereo_text">Stereo</string>
+    <string name="prefs_auto_service_wake_lock_sum_text">Dit zorgt ervoor dat de CPU (processor) draait (voor het ontvangen van Bluetooth-, oplaad- of AUX-gebeurtenissen).\nU kunt deze optie uitschakelen om de batterij te sparen wanneer de opname niet actief is. In de praktijk zou de processor niet in slaap moeten vallen, maar als dit op uw apparaat gebeurt, laat deze optie dan ingeschakeld.</string>
+    <string name="prefs_auto_service_wake_lock_text">Houd de CPU ingeschakeld (\"Wake Lock\") voor de achtergrondservice \"Watcher\" (gebruikt meer batterijvermogen).</string>
     <string name="prefs_auto_start_app_launch_sum_text">Start video-opname automatisch wanneer de app start</string>
     <string name="prefs_auto_start_app_launch_text">Bij het starten van de applicatie</string>
     <string name="prefs_auto_start_aux_category_text">AUX (audio-aansluiting)</string>
@@ -164,6 +168,7 @@
     <string name="prefs_beep_each_start_recording_text">Piep tijdens opnemen</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">De fabrikant van het apparaat biedt mogelijk geen toegang tot alle camera\'s, dus sommige kunnen niet worden geopend</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">De fabrikant van het apparaat levert mogelijk niet voor alle toepassingen een camera met brede lens</string>
+    <string name="prefs_consent_information_privacy_options">Privacyopties (Toestemmingsinformatie)</string>
     <string name="prefs_day_night_mode_auto_text">Automatisch (dag /nacht), op tijd</string>
     <string name="prefs_day_night_mode_day_text">Dag</string>
     <string name="prefs_day_night_mode_night_text">Nacht</string>
@@ -256,7 +261,7 @@
     <string name="prefs_rules_auto_stop_speed_text">Stop met opnemen als de snelheid lager is (gebaseerd op GPS)</string>
     <string name="prefs_rules_bl_auto_start_only_if_charging_text">Alleen opnemen wanneer het apparaat wordt opgeladen</string>
     <string name="prefs_rules_video_space_text">Maximale geheugencapaciteit van alle video\'s (loopopname)</string>
-    <string name="prefs_screen_autostart_sum_text">Wanneer u de applicatie start, schakelt u het opladen in /uit, start u het systeem op</string>
+    <string name="prefs_screen_autostart_sum_text">Bij het starten van de app, bij het in-/uitschakelen van het opladen, bij het verbinden van een Bluetooth-apparaat, AUX, bij het opstarten van het apparaat</string>
     <string name="prefs_screen_autostart_text">Opname automatisch starten</string>
     <string name="prefs_screen_ui_summary_text">Scherm snel /lang indrukken, scherm uit, adres- en snelheidsweergave, pop-upvenster, knoppen en meer</string>
     <string name="prefs_screen_ui_summary_text_bvr">Snelkoppeling om de opname te starten, snel en lang op het scherm drukken, pop-upvenster, trillen tijdens opnemen, geluidsmelding, trillen, knoppen op het scherm, het scherm uitschakelen en meer</string>
@@ -293,6 +298,8 @@
     <string name="prefs_subtitles_date_format_text">Datumnotatie</string>
     <string name="prefs_subtitles_date_text">Datum Tijd)</string>
     <string name="prefs_subtitles_date_time_system_text">systemisch</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Dit kan een probleem zijn met het gebruik en het gebruik van het apparaat. Als u gebruik wilt maken van de GPS-functie, kunt u dit doen настройки интерфейса</string>
+    <string name="prefs_subtitles_gps_info_category_title">GPS-apparaat</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX minimale updatesnelheid</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Alle coördinatenupdates</string>
     <string name="prefs_subtitles_gpx_sum">GPX - een XML-schema ontworpen als een gebruikelijk GPS-gegevensformaat voor softwaretoepassingen. Het kan worden gebruikt om waypoints, tracks en routes te beschrijven</string>
@@ -341,6 +348,7 @@
     <string name="prefs_video_bitrate_text">Bitsnelheid (kwaliteit)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Camerabediening Scènemodus (Nacht)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Camerabediening Scènemodus (dag)</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Het gebruik van een product en het gebruik ervan is niet mogelijk</string>
     <string name="prefs_video_codec_sum_text">H.265 HEVC- en AV1-codecs bieden betere kwaliteit bij lagere bitrates dan H.264 AVC, dus u kunt ruimte besparen door de bitrate te verlagen. Maar video\'s worden mogelijk niet afgespeeld in sommige videospelers</string>
     <string name="prefs_video_codec_text">Video codec</string>
     <string name="prefs_video_control_scene_mode_beach_text">Strand (helder weer)</string>

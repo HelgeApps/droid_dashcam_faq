@@ -45,12 +45,14 @@
     <string name="donation_dlg_no_ads_text">広告はありません。</string>
     <string name="donation_level_text">あなたの寄付レベル：</string>
     <string name="donation_purchase_info_loading_text">ショッピング情報はまだアップロードされていません。オンラインでGoogleアカウントにログインしていますか？</string>
-    <string name="donation_remove_ads_by_any_amount_text">任意の金額を 1 回寄付するだけで、広告を永久に削除できます。広告を削除するために毎月寄付することもできます</string>
+    <string name="donation_remove_ads_by_any_amount_text">任意の金額を 1 回寄付するだけで、広告を永久に削除できます。</string>
+    <string name="donation_remove_ads_by_subscribing_text">広告を削除するために毎月寄付することもできます。</string>
     <string name="donation_subs_any_amount_text">月額料金に関わらずサブスクリプションが有効な間、広告は完全に削除されます。</string>
     <string name="donation_subs_manage_btn_text">登録を解除する</string>
     <string name="donation_subs_no_free_trial_explanation_text">アプリケーションのすべての機能はすでに無料であるため、アプリケーションにはサブスクリプションの試用期間はありません。サブスクリプションによって広告が削除されるだけです。</string>
     <string name="donation_subs_one_text">サブスクリプションが有効な間、広告は完全に削除されます。</string>
     <string name="donation_subs_text">毎月寄付する</string>
+    <string name="donation_subscribtions_can_be_cancelled_any_time_text">サブスクリプションはいつでもキャンセルできます（「サブスクリプションをキャンセル」ボタンが利用可能になります。Google Play アプリケーションでもキャンセルできます）。</string>
     <string name="format_altitude">海抜</string>
     <string name="format_degrees">座標</string>
     <string name="format_gb">GB</string>
@@ -140,6 +142,8 @@
     <string name="prefs_audio_source_camcorder_text">CAMCORDER からの音声録音は一部のデバイスでは機能しない場合があります。この場合は、MIC に変更してみてください。</string>
     <string name="prefs_audio_source_text">オーディオソース</string>
     <string name="prefs_audio_stereo_text">ステレオ</string>
+    <string name="prefs_auto_service_wake_lock_sum_text">これにより、CPU (プロセッサ) が (Bluetooth、充電、または AUX イベントを受信するために) 動作していることが保証されます。\nこのオプションを無効にして、記録がアクティブでないときにバッテリー電力を節約できます。実際には、プロセッサがスリープ状態になることはありませんが、デバイスでスリープ状態になる場合は、このオプションを有効のままにしてください。</string>
+    <string name="prefs_auto_service_wake_lock_text">バックグラウンド サービス「Watcher」のために CPU をオン (「Wake Lock」) に保ちます (より多くのバッテリー電力を使用します)。</string>
     <string name="prefs_auto_start_app_launch_sum_text">アプリの起動時に自動的にビデオ録画を開始します</string>
     <string name="prefs_auto_start_app_launch_text">アプリケーションを起動するとき</string>
     <string name="prefs_auto_start_aux_category_text">AUX（オーディオジャック）</string>
@@ -164,6 +168,7 @@
     <string name="prefs_beep_each_start_recording_text">録音時にビープ音を鳴らす</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">デバイスの製造元がすべてのカメラへのアクセスを提供しているわけではないため、一部のカメラが開けない場合があります。</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">デバイスの製造元は、すべてのアプリケーションに対して広角レンズ カメラを提供していない場合があります。</string>
+    <string name="prefs_consent_information_privacy_options">プライバシー オプション (同意情報)</string>
     <string name="prefs_day_night_mode_auto_text">自動（日中/夜）、時間別</string>
     <string name="prefs_day_night_mode_day_text">日中</string>
     <string name="prefs_day_night_mode_night_text">夜</string>
@@ -256,7 +261,7 @@
     <string name="prefs_rules_auto_stop_speed_text">速度が遅くなったときに記録を停止します（GPSに基づく）</string>
     <string name="prefs_rules_bl_auto_start_only_if_charging_text">充電中のみ録画</string>
     <string name="prefs_rules_video_space_text">すべてのビデオの最大メモリ容量（ループ録画）</string>
-    <string name="prefs_screen_autostart_sum_text">アプリケーションを起動したら、充電のオン/オフを切り替え、システムを起動します</string>
+    <string name="prefs_screen_autostart_sum_text">アプリの起動時、充電のオン/オフ時、Bluetooth デバイスの接続時、AUX、デバイスの起動時</string>
     <string name="prefs_screen_autostart_text">録画の自動開始</string>
     <string name="prefs_screen_ui_summary_text">画面の高速/長押し、画面のオフ、アドレスと速度の表示、ポップアップウィンドウ、ボタンなど</string>
     <string name="prefs_screen_ui_summary_text_bvr">録音開始のショートカット、画面の素早い長押し、ポップアップウィンドウ、録音時の振動、音声通知、振動、画面上のボタン、画面のオフなど</string>
@@ -293,6 +298,8 @@
     <string name="prefs_subtitles_date_format_text">日付形式</string>
     <string name="prefs_subtitles_date_text">日付と時刻</string>
     <string name="prefs_subtitles_date_time_system_text">システム</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею и нагревать устройство. GPS を使用して、GPS を使用して、ビデオを受信します。 рфейса</string>
+    <string name="prefs_subtitles_gps_info_category_title">GPSデータ</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX 最小更新レート</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">すべての座標の更新</string>
     <string name="prefs_subtitles_gpx_sum">GPX - ソフトウェア アプリケーションの共通 GPS データ形式として設計された XML スキーマ。ウェイポイント、トラック、ルートの説明に使用できます</string>
@@ -341,6 +348,7 @@
     <string name="prefs_video_bitrate_text">ビットレート（品質）</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">カメラコントロールシーンモード（夜）</string>
     <string name="prefs_video_camera_control_scene_mode_text">カメラコントロールシーンモード（日中）</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Аанная камера была скрыта производителем и может не работать</string>
     <string name="prefs_video_codec_sum_text">H.265 HEVC および AV1 コーデックは、H.264 AVC よりも低いビットレートで優れた品質を提供するため、ビットレートを下げることでスペースを節約できます。ただし、一部のビデオプレーヤーではビデオが再生できない場合があります</string>
     <string name="prefs_video_codec_text">ビデオコーデック</string>
     <string name="prefs_video_control_scene_mode_beach_text">ビーチ（晴天）</string>

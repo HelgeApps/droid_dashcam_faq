@@ -45,12 +45,14 @@
     <string name="donation_dlg_no_ads_text">Você não tem anúncios.</string>
     <string name="donation_level_text">Seu nível de doação:</string>
     <string name="donation_purchase_info_loading_text">As informações de compras ainda não foram carregadas. Você está online e conectado à sua conta do Google?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Remova os anúncios para sempre com uma doação única de qualquer valor. Você também pode doar mensalmente para remover anúncios</string>
+    <string name="donation_remove_ads_by_any_amount_text">Remova os anúncios para sempre com uma doação única de qualquer valor.</string>
+    <string name="donation_remove_ads_by_subscribing_text">Você também pode doar mensalmente para remover anúncios.</string>
     <string name="donation_subs_any_amount_text">A publicidade é completamente removida enquanto uma assinatura de qualquer valor por mês estiver ativa.</string>
     <string name="donation_subs_manage_btn_text">Cancelar subscrição</string>
     <string name="donation_subs_no_free_trial_explanation_text">O aplicativo não disponibiliza período de teste para assinaturas, pois todas as funções do aplicativo já são gratuitas, a assinatura apenas remove publicidade</string>
     <string name="donation_subs_one_text">A publicidade é completamente removida enquanto a assinatura estiver ativa.</string>
     <string name="donation_subs_text">Doe mensalmente</string>
+    <string name="donation_subscribtions_can_be_cancelled_any_time_text">A assinatura pode ser cancelada a qualquer momento (o botão “cancelar assinatura” estará disponível, você também pode cancelar no aplicativo Google Play)</string>
     <string name="format_altitude">Altura</string>
     <string name="format_degrees">Coordenadas</string>
     <string name="format_gb">Gigabyte</string>
@@ -140,6 +142,8 @@
     <string name="prefs_audio_source_camcorder_text">A gravação de áudio da CAMCORDER pode não funcionar em alguns dispositivos, neste caso tente mudar para MIC</string>
     <string name="prefs_audio_source_text">Fonte de áudio</string>
     <string name="prefs_audio_stereo_text">Estéreo</string>
+    <string name="prefs_auto_service_wake_lock_sum_text">Isso garante que a CPU (processador) esteja funcionando (para receber eventos Bluetooth, carregamento ou AUX).\nVocê pode desativar esta opção para economizar bateria quando a gravação não estiver ativa. Na prática, o processador não deve adormecer, mas se isso acontecer no seu aparelho, deixe esta opção habilitada.</string>
+    <string name="prefs_auto_service_wake_lock_text">Mantenha a CPU ligada (\"Wake Lock\") para o serviço de segundo plano \"Watcher\" (usa mais energia da bateria).</string>
     <string name="prefs_auto_start_app_launch_sum_text">Inicie a gravação de vídeo automaticamente quando o aplicativo for iniciado</string>
     <string name="prefs_auto_start_app_launch_text">Ao iniciar o aplicativo</string>
     <string name="prefs_auto_start_aux_category_text">AUX (conector de áudio)</string>
@@ -164,6 +168,7 @@
     <string name="prefs_beep_each_start_recording_text">Bip ao gravar</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">O fabricante do dispositivo pode não fornecer acesso a todas as câmeras, então algumas podem não abrir</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">O fabricante do dispositivo pode não fornecer uma câmera de lente ampla para todas as aplicações</string>
+    <string name="prefs_consent_information_privacy_options">Opções de privacidade (informações de consentimento)</string>
     <string name="prefs_day_night_mode_auto_text">Automático (dia /noite), por hora</string>
     <string name="prefs_day_night_mode_day_text">Dia</string>
     <string name="prefs_day_night_mode_night_text">Noite</string>
@@ -256,7 +261,7 @@
     <string name="prefs_rules_auto_stop_speed_text">Pare de gravar quando a velocidade for mais baixa (com base no GPS)</string>
     <string name="prefs_rules_bl_auto_start_only_if_charging_text">Gravando apenas quando o dispositivo está carregando</string>
     <string name="prefs_rules_video_space_text">Capacidade máxima de memória de todos os vídeos (gravação em loop)</string>
-    <string name="prefs_screen_autostart_sum_text">Ao iniciar o aplicativo, ligue /desligue o carregamento e inicialize o sistema</string>
+    <string name="prefs_screen_autostart_sum_text">Na inicialização do aplicativo, ao ligar/desligar o carregamento, ao conectar um dispositivo Bluetooth, AUX, na inicialização do dispositivo</string>
     <string name="prefs_screen_autostart_text">Gravação de inicialização automática</string>
     <string name="prefs_screen_ui_summary_text">Tela rápida /pressão longa, tela desligada, exibição de endereço e velocidade, janela pop-up, botões e muito mais</string>
     <string name="prefs_screen_ui_summary_text_bvr">Atalho para iniciar a gravação, toque rápido e longo na tela, janela pop-up, vibração durante a gravação, notificação sonora, vibração, botões na tela, desligamento da tela e muito mais</string>
@@ -293,6 +298,8 @@
     <string name="prefs_subtitles_date_format_text">Formato de data</string>
     <string name="prefs_subtitles_date_text">Data hora)</string>
     <string name="prefs_subtitles_date_time_system_text">Sistêmico</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Esta opção pode ser usada com sucesso para bater e salvar o uso. Para visualizar informações importantes sobre o momento, verifique se o GPS está disponível para que você possa abrir, ativar e desativar interfera</string>
+    <string name="prefs_subtitles_gps_info_category_title">GPS</string>
     <string name="prefs_subtitles_gpx_delay_title">Taxa mínima de atualização GPX</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Todas as atualizações de coordenadas</string>
     <string name="prefs_subtitles_gpx_sum">GPX - um esquema XML projetado como um formato de dados GPS comum para aplicativos de software. Ele pode ser usado para descrever waypoints, trilhas e rotas</string>
@@ -341,6 +348,7 @@
     <string name="prefs_video_bitrate_text">Taxa de bits (qualidade)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Modo de cena de controle da câmera (noite)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Modo de cena de controle da câmera (dia)</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">A câmera de Dannaya foi protegida e não pode ser executada</string>
     <string name="prefs_video_codec_sum_text">Os codecs H.265 HEVC e AV1 oferecem melhor qualidade com taxas de bits mais baixas do que H.264 AVC, para que você possa economizar espaço reduzindo a taxa de bits. Mas os vídeos podem não ser reproduzidos em alguns players de vídeo</string>
     <string name="prefs_video_codec_text">Codec de vídeo</string>
     <string name="prefs_video_control_scene_mode_beach_text">Praia (tempo claro)</string>

@@ -45,12 +45,14 @@
     <string name="donation_dlg_no_ads_text">Nemate reklame.</string>
     <string name="donation_level_text">Vaš nivo donacije:</string>
     <string name="donation_purchase_info_loading_text">Informacije o kupovini još nisu učitane. Jeste li online i prijavljeni na svoj Google račun?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Uklonite oglase zauvijek uz jednokratnu donaciju u bilo kojem iznosu. Također možete donirati mjesečno za uklanjanje oglasa</string>
+    <string name="donation_remove_ads_by_any_amount_text">Uklonite oglase zauvijek uz jednokratnu donaciju u bilo kojem iznosu.</string>
+    <string name="donation_remove_ads_by_subscribing_text">Također možete donirati mjesečno za uklanjanje oglasa.</string>
     <string name="donation_subs_any_amount_text">Oglašavanje je potpuno uklonjeno dok je aktivna pretplata za bilo koji mjesečni iznos.</string>
     <string name="donation_subs_manage_btn_text">Otkaži pretplatu</string>
     <string name="donation_subs_no_free_trial_explanation_text">Aplikacija ne pruža probni period za pretplate, jer su sve funkcije aplikacije već besplatne, pretplata uklanja samo oglašavanje</string>
     <string name="donation_subs_one_text">Oglašavanje je potpuno uklonjeno dok je pretplata aktivna.</string>
     <string name="donation_subs_text">Donirajte mjesečno</string>
+    <string name="donation_subscribtions_can_be_cancelled_any_time_text">Pretplatu možete otkazati u bilo kojem trenutku (dugme \"otkaži pretplatu\" će biti dostupno, možete ga otkazati i u aplikaciji Google Play)</string>
     <string name="format_altitude">Visina</string>
     <string name="format_degrees">Koordinate</string>
     <string name="format_gb">Gigabyte</string>
@@ -140,6 +142,8 @@
     <string name="prefs_audio_source_camcorder_text">Snimanje zvuka sa KAMERE možda neće raditi na nekim uređajima, u ovom slučaju pokušajte promijeniti na MIC</string>
     <string name="prefs_audio_source_text">Audio izvor</string>
     <string name="prefs_audio_stereo_text">Stereo</string>
+    <string name="prefs_auto_service_wake_lock_sum_text">Ovo osigurava da CPU (procesor) radi (da prima Bluetooth, punjenje ili AUX događaje).\nOvu opciju možete onemogućiti da uštedite energiju baterije kada snimanje nije aktivno. U praksi procesor ne bi trebao zaspati, ali ako se to dogodi na vašem uređaju, ostavite ovu opciju uključenom.</string>
+    <string name="prefs_auto_service_wake_lock_text">Držite CPU uključen (\"Wake Lock\") za uslugu u pozadini \"Watcher\" (koristi više energije baterije).</string>
     <string name="prefs_auto_start_app_launch_sum_text">Automatski pokrenite snimanje videa kada se aplikacija pokrene</string>
     <string name="prefs_auto_start_app_launch_text">Prilikom pokretanja aplikacije</string>
     <string name="prefs_auto_start_aux_category_text">AUX (audio priključak)</string>
@@ -164,6 +168,7 @@
     <string name="prefs_beep_each_start_recording_text">Zvuk prilikom snimanja</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Proizvođač uređaja možda neće omogućiti pristup svim kamerama, pa se neke možda neće otvoriti</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Proizvođač uređaja možda neće obezbijediti kameru sa širokim objektivom za sve aplikacije</string>
+    <string name="prefs_consent_information_privacy_options">Opcije privatnosti (Informacije o pristanku)</string>
     <string name="prefs_day_night_mode_auto_text">Automatski (dan/noć), po vremenu</string>
     <string name="prefs_day_night_mode_day_text">Dan</string>
     <string name="prefs_day_night_mode_night_text">Noć</string>
@@ -256,7 +261,7 @@
     <string name="prefs_rules_auto_stop_speed_text">Zaustavite snimanje kada je brzina manja (na osnovu GPS-a)</string>
     <string name="prefs_rules_bl_auto_start_only_if_charging_text">Snimanje samo kada se uređaj puni</string>
     <string name="prefs_rules_video_space_text">Maksimalni kapacitet memorije svih video zapisa (snimanje u petlji)</string>
-    <string name="prefs_screen_autostart_sum_text">Kada pokrenete aplikaciju, uključite/isključite punjenje, pokrenite sistem</string>
+    <string name="prefs_screen_autostart_sum_text">Prilikom pokretanja aplikacije, pri uključivanju/isključenju punjenja, pri povezivanju Bluetooth uređaja, AUX, pri pokretanju uređaja</string>
     <string name="prefs_screen_autostart_text">Automatsko pokretanje snimanja</string>
     <string name="prefs_screen_ui_summary_text">Brzi/dugi pritisak na ekranu, isključenje ekrana, prikaz adrese i brzine, iskačući prozor, dugmad i još mnogo toga</string>
     <string name="prefs_screen_ui_summary_text_bvr">Prečica za početak snimanja, brzi i dugi pritisak na ekran, iskačući prozor, vibracija pri snimanju, zvučno obaveštenje, vibracija, dugmad na ekranu, gašenje ekrana i drugo</string>
@@ -293,6 +298,8 @@
     <string name="prefs_subtitles_date_format_text">Format datuma</string>
     <string name="prefs_subtitles_date_text">Datum i vrijeme)</string>
     <string name="prefs_subtitles_date_time_system_text">Sistemski</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Ove opcije mogu suštinski zahtevati bateriju i uređaj za grejanje. Za video zapise glavne informacije o vremenu, sve GPS opcije mogu se uključiti, uključujući podešavanja interfejsa</string>
+    <string name="prefs_subtitles_gps_info_category_title">GPS danni</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX minimalna stopa ažuriranja</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Sva ažuriranja koordinata</string>
     <string name="prefs_subtitles_gpx_sum">GPX - XML ​​šema dizajnirana kao uobičajeni format GPS podataka za softverske aplikacije. Može se koristiti za opisivanje međutočaka, staza i ruta</string>
@@ -341,6 +348,7 @@
     <string name="prefs_video_bitrate_text">Brzina prijenosa (kvalitet)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Scenski način upravljanja kamerom (noć)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Scenski način upravljanja kamerom (dan)</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Danna kamera je bila skrita proizvođača i ne može raditi</string>
     <string name="prefs_video_codec_sum_text">H.265 HEVC i AV1 kodeci pružaju bolji kvalitet pri nižim brzinama prijenosa od H.264 AVC, tako da možete uštedjeti prostor smanjenjem brzine prijenosa. Ali video zapisi se možda neće reproducirati u nekim video playerima</string>
     <string name="prefs_video_codec_text">Video kodek</string>
     <string name="prefs_video_control_scene_mode_beach_text">Plaža (vedro vrijeme)</string>

@@ -45,12 +45,14 @@
     <string name="donation_dlg_no_ads_text">თქვენ არ გაქვთ რეკლამები.</string>
     <string name="donation_level_text">თქვენი შემოწირულობის დონე:</string>
     <string name="donation_purchase_info_loading_text">სავაჭრო ინფორმაცია ჯერ არ არის ატვირთული. ხართ ონლაინ და შესული ხართ თქვენს Google ანგარიშში?</string>
-    <string name="donation_remove_ads_by_any_amount_text">სამუდამოდ წაშალეთ რეკლამები ნებისმიერი თანხის ერთჯერადი შემოწირულობით. თქვენ ასევე შეგიძლიათ ყოველთვიური შემოწირულობა რეკლამების წასაშლელად</string>
+    <string name="donation_remove_ads_by_any_amount_text">სამუდამოდ წაშალეთ რეკლამები ნებისმიერი თანხის ერთჯერადი შემოწირულობით.</string>
+    <string name="donation_remove_ads_by_subscribing_text">ასევე შეგიძლიათ ყოველთვიურად შემოწირულობის გაცემა რეკლამების წასაშლელად.</string>
     <string name="donation_subs_any_amount_text">რეკლამა მთლიანად ამოღებულია, სანამ თვეში ნებისმიერი თანხის გამოწერა აქტიურია.</string>
     <string name="donation_subs_manage_btn_text">გამოწერის გაუქმება</string>
     <string name="donation_subs_no_free_trial_explanation_text">აპლიკაცია არ ითვალისწინებს გამოწერის საცდელ პერიოდს, რადგან აპლიკაციის ყველა ფუნქცია უკვე უფასოა, გამოწერა მხოლოდ ხსნის რეკლამას</string>
     <string name="donation_subs_one_text">რეკლამა მთლიანად ამოღებულია, სანამ გამოწერა აქტიურია.</string>
     <string name="donation_subs_text">ყოველთვიურად შემოწირულობა</string>
+    <string name="donation_subscribtions_can_be_cancelled_any_time_text">გამოწერის გაუქმება შესაძლებელია ნებისმიერ დროს (ხელმისაწვდომი იქნება ღილაკი „გამოწერის გაუქმება“, ასევე შეგიძლიათ გააუქმოთ Google Play აპლიკაციაში)</string>
     <string name="format_altitude">სიმაღლე</string>
     <string name="format_degrees">კოორდინატები</string>
     <string name="format_gb">გიგაბაიტი</string>
@@ -140,6 +142,8 @@
     <string name="prefs_audio_source_camcorder_text">აუდიო ჩანაწერმა CAMCORDER-დან შეიძლება არ იმუშაოს ზოგიერთ მოწყობილობაზე, ამ შემთხვევაში სცადეთ MIC-ზე შეცვლა</string>
     <string name="prefs_audio_source_text">აუდიო წყარო</string>
     <string name="prefs_audio_stereo_text">სტერეო</string>
+    <string name="prefs_auto_service_wake_lock_sum_text">ეს უზრუნველყოფს CPU-ს (პროცესორის) გაშვებას (Bluetooth-ის, დამუხტვის ან AUX მოვლენების მისაღებად).\nშეგიძლიათ გამორთოთ ეს პარამეტრი ბატარეის ენერგიის დაზოგვისთვის, როდესაც ჩაწერა არ არის აქტიური. პრაქტიკაში, პროცესორს არ უნდა დაეძინოს, მაგრამ თუ ეს მოხდება თქვენს მოწყობილობაზე, დატოვეთ ეს პარამეტრი ჩართული.</string>
+    <string name="prefs_auto_service_wake_lock_text">შეინახეთ CPU ჩართული (\"Wake Lock\") ფონური სერვისისთვის \"Watcher\" (იყენებს ბატარეის მეტ ენერგიას).</string>
     <string name="prefs_auto_start_app_launch_sum_text">ავტომატურად დაიწყეთ ვიდეოს ჩაწერა აპის დაწყებისას</string>
     <string name="prefs_auto_start_app_launch_text">განაცხადის დაწყებისას</string>
     <string name="prefs_auto_start_aux_category_text">AUX (აუდიო ჯეკი)</string>
@@ -164,6 +168,7 @@
     <string name="prefs_beep_each_start_recording_text">სიგნალი ჩაწერისას</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">მოწყობილობის მწარმოებელმა შეიძლება არ უზრუნველყოს წვდომა ყველა კამერაზე, ამიტომ ზოგიერთი შეიძლება არ გაიხსნას</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">მოწყობილობის მწარმოებელმა შეიძლება არ უზრუნველყოს ფართო ლინზების კამერა ყველა აპლიკაციისთვის</string>
+    <string name="prefs_consent_information_privacy_options">კონფიდენციალურობის პარამეტრები (თანხმობის ინფორმაცია)</string>
     <string name="prefs_day_night_mode_auto_text">ავტომატური (დღე/ღამე), დროის მიხედვით</string>
     <string name="prefs_day_night_mode_day_text">Დღეს</string>
     <string name="prefs_day_night_mode_night_text">Ღამე</string>
@@ -256,7 +261,7 @@
     <string name="prefs_rules_auto_stop_speed_text">შეწყვიტე ჩაწერა, როდესაც სიჩქარე დაბალია (GPS-ზე დაყრდნობით)</string>
     <string name="prefs_rules_bl_auto_start_only_if_charging_text">ჩაწერა ხდება მხოლოდ მაშინ, როდესაც მოწყობილობა იტენება</string>
     <string name="prefs_rules_video_space_text">ყველა ვიდეოს მეხსიერების მაქსიმალური მოცულობა (მარყუჟის ჩაწერა)</string>
-    <string name="prefs_screen_autostart_sum_text">როდესაც დაიწყებთ აპლიკაციას, ჩართეთ /გამორთეთ დატენვა, ჩატვირთეთ სისტემა</string>
+    <string name="prefs_screen_autostart_sum_text">აპის დაწყებაზე, დატენვის ჩართვა/გამორთვისას, Bluetooth მოწყობილობის, AUX, მოწყობილობის ჩატვირთვისას</string>
     <string name="prefs_screen_autostart_text">ჩაწერის ავტომატური დაწყება</string>
     <string name="prefs_screen_ui_summary_text">ეკრანის სწრაფი /ხანგრძლივი დაჭერა, ეკრანის გამორთვა, მისამართის და სიჩქარის ჩვენება, ამომხტარი ფანჯარა, ღილაკები და სხვა</string>
     <string name="prefs_screen_ui_summary_text_bvr">მალსახმობი ჩაწერის დასაწყებად, ეკრანზე სწრაფი და ხანგრძლივი დაჭერა, ამომხტარი ფანჯარა, ვიბრაცია ჩაწერისას, ხმის შეტყობინება, ვიბრაცია, ღილაკები ეკრანზე, ეკრანის გამორთვა და სხვა</string>
@@ -293,6 +298,8 @@
     <string name="prefs_subtitles_date_format_text">Თარიღის ფორმატი</string>
     <string name="prefs_subtitles_date_text">თარიღის დრო)</string>
     <string name="prefs_subtitles_date_time_system_text">სისტემური</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Этификации може да существенно потреблять батарею и нагревать устройство. Для видеозаписей მთავარიе информация о времени, поэтому ყველა GPS ოფციები სრული შესაძლებლობით, ჩართვის ინტერფეისი</string>
+    <string name="prefs_subtitles_gps_info_category_title">GPS მონაცემები</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX განახლების მინიმალური სიჩქარე</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">ყველა კოორდინატის განახლება</string>
     <string name="prefs_subtitles_gpx_sum">GPX - XML ​​სქემა, რომელიც შექმნილია როგორც საერთო GPS მონაცემთა ფორმატი პროგრამული აპლიკაციებისთვის. ის შეიძლება გამოყენებულ იქნას გზის წერტილების, ბილიკისა და მარშრუტების აღსაწერად</string>
@@ -341,6 +348,7 @@
     <string name="prefs_video_bitrate_text">ბიტის სიხშირე (ხარისხი)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">კამერის კონტროლის სცენის რეჟიმი (ღამე)</string>
     <string name="prefs_video_camera_control_scene_mode_text">კამერის კონტროლის სცენის რეჟიმი (დღე)</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Даная камера была скрыта производителем и შეიძლება არ მუშაობსь</string>
     <string name="prefs_video_codec_sum_text">H.265 HEVC და AV1 კოდეკები უზრუნველყოფენ უკეთეს ხარისხს უფრო დაბალი ბიტი სიჩქარით, ვიდრე H.264 AVC, ასე რომ თქვენ შეგიძლიათ დაზოგოთ სივრცე ბიტური სიჩქარის შემცირებით. მაგრამ ვიდეო შეიძლება არ დაკვრა ზოგიერთ ვიდეო პლეერში</string>
     <string name="prefs_video_codec_text">ვიდეო კოდეკი</string>
     <string name="prefs_video_control_scene_mode_beach_text">სანაპირო (ნათელი ამინდი)</string>

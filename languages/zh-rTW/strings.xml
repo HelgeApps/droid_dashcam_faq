@@ -47,12 +47,14 @@
     <string name="donation_dlg_no_ads_text">您沒有廣告。</string>
     <string name="donation_level_text">您的捐贈級別：</string>
     <string name="donation_purchase_info_loading_text">無法確認付款資料。您的 Google 帳戶是否已經登錄？</string>
-    <string name="donation_remove_ads_by_any_amount_text">透過一次性捐贈任意金額，永久刪除廣告。您也可以每月捐款以刪除廣告</string>
+    <string name="donation_remove_ads_by_any_amount_text">透過一次性捐贈任意金額，永久刪除廣告。</string>
+    <string name="donation_remove_ads_by_subscribing_text">您也可以每月捐款以刪除廣告。</string>
     <string name="donation_subs_any_amount_text">當每月任意金額的訂閱處於活動狀態時，廣告將會完全刪除。</string>
     <string name="donation_subs_manage_btn_text">退訂</string>
     <string name="donation_subs_no_free_trial_explanation_text">該應用程式不提供訂閱試用期，因為該應用程式的所有功能已經免費，訂閱僅去除廣告</string>
     <string name="donation_subs_one_text">當訂閱有效時，廣告將被完全刪除。</string>
     <string name="donation_subs_text">每月捐款</string>
+    <string name="donation_subscribtions_can_be_cancelled_any_time_text">訂閱可以隨時取消（「取消訂閱」按鈕將可用，您也可以在Google Play應用程式中取消）</string>
     <string name="format_altitude">高度</string>
     <string name="format_degrees">座標</string>
     <string name="format_gb">技嘉</string>
@@ -142,6 +144,8 @@
     <string name="prefs_audio_source_camcorder_text">攝影機錄音可能無法在某些裝置上運作，在這種情況下請嘗試變更為 MIC</string>
     <string name="prefs_audio_source_text">音源</string>
     <string name="prefs_audio_stereo_text">立體聲</string>
+    <string name="prefs_auto_service_wake_lock_sum_text">這可確保 CPU（處理器）正在運作（以接收藍牙、充電或 AUX 事件）。\n當錄製未處於活動狀態時，您可以停用此選項以節省電池電量。實際上，處理器不應該進入睡眠狀態，但如果您的裝置上發生這種情況，請啟用此選項。</string>
+    <string name="prefs_auto_service_wake_lock_text">保持 CPU 開啟（「喚醒鎖定」）以進行後台服務「Watcher」（使用更多電池電量）。</string>
     <string name="prefs_auto_start_app_launch_sum_text">應用程式啟動時自動開始視頻錄製</string>
     <string name="prefs_auto_start_app_launch_text">啟動應用程式時</string>
     <string name="prefs_auto_start_aux_category_text">AUX（音頻插孔）</string>
@@ -166,6 +170,7 @@
     <string name="prefs_beep_each_start_recording_text">錄影時發出嗶嗶聲</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">設備製造商可能不提供對所有攝像頭的訪問，因此某些攝像頭可能無法打開</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">設備製造商可能不會為所有應用程序提供廣角鏡頭相機</string>
+    <string name="prefs_consent_information_privacy_options">隱私選項（同意資訊）</string>
     <string name="prefs_day_night_mode_auto_text">自動（白天/黑夜），按照時間</string>
     <string name="prefs_day_night_mode_day_text">白天</string>
     <string name="prefs_day_night_mode_night_text">夜晚</string>
@@ -258,7 +263,7 @@
     <string name="prefs_rules_auto_stop_speed_text">當速度較低時停止記錄（基於 GPS）</string>
     <string name="prefs_rules_bl_auto_start_only_if_charging_text">僅在設備充電時錄製</string>
     <string name="prefs_rules_video_space_text">所有影片的最大内存容量（循環錄製）</string>
-    <string name="prefs_screen_autostart_sum_text">當您啟動應用程式時，開始/關閉充電，啟動溪頭</string>
+    <string name="prefs_screen_autostart_sum_text">應用程式啟動時、充電開/關時、連接藍牙裝置時、AUX 時、裝置啟動時</string>
     <string name="prefs_screen_autostart_text">自動開始錄影</string>
     <string name="prefs_screen_ui_summary_text">螢幕快速/長按、螢幕關閉、地址和速度顯示、彈出視窗、按鈕等</string>
     <string name="prefs_screen_ui_summary_text_bvr">快速開始錄音、快速長按螢幕、彈出視窗、錄音時震動、聲音通知、震動、螢幕按鈕、關閉螢幕等</string>
@@ -295,6 +300,8 @@
     <string name="prefs_subtitles_date_format_text">日期格式</string>
     <string name="prefs_subtitles_date_text">日期時間</string>
     <string name="prefs_subtitles_date_time_system_text">系統默認</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею 和 нагреватьустройствоо。 Для видеозаписей главное информация о времени, поэтому все GPS ополне мо фейca</string>
+    <string name="prefs_subtitles_gps_info_category_title">GPS導航</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX 最低更新率</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">所有坐標更新</string>
     <string name="prefs_subtitles_gpx_sum">GPX - 一種 XML 模式，設計為軟體應用程式的通用 GPS 資料格式。它可用於描述航路點、軌跡和路線</string>
@@ -343,6 +350,7 @@
     <string name="prefs_video_bitrate_text">比特率（質量）</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">控制鏡頭場景模式（夜間）</string>
     <string name="prefs_video_camera_control_scene_mode_text">控制鏡頭場景模式（白天）</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Данная камера была скрыта производителем и может не работать</string>
     <string name="prefs_video_codec_sum_text">與 H.264 AVC 相比，H.265 HEVC 和 AV1 編解碼器以更低的位元率提供更好的質量，因此您可以透過降低位元率來節省空間。但影片可能無法在某些影片播放器中播放</string>
     <string name="prefs_video_codec_text">視訊編解碼器</string>
     <string name="prefs_video_control_scene_mode_beach_text">海灘（晴朗的天氣）</string>

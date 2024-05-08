@@ -45,12 +45,14 @@
     <string name="donation_dlg_no_ads_text">Nincsenek hirdetései.</string>
     <string name="donation_level_text">Az Ön adományozási szintje:</string>
     <string name="donation_purchase_info_loading_text">A vásárlási információk még nem kerültek feltöltésre. Ön online, és bejelentkezett Google-fiókjába?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Bármilyen összegű egyszeri adományozással örökre távolítsa el a hirdetéseket. Havonta adományozhat is a hirdetések eltávolítására</string>
+    <string name="donation_remove_ads_by_any_amount_text">Bármilyen összegű egyszeri adományozással örökre távolítsa el a hirdetéseket.</string>
+    <string name="donation_remove_ads_by_subscribing_text">Havonta adományozhat is a hirdetések eltávolítására.</string>
     <string name="donation_subs_any_amount_text">A hirdetéseket teljesen eltávolítjuk, miközben a havi tetszőleges összegű előfizetés aktív.</string>
     <string name="donation_subs_manage_btn_text">Leiratkozás</string>
     <string name="donation_subs_no_free_trial_explanation_text">Az alkalmazás nem biztosít próbaidőszakot az előfizetésekhez, mivel az alkalmazás minden funkciója már ingyenes, az előfizetés csak a hirdetéseket távolítja el</string>
     <string name="donation_subs_one_text">Amíg az előfizetés aktív, a hirdetéseket teljesen eltávolítjuk.</string>
     <string name="donation_subs_text">Adományozz havonta</string>
+    <string name="donation_subscribtions_can_be_cancelled_any_time_text">Az előfizetés bármikor lemondható (elérhető lesz az „előfizetés törlése” gomb, a Google Play alkalmazásban is lemondható)</string>
     <string name="format_altitude">Magasság</string>
     <string name="format_degrees">Koordináták</string>
     <string name="format_gb">Gigabyte</string>
@@ -140,6 +142,8 @@
     <string name="prefs_audio_source_camcorder_text">Előfordulhat, hogy a CAMCORDER hangrögzítése bizonyos eszközökön nem működik, ebben az esetben próbáljon meg MIC-re váltani</string>
     <string name="prefs_audio_source_text">Hangforrás</string>
     <string name="prefs_audio_stereo_text">Sztereó</string>
+    <string name="prefs_auto_service_wake_lock_sum_text">Ez biztosítja, hogy a CPU (processzor) működjön (Bluetooth-, töltés- vagy AUX-események fogadásához).\nKikapcsolhatja ezt az opciót, hogy kímélje az akkumulátort, amikor a felvétel nem aktív. A gyakorlatban a processzornak nem szabad elaludnia, de ha ez megtörténik az eszközén, hagyja bekapcsolva ezt az opciót.</string>
+    <string name="prefs_auto_service_wake_lock_text">Tartsa bekapcsolva a CPU-t (\"Wake Lock\") a \"Watcher\" háttérszolgáltatáshoz (több akkumulátort használ).</string>
     <string name="prefs_auto_start_app_launch_sum_text">Indítsa el automatikusan a videofelvételt, amikor az alkalmazás elindul</string>
     <string name="prefs_auto_start_app_launch_text">Az alkalmazás indításakor</string>
     <string name="prefs_auto_start_aux_category_text">AUX (audio jack)</string>
@@ -164,6 +168,7 @@
     <string name="prefs_beep_each_start_recording_text">Hangjelzés rögzítés közben</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Előfordulhat, hogy az eszköz gyártója nem biztosít hozzáférést minden kamerához, így előfordulhat, hogy egyesek nem nyílnak meg</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Előfordulhat, hogy az eszköz gyártója nem biztosít széles lencsés kamerát minden alkalmazáshoz</string>
+    <string name="prefs_consent_information_privacy_options">Adatvédelmi lehetőségek (beleegyezési információk)</string>
     <string name="prefs_day_night_mode_auto_text">Automatikus (nappali /éjszakai), idő szerint</string>
     <string name="prefs_day_night_mode_day_text">Nap</string>
     <string name="prefs_day_night_mode_night_text">Éjszaka</string>
@@ -256,7 +261,7 @@
     <string name="prefs_rules_auto_stop_speed_text">A rögzítés leállítása, ha a sebesség alacsonyabb (GPS alapján)</string>
     <string name="prefs_rules_bl_auto_start_only_if_charging_text">Felvétel csak a készülék töltése közben</string>
     <string name="prefs_rules_video_space_text">Az összes videó maximális memóriakapacitása (hurokrögzítés)</string>
-    <string name="prefs_screen_autostart_sum_text">Az alkalmazás indításakor kapcsolja be /ki a töltést, indítsa el a rendszert</string>
+    <string name="prefs_screen_autostart_sum_text">Az alkalmazás indításakor, a töltés be- és kikapcsolásakor, Bluetooth-eszköz csatlakoztatásakor, AUX, az eszköz indításakor</string>
     <string name="prefs_screen_autostart_text">Felvétel automatikus indítása</string>
     <string name="prefs_screen_ui_summary_text">Képernyő gyors /hosszú megnyomása, képernyő kikapcsolása, cím és sebesség megjelenítése, felugró ablak, gombok és még sok más</string>
     <string name="prefs_screen_ui_summary_text_bvr">Parancsikon a felvétel indításához, gyors és hosszú megnyomás a képernyőn, felugró ablak, rezgés felvétel közben, hangértesítés, rezgés, gombok a képernyőn, a képernyő kikapcsolása és egyebek</string>
@@ -293,6 +298,8 @@
     <string name="prefs_subtitles_date_format_text">Dátum formátum</string>
     <string name="prefs_subtitles_date_text">Dátum idő)</string>
     <string name="prefs_subtitles_date_time_system_text">Szisztémás</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею и нагревать устройство. Для видеозаписей главное информация о времени, поэтому все GPS опции вполне можроно отключита, верфайключить</string>
+    <string name="prefs_subtitles_gps_info_category_title">GPS данные</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX minimális frissítési sebesség</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Minden koordinátafrissítés</string>
     <string name="prefs_subtitles_gpx_sum">GPX – egy XML-séma, amelyet szoftveralkalmazások általános GPS-adatformátumaként terveztek. Használható útpontok, nyomvonalak és útvonalak leírására</string>
@@ -341,6 +348,7 @@
     <string name="prefs_video_bitrate_text">Bitráta (minőség)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kameravezérlési jelenet mód (éjszakai)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kameravezérlési jelenet mód (nappali)</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Данная камера была скрыта производителем и может не работать</string>
     <string name="prefs_video_codec_sum_text">A H.265 HEVC és AV1 kodekek jobb minőséget biztosítanak alacsonyabb bitráta mellett, mint a H.264 AVC, így a bitráta csökkentésével helyet takaríthat meg. Előfordulhat azonban, hogy a videók nem játszhatók le egyes videolejátszókban</string>
     <string name="prefs_video_codec_text">Videokodek</string>
     <string name="prefs_video_control_scene_mode_beach_text">Strand (világos idő)</string>

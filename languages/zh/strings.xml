@@ -46,12 +46,14 @@
     <string name="donation_dlg_no_ads_text">您现在已免除任何广告。</string>
     <string name="donation_level_text">您的捐赠级别：</string>
     <string name="donation_purchase_info_loading_text">购物信息尚未上传。您是否在线并登录了您的 Google 帐户？</string>
-    <string name="donation_remove_ads_by_any_amount_text">通过一次性捐赠任意金额，永久删除广告。您还可以每月捐款以删除广告</string>
+    <string name="donation_remove_ads_by_any_amount_text">通过一次性捐赠任意金额，永久删除广告。</string>
+    <string name="donation_remove_ads_by_subscribing_text">您还可以每月捐款以删除广告。</string>
     <string name="donation_subs_any_amount_text">当每月任意金额的订阅处于活动状态时，广告将被完全删除。</string>
     <string name="donation_subs_manage_btn_text">退订</string>
     <string name="donation_subs_no_free_trial_explanation_text">该应用程序不提供订阅试用期，因为该应用程序的所有功能已经免费，订阅仅去除广告</string>
     <string name="donation_subs_one_text">当订阅有效时，广告将被完全删除。</string>
     <string name="donation_subs_text">每月捐款</string>
+    <string name="donation_subscribtions_can_be_cancelled_any_time_text">订阅可以随时取消（“取消订阅”按钮将可用，您也可以在Google Play应用程序中取消）</string>
     <string name="format_altitude">高度</string>
     <string name="format_degrees">坐标</string>
     <string name="format_gb">GB</string>
@@ -141,6 +143,8 @@
     <string name="prefs_audio_source_camcorder_text">摄像机录音可能无法在某些设备上工作，在这种情况下请尝试更改为 MIC</string>
     <string name="prefs_audio_source_text">音源</string>
     <string name="prefs_audio_stereo_text">立体声</string>
+    <string name="prefs_auto_service_wake_lock_sum_text">这可确保 CPU（处理器）正在运行（以接收蓝牙、充电或 AUX 事件）。\n当录制未处于活动状态时，您可以禁用此选项以节省电池电量。实际上，处理器不应该进入睡眠状态，但如果您的设备上发生这种情况，请启用此选项。</string>
+    <string name="prefs_auto_service_wake_lock_text">保持 CPU 开启（“唤醒锁定”）以进行后台服务“Watcher”（使用更多电池电量）。</string>
     <string name="prefs_auto_start_app_launch_sum_text">应用程序启动时自动开始视频录制</string>
     <string name="prefs_auto_start_app_launch_text">启动应用程序时</string>
     <string name="prefs_auto_start_aux_category_text">AUX（音频插孔）</string>
@@ -165,6 +169,7 @@
     <string name="prefs_beep_each_start_recording_text">录音时发出哔哔声</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">设备制造商可能不提供对所有摄像头的访问，因此某些摄像头可能无法打开</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">设备制造商可能不会为所有应用程序提供广角镜头相机</string>
+    <string name="prefs_consent_information_privacy_options">隐私选项（同意信息）</string>
     <string name="prefs_day_night_mode_auto_text">自动（白天/黑夜），按时间</string>
     <string name="prefs_day_night_mode_day_text">白天</string>
     <string name="prefs_day_night_mode_night_text">夜晚</string>
@@ -257,7 +262,7 @@
     <string name="prefs_rules_auto_stop_speed_text">当速度较低时停止记录（基于 GPS）</string>
     <string name="prefs_rules_bl_auto_start_only_if_charging_text">仅在设备充电时录制</string>
     <string name="prefs_rules_video_space_text">所有视频的最大内存容量（循环录制）</string>
-    <string name="prefs_screen_autostart_sum_text">当您启动应用程序时，打开/关闭充电，启动系统</string>
+    <string name="prefs_screen_autostart_sum_text">应用程序启动时、充电开/关时、连接蓝牙设备时、AUX 时、设备启动时</string>
     <string name="prefs_screen_autostart_text">自动开始录音</string>
     <string name="prefs_screen_ui_summary_text">屏幕快速/长按、屏幕关闭、地址和速度显示、弹出窗口、按钮等</string>
     <string name="prefs_screen_ui_summary_text_bvr">快捷开始录音、快速长按屏幕、弹出窗口、录音时振动、声音通知、振动、屏幕按钮、关闭屏幕等</string>
@@ -294,6 +299,8 @@
     <string name="prefs_subtitles_date_format_text">日期格式</string>
     <string name="prefs_subtitles_date_text">日期）</string>
     <string name="prefs_subtitles_date_time_system_text">系统性</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею 和 нагревать устройство。 Для видеозаписей главное информация о времени, поэтому все GPS опции вполне можно отключить, включая настройки интер фейca</string>
+    <string name="prefs_subtitles_gps_info_category_title">GPS导航</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX 最低更新率</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">所有坐标更新</string>
     <string name="prefs_subtitles_gpx_sum">GPX - 一种 XML 模式，设计为软件应用程序的通用 GPS 数据格式。它可用于描述航路点、轨迹和路线</string>
@@ -342,6 +349,7 @@
     <string name="prefs_video_bitrate_text">比特率（质量）</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">相机控制场景模式（夜间）</string>
     <string name="prefs_video_camera_control_scene_mode_text">相机控制场景模式（白天）</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">青少年棒球教练培训课程，请勿参与</string>
     <string name="prefs_video_codec_sum_text">与 H.264 AVC 相比，H.265 HEVC 和 AV1 编解码器以更低的比特率提供更好的质量，因此您可以通过降低比特率来节省空间。但视频可能无法在某些视频播放器中播放</string>
     <string name="prefs_video_codec_text">视频编解码器</string>
     <string name="prefs_video_control_scene_mode_beach_text">海滩（晴朗的天气）</string>

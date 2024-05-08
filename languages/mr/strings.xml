@@ -45,12 +45,14 @@
     <string name="donation_dlg_no_ads_text">तुमच्याकडे जाहिराती नाहीत.</string>
     <string name="donation_level_text">तुमची देणगी पातळी:</string>
     <string name="donation_purchase_info_loading_text">खरेदीची माहिती अद्याप अपलोड केलेली नाही. तुम्ही ऑनलाइन आहात आणि तुमच्या Google खात्यात साइन इन आहात?</string>
-    <string name="donation_remove_ads_by_any_amount_text">कोणत्याही रकमेच्या एक-वेळच्या देणगीसह जाहिराती कायमच्या काढून टाका. जाहिराती काढण्यासाठी तुम्ही मासिक देणगी देखील देऊ शकता</string>
+    <string name="donation_remove_ads_by_any_amount_text">कोणत्याही रकमेच्या एक-वेळच्या देणगीसह जाहिराती कायमच्या काढून टाका.</string>
+    <string name="donation_remove_ads_by_subscribing_text">जाहिराती काढण्यासाठी तुम्ही मासिक देणगी देखील देऊ शकता.</string>
     <string name="donation_subs_any_amount_text">दरमहा कोणत्याही रकमेची सदस्यता सक्रिय असताना जाहिरात पूर्णपणे काढून टाकली जाते.</string>
     <string name="donation_subs_manage_btn_text">सदस्यत्व रद्द करा</string>
     <string name="donation_subs_no_free_trial_explanation_text">अनुप्रयोग सदस्यतांसाठी चाचणी कालावधी प्रदान करत नाही, कारण अनुप्रयोगाची सर्व कार्ये आधीपासूनच विनामूल्य आहेत, सदस्यता केवळ जाहिरात काढून टाकते</string>
     <string name="donation_subs_one_text">सदस्यता सक्रिय असताना जाहिरात पूर्णपणे काढून टाकली जाते.</string>
     <string name="donation_subs_text">मासिक देणगी द्या</string>
+    <string name="donation_subscribtions_can_be_cancelled_any_time_text">सदस्यता कधीही रद्द केली जाऊ शकते (“सदस्यत्व रद्द करा” बटण उपलब्ध असेल, तुम्ही ते Google Play अनुप्रयोगामध्ये देखील रद्द करू शकता)</string>
     <string name="format_altitude">उंची</string>
     <string name="format_degrees">समन्वय</string>
     <string name="format_gb">गिगाबाइट</string>
@@ -140,6 +142,8 @@
     <string name="prefs_audio_source_camcorder_text">CAMCORDER मधील ऑडिओ रेकॉर्डिंग काही उपकरणांवर कार्य करू शकत नाही, या प्रकरणात MIC वर बदलण्याचा प्रयत्न करा</string>
     <string name="prefs_audio_source_text">ऑडिओ स्रोत</string>
     <string name="prefs_audio_stereo_text">स्टिरीओ</string>
+    <string name="prefs_auto_service_wake_lock_sum_text">हे सुनिश्चित करते की CPU (प्रोसेसर) चालू आहे (ब्लूटूथ, चार्जिंग किंवा AUX इव्हेंट्स प्राप्त करण्यासाठी).\nरेकॉर्डिंग सक्रिय नसताना बॅटरी उर्जा वाचवण्यासाठी तुम्ही हा पर्याय अक्षम करू शकता. सराव मध्ये, प्रोसेसर झोपू नये, परंतु हे आपल्या डिव्हाइसवर घडल्यास, हा पर्याय सक्षम ठेवा.</string>
+    <string name="prefs_auto_service_wake_lock_text">पार्श्वभूमी सेवा \"वॉचर\" साठी (\"वेक लॉक\") CPU चालू ठेवा (अधिक बॅटरी उर्जा वापरते).</string>
     <string name="prefs_auto_start_app_launch_sum_text">अॅप सुरू झाल्यावर स्वयंचलितपणे व्हिडिओ रेकॉर्डिंग सुरू करा</string>
     <string name="prefs_auto_start_app_launch_text">अर्ज सुरू करताना</string>
     <string name="prefs_auto_start_aux_category_text">AUX (ऑडिओ जॅक)</string>
@@ -164,6 +168,7 @@
     <string name="prefs_beep_each_start_recording_text">रेकॉर्डिंग करताना बीप</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">डिव्हाइस निर्माता सर्व कॅमेर्‍यांमध्ये प्रवेश प्रदान करू शकत नाही, त्यामुळे काही उघडणार नाहीत</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">डिव्हाइस निर्माता सर्व अनुप्रयोगांसाठी विस्तृत लेन्स कॅमेरा प्रदान करू शकत नाही</string>
+    <string name="prefs_consent_information_privacy_options">गोपनीयता पर्याय (संमती माहिती)</string>
     <string name="prefs_day_night_mode_auto_text">स्वयंचलित (दिवस/रात्र), वेळेनुसार</string>
     <string name="prefs_day_night_mode_day_text">दिवस</string>
     <string name="prefs_day_night_mode_night_text">रात्री</string>
@@ -256,7 +261,7 @@
     <string name="prefs_rules_auto_stop_speed_text">वेग कमी असताना रेकॉर्डिंग थांबवा (GPS वर आधारित)</string>
     <string name="prefs_rules_bl_auto_start_only_if_charging_text">डिव्हाइस चार्ज होत असतानाच रेकॉर्डिंग</string>
     <string name="prefs_rules_video_space_text">सर्व व्हिडिओंची कमाल मेमरी क्षमता (लूप रेकॉर्डिंग)</string>
-    <string name="prefs_screen_autostart_sum_text">तुम्ही अॅप्लिकेशन सुरू केल्यावर, चार्जिंग चालू/बंद करा, सिस्टम बूट करा</string>
+    <string name="prefs_screen_autostart_sum_text">ॲप सुरू झाल्यावर, चार्जिंग चालू/बंद करताना, ब्लूटूथ डिव्हाइस कनेक्ट करताना, AUX, डिव्हाइस बूटवर</string>
     <string name="prefs_screen_autostart_text">ऑटोस्टार्ट रेकॉर्डिंग</string>
     <string name="prefs_screen_ui_summary_text">स्क्रीन जलद /लांब दाबा, स्क्रीन बंद, पत्ता आणि गती प्रदर्शन, पॉपअप विंडो, बटणे आणि बरेच काही</string>
     <string name="prefs_screen_ui_summary_text_bvr">रेकॉर्डिंग सुरू करण्यासाठी शॉर्टकट, स्क्रीनवर द्रुत आणि दीर्घकाळ दाबणे, पॉप-अप विंडो, रेकॉर्डिंग करताना कंपन, ध्वनी सूचना, कंपन, स्क्रीनवरील बटणे, स्क्रीन बंद करणे आणि बरेच काही</string>
@@ -293,6 +298,8 @@
     <string name="prefs_subtitles_date_format_text">दिनांक प्रारुप</string>
     <string name="prefs_subtitles_date_text">तारीख वेळ)</string>
     <string name="prefs_subtitles_date_time_system_text">पद्धतशीर</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею и нагревать устройство. Для видеозаписей главное информация о времени, поэтому все GPS опции вполне можно отключить, включая нформация</string>
+    <string name="prefs_subtitles_gps_info_category_title">जीपीएस वापरा</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX किमान अद्यतन दर</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">सर्व समन्वय अद्यतने</string>
     <string name="prefs_subtitles_gpx_sum">GPX - सॉफ्टवेअर ऍप्लिकेशन्ससाठी सामान्य GPS डेटा फॉरमॅट म्हणून डिझाइन केलेली XML स्कीमा. हे वेपॉइंट्स, ट्रॅक आणि मार्गांचे वर्णन करण्यासाठी वापरले जाऊ शकते</string>
@@ -341,6 +348,7 @@
     <string name="prefs_video_bitrate_text">बिटरेट (गुणवत्ता)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">कॅमेरा कंट्रोल सीन मोड (रात्री)</string>
     <string name="prefs_video_camera_control_scene_mode_text">कॅमेरा कंट्रोल सीन मोड (दिवस)</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">डॅन्नाया कॅमेरा была скрыта производителем и может не работать</string>
     <string name="prefs_video_codec_sum_text">H.265 HEVC आणि AV1 कोडेक H.264 AVC पेक्षा कमी बिटरेट्सवर चांगली गुणवत्ता प्रदान करतात, त्यामुळे तुम्ही बिटरेट कमी करून जागा वाचवू शकता. परंतु काही व्हिडिओ प्लेअरमध्ये व्हिडिओ प्ले होऊ शकत नाहीत</string>
     <string name="prefs_video_codec_text">व्हिडिओ कोडेक</string>
     <string name="prefs_video_control_scene_mode_beach_text">बीच (उज्ज्वल हवामान)</string>

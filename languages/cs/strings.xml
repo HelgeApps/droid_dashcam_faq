@@ -45,12 +45,14 @@
     <string name="donation_dlg_no_ads_text">Nemáte žádné reklamy.</string>
     <string name="donation_level_text">Úroveň vašeho daru:</string>
     <string name="donation_purchase_info_loading_text">Nákupní informace ještě nebyly nahrány. Jste online a přihlášeni ke svému účtu Google?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Odstraňte reklamy navždy pomocí jednorázového příspěvku v libovolné výši. Můžete také přispívat měsíčně na odstranění reklam</string>
+    <string name="donation_remove_ads_by_any_amount_text">Odstraňte reklamy navždy pomocí jednorázového příspěvku v libovolné výši.</string>
+    <string name="donation_remove_ads_by_subscribing_text">Můžete také přispívat měsíčně na odstranění reklam.</string>
     <string name="donation_subs_any_amount_text">Reklama je zcela odstraněna, dokud je aktivní předplatné za jakoukoli částku za měsíc.</string>
     <string name="donation_subs_manage_btn_text">Odhlásit odběr</string>
     <string name="donation_subs_no_free_trial_explanation_text">Aplikace neposkytuje zkušební dobu pro předplatné, protože všechny funkce aplikace jsou již zdarma, předplatné pouze odstraňuje reklamu</string>
     <string name="donation_subs_one_text">Když je předplatné aktivní, reklama je zcela odstraněna.</string>
     <string name="donation_subs_text">Darujte měsíčně</string>
+    <string name="donation_subscribtions_can_be_cancelled_any_time_text">Předplatné lze kdykoli zrušit (k dispozici bude tlačítko „zrušit předplatné“, zrušit jej můžete také v aplikaci Google Play)</string>
     <string name="format_altitude">Výška</string>
     <string name="format_degrees">Souřadnice</string>
     <string name="format_gb">Gigabyte</string>
@@ -140,6 +142,8 @@
     <string name="prefs_audio_source_camcorder_text">Nahrávání zvuku z CAMCORDER nemusí na některých zařízeních fungovat, v tomto případě zkuste přejít na MIC</string>
     <string name="prefs_audio_source_text">Zdroj zvuku</string>
     <string name="prefs_audio_stereo_text">Stereo</string>
+    <string name="prefs_auto_service_wake_lock_sum_text">Tím je zajištěno, že CPU (procesor) běží (pro příjem událostí Bluetooth, nabíjení nebo AUX).\nTuto možnost můžete vypnout, abyste šetřili energii baterie, když není nahrávání aktivní. V praxi by procesor neměl usnout, ale pokud se to na vašem zařízení stane, pak tuto volbu ponechte povolenou.</string>
+    <string name="prefs_auto_service_wake_lock_text">Nechte CPU zapnutý (\"Wake Lock\") pro službu na pozadí \"Watcher\" (spotřebovává více energie baterie).</string>
     <string name="prefs_auto_start_app_launch_sum_text">Spustit nahrávání videa automaticky při spuštění aplikace</string>
     <string name="prefs_auto_start_app_launch_text">Při spouštění aplikace</string>
     <string name="prefs_auto_start_aux_category_text">AUX (audio jack)</string>
@@ -164,6 +168,7 @@
     <string name="prefs_beep_each_start_recording_text">Pípnutí při nahrávání</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Výrobce zařízení nemusí poskytovat přístup ke všem kamerám, takže se některé nemusí otevřít</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Výrobce zařízení nemusí poskytovat širokoúhlý fotoaparát pro všechny aplikace</string>
+    <string name="prefs_consent_information_privacy_options">Možnosti ochrany osobních údajů (informace o souhlasu)</string>
     <string name="prefs_day_night_mode_auto_text">Automaticky (den /noc), podle času</string>
     <string name="prefs_day_night_mode_day_text">Den</string>
     <string name="prefs_day_night_mode_night_text">Noc</string>
@@ -256,7 +261,7 @@
     <string name="prefs_rules_auto_stop_speed_text">Zastavit nahrávání, když je rychlost nižší (na základě GPS)</string>
     <string name="prefs_rules_bl_auto_start_only_if_charging_text">Nahrávání pouze při nabíjení zařízení</string>
     <string name="prefs_rules_video_space_text">Maximální kapacita paměti pro všechna videa (nahrávání ve smyčce)</string>
-    <string name="prefs_screen_autostart_sum_text">Po spuštění aplikace zapněte /vypněte nabíjení, nabootujte systém</string>
+    <string name="prefs_screen_autostart_sum_text">Při spuštění aplikace, při zapnutí/vypnutí nabíjení, při připojení zařízení Bluetooth, AUX, při spouštění zařízení</string>
     <string name="prefs_screen_autostart_text">Automatické spuštění nahrávání</string>
     <string name="prefs_screen_ui_summary_text">Rychlé /dlouhé stisknutí obrazovky, vypnutí obrazovky, zobrazení adresy a rychlosti, vyskakovací okno, tlačítka a další</string>
     <string name="prefs_screen_ui_summary_text_bvr">Zkratka pro zahájení nahrávání, rychlé a dlouhé stisknutí na obrazovce, vyskakovací okno, vibrace při nahrávání, upozornění na zvuk, vibrace, tlačítka na obrazovce, vypnutí obrazovky a další</string>
@@ -293,6 +298,8 @@
     <string name="prefs_subtitles_date_format_text">Datový formát</string>
     <string name="prefs_subtitles_date_text">Čas schůzky)</string>
     <string name="prefs_subtitles_date_time_system_text">Systémový</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею и нагревать устройство. Для видеозаписей главное информация о времени, поэтому все GPS опциььььььтожожния я настройки интерфейса</string>
+    <string name="prefs_subtitles_gps_info_category_title">GPS přijímač</string>
     <string name="prefs_subtitles_gpx_delay_title">Minimální rychlost aktualizace GPX</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Všechny aktualizace souřadnic</string>
     <string name="prefs_subtitles_gpx_sum">GPX – schéma XML navržené jako běžný datový formát GPS pro softwarové aplikace. Lze jej použít k popisu trasových bodů, tras a tras</string>
@@ -341,6 +348,7 @@
     <string name="prefs_video_bitrate_text">Bitrate (kvalita)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Režim scény ovládání fotoaparátu (noc)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Režim scény ovládání fotoaparátu (den)</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Данная камера была скрыта производителем и может не работать</string>
     <string name="prefs_video_codec_sum_text">Kodeky H.265 HEVC a AV1 poskytují lepší kvalitu při nižším datovém toku než H.264 AVC, takže můžete ušetřit místo snížením datového toku. Videa se však v některých přehrávačích videa nemusí přehrát</string>
     <string name="prefs_video_codec_text">Video kodek</string>
     <string name="prefs_video_control_scene_mode_beach_text">Pláž (jasné počasí)</string>

@@ -62,12 +62,14 @@
     <string name="donation_dlg_no_ads_text">У вас нет рекламы.</string>
     <string name="donation_level_text">Ваш уровень пожертвования:</string>
     <string name="donation_purchase_info_loading_text">Информация о покупках еще не загружена. Доступно ли подключение к сети и вход в Google аккаунт выполнен?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Удалите рекламу навсегда разовым пожертвованием на любую сумму. Также вы можете жертвовать ежемесячно, чтобы удалить рекламу</string>
+    <string name="donation_remove_ads_by_any_amount_text">Удалите рекламу навсегда разовым пожертвованием на любую сумму.</string>
+    <string name="donation_remove_ads_by_subscribing_text">Также вы можете жертвовать ежемесячно, чтобы удалить рекламу.</string>
     <string name="donation_subs_any_amount_text">Реклама полностью удаляется пока активна подписка на любую сумму в месяц.</string>
     <string name="donation_subs_manage_btn_text">Отменить подписку</string>
     <string name="donation_subs_no_free_trial_explanation_text">Приложение не предоставляет пробный период для подписок, так как все функции приложения и так бесплатны, подписка удаляет только рекламу</string>
     <string name="donation_subs_one_text">Реклама полностью удаляется пока активна подписка.</string>
     <string name="donation_subs_text">Жертвовать ежемесячно</string>
+    <string name="donation_subscribtions_can_be_cancelled_any_time_text">Подписка может быть отменена в любое время (будет доступна кнопка \"отменить подписку\", также вы её можете отменить в Google Play приложение)</string>
     <string name="format_altitude">Высота</string>
     <string name="format_degrees">Координаты</string>
     <string name="format_gb">Гигабайт</string>
@@ -157,6 +159,8 @@
     <string name="prefs_audio_source_camcorder_text">На некоторых устройствах может не работать запись звука с CAMCORDER, попробуйте в таком случае сменить на MIC</string>
     <string name="prefs_audio_source_text">Источник звука</string>
     <string name="prefs_audio_stereo_text">Стерео</string>
+    <string name="prefs_auto_service_wake_lock_sum_text">Это гарантирует, что ЦП (процессор) работает (для получения событий Bluetooth, зарядки или AUX).\nВы можете отключить эту опцию, чтобы сэкономить заряд батареи, когда запись неактивна. На практике процессор не должен засыпать, но если это происходит на вашем устройстве, то оставьте эту опцию включенной.</string>
+    <string name="prefs_auto_service_wake_lock_text">Оставьте процессор включенным («Wake Lock») для фоновой службы «Watcher» (использует больше заряда батареи).</string>
     <string name="prefs_auto_start_app_launch_sum_text">Начать видеозапись автоматически при запуске приложения</string>
     <string name="prefs_auto_start_app_launch_text">При запуске приложения</string>
     <string name="prefs_auto_start_aux_category_text">AUX (аудио разъем)</string>
@@ -181,6 +185,7 @@
     <string name="prefs_beep_each_start_recording_text">Звуковой сигнал при записи</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Производитель устройства может не предоставлять доступ ко всем камерам, поэтому некоторые могут не открыться</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Производитель устройства может не предоставлять камеру с широким объективом для всех приложений</string>
+    <string name="prefs_consent_information_privacy_options">Параметры конфиденциальности (информация о согласии)</string>
     <string name="prefs_day_night_mode_auto_text">Автоматический (день/ночь), по времени</string>
     <string name="prefs_day_night_mode_day_text">День</string>
     <string name="prefs_day_night_mode_night_text">Ночь</string>
@@ -273,7 +278,7 @@
     <string name="prefs_rules_auto_stop_speed_text">Остановить запись, когда скорость ниже (на основе GPS)</string>
     <string name="prefs_rules_bl_auto_start_only_if_charging_text">Запись только при зарядке устройства</string>
     <string name="prefs_rules_video_space_text">Максимальный объем памяти всех видео (циклическая запись)</string>
-    <string name="prefs_screen_autostart_sum_text">При запуске приложения, вкл/выкл зарядки, загрузке системы</string>
+    <string name="prefs_screen_autostart_sum_text">При запуске приложения, при включении/выключении зарядки, при подключении устройства Bluetooth, AUX, при загрузке устройства</string>
     <string name="prefs_screen_autostart_text">Автозапуск записи</string>
     <string name="prefs_screen_ui_summary_text">Быстрое/длительное нажатие по экрану, отключение экрана, отображение адреса и скорости, всплывающее окно, кнопки и другое</string>
     <string name="prefs_screen_ui_summary_text_bvr">Ярлык запуска записи, быстрое и длительное нажатие по экрану, всплывающее окно, вибрация при записи, звуковое оповещение, вибрация, кнопки на экране, отключение экрана и другое</string>
@@ -310,6 +315,8 @@
     <string name="prefs_subtitles_date_format_text">Формат даты</string>
     <string name="prefs_subtitles_date_text">Дата (время)</string>
     <string name="prefs_subtitles_date_time_system_text">Системное</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут увеличить потребление батареи и нагревательного устройства. Для видеозаписи важной информации о времени, поэтому все функции GPS вполне можно отключить, включая настройку интерфейса.</string>
+    <string name="prefs_subtitles_gps_info_category_title">GPS-данные</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX минимальная частота обновлений</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Все обновления координат</string>
     <string name="prefs_subtitles_gpx_sum">GPX — схема XML, разработанная как общий формат данных GPS для программных приложений. Его можно использовать для описания путевых точек, треков и маршрутов.</string>
@@ -358,6 +365,7 @@
     <string name="prefs_video_bitrate_text">Битрейт (качество)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Режим сцены управления камерой (ночь)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Режим сцены управления камерой (день)</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Эта камера была скрыта производителем и может не работать</string>
     <string name="prefs_video_codec_sum_text">H.265 HEVC и AV1 кодеки выдают лучшее качество при меньших битрейтах чем H.264 AVC, таким образом можно сэкономить место уменьшив битрейт. Но видео могут не воспроизводиться в некоторых видеоплеерах</string>
     <string name="prefs_video_codec_text">Видеокодек</string>
     <string name="prefs_video_control_scene_mode_beach_text">Пляж (яркая погода)</string>

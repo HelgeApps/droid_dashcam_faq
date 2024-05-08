@@ -45,12 +45,14 @@
     <string name="donation_dlg_no_ads_text">Танд зар байхгүй байна.</string>
     <string name="donation_level_text">Таны хандивын түвшин:</string>
     <string name="donation_purchase_info_loading_text">Худалдааны мэдээллийг хараахан байршуулаагүй байна. Та онлайн бөгөөд Google бүртгэлдээ нэвтэрсэн үү?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Ямар ч хэмжээний нэг удаагийн хандиваар зар сурталчилгааг үүрд устга. Та мөн зарыг устгахын тулд сар бүр хандив өгч болно</string>
+    <string name="donation_remove_ads_by_any_amount_text">Ямар ч хэмжээний нэг удаагийн хандиваар зарыг үүрд устга.</string>
+    <string name="donation_remove_ads_by_subscribing_text">Та мөн зарыг устгахын тулд сар бүр хандив өгч болно.</string>
     <string name="donation_subs_any_amount_text">Сард ямар ч үнийн дүнтэй захиалга идэвхтэй байх үед зар сурталчилгаа бүрэн устдаг.</string>
     <string name="donation_subs_manage_btn_text">Бүртгэлээ цуцлах</string>
     <string name="donation_subs_no_free_trial_explanation_text">Аппликешн нь захиалгын туршилтын хугацааг өгдөггүй, учир нь програмын бүх функцууд үнэ төлбөргүй байдаг тул захиалга нь зөвхөн зар сурталчилгааг арилгадаг.</string>
     <string name="donation_subs_one_text">Захиалга идэвхтэй байх үед зар сурталчилгаа бүрэн арилдаг.</string>
     <string name="donation_subs_text">Сар бүр хандивлах</string>
+    <string name="donation_subscribtions_can_be_cancelled_any_time_text">Захиалгыг хүссэн үедээ цуцалж болно (\"захиалгыг цуцлах\" товчлуур гарч ирэх бөгөөд та үүнийг Google Play програм дээр цуцалж болно)</string>
     <string name="format_altitude">Өндөр</string>
     <string name="format_degrees">Координатууд</string>
     <string name="format_gb">Гигабайт</string>
@@ -140,6 +142,8 @@
     <string name="prefs_audio_source_camcorder_text">CAMCORDER-ийн аудио бичлэг нь зарим төхөөрөмж дээр ажиллахгүй байж магадгүй, энэ тохиолдолд MIC болгож үзнэ үү</string>
     <string name="prefs_audio_source_text">Аудио эх сурвалж</string>
     <string name="prefs_audio_stereo_text">Стерео</string>
+    <string name="prefs_auto_service_wake_lock_sum_text">Энэ нь CPU (процессор) ажиллаж байгаа эсэхийг баталгаажуулдаг (Bluetooth, цэнэглэх эсвэл AUX үйл явдлыг хүлээн авах).\nБичлэг идэвхгүй үед батарейны цэнэгийг хэмнэхийн тулд та энэ сонголтыг идэвхгүй болгож болно. Практикт процессор унтрах ёсгүй, гэхдээ энэ нь таны төхөөрөмж дээр тохиолдвол энэ сонголтыг идэвхжүүлнэ үү.</string>
+    <string name="prefs_auto_service_wake_lock_text">\"Watcher\" арын үйлчилгээнд зориулж CPU-г асаалттай байлга (\"Сэрээх түгжээ\").</string>
     <string name="prefs_auto_start_app_launch_sum_text">Аппликешн эхлэхэд автоматаар видео бичлэг хийж эхэлнэ</string>
     <string name="prefs_auto_start_app_launch_text">Програмыг эхлүүлэх үед</string>
     <string name="prefs_auto_start_aux_category_text">AUX (аудио залгуур)</string>
@@ -164,6 +168,7 @@
     <string name="prefs_beep_each_start_recording_text">Бичлэг хийх үед дуугарах</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Төхөөрөмжийн үйлдвэрлэгч бүх камерт хандах эрх өгөхгүй байж магадгүй тул зарим нь нээгдэхгүй байж магадгүй юм</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Төхөөрөмж үйлдвэрлэгч нь бүх хэрэглээнд өргөн линзтэй камер өгөхгүй байж магадгүй юм</string>
+    <string name="prefs_consent_information_privacy_options">Нууцлалын сонголтууд (Зөвшөөрлийн мэдээлэл)</string>
     <string name="prefs_day_night_mode_auto_text">Автомат (өдөр /шөнө), цагаар</string>
     <string name="prefs_day_night_mode_day_text">Өдөр</string>
     <string name="prefs_day_night_mode_night_text">Шөнө</string>
@@ -256,7 +261,7 @@
     <string name="prefs_rules_auto_stop_speed_text">Хурд багассан үед бичлэг хийхээ зогсоох (GPS дээр суурилсан)</string>
     <string name="prefs_rules_bl_auto_start_only_if_charging_text">Зөвхөн төхөөрөмжийг цэнэглэж байх үед л бичнэ</string>
     <string name="prefs_rules_video_space_text">Бүх видеоны санах ойн багтаамж (давталт бичлэг)</string>
-    <string name="prefs_screen_autostart_sum_text">Аппликешныг эхлүүлэх үед цэнэглэгчийг асааж, унтрааж, системийг ачаална уу</string>
+    <string name="prefs_screen_autostart_sum_text">Апп-ыг эхлүүлэх, цэнэглэж асаах/унтраах, Bluetooth төхөөрөмжийг холбох, AUX, төхөөрөмжийг ачаалах үед</string>
     <string name="prefs_screen_autostart_text">Бичлэгийг автоматаар эхлүүлэх</string>
     <string name="prefs_screen_ui_summary_text">Дэлгэц хурдан /удаан дарах, дэлгэц унтрах, хаяг болон хурд харуулах, гарч ирэх цонх, товчлуурууд гэх мэт</string>
     <string name="prefs_screen_ui_summary_text_bvr">Бичлэг эхлүүлэх товчлол, дэлгэцэн дээр хурдан бөгөөд удаан дарах, гарч ирэх цонх, бичлэг хийх үед чичиргээ, дууны мэдэгдэл, чичиргээ, дэлгэц дээрх товчлуурууд, дэлгэцийг унтраах гэх мэт.</string>
@@ -293,6 +298,8 @@
     <string name="prefs_subtitles_date_format_text">Огнооны формат</string>
     <string name="prefs_subtitles_date_text">Он сар өдөр цаг)</string>
     <string name="prefs_subtitles_date_time_system_text">Системчилсэн</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею болон нагревать устройство. Видео бичлэгийн мэдээллийн хэрэгслээр дамжуулан GPS-ийн бүх тохиргоог ашиглах, ашиглах боломжтой, ашиглах боломжтой интерфейс.</string>
+    <string name="prefs_subtitles_gps_info_category_title">GPS данные</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX хамгийн бага шинэчлэх хурд</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Бүх координатын шинэчлэлтүүд</string>
     <string name="prefs_subtitles_gpx_sum">GPX - програм хангамжийн хэрэглээний нийтлэг GPS өгөгдлийн формат болгон зохион бүтээсэн XML схем. Үүнийг замын цэг, зам, маршрутыг тодорхойлоход ашиглаж болно</string>
@@ -341,6 +348,7 @@
     <string name="prefs_video_bitrate_text">Битийн хурд (чанар)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Камерын хяналтын горим (шөнийн)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Камерын хяналтын горим (өдөр)</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Данная камера была скрыта производителем и может не работать</string>
     <string name="prefs_video_codec_sum_text">H.265 HEVC болон AV1 кодлогч нь H.264 AVC-ээс бага битийн хурдаар илүү сайн чанарыг хангадаг тул та битийн хурдыг бууруулснаар зай хэмнэх боломжтой. Гэхдээ зарим видео тоглуулагчид видео тоглуулахгүй байж магадгүй</string>
     <string name="prefs_video_codec_text">Видео кодлогч</string>
     <string name="prefs_video_control_scene_mode_beach_text">Далайн эрэг (гэрэлт цаг агаар)</string>

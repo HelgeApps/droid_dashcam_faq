@@ -45,12 +45,14 @@
     <string name="donation_dlg_no_ads_text">Du har ingen annoncer.</string>
     <string name="donation_level_text">Dit donationsniveau:</string>
     <string name="donation_purchase_info_loading_text">Indkøbsinformationen er ikke blevet uploadet endnu. Er du online og logget ind på din Google-konto?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Fjern annoncer for altid med en engangsdonation af ethvert beløb. Du kan også donere månedligt for at fjerne annoncer</string>
+    <string name="donation_remove_ads_by_any_amount_text">Fjern annoncer for altid med en engangsdonation af ethvert beløb.</string>
+    <string name="donation_remove_ads_by_subscribing_text">Du kan også donere månedligt for at fjerne annoncer.</string>
     <string name="donation_subs_any_amount_text">Annoncering fjernes fuldstændigt, mens et abonnement for ethvert beløb pr. måned er aktivt.</string>
     <string name="donation_subs_manage_btn_text">Opsige abonnement</string>
     <string name="donation_subs_no_free_trial_explanation_text">Applikationen giver ikke en prøveperiode for abonnementer, da alle funktioner i applikationen allerede er gratis, fjerner abonnementet kun reklamer</string>
     <string name="donation_subs_one_text">Annoncering fjernes helt, mens abonnementet er aktivt.</string>
     <string name="donation_subs_text">Doner månedligt</string>
+    <string name="donation_subscribtions_can_be_cancelled_any_time_text">Abonnementet kan annulleres til enhver tid (knappen \"annuller abonnement\" vil være tilgængelig, du kan også annullere det i Google Play-applikationen)</string>
     <string name="format_altitude">Højde</string>
     <string name="format_degrees">Koordinater</string>
     <string name="format_gb">Gigabyte</string>
@@ -140,6 +142,8 @@
     <string name="prefs_audio_source_camcorder_text">Lydoptagelse fra CAMCORDER virker muligvis ikke på nogle enheder, prøv i dette tilfælde at skifte til MIC</string>
     <string name="prefs_audio_source_text">Lydkilde</string>
     <string name="prefs_audio_stereo_text">Stereoanlæg</string>
+    <string name="prefs_auto_service_wake_lock_sum_text">Dette sikrer, at CPU\'en (processoren) kører (for at modtage Bluetooth, opladning eller AUX-hændelser).\nDu kan deaktivere denne mulighed for at spare batteristrøm, når optagelsen ikke er aktiv. I praksis bør processoren ikke falde i søvn, men hvis dette sker på din enhed, så lad denne mulighed være aktiveret.</string>
+    <string name="prefs_auto_service_wake_lock_text">Hold CPU\'en tændt (\"Wake Lock\") for baggrundstjenesten \"Watcher\" (bruger mere batteristrøm).</string>
     <string name="prefs_auto_start_app_launch_sum_text">Start videooptagelse automatisk, når appen starter</string>
     <string name="prefs_auto_start_app_launch_text">Når du starter applikationen</string>
     <string name="prefs_auto_start_aux_category_text">AUX (lydstik)</string>
@@ -164,6 +168,7 @@
     <string name="prefs_beep_each_start_recording_text">Bip under optagelse</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Enhedsproducenten giver muligvis ikke adgang til alle kameraer, så nogle åbner muligvis ikke</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Enhedsproducenten leverer muligvis ikke et vidvinkelkamera til alle applikationer</string>
+    <string name="prefs_consent_information_privacy_options">Indstillinger for beskyttelse af personlige oplysninger (samtykkeoplysninger)</string>
     <string name="prefs_day_night_mode_auto_text">Automatisk (dag /nat), efter tid</string>
     <string name="prefs_day_night_mode_day_text">Dag</string>
     <string name="prefs_day_night_mode_night_text">Nat</string>
@@ -256,7 +261,7 @@
     <string name="prefs_rules_auto_stop_speed_text">Stop optagelsen, når hastigheden er lavere (baseret på GPS)</string>
     <string name="prefs_rules_bl_auto_start_only_if_charging_text">Optager kun, når enheden oplades</string>
     <string name="prefs_rules_video_space_text">Maksimal hukommelseskapacitet for alle videoer (loop-optagelse)</string>
-    <string name="prefs_screen_autostart_sum_text">Når du starter applikationen, skal du tænde /slukke for opladning, starte systemet</string>
+    <string name="prefs_screen_autostart_sum_text">På appstart, ved opladning til/fra, ved tilslutning af en Bluetooth-enhed, AUX, ved opstart af enheden</string>
     <string name="prefs_screen_autostart_text">Autostart optagelse</string>
     <string name="prefs_screen_ui_summary_text">Hurtigt/langt tryk på skærmen, slukket skærm, adresse- og hastighedsvisning, pop op-vindue, knapper og mere</string>
     <string name="prefs_screen_ui_summary_text_bvr">Genvej til at starte optagelse, hurtigt og langt tryk på skærmen, pop op-vindue, vibration ved optagelse, lydmeddelelse, vibration, knapper på skærmen, slukning af skærmen og mere</string>
@@ -293,6 +298,8 @@
     <string name="prefs_subtitles_date_format_text">Datoformat</string>
     <string name="prefs_subtitles_date_text">Dato tid)</string>
     <string name="prefs_subtitles_date_time_system_text">Systemisk</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею и нагревать устройство. Для видеозаписей главное информация о времени, поэтому се GPS опции вполне можно отклюкичичи, все</string>
+    <string name="prefs_subtitles_gps_info_category_title">GPS tilkoblet</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX minimum opdateringshastighed</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Alle koordinatopdateringer</string>
     <string name="prefs_subtitles_gpx_sum">GPX - et XML-skema designet som et almindeligt GPS-dataformat til softwareapplikationer. Det kan bruges til at beskrive waypoints, spor og ruter</string>
@@ -341,6 +348,7 @@
     <string name="prefs_video_bitrate_text">Bitrate (kvalitet)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kamerastyringsscenetilstand (nat)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kamerastyring Scenetilstand (dag)</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Данная камера была скрыта производителем и может не работать</string>
     <string name="prefs_video_codec_sum_text">H.265 HEVC og AV1 codecs giver bedre kvalitet ved lavere bithastigheder end H.264 AVC, så du kan spare plads ved at reducere bithastigheden. Men videoer afspilles muligvis ikke i nogle videoafspillere</string>
     <string name="prefs_video_codec_text">Video codec</string>
     <string name="prefs_video_control_scene_mode_beach_text">Strand (lyst vejr)</string>

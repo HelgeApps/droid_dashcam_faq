@@ -45,12 +45,14 @@
     <string name="donation_dlg_no_ads_text">Sinulla ei ole mainoksia.</string>
     <string name="donation_level_text">Lahjoitustasosi:</string>
     <string name="donation_purchase_info_loading_text">Ostostietoja ei ole vielä ladattu. Oletko online-tilassa ja kirjautunut Google-tilillesi?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Poista mainokset ikuisesti minkä tahansa summan kertaluonteisella lahjoituksella. Voit myös lahjoittaa kuukausittain mainosten poistamiseen</string>
+    <string name="donation_remove_ads_by_any_amount_text">Poista mainokset ikuisesti minkä tahansa summan kertaluonteisella lahjoituksella.</string>
+    <string name="donation_remove_ads_by_subscribing_text">Voit myös lahjoittaa kuukausittain mainosten poistamiseen.</string>
     <string name="donation_subs_any_amount_text">Mainonta poistetaan kokonaan, kun kuukausittainen tilaus on aktiivinen.</string>
     <string name="donation_subs_manage_btn_text">Lopeta tilaus</string>
     <string name="donation_subs_no_free_trial_explanation_text">Sovellus ei tarjoa tilauksille koeaikaa, koska kaikki sovelluksen toiminnot ovat jo ilmaisia, tilaus poistaa vain mainonnan</string>
     <string name="donation_subs_one_text">Mainokset poistetaan kokonaan tilauksen ollessa aktiivinen.</string>
     <string name="donation_subs_text">Lahjoita kuukausittain</string>
+    <string name="donation_subscribtions_can_be_cancelled_any_time_text">Tilauksen voi peruuttaa milloin tahansa (\"peruuta tilaus\" -painike tulee näkyviin, voit myös peruuttaa sen Google Play -sovelluksessa)</string>
     <string name="format_altitude">Korkeus</string>
     <string name="format_degrees">Koordinaatit</string>
     <string name="format_gb">Gigatavua</string>
@@ -140,6 +142,8 @@
     <string name="prefs_audio_source_camcorder_text">Äänen tallennus CAMCORDER:stä ei välttämättä toimi kaikilla laitteilla, yritä tässä tapauksessa vaihtaa MIC:iin</string>
     <string name="prefs_audio_source_text">Äänilähde</string>
     <string name="prefs_audio_stereo_text">Stereot</string>
+    <string name="prefs_auto_service_wake_lock_sum_text">Tämä varmistaa, että CPU (prosessori) on käynnissä (vastaanottaa Bluetooth-, lataus- tai AUX-tapahtumia).\nVoit poistaa tämän vaihtoehdon käytöstä säästääksesi akkuvirtaa, kun tallennus ei ole aktiivinen. Käytännössä prosessorin ei pitäisi nukahtaa, mutta jos näin tapahtuu laitteessasi, jätä tämä vaihtoehto käyttöön.</string>
+    <string name="prefs_auto_service_wake_lock_text">Pidä CPU päällä (\"Wake Lock\") taustapalvelua \"Watcher\" varten (kuluttaa enemmän akkuvirtaa).</string>
     <string name="prefs_auto_start_app_launch_sum_text">Aloita videon tallennus automaattisesti, kun sovellus käynnistyy</string>
     <string name="prefs_auto_start_app_launch_text">Sovellusta käynnistettäessä</string>
     <string name="prefs_auto_start_aux_category_text">AUX (ääniliitäntä)</string>
@@ -164,6 +168,7 @@
     <string name="prefs_beep_each_start_recording_text">Piippaus tallennuksen aikana</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Laitteen valmistaja ei välttämättä tarjoa pääsyä kaikkiin kameroihin, joten jotkut eivät välttämättä avaudu</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Laitteen valmistaja ei välttämättä tarjoa laajalinsistä kameraa kaikkiin sovelluksiin</string>
+    <string name="prefs_consent_information_privacy_options">Tietosuojavaihtoehdot (suostumustiedot)</string>
     <string name="prefs_day_night_mode_auto_text">Automaattinen (päivä/yö), ajan mukaan</string>
     <string name="prefs_day_night_mode_day_text">Päivä</string>
     <string name="prefs_day_night_mode_night_text">Yö</string>
@@ -256,7 +261,7 @@
     <string name="prefs_rules_auto_stop_speed_text">Lopeta tallennus, kun nopeus on pienempi (GPS:n perusteella)</string>
     <string name="prefs_rules_bl_auto_start_only_if_charging_text">Tallentaa vain laitteen latautuessa</string>
     <string name="prefs_rules_video_space_text">Kaikkien videoiden enimmäismuistikapasiteetti (silmukkatallennus)</string>
-    <string name="prefs_screen_autostart_sum_text">Kun käynnistät sovelluksen, kytke lataus päälle /pois päältä, käynnistä järjestelmä</string>
+    <string name="prefs_screen_autostart_sum_text">Sovelluksen käynnistyessä, latauksen yhteydessä /pois päältä, Bluetooth-laitteen liittämisen yhteydessä, AUX, laitteen käynnistyessä</string>
     <string name="prefs_screen_autostart_text">Aloita tallennus automaattisesti</string>
     <string name="prefs_screen_ui_summary_text">Näyttö nopea/pitkä painallus, näyttö pois päältä, osoitteen ja nopeuden näyttö, ponnahdusikkuna, painikkeet ja paljon muuta</string>
     <string name="prefs_screen_ui_summary_text_bvr">Pikakuvake tallennuksen aloittamiseen, nopea ja pitkä näytön painallus, ponnahdusikkuna, värinä tallennuksen aikana, ääni-ilmoitus, värinä, näytön painikkeet, näytön sammuttaminen ja paljon muuta</string>
@@ -293,6 +298,8 @@
     <string name="prefs_subtitles_date_format_text">Päivämäärämuoto</string>
     <string name="prefs_subtitles_date_text">Päivämäärä ja kellonaika</string>
     <string name="prefs_subtitles_date_time_system_text">Järjestelmällinen</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею и нагревать устройство. Для видеозаписей главное информация о времени, поэтому все GPS опции вполне можроно отключита, вфойключить, времени</string>
+    <string name="prefs_subtitles_gps_info_category_title">GPS ei toimi</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX:n minimipäivitysnopeus</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Kaikki koordinaattipäivitykset</string>
     <string name="prefs_subtitles_gpx_sum">GPX - XML-skeema, joka on suunniteltu yleiseksi GPS-tietomuodoksi ohjelmistosovelluksille. Sitä voidaan käyttää reittipisteiden, jälkien ja reittien kuvaamiseen</string>
@@ -341,6 +348,7 @@
     <string name="prefs_video_bitrate_text">Bittinopeus (laatu)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kameran ohjausohjelma (yö)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kameran ohjausohjelma (päivä)</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Данная камера была скрыта производителем и может не работать</string>
     <string name="prefs_video_codec_sum_text">H.265 HEVC- ja AV1-koodekit tarjoavat paremman laadun alhaisemmilla bittinopeuksilla kuin H.264 AVC, joten voit säästää tilaa vähentämällä bittinopeutta. Mutta videoita ei ehkä toisteta joissakin videosoittimissa</string>
     <string name="prefs_video_codec_text">Videokoodekki</string>
     <string name="prefs_video_control_scene_mode_beach_text">Ranta (kirkas sää)</string>

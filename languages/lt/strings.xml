@@ -45,12 +45,14 @@
     <string name="donation_dlg_no_ads_text">Neturite skelbimų.</string>
     <string name="donation_level_text">Jūsų aukos lygis:</string>
     <string name="donation_purchase_info_loading_text">Apsipirkimo informacija dar neįkelta. Ar esate prisijungę ir esate prisijungę prie „Google“ paskyros?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Visam laikui pašalinkite skelbimus, paaukodami vienkartinę bet kokią sumą. Taip pat galite kas mėnesį paaukoti skelbimams pašalinti</string>
+    <string name="donation_remove_ads_by_any_amount_text">Visam laikui pašalinkite skelbimus, paaukodami vienkartinę bet kokią sumą.</string>
+    <string name="donation_remove_ads_by_subscribing_text">Taip pat galite kas mėnesį paaukoti skelbimams pašalinti.</string>
     <string name="donation_subs_any_amount_text">Reklama visiškai pašalinama, kol yra aktyvi prenumerata bet kokia suma per mėnesį.</string>
     <string name="donation_subs_manage_btn_text">Atsisakyti prenumeratos</string>
     <string name="donation_subs_no_free_trial_explanation_text">Programa nenumato prenumeratos bandomojo laikotarpio, nes visos programos funkcijos jau yra nemokamos, prenumerata pašalina tik reklamą</string>
     <string name="donation_subs_one_text">Kol prenumerata aktyvi, reklama visiškai pašalinama.</string>
     <string name="donation_subs_text">Aukokite kas mėnesį</string>
+    <string name="donation_subscribtions_can_be_cancelled_any_time_text">Prenumerata gali būti atšaukta bet kuriuo metu (bus pasiekiamas mygtukas „Atšaukti prenumeratą“, taip pat galite jį atšaukti „Google Play“ programoje)</string>
     <string name="format_altitude">Aukštis</string>
     <string name="format_degrees">Koordinatės</string>
     <string name="format_gb">Gigabaitas</string>
@@ -140,6 +142,8 @@
     <string name="prefs_audio_source_camcorder_text">Garso įrašymas iš CAMCORDER gali neveikti kai kuriuose įrenginiuose, tokiu atveju pabandykite pakeisti į MIC</string>
     <string name="prefs_audio_source_text">Garso šaltinis</string>
     <string name="prefs_audio_stereo_text">Stereo</string>
+    <string name="prefs_auto_service_wake_lock_sum_text">Taip užtikrinama, kad centrinis procesorius (procesorius) veikia (priimti Bluetooth, įkrovimo ar AUX įvykius).\nGalite išjungti šią parinktį, kad taupytumėte akumuliatoriaus energiją, kai įrašymas neaktyvus. Praktiškai procesorius neturėtų užmigti, tačiau jei taip nutinka jūsų įrenginyje, palikite šią parinktį įjungtą.</string>
+    <string name="prefs_auto_service_wake_lock_text">Palaikykite centrinį procesorių įjungtą („Wake Lock“), kad galėtumėte naudotis fonine paslauga „Watcher“ (naudoja daugiau akumuliatoriaus energijos).</string>
     <string name="prefs_auto_start_app_launch_sum_text">Paleidus programą, automatiškai paleiskite vaizdo įrašą</string>
     <string name="prefs_auto_start_app_launch_text">Pradėjus taikyti programą</string>
     <string name="prefs_auto_start_aux_category_text">AUX (garso lizdas)</string>
@@ -164,6 +168,7 @@
     <string name="prefs_beep_each_start_recording_text">Įrašymo metu pypsi</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Įrenginio gamintojas gali nesuteikti prieigos prie visų kamerų, todėl kai kurios gali neatsidaryti</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Įrenginio gamintojas gali pateikti ne visoms programoms skirtą plataus objektyvo kamerą</string>
+    <string name="prefs_consent_information_privacy_options">Privatumo parinktys (sutikimo informacija)</string>
     <string name="prefs_day_night_mode_auto_text">Automatinis (diena /naktis), pagal laiką</string>
     <string name="prefs_day_night_mode_day_text">Diena</string>
     <string name="prefs_day_night_mode_night_text">Naktis</string>
@@ -256,7 +261,7 @@
     <string name="prefs_rules_auto_stop_speed_text">Sustabdyti įrašymą, kai greitis mažesnis (pagal GPS)</string>
     <string name="prefs_rules_bl_auto_start_only_if_charging_text">Įrašymas tik tada, kai įrenginys kraunamas</string>
     <string name="prefs_rules_video_space_text">Didžiausia visų vaizdo įrašų atminties talpa (ciklinis įrašymas)</string>
-    <string name="prefs_screen_autostart_sum_text">Kai paleidžiate programą, įjunkite /išjunkite įkrovimą, paleiskite sistemą</string>
+    <string name="prefs_screen_autostart_sum_text">Paleidus programą, įjungus/išjungus įkrovimą, prijungus „Bluetooth“ įrenginį, AUX, įkrovus įrenginį</string>
     <string name="prefs_screen_autostart_text">Automatiškai paleisti įrašymą</string>
     <string name="prefs_screen_ui_summary_text">Greitas /ilgas ekrano paspaudimas, ekrano išjungimas, adreso ir greičio rodymas, iššokantis langas, mygtukai ir kt</string>
     <string name="prefs_screen_ui_summary_text_bvr">Spartusis įrašymo pradžios klavišas, greitas ir ilgas ekrano paspaudimas, iššokantis langas, vibracija įrašant, garso pranešimas, vibracija, mygtukai ekrane, ekrano išjungimas ir kt.</string>
@@ -293,6 +298,8 @@
     <string name="prefs_subtitles_date_format_text">Datos formatas</string>
     <string name="prefs_subtitles_date_text">data ir laikas)</string>
     <string name="prefs_subtitles_date_time_system_text">Sisteminis</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею и нагревать устройство. Для видеозаписей главное информация о времени, поэтому все GPS опции вполне можарсно отключить, вфойключить, времени</string>
+    <string name="prefs_subtitles_gps_info_category_title">GPS signalas</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX minimalus atnaujinimo dažnis</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Visi koordinačių atnaujinimai</string>
     <string name="prefs_subtitles_gpx_sum">GPX – XML schema, sukurta kaip įprastas programinės įrangos GPS duomenų formatas. Jis gali būti naudojamas apibūdinti kelio taškus, pėdsakus ir maršrutus</string>
@@ -341,6 +348,7 @@
     <string name="prefs_video_bitrate_text">Bitų sparta (kokybė)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kameros valdymo scenos režimas (naktis)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kameros valdymo scenos režimas (dieną)</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Данная камера была скрыта производителем и может не работать</string>
     <string name="prefs_video_codec_sum_text">H.265 HEVC ir AV1 kodekai užtikrina geresnę kokybę esant mažesniam pralaidumui nei H.264 AVC, todėl galite sutaupyti vietos sumažindami bitų spartą. Tačiau kai kuriuose vaizdo įrašų grotuvuose vaizdo įrašai gali nepaleisti</string>
     <string name="prefs_video_codec_text">Vaizdo kodekas</string>
     <string name="prefs_video_control_scene_mode_beach_text">Paplūdimys (šviesus oras)</string>

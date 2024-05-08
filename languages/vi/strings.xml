@@ -45,12 +45,14 @@
     <string name="donation_dlg_no_ads_text">Bạn không có quảng cáo.</string>
     <string name="donation_level_text">Mức đóng góp của bạn:</string>
     <string name="donation_purchase_info_loading_text">Thông tin mua sắm vẫn chưa được tải lên. Bạn có trực tuyến và đăng nhập vào tài khoản Google của mình không?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Xóa quảng cáo mãi mãi bằng cách quyên góp một lần với số tiền bất kỳ. Bạn cũng có thể quyên góp hàng tháng để loại bỏ quảng cáo</string>
+    <string name="donation_remove_ads_by_any_amount_text">Xóa quảng cáo mãi mãi bằng cách quyên góp một lần với số tiền bất kỳ.</string>
+    <string name="donation_remove_ads_by_subscribing_text">Bạn cũng có thể quyên góp hàng tháng để loại bỏ quảng cáo.</string>
     <string name="donation_subs_any_amount_text">Quảng cáo bị xóa hoàn toàn khi đăng ký với số tiền bất kỳ mỗi tháng đang hoạt động.</string>
     <string name="donation_subs_manage_btn_text">Hủy đăng ký</string>
     <string name="donation_subs_no_free_trial_explanation_text">Ứng dụng không cung cấp thời gian dùng thử cho các đăng ký vì tất cả các chức năng của ứng dụng đều miễn phí nên đăng ký chỉ loại bỏ quảng cáo</string>
     <string name="donation_subs_one_text">Quảng cáo bị loại bỏ hoàn toàn trong khi đăng ký đang hoạt động.</string>
     <string name="donation_subs_text">Đóng góp hàng tháng</string>
+    <string name="donation_subscribtions_can_be_cancelled_any_time_text">Việc đăng ký có thể bị hủy bất kỳ lúc nào (nút “hủy đăng ký” sẽ khả dụng, bạn cũng có thể hủy đăng ký trong ứng dụng Google Play)</string>
     <string name="format_altitude">Chiều cao</string>
     <string name="format_degrees">Tọa độ</string>
     <string name="format_gb">Gigabyte</string>
@@ -140,6 +142,8 @@
     <string name="prefs_audio_source_camcorder_text">Ghi âm từ CAMCORDER có thể không hoạt động trên một số thiết bị, trong trường hợp này hãy thử đổi sang MIC</string>
     <string name="prefs_audio_source_text">Nguồn âm thanh</string>
     <string name="prefs_audio_stereo_text">Âm thanh nổi</string>
+    <string name="prefs_auto_service_wake_lock_sum_text">Điều này đảm bảo rằng CPU (bộ xử lý) đang chạy (để nhận các sự kiện Bluetooth, sạc pin hoặc Aux).\nBạn có thể tắt tùy chọn này để tiết kiệm pin khi chức năng ghi không hoạt động. Trong thực tế, bộ xử lý sẽ không chuyển sang chế độ ngủ, nhưng nếu điều này xảy ra trên thiết bị của bạn, thì hãy bật tùy chọn này.</string>
+    <string name="prefs_auto_service_wake_lock_text">Luôn bật CPU (\"Wake Lock\") cho dịch vụ nền \"Watcher\" (sử dụng nhiều pin hơn).</string>
     <string name="prefs_auto_start_app_launch_sum_text">Bắt đầu quay video tự động khi ứng dụng khởi động</string>
     <string name="prefs_auto_start_app_launch_text">Khi bắt đầu ứng dụng</string>
     <string name="prefs_auto_start_aux_category_text">AUX (giắc cắm âm thanh)</string>
@@ -164,6 +168,7 @@
     <string name="prefs_beep_each_start_recording_text">Bíp khi ghi âm</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Nhà sản xuất thiết bị có thể không cung cấp quyền truy cập vào tất cả các camera, vì vậy một số có thể không mở được</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Nhà sản xuất thiết bị có thể không cung cấp máy ảnh ống kính rộng cho tất cả các ứng dụng</string>
+    <string name="prefs_consent_information_privacy_options">Tùy chọn quyền riêng tư (Thông tin đồng ý)</string>
     <string name="prefs_day_night_mode_auto_text">Tự động (ngày /đêm), theo thời gian</string>
     <string name="prefs_day_night_mode_day_text">Ngày</string>
     <string name="prefs_day_night_mode_night_text">Đêm</string>
@@ -256,7 +261,7 @@
     <string name="prefs_rules_auto_stop_speed_text">Dừng ghi khi tốc độ thấp hơn (dựa trên GPS)</string>
     <string name="prefs_rules_bl_auto_start_only_if_charging_text">Chỉ ghi khi thiết bị đang sạc</string>
     <string name="prefs_rules_video_space_text">Dung lượng bộ nhớ tối đa của tất cả các video (ghi vòng lặp)</string>
-    <string name="prefs_screen_autostart_sum_text">Khi khởi động ứng dụng, bật /tắt sạc, khởi động hệ thống</string>
+    <string name="prefs_screen_autostart_sum_text">Khi khởi động ứng dụng, bật/tắt sạc, khi kết nối thiết bị Bluetooth, Aux, khi khởi động thiết bị</string>
     <string name="prefs_screen_autostart_text">Tự động ghi âm</string>
     <string name="prefs_screen_ui_summary_text">Nhấn nhanh /giữ màn hình, tắt màn hình, hiển thị địa chỉ và tốc độ, cửa sổ bật lên, các nút và hơn thế nữa</string>
     <string name="prefs_screen_ui_summary_text_bvr">Phím tắt để bắt đầu ghi, nhấn nhanh và giữ trên màn hình, cửa sổ bật lên, rung khi ghi, thông báo âm thanh, rung, các nút trên màn hình, tắt màn hình và hơn thế nữa</string>
@@ -293,6 +298,8 @@
     <string name="prefs_subtitles_date_format_text">Định dạng ngày tháng</string>
     <string name="prefs_subtitles_date_text">Ngày giờ)</string>
     <string name="prefs_subtitles_date_time_system_text">Hệ thống</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Đó là một trong những điều tốt nhất bạn có thể làm để đạt được điều đó và cải thiện khả năng của mình. Bạn có thể sử dụng thiết bị định vị GPS để xác định vị trí của mình bằng GPS ки интерфейса</string>
+    <string name="prefs_subtitles_gps_info_category_title">Công cụ GPS</string>
     <string name="prefs_subtitles_gpx_delay_title">Tốc độ cập nhật tối thiểu của GPX</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Tất cả cập nhật tọa độ</string>
     <string name="prefs_subtitles_gpx_sum">GPX - một lược đồ XML được thiết kế dưới dạng định dạng dữ liệu GPS phổ biến cho các ứng dụng phần mềm. Nó có thể được sử dụng để mô tả các điểm tham chiếu, đường đi và tuyến đường</string>
@@ -341,6 +348,7 @@
     <string name="prefs_video_bitrate_text">Tốc độ bit (chất lượng)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Chế độ cảnh điều khiển máy ảnh (Ban đêm)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Chế độ cảnh điều khiển máy ảnh (Ngày)</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Một người có thể kiếm được nhiều tiền hơn và không cần phải trả tiền</string>
     <string name="prefs_video_codec_sum_text">Các codec H.265 HEVC và AV1 cung cấp chất lượng tốt hơn ở tốc độ bit thấp hơn H.264 AVC, vì vậy bạn có thể tiết kiệm dung lượng bằng cách giảm tốc độ bit. Nhưng video có thể không phát ở một số trình phát video</string>
     <string name="prefs_video_codec_text">Bộ giải mã video</string>
     <string name="prefs_video_control_scene_mode_beach_text">Bãi biển (thời tiết tươi sáng)</string>

@@ -62,12 +62,14 @@
     <string name="donation_dlg_no_ads_text">You are free from ads.</string>
     <string name="donation_level_text">Your donation level:</string>
     <string name="donation_purchase_info_loading_text">Purchases info is not loaded yet. Is network connection available and is signed in Google account?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Remove ads forever with a one-time donation of any amount. You can also donate monthly to remove ads</string>
+    <string name="donation_remove_ads_by_any_amount_text">Remove ads forever with a one-time donation of any amount.</string>
+    <string name="donation_remove_ads_by_subscribing_text">You can also donate monthly to remove ads.</string>
     <string name="donation_subs_any_amount_text">Advertising is completely removed while a subscription for any amount per month is active.</string>
     <string name="donation_subs_manage_btn_text">Cancel subscription</string>
     <string name="donation_subs_no_free_trial_explanation_text">The application does not provide a trial period for subscriptions, since all features of the application are already free, subscription only removes advertising</string>
     <string name="donation_subs_one_text">Advertising is completely removed while the subscription is active.</string>
     <string name="donation_subs_text">Donate monthly</string>
+    <string name="donation_subscribtions_can_be_cancelled_any_time_text">The subscription can be canceled at any time (the “cancel subscription” button will be available, you can also cancel it in the Google Play application)</string>
     <string name="format_altitude">Altitude</string>
     <string name="format_degrees">Degrees</string>
     <string name="format_gb">GB</string>
@@ -157,6 +159,8 @@
     <string name="prefs_audio_source_camcorder_text">Audio recording from CAMCORDER may not work on some devices, in this case try changing to MIC</string>
     <string name="prefs_audio_source_text">Audio Source</string>
     <string name="prefs_audio_stereo_text">Stereo</string>
+    <string name="prefs_auto_service_wake_lock_sum_text">This ensures that the CPU (processor) is running (to receive Bluetooth, charging or AUX events).\nYou can disable this option to save battery power when recording is not active. In practice, the processor should not fall asleep, but if this happens on your device, then leave this option enabled.</string>
+    <string name="prefs_auto_service_wake_lock_text">Keep the CPU on (\"Wake Lock\") for the background service \"Watcher\" (uses more battery power).</string>
     <string name="prefs_auto_start_app_launch_sum_text">Starts recording automatically when app launches</string>
     <string name="prefs_auto_start_app_launch_text">On app start</string>
     <string name="prefs_auto_start_aux_category_text">Audio jack (AUX)</string>
@@ -181,6 +185,7 @@
     <string name="prefs_beep_each_start_recording_text">Beep when recording</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">The device manufacturer may not provide access to all cameras, so some may not open</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">The device manufacturer may not provide a wide lens camera for all apps</string>
+    <string name="prefs_consent_information_privacy_options">Privacy options (Consent information)</string>
     <string name="prefs_day_night_mode_auto_text">Auto (Day/Night), based on time</string>
     <string name="prefs_day_night_mode_day_text">Day</string>
     <string name="prefs_day_night_mode_night_text">Night</string>
@@ -273,7 +278,7 @@
     <string name="prefs_rules_auto_stop_speed_text">Stop recording when speed is below (based on GPS)</string>
     <string name="prefs_rules_bl_auto_start_only_if_charging_text">Recording only when the device is charging</string>
     <string name="prefs_rules_video_space_text">Max memory of all videos (loop recording)</string>
-    <string name="prefs_screen_autostart_sum_text">On app launch, charging on/off, boot</string>
+    <string name="prefs_screen_autostart_sum_text">On the app start, on charging on/off, on connecting a Bluetooth device, AUX, on the device boot</string>
     <string name="prefs_screen_autostart_text">Autostart recording</string>
     <string name="prefs_screen_ui_summary_text">Short/Long taps, keep screen on, display address and speed, floating window, buttons, etc</string>
     <string name="prefs_screen_ui_summary_text_bvr">Shortcut to start recording, quick and long press on the screen, pop-up window, vibration when recording, sound notification, vibration, buttons on the screen, turning off the screen and more</string>
@@ -310,6 +315,8 @@
     <string name="prefs_subtitles_date_format_text">Date format</string>
     <string name="prefs_subtitles_date_text">Date (Timestamp) Overlay</string>
     <string name="prefs_subtitles_date_time_system_text">System</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">These options can significantly consume the battery and heat up the device. For video recordings, the main information is time, so all GPS options can be disabled, including interface settings</string>
+    <string name="prefs_subtitles_gps_info_category_title">GPS data</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX minimum update rate</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">All coordinate updates</string>
     <string name="prefs_subtitles_gpx_sum">GPX - an XML schema designed as a common GPS data format for software applications. It can be used to describe waypoints, tracks, and routes</string>
@@ -358,6 +365,7 @@
     <string name="prefs_video_bitrate_text">Recording bitrate (quality)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Camera Control Scene Mode (Night)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Camera Control Scene Mode (Day)</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">This camera has been hidden by the manufacturer and may not work</string>
     <string name="prefs_video_codec_sum_text">H.265 HEVC and AV1 codecs provide better quality at lower bitrates than H.264 AVC, so you can save space by reducing the bitrate. But videos may not play in some video players</string>
     <string name="prefs_video_codec_text">Video codec</string>
     <string name="prefs_video_control_scene_mode_beach_text">Beach (bright weather)</string>

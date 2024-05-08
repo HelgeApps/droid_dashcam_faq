@@ -45,12 +45,14 @@
     <string name="donation_dlg_no_ads_text">Reklamsız kullanabilirsiniz.</string>
     <string name="donation_level_text">Bağış seviyeniz:</string>
     <string name="donation_purchase_info_loading_text">Alışveriş bilgileri henüz yüklenmedi. Çevrimiçi misiniz ve Google hesabınızda oturum açtınız mı?</string>
-    <string name="donation_remove_ads_by_any_amount_text">Herhangi bir miktarda tek seferlik bağışla reklamları sonsuza kadar kaldırın. Ayrıca reklamları kaldırmak için aylık bağışta bulunabilirsiniz</string>
+    <string name="donation_remove_ads_by_any_amount_text">Herhangi bir miktarda tek seferlik bağışla reklamları sonsuza kadar kaldırın.</string>
+    <string name="donation_remove_ads_by_subscribing_text">Reklamların kaldırılması için aylık olarak da bağışta bulunabilirsiniz.</string>
     <string name="donation_subs_any_amount_text">Aylık herhangi bir tutardaki abonelik aktifken reklamlar tamamen kaldırılır.</string>
     <string name="donation_subs_manage_btn_text">Aboneliği iptal et</string>
     <string name="donation_subs_no_free_trial_explanation_text">Uygulamanın tüm fonksiyonları zaten ücretsiz olduğundan, uygulama abonelikler için bir deneme süresi sağlamaz, abonelik yalnızca reklamları kaldırır</string>
     <string name="donation_subs_one_text">Abonelik aktifken reklamlar tamamen kaldırılır.</string>
     <string name="donation_subs_text">Aylık bağış yapın</string>
+    <string name="donation_subscribtions_can_be_cancelled_any_time_text">Abonelik herhangi bir zamanda iptal edilebilir (“aboneliği iptal et” butonu mevcut olacaktır, bunu Google Play uygulamasında da iptal edebilirsiniz)</string>
     <string name="format_altitude">Rakım</string>
     <string name="format_degrees">Koordinatlar</string>
     <string name="format_gb">GB</string>
@@ -140,6 +142,8 @@
     <string name="prefs_audio_source_camcorder_text">CAMCORDER\'dan ses kaydı bazı cihazlarda çalışmayabilir, bu durumda MIC\'e geçmeyi deneyin</string>
     <string name="prefs_audio_source_text">Ses kaynağı</string>
     <string name="prefs_audio_stereo_text">Stereo</string>
+    <string name="prefs_auto_service_wake_lock_sum_text">Bu, CPU\'nun (işlemcinin) çalışmasını sağlar (Bluetooth, şarj etme veya AUX olaylarını almak için).\nKayıt etkin olmadığında pil gücünden tasarruf etmek için bu seçeneği devre dışı bırakabilirsiniz. Pratikte işlemci uykuya dalmamalıdır, ancak cihazınızda bu olursa, bu seçeneği etkin bırakın.</string>
+    <string name="prefs_auto_service_wake_lock_text">Arka plan hizmeti \"İzleyici\" için CPU\'yu açık tutun (\"Uyandırma Kilidi\") (daha fazla pil gücü kullanır).</string>
     <string name="prefs_auto_start_app_launch_sum_text">Uygulama başladığında video kaydını otomatik olarak başlat</string>
     <string name="prefs_auto_start_app_launch_text">Uygulama başlangıcında</string>
     <string name="prefs_auto_start_aux_category_text">Ses jakı (AUX)</string>
@@ -164,6 +168,7 @@
     <string name="prefs_beep_each_start_recording_text">Kayıt sırasında bip sesi</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Cihaz üreticisi tüm kameralara erişim sağlamayabilir, dolayısıyla bazıları açılmayabilir.</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Cihaz üreticisi, tüm uygulamalar için geniş lensli bir kamera sağlamayabilir.</string>
+    <string name="prefs_consent_information_privacy_options">Gizlilik seçenekleri (Onay bilgileri)</string>
     <string name="prefs_day_night_mode_auto_text">Otomatik (gündüz /gece), zamana göre</string>
     <string name="prefs_day_night_mode_day_text">Gün</string>
     <string name="prefs_day_night_mode_night_text">Gece</string>
@@ -256,7 +261,7 @@
     <string name="prefs_rules_auto_stop_speed_text">Hız Düştüğünde Kaydı Durdur (GPS\'ye göre)</string>
     <string name="prefs_rules_bl_auto_start_only_if_charging_text">Yalnızca cihaz şarj olurken kayıt</string>
     <string name="prefs_rules_video_space_text">Tüm Videoların Maksimum Bellek Kapasitesi (Döngü Kaydı)</string>
-    <string name="prefs_screen_autostart_sum_text">Uygulamayı Başlattığınızda, Şarj Açık/Kapalı, Önyüklemede</string>
+    <string name="prefs_screen_autostart_sum_text">Uygulama başlangıcında, şarj açma/kapama sırasında, bir Bluetooth cihazı (AUX) bağlandığında, cihaz önyüklemesinde</string>
     <string name="prefs_screen_autostart_text">Kaydı Otomatik Başlatma</string>
     <string name="prefs_screen_ui_summary_text">Kısa/Uzun dokunma, Ekranı Açık Tutma, Adres ve Hızı Görüntüleme, Yüzen Pencere, Düğmeler vb.</string>
     <string name="prefs_screen_ui_summary_text_bvr">Kaydı başlatmak için kısayol, ekrana hızlı ve uzun basma, açılır pencere, kayıt sırasında titreşim, sesli bildirim, titreşim, ekrandaki düğmeler, ekranı kapatma ve daha fazlası</string>
@@ -293,6 +298,8 @@
     <string name="prefs_subtitles_date_format_text">Tarih Formatı</string>
     <string name="prefs_subtitles_date_text">Tarih (Zaman Damgası)</string>
     <string name="prefs_subtitles_date_time_system_text">Sistem</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Bu işlemler, pili şarj etme ve çalıştırma işlemlerini gerçekleştirmenizi sağlar. GPS\'in en iyi şekilde görüntülenmesi için, her yerde görüntülü görüşme yapabilirsiniz. ерфейса</string>
+    <string name="prefs_subtitles_gps_info_category_title">GPS verileri</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX minimum güncelleme hızı</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Tüm koordinat güncellemeleri</string>
     <string name="prefs_subtitles_gpx_sum">GPX - yazılım uygulamaları için ortak bir GPS veri formatı olarak tasarlanmış bir XML şeması. Yol noktalarını, izleri ve rotaları tanımlamak için kullanılabilir</string>
@@ -341,6 +348,7 @@
     <string name="prefs_video_bitrate_text">Kayıt bit hızı (kalite)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kamera Kontrolü Sahne Modu (Gece)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kamera Kontrollü Sahne Modu (Gündüz)</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Kameranın görüntülenmesi mümkün değil ve hiç bir şey yapılmıyor</string>
     <string name="prefs_video_codec_sum_text">H.265 HEVC ve AV1 codec\'leri, H.264 AVC\'ye göre daha düşük bit hızlarında daha iyi kalite sağlar, böylece bit hızını azaltarak yerden tasarruf edebilirsiniz. Ancak bazı video oynatıcılarda videolar oynatılamayabilir</string>
     <string name="prefs_video_codec_text">Video codec\'i</string>
     <string name="prefs_video_control_scene_mode_beach_text">Sahil (parlak hava)</string>
