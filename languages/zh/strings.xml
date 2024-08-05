@@ -46,6 +46,7 @@
     <string name="donation_dlg_no_ads_text">您现在已免除任何广告。</string>
     <string name="donation_level_text">您的捐赠级别：</string>
     <string name="donation_purchase_info_loading_text">购物信息尚未上传。您是否在线并登录了您的 Google 帐户？</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">如果您已经捐款，那么要恢复您的购买，请在选择正确的 Google 帐户后在 Google Play 上重新安装该应用程序</string>
     <string name="donation_remove_ads_by_any_amount_text">通过一次性捐赠任意金额，永久删除广告。</string>
     <string name="donation_remove_ads_by_subscribing_text">您还可以每月捐款以删除广告。</string>
     <string name="donation_subs_any_amount_text">当每月任意金额的订阅处于活动状态时，广告将被完全删除。</string>
@@ -134,6 +135,7 @@
     <string name="prefs_audio_bt_recording_warning_message_text">仅与蓝牙耳机一起使用。如果您通过蓝牙连接到主机（汽车收音机），则由于某种原因，这可能会自动触发拨打该设备上的标准号码的电话</string>
     <string name="prefs_audio_bt_recording_warning_title_text">请勿与主机（汽车收音机）一起使用！</string>
     <string name="prefs_audio_codec_title">音频编解码器</string>
+    <string name="prefs_audio_permission_not_granted_title">未授予录音权限</string>
     <string name="prefs_audio_priority_sum">如果启用，其他应用程序将无法使用麦克风。如果禁用，当多个应用程序使用麦克风运行时，此应用程序可能无法录制音频（Android 并不总是允许同时使用麦克风）</string>
     <string name="prefs_audio_priority_title">优先播放此应用程序的音频</string>
     <string name="prefs_audio_rate_text">采样率</string>
@@ -207,6 +209,7 @@
     <string name="prefs_location_mode_high_accuracy_text">由于电池功耗较大，因此可以实现最准确的位置（坐标）和速度。</string>
     <string name="prefs_location_mode_low_power_text">由于电池功耗低，定位（坐标）和速度精度低。</string>
     <string name="prefs_location_mode_text">GPS 优先（电池或精度）</string>
+    <string name="prefs_location_power_saving_to_get_updates_in_background">应关闭省电功能才能在后台获取位置（GPS）更新。</string>
     <string name="prefs_location_provider_method_text">位置获取方法（GPS）</string>
     <string name="prefs_location_update_frequency_text">GPS更新率</string>
     <string name="prefs_meters_accuracy_value_text">米精度</string>
@@ -241,6 +244,7 @@
     <string name="prefs_overlay_drag_btn_text">拖动窗口</string>
     <string name="prefs_overlay_speed_text">显示速度</string>
     <string name="prefs_overlay_videos_btn_text">打开视频画面</string>
+    <string name="prefs_permission_tap_to_grant">点击授予权限</string>
     <string name="prefs_pinch_to_zoom_sum_text">用两个手指缩放</string>
     <string name="prefs_pinch_to_zoom_text">启用屏幕缩放</string>
     <string name="prefs_policy_text">隐私政策</string>
@@ -271,6 +275,7 @@
     <string name="prefs_screen_video_day_night_mode_text">自动日/夜设置</string>
     <string name="prefs_settings_bitrate_sum_text">更高的比特率 - 更好的质量，但更大的视频文件大小</string>
     <string name="prefs_settings_fps_sum_text">更多 FPS - 更流畅的视频，但更快的电池消耗。最好将第一个值设置为最低（第二个可能更高），以便在黑暗中更好地记录</string>
+    <string name="prefs_settings_max_file_tip_sum_text">某些设备可能会将最大文件大小限制为 4 GB，因此您需要选择设置（比特率、持续时间、分辨率）以使一个视频文件不超过 4 GB</string>
     <string name="prefs_share_sum_text">将此应用发送给您的朋友</string>
     <string name="prefs_share_text">分享这个</string>
     <string name="prefs_shortcut_launcher_has_been_added">添加了快捷方式（启动器）</string>
@@ -349,7 +354,7 @@
     <string name="prefs_video_bitrate_text">比特率（质量）</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">相机控制场景模式（夜间）</string>
     <string name="prefs_video_camera_control_scene_mode_text">相机控制场景模式（白天）</string>
-    <string name="prefs_video_camera_hidden_by_manufacture_tip">青少年棒球教练培训课程，请勿参与</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">该相机已被制造商隐藏，可能无法工作</string>
     <string name="prefs_video_codec_sum_text">与 H.264 AVC 相比，H.265 HEVC 和 AV1 编解码器以更低的比特率提供更好的质量，因此您可以通过降低比特率来节省空间。但视频可能无法在某些视频播放器中播放</string>
     <string name="prefs_video_codec_text">视频编解码器</string>
     <string name="prefs_video_control_scene_mode_beach_text">海滩（晴朗的天气）</string>
@@ -387,6 +392,7 @@
     <string name="prefs_warning_notifications_text">通知权限</string>
     <string name="prefs_warning_permission_bluetooth_sum_text">通过蓝牙连接自动录音需要许可。点击这里提交</string>
     <string name="prefs_warning_permission_bluetooth_text">未授予蓝牙权限</string>
+    <string name="prefs_warning_power_saving">节能</string>
     <string name="prefs_warnings_text">警告</string>
     <string name="prefs_zoom_out_desc_text">要访问超广角相机（镜头），您可以设置变焦倍数</string>
     <string name="prefs_zoom_text">数码变焦（变焦）</string>
@@ -403,7 +409,9 @@
     <string name="rec_network_text">网</string>
     <string name="rec_off_text">离开</string>
     <string name="rec_on_text">包括</string>
-    <string name="rec_service_msg">隐私：您录制的所有视频将仅保存在您的本地设备上。该应用程序不会备份您的视频（没有与服务器的任何连接）\n\n当录制处于活动状态时、当您返回主屏幕、切换到另一个应用程序或锁定手机以继续录制时以及当您开机时，该应用程序将继续在后台运行（通知栏中显示的前台服务）自动录音功能（如果关闭后台服务，这些功能将不起作用）。该应用程序使用 Firebase Analytics 进行基本的匿名分析（请参阅下面的链接）</string>
+    <string name="rec_privacy_analytics_msg">该应用程序使用 Firebase Analytics 进行基本的匿名分析（请参阅下面的链接）</string>
+    <string name="rec_privacy_permissions_msg">该应用程序使用以下权限：\n- 开放匿名设备标识符OAID（用于个性化广告）\n- 相机、音频（用于视频录制）\n- 存储（用于保存视频）\n- 位置（获取当前位置的地址、GPS 坐标、速度 - 显示在应用程序的主屏幕上并向视频应用字幕）\n- 互联网广告）</string>
+    <string name="rec_privacy_service_msg">隐私：您录制的所有视频将仅保存在您的本地设备上。该应用程序不会备份您的视频（没有与服务器的任何连接）\n\n当录音处于活动状态时，当您返回主屏幕、切换到另一个应用程序或锁定手机以便能够继续录音时，该应用程序将继续在后台运行（通知栏中显示的前台服务）您打开自动录音功能（如果关闭后台服务，这些功能将不起作用）。</string>
     <string name="recording_file_name_prefix">视频文件名的前缀</string>
     <string name="recording_start_text">开始录音</string>
     <string name="recording_started_failed_text">启动录制时出错</string>
@@ -453,6 +461,7 @@
     <string name="videos_file_item_share">分享</string>
     <string name="videos_file_item_watch">查看</string>
     <string name="videos_file_open_with">打开用</string>
+    <string name="videos_file_repair">修复损坏/无法播放的文件</string>
     <string name="videos_file_select">选择用于</string>
     <string name="videos_file_sort_asc">升序</string>
     <string name="videos_file_sort_desc">降序</string>

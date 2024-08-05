@@ -45,6 +45,7 @@
     <string name="donation_dlg_no_ads_text">Sie haben keine Anzeigen.</string>
     <string name="donation_level_text">Ihre Spendenhöhe:</string>
     <string name="donation_purchase_info_loading_text">Kaufinformationen noch nicht hochgeladen. Sind Sie online und in Ihrem Google-Konto angemeldet?</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Wenn Sie bereits gespendet haben, installieren Sie zur Wiederherstellung Ihrer Einkäufe bitte die Anwendung bei Google Play neu, nachdem Sie das richtige Google-Konto ausgewählt haben</string>
     <string name="donation_remove_ads_by_any_amount_text">Entfernen Sie Anzeigen für immer mit einer einmaligen Spende in beliebiger Höhe.</string>
     <string name="donation_remove_ads_by_subscribing_text">Sie können auch monatlich spenden, um Anzeigen zu entfernen.</string>
     <string name="donation_subs_any_amount_text">Werbung wird vollständig entfernt, solange ein Abonnement für einen beliebigen Betrag pro Monat aktiv ist.</string>
@@ -133,6 +134,7 @@
     <string name="prefs_audio_bt_recording_warning_message_text">Nur mit Bluetooth-Kopfhörern verwenden. Wenn Sie über Bluetooth eine Verbindung zur Headunit (Autoradio) herstellen, kann dies aus irgendeinem Grund automatisch einen Anruf an die Standardnummer dieses Geräts auslösen</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Nicht mit Headunit (Autoradio) verwenden!</string>
     <string name="prefs_audio_codec_title">Audio-Codec</string>
+    <string name="prefs_audio_permission_not_granted_title">Die Erlaubnis zur Audioaufzeichnung wurde nicht erteilt</string>
     <string name="prefs_audio_priority_sum">Wenn diese Option aktiviert ist, können andere Anwendungen das Mikrofon nicht verwenden. Wenn deaktiviert, kann diese Anwendung möglicherweise kein Audio aufnehmen, wenn mehrere Anwendungen mit dem Mikrofon ausgeführt werden (Android erlaubt nicht immer die gleichzeitige Verwendung des Mikrofons).</string>
     <string name="prefs_audio_priority_title">Priorisieren Sie Audio für diese App</string>
     <string name="prefs_audio_rate_text">Abtastfrequenz</string>
@@ -206,6 +208,7 @@
     <string name="prefs_location_mode_high_accuracy_text">Der genaueste Standort (Koordinaten) und die genaueste Geschwindigkeit aufgrund des höheren Batteriestromverbrauchs.</string>
     <string name="prefs_location_mode_low_power_text">Geringe Genauigkeit der Position (Koordinaten) und Geschwindigkeit aufgrund des geringen Stromverbrauchs der Batterie.</string>
     <string name="prefs_location_mode_text">GPS-Priorität (Batterie oder Genauigkeit)</string>
+    <string name="prefs_location_power_saving_to_get_updates_in_background">Die Energiesparfunktion sollte ausgeschaltet sein, um Standortaktualisierungen (GPS) im Hintergrund erhalten zu können.</string>
     <string name="prefs_location_provider_method_text">Standorterfassungsmethode (GPS)</string>
     <string name="prefs_location_update_frequency_text">Aktualisierungsrate der GPS</string>
     <string name="prefs_meters_accuracy_value_text">Genauigkeitsmeter</string>
@@ -240,6 +243,7 @@
     <string name="prefs_overlay_drag_btn_text">Fenster ziehen</string>
     <string name="prefs_overlay_speed_text">Geschwindigkeit anzeigen</string>
     <string name="prefs_overlay_videos_btn_text">Videobildschirm öffnen</string>
+    <string name="prefs_permission_tap_to_grant">Tippen, um die Berechtigung zu erteilen</string>
     <string name="prefs_pinch_to_zoom_sum_text">Zoomen mit zwei Fingern</string>
     <string name="prefs_pinch_to_zoom_text">Bildschirmzoom aktivieren</string>
     <string name="prefs_policy_text">Datenschutzbestimmungen</string>
@@ -270,6 +274,7 @@
     <string name="prefs_screen_video_day_night_mode_text">Automatische Tag-/Nachteinstellungen</string>
     <string name="prefs_settings_bitrate_sum_text">Höhere Bitrate - bessere Qualität, aber größere Videodateigröße</string>
     <string name="prefs_settings_fps_sum_text">Mehr FPS – flüssigeres Video, aber schnellerer Akkuverbrauch. Es ist besser, den ersten Wert auf den niedrigsten einzustellen (der zweite kann höher sein), um bessere Aufnahmen in der Dunkelheit zu erzielen.</string>
+    <string name="prefs_settings_max_file_tip_sum_text">Bei einigen Geräten ist die maximale Dateigröße möglicherweise auf 4 GB begrenzt. Daher müssen Sie die Einstellungen (Bitrate, Dauer, Auflösung) so auswählen, dass eine Videodatei 4 GB nicht überschreitet</string>
     <string name="prefs_share_sum_text">Senden Sie diese App an Ihre Freunde</string>
     <string name="prefs_share_text">Teilen</string>
     <string name="prefs_shortcut_launcher_has_been_added">Verknüpfung (Launcher) wurde hinzugefügt</string>
@@ -348,7 +353,7 @@
     <string name="prefs_video_bitrate_text">Bitrate (Qualität)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kamerasteuerung Szenemodus (Nacht)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Szenenmodus der Kamerasteuerung (Tag)</string>
-    <string name="prefs_video_camera_hidden_by_manufacture_tip">Die Tag-Kamera wird vom Hersteller abgezogen und kann nicht arbeiten</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Diese Kamera wurde vom Hersteller versteckt und funktioniert möglicherweise nicht</string>
     <string name="prefs_video_codec_sum_text">H.265 HEVC- und AV1-Codecs bieten eine bessere Qualität bei niedrigeren Bitraten als H.264 AVC, sodass Sie durch Reduzierung der Bitrate Platz sparen können. In einigen Videoplayern werden Videos jedoch möglicherweise nicht abgespielt</string>
     <string name="prefs_video_codec_text">Video-Codec</string>
     <string name="prefs_video_control_scene_mode_beach_text">Strand (helles Wetter)</string>
@@ -386,6 +391,7 @@
     <string name="prefs_warning_notifications_text">Benachrichtigungsberechtigung</string>
     <string name="prefs_warning_permission_bluetooth_sum_text">Für die automatische Aufnahme über Bluetooth-Verbindungen ist eine Genehmigung erforderlich. Klicken Sie hier, um es einzureichen</string>
     <string name="prefs_warning_permission_bluetooth_text">Bluetooth-Berechtigung nicht erteilt</string>
+    <string name="prefs_warning_power_saving">Energiesparen</string>
     <string name="prefs_warnings_text">Warnungen</string>
     <string name="prefs_zoom_out_desc_text">Um auf die Ultraweitwinkelkamera (Linse) zuzugreifen, können Sie den Zoomfaktor einstellen</string>
     <string name="prefs_zoom_text">Digitalzoom (Zoom)</string>
@@ -402,7 +408,9 @@
     <string name="rec_network_text">Netzwerk</string>
     <string name="rec_off_text">Aus</string>
     <string name="rec_on_text">Ein</string>
-    <string name="rec_service_msg">Datenschutz: Alle von Ihnen aufgenommenen Videos werden nur auf Ihrem lokalen Gerät gespeichert. Die Anwendung sichert Ihre Videos nicht (hat keine Verbindungen zu Servern)\n\nDie App läuft weiterhin im Hintergrund (der Vordergrunddienst, der in der Benachrichtigungsleiste angezeigt wird), während die Aufnahme aktiv ist, wenn Sie zum Startbildschirm zurückkehren, zu einer anderen App wechseln oder Ihr Telefon sperren, um die Aufnahme fortzusetzen, und wenn Sie es einschalten Funktionen zur automatischen Aufzeichnung (wenn Sie den Hintergrunddienst schließen, funktionieren diese Funktionen nicht). Die App verwendet Firebase Analytics für grundlegende anonyme Analysen (siehe Link unten).</string>
+    <string name="rec_privacy_analytics_msg">Die App verwendet Firebase Analytics für grundlegende anonyme Analysen (siehe Link unten).</string>
+    <string name="rec_privacy_permissions_msg">Die Anwendung verwendet die folgenden Berechtigungen:\n- Offene anonyme Gerätekennung OAID (für personalisierte Werbung)\n- KAMERA, AUDIO (für Videoaufzeichnung)\n- SPEICHER (zum Speichern von Videos)\n- STANDORT (um die Adresse des aktuellen Standorts, GPS-Koordinaten und Geschwindigkeit abzurufen – um sie auf dem Hauptbildschirm der Anwendung anzuzeigen und dem Video Untertitel hinzuzufügen)\n- Internet-Werbung)</string>
+    <string name="rec_privacy_service_msg">Datenschutz: Alle von Ihnen aufgenommenen Videos werden nur auf Ihrem lokalen Gerät gespeichert. Die Anwendung sichert Ihre Videos nicht (hat keine Verbindungen zu Servern)\n\nDie App läuft weiterhin im Hintergrund (der Vordergrunddienst, der in der Benachrichtigungsleiste angezeigt wird), während die Aufnahme aktiv ist, wenn Sie zum Startbildschirm zurückkehren, zu einer anderen App wechseln oder Ihr Telefon sperren, um die Aufnahme fortzusetzen, und wann Sie aktivieren Funktionen zur automatischen Aufzeichnung (wenn Sie den Hintergrunddienst schließen, funktionieren diese Funktionen nicht).</string>
     <string name="recording_file_name_prefix">Präfix für Videodateinamen</string>
     <string name="recording_start_text">Aufnahme starten</string>
     <string name="recording_started_failed_text">Fehler beim Starten der Aufnahme</string>
@@ -452,6 +460,7 @@
     <string name="videos_file_item_share">Teilen</string>
     <string name="videos_file_item_watch">Betrachten</string>
     <string name="videos_file_open_with">Öffnen mit</string>
+    <string name="videos_file_repair">Reparieren Sie beschädigte/nicht abspielbare Dateien</string>
     <string name="videos_file_select">Wählen Sie für</string>
     <string name="videos_file_sort_asc">Aufsteigend sortieren</string>
     <string name="videos_file_sort_desc">Absteigend sortieren</string>

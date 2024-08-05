@@ -45,6 +45,7 @@
     <string name="donation_dlg_no_ads_text">Bạn không có quảng cáo.</string>
     <string name="donation_level_text">Mức đóng góp của bạn:</string>
     <string name="donation_purchase_info_loading_text">Thông tin mua sắm vẫn chưa được tải lên. Bạn có trực tuyến và đăng nhập vào tài khoản Google của mình không?</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Nếu bạn đã quyên góp, để khôi phục giao dịch mua hàng của mình, vui lòng cài đặt lại ứng dụng trên Google Play sau khi chọn đúng tài khoản Google</string>
     <string name="donation_remove_ads_by_any_amount_text">Xóa quảng cáo mãi mãi bằng cách quyên góp một lần với số tiền bất kỳ.</string>
     <string name="donation_remove_ads_by_subscribing_text">Bạn cũng có thể quyên góp hàng tháng để loại bỏ quảng cáo.</string>
     <string name="donation_subs_any_amount_text">Quảng cáo bị xóa hoàn toàn khi đăng ký với số tiền bất kỳ mỗi tháng đang hoạt động.</string>
@@ -133,6 +134,7 @@
     <string name="prefs_audio_bt_recording_warning_message_text">Chỉ sử dụng với tai nghe Bluetooth. Nếu bạn kết nối với bộ phận đầu (radio ô tô) qua Bluetooth thì vì lý do nào đó, điều này có thể tự động kích hoạt cuộc gọi đến số tiêu chuẩn trên thiết bị này</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Không sử dụng với bộ phận đầu (radio ô tô)!</string>
     <string name="prefs_audio_codec_title">Audio codec</string>
+    <string name="prefs_audio_permission_not_granted_title">Quyền ghi âm không được cấp</string>
     <string name="prefs_audio_priority_sum">Nếu được bật, các ứng dụng khác sẽ không thể sử dụng micrô. Nếu bị tắt, ứng dụng này có thể không ghi được âm thanh khi nhiều ứng dụng đang chạy bằng micrô (Android không phải lúc nào cũng cho phép sử dụng đồng thời micrô)</string>
     <string name="prefs_audio_priority_title">Ưu tiên âm thanh cho ứng dụng này</string>
     <string name="prefs_audio_rate_text">Tần số lấy mẫu</string>
@@ -206,6 +208,7 @@
     <string name="prefs_location_mode_high_accuracy_text">Vị trí (tọa độ) và tốc độ chính xác nhất do mức tiêu thụ pin lớn hơn.</string>
     <string name="prefs_location_mode_low_power_text">Độ chính xác của vị trí (tọa độ) và tốc độ thấp do mức tiêu thụ pin thấp.</string>
     <string name="prefs_location_mode_text">Ưu tiên GPS (Pin hoặc Độ chính xác)</string>
+    <string name="prefs_location_power_saving_to_get_updates_in_background">Bạn nên tắt tính năng Tiết kiệm năng lượng để có thể nhận thông tin cập nhật vị trí (GPS) ở chế độ nền.</string>
     <string name="prefs_location_provider_method_text">Phương pháp thu nhận vị trí (GPS)</string>
     <string name="prefs_location_update_frequency_text">Tỷ lệ cập nhật GPS</string>
     <string name="prefs_meters_accuracy_value_text">mét độ chính xác</string>
@@ -240,6 +243,7 @@
     <string name="prefs_overlay_drag_btn_text">Kéo cửa sổ</string>
     <string name="prefs_overlay_speed_text">Hiển thị tốc độ</string>
     <string name="prefs_overlay_videos_btn_text">Mở màn hình video</string>
+    <string name="prefs_permission_tap_to_grant">Nhấn để cấp quyền</string>
     <string name="prefs_pinch_to_zoom_sum_text">Thu phóng bằng hai ngón tay</string>
     <string name="prefs_pinch_to_zoom_text">Bật thu phóng màn hình</string>
     <string name="prefs_policy_text">Chính sách bảo mật</string>
@@ -270,6 +274,7 @@
     <string name="prefs_screen_video_day_night_mode_text">Cài đặt Ngày /Đêm Tự động</string>
     <string name="prefs_settings_bitrate_sum_text">Tốc độ bit cao hơn - chất lượng tốt hơn nhưng kích thước tệp video lớn hơn</string>
     <string name="prefs_settings_fps_sum_text">FPS nhiều hơn - video mượt mà hơn nhưng hao pin nhanh hơn. Tốt hơn nên đặt giá trị đầu tiên thành thấp nhất (giá trị thứ hai có thể cao hơn) để ghi tốt hơn trong bóng tối</string>
+    <string name="prefs_settings_max_file_tip_sum_text">Một số thiết bị có thể giới hạn kích thước tệp tối đa là 4 GB, vì vậy bạn cần chọn cài đặt (tốc độ bit, thời lượng, độ phân giải) để một tệp video không vượt quá 4 GB</string>
     <string name="prefs_share_sum_text">Gửi ứng dụng này cho bạn bè của bạn</string>
     <string name="prefs_share_text">Chia sẻ cái này</string>
     <string name="prefs_shortcut_launcher_has_been_added">Phím tắt (launcher) đã được thêm</string>
@@ -348,7 +353,7 @@
     <string name="prefs_video_bitrate_text">Tốc độ bit (chất lượng)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Chế độ cảnh điều khiển máy ảnh (Ban đêm)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Chế độ cảnh điều khiển máy ảnh (Ngày)</string>
-    <string name="prefs_video_camera_hidden_by_manufacture_tip">Một người có thể kiếm được nhiều tiền hơn và không cần phải trả tiền</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Camera này đã bị nhà sản xuất giấu đi và có thể không hoạt động</string>
     <string name="prefs_video_codec_sum_text">Các codec H.265 HEVC và AV1 cung cấp chất lượng tốt hơn ở tốc độ bit thấp hơn H.264 AVC, vì vậy bạn có thể tiết kiệm dung lượng bằng cách giảm tốc độ bit. Nhưng video có thể không phát ở một số trình phát video</string>
     <string name="prefs_video_codec_text">Bộ giải mã video</string>
     <string name="prefs_video_control_scene_mode_beach_text">Bãi biển (thời tiết tươi sáng)</string>
@@ -386,6 +391,7 @@
     <string name="prefs_warning_notifications_text">Quyền thông báo</string>
     <string name="prefs_warning_permission_bluetooth_sum_text">Ghi âm tự động qua kết nối Bluetooth cần có sự cho phép. Bấm vào đây để gửi</string>
     <string name="prefs_warning_permission_bluetooth_text">Quyền Bluetooth không được cấp</string>
+    <string name="prefs_warning_power_saving">Tiết kiệm năng lượng</string>
     <string name="prefs_warnings_text">Cảnh báo</string>
     <string name="prefs_zoom_out_desc_text">Để truy cập máy ảnh (ống kính) góc cực rộng, bạn có thể đặt hệ số thu phóng</string>
     <string name="prefs_zoom_text">Thu phóng kỹ thuật số (thu phóng)</string>
@@ -402,7 +408,9 @@
     <string name="rec_network_text">Mạng lưới</string>
     <string name="rec_off_text">Tắt</string>
     <string name="rec_on_text">Bao gồm</string>
-    <string name="rec_service_msg">Quyền riêng tư: Tất cả video bạn quay sẽ chỉ được lưu trên thiết bị cục bộ của bạn. Ứng dụng không sao lưu video của bạn (không có bất kỳ kết nối nào đến máy chủ)\n\nỨng dụng sẽ tiếp tục chạy ở chế độ nền (dịch vụ nền trước xuất hiện trên thanh thông báo) trong khi quá trình ghi đang hoạt động, khi bạn quay lại màn hình chính, chuyển sang ứng dụng khác hoặc khóa điện thoại để tiếp tục ghi và khi bạn bật tính năng ghi âm tự động (nếu bạn đóng dịch vụ nền thì các chức năng này sẽ không hoạt động). Ứng dụng sử dụng Firebase Analytics cho các phân tích ẩn danh cơ bản (xem liên kết bên dưới)</string>
+    <string name="rec_privacy_analytics_msg">Ứng dụng sử dụng Firebase Analytics cho các phân tích ẩn danh cơ bản (xem liên kết bên dưới)</string>
+    <string name="rec_privacy_permissions_msg">Ứng dụng sử dụng các quyền sau:\n- Mở mã định danh thiết bị ẩn danh OAID (dành cho quảng cáo được cá nhân hóa)\n- CAMERA, ÂM THANH (để quay video)\n- LƯU TRỮ (để lưu video)\n- VỊ TRÍ (để lấy địa chỉ của vị trí hiện tại, tọa độ GPS, tốc độ - để hiển thị trên màn hình chính của ứng dụng và áp dụng phụ đề cho video)\n- Quảng cáo qua mạng)</string>
+    <string name="rec_privacy_service_msg">Quyền riêng tư: Tất cả video bạn quay sẽ chỉ được lưu trên thiết bị cục bộ của bạn. Ứng dụng không sao lưu video của bạn (không có bất kỳ kết nối nào đến máy chủ)\n\nỨng dụng sẽ tiếp tục chạy ở chế độ nền (dịch vụ nền trước xuất hiện trên thanh thông báo) trong khi quá trình ghi đang hoạt động, khi bạn quay lại màn hình chính, hãy chuyển sang ứng dụng khác hoặc khóa điện thoại để có thể tiếp tục ghi và khi bạn bật tính năng tự động ghi âm (nếu tắt dịch vụ nền thì các chức năng này sẽ không hoạt động).</string>
     <string name="recording_file_name_prefix">Tiền tố cho tên tệp video</string>
     <string name="recording_start_text">Bắt đầu ghi âm</string>
     <string name="recording_started_failed_text">Lỗi khi bắt đầu ghi</string>
@@ -452,6 +460,7 @@
     <string name="videos_file_item_share">Chia sẻ cái này</string>
     <string name="videos_file_item_watch">Đồng hồ</string>
     <string name="videos_file_open_with">Mở với</string>
+    <string name="videos_file_repair">Sửa chữa tập tin bị hỏng/không thể phát được</string>
     <string name="videos_file_select">Chọn cho</string>
     <string name="videos_file_sort_asc">Sắp xếp Tăng dần</string>
     <string name="videos_file_sort_desc">Sắp xếp giảm dần</string>

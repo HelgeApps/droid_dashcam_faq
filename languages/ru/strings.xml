@@ -62,6 +62,7 @@
     <string name="donation_dlg_no_ads_text">У вас нет рекламы.</string>
     <string name="donation_level_text">Ваш уровень пожертвования:</string>
     <string name="donation_purchase_info_loading_text">Информация о покупках еще не загружена. Доступно ли подключение к сети и вход в Google аккаунт выполнен?</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Если уже делали пожертвование, то для восстановления покупок, пожалуйста, переустановите приложение в Google Play предварительно выбрав корректный аккаунт Google</string>
     <string name="donation_remove_ads_by_any_amount_text">Удалите рекламу навсегда разовым пожертвованием на любую сумму.</string>
     <string name="donation_remove_ads_by_subscribing_text">Также вы можете жертвовать ежемесячно, чтобы удалить рекламу.</string>
     <string name="donation_subs_any_amount_text">Реклама полностью удаляется пока активна подписка на любую сумму в месяц.</string>
@@ -150,6 +151,7 @@
     <string name="prefs_audio_bt_recording_warning_message_text">Используйте только с Bluetooth наушниками. Если вы подключаетесь к головному устройству (автомобильному радио) по Bluetooth, то по каким-то причинам это может автоматически вызывать телефонный звонок по стандартному номеру на данном устройстве</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Не используйте с головным устройством (автомобильным радио)!</string>
     <string name="prefs_audio_codec_title">Аудиокодек</string>
+    <string name="prefs_audio_permission_not_granted_title">Разрешение на аудиозапись не предоставлено</string>
     <string name="prefs_audio_priority_sum">Если включено, то другие приложения не смогут использовать микрофон. Если выключено, то это приложению возможно не сможет записывать аудио, когда работают несколько приложений использующих микрофон (Android не во всех случаях позволяет одновременное использование микрофона)</string>
     <string name="prefs_audio_priority_title">Приоритет аудио этому приложению</string>
     <string name="prefs_audio_rate_text">Частота дискретизации</string>
@@ -223,6 +225,7 @@
     <string name="prefs_location_mode_high_accuracy_text">Наиболее точное определение местоположения (координат) и скорости за счет большего энергопотребления батареи.</string>
     <string name="prefs_location_mode_low_power_text">Низкая точность определения местоположения (координат) и скорости за счет низкого энергопотребления батареи.</string>
     <string name="prefs_location_mode_text">Приоритет GPS (батарея или точность)</string>
+    <string name="prefs_location_power_saving_to_get_updates_in_background">Энергосбережение следует отключить, чтобы иметь возможность получать обновления местоположения (GPS) в фоновом режиме.</string>
     <string name="prefs_location_provider_method_text">Метод получения местоположения (GPS)</string>
     <string name="prefs_location_update_frequency_text">Частота обновления GPS</string>
     <string name="prefs_meters_accuracy_value_text">метров точности</string>
@@ -257,6 +260,7 @@
     <string name="prefs_overlay_drag_btn_text">Перетащить окно</string>
     <string name="prefs_overlay_speed_text">Показывать скорость</string>
     <string name="prefs_overlay_videos_btn_text">Открыть экран с видео</string>
+    <string name="prefs_permission_tap_to_grant">Нажмите, чтобы дать разрешение</string>
     <string name="prefs_pinch_to_zoom_sum_text">Масштабирование двумя пальцами</string>
     <string name="prefs_pinch_to_zoom_text">Включить зум по экрану</string>
     <string name="prefs_policy_text">Политика конфиденциальности</string>
@@ -287,6 +291,7 @@
     <string name="prefs_screen_video_day_night_mode_text">Настройки авто дневного/ночного режима</string>
     <string name="prefs_settings_bitrate_sum_text">Больше битрейт - лучше качество, но больше размер видеофайла</string>
     <string name="prefs_settings_fps_sum_text">Больше FPS - плавнее видео, но быстрее разряд батареи. Лучше задать первое значение наименьшим (второе может быть больше) для лучшей записи в темноте</string>
+    <string name="prefs_settings_max_file_tip_sum_text">Некоторые устройства могут ограничивать максимальный размер файла до 4 ГБ, поэтому нужно подбирать такие настройки (битрейт, продолжительность, разрешение), чтобы один видеофайл не превышал 4 ГБ</string>
     <string name="prefs_share_sum_text">Отправьте это приложение своим знакомым</string>
     <string name="prefs_share_text">Поделиться</string>
     <string name="prefs_shortcut_launcher_has_been_added">Добавлен ярлык (лаунчер)</string>
@@ -403,6 +408,7 @@
     <string name="prefs_warning_notifications_text">Разрешение на уведомления</string>
     <string name="prefs_warning_permission_bluetooth_sum_text">Для автоматической записи по Bluetooth подключениям требуется предоставить разрешение. Нажмите здесь, чтобы предоставить</string>
     <string name="prefs_warning_permission_bluetooth_text">Bluetooth разрешение не предоставлено</string>
+    <string name="prefs_warning_power_saving">Энергосбережение</string>
     <string name="prefs_warnings_text">Предупреждения</string>
     <string name="prefs_zoom_out_desc_text">Для доступа к ультраширокоугольной камере (линзе) можно выставить коэффициент масштабирования ниже 1.0x</string>
     <string name="prefs_zoom_text">Цифровой зум (масштабирование)</string>
@@ -419,7 +425,9 @@
     <string name="rec_network_text">Сеть</string>
     <string name="rec_off_text">Выкл.</string>
     <string name="rec_on_text">Вкл.</string>
-    <string name="rec_service_msg">Конфиденциальность: все записанные вами видео будут сохранены только на вашем локальном устройстве. Приложение не делает резервные копии ваших видео (не имеет никаких подключений к серверам)\n\nПриложение продолжит работать в фоновом режиме (служба переднего плана, которая отображается на панели уведомлений) при активной записи, когда вы возвращаетесь на главный экран, переключаетесь на другое приложение или блокируете телефон для того, чтобы иметь возможность продолжать запись, а также если вы включите функции для автоматической записи (если закрыть фоновую службу, то эти функции не будут работать). Приложение использует Firebase Analytics для базовой анонимной аналитики (см. ссылку ниже)</string>
+    <string name="rec_privacy_analytics_msg">Приложение использует Firebase Analytics для базовой анонимной аналитики (см. ссылку ниже)</string>
+    <string name="rec_privacy_permissions_msg">Приложение использует следующие разрешения:\n- Открытый анонимный идентификатор устройства OAID (для персонализированной рекламы)\n- КАМЕРА, АУДИО (для записи видео)\n- ХРАНИЛИЩЕ (для сохранения видеозаписей)\n- МЕСТОПОЛОЖЕНИЕ (для получения адреса текущего местоположения, координат GPS, скорости - чтобы показывать на главном экране приложения и накладывать как субтитры на видео)\n- ИНТЕРНЕТ (реклама)</string>
+    <string name="rec_privacy_service_msg">Конфиденциальность: все записанные вами видео будут сохранены только на вашем локальном устройстве. Приложение не делает резервные копии ваших видео (не имеет никаких подключений к серверам)\n\nПриложение продолжит работать в фоновом режиме (служба переднего плана, которая отображается на панели уведомлений) при активной записи, когда вы возвращаетесь на главный экран, переключаетесь на другое приложение или блокируете телефон для того, чтобы иметь возможность продолжать запись, а также если вы включите функции для автоматической записи (если закрыть фоновую службу, то эти функции не будут работать).</string>
     <string name="recording_file_name_prefix">Префикс для имени файлов видеозаписей</string>
     <string name="recording_start_text">Начать запись</string>
     <string name="recording_started_failed_text">Ошибка при начале записи</string>
@@ -469,6 +477,7 @@
     <string name="videos_file_item_share">Поделиться</string>
     <string name="videos_file_item_watch">Смотреть</string>
     <string name="videos_file_open_with">Открыть с</string>
+    <string name="videos_file_repair">Восстановить поврежденный/невоспроизводимый файл</string>
     <string name="videos_file_select">Выберите для</string>
     <string name="videos_file_sort_asc">Сортировка по возрастанию</string>
     <string name="videos_file_sort_desc">Сортировка по убыванию</string>

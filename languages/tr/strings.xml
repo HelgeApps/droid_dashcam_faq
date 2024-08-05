@@ -45,6 +45,7 @@
     <string name="donation_dlg_no_ads_text">Reklamsız kullanabilirsiniz.</string>
     <string name="donation_level_text">Bağış seviyeniz:</string>
     <string name="donation_purchase_info_loading_text">Alışveriş bilgileri henüz yüklenmedi. Çevrimiçi misiniz ve Google hesabınızda oturum açtınız mı?</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Zaten bir bağış yaptıysanız, satın alma işlemlerinizi geri yüklemek için lütfen doğru Google hesabını seçtikten sonra uygulamayı Google Play\'de yeniden yükleyin.</string>
     <string name="donation_remove_ads_by_any_amount_text">Herhangi bir miktarda tek seferlik bağışla reklamları sonsuza kadar kaldırın.</string>
     <string name="donation_remove_ads_by_subscribing_text">Reklamların kaldırılması için aylık olarak da bağışta bulunabilirsiniz.</string>
     <string name="donation_subs_any_amount_text">Aylık herhangi bir tutardaki abonelik aktifken reklamlar tamamen kaldırılır.</string>
@@ -133,6 +134,7 @@
     <string name="prefs_audio_bt_recording_warning_message_text">Yalnızca Bluetooth kulaklıklarla kullanın. Ana üniteye (araba radyosu) Bluetooth aracılığıyla bağlanırsanız, bazı nedenlerden dolayı bu, bu cihazdaki standart numaraya otomatik olarak bir telefon aramasını tetikleyebilir.</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Ana ünite (araba radyosu) ile birlikte kullanmayın!</string>
     <string name="prefs_audio_codec_title">Ses codec\'i</string>
+    <string name="prefs_audio_permission_not_granted_title">Ses kaydetme izni verilmedi</string>
     <string name="prefs_audio_priority_sum">Etkinleştirilirse, diğer uygulamalar mikrofonu kullanamaz. Devre dışı bırakılırsa bu uygulama, mikrofonu kullanarak birden çok uygulama çalışırken ses kaydı yapamayabilir (Android her zaman mikrofonun aynı anda kullanılmasına izin vermez)</string>
     <string name="prefs_audio_priority_title">Sesi bu uygulamaya öncelik verin</string>
     <string name="prefs_audio_rate_text">Örnekleme oranı</string>
@@ -206,6 +208,7 @@
     <string name="prefs_location_mode_high_accuracy_text">Daha fazla pil gücü tüketimi nedeniyle en doğru konum (koordinatlar) ve hız.</string>
     <string name="prefs_location_mode_low_power_text">Düşük pil gücü tüketimi nedeniyle düşük konum (koordinatlar) ve hız doğruluğu.</string>
     <string name="prefs_location_mode_text">GPS Önceliği (Pil veya Doğruluk)</string>
+    <string name="prefs_location_power_saving_to_get_updates_in_background">Arka planda konum (GPS) güncellemelerini alabilmek için Güç Tasarrufu kapatılmalıdır.</string>
     <string name="prefs_location_provider_method_text">Konum (GPS) sağlayıcı yöntemi</string>
     <string name="prefs_location_update_frequency_text">GPS güncelleme sıklığı</string>
     <string name="prefs_meters_accuracy_value_text">Metre doğruluğu</string>
@@ -240,6 +243,7 @@
     <string name="prefs_overlay_drag_btn_text">Pencereyi Sürükle</string>
     <string name="prefs_overlay_speed_text">Hızı Göster</string>
     <string name="prefs_overlay_videos_btn_text">Video Ekranını Aç</string>
+    <string name="prefs_permission_tap_to_grant">İzin vermek için dokunun</string>
     <string name="prefs_pinch_to_zoom_sum_text">İki Parmakla Yakınlaştır/Uzaklaştır</string>
     <string name="prefs_pinch_to_zoom_text">Yakınlaştırma İçin Parmağınızı Sıkıştırın</string>
     <string name="prefs_policy_text">Gizlilik Politikası</string>
@@ -270,6 +274,7 @@
     <string name="prefs_screen_video_day_night_mode_text">Otomatik Gündüz/Gece Ayarları</string>
     <string name="prefs_settings_bitrate_sum_text">Daha yüksek bit hızı - daha iyi kalite, ancak daha büyük video dosyası boyutu</string>
     <string name="prefs_settings_fps_sum_text">Daha fazla FPS - Daha Akıcı Video, Ancak Daha Hızlı Pil Tüketimi. Karanlıkta Daha İyi Kayıt İçin İlk Değeri En Düşük (İkincisi Daha Yüksek Olabilir) Ayarlamak Daha İyidir.</string>
+    <string name="prefs_settings_max_file_tip_sum_text">Bazı cihazlar maksimum dosya boyutunu 4 GB ile sınırlayabilir, bu nedenle ayarları (bit hızı, süre, çözünürlük) bir video dosyasının 4 GB\'ı aşmayacağı şekilde seçmeniz gerekir.</string>
     <string name="prefs_share_sum_text">Bu Uygulamayı Arkadaşlarınıza Gönderin</string>
     <string name="prefs_share_text">Paylaş</string>
     <string name="prefs_shortcut_launcher_has_been_added">Kısayol (başlatıcı) eklendi</string>
@@ -348,7 +353,7 @@
     <string name="prefs_video_bitrate_text">Kayıt bit hızı (kalite)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kamera Kontrolü Sahne Modu (Gece)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kamera Kontrollü Sahne Modu (Gündüz)</string>
-    <string name="prefs_video_camera_hidden_by_manufacture_tip">Kameranın görüntülenmesi mümkün değil ve hiç bir şey yapılmıyor</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Bu kamera üretici tarafından gizlenmiştir ve çalışmayabilir</string>
     <string name="prefs_video_codec_sum_text">H.265 HEVC ve AV1 codec\'leri, H.264 AVC\'ye göre daha düşük bit hızlarında daha iyi kalite sağlar, böylece bit hızını azaltarak yerden tasarruf edebilirsiniz. Ancak bazı video oynatıcılarda videolar oynatılamayabilir</string>
     <string name="prefs_video_codec_text">Video codec\'i</string>
     <string name="prefs_video_control_scene_mode_beach_text">Sahil (parlak hava)</string>
@@ -386,6 +391,7 @@
     <string name="prefs_warning_notifications_text">Bildirim İzni</string>
     <string name="prefs_warning_permission_bluetooth_sum_text">Bluetooth bağlantıları üzerinden otomatik kayıt izin gerektirir. Göndermek için burayı tıklayın</string>
     <string name="prefs_warning_permission_bluetooth_text">Bluetooth izni verilmedi</string>
+    <string name="prefs_warning_power_saving">Güç tasarrufu</string>
     <string name="prefs_warnings_text">Uyarılar</string>
     <string name="prefs_zoom_out_desc_text">Ultra geniş açılı kameraya (lens) erişmek için yakınlaştırma faktörünü ayarlayabilirsiniz.</string>
     <string name="prefs_zoom_text">Dijital yakınlaştırma (yakınlaştırma)</string>
@@ -402,7 +408,9 @@
     <string name="rec_network_text">Ağ</string>
     <string name="rec_off_text">Kapalı</string>
     <string name="rec_on_text">Açık</string>
-    <string name="rec_service_msg">Gizlilik: Kaydettiğiniz tüm videolar yalnızca yerel cihazınıza kaydedilecektir. Uygulama videolarınızı yedeklemez (sunucularla herhangi bir bağlantısı yoktur)\n\nUygulama, kayıt etkinken, ana ekrana döndüğünüzde, başka bir uygulamaya geçtiğinizde veya kayda devam etmek için telefonunuzu kilitlediğinizde ve uygulamayı açtığınızda arka planda (bildirim çubuğunda görünen ön plan hizmeti) çalışmaya devam edecektir. otomatik kayıt özellikleri (arka plan hizmetini kapatırsanız bu işlevler çalışmaz). Uygulama, temel anonim analizler için Firebase Analytics\'i kullanıyor (aşağıdaki bağlantıya bakın)</string>
+    <string name="rec_privacy_analytics_msg">Uygulama, temel anonim analizler için Firebase Analytics\'i kullanıyor (aşağıdaki bağlantıya bakın)</string>
+    <string name="rec_privacy_permissions_msg">Uygulama aşağıdaki izinleri kullanır:\n- Anonim cihaz tanımlayıcı OAID\'yi açın (kişiselleştirilmiş reklamcılık için)\n- KAMERA, SES (video kaydı için)\n- DEPOLAMA (videoları kaydetmek için)\n- KONUM (mevcut konumun adresini, GPS koordinatlarını, hızı almak için - uygulamanın ana ekranında göstermek ve videoya altyazı uygulamak için)\n- İnternet reklamcılığı)</string>
+    <string name="rec_privacy_service_msg">Gizlilik: Kaydettiğiniz tüm videolar yalnızca yerel cihazınıza kaydedilecektir. Uygulama videolarınızı yedeklemez (sunucularla herhangi bir bağlantısı yoktur)\n\nUygulama, kayıt etkinken, ana ekrana döndüğünüzde, başka bir uygulamaya geçtiğinizde veya kayda devam etmek için telefonunuzu kilitlediğinizde ve uygulamayı açtığınızda arka planda (bildirim çubuğunda görünen ön plan hizmeti) çalışmaya devam edecektir. otomatik kayıt özellikleri (arka plan hizmetini kapatırsanız bu işlevler çalışmaz).</string>
     <string name="recording_file_name_prefix">Video dosyası adları için önek</string>
     <string name="recording_start_text">Kayda başla</string>
     <string name="recording_started_failed_text">Kayıt başlatılırken hata oluştu</string>
@@ -452,6 +460,7 @@
     <string name="videos_file_item_share">Paylaş</string>
     <string name="videos_file_item_watch">İzle</string>
     <string name="videos_file_open_with">Bununla aç</string>
+    <string name="videos_file_repair">Bozuk/oynatılamayan dosyayı onarın</string>
     <string name="videos_file_select">Şunun için seçin:</string>
     <string name="videos_file_sort_asc">Artan Sıralama</string>
     <string name="videos_file_sort_desc">Azalan Sıralama</string>

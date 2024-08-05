@@ -45,6 +45,7 @@
     <string name="donation_dlg_no_ads_text">ليس لديك إعلانات.</string>
     <string name="donation_level_text">مستوى تبرعك:</string>
     <string name="donation_purchase_info_loading_text">لم يتم تحميل معلومات التسوق حتى الآن. هل أنت متصل بالإنترنت وقمت بتسجيل الدخول إلى حساب Google الخاص بك؟</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">إذا كنت قد قدمت تبرعًا بالفعل، لاستعادة مشترياتك، يرجى إعادة تثبيت التطبيق على Google Play بعد تحديد حساب Google الصحيح</string>
     <string name="donation_remove_ads_by_any_amount_text">قم بإزالة الإعلانات إلى الأبد من خلال التبرع لمرة واحدة بأي مبلغ.</string>
     <string name="donation_remove_ads_by_subscribing_text">يمكنك أيضًا التبرع شهريًا لإزالة الإعلانات.</string>
     <string name="donation_subs_any_amount_text">تتم إزالة الإعلانات بالكامل أثناء تنشيط الاشتراك بأي مبلغ شهريًا.</string>
@@ -133,6 +134,7 @@
     <string name="prefs_audio_bt_recording_warning_message_text">استخدم فقط مع سماعات البلوتوث. إذا قمت بالاتصال بالوحدة الرئيسية (راديو السيارة) عبر البلوتوث، فقد يؤدي ذلك لسبب ما إلى إجراء مكالمة هاتفية تلقائيًا إلى الرقم القياسي على هذا الجهاز</string>
     <string name="prefs_audio_bt_recording_warning_title_text">لا تستخدم مع الوحدة الرئيسية (راديو السيارة)!</string>
     <string name="prefs_audio_codec_title">ترميز الصوت</string>
+    <string name="prefs_audio_permission_not_granted_title">لم يتم منح إذن التسجيل الصوتي</string>
     <string name="prefs_audio_priority_sum">في حالة التمكين ، لن تتمكن التطبيقات الأخرى من استخدام الميكروفون. إذا تم تعطيله ، فقد لا يتمكن هذا التطبيق من تسجيل الصوت عند تشغيل عدة تطبيقات باستخدام الميكروفون (لا يسمح Android دائمًا بالاستخدام المتزامن للميكروفون)</string>
     <string name="prefs_audio_priority_title">إعطاء الأولوية للصوت لهذا التطبيق</string>
     <string name="prefs_audio_rate_text">تردد أخذ العينات</string>
@@ -206,6 +208,7 @@
     <string name="prefs_location_mode_high_accuracy_text">الموقع الأكثر دقة (الإحداثيات) والسرعة بسبب زيادة استهلاك طاقة البطارية.</string>
     <string name="prefs_location_mode_low_power_text">دقة الموقع (الإحداثيات) المنخفضة والسرعة بسبب انخفاض استهلاك طاقة البطارية.</string>
     <string name="prefs_location_mode_text">أولوية GPS (البطارية أو الدقة)</string>
+    <string name="prefs_location_power_saving_to_get_updates_in_background">يجب إيقاف تشغيل توفير الطاقة لتتمكن من الحصول على تحديثات الموقع (GPS) في الخلفية.</string>
     <string name="prefs_location_provider_method_text">طريقة الحصول على الموقع (GPS)</string>
     <string name="prefs_location_update_frequency_text">معدل تحديث GPS</string>
     <string name="prefs_meters_accuracy_value_text">متر من الدقة</string>
@@ -240,6 +243,7 @@
     <string name="prefs_overlay_drag_btn_text">نافذة السحب</string>
     <string name="prefs_overlay_speed_text">عرض السرعة</string>
     <string name="prefs_overlay_videos_btn_text">افتح شاشة الفيديو</string>
+    <string name="prefs_permission_tap_to_grant">انقر لمنح الإذن</string>
     <string name="prefs_pinch_to_zoom_sum_text">تكبير بإصبعين</string>
     <string name="prefs_pinch_to_zoom_text">تفعيل تكبير الشاشة</string>
     <string name="prefs_policy_text">سياسة الخصوصية</string>
@@ -270,6 +274,7 @@
     <string name="prefs_screen_video_day_night_mode_text">إعدادات تلقائية ليلا ونهارا</string>
     <string name="prefs_settings_bitrate_sum_text">معدل بت أعلى - جودة أفضل ، لكن حجم ملف فيديو أكبر</string>
     <string name="prefs_settings_fps_sum_text">المزيد من FPS - فيديو أكثر سلاسة ، ولكن استنزاف أسرع للبطارية. من الأفضل ضبط القيمة الأولى على الأدنى (قد تكون الثانية أعلى) من أجل تسجيل أفضل في الظلام</string>
+    <string name="prefs_settings_max_file_tip_sum_text">قد تحدد بعض الأجهزة الحد الأقصى لحجم الملف بـ 4 جيجابايت، لذلك تحتاج إلى تحديد الإعدادات (معدل البت، المدة، الدقة) بحيث لا يتجاوز ملف الفيديو الواحد 4 جيجابايت</string>
     <string name="prefs_share_sum_text">أرسل هذا التطبيق إلى أصدقائك</string>
     <string name="prefs_share_text">شارك هذا</string>
     <string name="prefs_shortcut_launcher_has_been_added">تمت إضافة الاختصار (المشغل).</string>
@@ -348,7 +353,7 @@
     <string name="prefs_video_bitrate_text">معدل البت (الجودة)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">وضع مشهد التحكم في الكاميرا (ليلي)</string>
     <string name="prefs_video_camera_control_scene_mode_text">وضع مشهد التحكم في الكاميرا (اليوم)</string>
-    <string name="prefs_video_camera_hidden_by_manufacture_tip">تم إغلاق كاميرا Danna بواسطة منتج ولا يمكن استخدامها</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">لقد تم إخفاء هذه الكاميرا من قبل الشركة المصنعة وقد لا تعمل</string>
     <string name="prefs_video_codec_sum_text">توفر برامج الترميز H.265 HEVC وAV1 جودة أفضل بمعدلات بت أقل من H.264 AVC، لذا يمكنك توفير المساحة عن طريق تقليل معدل البت. لكن قد لا يتم تشغيل مقاطع الفيديو في بعض مشغلات الفيديو</string>
     <string name="prefs_video_codec_text">ترميز الفيديو</string>
     <string name="prefs_video_control_scene_mode_beach_text">الشاطئ (طقس مشرق)</string>
@@ -386,6 +391,7 @@
     <string name="prefs_warning_notifications_text">إذن الإخطار</string>
     <string name="prefs_warning_permission_bluetooth_sum_text">يتطلب التسجيل التلقائي عبر اتصالات Bluetooth إذنًا. انقر هنا لتقديم</string>
     <string name="prefs_warning_permission_bluetooth_text">لم يتم منح إذن البلوتوث</string>
+    <string name="prefs_warning_power_saving">حفظ الطاقة</string>
     <string name="prefs_warnings_text">تحذيرات</string>
     <string name="prefs_zoom_out_desc_text">للوصول إلى الكاميرا ذات الزاوية فائقة الاتساع (العدسة) ، يمكنك ضبط عامل التكبير /التصغير</string>
     <string name="prefs_zoom_text">تقريب رقمي (تكبير /تصغير)</string>
@@ -402,7 +408,9 @@
     <string name="rec_network_text">شبكة</string>
     <string name="rec_off_text">إيقاف</string>
     <string name="rec_on_text">بما في ذلك.</string>
-    <string name="rec_service_msg">الخصوصية: سيتم حفظ جميع مقاطع الفيديو التي تسجلها على جهازك المحلي فقط. لا يقوم التطبيق بعمل نسخة احتياطية لمقاطع الفيديو الخاصة بك (ليس لديه أي اتصالات بالخوادم)\n\nسيستمر التطبيق في العمل في الخلفية (الخدمة الأمامية التي تظهر في شريط الإشعارات) أثناء تنشيط التسجيل، وعندما تعود إلى الشاشة الرئيسية، قم بالتبديل إلى تطبيق آخر أو قم بقفل هاتفك لمواصلة التسجيل، وعندما تقوم بتشغيله ميزات التسجيل التلقائي (إذا قمت بإغلاق خدمة الخلفية، فلن تعمل هذه الوظائف). يستخدم التطبيق Firebase Analytics للتحليلات الأساسية المجهولة (انظر الرابط أدناه)</string>
+    <string name="rec_privacy_analytics_msg">يستخدم التطبيق Firebase Analytics للتحليلات الأساسية المجهولة (انظر الرابط أدناه)</string>
+    <string name="rec_privacy_permissions_msg">يستخدم التطبيق الأذونات التالية:\n- فتح معرف الجهاز المجهول OAID (للإعلانات المخصصة)\n- الكاميرا والصوت (لتسجيل الفيديو)\n- التخزين (لحفظ مقاطع الفيديو)\n- الموقع (للحصول على عنوان الموقع الحالي وإحداثيات GPS والسرعة - للعرض على الشاشة الرئيسية للتطبيق وتطبيق الترجمة على الفيديو)\n- الإعلان على شبكة الإنترنت)</string>
+    <string name="rec_privacy_service_msg">الخصوصية: سيتم حفظ جميع مقاطع الفيديو التي تسجلها على جهازك المحلي فقط. لا يقوم التطبيق بعمل نسخة احتياطية لمقاطع الفيديو الخاصة بك (ليس لديه أي اتصالات بالخوادم)\n\nسيستمر التطبيق في العمل في الخلفية (الخدمة الأمامية التي تظهر في شريط الإشعارات) أثناء تنشيط التسجيل، وعندما تعود إلى الشاشة الرئيسية، قم بالتبديل إلى تطبيق آخر أو قم بقفل هاتفك لتتمكن من مواصلة التسجيل، وعندما تقوم بتشغيل ميزات التسجيل التلقائي (إذا قمت بإغلاق خدمة الخلفية، فلن تعمل هذه الوظائف).</string>
     <string name="recording_file_name_prefix">بادئة لأسماء ملفات الفيديو</string>
     <string name="recording_start_text">ابدأ التسجيل</string>
     <string name="recording_started_failed_text">خطأ في بدء التسجيل</string>
@@ -452,6 +460,7 @@
     <string name="videos_file_item_share">شارك هذا</string>
     <string name="videos_file_item_watch">يشاهد</string>
     <string name="videos_file_open_with">مفتوحة مع</string>
+    <string name="videos_file_repair">إصلاح الملف التالف/غير القابل للتشغيل</string>
     <string name="videos_file_select">اختر ل</string>
     <string name="videos_file_sort_asc">فرز تصاعدي</string>
     <string name="videos_file_sort_desc">ترتيب تنازلي</string>

@@ -45,6 +45,7 @@
     <string name="donation_dlg_no_ads_text">Немате реклами.</string>
     <string name="donation_level_text">Вашето ниво на донација:</string>
     <string name="donation_purchase_info_loading_text">Информациите за купување сè уште не се поставени. Дали сте онлајн и најавени на вашата сметка на Google?</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Ако веќе сте направиле донација, тогаш за да ги вратите вашите купувања, повторно инсталирајте ја апликацијата на Google Play откако ќе ја изберете точната сметка на Google</string>
     <string name="donation_remove_ads_by_any_amount_text">Отстранете ги рекламите засекогаш со еднократна донација од која било сума.</string>
     <string name="donation_remove_ads_by_subscribing_text">Можете исто така да донирате месечно за отстранување на реклами.</string>
     <string name="donation_subs_any_amount_text">Рекламирањето е целосно отстрането додека е активна претплата за која било сума месечно.</string>
@@ -133,6 +134,7 @@
     <string name="prefs_audio_bt_recording_warning_message_text">Користете само со Bluetooth слушалки. Ако се поврзете со главната единица (радио во автомобил) преку Bluetooth, тогаш поради некоја причина ова може автоматски да активира телефонски повик до стандардниот број на овој уред</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Не користете со главниот уред (автомобилско радио)!</string>
     <string name="prefs_audio_codec_title">Аудио кодек</string>
+    <string name="prefs_audio_permission_not_granted_title">Не се дава дозвола за аудио снимање</string>
     <string name="prefs_audio_priority_sum">Ако е овозможено, другите апликации нема да можат да го користат микрофонот. Ако е оневозможена, оваа апликација можеби нема да може да снима аудио кога работат повеќе апликации со помош на микрофонот (Android не секогаш дозволува истовремена употреба на микрофонот)</string>
     <string name="prefs_audio_priority_title">Приоритет на аудио за оваа апликација</string>
     <string name="prefs_audio_rate_text">Фреквенција на земање примероци</string>
@@ -206,6 +208,7 @@
     <string name="prefs_location_mode_high_accuracy_text">Најточна локација (координати) и брзина поради поголема потрошувачка на енергија од батеријата.</string>
     <string name="prefs_location_mode_low_power_text">Ниска точност на локацијата (координати) и брзина поради малата потрошувачка на енергија од батеријата.</string>
     <string name="prefs_location_mode_text">Приоритет на GPS (батерија или точност)</string>
+    <string name="prefs_location_power_saving_to_get_updates_in_background">Заштедата на енергија треба да се исклучи за да може да добивате ажурирања за локацијата (GPS) во заднина.</string>
     <string name="prefs_location_provider_method_text">Метод на стекнување локација (GPS)</string>
     <string name="prefs_location_update_frequency_text">Стапка на ажурирање GPS</string>
     <string name="prefs_meters_accuracy_value_text">метри точност</string>
@@ -240,6 +243,7 @@
     <string name="prefs_overlay_drag_btn_text">Повлечете го прозорецот</string>
     <string name="prefs_overlay_speed_text">Прикажи брзина</string>
     <string name="prefs_overlay_videos_btn_text">Отворете го видео екранот</string>
+    <string name="prefs_permission_tap_to_grant">Допрете за да дадете дозвола</string>
     <string name="prefs_pinch_to_zoom_sum_text">Зумирајте со два прста</string>
     <string name="prefs_pinch_to_zoom_text">Овозможи зумирање на екранот</string>
     <string name="prefs_policy_text">Политика за приватност</string>
@@ -270,6 +274,7 @@
     <string name="prefs_screen_video_day_night_mode_text">Автоматски поставки за ден/ноќ</string>
     <string name="prefs_settings_bitrate_sum_text">Повисока брзина на битови - подобар квалитет, но поголема големина на видео датотека</string>
     <string name="prefs_settings_fps_sum_text">Повеќе FPS - помазно видео, но побрзо празнење на батеријата. Подобро е да ја поставите првата вредност на најниската (втората може да биде повисока) за подобро снимање во темница</string>
+    <string name="prefs_settings_max_file_tip_sum_text">Некои уреди може да ја ограничат максималната големина на датотеката на 4 GB, па затоа треба да изберете поставки (брзина на битови, времетраење, резолуција) за една видео датотека да не надминува 4 GB</string>
     <string name="prefs_share_sum_text">Испратете ја оваа апликација на вашите пријатели</string>
     <string name="prefs_share_text">Споделете го ова</string>
     <string name="prefs_shortcut_launcher_has_been_added">Додадена е кратенка (фрлач).</string>
@@ -348,7 +353,7 @@
     <string name="prefs_video_bitrate_text">Брзина на битови (квалитет)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Режим на сцена за контрола на камерата (ноќ)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Режим на сцена за контрола на камерата (ден)</string>
-    <string name="prefs_video_camera_hidden_by_manufacture_tip">Данаја камера была скрыта производителем и може да не работиь</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Оваа камера е скриена од производителот и може да не работи</string>
     <string name="prefs_video_codec_sum_text">Кодеците H.265 HEVC и AV1 обезбедуваат подобар квалитет при пониски битови од H.264 AVC, така што можете да заштедите простор со намалување на бит-стапката. Но, видеата може да не се репродуцираат во некои видео плеери</string>
     <string name="prefs_video_codec_text">Видео кодек</string>
     <string name="prefs_video_control_scene_mode_beach_text">Плажа (светло време)</string>
@@ -386,6 +391,7 @@
     <string name="prefs_warning_notifications_text">Дозвола за известување</string>
     <string name="prefs_warning_permission_bluetooth_sum_text">За автоматско снимање преку Bluetooth конекции е потребна дозвола. Кликнете овде за да поднесете</string>
     <string name="prefs_warning_permission_bluetooth_text">Не е дадена дозвола за Bluetooth</string>
+    <string name="prefs_warning_power_saving">Зачувување на енергија</string>
     <string name="prefs_warnings_text">Предупредувања</string>
     <string name="prefs_zoom_out_desc_text">За да пристапите до ултра широкоаголната камера (леќа), можете да го поставите факторот на зумирање</string>
     <string name="prefs_zoom_text">Дигитален зум (зум)</string>
@@ -402,7 +408,9 @@
     <string name="rec_network_text">Нето</string>
     <string name="rec_off_text">Исклучено</string>
     <string name="rec_on_text">Вкл.</string>
-    <string name="rec_service_msg">Приватност: сите видеа што ги снимате ќе се зачуваат само на вашиот локален уред. Апликацијата не прави резервна копија на вашите видеа (нема никакви врски со сервери)\n\nАпликацијата ќе продолжи да работи во заднина (услугата во преден план што се појавува во лентата за известувања) додека снимањето е активно, кога ќе се вратите на почетниот екран, ќе се префрлите на друга апликација или ќе го заклучите телефонот за да продолжите со снимање и кога ќе го вклучите функции за автоматско снимање (ако ја затворите услугата за заднина, овие функции нема да работат). Апликацијата користи Firebase Analytics за основна анонимна аналитика (видете ја врската подолу)</string>
+    <string name="rec_privacy_analytics_msg">Апликацијата користи Firebase Analytics за основна анонимна аналитика (видете ја врската подолу)</string>
+    <string name="rec_privacy_permissions_msg">Апликацијата ги користи следните дозволи:\n- Отворете анонимен идентификатор на уред OAID (за персонализирано рекламирање)\n- КАМЕРА, АУДИО (за снимање видео)\n- СКЛАДИРАЊЕ (за зачувување видеа)\n- ЛОКАЦИЈА (за да ја добиете адресата на моменталната локација, GPS координатите, брзината - да се прикаже на главниот екран на апликацијата и да се применат преводи на видеото)\n- Интернет огласување)</string>
+    <string name="rec_privacy_service_msg">Приватност: сите видеа што ги снимате ќе се зачуваат само на вашиот локален уред. Апликацијата не прави резервна копија на вашите видеа (нема никакви врски со сервери)\n\nАпликацијата ќе продолжи да работи во заднина (услугата во преден план што се појавува во лентата за известувања) додека снимањето е активно, кога ќе се вратите на почетниот екран, ќе се префрлите на друга апликација или ќе го заклучите телефонот за да продолжите со снимање и кога ќе го вклучите функции за автоматско снимање (ако ја затворите услугата за заднина, овие функции нема да работат).</string>
     <string name="recording_file_name_prefix">Префикс за имиња на видео датотеки</string>
     <string name="recording_start_text">Започнете со снимање</string>
     <string name="recording_started_failed_text">Грешка при започнувањето на снимањето</string>
@@ -452,6 +460,7 @@
     <string name="videos_file_item_share">Споделете го ова</string>
     <string name="videos_file_item_watch">Гледајте</string>
     <string name="videos_file_open_with">Отвори со</string>
+    <string name="videos_file_repair">Поправете ја оштетената/не може да се репродуцира датотека</string>
     <string name="videos_file_select">Изберете за</string>
     <string name="videos_file_sort_asc">Подреди растечки</string>
     <string name="videos_file_sort_desc">Подреди опаѓачки</string>

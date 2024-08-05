@@ -62,6 +62,7 @@
     <string name="donation_dlg_no_ads_text">You are free from ads.</string>
     <string name="donation_level_text">Your donation level:</string>
     <string name="donation_purchase_info_loading_text">Purchases info is not loaded yet. Is network connection available and is signed in Google account?</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">If you have already made a donation, then to restore purchases, please reinstall the application in Google Play after selecting the correct Google account</string>
     <string name="donation_remove_ads_by_any_amount_text">Remove ads forever with a one-time donation of any amount.</string>
     <string name="donation_remove_ads_by_subscribing_text">You can also donate monthly to remove ads.</string>
     <string name="donation_subs_any_amount_text">Advertising is completely removed while a subscription for any amount per month is active.</string>
@@ -150,6 +151,7 @@
     <string name="prefs_audio_bt_recording_warning_message_text">Use only with Bluetooth headphones. If you connect to the head unit (car radio) via Bluetooth, then for some reason this may automatically trigger a phone call to the standard number on this device</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Do not use with head unit (car radio)!</string>
     <string name="prefs_audio_codec_title">Audio codec</string>
+    <string name="prefs_audio_permission_not_granted_title">Audio recording permission is not granted</string>
     <string name="prefs_audio_priority_sum">If enabled, other applications will not be able to use the microphone. If disabled, this application may not be able to record audio when multiple applications are running using the microphone (Android does not always allow simultaneous use of the microphone)</string>
     <string name="prefs_audio_priority_title">Prioritize audio to this app</string>
     <string name="prefs_audio_rate_text">Sampling rate</string>
@@ -223,6 +225,7 @@
     <string name="prefs_location_mode_high_accuracy_text">The most accurate location (coordinates) and speed due to greater battery power consumption.</string>
     <string name="prefs_location_mode_low_power_text">Low accuracy of location (coordinates) and speed due to low battery power consumption.</string>
     <string name="prefs_location_mode_text">GPS Priority (Battery or Accuracy)</string>
+    <string name="prefs_location_power_saving_to_get_updates_in_background">Power Saving should be turned off to be able to get location (GPS) updates in the background.</string>
     <string name="prefs_location_provider_method_text">Location (GPS) provider method</string>
     <string name="prefs_location_update_frequency_text">GPS update frequency</string>
     <string name="prefs_meters_accuracy_value_text">meters of accuracy</string>
@@ -257,6 +260,7 @@
     <string name="prefs_overlay_drag_btn_text">Drag overlay</string>
     <string name="prefs_overlay_speed_text">Display speed</string>
     <string name="prefs_overlay_videos_btn_text">Open videos screen</string>
+    <string name="prefs_permission_tap_to_grant">Tap to give the permission</string>
     <string name="prefs_pinch_to_zoom_sum_text">Zoom in/out by two fingers</string>
     <string name="prefs_pinch_to_zoom_text">Pinch to zoom</string>
     <string name="prefs_policy_text">Privacy Policy</string>
@@ -287,6 +291,7 @@
     <string name="prefs_screen_video_day_night_mode_text">Day/Night auto mode settings</string>
     <string name="prefs_settings_bitrate_sum_text">Higher bitrate better quality but larger video file size</string>
     <string name="prefs_settings_fps_sum_text">More FPS - smoother video, but also drains battery. It\'s better to set first value to the lowest (second can be bigger) for better recording in the darkness</string>
+    <string name="prefs_settings_max_file_tip_sum_text">Some devices may limit the maximum file size to 4 GB, so you need to select settings (bitrate, duration, resolution) so that one video file does not exceed 4 GB</string>
     <string name="prefs_share_sum_text">Send this App to your Friends or Family</string>
     <string name="prefs_share_text">Share</string>
     <string name="prefs_shortcut_launcher_has_been_added">Shortcut (launcher) has been added</string>
@@ -365,7 +370,7 @@
     <string name="prefs_video_bitrate_text">Recording bitrate (quality)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Camera Control Scene Mode (Night)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Camera Control Scene Mode (Day)</string>
-    <string name="prefs_video_camera_hidden_by_manufacture_tip">This camera has been hidden by the manufacturer and may not work</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">This camera has been hidden by the manufacturer and may not work.</string>
     <string name="prefs_video_codec_sum_text">H.265 HEVC and AV1 codecs provide better quality at lower bitrates than H.264 AVC, so you can save space by reducing the bitrate. But videos may not play in some video players</string>
     <string name="prefs_video_codec_text">Video codec</string>
     <string name="prefs_video_control_scene_mode_beach_text">Beach (bright weather)</string>
@@ -403,6 +408,7 @@
     <string name="prefs_warning_notifications_text">Notification permission</string>
     <string name="prefs_warning_permission_bluetooth_sum_text">Automatic recording over Bluetooth connections requires permission. Click here to submit</string>
     <string name="prefs_warning_permission_bluetooth_text">Bluetooth permission not granted</string>
+    <string name="prefs_warning_power_saving">Power Saving</string>
     <string name="prefs_warnings_text">Warnings</string>
     <string name="prefs_zoom_out_desc_text">To access the ultra wide-angle camera (lens), you can set the zoom ratio to</string>
     <string name="prefs_zoom_text">Digital zoom</string>
@@ -419,7 +425,9 @@
     <string name="rec_network_text">NET</string>
     <string name="rec_off_text">OFF</string>
     <string name="rec_on_text">ON</string>
-    <string name="rec_service_msg">Privacy: All videos you record will be saved only on your local device. The application does not backup your videos (does not have any connections to servers)\n\nThe app will continue to run in the background (the foreground service that appears in the notification bar) while recording is active, when you return to the home screen, switch to another app or lock your phone to continue recording, and when you turn on features for automatic recording (if you close the background service, these functions will not work). The app uses Firebase Analytics for basic anonymous analytics (see link below)</string>
+    <string name="rec_privacy_analytics_msg">The app uses Firebase Analytics for basic anonymous analytics (see link below)</string>
+    <string name="rec_privacy_permissions_msg">The application uses the following permissions:\n- Open anonymous device identifier OAID (for personalized advertising)\n- CAMERA, AUDIO (for video recording)\n- STORAGE (for saving video recordings)\n- LOCATION (to get the address of the current location, GPS coordinates, speed - to show on the main screen of the application and overlay as subtitles on the video)\n- INTERNET (advertising)</string>
+    <string name="rec_privacy_service_msg">Privacy: All videos you record will be saved only on your local device. The application does not backup your videos (does not have any connections to servers)\n\nThe app will continue to run in the background (the foreground service that appears in the notification bar) while recording is active, when you return to the home screen, switch to another app or lock your phone to be able to continue recording, and when you turn on features for automatic recording (if you close the background service, these functions will not work).</string>
     <string name="recording_file_name_prefix">Prefix for video file names</string>
     <string name="recording_start_text">Start Recording</string>
     <string name="recording_started_failed_text">Failed to start recording</string>
@@ -469,6 +477,7 @@
     <string name="videos_file_item_share">Share/Upload</string>
     <string name="videos_file_item_watch">Play</string>
     <string name="videos_file_open_with">Open with</string>
+    <string name="videos_file_repair">Repair corrupted/unplayable file</string>
     <string name="videos_file_select">Select</string>
     <string name="videos_file_sort_asc">Ascending sorting</string>
     <string name="videos_file_sort_desc">Descending sorting</string>

@@ -45,6 +45,7 @@
     <string name="donation_dlg_no_ads_text">Aliquam nec praeconium.</string>
     <string name="donation_level_text">Tua donatio gradu:</string>
     <string name="donation_purchase_info_loading_text">Informationes shopping non sunt adhuc uploaded. Esne online et signatus in ratione tua de Google?</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Si donationem iam fecisti, deinde ut emptiones tuas restituas, applicationem in Google Play restituo, postquam rectam rationem desumis.</string>
     <string name="donation_remove_ads_by_any_amount_text">Aufer praeconium in perpetuum cum uno tempore donationis alicuius quantitatis.</string>
     <string name="donation_remove_ads_by_subscribing_text">Menstrua quoque donare potes ut praeconia removeantur.</string>
     <string name="donation_subs_any_amount_text">Proscriptiones omnino sublata sunt dum subscriptio pro quavis quantitate per mensem activa est.</string>
@@ -133,6 +134,7 @@
     <string name="prefs_audio_bt_recording_warning_message_text">Tantum utere cum Bluetooth headphones. Si ad caput unitatis (car radio) per Bluetooth coniungis, aliqua de causa hoc potest automatice trigger phone vocationem ad numerum vexillum de hac arte</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Noli uti cum capite unitatis (radio currus)!</string>
     <string name="prefs_audio_codec_title">Audio codec</string>
+    <string name="prefs_audio_permission_not_granted_title">Audio recording permission non datur</string>
     <string name="prefs_audio_priority_sum">Si paraverit, aliae applicationes tortor ligula non poteris uti. Si debilis, haec applicatio audire non potest, cum multae applicationes currunt utendo tortor ligula (Android non semper patitur simultaneum usum tortoris)</string>
     <string name="prefs_audio_priority_title">Prioritize audio huic app</string>
     <string name="prefs_audio_rate_text">Sampling frequency</string>
@@ -206,6 +208,7 @@
     <string name="prefs_location_mode_high_accuracy_text">Accuratissimus locus (coordinatae) et celeritas ob maiorem consumptionem potentiae altilium.</string>
     <string name="prefs_location_mode_low_power_text">Humilis accuratio locorum (coordinatarum) et celeritas propter consumptionem potentiae altilium humilis.</string>
     <string name="prefs_location_mode_text">GPS prioritate (altilium vel accuratio)</string>
+    <string name="prefs_location_power_saving_to_get_updates_in_background">Potestas salutaris aversa esse debet ut locum (GPS) in curriculo (GPS) recipere possit.</string>
     <string name="prefs_location_provider_method_text">Locus acquisition modum (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS update rate</string>
     <string name="prefs_meters_accuracy_value_text">metris accurationis</string>
@@ -240,6 +243,7 @@
     <string name="prefs_overlay_drag_btn_text">Drag fenestra</string>
     <string name="prefs_overlay_speed_text">Ostende velocitate</string>
     <string name="prefs_overlay_videos_btn_text">Apertum video screen</string>
+    <string name="prefs_permission_tap_to_grant">ICTUS ad licentiam</string>
     <string name="prefs_pinch_to_zoom_sum_text">Duo digitos ie</string>
     <string name="prefs_pinch_to_zoom_text">Admitte screen zoom</string>
     <string name="prefs_policy_text">Privacy policy</string>
@@ -270,6 +274,7 @@
     <string name="prefs_screen_video_day_night_mode_text">Auto Dies /Nocte Occasus</string>
     <string name="prefs_settings_bitrate_sum_text">Superior bitrate - melior qualitas, sed maior magnitudo fasciculi video</string>
     <string name="prefs_settings_fps_sum_text">Plures FPS - video leviores, sed citius altilium exhauriunt. Melius est valorem primum infimum (secundum altiorem esse) pro meliore memoria in tenebris ponere</string>
+    <string name="prefs_settings_max_file_tip_sum_text">Nonnullae machinae maximam magnitudinem fasciculi ad 4 GB circumscribere possunt, ideo eligere debes occasus (bitrate, durationem, resolutionem) ut unus fasciculus video 4 GB non excedat.</string>
     <string name="prefs_share_sum_text">Hoc app mitte amicis tuis</string>
     <string name="prefs_share_text">Participes</string>
     <string name="prefs_shortcut_launcher_has_been_added">Brevis (launcher) adiectum est</string>
@@ -348,7 +353,7 @@
     <string name="prefs_video_bitrate_text">Bitrate (qualitas)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Camera Control Scene Modus (Nocte)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Camera Control Scene Modus (dies)</string>
-    <string name="prefs_video_camera_hidden_by_manufacture_tip">анная камера ла скрыта производителем и может не работать</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Haec camera ab fabrica occultata est et operari non potest</string>
     <string name="prefs_video_codec_sum_text">H.265 HEVC et AV1 codices meliores qualitates praebent bitratis inferioribus quam H.264 AVC, ut spatium minuendo bitrate servare possis. Sed videos non potest ludere in quibusdam video nisl</string>
     <string name="prefs_video_codec_text">Video codicem</string>
     <string name="prefs_video_control_scene_mode_beach_text">Litore (splendida tempestas)</string>
@@ -386,6 +391,7 @@
     <string name="prefs_warning_notifications_text">Notification Permission</string>
     <string name="prefs_warning_permission_bluetooth_sum_text">Automatic recordatio per nexus Bluetooth permissionem requirit. Hic strepita ut submittere</string>
     <string name="prefs_warning_permission_bluetooth_text">Bluetooth permission non datur</string>
+    <string name="prefs_warning_power_saving">Salutaris potentia</string>
     <string name="prefs_warnings_text">Monitiones</string>
     <string name="prefs_zoom_out_desc_text">Ut accedere ad cameram ultra late-angulum (lens), factor zoom</string>
     <string name="prefs_zoom_text">Digital zoom (zoom)</string>
@@ -402,7 +408,9 @@
     <string name="rec_network_text">Net</string>
     <string name="rec_off_text">Off</string>
     <string name="rec_on_text">Incl.</string>
-    <string name="rec_service_msg">Secretum: Omnia videos quae memoras solum in fabrica locali tuo servabuntur. Applicatio videos tergum tuum non (non habet aliquos hospites ad servientes)\n\nApp currere pergit in curriculo (servitio antica quae in notificatione vectis apparet) cum memoria activa est, cum ad domum velum redieris, ad alium app vel telephonum claude ad memoriam pergere, et cum conversus in lineamenta ad automatice recordationem (si ministerium curriculi claudis, haec munera non operaberis). The app uses Firebase Analytics for basic anonymous analytics (see link below)</string>
+    <string name="rec_privacy_analytics_msg">The app uses Firebase Analytics for basic anonymous analytics (see link below)</string>
+    <string name="rec_privacy_permissions_msg">Applicatio permissionum sequentes utitur:\n- Open anonymous device identifier OAID (pro personalized vendo)\n- CAMERA, AUDIO (for video recording)\n- PRAECLUSIO (pro salute videos)\n- LOCATIO (ut inscriptioni hodiernae locum obtineat, coordinatas GPS, celeritatem - ut ostendas in principali velo applicationis et subtitles ad video applicandum)\n- Internet vendo)</string>
+    <string name="rec_privacy_service_msg">Secretum: Omnia videos quae memoras solum in fabrica locali tuo servabuntur. Applicatio videos tergum tuum non (non habet aliquos hospites ad servientes)\n\nApp currere pergit in curriculo (servitio antica quae in notificatione vectis apparet) cum memoria activa est, cum ad domum velum redieris, ad alium app vel telephonum claude ut in memoria pergas, et cum conversus in lineamenta pro automatica recordatione (si servitium curriculi claudis, haec munera non operaberis).</string>
     <string name="recording_file_name_prefix">Praefixum video lima nomina</string>
     <string name="recording_start_text">Satus memoria</string>
     <string name="recording_started_failed_text">Error incipiens memoria</string>
@@ -452,6 +460,7 @@
     <string name="videos_file_item_share">Participes</string>
     <string name="videos_file_item_watch">Vigilo</string>
     <string name="videos_file_open_with">Aperire cum</string>
+    <string name="videos_file_repair">Reparare corrupta /unplayable file</string>
     <string name="videos_file_select">Select for</string>
     <string name="videos_file_sort_asc">Sort Ascendens</string>
     <string name="videos_file_sort_desc">Sort descendens</string>

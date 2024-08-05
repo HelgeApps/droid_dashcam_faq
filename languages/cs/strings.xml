@@ -45,6 +45,7 @@
     <string name="donation_dlg_no_ads_text">Nemáte žádné reklamy.</string>
     <string name="donation_level_text">Úroveň vašeho daru:</string>
     <string name="donation_purchase_info_loading_text">Nákupní informace ještě nebyly nahrány. Jste online a přihlášeni ke svému účtu Google?</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Pokud jste již přispěli, a chcete-li obnovit své nákupy, po výběru správného účtu Google znovu nainstalujte aplikaci na Google Play</string>
     <string name="donation_remove_ads_by_any_amount_text">Odstraňte reklamy navždy pomocí jednorázového příspěvku v libovolné výši.</string>
     <string name="donation_remove_ads_by_subscribing_text">Můžete také přispívat měsíčně na odstranění reklam.</string>
     <string name="donation_subs_any_amount_text">Reklama je zcela odstraněna, dokud je aktivní předplatné za jakoukoli částku za měsíc.</string>
@@ -133,6 +134,7 @@
     <string name="prefs_audio_bt_recording_warning_message_text">Používejte pouze se sluchátky Bluetooth. Pokud se připojíte k hlavní jednotce (autorádio) přes Bluetooth, může to z nějakého důvodu automaticky spustit telefonní hovor na standardní číslo na tomto zařízení</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Nepoužívejte s hlavní jednotkou (autorádio)!</string>
     <string name="prefs_audio_codec_title">Zvukový kodek</string>
+    <string name="prefs_audio_permission_not_granted_title">Povolení k nahrávání zvuku není uděleno</string>
     <string name="prefs_audio_priority_sum">Pokud je povoleno, jiné aplikace nebudou moci používat mikrofon. Je-li zakázáno, tato aplikace nemusí být schopna nahrávat zvuk, když je pomocí mikrofonu spuštěno více aplikací (Android vždy neumožňuje současné použití mikrofonu)</string>
     <string name="prefs_audio_priority_title">Upřednostněte zvuk této aplikace</string>
     <string name="prefs_audio_rate_text">Vzorkovací frekvence</string>
@@ -206,6 +208,7 @@
     <string name="prefs_location_mode_high_accuracy_text">Nejpřesnější poloha (souřadnice) a rychlost díky větší spotřebě baterie.</string>
     <string name="prefs_location_mode_low_power_text">Nízká přesnost polohy (souřadnic) a rychlost díky nízké spotřebě baterie.</string>
     <string name="prefs_location_mode_text">Priorita GPS (baterie nebo přesnost)</string>
+    <string name="prefs_location_power_saving_to_get_updates_in_background">Úspora energie by měla být vypnuta, abyste mohli získávat aktualizace polohy (GPS) na pozadí.</string>
     <string name="prefs_location_provider_method_text">Metoda získávání polohy (GPS)</string>
     <string name="prefs_location_update_frequency_text">Rychlost aktualizace GPS</string>
     <string name="prefs_meters_accuracy_value_text">metrů přesnosti</string>
@@ -240,6 +243,7 @@
     <string name="prefs_overlay_drag_btn_text">Přetáhněte okno</string>
     <string name="prefs_overlay_speed_text">Ukaž rychlost</string>
     <string name="prefs_overlay_videos_btn_text">Otevřete obrazovku videa</string>
+    <string name="prefs_permission_tap_to_grant">Klepnutím udělíte oprávnění</string>
     <string name="prefs_pinch_to_zoom_sum_text">Přiblížení dvěma prsty</string>
     <string name="prefs_pinch_to_zoom_text">Povolit přiblížení obrazovky</string>
     <string name="prefs_policy_text">Zásady ochrany osobních údajů</string>
@@ -270,6 +274,7 @@
     <string name="prefs_screen_video_day_night_mode_text">Automatické nastavení dne /noci</string>
     <string name="prefs_settings_bitrate_sum_text">Vyšší datový tok – lepší kvalita, ale větší velikost souboru videa</string>
     <string name="prefs_settings_fps_sum_text">Více FPS – plynulejší video, ale rychlejší vybíjení baterie. Pro lepší záznam ve tmě je lepší nastavit první hodnotu na nejnižší (druhá může být vyšší).</string>
+    <string name="prefs_settings_max_file_tip_sum_text">Některá zařízení mohou omezit maximální velikost souboru na 4 GB, takže je třeba vybrat nastavení (datový tok, trvání, rozlišení), aby jeden soubor videa nepřesáhl 4 GB</string>
     <string name="prefs_share_sum_text">Pošlete tuto aplikaci svým přátelům</string>
     <string name="prefs_share_text">Sdílejte toto</string>
     <string name="prefs_shortcut_launcher_has_been_added">Byla přidána zkratka (spouštěč).</string>
@@ -348,7 +353,7 @@
     <string name="prefs_video_bitrate_text">Bitrate (kvalita)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Režim scény ovládání fotoaparátu (noc)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Režim scény ovládání fotoaparátu (den)</string>
-    <string name="prefs_video_camera_hidden_by_manufacture_tip">Данная камера была скрыта производителем и может не работать</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Tato kamera byla skryta výrobcem a nemusí fungovat</string>
     <string name="prefs_video_codec_sum_text">Kodeky H.265 HEVC a AV1 poskytují lepší kvalitu při nižším datovém toku než H.264 AVC, takže můžete ušetřit místo snížením datového toku. Videa se však v některých přehrávačích videa nemusí přehrát</string>
     <string name="prefs_video_codec_text">Video kodek</string>
     <string name="prefs_video_control_scene_mode_beach_text">Pláž (jasné počasí)</string>
@@ -386,6 +391,7 @@
     <string name="prefs_warning_notifications_text">Oprávnění k oznámení</string>
     <string name="prefs_warning_permission_bluetooth_sum_text">Automatické nahrávání přes připojení Bluetooth vyžaduje povolení. Kliknutím sem odešlete</string>
     <string name="prefs_warning_permission_bluetooth_text">Oprávnění Bluetooth nebylo uděleno</string>
+    <string name="prefs_warning_power_saving">Šetření energie</string>
     <string name="prefs_warnings_text">Varování</string>
     <string name="prefs_zoom_out_desc_text">Pro přístup k ultra širokoúhlému fotoaparátu (objektivu) můžete nastavit faktor zoomu</string>
     <string name="prefs_zoom_text">Digitální zoom (zoom)</string>
@@ -402,7 +408,9 @@
     <string name="rec_network_text">Síť</string>
     <string name="rec_off_text">Vypnuto</string>
     <string name="rec_on_text">Vč.</string>
-    <string name="rec_service_msg">Soukromí: Všechna videa, která nahrajete, budou uložena pouze na vašem místním zařízení. Aplikace nezálohuje vaše videa (nemá žádná připojení k serverům)\n\nAplikace bude nadále běžet na pozadí (služba v popředí, která se zobrazuje v oznamovací liště), když je nahrávání aktivní, když se vrátíte na domovskou obrazovku, přepnete na jinou aplikaci nebo uzamknete telefon, abyste mohli pokračovat v nahrávání, a když zapnete funkce pro automatické nahrávání (pokud zavřete službu na pozadí, tyto funkce nebudou fungovat). Aplikace používá Firebase Analytics pro základní anonymní analýzy (viz odkaz níže)</string>
+    <string name="rec_privacy_analytics_msg">Aplikace používá Firebase Analytics pro základní anonymní analýzy (viz odkaz níže)</string>
+    <string name="rec_privacy_permissions_msg">Aplikace používá následující oprávnění:\n- Otevřít anonymní identifikátor zařízení OAID (pro personalizovanou reklamu)\n- FOTOAPARÁT, AUDIO (pro záznam videa)\n- STORAGE (pro ukládání videí)\n- POLOHA (pro získání adresy aktuální polohy, GPS souřadnic, rychlosti - pro zobrazení na hlavní obrazovce aplikace a použití titulků na video)\n- internetová reklama)</string>
+    <string name="rec_privacy_service_msg">Soukromí: Všechna videa, která nahrajete, budou uložena pouze na vašem místním zařízení. Aplikace nezálohuje vaše videa (nemá žádná připojení k serverům)\n\nAplikace bude nadále běžet na pozadí (služba v popředí, která se zobrazuje v oznamovací liště), když je nahrávání aktivní, když se vrátíte na domovskou obrazovku, přepnete na jinou aplikaci nebo uzamknete telefon, abyste mohli pokračovat v nahrávání, a když zapnete funkce pro automatické nahrávání (pokud zavřete službu na pozadí, tyto funkce nebudou fungovat).</string>
     <string name="recording_file_name_prefix">Předpona pro názvy souborů videa</string>
     <string name="recording_start_text">Začít nahrávat</string>
     <string name="recording_started_failed_text">Chyba při spouštění nahrávání</string>
@@ -452,6 +460,7 @@
     <string name="videos_file_item_share">Sdílejte toto</string>
     <string name="videos_file_item_watch">Zhlédnout</string>
     <string name="videos_file_open_with">Otevřít s</string>
+    <string name="videos_file_repair">Opravte poškozený/nepřehratelný soubor</string>
     <string name="videos_file_select">Vyberte pro</string>
     <string name="videos_file_sort_asc">Seřadit vzestupně</string>
     <string name="videos_file_sort_desc">Seřadit sestupně</string>

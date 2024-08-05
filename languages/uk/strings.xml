@@ -45,6 +45,7 @@
     <string name="donation_dlg_no_ads_text">У вас немає реклами.</string>
     <string name="donation_level_text">Ваш рівень пожертвувань:</string>
     <string name="donation_purchase_info_loading_text">Інформація про покупках ще не завантажена. Доступно підключення до мережі і вхід в Google аккаунт виконаний?</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Якщо вже робили пожертву, то для відновлення покупок, будь ласка, перевстановіть програму в Google Play, попередньо вибравши коректний аккаунт Google</string>
     <string name="donation_remove_ads_by_any_amount_text">Видаліть рекламу назавжди разовим пожертвуванням будь-яку суму.</string>
     <string name="donation_remove_ads_by_subscribing_text">Також ви можете жертвувати щомісяця, щоб видалити рекламу.</string>
     <string name="donation_subs_any_amount_text">Реклама повністю видаляється, поки активна підписка на будь-яку суму на місяць.</string>
@@ -133,6 +134,7 @@
     <string name="prefs_audio_bt_recording_warning_message_text">Використовуйте лише з навушниками Bluetooth. Якщо ви підключаєтеся до головного пристрою (автомобільного радіо) через Bluetooth, то з якихось причин це може автоматично викликати телефонний дзвінок за стандартним номером на цьому пристрої</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Не використовуйте головний пристрій (автомобільне радіо)!</string>
     <string name="prefs_audio_codec_title">Аудіокодек</string>
+    <string name="prefs_audio_permission_not_granted_title">Дозвіл на аудіозапис не надано</string>
     <string name="prefs_audio_priority_sum">Якщо увімкнено, інші програми не можуть використовувати мікрофон. Якщо вимкнено, то ця програма можливо не зможе записувати аудіо, коли працюють кілька програм, що використовують мікрофон (Android не у всіх випадках дозволяє одночасне використання мікрофона)</string>
     <string name="prefs_audio_priority_title">Пріоритет аудіо цієї програми</string>
     <string name="prefs_audio_rate_text">Частота дискретизації</string>
@@ -206,6 +208,7 @@
     <string name="prefs_location_mode_high_accuracy_text">Найбільш точне визначення місцезнаходження (координат) та швидкості за рахунок більшого енергоспоживання батареї.</string>
     <string name="prefs_location_mode_low_power_text">Низька точність позиціонування (координат) та швидкості за рахунок низького енергоспоживання батареї.</string>
     <string name="prefs_location_mode_text">Пріоритет GPS (батарея або точність)</string>
+    <string name="prefs_location_power_saving_to_get_updates_in_background">Щоб мати змогу отримувати оновлення місцезнаходження (GPS) у фоновому режимі, потрібно вимкнути енергозбереження.</string>
     <string name="prefs_location_provider_method_text">Метод отримання позиціонування (GPS)</string>
     <string name="prefs_location_update_frequency_text">Частота оновлення GPS</string>
     <string name="prefs_meters_accuracy_value_text">метрів точності</string>
@@ -240,6 +243,7 @@
     <string name="prefs_overlay_drag_btn_text">Перетягнути вікно</string>
     <string name="prefs_overlay_speed_text">Показувати швидкість</string>
     <string name="prefs_overlay_videos_btn_text">Відкрити екран з відео</string>
+    <string name="prefs_permission_tap_to_grant">Торкніться, щоб надати дозвіл</string>
     <string name="prefs_pinch_to_zoom_sum_text">Масштабування двома пальцями</string>
     <string name="prefs_pinch_to_zoom_text">Включити зум по екрану</string>
     <string name="prefs_policy_text">Політика конфіденційності</string>
@@ -270,6 +274,7 @@
     <string name="prefs_screen_video_day_night_mode_text">Налаштування авто денного/нічного режиму</string>
     <string name="prefs_settings_bitrate_sum_text">Більше бітрейт - краще якість, але більше розмір відеофайлу</string>
     <string name="prefs_settings_fps_sum_text">Більше FPS - плавніше відео, але швидше розряд батареї. Краще задати перше значення найменшим (друге може бути більше) для кращого запису в темряві</string>
+    <string name="prefs_settings_max_file_tip_sum_text">Деякі пристрої можуть обмежувати максимальний розмір файлу до 4 ГБ, тому потрібно підбирати такі налаштування (бітрейт, тривалість, роздільна здатність), щоб один відеофайл не перевищував 4 ГБ</string>
     <string name="prefs_share_sum_text">Надішліть це додаток своїм знайомим</string>
     <string name="prefs_share_text">Поділитися</string>
     <string name="prefs_shortcut_launcher_has_been_added">Додано ярлик (лаунчер).</string>
@@ -348,7 +353,7 @@
     <string name="prefs_video_bitrate_text">Бітрейт (якість)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Режим сцени управління камерою (день)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Режим сцени управління камерою (день)</string>
-    <string name="prefs_video_camera_hidden_by_manufacture_tip">Дана камера була прихованим виробником і не може працювати</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Ця камера була прихована виробником і може не працювати</string>
     <string name="prefs_video_codec_sum_text">H.265 HEVC та AV1 кодеки видають кращу якість при менших бітрейтах ніж H.264 AVC, таким чином можна заощадити місце зменшивши бітрейт. Але відео можуть не відтворюватися в деяких відеоплеєрах</string>
     <string name="prefs_video_codec_text">Відеокодек</string>
     <string name="prefs_video_control_scene_mode_beach_text">Пляж (яскрава погода)</string>
@@ -386,6 +391,7 @@
     <string name="prefs_warning_notifications_text">Дозвіл на повідомлення</string>
     <string name="prefs_warning_permission_bluetooth_sum_text">Для автоматичного запису через з\'єднання Bluetooth потрібно надати дозвіл. Натисніть тут, щоб надати</string>
     <string name="prefs_warning_permission_bluetooth_text">Bluetooth дозвіл не надано</string>
+    <string name="prefs_warning_power_saving">Енергозбереження</string>
     <string name="prefs_warnings_text">Попередження</string>
     <string name="prefs_zoom_out_desc_text">Для доступу до ультраширококутної камери (лінзи) можна виставити коефіцієнт масштабування</string>
     <string name="prefs_zoom_text">Цифровий зум (масштабування)</string>
@@ -402,7 +408,9 @@
     <string name="rec_network_text">Мережа</string>
     <string name="rec_off_text">Вимк.</string>
     <string name="rec_on_text">Вкл.</string>
-    <string name="rec_service_msg">Конфіденційність: всі записані відеозаписи будуть збережені лише на вашому локальному пристрої. Програма не робить резервні копії ваших відео (не має жодних підключень до серверів)\n\nДодаток продовжить працювати у фоновому режимі (служба переднього плану, яка відображається на панелі повідомлень) при активному записі, коли ви повертаєтеся на головний екран, переключаєтеся на іншу програму або блокуєте телефон для того, щоб мати можливість продовжувати запис, а також якщо ви увімкнете функції для автоматичного запису (якщо закрити фонову службу, ці функції не працюватимуть). Додаток використовує Firebase Analytics для анонімної базової аналітики (див. посилання нижче)</string>
+    <string name="rec_privacy_analytics_msg">Додаток використовує Firebase Analytics для анонімної базової аналітики (див. посилання нижче)</string>
+    <string name="rec_privacy_permissions_msg">Додаток використовує такі дозволи:\n- Відкритий анонімний ідентифікатор пристрою OAID (для персональної реклами)\n- КАМЕРА, АУДІО (для запису відео)\n- Сховище (для збереження відео)\n- МІСЦЯ (для отримання адреси поточного розташування, координат GPS, швидкості - щоб показувати на головному екрані програми і накладати як субтитри на відео)\n- Інтернет реклама)</string>
+    <string name="rec_privacy_service_msg">Конфіденційність: всі записані відеозаписи будуть збережені лише на вашому локальному пристрої. Програма не робить резервні копії ваших відео (не має жодних підключень до серверів)\n\nДодаток продовжить працювати у фоновому режимі (служба переднього плану, що відображається на панелі повідомлень) при активному записі, коли ви повертаєтеся на головний екран, перемикаєтеся на іншу програму або блокуєте телефон для того, щоб мати можливість продовжувати запис, а також якщо ви увімкнете функції для автоматичного запису (якщо закрити фонову службу, ці функції не працюватимуть).</string>
     <string name="recording_file_name_prefix">Префікс для імені відеофайлів</string>
     <string name="recording_start_text">Почати запис</string>
     <string name="recording_started_failed_text">Помилка при початку запису</string>
@@ -452,6 +460,7 @@
     <string name="videos_file_item_share">Поділитися</string>
     <string name="videos_file_item_watch">Відтворити</string>
     <string name="videos_file_open_with">Відкрити за допомогою</string>
+    <string name="videos_file_repair">Відновлення пошкодженого/невідтворюваного файлу</string>
     <string name="videos_file_select">Виберіть для</string>
     <string name="videos_file_sort_asc">Сортування по зростанню</string>
     <string name="videos_file_sort_desc">Сортування по спадаючій</string>

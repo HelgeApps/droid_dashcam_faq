@@ -45,6 +45,7 @@
     <string name="donation_dlg_no_ads_text">Nincsenek hirdetései.</string>
     <string name="donation_level_text">Az Ön adományozási szintje:</string>
     <string name="donation_purchase_info_loading_text">A vásárlási információk még nem kerültek feltöltésre. Ön online, és bejelentkezett Google-fiókjába?</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Ha már adományozott, akkor a vásárlások visszaállításához telepítse újra az alkalmazást a Google Playen, miután kiválasztotta a megfelelő Google fiókot.</string>
     <string name="donation_remove_ads_by_any_amount_text">Bármilyen összegű egyszeri adományozással örökre távolítsa el a hirdetéseket.</string>
     <string name="donation_remove_ads_by_subscribing_text">Havonta adományozhat is a hirdetések eltávolítására.</string>
     <string name="donation_subs_any_amount_text">A hirdetéseket teljesen eltávolítjuk, miközben a havi tetszőleges összegű előfizetés aktív.</string>
@@ -133,6 +134,7 @@
     <string name="prefs_audio_bt_recording_warning_message_text">Csak Bluetooth fejhallgatóval használja. Ha Bluetooth-on keresztül csatlakozik a fejegységhez (autórádió), akkor ez valamilyen oknál fogva automatikusan elindíthat egy telefonhívást az eszköz szabványos számára</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Ne használja fejegységgel (autórádióval)!</string>
     <string name="prefs_audio_codec_title">Audiokodek</string>
+    <string name="prefs_audio_permission_not_granted_title">Hangfelvételi engedély nem adható meg</string>
     <string name="prefs_audio_priority_sum">Ha engedélyezve van, más alkalmazások nem fogják tudni használni a mikrofont. Ha le van tiltva, előfordulhat, hogy ez az alkalmazás nem tud hangot rögzíteni, ha több alkalmazás fut a mikrofon használatával (az Android nem mindig teszi lehetővé a mikrofon egyidejű használatát)</string>
     <string name="prefs_audio_priority_title">Hang prioritása ennek az alkalmazásnak</string>
     <string name="prefs_audio_rate_text">Mintavételi gyakoriság</string>
@@ -206,6 +208,7 @@
     <string name="prefs_location_mode_high_accuracy_text">A legpontosabb hely (koordináták) és sebesség a nagyobb akkumulátorfogyasztás miatt.</string>
     <string name="prefs_location_mode_low_power_text">Alacsony helymeghatározási pontosság (koordináták) és sebesség az alacsony akkumulátorfogyasztás miatt.</string>
     <string name="prefs_location_mode_text">GPS prioritás (akkumulátor vagy pontosság)</string>
+    <string name="prefs_location_power_saving_to_get_updates_in_background">Az energiatakarékos funkciót ki kell kapcsolni, hogy a háttérben lehessen kapni a helyadatokat (GPS).</string>
     <string name="prefs_location_provider_method_text">Helymeghatározási módszer (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS frissítési sebesség</string>
     <string name="prefs_meters_accuracy_value_text">méteres pontossággal</string>
@@ -240,6 +243,7 @@
     <string name="prefs_overlay_drag_btn_text">Húzza az ablakot</string>
     <string name="prefs_overlay_speed_text">Sebesség megjelenítése</string>
     <string name="prefs_overlay_videos_btn_text">Nyissa meg a videó képernyőt</string>
+    <string name="prefs_permission_tap_to_grant">Érintse meg az engedély megadásához</string>
     <string name="prefs_pinch_to_zoom_sum_text">Nagyítás két ujjal</string>
     <string name="prefs_pinch_to_zoom_text">Képernyőnagyítás engedélyezése</string>
     <string name="prefs_policy_text">Adatvédelmi irányelvek</string>
@@ -270,6 +274,7 @@
     <string name="prefs_screen_video_day_night_mode_text">Automatikus nappali /éjszakai beállítások</string>
     <string name="prefs_settings_bitrate_sum_text">Magasabb bitráta – jobb minőség, de nagyobb videofájlméret</string>
     <string name="prefs_settings_fps_sum_text">Több FPS – simább videó, de gyorsabb az akkumulátor lemerülése. Jobb, ha az első értéket a legalacsonyabbra állítja (a második magasabb lehet), hogy jobb legyen a felvétel sötétben</string>
+    <string name="prefs_settings_max_file_tip_sum_text">Egyes eszközök a maximális fájlméretet 4 GB-ra korlátozhatják, ezért úgy kell kiválasztania a beállításokat (bitráta, időtartam, felbontás), hogy egy videofájl ne haladja meg a 4 GB-ot.</string>
     <string name="prefs_share_sum_text">Küldje el ezt az alkalmazást barátainak</string>
     <string name="prefs_share_text">Ossza meg ezt</string>
     <string name="prefs_shortcut_launcher_has_been_added">Parancsikon (indító) hozzáadva</string>
@@ -348,7 +353,7 @@
     <string name="prefs_video_bitrate_text">Bitráta (minőség)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kameravezérlési jelenet mód (éjszakai)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kameravezérlési jelenet mód (nappali)</string>
-    <string name="prefs_video_camera_hidden_by_manufacture_tip">Данная камера была скрыта производителем и может не работать</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Ezt a kamerát a gyártó elrejtette, és előfordulhat, hogy nem működik</string>
     <string name="prefs_video_codec_sum_text">A H.265 HEVC és AV1 kodekek jobb minőséget biztosítanak alacsonyabb bitráta mellett, mint a H.264 AVC, így a bitráta csökkentésével helyet takaríthat meg. Előfordulhat azonban, hogy a videók nem játszhatók le egyes videolejátszókban</string>
     <string name="prefs_video_codec_text">Videokodek</string>
     <string name="prefs_video_control_scene_mode_beach_text">Strand (világos idő)</string>
@@ -386,6 +391,7 @@
     <string name="prefs_warning_notifications_text">Értesítési engedély</string>
     <string name="prefs_warning_permission_bluetooth_sum_text">A Bluetooth-kapcsolaton keresztüli automatikus rögzítéshez engedély szükséges. Kattintson ide az elküldéshez</string>
     <string name="prefs_warning_permission_bluetooth_text">Bluetooth-engedély nincs megadva</string>
+    <string name="prefs_warning_power_saving">Energiatakarékos</string>
     <string name="prefs_warnings_text">Figyelmeztetések</string>
     <string name="prefs_zoom_out_desc_text">Az ultraszéles látószögű kamera (objektív) eléréséhez beállíthatja a zoomtényezőt</string>
     <string name="prefs_zoom_text">Digitális zoom (zoom)</string>
@@ -402,7 +408,9 @@
     <string name="rec_network_text">Háló</string>
     <string name="rec_off_text">Ki</string>
     <string name="rec_on_text">Incl.</string>
-    <string name="rec_service_msg">Adatvédelem: Az összes felvett videót a rendszer csak a helyi eszközére menti. Az alkalmazás nem készít biztonsági másolatot a videóidról (nincs kapcsolata a szerverekkel)\n\nAz alkalmazás továbbra is futni fog a háttérben (az értesítési sávban megjelenő előtérben lévő szolgáltatás), amíg a felvétel aktív, amikor visszatér a kezdőképernyőre, vált át egy másik alkalmazásra, vagy zárolja telefonját a rögzítés folytatásához, illetve amikor bekapcsolja funkciók az automatikus rögzítéshez (ha bezárja a háttérszolgáltatást, ezek a funkciók nem működnek). Az alkalmazás a Firebase Analytics szolgáltatást használja az alapvető anonim elemzésekhez (lásd az alábbi linket)</string>
+    <string name="rec_privacy_analytics_msg">Az alkalmazás a Firebase Analytics szolgáltatást használja az alapvető anonim elemzésekhez (lásd az alábbi linket)</string>
+    <string name="rec_privacy_permissions_msg">Az alkalmazás a következő engedélyeket használja:\n- Nyissa meg az OAID névtelen eszközazonosítót (személyre szabott hirdetésekhez)\n- KAMERA, AUDIO (videó rögzítéséhez)\n- TÁROLÁS (videók mentéséhez)\n- HELYSZÍN (az aktuális hely címének, GPS-koordinátáinak, sebességének lekéréséhez - az alkalmazás főképernyőjén való megjelenítéshez és a videóhoz feliratozáshoz)\n- internetes hirdetés)</string>
+    <string name="rec_privacy_service_msg">Adatvédelem: Az összes felvett videót a rendszer csak a helyi eszközére menti. Az alkalmazás nem készít biztonsági másolatot a videóidról (nincs kapcsolata a szerverekkel)\n\nAz alkalmazás továbbra is futni fog a háttérben (az értesítési sávban megjelenő előtérben lévő szolgáltatás), amíg a felvétel aktív, amikor visszatér a kezdőképernyőre, átvált egy másik alkalmazásra, vagy lezárja a telefont a rögzítés folytatásához, és amikor bekapcsolja az automatikus rögzítés funkcióit (ha bezárja a háttérszolgáltatást, ezek a funkciók nem működnek).</string>
     <string name="recording_file_name_prefix">A videofájlok nevének előtagja</string>
     <string name="recording_start_text">Felvétel megkezdése</string>
     <string name="recording_started_failed_text">Hiba a felvétel indításakor</string>
@@ -452,6 +460,7 @@
     <string name="videos_file_item_share">Ossza meg ezt</string>
     <string name="videos_file_item_watch">Néz</string>
     <string name="videos_file_open_with">Nyitott</string>
+    <string name="videos_file_repair">Javítsa meg a sérült/lejátszhatatlan fájlt</string>
     <string name="videos_file_select">Válassza ki</string>
     <string name="videos_file_sort_asc">Növekvő rendezés</string>
     <string name="videos_file_sort_desc">Csökkenő rendezés</string>

@@ -45,6 +45,7 @@
     <string name="donation_dlg_no_ads_text">Сездә реклама юк.</string>
     <string name="donation_level_text">Сезнең иганә дәрәҗәсе:</string>
     <string name="donation_purchase_info_loading_text">Сәүдә турында мәгълүмат әле йөкләнмәгән. Сез онлайнда һәм Google хисап язмасына кердегезме?</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Әгәр дә сез иганә ясаган булсагыз, сатып алуларны торгызу өчен, зинһар, Google Play\'та кушымтаны яңадан урнаштырыгыз, дөрес Google счетын сайлаганнан соң.</string>
     <string name="donation_remove_ads_by_any_amount_text">Рекламаны теләсә нинди суммадагы иганә белән мәңгегә бетерегез.</string>
     <string name="donation_remove_ads_by_subscribing_text">Сез шулай ук ​​рекламаны бетерү өчен ай саен иганә бирә аласыз.</string>
     <string name="donation_subs_any_amount_text">Реклама ай саен теләсә нинди суммага язылу актив булганда тулысынча бетерелә.</string>
@@ -133,6 +134,7 @@
     <string name="prefs_audio_bt_recording_warning_message_text">Bluetooth гарнитуры белән генә кулланыгыз. Әгәр сез баш җайланмага (машина радиосы) Bluetooth аша тоташсагыз, нигәдер бу автоматик рәвештә бу җайланмадагы стандарт номерга шалтыратуны җибәрергә мөмкин.</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Баш агрегат (машина радиосы) белән кулланмагыз!</string>
     <string name="prefs_audio_codec_title">Аудио кодек</string>
+    <string name="prefs_audio_permission_not_granted_title">Аудио язу рөхсәте бирелмәгән</string>
     <string name="prefs_audio_priority_sum">Кушылса, башка кушымталар микрофонны куллана алмаячак. Инвалид булса, бу кушымта микрофон ярдәмендә берничә кушымта эшләгәндә аудио яздыра алмый (Android һәрвакыт микрофонны берьюлы кулланырга рөхсәт итми).</string>
     <string name="prefs_audio_priority_title">Бу кушымтага аудио өстенлек бирегез</string>
     <string name="prefs_audio_rate_text">Plрнәк алу ешлыгы</string>
@@ -206,6 +208,7 @@
     <string name="prefs_location_mode_high_accuracy_text">Иң төгәл урын (координаталар) һәм батареяның күп кулланылуы аркасында тизлек.</string>
     <string name="prefs_location_mode_low_power_text">Урынның түбән төгәллеге (координаталар) һәм батареяның аз кулланылуы аркасында тизлек.</string>
     <string name="prefs_location_mode_text">GPS приоритеты (батарея яки төгәллек)</string>
+    <string name="prefs_location_power_saving_to_get_updates_in_background">Фонда урнашу (GPS) яңартуларын алу өчен, энергия саклауны сүндерергә кирәк.</string>
     <string name="prefs_location_provider_method_text">Урын алу ысулы (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS яңарту темплары</string>
     <string name="prefs_meters_accuracy_value_text">метр төгәллек</string>
@@ -240,6 +243,7 @@
     <string name="prefs_overlay_drag_btn_text">Тәрәзәне тарту</string>
     <string name="prefs_overlay_speed_text">Тизлекне күрсәт</string>
     <string name="prefs_overlay_videos_btn_text">Видео экранны ачу</string>
+    <string name="prefs_permission_tap_to_grant">Рөхсәт бирү өчен басыгыз</string>
     <string name="prefs_pinch_to_zoom_sum_text">Ике бармак белән зурайтыгыз</string>
     <string name="prefs_pinch_to_zoom_text">Экранны зурайту</string>
     <string name="prefs_policy_text">Шәхсилек сәясәте</string>
@@ -270,6 +274,7 @@
     <string name="prefs_screen_video_day_night_mode_text">Автомобиль көне /Төнге көйләүләр</string>
     <string name="prefs_settings_bitrate_sum_text">Bitгары битрат - яхшырак сыйфат, ләкин зуррак видео файл зурлыгы</string>
     <string name="prefs_settings_fps_sum_text">Күбрәк FPS - йомшак видео, ләкин тизрәк батарея агызу. Караңгыда яхшырак язу өчен беренче кыйммәтне иң түбәнгә кую яхшырак (икенчесе югарырак булырга мөмкин)</string>
+    <string name="prefs_settings_max_file_tip_sum_text">Кайбер җайланмалар файлның максималь күләмен 4 ГБ белән чикләргә мөмкин, шуңа күрә бер видео файл 4 ГБдан артмасын өчен көйләүләрне (битрат, озынлык, резолюция) сайларга кирәк.</string>
     <string name="prefs_share_sum_text">Бу кушымтаны дусларыгызга җибәрегез</string>
     <string name="prefs_share_text">Моны бүлешегез</string>
     <string name="prefs_shortcut_launcher_has_been_added">Кыска юл (эшләтеп җибәрүче) өстәлде</string>
@@ -348,7 +353,7 @@
     <string name="prefs_video_bitrate_text">Битрат (сыйфат)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Камера белән идарә итү күренеше режимы (Төн)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Камера белән идарә итү сәхнә режимы (көн)</string>
-    <string name="prefs_video_camera_hidden_by_manufacture_tip">Данная ча б б ск скрыта производителем и может не работать</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Бу камера җитештерүче тарафыннан яшерелгән һәм эшләмәскә мөмкин</string>
     <string name="prefs_video_codec_sum_text">H.265 HEVC һәм AV1 кодеклары түбән битратларда H.264 AVC белән чагыштырганда яхшырак сыйфат бирә, шуңа күрә битратны киметеп урынны саклап кала аласыз. Ләкин видео кайбер плейерларда уйнамаска мөмкин</string>
     <string name="prefs_video_codec_text">Видео кодек</string>
     <string name="prefs_video_control_scene_mode_beach_text">Пляж (якты һава торышы)</string>
@@ -386,6 +391,7 @@
     <string name="prefs_warning_notifications_text">Хәбәрләр рөхсәте</string>
     <string name="prefs_warning_permission_bluetooth_sum_text">Bluetooth тоташулары аша автоматик язу рөхсәт таләп итә. Тапшыру өчен монда басыгыз</string>
     <string name="prefs_warning_permission_bluetooth_text">Bluetooth рөхсәте бирелмәгән</string>
+    <string name="prefs_warning_power_saving">Энергияне саклау</string>
     <string name="prefs_warnings_text">Кисәтүләр</string>
     <string name="prefs_zoom_out_desc_text">Ультра киң почмаклы камерага (линза) керү өчен, сез зурайту факторын куя аласыз</string>
     <string name="prefs_zoom_text">Санлы зурайту (зурайту)</string>
@@ -402,7 +408,9 @@
     <string name="rec_network_text">Чиста</string>
     <string name="rec_off_text">Сүндерелгән</string>
     <string name="rec_on_text">Incәр сүзнең.</string>
-    <string name="rec_service_msg">Хосусыйлык: Сез язган барлык видеолар сезнең җирле җайланмада гына сакланачак. Кушымта сезнең видеоларны резервламый (серверларга бернинди бәйләнеше дә юк)\n\nКушымта фонда эшләүне дәвам итәчәк (хәбәр итү тактасында күрсәтелгән алгы хезмәт), язу актив булганда, төп экранга кайткач, бүтән кушымтага күчә яки язуны дәвам итәр өчен телефоныгызны бикләгез, һәм сез кабызганда автоматик язу өчен үзенчәлекләр (фон хезмәтен япсагыз, бу функцияләр эшләмәячәк). Кушымта төп аноним аналитика өчен Firebase Analytics куллана (астагы сылтаманы карагыз)</string>
+    <string name="rec_privacy_analytics_msg">Кушымта төп аноним аналитика өчен Firebase Analytics куллана (астагы сылтаманы карагыз)</string>
+    <string name="rec_privacy_permissions_msg">Кушымта түбәндәге рөхсәтләрне куллана:\n- OAID билгесез җайланма идентификаторын ачу (шәхси реклама өчен)\n- Камера, Аудио (видео язу өчен)\n- Саклау (видеоларны саклау өчен)\n- урнашу (хәзерге урнашкан урынның адресын алу, GPS координаталары, тизлек - кушымтаның төп экранында күрсәтү һәм видеога субтитрлар куллану)\n- Интернет рекламасы)</string>
+    <string name="rec_privacy_service_msg">Хосусыйлык: Сез язган барлык видеолар сезнең җирле җайланмада гына сакланачак. Кушымта сезнең видеоларны резервламый (серверларга бернинди бәйләнеше дә юк)\n\nКушымта фонда эшләүне дәвам итәчәк (хәбәр итү тактасында күрсәтелгән алгы хезмәт), язу актив булганда, төп экранга кайткач, бүтән кушымтага күчә яки язуны дәвам итәр өчен телефоныгызны бикләгез, һәм кайчан\? сез автоматик язу өчен функцияләрне кабызасыз (фон хезмәтен япсагыз, бу функцияләр эшләмәячәк).</string>
     <string name="recording_file_name_prefix">Видео файл исемнәре өчен префикс</string>
     <string name="recording_start_text">Язуны башлау</string>
     <string name="recording_started_failed_text">Язуны башлауда хата</string>
@@ -452,6 +460,7 @@
     <string name="videos_file_item_share">Моны бүлешегез</string>
     <string name="videos_file_item_watch">Карагыз</string>
     <string name="videos_file_open_with">Ачык</string>
+    <string name="videos_file_repair">Бозылган /уйнап булмый торган файлны ремонтлау</string>
     <string name="videos_file_select">Өчен сайлагыз</string>
     <string name="videos_file_sort_asc">Сортны күтәрү</string>
     <string name="videos_file_sort_desc">Төшү</string>

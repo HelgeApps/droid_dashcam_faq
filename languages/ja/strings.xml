@@ -45,6 +45,7 @@
     <string name="donation_dlg_no_ads_text">広告はありません。</string>
     <string name="donation_level_text">あなたの寄付レベル：</string>
     <string name="donation_purchase_info_loading_text">ショッピング情報はまだアップロードされていません。オンラインでGoogleアカウントにログインしていますか？</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">すでに寄付を行っている場合は、購入内容を復元するには、正しい Google アカウントを選択した後、Google Play でアプリケーションを再インストールしてください。</string>
     <string name="donation_remove_ads_by_any_amount_text">任意の金額を 1 回寄付するだけで、広告を永久に削除できます。</string>
     <string name="donation_remove_ads_by_subscribing_text">広告を削除するために毎月寄付することもできます。</string>
     <string name="donation_subs_any_amount_text">月額料金に関わらずサブスクリプションが有効な間、広告は完全に削除されます。</string>
@@ -133,6 +134,7 @@
     <string name="prefs_audio_bt_recording_warning_message_text">Bluetooth ヘッドフォンのみで使用してください。 Bluetooth 経由でヘッド ユニット (カー ラジオ) に接続すると、何らかの理由で、このデバイスの標準番号への電話が自動的に発信される場合があります。</string>
     <string name="prefs_audio_bt_recording_warning_title_text">ヘッドユニット（カーラジオ）と一緒に使用しないでください。</string>
     <string name="prefs_audio_codec_title">オーディオコーデック</string>
+    <string name="prefs_audio_permission_not_granted_title">音声録音の許可が与えられていません</string>
     <string name="prefs_audio_priority_sum">有効にすると、他のアプリケーションはマイクを使用できなくなります。無効にすると、マイクを使用して複数のアプリケーションが実行されている場合、このアプリケーションはオーディオを録音できない場合があります (Android では常にマイクの同時使用が許可されているわけではありません)。</string>
     <string name="prefs_audio_priority_title">このアプリのオーディオを優先する</string>
     <string name="prefs_audio_rate_text">サンプリング周波数</string>
@@ -206,6 +208,7 @@
     <string name="prefs_location_mode_high_accuracy_text">バッテリー消費量が増えるため、最も正確な位置 (座標) と速度が得られます。</string>
     <string name="prefs_location_mode_low_power_text">バッテリーの消費量が少ないため、位置 (座標) と速度の精度が低くなります。</string>
     <string name="prefs_location_mode_text">GPS の優先順位 (バッテリーまたは精度)</string>
+    <string name="prefs_location_power_saving_to_get_updates_in_background">バックグラウンドで位置情報 (GPS) の更新を取得できるようにするには、省電力をオフにする必要があります。</string>
     <string name="prefs_location_provider_method_text">位置取得方式（GPS）</string>
     <string name="prefs_location_update_frequency_text">GPS更新頻度</string>
     <string name="prefs_meters_accuracy_value_text">メートルの精度</string>
@@ -240,6 +243,7 @@
     <string name="prefs_overlay_drag_btn_text">ドラッグウィンドウ</string>
     <string name="prefs_overlay_speed_text">速度を表示</string>
     <string name="prefs_overlay_videos_btn_text">ビデオ画面を開く</string>
+    <string name="prefs_permission_tap_to_grant">タップして許可を与える</string>
     <string name="prefs_pinch_to_zoom_sum_text">2本の指でズーム</string>
     <string name="prefs_pinch_to_zoom_text">画面ズームを有効にする</string>
     <string name="prefs_policy_text">プライバシーポリシー</string>
@@ -270,6 +274,7 @@
     <string name="prefs_screen_video_day_night_mode_text">自動日中/夜設定</string>
     <string name="prefs_settings_bitrate_sum_text">ビットレートを高くするとビデオ品質が向上しますが、ファイルサイズが大きくなります</string>
     <string name="prefs_settings_fps_sum_text">FPSを高くするとビデオがスムーズになりますが、バッテリー消耗が早くなります。暗い場所での録画を改善するには、最小値を最も低く設定することをお勧めします（最高値は場合によって設定値より高くなる場合があります）</string>
+    <string name="prefs_settings_max_file_tip_sum_text">一部のデバイスでは最大ファイル サイズが 4 GB に制限されている場合があるため、1 つのビデオ ファイルが 4 GB を超えないように設定 (ビットレート、再生時間、解像度) を選択する必要があります。</string>
     <string name="prefs_share_sum_text">このアプリを友達に共有します</string>
     <string name="prefs_share_text">このアプリを共有</string>
     <string name="prefs_shortcut_launcher_has_been_added">ショートカット（ランチャー）を追加しました</string>
@@ -348,7 +353,7 @@
     <string name="prefs_video_bitrate_text">ビットレート（品質）</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">カメラコントロールシーンモード（夜）</string>
     <string name="prefs_video_camera_control_scene_mode_text">カメラコントロールシーンモード（日中）</string>
-    <string name="prefs_video_camera_hidden_by_manufacture_tip">Аанная камера была скрыта производителем и может не работать</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">このカメラはメーカーによって隠蔽されているため、動作しない可能性があります</string>
     <string name="prefs_video_codec_sum_text">H.265 HEVC および AV1 コーデックは、H.264 AVC よりも低いビットレートで優れた品質を提供するため、ビットレートを下げることでスペースを節約できます。ただし、一部のビデオプレーヤーではビデオが再生できない場合があります</string>
     <string name="prefs_video_codec_text">ビデオコーデック</string>
     <string name="prefs_video_control_scene_mode_beach_text">ビーチ（晴天）</string>
@@ -386,6 +391,7 @@
     <string name="prefs_warning_notifications_text">通知許可</string>
     <string name="prefs_warning_permission_bluetooth_sum_text">Bluetooth 接続を介した自動録音には許可が必要です。ここをクリックして送信してください</string>
     <string name="prefs_warning_permission_bluetooth_text">Bluetooth 許可が付与されていません</string>
+    <string name="prefs_warning_power_saving">省エネ</string>
     <string name="prefs_warnings_text">警告</string>
     <string name="prefs_zoom_out_desc_text">超広角カメラ (レンズ) にアクセスするには、ズーム倍率を設定できます</string>
     <string name="prefs_zoom_text">ズーム（デジタルズーム）</string>
@@ -402,7 +408,9 @@
     <string name="rec_network_text">ネット</string>
     <string name="rec_off_text">オフ</string>
     <string name="rec_on_text">オン</string>
-    <string name="rec_service_msg">プライバシー: 録画したすべてのビデオはローカル デバイスにのみ保存されます。アプリケーションはビデオをバックアップしません (サーバーに接続しません)\n\n録音がアクティブな間、ホーム画面に戻ったとき、別のアプリに切り替えるか携帯電話をロックして録音を継続したとき、および電源をオンにしたとき、アプリはバックグラウンド (通知バーに表示されるフォアグラウンド サービス) で実行され続けます。自動録画機能（バックグラウンドサービスを終了すると、これらの機能は動作しなくなります）。このアプリは、基本的な匿名分析に Firebase Analytics を使用します (以下のリンクを参照)</string>
+    <string name="rec_privacy_analytics_msg">このアプリは、基本的な匿名分析に Firebase Analytics を使用します (以下のリンクを参照)</string>
+    <string name="rec_privacy_permissions_msg">アプリケーションは次の権限を使用します。\n- オープン匿名デバイス識別子 OAID (パーソナライズされた広告用)\n- カメラ、オーディオ（ビデオ録画用）\n- STORAGE（ビデオ保存用）\n- LOCATION (現在の場所のアドレス、GPS 座標、速度を取得し、アプリケーションのメイン画面に表示し、ビデオに字幕を適用します)\n- インターネット広告)</string>
+    <string name="rec_privacy_service_msg">プライバシー: 録画したすべてのビデオはローカル デバイスにのみ保存されます。アプリケーションはビデオをバックアップしません (サーバーに接続しません)\n\n録音がアクティブである間、アプリはバックグラウンド (通知バーに表示されるフォアグラウンド サービス) で実行され続けます。ホーム画面に戻ったり、別のアプリに切り替えたり、録音を継続できるように携帯電話をロックしたり、自動録画機能をオンにします (バックグラウンド サービスを終了すると、これらの機能は動作しなくなります)。</string>
     <string name="recording_file_name_prefix">ビデオファイル名のプレフィックス</string>
     <string name="recording_start_text">録音開始</string>
     <string name="recording_started_failed_text">録音開始中にエラーが発生しました</string>
@@ -452,6 +460,7 @@
     <string name="videos_file_item_share">これを共有</string>
     <string name="videos_file_item_watch">時計</string>
     <string name="videos_file_open_with">で開く</string>
+    <string name="videos_file_repair">破損した/再生できないファイルを修復する</string>
     <string name="videos_file_select">対象として選択</string>
     <string name="videos_file_sort_asc">ソート昇順</string>
     <string name="videos_file_sort_desc">降順で並べ替える</string>

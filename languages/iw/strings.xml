@@ -45,6 +45,7 @@
     <string name="donation_dlg_no_ads_text">אין לך מודעות.</string>
     <string name="donation_level_text">רמת התרומה שלך:</string>
     <string name="donation_purchase_info_loading_text">פרטי הקניות עדיין לא הועלו. האם אתה מחובר לחשבון Google שלך?</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">אם כבר תרמת תרומה, אז כדי לשחזר את הרכישות שלך, אנא התקן מחדש את האפליקציה ב-Google Play לאחר בחירת חשבון Google הנכון</string>
     <string name="donation_remove_ads_by_any_amount_text">הסר מודעות לתמיד עם תרומה חד פעמית בכל סכום.</string>
     <string name="donation_remove_ads_by_subscribing_text">אתה יכול גם לתרום מדי חודש כדי להסיר מודעות.</string>
     <string name="donation_subs_any_amount_text">הפרסום מוסר לחלוטין בעוד מנוי בכל סכום בחודש פעיל.</string>
@@ -133,6 +134,7 @@
     <string name="prefs_audio_bt_recording_warning_message_text">השתמש רק עם אוזניות Bluetooth. אם אתה מתחבר ליחידה הראשית (רדיו לרכב) באמצעות Bluetooth, אז מסיבה כלשהי זה עלול להפעיל אוטומטית שיחת טלפון למספר הרגיל במכשיר זה</string>
     <string name="prefs_audio_bt_recording_warning_title_text">אין להשתמש עם יחידת ראש (רדיו לרכב)!</string>
     <string name="prefs_audio_codec_title">Codec אודיו</string>
+    <string name="prefs_audio_permission_not_granted_title">הרשאת הקלטת אודיו אינה ניתנת</string>
     <string name="prefs_audio_priority_sum">אם מופעל, יישומים אחרים לא יוכלו להשתמש במיקרופון. אם מושבת, ייתכן שאפליקציה זו לא תוכל להקליט אודיו כאשר מספר יישומים פועלים באמצעות המיקרופון (אנדרואיד לא תמיד מאפשר שימוש בו זמנית במיקרופון)</string>
     <string name="prefs_audio_priority_title">תעדוף אודיו לאפליקציה זו</string>
     <string name="prefs_audio_rate_text">תדר דגימה</string>
@@ -206,6 +208,7 @@
     <string name="prefs_location_mode_high_accuracy_text">המיקום המדויק ביותר (קואורדינטות) ומהירות הודות לצריכת חשמל גדולה יותר בסוללה.</string>
     <string name="prefs_location_mode_low_power_text">דיוק נמוך של מיקום (קואורדינטות) ומהירות עקב צריכת חשמל נמוכה בסוללה.</string>
     <string name="prefs_location_mode_text">עדיפות GPS (סוללה או דיוק)</string>
+    <string name="prefs_location_power_saving_to_get_updates_in_background">יש לכבות את חיסכון בחשמל כדי לקבל עדכוני מיקום (GPS) ברקע.</string>
     <string name="prefs_location_provider_method_text">שיטת רכישת מיקום (GPS)</string>
     <string name="prefs_location_update_frequency_text">קצב עדכון GPS</string>
     <string name="prefs_meters_accuracy_value_text">מטרים של דיוק</string>
@@ -240,6 +243,7 @@
     <string name="prefs_overlay_drag_btn_text">גרור חלון</string>
     <string name="prefs_overlay_speed_text">הצג מהירות</string>
     <string name="prefs_overlay_videos_btn_text">פתח מסך וידאו</string>
+    <string name="prefs_permission_tap_to_grant">הקש כדי לתת את ההרשאה</string>
     <string name="prefs_pinch_to_zoom_sum_text">זום בשתי אצבעות</string>
     <string name="prefs_pinch_to_zoom_text">אפשר זום מסך</string>
     <string name="prefs_policy_text">מדיניות פרטיות</string>
@@ -270,6 +274,7 @@
     <string name="prefs_screen_video_day_night_mode_text">הגדרות יום /לילה אוטומטיות</string>
     <string name="prefs_settings_bitrate_sum_text">קצב סיביות גבוה יותר - איכות טובה יותר, אך גודל קובץ וידאו גדול יותר</string>
     <string name="prefs_settings_fps_sum_text">יותר FPS - וידאו חלק יותר, אך ריקון סוללה מהיר יותר. עדיף להגדיר את הערך הראשון לנמוך ביותר (השני עשוי להיות גבוה יותר) להקלטה טובה יותר בחושך</string>
+    <string name="prefs_settings_max_file_tip_sum_text">התקנים מסוימים עשויים להגביל את גודל הקובץ המרבי ל-4 GB, לכן עליך לבחור הגדרות (קצב סיביות, משך, רזולוציה) כך שקובץ וידאו אחד לא יעלה על 4 GB</string>
     <string name="prefs_share_sum_text">שלח את האפליקציה הזו לחברים שלך</string>
     <string name="prefs_share_text">שתף זאת</string>
     <string name="prefs_shortcut_launcher_has_been_added">קיצור דרך (משגר) נוסף</string>
@@ -348,7 +353,7 @@
     <string name="prefs_video_bitrate_text">קצב סיביות (איכות)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">מצב סצנת בקרת מצלמה (לילה)</string>
     <string name="prefs_video_camera_control_scene_mode_text">מצב סצנת בקרת מצלמה (יום)</string>
-    <string name="prefs_video_camera_hidden_by_manufacture_tip">Данная камера была скрыта производителем и может не работать</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">מצלמה זו הוסתרה על ידי היצרן וייתכן שלא תעבוד</string>
     <string name="prefs_video_codec_sum_text">H.265 HEVC ו-AV1 codec מספקים איכות טובה יותר בקצבי סיביות נמוכים יותר מאשר H.264 AVC, כך שתוכל לחסוך מקום על ידי הפחתת קצב הסיביות. אבל ייתכן שסרטונים לא יתנגנו בנגני וידאו מסוימים</string>
     <string name="prefs_video_codec_text">Codec וידאו</string>
     <string name="prefs_video_control_scene_mode_beach_text">חוף (מזג אוויר בהיר)</string>
@@ -386,6 +391,7 @@
     <string name="prefs_warning_notifications_text">הרשאת הודעה</string>
     <string name="prefs_warning_permission_bluetooth_sum_text">הקלטה אוטומטית באמצעות חיבורי בלוטות\' דורשת הרשאה. לחץ כאן להגשה</string>
     <string name="prefs_warning_permission_bluetooth_text">הרשאת Bluetooth לא ניתנה</string>
+    <string name="prefs_warning_power_saving">חסכון באנרגיה</string>
     <string name="prefs_warnings_text">אזהרות</string>
     <string name="prefs_zoom_out_desc_text">כדי לגשת למצלמה רחבה במיוחד (עדשה), אתה יכול להגדיר את מקדם הזום</string>
     <string name="prefs_zoom_text">זום דיגיטלי (זום)</string>
@@ -402,7 +408,9 @@
     <string name="rec_network_text">נֶטוֹ</string>
     <string name="rec_off_text">כבוי</string>
     <string name="rec_on_text">כולל</string>
-    <string name="rec_service_msg">פרטיות: כל הסרטונים שתקליט יישמרו רק במכשיר המקומי שלך. האפליקציה לא מגבה את הסרטונים שלך (אין לה חיבורים לשרתים)\n\nהאפליקציה תמשיך לפעול ברקע (שירות החזית המופיע בשורת ההתראות) בזמן ההקלטה פעילה, כשתחזרו למסך הבית, תעברו לאפליקציה אחרת או תנעלו את הטלפון להמשך ההקלטה, וכאשר תפעילו תכונות להקלטה אוטומטית (אם תסגור את שירות הרקע, פונקציות אלו לא יפעלו). האפליקציה משתמשת ב-Firebase Analytics לניתוח אנונימי בסיסי (ראה קישור למטה)</string>
+    <string name="rec_privacy_analytics_msg">האפליקציה משתמשת ב-Firebase Analytics לניתוח אנונימי בסיסי (ראה קישור למטה)</string>
+    <string name="rec_privacy_permissions_msg">האפליקציה משתמשת בהרשאות הבאות:\n- פתח את מזהה המכשיר האנונימי OAID (לפרסום מותאם אישית)\n- מצלמה, אודיו (להקלטת וידאו)\n- אחסון (לשמירת סרטונים)\n- LOCATION (לקבלת כתובת המיקום הנוכחי, קואורדינטות GPS, מהירות - להצגה במסך הראשי של האפליקציה ולהחיל כתוביות לסרטון)\n- פרסום אינטרנטי)</string>
+    <string name="rec_privacy_service_msg">פרטיות: כל הסרטונים שתקליט יישמרו רק במכשיר המקומי שלך. האפליקציה לא מגבה את הסרטונים שלך (אין לה חיבורים לשרתים)\n\nהאפליקציה תמשיך לפעול ברקע (שירות החזית המופיע בשורת ההתראות) בזמן ההקלטה פעילה, כשתחזרו למסך הבית, תעברו לאפליקציה אחרת או תנעלו את הטלפון כדי שתוכל להמשיך בהקלטה, ומתי אתה מפעיל תכונות להקלטה אוטומטית (אם תסגור את שירות הרקע, הפונקציות האלה לא יעבדו).</string>
     <string name="recording_file_name_prefix">קידומת לשמות קבצי וידאו</string>
     <string name="recording_start_text">התחל להקליט</string>
     <string name="recording_started_failed_text">שגיאה בהתחלת ההקלטה</string>
@@ -452,6 +460,7 @@
     <string name="videos_file_item_share">שתף זאת</string>
     <string name="videos_file_item_watch">שעון</string>
     <string name="videos_file_open_with">לפתוח עם</string>
+    <string name="videos_file_repair">תיקון קובץ פגום/לא ניתן לשחק</string>
     <string name="videos_file_select">בחר עבור</string>
     <string name="videos_file_sort_asc">מיין בסדר עולה</string>
     <string name="videos_file_sort_desc">מיון יורד</string>

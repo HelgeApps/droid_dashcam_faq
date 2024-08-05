@@ -45,6 +45,7 @@
     <string name="donation_dlg_no_ads_text">Du har ingen annonser.</string>
     <string name="donation_level_text">Ditt donasjonsnivå:</string>
     <string name="donation_purchase_info_loading_text">Handleinformasjonen er ikke lastet opp ennå. Er du tilkoblet og logget på Google-kontoen din?</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Hvis du allerede har gitt en donasjon, for å gjenopprette kjøpene dine, må du installere applikasjonen på nytt på Google Play etter å ha valgt riktig Google-konto</string>
     <string name="donation_remove_ads_by_any_amount_text">Fjern annonser for alltid med en engangsdonasjon uansett beløp.</string>
     <string name="donation_remove_ads_by_subscribing_text">Du kan også donere månedlig for å fjerne annonser.</string>
     <string name="donation_subs_any_amount_text">Annonsering fjernes fullstendig mens et abonnement for et hvilket som helst beløp per måned er aktivt.</string>
@@ -133,6 +134,7 @@
     <string name="prefs_audio_bt_recording_warning_message_text">Bruk kun med Bluetooth-hodetelefoner. Hvis du kobler til hovedenheten (bilradioen) via Bluetooth, kan dette av en eller annen grunn automatisk utløse en telefonsamtale til standardnummeret på denne enheten</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Ikke bruk med hovedenhet (bilradio)!</string>
     <string name="prefs_audio_codec_title">Lydkodek</string>
+    <string name="prefs_audio_permission_not_granted_title">Tillatelse til lydopptak er ikke gitt</string>
     <string name="prefs_audio_priority_sum">Hvis aktivert, vil ikke andre applikasjoner kunne bruke mikrofonen. Hvis den er deaktivert, kan det hende at denne applikasjonen ikke kan ta opp lyd når flere applikasjoner kjører med mikrofonen (Android tillater ikke alltid samtidig bruk av mikrofonen)</string>
     <string name="prefs_audio_priority_title">Prioriter lyd til denne appen</string>
     <string name="prefs_audio_rate_text">Prøvetakingsfrekvens</string>
@@ -206,6 +208,7 @@
     <string name="prefs_location_mode_high_accuracy_text">Den mest nøyaktige plassering (koordinater) og hastighet på grunn av større batteristrømforbruk.</string>
     <string name="prefs_location_mode_low_power_text">Lav nøyaktighet på plassering (koordinater) og hastighet på grunn av lavt batteriforbruk.</string>
     <string name="prefs_location_mode_text">GPS-prioritet (batteri eller nøyaktighet)</string>
+    <string name="prefs_location_power_saving_to_get_updates_in_background">Strømsparing bør være slått av for å kunne få plasseringsoppdateringer (GPS) i bakgrunnen.</string>
     <string name="prefs_location_provider_method_text">Stedsinnhentingsmetode (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS-oppdateringshastighet</string>
     <string name="prefs_meters_accuracy_value_text">meter med nøyaktighet</string>
@@ -240,6 +243,7 @@
     <string name="prefs_overlay_drag_btn_text">Dra vinduet</string>
     <string name="prefs_overlay_speed_text">Vis hastighet</string>
     <string name="prefs_overlay_videos_btn_text">Åpne videoskjermen</string>
+    <string name="prefs_permission_tap_to_grant">Trykk for å gi tillatelsen</string>
     <string name="prefs_pinch_to_zoom_sum_text">Zoom med to fingre</string>
     <string name="prefs_pinch_to_zoom_text">Aktiver skjermzoom</string>
     <string name="prefs_policy_text">Personvernerklæring</string>
@@ -270,6 +274,7 @@
     <string name="prefs_screen_video_day_night_mode_text">Auto dag /natt innstillinger</string>
     <string name="prefs_settings_bitrate_sum_text">Høyere bitrate - bedre kvalitet, men større videofilstørrelse</string>
     <string name="prefs_settings_fps_sum_text">Mer FPS - jevnere video, men raskere batteritømming. Det er bedre å sette den første verdien til den laveste (den andre kan være høyere) for bedre opptak i mørket</string>
+    <string name="prefs_settings_max_file_tip_sum_text">Noen enheter kan begrense den maksimale filstørrelsen til 4 GB, så du må velge innstillinger (bithastighet, varighet, oppløsning) slik at én videofil ikke overstiger 4 GB</string>
     <string name="prefs_share_sum_text">Send denne appen til vennene dine</string>
     <string name="prefs_share_text">Dele denne</string>
     <string name="prefs_shortcut_launcher_has_been_added">Snarvei (starter) er lagt til</string>
@@ -348,7 +353,7 @@
     <string name="prefs_video_bitrate_text">Bitrate (kvalitet)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kamerakontroll scenemodus (natt)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kamerakontroll Scene-modus (dag)</string>
-    <string name="prefs_video_camera_hidden_by_manufacture_tip">Данная камера была скрыта производителем и может не работать</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Dette kameraet har blitt skjult av produsenten og fungerer kanskje ikke</string>
     <string name="prefs_video_codec_sum_text">H.265 HEVC- og AV1-kodeker gir bedre kvalitet ved lavere bithastigheter enn H.264 AVC, slik at du kan spare plass ved å redusere bithastigheten. Men videoer kan ikke spilles av i enkelte videospillere</string>
     <string name="prefs_video_codec_text">Videokodek</string>
     <string name="prefs_video_control_scene_mode_beach_text">Strand (lyst vær)</string>
@@ -386,6 +391,7 @@
     <string name="prefs_warning_notifications_text">Varslingstillatelse</string>
     <string name="prefs_warning_permission_bluetooth_sum_text">Automatisk opptak over Bluetooth-tilkoblinger krever tillatelse. Klikk her for å sende inn</string>
     <string name="prefs_warning_permission_bluetooth_text">Bluetooth-tillatelse ikke gitt</string>
+    <string name="prefs_warning_power_saving">Strømsparing</string>
     <string name="prefs_warnings_text">Advarsler</string>
     <string name="prefs_zoom_out_desc_text">For å få tilgang til ultravidvinkelkameraet (objektivet), kan du stille inn zoomfaktoren</string>
     <string name="prefs_zoom_text">Digital zoom (zoom)</string>
@@ -402,7 +408,9 @@
     <string name="rec_network_text">Nett</string>
     <string name="rec_off_text">Av</string>
     <string name="rec_on_text">Inkl.</string>
-    <string name="rec_service_msg">Personvern: Alle videoer du tar opp vil bare bli lagret på din lokale enhet. Applikasjonen sikkerhetskopierer ikke videoene dine (har ingen tilkoblinger til servere)\n\nAppen vil fortsette å kjøre i bakgrunnen (forgrunnstjenesten som vises i varslingslinjen) mens opptaket er aktivt, når du går tilbake til startskjermen, bytter til en annen app eller låser telefonen for å fortsette opptaket, og når du slår på funksjoner for automatisk opptak (hvis du lukker bakgrunnstjenesten, vil ikke disse funksjonene fungere). Appen bruker Firebase Analytics for grunnleggende anonym analyse (se lenken nedenfor)</string>
+    <string name="rec_privacy_analytics_msg">Appen bruker Firebase Analytics for grunnleggende anonym analyse (se lenken nedenfor)</string>
+    <string name="rec_privacy_permissions_msg">Applikasjonen bruker følgende tillatelser:\n- Åpne anonym enhetsidentifikator OAID (for personlig tilpasset annonsering)\n- KAMERA, AUDIO (for videoopptak)\n- LAGRING (for å lagre videoer)\n- PLASSERING (for å få adressen til gjeldende posisjon, GPS-koordinater, hastighet - for å vise på hovedskjermen til applikasjonen og bruke undertekster til videoen)\n- Internett-annonsering)</string>
+    <string name="rec_privacy_service_msg">Personvern: Alle videoer du tar opp vil bare bli lagret på din lokale enhet. Applikasjonen sikkerhetskopierer ikke videoene dine (har ingen tilkoblinger til servere)\n\nAppen vil fortsette å kjøre i bakgrunnen (forgrunnstjenesten som vises i varslingslinjen) mens opptaket er aktivt, når du går tilbake til startskjermen, bytter til en annen app eller låser telefonen for å kunne fortsette opptaket, og når du slår på funksjoner for automatisk opptak (hvis du lukker bakgrunnstjenesten, vil ikke disse funksjonene fungere).</string>
     <string name="recording_file_name_prefix">Prefiks for videofilnavn</string>
     <string name="recording_start_text">Start opptak</string>
     <string name="recording_started_failed_text">Feil ved start av opptak</string>
@@ -452,6 +460,7 @@
     <string name="videos_file_item_share">Dele denne</string>
     <string name="videos_file_item_watch">Se</string>
     <string name="videos_file_open_with">Åpne med</string>
+    <string name="videos_file_repair">Reparer ødelagt/uspillbar fil</string>
     <string name="videos_file_select">Velg for</string>
     <string name="videos_file_sort_asc">Sorter stigende</string>
     <string name="videos_file_sort_desc">Sorter synkende</string>

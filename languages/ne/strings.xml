@@ -45,6 +45,7 @@
     <string name="donation_dlg_no_ads_text">तपाईंसँग कुनै विज्ञापन छैन।</string>
     <string name="donation_level_text">तपाईंको दान स्तर:</string>
     <string name="donation_purchase_info_loading_text">किनमेल जानकारी अझै अपलोड गरिएको छैन। के तपाईं अनलाइन हुनुहुन्छ र आफ्नो Google खातामा साइन इन हुनुहुन्छ?</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">यदि तपाईंले पहिले नै दान गरिसक्नुभएको छ भने, आफ्नो खरिदहरू पुनर्स्थापना गर्न, कृपया सही Google खाता चयन गरेपछि Google Play मा अनुप्रयोग पुन: स्थापना गर्नुहोस्।</string>
     <string name="donation_remove_ads_by_any_amount_text">कुनै पनि रकमको एक पटक दानको साथ सदाका लागि विज्ञापनहरू हटाउनुहोस्।</string>
     <string name="donation_remove_ads_by_subscribing_text">तपाइँ विज्ञापनहरू हटाउन मासिक दान पनि गर्न सक्नुहुन्छ।</string>
     <string name="donation_subs_any_amount_text">प्रति महिना कुनै पनि रकमको लागि सदस्यता सक्रिय हुँदा विज्ञापन पूर्ण रूपमा हटाइन्छ।</string>
@@ -133,6 +134,7 @@
     <string name="prefs_audio_bt_recording_warning_message_text">ब्लुटुथ हेडफोनको साथ मात्र प्रयोग गर्नुहोस्। यदि तपाइँ ब्लुटुथ मार्फत हेड युनिट (कार रेडियो) मा जडान गर्नुहुन्छ भने, केहि कारणले गर्दा यसले स्वचालित रूपमा यस यन्त्रको मानक नम्बरमा फोन कल ट्रिगर गर्न सक्छ।</string>
     <string name="prefs_audio_bt_recording_warning_title_text">हेड युनिट (कार रेडियो) संग प्रयोग नगर्नुहोस्!</string>
     <string name="prefs_audio_codec_title">अडियो कोडेक</string>
+    <string name="prefs_audio_permission_not_granted_title">अडियो रेकर्डिङ अनुमति दिइएको छैन</string>
     <string name="prefs_audio_priority_sum">यदि सक्षम पारियो भने, अन्य अनुप्रयोगहरूले माइक्रोफोन प्रयोग गर्न सक्षम हुने छैनन्। यदि असक्षम पारिएको छ भने, यो अनुप्रयोगले माइक्रोफोन प्रयोग गरेर धेरै अनुप्रयोगहरू चलिरहेको बेला अडियो रेकर्ड गर्न सक्षम नहुन सक्छ (एन्ड्रोइडले सधैं माइक्रोफोनको एकै साथ प्रयोग गर्न अनुमति दिँदैन)</string>
     <string name="prefs_audio_priority_title">यो एपमा अडियोलाई प्राथमिकता दिनुहोस्</string>
     <string name="prefs_audio_rate_text">नमूना आवृत्ति</string>
@@ -206,6 +208,7 @@
     <string name="prefs_location_mode_high_accuracy_text">सबैभन्दा सही स्थान (सन्देश) र गति धेरै ब्याट्री पावर खपत को कारण।</string>
     <string name="prefs_location_mode_low_power_text">कम ब्याट्री पावर खपतको कारण स्थान (निर्देशांक) र गति को कम सटीकता।</string>
     <string name="prefs_location_mode_text">GPS प्राथमिकता (ब्याट्री वा शुद्धता)</string>
+    <string name="prefs_location_power_saving_to_get_updates_in_background">पृष्ठभूमिमा स्थान (GPS) अद्यावधिकहरू प्राप्त गर्न सक्षम हुन पावर बचत बन्द गर्नुपर्छ।</string>
     <string name="prefs_location_provider_method_text">स्थान प्राप्ति विधि (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS अद्यावधिक दर</string>
     <string name="prefs_meters_accuracy_value_text">शुद्धता को मीटर</string>
@@ -240,6 +243,7 @@
     <string name="prefs_overlay_drag_btn_text">विन्डो तान्नुहोस्</string>
     <string name="prefs_overlay_speed_text">गति देखाउनुहोस्</string>
     <string name="prefs_overlay_videos_btn_text">भिडियो स्क्रिन खोल्नुहोस्</string>
+    <string name="prefs_permission_tap_to_grant">अनुमति दिन ट्याप गर्नुहोस्</string>
     <string name="prefs_pinch_to_zoom_sum_text">दुई औंलाहरूले जुम गर्नुहोस्</string>
     <string name="prefs_pinch_to_zoom_text">स्क्रिन जुम सक्षम गर्नुहोस्</string>
     <string name="prefs_policy_text">गोपनीयता नीति</string>
@@ -270,6 +274,7 @@
     <string name="prefs_screen_video_day_night_mode_text">स्वत: दिन /रात सेटिङहरू</string>
     <string name="prefs_settings_bitrate_sum_text">उच्च बिटरेट - राम्रो गुणस्तर, तर ठूलो भिडियो फाइल आकार</string>
     <string name="prefs_settings_fps_sum_text">थप FPS - चिल्लो भिडियो, तर छिटो ब्याट्री निकास। अँध्यारोमा राम्रो रेकर्डिङको लागि पहिलो मानलाई सबैभन्दा कम (दोस्रो उच्च हुन सक्छ) सेट गर्न राम्रो छ</string>
+    <string name="prefs_settings_max_file_tip_sum_text">केही यन्त्रहरूले अधिकतम फाइल साइज 4 GB मा सीमित गर्न सक्छ, त्यसैले तपाईंले सेटिङहरू (बिटरेट, अवधि, रिजोल्युसन) चयन गर्न आवश्यक छ ताकि एउटा भिडियो फाइल 4 GB भन्दा बढी नहोस्।</string>
     <string name="prefs_share_sum_text">आफ्नो साथीहरूलाई यो एप पठाउनुहोस्</string>
     <string name="prefs_share_text">यो साझा गर्नुहोस्</string>
     <string name="prefs_shortcut_launcher_has_been_added">सर्टकट (लन्चर) थपिएको छ</string>
@@ -348,7 +353,7 @@
     <string name="prefs_video_bitrate_text">बिटरेट (गुणस्तर)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">क्यामेरा नियन्त्रण दृश्य मोड (रात)</string>
     <string name="prefs_video_camera_control_scene_mode_text">क्यामेरा नियन्त्रण दृश्य मोड (दिन)</string>
-    <string name="prefs_video_camera_hidden_by_manufacture_tip">DANNAIA KAMERA была скрыта производителем и может не работать</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">यो क्यामेरा निर्माता द्वारा लुकाइएको छ र काम नगर्न सक्छ</string>
     <string name="prefs_video_codec_sum_text">H.265 HEVC र AV1 कोडेकहरूले H.264 AVC भन्दा कम बिटरेटहरूमा राम्रो गुणस्तर प्रदान गर्दछ, त्यसैले तपाईंले बिटरेट घटाएर ठाउँ बचत गर्न सक्नुहुन्छ। तर भिडियोहरू केही भिडियो प्लेयरहरूमा प्ले नहुन सक्छ</string>
     <string name="prefs_video_codec_text">भिडियो कोडेक</string>
     <string name="prefs_video_control_scene_mode_beach_text">समुद्र तट (उज्ज्वल मौसम)</string>
@@ -386,6 +391,7 @@
     <string name="prefs_warning_notifications_text">सूचना अनुमति</string>
     <string name="prefs_warning_permission_bluetooth_sum_text">ब्लुटुथ जडानहरूमा स्वचालित रेकर्डिङलाई अनुमति चाहिन्छ। पेश गर्न यहाँ क्लिक गर्नुहोस्</string>
     <string name="prefs_warning_permission_bluetooth_text">ब्लुटुथ अनुमति दिइएको छैन</string>
+    <string name="prefs_warning_power_saving">उर्जा बचत</string>
     <string name="prefs_warnings_text">चेतावनीहरू</string>
     <string name="prefs_zoom_out_desc_text">अल्ट्रा वाइड-एंगल क्यामेरा (लेन्स) पहुँच गर्न, तपाईं जुम कारक सेट गर्न सक्नुहुन्छ</string>
     <string name="prefs_zoom_text">डिजिटल जुम (जुम)</string>
@@ -402,7 +408,9 @@
     <string name="rec_network_text">नेट</string>
     <string name="rec_off_text">बन्द</string>
     <string name="rec_on_text">समावेश</string>
-    <string name="rec_service_msg">गोपनीयता: तपाईंले रेकर्ड गर्नुभएका सबै भिडियोहरू तपाईंको स्थानीय उपकरणमा मात्र सुरक्षित हुनेछन्। अनुप्रयोगले तपाइँको भिडियोहरू ब्याकअप गर्दैन (सर्भरहरूमा कुनै जडान छैन)\n\nरेकर्डिङ सक्रिय हुँदा एप पृष्ठभूमिमा (सूचना पट्टीमा देखा पर्ने अग्रभूमि सेवा) चलिरहन्छ, जब तपाईं गृह स्क्रिनमा फर्कनुहुन्छ, अर्को एपमा स्विच गर्नुहोस् वा रेकर्डिङ जारी राख्न आफ्नो फोन लक गर्नुहोस्, र तपाईंले अन गर्दा स्वचालित रेकर्डिङका लागि सुविधाहरू (यदि तपाईंले पृष्ठभूमि सेवा बन्द गर्नुभयो भने, यी प्रकार्यहरूले काम गर्ने छैनन्)। एपले आधारभूत बेनामी एनालिटिक्सका लागि Firebase एनालिटिक्स प्रयोग गर्छ (तलको लिङ्क हेर्नुहोस्)</string>
+    <string name="rec_privacy_analytics_msg">एपले आधारभूत बेनामी एनालिटिक्सका लागि Firebase एनालिटिक्स प्रयोग गर्छ (तलको लिङ्क हेर्नुहोस्)</string>
+    <string name="rec_privacy_permissions_msg">अनुप्रयोगले निम्न अनुमतिहरू प्रयोग गर्दछ:\n- अज्ञात उपकरण पहिचानकर्ता OAID खोल्नुहोस् (व्यक्तिगत विज्ञापनको लागि)\n- क्यामेरा, अडियो (भिडियो रेकर्डिङका लागि)\n- भण्डारण (भिडियोहरू बचत गर्नका लागि)\n- LOCATION (हालको स्थानको ठेगाना प्राप्त गर्न, GPS समन्वय, गति - अनुप्रयोगको मुख्य स्क्रिनमा देखाउन र भिडियोमा उपशीर्षकहरू लागू गर्न)\n- इन्टरनेट विज्ञापन)</string>
+    <string name="rec_privacy_service_msg">गोपनीयता: तपाईंले रेकर्ड गर्नुभएका सबै भिडियोहरू तपाईंको स्थानीय उपकरणमा मात्र सुरक्षित हुनेछन्। अनुप्रयोगले तपाइँको भिडियोहरू ब्याकअप गर्दैन (सर्भरहरूमा कुनै जडान छैन)\n\nरेकर्डिङ सक्रिय हुँदा एप पृष्ठभूमिमा (सूचना पट्टीमा देखा पर्ने अग्रभूमि सेवा) चलिरहन्छ, जब तपाईं गृह स्क्रिनमा फर्कनुहुन्छ, अर्को एपमा स्विच गर्नुहोस् वा रेकर्डिङ जारी राख्न सक्षम हुन आफ्नो फोन लक गर्नुहोस्, र कहिले तपाईंले स्वचालित रेकर्डिङका लागि सुविधाहरू खोल्नुहोस् (यदि तपाईंले पृष्ठभूमि सेवा बन्द गर्नुभयो भने, यी प्रकार्यहरूले काम गर्ने छैनन्)।</string>
     <string name="recording_file_name_prefix">भिडियो फाइल नामहरूको लागि उपसर्ग</string>
     <string name="recording_start_text">रेकर्डिङ सुरु गर्नुहोस्</string>
     <string name="recording_started_failed_text">रेकर्डिङ सुरु गर्दा त्रुटि</string>
@@ -452,6 +460,7 @@
     <string name="videos_file_item_share">यो साझा गर्नुहोस्</string>
     <string name="videos_file_item_watch">हेर्नुहोस्</string>
     <string name="videos_file_open_with">संग खोल्नुहोस्</string>
+    <string name="videos_file_repair">भ्रष्ट/चलाउन नसकिने फाइल मर्मत गर्नुहोस्</string>
     <string name="videos_file_select">लागि चयन गर्नुहोस्</string>
     <string name="videos_file_sort_asc">आरोहण क्रमबद्ध गर्नुहोस्</string>
     <string name="videos_file_sort_desc">घट्दो क्रमबद्ध गर्नुहोस्</string>

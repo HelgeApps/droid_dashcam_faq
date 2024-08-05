@@ -45,6 +45,7 @@
     <string name="donation_dlg_no_ads_text">Þú átt engar auglýsingar.</string>
     <string name="donation_level_text">Framlag þitt:</string>
     <string name="donation_purchase_info_loading_text">Innkaupaupplýsingunum hefur ekki verið hlaðið upp ennþá. Ertu á netinu og skráður inn á Google reikninginn þinn?</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Ef þú hefur þegar lagt fram framlag, til að endurheimta kaupin þín, vinsamlegast settu forritið upp aftur á Google Play eftir að hafa valið réttan Google reikning</string>
     <string name="donation_remove_ads_by_any_amount_text">Fjarlægðu auglýsingar að eilífu með einu sinni framlagi af hvaða upphæð sem er.</string>
     <string name="donation_remove_ads_by_subscribing_text">Þú getur líka gefið mánaðarlega til að fjarlægja auglýsingar.</string>
     <string name="donation_subs_any_amount_text">Auglýsingar eru alveg fjarlægðar á meðan áskrift fyrir hvaða upphæð sem er á mánuði er virk.</string>
@@ -133,6 +134,7 @@
     <string name="prefs_audio_bt_recording_warning_message_text">Notist aðeins með Bluetooth heyrnartólum. Ef þú tengist höfuðeiningunni (bílaútvarpinu) í gegnum Bluetooth, getur þetta af einhverjum ástæðum kallað sjálfkrafa af stað símtali í venjulega númerið á þessu tæki</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Ekki nota með höfuðeiningu (bílaútvarp)!</string>
     <string name="prefs_audio_codec_title">Hljóð merkjamál</string>
+    <string name="prefs_audio_permission_not_granted_title">Hljóðupptökuleyfi er ekki veitt</string>
     <string name="prefs_audio_priority_sum">Ef það er virkt munu önnur forrit ekki geta notað hljóðnemann. Ef slökkt er á því gæti þetta forrit ekki tekið upp hljóð þegar mörg forrit eru í gangi með hljóðnemanum (Android leyfir ekki alltaf samtímis notkun hljóðnemans)</string>
     <string name="prefs_audio_priority_title">Forgangsraðaðu hljóði í þetta forrit</string>
     <string name="prefs_audio_rate_text">Sýnatökutíðni</string>
@@ -206,6 +208,7 @@
     <string name="prefs_location_mode_high_accuracy_text">Nákvæmasta staðsetning (hnit) og hraði vegna meiri orkunotkunar rafhlöðunnar.</string>
     <string name="prefs_location_mode_low_power_text">Lítil nákvæmni staðsetningar (hnit) og hraða vegna lítillar rafhlöðunotkunar.</string>
     <string name="prefs_location_mode_text">GPS forgangur (rafhlaða eða nákvæmni)</string>
+    <string name="prefs_location_power_saving_to_get_updates_in_background">Slökkt ætti á orkusparnaði til að hægt sé að fá staðsetningaruppfærslur (GPS) í bakgrunni.</string>
     <string name="prefs_location_provider_method_text">Staðsetningaröflunaraðferð (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS uppfærsluhraði</string>
     <string name="prefs_meters_accuracy_value_text">metra af nákvæmni</string>
@@ -240,6 +243,7 @@
     <string name="prefs_overlay_drag_btn_text">Dragðu glugga</string>
     <string name="prefs_overlay_speed_text">Sýna hraða</string>
     <string name="prefs_overlay_videos_btn_text">Opnaðu myndbandsskjá</string>
+    <string name="prefs_permission_tap_to_grant">Bankaðu til að gefa leyfið</string>
     <string name="prefs_pinch_to_zoom_sum_text">Aðdráttur með tveimur fingrum</string>
     <string name="prefs_pinch_to_zoom_text">Virkjaðu aðdrátt á skjá</string>
     <string name="prefs_policy_text">Friðhelgisstefna</string>
@@ -270,6 +274,7 @@
     <string name="prefs_screen_video_day_night_mode_text">Sjálfvirkar stillingar dag/nætur</string>
     <string name="prefs_settings_bitrate_sum_text">Hærri bitahraði - betri gæði, en stærri myndbandsskráarstærð</string>
     <string name="prefs_settings_fps_sum_text">Meira FPS - sléttara myndband, en hraðari rafhlaða tæmd. Það er betra að stilla fyrsta gildið á það lægsta (annað gæti verið hærra) fyrir betri upptöku í myrkri</string>
+    <string name="prefs_settings_max_file_tip_sum_text">Sum tæki kunna að takmarka hámarksskráarstærð við 4 GB, svo þú þarft að velja stillingar (bitahraði, lengd, upplausn) þannig að ein myndbandsskrá fari ekki yfir 4 GB</string>
     <string name="prefs_share_sum_text">Sendu þetta forrit til vina þinna</string>
     <string name="prefs_share_text">Deildu þessu</string>
     <string name="prefs_shortcut_launcher_has_been_added">Flýtileið (ræsiforriti) hefur verið bætt við</string>
@@ -348,7 +353,7 @@
     <string name="prefs_video_bitrate_text">Bitahraði (gæði)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Umhverfisstilling myndavélarstýringar (nótt)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Umhverfisstilling myndavélarstýringar (dagur)</string>
-    <string name="prefs_video_camera_hidden_by_manufacture_tip">Данная камера была скрыта производителем и может не работать</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Þessi myndavél hefur verið falin af framleiðanda og gæti ekki virka</string>
     <string name="prefs_video_codec_sum_text">H.265 HEVC og AV1 merkjamál veita betri gæði við lægri bitahraða en H.264 AVC, svo þú getur sparað pláss með því að minnka bitahraðann. En myndbönd geta ekki spilað í sumum myndspilurum</string>
     <string name="prefs_video_codec_text">Vídeó merkjamál</string>
     <string name="prefs_video_control_scene_mode_beach_text">Strönd (bjart veður)</string>
@@ -386,6 +391,7 @@
     <string name="prefs_warning_notifications_text">Tilkynningaleyfi</string>
     <string name="prefs_warning_permission_bluetooth_sum_text">Sjálfvirk upptaka yfir Bluetooth-tengingar krefst leyfis. Smelltu hér til að senda inn</string>
     <string name="prefs_warning_permission_bluetooth_text">Bluetooth leyfi ekki veitt</string>
+    <string name="prefs_warning_power_saving">Orkusparnaður</string>
     <string name="prefs_warnings_text">Viðvaranir</string>
     <string name="prefs_zoom_out_desc_text">Til að fá aðgang að ofur gleiðhornsmyndavélinni (linsunni) geturðu stillt aðdráttarstuðulinn</string>
     <string name="prefs_zoom_text">Stafrænn aðdráttur (aðdráttur)</string>
@@ -402,7 +408,9 @@
     <string name="rec_network_text">Nettó</string>
     <string name="rec_off_text">Af</string>
     <string name="rec_on_text">Þ.m.t.</string>
-    <string name="rec_service_msg">Persónuvernd: Öll myndbönd sem þú tekur upp verða aðeins vistuð á þínu staðbundna tæki. Forritið tekur ekki afrit af myndböndunum þínum (er ekki með neinar tengingar við netþjóna)\n\nForritið mun halda áfram að keyra í bakgrunni (forgrunnsþjónustan sem birtist á tilkynningastikunni) á meðan upptaka er virk, þegar þú ferð aftur á heimaskjáinn, skiptir yfir í annað forrit eða læsir símanum þínum til að halda upptöku áfram og þegar þú kveikir á eiginleikar fyrir sjálfvirka upptöku (ef þú lokar bakgrunnsþjónustunni virka þessar aðgerðir ekki). Forritið notar Firebase Analytics fyrir grunn nafnlausar greiningar (sjá tengil hér að neðan)</string>
+    <string name="rec_privacy_analytics_msg">Forritið notar Firebase Analytics fyrir grunn nafnlausar greiningar (sjá tengil hér að neðan)</string>
+    <string name="rec_privacy_permissions_msg">Forritið notar eftirfarandi heimildir:\n- Opnaðu nafnlaust tækisauðkenni OAID (fyrir sérsniðnar auglýsingar)\n- Myndavél, hljóð (fyrir myndbandsupptöku)\n- GEYMSLA (til að vista myndbönd)\n- STAÐSETNING (til að fá heimilisfang núverandi staðsetningar, GPS hnit, hraða - til að sýna á aðalskjá forritsins og nota texta á myndbandið)\n- Internetauglýsingar)</string>
+    <string name="rec_privacy_service_msg">Persónuvernd: Öll myndbönd sem þú tekur upp verða aðeins vistuð á þínu staðbundna tæki. Forritið tekur ekki afrit af myndböndunum þínum (er ekki með neinar tengingar við netþjóna)\n\nForritið mun halda áfram að keyra í bakgrunni (forgrunnsþjónustan sem birtist á tilkynningastikunni) á meðan upptaka er virk, þegar þú kemur aftur á heimaskjáinn, skiptir yfir í annað forrit eða læsir símanum þínum til að geta haldið áfram upptöku og hvenær þú kveikir á eiginleikum fyrir sjálfvirka upptöku (ef þú lokar bakgrunnsþjónustunni virka þessar aðgerðir ekki).</string>
     <string name="recording_file_name_prefix">Forskeyti fyrir nöfn myndbandsskráa</string>
     <string name="recording_start_text">Byrjaðu að taka upp</string>
     <string name="recording_started_failed_text">Villa við að hefja upptöku</string>
@@ -452,6 +460,7 @@
     <string name="videos_file_item_share">Deildu þessu</string>
     <string name="videos_file_item_watch">Horfðu á</string>
     <string name="videos_file_open_with">Opna með</string>
+    <string name="videos_file_repair">Gerðu við skemmda/óspilanlega skrá</string>
     <string name="videos_file_select">Veldu fyrir</string>
     <string name="videos_file_sort_asc">Raða Hækkandi</string>
     <string name="videos_file_sort_desc">Raða lækkandi</string>

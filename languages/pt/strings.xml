@@ -45,6 +45,7 @@
     <string name="donation_dlg_no_ads_text">Você não tem anúncios.</string>
     <string name="donation_level_text">Seu nível de doação:</string>
     <string name="donation_purchase_info_loading_text">As informações de compras ainda não foram carregadas. Você está online e conectado à sua conta do Google?</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Se você já fez uma doação, para restaurar suas compras, reinstale o aplicativo no Google Play após selecionar a conta do Google correta</string>
     <string name="donation_remove_ads_by_any_amount_text">Remova os anúncios para sempre com uma doação única de qualquer valor.</string>
     <string name="donation_remove_ads_by_subscribing_text">Você também pode doar mensalmente para remover anúncios.</string>
     <string name="donation_subs_any_amount_text">A publicidade é completamente removida enquanto uma assinatura de qualquer valor por mês estiver ativa.</string>
@@ -133,6 +134,7 @@
     <string name="prefs_audio_bt_recording_warning_message_text">Use apenas com fones de ouvido Bluetooth. Se você se conectar à unidade principal (rádio do carro) via Bluetooth, por algum motivo isso poderá acionar automaticamente uma chamada telefônica para o número padrão neste dispositivo</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Não use com unidade principal (rádio de carro)!</string>
     <string name="prefs_audio_codec_title">Codec de áudio</string>
+    <string name="prefs_audio_permission_not_granted_title">A permissão de gravação de áudio não foi concedida</string>
     <string name="prefs_audio_priority_sum">Se ativado, outros aplicativos não poderão usar o microfone. Se desativado, este aplicativo pode não conseguir gravar áudio quando vários aplicativos estiverem sendo executados usando o microfone (o Android nem sempre permite o uso simultâneo do microfone)</string>
     <string name="prefs_audio_priority_title">Priorizar o áudio para este app</string>
     <string name="prefs_audio_rate_text">Frequência de amostragem</string>
@@ -206,6 +208,7 @@
     <string name="prefs_location_mode_high_accuracy_text">A localização (coordenadas) e velocidade mais precisas devido ao maior consumo de energia da bateria.</string>
     <string name="prefs_location_mode_low_power_text">Baixa precisão de localização (coordenadas) e velocidade devido ao baixo consumo de energia da bateria.</string>
     <string name="prefs_location_mode_text">Prioridade de GPS (bateria ou precisão)</string>
+    <string name="prefs_location_power_saving_to_get_updates_in_background">A economia de energia deve estar desativada para poder obter atualizações de localização (GPS) em segundo plano.</string>
     <string name="prefs_location_provider_method_text">Método de aquisição de localização (GPS)</string>
     <string name="prefs_location_update_frequency_text">Taxa de atualização de GPS</string>
     <string name="prefs_meters_accuracy_value_text">metros de precisão</string>
@@ -240,6 +243,7 @@
     <string name="prefs_overlay_drag_btn_text">Janela de arrastar</string>
     <string name="prefs_overlay_speed_text">Mostrar velocidade</string>
     <string name="prefs_overlay_videos_btn_text">Abrir tela de vídeo</string>
+    <string name="prefs_permission_tap_to_grant">Toque para dar permissão</string>
     <string name="prefs_pinch_to_zoom_sum_text">Zoom com dois dedos</string>
     <string name="prefs_pinch_to_zoom_text">Habilitar zoom da tela</string>
     <string name="prefs_policy_text">Política de Privacidade</string>
@@ -270,6 +274,7 @@
     <string name="prefs_screen_video_day_night_mode_text">Configurações automáticas de dia /noite</string>
     <string name="prefs_settings_bitrate_sum_text">Taxa de bits mais alta - melhor qualidade, mas tamanho de arquivo de vídeo maior</string>
     <string name="prefs_settings_fps_sum_text">Mais FPS - vídeo mais uniforme, mas consumo de bateria mais rápido. É melhor definir o primeiro valor para o mais baixo (o segundo pode ser mais alto) para uma melhor gravação no escuro</string>
+    <string name="prefs_settings_max_file_tip_sum_text">Alguns dispositivos podem limitar o tamanho máximo do arquivo a 4 GB, então você precisa selecionar as configurações (taxa de bits, duração, resolução) para que um arquivo de vídeo não exceda 4 GB</string>
     <string name="prefs_share_sum_text">Envie este aplicativo para seus amigos</string>
     <string name="prefs_share_text">Compartilhar isso</string>
     <string name="prefs_shortcut_launcher_has_been_added">Atalho (lançador) foi adicionado</string>
@@ -348,7 +353,7 @@
     <string name="prefs_video_bitrate_text">Taxa de bits (qualidade)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Modo de cena de controle da câmera (noite)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Modo de cena de controle da câmera (dia)</string>
-    <string name="prefs_video_camera_hidden_by_manufacture_tip">A câmera de Dannaya foi protegida e não pode ser executada</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Esta câmera foi ocultada pelo fabricante e pode não funcionar</string>
     <string name="prefs_video_codec_sum_text">Os codecs H.265 HEVC e AV1 oferecem melhor qualidade com taxas de bits mais baixas do que H.264 AVC, para que você possa economizar espaço reduzindo a taxa de bits. Mas os vídeos podem não ser reproduzidos em alguns players de vídeo</string>
     <string name="prefs_video_codec_text">Codec de vídeo</string>
     <string name="prefs_video_control_scene_mode_beach_text">Praia (tempo claro)</string>
@@ -386,6 +391,7 @@
     <string name="prefs_warning_notifications_text">Permissão de Notificação</string>
     <string name="prefs_warning_permission_bluetooth_sum_text">A gravação automática através de conexões Bluetooth requer permissão. Clique aqui para enviar</string>
     <string name="prefs_warning_permission_bluetooth_text">Permissão Bluetooth não concedida</string>
+    <string name="prefs_warning_power_saving">Economia de energia</string>
     <string name="prefs_warnings_text">Avisos</string>
     <string name="prefs_zoom_out_desc_text">Para acessar a câmera ultra grande angular (lente), você pode definir o fator de zoom</string>
     <string name="prefs_zoom_text">Zoom digital (zoom)</string>
@@ -402,7 +408,9 @@
     <string name="rec_network_text">Internet</string>
     <string name="rec_off_text">Fora</string>
     <string name="rec_on_text">Incl.</string>
-    <string name="rec_service_msg">Privacidade: todos os vídeos que você gravar serão salvos apenas no seu dispositivo local. O aplicativo não faz backup de seus vídeos (não possui conexões com servidores)\n\nO aplicativo continuará sendo executado em segundo plano (o serviço em primeiro plano que aparece na barra de notificação) enquanto a gravação estiver ativa, quando você retornar à tela inicial, mudar para outro aplicativo ou bloquear seu telefone para continuar gravando e quando você ligar recursos para gravação automática (se você fechar o serviço em segundo plano, essas funções não funcionarão). O aplicativo usa Firebase Analytics para análises anônimas básicas (veja o link abaixo)</string>
+    <string name="rec_privacy_analytics_msg">O aplicativo usa Firebase Analytics para análises anônimas básicas (veja o link abaixo)</string>
+    <string name="rec_privacy_permissions_msg">O aplicativo usa as seguintes permissões:\n- Abra o identificador de dispositivo anônimo OAID (para publicidade personalizada)\n- CÂMERA, ÁUDIO (para gravação de vídeo)\n- ARMAZENAMENTO (para salvar vídeos)\n- LOCALIZAÇÃO (para obter o endereço da localização atual, coordenadas GPS, velocidade - para mostrar na tela principal do aplicativo e aplicar legendas ao vídeo)\n- Publicidade na internet)</string>
+    <string name="rec_privacy_service_msg">Privacidade: todos os vídeos que você gravar serão salvos apenas no seu dispositivo local. O aplicativo não faz backup de seus vídeos (não possui conexões com servidores)\n\nO aplicativo continuará sendo executado em segundo plano (o serviço em primeiro plano que aparece na barra de notificação) enquanto a gravação estiver ativa, quando você retornar à tela inicial, mudar para outro aplicativo ou bloquear seu telefone para continuar gravando e quando você ligar recursos para gravação automática (se você fechar o serviço em segundo plano, essas funções não funcionarão).</string>
     <string name="recording_file_name_prefix">Prefixo para nomes de arquivos de vídeo</string>
     <string name="recording_start_text">Comece a gravar</string>
     <string name="recording_started_failed_text">Erro ao iniciar a gravação</string>
@@ -452,6 +460,7 @@
     <string name="videos_file_item_share">Compartilhar isso</string>
     <string name="videos_file_item_watch">Ver</string>
     <string name="videos_file_open_with">Abrir com</string>
+    <string name="videos_file_repair">Reparar arquivo corrompido/não reproduzível</string>
     <string name="videos_file_select">Selecione para</string>
     <string name="videos_file_sort_asc">Ordernar ascendente</string>
     <string name="videos_file_sort_desc">Classificar em ordem decrescente</string>

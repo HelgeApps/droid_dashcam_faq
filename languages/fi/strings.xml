@@ -45,6 +45,7 @@
     <string name="donation_dlg_no_ads_text">Sinulla ei ole mainoksia.</string>
     <string name="donation_level_text">Lahjoitustasosi:</string>
     <string name="donation_purchase_info_loading_text">Ostostietoja ei ole vielä ladattu. Oletko online-tilassa ja kirjautunut Google-tilillesi?</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Jos olet jo tehnyt lahjoituksen, asenna sovellus uudelleen Google Playssa, kun olet valinnut oikean Google-tilin ostoksesi palauttamiseksi.</string>
     <string name="donation_remove_ads_by_any_amount_text">Poista mainokset ikuisesti minkä tahansa summan kertaluonteisella lahjoituksella.</string>
     <string name="donation_remove_ads_by_subscribing_text">Voit myös lahjoittaa kuukausittain mainosten poistamiseen.</string>
     <string name="donation_subs_any_amount_text">Mainonta poistetaan kokonaan, kun kuukausittainen tilaus on aktiivinen.</string>
@@ -133,6 +134,7 @@
     <string name="prefs_audio_bt_recording_warning_message_text">Käytä vain Bluetooth-kuulokkeiden kanssa. Jos muodostat yhteyden pääyksikköön (autoradioon) Bluetoothin kautta, tämä voi jostain syystä automaattisesti laukaista puhelun tämän laitteen vakionumeroon</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Älä käytä pääyksikön (autoradion) kanssa!</string>
     <string name="prefs_audio_codec_title">Äänikoodekki</string>
+    <string name="prefs_audio_permission_not_granted_title">Äänityslupaa ei myönnetä</string>
     <string name="prefs_audio_priority_sum">Jos tämä on käytössä, muut sovellukset eivät voi käyttää mikrofonia. Jos tämä sovellus ei ole käytössä, tämä sovellus ei välttämättä pysty tallentamaan ääntä, kun useita sovelluksia on käynnissä mikrofonin avulla (Android ei aina salli mikrofonin samanaikaista käyttöä)</string>
     <string name="prefs_audio_priority_title">Aseta ääni tälle sovellukselle etusijalle</string>
     <string name="prefs_audio_rate_text">Näytteenottotaajuus</string>
@@ -206,6 +208,7 @@
     <string name="prefs_location_mode_high_accuracy_text">Tarkin sijainti (koordinaatit) ja nopeus suuremman akun virrankulutuksen ansiosta.</string>
     <string name="prefs_location_mode_low_power_text">Alhainen sijainnin (koordinaattien) ja nopeuden tarkkuus alhaisen akun virrankulutuksen vuoksi.</string>
     <string name="prefs_location_mode_text">GPS-prioriteetti (akku tai tarkkuus)</string>
+    <string name="prefs_location_power_saving_to_get_updates_in_background">Virransäästö tulee kytkeä pois päältä, jotta sijainti (GPS) päivityksiä voidaan saada taustalla.</string>
     <string name="prefs_location_provider_method_text">Sijainnin hakumenetelmä (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS-päivitysnopeus</string>
     <string name="prefs_meters_accuracy_value_text">metrin tarkkuudella</string>
@@ -240,6 +243,7 @@
     <string name="prefs_overlay_drag_btn_text">Vedä ikkunaa</string>
     <string name="prefs_overlay_speed_text">Näytä nopeus</string>
     <string name="prefs_overlay_videos_btn_text">Avaa videonäyttö</string>
+    <string name="prefs_permission_tap_to_grant">Anna lupa napauttamalla</string>
     <string name="prefs_pinch_to_zoom_sum_text">Zoomaa kahdella sormella</string>
     <string name="prefs_pinch_to_zoom_text">Ota näytön zoomaus käyttöön</string>
     <string name="prefs_policy_text">Tietosuojakäytäntö</string>
@@ -270,6 +274,7 @@
     <string name="prefs_screen_video_day_night_mode_text">Automaattinen päivä/yö-asetukset</string>
     <string name="prefs_settings_bitrate_sum_text">Korkeampi bittinopeus - parempi laatu, mutta suurempi videotiedostokoko</string>
     <string name="prefs_settings_fps_sum_text">Enemmän FPS:ää – tasaisempi video, mutta nopeampi akun tyhjeneminen. On parempi asettaa ensimmäinen arvo pienimmäksi (toinen voi olla suurempi), jotta äänitys onnistuu paremmin pimeässä</string>
+    <string name="prefs_settings_max_file_tip_sum_text">Jotkin laitteet voivat rajoittaa tiedostokoon enimmäiskoon 4 Gt, joten sinun on valittava asetukset (bittinopeus, kesto, resoluutio), jotta yksi videotiedosto ei ylitä 4 Gt.</string>
     <string name="prefs_share_sum_text">Lähetä tämä sovellus ystävillesi</string>
     <string name="prefs_share_text">Jaa tämä</string>
     <string name="prefs_shortcut_launcher_has_been_added">Pikakuvake (käynnistysohjelma) on lisätty</string>
@@ -348,7 +353,7 @@
     <string name="prefs_video_bitrate_text">Bittinopeus (laatu)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kameran ohjausohjelma (yö)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kameran ohjausohjelma (päivä)</string>
-    <string name="prefs_video_camera_hidden_by_manufacture_tip">Данная камера была скрыта производителем и может не работать</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Valmistaja on piilottanut tämän kameran, eikä se välttämättä toimi</string>
     <string name="prefs_video_codec_sum_text">H.265 HEVC- ja AV1-koodekit tarjoavat paremman laadun alhaisemmilla bittinopeuksilla kuin H.264 AVC, joten voit säästää tilaa vähentämällä bittinopeutta. Mutta videoita ei ehkä toisteta joissakin videosoittimissa</string>
     <string name="prefs_video_codec_text">Videokoodekki</string>
     <string name="prefs_video_control_scene_mode_beach_text">Ranta (kirkas sää)</string>
@@ -386,6 +391,7 @@
     <string name="prefs_warning_notifications_text">Ilmoituslupa</string>
     <string name="prefs_warning_permission_bluetooth_sum_text">Automaattinen tallennus Bluetooth-yhteyksien kautta vaatii luvan. Lähetä napsauttamalla tätä</string>
     <string name="prefs_warning_permission_bluetooth_text">Bluetooth-lupaa ei myönnetty</string>
+    <string name="prefs_warning_power_saving">Virransäästö</string>
     <string name="prefs_warnings_text">Varoitukset</string>
     <string name="prefs_zoom_out_desc_text">Voit käyttää ultralaajakulmakameraa (objektiivia) asettamalla zoomauskertoimen</string>
     <string name="prefs_zoom_text">Digitaalinen zoom (zoom)</string>
@@ -402,7 +408,9 @@
     <string name="rec_network_text">Netto</string>
     <string name="rec_off_text">Vinossa</string>
     <string name="rec_on_text">Sisältää</string>
-    <string name="rec_service_msg">Tietosuoja: Kaikki tallentamasi videot tallennetaan vain paikalliselle laitteellesi. Sovellus ei varmuuskopioi videoitasi (ei ole yhteyksiä palvelimiin)\n\nSovellus jatkaa toimintaansa taustalla (etualalla oleva palvelu, joka näkyy ilmoituspalkissa), kun tallennus on aktiivinen, kun palaat aloitusnäyttöön, vaihdat toiseen sovellukseen tai lukitset puhelimesi jatkaaksesi tallennusta ja kun käynnistät automaattisen tallennuksen ominaisuudet (jos suljet taustapalvelun, nämä toiminnot eivät toimi). Sovellus käyttää Firebase Analyticsia anonyymiin perusanalytiikkaan (katso alla oleva linkki)</string>
+    <string name="rec_privacy_analytics_msg">Sovellus käyttää Firebase Analyticsia anonyymiin perusanalytiikkaan (katso alla oleva linkki)</string>
+    <string name="rec_privacy_permissions_msg">Sovellus käyttää seuraavia käyttöoikeuksia:\n- Avaa anonyymi laitetunniste OAID (henkilökohtaista mainontaa varten)\n- KAMERA, AUDIO (videotallennusta varten)\n- TALLENNUS (videoiden tallentamiseen)\n- SIJAINTI (saadaksesi nykyisen sijainnin osoitteen, GPS-koordinaatit, nopeuden - näyttääksesi sovelluksen päänäytöllä ja käyttääksesi tekstityksiä videoon)\n- Internet-mainonta)</string>
+    <string name="rec_privacy_service_msg">Tietosuoja: Kaikki tallentamasi videot tallennetaan vain paikalliselle laitteellesi. Sovellus ei varmuuskopioi videoitasi (ei ole yhteyksiä palvelimiin)\n\nSovellus jatkaa toimintaansa taustalla (etualan palvelu, joka näkyy ilmoituspalkissa), kun tallennus on aktiivinen, kun palaat aloitusnäyttöön, vaihdat toiseen sovellukseen tai lukitset puhelimesi, jotta voit jatkaa tallennusta, ja kun otat käyttöön automaattisen tallennuksen ominaisuudet (jos suljet taustapalvelun, nämä toiminnot eivät toimi).</string>
     <string name="recording_file_name_prefix">Videotiedostojen nimien etuliite</string>
     <string name="recording_start_text">Aloita nauhottaminen</string>
     <string name="recording_started_failed_text">Virhe tallennuksen aloituksessa</string>
@@ -452,6 +460,7 @@
     <string name="videos_file_item_share">Jaa tämä</string>
     <string name="videos_file_item_watch">Katsella</string>
     <string name="videos_file_open_with">Avaa</string>
+    <string name="videos_file_repair">Korjaa vioittunut/toistettavissa oleva tiedosto</string>
     <string name="videos_file_select">Valitse varten</string>
     <string name="videos_file_sort_asc">Lajittele nousevaan järjestykseen</string>
     <string name="videos_file_sort_desc">Lajittele laskevasti</string>

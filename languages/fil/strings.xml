@@ -45,6 +45,7 @@
     <string name="donation_dlg_no_ads_text">Wala kang mga ad.</string>
     <string name="donation_level_text">Ang iyong antas ng donasyon:</string>
     <string name="donation_purchase_info_loading_text">Ang impormasyon sa pamimili ay hindi pa na-upload. Online ka ba at naka-sign in sa iyong Google account?</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Kung nakapagbigay ka na ng donasyon, para maibalik ang iyong mga binili, paki-install muli ang application sa Google Play pagkatapos piliin ang tamang Google account</string>
     <string name="donation_remove_ads_by_any_amount_text">Mag-alis ng mga ad nang tuluyan gamit ang isang beses na donasyon ng anumang halaga.</string>
     <string name="donation_remove_ads_by_subscribing_text">Maaari ka ring mag-donate buwan-buwan upang alisin ang mga ad.</string>
     <string name="donation_subs_any_amount_text">Ang advertising ay ganap na tinanggal habang ang isang subscription para sa anumang halaga bawat buwan ay aktibo.</string>
@@ -133,6 +134,7 @@
     <string name="prefs_audio_bt_recording_warning_message_text">Gamitin lamang sa mga Bluetooth headphone. Kung kumonekta ka sa head unit (radio ng kotse) sa pamamagitan ng Bluetooth, sa ilang kadahilanan ay maaari itong awtomatikong mag-trigger ng isang tawag sa telepono sa karaniwang numero sa device na ito</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Huwag gamitin sa head unit (car radio)!</string>
     <string name="prefs_audio_codec_title">Audio codec</string>
+    <string name="prefs_audio_permission_not_granted_title">Hindi ipinagkaloob ang pahintulot sa pag-record ng audio</string>
     <string name="prefs_audio_priority_sum">Kung pinagana, hindi magagamit ng ibang mga application ang mikropono. Kung hindi pinagana, maaaring hindi makapag-record ng audio ang application na ito kapag maraming application ang tumatakbo gamit ang mikropono (hindi palaging pinapayagan ng Android ang sabay-sabay na paggamit ng mikropono)</string>
     <string name="prefs_audio_priority_title">Unahin ang audio sa app na ito</string>
     <string name="prefs_audio_rate_text">Dalas ng sampling</string>
@@ -206,6 +208,7 @@
     <string name="prefs_location_mode_high_accuracy_text">Ang pinakatumpak na lokasyon (coordinate) at bilis dahil sa mas malaking pagkonsumo ng kuryente.</string>
     <string name="prefs_location_mode_low_power_text">Mababang katumpakan ng lokasyon (coordinate) at bilis dahil sa mababang pagkonsumo ng kuryente.</string>
     <string name="prefs_location_mode_text">Priyoridad ng GPS (Baterya o Katumpakan)</string>
+    <string name="prefs_location_power_saving_to_get_updates_in_background">Dapat na naka-off ang Power Saving upang makakuha ng mga update sa lokasyon (GPS) sa background.</string>
     <string name="prefs_location_provider_method_text">Paraan ng pagkuha ng lokasyon (GPS)</string>
     <string name="prefs_location_update_frequency_text">Rate ng pag-update ng GPS</string>
     <string name="prefs_meters_accuracy_value_text">metro ng katumpakan</string>
@@ -240,6 +243,7 @@
     <string name="prefs_overlay_drag_btn_text">I-drag ang window</string>
     <string name="prefs_overlay_speed_text">Ipakita ang bilis</string>
     <string name="prefs_overlay_videos_btn_text">Buksan ang screen ng video</string>
+    <string name="prefs_permission_tap_to_grant">I-tap para bigyan ng pahintulot</string>
     <string name="prefs_pinch_to_zoom_sum_text">Mag-zoom gamit ang dalawang daliri</string>
     <string name="prefs_pinch_to_zoom_text">Paganahin ang screen zoom</string>
     <string name="prefs_policy_text">Patakaran sa Privacy</string>
@@ -270,6 +274,7 @@
     <string name="prefs_screen_video_day_night_mode_text">Mga Setting ng Auto Araw /Gabi</string>
     <string name="prefs_settings_bitrate_sum_text">Mas mataas na bitrate - mas mahusay na kalidad, ngunit mas malaking laki ng video file</string>
     <string name="prefs_settings_fps_sum_text">Higit pang FPS - mas malinaw na video, ngunit mas mabilis na pagkaubos ng baterya. Mas mainam na itakda ang unang halaga sa pinakamababa (maaaring mas mataas ang pangalawa) para sa mas mahusay na pag-record sa dilim</string>
+    <string name="prefs_settings_max_file_tip_sum_text">Maaaring limitahan ng ilang device ang maximum na laki ng file sa 4 GB, kaya kailangan mong pumili ng mga setting (bitrate, tagal, resolution) upang ang isang video file ay hindi lalampas sa 4 GB</string>
     <string name="prefs_share_sum_text">Ipadala ang app na ito sa iyong mga kaibigan</string>
     <string name="prefs_share_text">Ibahagi ito</string>
     <string name="prefs_shortcut_launcher_has_been_added">Naidagdag ang shortcut (launcher).</string>
@@ -348,7 +353,7 @@
     <string name="prefs_video_bitrate_text">Bitrate (kalidad)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Camera Control Scene Mode (Gabi)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Camera Control Scene Mode (Araw)</string>
-    <string name="prefs_video_camera_hidden_by_manufacture_tip">Данная камера была скрыта производителем и может не работать</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Ang camera na ito ay itinago ng tagagawa at maaaring hindi gumana</string>
     <string name="prefs_video_codec_sum_text">Ang H.265 HEVC at AV1 codec ay nagbibigay ng mas mahusay na kalidad sa mas mababang bitrate kaysa sa H.264 AVC, upang makatipid ka ng espasyo sa pamamagitan ng pagbabawas ng bitrate. Ngunit maaaring hindi mag-play ang mga video sa ilang video player</string>
     <string name="prefs_video_codec_text">Video codec</string>
     <string name="prefs_video_control_scene_mode_beach_text">Beach (maliwanag na panahon)</string>
@@ -386,6 +391,7 @@
     <string name="prefs_warning_notifications_text">Pahintulot sa Pag-abiso</string>
     <string name="prefs_warning_permission_bluetooth_sum_text">Ang awtomatikong pag-record sa mga koneksyong Bluetooth ay nangangailangan ng pahintulot. Mag-click dito para isumite</string>
     <string name="prefs_warning_permission_bluetooth_text">Hindi ibinigay ang pahintulot sa Bluetooth</string>
+    <string name="prefs_warning_power_saving">Power Saving</string>
     <string name="prefs_warnings_text">Mga babala</string>
     <string name="prefs_zoom_out_desc_text">Upang ma-access ang ultra wide-angle na camera (lens), maaari mong itakda ang zoom factor</string>
     <string name="prefs_zoom_text">Digital zoom (zoom)</string>
@@ -402,7 +408,9 @@
     <string name="rec_network_text">Net</string>
     <string name="rec_off_text">Naka-off</string>
     <string name="rec_on_text">Incl.</string>
-    <string name="rec_service_msg">Privacy: Ang lahat ng mga video na iyong ni-record ay ise-save lamang sa iyong lokal na device. Hindi bina-backup ng application ang iyong mga video (walang anumang koneksyon sa mga server)\n\nPatuloy na tatakbo ang app sa background (ang foreground service na lumalabas sa notification bar) habang aktibo ang pagre-record, kapag bumalik ka sa home screen, lumipat sa ibang app o i-lock ang iyong telepono para magpatuloy sa pagre-record, at kapag na-on mo mga tampok para sa awtomatikong pag-record (kung isasara mo ang serbisyo sa background, hindi gagana ang mga function na ito). Gumagamit ang app ng Firebase Analytics para sa pangunahing anonymous na analytics (tingnan ang link sa ibaba)</string>
+    <string name="rec_privacy_analytics_msg">Gumagamit ang app ng Firebase Analytics para sa pangunahing anonymous na analytics (tingnan ang link sa ibaba)</string>
+    <string name="rec_privacy_permissions_msg">Ginagamit ng application ang mga sumusunod na pahintulot:\n- Buksan ang anonymous na device identifier OAID (para sa personalized na advertising)\n- CAMERA, AUDIO (para sa pag-record ng video)\n- STORAGE (para sa pag-save ng mga video)\n- LOCATION (upang makuha ang address ng kasalukuyang lokasyon, GPS coordinate, bilis - upang ipakita sa pangunahing screen ng application at maglapat ng mga subtitle sa video)\n- advertising sa Internet)</string>
+    <string name="rec_privacy_service_msg">Privacy: Ang lahat ng mga video na iyong ni-record ay ise-save lamang sa iyong lokal na device. Hindi bina-backup ng application ang iyong mga video (walang anumang koneksyon sa mga server)\n\nPatuloy na tatakbo ang app sa background (ang serbisyo sa foreground na lumalabas sa notification bar) habang aktibo ang pagre-record, kapag bumalik ka sa home screen, lumipat sa ibang app o i-lock ang iyong telepono para makapagpatuloy sa pagre-record, at kapag i-on mo ang mga feature para sa awtomatikong pag-record (kung isasara mo ang serbisyo sa background, hindi gagana ang mga function na ito).</string>
     <string name="recording_file_name_prefix">Prefix para sa mga pangalan ng video file</string>
     <string name="recording_start_text">Simulan ang recording</string>
     <string name="recording_started_failed_text">Error sa pagsisimula ng pagre-record</string>
@@ -452,6 +460,7 @@
     <string name="videos_file_item_share">Ibahagi ito</string>
     <string name="videos_file_item_watch">Panoorin</string>
     <string name="videos_file_open_with">Buksan sa</string>
+    <string name="videos_file_repair">Ayusin ang sira/hindi nape-play na file</string>
     <string name="videos_file_select">Pumili para sa</string>
     <string name="videos_file_sort_asc">Pataas</string>
     <string name="videos_file_sort_desc">Pagbukud-bukurin pababa</string>

@@ -45,6 +45,7 @@
     <string name="donation_dlg_no_ads_text">Դուք գովազդ չունեք:</string>
     <string name="donation_level_text">Ձեր նվիրատվության մակարդակը.</string>
     <string name="donation_purchase_info_loading_text">Գնումների մասին տեղեկությունները դեռ չեն վերբեռնվել։ Դուք առցանց եք և մուտք եք գործել ձեր Google հաշիվ:</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Եթե ​​արդեն նվիրատվություն եք կատարել, ապա ձեր գնումները վերականգնելու համար խնդրում ենք նորից տեղադրել հավելվածը Google Play-ում՝ ճիշտ Google հաշիվ ընտրելուց հետո։</string>
     <string name="donation_remove_ads_by_any_amount_text">Հեռացրեք գովազդները ընդմիշտ ցանկացած գումարի միանվագ նվիրատվության միջոցով:</string>
     <string name="donation_remove_ads_by_subscribing_text">Կարող եք նաև ամսական նվիրատվություն կատարել՝ գովազդը հեռացնելու համար:</string>
     <string name="donation_subs_any_amount_text">Գովազդն ամբողջությամբ հանվում է, քանի դեռ ամսական ցանկացած գումարի բաժանորդագրությունն ակտիվ է:</string>
@@ -133,6 +134,7 @@
     <string name="prefs_audio_bt_recording_warning_message_text">Օգտագործեք միայն Bluetooth ականջակալներով: Եթե ​​դուք միանում եք գլխավոր միավորին (մեքենայի ռադիոյին) Bluetooth-ի միջոցով, ապա ինչ-ինչ պատճառներով դա կարող է ավտոմատ կերպով գործարկել հեռախոսազանգ այս սարքի ստանդարտ համարին:</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Մի օգտագործեք գլխամասային միավորի հետ (մեքենայի ռադիո):</string>
     <string name="prefs_audio_codec_title">Աուդիո կոդեկ</string>
+    <string name="prefs_audio_permission_not_granted_title">Աուդիո ձայնագրման թույլտվություն չի տրվում</string>
     <string name="prefs_audio_priority_sum">Եթե ​​միացված է, մյուս հավելվածները չեն կարողանա օգտագործել խոսափողը: Եթե ​​անջատված է, այս հավելվածը կարող է չկարողանալ ձայնագրել, երբ մի քանի հավելվածներ աշխատում են խոսափողի միջոցով (Android-ը միշտ չէ, որ թույլ է տալիս խոսափողի միաժամանակյա օգտագործումը)</string>
     <string name="prefs_audio_priority_title">Առաջնահերթություն տվեք աուդիո այս հավելվածին</string>
     <string name="prefs_audio_rate_text">Նմուշառման հաճախականությունը</string>
@@ -206,6 +208,7 @@
     <string name="prefs_location_mode_high_accuracy_text">Առավել ճշգրիտ գտնվելու վայրը (կոորդինատները) և արագությունը մարտկոցի էներգիայի ավելի մեծ սպառման պատճառով:</string>
     <string name="prefs_location_mode_low_power_text">Տեղադրության ցածր ճշգրտություն (կոորդինատներ) և արագություն մարտկոցի ցածր էներգիայի սպառման պատճառով:</string>
     <string name="prefs_location_mode_text">GPS առաջնահերթություն (մարտկոց կամ ճշգրտություն)</string>
+    <string name="prefs_location_power_saving_to_get_updates_in_background">Էլեկտրաէներգիայի խնայողությունը պետք է անջատված լինի, որպեսզի կարողանանք հետին պլանում տեղորոշման (GPS) թարմացումներ ստանալ:</string>
     <string name="prefs_location_provider_method_text">Տեղադրության ձեռքբերման մեթոդ (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS թարմացման արագությունը</string>
     <string name="prefs_meters_accuracy_value_text">մետր ճշգրտությամբ</string>
@@ -240,6 +243,7 @@
     <string name="prefs_overlay_drag_btn_text">Քաշեք պատուհանը</string>
     <string name="prefs_overlay_speed_text">Ցույց տալ արագությունը</string>
     <string name="prefs_overlay_videos_btn_text">Բացեք տեսանյութի էկրանը</string>
+    <string name="prefs_permission_tap_to_grant">Հպեք՝ թույլտվությունը տալու համար</string>
     <string name="prefs_pinch_to_zoom_sum_text">Մեծացնել երկու մատով</string>
     <string name="prefs_pinch_to_zoom_text">Միացնել էկրանի խոշորացումը</string>
     <string name="prefs_policy_text">Գաղտնիության քաղաքականություն</string>
@@ -270,6 +274,7 @@
     <string name="prefs_screen_video_day_night_mode_text">Ավտոմատ օր /գիշերային կարգավորումներ</string>
     <string name="prefs_settings_bitrate_sum_text">Ավելի բարձր բիթային արագություն - ավելի որակյալ, բայց ավելի մեծ վիդեո ֆայլի չափ</string>
     <string name="prefs_settings_fps_sum_text">Ավելի շատ FPS՝ ավելի հարթ տեսանյութ, բայց մարտկոցի արագ սպառում: Մթության մեջ ավելի լավ ձայնագրելու համար ավելի լավ է առաջին արժեքը սահմանել ամենացածր (երկրորդը կարող է ավելի բարձր լինել):</string>
+    <string name="prefs_settings_max_file_tip_sum_text">Որոշ սարքեր կարող են սահմանափակել ֆայլի առավելագույն չափը մինչև 4 ԳԲ, այնպես որ դուք պետք է ընտրեք կարգավորումներ (բիտրեյթ, տևողություն, լուծում), որպեսզի մեկ վիդեո ֆայլը չգերազանցի 4 ԳԲ-ը:</string>
     <string name="prefs_share_sum_text">Ուղարկեք այս հավելվածը ձեր ընկերներին</string>
     <string name="prefs_share_text">Տարածեք սա</string>
     <string name="prefs_shortcut_launcher_has_been_added">Ավելացվել է դյուրանցում (գործարկիչ):</string>
@@ -348,7 +353,7 @@
     <string name="prefs_video_bitrate_text">բիթային արագություն (որակ)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Տեսախցիկի կառավարման տեսարանի ռեժիմ (գիշերային)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Տեսախցիկի կառավարման տեսարանի ռեժիմ (օր)</string>
-    <string name="prefs_video_camera_hidden_by_manufacture_tip">Даная камера была скрыта производителем и може не работиь</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Այս տեսախցիկը թաքցվել է արտադրողի կողմից և կարող է չաշխատել</string>
     <string name="prefs_video_codec_sum_text">H.265 HEVC և AV1 կոդեկներն ավելի լավ որակ են ապահովում ավելի ցածր բիթային արագությամբ, քան H.264 AVC-ն, այնպես որ կարող եք տարածք խնայել՝ նվազեցնելով բիթերի արագությունը: Սակայն տեսանյութերը կարող են չնվագարկվել որոշ վիդեո նվագարկիչներում</string>
     <string name="prefs_video_codec_text">Տեսանյութի կոդեկ</string>
     <string name="prefs_video_control_scene_mode_beach_text">Լողափ (պայծառ եղանակ)</string>
@@ -386,6 +391,7 @@
     <string name="prefs_warning_notifications_text">Ծանուցման թույլտվություն</string>
     <string name="prefs_warning_permission_bluetooth_sum_text">Bluetooth միացումների միջոցով ավտոմատ ձայնագրումը թույլտվություն է պահանջում: Սեղմեք այստեղ՝ ներկայացնելու համար</string>
     <string name="prefs_warning_permission_bluetooth_text">Bluetooth-ի թույլտվությունը չի տրվել</string>
+    <string name="prefs_warning_power_saving">Էներգախնայողություն</string>
     <string name="prefs_warnings_text">Զգուշացումներ</string>
     <string name="prefs_zoom_out_desc_text">Ուլտրա լայնանկյուն տեսախցիկ (ոսպնյակ) մուտք գործելու համար կարող եք սահմանել խոշորացման գործակիցը</string>
     <string name="prefs_zoom_text">Թվային խոշորացում (մեծացում)</string>
@@ -402,7 +408,9 @@
     <string name="rec_network_text">Ցանց</string>
     <string name="rec_off_text">Անջատված</string>
     <string name="rec_on_text">Ներառյալ</string>
-    <string name="rec_service_msg">Գաղտնիություն. Ձեր ձայնագրած բոլոր տեսանյութերը կպահվեն միայն ձեր տեղական սարքում: Հավելվածը չի կրկնօրինակում ձեր տեսանյութերը (սերվերների հետ կապեր չունի)\n\nՀավելվածը կշարունակի աշխատել հետին պլանում (առաջին պլանի ծառայությունը, որը հայտնվում է ծանուցումների տողում), երբ ձայնագրությունն ակտիվ է, երբ վերադառնաք հիմնական էկրան, միացնեք մեկ այլ հավելված կամ կողպեք ձեր հեռախոսը՝ ձայնագրումը շարունակելու համար և երբ միացնեք։ ավտոմատ ձայնագրման հնարավորություններ (եթե փակեք ֆոնային ծառայությունը, այս գործառույթները չեն աշխատի): Հավելվածն օգտագործում է Firebase Analytics-ը հիմնական անանուն վերլուծության համար (տես ստորև նշված հղումը)</string>
+    <string name="rec_privacy_analytics_msg">Հավելվածն օգտագործում է Firebase Analytics-ը հիմնական անանուն վերլուծության համար (տես ստորև նշված հղումը)</string>
+    <string name="rec_privacy_permissions_msg">Հավելվածն օգտագործում է հետևյալ թույլտվությունները.\n- Բացեք սարքի անանուն նույնացուցիչը OAID (անհատականացված գովազդի համար)\n- Տեսախցիկ, ԱՈՒԴԻՈ (վիդեո ձայնագրման համար)\n- ՊԱՀՊԱՆՈՒՄ (տեսանյութեր պահպանելու համար)\n- LOCATION (ներկայիս գտնվելու վայրի հասցեն, GPS կոորդինատները, արագությունը ստանալու համար՝ հավելվածի հիմնական էկրանին ցուցադրելու և տեսանյութի ենթագրերը կիրառելու համար)\n- ինտերնետ գովազդ)</string>
+    <string name="rec_privacy_service_msg">Գաղտնիություն. Ձեր ձայնագրած բոլոր տեսանյութերը կպահվեն միայն ձեր տեղական սարքում: Հավելվածը չի կրկնօրինակում ձեր տեսանյութերը (սերվերների հետ կապեր չունի)\n\nՀավելվածը կշարունակի աշխատել հետին պլանում (առաջին պլանի ծառայությունը, որը հայտնվում է ծանուցման տողում), երբ ձայնագրությունն ակտիվ է, երբ վերադառնաք հիմնական էկրան, միացնեք մեկ այլ հավելված կամ կողպեք ձեր հեռախոսը, որպեսզի կարողանաք շարունակել ձայնագրությունը, և երբ դուք միացնում եք ավտոմատ ձայնագրման գործառույթները (եթե փակեք ֆոնային ծառայությունը, այս գործառույթները չեն աշխատի):</string>
     <string name="recording_file_name_prefix">Վիդեո ֆայլերի անունների նախածանց</string>
     <string name="recording_start_text">Սկսեք ձայնագրել</string>
     <string name="recording_started_failed_text">Սխալ՝ ձայնագրումը սկսելիս</string>
@@ -452,6 +460,7 @@
     <string name="videos_file_item_share">Տարածեք սա</string>
     <string name="videos_file_item_watch">Դիտեք</string>
     <string name="videos_file_open_with">Բացել հետ</string>
+    <string name="videos_file_repair">Վերականգնել վնասված/չնվագարկվող ֆայլը</string>
     <string name="videos_file_select">Ընտրեք համար</string>
     <string name="videos_file_sort_asc">Տեսակավորել աճող</string>
     <string name="videos_file_sort_desc">Տեսակավորել նվազող</string>

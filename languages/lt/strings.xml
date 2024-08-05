@@ -45,6 +45,7 @@
     <string name="donation_dlg_no_ads_text">Neturite skelbimų.</string>
     <string name="donation_level_text">Jūsų aukos lygis:</string>
     <string name="donation_purchase_info_loading_text">Apsipirkimo informacija dar neįkelta. Ar esate prisijungę ir esate prisijungę prie „Google“ paskyros?</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Jei jau paaukojote, norėdami atkurti pirkinius, iš naujo įdiekite programą „Google Play“, pasirinkę tinkamą „Google“ paskyrą</string>
     <string name="donation_remove_ads_by_any_amount_text">Visam laikui pašalinkite skelbimus, paaukodami vienkartinę bet kokią sumą.</string>
     <string name="donation_remove_ads_by_subscribing_text">Taip pat galite kas mėnesį paaukoti skelbimams pašalinti.</string>
     <string name="donation_subs_any_amount_text">Reklama visiškai pašalinama, kol yra aktyvi prenumerata bet kokia suma per mėnesį.</string>
@@ -133,6 +134,7 @@
     <string name="prefs_audio_bt_recording_warning_message_text">Naudokite tik su Bluetooth ausinėmis. Jei prie galvos įrenginio (automobilinio radijo) prisijungiate per „Bluetooth“, dėl kokių nors priežasčių tai gali automatiškai suaktyvinti telefono skambutį standartiniu šio įrenginio numeriu</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Nenaudokite su galvos bloku (automobiliniu radiju)!</string>
     <string name="prefs_audio_codec_title">Garso kodekas</string>
+    <string name="prefs_audio_permission_not_granted_title">Garso įrašymo leidimas nesuteikiamas</string>
     <string name="prefs_audio_priority_sum">Jei įjungta, kitos programos negalės naudoti mikrofono. Jei išjungta, ši programa gali negalėti įrašyti garso, kai naudojant mikrofoną veikia kelios programos („Android“ ne visada leidžia vienu metu naudoti mikrofoną)</string>
     <string name="prefs_audio_priority_title">Suteikite pirmenybę garsui šiai programai</string>
     <string name="prefs_audio_rate_text">Mėginių ėmimo dažnis</string>
@@ -206,6 +208,7 @@
     <string name="prefs_location_mode_high_accuracy_text">Tiksliausia vieta (koordinatės) ir greitis dėl didesnio akumuliatoriaus energijos suvartojimo.</string>
     <string name="prefs_location_mode_low_power_text">Mažas vietos (koordinačių) ir greičio tikslumas dėl mažo akumuliatoriaus energijos suvartojimo.</string>
     <string name="prefs_location_mode_text">GPS prioritetas (baterija arba tikslumas)</string>
+    <string name="prefs_location_power_saving_to_get_updates_in_background">Energijos taupymas turi būti išjungtas, kad būtų galima gauti vietos (GPS) naujinimus fone.</string>
     <string name="prefs_location_provider_method_text">Vietos gavimo metodas (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS atnaujinimo dažnis</string>
     <string name="prefs_meters_accuracy_value_text">metrų tikslumu</string>
@@ -240,6 +243,7 @@
     <string name="prefs_overlay_drag_btn_text">Vilkite langą</string>
     <string name="prefs_overlay_speed_text">Rodyti greitį</string>
     <string name="prefs_overlay_videos_btn_text">Atidarykite vaizdo ekraną</string>
+    <string name="prefs_permission_tap_to_grant">Bakstelėkite, kad suteiktumėte leidimą</string>
     <string name="prefs_pinch_to_zoom_sum_text">Priartinkite dviem pirštais</string>
     <string name="prefs_pinch_to_zoom_text">Įgalinti ekrano mastelį</string>
     <string name="prefs_policy_text">Privatumo politika</string>
@@ -270,6 +274,7 @@
     <string name="prefs_screen_video_day_night_mode_text">Automatiniai dienos /nakties nustatymai</string>
     <string name="prefs_settings_bitrate_sum_text">Didesnis bitų dažnis – geresnė kokybė, bet didesnis vaizdo failo dydis</string>
     <string name="prefs_settings_fps_sum_text">Daugiau FPS – sklandesnis vaizdas, bet greitesnis akumuliatoriaus išsikrovimas. Pirmąją reikšmę geriau nustatyti į mažiausią (antroji gali būti didesnė), kad būtų galima geriau įrašyti tamsoje</string>
+    <string name="prefs_settings_max_file_tip_sum_text">Kai kurie įrenginiai gali apriboti maksimalų failo dydį iki 4 GB, todėl reikia pasirinkti nustatymus (bitrate, trukmę, skyrą), kad vienas vaizdo failas neviršytų 4 GB</string>
     <string name="prefs_share_sum_text">Nusiųskite šią programą savo draugams</string>
     <string name="prefs_share_text">Pasidalinti</string>
     <string name="prefs_shortcut_launcher_has_been_added">Nuoroda (paleidimo priemonė) buvo pridėta</string>
@@ -348,7 +353,7 @@
     <string name="prefs_video_bitrate_text">Bitų sparta (kokybė)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kameros valdymo scenos režimas (naktis)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kameros valdymo scenos režimas (dieną)</string>
-    <string name="prefs_video_camera_hidden_by_manufacture_tip">Данная камера была скрыта производителем и может не работать</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Šią kamerą paslėpė gamintojas ir ji gali neveikti</string>
     <string name="prefs_video_codec_sum_text">H.265 HEVC ir AV1 kodekai užtikrina geresnę kokybę esant mažesniam pralaidumui nei H.264 AVC, todėl galite sutaupyti vietos sumažindami bitų spartą. Tačiau kai kuriuose vaizdo įrašų grotuvuose vaizdo įrašai gali nepaleisti</string>
     <string name="prefs_video_codec_text">Vaizdo kodekas</string>
     <string name="prefs_video_control_scene_mode_beach_text">Paplūdimys (šviesus oras)</string>
@@ -386,6 +391,7 @@
     <string name="prefs_warning_notifications_text">Pranešimo leidimas</string>
     <string name="prefs_warning_permission_bluetooth_sum_text">Norint automatiškai įrašyti per „Bluetooth“ ryšį, reikalingas leidimas. Spustelėkite čia, kad pateiktumėte</string>
     <string name="prefs_warning_permission_bluetooth_text">Bluetooth leidimas nesuteiktas</string>
+    <string name="prefs_warning_power_saving">Energijos taupymas</string>
     <string name="prefs_warnings_text">Įspėjimai</string>
     <string name="prefs_zoom_out_desc_text">Norėdami pasiekti itin plataus kampo fotoaparatą (objektyvą), galite nustatyti priartinimo koeficientą</string>
     <string name="prefs_zoom_text">Skaitmeninis priartinimas (didinimas)</string>
@@ -402,7 +408,9 @@
     <string name="rec_network_text">Grynasis</string>
     <string name="rec_off_text">Išjungta</string>
     <string name="rec_on_text">Įsk.</string>
-    <string name="rec_service_msg">Privatumas: visi įrašyti vaizdo įrašai bus išsaugoti tik jūsų vietiniame įrenginyje. Programa nekuria jūsų vaizdo įrašų atsarginės kopijos (neturi jokių ryšių su serveriais)\n\nPrograma ir toliau veiks fone (pranešimų juostoje rodoma priekinio plano paslauga), kol įrašymas bus aktyvus, kai grįšite į pagrindinį ekraną, perjungsite į kitą programą arba užrakinsite telefoną, kad tęstumėte įrašymą, ir kai įjungsite automatinio įrašymo funkcijos (jei uždarysite foninę paslaugą, šios funkcijos neveiks). Programa naudoja „Firebase Analytics“ pagrindinei anoniminei analizei (žr. toliau pateiktą nuorodą)</string>
+    <string name="rec_privacy_analytics_msg">Programa naudoja „Firebase Analytics“ pagrindinei anoniminei analizei (žr. toliau pateiktą nuorodą)</string>
+    <string name="rec_privacy_permissions_msg">Programa naudoja šiuos leidimus:\n- Atidarykite anoniminį įrenginio identifikatorių OAID (suasmenintam reklamavimui)\n- KAMEROS, GARSO (vaizdo įrašymui)\n- SAUGYKLĖ (vaizdo įrašams išsaugoti)\n- VIETA (norėdami gauti dabartinės vietos adresą, GPS koordinates, greitį - rodyti pagrindiniame programos ekrane ir pritaikyti vaizdo įrašui subtitrus)\n- reklama internete)</string>
+    <string name="rec_privacy_service_msg">Privatumas: visi įrašyti vaizdo įrašai bus išsaugoti tik jūsų vietiniame įrenginyje. Programa nekuria jūsų vaizdo įrašų atsarginės kopijos (neturi jokių ryšių su serveriais)\n\nPrograma ir toliau veiks fone (pranešimų juostoje rodoma priekinio plano paslauga), kol įrašymas bus aktyvus, kai grįšite į pagrindinį ekraną, perjungsite į kitą programą arba užrakinsite telefoną, kad tęstumėte įrašymą, ir kai įjungsite automatinio įrašymo funkcijos (jei uždarysite foninę paslaugą, šios funkcijos neveiks).</string>
     <string name="recording_file_name_prefix">Vaizdo įrašų failų pavadinimų priešdėlis</string>
     <string name="recording_start_text">Pradėti įrašymą</string>
     <string name="recording_started_failed_text">Pradedant įrašymą įvyko klaida</string>
@@ -452,6 +460,7 @@
     <string name="videos_file_item_share">Pasidalinti</string>
     <string name="videos_file_item_watch">Žiūrėti</string>
     <string name="videos_file_open_with">Atidaryti naudojant</string>
+    <string name="videos_file_repair">Pataisykite sugadintą /neatkuriamą failą</string>
     <string name="videos_file_select">Pasirinkite už</string>
     <string name="videos_file_sort_asc">Rūšiuoti didėjančia tvarka</string>
     <string name="videos_file_sort_desc">Rūšiuoti mažėjančia tvarka</string>

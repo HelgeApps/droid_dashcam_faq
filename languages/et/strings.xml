@@ -45,6 +45,7 @@
     <string name="donation_dlg_no_ads_text">Teil pole reklaame.</string>
     <string name="donation_level_text">Teie annetuse tase:</string>
     <string name="donation_purchase_info_loading_text">Ostuinfot pole veel üles laaditud. Kas olete võrgus ja oma Google\'i kontole sisse logitud?</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Kui olete juba annetuse teinud, installige ostude taastamiseks rakendus Google Playst uuesti pärast õige Google\'i konto valimist</string>
     <string name="donation_remove_ads_by_any_amount_text">Eemaldage reklaamid igaveseks mis tahes summa ühekordse annetusega.</string>
     <string name="donation_remove_ads_by_subscribing_text">Samuti saate reklaamide eemaldamiseks annetada iga kuu.</string>
     <string name="donation_subs_any_amount_text">Reklaamid eemaldatakse täielikult, kui igakuine tellimus on aktiivne.</string>
@@ -133,6 +134,7 @@
     <string name="prefs_audio_bt_recording_warning_message_text">Kasutage ainult Bluetooth-kõrvaklappidega. Kui ühendate peaseadme (autoraadio) Bluetoothi ​​kaudu, võib see mingil põhjusel käivitada automaatselt telefonikõne selle seadme standardnumbril</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Ärge kasutage koos peaseadmega (autoraadio)!</string>
     <string name="prefs_audio_codec_title">Heli kodek</string>
+    <string name="prefs_audio_permission_not_granted_title">Helisalvestuse luba ei anta</string>
     <string name="prefs_audio_priority_sum">Kui see on lubatud, ei saa teised rakendused mikrofoni kasutada. Kui see on keelatud, ei pruugi see rakendus olla võimeline heli salvestama, kui mikrofoni kasutavad mitu rakendust (Android ei luba alati mikrofoni samaaegset kasutamist)</string>
     <string name="prefs_audio_priority_title">Eelistage heli sellele rakendusele</string>
     <string name="prefs_audio_rate_text">Proovivõtu sagedus</string>
@@ -206,6 +208,7 @@
     <string name="prefs_location_mode_high_accuracy_text">Kõige täpsem asukoht (koordinaadid) ja kiirus tänu suuremale akutarbimisele.</string>
     <string name="prefs_location_mode_low_power_text">Asukoha (koordinaatide) ja kiiruse madal täpsus madala akutarbimise tõttu.</string>
     <string name="prefs_location_mode_text">GPS-i prioriteet (aku või täpsus)</string>
+    <string name="prefs_location_power_saving_to_get_updates_in_background">Asukoha (GPS) värskenduste taustal hankimiseks tuleks energiasäästurežiim välja lülitada.</string>
     <string name="prefs_location_provider_method_text">Asukoha hankimise meetod (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS-i värskendussagedus</string>
     <string name="prefs_meters_accuracy_value_text">meetri täpsusega</string>
@@ -240,6 +243,7 @@
     <string name="prefs_overlay_drag_btn_text">Lohistage aken</string>
     <string name="prefs_overlay_speed_text">Näita kiirust</string>
     <string name="prefs_overlay_videos_btn_text">Avage videoekraan</string>
+    <string name="prefs_permission_tap_to_grant">Loa andmiseks puudutage</string>
     <string name="prefs_pinch_to_zoom_sum_text">Suumi kahe sõrmega</string>
     <string name="prefs_pinch_to_zoom_text">Luba ekraani suum</string>
     <string name="prefs_policy_text">Privaatsuspoliitika</string>
@@ -270,6 +274,7 @@
     <string name="prefs_screen_video_day_night_mode_text">Automaatsed päeva/öö seadistused</string>
     <string name="prefs_settings_bitrate_sum_text">Suurem bitikiirus – parem kvaliteet, kuid suurem videofaili suurus</string>
     <string name="prefs_settings_fps_sum_text">Rohkem FPS-i – sujuvam video, kuid kiirem aku tühjendamine. Pimedas paremaks salvestamiseks on parem seada esimene väärtus madalaimale (teine ​​võib olla suurem).</string>
+    <string name="prefs_settings_max_file_tip_sum_text">Mõned seadmed võivad piirata faili maksimaalset suurust 4 GB-ni, seega peate valima sätted (bitikiirus, kestus, eraldusvõime), et üks videofail ei ületaks 4 GB</string>
     <string name="prefs_share_sum_text">Saada see rakendus oma sõpradele</string>
     <string name="prefs_share_text">Jaga seda</string>
     <string name="prefs_shortcut_launcher_has_been_added">Otsetee (käivitusprogramm) on lisatud</string>
@@ -348,7 +353,7 @@
     <string name="prefs_video_bitrate_text">Bitikiirus (kvaliteet)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kaamera juhtimise stseenirežiim (öine)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kaamera juhtimise stseenirežiim (päevane)</string>
-    <string name="prefs_video_camera_hidden_by_manufacture_tip">Данная камера была скрыта производителем и может не работать</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Tootja on selle kaamera peitnud ja see ei pruugi töötada</string>
     <string name="prefs_video_codec_sum_text">H.265 HEVC ja AV1 koodekid tagavad parema kvaliteedi madalama bitikiirusega kui H.264 AVC, nii et saate bitikiirust vähendades ruumi kokku hoida. Kuid mõnes videopleieris ei pruugita videoid esitada</string>
     <string name="prefs_video_codec_text">Videokodek</string>
     <string name="prefs_video_control_scene_mode_beach_text">Rand (helge ilm)</string>
@@ -386,6 +391,7 @@
     <string name="prefs_warning_notifications_text">Teavitamise luba</string>
     <string name="prefs_warning_permission_bluetooth_sum_text">Automaatne salvestamine Bluetooth-ühenduse kaudu nõuab luba. Esitamiseks klõpsake siin</string>
     <string name="prefs_warning_permission_bluetooth_text">Bluetoothi ​​luba ei antud</string>
+    <string name="prefs_warning_power_saving">Energiasääst</string>
     <string name="prefs_warnings_text">Hoiatused</string>
     <string name="prefs_zoom_out_desc_text">Ultralainurkkaamerale (objektiivile) pääsemiseks saate määrata suumiteguri</string>
     <string name="prefs_zoom_text">Digitaalne suum (suum)</string>
@@ -402,7 +408,9 @@
     <string name="rec_network_text">Net</string>
     <string name="rec_off_text">Väljas</string>
     <string name="rec_on_text">Sealhulgas</string>
-    <string name="rec_service_msg">Privaatsus: kõik salvestatud videod salvestatakse ainult teie kohalikku seadmesse. Rakendus ei varunda teie videoid (ei ole serveritega ühendust)\n\nRakendus jätkab töötamist taustal (esiplaani teenus, mis kuvatakse teavitusribal), kui salvestamine on aktiivne, kui naasete avakuvale, lülitute mõnele teisele rakendusele või lukustate telefoni salvestamise jätkamiseks ja sisselülitamisel automaatse salvestamise funktsioonid (taustateenuse sulgemisel need funktsioonid ei tööta). Rakendus kasutab Firebase Analyticsit põhilise anonüümse analüüsi jaoks (vt linki allpool)</string>
+    <string name="rec_privacy_analytics_msg">Rakendus kasutab Firebase Analyticsit põhilise anonüümse analüüsi jaoks (vt linki allpool)</string>
+    <string name="rec_privacy_permissions_msg">Rakendus kasutab järgmisi õigusi:\n- Avage anonüümne seadme identifikaator OAID (isikupärastatud reklaamimiseks)\n- KAAMERA, AUDIO (video salvestamiseks)\n- salvestusruum (videote salvestamiseks)\n- ASUKOHT (praeguse asukoha aadressi, GPS-koordinaatide, kiiruse saamiseks - rakenduse põhiekraanil kuvamiseks ja videole subtiitrite rakendamiseks)\n- Interneti-reklaam)</string>
+    <string name="rec_privacy_service_msg">Privaatsus: kõik salvestatud videod salvestatakse ainult teie kohalikku seadmesse. Rakendus ei varunda teie videoid (ei ole serveritega ühendust)\n\nRakendus jätkab töötamist taustal (esiplaani teenus, mis kuvatakse teavitusribal), kui salvestamine on aktiivne, kui naasete avakuvale, lülitute mõnele teisele rakendusele või lukustate telefoni salvestamise jätkamiseks ja sisselülitamisel automaatse salvestamise funktsioonid (taustateenuse sulgemisel need funktsioonid ei tööta).</string>
     <string name="recording_file_name_prefix">Videofailide nimede eesliide</string>
     <string name="recording_start_text">Alustage salvestamist</string>
     <string name="recording_started_failed_text">Viga salvestamise alustamisel</string>
@@ -452,6 +460,7 @@
     <string name="videos_file_item_share">Jaga seda</string>
     <string name="videos_file_item_watch">Vaata</string>
     <string name="videos_file_open_with">Ava koos</string>
+    <string name="videos_file_repair">Parandage rikutud/esitamatud fail</string>
     <string name="videos_file_select">Valige jaoks</string>
     <string name="videos_file_sort_asc">Järjesta kasvavalt</string>
     <string name="videos_file_sort_desc">Sordi kahanevalt</string>

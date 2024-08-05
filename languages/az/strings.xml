@@ -45,6 +45,7 @@
     <string name="donation_dlg_no_ads_text">Reklamınız yoxdur.</string>
     <string name="donation_level_text">Bağış səviyyəniz:</string>
     <string name="donation_purchase_info_loading_text">Alış-veriş məlumatları hələ yüklənməyib. Onlaynsınız və Google hesabınıza daxil olmusunuz?</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Əgər siz artıq ianə etmisinizsə, alışlarınızı bərpa etmək üçün düzgün Google hesabını seçdikdən sonra proqramı Google Play-də yenidən quraşdırın.</string>
     <string name="donation_remove_ads_by_any_amount_text">İstənilən məbləğdə birdəfəlik ianə ilə reklamları həmişəlik silin.</string>
     <string name="donation_remove_ads_by_subscribing_text">Reklamları silmək üçün aylıq ianə də edə bilərsiniz.</string>
     <string name="donation_subs_any_amount_text">Ayda istənilən məbləğə abunə aktiv olduqda reklam tamamilə silinir.</string>
@@ -133,6 +134,7 @@
     <string name="prefs_audio_bt_recording_warning_message_text">Yalnız Bluetooth qulaqlıqları ilə istifadə edin. Baş bloka (avtomobil radiosu) Bluetooth vasitəsilə qoşulsanız, nədənsə bu, avtomatik olaraq bu cihazdakı standart nömrəyə telefon zəngini işə sala bilər.</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Baş blok (avtomobil radiosu) ilə istifadə etməyin!</string>
     <string name="prefs_audio_codec_title">Audio kodek</string>
+    <string name="prefs_audio_permission_not_granted_title">Audioyazıya icazə verilmir</string>
     <string name="prefs_audio_priority_sum">Aktiv edilərsə, digər proqramlar mikrofondan istifadə edə bilməyəcək. Deaktiv edilərsə, bu proqram mikrofondan istifadə edərək birdən çox proqram işləyərkən audio yaza bilməyə bilər (Android həmişə mikrofondan eyni vaxtda istifadə etməyə icazə vermir)</string>
     <string name="prefs_audio_priority_title">Bu tətbiq üçün audioya üstünlük verin</string>
     <string name="prefs_audio_rate_text">Nümunə alma tezliyi</string>
@@ -206,6 +208,7 @@
     <string name="prefs_location_mode_high_accuracy_text">Daha çox batareya enerjisi istehlakı sayəsində ən dəqiq yer (koordinatlar) və sürət.</string>
     <string name="prefs_location_mode_low_power_text">Aşağı batareya enerjisi istehlakı səbəbindən yerin (koordinatların) və sürətin aşağı dəqiqliyi.</string>
     <string name="prefs_location_mode_text">GPS Prioriteti (Batareya və ya Dəqiqlik)</string>
+    <string name="prefs_location_power_saving_to_get_updates_in_background">Arxa fonda məkan (GPS) yeniləmələrini əldə etmək üçün Enerjiyə Qənaət söndürülməlidir.</string>
     <string name="prefs_location_provider_method_text">Məkan əldə etmə üsulu (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS yeniləmə dərəcəsi</string>
     <string name="prefs_meters_accuracy_value_text">metr dəqiqlik</string>
@@ -240,6 +243,7 @@
     <string name="prefs_overlay_drag_btn_text">Pəncərəni sürükləyin</string>
     <string name="prefs_overlay_speed_text">Sürəti göstərin</string>
     <string name="prefs_overlay_videos_btn_text">Video ekranını açın</string>
+    <string name="prefs_permission_tap_to_grant">İcazə vermək üçün toxunun</string>
     <string name="prefs_pinch_to_zoom_sum_text">İki barmaq ilə böyüt</string>
     <string name="prefs_pinch_to_zoom_text">Ekran miqyasını aktivləşdirin</string>
     <string name="prefs_policy_text">Gizlilik Siyasəti</string>
@@ -270,6 +274,7 @@
     <string name="prefs_screen_video_day_night_mode_text">Avtomatik Gündüz /Gecə Parametrləri</string>
     <string name="prefs_settings_bitrate_sum_text">Daha yüksək bit sürəti - daha keyfiyyətli, lakin daha böyük video fayl ölçüsü</string>
     <string name="prefs_settings_fps_sum_text">Daha çox FPS - daha hamar video, lakin daha sürətli batareya boşalması. Qaranlıqda daha yaxşı qeyd etmək üçün ilk dəyəri ən aşağı (ikincisi daha yüksək ola bilər) təyin etmək daha yaxşıdır</string>
+    <string name="prefs_settings_max_file_tip_sum_text">Bəzi cihazlar maksimum fayl ölçüsünü 4 GB-a qədər məhdudlaşdıra bilər, ona görə də bir video faylın 4 GB-ı keçməməsi üçün parametrləri (bit sürəti, müddəti, həlli) seçməlisiniz.</string>
     <string name="prefs_share_sum_text">Bu proqramı dostlarınıza göndərin</string>
     <string name="prefs_share_text">Bunu paylaşın</string>
     <string name="prefs_shortcut_launcher_has_been_added">Qısayol (başlatıcı) əlavə edildi</string>
@@ -348,7 +353,7 @@
     <string name="prefs_video_bitrate_text">Bitreyt (keyfiyyət)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kameraya Nəzarət Səhnə Rejimi (Gecə)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kameraya Nəzarət Səhnə Rejimi (Gün)</string>
-    <string name="prefs_video_camera_hidden_by_manufacture_tip">Dannaya kamera byla skryta proizvoditelem i mojet ne rabotate</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Bu kamera istehsalçı tərəfindən gizlədilib və işləməyə bilər</string>
     <string name="prefs_video_codec_sum_text">H.265 HEVC və AV1 kodekləri H.264 AVC-dən daha aşağı bit sürətlərində daha yaxşı keyfiyyət təmin edir, beləliklə, bit sürətini azaltmaqla yerə qənaət edə bilərsiniz. Ancaq bəzi video pleyerlərdə videolar oynamaya bilər</string>
     <string name="prefs_video_codec_text">Video kodek</string>
     <string name="prefs_video_control_scene_mode_beach_text">Çimərlik (parlaq hava)</string>
@@ -386,6 +391,7 @@
     <string name="prefs_warning_notifications_text">Bildiriş icazəsi</string>
     <string name="prefs_warning_permission_bluetooth_sum_text">Bluetooth bağlantıları üzərindən avtomatik qeyd etmək icazə tələb edir. Təqdim etmək üçün bura klikləyin</string>
     <string name="prefs_warning_permission_bluetooth_text">Bluetooth icazəsi verilməyib</string>
+    <string name="prefs_warning_power_saving">Enerjiyə qənaət</string>
     <string name="prefs_warnings_text">Xəbərdarlıqlar</string>
     <string name="prefs_zoom_out_desc_text">Ultra geniş bucaqlı kameraya (linza) daxil olmaq üçün siz böyütmə faktorunu təyin edə bilərsiniz</string>
     <string name="prefs_zoom_text">Rəqəmsal böyütmə (zoom)</string>
@@ -402,7 +408,9 @@
     <string name="rec_network_text">Net</string>
     <string name="rec_off_text">Söndür</string>
     <string name="rec_on_text">O cümlədən</string>
-    <string name="rec_service_msg">Məxfilik: Yazdığınız bütün videolar yalnız yerli cihazınızda yadda saxlanılacaq. Tətbiq videolarınızın ehtiyat nüsxəsini çıxarmır (serverlərlə heç bir əlaqəsi yoxdur)\n\nYazma aktiv olduqda, əsas ekrana qayıtdıqda, başqa proqrama keçdikdə və ya yazmağa davam etmək üçün telefonunuzu kilidlədikdə və siz yandırdıqda proqram arxa planda (bildiriş panelində görünən ön plan xidməti) işləməyə davam edəcək. avtomatik qeyd üçün funksiyalar (fon xidmətini bağlasanız, bu funksiyalar işləməyəcək). Tətbiq əsas anonim analitika üçün Firebase Analytics-dən istifadə edir (aşağıdakı linkə baxın)</string>
+    <string name="rec_privacy_analytics_msg">Tətbiq əsas anonim analitika üçün Firebase Analytics-dən istifadə edir (aşağıdakı linkə baxın)</string>
+    <string name="rec_privacy_permissions_msg">Tətbiq aşağıdakı icazələrdən istifadə edir:\n- Açıq anonim cihaz identifikatoru OAID (fərdiləşdirilmiş reklam üçün)\n- KAMERA, AUDİO (video çəkiliş üçün)\n- YADDAŞ (videoları saxlamaq üçün)\n- YER (cari yerin ünvanını, GPS koordinatlarını, sürəti əldə etmək üçün - tətbiqin əsas ekranında göstərmək və videoya subtitrlər tətbiq etmək)\n- İnternet reklamı)</string>
+    <string name="rec_privacy_service_msg">Məxfilik: Yazdığınız bütün videolar yalnız yerli cihazınızda yadda saxlanılacaq. Tətbiq videolarınızın ehtiyat nüsxəsini çıxarmır (serverlərlə heç bir əlaqəsi yoxdur)\n\nYazma aktiv olduqda, siz əsas ekrana qayıtdığınız zaman, yazmağa davam etmək üçün başqa proqrama keçdiyiniz və ya telefonunuzu kilidlədiyiniz zaman proqram arxa planda (bildiriş panelində görünən ön planda xidmət) işləməyə davam edəcək. avtomatik qeyd üçün funksiyaları yandırırsınız (fon xidmətini bağlasanız, bu funksiyalar işləməyəcək).</string>
     <string name="recording_file_name_prefix">Video fayl adları üçün prefiks</string>
     <string name="recording_start_text">Yazmağa başlayın</string>
     <string name="recording_started_failed_text">Yazmağa başlayarkən xəta baş verdi</string>
@@ -452,6 +460,7 @@
     <string name="videos_file_item_share">Bunu paylaşın</string>
     <string name="videos_file_item_watch">Bax</string>
     <string name="videos_file_open_with">İlə aç</string>
+    <string name="videos_file_repair">Zədələnmiş/oynatıla bilməyən faylı təmir edin</string>
     <string name="videos_file_select">üçün seçin</string>
     <string name="videos_file_sort_asc">Artan sırala</string>
     <string name="videos_file_sort_desc">Azalan üzrə çeşidləyin</string>

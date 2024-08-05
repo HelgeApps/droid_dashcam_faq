@@ -45,6 +45,7 @@
     <string name="donation_dlg_no_ads_text">U heeft geen advertenties.</string>
     <string name="donation_level_text">Uw donatieniveau:</string>
     <string name="donation_purchase_info_loading_text">De winkelinformatie is nog niet geüpload. Ben je online en ingelogd op je Google-account?</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Als u al een donatie heeft gedaan, installeer dan de applicatie opnieuw op Google Play nadat u het juiste Google-account heeft geselecteerd om uw aankopen te herstellen</string>
     <string name="donation_remove_ads_by_any_amount_text">Verwijder advertenties voor altijd met een eenmalige donatie van welk bedrag dan ook.</string>
     <string name="donation_remove_ads_by_subscribing_text">U kunt ook maandelijks doneren om advertenties te verwijderen.</string>
     <string name="donation_subs_any_amount_text">Reclame wordt volledig verwijderd zolang er een abonnement voor welk bedrag dan ook per maand actief is.</string>
@@ -133,6 +134,7 @@
     <string name="prefs_audio_bt_recording_warning_message_text">Alleen gebruiken met Bluetooth-hoofdtelefoons. Als u via Bluetooth verbinding maakt met de hoofdunit (autoradio), kan dit om de een of andere reden automatisch leiden tot een oproep naar het standaardnummer op dit apparaat</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Niet gebruiken met hoofdunit (autoradio)!</string>
     <string name="prefs_audio_codec_title">Audiocodec</string>
+    <string name="prefs_audio_permission_not_granted_title">Er wordt geen toestemming voor audio-opname verleend</string>
     <string name="prefs_audio_priority_sum">Indien ingeschakeld, kunnen andere toepassingen de microfoon niet gebruiken. Indien uitgeschakeld, kan deze applicatie mogelijk geen audio opnemen wanneer meerdere applicaties worden uitgevoerd met behulp van de microfoon (Android staat niet altijd gelijktijdig gebruik van de microfoon toe)</string>
     <string name="prefs_audio_priority_title">Geef prioriteit aan audio voor deze app</string>
     <string name="prefs_audio_rate_text">bemonsteringsfrequentie:</string>
@@ -206,6 +208,7 @@
     <string name="prefs_location_mode_high_accuracy_text">De meest nauwkeurige locatie (coördinaten) en snelheid dankzij hoger batterijverbruik.</string>
     <string name="prefs_location_mode_low_power_text">Lage nauwkeurigheid van locatie (coördinaten) en snelheid vanwege laag batterijverbruik.</string>
     <string name="prefs_location_mode_text">GPS-prioriteit (batterij of nauwkeurigheid)</string>
+    <string name="prefs_location_power_saving_to_get_updates_in_background">Energiebesparing moet worden uitgeschakeld om locatie-updates (GPS) op de achtergrond te kunnen ontvangen.</string>
     <string name="prefs_location_provider_method_text">Locatie acquisitie methode (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS-updatesnelheid</string>
     <string name="prefs_meters_accuracy_value_text">meter nauwkeurigheid</string>
@@ -240,6 +243,7 @@
     <string name="prefs_overlay_drag_btn_text">Sleep venster</string>
     <string name="prefs_overlay_speed_text">Toon snelheid</string>
     <string name="prefs_overlay_videos_btn_text">Videoscherm openen</string>
+    <string name="prefs_permission_tap_to_grant">Tik om toestemming te geven</string>
     <string name="prefs_pinch_to_zoom_sum_text">Zoomen met twee vingers</string>
     <string name="prefs_pinch_to_zoom_text">Schermzoom inschakelen</string>
     <string name="prefs_policy_text">Privacybeleid</string>
@@ -270,6 +274,7 @@
     <string name="prefs_screen_video_day_night_mode_text">Automatische Dag/Nacht Instellingen</string>
     <string name="prefs_settings_bitrate_sum_text">Hogere bitrate - betere kwaliteit, maar grotere videobestandsgrootte</string>
     <string name="prefs_settings_fps_sum_text">Meer FPS - vloeiendere video, maar sneller leeglopen van de batterij. Het is beter om de eerste waarde op de laagste te zetten (de tweede kan hoger zijn) voor betere opnames in het donker</string>
+    <string name="prefs_settings_max_file_tip_sum_text">Sommige apparaten beperken de maximale bestandsgrootte tot 4 GB, dus u moet de instellingen (bitrate, duur, resolutie) zo selecteren dat één videobestand niet groter is dan 4 GB</string>
     <string name="prefs_share_sum_text">Stuur deze app naar je vrienden</string>
     <string name="prefs_share_text">Deel dit</string>
     <string name="prefs_shortcut_launcher_has_been_added">Snelkoppeling (launcher) is toegevoegd</string>
@@ -348,7 +353,7 @@
     <string name="prefs_video_bitrate_text">Bitsnelheid (kwaliteit)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Camerabediening Scènemodus (Nacht)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Camerabediening Scènemodus (dag)</string>
-    <string name="prefs_video_camera_hidden_by_manufacture_tip">Het gebruik van een product en het gebruik ervan is niet mogelijk</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Deze camera is verborgen door de fabrikant en werkt mogelijk niet</string>
     <string name="prefs_video_codec_sum_text">H.265 HEVC- en AV1-codecs bieden betere kwaliteit bij lagere bitrates dan H.264 AVC, dus u kunt ruimte besparen door de bitrate te verlagen. Maar video\'s worden mogelijk niet afgespeeld in sommige videospelers</string>
     <string name="prefs_video_codec_text">Video codec</string>
     <string name="prefs_video_control_scene_mode_beach_text">Strand (helder weer)</string>
@@ -386,6 +391,7 @@
     <string name="prefs_warning_notifications_text">Meldingstoestemming</string>
     <string name="prefs_warning_permission_bluetooth_sum_text">Voor automatisch opnemen via Bluetooth-verbindingen is toestemming vereist. Klik hier om in te dienen</string>
     <string name="prefs_warning_permission_bluetooth_text">Bluetooth-toestemming niet verleend</string>
+    <string name="prefs_warning_power_saving">Energiebesparende</string>
     <string name="prefs_warnings_text">Waarschuwingen</string>
     <string name="prefs_zoom_out_desc_text">Om toegang te krijgen tot de ultragroothoekcamera (lens), kunt u de zoomfactor instellen</string>
     <string name="prefs_zoom_text">Digitale zoom (zoom)</string>
@@ -402,7 +408,9 @@
     <string name="rec_network_text">Netto</string>
     <string name="rec_off_text">Uit</string>
     <string name="rec_on_text">Incl.</string>
-    <string name="rec_service_msg">Privacy: Alle video\'s die u opneemt, worden alleen op uw lokale apparaat opgeslagen. De applicatie maakt geen back-up van uw video\'s (heeft geen verbindingen met servers)\n\nDe app blijft op de achtergrond actief (de voorgrondservice die in de meldingenbalk verschijnt) terwijl de opname actief is, wanneer u terugkeert naar het startscherm, overschakelt naar een andere app of uw telefoon vergrendelt om door te gaan met opnemen, en wanneer u de app inschakelt functies voor automatisch opnemen (als u de achtergrondservice sluit, werken deze functies niet). De app gebruikt Firebase Analytics voor eenvoudige anonieme analyses (zie onderstaande link)</string>
+    <string name="rec_privacy_analytics_msg">De app gebruikt Firebase Analytics voor eenvoudige anonieme analyses (zie onderstaande link)</string>
+    <string name="rec_privacy_permissions_msg">De applicatie gebruikt de volgende machtigingen:\n- Open anonieme apparaat-ID OAID (voor gepersonaliseerde advertenties)\n- CAMERA, AUDIO (voor video-opname)\n- OPSLAG (voor het opslaan van video\'s)\n- LOCATIE (om het adres van de huidige locatie, GPS-coördinaten, snelheid te verkrijgen - om op het hoofdscherm van de applicatie weer te geven en ondertitels op de video toe te passen)\n- Internet Reclame)</string>
+    <string name="rec_privacy_service_msg">Privacy: Alle video\'s die u opneemt, worden alleen op uw lokale apparaat opgeslagen. De applicatie maakt geen back-up van uw video\'s (heeft geen verbindingen met servers)\n\nDe app blijft op de achtergrond actief (de voorgrondservice die in de meldingenbalk verschijnt) terwijl de opname actief is, wanneer u terugkeert naar het startscherm, overschakelt naar een andere app of uw telefoon vergrendelt om door te gaan met opnemen, en wanneer u de app inschakelt functies voor automatisch opnemen (als u de achtergrondservice sluit, werken deze functies niet).</string>
     <string name="recording_file_name_prefix">Voorvoegsel voor videobestandsnamen</string>
     <string name="recording_start_text">Start met opnemen</string>
     <string name="recording_started_failed_text">Fout bij starten van opname</string>
@@ -452,6 +460,7 @@
     <string name="videos_file_item_share">Deel dit</string>
     <string name="videos_file_item_watch">Kijk maar</string>
     <string name="videos_file_open_with">Openen met</string>
+    <string name="videos_file_repair">Repareer een beschadigd/onspeelbaar bestand</string>
     <string name="videos_file_select">Selecteer voor</string>
     <string name="videos_file_sort_asc">Oplopend sorteren</string>
     <string name="videos_file_sort_desc">Aflopend sorteren</string>

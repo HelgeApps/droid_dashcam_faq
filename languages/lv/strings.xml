@@ -45,6 +45,7 @@
     <string name="donation_dlg_no_ads_text">Jums nav reklāmu.</string>
     <string name="donation_level_text">Jūsu ziedojuma līmenis:</string>
     <string name="donation_purchase_info_loading_text">Iepirkšanās informācija vēl nav augšupielādēta. Vai esat tiešsaistē un pierakstījies savā Google kontā?</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Ja esat jau veicis ziedojumu, tad, lai atjaunotu pirkumus, lūdzu, atkārtoti instalējiet lietojumprogrammu pakalpojumā Google Play pēc pareizā Google konta atlasīšanas.</string>
     <string name="donation_remove_ads_by_any_amount_text">Noņemiet reklāmas uz visiem laikiem, veicot jebkādas summas vienreizēju ziedojumu.</string>
     <string name="donation_remove_ads_by_subscribing_text">Varat arī ziedot katru mēnesi, lai noņemtu reklāmas.</string>
     <string name="donation_subs_any_amount_text">Reklāma tiek pilnībā noņemta, kamēr ir aktīvs abonements par jebkuru summu mēnesī.</string>
@@ -133,6 +134,7 @@
     <string name="prefs_audio_bt_recording_warning_message_text">Izmantojiet tikai ar Bluetooth austiņām. Ja izveidojat savienojumu ar galveno ierīci (automašīnas radio), izmantojot Bluetooth, kāda iemesla dēļ tas var automātiski aktivizēt tālruņa zvanu uz šīs ierīces standarta numuru.</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Nelietot kopā ar galvas bloku (automašīnas radio)!</string>
     <string name="prefs_audio_codec_title">Audio kodeks</string>
+    <string name="prefs_audio_permission_not_granted_title">Audio ierakstīšanas atļauja netiek piešķirta</string>
     <string name="prefs_audio_priority_sum">Ja tas ir iespējots, citas programmas nevarēs izmantot mikrofonu. Ja šī lietojumprogramma ir atspējota, šī lietojumprogramma, iespējams, nevarēs ierakstīt audio, ja vairākas lietojumprogrammas darbojas, izmantojot mikrofonu (Android ne vienmēr ļauj vienlaikus izmantot mikrofonu)</string>
     <string name="prefs_audio_priority_title">Piešķiriet šai lietotnei audio prioritāti</string>
     <string name="prefs_audio_rate_text">Paraugu ņemšanas biežums</string>
@@ -206,6 +208,7 @@
     <string name="prefs_location_mode_high_accuracy_text">Visprecīzākā atrašanās vieta (koordinātas) un ātrums lielāka akumulatora enerģijas patēriņa dēļ.</string>
     <string name="prefs_location_mode_low_power_text">Zema atrašanās vietas (koordinātu) un ātruma precizitāte zema akumulatora enerģijas patēriņa dēļ.</string>
     <string name="prefs_location_mode_text">GPS prioritāte (akumulators vai precizitāte)</string>
+    <string name="prefs_location_power_saving_to_get_updates_in_background">Enerģijas taupīšana ir jāizslēdz, lai fonā varētu saņemt atrašanās vietas (GPS) atjauninājumus.</string>
     <string name="prefs_location_provider_method_text">Atrašanās vietas iegūšanas metode (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS atjaunināšanas ātrums</string>
     <string name="prefs_meters_accuracy_value_text">metru precizitāte</string>
@@ -240,6 +243,7 @@
     <string name="prefs_overlay_drag_btn_text">Velciet logu</string>
     <string name="prefs_overlay_speed_text">Parādiet ātrumu</string>
     <string name="prefs_overlay_videos_btn_text">Atveriet video ekrānu</string>
+    <string name="prefs_permission_tap_to_grant">Pieskarieties, lai piešķirtu atļauju</string>
     <string name="prefs_pinch_to_zoom_sum_text">Tālummainiet ar diviem pirkstiem</string>
     <string name="prefs_pinch_to_zoom_text">Iespējot ekrāna tālummaiņu</string>
     <string name="prefs_policy_text">Privātuma politika</string>
@@ -270,6 +274,7 @@
     <string name="prefs_screen_video_day_night_mode_text">Automātiski dienas/nakts iestatījumi</string>
     <string name="prefs_settings_bitrate_sum_text">Lielāks bitu pārraides ātrums – labāka kvalitāte, bet lielāks video faila izmērs</string>
     <string name="prefs_settings_fps_sum_text">Vairāk FPS — vienmērīgāks video, bet ātrāks akumulatora izlādēšanās. Labāk ir iestatīt pirmo vērtību uz zemāko (otrā var būt lielāka), lai labāk ierakstītu tumsā</string>
+    <string name="prefs_settings_max_file_tip_sum_text">Dažas ierīces var ierobežot maksimālo faila lielumu līdz 4 GB, tāpēc jums ir jāizvēlas iestatījumi (bitrate, ilgums, izšķirtspēja), lai viens video fails nepārsniegtu 4 GB</string>
     <string name="prefs_share_sum_text">Nosūtiet šo lietotni saviem draugiem</string>
     <string name="prefs_share_text">Dalīties ar šo</string>
     <string name="prefs_shortcut_launcher_has_been_added">Saīsne (palaidējs) ir pievienota</string>
@@ -348,7 +353,7 @@
     <string name="prefs_video_bitrate_text">Bitu pārraides ātrums (kvalitāte)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kameras vadības sižeta režīms (nakts)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kameras vadības sižeta režīms (diena)</string>
-    <string name="prefs_video_camera_hidden_by_manufacture_tip">Данная камера была скрыта производителем и может не работать</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Šo kameru ir paslēpis ražotājs, un tā var nedarboties</string>
     <string name="prefs_video_codec_sum_text">H.265 HEVC un AV1 kodeki nodrošina labāku kvalitāti ar zemāku bitu pārraides ātrumu nekā H.264 AVC, tāpēc varat ietaupīt vietu, samazinot bitu pārraides ātrumu. Taču videoklipi var netikt atskaņoti dažos video atskaņotājos</string>
     <string name="prefs_video_codec_text">Video kodeks</string>
     <string name="prefs_video_control_scene_mode_beach_text">Pludmale (gaišs laiks)</string>
@@ -386,6 +391,7 @@
     <string name="prefs_warning_notifications_text">Paziņojumu atļauja</string>
     <string name="prefs_warning_permission_bluetooth_sum_text">Automātiskai ierakstīšanai, izmantojot Bluetooth savienojumus, ir nepieciešama atļauja. Noklikšķiniet šeit, lai iesniegtu</string>
     <string name="prefs_warning_permission_bluetooth_text">Bluetooth atļauja nav piešķirta</string>
+    <string name="prefs_warning_power_saving">Enerģijas taupīšana</string>
     <string name="prefs_warnings_text">Brīdinājumi</string>
     <string name="prefs_zoom_out_desc_text">Lai piekļūtu īpaši platleņķa kamerai (objektīvam), varat iestatīt tālummaiņas koeficientu</string>
     <string name="prefs_zoom_text">Digitālā tālummaiņa (tālummaiņa)</string>
@@ -402,7 +408,9 @@
     <string name="rec_network_text">Tīkls</string>
     <string name="rec_off_text">Izslēgts</string>
     <string name="rec_on_text">Ieskaitot</string>
-    <string name="rec_service_msg">Konfidencialitāte: visi jūsu ierakstītie videoklipi tiks saglabāti tikai jūsu vietējā ierīcē. Lietojumprogramma nedublē jūsu videoklipus (tai nav savienojumu ar serveriem)\n\nLietojumprogramma turpinās darboties fonā (priekšplāna pakalpojums, kas tiek rādīts paziņojumu joslā), kamēr ierakstīšana ir aktīva, kad atgriezīsities sākuma ekrānā, pārslēdzieties uz citu lietotni vai bloķēsiet tālruni, lai turpinātu ierakstīšanu, un ieslēdzot automātiskās ierakstīšanas funkcijas (ja aizverat fona pakalpojumu, šīs funkcijas nedarbosies). Lietotne izmanto Firebase Analytics pamata anonīmai analīzei (skatiet saiti tālāk).</string>
+    <string name="rec_privacy_analytics_msg">Lietotne izmanto Firebase Analytics pamata anonīmai analīzei (skatiet saiti tālāk).</string>
+    <string name="rec_privacy_permissions_msg">Lietojumprogramma izmanto šādas atļaujas:\n- Atvērt anonīmu ierīces identifikatoru OAID (personalizētai reklamēšanai)\n- KAMERA, AUDIO (video ierakstīšanai)\n- KRĀTUVE (videoklipu saglabāšanai)\n- ATRAŠANĀS VIETA (lai iegūtu pašreizējās atrašanās vietas adresi, GPS koordinātas, ātrumu - lai parādītu lietojumprogrammas galvenajā ekrānā un pievienotu videoklipam subtitrus)\n- interneta reklāma)</string>
+    <string name="rec_privacy_service_msg">Konfidencialitāte: visi jūsu ierakstītie videoklipi tiks saglabāti tikai jūsu vietējā ierīcē. Lietojumprogramma nedublē jūsu videoklipus (tai nav savienojumu ar serveriem)\n\nLietojumprogramma turpinās darboties fonā (priekšplāna pakalpojums, kas tiek rādīts paziņojumu joslā), kamēr ierakstīšana ir aktīva, kad atgriezīsities sākuma ekrānā, pārslēdzaties uz citu lietotni vai bloķējat tālruni, lai varētu turpināt ierakstīšanu, un kad ieslēdzat automātiskās ierakstīšanas funkcijas (ja aizverat fona pakalpojumu, šīs funkcijas nedarbosies).</string>
     <string name="recording_file_name_prefix">Video failu nosaukumu prefikss</string>
     <string name="recording_start_text">Sāciet ierakstīšanu</string>
     <string name="recording_started_failed_text">Kļūda, uzsākot ierakstīšanu</string>
@@ -452,6 +460,7 @@
     <string name="videos_file_item_share">Dalīties ar šo</string>
     <string name="videos_file_item_watch">Skatīties</string>
     <string name="videos_file_open_with">Atvērt ar</string>
+    <string name="videos_file_repair">Izlabojiet bojātu/neatskaņojamu failu</string>
     <string name="videos_file_select">Izvēlieties priekš</string>
     <string name="videos_file_sort_asc">Kārtot augošā secībā</string>
     <string name="videos_file_sort_desc">Kārtot dilstošā secībā</string>

@@ -45,6 +45,7 @@
     <string name="donation_dlg_no_ads_text">Nemate reklame.</string>
     <string name="donation_level_text">Vaš nivo donacije:</string>
     <string name="donation_purchase_info_loading_text">Informacije o kupovini još nisu učitane. Jeste li online i prijavljeni na svoj Google račun?</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Ako ste već dali donaciju, da biste vratili svoje kupovine, ponovo instalirajte aplikaciju na Google Play nakon odabira ispravnog Google računa</string>
     <string name="donation_remove_ads_by_any_amount_text">Uklonite oglase zauvijek uz jednokratnu donaciju u bilo kojem iznosu.</string>
     <string name="donation_remove_ads_by_subscribing_text">Također možete donirati mjesečno za uklanjanje oglasa.</string>
     <string name="donation_subs_any_amount_text">Oglašavanje je potpuno uklonjeno dok je aktivna pretplata za bilo koji mjesečni iznos.</string>
@@ -133,6 +134,7 @@
     <string name="prefs_audio_bt_recording_warning_message_text">Koristite samo sa Bluetooth slušalicama. Ako se povežete na glavnu jedinicu (auto radio) preko Bluetooth-a, iz nekog razloga to može automatski pokrenuti telefonski poziv na standardni broj na ovom uređaju</string>
     <string name="prefs_audio_bt_recording_warning_title_text">Ne koristiti sa glavnom jedinicom (auto radio)!</string>
     <string name="prefs_audio_codec_title">Audio kodek</string>
+    <string name="prefs_audio_permission_not_granted_title">Dozvola za audio snimanje nije odobrena</string>
     <string name="prefs_audio_priority_sum">Ako je omogućeno, druge aplikacije neće moći koristiti mikrofon. Ako je onemogućena, ova aplikacija možda neće moći snimati zvuk kada više aplikacija radi pomoću mikrofona (Android ne dozvoljava uvijek istovremenu upotrebu mikrofona)</string>
     <string name="prefs_audio_priority_title">Dajte prednost zvuku ovoj aplikaciji</string>
     <string name="prefs_audio_rate_text">Frekvencija uzorkovanja</string>
@@ -206,6 +208,7 @@
     <string name="prefs_location_mode_high_accuracy_text">Najpreciznija lokacija (koordinate) i brzina zbog veće potrošnje baterije.</string>
     <string name="prefs_location_mode_low_power_text">Niska preciznost lokacije (koordinate) i brzina zbog niske potrošnje baterije.</string>
     <string name="prefs_location_mode_text">GPS prioritet (baterija ili tačnost)</string>
+    <string name="prefs_location_power_saving_to_get_updates_in_background">Ušteda energije treba biti isključena da biste mogli primati ažuriranja lokacije (GPS) u pozadini.</string>
     <string name="prefs_location_provider_method_text">Metoda pribavljanja lokacije (GPS)</string>
     <string name="prefs_location_update_frequency_text">Stopa ažuriranja GPS-a</string>
     <string name="prefs_meters_accuracy_value_text">metara tačnosti</string>
@@ -240,6 +243,7 @@
     <string name="prefs_overlay_drag_btn_text">Povucite prozor</string>
     <string name="prefs_overlay_speed_text">Pokaži brzinu</string>
     <string name="prefs_overlay_videos_btn_text">Otvorite video ekran</string>
+    <string name="prefs_permission_tap_to_grant">Dodirnite da date dozvolu</string>
     <string name="prefs_pinch_to_zoom_sum_text">Zumirajte sa dva prsta</string>
     <string name="prefs_pinch_to_zoom_text">Omogući zumiranje ekrana</string>
     <string name="prefs_policy_text">Politika privatnosti</string>
@@ -270,6 +274,7 @@
     <string name="prefs_screen_video_day_night_mode_text">Automatske postavke dan/noć</string>
     <string name="prefs_settings_bitrate_sum_text">Veći bitrate - bolji kvalitet, ali veća veličina video datoteke</string>
     <string name="prefs_settings_fps_sum_text">Više FPS-a – glatkiji video, ali brže pražnjenje baterije. Bolje je postaviti prvu vrijednost na najnižu (druga može biti veća) za bolje snimanje u mraku</string>
+    <string name="prefs_settings_max_file_tip_sum_text">Neki uređaji mogu ograničiti maksimalnu veličinu datoteke na 4 GB, tako da morate odabrati postavke (bitrate, trajanje, rezolucija) tako da jedan video fajl ne prelazi 4 GB</string>
     <string name="prefs_share_sum_text">Pošaljite ovu aplikaciju svojim prijateljima</string>
     <string name="prefs_share_text">Podijelite ovo</string>
     <string name="prefs_shortcut_launcher_has_been_added">Dodana je prečica (pokretač).</string>
@@ -348,7 +353,7 @@
     <string name="prefs_video_bitrate_text">Brzina prijenosa (kvalitet)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Scenski način upravljanja kamerom (noć)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Scenski način upravljanja kamerom (dan)</string>
-    <string name="prefs_video_camera_hidden_by_manufacture_tip">Danna kamera je bila skrita proizvođača i ne može raditi</string>
+    <string name="prefs_video_camera_hidden_by_manufacture_tip">Ovu kameru je sakrio proizvođač i možda neće raditi</string>
     <string name="prefs_video_codec_sum_text">H.265 HEVC i AV1 kodeci pružaju bolji kvalitet pri nižim brzinama prijenosa od H.264 AVC, tako da možete uštedjeti prostor smanjenjem brzine prijenosa. Ali video zapisi se možda neće reproducirati u nekim video playerima</string>
     <string name="prefs_video_codec_text">Video kodek</string>
     <string name="prefs_video_control_scene_mode_beach_text">Plaža (vedro vrijeme)</string>
@@ -386,6 +391,7 @@
     <string name="prefs_warning_notifications_text">Dozvola za obavještenje</string>
     <string name="prefs_warning_permission_bluetooth_sum_text">Za automatsko snimanje preko Bluetooth veze potrebna je dozvola. Kliknite ovdje da pošaljete</string>
     <string name="prefs_warning_permission_bluetooth_text">Bluetooth dozvola nije odobrena</string>
+    <string name="prefs_warning_power_saving">Cuvanje energije</string>
     <string name="prefs_warnings_text">Upozorenja</string>
     <string name="prefs_zoom_out_desc_text">Za pristup ultra širokougaonoj kameri (objektiv), možete postaviti faktor zumiranja</string>
     <string name="prefs_zoom_text">Digitalni zum (zum)</string>
@@ -402,7 +408,9 @@
     <string name="rec_network_text">Net</string>
     <string name="rec_off_text">Isključeno</string>
     <string name="rec_on_text">Incl.</string>
-    <string name="rec_service_msg">Privatnost: Svi video zapisi koje snimite bit će sačuvani samo na vašem lokalnom uređaju. Aplikacija ne pravi sigurnosnu kopiju vaših videozapisa (nema nikakve veze sa serverima)\n\nAplikacija će nastaviti da radi u pozadini (usluga u prvom planu koja se pojavljuje na traci sa obaveštenjima) dok je snimanje aktivno, kada se vratite na početni ekran, prebacite se na drugu aplikaciju ili zaključate telefon da biste nastavili sa snimanjem, i kada uključite funkcije za automatsko snimanje (ako zatvorite pozadinsku uslugu, ove funkcije neće raditi). Aplikacija koristi Firebase Analytics za osnovnu anonimnu analitiku (pogledajte link ispod)</string>
+    <string name="rec_privacy_analytics_msg">Aplikacija koristi Firebase Analytics za osnovnu anonimnu analitiku (pogledajte link ispod)</string>
+    <string name="rec_privacy_permissions_msg">Aplikacija koristi sljedeća dopuštenja:\n- Otvorite anonimni identifikator uređaja OAID (za personalizirano oglašavanje)\n- KAMERA, AUDIO (za video snimanje)\n- SKLADIŠTE (za čuvanje videa)\n- LOKACIJA (da dobijete adresu trenutne lokacije, GPS koordinate, brzinu - da se prikaže na glavnom ekranu aplikacije i primijeni titl na video)\n- Internet oglašavanje)</string>
+    <string name="rec_privacy_service_msg">Privatnost: Svi video zapisi koje snimite bit će sačuvani samo na vašem lokalnom uređaju. Aplikacija ne pravi sigurnosnu kopiju vaših videozapisa (nema nikakve veze sa serverima)\n\nAplikacija će nastaviti da radi u pozadini (usluga u prvom planu koja se pojavljuje na traci sa obaveštenjima) dok je snimanje aktivno, kada se vratite na početni ekran, prebacite se na drugu aplikaciju ili zaključate telefon da biste mogli da nastavite sa snimanjem, i kada uključite funkcije za automatsko snimanje (ako zatvorite pozadinsku uslugu, ove funkcije neće raditi).</string>
     <string name="recording_file_name_prefix">Prefiks za nazive video datoteka</string>
     <string name="recording_start_text">Započni snimanje</string>
     <string name="recording_started_failed_text">Greška pri pokretanju snimanja</string>
@@ -452,6 +460,7 @@
     <string name="videos_file_item_share">Podijelite ovo</string>
     <string name="videos_file_item_watch">Gledaj</string>
     <string name="videos_file_open_with">Otvori sa</string>
+    <string name="videos_file_repair">Popravite oštećenu/nemogućnu reprodukciju datoteke</string>
     <string name="videos_file_select">Odaberite za</string>
     <string name="videos_file_sort_asc">Sort Ascending</string>
     <string name="videos_file_sort_desc">Sortiraj opadajuće</string>
