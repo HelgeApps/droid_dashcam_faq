@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Nepavyko atidaryti programos, kad būtų galima pradėti įrašymą, nes nebuvo suteiktas leidimas „rodyti virš visų programų“. Spustelėkite, kad pateiktumėte</string>
     <string name="msg_photo_failed_to_take">Nepavyko nufotografuoti</string>
     <string name="msg_photo_was_saved">Nuotrauka išsaugota</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">„Google“ nuotraukų redagavimas veikia tik su viešais medijos failais.</string>
     <string name="msg_please_close_other_app_and_restart_text">Uždarykite kitas programas naudodami fotoaparatą ir paleiskite šią programą iš naujo</string>
     <string name="msg_recorder_init_error_file_not_found">Ištrinkite senus vaizdo įrašus, suformatuokite SD kortelę arba išbandykite kitą. Taip pat apribokite maksimalią vaizdo įrašymo vietą (mažiau, tuo geriau). Daugybė išsaugotų vaizdo įrašų gali sukelti tokių problemų. Taip pat žr. DUK apie SD korteles skiltyje Nustatymai /DUK. Taip pat galite pabandyti rašyti į telefono atmintį, o ne į išorinę kortelę</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Sustabdykite įrašymą. Nepakanka atminties tęsti</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">Diena</string>
     <string name="prefs_day_night_mode_night_text">Naktis</string>
     <string name="prefs_donate_sum_text">Parama programų kūrimui</string>
+    <string name="prefs_every_n_time">Kas N kartą</string>
     <string name="prefs_faq_sum_text">Dažnai užduodami klausimai</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Įrašydami automatiškai įjunkite žibintuvėlį</string>
     <string name="prefs_float_size_increase_text">Plaukiojančio lango mygtukų dydis</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Datos formatas</string>
     <string name="prefs_subtitles_date_text">data ir laikas)</string>
     <string name="prefs_subtitles_date_time_system_text">Sisteminis</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею и нагревать устройство. Для видеозаписей главное информация о времени, поэтому все GPS опции вполне можарсно отключить, вфойключить, времени</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Šios parinktys gali gerokai sunaudoti bateriją ir įkaitinti įrenginį. Vaizdo įrašų atveju pagrindinė informacija yra laikas, todėl galima išjungti visas GPS parinktis, įskaitant sąsajos nustatymus.</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS signalas</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX minimalus atnaujinimo dažnis</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Visi koordinačių atnaujinimai</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Pradėti /sustabdyti įrašymą</string>
     <string name="prefs_ui_click_text">Greitai bakstelėkite ekraną</string>
     <string name="prefs_ui_long_click_text">Ilgai paspauskite ekraną</string>
+    <string name="prefs_value_minute_few_text">minutės</string>
+    <string name="prefs_value_minute_one_text">minutė</string>
+    <string name="prefs_value_minute_other_text">minutės</string>
     <string name="prefs_value_secs_few_text">sekundžių</string>
     <string name="prefs_value_secs_one_text">antra</string>
     <string name="prefs_value_secs_other_text">sekundžių</string>
     <string name="prefs_version_text">Programos versija</string>
     <string name="prefs_vibrate_rec_start_stop_text">Vibracija pradedant arba sustabdant įrašymą</string>
+    <string name="prefs_vibration_strength">Vibracijos stiprumas</string>
     <string name="prefs_video_bitrate_text">Bitų sparta (kokybė)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kameros valdymo scenos režimas (naktis)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kameros valdymo scenos režimas (dieną)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Išeiti iš trynimo režimo</string>
     <string name="videos_locked_folder_text">Apsaugotas perrašymas</string>
     <string name="videos_menu_delete">Ištrinti</string>
+    <string name="videos_menu_move_file">Perkelti failą</string>
     <string name="videos_menu_refresh">Atnaujinti</string>
     <string name="videos_menu_select_all">Pasirinkite visus</string>
     <string name="videos_menu_sorting">Rūšiavimas</string>
     <string name="videos_menu_storage">Atmintis</string>
+    <string name="videos_moving_files_text">Perkeliami failai… Prašome palaukti!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Atidarykite programos nustatymus ir leiskite pasiekti telefono atmintyje esančią saugyklą</string>
     <string name="videos_no_storage_permission_dlg_title_text">Nėra saugojimo leidimo</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Pasirinkite aplanką įrašams</string>
     <string name="videos_storage_select_dlg_title">Pasirinkite vaizdo įrašų saugyklą</string>
     <string name="videos_temporary_folder_text">Laiku nustatyti vaizdo įrašai</string>
     <string name="videos_toolbar_subtitle">Vaizdo įrašai</string>
+    <string name="widget_start_stop_recording_transparent">Skaidrus mygtukas įrašymui pradėti /sustabdyti</string>
     <string name="zoom_text">priartinti</string>
 </resources>

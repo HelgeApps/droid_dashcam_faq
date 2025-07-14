@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Kaore i taea te whakatuwhera i te taupānga ki te timata ki te tuhi na te mea kaore te whakaaetanga \"whakaatu ki runga ake o nga taupānga katoa\" i whakaaetia. Pāwhiri ki te whakarato</string>
     <string name="msg_photo_failed_to_take">I rahua te tango whakaahua</string>
     <string name="msg_photo_was_saved">I tiakina te whakaahua</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Ko te Whakatika Whakaahua a Google ka mahi anake me nga konae pāpāho tūmatanui.</string>
     <string name="msg_please_close_other_app_and_restart_text">Katia etahi atu tono ma te kamera ka whakaara ano i tenei tono</string>
     <string name="msg_recorder_init_error_file_not_found">Mukua nga ataata tawhito, whakahōputuhia to kaari SD, whakamatau ranei i tetahi atu. Ano, whakawhāitihia te mokowā tuhi ataata mōrahi (he iti ake te pai). Ko te maha o nga riipene whakaata kua tiakina ka raru pea. Tirohia hoki te FAQ mo nga kaari SD i roto i nga Tautuhinga /FAQ. Ka taea hoki te ngana ki te tuhi ki te mahara waea kaua ki te kaari o waho</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Kati te tuhi. He iti rawa te mahara ki te haere tonu</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">Ra</string>
     <string name="prefs_day_night_mode_night_text">Po</string>
     <string name="prefs_donate_sum_text">Tautoko i te whanaketanga tono</string>
+    <string name="prefs_every_n_time">Ia N wa</string>
     <string name="prefs_faq_sum_text">Pātai auau</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Whakakā aunoatia te rama rama i te wa e hopu ana</string>
     <string name="prefs_float_size_increase_text">Te rahi o nga patene i runga i te matapihi maanu</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Hōputu rā</string>
     <string name="prefs_subtitles_date_text">Rā Wā)</string>
     <string name="prefs_subtitles_date_time_system_text">Pūnaha</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею и нагревать устройство. Для видеозаписей главное информация о времени, поэтому все GPS опции вполне можно отключить, включая настроность</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Ka taea e enei whiringa te pau te pākahiko me te whakamahana i te taputapu. Mo nga rekoata ataata, ko nga korero matua ko te wa, na reira ka taea te whakakore i nga whiringa GPS katoa, tae atu ki nga tautuhinga atanga</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS hoki</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX reiti whakahou iti</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Ko nga whakahōu ruruku katoa</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Tīmata /whakamutu te tuhi</string>
     <string name="prefs_ui_click_text">Pato tere i runga i te mata</string>
     <string name="prefs_ui_long_click_text">Paa roa i te mata</string>
+    <string name="prefs_value_minute_few_text">meneti</string>
+    <string name="prefs_value_minute_one_text">meneti</string>
+    <string name="prefs_value_minute_other_text">meneti</string>
     <string name="prefs_value_secs_few_text">hēkona</string>
     <string name="prefs_value_secs_one_text">tuarua</string>
     <string name="prefs_value_secs_other_text">hēkona</string>
     <string name="prefs_version_text">Putanga tono</string>
     <string name="prefs_vibrate_rec_start_stop_text">Te wiri i te wa ka timata, ka mutu ranei te rekoata</string>
+    <string name="prefs_vibration_strength">Te kaha wiri</string>
     <string name="prefs_video_bitrate_text">Auaumoka (kounga)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Aratau Whakaaturanga Mana Kamera (Po)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Aratau Whakaaturanga Mana Kamera (Ra)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Puta i te aratau muku</string>
     <string name="videos_locked_folder_text">Kua parea te tuhirua</string>
     <string name="videos_menu_delete">Mukua</string>
+    <string name="videos_menu_move_file">Nuku kōnae</string>
     <string name="videos_menu_refresh">Tāmata</string>
     <string name="videos_menu_select_all">Whiriwhiria te katoa</string>
     <string name="videos_menu_sorting">Kōmaka</string>
     <string name="videos_menu_storage">Maharahara</string>
+    <string name="videos_moving_files_text">Te neke i nga konae… Tatari koa!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Whakatuwheratia nga tautuhinga tono ka tuku uru ki te rokiroki i roto i te mahara waea</string>
     <string name="videos_no_storage_permission_dlg_title_text">Kaore he whakaaetanga rokiroki</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Tīpakohia he kōpaki mō ngā rekoata</string>
     <string name="videos_storage_select_dlg_title">Tīpakohia te rokiroki ataata</string>
     <string name="videos_temporary_folder_text">Nga riipene whakaata</string>
     <string name="videos_toolbar_subtitle">Nga rekoata ataata</string>
+    <string name="widget_start_stop_recording_transparent">Patene Puata hei timata/mutu te rekoata</string>
     <string name="zoom_text">topa</string>
 </resources>

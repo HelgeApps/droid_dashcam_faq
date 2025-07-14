@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Aplikasi tidak dapat dibuka untuk mulai merekam karena izin \"tampilkan di atas semua aplikasi\" tidak diberikan. Klik untuk menyediakan</string>
     <string name="msg_photo_failed_to_take">Gagal mengambil foto</string>
     <string name="msg_photo_was_saved">Foto disimpan</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google Photos Edit hanya berfungsi dengan berkas media publik.</string>
     <string name="msg_please_close_other_app_and_restart_text">Tutup aplikasi lain menggunakan kamera dan mulai ulang aplikasi ini</string>
     <string name="msg_recorder_init_error_file_not_found">Hapus video lama, format kartu SD Anda, atau coba yang lain. Juga, batasi ruang perekaman video maksimum (lebih sedikit lebih baik). Sejumlah besar video yang disimpan dapat menyebabkan masalah seperti itu. Lihat juga FAQ tentang kartu SD di Pengaturan /FAQ. Anda juga dapat mencoba menulis ke memori telepon alih-alih kartu eksternal</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Berhenti merekam. Tidak cukup memori untuk melanjutkan</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">Hari</string>
     <string name="prefs_day_night_mode_night_text">Malam</string>
     <string name="prefs_donate_sum_text">Mendukung pengembangan aplikasi</string>
+    <string name="prefs_every_n_time">Setiap N kali</string>
     <string name="prefs_faq_sum_text">Pertanyaan yang sering diajukan</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Menyalakan senter secara otomatis saat merekam</string>
     <string name="prefs_float_size_increase_text">Ukuran tombol pada jendela mengambang</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Format tanggal</string>
     <string name="prefs_subtitles_date_text">Tanggal Waktu)</string>
     <string name="prefs_subtitles_date_time_system_text">sistemik</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Anda dapat melakukan ini dengan membayar dan membayar tagihan Anda. Ada banyak kesalahan yang disebabkan oleh GPS yang tidak dapat diakses oleh siapa pun, termasuk н астройки интерфейса</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Opsi-opsi ini dapat menghabiskan baterai secara signifikan dan membuat perangkat menjadi panas. Untuk perekaman video, informasi utamanya adalah waktu, sehingga semua opsi GPS dapat dinonaktifkan, termasuk pengaturan antarmuka.</string>
     <string name="prefs_subtitles_gps_info_category_title">Panggilan GPS</string>
     <string name="prefs_subtitles_gpx_delay_title">Tingkat pembaruan minimum GPX</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Semua pembaruan koordinat</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Mulai /hentikan perekaman</string>
     <string name="prefs_ui_click_text">Ketuk cepat di layar</string>
     <string name="prefs_ui_long_click_text">Tekan lama di layar</string>
+    <string name="prefs_value_minute_few_text">menit</string>
+    <string name="prefs_value_minute_one_text">menit</string>
+    <string name="prefs_value_minute_other_text">menit</string>
     <string name="prefs_value_secs_few_text">detik</string>
     <string name="prefs_value_secs_one_text">kedua</string>
     <string name="prefs_value_secs_other_text">detik</string>
     <string name="prefs_version_text">Versi aplikasi</string>
     <string name="prefs_vibrate_rec_start_stop_text">Getaran saat memulai atau menghentikan perekaman</string>
+    <string name="prefs_vibration_strength">Kekuatan getaran</string>
     <string name="prefs_video_bitrate_text">Kecepatan bit (kualitas)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Mode Pemandangan Kontrol Kamera (Malam)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Mode Pemandangan Kontrol Kamera (Hari)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Keluar dari mode hapus</string>
     <string name="videos_locked_folder_text">Timpa dilindungi</string>
     <string name="videos_menu_delete">Menghapus</string>
+    <string name="videos_menu_move_file">Pindahkan berkas</string>
     <string name="videos_menu_refresh">Menyegarkan</string>
     <string name="videos_menu_select_all">Pilih semua</string>
     <string name="videos_menu_sorting">Penyortiran</string>
     <string name="videos_menu_storage">Penyimpanan</string>
+    <string name="videos_moving_files_text">Memindahkan file… Harap tunggu!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Silakan buka pengaturan aplikasi dan izinkan akses ke penyimpanan di memori telepon</string>
     <string name="videos_no_storage_permission_dlg_title_text">Tidak ada izin penyimpanan</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Silakan pilih folder untuk catatan</string>
     <string name="videos_storage_select_dlg_title">Pilih penyimpanan video</string>
     <string name="videos_temporary_folder_text">Video berjangka waktu</string>
     <string name="videos_toolbar_subtitle">Rekaman video</string>
+    <string name="widget_start_stop_recording_transparent">Tombol transparan untuk memulai/menghentikan perekaman</string>
     <string name="zoom_text">Perbesar</string>
 </resources>

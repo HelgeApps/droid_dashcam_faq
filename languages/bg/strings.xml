@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Приложението не може да бъде отворено, за да започне запис, тъй като разрешението „показване над всички приложения“ не е дадено. Кликнете, за да предоставите</string>
     <string name="msg_photo_failed_to_take">Неуспешно правене на снимка</string>
     <string name="msg_photo_was_saved">Снимката е запазена</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google Photos Edit работи само с публични медийни файлове.</string>
     <string name="msg_please_close_other_app_and_restart_text">Затворете други приложения с помощта на камерата и рестартирайте това приложение</string>
     <string name="msg_recorder_init_error_file_not_found">Изтрийте стари видеоклипове, форматирайте SD картата си или опитайте друга. Освен това ограничете максималното пространство за запис на видео (по-малко е по-добре). Голям брой запазени видеоклипове могат да причинят такива проблеми. Вижте също ЧЗВ за SD карти в Настройки /ЧЗВ. Можете също да опитате да пишете в паметта на телефона вместо във външна карта</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Спрете записа. Няма достатъчно памет за продължаване</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">ден</string>
     <string name="prefs_day_night_mode_night_text">нощ</string>
     <string name="prefs_donate_sum_text">Подкрепете разработката на приложения</string>
+    <string name="prefs_every_n_time">Всеки N път</string>
     <string name="prefs_faq_sum_text">Често задавани въпроси</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Автоматично включване на фенерчето при запис</string>
     <string name="prefs_float_size_increase_text">Размер на бутоните на плаващ прозорец</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Формат на датата</string>
     <string name="prefs_subtitles_date_text">Време за среща)</string>
     <string name="prefs_subtitles_date_time_system_text">Системно</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Тези опции могат значително да изискват батерията и да нагряват устройството. За видеозаписи основната информация за времето, така че всички GPS опции могат да бъдат изключени, включително настройките на интерфейса</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Тези опции могат значително да изразходват батерията и да загреят устройството. За видеозаписи основната информация е времето, така че всички GPS опции могат да бъдат деактивирани, включително настройките на интерфейса.</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS данни</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX минимална скорост на актуализиране</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Всички актуализации на координатите</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Стартиране /спиране на записа</string>
     <string name="prefs_ui_click_text">Бързо докосване на екрана</string>
     <string name="prefs_ui_long_click_text">Дълго натискане на екрана</string>
+    <string name="prefs_value_minute_few_text">минути</string>
+    <string name="prefs_value_minute_one_text">минута</string>
+    <string name="prefs_value_minute_other_text">минути</string>
     <string name="prefs_value_secs_few_text">секунди</string>
     <string name="prefs_value_secs_one_text">второ</string>
     <string name="prefs_value_secs_other_text">секунди</string>
     <string name="prefs_version_text">Версия на приложението</string>
     <string name="prefs_vibrate_rec_start_stop_text">Вибрация при стартиране или спиране на запис</string>
+    <string name="prefs_vibration_strength">Сила на вибрациите</string>
     <string name="prefs_video_bitrate_text">Скорост на предаване (качество)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Сценен режим за управление на камерата (нощ)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Сценен режим за управление на камерата (ден)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Излезте от режима на изтриване</string>
     <string name="videos_locked_folder_text">Защитено от презаписване</string>
     <string name="videos_menu_delete">Изтрий</string>
+    <string name="videos_menu_move_file">Преместване на файл</string>
     <string name="videos_menu_refresh">Обнови</string>
     <string name="videos_menu_select_all">Изберете всички</string>
     <string name="videos_menu_sorting">Сортиране</string>
     <string name="videos_menu_storage">Памет</string>
+    <string name="videos_moving_files_text">Преместване на файлове… Моля, изчакайте!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Моля, отворете настройките на приложението и разрешете достъп до паметта в паметта на телефона</string>
     <string name="videos_no_storage_permission_dlg_title_text">Няма разрешение за съхранение</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Моля, изберете папка за записи</string>
     <string name="videos_storage_select_dlg_title">Изберете видео съхранение</string>
     <string name="videos_temporary_folder_text">Видеоклипове с време</string>
     <string name="videos_toolbar_subtitle">Видео записи</string>
+    <string name="widget_start_stop_recording_transparent">Прозрачен бутон за стартиране/спиране на записа</string>
     <string name="zoom_text">мащабиране</string>
 </resources>

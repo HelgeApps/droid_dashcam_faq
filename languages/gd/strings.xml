@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Cha b’ urrainn an aplacaid fhosgladh gus tòiseachadh air clàradh leis nach deach an cead “show on top of all apps” a thoirt seachad. Cliog gus a thoirt seachad</string>
     <string name="msg_photo_failed_to_take">Dh ’fhàillig an dealbh a thogail</string>
     <string name="msg_photo_was_saved">Dealbh air a shàbhaladh</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Chan eil Google Photos Edit ag obair ach le faidhlichean meadhanan poblach.</string>
     <string name="msg_please_close_other_app_and_restart_text">Dùin tagraidhean eile a ’cleachdadh a’ chamara agus ath-thòisich an aplacaid seo</string>
     <string name="msg_recorder_init_error_file_not_found">Thoir às seann bhideothan, cruth do chairt SD, no feuch fear eile. Cuideachd, cuir crìoch air an àite clàraidh bhidio as motha (tha nas lugha nas fheàrr). Faodaidh àireamh mhòr de bhideothan a chaidh a shàbhaladh duilgheadasan mar sin adhbhrachadh. Faic cuideachd na Ceistean Cumanta mu chairtean SD ann an Roghainnean /Ceistean Cumanta. Faodaidh tu cuideachd feuchainn ri sgrìobhadh chun chuimhne fòn an àite cairt taobh a-muigh</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Stad a chlàradh. Gun chuimhne gu leòr airson leantainn air adhart</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">Latha</string>
     <string name="prefs_day_night_mode_night_text">Oidhche</string>
     <string name="prefs_donate_sum_text">Thoir taic do leasachadh tagradh</string>
+    <string name="prefs_every_n_time">Gach N uair</string>
     <string name="prefs_faq_sum_text">Ceistean bitheanta</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Tionndaidh gu fèin-ghluasadach air an flashlight nuair a bhios tu a’ clàradh</string>
     <string name="prefs_float_size_increase_text">Meud putanan air uinneag a tha a ’fleòdradh</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Cruth ceann-latha</string>
     <string name="prefs_subtitles_date_text">Ùine Ceann-latha)</string>
     <string name="prefs_subtitles_date_time_system_text">Siostamach</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Bidh mi a’ faighinn a-mach mu bhith a’ faighinn grèim air bataraidh agus a’ faighinn thairis air an àrd-ùrlar. Mar a dhèiligeas tu ris an inneal-glanaidh airson an fhionnaire, an lorgar an GPS airson an inneal-adhair an t-saoghail</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Faodaidh na roghainnean seo am bataraidh a chaitheamh gu mòr agus an inneal a theasachadh. Airson clàraidhean bhidio, is e an t-àm am prìomh fhiosrachadh, agus mar sin faodar na roghainnean GPS uile a dhì-chomasachadh, a’ gabhail a-steach roghainnean an eadar-aghaidh.</string>
     <string name="prefs_subtitles_gps_info_category_title">Geama gps</string>
     <string name="prefs_subtitles_gpx_delay_title">An ìre as ìsle GPX</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">A h-uile co-òrdanachadh ùrachaidhean</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Tòisich /stad a ’clàradh</string>
     <string name="prefs_ui_click_text">Tap luath air an sgrion</string>
     <string name="prefs_ui_long_click_text">Brùth fada air an sgrion</string>
+    <string name="prefs_value_minute_few_text">mionaidean</string>
+    <string name="prefs_value_minute_one_text">mionaid</string>
+    <string name="prefs_value_minute_other_text">mionaidean</string>
     <string name="prefs_value_secs_few_text">diogan</string>
     <string name="prefs_value_secs_one_text">an dàrna</string>
     <string name="prefs_value_secs_other_text">diogan</string>
     <string name="prefs_version_text">Tionndadh tagraidh</string>
     <string name="prefs_vibrate_rec_start_stop_text">Crith nuair a thòisicheas tu no a stadas clàradh</string>
+    <string name="prefs_vibration_strength">Neart crith</string>
     <string name="prefs_video_bitrate_text">Bitrate (càileachd)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Modh Seallaidh Smachd Camara (Oidhche)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Modh Seallaidh Smachd Camara (Latha)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Modh sguabaidh às</string>
     <string name="videos_locked_folder_text">Overwrite air a dhìon</string>
     <string name="videos_menu_delete">Cuir às</string>
+    <string name="videos_menu_move_file">Gluais faidhle</string>
     <string name="videos_menu_refresh">Ùraich</string>
     <string name="videos_menu_select_all">Tagh a h-uile càil</string>
     <string name="videos_menu_sorting">Deasachadh</string>
     <string name="videos_menu_storage">Cuimhne</string>
+    <string name="videos_moving_files_text">A’ gluasad fhaidhlichean… Feuch an feith thu!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Feuch an fosgail thu roghainnean an tagraidh agus leig leat faighinn chun stòradh ann an cuimhne a ’fòn</string>
     <string name="videos_no_storage_permission_dlg_title_text">Gun chead stòraidh</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Feuch an tagh thu pasgan airson clàran</string>
     <string name="videos_storage_select_dlg_title">Tagh stòradh bhidio</string>
     <string name="videos_temporary_folder_text">Bhideothan tìmeil</string>
     <string name="videos_toolbar_subtitle">Clàran bhidio</string>
+    <string name="widget_start_stop_recording_transparent">Putan follaiseach airson clàradh a thòiseachadh/stad</string>
     <string name="zoom_text">zoom</string>
 </resources>

@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Yozishni boshlash uchun ilovani ochib bo‘lmadi, chunki “barcha ilovalar tepasida ko‘rsatish” ruxsati berilmagan. Ta\'minlash uchun bosing</string>
     <string name="msg_photo_failed_to_take">Suratga olish amalga oshmadi</string>
     <string name="msg_photo_was_saved">Surat saqlandi</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google Photos Edit faqat ommaviy media fayllari bilan ishlaydi.</string>
     <string name="msg_please_close_other_app_and_restart_text">Kamera yordamida boshqa ilovalarni yoping va ushbu ilovani qayta ishga tushiring</string>
     <string name="msg_recorder_init_error_file_not_found">Eski videolarni oʻchiring, SD kartangizni formatlang yoki boshqasini sinab koʻring. Bundan tashqari, maksimal video yozish maydonini cheklang (kamroq bo\'lsa yaxshi). Ko\'p sonli saqlangan videolar bunday muammolarni keltirib chiqarishi mumkin. Shuningdek, Sozlamalar/FAQ-da SD-kartalar haqida tez-tez so\'raladigan savollarga qarang. Shuningdek, siz tashqi karta o\'rniga telefon xotirasiga yozishga urinib ko\'rishingiz mumkin</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Yozishni to\'xtating. Davom etish uchun xotira yetarli emas</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">kun</string>
     <string name="prefs_day_night_mode_night_text">Kecha</string>
     <string name="prefs_donate_sum_text">Ilovalarni ishlab chiqishni qo\'llab-quvvatlash</string>
+    <string name="prefs_every_n_time">Har N marta</string>
     <string name="prefs_faq_sum_text">Tez-tez so\'raladigan savollar</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Yozish paytida chiroqni avtomatik ravishda yoqing</string>
     <string name="prefs_float_size_increase_text">Suzuvchi oynadagi tugmalar o\'lchami</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Sana formati</string>
     <string name="prefs_subtitles_date_text">Sana vaqti)</string>
     <string name="prefs_subtitles_date_time_system_text">Tizimli</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Eti optsii mumkin suschestvenno potreblyat batareyu va nagrevat ustrostvo. Videozapisey glavnoe ma\'lumotlari uchun barcha GPS optsii va boshqa ko\'rinishdagi qurilmalar, interfeyslarni o\'rnatish mumkin.</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Ushbu variantlar batareyani sezilarli darajada iste\'mol qilishi va qurilmani isitishi mumkin. Video yozuvlar uchun asosiy ma\'lumot vaqt hisoblanadi, shuning uchun barcha GPS imkoniyatlari, jumladan, interfeys sozlamalari o\'chirilishi mumkin</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS mavjud</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX minimal yangilanish tezligi</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Barcha koordinatalar yangilanishi</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Yozishni boshlash /to\'xtatish</string>
     <string name="prefs_ui_click_text">Ekranga tez bosing</string>
     <string name="prefs_ui_long_click_text">Ekranga uzoq bosing</string>
+    <string name="prefs_value_minute_few_text">daqiqa</string>
+    <string name="prefs_value_minute_one_text">daqiqa</string>
+    <string name="prefs_value_minute_other_text">daqiqa</string>
     <string name="prefs_value_secs_few_text">soniya</string>
     <string name="prefs_value_secs_one_text">ikkinchi</string>
     <string name="prefs_value_secs_other_text">soniya</string>
     <string name="prefs_version_text">Ilova versiyasi</string>
     <string name="prefs_vibrate_rec_start_stop_text">Yozishni boshlash yoki to\'xtatish paytida tebranish</string>
+    <string name="prefs_vibration_strength">Tebranish kuchi</string>
     <string name="prefs_video_bitrate_text">Bit tezligi (sifat)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kamerani boshqarish rejimi (tungi)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kamerani boshqarish rejimi (kun)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">O\'chirish rejimidan chiqing</string>
     <string name="videos_locked_folder_text">Qayta yozishdan himoyalangan</string>
     <string name="videos_menu_delete">Oʻchirish</string>
+    <string name="videos_menu_move_file">Faylni ko\'chirish</string>
     <string name="videos_menu_refresh">Yangilash</string>
     <string name="videos_menu_select_all">Hammasini tanlang</string>
     <string name="videos_menu_sorting">Tartiblash</string>
     <string name="videos_menu_storage">Xotira</string>
+    <string name="videos_moving_files_text">Fayllar koʻchirilmoqda… Iltimos, kuting!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Iltimos, ilova sozlamalarini oching va telefon xotirasidagi xotiraga kirishga ruxsat bering</string>
     <string name="videos_no_storage_permission_dlg_title_text">Saqlash uchun ruxsat yo\'q</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Iltimos, yozuvlar uchun jildni tanlang</string>
     <string name="videos_storage_select_dlg_title">Video xotirasini tanlang</string>
     <string name="videos_temporary_folder_text">Vaqtli videolar</string>
     <string name="videos_toolbar_subtitle">Video yozuvlar</string>
+    <string name="widget_start_stop_recording_transparent">Yozishni boshlash/to\'xtatish uchun shaffof tugma</string>
     <string name="zoom_text">kattalashtirish</string>
 </resources>

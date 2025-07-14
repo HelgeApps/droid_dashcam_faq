@@ -101,6 +101,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">\'모든 앱 위에 표시\' 권한이 부여되지 않아 앱을 열어 녹화를 시작할 수 없습니다. 제공하려면 클릭하세요.</string>
     <string name="msg_photo_failed_to_take">사진을 찍지 못했습니다.</string>
     <string name="msg_photo_was_saved">사진 저장됨</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google 포토 편집은 공개 미디어 파일에만 적용됩니다.</string>
     <string name="msg_please_close_other_app_and_restart_text">카메라를 사용하는 다른 앱을 닫고 이 앱을 다시 시작하세요.</string>
     <string name="msg_recorder_init_error_file_not_found">오래된 동영상 파일을 삭제하거나 SD카드 포맷 또는 다른 SD카드를 사용해보세요. 또한 최대 저장공간 용량을 조절해보세요. (적을 수록 좋습니다.) 저장된 동영상이 많으면 이러한 문제가 발생할 수 있습니다. 설정/FAQ에서 SD카드에 대한 FAQ도 읽어보세요. 또는 외장 SD카드 대신 내장 메모리에 저장을 시도해보세요.</string>
     <string name="msg_recording_stopping_not_enough_memory_text">메모리 부족으로 녹화를 중지합니다.</string>
@@ -181,6 +182,7 @@
     <string name="prefs_day_night_mode_day_text">주간</string>
     <string name="prefs_day_night_mode_night_text">야간</string>
     <string name="prefs_donate_sum_text">애플리케이션 개발 지원</string>
+    <string name="prefs_every_n_time">N번마다</string>
     <string name="prefs_faq_sum_text">자주 묻는 질문</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">녹음 시 자동으로 손전등 켜기</string>
     <string name="prefs_float_size_increase_text">플로팅 윈도우의 버튼 크기</string>
@@ -322,7 +324,7 @@
     <string name="prefs_subtitles_date_format_text">날짜 형식</string>
     <string name="prefs_subtitles_date_text">날짜 (시간)</string>
     <string name="prefs_subtitles_date_time_system_text">시스템</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут сусественно потреблять батарей 및 нагревать устройство. Для видеозаписей gлавное 정보는 вреmenи, поэтому все GPS опции вполне можно отклучить, вклучая настройки INTерфейса</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">이러한 옵션은 배터리를 상당히 소모하고 기기 온도를 높일 수 있습니다. 비디오 녹화의 경우 주요 정보는 시간이므로 인터페이스 설정을 포함한 모든 GPS 옵션을 비활성화할 수 있습니다.</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS 지원</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX 최소 업데이트 속도</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">모든 좌표 업데이트</string>
@@ -365,11 +367,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">녹화 시작/중지</string>
     <string name="prefs_ui_click_text">화면을 빠르게 탭하기</string>
     <string name="prefs_ui_long_click_text">화면을 길게 누르기</string>
+    <string name="prefs_value_minute_few_text">분</string>
+    <string name="prefs_value_minute_one_text">분</string>
+    <string name="prefs_value_minute_other_text">분</string>
     <string name="prefs_value_secs_few_text">초</string>
     <string name="prefs_value_secs_one_text">초</string>
     <string name="prefs_value_secs_other_text">초</string>
     <string name="prefs_version_text">애플리케이션 버전</string>
     <string name="prefs_vibrate_rec_start_stop_text">녹화 시작 또는 중지 시 진동</string>
+    <string name="prefs_vibration_strength">진동 강도</string>
     <string name="prefs_video_bitrate_text">비트레이트(품질)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">카메라 장면 모드 (야간)</string>
     <string name="prefs_video_camera_control_scene_mode_text">카메라 장면 모드 (주간)</string>
@@ -522,15 +528,18 @@
     <string name="videos_item_mode_deletion_exit_text">삭제 모드 종료</string>
     <string name="videos_locked_folder_text">덮어쓰기 방지</string>
     <string name="videos_menu_delete">삭제</string>
+    <string name="videos_menu_move_file">파일 이동</string>
     <string name="videos_menu_refresh">새로 고침</string>
     <string name="videos_menu_select_all">모두 선택</string>
     <string name="videos_menu_sorting">정렬</string>
     <string name="videos_menu_storage">스토리지</string>
+    <string name="videos_moving_files_text">파일을 이동하는 중입니다... 잠시만 기다려 주세요!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">앱 설정에서 저장공간 권한을 설정해주세요.</string>
     <string name="videos_no_storage_permission_dlg_title_text">저장 권한 없음</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">기록용 폴더를 선택하세요.</string>
     <string name="videos_storage_select_dlg_title">동영상 스토리지 선택</string>
     <string name="videos_temporary_folder_text">임시 저장 동영상</string>
     <string name="videos_toolbar_subtitle">동영상</string>
+    <string name="widget_start_stop_recording_transparent">녹음 시작/중지를 위한 투명 버튼</string>
     <string name="zoom_text">줌</string>
 </resources>

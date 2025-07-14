@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Appen kunde inte öppnas för att starta inspelningen eftersom behörigheten \"visa ovanpå alla appar\" inte beviljades. Klicka för att ange</string>
     <string name="msg_photo_failed_to_take">Det gick inte att ta foto</string>
     <string name="msg_photo_was_saved">Fotot sparat</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google Fotoredigering fungerar bara med offentliga mediefiler.</string>
     <string name="msg_please_close_other_app_and_restart_text">Stäng andra program med kameran och starta om det här programmet</string>
     <string name="msg_recorder_init_error_file_not_found">Radera gamla videor, formatera ditt SD-kort eller prova ett annat. Begränsa också det maximala videoinspelningsutrymmet (mindre är bättre). Ett stort antal sparade videor kan orsaka sådana problem. Se även FAQ om SD-kort i Inställningar /FAQ. Du kan också prova att skriva till telefonminnet istället för ett externt kort</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Sluta spela in. Inte tillräckligt med minne för att fortsätta</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">Dag</string>
     <string name="prefs_day_night_mode_night_text">Natt</string>
     <string name="prefs_donate_sum_text">Stödja applikationsutveckling</string>
+    <string name="prefs_every_n_time">Varje N gång</string>
     <string name="prefs_faq_sum_text">Vanliga frågor</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Slå på ficklampan automatiskt vid inspelning</string>
     <string name="prefs_float_size_increase_text">Storlek på knappar på ett flytande fönster</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Datumformat</string>
     <string name="prefs_subtitles_date_text">Datum Tid)</string>
     <string name="prefs_subtitles_date_time_system_text">Systemisk</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею и нагревать устройство. Для видеозаписей главное информация о времени, поэтому все GPS опции вполне можно отклюкичить, времени</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Dessa alternativ kan förbruka batteriet avsevärt och värma upp enheten. För videoinspelningar är den viktigaste informationen tid, så alla GPS-alternativ kan inaktiveras, inklusive gränssnittsinställningar.</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS ansluten</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX lägsta uppdateringshastighet</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Alla koordinatuppdateringar</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Starta/stoppa inspelning</string>
     <string name="prefs_ui_click_text">Snabbt tryck på skärmen</string>
     <string name="prefs_ui_long_click_text">Långt tryck på skärmen</string>
+    <string name="prefs_value_minute_few_text">minuter</string>
+    <string name="prefs_value_minute_one_text">minut</string>
+    <string name="prefs_value_minute_other_text">minuter</string>
     <string name="prefs_value_secs_few_text">sekunder</string>
     <string name="prefs_value_secs_one_text">andra</string>
     <string name="prefs_value_secs_other_text">sekunder</string>
     <string name="prefs_version_text">Applikationsversion</string>
     <string name="prefs_vibrate_rec_start_stop_text">Vibration vid start eller stopp av inspelning</string>
+    <string name="prefs_vibration_strength">Vibrationsstyrka</string>
     <string name="prefs_video_bitrate_text">Bithastighet (kvalitet)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Scenläge för kamerakontroll (natt)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kamerakontroll Scenläge (dag)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Avsluta raderingsläget</string>
     <string name="videos_locked_folder_text">Överskrivningsskyddad</string>
     <string name="videos_menu_delete">Radera</string>
+    <string name="videos_menu_move_file">Flytta fil</string>
     <string name="videos_menu_refresh">Uppdatera</string>
     <string name="videos_menu_select_all">Välj alla</string>
     <string name="videos_menu_sorting">Sortering</string>
     <string name="videos_menu_storage">Minne</string>
+    <string name="videos_moving_files_text">Flyttar filer… Vänta!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Öppna applikationsinställningarna och tillåt åtkomst till lagringen i telefonminnet</string>
     <string name="videos_no_storage_permission_dlg_title_text">Ingen lagringsbehörighet</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Välj en mapp för poster</string>
     <string name="videos_storage_select_dlg_title">Välj videolagring</string>
     <string name="videos_temporary_folder_text">Tidsinställda videor</string>
     <string name="videos_toolbar_subtitle">Videoinspelningar</string>
+    <string name="widget_start_stop_recording_transparent">Transparent knapp för att starta/stoppa inspelning</string>
     <string name="zoom_text">zoom</string>
 </resources>

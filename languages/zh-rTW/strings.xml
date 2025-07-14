@@ -102,6 +102,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">無法開啟應用程式開始錄製，因為未授予「顯示在所有應用程式之上」權限。點擊提供</string>
     <string name="msg_photo_failed_to_take">無法拍照</string>
     <string name="msg_photo_was_saved">照片已保存</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google Photos Edit 僅適用於公開媒體檔案。</string>
     <string name="msg_please_close_other_app_and_restart_text">關閉其他使用鏡頭的應用程式並重新啟動此應用程式</string>
     <string name="msg_recorder_init_error_file_not_found">刪除舊影片、格式化 SD 卡或嘗試其他方式。此外，限制最大影片錄製儲存空間（越少越好）。大量保存的影片會導致此類問題。另請參閱設置/常見問題中有關 SD 卡的常見問題。您也可以嘗試存入手機内部儲存空間而不是記憶卡</string>
     <string name="msg_recording_stopping_not_enough_memory_text">停止錄音。内部儲存空間不足，無法繼續</string>
@@ -182,6 +183,7 @@
     <string name="prefs_day_night_mode_day_text">白天</string>
     <string name="prefs_day_night_mode_night_text">夜晚</string>
     <string name="prefs_donate_sum_text">支持應用程式開發</string>
+    <string name="prefs_every_n_time">每N次</string>
     <string name="prefs_faq_sum_text">經常問的問題</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">錄音時自動開啟手電筒</string>
     <string name="prefs_float_size_increase_text">浮動視窗上按鈕的大小</string>
@@ -323,7 +325,7 @@
     <string name="prefs_subtitles_date_format_text">日期格式</string>
     <string name="prefs_subtitles_date_text">日期時間</string>
     <string name="prefs_subtitles_date_time_system_text">系統默認</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею 和 нагреватьустройствоо。 Для видеозаписей главное информация о времени, поэтому все GPS ополне мо фейca</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">這些選項會嚴重消耗電池電量並導致設備發熱。對於視訊錄製，主要資訊是時間，因此所有 GPS 選項（包括介面設定）都可以停用。</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS導航</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX 最低更新率</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">所有坐標更新</string>
@@ -366,11 +368,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">開始/停止錄影</string>
     <string name="prefs_ui_click_text">快速點擊螢幕</string>
     <string name="prefs_ui_long_click_text">長按螢幕</string>
+    <string name="prefs_value_minute_few_text">分分鐘</string>
+    <string name="prefs_value_minute_one_text">分分鐘</string>
+    <string name="prefs_value_minute_other_text">分分鐘</string>
     <string name="prefs_value_secs_few_text">秒</string>
     <string name="prefs_value_secs_one_text">第二</string>
     <string name="prefs_value_secs_other_text">秒</string>
     <string name="prefs_version_text">應用程式版本</string>
     <string name="prefs_vibrate_rec_start_stop_text">開始或停止錄音時振動</string>
+    <string name="prefs_vibration_strength">振動強度</string>
     <string name="prefs_video_bitrate_text">比特率（質量）</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">控制鏡頭場景模式（夜間）</string>
     <string name="prefs_video_camera_control_scene_mode_text">控制鏡頭場景模式（白天）</string>
@@ -523,15 +529,18 @@
     <string name="videos_item_mode_deletion_exit_text">退出刪除模式</string>
     <string name="videos_locked_folder_text">覆蓋保護</string>
     <string name="videos_menu_delete">刪除</string>
+    <string name="videos_menu_move_file">移動檔案</string>
     <string name="videos_menu_refresh">刷新</string>
     <string name="videos_menu_select_all">全選</string>
     <string name="videos_menu_sorting">排序</string>
     <string name="videos_menu_storage">記憶</string>
+    <string name="videos_moving_files_text">正在移動檔案...請稍候！</string>
     <string name="videos_no_storage_permission_dlg_msg_text">請打開應用程式設定並允許訪問手機内存中的儲存空間</string>
     <string name="videos_no_storage_permission_dlg_title_text">沒有儲存權限</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">請選擇一個資料夾用於記錄</string>
     <string name="videos_storage_select_dlg_title">選擇影片儲存空間</string>
     <string name="videos_temporary_folder_text">定時影片</string>
     <string name="videos_toolbar_subtitle">錄影</string>
+    <string name="widget_start_stop_recording_transparent">透明按鈕開始/停止錄製</string>
     <string name="zoom_text">飛漲</string>
 </resources>

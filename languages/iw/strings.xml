@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">לא ניתן היה לפתוח את האפליקציה כדי להתחיל בהקלטה מכיוון שלא ניתנה הרשאת \"הצג מעל כל האפליקציות\". לחץ כדי לספק</string>
     <string name="msg_photo_failed_to_take">צילום התמונה נכשל</string>
     <string name="msg_photo_was_saved">התמונה נשמרה</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">עריכת תמונות גוגל עובדת רק עם קבצי מדיה ציבוריים.</string>
     <string name="msg_please_close_other_app_and_restart_text">סגור יישומים אחרים באמצעות המצלמה והפעל מחדש את היישום הזה</string>
     <string name="msg_recorder_init_error_file_not_found">מחק סרטונים ישנים, פרמט את כרטיס ה-SD שלך או נסה אחד אחר. כמו כן, הגבל את שטח הקלטת הווידאו המקסימלי (פחות עדיף). מספר רב של סרטונים שמורים עלול לגרום לבעיות כאלה. ראה גם את השאלות הנפוצות לגבי כרטיסי SD בהגדרות /שאלות נפוצות. אתה יכול גם לנסות לכתוב לזיכרון הטלפון במקום לכרטיס חיצוני</string>
     <string name="msg_recording_stopping_not_enough_memory_text">הפסק להקליט. אין מספיק זיכרון כדי להמשיך</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">יְוֹם</string>
     <string name="prefs_day_night_mode_night_text">לַיְלָה</string>
     <string name="prefs_donate_sum_text">תמיכה בפיתוח אפליקציות</string>
+    <string name="prefs_every_n_time">כל N זמן</string>
     <string name="prefs_faq_sum_text">שאלות נפוצות</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">הדלק אוטומטית את הפנס בעת ההקלטה</string>
     <string name="prefs_float_size_increase_text">גודל כפתורים על חלון צף</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">פורמט תאריך</string>
     <string name="prefs_subtitles_date_text">תאריך שעה)</string>
     <string name="prefs_subtitles_date_time_system_text">מערכתית</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею и нагревать устройство. Для видеозаписей главное информация о времени, поэтому все GPS опции вполне можно отклюкичить, времени</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">אפשרויות אלו עלולות לצרוך משמעותית את הסוללה ולחמם את המכשיר. עבור הקלטות וידאו, המידע העיקרי הוא זמן, כך שניתן להשבית את כל אפשרויות ה-GPS, כולל הגדרות ממשק.</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS данные</string>
     <string name="prefs_subtitles_gpx_delay_title">קצב עדכון מינימלי של GPX</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">כל עדכוני הקואורדינטות</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">התחל/הפסק הקלטה</string>
     <string name="prefs_ui_click_text">הקשה מהירה על המסך</string>
     <string name="prefs_ui_long_click_text">לחיצה ארוכה על המסך</string>
+    <string name="prefs_value_minute_few_text">פּרוֹטוֹקוֹל</string>
+    <string name="prefs_value_minute_one_text">דַקָה</string>
+    <string name="prefs_value_minute_other_text">פּרוֹטוֹקוֹל</string>
     <string name="prefs_value_secs_few_text">שניות</string>
     <string name="prefs_value_secs_one_text">שְׁנִיָה</string>
     <string name="prefs_value_secs_other_text">שניות</string>
     <string name="prefs_version_text">גרסת אפליקציה</string>
     <string name="prefs_vibrate_rec_start_stop_text">רטט בעת התחלה או הפסקה של הקלטה</string>
+    <string name="prefs_vibration_strength">עוצמת הרטט</string>
     <string name="prefs_video_bitrate_text">קצב סיביות (איכות)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">מצב סצנת בקרת מצלמה (לילה)</string>
     <string name="prefs_video_camera_control_scene_mode_text">מצב סצנת בקרת מצלמה (יום)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">צא ממצב המחיקה</string>
     <string name="videos_locked_folder_text">הדפסה מוגנת</string>
     <string name="videos_menu_delete">לִמְחוֹק</string>
+    <string name="videos_menu_move_file">העברת קובץ</string>
     <string name="videos_menu_refresh">לְרַעֲנֵן</string>
     <string name="videos_menu_select_all">בחר הכל</string>
     <string name="videos_menu_sorting">מִיוּן</string>
     <string name="videos_menu_storage">זיכרון</string>
+    <string name="videos_moving_files_text">העברת קבצים... אנא המתן!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">פתח את הגדרות האפליקציה ואפשר גישה לאחסון בזיכרון הטלפון</string>
     <string name="videos_no_storage_permission_dlg_title_text">אין הרשאת אחסון</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">אנא בחר תיקיה לרשומות</string>
     <string name="videos_storage_select_dlg_title">בחר אחסון וידאו</string>
     <string name="videos_temporary_folder_text">סרטונים מתוזמנים</string>
     <string name="videos_toolbar_subtitle">הקלטות וידאו</string>
+    <string name="widget_start_stop_recording_transparent">כפתור שקוף להתחלת/עצירת הקלטה</string>
     <string name="zoom_text">תקריב</string>
 </resources>

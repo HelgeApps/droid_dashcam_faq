@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">د ثبت کولو پیل کولو لپاره ایپ نشي خلاصیدلی ځکه چې \"د ټولو ایپسونو په سر کې ښودل\" اجازه نه وه ورکړل شوې. د چمتو کولو لپاره کلیک وکړئ</string>
     <string name="msg_photo_failed_to_take">د عکس اخیستلو کې پاتې راغلی</string>
     <string name="msg_photo_was_saved">عکس خوندي شو</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">د ګوګل عکسونو ایډیټ یوازې د عامه رسنیو فایلونو سره کار کوي.</string>
     <string name="msg_please_close_other_app_and_restart_text">د کیمرې په کارولو سره نور غوښتنلیکونه بند کړئ او دا اپلیکیشن بیا پیل کړئ</string>
     <string name="msg_recorder_init_error_file_not_found">زاړه ویډیوګانې حذف کړئ، خپل SD کارت فارمیټ کړئ، یا بل هڅه وکړئ. همچنان ، د ویډیو ثبت کولو اعظمي ځای محدود کړئ (لږ ښه دی). د خوندي شوي ویډیوګانو لوی شمیر کولی شي دا ډول ستونزې رامینځته کړي. په ترتیباتو /FAQ کې د SD کارتونو په اړه FAQ هم وګورئ. تاسو کولی شئ د بهرني کارت پرځای د تلیفون حافظې ته د لیکلو هڅه وکړئ</string>
     <string name="msg_recording_stopping_not_enough_memory_text">ثبت کول بند کړئ. د دوام لپاره کافي حافظه نشته</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">ورځ</string>
     <string name="prefs_day_night_mode_night_text">شپه</string>
     <string name="prefs_donate_sum_text">د غوښتنلیک پراختیا ملاتړ کوي</string>
+    <string name="prefs_every_n_time">هر ځل</string>
     <string name="prefs_faq_sum_text">په مکرر ډول پوښتل شوي پوښتنې</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">د ثبت کولو پرمهال په اوتومات ډول فلش لائټ چالان کړئ</string>
     <string name="prefs_float_size_increase_text">په تیرې کړکۍ کې د بټونو اندازه</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">د نیټې بڼه</string>
     <string name="prefs_subtitles_date_text">د نیټې وخت)</string>
     <string name="prefs_subtitles_date_time_system_text">سیسټمیک</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею и нагревать устройство. Для видеозаписей главное информация о времени, поэтому все GPS опции вполне можно отключить, включая неформация</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">دا انتخابونه کولی شي د پام وړ بیټرۍ مصرف کړي او وسیله ګرمه کړي. د ویډیو ثبتولو لپاره، اصلي معلومات وخت دی، نو د GPS ټول اختیارونه غیر فعال کیدی شي، په شمول د انٹرفیس ترتیبات.</string>
     <string name="prefs_subtitles_gps_info_category_title">جی پی ایس</string>
     <string name="prefs_subtitles_gpx_delay_title">د GPX لږترلږه تازه کولو نرخ</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">ټول همغږي تازه</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">ثبت کول پیل /بند کړئ</string>
     <string name="prefs_ui_click_text">په سکرین کې چټک ټایپ وکړئ</string>
     <string name="prefs_ui_long_click_text">په سکرین کې اوږد فشار ورکړئ</string>
+    <string name="prefs_value_minute_few_text">دقیقې</string>
+    <string name="prefs_value_minute_one_text">دقیقه</string>
+    <string name="prefs_value_minute_other_text">دقیقې</string>
     <string name="prefs_value_secs_few_text">ثانیې</string>
     <string name="prefs_value_secs_one_text">دوهم</string>
     <string name="prefs_value_secs_other_text">ثانیې</string>
     <string name="prefs_version_text">د غوښتنلیک نسخه</string>
     <string name="prefs_vibrate_rec_start_stop_text">وایبریشن کله چې د ثبت پیل کول یا بندول</string>
+    <string name="prefs_vibration_strength">د وایبریشن قوت</string>
     <string name="prefs_video_bitrate_text">بیټریټ (کیفیت)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">د کیمرې کنټرول صحنې حالت (شپه)</string>
     <string name="prefs_video_camera_control_scene_mode_text">د کیمرې کنټرول صحنې حالت (ورځ)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">د حذف کولو حالت څخه وتل</string>
     <string name="videos_locked_folder_text">د بیا لیکلو خوندي ساتل</string>
     <string name="videos_menu_delete">ړنګول</string>
+    <string name="videos_menu_move_file">فایل ولیږدوئ</string>
     <string name="videos_menu_refresh">تازه کړئ</string>
     <string name="videos_menu_select_all">ټول غوره کړئ</string>
     <string name="videos_menu_sorting">ترتیب کول</string>
     <string name="videos_menu_storage">حافظه</string>
+    <string name="videos_moving_files_text">د فایلونو لیږدول... مهرباني وکړئ انتظار وکړئ!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">مهرباني وکړئ د غوښتنلیک تنظیمات خلاص کړئ او د تلیفون حافظه کې ذخیره کولو ته د لاسرسي اجازه ورکړئ</string>
     <string name="videos_no_storage_permission_dlg_title_text">د ذخیره کولو اجازه نشته</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">مهرباني وکړئ د ریکارډونو لپاره فولډر غوره کړئ</string>
     <string name="videos_storage_select_dlg_title">د ویډیو ذخیره غوره کړئ</string>
     <string name="videos_temporary_folder_text">وخت شوي ویډیوګانې</string>
     <string name="videos_toolbar_subtitle">ویډیو ریکارډونه</string>
+    <string name="widget_start_stop_recording_transparent">د ثبت پیل/بندولو لپاره شفاف تڼۍ</string>
     <string name="zoom_text">زوم</string>
 </resources>

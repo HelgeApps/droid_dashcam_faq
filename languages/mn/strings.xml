@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">\"Бүх програмын дээр харуулах\" зөвшөөрөл олгоогүй тул програмыг нээж, бичлэг хийж чадсангүй. Үзүүлэхийн тулд товшино уу</string>
     <string name="msg_photo_failed_to_take">Зураг авч чадсангүй</string>
     <string name="msg_photo_was_saved">Зургийг хадгалсан</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google Photos Edit нь зөвхөн нийтийн медиа файлуудтай ажилладаг.</string>
     <string name="msg_please_close_other_app_and_restart_text">Камер ашиглан бусад програмуудыг хааж, энэ програмыг дахин эхлүүлнэ үү</string>
     <string name="msg_recorder_init_error_file_not_found">Хуучин видеог устгаж, SD картаа форматлаж эсвэл өөр нэгийг оролдоно уу. Мөн видео бичлэг хийх хамгийн их зайг хязгаарлаарай (бага байх нь дээр). Олон тооны хадгалсан видеонууд ийм асуудал үүсгэж болно. Мөн Тохиргоо /Түгээмэл асуултуудаас SD картын талаарх түгээмэл асуултуудыг үзнэ үү. Та мөн гадаад картны оронд утасны санах ой руу бичиж оролдож болно</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Бичлэгээ зогсоо. Үргэлжлүүлэхэд хангалттай санах ой алга</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">Өдөр</string>
     <string name="prefs_day_night_mode_night_text">Шөнө</string>
     <string name="prefs_donate_sum_text">Хэрэглээний хөгжүүлэлтийг дэмжих</string>
+    <string name="prefs_every_n_time">N цаг тутамд</string>
     <string name="prefs_faq_sum_text">Түгээмэл асуултууд</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Бичлэг хийх үед гар чийдэнг автоматаар асаана</string>
     <string name="prefs_float_size_increase_text">Хөвөгч цонхон дээрх товчлууруудын хэмжээ</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Огнооны формат</string>
     <string name="prefs_subtitles_date_text">Он сар өдөр цаг)</string>
     <string name="prefs_subtitles_date_time_system_text">Системчилсэн</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею болон нагревать устройство. Видео бичлэгийн мэдээллийн хэрэгслээр дамжуулан GPS-ийн бүх тохиргоог ашиглах, ашиглах боломжтой, ашиглах боломжтой интерфейс.</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Эдгээр сонголтууд нь батерейг их хэмжээгээр зарцуулж, төхөөрөмжийг халаана. Видео бичлэгийн хувьд гол мэдээлэл нь цаг хугацаа тул интерфэйсийн тохиргоог оруулаад GPS-ийн бүх сонголтыг идэвхгүй болгож болно</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS данные</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX хамгийн бага шинэчлэх хурд</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Бүх координатын шинэчлэлтүүд</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Бичлэг эхлүүлэх /зогсоох</string>
     <string name="prefs_ui_click_text">Дэлгэц дээр хурдан товш</string>
     <string name="prefs_ui_long_click_text">Дэлгэц дээр удаан дар</string>
+    <string name="prefs_value_minute_few_text">минут</string>
+    <string name="prefs_value_minute_one_text">минут</string>
+    <string name="prefs_value_minute_other_text">минут</string>
     <string name="prefs_value_secs_few_text">секунд</string>
     <string name="prefs_value_secs_one_text">хоёрдугаарт</string>
     <string name="prefs_value_secs_other_text">секунд</string>
     <string name="prefs_version_text">Хэрэглээний хувилбар</string>
     <string name="prefs_vibrate_rec_start_stop_text">Бичлэг эхлэх эсвэл зогсоох үед чичиргээ</string>
+    <string name="prefs_vibration_strength">Чичиргээний хүч</string>
     <string name="prefs_video_bitrate_text">Битийн хурд (чанар)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Камерын хяналтын горим (шөнийн)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Камерын хяналтын горим (өдөр)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Устгах горимоос гарах</string>
     <string name="videos_locked_folder_text">Дарж бичихээс хамгаалагдсан</string>
     <string name="videos_menu_delete">Устгах</string>
+    <string name="videos_menu_move_file">Файл зөөх</string>
     <string name="videos_menu_refresh">Сэргээх</string>
     <string name="videos_menu_select_all">Бүгдийг нь сонго</string>
     <string name="videos_menu_sorting">Эрэмбэлэх</string>
     <string name="videos_menu_storage">Санах ой</string>
+    <string name="videos_moving_files_text">Файлуудыг зөөж байна... Түр хүлээнэ үү!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Програмын тохиргоог нээж, утасны санах ойн санах ойд хандахыг зөвшөөрнө үү</string>
     <string name="videos_no_storage_permission_dlg_title_text">Хадгалах зөвшөөрөл байхгүй</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Бичлэг хийх хавтас сонгоно уу</string>
     <string name="videos_storage_select_dlg_title">Видео хадгалах санг сонгоно уу</string>
     <string name="videos_temporary_folder_text">Цаг хугацаатай видеонууд</string>
     <string name="videos_toolbar_subtitle">Видео бичлэгүүд</string>
+    <string name="widget_start_stop_recording_transparent">Бичлэг эхлүүлэх/зогсоох ил тод товчлуур</string>
     <string name="zoom_text">томруулах</string>
 </resources>

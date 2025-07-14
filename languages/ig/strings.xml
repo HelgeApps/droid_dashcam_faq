@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Enweghị ike imeghe ngwa ahụ ka ịmalite ndekọ n\'ihi na enyeghị ikike \"show n\'elu ngwa niile\". Pịa iji nye</string>
     <string name="msg_photo_failed_to_take">Ịse foto agaghị</string>
     <string name="msg_photo_was_saved">Foto echekwara</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Foto Google dezie na-arụ ọrụ naanị na faịlụ mgbasa ozi ọha.</string>
     <string name="msg_please_close_other_app_and_restart_text">Jiri igwefoto mechie ngwa ndị ọzọ wee malitegharịa ngwa a</string>
     <string name="msg_recorder_init_error_file_not_found">Hichapụ vidiyo ochie, hazie kaadị SD gị, ma ọ bụ nwaa ọzọ. Ọzọkwa, kpachie oghere ndekọ vidiyo kachasị (obere ka mma). Ọnụ ọgụgụ dị ukwuu nke vidiyo echekwara nwere ike ịkpata ụdị nsogbu ahụ. Hụkwa FAQ gbasara kaadị SD na Ntọala/Ajụjụ. Ịnwekwara ike ịnwale ide na ebe nchekwa ekwentị kama idere kaadị mpụga</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Kwụsị ịdekọ. Ebe nchekwa ezughi oke iji gaa n\'ihu</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">Ụbọchị</string>
     <string name="prefs_day_night_mode_night_text">Abali</string>
     <string name="prefs_donate_sum_text">Nkwado mmepe ngwa</string>
+    <string name="prefs_every_n_time">N oge ọ bụla</string>
     <string name="prefs_faq_sum_text">Ajuju a na-ajụkarị</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Gbanwuo ọkụ ọkụ na-akpaghị aka mgbe ị na-edekọ</string>
     <string name="prefs_float_size_increase_text">Ogo bọtịnụ na windo na-ese n\'elu mmiri</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Ụdị ụbọchị</string>
     <string name="prefs_subtitles_date_text">Oge ụbọchị)</string>
     <string name="prefs_subtitles_date_time_system_text">Sistemu</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Nke a bụ ihe na-akpali akpali nke na-eme ka ọ bụrụ ihe na-akpali akpali. Для видеозаписей главное информация о времени, ihe eji egwuri egwu GPS.</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Nhọrọ ndị a nwere ike iri batrị nke ukwuu ma kpoo ngwaọrụ ahụ ọkụ. Maka ndekọ vidiyo, ozi bụ isi bụ oge, yabụ enwere ike gbanyụọ nhọrọ GPS niile, gụnyere ntọala interface</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS dị</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX kacha nta nwelite ọnụego</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Mmelite nhazi niile</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Malite/kwụsị ndekọ</string>
     <string name="prefs_ui_click_text">Pịa ngwa ngwa na ihuenyo</string>
     <string name="prefs_ui_long_click_text">Pịa ogologo na ihuenyo</string>
+    <string name="prefs_value_minute_few_text">nkeji</string>
+    <string name="prefs_value_minute_one_text">nkeji</string>
+    <string name="prefs_value_minute_other_text">nkeji</string>
     <string name="prefs_value_secs_few_text">sekọnd</string>
     <string name="prefs_value_secs_one_text">nke abụọ</string>
     <string name="prefs_value_secs_other_text">sekọnd</string>
     <string name="prefs_version_text">Ụdị ngwa</string>
     <string name="prefs_vibrate_rec_start_stop_text">Vibration mgbe ịmalite ma ọ bụ kwụsị ndekọ</string>
+    <string name="prefs_vibration_strength">Ike ịma jijiji</string>
     <string name="prefs_video_bitrate_text">Bitrate (ịdị mma)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Usoro njikwa igwefoto (abalị)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Usoro njikwa igwefoto (ụbọchị)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Wepụ ọnọdụ ihichapụ</string>
     <string name="videos_locked_folder_text">Echekwara idegharị</string>
     <string name="videos_menu_delete">Hichapụ</string>
+    <string name="videos_menu_move_file">Bugharịa faịlụ</string>
     <string name="videos_menu_refresh">Weghachite ume</string>
     <string name="videos_menu_select_all">Họrọ ha niile</string>
     <string name="videos_menu_sorting">Nhazi</string>
     <string name="videos_menu_storage">Ebe nchekwa</string>
+    <string name="videos_moving_files_text">Na-ebugharị faịlụ… Biko chere!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Biko mepee ntọala ngwa ma nye ohere ịnweta nchekwa na ebe nchekwa ekwentị</string>
     <string name="videos_no_storage_permission_dlg_title_text">Enweghị ikike nchekwa</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Biko họrọ folda maka ndekọ</string>
     <string name="videos_storage_select_dlg_title">Họrọ nchekwa vidiyo</string>
     <string name="videos_temporary_folder_text">Vidiyo nke oge</string>
     <string name="videos_toolbar_subtitle">Ihe ndekọ vidiyo</string>
+    <string name="widget_start_stop_recording_transparent">Bọtịnụ transperent ka ịmalite/kwụsị ndekọ</string>
     <string name="zoom_text">mbugharị</string>
 </resources>

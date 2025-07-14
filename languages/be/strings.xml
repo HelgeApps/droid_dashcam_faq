@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Не ўдалося адкрыць прыкладанне, каб пачаць запіс, паколькі дазвол \"адлюстраванне па-над усімі прыкладаннямі\" не прадастаўлена. Націсніце, каб даць</string>
     <string name="msg_photo_failed_to_take">Не ўдалося зрабіць фота</string>
     <string name="msg_photo_was_saved">Фота захавана</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Рэдагаванне Google Фота працуе толькі з агульнадаступнымі медыяфайламі.</string>
     <string name="msg_please_close_other_app_and_restart_text">Закрыйце іншыя прыкладанні, якія выкарыстоўваюць камеру, і перазапусціце гэта дадатак</string>
     <string name="msg_recorder_init_error_file_not_found">Выдаліце ​​старыя відэа, адфарматуйце SD-карту ці паспрабуйце іншую. Таксама абмяжуйце максімальную прастору для запісу відэа (чым менш, тым лепш). Вялікая колькасць захаваных відэа могуць выклікаць такія праблемы. Паглядзіце таксама FAQ аб SD-картах у Наладкі/FAQ. Вы таксама можаце паспрабаваць запісваць у памяць тэлефона замест знешняй карты</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Прыпынак запісу. Недастаткова памяці для працягу</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">Дзень</string>
     <string name="prefs_day_night_mode_night_text">Ноч</string>
     <string name="prefs_donate_sum_text">Падтрымаць распрацоўку прыкладання</string>
+    <string name="prefs_every_n_time">Кожныя N часу</string>
     <string name="prefs_faq_sum_text">Адказы на частыя пытанні</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Аўтаматычнае ўключэнне ліхтара (выбліскі) пры запісе</string>
     <string name="prefs_float_size_increase_text">Памер кнопак на плывучым акне</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Фармат даты</string>
     <string name="prefs_subtitles_date_text">Дата (час)</string>
     <string name="prefs_subtitles_date_time_system_text">Сістэмнае</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Гэтыя опцыі могуць істотна спажываць батарэю і награваць прылада. Для відэазапісаў галоўная інфармацыя пра час, таму ўсе опцыі GPS цалкам можна адключыць, уключаючы налады інтэрфейсу</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Гэтыя опцыі могуць значна разраджаць батарэю і награваць прыладу. Для відэазапісаў асноўнай інфармацыяй з\'яўляецца час, таму ўсе опцыі GPS можна адключыць, у тым ліку налады інтэрфейсу.</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS дадзеныя</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX мінімальная частата абнаўленняў</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Усе абнаўленні каардынат</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Пачаць/спыніць запіс</string>
     <string name="prefs_ui_click_text">Хуткі націск па экране</string>
     <string name="prefs_ui_long_click_text">Доўгі націск па экране</string>
+    <string name="prefs_value_minute_few_text">хвіліны</string>
+    <string name="prefs_value_minute_one_text">хвіліна</string>
+    <string name="prefs_value_minute_other_text">хвілін</string>
     <string name="prefs_value_secs_few_text">секунды</string>
     <string name="prefs_value_secs_one_text">секунда</string>
     <string name="prefs_value_secs_other_text">секунд</string>
     <string name="prefs_version_text">Версія прыкладання</string>
     <string name="prefs_vibrate_rec_start_stop_text">Вібрацыя пры пачатку або прыпынку запісу</string>
+    <string name="prefs_vibration_strength">Сіла вібрацыі</string>
     <string name="prefs_video_bitrate_text">Бітрэйт (якасць)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Рэжым сцэны кіравання камерай (ноч)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Рэжым сцэны кіравання камерай (дзень)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Выйсці з рэжыму выдалення</string>
     <string name="videos_locked_folder_text">Абароненыя ад перазапісу</string>
     <string name="videos_menu_delete">Выдаліць</string>
+    <string name="videos_menu_move_file">Перамясціць файл</string>
     <string name="videos_menu_refresh">Абнавіць</string>
     <string name="videos_menu_select_all">Выбраць усе</string>
     <string name="videos_menu_sorting">Сартаванне</string>
     <string name="videos_menu_storage">Памяць</string>
+    <string name="videos_moving_files_text">Перамяшчэнне файлаў… Пачакайце!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Калі ласка, адкрыйце настройкі прыкладання і дазвольце доступ на захоўванне ў памяці тэлефона</string>
     <string name="videos_no_storage_permission_dlg_title_text">Няма дазволу на захоўванне</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Выберыце папку для запісаў</string>
     <string name="videos_storage_select_dlg_title">Абярыце сховішча выглядзезапісаў</string>
     <string name="videos_temporary_folder_text">Часовыя відэа</string>
     <string name="videos_toolbar_subtitle">Відэазапісы</string>
+    <string name="widget_start_stop_recording_transparent">Празрыстая кнопка для пачатку/спынення запісу</string>
     <string name="zoom_text">зум</string>
 </resources>

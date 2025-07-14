@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Rakendust ei saanud salvestamise alustamiseks avada, kuna luba \"Kuva kõigi rakenduste peal\" ei antud. Klõpsake esitamiseks</string>
     <string name="msg_photo_failed_to_take">Pildistamine ebaõnnestus</string>
     <string name="msg_photo_was_saved">Foto salvestatud</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google Photos Edit töötab ainult avalike meediafailidega.</string>
     <string name="msg_please_close_other_app_and_restart_text">Sulgege teised kaamerat kasutavad rakendused ja taaskäivitage see rakendus</string>
     <string name="msg_recorder_init_error_file_not_found">Kustutage vanad videod, vormindage SD-kaart või proovige teist. Samuti piirake maksimaalset videosalvestusruumi (vähem on parem). Selliseid probleeme võib põhjustada suur hulk salvestatud videoid. Vaadake ka KKK-d SD-kaartide kohta jaotises Seaded /KKK. Samuti võite proovida välise kaardi asemel kirjutada telefoni mällu</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Lõpetage salvestamine. Jätkamiseks pole piisavalt mälu</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">päev</string>
     <string name="prefs_day_night_mode_night_text">Öö</string>
     <string name="prefs_donate_sum_text">Toetage rakenduste arendamist</string>
+    <string name="prefs_every_n_time">Iga N korda</string>
     <string name="prefs_faq_sum_text">Korduma kippuvad küsimused</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Lülita taskulamp salvestamise ajal automaatselt sisse</string>
     <string name="prefs_float_size_increase_text">Ujuva akna nuppude suurus</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Kuupäevavorming</string>
     <string name="prefs_subtitles_date_text">Kuupäev Kellaaeg)</string>
     <string name="prefs_subtitles_date_time_system_text">Süsteemne</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею и нагревать устройство. Для видеозаписей главное информация о времени, поэтому все GPS опции вполне можарсно отключить, времейключить, времени</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Need valikud võivad akut märkimisväärselt kulutada ja seadet üle kuumendada. Videosalvestuste puhul on peamine teave aeg, seega saab kõik GPS-i valikud, sealhulgas liidese seaded, keelata.</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS puudub</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX minimaalne uuendusmäär</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Kõik koordinaatide värskendused</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Salvestamise alustamine /peatamine</string>
     <string name="prefs_ui_click_text">Puudutage kiiresti ekraani</string>
     <string name="prefs_ui_long_click_text">Vajutage ekraanil pikalt</string>
+    <string name="prefs_value_minute_few_text">minutit</string>
+    <string name="prefs_value_minute_one_text">minut</string>
+    <string name="prefs_value_minute_other_text">minutit</string>
     <string name="prefs_value_secs_few_text">sekundit</string>
     <string name="prefs_value_secs_one_text">teiseks</string>
     <string name="prefs_value_secs_other_text">sekundit</string>
     <string name="prefs_version_text">Rakenduse versioon</string>
     <string name="prefs_vibrate_rec_start_stop_text">Vibratsioon salvestamise alustamisel või peatamisel</string>
+    <string name="prefs_vibration_strength">Vibratsiooni tugevus</string>
     <string name="prefs_video_bitrate_text">Bitikiirus (kvaliteet)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kaamera juhtimise stseenirežiim (öine)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kaamera juhtimise stseenirežiim (päevane)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Välju kustutamisrežiimist</string>
     <string name="videos_locked_folder_text">Ülekirjutamine kaitstud</string>
     <string name="videos_menu_delete">Kustuta</string>
+    <string name="videos_menu_move_file">Teisalda fail</string>
     <string name="videos_menu_refresh">Värskenda</string>
     <string name="videos_menu_select_all">Valige kõik</string>
     <string name="videos_menu_sorting">Sorteerimine</string>
     <string name="videos_menu_storage">Mälu</string>
+    <string name="videos_moving_files_text">Failide teisaldamine… Palun oodake!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Avage rakenduse seaded ja lubage juurdepääs telefoni mälus olevale salvestusruumile</string>
     <string name="videos_no_storage_permission_dlg_title_text">Salvestusluba pole</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Valige kirjete jaoks kaust</string>
     <string name="videos_storage_select_dlg_title">Valige videosalvestusruum</string>
     <string name="videos_temporary_folder_text">Ajastatud videod</string>
     <string name="videos_toolbar_subtitle">Videosalvestused</string>
+    <string name="widget_start_stop_recording_transparent">Läbipaistev nupp salvestamise alustamiseks/peatamiseks</string>
     <string name="zoom_text">suumi</string>
 </resources>

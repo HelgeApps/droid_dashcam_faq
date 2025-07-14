@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Abka lama furi karo si loo bilaabo duubista sababtoo ah \"show on top of all apps\" ogolaanshaha lama siin. Guji si aad u bixiso</string>
     <string name="msg_photo_failed_to_take">Ku guuldareystay inuu sawir qaado</string>
     <string name="msg_photo_was_saved">Sawirka waa la keydiyay</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Tafatirka Sawirada Google wuxuu la shaqeeyaa oo kaliya faylasha warbaahinta dadweynaha.</string>
     <string name="msg_please_close_other_app_and_restart_text">Xir codsiyada kale addoo isticmaalaya kamarada oo dib u billow codsigan</string>
     <string name="msg_recorder_init_error_file_not_found">Tirtir fiidiyowyadii hore, qaabe kaadhka SD-gaaga, ama isku day mid kale. Sidoo kale, xaddid meesha ugu badan ee duubista fiidyaha (wax yar ayaa ka fiican). Fiidiyowyo badan oo la keydiyay ayaa sababi kara dhibaatooyinkan oo kale. Sidoo kale ka eeg FAQ ku saabsan kaararka SD gudaha Settings /FAQ. Waxa kale oo aad isku dayi kartaa in aad wax ku qorto xusuusta telefoonka halkii aad ka qori lahayd dibadda</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Jooji duubista Xasuus ku filan ma sii socoto</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">Maalinta</string>
     <string name="prefs_day_night_mode_night_text">Habeenkii</string>
     <string name="prefs_donate_sum_text">Taageero horumarinta codsiga</string>
+    <string name="prefs_every_n_time">Mar kasta N</string>
     <string name="prefs_faq_sum_text">Su\'aalaha soo noqnoqda</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Toos u shid toosh marka la duubayo</string>
     <string name="prefs_float_size_increase_text">Cabirka badhamada daaqada sabaynaysa</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Qaabka taariikhda</string>
     <string name="prefs_subtitles_date_text">Taariikhda Taariikhda)</string>
     <string name="prefs_subtitles_date_time_system_text">Nidaamsan</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Waa kuwan qaar ka mid ah kuwa ugu caansan ee ku saabsan sida loo sameeyo. Для видеозаписей главное информация о времени.</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Ikhtiyaaradan ayaa si weyn u baabi\'in kara batteriga oo waxay kululeynayaan aaladda. Duubista fiidiyowga, macluumaadka ugu muhiimsan waa waqti, sidaa darteed dhammaan xulashooyinka GPS-ka waa la joojin karaa, oo ay ku jiraan goobaha interface</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS-ka</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX heerka ugu yar ee cusbooneysiinta</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Dhammaan cusbooneysiinta xiriirinta</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Bilow/jooji duubista</string>
     <string name="prefs_ui_click_text">Taabo degdeg ah shaashadda</string>
     <string name="prefs_ui_long_click_text">Riix dheer shaashadda</string>
+    <string name="prefs_value_minute_few_text">daqiiqado</string>
+    <string name="prefs_value_minute_one_text">daqiiqo</string>
+    <string name="prefs_value_minute_other_text">daqiiqado</string>
     <string name="prefs_value_secs_few_text">ilbiriqsi</string>
     <string name="prefs_value_secs_one_text">labaad</string>
     <string name="prefs_value_secs_other_text">ilbiriqsi</string>
     <string name="prefs_version_text">Nooca codsiga</string>
     <string name="prefs_vibrate_rec_start_stop_text">Gariir marka la bilaabayo ama la joojinayo duubista</string>
+    <string name="prefs_vibration_strength">Xoogga gariir</string>
     <string name="prefs_video_bitrate_text">Bitrate (tayada)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Habka Xakamaynta Kaamirada (Habeen)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Habka Xakamaynta Kaamirada (Maalinta)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Ka bax qaabka tirtirka</string>
     <string name="videos_locked_folder_text">Dib u qor waa la ilaaliyay</string>
     <string name="videos_menu_delete">Tirtir</string>
+    <string name="videos_menu_move_file">Dhaqaaq faylka</string>
     <string name="videos_menu_refresh">Dib u cusboonaysii</string>
     <string name="videos_menu_select_all">Dooro dhammaan</string>
     <string name="videos_menu_sorting">Kala soocida</string>
     <string name="videos_menu_storage">Xusuusta</string>
+    <string name="videos_moving_files_text">Dhaqdhaqaaqa faylasha… Fadlan sug!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Fadlan fur goobaha arjiga oo oggolow kaydinta xusuusta taleefanka</string>
     <string name="videos_no_storage_permission_dlg_title_text">Ogolaansho kaydinta ma jiro</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Fadlan dooro gal diiwaanada</string>
     <string name="videos_storage_select_dlg_title">Dooro kaydinta muuqaalka</string>
     <string name="videos_temporary_folder_text">Muuqaalo waqtiyeysan</string>
     <string name="videos_toolbar_subtitle">Muuqaalo laga duubay</string>
+    <string name="widget_start_stop_recording_transparent">Badhan hufan si loo bilaabo/joojiyo duubista</string>
     <string name="zoom_text">zoom</string>
 </resources>

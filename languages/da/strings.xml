@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Appen kunne ikke åbnes for at starte optagelsen, fordi tilladelsen \"Vis oven på alle apps\" ikke blev givet. Klik for at give</string>
     <string name="msg_photo_failed_to_take">Kunne ikke tage billede</string>
     <string name="msg_photo_was_saved">Billedet er gemt</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google Fotos Rediger fungerer kun med offentlige mediefiler.</string>
     <string name="msg_please_close_other_app_and_restart_text">Luk andre programmer ved hjælp af kameraet, og genstart denne applikation</string>
     <string name="msg_recorder_init_error_file_not_found">Slet gamle videoer, formater dit SD-kort, eller prøv en anden. Begræns også den maksimale videooptagelsesplads (mindre er bedre). Et stort antal gemte videoer kan forårsage sådanne problemer. Se også ofte stillede spørgsmål om SD-kort i Indstillinger /FAQ. Du kan også prøve at skrive til telefonens hukommelse i stedet for et eksternt kort</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Stop optagelsen. Ikke nok hukommelse til at fortsætte</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">Dag</string>
     <string name="prefs_day_night_mode_night_text">Nat</string>
     <string name="prefs_donate_sum_text">Støtte applikationsudvikling</string>
+    <string name="prefs_every_n_time">Hver N gang</string>
     <string name="prefs_faq_sum_text">Ofte stillede spørgsmål</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Tænd automatisk lommelygten under optagelse</string>
     <string name="prefs_float_size_increase_text">Størrelse på knapper på et flydende vindue</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Datoformat</string>
     <string name="prefs_subtitles_date_text">Dato tid)</string>
     <string name="prefs_subtitles_date_time_system_text">Systemisk</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею и нагревать устройство. Для видеозаписей главное информация о времени, поэтому се GPS опции вполне можно отклюкичичи, все</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Disse indstillinger kan bruge batteriet betydeligt og opvarme enheden. For videooptagelser er den primære information tid, så alle GPS-indstillinger kan deaktiveres, inklusive grænsefladeindstillinger.</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS tilkoblet</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX minimum opdateringshastighed</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Alle koordinatopdateringer</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Start/stop optagelse</string>
     <string name="prefs_ui_click_text">Hurtigt tryk på skærmen</string>
     <string name="prefs_ui_long_click_text">Langt tryk på skærmen</string>
+    <string name="prefs_value_minute_few_text">minutter</string>
+    <string name="prefs_value_minute_one_text">minut</string>
+    <string name="prefs_value_minute_other_text">minutter</string>
     <string name="prefs_value_secs_few_text">sekunder</string>
     <string name="prefs_value_secs_one_text">anden</string>
     <string name="prefs_value_secs_other_text">sekunder</string>
     <string name="prefs_version_text">Applikationsversion</string>
     <string name="prefs_vibrate_rec_start_stop_text">Vibration ved start eller stop af optagelse</string>
+    <string name="prefs_vibration_strength">Vibrationsstyrke</string>
     <string name="prefs_video_bitrate_text">Bitrate (kvalitet)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kamerastyringsscenetilstand (nat)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kamerastyring Scenetilstand (dag)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Afslut slettetilstand</string>
     <string name="videos_locked_folder_text">Overskrivebeskyttet</string>
     <string name="videos_menu_delete">Slet</string>
+    <string name="videos_menu_move_file">Flyt fil</string>
     <string name="videos_menu_refresh">Opdater</string>
     <string name="videos_menu_select_all">Vælg alle</string>
     <string name="videos_menu_sorting">Sortering</string>
     <string name="videos_menu_storage">Hukommelse</string>
+    <string name="videos_moving_files_text">Flytter filer… Vent venligst!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Åbn venligst applikationsindstillingerne og tillad adgang til lageret i telefonens hukommelse</string>
     <string name="videos_no_storage_permission_dlg_title_text">Ingen lagringstilladelse</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Vælg venligst en mappe til optegnelser</string>
     <string name="videos_storage_select_dlg_title">Vælg videolagring</string>
     <string name="videos_temporary_folder_text">Tidsindstillede videoer</string>
     <string name="videos_toolbar_subtitle">Videooptagelser</string>
+    <string name="widget_start_stop_recording_transparent">Gennemsigtig knap til at starte/stoppe optagelse</string>
     <string name="zoom_text">zoom</string>
 </resources>

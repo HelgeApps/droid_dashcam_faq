@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">\"සියලු යෙදුම්වල ඉහළින් පෙන්වන්න\" අවසරය ලබා දී නොමැති නිසා පටිගත කිරීම ආරම්භ කිරීමට යෙදුම විවෘත කළ නොහැක. ලබා දීමට ක්ලික් කරන්න</string>
     <string name="msg_photo_failed_to_take">ඡායාරූපය ගැනීමට අසමත් විය</string>
     <string name="msg_photo_was_saved">ඡායාරූපය සුරකින ලදී</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google Photos Edit ක්‍රියා කරන්නේ පොදු මාධ්‍ය ගොනු සමඟ පමණි.</string>
     <string name="msg_please_close_other_app_and_restart_text">කැමරාව භාවිතයෙන් වෙනත් යෙදුම් වසා මෙම යෙදුම නැවත ආරම්භ කරන්න</string>
     <string name="msg_recorder_init_error_file_not_found">පැරණි වීඩියෝ මකන්න, ඔබේ SD පත හැඩතල ගැන්වීම හෝ වෙනත් එකක් උත්සාහ කරන්න. එසේම, උපරිම වීඩියෝ පටිගත කිරීමේ ඉඩ සීමා කරන්න (අඩු වීම වඩා හොඳය). සුරැකි වීඩියෝ විශාල සංඛ්යාවක් එවැනි ගැටළු ඇති කළ හැකිය. සැකසීම් /නිතර අසන පැන තුළ SD කාඩ්පත් පිළිබඳ නිතර අසන පැන ද බලන්න. ඔබට බාහිර කාඩ්පතක් වෙනුවට දුරකථන මතකයට ලිවීමට උත්සාහ කළ හැකිය</string>
     <string name="msg_recording_stopping_not_enough_memory_text">පටිගත කිරීම නවත්වන්න. දිගටම කරගෙන යාමට ප්‍රමාණවත් මතකයක් නොමැත</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">දවස</string>
     <string name="prefs_day_night_mode_night_text">රෑ</string>
     <string name="prefs_donate_sum_text">යෙදුම් සංවර්ධනයට සහාය වීම</string>
+    <string name="prefs_every_n_time">සෑම N වතාවකම</string>
     <string name="prefs_faq_sum_text">නිතර අසන ප්රශ්න</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">පටිගත කිරීමේදී ෆ්ලෑෂ් ලයිට් ස්වයංක්‍රීයව ක්‍රියාත්මක කරන්න</string>
     <string name="prefs_float_size_increase_text">පාවෙන කවුළුවක බොත්තම් ප්රමාණය</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">දින ආකෘතිය</string>
     <string name="prefs_subtitles_date_text">දිනය වෙලාව)</string>
     <string name="prefs_subtitles_date_time_system_text">පද්ධතිමය</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенno потреблять батарею и нагревать устройство. Для видеозаписей информация о времени, поэтому все GPS ඔප්ෂනල් ඔප්ෂනල් ඔප්ෂන්, видео ඒ</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">මෙම විකල්ප මඟින් බැටරිය සැලකිය යුතු ලෙස පරිභෝජනය කළ හැකි අතර උපාංගය රත් කළ හැකිය. වීඩියෝ පටිගත කිරීම් සඳහා, ප්‍රධාන තොරතුරු කාලයයි, එබැවින් අතුරුමුහුණත් සැකසුම් ඇතුළුව සියලුම GPS විකල්ප අක්‍රිය කළ හැකිය.</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS දත්ත</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX අවම යාවත්කාලීන අනුපාතය</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">සියලුම සම්බන්ධීකරණ යාවත්කාලීන කිරීම්</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">පටිගත කිරීම ආරම්භ කරන්න /නවත්වන්න</string>
     <string name="prefs_ui_click_text">තිරය ​​මත ඉක්මන් තට්ටු කරන්න</string>
     <string name="prefs_ui_long_click_text">තිරය ​​මත දිගු ඔබන්න</string>
+    <string name="prefs_value_minute_few_text">මිනිත්තු</string>
+    <string name="prefs_value_minute_one_text">මිනිත්තුව</string>
+    <string name="prefs_value_minute_other_text">මිනිත්තු</string>
     <string name="prefs_value_secs_few_text">තත්පර</string>
     <string name="prefs_value_secs_one_text">දෙවැනි</string>
     <string name="prefs_value_secs_other_text">තත්පර</string>
     <string name="prefs_version_text">යෙදුම් අනුවාදය</string>
     <string name="prefs_vibrate_rec_start_stop_text">පටිගත කිරීම ආරම්භ කරන විට හෝ නතර කරන විට කම්පනය</string>
+    <string name="prefs_vibration_strength">කම්පන ශක්තිය</string>
     <string name="prefs_video_bitrate_text">බිට්රේට් (ගුණාත්මකභාවය)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">කැමරා පාලන දර්ශන මාදිලිය (රාත්‍රිය)</string>
     <string name="prefs_video_camera_control_scene_mode_text">කැමරා පාලන දර්ශන මාදිලිය (දිනය)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">මකාදැමීමේ මාදිලියෙන් පිටවන්න</string>
     <string name="videos_locked_folder_text">උඩින් ලිවීම ආරක්ෂා කර ඇත</string>
     <string name="videos_menu_delete">මකන්න</string>
+    <string name="videos_menu_move_file">ගොනුව ගෙනයන්න</string>
     <string name="videos_menu_refresh">නැවුම් කරන්න</string>
     <string name="videos_menu_select_all">සියල්ල තෝරන්න</string>
     <string name="videos_menu_sorting">වර්ග කිරීම</string>
     <string name="videos_menu_storage">මතකය</string>
+    <string name="videos_moving_files_text">ගොනු ගෙන යමින්... කරුණාකර රැඳී සිටින්න!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">කරුණාකර යෙදුම් සැකසීම් විවෘත කර දුරකථන මතකයේ ගබඩාවට ප්‍රවේශයට ඉඩ දෙන්න</string>
     <string name="videos_no_storage_permission_dlg_title_text">ගබඩා අවසර නැත</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">කරුණාකර වාර්තා සඳහා ෆෝල්ඩරයක් තෝරන්න</string>
     <string name="videos_storage_select_dlg_title">වීඩියෝ ගබඩාව තෝරන්න</string>
     <string name="videos_temporary_folder_text">කාලානුරූපී වීඩියෝ</string>
     <string name="videos_toolbar_subtitle">වීඩියෝ පටිගත කිරීම්</string>
+    <string name="widget_start_stop_recording_transparent">පටිගත කිරීම ආරම්භ කිරීමට/නැවැත්වීමට විනිවිද පෙනෙන බොත්තම</string>
     <string name="zoom_text">විශාලනය කරන්න</string>
 </resources>

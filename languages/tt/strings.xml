@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Язуны башлау өчен кушымтаны ачып булмый, чөнки \"барлык кушымталар өстендә шоу\" рөхсәте бирелмәгән. Тапшыру өчен басыгыз</string>
     <string name="msg_photo_failed_to_take">Фотога төшерә алмады</string>
     <string name="msg_photo_was_saved">Фото сакланган</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google Photos Edit җәмәгать медиа файллары белән эшли.</string>
     <string name="msg_please_close_other_app_and_restart_text">Камера ярдәмендә бүтән кушымталарны ябыгыз һәм бу кушымтаны яңадан эшләтеп җибәрегез</string>
     <string name="msg_recorder_init_error_file_not_found">Иске видеоларны бетерегез, SD-картагызны форматлагыз, яки бүтәнне сынап карагыз. Шулай ук, максималь видео язу урынын чикләгез (азрак яхшырак). Күп санлы сакланган видеолар мондый проблемаларга китерергә мөмкин. Шулай ук ​​көйләүләр /Сораулардагы SD карталар турында Сорауларны карагыз. Сез шулай ук ​​тышкы карточка урынына телефон хәтеренә язарга тырыша аласыз</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Язуны туктатыгыз. Дәвам итәр өчен хәтер җитми</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">Көн</string>
     <string name="prefs_day_night_mode_night_text">Төн</string>
     <string name="prefs_donate_sum_text">Кушымта үсешенә булышлык</string>
+    <string name="prefs_every_n_time">Nәр тапкыр</string>
     <string name="prefs_faq_sum_text">Еш бирелә торган сораулар</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Язганда фонарьны автоматик рәвештә кабызыгыз</string>
     <string name="prefs_float_size_increase_text">Йөзүче тәрәзәдәге төймәләрнең зурлыгы</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Дата форматы</string>
     <string name="prefs_subtitles_date_text">Дата Вакыт)</string>
     <string name="prefs_subtitles_date_time_system_text">Системалы</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблаг б багею и нагревать устройсто. Для Возозаписей главное интроханция о времени, поэтому все GPS опции вполне можно отключить, включая настройки интерфейса</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Бу вариантлар батареяны шактый кулланырга һәм җайланманы җылытырга мөмкин. Видео язулар өчен төп мәгълүмат - вакыт, шуңа күрә барлык GPS параметрлары, шул исәптән интерфейс көйләнмәләрен сүндерергә мөмкин</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX минималь яңарту ставкасы</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Барлык яңартуларны координацияли</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Язуны башлау /туктату</string>
     <string name="prefs_ui_click_text">Экранга тиз басыгыз</string>
     <string name="prefs_ui_long_click_text">Экранда озын басыгыз</string>
+    <string name="prefs_value_minute_few_text">минут</string>
+    <string name="prefs_value_minute_one_text">минут</string>
+    <string name="prefs_value_minute_other_text">минут</string>
     <string name="prefs_value_secs_few_text">секунд</string>
     <string name="prefs_value_secs_one_text">икенче</string>
     <string name="prefs_value_secs_other_text">секунд</string>
     <string name="prefs_version_text">Кушымта версиясе</string>
     <string name="prefs_vibrate_rec_start_stop_text">Язуны башлаганда яки туктатканда тибрәнү</string>
+    <string name="prefs_vibration_strength">Тибрәнү көче</string>
     <string name="prefs_video_bitrate_text">Битрат (сыйфат)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Камера белән идарә итү күренеше режимы (Төн)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Камера белән идарә итү сәхнә режимы (көн)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Бетерү режимыннан чыгу</string>
     <string name="videos_locked_folder_text">Саклагыз</string>
     <string name="videos_menu_delete">Бетерү</string>
+    <string name="videos_menu_move_file">Файлны күчерегез</string>
     <string name="videos_menu_refresh">Яңарту</string>
     <string name="videos_menu_select_all">Барысын да сайлагыз</string>
     <string name="videos_menu_sorting">Сортлау</string>
     <string name="videos_menu_storage">Хәтер</string>
+    <string name="videos_moving_files_text">Файлларны күчерү ... Зинһар, көтегез!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Зинһар, кушымта көйләнмәләрен ачыгыз һәм телефон хәтерендә саклауга рөхсәт итегез</string>
     <string name="videos_no_storage_permission_dlg_title_text">Саклау рөхсәте юк</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Зинһар, язмалар өчен папка сайлагыз</string>
     <string name="videos_storage_select_dlg_title">Видео саклауны сайлагыз</string>
     <string name="videos_temporary_folder_text">Вакытлы видеолар</string>
     <string name="videos_toolbar_subtitle">Видео язмалар</string>
+    <string name="widget_start_stop_recording_transparent">Язуны башлау /туктату өчен ачык төймә</string>
     <string name="zoom_text">зурайту</string>
 </resources>

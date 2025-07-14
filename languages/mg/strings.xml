@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Tsy azo nosokafana ny fampiharana raha vao manomboka mirakitra an-tsoratra satria tsy nahazo alalana ny \"seho ambonin\'ny fampiharana rehetra\". Tsindrio raha hanome</string>
     <string name="msg_photo_failed_to_take">Tsy nahomby ny fakana sary</string>
     <string name="msg_photo_was_saved">Sary voatahiry</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google Photos Edit dia miasa amin\'ny rakitra mediam-bahoaka ihany.</string>
     <string name="msg_please_close_other_app_and_restart_text">Akatona ny fampiharana hafa mampiasa ny fakan-tsary ary avereno indray ity fampiharana ity</string>
     <string name="msg_recorder_init_error_file_not_found">Fafao ny horonan-tsary taloha, amboary ny karatra SD-nao, na manandrama iray hafa. Ary koa, ferana ny habaka firaketana horonantsary ambony indrindra (tsara kokoa ny kely kokoa). Betsaka ny horonan-tsary voatahiry dia mety hiteraka olana toy izany. Jereo koa ny FAQ momba ny karatra SD ao amin\'ny Settings /FAQ. Azonao atao koa ny manandrana manoratra amin\'ny fahatsiarovana an-telefaona fa tsy karatra ivelany</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Atsaharo ny firaketana. Tsy ampy ny fitadidiana hanohizana</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">Andro</string>
     <string name="prefs_day_night_mode_night_text">alina</string>
     <string name="prefs_donate_sum_text">Tohano ny fampandrosoana ny fampiharana</string>
+    <string name="prefs_every_n_time">Isaky ny N</string>
     <string name="prefs_faq_sum_text">Fanontaniana apetraka matetika</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Alefaho ho azy ny jiro rehefa mirakitra</string>
     <string name="prefs_float_size_increase_text">Haben\'ny bokotra eo amin\'ny varavarankely mitsingevana</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">endrika daty</string>
     <string name="prefs_subtitles_date_text">Daty ora)</string>
     <string name="prefs_subtitles_date_time_system_text">rafitra</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею и нагревать устройство. Для видеозаписей главное информация о времени, поэтому все GPS опции вполне можно отключить, включая настроил</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Ireo safidy ireo dia afaka mandany be ny bateria sy manafana ny fitaovana. Ho an\'ny fandraketana horonan-tsary, ny fampahafantarana lehibe dia ny fotoana, ka ny safidy GPS rehetra dia azo esorina, ao anatin\'izany ny firafitry ny interface</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS данные</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX tahan\'ny fanavaozana farany ambany indrindra</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Fanavaozana fandrindrana rehetra</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Atombohy /atsaharo ny firaketana</string>
     <string name="prefs_ui_click_text">Peho haingana ny efijery</string>
     <string name="prefs_ui_long_click_text">Tsindrio lava eo amin\'ny efijery</string>
+    <string name="prefs_value_minute_few_text">minitra</string>
+    <string name="prefs_value_minute_one_text">minitra</string>
+    <string name="prefs_value_minute_other_text">minitra</string>
     <string name="prefs_value_secs_few_text">segondra</string>
     <string name="prefs_value_secs_one_text">FAHAROA</string>
     <string name="prefs_value_secs_other_text">segondra</string>
     <string name="prefs_version_text">Version fampiharana</string>
     <string name="prefs_vibrate_rec_start_stop_text">Vibration rehefa manomboka na miato ny fandraisam-peo</string>
+    <string name="prefs_vibration_strength">Herin\'ny vibration</string>
     <string name="prefs_video_bitrate_text">Bitrate (kalitao)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Fomba fanaraha-maso ny fakan-tsary (alina)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Fomba fanaraha-maso ny fakan-tsary (andro)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Mialà amin\'ny fomba famafana</string>
     <string name="videos_locked_folder_text">Voaaro ny overwrite</string>
     <string name="videos_menu_delete">Mamafa</string>
+    <string name="videos_menu_move_file">Afindrao ny rakitra</string>
     <string name="videos_menu_refresh">Havaozina</string>
     <string name="videos_menu_select_all">Fidio daholo</string>
     <string name="videos_menu_sorting">manavaka</string>
     <string name="videos_menu_storage">fahatsiarovana</string>
+    <string name="videos_moving_files_text">Mamindra rakitra… Miandrasa azafady!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Sokafy azafady ny firafitry ny fampiharana ary avelao ny fidirana amin\'ny fitahirizana ao amin\'ny fitadidiana telefaona</string>
     <string name="videos_no_storage_permission_dlg_title_text">Tsy misy alalana fitahirizana</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Mifidiana lahatahiry iray ho an\'ny rakitra azafady</string>
     <string name="videos_storage_select_dlg_title">Safidio ny fitahirizana horonan-tsary</string>
     <string name="videos_temporary_folder_text">Vidéo ara-potoana</string>
     <string name="videos_toolbar_subtitle">Fandraketam-peo</string>
+    <string name="widget_start_stop_recording_transparent">Bokotra mangarahara hanombohana/ajanona ny firaketana</string>
     <string name="zoom_text">zoom</string>
 </resources>

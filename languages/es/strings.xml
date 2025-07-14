@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">No se pudo abrir la aplicación para comenzar a grabar porque no se otorgó el permiso \"mostrar encima de todas las aplicaciones\". Haga clic para proporcionar</string>
     <string name="msg_photo_failed_to_take">No se pudo tomar la fotografía</string>
     <string name="msg_photo_was_saved">Fotografía guardada</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google Photos Edit solo funciona con archivos multimedia públicos.</string>
     <string name="msg_please_close_other_app_and_restart_text">Cierre otras aplicaciones que estén utilizando la cámara y reinicie esta aplicación.</string>
     <string name="msg_recorder_init_error_file_not_found">Elimine videos antiguos, formatee la tarjeta SD o pruebe con otra. Además, limite el espacio máximo de grabación de video (menos es mejor). Una gran cantidad de videos guardados puede causar tales problemas. Consulte también las preguntas frecuentes sobre tarjetas SD en Configuración /Preguntas frecuentes. También puede intentar guardar la memoria interna del teléfono.</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Grabación detenida. No hay suficiente memoria para continuar</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">Día</string>
     <string name="prefs_day_night_mode_night_text">Noche</string>
     <string name="prefs_donate_sum_text">Apoyar el desarrollo de aplicaciones</string>
+    <string name="prefs_every_n_time">Cada N veces</string>
     <string name="prefs_faq_sum_text">Preguntas frecuentes</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Enciende automáticamente la linterna al grabar</string>
     <string name="prefs_float_size_increase_text">Tamaño de los botones en una ventana flotante</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Formato de fecha</string>
     <string name="prefs_subtitles_date_text">Sobreimprimir fecha (marca de tiempo)</string>
     <string name="prefs_subtitles_date_time_system_text">Sistema</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Estas opciones pueden ser de gran utilidad para el uso de baterías y el uso de un país. Para obtener información detallada sobre el vídeo, puede utilizar todas las funciones GPS y acceder a ella durante varios minutos.</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Estas opciones pueden consumir mucha batería y calentar el dispositivo. Para las grabaciones de video, la información principal es la hora, por lo que se pueden desactivar todas las opciones de GPS, incluida la configuración de la interfaz.</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS hoy</string>
     <string name="prefs_subtitles_gpx_delay_title">Tasa de actualización mínima de GPX</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Todas las actualizaciones de coordenadas</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Iniciar/detener la grabación</string>
     <string name="prefs_ui_click_text">Toque rápido en la pantalla</string>
     <string name="prefs_ui_long_click_text">Pulsación larga en la pantalla</string>
+    <string name="prefs_value_minute_few_text">minutos</string>
+    <string name="prefs_value_minute_one_text">minuto</string>
+    <string name="prefs_value_minute_other_text">minutos</string>
     <string name="prefs_value_secs_few_text">segundos</string>
     <string name="prefs_value_secs_one_text">segundo</string>
     <string name="prefs_value_secs_other_text">segundos</string>
     <string name="prefs_version_text">Versión de la aplicación</string>
     <string name="prefs_vibrate_rec_start_stop_text">Vibración al iniciar o detener la grabación</string>
+    <string name="prefs_vibration_strength">Fuerza de vibración</string>
     <string name="prefs_video_bitrate_text">Bitrate (calidad)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Modo de escena de control de cámara (noche)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Modo de escena de control de cámara (día)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Salir del modo de eliminación</string>
     <string name="videos_locked_folder_text">Protegido contra sobrescritura</string>
     <string name="videos_menu_delete">Borrar</string>
+    <string name="videos_menu_move_file">Mover archivo</string>
     <string name="videos_menu_refresh">Actualizar</string>
     <string name="videos_menu_select_all">Seleccionar todo</string>
     <string name="videos_menu_sorting">Ordenar</string>
     <string name="videos_menu_storage">Almacenamiento</string>
+    <string name="videos_moving_files_text">Moviendo archivos… ¡Por favor espere!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Abra la configuración de la aplicación y permita el acceso al almacenamiento interno deñ teléfono</string>
     <string name="videos_no_storage_permission_dlg_title_text">Sin permiso de almacenamiento</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Por favor seleccione una carpeta para registros</string>
     <string name="videos_storage_select_dlg_title">Seleccionar almacenamiento de video</string>
     <string name="videos_temporary_folder_text">Videos temporales</string>
     <string name="videos_toolbar_subtitle">Grabaciones de vídeo</string>
+    <string name="widget_start_stop_recording_transparent">Botón transparente para iniciar/detener la grabación</string>
     <string name="zoom_text">zoom</string>
 </resources>

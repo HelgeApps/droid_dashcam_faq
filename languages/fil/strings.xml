@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Hindi mabuksan ang app para magsimulang mag-record dahil hindi ibinigay ang pahintulot na \"ipakita sa ibabaw ng lahat ng apps.\" I-click upang magbigay</string>
     <string name="msg_photo_failed_to_take">Nabigong kumuha ng litrato</string>
     <string name="msg_photo_was_saved">Na-save ang larawan</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Gumagana lang ang Google Photos Edit sa mga pampublikong media file.</string>
     <string name="msg_please_close_other_app_and_restart_text">Isara ang iba pang mga application gamit ang camera at i-restart ang application na ito</string>
     <string name="msg_recorder_init_error_file_not_found">Tanggalin ang mga lumang video, i-format ang iyong SD card, o subukan ang isa pa. Gayundin, limitahan ang maximum na espasyo sa pag-record ng video (mas kaunti ang mas mahusay). Ang isang malaking bilang ng mga naka-save na video ay maaaring magdulot ng mga ganitong problema. Tingnan din ang FAQ tungkol sa mga SD card sa Mga Setting /FAQ. Maaari mo ring subukang magsulat sa memorya ng telepono sa halip na isang panlabas na card</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Itigil ang pagre-record. Hindi sapat ang memorya para magpatuloy</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">Araw</string>
     <string name="prefs_day_night_mode_night_text">Gabi</string>
     <string name="prefs_donate_sum_text">Suportahan ang pagbuo ng application</string>
+    <string name="prefs_every_n_time">Tuwing N oras</string>
     <string name="prefs_faq_sum_text">Mga madalas itanong</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Awtomatikong i-on ang flashlight kapag nagre-record</string>
     <string name="prefs_float_size_increase_text">Sukat ng mga pindutan sa isang lumulutang na window</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Format ng petsa</string>
     <string name="prefs_subtitles_date_text">Petsa ng Oras)</string>
     <string name="prefs_subtitles_date_time_system_text">Systemic</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею и нагревать устройство. Для видеозаписей главное информация о времени, поэтому все GPS опции вполне можно отключить, включая наистрои</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Ang mga opsyong ito ay maaaring makakonsumo nang malaki sa baterya at mapainit ang device. Para sa mga pag-record ng video, ang pangunahing impormasyon ay oras, kaya ang lahat ng mga opsyon sa GPS ay maaaring hindi paganahin, kabilang ang mga setting ng interface</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS araw</string>
     <string name="prefs_subtitles_gpx_delay_title">Pinakamababang rate ng pag-update ng GPX</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Lahat ng mga update sa coordinate</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Simulan /ihinto ang pagre-record</string>
     <string name="prefs_ui_click_text">Mabilis na tapikin ang screen</string>
     <string name="prefs_ui_long_click_text">Pindutin nang matagal ang screen</string>
+    <string name="prefs_value_minute_few_text">minuto</string>
+    <string name="prefs_value_minute_one_text">minuto</string>
+    <string name="prefs_value_minute_other_text">minuto</string>
     <string name="prefs_value_secs_few_text">segundo</string>
     <string name="prefs_value_secs_one_text">pangalawa</string>
     <string name="prefs_value_secs_other_text">segundo</string>
     <string name="prefs_version_text">Bersyon ng aplikasyon</string>
     <string name="prefs_vibrate_rec_start_stop_text">Panginginig ng boses kapag nagsisimula o huminto sa pagre-record</string>
+    <string name="prefs_vibration_strength">Lakas ng vibration</string>
     <string name="prefs_video_bitrate_text">Bitrate (kalidad)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Camera Control Scene Mode (Gabi)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Camera Control Scene Mode (Araw)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Lumabas sa delete mode</string>
     <string name="videos_locked_folder_text">Pinoprotektahan ang overwrite</string>
     <string name="videos_menu_delete">Tanggalin</string>
+    <string name="videos_menu_move_file">Ilipat ang file</string>
     <string name="videos_menu_refresh">Refresh</string>
     <string name="videos_menu_select_all">Piliin lahat</string>
     <string name="videos_menu_sorting">Pag-uuri</string>
     <string name="videos_menu_storage">Alaala</string>
+    <string name="videos_moving_files_text">Inilipat ang mga file... Mangyaring maghintay!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Mangyaring buksan ang mga setting ng application at payagan ang access sa storage sa memorya ng telepono</string>
     <string name="videos_no_storage_permission_dlg_title_text">Walang pahintulot sa storage</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Mangyaring pumili ng folder para sa mga talaan</string>
     <string name="videos_storage_select_dlg_title">Pumili ng imbakan ng video</string>
     <string name="videos_temporary_folder_text">Naka-time na mga video</string>
     <string name="videos_toolbar_subtitle">Mga pag-record ng video</string>
+    <string name="widget_start_stop_recording_transparent">Transparent na button para simulan/ihinto ang pagre-record</string>
     <string name="zoom_text">mag-zoom</string>
 </resources>

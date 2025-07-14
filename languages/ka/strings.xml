@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">აპის გახსნა ჩაწერის დასაწყებად ვერ მოხერხდა, რადგან „ყველა აპის თავზე ჩვენება“ არ იყო მინიჭებული. დააწკაპუნეთ მისაწოდებლად</string>
     <string name="msg_photo_failed_to_take">ფოტოს გადაღება ვერ მოხერხდა</string>
     <string name="msg_photo_was_saved">ფოტო შენახულია</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google Photos Edit მხოლოდ საჯარო მედია ფაილებთან მუშაობს.</string>
     <string name="msg_please_close_other_app_and_restart_text">დახურეთ სხვა აპლიკაციები კამერის გამოყენებით და გადატვირთეთ ეს აპლიკაცია</string>
     <string name="msg_recorder_init_error_file_not_found">წაშალეთ ძველი ვიდეოები, დააფორმატეთ თქვენი SD ბარათი ან სცადეთ სხვა. ასევე, შეზღუდეთ ვიდეოს ჩაწერის მაქსიმალური სივრცე (ნაკლები უკეთესია). შენახული ვიდეოების დიდმა რაოდენობამ შეიძლება გამოიწვიოს ასეთი პრობლემები. ასევე იხილეთ ხშირად დასმული კითხვები SD ბარათების შესახებ პარამეტრებში /FAQ. ასევე შეგიძლიათ სცადოთ ჩაწერა ტელეფონის მეხსიერებაში გარე ბარათის ნაცვლად</string>
     <string name="msg_recording_stopping_not_enough_memory_text">შეაჩერე ჩაწერა. არ არის საკმარისი მეხსიერება გასაგრძელებლად</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">Დღეს</string>
     <string name="prefs_day_night_mode_night_text">Ღამე</string>
     <string name="prefs_donate_sum_text">აპლიკაციის შემუშავების მხარდაჭერა</string>
+    <string name="prefs_every_n_time">ყოველ N-ჯერ</string>
     <string name="prefs_faq_sum_text">Ხშირად დასმული შეკითხვები</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">ჩაწერისას ავტომატურად ჩართეთ ფანარი</string>
     <string name="prefs_float_size_increase_text">ღილაკების ზომა მცურავ ფანჯარაზე</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Თარიღის ფორმატი</string>
     <string name="prefs_subtitles_date_text">თარიღის დრო)</string>
     <string name="prefs_subtitles_date_time_system_text">სისტემური</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Этификации може да существенно потреблять батарею и нагревать устройство. Для видеозаписей მთავარიе информация о времени, поэтому ყველა GPS ოფციები სრული შესაძლებლობით, ჩართვის ინტერფეისი</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">ამ პარამეტრებს შეუძლიათ მნიშვნელოვნად დაზოგონ ელემენტი და გააცხელონ მოწყობილობა. ვიდეოჩანაწერებისთვის მთავარი ინფორმაცია დროა, ამიტომ GPS-ის ყველა პარამეტრის გამორთვა შესაძლებელია, ინტერფეისის პარამეტრების ჩათვლით.</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS მონაცემები</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX განახლების მინიმალური სიჩქარე</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">ყველა კოორდინატის განახლება</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">ჩაწერის დაწყება/შეწყვეტა</string>
     <string name="prefs_ui_click_text">სწრაფი შეხება ეკრანზე</string>
     <string name="prefs_ui_long_click_text">დიდხანს დააჭირეთ ეკრანზე</string>
+    <string name="prefs_value_minute_few_text">წუთები</string>
+    <string name="prefs_value_minute_one_text">წუთი</string>
+    <string name="prefs_value_minute_other_text">წუთები</string>
     <string name="prefs_value_secs_few_text">წამი</string>
     <string name="prefs_value_secs_one_text">მეორე</string>
     <string name="prefs_value_secs_other_text">წამი</string>
     <string name="prefs_version_text">განაცხადის ვერსია</string>
     <string name="prefs_vibrate_rec_start_stop_text">ვიბრაცია ჩაწერის დაწყების ან შეწყვეტისას</string>
+    <string name="prefs_vibration_strength">ვიბრაციის სიძლიერე</string>
     <string name="prefs_video_bitrate_text">ბიტის სიხშირე (ხარისხი)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">კამერის კონტროლის სცენის რეჟიმი (ღამე)</string>
     <string name="prefs_video_camera_control_scene_mode_text">კამერის კონტროლის სცენის რეჟიმი (დღე)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">წაშლის რეჟიმიდან გასვლა</string>
     <string name="videos_locked_folder_text">გადაწერა დაცულია</string>
     <string name="videos_menu_delete">წაშლა</string>
+    <string name="videos_menu_move_file">ფაილის გადატანა</string>
     <string name="videos_menu_refresh">განაახლეთ</string>
     <string name="videos_menu_select_all">აირჩიე ყველა</string>
     <string name="videos_menu_sorting">დახარისხება</string>
     <string name="videos_menu_storage">მეხსიერება</string>
+    <string name="videos_moving_files_text">ფაილების გადატანა… გთხოვთ, დაელოდოთ!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">გთხოვთ, გახსენით აპლიკაციის პარამეტრები და დაუშვით წვდომა ტელეფონის მეხსიერებაში არსებულ მეხსიერებაზე</string>
     <string name="videos_no_storage_permission_dlg_title_text">შენახვის ნებართვა არ არის</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">გთხოვთ, აირჩიოთ საქაღალდე ჩანაწერებისთვის</string>
     <string name="videos_storage_select_dlg_title">აირჩიეთ ვიდეო საცავი</string>
     <string name="videos_temporary_folder_text">დროული ვიდეოები</string>
     <string name="videos_toolbar_subtitle">ვიდეო ჩანაწერები</string>
+    <string name="widget_start_stop_recording_transparent">გამჭვირვალე ღილაკი ჩაწერის დასაწყებად/შესაჩერებლად</string>
     <string name="zoom_text">მასშტაბირება</string>
 </resources>

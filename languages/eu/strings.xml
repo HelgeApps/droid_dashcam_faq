@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Aplikazioa ezin izan da ireki grabatzen hasteko, \"erakutsi aplikazio guztien gainean\" baimena eman ez delako. Egin klik emateko</string>
     <string name="msg_photo_failed_to_take">Ezin izan da argazkia atera</string>
     <string name="msg_photo_was_saved">Argazkia gorde da</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google Argazkiak Edit-ek multimedia fitxategi publikoekin bakarrik funtzionatzen du.</string>
     <string name="msg_please_close_other_app_and_restart_text">Itxi beste aplikazio batzuk kamera erabiliz eta berrabiarazi aplikazio hau</string>
     <string name="msg_recorder_init_error_file_not_found">Ezabatu bideo zaharrak, formateatu zure SD txartela edo probatu beste batekin. Gainera, mugatu bideoa grabatzeko gehienezko espazioa (gutxiago da hobea). Gordetako bideo kopuru handi batek horrelako arazoak sor ditzake. Ikusi ere SD txartelei buruzko galderak Ezarpenak /Ohiko galderak atalean. Telefonoaren memorian idazten ere saia zaitezke kanpoko txartelean ordez</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Utzi grabatzeari. Ez dago memoria nahikoa jarraitzeko</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">Eguna</string>
     <string name="prefs_day_night_mode_night_text">Gaua</string>
     <string name="prefs_donate_sum_text">Aplikazioen garapena lagundu</string>
+    <string name="prefs_every_n_time">N aldiro</string>
     <string name="prefs_faq_sum_text">Galdera arruntak</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Piztu linterna automatikoki grabatzerakoan</string>
     <string name="prefs_float_size_increase_text">Botoien tamaina leiho mugikor batean</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Data formatua</string>
     <string name="prefs_subtitles_date_text">Data Ordua)</string>
     <string name="prefs_subtitles_date_time_system_text">Sistemikoa</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею и нагревать устройство. Для видеозаписей главное информация о времени, поэтому все GPS опции вполне можно отключа отклютому все отклне можно отклютому все ерфейса</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Aukera hauek bateria asko kontsumitu eta gailua berotu dezakete. Bideo-grabaketetarako, informazio nagusia denbora da, beraz, GPS aukera guztiak desgaitu daitezke, interfazearen ezarpenak barne.</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS gailuak</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX gutxieneko eguneratze-tasa</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Koordenatuen eguneraketa guztiak</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Hasi /gelditu grabaketa</string>
     <string name="prefs_ui_click_text">Sakatu azkar pantailan</string>
     <string name="prefs_ui_long_click_text">Luze sakatu pantailan</string>
+    <string name="prefs_value_minute_few_text">minutu</string>
+    <string name="prefs_value_minute_one_text">minutu</string>
+    <string name="prefs_value_minute_other_text">minutu</string>
     <string name="prefs_value_secs_few_text">segundoak</string>
     <string name="prefs_value_secs_one_text">bigarrena</string>
     <string name="prefs_value_secs_other_text">segundoak</string>
     <string name="prefs_version_text">Aplikazioaren bertsioa</string>
     <string name="prefs_vibrate_rec_start_stop_text">Bibrazioa grabazioa hastean edo gelditzean</string>
+    <string name="prefs_vibration_strength">Bibrazio-indarra</string>
     <string name="prefs_video_bitrate_text">Bit-tasa (kalitatea)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kamera kontrolatzeko eszena modua (gaua)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kamera kontrolatzeko eszena modua (eguna)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Irten ezabatze modutik</string>
     <string name="videos_locked_folder_text">Gainidazketa babestuta</string>
     <string name="videos_menu_delete">Ezabatu</string>
+    <string name="videos_menu_move_file">Mugitu fitxategia</string>
     <string name="videos_menu_refresh">Freskatu</string>
     <string name="videos_menu_select_all">Aukeratu guztiak</string>
     <string name="videos_menu_sorting">Sailkatzea</string>
     <string name="videos_menu_storage">Memoria</string>
+    <string name="videos_moving_files_text">Fitxategiak mugitzen… Itxaron mesedez!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Mesedez, ireki aplikazioaren ezarpenak eta baimendu telefonoaren memorian biltegiratzeko sarbidea</string>
     <string name="videos_no_storage_permission_dlg_title_text">Ez dago biltegiratzeko baimenik</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Mesedez, hautatu erregistroetarako karpeta bat</string>
     <string name="videos_storage_select_dlg_title">Hautatu bideo biltegiratzea</string>
     <string name="videos_temporary_folder_text">Bideo kronometratuak</string>
     <string name="videos_toolbar_subtitle">Bideo-grabaketak</string>
+    <string name="widget_start_stop_recording_transparent">Grabaketa hasteko/gelditzeko botoia gardena</string>
     <string name="zoom_text">zooma</string>
 </resources>

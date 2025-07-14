@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Aplikacioni nuk mund të hapej për të filluar regjistrimin sepse nuk u dha leja \"shfaqja në krye të të gjitha aplikacioneve\". Klikoni për të ofruar</string>
     <string name="msg_photo_failed_to_take">Fotografia dështoi</string>
     <string name="msg_photo_was_saved">Fotografia u ruajt</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google Photos Edit funksionon vetëm me skedarë mediash publike.</string>
     <string name="msg_please_close_other_app_and_restart_text">Mbyllni aplikacionet e tjera duke përdorur kamerën dhe rinisni këtë aplikacion</string>
     <string name="msg_recorder_init_error_file_not_found">Fshini videot e vjetra, formatoni kartën tuaj SD ose provoni një tjetër. Gjithashtu, kufizoni hapësirën maksimale të regjistrimit të videos (më pak është më mirë). Një numër i madh videosh të ruajtura mund të shkaktojnë probleme të tilla. Shihni gjithashtu FAQ rreth kartave SD te Cilësimet /FAQ. Mund të provoni gjithashtu të shkruani në kujtesën e telefonit në vend të një karte të jashtme</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Ndalo regjistrimin. Nuk ka memorie të mjaftueshme për të vazhduar</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">ditë</string>
     <string name="prefs_day_night_mode_night_text">Natën</string>
     <string name="prefs_donate_sum_text">Mbështet zhvillimin e aplikacioneve</string>
+    <string name="prefs_every_n_time">Çdo N herë</string>
     <string name="prefs_faq_sum_text">Pyetjet e bëra shpesh</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Ndizni automatikisht elektrik dore kur regjistroni</string>
     <string name="prefs_float_size_increase_text">Madhësia e butonave në një dritare lundruese</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Formati i datës</string>
     <string name="prefs_subtitles_date_text">Data Ora)</string>
     <string name="prefs_subtitles_date_time_system_text">Sistemik</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Opsionet mund të suщestvenno pokerlяtь батарею и нагревать устройство. Для видеозаписей главното информация о времени, поэтому сите opsione GPS të plota të mundshme отключить, включая настройки интерфейса</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Këto opsione mund ta konsumojnë ndjeshëm baterinë dhe ta ngrohin pajisjen. Për regjistrimet video, informacioni kryesor është koha, kështu që të gjitha opsionet e GPS-it mund të çaktivizohen, duke përfshirë cilësimet e ndërfaqes.</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS të dhëna</string>
     <string name="prefs_subtitles_gpx_delay_title">Shkalla minimale e përditësimit GPX</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Të gjitha përditësimet e koordinatave</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Filloni /ndaloni regjistrimin</string>
     <string name="prefs_ui_click_text">Trokitni shpejt në ekran</string>
     <string name="prefs_ui_long_click_text">Shtypni gjatë në ekran</string>
+    <string name="prefs_value_minute_few_text">minuta</string>
+    <string name="prefs_value_minute_one_text">minutë</string>
+    <string name="prefs_value_minute_other_text">minuta</string>
     <string name="prefs_value_secs_few_text">sekonda</string>
     <string name="prefs_value_secs_one_text">e dyta</string>
     <string name="prefs_value_secs_other_text">sekonda</string>
     <string name="prefs_version_text">Versioni i aplikacionit</string>
     <string name="prefs_vibrate_rec_start_stop_text">Dridhja kur fillon ose ndalon regjistrimin</string>
+    <string name="prefs_vibration_strength">Forca e dridhjeve</string>
     <string name="prefs_video_bitrate_text">Shpejtësia e biteve (cilësia)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Modaliteti i skenës së kontrollit të kamerës (natë)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Modaliteti i skenës së kontrollit të kamerës (ditë)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Dilni nga modaliteti i fshirjes</string>
     <string name="videos_locked_folder_text">Mbishkrimi i mbrojtur</string>
     <string name="videos_menu_delete">Fshije</string>
+    <string name="videos_menu_move_file">Zhvendos skedarin</string>
     <string name="videos_menu_refresh">Rifresko</string>
     <string name="videos_menu_select_all">Zgjidhni të gjitha</string>
     <string name="videos_menu_sorting">Renditja</string>
     <string name="videos_menu_storage">Kujtesa</string>
+    <string name="videos_moving_files_text">Po zhvendosen skedarët… Ju lutemi prisni!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Ju lutemi hapni cilësimet e aplikacionit dhe lejoni hyrjen në hapësirën ruajtëse në kujtesën e telefonit</string>
     <string name="videos_no_storage_permission_dlg_title_text">Nuk ka leje ruajtjeje</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Ju lutemi zgjidhni një dosje për regjistrime</string>
     <string name="videos_storage_select_dlg_title">Zgjidhni ruajtjen e videos</string>
     <string name="videos_temporary_folder_text">Video me kohë</string>
     <string name="videos_toolbar_subtitle">Video regjistrime</string>
+    <string name="widget_start_stop_recording_transparent">Buton transparent për të filluar/ndaluar regjistrimin</string>
     <string name="zoom_text">zmadhimi</string>
 </resources>

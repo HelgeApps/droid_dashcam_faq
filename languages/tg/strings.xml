@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Барои оғози сабт барнома кушода нашуд, зеро иҷозати \"намоиш дар болои ҳама барномаҳо\" дода нашудааст. Барои таъмин кардан клик кунед</string>
     <string name="msg_photo_failed_to_take">Аксбардорӣ натавонист</string>
     <string name="msg_photo_was_saved">Акс захира карда шуд</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google Photos Edit танҳо бо файлҳои медиаи ҷамъиятӣ кор мекунад.</string>
     <string name="msg_please_close_other_app_and_restart_text">Барномаҳои дигарро бо истифода аз камера пӯшед ва ин барномаро аз нав оғоз кунед</string>
     <string name="msg_recorder_init_error_file_not_found">Видеоҳои кӯҳнаро нест кунед, корти SD-и худро формат кунед ё корти дигарро санҷед. Инчунин, фазои максималии сабти видеоро маҳдуд кунед (камтар беҳтар аст). Шумораи зиёди видеоҳои захирашуда метавонад боиси чунин мушкилот гардад. Ҳамчунин нигаред ба FAQ дар бораи кортҳои SD дар Танзимотҳо /FAQ. Шумо инчунин метавонед ба ҷои корти беруна ба хотираи телефон нависед</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Сабтро қатъ кунед. Барои идома додани хотира кофӣ нест</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">рӯз</string>
     <string name="prefs_day_night_mode_night_text">Шаб</string>
     <string name="prefs_donate_sum_text">Дастгирии таҳияи барнома</string>
+    <string name="prefs_every_n_time">Хар дафъа Н</string>
     <string name="prefs_faq_sum_text">Саволҳои зуд-зуд додашаванда</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Ҳангоми сабт ба таври худкор дурахшро фурӯзон кунед</string>
     <string name="prefs_float_size_increase_text">Андозаи тугмаҳо дар равзанаи шинокунанда</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Формати сана</string>
     <string name="prefs_subtitles_date_text">Сана вақт)</string>
     <string name="prefs_subtitles_date_time_system_text">Системавӣ</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции метавонад существенно потреблять батарею ва нагревать устройство. Барои дастрас кардани иттилооти видеоӣ, дастрасии ҳама гуна GPS опсияҳо метавонанд дастрас бошанд, васлкунакҳои интерфейсро истифода баранд.</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Ин вариантҳо метавонанд батареяро ба таври назаррас истеъмол кунанд ва дастгоҳро гарм кунанд. Барои сабти видео, маълумоти асосӣ вақт аст, бинобар ин ҳама имконоти GPS, аз ҷумла танзимоти интерфейсро ғайрифаъол кардан мумкин аст</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS нест</string>
     <string name="prefs_subtitles_gpx_delay_title">Сатҳи ҳадди ақали навсозии GPX</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Ҳама навсозиҳои координатҳо</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Сабтро оғоз /қатъ кунед</string>
     <string name="prefs_ui_click_text">Дар экран зуд пахш кунед</string>
     <string name="prefs_ui_long_click_text">Дар экран дароз пахш кунед</string>
+    <string name="prefs_value_minute_few_text">дақиқа</string>
+    <string name="prefs_value_minute_one_text">дақиқа</string>
+    <string name="prefs_value_minute_other_text">дақиқа</string>
     <string name="prefs_value_secs_few_text">сония</string>
     <string name="prefs_value_secs_one_text">дуюм</string>
     <string name="prefs_value_secs_other_text">сония</string>
     <string name="prefs_version_text">Версияи барнома</string>
     <string name="prefs_vibrate_rec_start_stop_text">Вибрация ҳангоми оғоз ё қатъ кардани сабт</string>
+    <string name="prefs_vibration_strength">Қувваи ларзиш</string>
     <string name="prefs_video_bitrate_text">Сатҳи бит (сифат)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Реҷаи назорати камера (шабона)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Реҷаи назорати камера (рӯзона)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Ҳолати нест карданро тарк кунед</string>
     <string name="videos_locked_folder_text">Аз болои навиштан муҳофизат карда шудааст</string>
     <string name="videos_menu_delete">Нобуд кунед</string>
+    <string name="videos_menu_move_file">Файлро интиқол диҳед</string>
     <string name="videos_menu_refresh">Навсозӣ</string>
     <string name="videos_menu_select_all">Ҳамаро интихоб кунед</string>
     <string name="videos_menu_sorting">Мураттабкунӣ</string>
     <string name="videos_menu_storage">Хотира</string>
+    <string name="videos_moving_files_text">Интиқоли файлҳо… Лутфан интизор шавед!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Лутфан танзимоти барномаро кушоед ва дастрасӣ ба захираи хотираи телефонро иҷозат диҳед</string>
     <string name="videos_no_storage_permission_dlg_title_text">Иҷозати нигаҳдорӣ нест</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Лутфан ҷузвдонеро барои сабтҳо интихоб кунед</string>
     <string name="videos_storage_select_dlg_title">Захираи видеоро интихоб кунед</string>
     <string name="videos_temporary_folder_text">Видеоҳои замонавӣ</string>
     <string name="videos_toolbar_subtitle">Сабти видео</string>
+    <string name="widget_start_stop_recording_transparent">Тугмаи шаффоф барои оғоз/қатъ кардани сабт</string>
     <string name="zoom_text">масштаб кардан</string>
 </resources>

@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">تعذر فتح التطبيق لبدء التسجيل لأنه لم يتم منح إذن \"العرض أعلى جميع التطبيقات\". انقر لتقديم</string>
     <string name="msg_photo_failed_to_take">فشل في التقاط الصورة</string>
     <string name="msg_photo_was_saved">تم حفظ الصورة</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">يعمل تطبيق Google Photos Edit فقط مع ملفات الوسائط العامة.</string>
     <string name="msg_please_close_other_app_and_restart_text">أغلق التطبيقات الأخرى باستخدام الكاميرا وأعد تشغيل هذا التطبيق</string>
     <string name="msg_recorder_init_error_file_not_found">احذف مقاطع الفيديو القديمة أو قم بتهيئة بطاقة SD الخاصة بك أو جرب واحدة أخرى. أيضًا ، حدد الحد الأقصى لمساحة تسجيل الفيديو (الأقل أفضل). يمكن أن يتسبب عدد كبير من مقاطع الفيديو المحفوظة في حدوث مثل هذه المشكلات. راجع أيضًا الأسئلة الشائعة حول بطاقات SD في الإعدادات /الأسئلة الشائعة. يمكنك أيضًا محاولة الكتابة على ذاكرة الهاتف بدلاً من بطاقة خارجية</string>
     <string name="msg_recording_stopping_not_enough_memory_text">إيقاف التسجيل. لا توجد ذاكرة كافية للمتابعة</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">يوم</string>
     <string name="prefs_day_night_mode_night_text">ليلة</string>
     <string name="prefs_donate_sum_text">دعم تطوير التطبيقات</string>
+    <string name="prefs_every_n_time">في كل مرة N</string>
     <string name="prefs_faq_sum_text">أسئلة مكررة</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">قم بتشغيل المصباح تلقائيًا عند التسجيل</string>
     <string name="prefs_float_size_increase_text">حجم الأزرار في نافذة عائمة</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">صيغة التاريخ</string>
     <string name="prefs_subtitles_date_text">تاريخ الوقت)</string>
     <string name="prefs_subtitles_date_time_system_text">النظامية</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">يمكن لهذه الخيارات استخدام البطارية بشكل فعال وزيادة عمر الجهاز. من أجل الحصول على معلومات رئيسية عن الوقت، يمكن إلغاء جميع خيارات نظام تحديد المواقع العالمي (GPS)، بما في ذلك الواجهة</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">قد تستهلك هذه الخيارات طاقة البطارية بشكل كبير وترفع حرارة الجهاز. بالنسبة لتسجيلات الفيديو، المعلومات الرئيسية هي الوقت، لذا يُمكن تعطيل جميع خيارات نظام تحديد المواقع العالمي (GPS)، بما في ذلك إعدادات الواجهة.</string>
     <string name="prefs_subtitles_gps_info_category_title">بيانات نظام تحديد المواقع</string>
     <string name="prefs_subtitles_gpx_delay_title">الحد الأدنى لمعدل تحديث GPX</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">كل تنسيق التحديثات</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">بدء /إيقاف التسجيل</string>
     <string name="prefs_ui_click_text">نقرة سريعة على الشاشة</string>
     <string name="prefs_ui_long_click_text">الضغط لفترة طويلة على الشاشة</string>
+    <string name="prefs_value_minute_few_text">دقائق</string>
+    <string name="prefs_value_minute_one_text">دقيقة</string>
+    <string name="prefs_value_minute_other_text">دقائق</string>
     <string name="prefs_value_secs_few_text">ثواني</string>
     <string name="prefs_value_secs_one_text">ثانيا</string>
     <string name="prefs_value_secs_other_text">ثواني</string>
     <string name="prefs_version_text">إصدار التطبيق</string>
     <string name="prefs_vibrate_rec_start_stop_text">اهتزاز عند بدء أو إيقاف التسجيل</string>
+    <string name="prefs_vibration_strength">قوة الاهتزاز</string>
     <string name="prefs_video_bitrate_text">معدل البت (الجودة)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">وضع مشهد التحكم في الكاميرا (ليلي)</string>
     <string name="prefs_video_camera_control_scene_mode_text">وضع مشهد التحكم في الكاميرا (اليوم)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">الخروج من وضع الحذف</string>
     <string name="videos_locked_folder_text">الكتابة محمية</string>
     <string name="videos_menu_delete">حذف</string>
+    <string name="videos_menu_move_file">نقل الملف</string>
     <string name="videos_menu_refresh">ينعش</string>
     <string name="videos_menu_select_all">اختر الكل</string>
     <string name="videos_menu_sorting">فرز</string>
     <string name="videos_menu_storage">ذاكرة</string>
+    <string name="videos_moving_files_text">نقل الملفات… الرجاء الانتظار!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">يرجى فتح إعدادات التطبيق والسماح بالوصول إلى التخزين في ذاكرة الهاتف</string>
     <string name="videos_no_storage_permission_dlg_title_text">لا يوجد إذن تخزين</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">الرجاء تحديد مجلد للسجلات</string>
     <string name="videos_storage_select_dlg_title">حدد تخزين الفيديو</string>
     <string name="videos_temporary_folder_text">مقاطع فيديو محددة التوقيت</string>
     <string name="videos_toolbar_subtitle">تسجيلات الفيديو</string>
+    <string name="widget_start_stop_recording_transparent">زر شفاف لبدء/إيقاف التسجيل</string>
     <string name="zoom_text">تكبير</string>
 </resources>

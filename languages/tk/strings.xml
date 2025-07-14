@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Programma ýazga başlamak üçin açylyp bilinmedi, sebäbi \"ähli programmalaryň üstünde görkezmek\" rugsady berilmedi. Üpjün etmek üçin basyň</string>
     <string name="msg_photo_failed_to_take">Surata düşmedi</string>
     <string name="msg_photo_was_saved">Surat saklandy</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google Suratlar Edit diňe jemgyýetçilik media faýllary bilen işleýär.</string>
     <string name="msg_please_close_other_app_and_restart_text">Kamerany ulanyp, beýleki programmalary ýapyň we bu programmany täzeden açyň</string>
     <string name="msg_recorder_init_error_file_not_found">Köne wideolary pozuň, SD kartyňyzy formatlaň ýa-da başga birini synap görüň. Mundan başga-da, wideo ýazgysynyň iň ýokary ýerini çäklendiriň (has gowusy). Saklanan wideolaryň köpüsi şeýle problemalara sebäp bolup biler. Şeýle hem, Sazlamalar /Sorag-jogap bölüminde SD kartlar barada soraglara serediň. Şeýle hem, daşarky kartanyň ýerine telefon ýadyna ýazyp görüp bilersiňiz</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Ordingazga almagy bes et. Dowam etmek üçin ýeterlik ýat ýok</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">Gün</string>
     <string name="prefs_day_night_mode_night_text">Gije</string>
     <string name="prefs_donate_sum_text">Programmanyň işlenip düzülmegine goldaw</string>
+    <string name="prefs_every_n_time">Her gezek</string>
     <string name="prefs_faq_sum_text">Freygy-ýygydan berilýän soraglar</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Ordingazga alanyňyzda çyrany awtomatiki ýakyň</string>
     <string name="prefs_float_size_increase_text">Atingüzýän penjiredäki düwmeleriň ululygy</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Sene formaty</string>
     <string name="prefs_subtitles_date_text">Sene wagty)</string>
     <string name="prefs_subtitles_date_time_system_text">Ulgamly</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблаг б банею и нагреать устройсто. Для Возозаписей главное интроционция времени, поэтому все GPS опции вполне можно отключить, включая настройки интерфейса</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Bu opsiýalar batareýany ep-esli sarp edip, enjamy gyzdyryp biler. Wideo ýazgylary üçin esasy maglumat wagt, şonuň üçin interfeýs sazlamalaryny goşmak bilen ähli GPS opsiýalary ýapylyp bilner</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX iň pes täzeleniş tizligi</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Allhli täzelenmeleri utgaşdyryň</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Ordingazga almagy başla /bes et</string>
     <string name="prefs_ui_click_text">Ekrana çalt basyň</string>
     <string name="prefs_ui_long_click_text">Ekranda uzak basyň</string>
+    <string name="prefs_value_minute_few_text">minut</string>
+    <string name="prefs_value_minute_one_text">minut</string>
+    <string name="prefs_value_minute_other_text">minut</string>
     <string name="prefs_value_secs_few_text">sekunt</string>
     <string name="prefs_value_secs_one_text">ikinji</string>
     <string name="prefs_value_secs_other_text">sekunt</string>
     <string name="prefs_version_text">Programmanyň wersiýasy</string>
     <string name="prefs_vibrate_rec_start_stop_text">Ordingazga başlanda ýa-da togtadylanda yrgyldy</string>
+    <string name="prefs_vibration_strength">Wibrasiýa güýji</string>
     <string name="prefs_video_bitrate_text">Bitrate (hil)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kamera dolandyryş sahnasy tertibi (Gije)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kamera dolandyryş sahnasy tertibi (Gün)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Öçürmek re modeiminden çyk</string>
     <string name="videos_locked_folder_text">Gorag bilen ýazyň</string>
     <string name="videos_menu_delete">Öçür</string>
+    <string name="videos_menu_move_file">Faýly göçüriň</string>
     <string name="videos_menu_refresh">Täzele</string>
     <string name="videos_menu_select_all">Hemmesini saýlaň</string>
     <string name="videos_menu_sorting">Sortirlemek</string>
     <string name="videos_menu_storage">Oryat</string>
+    <string name="videos_moving_files_text">Faýllary göçürmek ... Garaşyň!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Programma sazlamalaryny açyň we telefon ýadynda saklamaga rugsat bermegiňizi haýyş edýäris</string>
     <string name="videos_no_storage_permission_dlg_title_text">Saklamak üçin rugsat ýok</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Recordsazgylar üçin bukjany saýlaň</string>
     <string name="videos_storage_select_dlg_title">Wideo saklaýjyny saýlaň</string>
     <string name="videos_temporary_folder_text">Wagtlaýyn wideolar</string>
     <string name="videos_toolbar_subtitle">Wideo ýazgylar</string>
+    <string name="widget_start_stop_recording_transparent">Ordingazgyny başlamak /bes etmek üçin aç-açan düwme</string>
     <string name="zoom_text">ulaltmak</string>
 </resources>

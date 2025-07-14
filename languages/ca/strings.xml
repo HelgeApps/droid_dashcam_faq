@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">No s\'ha pogut obrir l\'aplicació per començar a gravar perquè no s\'ha concedit el permís \"Mostra a sobre de totes les aplicacions\". Feu clic per proporcionar</string>
     <string name="msg_photo_failed_to_take">No s\'ha pogut fer la foto</string>
     <string name="msg_photo_was_saved">S\'ha desat la foto</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">L\'edició de Google Fotos només funciona amb fitxers multimèdia públics.</string>
     <string name="msg_please_close_other_app_and_restart_text">Tanqueu altres aplicacions amb la càmera i reinicieu aquesta aplicació</string>
     <string name="msg_recorder_init_error_file_not_found">Suprimeix vídeos antics, formatea la teva targeta SD o prova-ne una altra. A més, limiteu l\'espai màxim de gravació de vídeo (menys és millor). Un gran nombre de vídeos desats poden causar aquests problemes. Consulteu també les PMF sobre les targetes SD a Configuració/Preguntes freqüents. També podeu provar d\'escriure a la memòria del telèfon en lloc d\'una targeta externa</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Atura la gravació. No hi ha prou memòria per continuar</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">Dia</string>
     <string name="prefs_day_night_mode_night_text">Nit</string>
     <string name="prefs_donate_sum_text">Suport al desenvolupament d\'aplicacions</string>
+    <string name="prefs_every_n_time">Cada N vegades</string>
     <string name="prefs_faq_sum_text">Preguntes freqüents</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Enceneu automàticament la llanterna quan enregistreu</string>
     <string name="prefs_float_size_increase_text">Mida dels botons d\'una finestra flotant</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Format de data</string>
     <string name="prefs_subtitles_date_text">Data i hora)</string>
     <string name="prefs_subtitles_date_time_system_text">sistèmic</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею и нагревать устройство. Для видеозаписей главное информация о времени, поэтому все GPS опции вполне можно отключа отклютому все GPS ерфейса</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Aquestes opcions poden consumir significativament la bateria i escalfar el dispositiu. Per a les gravacions de vídeo, la informació principal és l\'hora, de manera que es poden desactivar totes les opcions de GPS, inclosa la configuració de la interfície.</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS данные</string>
     <string name="prefs_subtitles_gpx_delay_title">Taxa mínima d\'actualització de GPX</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Totes les actualitzacions de coordenades</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Iniciar/aturar la gravació</string>
     <string name="prefs_ui_click_text">Toc ràpid a la pantalla</string>
     <string name="prefs_ui_long_click_text">Premeu llargament la pantalla</string>
+    <string name="prefs_value_minute_few_text">minuts</string>
+    <string name="prefs_value_minute_one_text">minut</string>
+    <string name="prefs_value_minute_other_text">minuts</string>
     <string name="prefs_value_secs_few_text">segons</string>
     <string name="prefs_value_secs_one_text">segon</string>
     <string name="prefs_value_secs_other_text">segons</string>
     <string name="prefs_version_text">Versió de l\'aplicació</string>
     <string name="prefs_vibrate_rec_start_stop_text">Vibració en iniciar o aturar la gravació</string>
+    <string name="prefs_vibration_strength">Força de vibració</string>
     <string name="prefs_video_bitrate_text">Taxa de bits (qualitat)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Mode d\'escena de control de la càmera (nit)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Mode d\'escena de control de càmera (dia)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Sortiu del mode d\'eliminació</string>
     <string name="videos_locked_folder_text">Protegit contra sobreescritura</string>
     <string name="videos_menu_delete">Suprimeix</string>
+    <string name="videos_menu_move_file">Moure fitxer</string>
     <string name="videos_menu_refresh">Actualització</string>
     <string name="videos_menu_select_all">Trieu-ho tot</string>
     <string name="videos_menu_sorting">Classificació</string>
     <string name="videos_menu_storage">Memòria</string>
+    <string name="videos_moving_files_text">Mouent fitxers… Si us plau, espereu!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Obriu la configuració de l\'aplicació i permet l\'accés a l\'emmagatzematge a la memòria del telèfon</string>
     <string name="videos_no_storage_permission_dlg_title_text">Sense permís d\'emmagatzematge</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Seleccioneu una carpeta per als registres</string>
     <string name="videos_storage_select_dlg_title">Seleccioneu l\'emmagatzematge de vídeo</string>
     <string name="videos_temporary_folder_text">Vídeos cronometrats</string>
     <string name="videos_toolbar_subtitle">Enregistraments de vídeo</string>
+    <string name="widget_start_stop_recording_transparent">Botó transparent per iniciar/aturar l\'enregistrament</string>
     <string name="zoom_text">zoom</string>
 </resources>

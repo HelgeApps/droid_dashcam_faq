@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Ba za a iya buɗe ƙa\'idar don fara yin rikodi ba saboda ba a ba da izinin \"show on top of all apps\" ba. Danna don samarwa</string>
     <string name="msg_photo_failed_to_take">An kasa ɗaukar hoto</string>
     <string name="msg_photo_was_saved">Ajiye hoto</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Shirya Hotunan Google yana aiki tare da fayilolin mai jarida na jama\'a kawai.</string>
     <string name="msg_please_close_other_app_and_restart_text">Rufe wasu aikace-aikace ta amfani da kyamara kuma sake kunna wannan aikace-aikacen</string>
     <string name="msg_recorder_init_error_file_not_found">Share tsoffin bidiyoyi, tsara katin SD ɗin ku, ko gwada wani. Hakanan, iyakance iyakar sararin rikodin bidiyo (ƙasa shine mafi kyau). Babban adadin adana bidiyoyi na iya haifar da irin waɗannan matsalolin. Duba kuma FAQ game da katunan SD a cikin Saituna /FAQ. Hakanan zaka iya gwada rubutawa zuwa ƙwaƙwalwar ajiyar wayar maimakon katin waje</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Dakatar da rikodi. Bai isa ƙwaƙwalwar ajiya don ci gaba ba</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">Rana</string>
     <string name="prefs_day_night_mode_night_text">Dare</string>
     <string name="prefs_donate_sum_text">Goyan bayan haɓaka aikace-aikacen</string>
+    <string name="prefs_every_n_time">Kullum N</string>
     <string name="prefs_faq_sum_text">Tambayoyin da ake yawan yi</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Kunna walƙiya ta atomatik lokacin yin rikodi</string>
     <string name="prefs_float_size_increase_text">Girman maɓalli akan taga mai iyo</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Tsarin kwanan wata</string>
     <string name="prefs_subtitles_date_text">Kwanan wata)</string>
     <string name="prefs_subtitles_date_time_system_text">Na tsari</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Wannan nau\'in nau\'in nau\'in nau\'in nau\'in nau\'in nau\'in nau\'in nau\'in nau\'in nau\'in nau\'in nau\'in nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i nau\'i) . Для видеозаписей главное информация о времени, поэтому все GPS .</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Waɗannan zaɓuɓɓuka za su iya yin amfani da baturi sosai kuma su zafafa na\'urar. Don rikodin bidiyo, babban bayanin lokaci ne, don haka za a iya kashe duk zaɓuɓɓukan GPS, gami da saitunan dubawa</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS dani</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX mafi ƙarancin sabuntawa</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Duk sabuntawar daidaitawa</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Fara /dakatar da rikodi</string>
     <string name="prefs_ui_click_text">Saurin matsa akan allon</string>
     <string name="prefs_ui_long_click_text">Dogon danna kan allon</string>
+    <string name="prefs_value_minute_few_text">mintuna</string>
+    <string name="prefs_value_minute_one_text">minti</string>
+    <string name="prefs_value_minute_other_text">mintuna</string>
     <string name="prefs_value_secs_few_text">seconds</string>
     <string name="prefs_value_secs_one_text">na biyu</string>
     <string name="prefs_value_secs_other_text">seconds</string>
     <string name="prefs_version_text">Sigar aikace-aikacen</string>
     <string name="prefs_vibrate_rec_start_stop_text">Jijjiga lokacin farawa ko tsayawa rikodi</string>
+    <string name="prefs_vibration_strength">Ƙarfin girgiza</string>
     <string name="prefs_video_bitrate_text">Bitrate (mai inganci)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Yanayin Yanayin Kyamara (Dare)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Yanayin Yanayin Kyamara (Ranar)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Fita yanayin sharewa</string>
     <string name="videos_locked_folder_text">An kare rubutun</string>
     <string name="videos_menu_delete">Share</string>
+    <string name="videos_menu_move_file">Matsar da fayil</string>
     <string name="videos_menu_refresh">Sake sabuntawa</string>
     <string name="videos_menu_select_all">Zaɓi duka</string>
     <string name="videos_menu_sorting">Ana tsarawa</string>
     <string name="videos_menu_storage">Ƙwaƙwalwar ajiya</string>
+    <string name="videos_moving_files_text">Matsar da fayiloli… Da fatan za a jira!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Da fatan za a buɗe saitunan aikace-aikacen kuma ba da damar shiga ma\'ajiyar ƙwaƙwalwar ajiyar wayar</string>
     <string name="videos_no_storage_permission_dlg_title_text">Babu izinin ajiya</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Da fatan za a zaɓi babban fayil don rikodin</string>
     <string name="videos_storage_select_dlg_title">Zaɓi maajiyar bidiyo</string>
     <string name="videos_temporary_folder_text">Bidiyon lokaci</string>
     <string name="videos_toolbar_subtitle">Rikodin bidiyo</string>
+    <string name="widget_start_stop_recording_transparent">Maɓallin maɓalli don farawa /dakatar da rikodi</string>
     <string name="zoom_text">zuƙowa</string>
 </resources>

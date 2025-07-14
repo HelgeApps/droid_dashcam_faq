@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">برنامه برای شروع ضبط باز نشد زیرا مجوز \"نمایش در بالای همه برنامه ها\" داده نشد. برای ارائه کلیک کنید</string>
     <string name="msg_photo_failed_to_take">عکس گرفتن ناموفق بود</string>
     <string name="msg_photo_was_saved">عکس ذخیره شد</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">گوگل فوتوز ادیت فقط با فایل‌های رسانه‌ای عمومی کار می‌کند.</string>
     <string name="msg_please_close_other_app_and_restart_text">سایر برنامه ها را با استفاده از دوربین ببندید و این برنامه را مجددا راه اندازی کنید</string>
     <string name="msg_recorder_init_error_file_not_found">ویدیوهای قدیمی را حذف کنید، کارت SD خود را فرمت کنید یا یکی دیگر را امتحان کنید. همچنین حداکثر فضای ضبط ویدیو را محدود کنید (کمتر بهتر است). تعداد زیاد فیلم های ذخیره شده می تواند چنین مشکلاتی را ایجاد کند. همچنین به سؤالات متداول درباره کارت‌های SD در تنظیمات /سؤالات متداول مراجعه کنید. همچنین می توانید به جای کارت خارجی، روی حافظه تلفن بنویسید</string>
     <string name="msg_recording_stopping_not_enough_memory_text">ضبط را متوقف کنید. حافظه کافی برای ادامه وجود ندارد</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">روز</string>
     <string name="prefs_day_night_mode_night_text">شب</string>
     <string name="prefs_donate_sum_text">پشتیبانی از توسعه اپلیکیشن</string>
+    <string name="prefs_every_n_time">هر N بار</string>
     <string name="prefs_faq_sum_text">سوالات متداول</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">هنگام ضبط، چراغ قوه را به صورت خودکار روشن کنید</string>
     <string name="prefs_float_size_increase_text">اندازه دکمه های یک پنجره شناور</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">فرمت تاریخ</string>
     <string name="prefs_subtitles_date_text">زمان قرار)</string>
     <string name="prefs_subtitles_date_time_system_text">سیستمیک</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">این گزینه ها می توانند مورد استفاده قرار گیرند. Для видеозаписей главное информация о времени, поэтому همه امکانات GPS تمام امكان отключить, включая настройки интерфейса</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">این گزینه‌ها می‌توانند باتری را به میزان قابل توجهی مصرف کرده و دستگاه را گرم کنند. برای ضبط ویدیو، اطلاعات اصلی زمان است، بنابراین می‌توان همه گزینه‌های GPS، از جمله تنظیمات رابط کاربری را غیرفعال کرد.</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS данные</string>
     <string name="prefs_subtitles_gpx_delay_title">حداقل نرخ به روز رسانی GPX</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">همه به روز رسانی مختصات</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">شروع /توقف ضبط</string>
     <string name="prefs_ui_click_text">ضربه سریع بر روی صفحه نمایش</string>
     <string name="prefs_ui_long_click_text">فشار طولانی روی صفحه نمایش</string>
+    <string name="prefs_value_minute_few_text">دقیقه</string>
+    <string name="prefs_value_minute_one_text">دقیقه</string>
+    <string name="prefs_value_minute_other_text">دقیقه</string>
     <string name="prefs_value_secs_few_text">ثانیه</string>
     <string name="prefs_value_secs_one_text">دومین</string>
     <string name="prefs_value_secs_other_text">ثانیه</string>
     <string name="prefs_version_text">نسخه برنامه</string>
     <string name="prefs_vibrate_rec_start_stop_text">لرزش هنگام شروع یا توقف ضبط</string>
+    <string name="prefs_vibration_strength">قدرت ارتعاش</string>
     <string name="prefs_video_bitrate_text">نرخ بیت (کیفیت)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">حالت صحنه کنترل دوربین (شب)</string>
     <string name="prefs_video_camera_control_scene_mode_text">حالت صحنه کنترل دوربین (روز)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">از حالت حذف خارج شوید</string>
     <string name="videos_locked_folder_text">بازنویسی محافظت شده است</string>
     <string name="videos_menu_delete">حذف</string>
+    <string name="videos_menu_move_file">جابجایی فایل</string>
     <string name="videos_menu_refresh">تازه کردن</string>
     <string name="videos_menu_select_all">همه را انتخاب کنید</string>
     <string name="videos_menu_sorting">مرتب سازی</string>
     <string name="videos_menu_storage">حافظه</string>
+    <string name="videos_moving_files_text">در حال انتقال فایل‌ها… لطفا صبر کنید!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">لطفاً تنظیمات برنامه را باز کنید و اجازه دسترسی به حافظه موجود در حافظه تلفن را بدهید</string>
     <string name="videos_no_storage_permission_dlg_title_text">بدون مجوز ذخیره سازی</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">لطفاً یک پوشه برای سوابق انتخاب کنید</string>
     <string name="videos_storage_select_dlg_title">ذخیره سازی ویدیو را انتخاب کنید</string>
     <string name="videos_temporary_folder_text">ویدیوهای زمان بندی شده</string>
     <string name="videos_toolbar_subtitle">ضبط های ویدئویی</string>
+    <string name="widget_start_stop_recording_transparent">دکمه شفاف برای شروع/توقف ضبط</string>
     <string name="zoom_text">بزرگنمایی</string>
 </resources>

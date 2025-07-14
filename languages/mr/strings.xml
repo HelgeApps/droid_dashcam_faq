@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">रेकॉर्डिंग सुरू करण्यासाठी अॅप उघडता आले नाही कारण \"सर्व अॅप्सच्या शीर्षस्थानी दर्शवा\" परवानगी दिली गेली नाही. प्रदान करण्यासाठी क्लिक करा</string>
     <string name="msg_photo_failed_to_take">फोटो काढण्यात अयशस्वी</string>
     <string name="msg_photo_was_saved">फोटो सेव्ह केला</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">गुगल फोटो एडिट फक्त सार्वजनिक मीडिया फाइल्ससह काम करते.</string>
     <string name="msg_please_close_other_app_and_restart_text">कॅमेरा वापरून इतर अनुप्रयोग बंद करा आणि हा अनुप्रयोग रीस्टार्ट करा</string>
     <string name="msg_recorder_init_error_file_not_found">जुने व्हिडिओ हटवा, तुमचे SD कार्ड फॉरमॅट करा किंवा दुसरा वापरून पहा. तसेच, जास्तीत जास्त व्हिडिओ रेकॉर्डिंग जागा मर्यादित करा (कमी चांगले आहे). मोठ्या संख्येने जतन केलेल्या व्हिडिओंमुळे अशा समस्या उद्भवू शकतात. सेटिंग्ज /FAQ मध्ये SD कार्डबद्दल वारंवार विचारले जाणारे प्रश्न देखील पहा. तुम्ही बाह्य कार्डाऐवजी फोन मेमरीवर लिहिण्याचा प्रयत्न देखील करू शकता</string>
     <string name="msg_recording_stopping_not_enough_memory_text">रेकॉर्डिंग थांबवा. सुरू ठेवण्यासाठी पुरेशी मेमरी नाही</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">दिवस</string>
     <string name="prefs_day_night_mode_night_text">रात्री</string>
     <string name="prefs_donate_sum_text">अनुप्रयोग विकास समर्थन</string>
+    <string name="prefs_every_n_time">प्रत्येक वेळी</string>
     <string name="prefs_faq_sum_text">सतत विचारले जाणारे प्रश्न</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">रेकॉर्डिंग करताना फ्लॅशलाइट स्वयंचलितपणे चालू करा</string>
     <string name="prefs_float_size_increase_text">फ्लोटिंग विंडोवरील बटणांचा आकार</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">दिनांक प्रारुप</string>
     <string name="prefs_subtitles_date_text">तारीख वेळ)</string>
     <string name="prefs_subtitles_date_time_system_text">पद्धतशीर</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею и нагревать устройство. Для видеозаписей главное информация о времени, поэтому все GPS опции вполне можно отключить, включая нформация</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">हे पर्याय बॅटरीचा बराच वापर करू शकतात आणि डिव्हाइस गरम करू शकतात. व्हिडिओ रेकॉर्डिंगसाठी, मुख्य माहिती वेळ असते, म्हणून सर्व GPS पर्याय अक्षम केले जाऊ शकतात, ज्यामध्ये इंटरफेस सेटिंग्जचा समावेश आहे.</string>
     <string name="prefs_subtitles_gps_info_category_title">जीपीएस वापरा</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX किमान अद्यतन दर</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">सर्व समन्वय अद्यतने</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">रेकॉर्डिंग सुरू /थांबवा</string>
     <string name="prefs_ui_click_text">स्क्रीनवर द्रुत टॅप करा</string>
     <string name="prefs_ui_long_click_text">स्क्रीनवर दीर्घकाळ दाबा</string>
+    <string name="prefs_value_minute_few_text">मिनिटे</string>
+    <string name="prefs_value_minute_one_text">मिनिट</string>
+    <string name="prefs_value_minute_other_text">मिनिटे</string>
     <string name="prefs_value_secs_few_text">सेकंद</string>
     <string name="prefs_value_secs_one_text">दुसरा</string>
     <string name="prefs_value_secs_other_text">सेकंद</string>
     <string name="prefs_version_text">अनुप्रयोग आवृत्ती</string>
     <string name="prefs_vibrate_rec_start_stop_text">रेकॉर्डिंग सुरू करताना किंवा थांबवताना कंपन</string>
+    <string name="prefs_vibration_strength">कंपनाची तीव्रता</string>
     <string name="prefs_video_bitrate_text">बिटरेट (गुणवत्ता)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">कॅमेरा कंट्रोल सीन मोड (रात्री)</string>
     <string name="prefs_video_camera_control_scene_mode_text">कॅमेरा कंट्रोल सीन मोड (दिवस)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">हटवा मोडमधून बाहेर पडा</string>
     <string name="videos_locked_folder_text">ओव्हरराइट संरक्षित</string>
     <string name="videos_menu_delete">हटवा</string>
+    <string name="videos_menu_move_file">फाइल हलवा</string>
     <string name="videos_menu_refresh">रिफ्रेश करा</string>
     <string name="videos_menu_select_all">सर्व निवडा</string>
     <string name="videos_menu_sorting">वर्गीकरण</string>
     <string name="videos_menu_storage">स्मृती</string>
+    <string name="videos_moving_files_text">फायली हलवत आहे... कृपया वाट पहा!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">कृपया ऍप्लिकेशन सेटिंग्ज उघडा आणि फोन मेमरीमधील स्टोरेजमध्ये प्रवेश करण्याची अनुमती द्या</string>
     <string name="videos_no_storage_permission_dlg_title_text">स्टोरेज परवानगी नाही</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">कृपया रेकॉर्डसाठी फोल्डर निवडा</string>
     <string name="videos_storage_select_dlg_title">व्हिडिओ स्टोरेज निवडा</string>
     <string name="videos_temporary_folder_text">वेळेनुसार व्हिडिओ</string>
     <string name="videos_toolbar_subtitle">व्हिडिओ रेकॉर्डिंग</string>
+    <string name="widget_start_stop_recording_transparent">रेकॉर्डिंग सुरू/थांबवण्यासाठी पारदर्शक बटण</string>
     <string name="zoom_text">झूम</string>
 </resources>

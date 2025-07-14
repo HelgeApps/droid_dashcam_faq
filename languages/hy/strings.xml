@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Հավելվածը չհաջողվեց բացել՝ ձայնագրումը սկսելու համար, քանի որ «ցուցադրել բոլոր հավելվածների վերևում» թույլտվությունը չի տրվել: Սեղմեք տրամադրելու համար</string>
     <string name="msg_photo_failed_to_take">Չհաջողվեց լուսանկարել</string>
     <string name="msg_photo_was_saved">Լուսանկարը պահված է</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google Photos Edit-ը աշխատում է միայն հանրային մեդիա ֆայլերի հետ։</string>
     <string name="msg_please_close_other_app_and_restart_text">Փակեք մյուս հավելվածները՝ օգտագործելով տեսախցիկը և վերագործարկեք այս հավելվածը</string>
     <string name="msg_recorder_init_error_file_not_found">Ջնջեք հին տեսանյութերը, ձևաչափեք ձեր SD քարտը կամ փորձեք մեկ ուրիշը: Նաև սահմանափակեք տեսանկարահանման առավելագույն տարածքը (ավելի լավ է ավելի քիչ): Պահված տեսանյութերի մեծ քանակությունը կարող է նման խնդիրներ առաջացնել: Տես նաև SD քարտերի մասին ՀՏՀ-ն՝ Կարգավորումներ /ՀՏՀ: Կարող եք նաև փորձել գրել հեռախոսի հիշողության մեջ արտաքին քարտի փոխարեն</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Դադարեցնել ձայնագրումը: Հիշողությունը բավարար չէ շարունակելու համար</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">Օր</string>
     <string name="prefs_day_night_mode_night_text">Գիշեր</string>
     <string name="prefs_donate_sum_text">Աջակցեք հավելվածի մշակմանը</string>
+    <string name="prefs_every_n_time">Յուրաքանչյուր N անգամ</string>
     <string name="prefs_faq_sum_text">Հաճախակի տրվող հարցեր</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Ձայնագրելիս ավտոմատ միացրեք լապտերը</string>
     <string name="prefs_float_size_increase_text">Լողացող պատուհանի կոճակների չափը</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Ամսաթվի ձևաչափ</string>
     <string name="prefs_subtitles_date_text">Ամսաթիվ Ժամ)</string>
     <string name="prefs_subtitles_date_time_system_text">Համակարգային</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции може существенно потреблять батарею и нагревать устройство. Для видеозаписей главное информация о времени, поэтому все GPS ընտրանքներ բոլորովին հնարավոր отключить, включая настройки интерфейса</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Այս տարբերակները կարող են զգալիորեն սպառել մարտկոցի լիցքը և տաքացնել սարքը։ Տեսագրությունների համար հիմնական տեղեկատվությունը ժամանակն է, ուստի GPS-ի բոլոր տարբերակները կարող են անջատվել, ներառյալ ինտերֆեյսի կարգավորումները։</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS-ը</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX թարմացման նվազագույն արագությունը</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Բոլոր կոորդինատների թարմացումները</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Սկսել /դադարեցնել ձայնագրությունը</string>
     <string name="prefs_ui_click_text">Արագ հպեք էկրանին</string>
     <string name="prefs_ui_long_click_text">Երկար սեղմեք էկրանին</string>
+    <string name="prefs_value_minute_few_text">րոպե</string>
+    <string name="prefs_value_minute_one_text">րոպե</string>
+    <string name="prefs_value_minute_other_text">րոպե</string>
     <string name="prefs_value_secs_few_text">վայրկյան</string>
     <string name="prefs_value_secs_one_text">երկրորդ</string>
     <string name="prefs_value_secs_other_text">վայրկյան</string>
     <string name="prefs_version_text">Դիմումի տարբերակը</string>
     <string name="prefs_vibrate_rec_start_stop_text">Թրթռում ձայնագրումը սկսելիս կամ դադարեցնելիս</string>
+    <string name="prefs_vibration_strength">Թրթռման ուժգնություն</string>
     <string name="prefs_video_bitrate_text">բիթային արագություն (որակ)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Տեսախցիկի կառավարման տեսարանի ռեժիմ (գիշերային)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Տեսախցիկի կառավարման տեսարանի ռեժիմ (օր)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Դուրս գալ ջնջման ռեժիմից</string>
     <string name="videos_locked_folder_text">Վերագրանցումը պաշտպանված է</string>
     <string name="videos_menu_delete">Ջնջել</string>
+    <string name="videos_menu_move_file">Տեղափոխել ֆայլը</string>
     <string name="videos_menu_refresh">Թարմացնել</string>
     <string name="videos_menu_select_all">Ընտրեք բոլորը</string>
     <string name="videos_menu_sorting">Տեսակավորում</string>
     <string name="videos_menu_storage">Հիշողություն</string>
+    <string name="videos_moving_files_text">Ֆայլերի տեղափոխում… Խնդրում ենք սպասել։</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Խնդրում ենք բացել հավելվածի կարգավորումները և թույլ տալ մուտք գործել հեռախոսի հիշողության պահեստ</string>
     <string name="videos_no_storage_permission_dlg_title_text">Պահպանման թույլտվություն չկա</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Խնդրում ենք ընտրել թղթապանակ գրառումների համար</string>
     <string name="videos_storage_select_dlg_title">Ընտրեք տեսանյութերի պահեստավորում</string>
     <string name="videos_temporary_folder_text">Ժամկետային տեսանյութեր</string>
     <string name="videos_toolbar_subtitle">Տեսագրություններ</string>
+    <string name="widget_start_stop_recording_transparent">Թափանցիկ կոճակ՝ ձայնագրությունը սկսելու/դադարեցնելու համար</string>
     <string name="zoom_text">խոշորացում</string>
 </resources>

@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">\"အက်ပ်အားလုံး၏ထိပ်တွင်ပြသရန်\" ခွင့်ပြုချက်မပေးခဲ့သောကြောင့် အသံဖမ်းခြင်းစတင်ရန် အက်ပ်ကိုဖွင့်၍မရပါ။ ပေးဆောင်ရန် နှိပ်ပါ။</string>
     <string name="msg_photo_failed_to_take">ဓာတ်ပုံရိုက်ရန် မအောင်မြင်ပါ။</string>
     <string name="msg_photo_was_saved">ဓာတ်ပုံကို သိမ်းဆည်းပြီးပါပြီ။</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google Photos Edit သည် အများသူငှာ မီဒီယာဖိုင်များနှင့်သာ အလုပ်လုပ်ပါသည်။</string>
     <string name="msg_please_close_other_app_and_restart_text">ကင်မရာကိုအသုံးပြု၍ အခြားအပလီကေးရှင်းများကိုပိတ်ပြီး ဤအပလီကေးရှင်းကို ပြန်လည်စတင်ပါ။</string>
     <string name="msg_recorder_init_error_file_not_found">ဗီဒီယိုဟောင်းများကို ဖျက်ပါ၊ သင်၏ SD ကတ်ကို ဖော်မတ်လုပ်ပါ သို့မဟုတ် အခြားတစ်ခုကို စမ်းကြည့်ပါ။ ထို့အပြင်၊ အများဆုံးဗီဒီယိုရိုက်ကူးရန်နေရာကိုကန့်သတ်ပါ (နည်းသည်ပိုကောင်းသည်)။ သိမ်းဆည်းထားသော ဗီဒီယိုအများအပြားသည် ထိုကဲ့သို့သော ပြဿနာများကို ဖြစ်စေနိုင်သည်။ ဆက်တင်များ /FAQ တွင် SD ကတ်များအကြောင်း FAQ ကိုလည်း ကြည့်ပါ။ ပြင်ပကတ်အစား ဖုန်းမမ်မိုရီကို စာရေးကြည့်ပါ။</string>
     <string name="msg_recording_stopping_not_enough_memory_text">မှတ်တမ်းတင်ခြင်းကို ရပ်ပါ။ ဆက်ရန် မှတ်ဉာဏ် မလုံလောက်ပါ။</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">နေ့</string>
     <string name="prefs_day_night_mode_night_text">ည</string>
     <string name="prefs_donate_sum_text">လျှောက်လွှာဖွံ့ဖြိုးတိုးတက်မှုကိုပံ့ပိုးပါ။</string>
+    <string name="prefs_every_n_time">N အချိန်တိုင်း</string>
     <string name="prefs_faq_sum_text">မေးလေ့ရှိသောမေးခွန်းများ</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">ရိုက်ကူးသည့်အခါ ဓာတ်မီးကို အလိုအလျောက်ဖွင့်ပါ။</string>
     <string name="prefs_float_size_increase_text">ရေပေါ်ပြတင်းပေါက်ရှိ ခလုတ်များ၏ အရွယ်အစား</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">နေ့စွဲပုံစံ</string>
     <string name="prefs_subtitles_date_text">ရက်စွဲ အချိန်)</string>
     <string name="prefs_subtitles_date_time_system_text">စနစ်တကျ</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею и нагревать устройство. Для видеозаписей главное информация о времени, поэтому все GPS опции вполне можно отключить, включая настройть</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">ဤရွေးချယ်မှုများသည် ဘက်ထရီကို သိသိသာသာ စားသုံးနိုင်ပြီး စက်ပစ္စည်းကို အပူပေးနိုင်သည်။ ဗီဒီယိုရိုက်ကူးမှုအတွက်၊ အဓိကအချက်အလက်သည် အချိန်ဖြစ်သည်၊ ထို့ကြောင့် အင်တာဖေ့စ်ဆက်တင်များအပါအဝင် GPS ရွေးချယ်မှုအားလုံးကို ပိတ်နိုင်သည်။</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS данные</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX အနည်းဆုံး အပ်ဒိတ်နှုန်း</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">ညှိနှိုင်း အပ်ဒိတ်များအားလုံး</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">မှတ်တမ်းတင်ခြင်း စတင်/ရပ်ပါ။</string>
     <string name="prefs_ui_click_text">မျက်နှာပြင်ပေါ်တွင် အမြန်နှိပ်ပါ။</string>
     <string name="prefs_ui_long_click_text">စခရင်ပေါ်တွင် အကြာကြီးနှိပ်ပါ။</string>
+    <string name="prefs_value_minute_few_text">မိနစ်</string>
+    <string name="prefs_value_minute_one_text">မိနစ်</string>
+    <string name="prefs_value_minute_other_text">မိနစ်</string>
     <string name="prefs_value_secs_few_text">စက္ကန့်</string>
     <string name="prefs_value_secs_one_text">ဒုတိယ</string>
     <string name="prefs_value_secs_other_text">စက္ကန့်</string>
     <string name="prefs_version_text">လျှောက်လွှာဗားရှင်း</string>
     <string name="prefs_vibrate_rec_start_stop_text">စတင်ခြင်း သို့မဟုတ် မှတ်တမ်းတင်ခြင်းကို ရပ်သည့်အခါ တုန်ခါမှု</string>
+    <string name="prefs_vibration_strength">တုန်ခါမှုအင်အား</string>
     <string name="prefs_video_bitrate_text">ဘစ်နှုန်း (အရည်အသွေး)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">ကင်မရာထိန်းချုပ်မှု မြင်ကွင်းမုဒ် (ည)</string>
     <string name="prefs_video_camera_control_scene_mode_text">ကင်မရာထိန်းချုပ်မှု မြင်ကွင်းမုဒ် (နေ့)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">ဖျက်မုဒ်မှ ထွက်ပါ။</string>
     <string name="videos_locked_folder_text">Overwrite ကာကွယ်ထားသည်။</string>
     <string name="videos_menu_delete">ဖျက်ပါ။</string>
+    <string name="videos_menu_move_file">ဖိုင်ကိုရွှေ့ပါ။</string>
     <string name="videos_menu_refresh">ပြန်လည်စတင်ပါ။</string>
     <string name="videos_menu_select_all">အားလုံးရွေးပါ။</string>
     <string name="videos_menu_sorting">စီခြင်း။</string>
     <string name="videos_menu_storage">ဉာဏ်</string>
+    <string name="videos_moving_files_text">ဖိုင်များကို ရွှေ့နေသည်… ကျေးဇူးပြု၍ စောင့်ပါ။</string>
     <string name="videos_no_storage_permission_dlg_msg_text">ကျေးဇူးပြု၍ အပလီကေးရှင်းဆက်တင်များကိုဖွင့်ပြီး ဖုန်းမမ်မိုရီအတွင်းရှိ သိုလှောင်မှုကို ဝင်ရောက်ခွင့်ပြုပါ။</string>
     <string name="videos_no_storage_permission_dlg_title_text">သိုလှောင်ခွင့်မရှိပါ။</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">မှတ်တမ်းများအတွက် ဖိုင်တွဲတစ်ခုကို ရွေးပါ။</string>
     <string name="videos_storage_select_dlg_title">ဗီဒီယိုသိုလှောင်မှုကို ရွေးပါ။</string>
     <string name="videos_temporary_folder_text">အချိန်သတ်မှတ်ထားသော ဗီဒီယိုများ</string>
     <string name="videos_toolbar_subtitle">ဗီဒီယိုမှတ်တမ်းများ</string>
+    <string name="widget_start_stop_recording_transparent">အသံသွင်းခြင်းကို စတင်ရန်/ရပ်တန့်ရန် ဖောက်ထွင်းမြင်ရသည့်ခလုတ်</string>
     <string name="zoom_text">ချဲ့ပါ။</string>
 </resources>

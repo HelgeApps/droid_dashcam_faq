@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Lietotni nevarēja atvērt, lai sāktu ierakstīšanu, jo netika piešķirta atļauja \"rādīt visu lietotņu augšdaļā\". Noklikšķiniet, lai sniegtu</string>
     <string name="msg_photo_failed_to_take">Neizdevās uzņemt fotoattēlu</string>
     <string name="msg_photo_was_saved">Fotoattēls saglabāts</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google fotoattēlu rediģēšanas lietotne darbojas tikai ar publiski pieejamiem multivides failiem.</string>
     <string name="msg_please_close_other_app_and_restart_text">Aizveriet citas lietojumprogrammas, izmantojot kameru, un restartējiet šo programmu</string>
     <string name="msg_recorder_init_error_file_not_found">Izdzēsiet vecos videoklipus, formatējiet SD karti vai izmēģiniet citu. Tāpat ierobežojiet maksimālo video ierakstīšanas vietu (jo mazāk, jo labāk). Šādas problēmas var radīt liels skaits saglabāto videoklipu. Skatiet arī FAQ par SD kartēm sadaļā Iestatījumi /FAQ. Varat arī mēģināt rakstīt tālruņa atmiņā, nevis ārējā kartē</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Pārtraukt ierakstīšanu. Nepietiek atmiņas, lai turpinātu</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">diena</string>
     <string name="prefs_day_night_mode_night_text">Nakts</string>
     <string name="prefs_donate_sum_text">Atbalstīt lietojumprogrammu izstrādi</string>
+    <string name="prefs_every_n_time">Katru N reizi</string>
     <string name="prefs_faq_sum_text">Bieži uzdotie jautājumi</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Ierakstīšanas laikā automātiski ieslēdziet lukturīti</string>
     <string name="prefs_float_size_increase_text">Peldošā loga pogu izmērs</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Datuma formāts</string>
     <string name="prefs_subtitles_date_text">Datums Laiks)</string>
     <string name="prefs_subtitles_date_time_system_text">Sistēmisks</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею и нагревать устройство. Для видеозаписей главное информация о времени, поэтому все GPS опции вполне можарно отключить, вирформация отключить, времени</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Šīs opcijas var ievērojami patērēt akumulatora enerģiju un uzkarsēt ierīci. Videoierakstiem galvenā informācija ir laiks, tāpēc visas GPS opcijas, tostarp saskarnes iestatījumus, var atspējot.</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS datu pārraide</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX minimālais atjaunināšanas ātrums</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Visi koordinātu atjauninājumi</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Sākt/pārtraukt ierakstīšanu</string>
     <string name="prefs_ui_click_text">Ātri pieskarieties ekrānam</string>
     <string name="prefs_ui_long_click_text">Turiet nospiestu ekrānu</string>
+    <string name="prefs_value_minute_few_text">minūtes</string>
+    <string name="prefs_value_minute_one_text">minūte</string>
+    <string name="prefs_value_minute_other_text">minūtes</string>
     <string name="prefs_value_secs_few_text">sekundes</string>
     <string name="prefs_value_secs_one_text">otrais</string>
     <string name="prefs_value_secs_other_text">sekundes</string>
     <string name="prefs_version_text">Lietojumprogrammas versija</string>
     <string name="prefs_vibrate_rec_start_stop_text">Vibrācija, uzsākot vai pārtraucot ierakstīšanu</string>
+    <string name="prefs_vibration_strength">Vibrācijas stiprums</string>
     <string name="prefs_video_bitrate_text">Bitu pārraides ātrums (kvalitāte)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kameras vadības sižeta režīms (nakts)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kameras vadības sižeta režīms (diena)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Iziet no dzēšanas režīma</string>
     <string name="videos_locked_folder_text">Aizsargāta pārrakstīšana</string>
     <string name="videos_menu_delete">Dzēst</string>
+    <string name="videos_menu_move_file">Pārvietot failu</string>
     <string name="videos_menu_refresh">atjaunot</string>
     <string name="videos_menu_select_all">Izvēlieties visu</string>
     <string name="videos_menu_sorting">Šķirošana</string>
     <string name="videos_menu_storage">Atmiņa</string>
+    <string name="videos_moving_files_text">Failu pārvietošana… Lūdzu, uzgaidiet!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Lūdzu, atveriet lietojumprogrammas iestatījumus un atļaujiet piekļuvi krātuvei tālruņa atmiņā</string>
     <string name="videos_no_storage_permission_dlg_title_text">Nav glabāšanas atļaujas</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Lūdzu, atlasiet mapi ierakstiem</string>
     <string name="videos_storage_select_dlg_title">Izvēlieties video krātuvi</string>
     <string name="videos_temporary_folder_text">Videoklipi ar laiku</string>
     <string name="videos_toolbar_subtitle">Video ieraksti</string>
+    <string name="widget_start_stop_recording_transparent">Caurspīdīga poga ierakstīšanas sākšanai/apturēšanai</string>
     <string name="zoom_text">tālummaiņa</string>
 </resources>

@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">\"Bütün proqramların üstündə göstər\" icazəsi verilmədiyi üçün tətbiqi qeyd etməyə başlamaq mümkün olmadı. Təmin etmək üçün klikləyin</string>
     <string name="msg_photo_failed_to_take">Şəkil çəkmək alınmadı</string>
     <string name="msg_photo_was_saved">Foto saxlanıldı</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google Photos Edit yalnız ictimai media faylları ilə işləyir.</string>
     <string name="msg_please_close_other_app_and_restart_text">Kameradan istifadə edərək digər proqramları bağlayın və bu proqramı yenidən başladın</string>
     <string name="msg_recorder_init_error_file_not_found">Köhnə videoları silin, SD kartınızı formatlaşdırın və ya başqasını sınayın. Həmçinin, maksimum video qeyd yerini məhdudlaşdırın (daha az daha yaxşıdır). Çoxlu sayda saxlanılan videolar belə problemlərə səbəb ola bilər. Həmçinin Parametrlər /Tez-tez verilən suallar bölməsində SD kartlar haqqında tez-tez verilən suallara baxın. Siz həmçinin xarici kart əvəzinə telefon yaddaşına yazmağa cəhd edə bilərsiniz</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Yazmağı dayandırın. Davam etmək üçün kifayət qədər yaddaş yoxdur</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">Gün</string>
     <string name="prefs_day_night_mode_night_text">Gecə</string>
     <string name="prefs_donate_sum_text">Proqram inkişafını dəstəkləyin</string>
+    <string name="prefs_every_n_time">Hər N dəfə</string>
     <string name="prefs_faq_sum_text">Tez-tez soruşulan suallar</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Yazarkən fənəri avtomatik yandırın</string>
     <string name="prefs_float_size_increase_text">Üzən pəncərədə düymələrin ölçüsü</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Tarix formatı</string>
     <string name="prefs_subtitles_date_text">Tarix vaxt)</string>
     <string name="prefs_subtitles_date_time_system_text">Sistemli</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Eti optsii bilər suschestvenno potreblyat batareyu və nagrevat quraşdırma. Bütün GPS məlumatlarını istifadə edin, bütün GPS məlumatlarını istifadə edə bilərsiniz, interfeysə daxil ola bilərsiniz.</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Bu seçimlər batareyanı əhəmiyyətli dərəcədə istehlak edə və cihazı qızdıra bilər. Video qeydləri üçün əsas məlumat vaxtdır, ona görə də bütün GPS seçimləri, o cümlədən interfeys parametrləri deaktiv edilə bilər</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS var</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX minimum yeniləmə dərəcəsi</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Bütün koordinat yeniləmələri</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Yazmağa başlayın /dayandırın</string>
     <string name="prefs_ui_click_text">Ekrana tez vurun</string>
     <string name="prefs_ui_long_click_text">Ekrana uzun basın</string>
+    <string name="prefs_value_minute_few_text">dəqiqə</string>
+    <string name="prefs_value_minute_one_text">dəqiqə</string>
+    <string name="prefs_value_minute_other_text">dəqiqə</string>
     <string name="prefs_value_secs_few_text">saniyə</string>
     <string name="prefs_value_secs_one_text">ikinci</string>
     <string name="prefs_value_secs_other_text">saniyə</string>
     <string name="prefs_version_text">Tətbiq versiyası</string>
     <string name="prefs_vibrate_rec_start_stop_text">Yazmağa başladıqda və ya dayandırdıqda vibrasiya</string>
+    <string name="prefs_vibration_strength">Vibrasiya gücü</string>
     <string name="prefs_video_bitrate_text">Bitreyt (keyfiyyət)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kameraya Nəzarət Səhnə Rejimi (Gecə)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kameraya Nəzarət Səhnə Rejimi (Gün)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Silinmə rejimindən çıxın</string>
     <string name="videos_locked_folder_text">Üzərinə yazmaq qorunur</string>
     <string name="videos_menu_delete">Sil</string>
+    <string name="videos_menu_move_file">Faylı köçürün</string>
     <string name="videos_menu_refresh">təzələmək</string>
     <string name="videos_menu_select_all">Hamısını seçin</string>
     <string name="videos_menu_sorting">Çeşidləmə</string>
     <string name="videos_menu_storage">Yaddaş</string>
+    <string name="videos_moving_files_text">Fayllar köçürülür... Lütfən gözləyin!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Lütfən, proqram parametrlərini açın və telefon yaddaşındakı yaddaşa girişə icazə verin</string>
     <string name="videos_no_storage_permission_dlg_title_text">Saxlama icazəsi yoxdur</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Lütfən qeydlər üçün qovluq seçin</string>
     <string name="videos_storage_select_dlg_title">Video yaddaşını seçin</string>
     <string name="videos_temporary_folder_text">Vaxt təyin edilmiş videolar</string>
     <string name="videos_toolbar_subtitle">Video çəkilişlər</string>
+    <string name="widget_start_stop_recording_transparent">Qeydə başlamaq/dayandırmaq üçün şəffaf düymə</string>
     <string name="zoom_text">zoom</string>
 </resources>

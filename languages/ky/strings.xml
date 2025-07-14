@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Жаздырып баштоо үчүн колдонмо ачылбай койду, анткени \"бардык колдонмолордун үстүндө көрсөтүү\" уруксаты берилген эмес. камсыз кылуу үчүн чыкылдатуу</string>
     <string name="msg_photo_failed_to_take">Сүрөткө тартылбай калды</string>
     <string name="msg_photo_was_saved">Сүрөт сакталды</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google Сүрөттөрдү түзөтүү коомдук медиа файлдары менен гана иштейт.</string>
     <string name="msg_please_close_other_app_and_restart_text">Камераны колдонуп башка колдонмолорду жаап, бул колдонмону өчүрүп күйгүзүңүз</string>
     <string name="msg_recorder_init_error_file_not_found">Эски видеолорду жок кылыңыз, SD картаңызды форматтаңыз же башкасын байкап көрүңүз. Ошондой эле, максималдуу видео жазуу мейкиндигин чектөө (азыраак болсо, жакшыраак). Сакталган видеолордун көп саны ушундай көйгөйлөрдү жаратышы мүмкүн. Ошондой эле Жөндөөлөрдөн SD карталары тууралуу көп берилүүчү суроолорду караңыз. Ошондой эле тышкы картанын ордуна телефондун эстутумуна жазууга аракет кылсаңыз болот</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Жаздырууну токтотуу. Улантуу үчүн эстутум жетишсиз</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">Күн</string>
     <string name="prefs_day_night_mode_night_text">Түн</string>
     <string name="prefs_donate_sum_text">Колдонмо иштеп чыгууну колдоо</string>
+    <string name="prefs_every_n_time">Ар бир N жолу</string>
     <string name="prefs_faq_sum_text">Көп берилүүчү суроолор</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Жазып жатканда кол чыракты автоматтык түрдө күйгүзүңүз</string>
     <string name="prefs_float_size_increase_text">Калкыма терезедеги баскычтардын өлчөмү</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Дата форматы</string>
     <string name="prefs_subtitles_date_text">Дата убакыт)</string>
     <string name="prefs_subtitles_date_time_system_text">Системалык</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции мүмкүн существенно потреблять батарею жана нагревать устройство. Для видеозаписей главное информация о времени, поэтому все GPS опции вполне можно отключить, включая настройки интерфейса</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Бул опциялар батареяны бир кыйла сарпташы жана аппаратты ысытышы мүмкүн. Видео жазуулар үчүн негизги маалымат убакыт болуп саналат, ошондуктан бардык GPS параметрлерин, анын ичинде интерфейстин жөндөөлөрүн өчүрүүгө болот</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS данные</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX минималдуу жаңыртуу ылдамдыгы</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Бардык координаттар жаңыртуулары</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Жазууну баштоо /токтотуу</string>
     <string name="prefs_ui_click_text">Экранды тез таптаңыз</string>
     <string name="prefs_ui_long_click_text">Экранды көпкө басыңыз</string>
+    <string name="prefs_value_minute_few_text">мүнөт</string>
+    <string name="prefs_value_minute_one_text">мүнөт</string>
+    <string name="prefs_value_minute_other_text">мүнөт</string>
     <string name="prefs_value_secs_few_text">секунд</string>
     <string name="prefs_value_secs_one_text">экинчи</string>
     <string name="prefs_value_secs_other_text">секунд</string>
     <string name="prefs_version_text">Колдонмо версиясы</string>
     <string name="prefs_vibrate_rec_start_stop_text">Жазууну баштаганда же токтоткондо титирөө</string>
+    <string name="prefs_vibration_strength">Вибрация күчү</string>
     <string name="prefs_video_bitrate_text">Битрейт (сапат)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Камераны башкаруу режими (түнкү)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Камераны башкаруу режими (күн)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Жок кылуу режиминен чыгуу</string>
     <string name="videos_locked_folder_text">Үстүнө жазуу корголгон</string>
     <string name="videos_menu_delete">Жок кылуу</string>
+    <string name="videos_menu_move_file">Файлды жылдыруу</string>
     <string name="videos_menu_refresh">Жаңылоо</string>
     <string name="videos_menu_select_all">Баарын танда</string>
     <string name="videos_menu_sorting">Сорттоо</string>
     <string name="videos_menu_storage">Эс</string>
+    <string name="videos_moving_files_text">Файлдар жылдырылууда… Күтө туруңуз!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Колдонмонун жөндөөлөрүн ачып, телефондун эстутумундагы сактагычка кирүүгө уруксат бериңиз</string>
     <string name="videos_no_storage_permission_dlg_title_text">Сактагычка уруксат жок</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Жазуулар үчүн папканы тандаңыз</string>
     <string name="videos_storage_select_dlg_title">Видео сактагычты тандаңыз</string>
     <string name="videos_temporary_folder_text">Убактылуу видеолор</string>
     <string name="videos_toolbar_subtitle">Видео жазуулар</string>
+    <string name="widget_start_stop_recording_transparent">Жазууну баштоо/токтотуу үчүн ачык баскыч</string>
     <string name="zoom_text">чоңойтуу</string>
 </resources>

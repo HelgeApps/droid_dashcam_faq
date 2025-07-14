@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">ແອັບຯດັ່ງກ່າວບໍ່ສາມາດເປີດເພື່ອເລີ່ມການບັນທຶກໄດ້ເນື່ອງຈາກການອະນຸຍາດ \"ສະແດງຢູ່ເທິງສຸດຂອງແອັບຯທັງໝົດ\" ບໍ່ໄດ້ຮັບອະນຸຍາດ. ຄລິກເພື່ອສະໜອງ</string>
     <string name="msg_photo_failed_to_take">ຖ່າຍຮູບບໍ່ສຳເລັດ</string>
     <string name="msg_photo_was_saved">ບັນທຶກຮູບແລ້ວ</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google Photos Edit ໃຊ້ໄດ້ກັບໄຟລ໌ສື່ສາທາລະນະເທົ່ານັ້ນ.</string>
     <string name="msg_please_close_other_app_and_restart_text">ປິດແອັບພລິເຄຊັນອື່ນໂດຍໃຊ້ກ້ອງຖ່າຍຮູບ ແລະປິດເປີດແອັບພລິເຄຊັນນີ້ຄືນໃໝ່</string>
     <string name="msg_recorder_init_error_file_not_found">ລຶບວິດີໂອເກົ່າ, ຟໍແມັດ SD ຂອງທ່ານ, ຫຼືລອງອັນອື່ນ. ນອກຈາກນີ້, ຈໍາກັດພື້ນທີ່ການບັນທຶກວິດີໂອສູງສຸດ (ຫນ້ອຍແມ່ນດີກວ່າ). ຈໍານວນຂະຫນາດໃຫຍ່ຂອງວິດີໂອທີ່ບັນທຶກໄວ້ສາມາດເຮັດໃຫ້ເກີດບັນຫາດັ່ງກ່າວ. ເບິ່ງຄຳຖາມທີ່ຖາມເລື້ອຍໆກ່ຽວກັບບັດ SD ໃນການຕັ້ງຄ່າ /FAQ. ນອກນັ້ນທ່ານຍັງສາມາດພະຍາຍາມຂຽນໃສ່ຫນ່ວຍຄວາມຈໍາໂທລະສັບແທນທີ່ຈະເປັນບັດພາຍນອກ</string>
     <string name="msg_recording_stopping_not_enough_memory_text">ຢຸດການບັນທຶກ. ບໍ່ມີໜ່ວຍຄວາມຈຳພຽງພໍໃຫ້ສືບຕໍ່</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">ມື້</string>
     <string name="prefs_day_night_mode_night_text">ກາງຄືນ</string>
     <string name="prefs_donate_sum_text">ສະຫນັບສະຫນູນການພັດທະນາຄໍາຮ້ອງສະຫມັກ</string>
+    <string name="prefs_every_n_time">ທຸກໆ N ເວລາ</string>
     <string name="prefs_faq_sum_text">ຄໍາ​ຖາມ​ທີ່​ຖືກ​ຖາມ​ເລື້ອຍໆ</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">ເປີດໄຟສາຍໂດຍອັດຕະໂນມັດໃນເວລາບັນທຶກ</string>
     <string name="prefs_float_size_increase_text">ຂະໜາດຂອງປຸ່ມຢູ່ໃນປ່ອງຢ້ຽມທີ່ເລື່ອນໄດ້</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">ຮູບແບບວັນທີ</string>
     <string name="prefs_subtitles_date_text">ວັນທີເວລາ)</string>
     <string name="prefs_subtitles_date_time_system_text">ເປັນລະບົບ</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею и нагревать устройство. Для видеозаписей главное информация о времени, поэтому все GPS опции вполне можно отключить, включая настрийть</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">ທາງເລືອກເຫຼົ່ານີ້ສາມາດບໍລິໂພກແບດເຕີຣີຢ່າງຫຼວງຫຼາຍແລະເຮັດໃຫ້ອຸປະກອນຮ້ອນຂຶ້ນ. ສໍາລັບການບັນທຶກວິດີໂອ, ຂໍ້ມູນຕົ້ນຕໍແມ່ນເວລາ, ດັ່ງນັ້ນທາງເລືອກ GPS ທັງຫມົດສາມາດຖືກປິດໃຊ້ງານ, ລວມທັງການຕັ້ງຄ່າການໂຕ້ຕອບ</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS данные</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX ອັດຕາການປັບປຸງຂັ້ນຕ່ໍາ</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">ການປັບປຸງການປະສານງານທັງໝົດ</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">ເລີ່ມ /ຢຸດການບັນທຶກ</string>
     <string name="prefs_ui_click_text">ແຕະໄວໃນຫນ້າຈໍ</string>
     <string name="prefs_ui_long_click_text">ກົດຄ້າງໄວ້ເທິງໜ້າຈໍ</string>
+    <string name="prefs_value_minute_few_text">ນາທີ</string>
+    <string name="prefs_value_minute_one_text">ນາທີ</string>
+    <string name="prefs_value_minute_other_text">ນາທີ</string>
     <string name="prefs_value_secs_few_text">ວິນາທີ</string>
     <string name="prefs_value_secs_one_text">ທີສອງ</string>
     <string name="prefs_value_secs_other_text">ວິນາທີ</string>
     <string name="prefs_version_text">ເວີຊັນແອັບພລິເຄຊັນ</string>
     <string name="prefs_vibrate_rec_start_stop_text">ການສັ່ນສະເທືອນໃນເວລາເລີ່ມຕົ້ນຫຼືຢຸດການບັນທຶກ</string>
+    <string name="prefs_vibration_strength">ຄວາມແຮງສັ່ນສະເທືອນ</string>
     <string name="prefs_video_bitrate_text">ອັດຕາບິດ (ຄຸນນະພາບ)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">ໂໝດສາກຄວບຄຸມກ້ອງຖ່າຍຮູບ (ກາງຄືນ)</string>
     <string name="prefs_video_camera_control_scene_mode_text">ໂໝດສາກຄວບຄຸມກ້ອງຖ່າຍຮູບ (ມື້)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">ອອກຈາກໂໝດລຶບ</string>
     <string name="videos_locked_folder_text">ຂຽນທັບຖືກປ້ອງກັນ</string>
     <string name="videos_menu_delete">ລຶບ</string>
+    <string name="videos_menu_move_file">ຍ້າຍໄຟລ໌</string>
     <string name="videos_menu_refresh">ໂຫຼດຂໍ້ມູນຄືນໃໝ່</string>
     <string name="videos_menu_select_all">ເລືອກທັງໝົດ</string>
     <string name="videos_menu_sorting">ການຈັດຮຽງ</string>
     <string name="videos_menu_storage">ຄວາມຊົງຈໍາ</string>
+    <string name="videos_moving_files_text">ກຳລັງຍ້າຍໄຟລ໌... ກະລຸນາລໍຖ້າ!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">ກະລຸນາເປີດການຕັ້ງຄ່າແອັບພລິເຄຊັນ ແລະອະນຸຍາດໃຫ້ເຂົ້າເຖິງບ່ອນເກັບຂໍ້ມູນໃນໜ່ວຍຄວາມຈຳໂທລະສັບ</string>
     <string name="videos_no_storage_permission_dlg_title_text">ບໍ່ມີການອະນຸຍາດບ່ອນຈັດເກັບຂໍ້ມູນ</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">ກະລຸນາເລືອກໂຟນເດີສຳລັບບັນທຶກ</string>
     <string name="videos_storage_select_dlg_title">ເລືອກບ່ອນເກັບຂໍ້ມູນວິດີໂອ</string>
     <string name="videos_temporary_folder_text">ວິດີໂອທີ່ຕັ້ງເວລາ</string>
     <string name="videos_toolbar_subtitle">ການບັນທຶກວິດີໂອ</string>
+    <string name="widget_start_stop_recording_transparent">ປຸ່ມໂປ່ງໃສເພື່ອເລີ່ມ/ຢຸດການບັນທຶກ</string>
     <string name="zoom_text">ຊູມ</string>
 </resources>

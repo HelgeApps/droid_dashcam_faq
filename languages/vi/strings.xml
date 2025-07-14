@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Không thể mở ứng dụng để bắt đầu ghi vì quyền \"hiển thị trên tất cả các ứng dụng\" không được cấp. Bấm để cung cấp</string>
     <string name="msg_photo_failed_to_take">Không chụp được ảnh</string>
     <string name="msg_photo_was_saved">Đã lưu ảnh</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Tính năng Chỉnh sửa Google Photos chỉ hoạt động với các tệp phương tiện công khai.</string>
     <string name="msg_please_close_other_app_and_restart_text">Đóng các ứng dụng khác bằng máy ảnh và khởi động lại ứng dụng này</string>
     <string name="msg_recorder_init_error_file_not_found">Xóa video cũ, định dạng thẻ SD của bạn hoặc thử một video khác. Ngoài ra, giới hạn không gian quay video tối đa (càng ít càng tốt). Một số lượng lớn các video đã lưu có thể gây ra sự cố như vậy. Xem thêm Câu hỏi thường gặp về thẻ SD trong Cài đặt /Câu hỏi thường gặp. Bạn cũng có thể thử ghi vào bộ nhớ điện thoại thay vì thẻ ngoài</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Dừng ghi. Không đủ bộ nhớ để tiếp tục</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">Ngày</string>
     <string name="prefs_day_night_mode_night_text">Đêm</string>
     <string name="prefs_donate_sum_text">Hỗ trợ phát triển ứng dụng</string>
+    <string name="prefs_every_n_time">Mỗi lần N</string>
     <string name="prefs_faq_sum_text">Các câu hỏi thường gặp</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Tự động bật đèn pin khi ghi hình</string>
     <string name="prefs_float_size_increase_text">Kích thước của các nút trên cửa sổ nổi</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Định dạng ngày tháng</string>
     <string name="prefs_subtitles_date_text">Ngày giờ)</string>
     <string name="prefs_subtitles_date_time_system_text">Hệ thống</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Đó là một trong những điều tốt nhất bạn có thể làm để đạt được điều đó và cải thiện khả năng của mình. Bạn có thể sử dụng thiết bị định vị GPS để xác định vị trí của mình bằng GPS ки интерфейса</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Các tùy chọn này có thể làm hao pin đáng kể và làm nóng thiết bị. Đối với quay video, thông tin chính là thời gian, vì vậy bạn có thể tắt tất cả các tùy chọn GPS, bao gồm cả cài đặt giao diện.</string>
     <string name="prefs_subtitles_gps_info_category_title">Công cụ GPS</string>
     <string name="prefs_subtitles_gpx_delay_title">Tốc độ cập nhật tối thiểu của GPX</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Tất cả cập nhật tọa độ</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Bắt đầu /dừng ghi</string>
     <string name="prefs_ui_click_text">Nhấn nhanh trên màn hình</string>
     <string name="prefs_ui_long_click_text">Nhấn và giữ trên màn hình</string>
+    <string name="prefs_value_minute_few_text">phút</string>
+    <string name="prefs_value_minute_one_text">phút</string>
+    <string name="prefs_value_minute_other_text">phút</string>
     <string name="prefs_value_secs_few_text">giây</string>
     <string name="prefs_value_secs_one_text">thứ hai</string>
     <string name="prefs_value_secs_other_text">giây</string>
     <string name="prefs_version_text">Phiên bản ứng dụng</string>
     <string name="prefs_vibrate_rec_start_stop_text">Rung khi bắt đầu hoặc dừng ghi</string>
+    <string name="prefs_vibration_strength">Cường độ rung</string>
     <string name="prefs_video_bitrate_text">Tốc độ bit (chất lượng)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Chế độ cảnh điều khiển máy ảnh (Ban đêm)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Chế độ cảnh điều khiển máy ảnh (Ngày)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Thoát khỏi chế độ xóa</string>
     <string name="videos_locked_folder_text">Ghi đè được bảo vệ</string>
     <string name="videos_menu_delete">Xóa bỏ</string>
+    <string name="videos_menu_move_file">Di chuyển tập tin</string>
     <string name="videos_menu_refresh">Làm mới</string>
     <string name="videos_menu_select_all">Chọn tất cả</string>
     <string name="videos_menu_sorting">Sắp xếp</string>
     <string name="videos_menu_storage">Kỉ niệm</string>
+    <string name="videos_moving_files_text">Đang di chuyển tập tin… Vui lòng đợi!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Vui lòng mở cài đặt ứng dụng và cho phép truy cập vào bộ nhớ trong bộ nhớ điện thoại</string>
     <string name="videos_no_storage_permission_dlg_title_text">Không có quyền lưu trữ</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Vui lòng chọn thư mục để lưu hồ sơ</string>
     <string name="videos_storage_select_dlg_title">Chọn bộ nhớ video</string>
     <string name="videos_temporary_folder_text">Định giờ video</string>
     <string name="videos_toolbar_subtitle">Ghi video</string>
+    <string name="widget_start_stop_recording_transparent">Nút trong suốt để bắt đầu/dừng ghi âm</string>
     <string name="zoom_text">phóng</string>
 </resources>

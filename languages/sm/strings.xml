@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">E le\'i mafai ona tatalaina le app e amata ai ona pu\'eina ona e le\'i fa\'atagaina le fa\'atagaga o le \"fa\'aali i luga o polokalame uma\". Kiliki e aumai</string>
     <string name="msg_photo_failed_to_take">Ua le mafai ona pu\'e ata</string>
     <string name="msg_photo_was_saved">Ata na sefe</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google Photos Edit e na\'o faila fa\'asalalau lautele.</string>
     <string name="msg_please_close_other_app_and_restart_text">Tapuni isi tusi talosaga e faaaoga ai le meapueata ma toe amata le talosaga lea</string>
     <string name="msg_recorder_init_error_file_not_found">Ave\'ese vitio tuai, fa\'atulaga lau SD card, pe taumafai se isi. E le gata i lea, fa\'atapula\'a le avanoa e pu\'e ai ata vitio (fa\'aitiitia e sili atu). Ole numera tele o vitio fa\'asaoina e mafai ona mafua ai fa\'afitauli. Va\'ai fo\'i i le FAQ e uiga i kata SD i Seti /FAQ. E mafai foi ona e taumafai e tusi i le manatua o le telefoni nai lo se kata i fafo</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Taofi le pueina. Le lava manatua e fa\'aauau</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">Aso</string>
     <string name="prefs_day_night_mode_night_text">Po</string>
     <string name="prefs_donate_sum_text">Lagolago le atina\'eina o talosaga</string>
+    <string name="prefs_every_n_time">Taimi uma N</string>
     <string name="prefs_faq_sum_text">Fesili e fai soo</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Otometi ona ki le moliuila pe a pu\'eina</string>
     <string name="prefs_float_size_increase_text">Tele o faamau i luga o se faamalama opeopea</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Fa\'asologa o aso</string>
     <string name="prefs_subtitles_date_text">Aso Taimi)</string>
     <string name="prefs_subtitles_date_time_system_text">Fa\'atonu</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею и нагревать устройство. Для видеозаписей главное информация о времени, поэтому все GPS опции вполне можно отключить, включая настройте</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">O nei filifiliga e mafai ona matua faʻaumatia le maa ma faʻavevela le masini. Mo le pueina o vitio, o le faʻamatalaga autu o le taimi, o lea e mafai ai ona faʻagata uma filifiliga GPS, e aofia ai faʻaoga faʻaoga</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS mo\'i</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX la\'ititi fa\'afouina fua faatatau</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Fa\'aopoopo fa\'afouga uma</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Amata /taofi le pu\'eina</string>
     <string name="prefs_ui_click_text">Oomi vave ile lau</string>
     <string name="prefs_ui_long_click_text">Oomi umi i luga o le lau</string>
+    <string name="prefs_value_minute_few_text">minute</string>
+    <string name="prefs_value_minute_one_text">minute</string>
+    <string name="prefs_value_minute_other_text">minute</string>
     <string name="prefs_value_secs_few_text">sekone</string>
     <string name="prefs_value_secs_one_text">tulaga lua</string>
     <string name="prefs_value_secs_other_text">sekone</string>
     <string name="prefs_version_text">Faiga fa\'aoga</string>
     <string name="prefs_vibrate_rec_start_stop_text">Tetete pe a amata pe taofi le pueina</string>
+    <string name="prefs_vibration_strength">Malosi o le vibration</string>
     <string name="prefs_video_bitrate_text">Fa\'atatau (tulaga lelei)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Faiga Fa\'atonu Va\'aiga Meapue (Po)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Faiga Fa\'atonu Va\'aiga Meapue (Aso)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Tu\'u ese le faiga tape</string>
     <string name="videos_locked_folder_text">Puipuia le tusi</string>
     <string name="videos_menu_delete">Aveese</string>
+    <string name="videos_menu_move_file">Fa\'asolo faila</string>
     <string name="videos_menu_refresh">Toe faafou</string>
     <string name="videos_menu_select_all">Filifili uma</string>
     <string name="videos_menu_sorting">Fa\'avasega</string>
     <string name="videos_menu_storage">Manatu</string>
+    <string name="videos_moving_files_text">Si\'i faila... Fa\'amolemole fa\'atali!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Fa\'amolemole tatala le fa\'atulagaina o talosaga ma fa\'ataga le avanoa i le teuina i totonu ole manatua ole telefoni</string>
     <string name="videos_no_storage_permission_dlg_title_text">Leai se faatagaga e teu ai</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Fa\'amolemole filifili se faila mo fa\'amaumauga</string>
     <string name="videos_storage_select_dlg_title">Filifili le teuina o vitio</string>
     <string name="videos_temporary_folder_text">Vitio taimi</string>
     <string name="videos_toolbar_subtitle">Vitio pu\'eina</string>
+    <string name="widget_start_stop_recording_transparent">Ki manino e amata/taofi le pu\'eina</string>
     <string name="zoom_text">so\'o</string>
 </resources>

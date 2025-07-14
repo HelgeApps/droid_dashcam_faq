@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Níorbh fhéidir an aip a oscailt chun taifeadadh a thosú toisc nár deonaíodh an cead \"seó ar bharr gach aip\". Cliceáil chun a sholáthar</string>
     <string name="msg_photo_failed_to_take">Theip ar an ngrianghraf a thógáil</string>
     <string name="msg_photo_was_saved">Grianghraf sábháilte</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Ní oibríonn Google Photos Edit ach le comhaid meán poiblí.</string>
     <string name="msg_please_close_other_app_and_restart_text">Dún feidhmchláir eile agus an ceamara á úsáid agat agus déan an feidhmchlár seo a atosú</string>
     <string name="msg_recorder_init_error_file_not_found">Scrios seanfhíseáin, formáid do chárta SD, nó bain triail as ceann eile. Chomh maith leis sin, teorainn an spás uasta taifeadta físe (is lú an rud is fearr). Is féidir le líon mór físeán a shábháil fadhbanna den sórt sin a chruthú. Féach freisin na Ceisteanna Coitianta faoi chártaí SD i Socruithe /Ceisteanna Coitianta. Is féidir leat triail a bhaint freisin as scríobh chuig cuimhne an fhóin in ionad cárta seachtrach</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Stop ag taifeadadh. Gan go leor cuimhne chun leanúint ar aghaidh</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">Lá</string>
     <string name="prefs_day_night_mode_night_text">Oíche</string>
     <string name="prefs_donate_sum_text">Tacú le forbairt feidhmchlár</string>
+    <string name="prefs_every_n_time">Gach uair N</string>
     <string name="prefs_faq_sum_text">Ceisteanna Coitianta</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Cuir an flashlight ar siúl go huathoibríoch agus tú ag taifeadadh</string>
     <string name="prefs_float_size_increase_text">Méid na gcnaipí ar fhuinneog ar snámh</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Formáid dáta</string>
     <string name="prefs_subtitles_date_text">Dáta Am)</string>
     <string name="prefs_subtitles_date_time_system_text">Sistéamach</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Is féidir le daoine eile a bheith ag iarraidh a fháil ar an bataire agus ar an gcladach. Conas a fháil ar an eolas faoi shaol na n-athbhreithnithe, a sheiceáil leis an GPS chun an gléas GPS</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Is féidir leis na roghanna seo an ceallraí a ídiú go suntasach agus an gléas a théamh suas. I gcás taifeadtaí físe, is é an t-am an phríomhfhaisnéis, mar sin is féidir na roghanna GPS go léir a dhíchumasú, lena n-áirítear socruithe comhéadain.</string>
     <string name="prefs_subtitles_gps_info_category_title">Cluiche GPS</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX íosráta nuashonraithe</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Gach nuashonruithe a chomhordú</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Tosaigh /stad ag taifeadadh</string>
     <string name="prefs_ui_click_text">Beartaíonn go tapa ar an scáileán</string>
     <string name="prefs_ui_long_click_text">Brúigh fada ar an scáileán</string>
+    <string name="prefs_value_minute_few_text">nóiméad</string>
+    <string name="prefs_value_minute_one_text">nóiméad</string>
+    <string name="prefs_value_minute_other_text">nóiméad</string>
     <string name="prefs_value_secs_few_text">soicind</string>
     <string name="prefs_value_secs_one_text">dara</string>
     <string name="prefs_value_secs_other_text">soicind</string>
     <string name="prefs_version_text">Leagan iarratais</string>
     <string name="prefs_vibrate_rec_start_stop_text">Creathadh agus taifeadadh á thosú nó á stopadh</string>
+    <string name="prefs_vibration_strength">Neart creatha</string>
     <string name="prefs_video_bitrate_text">Giotán (cáilíocht)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Mód Radharc Rialaithe Ceamara (Oíche)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Mód Radharc Rialaithe Ceamara (Lá)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Modh scriosadh Scoir</string>
     <string name="videos_locked_folder_text">Frithscríobh faoi chosaint</string>
     <string name="videos_menu_delete">Scrios</string>
+    <string name="videos_menu_move_file">Bog comhad</string>
     <string name="videos_menu_refresh">Athnuachan</string>
     <string name="videos_menu_select_all">Roghnaigh gach ceann</string>
     <string name="videos_menu_sorting">Sórtáil</string>
     <string name="videos_menu_storage">Cuimhne</string>
+    <string name="videos_moving_files_text">Ag bogadh comhad… Fan le do thoil!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Oscail socruithe an fheidhmchláir le do thoil agus lig rochtain ar an stóráil i gcuimhne an fhóin</string>
     <string name="videos_no_storage_permission_dlg_title_text">Gan aon chead stórála</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Roghnaigh fillteán le haghaidh taifead</string>
     <string name="videos_storage_select_dlg_title">Roghnaigh stóráil físe</string>
     <string name="videos_temporary_folder_text">Físeáin uainithe</string>
     <string name="videos_toolbar_subtitle">Taifeadtaí físe</string>
+    <string name="widget_start_stop_recording_transparent">Cnaipe trédhearcach chun taifeadadh a thosú/a stopadh</string>
     <string name="zoom_text">súmáil isteach</string>
 </resources>

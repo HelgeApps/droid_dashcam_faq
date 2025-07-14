@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Sovellusta ei voitu avata tallennuksen aloittamiseksi, koska \"näytä kaikkien sovellusten päällä\" -lupaa ei myönnetty. Napsauta tarjotaksesi</string>
     <string name="msg_photo_failed_to_take">Kuvan ottaminen epäonnistui</string>
     <string name="msg_photo_was_saved">Kuva tallennettu</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google Kuvien Muokkaus toimii vain julkisten mediatiedostojen kanssa.</string>
     <string name="msg_please_close_other_app_and_restart_text">Sulje muut kameraa käyttävät sovellukset ja käynnistä tämä sovellus uudelleen</string>
     <string name="msg_recorder_init_error_file_not_found">Poista vanhat videot, alusta SD-kortti tai kokeile toista. Rajoita myös videotallennustilan enimmäismäärää (vähemmän on parempi). Suuri määrä tallennettuja videoita voi aiheuttaa tällaisia ​​ongelmia. Katso myös SD-kortteja koskevat usein kysytyt kysymykset kohdassa Asetukset /UKK. Voit myös yrittää kirjoittaa puhelimen muistiin ulkoisen kortin sijaan</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Lopeta tallennus. Muisti ei riitä jatkamiseen</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">Päivä</string>
     <string name="prefs_day_night_mode_night_text">Yö</string>
     <string name="prefs_donate_sum_text">Tukea sovellusten kehitystä</string>
+    <string name="prefs_every_n_time">Joka N. kerta</string>
     <string name="prefs_faq_sum_text">Usein Kysytyt Kysymykset</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Kytke taskulamppu päälle automaattisesti tallennuksen aikana</string>
     <string name="prefs_float_size_increase_text">Kelluvan ikkunan painikkeiden koko</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Päivämäärämuoto</string>
     <string name="prefs_subtitles_date_text">Päivämäärä ja kellonaika</string>
     <string name="prefs_subtitles_date_time_system_text">Järjestelmällinen</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею и нагревать устройство. Для видеозаписей главное информация о времени, поэтому все GPS опции вполне можроно отключита, вфойключить, времени</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Nämä asetukset voivat kuluttaa akkua merkittävästi ja lämmittää laitetta. Videotallennuksissa tärkein tieto on aika, joten kaikki GPS-asetukset voidaan poistaa käytöstä, mukaan lukien käyttöliittymän asetukset.</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS ei toimi</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX:n minimipäivitysnopeus</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Kaikki koordinaattipäivitykset</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Aloita/lopeta tallennus</string>
     <string name="prefs_ui_click_text">Napauta näyttöä nopeasti</string>
     <string name="prefs_ui_long_click_text">Paina näyttöä pitkään</string>
+    <string name="prefs_value_minute_few_text">minuuttia</string>
+    <string name="prefs_value_minute_one_text">minuutti</string>
+    <string name="prefs_value_minute_other_text">minuuttia</string>
     <string name="prefs_value_secs_few_text">sekuntia</string>
     <string name="prefs_value_secs_one_text">toinen</string>
     <string name="prefs_value_secs_other_text">sekuntia</string>
     <string name="prefs_version_text">Sovellusversio</string>
     <string name="prefs_vibrate_rec_start_stop_text">Värinä nauhoituksen alkaessa tai lopettaessa</string>
+    <string name="prefs_vibration_strength">Tärinän voimakkuus</string>
     <string name="prefs_video_bitrate_text">Bittinopeus (laatu)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kameran ohjausohjelma (yö)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kameran ohjausohjelma (päivä)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Poistu poistotilasta</string>
     <string name="videos_locked_folder_text">Ylikirjoitus suojattu</string>
     <string name="videos_menu_delete">Poistaa</string>
+    <string name="videos_menu_move_file">Siirrä tiedosto</string>
     <string name="videos_menu_refresh">virkistää</string>
     <string name="videos_menu_select_all">Valitse kaikki</string>
     <string name="videos_menu_sorting">Lajittelu</string>
     <string name="videos_menu_storage">Muisti</string>
+    <string name="videos_moving_files_text">Tiedostoja siirretään… Odota hetki!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Avaa sovelluksen asetukset ja salli pääsy puhelimen muistiin</string>
     <string name="videos_no_storage_permission_dlg_title_text">Ei tallennuslupaa</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Valitse tietueiden kansio</string>
     <string name="videos_storage_select_dlg_title">Valitse videotallennustila</string>
     <string name="videos_temporary_folder_text">Ajastetut videot</string>
     <string name="videos_toolbar_subtitle">Videotallenteet</string>
+    <string name="widget_start_stop_recording_transparent">Läpinäkyvä painike tallennuksen aloittamiseen/lopettamiseen</string>
     <string name="zoom_text">Zoomaus</string>
 </resources>

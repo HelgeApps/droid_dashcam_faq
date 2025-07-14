@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">「すべてのアプリの一番上に表示」権限が付与されていないため、アプリを開いて録画を開始できませんでした。クリックして提供します</string>
     <string name="msg_photo_failed_to_take">写真を撮れませんでした</string>
     <string name="msg_photo_was_saved">写真を保存しました</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google フォト編集は、公開メディア ファイルでのみ機能します。</string>
     <string name="msg_please_close_other_app_and_restart_text">カメラを使用している他のアプリケーションを閉じ、このアプリケーションを再起動してください</string>
     <string name="msg_recorder_init_error_file_not_found">古いビデオを削除するか、SDカードをフォーマットするか、別のビデオを試してください。また、最大ビデオ録画スペースを制限します（少ないほど良いです）。保存されたビデオの数が多いと、このような問題が発生する可能性があります。設定/FAQのSDカードに関するFAQも参照してください。外部カードの代わりに電話のメモリに書き込んでみることもできます</string>
     <string name="msg_recording_stopping_not_enough_memory_text">続行するのに十分なメモリがないため、録画を停止します</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">日中</string>
     <string name="prefs_day_night_mode_night_text">夜</string>
     <string name="prefs_donate_sum_text">アプリケーション開発をサポートする</string>
+    <string name="prefs_every_n_time">N回ごとに</string>
     <string name="prefs_faq_sum_text">よくある質問</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">録音時にフラッシュライトが自動的にオンになります</string>
     <string name="prefs_float_size_increase_text">フローティングウィンドウのボタンのサイズ</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">日付形式</string>
     <string name="prefs_subtitles_date_text">日付と時刻</string>
     <string name="prefs_subtitles_date_time_system_text">システム</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею и нагревать устройство. GPS を使用して、GPS を使用して、ビデオを受信します。 рфейса</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">これらのオプションはバッテリーを著しく消費し、デバイスを発熱させる可能性があります。動画撮影では主な情報は時間であるため、インターフェース設定を含むすべてのGPSオプションを無効にすることができます。</string>
     <string name="prefs_subtitles_gps_info_category_title">GPSデータ</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX 最小更新レート</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">すべての座標の更新</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">録画の開始/停止</string>
     <string name="prefs_ui_click_text">画面をすばやくタップする</string>
     <string name="prefs_ui_long_click_text">画面を長押しします</string>
+    <string name="prefs_value_minute_few_text">分</string>
+    <string name="prefs_value_minute_one_text">分</string>
+    <string name="prefs_value_minute_other_text">分</string>
     <string name="prefs_value_secs_few_text">秒</string>
     <string name="prefs_value_secs_one_text">2番目</string>
     <string name="prefs_value_secs_other_text">秒</string>
     <string name="prefs_version_text">アプリケーションバージョン</string>
     <string name="prefs_vibrate_rec_start_stop_text">録音開始時または停止時の振動</string>
+    <string name="prefs_vibration_strength">振動強度</string>
     <string name="prefs_video_bitrate_text">ビットレート（品質）</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">カメラコントロールシーンモード（夜）</string>
     <string name="prefs_video_camera_control_scene_mode_text">カメラコントロールシーンモード（日中）</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">削除モードを終了します</string>
     <string name="videos_locked_folder_text">上書き保護</string>
     <string name="videos_menu_delete">消去</string>
+    <string name="videos_menu_move_file">ファイルを移動する</string>
     <string name="videos_menu_refresh">更新</string>
     <string name="videos_menu_select_all">すべて選択</string>
     <string name="videos_menu_sorting">並べ替え</string>
     <string name="videos_menu_storage">メモリー</string>
+    <string name="videos_moving_files_text">ファイルを移動しています…お待ちください!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">アプリケーション設定を開き、電話メモリのストレージへのアクセスを許可してください</string>
     <string name="videos_no_storage_permission_dlg_title_text">保管許可なし</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">記録用のフォルダーを選択してください</string>
     <string name="videos_storage_select_dlg_title">ビデオストレージを選択</string>
     <string name="videos_temporary_folder_text">一時保存ビデオ</string>
     <string name="videos_toolbar_subtitle">ビデオ録画</string>
+    <string name="widget_start_stop_recording_transparent">録画を開始/停止するための透明ボタン</string>
     <string name="zoom_text">ズーム</string>
 </resources>

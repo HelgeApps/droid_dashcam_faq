@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Pulogalamuyi sinathe kutsegulidwa kuti iyambe kujambula chifukwa chilolezo cha \"chiwonetsero pamwamba pa mapulogalamu onse\" sichinapatsidwe. Dinani kuti mupereke</string>
     <string name="msg_photo_failed_to_take">Zalephera kujambula</string>
     <string name="msg_photo_was_saved">Chithunzi chasungidwa</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google Photos Edit imagwira ntchito ndi mafayilo apagulu.</string>
     <string name="msg_please_close_other_app_and_restart_text">Tsekani mapulogalamu ena pogwiritsa ntchito kamera ndikuyambitsanso pulogalamuyi</string>
     <string name="msg_recorder_init_error_file_not_found">Chotsani akale mavidiyo, mtundu Sd khadi, kapena yesani ina. Komanso, chepetsani malo ojambulira makanema (zochepa ndizabwinoko). A ambiri opulumutsidwa mavidiyo angayambitse mavuto amenewa. Onaninso FAQ za makhadi a SD mu Zikhazikiko /FAQ. Mukhozanso kuyesa kulembera kukumbukira foni m\'malo mwa khadi lakunja</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Siyani kujambula. Palibe kukumbukira kokwanira kuti mupitilize</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">Tsiku</string>
     <string name="prefs_day_night_mode_night_text">Usiku</string>
     <string name="prefs_donate_sum_text">Thandizani chitukuko cha ntchito</string>
+    <string name="prefs_every_n_time">Nthawi zonse N</string>
     <string name="prefs_faq_sum_text">Mafunso omwe amafunsidwa pafupipafupi</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Yatsani tochi pojambula</string>
     <string name="prefs_float_size_increase_text">Kukula kwa mabatani pawindo loyandama</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Mtundu wa tsiku</string>
     <string name="prefs_subtitles_date_text">Date Time)</string>
     <string name="prefs_subtitles_date_time_system_text">Zadongosolo</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею ndi нагревать устройство. Momwe mungasinthire makina ogwiritsira ntchito pa GPS, potengera ma GPS opezeka pakompyuta omwe angakuthandizireni, kuwongolera komanso kuwongolera ma GPS.</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Zosankha izi zimatha kuwononga kwambiri batire ndikutenthetsa chipangizocho. Pazojambula zamakanema, chidziwitso chachikulu ndi nthawi, kotero zosankha zonse za GPS zitha kuzimitsidwa, kuphatikiza mawonekedwe a mawonekedwe</string>
     <string name="prefs_subtitles_gps_info_category_title">Njira ya GPS</string>
     <string name="prefs_subtitles_gpx_delay_title">Mtengo wocheperako wa GPX</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Zosintha zonse zimagwirizanitsa</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Yambani /siyani kujambula</string>
     <string name="prefs_ui_click_text">Dinani mwachangu pazenera</string>
     <string name="prefs_ui_long_click_text">Dinani kwanthawi yayitali pazenera</string>
+    <string name="prefs_value_minute_few_text">mphindi</string>
+    <string name="prefs_value_minute_one_text">miniti</string>
+    <string name="prefs_value_minute_other_text">mphindi</string>
     <string name="prefs_value_secs_few_text">masekondi</string>
     <string name="prefs_value_secs_one_text">chachiwiri</string>
     <string name="prefs_value_secs_other_text">masekondi</string>
     <string name="prefs_version_text">Mtundu wa ntchito</string>
     <string name="prefs_vibrate_rec_start_stop_text">Kugwedezeka mukamayamba kapena kuyimitsa kujambula</string>
+    <string name="prefs_vibration_strength">Mphamvu yogwedezeka</string>
     <string name="prefs_video_bitrate_text">Bitrate (ubwino)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Mawonekedwe a Kamera (Usiku)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Mawonekedwe a Kamera (Tsiku)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Tulukani kufufuta mode</string>
     <string name="videos_locked_folder_text">Lembani motetezedwa</string>
     <string name="videos_menu_delete">Chotsani</string>
+    <string name="videos_menu_move_file">Chotsani fayilo</string>
     <string name="videos_menu_refresh">Tsitsaninso</string>
     <string name="videos_menu_select_all">Sankhani zonse</string>
     <string name="videos_menu_sorting">Kusanja</string>
     <string name="videos_menu_storage">Memory</string>
+    <string name="videos_moving_files_text">Kusuntha mafayilo… Chonde dikirani!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Chonde tsegulani zoikamo za pulogalamuyo ndikulola mwayi wosungira mu kukumbukira foni</string>
     <string name="videos_no_storage_permission_dlg_title_text">Palibe chilolezo chosungira</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Chonde sankhani chikwatu kuti mulembe</string>
     <string name="videos_storage_select_dlg_title">Sankhani kanema yosungirako</string>
     <string name="videos_temporary_folder_text">Mavidiyo anthawi yake</string>
     <string name="videos_toolbar_subtitle">Makanema ojambula</string>
+    <string name="widget_start_stop_recording_transparent">Batani lowonekera kuti muyambe/kuyimitsa kujambula</string>
     <string name="zoom_text">kukulitsa</string>
 </resources>

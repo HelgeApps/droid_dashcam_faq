@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Aplikacije ni bilo mogoče odpreti za začetek snemanja, ker dovoljenje »pokaži na vrhu vseh aplikacij« ni bilo odobreno. Kliknite za zagotavljanje</string>
     <string name="msg_photo_failed_to_take">Fotografiranja ni uspelo</string>
     <string name="msg_photo_was_saved">Fotografija shranjena</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google Photos Edit deluje samo z javnimi medijskimi datotekami.</string>
     <string name="msg_please_close_other_app_and_restart_text">Zaprite druge aplikacije s kamero in znova zaženite to aplikacijo</string>
     <string name="msg_recorder_init_error_file_not_found">Izbrišite stare videoposnetke, formatirajte kartico SD ali poskusite z drugo. Prav tako omejite največji prostor za snemanje videa (manj je bolje). Takšne težave lahko povzroči veliko število shranjenih videoposnetkov. Oglejte si tudi pogosta vprašanja o karticah SD v nastavitvah /pogostih vprašanjih. Poskusite lahko tudi pisati v pomnilnik telefona namesto na zunanjo kartico</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Ustavi snemanje. Ni dovolj pomnilnika za nadaljevanje</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">dan</string>
     <string name="prefs_day_night_mode_night_text">noč</string>
     <string name="prefs_donate_sum_text">Podpora razvoju aplikacij</string>
+    <string name="prefs_every_n_time">Vsak N-krat</string>
     <string name="prefs_faq_sum_text">Pogosto zastavljena vprašanja</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Samodejni vklop svetilke med snemanjem</string>
     <string name="prefs_float_size_increase_text">Velikost gumbov na plavajočem oknu</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Format datuma</string>
     <string name="prefs_subtitles_date_text">Datum čas)</string>
     <string name="prefs_subtitles_date_time_system_text">Sistemski</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Te možnosti lahko bistveno potrebujejo baterijo in ogrevajo napravo. Za video zapise je glavna informacija o času, zato je vse možnosti GPS mogoče odklopiti, vključno z nastavitvami vmesnika</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Te možnosti lahko znatno porabijo baterijo in segrejejo napravo. Pri snemanju videoposnetkov je glavni podatek čas, zato je mogoče onemogočiti vse možnosti GPS-a, vključno z nastavitvami vmesnika.</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS podatki</string>
     <string name="prefs_subtitles_gpx_delay_title">Najmanjša hitrost posodabljanja GPX</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Vse posodobitve koordinat</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Začni /ustavi snemanje</string>
     <string name="prefs_ui_click_text">Hitro tapnite po zaslonu</string>
     <string name="prefs_ui_long_click_text">Dolgo pritisnite na zaslon</string>
+    <string name="prefs_value_minute_few_text">minut</string>
+    <string name="prefs_value_minute_one_text">minuta</string>
+    <string name="prefs_value_minute_other_text">minut</string>
     <string name="prefs_value_secs_few_text">sekundah</string>
     <string name="prefs_value_secs_one_text">drugič</string>
     <string name="prefs_value_secs_other_text">sekundah</string>
     <string name="prefs_version_text">Različica aplikacije</string>
     <string name="prefs_vibrate_rec_start_stop_text">Vibracije ob začetku ali ustavitvi snemanja</string>
+    <string name="prefs_vibration_strength">Moč vibracij</string>
     <string name="prefs_video_bitrate_text">Bitna hitrost (kakovost)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Scenski način nadzora kamere (nočni)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Scenski način nadzora kamere (dan)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Zapustite način brisanja</string>
     <string name="videos_locked_folder_text">Zaščiteno pred prepisovanjem</string>
     <string name="videos_menu_delete">Izbriši</string>
+    <string name="videos_menu_move_file">Premakni datoteko</string>
     <string name="videos_menu_refresh">Osveži</string>
     <string name="videos_menu_select_all">Izberite vse</string>
     <string name="videos_menu_sorting">Razvrščanje</string>
     <string name="videos_menu_storage">Spomin</string>
+    <string name="videos_moving_files_text">Premikanje datotek ... Prosimo, počakajte!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Odprite nastavitve aplikacije in dovolite dostop do pomnilnika v pomnilniku telefona</string>
     <string name="videos_no_storage_permission_dlg_title_text">Brez dovoljenja za shranjevanje</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Izberite mapo za zapise</string>
     <string name="videos_storage_select_dlg_title">Izberite video shrambo</string>
     <string name="videos_temporary_folder_text">Časovni videoposnetki</string>
     <string name="videos_toolbar_subtitle">Video posnetki</string>
+    <string name="widget_start_stop_recording_transparent">Prozoren gumb za začetek/ustavitev snemanja</string>
     <string name="zoom_text">povečava</string>
 </resources>

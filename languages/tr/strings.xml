@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">\"Tüm uygulamaların üstünde göster\" izni verilmediğinden uygulama, kayda başlamak üzere açılamadı. Sağlamak için tıklayın</string>
     <string name="msg_photo_failed_to_take">Fotoğraf çekilemedi</string>
     <string name="msg_photo_was_saved">Fotoğraf kaydedildi</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google Photos Edit yalnızca herkese açık medya dosyalarıyla çalışır.</string>
     <string name="msg_please_close_other_app_and_restart_text">Kamerayı kullanan diğer uygulamaları kapatın ve bu uygulamayı yeniden başlatın</string>
     <string name="msg_recorder_init_error_file_not_found">Eski videoları silin, SD kartınızı biçimlendirin veya başka bir tane deneyin. Ayrıca, maksimum video kayıt alanını sınırlayın (daha azı daha iyidir). Çok sayıda kaydedilmiş video bu tür sorunlara neden olabilir. Ayrıca Ayarlar /SSS bölümündeki SD kartlarla ilgili SSS bölümüne bakın. Harici kart yerine telefon hafızasına yazmayı da deneyebilirsiniz.</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Kayıt durduruldu. Devam etmek için yeterli bellek yok</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">Gün</string>
     <string name="prefs_day_night_mode_night_text">Gece</string>
     <string name="prefs_donate_sum_text">Uygulamanın geliştirilmesini destekleyin</string>
+    <string name="prefs_every_n_time">Her N zaman</string>
     <string name="prefs_faq_sum_text">Sıkça Sorulan Sorular</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Kayıt sırasında el fenerini otomatik olarak aç</string>
     <string name="prefs_float_size_increase_text">Yüzen penceredeki düğmelerin boyutu</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Tarih Formatı</string>
     <string name="prefs_subtitles_date_text">Tarih (Zaman Damgası)</string>
     <string name="prefs_subtitles_date_time_system_text">Sistem</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Bu işlemler, pili şarj etme ve çalıştırma işlemlerini gerçekleştirmenizi sağlar. GPS\'in en iyi şekilde görüntülenmesi için, her yerde görüntülü görüşme yapabilirsiniz. ерфейса</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Bu seçenekler pil ömrünü önemli ölçüde tüketebilir ve cihazın ısınmasına neden olabilir. Video kayıtlarında ana bilgi saat olduğundan, arayüz ayarları da dahil olmak üzere tüm GPS seçenekleri devre dışı bırakılabilir.</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS verileri</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX minimum güncelleme hızı</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Tüm koordinat güncellemeleri</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Kaydı Başlat/Durdur</string>
     <string name="prefs_ui_click_text">Ekrana Hızlı Dokunun</string>
     <string name="prefs_ui_long_click_text">Ekrana Uzun Basın</string>
+    <string name="prefs_value_minute_few_text">dakikalar</string>
+    <string name="prefs_value_minute_one_text">dakika</string>
+    <string name="prefs_value_minute_other_text">dakikalar</string>
     <string name="prefs_value_secs_few_text">Saniyeler</string>
     <string name="prefs_value_secs_one_text">Saniye</string>
     <string name="prefs_value_secs_other_text">Saniyeler</string>
     <string name="prefs_version_text">Uygulama Sürümü</string>
     <string name="prefs_vibrate_rec_start_stop_text">Kaydı başlatırken veya durdururken titreşim</string>
+    <string name="prefs_vibration_strength">Titreşim gücü</string>
     <string name="prefs_video_bitrate_text">Kayıt bit hızı (kalite)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kamera Kontrolü Sahne Modu (Gece)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kamera Kontrollü Sahne Modu (Gündüz)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Silme modundan çık</string>
     <string name="videos_locked_folder_text">Üzerine yazma korumalı</string>
     <string name="videos_menu_delete">Silmek</string>
+    <string name="videos_menu_move_file">Dosyayı taşı</string>
     <string name="videos_menu_refresh">Yenile</string>
     <string name="videos_menu_select_all">Hepsini seç</string>
     <string name="videos_menu_sorting">Sıralama</string>
     <string name="videos_menu_storage">Hafıza</string>
+    <string name="videos_moving_files_text">Dosyalar taşınıyor... Lütfen bekleyin!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Lütfen uygulama ayarlarını açın ve telefon hafızasındaki depolama alanına erişime izin verin</string>
     <string name="videos_no_storage_permission_dlg_title_text">Depolama izni yok</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Lütfen kayıtlar için bir klasör seçin</string>
     <string name="videos_storage_select_dlg_title">Videoları görüntülemek için depolamayı seçin</string>
     <string name="videos_temporary_folder_text">Geçici videolar</string>
     <string name="videos_toolbar_subtitle">Video Kayıtları</string>
+    <string name="widget_start_stop_recording_transparent">Kaydı başlatmak/durdurmak için şeffaf düğme</string>
     <string name="zoom_text">Yakınlaştırma</string>
 </resources>

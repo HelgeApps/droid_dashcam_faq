@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Programu haikuweza kufunguliwa ili kuanza kurekodi kwa sababu ruhusa ya \"onyesho juu ya programu zote\" haikutolewa. Bofya ili kutoa</string>
     <string name="msg_photo_failed_to_take">Imeshindwa kupiga picha</string>
     <string name="msg_photo_was_saved">Picha imehifadhiwa</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Uhariri wa Picha kwenye Google hufanya kazi na faili za midia ya umma pekee.</string>
     <string name="msg_please_close_other_app_and_restart_text">Funga programu zingine kwa kutumia kamera na uanze tena programu hii</string>
     <string name="msg_recorder_init_error_file_not_found">Futa video za zamani, umbizo la kadi yako ya SD au ujaribu nyingine. Pia, punguza nafasi ya juu zaidi ya kurekodi video (chini ni bora). Idadi kubwa ya video zilizohifadhiwa zinaweza kusababisha shida kama hizo. Tazama pia Maswali Yanayoulizwa Mara kwa Mara kuhusu kadi za SD katika Mipangilio /Maswali Yanayoulizwa Mara kwa Mara. Unaweza pia kujaribu kuandika kwenye kumbukumbu ya simu badala ya kadi ya nje</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Acha kurekodi. Hakuna kumbukumbu ya kutosha kuendelea</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">Siku</string>
     <string name="prefs_day_night_mode_night_text">Usiku</string>
     <string name="prefs_donate_sum_text">Kusaidia maendeleo ya maombi</string>
+    <string name="prefs_every_n_time">Kila mara N</string>
     <string name="prefs_faq_sum_text">Maswali yanayoulizwa mara kwa mara</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Washa tochi kiotomatiki unaporekodi</string>
     <string name="prefs_float_size_increase_text">Ukubwa wa vifungo kwenye dirisha linaloelea</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Umbizo la tarehe</string>
     <string name="prefs_subtitles_date_text">Muda wa Tarehe)</string>
     <string name="prefs_subtitles_date_time_system_text">Kitaratibu</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею na нагревать устройство. Pata maelezo ya kina ya utumiaji wa mtandao, kwa kutumia GPS опции вполне можно отключить, включая настройки интерфейса</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Chaguzi hizi zinaweza kutumia betri kwa kiasi kikubwa na kuwasha kifaa. Kwa rekodi za video, habari kuu ni wakati, hivyo chaguzi zote za GPS zinaweza kuzimwa, ikiwa ni pamoja na mipangilio ya interface</string>
     <string name="prefs_subtitles_gps_info_category_title">Njia ya GPS</string>
     <string name="prefs_subtitles_gpx_delay_title">Kiwango cha chini cha sasisho cha GPX</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Sasisho zote za kuratibu</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Anza /acha kurekodi</string>
     <string name="prefs_ui_click_text">Gusa haraka kwenye skrini</string>
     <string name="prefs_ui_long_click_text">Bonyeza kwa muda mrefu kwenye skrini</string>
+    <string name="prefs_value_minute_few_text">dakika</string>
+    <string name="prefs_value_minute_one_text">dakika</string>
+    <string name="prefs_value_minute_other_text">dakika</string>
     <string name="prefs_value_secs_few_text">sekunde</string>
     <string name="prefs_value_secs_one_text">pili</string>
     <string name="prefs_value_secs_other_text">sekunde</string>
     <string name="prefs_version_text">Toleo la maombi</string>
     <string name="prefs_vibrate_rec_start_stop_text">Mtetemo wakati wa kuanza au kuacha kurekodi</string>
+    <string name="prefs_vibration_strength">Nguvu ya mtetemo</string>
     <string name="prefs_video_bitrate_text">Bitrate (ubora)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Hali ya Eneo la Kudhibiti Kamera (Usiku)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Hali ya Eneo la Kudhibiti Kamera (Siku)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Ondoka kwenye hali ya kufuta</string>
     <string name="videos_locked_folder_text">Badili umelindwa</string>
     <string name="videos_menu_delete">Futa</string>
+    <string name="videos_menu_move_file">Hamisha faili</string>
     <string name="videos_menu_refresh">Onyesha upya</string>
     <string name="videos_menu_select_all">Chagua zote</string>
     <string name="videos_menu_sorting">Inapanga</string>
     <string name="videos_menu_storage">Kumbukumbu</string>
+    <string name="videos_moving_files_text">Inahamisha faili... Tafadhali subiri!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Tafadhali fungua mipangilio ya programu na uruhusu ufikiaji wa hifadhi kwenye kumbukumbu ya simu</string>
     <string name="videos_no_storage_permission_dlg_title_text">Hakuna ruhusa ya kuhifadhi</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Tafadhali chagua folda kwa rekodi</string>
     <string name="videos_storage_select_dlg_title">Chagua hifadhi ya video</string>
     <string name="videos_temporary_folder_text">Video zilizopitwa na wakati</string>
     <string name="videos_toolbar_subtitle">Rekodi za video</string>
+    <string name="widget_start_stop_recording_transparent">Kitufe cha uwazi ili kuanza/kusimamisha kurekodi</string>
     <string name="zoom_text">zoom</string>
 </resources>

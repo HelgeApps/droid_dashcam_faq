@@ -117,6 +117,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Не удалось открыть приложение, чтобы начать запись, поскольку разрешение \"отображение поверх всех приложений\" не предоставлено. Нажмите, чтобы предоставить</string>
     <string name="msg_photo_failed_to_take">Не удалось сделать фото</string>
     <string name="msg_photo_was_saved">Фото сохранено</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google Photos Edit работает только с общедоступными медиафайлами.</string>
     <string name="msg_please_close_other_app_and_restart_text">Закройте другие приложения, использующие камеру, и перезапустите это приложение</string>
     <string name="msg_recorder_init_error_file_not_found">Удалите старые видео, отформатируйте SD-карту или попробуйте другую. Также ограничьте максимальное пространство для записи видео (чем меньше, тем лучше). Большое количество сохраненных видео могут вызывать такие проблемы. Посмотрите также FAQ о SD-картах в Настройки/FAQ. Вы также можете попробовать записывать в память телефона вместо внешней карты</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Остановка записи. Недостаточно памяти для продолжения</string>
@@ -197,6 +198,7 @@
     <string name="prefs_day_night_mode_day_text">День</string>
     <string name="prefs_day_night_mode_night_text">Ночь</string>
     <string name="prefs_donate_sum_text">Поддержать разработку приложения</string>
+    <string name="prefs_every_n_time">Каждые N времени</string>
     <string name="prefs_faq_sum_text">Ответы на частые вопросы</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Автоматическое включение фонаря (вспышки) при записи</string>
     <string name="prefs_float_size_increase_text">Размер кнопок на плавающем окне</string>
@@ -338,7 +340,7 @@
     <string name="prefs_subtitles_date_format_text">Формат даты</string>
     <string name="prefs_subtitles_date_text">Дата (время)</string>
     <string name="prefs_subtitles_date_time_system_text">Системное</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут увеличить потребление батареи и нагревательного устройства. Для видеозаписи важной информации о времени, поэтому все функции GPS вполне можно отключить, включая настройку интерфейса.</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут значительно разряжать аккумулятор и нагревать устройство. Для видеозаписи основной информацией является время, поэтому все опции GPS, включая настройки интерфейса, можно отключить.</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS-данные</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX минимальная частота обновлений</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Все обновления координат</string>
@@ -381,11 +383,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Начать/остановить запись</string>
     <string name="prefs_ui_click_text">Быстрое нажатие по экрану</string>
     <string name="prefs_ui_long_click_text">Длительное нажатие по экрану</string>
+    <string name="prefs_value_minute_few_text">минуты</string>
+    <string name="prefs_value_minute_one_text">минута</string>
+    <string name="prefs_value_minute_other_text">минут</string>
     <string name="prefs_value_secs_few_text">секунды</string>
     <string name="prefs_value_secs_one_text">секунда</string>
     <string name="prefs_value_secs_other_text">секунд</string>
     <string name="prefs_version_text">Версия приложения</string>
     <string name="prefs_vibrate_rec_start_stop_text">Вибрация при начале или остановке записи</string>
+    <string name="prefs_vibration_strength">Сила вибрации</string>
     <string name="prefs_video_bitrate_text">Битрейт (качество)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Режим сцены управления камерой (ночь)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Режим сцены управления камерой (день)</string>
@@ -538,15 +544,18 @@
     <string name="videos_item_mode_deletion_exit_text">Выйти с режима удаления</string>
     <string name="videos_locked_folder_text">Защищенные от перезаписи</string>
     <string name="videos_menu_delete">Удалить</string>
+    <string name="videos_menu_move_file">Переместить файл</string>
     <string name="videos_menu_refresh">Обновить</string>
     <string name="videos_menu_select_all">Выбрать все</string>
     <string name="videos_menu_sorting">Сортировка</string>
     <string name="videos_menu_storage">Память</string>
+    <string name="videos_moving_files_text">Перемещение файлов… Пожалуйста, подождите!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Пожалуйста, откройте настройки приложения и разрешите доступ на хранение в памяти телефона</string>
     <string name="videos_no_storage_permission_dlg_title_text">Нет разрешения на хранение</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Пожалуйста, выберите папку для записей</string>
     <string name="videos_storage_select_dlg_title">Выберите хранилище видезаписей</string>
     <string name="videos_temporary_folder_text">Временные видео</string>
     <string name="videos_toolbar_subtitle">Видеозаписи</string>
+    <string name="widget_start_stop_recording_transparent">Прозрачная кнопка для начала/остановки записи</string>
     <string name="zoom_text">зум</string>
 </resources>

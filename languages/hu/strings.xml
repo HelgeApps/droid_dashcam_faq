@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Az alkalmazást nem lehetett megnyitni a rögzítés elindításához, mert a „megjelenítés az összes alkalmazás tetején” engedély nem volt megadva. Kattintson a megadáshoz</string>
     <string name="msg_photo_failed_to_take">Nem sikerült fényképezni</string>
     <string name="msg_photo_was_saved">A fénykép mentve</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">A Google Fotók Szerkesztése csak nyilvános médiafájlokkal működik.</string>
     <string name="msg_please_close_other_app_and_restart_text">Zárja be a kamerát használó többi alkalmazást, és indítsa újra ezt az alkalmazást</string>
     <string name="msg_recorder_init_error_file_not_found">Törölje a régi videókat, formázza meg az SD-kártyát, vagy próbáljon ki másikat. Ezenkívül korlátozza a maximális videofelvételi helyet (a kevesebb jobb). A mentett videók nagy száma okozhat ilyen problémákat. Lásd még az SD-kártyákkal kapcsolatos GYIK-et a Beállítások /GYIK oldalon. Megpróbálhat külső kártya helyett a telefon memóriájába írni</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Állítsa le a felvételt. Nincs elég memória a folytatáshoz</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">Nap</string>
     <string name="prefs_day_night_mode_night_text">Éjszaka</string>
     <string name="prefs_donate_sum_text">Alkalmazásfejlesztés támogatása</string>
+    <string name="prefs_every_n_time">Minden N alkalommal</string>
     <string name="prefs_faq_sum_text">Gyakran Ismételt Kérdések</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">A zseblámpa automatikus bekapcsolása felvétel közben</string>
     <string name="prefs_float_size_increase_text">A gombok mérete lebegő ablakon</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Dátum formátum</string>
     <string name="prefs_subtitles_date_text">Dátum idő)</string>
     <string name="prefs_subtitles_date_time_system_text">Szisztémás</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею и нагревать устройство. Для видеозаписей главное информация о времени, поэтому все GPS опции вполне можроно отключита, верфайключить</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Ezek a beállítások jelentősen megterhelhetik az akkumulátort és felmelegíthetik a készüléket. Videofelvételek esetén a fő információ az idő, így az összes GPS-beállítás letiltható, beleértve a felhasználói felület beállításait is.</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS данные</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX minimális frissítési sebesség</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Minden koordinátafrissítés</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Felvétel indítása /leállítása</string>
     <string name="prefs_ui_click_text">Gyors érintés a képernyőn</string>
     <string name="prefs_ui_long_click_text">Nyomja meg hosszan a képernyőt</string>
+    <string name="prefs_value_minute_few_text">jegyzőkönyv</string>
+    <string name="prefs_value_minute_one_text">perc</string>
+    <string name="prefs_value_minute_other_text">jegyzőkönyv</string>
     <string name="prefs_value_secs_few_text">másodpercig</string>
     <string name="prefs_value_secs_one_text">második</string>
     <string name="prefs_value_secs_other_text">másodpercig</string>
     <string name="prefs_version_text">Alkalmazás verzió</string>
     <string name="prefs_vibrate_rec_start_stop_text">Rezgés a felvétel indításakor vagy leállításakor</string>
+    <string name="prefs_vibration_strength">Rezgés erőssége</string>
     <string name="prefs_video_bitrate_text">Bitráta (minőség)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kameravezérlési jelenet mód (éjszakai)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kameravezérlési jelenet mód (nappali)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Lépjen ki a törlés módból</string>
     <string name="videos_locked_folder_text">Felülírás védett</string>
     <string name="videos_menu_delete">Töröl</string>
+    <string name="videos_menu_move_file">Fájl áthelyezése</string>
     <string name="videos_menu_refresh">Frissítés</string>
     <string name="videos_menu_select_all">Válassza ki az összeset</string>
     <string name="videos_menu_sorting">Válogatás</string>
     <string name="videos_menu_storage">memória</string>
+    <string name="videos_moving_files_text">Fájlok áthelyezése… Kérjük, várjon!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Nyissa meg az alkalmazás beállításait, és engedélyezze a hozzáférést a telefon memóriájában lévő tárhelyhez</string>
     <string name="videos_no_storage_permission_dlg_title_text">Nincs tárolási engedély</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Kérjük, válasszon mappát a rekordokhoz</string>
     <string name="videos_storage_select_dlg_title">Válassza ki a videotárhelyet</string>
     <string name="videos_temporary_folder_text">Időzített videók</string>
     <string name="videos_toolbar_subtitle">Videó felvételek</string>
+    <string name="widget_start_stop_recording_transparent">Átlátszó gomb a felvétel elindításához/leállításához</string>
     <string name="zoom_text">zoomolás</string>
 </resources>

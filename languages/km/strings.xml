@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">មិនអាចបើកកម្មវិធីដើម្បីចាប់ផ្តើមថតបានទេ ដោយសារការអនុញ្ញាត \"បង្ហាញនៅលើកំពូលនៃកម្មវិធីទាំងអស់\" មិនត្រូវបានផ្តល់ការអនុញ្ញាតទេ។ ចុចដើម្បីផ្តល់</string>
     <string name="msg_photo_failed_to_take">បរាជ័យក្នុងការថតរូប</string>
     <string name="msg_photo_was_saved">រូបថតត្រូវបានរក្សាទុក</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google Photos Edit ដំណើរការតែជាមួយឯកសារប្រព័ន្ធផ្សព្វផ្សាយសាធារណៈប៉ុណ្ណោះ។</string>
     <string name="msg_please_close_other_app_and_restart_text">បិទកម្មវិធីផ្សេងទៀតដោយប្រើកាមេរ៉ា ហើយចាប់ផ្ដើមកម្មវិធីនេះឡើងវិញ</string>
     <string name="msg_recorder_init_error_file_not_found">លុបវីដេអូចាស់ ធ្វើទ្រង់ទ្រាយកាត SD របស់អ្នក ឬសាកល្បងមួយផ្សេងទៀត។ ដូចគ្នានេះផងដែរ, កំណត់ទំហំអតិបរមានៃការថតវីដេអូ (តិចជាងនេះគឺល្អប្រសើរជាងមុន) ។ មួយចំនួនធំនៃវីដេអូដែលបានរក្សាទុកអាចបណ្តាលឱ្យមានបញ្ហាបែបនេះ។ សូមមើលផងដែរនូវសំណួរដែលសួរញឹកញាប់អំពីកាត SD នៅក្នុងការកំណត់/FAQ។ អ្នកក៏អាចសាកល្បងសរសេរទៅកាន់អង្គចងចាំទូរសព្ទជំនួសឱ្យកាតខាងក្រៅ</string>
     <string name="msg_recording_stopping_not_enough_memory_text">ឈប់ថត។ មិនមានការចងចាំគ្រប់គ្រាន់ដើម្បីបន្ត</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">ថ្ងៃ</string>
     <string name="prefs_day_night_mode_night_text">យប់</string>
     <string name="prefs_donate_sum_text">គាំទ្រការអភិវឌ្ឍន៍កម្មវិធី</string>
+    <string name="prefs_every_n_time">រាល់ពេល N</string>
     <string name="prefs_faq_sum_text">សំណួរ​ដែលគេ​ច្រើន​សួរ</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">បើកភ្លើងពិលដោយស្វ័យប្រវត្តិនៅពេលថត</string>
     <string name="prefs_float_size_increase_text">ទំហំប៊ូតុងនៅលើបង្អួចអណ្តែត</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">ទម្រង់កាលបរិច្ឆេទ</string>
     <string name="prefs_subtitles_date_text">ពេល​ណាត់ជួប)</string>
     <string name="prefs_subtitles_date_time_system_text">ជាប្រព័ន្ធ</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею и нагревать устройство. Для видеозаписей главное информация о времени, поэтому все GPS опции вполне можно отключить, включая настрийть</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">ជម្រើសទាំងនេះអាចស៊ីថាមពលថ្ម និងកំដៅឧបករណ៍យ៉ាងខ្លាំង។ សម្រាប់ការថតវីដេអូ ព័ត៌មានសំខាន់គឺពេលវេលា ដូច្នេះជម្រើស GPS ទាំងអស់អាចត្រូវបានបិទ រួមទាំងការកំណត់ចំណុចប្រទាក់</string>
     <string name="prefs_subtitles_gps_info_category_title">ប្រព័ន្ធ GPS</string>
     <string name="prefs_subtitles_gpx_delay_title">អត្រាអាប់ដេតអប្បបរមា GPX</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">ការធ្វើបច្ចុប្បន្នភាពនៃកូអរដោនេទាំងអស់។</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">ចាប់ផ្តើម /បញ្ឈប់ការថត</string>
     <string name="prefs_ui_click_text">ចុចរហ័សនៅលើអេក្រង់</string>
     <string name="prefs_ui_long_click_text">ចុចឱ្យយូរនៅលើអេក្រង់</string>
+    <string name="prefs_value_minute_few_text">នាទី</string>
+    <string name="prefs_value_minute_one_text">នាទី</string>
+    <string name="prefs_value_minute_other_text">នាទី</string>
     <string name="prefs_value_secs_few_text">វិនាទី</string>
     <string name="prefs_value_secs_one_text">ទីពីរ</string>
     <string name="prefs_value_secs_other_text">វិនាទី</string>
     <string name="prefs_version_text">កំណែកម្មវិធី</string>
     <string name="prefs_vibrate_rec_start_stop_text">រំញ័រនៅពេលចាប់ផ្តើម ឬបញ្ឈប់ការថត</string>
+    <string name="prefs_vibration_strength">កម្លាំងរំញ័រ</string>
     <string name="prefs_video_bitrate_text">អត្រាប៊ីត (គុណភាព)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">របៀបគ្រប់គ្រងកាមេរ៉ា (ពេលយប់)</string>
     <string name="prefs_video_camera_control_scene_mode_text">មុខងារគ្រប់គ្រងកាមេរ៉ា (ថ្ងៃ)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">ចេញពីរបៀបលុប</string>
     <string name="videos_locked_folder_text">សរសេរជាន់លើត្រូវបានការពារ</string>
     <string name="videos_menu_delete">លុប</string>
+    <string name="videos_menu_move_file">ផ្លាស់ទីឯកសារ</string>
     <string name="videos_menu_refresh">ធ្វើ​ឱ្យ​ស្រស់</string>
     <string name="videos_menu_select_all">ជ្រើសរើសទាំងអស់។</string>
     <string name="videos_menu_sorting">ការតម្រៀប</string>
     <string name="videos_menu_storage">ការចងចាំ</string>
+    <string name="videos_moving_files_text">កំពុងផ្លាស់ទីឯកសារ... សូមរង់ចាំ!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">សូមបើកការកំណត់កម្មវិធី ហើយអនុញ្ញាតឱ្យចូលប្រើទំហំផ្ទុកក្នុងអង្គចងចាំទូរសព្ទ</string>
     <string name="videos_no_storage_permission_dlg_title_text">គ្មានការអនុញ្ញាតការផ្ទុក</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">សូមជ្រើសរើសថតឯកសារសម្រាប់កំណត់ត្រា</string>
     <string name="videos_storage_select_dlg_title">ជ្រើសរើសកន្លែងផ្ទុកវីដេអូ</string>
     <string name="videos_temporary_folder_text">វីដេអូដែលបានកំណត់ពេល</string>
     <string name="videos_toolbar_subtitle">ការថតវីដេអូ</string>
+    <string name="widget_start_stop_recording_transparent">ប៊ូតុងថ្លាដើម្បីចាប់ផ្តើម/បញ្ឈប់ការថត</string>
     <string name="zoom_text">ពង្រីក</string>
 </resources>

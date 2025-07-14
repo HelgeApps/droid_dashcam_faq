@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Uhlelo lokusebenza alukwazanga ukuvulwa ukuze luqale ukurekhoda ngoba imvume \"yokubonisa phezu kwazo zonke izinhlelo zokusebenza\" ayizange inikezwe. Chofoza ukuze unikeze</string>
     <string name="msg_photo_failed_to_take">Yehlulekile ukuthatha isithombe</string>
     <string name="msg_photo_was_saved">Isithombe silondoloziwe</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Ukuhlela Kwezithombe ze-Google kusebenza kuphela ngamafayela emidiya yomphakathi.</string>
     <string name="msg_please_close_other_app_and_restart_text">Vala ezinye izinhlelo zokusebenza usebenzisa ikhamera bese uqala kabusha lolu hlelo lokusebenza</string>
     <string name="msg_recorder_init_error_file_not_found">Susa amavidiyo amadala, fometha ikhadi lakho le-SD, noma uzame elinye. Futhi, khawulela indawo enkulu yokuqopha ividiyo (okuncane kungcono). Inani elikhulu lamavidiyo alondoloziwe lingabangela izinkinga ezinjalo. Bona futhi i-FAQ mayelana namakhadi e-SD kokuthi Izilungiselelo /Imibuzo Evame Ukubuzwa. Ungazama nokubhalela imemori yefoni esikhundleni sekhadi langaphandle</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Misa ukurekhoda. Ayikho inkumbulo eyanele ukuqhubeka</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">Usuku</string>
     <string name="prefs_day_night_mode_night_text">Ebusuku</string>
     <string name="prefs_donate_sum_text">Sekela ukuthuthukiswa kohlelo lokusebenza</string>
+    <string name="prefs_every_n_time">Njalo N isikhathi</string>
     <string name="prefs_faq_sum_text">Imibuzo ejwayelekile ukubuzwa</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Vula ithoshi ngokuzenzakalelayo lapho uqopha</string>
     <string name="prefs_float_size_increase_text">Usayizi wezinkinobho efasiteleni elintantayo</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Ifomethi yedethi</string>
     <string name="prefs_subtitles_date_text">Idethi Isikhathi)</string>
     <string name="prefs_subtitles_date_time_system_text">Uhlelo</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею futhi нагревать устройство. Для видеозаписей главное информация о времени, поэтому все GPS опции вполне можно отключить, включая настройки интерфейса</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Lezi zinketho zingadla kakhulu ibhethri futhi zishise idivayisi. Ngokurekhoda kwevidiyo, ulwazi oluyinhloko yisikhathi, ngakho zonke izinketho ze-GPS zingakhutshazwa, kuhlanganise nezilungiselelo zesixhumi esibonakalayo</string>
     <string name="prefs_subtitles_gps_info_category_title">Uhlelo lwe-GPS</string>
     <string name="prefs_subtitles_gpx_delay_title">Isilinganiso esincane sokubuyekeza se-GPX</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Zonke xhumanisa izibuyekezo</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Qala /yeka ukurekhoda</string>
     <string name="prefs_ui_click_text">Thepha ngokushesha esikrinini</string>
     <string name="prefs_ui_long_click_text">Cindezela isikhathi eside esikrinini</string>
+    <string name="prefs_value_minute_few_text">imizuzu</string>
+    <string name="prefs_value_minute_one_text">umzuzu</string>
+    <string name="prefs_value_minute_other_text">imizuzu</string>
     <string name="prefs_value_secs_few_text">imizuzwana</string>
     <string name="prefs_value_secs_one_text">okwesibili</string>
     <string name="prefs_value_secs_other_text">imizuzwana</string>
     <string name="prefs_version_text">Inguqulo yohlelo lokusebenza</string>
     <string name="prefs_vibrate_rec_start_stop_text">Ukudlidliza lapho uqala noma umisa ukurekhoda</string>
+    <string name="prefs_vibration_strength">Amandla okudlidliza</string>
     <string name="prefs_video_bitrate_text">I-Bitrate (ikhwalithi)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Imodi yesigcawu sokulawula ikhamera (Ebusuku)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Imodi Yesigcawu Sokulawula Ikhamera (Usuku)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Phuma kwimodi yokususa</string>
     <string name="videos_locked_folder_text">Bhala ngaphezulu kuvikelwe</string>
     <string name="videos_menu_delete">Susa</string>
+    <string name="videos_menu_move_file">Hambisa ifayela</string>
     <string name="videos_menu_refresh">Vuselela</string>
     <string name="videos_menu_select_all">Khetha konke</string>
     <string name="videos_menu_sorting">Iyahlunga</string>
     <string name="videos_menu_storage">Inkumbulo</string>
+    <string name="videos_moving_files_text">Ihambisa amafayela... Sicela ulinde!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Sicela uvule izilungiselelo zohlelo bese uvumela ukufinyelela endaweni yokugcina kumemori yefoni</string>
     <string name="videos_no_storage_permission_dlg_title_text">Ayikho imvume yokugcina</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Sicela ukhethe ifolda yamarekhodi</string>
     <string name="videos_storage_select_dlg_title">Khetha isitoreji sevidiyo</string>
     <string name="videos_temporary_folder_text">Amavidiyo anesikhathi</string>
     <string name="videos_toolbar_subtitle">Ukuqoshwa kwamavidiyo</string>
+    <string name="widget_start_stop_recording_transparent">Inkinobho ebonisa ngale ukuze uqale/umise ukurekhoda</string>
     <string name="zoom_text">sondeza</string>
 </resources>

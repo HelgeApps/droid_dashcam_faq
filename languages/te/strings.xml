@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">\"అన్ని యాప్‌ల పైన చూపు\" అనుమతి మంజూరు చేయనందున రికార్డింగ్ ప్రారంభించడానికి యాప్ తెరవబడలేదు. అందించడానికి క్లిక్ చేయండి</string>
     <string name="msg_photo_failed_to_take">ఫోటో తీయడంలో విఫలమైంది</string>
     <string name="msg_photo_was_saved">ఫోటో సేవ్ చేయబడింది</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google Photos ఎడిట్ పబ్లిక్ మీడియా ఫైల్‌లతో మాత్రమే పనిచేస్తుంది.</string>
     <string name="msg_please_close_other_app_and_restart_text">కెమెరాను ఉపయోగించి ఇతర అప్లికేషన్‌లను మూసివేసి, ఈ అనువర్తనాన్ని పునఃప్రారంభించండి</string>
     <string name="msg_recorder_init_error_file_not_found">పాత వీడియోలను తొలగించండి, మీ SD కార్డ్‌ని ఫార్మాట్ చేయండి లేదా మరొక దానిని ప్రయత్నించండి. అలాగే, గరిష్ట వీడియో రికార్డింగ్ స్థలాన్ని పరిమితం చేయండి (తక్కువగా ఉంటే మంచిది). పెద్ద సంఖ్యలో సేవ్ చేయబడిన వీడియోలు అటువంటి సమస్యలను కలిగిస్తాయి. సెట్టింగ్‌లు /FAQలలో SD కార్డ్‌ల గురించి తరచుగా అడిగే ప్రశ్నలను కూడా చూడండి. మీరు బాహ్య కార్డ్‌కు బదులుగా ఫోన్ మెమరీకి వ్రాయడానికి కూడా ప్రయత్నించవచ్చు</string>
     <string name="msg_recording_stopping_not_enough_memory_text">రికార్డింగ్ ఆపివేయండి. కొనసాగించడానికి తగినంత మెమరీ లేదు</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">రోజు</string>
     <string name="prefs_day_night_mode_night_text">రాత్రి</string>
     <string name="prefs_donate_sum_text">అప్లికేషన్ అభివృద్ధికి మద్దతు</string>
+    <string name="prefs_every_n_time">ప్రతి N సారి</string>
     <string name="prefs_faq_sum_text">తరచుగా అడుగు ప్రశ్నలు</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">రికార్డింగ్ చేస్తున్నప్పుడు ఆటోమేటిక్‌గా ఫ్లాష్‌లైట్‌ని ఆన్ చేయండి</string>
     <string name="prefs_float_size_increase_text">ఫ్లోటింగ్ విండోలో బటన్ల పరిమాణం</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">తేదీ ఆకృతి</string>
     <string name="prefs_subtitles_date_text">తేదీ సమయం)</string>
     <string name="prefs_subtitles_date_time_system_text">దైహిక</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">ఎట్య్ ఆప్షన్స్ మోగట్ సూస్ట్వెన్నో పోట్రెబ్లైట్ బాటరేయు మరియు నగ్రెవత్ యూస్ట్రోయిస్ట్వో. వీడియోలు ఎ</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">ఈ ఎంపికలు బ్యాటరీని గణనీయంగా వినియోగిస్తాయి మరియు పరికరాన్ని వేడి చేస్తాయి. వీడియో రికార్డింగ్‌ల కోసం, ప్రధాన సమాచారం సమయం, కాబట్టి ఇంటర్‌ఫేస్ సెట్టింగ్‌లతో సహా అన్ని GPS ఎంపికలను నిలిపివేయవచ్చు.</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS అందిస్తోంది</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX కనీస నవీకరణ రేటు</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">అన్ని సమన్వయ నవీకరణలు</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">రికార్డింగ్ ప్రారంభించండి /ఆపండి</string>
     <string name="prefs_ui_click_text">స్క్రీన్‌పై త్వరగా నొక్కండి</string>
     <string name="prefs_ui_long_click_text">స్క్రీన్‌పై ఎక్కువసేపు నొక్కండి</string>
+    <string name="prefs_value_minute_few_text">నిమిషాలు</string>
+    <string name="prefs_value_minute_one_text">నిమిషం</string>
+    <string name="prefs_value_minute_other_text">నిమిషాలు</string>
     <string name="prefs_value_secs_few_text">సెకన్లు</string>
     <string name="prefs_value_secs_one_text">రెండవ</string>
     <string name="prefs_value_secs_other_text">సెకన్లు</string>
     <string name="prefs_version_text">అప్లికేషన్ వెర్షన్</string>
     <string name="prefs_vibrate_rec_start_stop_text">రికార్డింగ్‌ను ప్రారంభించినప్పుడు లేదా ఆపివేసినప్పుడు వైబ్రేషన్</string>
+    <string name="prefs_vibration_strength">కంపన బలం</string>
     <string name="prefs_video_bitrate_text">బిట్రేట్ (నాణ్యత)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">కెమెరా నియంత్రణ దృశ్య మోడ్ (రాత్రి)</string>
     <string name="prefs_video_camera_control_scene_mode_text">కెమెరా కంట్రోల్ సీన్ మోడ్ (రోజు)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">తొలగింపు మోడ్ నుండి నిష్క్రమించండి</string>
     <string name="videos_locked_folder_text">ఓవర్‌రైట్ రక్షించబడింది</string>
     <string name="videos_menu_delete">తొలగించు</string>
+    <string name="videos_menu_move_file">ఫైల్‌ను తరలించు</string>
     <string name="videos_menu_refresh">రిఫ్రెష్ చేయండి</string>
     <string name="videos_menu_select_all">అన్నింటినీ ఎంచుకోండి</string>
     <string name="videos_menu_sorting">క్రమబద్ధీకరణ</string>
     <string name="videos_menu_storage">జ్ఞాపకశక్తి</string>
+    <string name="videos_moving_files_text">ఫైళ్లను తరలిస్తోంది... దయచేసి వేచి ఉండండి!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">దయచేసి అప్లికేషన్ సెట్టింగ్‌లను తెరిచి, ఫోన్ మెమరీలోని స్టోరేజ్‌కి యాక్సెస్‌ను అనుమతించండి</string>
     <string name="videos_no_storage_permission_dlg_title_text">నిల్వ అనుమతి లేదు</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">దయచేసి రికార్డ్‌ల కోసం ఫోల్డర్‌ను ఎంచుకోండి</string>
     <string name="videos_storage_select_dlg_title">వీడియో నిల్వను ఎంచుకోండి</string>
     <string name="videos_temporary_folder_text">సమయం ముగిసిన వీడియోలు</string>
     <string name="videos_toolbar_subtitle">వీడియో రికార్డింగ్‌లు</string>
+    <string name="widget_start_stop_recording_transparent">రికార్డింగ్ ప్రారంభించడానికి/ఆపడానికి పారదర్శక బటన్</string>
     <string name="zoom_text">జూమ్</string>
 </resources>

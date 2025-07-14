@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">Ohun elo naa ko le ṣii lati bẹrẹ gbigbasilẹ nitori “ifihan lori oke gbogbo awọn lw” ko gba laaye. Tẹ lati pese</string>
     <string name="msg_photo_failed_to_take">Kuna lati ya fọto</string>
     <string name="msg_photo_was_saved">Fọto ti a fipamọ</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Ṣatunkọ Awọn fọto Google ṣiṣẹ nikan pẹlu awọn faili media gbangba.</string>
     <string name="msg_please_close_other_app_and_restart_text">Pa awọn ohun elo miiran pa nipa lilo kamẹra ki o tun ohun elo yii bẹrẹ</string>
     <string name="msg_recorder_init_error_file_not_found">Pa awọn fidio atijọ rẹ, ṣe ọna kika kaadi SD rẹ, tabi gbiyanju ọkan miiran. Paapaa, idinwo aaye gbigbasilẹ fidio ti o pọju (kere si dara julọ). Nọmba nla ti awọn fidio ti o fipamọ le fa iru awọn iṣoro bẹ. Wo tun FAQ nipa awọn kaadi SD ni Eto /FAQ. O tun le gbiyanju kikọ si iranti foonu dipo kaadi ita</string>
     <string name="msg_recording_stopping_not_enough_memory_text">Duro gbigbasilẹ. Ko si iranti to lati tẹsiwaju</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">Ojo</string>
     <string name="prefs_day_night_mode_night_text">Oru</string>
     <string name="prefs_donate_sum_text">Ṣe atilẹyin idagbasoke ohun elo</string>
+    <string name="prefs_every_n_time">Ni gbogbo igba N</string>
     <string name="prefs_faq_sum_text">Awon ibeere ti awon eniyan saaba ma n beere</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">Tan ina filaṣi laifọwọyi nigbati o ba gbasilẹ</string>
     <string name="prefs_float_size_increase_text">Iwọn awọn bọtini lori ferese lilefoofo kan</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">Ọjọ kika</string>
     <string name="prefs_subtitles_date_text">Àkókò Ọjọ́)</string>
     <string name="prefs_subtitles_date_time_system_text">Eto eto</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею и нагревать устройство. Для видеозаписей главное информация о времени, поэтому все GPS .</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">Awọn aṣayan wọnyi le jẹ batiri ni pataki ati ki o gbona ẹrọ naa. Fun awọn igbasilẹ fidio, alaye akọkọ jẹ akoko, nitorinaa gbogbo awọn aṣayan GPS le jẹ alaabo, pẹlu awọn eto wiwo</string>
     <string name="prefs_subtitles_gps_info_category_title">GPS danыe</string>
     <string name="prefs_subtitles_gpx_delay_title">Oṣuwọn imudojuiwọn GPX kere julọ</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">Gbogbo ipoidojuko awọn imudojuiwọn</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">Bẹrẹ /da gbigbasilẹ duro</string>
     <string name="prefs_ui_click_text">Fọwọ ba ni iyara loju iboju</string>
     <string name="prefs_ui_long_click_text">Gun tẹ loju iboju</string>
+    <string name="prefs_value_minute_few_text">iseju</string>
+    <string name="prefs_value_minute_one_text">iseju</string>
+    <string name="prefs_value_minute_other_text">iseju</string>
     <string name="prefs_value_secs_few_text">iṣẹju-aaya</string>
     <string name="prefs_value_secs_one_text">keji</string>
     <string name="prefs_value_secs_other_text">iṣẹju-aaya</string>
     <string name="prefs_version_text">Ẹya ohun elo</string>
     <string name="prefs_vibrate_rec_start_stop_text">Gbigbọn nigbati o ba bẹrẹ tabi da gbigbasilẹ duro</string>
+    <string name="prefs_vibration_strength">Agbara gbigbọn</string>
     <string name="prefs_video_bitrate_text">Iwọn Bitrate (didara)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Ipo Iboju Iṣakoso kamẹra (Alẹ)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Ipo Iboju Iṣakoso kamẹra (Ọjọ)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">Jade kuro ni ipo piparẹ</string>
     <string name="videos_locked_folder_text">Kọ ni idaabobo</string>
     <string name="videos_menu_delete">Paarẹ</string>
+    <string name="videos_menu_move_file">Gbe faili lọ</string>
     <string name="videos_menu_refresh">Tuntun</string>
     <string name="videos_menu_select_all">Yan gbogbo rẹ</string>
     <string name="videos_menu_sorting">Tito lẹsẹẹsẹ</string>
     <string name="videos_menu_storage">Iranti</string>
+    <string name="videos_moving_files_text">Gbigbe awọn faili… Jọwọ duro!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">Jọwọ ṣii awọn eto ohun elo ati ki o gba iraye si ibi ipamọ inu iranti foonu</string>
     <string name="videos_no_storage_permission_dlg_title_text">Ko si igbanilaaye ipamọ</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">Jọwọ yan folda kan fun awọn igbasilẹ</string>
     <string name="videos_storage_select_dlg_title">Yan ibi ipamọ fidio</string>
     <string name="videos_temporary_folder_text">Awọn fidio ti akoko</string>
     <string name="videos_toolbar_subtitle">Awọn igbasilẹ fidio</string>
+    <string name="widget_start_stop_recording_transparent">Bọtini ti o han gbangba lati bẹrẹ/da gbigbasilẹ duro</string>
     <string name="zoom_text">sun-un</string>
 </resources>

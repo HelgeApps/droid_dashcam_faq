@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">መተግበሪያው መቅዳት ለመጀመር ሊከፈት አልቻለም ምክንያቱም \"በሁሉም መተግበሪያዎች ላይ አሳይ\" ፍቃድ አልተሰጠም። ለማቅረብ ጠቅ ያድርጉ</string>
     <string name="msg_photo_failed_to_take">ፎቶ ማንሳት አልተሳካም።</string>
     <string name="msg_photo_was_saved">ፎቶ ተቀምጧል</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">ጉግል ፎቶዎች አርትዕ ከህዝባዊ ሚዲያ ፋይሎች ጋር ብቻ ይሰራል።</string>
     <string name="msg_please_close_other_app_and_restart_text">ካሜራውን በመጠቀም ሌሎች መተግበሪያዎችን ዝጋ እና ይህን መተግበሪያ እንደገና ያስጀምሩ</string>
     <string name="msg_recorder_init_error_file_not_found">የቆዩ ቪዲዮዎችን ይሰርዙ፣ የኤስዲ ካርድዎን ይቅረጹ ወይም ሌላ ይሞክሩ። እንዲሁም ከፍተኛውን የቪዲዮ ቀረጻ ቦታ ይገድቡ (ያነሰ የተሻለ ነው)። ብዙ ቁጥር ያላቸው የተቀመጡ ቪዲዮዎች እንደዚህ አይነት ችግር ሊፈጥሩ ይችላሉ። እንዲሁም በቅንብሮች /ተደጋጋሚ ጥያቄዎች ስለ ኤስዲ ካርዶች የሚጠየቁ ጥያቄዎችን ይመልከቱ። እንዲሁም ከውጫዊ ካርድ ይልቅ ወደ ስልኩ ማህደረ ትውስታ ለመጻፍ መሞከር ይችላሉ</string>
     <string name="msg_recording_stopping_not_enough_memory_text">መቅዳት አቁም ለመቀጠል በቂ ማህደረ ትውስታ የለም።</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">ቀን</string>
     <string name="prefs_day_night_mode_night_text">ለሊት</string>
     <string name="prefs_donate_sum_text">የመተግበሪያ ልማትን ይደግፉ</string>
+    <string name="prefs_every_n_time">ሁልጊዜ N</string>
     <string name="prefs_faq_sum_text">ተደጋግሞ የሚነሱ ጥያቄዎች</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">በሚቀዳበት ጊዜ የእጅ ባትሪውን በራስ-ሰር ያብሩ</string>
     <string name="prefs_float_size_increase_text">በተንሳፋፊ መስኮት ላይ የአዝራሮች መጠን</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">የቀን ቅርጸት</string>
     <string name="prefs_subtitles_date_text">የቀን ሰዓት)</string>
     <string name="prefs_subtitles_date_time_system_text">ሥርዓታዊ</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">ኢቲ ኦፕሲይ ሞጉት ስሱሰትቬንኖ ፖተርብልያት ባታሬሹ እና እናገሬውት ኡስትሮይስቶ። Для видеозаписей главное информация о времени, поэтому все ጂፒኤስ</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">እነዚህ አማራጮች ባትሪውን በከፍተኛ ሁኔታ ሊፈጁ እና መሳሪያውን ሊያሞቁ ይችላሉ. ለቪዲዮ ቅጂዎች ዋናው መረጃ ጊዜ ነው, ስለዚህ ሁሉም የጂፒኤስ አማራጮች የበይነገጽ ቅንብሮችን ጨምሮ ሊሰናከሉ ይችላሉ</string>
     <string name="prefs_subtitles_gps_info_category_title">ጂፒኤስ ዳኔ</string>
     <string name="prefs_subtitles_gpx_delay_title">GPX ዝቅተኛ የዝማኔ መጠን</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">ሁሉም ማሻሻያዎችን ያስተባብራሉ</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">መቅዳት ጀምር/አቁም</string>
     <string name="prefs_ui_click_text">በማያ ገጹ ላይ በፍጥነት መታ ያድርጉ</string>
     <string name="prefs_ui_long_click_text">ማያ ገጹ ላይ በረጅሙ ተጫን</string>
+    <string name="prefs_value_minute_few_text">ደቂቃዎች</string>
+    <string name="prefs_value_minute_one_text">ደቂቃ</string>
+    <string name="prefs_value_minute_other_text">ደቂቃዎች</string>
     <string name="prefs_value_secs_few_text">ሰከንዶች</string>
     <string name="prefs_value_secs_one_text">ሁለተኛ</string>
     <string name="prefs_value_secs_other_text">ሰከንዶች</string>
     <string name="prefs_version_text">የመተግበሪያ ስሪት</string>
     <string name="prefs_vibrate_rec_start_stop_text">መቅዳት ሲጀምር ወይም ሲያቆም ንዝረት</string>
+    <string name="prefs_vibration_strength">የንዝረት ጥንካሬ</string>
     <string name="prefs_video_bitrate_text">ቢትሬት (ጥራት)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">የካሜራ መቆጣጠሪያ ትዕይንት ሁነታ (ሌሊት)</string>
     <string name="prefs_video_camera_control_scene_mode_text">የካሜራ መቆጣጠሪያ ትዕይንት ሁነታ (ቀን)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">ከመሰረዝ ሁነታ ውጣ</string>
     <string name="videos_locked_folder_text">ተከልክሎ ጻፍ</string>
     <string name="videos_menu_delete">ሰርዝ</string>
+    <string name="videos_menu_move_file">ፋይል አንቀሳቅስ</string>
     <string name="videos_menu_refresh">አድስ</string>
     <string name="videos_menu_select_all">ሁሉንም ይምረጡ</string>
     <string name="videos_menu_sorting">መደርደር</string>
     <string name="videos_menu_storage">ማህደረ ትውስታ</string>
+    <string name="videos_moving_files_text">ፋይሎችን በማንቀሳቀስ ላይ… እባክዎ ይጠብቁ!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">እባክዎ የመተግበሪያውን መቼቶች ይክፈቱ እና በስልኩ ማህደረ ትውስታ ውስጥ ያለውን ማከማቻ መዳረሻ ይፍቀዱ</string>
     <string name="videos_no_storage_permission_dlg_title_text">የማከማቻ ፍቃድ የለም።</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">እባክዎን ለመዝገቦች አቃፊ ይምረጡ</string>
     <string name="videos_storage_select_dlg_title">የቪዲዮ ማከማቻ ይምረጡ</string>
     <string name="videos_temporary_folder_text">በጊዜ የተያዙ ቪዲዮዎች</string>
     <string name="videos_toolbar_subtitle">የቪዲዮ ቅጂዎች</string>
+    <string name="widget_start_stop_recording_transparent">ቀረጻ ለመጀመር/ለማቆም ግልጽ አዝራር</string>
     <string name="zoom_text">አጉላ</string>
 </resources>

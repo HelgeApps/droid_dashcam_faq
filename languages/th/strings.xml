@@ -100,6 +100,7 @@
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">ไม่สามารถเปิดแอปเพื่อเริ่มการบันทึกได้เนื่องจากไม่ได้รับอนุญาตให้ \"แสดงที่ด้านบนของแอปทั้งหมด\" คลิกเพื่อให้</string>
     <string name="msg_photo_failed_to_take">ถ่ายรูปไม่สำเร็จ</string>
     <string name="msg_photo_was_saved">บันทึกรูปภาพแล้ว</string>
+    <string name="msg_photos_edit_only_works_with_public_media_files">Google Photos Edit ทำงานได้เฉพาะไฟล์สื่อสาธารณะเท่านั้น</string>
     <string name="msg_please_close_other_app_and_restart_text">ปิดแอปพลิเคชันอื่นโดยใช้กล้องและรีสตาร์ทแอปพลิเคชันนี้</string>
     <string name="msg_recorder_init_error_file_not_found">ลบวิดีโอเก่า ฟอร์แมตการ์ด SD หรือลองอันอื่น จำกัดพื้นที่การบันทึกวิดีโอสูงสุดด้วย (ยิ่งน้อยยิ่งดี) วิดีโอที่บันทึกไว้จำนวนมากอาจทำให้เกิดปัญหาดังกล่าวได้ ดูคำถามที่พบบ่อยเกี่ยวกับการ์ด SD ในการตั้งค่า /คำถามที่พบบ่อย คุณสามารถลองเขียนลงในหน่วยความจำโทรศัพท์แทนการ์ดภายนอกได้</string>
     <string name="msg_recording_stopping_not_enough_memory_text">หยุดการบันทึก หน่วยความจำไม่เพียงพอที่จะทำต่อ</string>
@@ -180,6 +181,7 @@
     <string name="prefs_day_night_mode_day_text">วัน</string>
     <string name="prefs_day_night_mode_night_text">กลางคืน</string>
     <string name="prefs_donate_sum_text">รองรับการพัฒนาแอพพลิเคชั่น</string>
+    <string name="prefs_every_n_time">ทุกๆ N ครั้ง</string>
     <string name="prefs_faq_sum_text">คำถามที่พบบ่อย</string>
     <string name="prefs_flashlight_turn_on_recording_automatically">เปิดไฟฉายโดยอัตโนมัติเมื่อบันทึก</string>
     <string name="prefs_float_size_increase_text">ขนาดของปุ่มบนหน้าต่างลอย</string>
@@ -321,7 +323,7 @@
     <string name="prefs_subtitles_date_format_text">รูปแบบวันที่</string>
     <string name="prefs_subtitles_date_text">วันเวลา)</string>
     <string name="prefs_subtitles_date_time_system_text">ระบบ</string>
-    <string name="prefs_subtitles_gps_info_category_subtitle">Эти опции могут существенно потреблять батарею и нагревать устройство. Для видеозаписей главное информация о времени, поэтому все GPS опции вполне можно отключить, включая настройки интерфейса</string>
+    <string name="prefs_subtitles_gps_info_category_subtitle">ตัวเลือกเหล่านี้อาจกินแบตเตอรี่และทำให้อุปกรณ์ร้อนขึ้นอย่างมาก สำหรับการบันทึกวิดีโอ ข้อมูลหลักคือเวลา ดังนั้นสามารถปิดใช้งานตัวเลือก GPS ทั้งหมดได้ รวมถึงการตั้งค่าอินเทอร์เฟซ</string>
     <string name="prefs_subtitles_gps_info_category_title">ข้อมูล GPS</string>
     <string name="prefs_subtitles_gpx_delay_title">อัตราการอัปเดตขั้นต่ำของ GPX</string>
     <string name="prefs_subtitles_gpx_no_delay_entry">อัปเดตพิกัดทั้งหมด</string>
@@ -364,11 +366,15 @@
     <string name="prefs_ui_click_start_stop_rec_text">เริ่ม /หยุดการบันทึก</string>
     <string name="prefs_ui_click_text">แตะบนหน้าจออย่างรวดเร็ว</string>
     <string name="prefs_ui_long_click_text">กดบนหน้าจอค้างไว้</string>
+    <string name="prefs_value_minute_few_text">นาที</string>
+    <string name="prefs_value_minute_one_text">นาที</string>
+    <string name="prefs_value_minute_other_text">นาที</string>
     <string name="prefs_value_secs_few_text">วินาที</string>
     <string name="prefs_value_secs_one_text">ที่สอง</string>
     <string name="prefs_value_secs_other_text">วินาที</string>
     <string name="prefs_version_text">เวอร์ชันแอปพลิเคชัน</string>
     <string name="prefs_vibrate_rec_start_stop_text">การสั่นสะเทือนเมื่อเริ่มหรือหยุดการบันทึก</string>
+    <string name="prefs_vibration_strength">ความแรงของการสั่นสะเทือน</string>
     <string name="prefs_video_bitrate_text">บิตเรต (คุณภาพ)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">โหมดฉากควบคุมกล้อง (กลางคืน)</string>
     <string name="prefs_video_camera_control_scene_mode_text">โหมดฉากควบคุมกล้อง (วัน)</string>
@@ -521,15 +527,18 @@
     <string name="videos_item_mode_deletion_exit_text">ออกจากโหมดลบ</string>
     <string name="videos_locked_folder_text">ป้องกันการเขียนทับ</string>
     <string name="videos_menu_delete">ลบ</string>
+    <string name="videos_menu_move_file">ย้ายไฟล์</string>
     <string name="videos_menu_refresh">รีเฟรช</string>
     <string name="videos_menu_select_all">เลือกทั้งหมด</string>
     <string name="videos_menu_sorting">การเรียงลำดับ</string>
     <string name="videos_menu_storage">หน่วยความจำ</string>
+    <string name="videos_moving_files_text">กำลังย้ายไฟล์… กรุณารอสักครู่!</string>
     <string name="videos_no_storage_permission_dlg_msg_text">โปรดเปิดการตั้งค่าแอปพลิเคชันและอนุญาตให้เข้าถึงที่เก็บข้อมูลในหน่วยความจำโทรศัพท์</string>
     <string name="videos_no_storage_permission_dlg_title_text">ไม่อนุญาตให้จัดเก็บ</string>
     <string name="videos_no_storage_saf_permission_dlg_msg_text">โปรดเลือกโฟลเดอร์สำหรับบันทึก</string>
     <string name="videos_storage_select_dlg_title">เลือกที่จัดเก็บวิดีโอ</string>
     <string name="videos_temporary_folder_text">วิดีโอตามกำหนดเวลา</string>
     <string name="videos_toolbar_subtitle">บันทึกวิดีโอ</string>
+    <string name="widget_start_stop_recording_transparent">ปุ่มโปร่งใสเพื่อเริ่ม/หยุดการบันทึก</string>
     <string name="zoom_text">ซูม</string>
 </resources>
