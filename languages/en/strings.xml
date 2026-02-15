@@ -39,6 +39,7 @@
     <string name="camera_fov_vertical_text">vertical</string>
     <string name="camera_front">Front Camera</string>
     <string name="camera_msg_error_in_use_text">The camera was in use by another app. Please avoid using or launching other apps that may access the camera while recording videos. Android allows only one app to use the camera at a time.</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">The photo button has been disabled on the main screen because the app detected that your device can’t handle more than two camera outputs (preview, recording, and photo capture) at the same time. You can still take photos when the app is running in the background using the floating window. This issue occurs mainly on some Xiaomi devices, though certain models from other manufacturers may have this limitation as well.</string>
     <string name="camera_msg_error_non_exposed_error">Failed to open the selected camera. Some hidden cameras are not accessible to third-party apps, as many manufacturers restrict their use to the device\'s native applications. The default camera will be used instead.</string>
     <string name="camera_msg_error_unknown_text">The camera was temporarily unavailable on your device due to a system error.</string>
     <string name="camera_support_error">Error happened during using Camera.</string>
@@ -191,6 +192,9 @@
     <string name="prefs_battery_optimization_text">Battery optimization</string>
     <string name="prefs_beep_each_start_recording_sum_text">Signal at the beginning of the recording of the next video file</string>
     <string name="prefs_beep_each_start_recording_text">Beep when recording</string>
+    <string name="prefs_camera_blurry">Blurry</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">Reset to the default value if the image appears blurry</string>
+    <string name="prefs_camera_lens_distance_focus_title">Lens focus distance adjustment for achieving infinity focus</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">The device manufacturer may not provide access to all cameras, so some may not open</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">The device manufacturer may not provide a wide lens camera for all apps</string>
     <string name="prefs_consent_information_privacy_options">Privacy options (Consent information)</string>
@@ -359,6 +363,8 @@
     <string name="prefs_subtitles_transparency_text">Text transparency (alpha)</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">Frequent updates - faster battery runs out</string>
     <string name="prefs_subtitles_update_address_frequency_text">Update Address Frequency</string>
+    <string name="prefs_support_contact_us">Contact us</string>
+    <string name="prefs_support_restore_records_warning_text">If your question is about restoring recordings that were lost in any way, please do not contact us about it, as we can’t help with that. Your recordings are stored locally on your device, and there is no built-in cloud backup in the app. We recommend using a cloud app, such as Google Photos, to back up your recordings — select your recordings folder in the app for sync and it will automatically back them up.</string>
     <string name="prefs_support_sum_text">Report about error, crash or make a suggestion</string>
     <string name="prefs_support_text">Support / Feedback</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">This is also necessary to maintain the stability of continuous recording in the background.</string>
@@ -491,7 +497,7 @@
     <string name="records_pin_lock_msg_enabled">Recordings lock enabled</string>
     <string name="records_pin_lock_msg_pin_changed">PIN code changed</string>
     <string name="records_pin_lock_top_bar_title">Recordings lock</string>
-    <string name="reset">reset</string>
+    <string name="reset">Reset</string>
     <string name="snackbar_dismiss">Hide</string>
     <string name="storage_external_single">MicroSD card</string>
     <string name="storage_phone">Phone Storage</string>

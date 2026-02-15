@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">lóðrétt</string>
     <string name="camera_front">Myndavél að framan</string>
     <string name="camera_msg_error_in_use_text">Myndavélin var notuð af öðru forriti. Vinsamlegast ekki keyra önnur forrit sem gætu verið að nota myndavélina meðan þú tekur upp myndskeið. Android leyfir aðeins einu forriti að nota myndavélina í einu</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">Myndahnappurinn hefur verið óvirkur á aðalskjánum vegna þess að appið greindi að tækið þitt getur ekki meðhöndlað fleiri en tvær myndavélarútgangar (forskoðun, upptöku og myndatöku) samtímis. Þú getur samt tekið myndir þegar appið keyrir í bakgrunni með því að nota fljótandi gluggann. Þetta vandamál kemur aðallega upp í sumum Xiaomi tækjum, þó að sumar gerðir frá öðrum framleiðendum gætu einnig haft þessa takmörkun.</string>
     <string name="camera_msg_error_non_exposed_error">Mistókst að opna valda myndavél. Það vill svo til að ekki er hægt að nota allar faldar myndavélar af hvaða forriti sem er. Margir framleiðendur leyfa aðeins notkun þeirra í eigin forritum. Sjálfgefin myndavél opnast.</string>
     <string name="camera_msg_error_unknown_text">Það er tímabundið (var) ekki hægt að opna myndavélina í tækinu þínu (kerfisvilla í myndavél)</string>
     <string name="camera_support_error">Villa kom upp við notkun myndavélarinnar.</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">Rafhlaða fínstilling</string>
     <string name="prefs_beep_each_start_recording_sum_text">Merki í upphafi upptöku á næstu myndbandsskrá</string>
     <string name="prefs_beep_each_start_recording_text">Píp við upptöku</string>
+    <string name="prefs_camera_blurry">Óskýrt</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">Endurstilla á sjálfgefið gildi ef myndin virðist óskýr</string>
+    <string name="prefs_camera_lens_distance_focus_title">Stilling á fókusfjarlægð linsu til að ná óendanlegri fókusun</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Framleiðandi tækisins veitir kannski ekki aðgang að öllum myndavélum, þannig að sumar opnast ekki</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Framleiðandi tækisins gæti ekki útvegað breiðlinsumyndavél fyrir öll forrit</string>
     <string name="prefs_consent_information_privacy_options">Persónuverndarvalkostir (upplýsingar um samþykki)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">Gagnsæi texta</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">Því oftar sem uppfærslurnar eru, því hraðar tæmist rafhlaðan</string>
     <string name="prefs_subtitles_update_address_frequency_text">Uppfærsluhraði heimilisfangs</string>
+    <string name="prefs_support_contact_us">Hafðu samband við okkur</string>
+    <string name="prefs_support_restore_records_warning_text">Ef þú hefur spurningu um að endurheimta upptökur sem hafa glatast á einhvern hátt, vinsamlegast hafðu ekki samband við okkur því við getum ekki aðstoðað við það. Upptökurnar þínar eru geymdar staðbundið á tækinu þínu og það er engin innbyggð öryggisafritun í skýinu í appinu. Við mælum með að þú notir skýjaforrit, eins og Google Myndir, til að taka afrit af upptökunum þínum — veldu upptökumöppuna þína í appinu til samstillingar og það mun taka afrit af þeim sjálfkrafa.</string>
     <string name="prefs_support_sum_text">Tilkynntu villu, hrun eða gerðu tilboð</string>
     <string name="prefs_support_text">Stuðningur (viðbrögð)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">Þetta er líka nauðsynlegt til að viðhalda stöðugleika stöðugrar upptöku í bakgrunni.</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">Upptökulæsing virkjuð</string>
     <string name="records_pin_lock_msg_pin_changed">PIN-númer breytt</string>
     <string name="records_pin_lock_top_bar_title">Upptökulæsing</string>
-    <string name="reset">útskrift</string>
+    <string name="reset">Endurstilla</string>
     <string name="snackbar_dismiss">Fela</string>
     <string name="storage_external_single">MicroSD kort</string>
     <string name="storage_phone">Minni símans</string>

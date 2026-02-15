@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">вертикальний</string>
     <string name="camera_front">Фронтальна камера</string>
     <string name="camera_msg_error_in_use_text">Камера використовувалася іншим додатком. Будь ласка, не запускайте інші додатки, які можуть використовувати камеру під час запису відео. Android дозволяє одночасно тільки одному додатку використовувати камеру</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">Кнопку фото на головному екрані вимкнено, оскільки програма виявила, що ваш пристрій не може одночасно обробляти більше двох виходів камери (попередній перегляд, запис і фотозйомка). Ви все ще можете робити фотографії, коли програма працює у фоновому режимі, використовуючи плаваюче вікно. Ця проблема виникає переважно на деяких пристроях Xiaomi, хоча деякі моделі інших виробників також можуть мати це обмеження.</string>
     <string name="camera_msg_error_non_exposed_error">Не вдалося відкрити вибрану камеру. Так буває, що не всі приховані камери можуть бути використані будь-якими програмами. Багато виробників дозволяють їх використання лише у своїх рідних додатках. Буде відкрито камеру за промовчанням.</string>
     <string name="camera_msg_error_unknown_text">Камера тимчасово (була) недоступна для відкриття на вашому пристрої (системна помилка камери)</string>
     <string name="camera_support_error">Сталася помилка при використанні камери.</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">Оптимізація акумулятора</string>
     <string name="prefs_beep_each_start_recording_sum_text">Сигнал початку запису наступного відео файлу</string>
     <string name="prefs_beep_each_start_recording_text">Звуковий сигнал під час запису</string>
+    <string name="prefs_camera_blurry">Розмитий</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">Скинути до значення за замовчуванням, якщо зображення виглядає розмитим</string>
+    <string name="prefs_camera_lens_distance_focus_title">Регулювання фокусної відстані об\'єктива для досягнення нескінченного фокусування</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Виробник пристрою може не надавати доступ до всіх камер, тому деякі можуть не відкритися.</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Виробник пристрою може не надавати камеру з широким об\'єктивом для всіх програм.</string>
     <string name="prefs_consent_information_privacy_options">Параметри конфіденційності (інформація про згоду)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">Прозорість тексту</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">Чим частіше відновлення, тим швидше сідає батарея</string>
     <string name="prefs_subtitles_update_address_frequency_text">Частота оновлення адреси</string>
+    <string name="prefs_support_contact_us">Зв\'яжіться з нами</string>
+    <string name="prefs_support_restore_records_warning_text">Якщо ваше запитання стосується відновлення записів, які були втрачені будь-яким чином, будь ласка, не звертайтеся до нас з цього приводу, оскільки ми не можемо вам у цьому допомогти. Ваші записи зберігаються локально на вашому пристрої, і в додатку немає вбудованого хмарного резервного копіювання. Ми рекомендуємо використовувати хмарний додаток, такий як Google Фото, для резервного копіювання записів — виберіть папку із записами в додатку для синхронізації, і він автоматично створить їх резервну копію.</string>
     <string name="prefs_support_sum_text">Повідомити про помилку, збої або зробити пропозицію</string>
     <string name="prefs_support_text">Підтримка (зворотний зв\'язок)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">Також це необхідно для підтримки стабільності безперервного запису у фоновому режимі</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">Блокування записів увімкнено</string>
     <string name="records_pin_lock_msg_pin_changed">ПІН-код змінено</string>
     <string name="records_pin_lock_top_bar_title">Блокування записів</string>
-    <string name="reset">скинути</string>
+    <string name="reset">Скинути</string>
     <string name="snackbar_dismiss">Приховати</string>
     <string name="storage_external_single">MicroSD карта</string>
     <string name="storage_phone">Пам\'ять телефону</string>

@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">ठाडो</string>
     <string name="camera_front">अगाडिको क्यामरा</string>
     <string name="camera_msg_error_in_use_text">क्यामेरा अर्को एप्लिकेसनले प्रयोग गरिरहेको थियो। कृपया भिडियो रेकर्ड गर्दा क्यामेरा प्रयोग गर्न सक्ने अन्य अनुप्रयोगहरू नचलाउनुहोस्। एन्ड्रोइडले एक पटकमा एउटा एपलाई मात्र क्यामेरा प्रयोग गर्न अनुमति दिन्छ</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">एपले तपाईंको उपकरणले एकै समयमा दुई भन्दा बढी क्यामेरा आउटपुटहरू (पूर्वावलोकन, रेकर्डिङ, र फोटो खिच्ने) ह्यान्डल गर्न नसक्ने पत्ता लगाएकोले मुख्य स्क्रिनमा फोटो बटन असक्षम पारिएको छ। फ्लोटिंग विन्डो प्रयोग गरेर पृष्ठभूमिमा एप चलिरहेको बेला पनि तपाईं फोटो खिच्न सक्नुहुन्छ। यो समस्या मुख्यतया केही Xiaomi उपकरणहरूमा हुन्छ, यद्यपि अन्य निर्माताहरूका केही मोडेलहरूमा पनि यो सीमा हुन सक्छ।</string>
     <string name="camera_msg_error_non_exposed_error">चयन गरिएको क्यामेरा खोल्न असफल भयो। यस्तो हुन्छ कि सबै लुकेका क्यामेराहरू कुनै पनि अनुप्रयोगद्वारा प्रयोग गर्न सकिँदैन। धेरै निर्माताहरूले तिनीहरूको मूल अनुप्रयोगहरूमा मात्र तिनीहरूको प्रयोगलाई अनुमति दिन्छन्। पूर्वनिर्धारित क्यामेरा खुल्नेछ।</string>
     <string name="camera_msg_error_unknown_text">क्यामेरा अस्थायी रूपमा (थियो) तपाईंको उपकरणमा खोल्न अनुपलब्ध छ (क्यामेरा प्रणाली त्रुटि)</string>
     <string name="camera_support_error">क्यामेरा प्रयोग गर्दा त्रुटि भयो।</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">ब्याट्री अनुकूलन</string>
     <string name="prefs_beep_each_start_recording_sum_text">अर्को भिडियो फाइलको रेकर्डिङको सुरुमा संकेत</string>
     <string name="prefs_beep_each_start_recording_text">रेकर्ड गर्दा बिप</string>
+    <string name="prefs_camera_blurry">धमिलो</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">छवि धमिलो देखिएमा पूर्वनिर्धारित मानमा रिसेट गर्नुहोस्।</string>
+    <string name="prefs_camera_lens_distance_focus_title">अनन्त फोकस प्राप्त गर्न लेन्स फोकस दूरी समायोजन</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">उपकरण निर्माताले सबै क्यामेराहरूमा पहुँच प्रदान नगर्न सक्छ, त्यसैले केही नखोल्न सक्छ</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">उपकरण निर्माताले सबै अनुप्रयोगहरूको लागि फराकिलो लेन्स क्यामेरा प्रदान नगर्न सक्छ</string>
     <string name="prefs_consent_information_privacy_options">गोपनीयता विकल्प (सहमति जानकारी)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">पाठको पारदर्शिता</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">जति बारम्बार अपडेटहरू हुन्छन्, ब्याट्री त्यति नै छिटो निस्कन्छ</string>
     <string name="prefs_subtitles_update_address_frequency_text">ठेगाना अद्यावधिक दर</string>
+    <string name="prefs_support_contact_us">हामीलाई सम्पर्क गर्नुहोस्</string>
+    <string name="prefs_support_restore_records_warning_text">यदि तपाईंको प्रश्न कुनै पनि तरिकाले हराएका रेकर्डिङहरू पुनर्स्थापित गर्ने बारे हो भने, कृपया हामीलाई यस बारे सम्पर्क नगर्नुहोस्, किनकि हामी यसमा मद्दत गर्न सक्दैनौं। तपाईंका रेकर्डिङहरू तपाईंको उपकरणमा स्थानीय रूपमा भण्डारण गरिएका छन्, र एपमा कुनै पनि निर्मित क्लाउड ब्याकअप छैन। हामी तपाईंको रेकर्डिङहरू ब्याकअप गर्न Google Photos जस्ता क्लाउड एप प्रयोग गर्न सिफारिस गर्छौं — सिंकको लागि एपमा तपाईंको रेकर्डिङ फोल्डर चयन गर्नुहोस् र यसले स्वचालित रूपमा तिनीहरूलाई ब्याकअप गर्नेछ।</string>
     <string name="prefs_support_sum_text">बग रिपोर्ट गर्नुहोस्, क्र्यास गर्नुहोस् वा प्रस्ताव गर्नुहोस्</string>
     <string name="prefs_support_text">समर्थन (प्रतिक्रिया)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">यो पनि पृष्ठभूमि मा लगातार रेकर्डिङ को स्थिरता कायम गर्न आवश्यक छ।</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">रेकर्डिङ लक सक्षम पारियो</string>
     <string name="records_pin_lock_msg_pin_changed">पिन कोड परिवर्तन गरियो</string>
     <string name="records_pin_lock_top_bar_title">रेकर्डिङ लक</string>
-    <string name="reset">डिस्चार्ज</string>
+    <string name="reset">रिसेट गर्नुहोस्</string>
     <string name="snackbar_dismiss">लुकाउनुहोस्</string>
     <string name="storage_external_single">माइक्रोएसडी कार्ड</string>
     <string name="storage_phone">फोन मेमोरी</string>

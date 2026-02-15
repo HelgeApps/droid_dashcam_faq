@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">ဒေါင်လိုက်</string>
     <string name="camera_front">ရှေ့ကင်မရာ</string>
     <string name="camera_msg_error_in_use_text">ကင်မရာကို အခြားသော အပလီကေးရှင်းတစ်ခုမှ အသုံးပြုနေပါသည်။ ကျေးဇူးပြု၍ ဗီဒီယိုရိုက်ကူးနေစဉ် ကင်မရာကိုအသုံးပြုနေသည့် အခြားသောအက်ပ်များကို မဖွင့်ပါနှင့်။ Android သည် တစ်ကြိမ်လျှင် ကင်မရာကို အသုံးပြုရန် အက်ပ်တစ်ခုကိုသာ ခွင့်ပြုသည်။</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">အက်ပ်က သင့်စက်သည် ကင်မရာအထွက်နှစ်ခုထက်ပို၍ (အစမ်းကြည့်ရှုခြင်း၊ မှတ်တမ်းတင်ခြင်းနှင့် ဓာတ်ပုံရိုက်ကူးခြင်း) ကို တစ်ပြိုင်နက်တည်း မကိုင်တွယ်နိုင်ကြောင်း တွေ့ရှိသောကြောင့် အဓိကမျက်နှာပြင်ရှိ ဓာတ်ပုံခလုတ်ကို ပိတ်ထားသည်။ အက်ပ်သည် နောက်ခံတွင် floating window ကို အသုံးပြု၍ အလုပ်လုပ်နေချိန်တွင် ဓာတ်ပုံများ ရိုက်နိုင်ဆဲဖြစ်သည်။ ဤပြဿနာသည် Xiaomi စက်အချို့တွင် အဓိကဖြစ်ပွားသော်လည်း အခြားထုတ်လုပ်သူများ၏ မော်ဒယ်အချို့တွင်လည်း ဤကန့်သတ်ချက်ရှိနိုင်ပါသည်။</string>
     <string name="camera_msg_error_non_exposed_error">ရွေးချယ်ထားသောကင်မရာကို ဖွင့်၍မရပါ။ မည်သည့် အပလီကေးရှင်းမှ လျှို့ဝှက်ကင်မရာအားလုံးကို အသုံးမပြုနိုင်သောကြောင့် ဖြစ်ပေသည်။ ထုတ်လုပ်သူအများအပြားသည် ၎င်းတို့၏ မူလအက်ပ်လီကေးရှင်းများတွင်သာ ၎င်းတို့၏အသုံးပြုမှုကို ခွင့်ပြုသည်။ မူရင်းကင်မရာပွင့်လာပါမည်။</string>
     <string name="camera_msg_error_unknown_text">ကင်မရာသည် သင့်စက်တွင် ဖွင့်ရန် ယာယီ (ဖြစ်ခဲ့သည်) မရရှိနိုင်ပါ (ကင်မရာစနစ် အမှားအယွင်း)</string>
     <string name="camera_support_error">ကင်မရာကို အသုံးပြုနေစဉ် အမှားအယွင်းတစ်ခု ဖြစ်ပေါ်ခဲ့သည်။</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">ဘက်ထရီ ပိုမိုကောင်းမွန်အောင် ပြုလုပ်ခြင်း။</string>
     <string name="prefs_beep_each_start_recording_sum_text">နောက်ဗီဒီယိုဖိုင်ကို ရိုက်ကူးခြင်း၏အစတွင် အချက်ပြပါ။</string>
     <string name="prefs_beep_each_start_recording_text">အသံသွင်းသည့်အခါ Beep</string>
+    <string name="prefs_camera_blurry">မှုန်ဝါးဝါး</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">ပုံက မှုန်ဝါးနေပါက မူရင်းတန်ဖိုးသို့ ပြန်လည်သတ်မှတ်ပါ</string>
+    <string name="prefs_camera_lens_distance_focus_title">အဆုံးမဲ့အာရုံစူးစိုက်မှုရရှိရန်အတွက် မှန်ဘီလူးအာရုံစူးစိုက်မှုအကွာအဝေးချိန်ညှိမှု</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">စက်ပစ္စည်းထုတ်လုပ်သူသည် ကင်မရာအားလုံးကို အသုံးပြုခွင့်မပေးသောကြောင့် အချို့ကို ဖွင့်၍မရပါ။</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">စက်ပစ္စည်းထုတ်လုပ်သူသည် အပလီကေးရှင်းအားလုံးအတွက် ကျယ်ပြန့်သော မှန်ဘီလူးကင်မရာကို ပံ့ပိုးပေးမည်မဟုတ်ပါ။</string>
     <string name="prefs_consent_information_privacy_options">ကိုယ်ရေးကိုယ်တာ ရွေးစရာများ (သဘောတူညီချက် အချက်အလက်)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">စာသား၏ပွင့်လင်းမြင်သာမှု</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">အပ်ဒိတ်များ မကြာခဏပြုလုပ်လေ၊ ဘက်ထရီပိုမြန်လေဖြစ်သည်။</string>
     <string name="prefs_subtitles_update_address_frequency_text">လိပ်စာ အပ်ဒိတ်နှုန်း</string>
+    <string name="prefs_support_contact_us">ကြှနျုပျတို့ကိုဆကျသှယျရနျ</string>
+    <string name="prefs_support_restore_records_warning_text">သင့်မေးခွန်းက မည်သည့်နည်းနှင့်မဆို ပျောက်ဆုံးသွားသော မှတ်တမ်းများကို ပြန်လည်ရယူခြင်းနှင့်ပတ်သက်ပါက ကျွန်ုပ်တို့ကူညီ၍မရသောကြောင့် ကျွန်ုပ်တို့ထံ ဆက်သွယ်ခြင်းမပြုပါနှင့်။ သင့်မှတ်တမ်းများကို သင့်စက်တွင် သိမ်းဆည်းထားပြီး အက်ပ်တွင် cloud backup မရှိပါ။ သင့်မှတ်တမ်းများကို အရန်ကူးယူရန်အတွက် Google Photos ကဲ့သို့သော cloud အက်ပ်ကို အသုံးပြုရန် အကြံပြုပါသည် — အက်ပ်တွင် သင့်မှတ်တမ်းဖိုင်တွဲကို sync လုပ်ရန် ရွေးချယ်ပါ၊ ၎င်းသည် ၎င်းတို့ကို အလိုအလျောက် အရန်ကူးယူပေးပါလိမ့်မည်။</string>
     <string name="prefs_support_sum_text">ချို့ယွင်းချက်တစ်ခုကို သတင်းပို့ပါ၊ ပျက်စီးသွားပါ သို့မဟုတ် ကမ်းလှမ်းချက်တစ်ခု ပြုလုပ်ပါ။</string>
     <string name="prefs_support_text">ပံ့ပိုးမှု (တုံ့ပြန်ချက်)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">နောက်ခံတွင် စဉ်ဆက်မပြတ် မှတ်တမ်းတင်ခြင်း၏ တည်ငြိမ်မှုကို ထိန်းသိမ်းရန်လည်း လိုအပ်ပါသည်။</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">အသံသွင်းခြင်း လော့ခ်ဖွင့်ထားသည်။</string>
     <string name="records_pin_lock_msg_pin_changed">ပင်နံပါတ်ကုဒ်ကို ပြောင်းထားသည်။</string>
     <string name="records_pin_lock_top_bar_title">အသံသွင်းခြင်း လော့ခ်ချခြင်း။</string>
-    <string name="reset">ဥတု</string>
+    <string name="reset">ပြန်လည်သတ်မှတ်ပါ</string>
     <string name="snackbar_dismiss">ဖွက်ပါ။</string>
     <string name="storage_external_single">MicroSD ကတ်</string>
     <string name="storage_phone">ဖုန်းမှတ်ဉာဏ်</string>

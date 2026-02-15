@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">függőleges</string>
     <string name="camera_front">Első kamera</string>
     <string name="camera_msg_error_in_use_text">A kamerát egy másik alkalmazás használta. Kérjük, ne futtasson más olyan alkalmazást, amely esetleg használja a kamerát videó rögzítése közben. Az Android egyszerre csak egy alkalmazás számára engedélyezi a kamera használatát</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">A fotó gomb letiltásra került a főképernyőn, mert az alkalmazás észlelte, hogy az eszközöd nem tud egyszerre kettőnél több kamerakimenetet (előnézet, felvétel és fényképezés) kezelni. Továbbra is készíthetsz fényképeket, amikor az alkalmazás a háttérben fut a lebegő ablak használatával. Ez a probléma főként egyes Xiaomi eszközökön fordul elő, bár más gyártók bizonyos modelljeinél is előfordulhat ez a korlátozás.</string>
     <string name="camera_msg_error_non_exposed_error">Nem sikerült megnyitni a kiválasztott kamerát. Előfordul, hogy nem minden rejtett kamerát használhat egyetlen alkalmazás sem. Sok gyártó csak natív alkalmazásaiban engedélyezi ezek használatát. Megnyílik az alapértelmezett kamera.</string>
     <string name="camera_msg_error_unknown_text">A kamera átmenetileg (nem) nyitható meg az eszközön (kamera rendszerhiba)</string>
     <string name="camera_support_error">Hiba történt a fényképezőgép használata közben.</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">Akkumulátor optimalizálás</string>
     <string name="prefs_beep_each_start_recording_sum_text">Jelzés a következő videofájl rögzítésének elején</string>
     <string name="prefs_beep_each_start_recording_text">Hangjelzés rögzítés közben</string>
+    <string name="prefs_camera_blurry">Elmosódott</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">Állítsa vissza az alapértelmezett értéket, ha a kép elmosódottnak tűnik</string>
+    <string name="prefs_camera_lens_distance_focus_title">Objektív fókusztávolság-állítás a végtelen fókusz eléréséhez</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Előfordulhat, hogy az eszköz gyártója nem biztosít hozzáférést minden kamerához, így előfordulhat, hogy egyesek nem nyílnak meg</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Előfordulhat, hogy az eszköz gyártója nem biztosít széles lencsés kamerát minden alkalmazáshoz</string>
     <string name="prefs_consent_information_privacy_options">Adatvédelmi lehetőségek (beleegyezési információk)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">A szöveg átlátszósága</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">Minél gyakoribbak a frissítések, annál gyorsabban lemerül az akkumulátor</string>
     <string name="prefs_subtitles_update_address_frequency_text">Címfrissítési arány</string>
+    <string name="prefs_support_contact_us">Kapcsolat</string>
+    <string name="prefs_support_restore_records_warning_text">Ha a kérdésed az elveszett felvételek visszaállításával kapcsolatos, kérjük, ne vedd fel velünk a kapcsolatot, mert ebben nem tudunk segíteni. A felvételeid helyben, az eszközödön tárolódnak, és az alkalmazásban nincs beépített felhőalapú biztonsági mentés. Javasoljuk, hogy egy felhőalkalmazást, például a Google Fotókat használj a felvételeid biztonsági mentéséhez – válaszd ki a felvételek mappáját az alkalmazásban a szinkronizáláshoz, és az automatikusan biztonsági másolatot készít róluk.</string>
     <string name="prefs_support_sum_text">Jelentse be a hibát, összeomlást vagy tegyen ajánlatot</string>
     <string name="prefs_support_text">Támogatás (visszajelzés)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">Ez azért is szükséges, hogy a háttérben a folyamatos rögzítés stabilitását fenntartsuk.</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">Felvételzár engedélyezve</string>
     <string name="records_pin_lock_msg_pin_changed">PIN-kód megváltozott</string>
     <string name="records_pin_lock_top_bar_title">Felvételek zárolása</string>
-    <string name="reset">kisülés</string>
+    <string name="reset">Visszaállítás</string>
     <string name="snackbar_dismiss">Elrejt</string>
     <string name="storage_external_single">MicroSD kártya</string>
     <string name="storage_phone">Telefonmemória</string>

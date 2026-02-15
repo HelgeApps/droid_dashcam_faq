@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">thẳng đứng</string>
     <string name="camera_front">Camera phía trước</string>
     <string name="camera_msg_error_in_use_text">Máy ảnh đang được sử dụng bởi một ứng dụng khác. Vui lòng không chạy các ứng dụng khác có thể đang sử dụng máy ảnh khi quay video. Android chỉ cho phép một ứng dụng sử dụng máy ảnh tại một thời điểm</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">Nút chụp ảnh đã bị vô hiệu hóa trên màn hình chính vì ứng dụng phát hiện thiết bị của bạn không thể xử lý nhiều hơn hai đầu ra camera (xem trước, quay video và chụp ảnh) cùng một lúc. Bạn vẫn có thể chụp ảnh khi ứng dụng đang chạy ngầm bằng cửa sổ nổi. Vấn đề này chủ yếu xảy ra trên một số thiết bị Xiaomi, mặc dù một số mẫu máy từ các nhà sản xuất khác cũng có thể gặp phải hạn chế này.</string>
     <string name="camera_msg_error_non_exposed_error">Không thể mở máy ảnh đã chọn. Điều xảy ra là không phải tất cả các camera ẩn đều có thể được sử dụng bởi bất kỳ ứng dụng nào. Nhiều nhà sản xuất chỉ cho phép sử dụng chúng trong các ứng dụng gốc của họ. Máy ảnh mặc định sẽ mở.</string>
     <string name="camera_msg_error_unknown_text">Máy ảnh tạm thời (đã) không khả dụng để mở trên thiết bị của bạn (lỗi hệ thống máy ảnh)</string>
     <string name="camera_support_error">Đã xảy ra lỗi khi sử dụng máy ảnh.</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">Tối ưu hóa pin</string>
     <string name="prefs_beep_each_start_recording_sum_text">Báo hiệu khi bắt đầu ghi tệp video tiếp theo</string>
     <string name="prefs_beep_each_start_recording_text">Bíp khi ghi âm</string>
+    <string name="prefs_camera_blurry">Mờ</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">Nếu hình ảnh bị mờ, hãy đặt lại về giá trị mặc định.</string>
+    <string name="prefs_camera_lens_distance_focus_title">Điều chỉnh khoảng cách lấy nét của ống kính để đạt được tiêu cự vô cực.</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Nhà sản xuất thiết bị có thể không cung cấp quyền truy cập vào tất cả các camera, vì vậy một số có thể không mở được</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Nhà sản xuất thiết bị có thể không cung cấp máy ảnh ống kính rộng cho tất cả các ứng dụng</string>
     <string name="prefs_consent_information_privacy_options">Tùy chọn quyền riêng tư (Thông tin đồng ý)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">Tính minh bạch của văn bản</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">Cập nhật càng thường xuyên thì càng nhanh hết pin</string>
     <string name="prefs_subtitles_update_address_frequency_text">Tỷ lệ cập nhật địa chỉ</string>
+    <string name="prefs_support_contact_us">Liên hệ với chúng tôi</string>
+    <string name="prefs_support_restore_records_warning_text">Nếu câu hỏi của bạn liên quan đến việc khôi phục các bản ghi âm đã bị mất bằng bất kỳ cách nào, vui lòng không liên hệ với chúng tôi về vấn đề đó, vì chúng tôi không thể giúp đỡ. Các bản ghi âm của bạn được lưu trữ cục bộ trên thiết bị của bạn và ứng dụng không có tính năng sao lưu đám mây tích hợp sẵn. Chúng tôi khuyên bạn nên sử dụng ứng dụng sao lưu đám mây, chẳng hạn như Google Photos, để sao lưu các bản ghi âm của mình — hãy chọn thư mục ghi âm của bạn trong ứng dụng để đồng bộ hóa và ứng dụng sẽ tự động sao lưu chúng.</string>
     <string name="prefs_support_sum_text">Báo cáo lỗi, sự cố hoặc đưa ra đề nghị</string>
     <string name="prefs_support_text">Hỗ trợ (phản hồi)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">Điều này cũng cần thiết để duy trì sự ổn định khi ghi liên tục ở chế độ nền.</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">Đã bật khóa ghi âm</string>
     <string name="records_pin_lock_msg_pin_changed">Mã PIN đã thay đổi</string>
     <string name="records_pin_lock_top_bar_title">Khóa ghi âm</string>
-    <string name="reset">phóng điện</string>
+    <string name="reset">Cài lại</string>
     <string name="snackbar_dismiss">Trốn</string>
     <string name="storage_external_single">Thẻ micro SD</string>
     <string name="storage_phone">Bộ nhớ điện thoại</string>

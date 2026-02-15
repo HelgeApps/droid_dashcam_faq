@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">verticale</string>
     <string name="camera_front">Caméra frontale</string>
     <string name="camera_msg_error_in_use_text">La caméra était utilisée par une autre application. Veuillez ne pas exécuter d\'autres applications susceptibles d\'utiliser l\'appareil photo pendant l\'enregistrement vidéo. Android n\'autorise qu\'une seule application à utiliser l\'appareil photo à la fois</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">Le bouton photo a été désactivé sur l\'écran principal car l\'application a détecté que votre appareil ne peut pas gérer simultanément plus de deux flux vidéo (prévisualisation, enregistrement et prise de photos). Vous pouvez toujours prendre des photos lorsque l\'application fonctionne en arrière-plan, via la fenêtre flottante. Ce problème se produit principalement sur certains appareils Xiaomi, mais certains modèles d\'autres fabricants peuvent également présenter cette limitation.</string>
     <string name="camera_msg_error_non_exposed_error">Impossible d\'ouvrir la caméra sélectionnée. Il se trouve que toutes les caméras cachées ne peuvent pas être utilisées par n\'importe quelle application. De nombreux fabricants n\'autorisent leur utilisation que dans leurs applications natives. La caméra par défaut s\'ouvrira.</string>
     <string name="camera_msg_error_unknown_text">L\'appareil photo est temporairement (était) indisponible pour s\'ouvrir sur votre appareil (erreur système de l\'appareil photo)</string>
     <string name="camera_support_error">Une erreur s\'est produite lors de l\'utilisation de l\'appareil photo.</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">Optimisation de la batterie</string>
     <string name="prefs_beep_each_start_recording_sum_text">Signal au début de l\'enregistrement du prochain fichier vidéo</string>
     <string name="prefs_beep_each_start_recording_text">Bip lors de l\'enregistrement</string>
+    <string name="prefs_camera_blurry">Flou</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">Rétablir la valeur par défaut si l\'image apparaît floue.</string>
+    <string name="prefs_camera_lens_distance_focus_title">Réglage de la distance de mise au point de l\'objectif pour obtenir une mise au point à l\'infini</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Le fabricant de l\'appareil peut ne pas fournir l\'accès à toutes les caméras, donc certaines peuvent ne pas s\'ouvrir</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Le fabricant de l\'appareil peut ne pas fournir une caméra à objectif large pour toutes les applications</string>
     <string name="prefs_consent_information_privacy_options">Options de confidentialité (informations de consentement)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">Transparence du texte</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">Plus les mises à jour sont fréquentes, plus la batterie se déchargera rapidement</string>
     <string name="prefs_subtitles_update_address_frequency_text">Taux de mise à jour des adresses</string>
+    <string name="prefs_support_contact_us">Contactez-nous</string>
+    <string name="prefs_support_restore_records_warning_text">Si votre question concerne la récupération d\'enregistrements perdus, veuillez ne pas nous contacter à ce sujet, car nous ne pouvons pas vous aider. Vos enregistrements sont stockés localement sur votre appareil et l\'application ne propose pas de sauvegarde dans le cloud. Nous vous recommandons d\'utiliser une application cloud, telle que Google Photos, pour sauvegarder vos enregistrements : sélectionnez le dossier contenant vos enregistrements dans l\'application pour la synchronisation, et la sauvegarde se fera automatiquement.</string>
     <string name="prefs_support_sum_text">Signaler un bug, planter ou faire une offre</string>
     <string name="prefs_support_text">Soutien (rétroaction)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">Cela est également nécessaire pour maintenir la stabilité de l\'enregistrement continu en arrière-plan.</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">Verrouillage des enregistrements activé</string>
     <string name="records_pin_lock_msg_pin_changed">Code PIN modifié</string>
     <string name="records_pin_lock_top_bar_title">Verrouillage des enregistrements</string>
-    <string name="reset">décharge</string>
+    <string name="reset">Réinitialiser</string>
     <string name="snackbar_dismiss">Cacher</string>
     <string name="storage_external_single">Carte Micro SD</string>
     <string name="storage_phone">Mémoire du téléphone</string>

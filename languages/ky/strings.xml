@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">вертикалдуу</string>
     <string name="camera_front">Алдыңкы камера</string>
     <string name="camera_msg_error_in_use_text">Камера башка колдонмо тарабынан колдонулуп жаткан. Сураныч, видео жаздырууда камераны колдонуп жаткан башка колдонмолорду иштетпеңиз. Android бир эле колдонмого камераны бир убакта колдонууга уруксат берет</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">Сүрөт баскычы негизги экранда өчүрүлгөн, анткени колдонмо түзмөгүңүз бир эле учурда экиден ашык камера чыгаруусун (алдын ала көрүү, жаздыруу жана сүрөткө тартуу) иштете албай турганын аныктады. Колдонмо фондо иштеп жатканда, калкып жүрүүчү терезени колдонуп, сүрөткө тарта аласыз. Бул көйгөй негизинен кээ бир Xiaomi түзмөктөрүндө кездешет, бирок башка өндүрүүчүлөрдүн айрым моделдеринде да ушундай чектөө болушу мүмкүн.</string>
     <string name="camera_msg_error_non_exposed_error">Тандалган камера ачылбай койду. Ошентип, бардык жашыруун камераларды кандайдыр бир тиркеме колдоно албайт. Көптөгөн өндүрүүчүлөр аларды жергиликтүү тиркемелерде гана колдонууга уруксат беришет. Демейки камера ачылат.</string>
     <string name="camera_msg_error_unknown_text">Камера түзмөгүңүздө убактылуу ачыла албайт (камера тутумунун катасы)</string>
     <string name="camera_support_error">Камераны колдонууда ката кетти.</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">Батареяны оптималдаштыруу</string>
     <string name="prefs_beep_each_start_recording_sum_text">Кийинки видеофайлдын жазуусунун башталышында сигнал</string>
     <string name="prefs_beep_each_start_recording_text">Жазып жатканда сигнал</string>
+    <string name="prefs_camera_blurry">Бүдөмүк</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">Эгер сүрөт бүдөмүк көрүнсө, демейки мааниге кайтаруу</string>
+    <string name="prefs_camera_lens_distance_focus_title">Чексиз фокуска жетүү үчүн линзанын фокусунун аралыгын тууралоо</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Түзмөктүн өндүрүүчүсү бардык камераларга кирүү мүмкүнчүлүгүн бербеши мүмкүн, андыктан айрымдары ачылбай калышы мүмкүн</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Түзмөктүн өндүрүүчүсү бардык колдонмолор үчүн кенен линзалуу камераны камсыз кылбашы мүмкүн</string>
     <string name="prefs_consent_information_privacy_options">Купуялык параметрлери (Макулдук маалыматы)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">Тексттин ачыктыгы</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">Жаңыртуулар канчалык тез-тез болсо, батарейка ошончолук бат түгөнүп калат</string>
     <string name="prefs_subtitles_update_address_frequency_text">Даректи жаңыртуу ылдамдыгы</string>
+    <string name="prefs_support_contact_us">Биз менен байланышыңыз</string>
+    <string name="prefs_support_restore_records_warning_text">Эгерде сиздин сурооңуз кандайдыр бир жол менен жоголгон жаздырууларды калыбына келтирүү жөнүндө болсо, биз менен байланышпаңыз, анткени биз бул жагынан жардам бере албайбыз. Жаздырууларыңыз түзмөгүңүздө жергиликтүү түрдө сакталат жана колдонмодо камтылган булут камдык көчүрмөсү жок. Жаздырууларыңыздын камдык көчүрмөсүн сактоо үчүн Google Photos сыяктуу булут колдонмосун колдонууну сунуштайбыз — шайкештештирүү үчүн колдонмодогу жаздыруулар папкаңызды тандаңыз, ошондо ал автоматтык түрдө алардын камдык көчүрмөсүн сактайт.</string>
     <string name="prefs_support_sum_text">Мүчүлүштүк тууралуу кабарлаңыз, ката кетириңиз же сунуш кылыңыз</string>
     <string name="prefs_support_text">Колдоо (пикир)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">Бул фондо үзгүлтүксүз жаздыруунун туруктуулугун сактоо үчүн да зарыл.</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">Жаздыруулардын кулпусу иштетилди</string>
     <string name="records_pin_lock_msg_pin_changed">PIN код өзгөртүлдү</string>
     <string name="records_pin_lock_top_bar_title">Жаздыруулар кулпу</string>
-    <string name="reset">разряд</string>
+    <string name="reset">Баштапкы абалга келтирүү</string>
     <string name="snackbar_dismiss">Жашыруу</string>
     <string name="storage_external_single">MicroSD карта</string>
     <string name="storage_phone">Телефондун эс тутуму</string>

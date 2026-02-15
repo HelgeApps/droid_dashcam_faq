@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">şaquli</string>
     <string name="camera_front">Ön kamera</string>
     <string name="camera_msg_error_in_use_text">Kamera başqa proqram tərəfindən istifadə olunurdu. Video yazarkən kameradan istifadə edə biləcək digər proqramları işə salmayın. Android yalnız bir proqrama eyni anda kameradan istifadə etməyə icazə verir</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">Tətbiq cihazınızın eyni anda ikidən çox kamera çıxışını (önizləmə, qeyd və foto çəkmə) idarə edə bilmədiyini aşkar etdiyi üçün əsas ekranda foto düyməsi deaktiv edilib. Tətbiq arxa planda işləyərkən üzən pəncərədən istifadə edərək şəkil çəkə bilərsiniz. Bu problem əsasən bəzi Xiaomi cihazlarında baş verir, baxmayaraq ki, digər istehsalçıların müəyyən modellərində də bu məhdudiyyət ola bilər.</string>
     <string name="camera_msg_error_non_exposed_error">Seçilmiş kameranı açmaq alınmadı. Belə olur ki, bütün gizli kameralar heç bir proqram tərəfindən istifadə edilə bilməz. Bir çox istehsalçı onların yalnız yerli tətbiqlərində istifadəsinə icazə verir. Standart kamera açılacaq.</string>
     <string name="camera_msg_error_unknown_text">Kamera müvəqqəti olaraq cihazınızda açmaq mümkün deyil (kamera sistem xətası)</string>
     <string name="camera_support_error">Kameradan istifadə edərkən xəta baş verdi.</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">Batareyanın optimallaşdırılması</string>
     <string name="prefs_beep_each_start_recording_sum_text">Növbəti video faylın qeydinin əvvəlində siqnal</string>
     <string name="prefs_beep_each_start_recording_text">Yazan zaman səs siqnalı</string>
+    <string name="prefs_camera_blurry">Bulanıq</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">Şəkil bulanıq görünürsə, standart dəyərə sıfırlayın</string>
+    <string name="prefs_camera_lens_distance_focus_title">Sonsuz fokus əldə etmək üçün obyektiv fokus məsafəsinin tənzimlənməsi</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Cihaz istehsalçısı bütün kameralara girişi təmin etməyə bilər, ona görə də bəziləri açılmaya bilər</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Cihaz istehsalçısı bütün proqramlar üçün geniş lensli kamera təmin etməyə bilər</string>
     <string name="prefs_consent_information_privacy_options">Məxfilik seçimləri (Razılıq məlumatı)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">Mətnin şəffaflığı</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">Yeniləmələr nə qədər tez-tez olarsa, batareya bir o qədər tez boşalacaq</string>
     <string name="prefs_subtitles_update_address_frequency_text">Ünvan yeniləmə dərəcəsi</string>
+    <string name="prefs_support_contact_us">Bizimlə əlaqə saxlayın</string>
+    <string name="prefs_support_restore_records_warning_text">Əgər sualınız hər hansı bir şəkildə itirilmiş səsyazmaların bərpası ilə bağlıdırsa, xahiş edirik bu barədə bizimlə əlaqə saxlamayın, çünki biz bu məsələdə kömək edə bilmərik. Səsyazmalarınız cihazınızda lokal olaraq saxlanılır və tətbiqdə daxili bulud ehtiyat nüsxəsi yoxdur. Səsyazmalarınızı ehtiyat nüsxələmək üçün Google Foto kimi bulud tətbiqindən istifadə etməyi tövsiyə edirik — sinxronizasiya üçün tətbiqdə səsyazma qovluğunuzu seçin və o, onları avtomatik olaraq ehtiyat nüsxə edəcək.</string>
     <string name="prefs_support_sum_text">Səhv, qəza barədə məlumat verin və ya təklif verin</string>
     <string name="prefs_support_text">Dəstək (əlaqə)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">Bu, arxa fonda davamlı qeydin sabitliyini qorumaq üçün də lazımdır.</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">Səsyazma kilidi aktivləşdirildi</string>
     <string name="records_pin_lock_msg_pin_changed">PIN kodu dəyişdirildi</string>
     <string name="records_pin_lock_top_bar_title">Səsyazmalar kilidi</string>
-    <string name="reset">boşalma</string>
+    <string name="reset">Sıfırla</string>
     <string name="snackbar_dismiss">Gizlət</string>
     <string name="storage_external_single">MicroSD kart</string>
     <string name="storage_phone">Telefon yaddaşı</string>

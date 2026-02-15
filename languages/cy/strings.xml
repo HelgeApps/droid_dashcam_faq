@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">fertigol</string>
     <string name="camera_front">Camera blaen</string>
     <string name="camera_msg_error_in_use_text">Roedd y camera\'n cael ei ddefnyddio gan raglen arall. Peidiwch â rhedeg cymwysiadau eraill a allai fod yn defnyddio\'r camera wrth recordio fideo. Mae Android ond yn caniatáu i un app ddefnyddio\'r camera ar y tro</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">Mae\'r botwm llun wedi\'i analluogi ar y brif sgrin oherwydd bod yr ap wedi canfod na all eich dyfais drin mwy na dau allbwn camera (rhagolwg, recordio, a chipio lluniau) ar yr un pryd. Gallwch chi ddal i dynnu lluniau pan fydd yr ap yn rhedeg yn y cefndir gan ddefnyddio\'r ffenestr arnofiol. Mae\'r broblem hon yn digwydd yn bennaf ar rai dyfeisiau Xiaomi, er y gallai fod gan rai modelau gan wneuthurwyr eraill y cyfyngiad hwn hefyd.</string>
     <string name="camera_msg_error_non_exposed_error">Wedi methu ag agor y camera a ddewiswyd. Mae\'n digwydd felly na ellir defnyddio pob camera cudd gan unrhyw raglen. Mae llawer o weithgynhyrchwyr yn caniatáu eu defnyddio yn eu cymwysiadau brodorol yn unig. Bydd y camera rhagosodedig yn agor.</string>
     <string name="camera_msg_error_unknown_text">Nid yw\'r camera ar gael dros dro (nid oedd) ar agor ar eich dyfais (gwall system camera)</string>
     <string name="camera_support_error">Mae gwall wedi digwydd wrth ddefnyddio\'r camera.</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">Optimeiddio batri</string>
     <string name="prefs_beep_each_start_recording_sum_text">Signal ar ddechrau\'r recordiad o\'r ffeil fideo nesaf</string>
     <string name="prefs_beep_each_start_recording_text">Bîp wrth recordio</string>
+    <string name="prefs_camera_blurry">Aneglur</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">Ailosod i\'r gwerth diofyn os yw\'r ddelwedd yn ymddangos yn aneglur</string>
+    <string name="prefs_camera_lens_distance_focus_title">Addasiad pellter ffocws lens ar gyfer cyflawni ffocws anfeidredd</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Efallai na fydd gwneuthurwr y ddyfais yn darparu mynediad i bob camera, felly efallai na fydd rhai yn agor</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Efallai na fydd gwneuthurwr y ddyfais yn darparu camera lens eang ar gyfer pob cais</string>
     <string name="prefs_consent_information_privacy_options">Opsiynau preifatrwydd (gwybodaeth caniatâd)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">Tryloywder testun</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">Po fwyaf aml y diweddariadau, y cyflymaf y bydd y batri yn draenio</string>
     <string name="prefs_subtitles_update_address_frequency_text">Cyfradd diweddaru cyfeiriad</string>
+    <string name="prefs_support_contact_us">Cysylltwch â ni</string>
+    <string name="prefs_support_restore_records_warning_text">Os yw eich cwestiwn yn ymwneud ag adfer recordiadau a gollwyd mewn unrhyw ffordd, peidiwch â chysylltu â ni amdano, gan na allwn ni helpu gyda hynny. Mae eich recordiadau wedi\'u storio\'n lleol ar eich dyfais, ac nid oes copi wrth gefn cwmwl adeiledig yn yr ap. Rydym yn argymell defnyddio ap cwmwl, fel Google Photos, i wneud copi wrth gefn o\'ch recordiadau — dewiswch eich ffolder recordiadau yn yr ap ar gyfer cysoni a bydd yn gwneud copi wrth gefn ohonynt yn awtomatig.</string>
     <string name="prefs_support_sum_text">Riportiwch nam, damwain neu wneud cynnig</string>
     <string name="prefs_support_text">Cefnogaeth (adborth)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">Mae hyn hefyd yn angenrheidiol i gynnal sefydlogrwydd cofnodi parhaus yn y cefndir.</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">Clo recordiadau wedi\'i alluogi</string>
     <string name="records_pin_lock_msg_pin_changed">Cod PIN wedi\'i newid</string>
     <string name="records_pin_lock_top_bar_title">Clo recordiadau</string>
-    <string name="reset">rhyddhau</string>
+    <string name="reset">Ailosod</string>
     <string name="snackbar_dismiss">Cuddio</string>
     <string name="storage_external_single">Cerdyn MicroSD</string>
     <string name="storage_phone">Cof ffôn</string>

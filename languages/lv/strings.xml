@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">vertikāli</string>
     <string name="camera_front">Priekšējā kamera</string>
     <string name="camera_msg_error_in_use_text">Kamera tika izmantota citai lietojumprogrammai. Lūdzu, video ierakstīšanas laikā nepalaidiet citas lietojumprogrammas, kas varētu izmantot kameru. Android ļauj kameru izmantot tikai vienai lietotnei vienlaikus</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">Galvenajā ekrānā ir atspējota fotoattēla poga, jo lietotne ir noteikusi, ka jūsu ierīce vienlaikus nevar apstrādāt vairāk nekā divas kameras izejas (priekšskatījumu, ierakstīšanu un fotoattēlu uzņemšanu). Jūs joprojām varat uzņemt fotoattēlus, izmantojot peldošo logu, kad lietotne darbojas fonā. Šī problēma galvenokārt rodas dažās Xiaomi ierīcēs, lai gan arī dažiem citu ražotāju modeļiem var būt šis ierobežojums.</string>
     <string name="camera_msg_error_non_exposed_error">Neizdevās atvērt atlasīto kameru. Gadās, ka ne visas slēptās kameras var izmantot neviena lietojumprogramma. Daudzi ražotāji atļauj to izmantošanu tikai savās vietējās lietojumprogrammās. Tiks atvērta noklusējuma kamera.</string>
     <string name="camera_msg_error_unknown_text">Kamera īslaicīgi (bija) nav pieejama jūsu ierīcē (kameras sistēmas kļūda)</string>
     <string name="camera_support_error">Lietojot kameru, radās kļūda.</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">Akumulatora optimizācija</string>
     <string name="prefs_beep_each_start_recording_sum_text">Signāls nākamā video faila ierakstīšanas sākumā</string>
     <string name="prefs_beep_each_start_recording_text">Ierakstīšanas laikā pīkst</string>
+    <string name="prefs_camera_blurry">Izplūdis</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">Atiestatiet noklusējuma vērtību, ja attēls ir izplūdis</string>
+    <string name="prefs_camera_lens_distance_focus_title">Objektīva fokusa attāluma regulēšana bezgalības fokusa sasniegšanai</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Ierīces ražotājs, iespējams, nenodrošina piekļuvi visām kamerām, tāpēc dažas var netikt atvērtas</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Ierīces ražotājs nevar nodrošināt platleņķa kameru visiem lietojumiem</string>
     <string name="prefs_consent_information_privacy_options">Privātuma opcijas (informācija par piekrišanu)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">Teksta caurspīdīgums</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">Jo biežāk tiek atjaunināti, jo ātrāk izlādēsies akumulators</string>
     <string name="prefs_subtitles_update_address_frequency_text">Adreses atjaunināšanas ātrums</string>
+    <string name="prefs_support_contact_us">Sazinieties ar mums</string>
+    <string name="prefs_support_restore_records_warning_text">Ja jūsu jautājums ir par jebkādā veidā pazaudētu ierakstu atjaunošanu, lūdzu, nesazinieties ar mums par to, jo mēs nevaram jums palīdzēt. Jūsu ieraksti tiek glabāti lokāli jūsu ierīcē, un lietotnē nav iebūvēta mākoņa dublējuma. Ierakstu dublēšanai iesakām izmantot mākoņa lietotni, piemēram, Google fotoattēli — atlasiet lietotnē ierakstu mapi sinhronizācijai, un tā automātiski izveidos to dublējumu.</string>
     <string name="prefs_support_sum_text">Ziņojiet par kļūdu, avāriju vai izdariet piedāvājumu</string>
     <string name="prefs_support_text">Atbalsts (atsauksmes)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">Tas ir nepieciešams arī, lai saglabātu nepārtrauktas ierakstīšanas stabilitāti fonā.</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">Ierakstu bloķēšana ir iespējota</string>
     <string name="records_pin_lock_msg_pin_changed">PIN kods ir mainīts</string>
     <string name="records_pin_lock_top_bar_title">Ierakstu bloķēšana</string>
-    <string name="reset">izlāde</string>
+    <string name="reset">Atiestatīt</string>
     <string name="snackbar_dismiss">Slēpt</string>
     <string name="storage_external_single">MicroSD karte</string>
     <string name="storage_phone">Tālruņa atmiņa</string>

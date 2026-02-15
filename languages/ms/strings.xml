@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">menegak</string>
     <string name="camera_front">Kamera depan</string>
     <string name="camera_msg_error_in_use_text">Kamera sedang digunakan oleh aplikasi lain. Tolong jangan jalankan aplikasi lain yang mungkin menggunakan kamera semasa merakam video. Android hanya membenarkan satu apl menggunakan kamera pada satu masa</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">Butang foto telah dilumpuhkan pada skrin utama kerana aplikasi mengesan bahawa peranti anda tidak dapat mengendalikan lebih daripada dua output kamera (pratonton, rakaman dan tangkapan foto) pada masa yang sama. Anda masih boleh mengambil foto semasa aplikasi berjalan di latar belakang menggunakan tetingkap terapung. Isu ini berlaku terutamanya pada beberapa peranti Xiaomi, walaupun model tertentu daripada pengeluar lain mungkin juga mempunyai batasan ini.</string>
     <string name="camera_msg_error_non_exposed_error">Gagal membuka kamera yang dipilih. Kebetulan tidak semua kamera tersembunyi boleh digunakan oleh mana-mana aplikasi. Banyak pengeluar hanya membenarkan penggunaannya dalam aplikasi asli mereka. Kamera lalai akan dibuka.</string>
     <string name="camera_msg_error_unknown_text">Kamera buat sementara waktu (telah) tidak tersedia untuk dibuka pada peranti anda (ralat sistem kamera)</string>
     <string name="camera_support_error">Ralat telah berlaku semasa menggunakan kamera.</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">Pengoptimuman bateri</string>
     <string name="prefs_beep_each_start_recording_sum_text">Isyarat pada permulaan rakaman fail video seterusnya</string>
     <string name="prefs_beep_each_start_recording_text">Bip semasa merakam</string>
+    <string name="prefs_camera_blurry">Kabur</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">Tetapkan semula kepada nilai lalai jika imej kelihatan kabur</string>
+    <string name="prefs_camera_lens_distance_focus_title">Pelarasan jarak fokus kanta untuk mencapai fokus infiniti</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Pengilang peranti mungkin tidak menyediakan akses kepada semua kamera, jadi sesetengahnya mungkin tidak dibuka</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Pengilang peranti mungkin tidak menyediakan kamera kanta lebar untuk semua aplikasi</string>
     <string name="prefs_consent_information_privacy_options">Pilihan privasi (Maklumat persetujuan)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">Ketelusan teks</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">Lebih kerap kemas kini, lebih cepat bateri akan habis</string>
     <string name="prefs_subtitles_update_address_frequency_text">Kadar kemas kini alamat</string>
+    <string name="prefs_support_contact_us">Hubungi kami</string>
+    <string name="prefs_support_restore_records_warning_text">Jika soalan anda adalah tentang memulihkan rakaman yang hilang dalam apa jua cara, sila jangan hubungi kami mengenainya, kerana kami tidak dapat membantu dalam hal itu. Rakaman anda disimpan secara setempat pada peranti anda dan tiada sandaran awan terbina dalam dalam aplikasi. Kami mengesyorkan menggunakan aplikasi awan, seperti Google Photos, untuk membuat sandaran rakaman anda — pilih folder rakaman anda dalam aplikasi untuk disegerakkan dan ia akan membuat sandarannya secara automatik.</string>
     <string name="prefs_support_sum_text">Laporkan pepijat, ranap sistem atau buat tawaran</string>
     <string name="prefs_support_text">Sokongan (maklum balas)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">Ini juga perlu untuk mengekalkan kestabilan rakaman berterusan di latar belakang.</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">Kunci rakaman didayakan</string>
     <string name="records_pin_lock_msg_pin_changed">Kod PIN ditukar</string>
     <string name="records_pin_lock_top_bar_title">Kunci rakaman</string>
-    <string name="reset">pelepasan</string>
+    <string name="reset">Tetapkan semula</string>
     <string name="snackbar_dismiss">Sembunyi</string>
     <string name="storage_external_single">Kad MicroSD</string>
     <string name="storage_phone">Memori telefon</string>

@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">عمودی</string>
     <string name="camera_front">دوربین جلو</string>
     <string name="camera_msg_error_in_use_text">دوربین توسط برنامه دیگری استفاده می شد. لطفاً برنامه های دیگری را که ممکن است از دوربین در هنگام ضبط ویدیو استفاده می کنند، اجرا نکنید. اندروید فقط به یک برنامه اجازه می دهد از دوربین در یک زمان استفاده کند</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">دکمه عکس در صفحه اصلی غیرفعال شده است زیرا برنامه تشخیص داده است که دستگاه شما نمی‌تواند بیش از دو خروجی دوربین (پیش‌نمایش، ضبط و ثبت عکس) را همزمان مدیریت کند. شما همچنان می‌توانید وقتی برنامه در پس‌زمینه در حال اجرا است با استفاده از پنجره شناور عکس بگیرید. این مشکل عمدتاً در برخی از دستگاه‌های شیائومی رخ می‌دهد، اگرچه برخی از مدل‌های سایر تولیدکنندگان نیز ممکن است این محدودیت را داشته باشند.</string>
     <string name="camera_msg_error_non_exposed_error">دوربین انتخابی باز نشد. این اتفاق می افتد که همه دوربین های مخفی توسط هیچ برنامه ای قابل استفاده نیستند. بسیاری از تولیدکنندگان فقط اجازه استفاده از آنها را در برنامه های کاربردی بومی خود می دهند. دوربین پیش فرض باز خواهد شد.</string>
     <string name="camera_msg_error_unknown_text">دوربین به طور موقت (در دسترس نبود) برای باز کردن در دستگاه شما (خطای سیستم دوربین)</string>
     <string name="camera_support_error">هنگام استفاده از دوربین خطایی رخ داده است.</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">بهینه سازی باتری</string>
     <string name="prefs_beep_each_start_recording_sum_text">در ابتدای ضبط فایل ویدیویی بعدی سیگنال دهید</string>
     <string name="prefs_beep_each_start_recording_text">هنگام ضبط صدای بوق</string>
+    <string name="prefs_camera_blurry">تار</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">اگر تصویر تار به نظر می‌رسد، به مقدار پیش‌فرض برگردانید</string>
+    <string name="prefs_camera_lens_distance_focus_title">تنظیم فاصله فوکوس لنز برای دستیابی به فوکوس بی‌نهایت</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">ممکن است سازنده دستگاه دسترسی به همه دوربین ها را فراهم نکند، بنابراین برخی از آنها ممکن است باز نشوند</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">سازنده دستگاه ممکن است دوربین لنز عریض را برای همه برنامه ها ارائه نکند</string>
     <string name="prefs_consent_information_privacy_options">گزینه های حفظ حریم خصوصی (اطلاعات رضایت)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">شفافیت متن</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">هرچه به‌روزرسانی‌ها بیشتر باشد، باتری سریع‌تر خالی می‌شود</string>
     <string name="prefs_subtitles_update_address_frequency_text">نرخ به روز رسانی آدرس</string>
+    <string name="prefs_support_contact_us">تماس با ما</string>
+    <string name="prefs_support_restore_records_warning_text">اگر سوال شما در مورد بازیابی ضبط‌هایی است که به هر دلیلی از بین رفته‌اند، لطفاً در این مورد با ما تماس نگیرید، زیرا ما نمی‌توانیم در این زمینه کمکی کنیم. ضبط‌های شما به صورت محلی در دستگاه شما ذخیره می‌شوند و هیچ نسخه پشتیبان ابری داخلی در برنامه وجود ندارد. توصیه می‌کنیم از یک برنامه ابری مانند Google Photos برای پشتیبان‌گیری از ضبط‌های خود استفاده کنید - پوشه ضبط‌های خود را در برنامه برای همگام‌سازی انتخاب کنید و به طور خودکار از آنها پشتیبان‌گیری می‌شود.</string>
     <string name="prefs_support_sum_text">گزارش یک اشکال، خرابی یا ارائه پیشنهاد</string>
     <string name="prefs_support_text">پشتیبانی (بازخورد)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">این نیز برای حفظ ثبات ضبط مداوم در پس زمینه ضروری است.</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">قفل ضبط‌ها فعال شد</string>
     <string name="records_pin_lock_msg_pin_changed">کد پین تغییر کرد</string>
     <string name="records_pin_lock_top_bar_title">قفل ضبط‌ها</string>
-    <string name="reset">تخلیه</string>
+    <string name="reset">تنظیم مجدد</string>
     <string name="snackbar_dismiss">پنهان کردن</string>
     <string name="storage_external_single">کارت MicroSD</string>
     <string name="storage_phone">حافظه تلفن</string>

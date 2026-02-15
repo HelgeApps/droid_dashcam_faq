@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">patayo</string>
     <string name="camera_front">Camera sa harap</string>
     <string name="camera_msg_error_in_use_text">Ang camera ay ginagamit ng isa pang application. Mangyaring huwag magpatakbo ng ibang mga application na maaaring gumagamit ng camera habang nagre-record ng video. Pinapayagan lamang ng Android ang isang app na gamitin ang camera sa isang pagkakataon</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">Hindi pinagana ang button para sa larawan sa pangunahing screen dahil natukoy ng app na hindi kayang hawakan ng iyong device ang higit sa dalawang output ng camera (preview, recording, at photo capture) nang sabay. Maaari ka pa ring kumuha ng mga larawan kahit tumatakbo ang app sa background gamit ang floating window. Pangunahing nangyayari ang isyung ito sa ilang Xiaomi device, bagama\'t maaaring may ganitong limitasyon din ang ilang modelo mula sa ibang mga tagagawa.</string>
     <string name="camera_msg_error_non_exposed_error">Nabigong buksan ang napiling camera. Nangyayari na hindi lahat ng mga nakatagong camera ay maaaring gamitin ng anumang application. Maraming mga tagagawa ang pinapayagan lamang ang kanilang paggamit sa kanilang mga katutubong application. Magbubukas ang default na camera.</string>
     <string name="camera_msg_error_unknown_text">Ang camera ay pansamantalang (ay) hindi magagamit upang buksan sa iyong device (camera system error)</string>
     <string name="camera_support_error">May naganap na error habang ginagamit ang camera.</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">Pag-optimize ng baterya</string>
     <string name="prefs_beep_each_start_recording_sum_text">Signal sa simula ng pag-record ng susunod na video file</string>
     <string name="prefs_beep_each_start_recording_text">Beep kapag nagre-record</string>
+    <string name="prefs_camera_blurry">Malabo</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">I-reset sa default na halaga kung ang imahe ay mukhang malabo</string>
+    <string name="prefs_camera_lens_distance_focus_title">Pagsasaayos ng distansya ng pokus ng lente para sa pagkamit ng infinity focus</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Maaaring hindi magbigay ng access ang manufacturer ng device sa lahat ng camera, kaya maaaring hindi bumukas ang ilan</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Maaaring hindi magbigay ang manufacturer ng device ng wide lens camera para sa lahat ng application</string>
     <string name="prefs_consent_information_privacy_options">Mga opsyon sa privacy (Impormasyon ng pahintulot)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">Transparency ng text</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">Kung mas madalas ang pag-update, mas mabilis maubos ang baterya</string>
     <string name="prefs_subtitles_update_address_frequency_text">Rate ng pag-update ng address</string>
+    <string name="prefs_support_contact_us">Makipag-ugnayan sa amin</string>
+    <string name="prefs_support_restore_records_warning_text">Kung ang iyong tanong ay tungkol sa pagpapanumbalik ng mga recording na nawala sa anumang paraan, mangyaring huwag makipag-ugnayan sa amin tungkol dito, dahil hindi kami makakatulong diyan. Ang iyong mga recording ay nakaimbak nang lokal sa iyong device, at walang built-in na cloud backup sa app. Inirerekomenda namin ang paggamit ng cloud app, tulad ng Google Photos, para i-backup ang iyong mga recording — piliin ang folder ng iyong mga recording sa app para sa pag-sync at awtomatiko nitong iba-back up ang mga ito.</string>
     <string name="prefs_support_sum_text">Mag-ulat ng bug, mag-crash o mag-alok</string>
     <string name="prefs_support_text">Suporta (feedback)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">Ito ay kinakailangan din upang mapanatili ang katatagan ng tuluy-tuloy na pag-record sa background.</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">Pinagana ang lock ng mga recording</string>
     <string name="records_pin_lock_msg_pin_changed">Binago ang PIN code</string>
     <string name="records_pin_lock_top_bar_title">Naka-lock ang mga recording</string>
-    <string name="reset">discharge</string>
+    <string name="reset">I-reset</string>
     <string name="snackbar_dismiss">Magtago</string>
     <string name="storage_external_single">MicroSD card</string>
     <string name="storage_phone">Memorya ng telepono</string>

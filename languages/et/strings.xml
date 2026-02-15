@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">vertikaalne</string>
     <string name="camera_front">Esikaamera</string>
     <string name="camera_msg_error_in_use_text">Kaamerat kasutas teine ​​rakendus. Ärge käivitage video salvestamise ajal muid rakendusi, mis võivad kaamerat kasutada. Android lubab kaamerat korraga kasutada ainult ühel rakendusel</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">Fotonupp on põhiekraanil keelatud, kuna rakendus tuvastas, et teie seade ei saa korraga hallata rohkem kui kahte kaameraväljundit (eelvaade, salvestamine ja pildistamine). Rakenduse taustal töötamise ajal saate ujuva akna abil ikkagi fotosid teha. See probleem esineb peamiselt mõnes Xiaomi seadmes, kuigi ka teiste tootjate teatud mudelitel võib see piirang esineda.</string>
     <string name="camera_msg_error_non_exposed_error">Valitud kaamera avamine ebaõnnestus. Juhtub nii, et ükski rakendus ei saa kasutada kõiki peidetud kaameraid. Paljud tootjad lubavad neid kasutada ainult oma kohalikes rakendustes. Avaneb vaikekaamera.</string>
     <string name="camera_msg_error_unknown_text">Kaamera ei ole ajutiselt (ei olnud) teie seadmes avamiseks saadaval (kaamera süsteemiviga)</string>
     <string name="camera_support_error">Kaamera kasutamisel ilmnes viga.</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">Aku optimeerimine</string>
     <string name="prefs_beep_each_start_recording_sum_text">Signaal järgmise videofaili salvestamise alguses</string>
     <string name="prefs_beep_each_start_recording_text">Piiks salvestamisel</string>
+    <string name="prefs_camera_blurry">Hägune</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">Lähtestage vaikeväärtus, kui pilt on udune</string>
+    <string name="prefs_camera_lens_distance_focus_title">Objektiivi teravustamiskauguse reguleerimine lõpmatusse teravustamise saavutamiseks</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Seadme tootja ei pruugi võimaldada juurdepääsu kõikidele kaameratele, mistõttu mõned ei pruugi avaneda</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Seadme tootja ei pruugi kõigi rakenduste jaoks pakkuda laiobjektiiviga kaamerat</string>
     <string name="prefs_consent_information_privacy_options">Privaatsusvalikud (nõusolekuteave)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">Teksti läbipaistvus</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">Mida sagedamini värskendatakse, seda kiiremini tühjeneb aku</string>
     <string name="prefs_subtitles_update_address_frequency_text">Aadressi uuendamise määr</string>
+    <string name="prefs_support_contact_us">Võtke meiega ühendust</string>
+    <string name="prefs_support_restore_records_warning_text">Kui teie küsimus puudutab mingil moel kaduma läinud salvestiste taastamist, siis palun ärge meiega ühendust võtke, kuna me ei saa teid sellega aidata. Teie salvestised salvestatakse teie seadmesse lokaalselt ja rakenduses pole sisseehitatud pilvevarundusfunktsiooni. Soovitame salvestiste varundamiseks kasutada pilverakendust, näiteks Google Photos – valige rakenduses sünkroonimiseks oma salvestiste kaust ja see varundab need automaatselt.</string>
     <string name="prefs_support_sum_text">Teatage veast, krahhist või tehke pakkumine</string>
     <string name="prefs_support_text">Tugi (tagasiside)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">See on vajalik ka pideva salvestamise stabiilsuse säilitamiseks taustal.</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">Salvestiste lukustus on lubatud</string>
     <string name="records_pin_lock_msg_pin_changed">PIN-kood on muudetud</string>
     <string name="records_pin_lock_top_bar_title">Salvestiste lukustus</string>
-    <string name="reset">tühjenemine</string>
+    <string name="reset">Lähtesta</string>
     <string name="snackbar_dismiss">Peida</string>
     <string name="storage_external_single">MicroSD-kaart</string>
     <string name="storage_phone">Telefoni mälu</string>

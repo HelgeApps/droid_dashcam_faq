@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">босоо</string>
     <string name="camera_front">Урд камер</string>
     <string name="camera_msg_error_in_use_text">Камерыг өөр програм ашиглаж байсан. Видео бичих явцад камер ашиглаж болзошгүй бусад программыг бүү ажиллуул. Android нь зөвхөн нэг аппликейшнд камер ашиглахыг зөвшөөрдөг</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">Аппликейшн таны төхөөрөмж хоёроос дээш камерын гаралтыг (урьдчилж харах, бичлэг хийх, зураг авах) нэгэн зэрэг хүлээн авах боломжгүй байгааг илрүүлсэн тул үндсэн дэлгэц дээр зураг авах товчлуурыг идэвхгүй болгосон. Аппликейшн ард ажиллаж байх үед хөвөгч цонхыг ашиглан зураг авах боломжтой хэвээр байна. Энэ асуудал нь голчлон зарим Xiaomi төхөөрөмж дээр гардаг боловч бусад үйлдвэрлэгчдийн зарим загварууд энэ хязгаарлалттай байж магадгүй юм.</string>
     <string name="camera_msg_error_non_exposed_error">Сонгосон камерыг нээж чадсангүй. Бүх далд камерыг ямар ч програм ашиглах боломжгүй байдаг. Олон үйлдвэрлэгчид зөвхөн өөрсдийн хэрэглээнд ашиглахыг зөвшөөрдөг. Өгөгдмөл камер нээгдэнэ.</string>
     <string name="camera_msg_error_unknown_text">Камерыг таны төхөөрөмж дээр түр хугацаанд нээх боломжгүй (камерын системийн алдаа)</string>
     <string name="camera_support_error">Камерыг ашиглах явцад алдаа гарлаа.</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">Батерейг оновчтой болгох</string>
     <string name="prefs_beep_each_start_recording_sum_text">Дараагийн видео файлын бичлэгийн эхэнд дохио өгнө</string>
     <string name="prefs_beep_each_start_recording_text">Бичлэг хийх үед дуугарах</string>
+    <string name="prefs_camera_blurry">Бүдэг</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">Хэрэв зураг бүдэг харагдаж байвал анхдагч утга руу дахин тохируулна уу</string>
+    <string name="prefs_camera_lens_distance_focus_title">Хязгааргүй фокусыг бий болгохын тулд линзний фокусын зайг тохируулна уу</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Төхөөрөмжийн үйлдвэрлэгч бүх камерт хандах эрх өгөхгүй байж магадгүй тул зарим нь нээгдэхгүй байж магадгүй юм</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Төхөөрөмж үйлдвэрлэгч нь бүх хэрэглээнд өргөн линзтэй камер өгөхгүй байж магадгүй юм</string>
     <string name="prefs_consent_information_privacy_options">Нууцлалын сонголтууд (Зөвшөөрлийн мэдээлэл)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">Текстийн ил тод байдал</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">Илүү олон удаа шинэчлэлт хийх тусам батарей хурдан дуусах болно</string>
     <string name="prefs_subtitles_update_address_frequency_text">Хаяг шинэчлэх хурд</string>
+    <string name="prefs_support_contact_us">Бидэнтэй холбоо барина уу</string>
+    <string name="prefs_support_restore_records_warning_text">Хэрэв таны асуулт ямар нэгэн байдлаар алдагдсан бичлэгийг сэргээх талаар бол бидэнтэй холбоо барих хэрэггүй, учир нь бид тусалж чадахгүй. Таны бичлэгүүд таны төхөөрөмж дээр локал хадгалагдсан бөгөөд аппликейшнд үүлэн нөөцлөлт байхгүй. Бичлэгээ нөөцлөхийн тулд Google Зураг гэх мэт үүлэн аппликейшн ашиглахыг зөвлөж байна - синк хийхийн тулд аппликейшн доторх бичлэгийн хавтасаа сонговол автоматаар нөөцлөгдөнө.</string>
     <string name="prefs_support_sum_text">Алдаа мэдээлэх, эвдрэх эсвэл санал тавих</string>
     <string name="prefs_support_text">Дэмжлэг (санал хүсэлт)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">Энэ нь арын дэвсгэр дээр тасралтгүй бичлэг хийх тогтвортой байдлыг хадгалахад шаардлагатай.</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">Бичлэгийн түгжээг идэвхжүүлсэн</string>
     <string name="records_pin_lock_msg_pin_changed">ПИН код өөрчлөгдсөн</string>
     <string name="records_pin_lock_top_bar_title">Бичлэгийн түгжээ</string>
-    <string name="reset">гадагшлуулах</string>
+    <string name="reset">Дахин тохируулах</string>
     <string name="snackbar_dismiss">Нуух</string>
     <string name="storage_external_single">MicroSD карт</string>
     <string name="storage_phone">Утасны санах ой</string>

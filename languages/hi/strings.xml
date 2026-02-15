@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">खड़ा</string>
     <string name="camera_front">सामने का कैमरा</string>
     <string name="camera_msg_error_in_use_text">कैमरे का इस्तेमाल किसी अन्य एप्लिकेशन द्वारा किया जा रहा था। कृपया अन्य एप्लिकेशन न चलाएं जो वीडियो रिकॉर्ड करते समय कैमरे का उपयोग कर रहे हों। Android एक समय में केवल एक ऐप को कैमरे का उपयोग करने की अनुमति देता है</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">मुख्य स्क्रीन पर फोटो बटन निष्क्रिय कर दिया गया है क्योंकि ऐप ने पाया है कि आपका डिवाइस एक साथ दो से अधिक कैमरा आउटपुट (पूर्वावलोकन, रिकॉर्डिंग और फोटो कैप्चर) को संभाल नहीं सकता है। ऐप के बैकग्राउंड में चलने पर आप फ्लोटिंग विंडो का उपयोग करके फोटो खींच सकते हैं। यह समस्या मुख्य रूप से कुछ Xiaomi डिवाइसों में होती है, हालांकि अन्य निर्माताओं के कुछ मॉडलों में भी यह सीमा हो सकती है।</string>
     <string name="camera_msg_error_non_exposed_error">चयनित कैमरा खोलने में विफल. ऐसा होता है कि सभी छिपे हुए कैमरों का उपयोग किसी भी एप्लिकेशन द्वारा नहीं किया जा सकता है। कई निर्माता केवल अपने मूल अनुप्रयोगों में ही इनके उपयोग की अनुमति देते हैं। डिफ़ॉल्ट कैमरा खुल जाएगा.</string>
     <string name="camera_msg_error_unknown_text">कैमरा अस्थायी रूप से (था) आपके डिवाइस पर खोलने के लिए अनुपलब्ध है (कैमरा सिस्टम त्रुटि)</string>
     <string name="camera_support_error">कैमरे का उपयोग करते समय एक त्रुटि हुई है।</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">बैटरी अनुकूलन</string>
     <string name="prefs_beep_each_start_recording_sum_text">अगली वीडियो फ़ाइल की रिकॉर्डिंग की शुरुआत में संकेत</string>
     <string name="prefs_beep_each_start_recording_text">रिकॉर्डिंग करते समय बीप करें</string>
+    <string name="prefs_camera_blurry">धुँधली</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">यदि छवि धुंधली दिखाई दे तो डिफ़ॉल्ट मान पर रीसेट करें</string>
+    <string name="prefs_camera_lens_distance_focus_title">अनंत फोकस प्राप्त करने के लिए लेंस फोकस दूरी समायोजन</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">डिवाइस निर्माता सभी कैमरों तक पहुंच प्रदान नहीं कर सकता है, इसलिए कुछ कैमरे नहीं खुलेंगे</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">डिवाइस निर्माता सभी अनुप्रयोगों के लिए एक विस्तृत लेंस कैमरा प्रदान नहीं कर सकता है</string>
     <string name="prefs_consent_information_privacy_options">गोपनीयता विकल्प (सहमति जानकारी)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">पाठ की पारदर्शिता</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">जितनी बार-बार अपडेट होंगे, बैटरी उतनी ही तेजी से खत्म होगी</string>
     <string name="prefs_subtitles_update_address_frequency_text">पता अद्यतन दर</string>
+    <string name="prefs_support_contact_us">हमसे संपर्क करें</string>
+    <string name="prefs_support_restore_records_warning_text">यदि आपका प्रश्न किसी भी कारण से खोई हुई रिकॉर्डिंग को पुनर्स्थापित करने से संबंधित है, तो कृपया इसके बारे में हमसे संपर्क न करें, क्योंकि हम इसमें आपकी सहायता नहीं कर सकते। आपकी रिकॉर्डिंग आपके डिवाइस पर स्थानीय रूप से संग्रहीत होती हैं, और ऐप में कोई अंतर्निर्मित क्लाउड बैकअप सुविधा नहीं है। हम आपकी रिकॉर्डिंग का बैकअप लेने के लिए Google Photos जैसे क्लाउड ऐप का उपयोग करने की सलाह देते हैं - सिंक करने के लिए ऐप में अपना रिकॉर्डिंग फ़ोल्डर चुनें और यह स्वचालित रूप से उनका बैकअप ले लेगा।</string>
     <string name="prefs_support_sum_text">बग की रिपोर्ट करें, क्रैश करें या ऑफ़र करें</string>
     <string name="prefs_support_text">समर्थन (प्रतिक्रिया)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">पृष्ठभूमि में निरंतर रिकॉर्डिंग की स्थिरता बनाए रखने के लिए भी यह आवश्यक है।</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">रिकॉर्डिंग लॉक सक्षम</string>
     <string name="records_pin_lock_msg_pin_changed">पिन कोड बदल गया</string>
     <string name="records_pin_lock_top_bar_title">रिकॉर्डिंग लॉक</string>
-    <string name="reset">मुक्ति</string>
+    <string name="reset">रीसेट करें</string>
     <string name="snackbar_dismiss">छिपाना</string>
     <string name="storage_external_single">माइक्रो एसडी कार्ड</string>
     <string name="storage_phone">फोन की मेमोरी</string>

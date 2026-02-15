@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">vertical</string>
     <string name="camera_front">Cámara frontal</string>
     <string name="camera_msg_error_in_use_text">A cámara estaba a ser utilizada por outra aplicación. Non executes outras aplicacións que poidan estar usando a cámara mentres gravas vídeo. Android só permite que unha aplicación use a cámara á vez</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">O botón de foto foi desactivado na pantalla principal porque a aplicación detectou que o teu dispositivo non pode xestionar máis de dúas saídas de cámara (vista previa, gravación e captura de fotos) ao mesmo tempo. Aínda podes facer fotos cando a aplicación se executa en segundo plano usando a xanela flotante. Este problema ocorre principalmente nalgúns dispositivos Xiaomi, aínda que certos modelos doutros fabricantes tamén poden ter esta limitación.</string>
     <string name="camera_msg_error_non_exposed_error">Produciuse un erro ao abrir a cámara seleccionada. Acontece que non todas as cámaras ocultas poden ser utilizadas por calquera aplicación. Moitos fabricantes só permiten o seu uso nas súas aplicacións nativas. Abrirase a cámara predeterminada.</string>
     <string name="camera_msg_error_unknown_text">A cámara non está (estaba) dispoñible temporalmente para abrir no teu dispositivo (erro do sistema da cámara)</string>
     <string name="camera_support_error">Produciuse un erro ao utilizar a cámara.</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">Optimización de batería</string>
     <string name="prefs_beep_each_start_recording_sum_text">Sinal ao comezo da gravación do seguinte ficheiro de vídeo</string>
     <string name="prefs_beep_each_start_recording_text">Bip ao gravar</string>
+    <string name="prefs_camera_blurry">Borroso</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">Restablecer ao valor predeterminado se a imaxe aparece borrosa</string>
+    <string name="prefs_camera_lens_distance_focus_title">Axuste da distancia de enfoque da lente para conseguir un enfoque infinito</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">É posible que o fabricante do dispositivo non proporcione acceso a todas as cámaras, polo que é posible que algunhas non se abran</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">É posible que o fabricante do dispositivo non proporcione unha cámara de lente ancha para todas as aplicacións</string>
     <string name="prefs_consent_information_privacy_options">Opcións de privacidade (información de consentimento)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">Transparencia do texto</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">Canto máis frecuentes sexan as actualizacións, máis rápido se esgotará a batería</string>
     <string name="prefs_subtitles_update_address_frequency_text">Taxa de actualización de enderezos</string>
+    <string name="prefs_support_contact_us">Contacta connosco</string>
+    <string name="prefs_support_restore_records_warning_text">Se a túa pregunta é sobre a restauración de gravacións que se perderon de calquera xeito, non te poñas en contacto connosco ao respecto, xa que non podemos axudar con iso. As túas gravacións almacénanse localmente no teu dispositivo e non hai unha copia de seguridade na nube integrada na aplicación. Recomendámosche usar unha aplicación na nube, como Google Fotos, para facer unha copia de seguridade das túas gravacións: selecciona o cartafol das túas gravacións na aplicación para sincronizalas e farase unha copia de seguridade automaticamente.</string>
     <string name="prefs_support_sum_text">Informa dun erro, falla ou fai unha oferta</string>
     <string name="prefs_support_text">Soporte (retroalimentación)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">Isto tamén é necesario para manter a estabilidade da gravación continua en segundo plano.</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">Bloqueo de gravacións activado</string>
     <string name="records_pin_lock_msg_pin_changed">Código PIN modificado</string>
     <string name="records_pin_lock_top_bar_title">Bloqueo de gravacións</string>
-    <string name="reset">descarga</string>
+    <string name="reset">Restablecer</string>
     <string name="snackbar_dismiss">Ocultar</string>
     <string name="storage_external_single">Tarxeta microSD</string>
     <string name="storage_phone">Memoria do teléfono</string>

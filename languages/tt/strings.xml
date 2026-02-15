@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">вертикаль</string>
     <string name="camera_front">Алгы камера</string>
     <string name="camera_msg_error_in_use_text">Камераны башка кушымта кулланган. Зинһар, видео яздырганда фотоаппаратны кулланырга мөмкин булган башка кушымталарны эшләтмәгез. Android бер кушымтага берьюлы камераны кулланырга рөхсәт итә</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">Кушымта сезнең җайланмагыз бер үк вакытта икедән артык камера чыгаруын (алдан карау, яздыру һәм фотога төшерү) эшкәртә алмавын ачыклаганга күрә, төп экранда фото төймәсе сүндерелгән. Кушымта фонда эшләгәндә дә, йөзүче тәрәзә ярдәмендә фотога төшерә аласыз. Бу проблема, нигездә, кайбер Xiaomi җайланмаларында очрый, гәрчә башка җитештерүчеләрнең кайбер модельләрендә дә бу чикләү булырга мөмкин.</string>
     <string name="camera_msg_error_non_exposed_error">Сайланган камераны ача алмады. Барлык яшерен фотоаппаратларны бернинди кушымта да кулланып булмый. Күпчелек җитештерүчеләр үзләренең туган кушымталарында кулланырга рөхсәт итәләр. Килешенгән камера ачылачак.</string>
     <string name="camera_msg_error_unknown_text">Камера җайланмагызда вакытлыча (мөмкин түгел) (камера системасы хата)</string>
     <string name="camera_support_error">Камераны кулланганда хата килеп чыкты.</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">Батареяны оптимизацияләү</string>
     <string name="prefs_beep_each_start_recording_sum_text">Киләсе видео файлны яздыру башында сигнал</string>
     <string name="prefs_beep_each_start_recording_text">Язганда тавыш бирегез</string>
+    <string name="prefs_camera_blurry">Тонык</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">Әгәр рәсем тонык күренсә, гадәти кыйммәткә кайтарыгыз</string>
+    <string name="prefs_camera_lens_distance_focus_title">Чиксезлек фокусына ирешү өчен линза фокусы арасын көйләү</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Deviceайланма җитештерүче барлык камераларга рөхсәт бирә алмый, шуңа күрә кайберләре ачылмаска мөмкин</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Deviceайланма җитештерүче барлык кушымталар өчен киң линза камерасы белән тәэмин итә алмый</string>
     <string name="prefs_consent_information_privacy_options">Хосусыйлык вариантлары (Килешү турында мәгълүмат)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">Текстның ачыклыгы</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">Яңартулар ешрак булса, батарея тизрәк бетәчәк</string>
     <string name="prefs_subtitles_update_address_frequency_text">Адресны яңарту дәрәҗәсе</string>
+    <string name="prefs_support_contact_us">Безнең белән элемтәгә керегез</string>
+    <string name="prefs_support_restore_records_warning_text">Әгәр сезнең соравыгыз югалган язмаларны торгызу турында булса, зинһар, безнең белән элемтәгә кермәгез, чөнки без бу мәсьәләдә ярдәм итә алмыйбыз. Сезнең язмаларыгыз сезнең җайланмада җирле рәвештә саклана, һәм кушымтаның болыттагы резерв күчермәсе юк. Язмаларыгызның резерв күчермәсен ясау өчен Google Photos кебек болыт кушымтасын кулланырга киңәш итәбез — синхронлаштыру өчен кушымтаның эчендәге язмалар папкасын сайлагыз, һәм ул аларны автоматик рәвештә резервлаячак.</string>
     <string name="prefs_support_sum_text">Хаталар турында хәбәр итү, ватылу яки тәкъдим ясау</string>
     <string name="prefs_support_text">Ярдәм (кире кайту)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">Бу шулай ук ​​фонда өзлексез язуның тотрыклылыгын саклау өчен кирәк.</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">Язулар йозак кушылган</string>
     <string name="records_pin_lock_msg_pin_changed">PIN коды үзгәрде</string>
     <string name="records_pin_lock_top_bar_title">Язулар бикләнә</string>
-    <string name="reset">агызу</string>
+    <string name="reset">Башлап җибәрү</string>
     <string name="snackbar_dismiss">Яшер</string>
     <string name="storage_external_single">MicroSD картасы</string>
     <string name="storage_phone">Телефон хәтере</string>

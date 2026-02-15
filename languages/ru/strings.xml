@@ -39,6 +39,7 @@
     <string name="camera_fov_vertical_text">вертикальный</string>
     <string name="camera_front">Фронтальна камера</string>
     <string name="camera_msg_error_in_use_text">Камера использовалась другим приложением. Пожалуйста, не запускайте другие приложения, которые могут использовать камеру во время записи видео. Android позволяет одновременно только одному приложению использовать камеру</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">Кнопка фотосъемки на главном экране отключена, поскольку приложение обнаружило, что ваше устройство не может одновременно обрабатывать более двух выходов камеры (предварительный просмотр, запись и фотосъемка). Вы по-прежнему можете делать фотографии, когда приложение работает в фоновом режиме, используя плавающее окно. Эта проблема в основном возникает на некоторых устройствах Xiaomi, хотя некоторые модели других производителей также могут иметь это ограничение.</string>
     <string name="camera_msg_error_non_exposed_error">Failed to open the selected camera. It so happens that not all hidden cameras can be used by any application. Many manufacturers only allow their use in their native applications. The default camera will open.</string>
     <string name="camera_msg_error_unknown_text">Камера временно (была) недоступна для открытия на вашем устройстве (системная ошибка камеры)</string>
     <string name="camera_support_error">Произошла ошибка при использовании камеры.</string>
@@ -191,6 +192,9 @@
     <string name="prefs_battery_optimization_text">Оптимизация батареи</string>
     <string name="prefs_beep_each_start_recording_sum_text">Сигнал в начале записи следующего видео файла</string>
     <string name="prefs_beep_each_start_recording_text">Звуковой сигнал при записи</string>
+    <string name="prefs_camera_blurry">Размыто</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">Если изображение кажется размытым, сбросьте значение до значения по умолчанию.</string>
+    <string name="prefs_camera_lens_distance_focus_title">Регулировка расстояния фокусировки объектива для достижения фокусировки на бесконечность.</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Производитель устройства может не предоставлять доступ ко всем камерам, поэтому некоторые могут не открыться</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Производитель устройства может не предоставлять камеру с широким объективом для всех приложений</string>
     <string name="prefs_consent_information_privacy_options">Параметры конфиденциальности (информация о согласии)</string>
@@ -359,6 +363,8 @@
     <string name="prefs_subtitles_transparency_text">Прозрачность текста</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">Чем чаще обновления, тем быстрее садится батарея</string>
     <string name="prefs_subtitles_update_address_frequency_text">Частота обновления адреса</string>
+    <string name="prefs_support_contact_us">Связаться с нами</string>
+    <string name="prefs_support_restore_records_warning_text">Если ваш вопрос касается восстановления записей, которые были утеряны по какой-либо причине, пожалуйста, не обращайтесь к нам по этому поводу, так как мы не можем вам помочь. Ваши записи хранятся локально на вашем устройстве, и в приложении нет встроенной функции резервного копирования в облако. Мы рекомендуем использовать облачное приложение, например Google Фото, для резервного копирования ваших записей — выберите папку с записями в приложении для синхронизации, и она автоматически создаст резервную копию.</string>
     <string name="prefs_support_sum_text">Сообщить об ошибке, сбое или сделать предложение</string>
     <string name="prefs_support_text">Поддержка (обратная связь)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">Также это необходимо для поддержания стабильности беспрерывной записи в фоновом режиме</string>
@@ -491,7 +497,7 @@
     <string name="records_pin_lock_msg_enabled">Блокировка записей включена</string>
     <string name="records_pin_lock_msg_pin_changed">PIN-код изменен</string>
     <string name="records_pin_lock_top_bar_title">Блокировка записей</string>
-    <string name="reset">сброс</string>
+    <string name="reset">Сбросить</string>
     <string name="snackbar_dismiss">Скрывать</string>
     <string name="storage_external_single">MicroSD карта</string>
     <string name="storage_phone">Память телефона</string>

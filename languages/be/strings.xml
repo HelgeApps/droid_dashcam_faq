@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">вертыкальны</string>
     <string name="camera_front">Франтальная камера</string>
     <string name="camera_msg_error_in_use_text">Камера выкарыстоўвалася іншым дадаткам. Калі ласка, не запускайце іншыя прыкладанні, якія могуць выкарыстоўваць камеру падчас запісу відэа. Android дазваляе адначасова толькі аднаму з дадаткам выкарыстоўваць камеру</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">Кнопка фота на галоўным экране адключана, бо праграма выявіла, што ваша прылада не можа адначасова апрацоўваць больш за два выхады камеры (папярэдні прагляд, запіс і здымка фота). Вы ўсё яшчэ можаце рабіць фатаграфіі, калі праграма працуе ў фонавым рэжыме, выкарыстоўваючы плаваючае акно. Гэтая праблема ўзнікае ў асноўным на некаторых прыладах Xiaomi, хоць некаторыя мадэлі іншых вытворцаў таксама могуць мець гэта абмежаванне.</string>
     <string name="camera_msg_error_non_exposed_error">Не ўдалося адкрыць выбраную камеру. Так бывае, што не ўсе ўтоеныя камеры могуць быць выкарыстаны любымі праграмамі. Многія вытворцы дазваляюць іх выкарыстанне толькі ў сваіх родных дадатках. Будзе адчынена камера па змаўчанні.</string>
     <string name="camera_msg_error_unknown_text">Камера часова (была) недаступная для адкрыцця на вашым прыладзе (сістэмная памылка камеры)</string>
     <string name="camera_support_error">Адбылася памылка пры выкарыстанні камеры.</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">Аптымізацыя батарэі</string>
     <string name="prefs_beep_each_start_recording_sum_text">Сігнал у пачатку запісу наступнага відэа файла</string>
     <string name="prefs_beep_each_start_recording_text">Гукавы сігнал пры запісе</string>
+    <string name="prefs_camera_blurry">Размыта</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">Скінуць да значэння па змаўчанні, калі выява выглядае размытай</string>
+    <string name="prefs_camera_lens_distance_focus_title">Рэгуляванне факуснай адлегласці аб\'ектыва для дасягнення бясконцасці фокусу</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Вытворца прылады можа не даваць доступ да ўсіх камер, таму некаторыя могуць не адкрыцца.</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Вытворца прылады можа не прадастаўляць камеру з шырокім аб\'ектывам для ўсіх прыкладанняў.</string>
     <string name="prefs_consent_information_privacy_options">Параметры прыватнасці (інфармацыя аб згодзе)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">Празрыстасць тэксту</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">Чым часцей абнаўленні, тым хутчэй садзіцца батарэя</string>
     <string name="prefs_subtitles_update_address_frequency_text">Частата абнаўлення адраса</string>
+    <string name="prefs_support_contact_us">Звяжыцеся з намі</string>
+    <string name="prefs_support_restore_records_warning_text">Калі ваша пытанне тычыцца аднаўлення запісаў, якія былі страчаны якім-небудзь чынам, калі ласка, не звяртайцеся да нас, бо мы не можам вам у гэтым дапамагчы. Вашы запісы захоўваюцца лакальна на вашай прыладзе, і ў дадатку няма ўбудаванай воблачнай рэзервовай копіі. Мы рэкамендуем выкарыстоўваць воблачную праграму, такую як Google Photos, для рэзервовага капіявання запісаў — выберыце тэчку з запісамі ў дадатку для сінхранізацыі, і яны будуць аўтаматычна рэзервова капіраваны.</string>
     <string name="prefs_support_sum_text">Паведаміць пра памылку, збоі ці зрабіць прапанову</string>
     <string name="prefs_support_text">Падтрымка (зваротная сувязь)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">Таксама гэта неабходна для падтрымання стабільнасці бесперапыннага запісу ў фонавым рэжыме.</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">Блакіроўка запісаў уключана</string>
     <string name="records_pin_lock_msg_pin_changed">ПІН-код зменены</string>
     <string name="records_pin_lock_top_bar_title">Блакіроўка запісаў</string>
-    <string name="reset">скід</string>
+    <string name="reset">Скінуць</string>
     <string name="snackbar_dismiss">Схаваць</string>
     <string name="storage_external_single">MicroSD карта</string>
     <string name="storage_phone">Памяць тэлефона</string>

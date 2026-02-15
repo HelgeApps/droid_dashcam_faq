@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">verticaal</string>
     <string name="camera_front">Voor camera</string>
     <string name="camera_msg_error_in_use_text">De camera werd gebruikt door een andere toepassing. Voer geen andere toepassingen uit die de camera mogelijk gebruiken tijdens het opnemen van video. Android staat slechts één app toe om de camera tegelijk te gebruiken</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">De fotoknop is uitgeschakeld op het hoofdscherm omdat de app heeft vastgesteld dat uw apparaat niet meer dan twee camera-uitgangen (voorbeeld, opname en foto) tegelijk aankan. U kunt nog steeds foto\'s maken wanneer de app op de achtergrond draait via het zwevende venster. Dit probleem doet zich voornamelijk voor op sommige Xiaomi-apparaten, maar bepaalde modellen van andere fabrikanten kunnen deze beperking ook hebben.</string>
     <string name="camera_msg_error_non_exposed_error">Kan de geselecteerde camera niet openen. Het gebeurt zo dat niet alle verborgen camera\'s door elke toepassing kunnen worden gebruikt. Veel fabrikanten staan ​​het gebruik ervan alleen toe in hun eigen toepassingen. De standaardcamera wordt geopend.</string>
     <string name="camera_msg_error_unknown_text">De camera kan (tijdelijk) niet worden geopend op uw apparaat (camerasysteemfout)</string>
     <string name="camera_support_error">Er is een fout opgetreden tijdens het gebruik van de camera.</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">Batterij optimalisatie</string>
     <string name="prefs_beep_each_start_recording_sum_text">Signaal aan het begin van de opname van het volgende videobestand</string>
     <string name="prefs_beep_each_start_recording_text">Piep tijdens opnemen</string>
+    <string name="prefs_camera_blurry">Wazig</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">Stel de waarde terug naar de standaardwaarde als de afbeelding wazig lijkt.</string>
+    <string name="prefs_camera_lens_distance_focus_title">Instelling van de scherpstelafstand van de lens voor het bereiken van oneindige scherpstelling.</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">De fabrikant van het apparaat biedt mogelijk geen toegang tot alle camera\'s, dus sommige kunnen niet worden geopend</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">De fabrikant van het apparaat levert mogelijk niet voor alle toepassingen een camera met brede lens</string>
     <string name="prefs_consent_information_privacy_options">Privacyopties (Toestemmingsinformatie)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">Transparantie van tekst</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">Hoe vaker de updates, hoe sneller de batterij leeg raakt</string>
     <string name="prefs_subtitles_update_address_frequency_text">Updatesnelheid adres</string>
+    <string name="prefs_support_contact_us">Neem contact met ons op</string>
+    <string name="prefs_support_restore_records_warning_text">Als uw vraag gaat over het herstellen van opnames die op welke manier dan ook verloren zijn gegaan, neem dan geen contact met ons op, want daar kunnen we u niet mee helpen. Uw opnames worden lokaal op uw apparaat opgeslagen en de app heeft geen ingebouwde cloudback-upfunctie. We raden u aan een cloud-app te gebruiken, zoals Google Foto\'s, om een back-up van uw opnames te maken. Selecteer uw opnamemap in de app om te synchroniseren en er wordt automatisch een back-up van gemaakt.</string>
     <string name="prefs_support_sum_text">Meld een bug, crash of doe een bod</string>
     <string name="prefs_support_text">Ondersteuning (feedback)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">Dit is ook nodig om de stabiliteit van continu opnemen op de achtergrond te behouden.</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">Opnamevergrendeling ingeschakeld</string>
     <string name="records_pin_lock_msg_pin_changed">PIN-code gewijzigd</string>
     <string name="records_pin_lock_top_bar_title">Opnames vergrendelen</string>
-    <string name="reset">afvoer</string>
+    <string name="reset">Reset</string>
     <string name="snackbar_dismiss">Verbergen</string>
     <string name="storage_external_single">Micro SD kaart</string>
     <string name="storage_phone">Telefoon geheugen</string>

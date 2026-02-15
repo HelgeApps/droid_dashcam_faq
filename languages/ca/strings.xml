@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">vertical</string>
     <string name="camera_front">Càmera frontal</string>
     <string name="camera_msg_error_in_use_text">La càmera estava sent utilitzada per una altra aplicació. No executeu altres aplicacions que puguin estar utilitzant la càmera mentre enregistreu el vídeo. Android només permet que una aplicació faci servir la càmera alhora</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">El botó de foto s\'ha desactivat a la pantalla principal perquè l\'aplicació ha detectat que el dispositiu no pot gestionar més de dues sortides de càmera (previsualització, gravació i captura de fotos) alhora. Encara podeu fer fotos quan l\'aplicació s\'executa en segon pla mitjançant la finestra flotant. Aquest problema es produeix principalment en alguns dispositius Xiaomi, tot i que alguns models d\'altres fabricants també poden tenir aquesta limitació.</string>
     <string name="camera_msg_error_non_exposed_error">No s\'ha pogut obrir la càmera seleccionada. Succeeix que no totes les càmeres ocultes poden ser utilitzades per qualsevol aplicació. Molts fabricants només permeten el seu ús en les seves aplicacions natives. S\'obrirà la càmera predeterminada.</string>
     <string name="camera_msg_error_unknown_text">La càmera no està (estava) disponible temporalment per obrir-se al dispositiu (error del sistema de càmera)</string>
     <string name="camera_support_error">S\'ha produït un error en utilitzar la càmera.</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">Optimització de la bateria</string>
     <string name="prefs_beep_each_start_recording_sum_text">Senyal a l\'inici de l\'enregistrament del següent fitxer de vídeo</string>
     <string name="prefs_beep_each_start_recording_text">Bip en gravar</string>
+    <string name="prefs_camera_blurry">Borrós</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">Restableix al valor predeterminat si la imatge apareix borrosa</string>
+    <string name="prefs_camera_lens_distance_focus_title">Ajust de la distància d\'enfocament de l\'objectiu per aconseguir un enfocament infinit</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">És possible que el fabricant del dispositiu no proporcioni accés a totes les càmeres, de manera que algunes no s\'obren</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">És possible que el fabricant del dispositiu no proporcioni una càmera de lent gran per a totes les aplicacions</string>
     <string name="prefs_consent_information_privacy_options">Opcions de privadesa (informació de consentiment)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">Transparència del text</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">Com més freqüents siguin les actualitzacions, més ràpid s\'esgotarà la bateria</string>
     <string name="prefs_subtitles_update_address_frequency_text">Taxa d\'actualització d\'adreces</string>
+    <string name="prefs_support_contact_us">Contacta amb nosaltres</string>
+    <string name="prefs_support_restore_records_warning_text">Si la vostra pregunta és sobre la restauració de gravacions que s\'han perdut de qualsevol manera, no us poseu en contacte amb nosaltres, ja que no us podem ajudar. Les vostres gravacions s\'emmagatzemen localment al vostre dispositiu i no hi ha cap còpia de seguretat al núvol integrada a l\'aplicació. Us recomanem que utilitzeu una aplicació al núvol, com ara Google Fotos, per fer una còpia de seguretat de les vostres gravacions; seleccioneu la carpeta de gravacions a l\'aplicació per sincronitzar-les i se\'n farà una còpia de seguretat automàticament.</string>
     <string name="prefs_support_sum_text">Informa d\'un error, falla o fes una oferta</string>
     <string name="prefs_support_text">Suport (opinió)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">Això també és necessari per mantenir l\'estabilitat de l\'enregistrament continu en segon pla.</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">Bloqueig de gravacions activat</string>
     <string name="records_pin_lock_msg_pin_changed">El codi PIN ha canviat</string>
     <string name="records_pin_lock_top_bar_title">Bloqueig de gravacions</string>
-    <string name="reset">descàrrega</string>
+    <string name="reset">Restablir</string>
     <string name="snackbar_dismiss">Amaga</string>
     <string name="storage_external_single">Targeta MicroSD</string>
     <string name="storage_phone">Memòria del telèfon</string>

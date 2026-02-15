@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">vertikal</string>
     <string name="camera_front">Fram kamera</string>
     <string name="camera_msg_error_in_use_text">Kameran användes av en annan applikation. Kör inte andra program som kan använda kameran när du spelar in video. Android tillåter bara en app att använda kameran åt gången</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">Fotoknappen har inaktiverats på huvudskärmen eftersom appen upptäckte att din enhet inte kan hantera mer än två kamerautgångar (förhandsvisning, inspelning och fototagning) samtidigt. Du kan fortfarande ta foton när appen körs i bakgrunden med hjälp av det flytande fönstret. Det här problemet uppstår främst på vissa Xiaomi-enheter, även om vissa modeller från andra tillverkare också kan ha denna begränsning.</string>
     <string name="camera_msg_error_non_exposed_error">Det gick inte att öppna den valda kameran. Det råkar vara så att inte alla dolda kameror kan användas av alla program. Många tillverkare tillåter endast deras användning i sina inhemska applikationer. Standardkameran öppnas.</string>
     <string name="camera_msg_error_unknown_text">Kameran är tillfälligt (var) inte tillgänglig att öppna på din enhet (kamerasystemfel)</string>
     <string name="camera_support_error">Ett fel har uppstått när du använder kameran.</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">Batterioptimering</string>
     <string name="prefs_beep_each_start_recording_sum_text">Signal i början av inspelningen av nästa videofil</string>
     <string name="prefs_beep_each_start_recording_text">Pip vid inspelning</string>
+    <string name="prefs_camera_blurry">Suddig</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">Återställ till standardvärdet om bilden ser suddig ut</string>
+    <string name="prefs_camera_lens_distance_focus_title">Justering av objektivets fokusavstånd för att uppnå oändligt fokus</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Enhetstillverkaren kanske inte ger åtkomst till alla kameror, så vissa kanske inte öppnas</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Enhetstillverkaren kanske inte tillhandahåller en vidvinkelkamera för alla applikationer</string>
     <string name="prefs_consent_information_privacy_options">Sekretessalternativ (samtyckesinformation)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">Transparens av text</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">Ju oftare uppdateringar desto snabbare laddas batteriet ur</string>
     <string name="prefs_subtitles_update_address_frequency_text">Adressuppdateringshastighet</string>
+    <string name="prefs_support_contact_us">Kontakta oss</string>
+    <string name="prefs_support_restore_records_warning_text">Om din fråga gäller att återställa inspelningar som gått förlorade på något sätt, vänligen kontakta oss inte, eftersom vi inte kan hjälpa till med det. Dina inspelningar lagras lokalt på din enhet, och det finns ingen inbyggd molnsäkerhetskopiering i appen. Vi rekommenderar att du använder en molnapp, till exempel Google Foto, för att säkerhetskopiera dina inspelningar – välj din inspelningsmapp i appen för synkronisering så säkerhetskopieras de automatiskt.</string>
     <string name="prefs_support_sum_text">Rapportera ett fel, kraschar eller lämna ett erbjudande</string>
     <string name="prefs_support_text">Support (feedback)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">Detta är också nödvändigt för att upprätthålla stabiliteten för kontinuerlig inspelning i bakgrunden.</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">Inspelningslås aktiverat</string>
     <string name="records_pin_lock_msg_pin_changed">PIN-kod ändrad</string>
     <string name="records_pin_lock_top_bar_title">Inspelningslås</string>
-    <string name="reset">ansvarsfrihet</string>
+    <string name="reset">Återställa</string>
     <string name="snackbar_dismiss">Dölja</string>
     <string name="storage_external_single">MicroSD-kort</string>
     <string name="storage_phone">Telefon minne</string>

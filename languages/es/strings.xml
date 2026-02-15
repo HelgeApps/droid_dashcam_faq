@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">vertical</string>
     <string name="camera_front">Cámara frontal</string>
     <string name="camera_msg_error_in_use_text">La cámara estaba siendo utilizada por otra aplicación. No ejecute otras aplicaciones que puedan estar usando la cámara mientras graba un video. Android solo permite que una aplicación use la cámara a la vez</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">El botón de foto se ha desactivado en la pantalla principal porque la aplicación ha detectado que tu dispositivo no admite más de dos salidas de cámara (vista previa, grabación y captura de fotos) simultáneamente. Puedes seguir tomando fotos cuando la aplicación se ejecuta en segundo plano usando la ventana flotante. Este problema se produce principalmente en algunos dispositivos Xiaomi, aunque algunos modelos de otros fabricantes también pueden tener esta limitación.</string>
     <string name="camera_msg_error_non_exposed_error">No se pudo abrir la cámara seleccionada. No todas las cámaras ocultas pueden ser utilizadas por cualquier aplicación. Muchos fabricantes solo permiten su uso en sus aplicaciones nativas. Se abrirá la cámara predeterminada.</string>
     <string name="camera_msg_error_unknown_text">La cámara no está disponible temporalmente (no estaba) disponible para abrirse en su dispositivo (error del sistema de la cámara)</string>
     <string name="camera_support_error">Ha ocurrido un error al usar la cámara.</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">Optimización la batería</string>
     <string name="prefs_beep_each_start_recording_sum_text">Señal al comienzo de la grabación del siguiente archivo de video</string>
     <string name="prefs_beep_each_start_recording_text">Pitido al grabar</string>
+    <string name="prefs_camera_blurry">Borroso</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">Restablecer al valor predeterminado si la imagen aparece borrosa</string>
+    <string name="prefs_camera_lens_distance_focus_title">Ajuste de la distancia de enfoque de la lente para lograr un enfoque infinito</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Es posible que el fabricante del dispositivo no proporcione acceso a todas las cámaras, por ello puede que algunas no sean accesibles</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Es posible que el fabricante del dispositivo no proporcione una cámara de gran angular para todas las aplicaciones.</string>
     <string name="prefs_consent_information_privacy_options">Opciones de privacidad (información de consentimiento)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">Transparencia del texto</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">Cuanto más frecuentes sean las actualizaciones, más rápido se agotará la batería</string>
     <string name="prefs_subtitles_update_address_frequency_text">Tasa de actualización de direcciones</string>
+    <string name="prefs_support_contact_us">Contáctanos</string>
+    <string name="prefs_support_restore_records_warning_text">Si su pregunta es sobre cómo restaurar grabaciones perdidas, no nos contacte, ya que no podemos ayudarle. Sus grabaciones se almacenan localmente en su dispositivo y la aplicación no incluye una copia de seguridad en la nube. Recomendamos usar una aplicación en la nube, como Google Fotos, para respaldar sus grabaciones. Seleccione la carpeta de grabaciones en la aplicación para sincronizarlas y se respaldarán automáticamente.</string>
     <string name="prefs_support_sum_text">Informar un error, bloqueo o sugerencias</string>
     <string name="prefs_support_text">Soporte (comentarios)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">Esto también es necesario para mantener la estabilidad de la grabación continua en segundo plano.</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">Bloqueo de grabaciones habilitado</string>
     <string name="records_pin_lock_msg_pin_changed">Código PIN cambiado</string>
     <string name="records_pin_lock_top_bar_title">Bloqueo de grabaciones</string>
-    <string name="reset">restablecer</string>
+    <string name="reset">Reiniciar</string>
     <string name="snackbar_dismiss">Esconder</string>
     <string name="storage_external_single">Tarjeta micro SD</string>
     <string name="storage_phone">Memoria del teléfono</string>

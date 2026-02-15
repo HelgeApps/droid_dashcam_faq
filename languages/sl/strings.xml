@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">navpično</string>
     <string name="camera_front">Sprednja kamera</string>
     <string name="camera_msg_error_in_use_text">Kamero je uporabljala druga aplikacija. Prosimo, da med snemanjem videa ne zaganjajte drugih aplikacij, ki morda uporabljajo kamero. Android dovoljuje samo eni aplikaciji, da uporablja kamero hkrati</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">Gumb za fotografiranje je bil na glavnem zaslonu onemogočen, ker je aplikacija zaznala, da vaša naprava ne more hkrati obdelati več kot dveh izhodov kamere (predogled, snemanje in zajem fotografij). Fotografije lahko še vedno fotografirate, ko aplikacija deluje v ozadju, z uporabo plavajočega okna. Do te težave prihaja predvsem pri nekaterih napravah Xiaomi, čeprav imajo lahko to omejitev tudi nekateri modeli drugih proizvajalcev.</string>
     <string name="camera_msg_error_non_exposed_error">Izbrane kamere ni bilo mogoče odpreti. Zgodi se, da nobena aplikacija ne more uporabljati vseh skritih kamer. Številni proizvajalci dovoljujejo njihovo uporabo samo v svojih izvornih aplikacijah. Odprla se bo privzeta kamera.</string>
     <string name="camera_msg_error_unknown_text">Kamera začasno (bila) ni na voljo za odpiranje v vaši napravi (sistemska napaka kamere)</string>
     <string name="camera_support_error">Pri uporabi fotoaparata je prišlo do napake.</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">Optimizacija baterije</string>
     <string name="prefs_beep_each_start_recording_sum_text">Signal na začetku snemanja naslednje video datoteke</string>
     <string name="prefs_beep_each_start_recording_text">Pisk med snemanjem</string>
+    <string name="prefs_camera_blurry">Zamegljeno</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">Ponastavi na privzeto vrednost, če je slika zamegljena</string>
+    <string name="prefs_camera_lens_distance_focus_title">Prilagoditev razdalje ostrenja objektiva za doseganje neskončnega ostrenja</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Proizvajalec naprave morda ne omogoča dostopa do vseh kamer, zato se nekatere morda ne bodo odprle</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Proizvajalec naprave morda ne nudi kamere s širokim objektivom za vse aplikacije</string>
     <string name="prefs_consent_information_privacy_options">Možnosti zasebnosti (informacije o privolitvi)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">Transparentnost besedila</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">Pogostejše kot so posodobitve, hitreje se bo baterija izpraznila</string>
     <string name="prefs_subtitles_update_address_frequency_text">Stopnja posodabljanja naslova</string>
+    <string name="prefs_support_contact_us">Kontaktirajte nas</string>
+    <string name="prefs_support_restore_records_warning_text">Če se vaše vprašanje nanaša na obnovitev posnetkov, ki so bili kakorkoli izgubljeni, nas prosim ne kontaktirajte, saj vam pri tem ne moremo pomagati. Vaši posnetki so shranjeni lokalno v vaši napravi in aplikacija nima vgrajene varnostne kopije v oblaku. Priporočamo uporabo aplikacije v oblaku, kot je Google Foto, za varnostno kopiranje posnetkov – v aplikaciji izberite mapo s posnetki za sinhronizacijo in samodejno jih bo varnostno kopirala.</string>
     <string name="prefs_support_sum_text">Prijavite napako, zrušitev ali dajte ponudbo</string>
     <string name="prefs_support_text">Podpora (povratne informacije)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">To je potrebno tudi za ohranitev stabilnosti neprekinjenega snemanja v ozadju.</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">Zaklepanje posnetkov omogočeno</string>
     <string name="records_pin_lock_msg_pin_changed">PIN koda spremenjena</string>
     <string name="records_pin_lock_top_bar_title">Zaklepanje posnetkov</string>
-    <string name="reset">praznjenje</string>
+    <string name="reset">Ponastavi</string>
     <string name="snackbar_dismiss">Skrij</string>
     <string name="storage_external_single">kartico microSD</string>
     <string name="storage_phone">Pomnilnik telefona</string>

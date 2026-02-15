@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">амудӣ</string>
     <string name="camera_front">Камераи пеши</string>
     <string name="camera_msg_error_in_use_text">Камераро замимаи дигар истифода мебурд. Лутфан, барномаҳои дигареро, ки ҳангоми сабти видео аз камера истифода мебаранд, иҷро накунед. Android танҳо ба як барнома иҷозат медиҳад, ки камераро дар як вақт истифода барад</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">Тугмаи аксбардорӣ дар экрани асосӣ ғайрифаъол карда шудааст, зеро барнома муайян кард, ки дастгоҳи шумо наметавонад дар як вақт зиёда аз ду баромади камераро (пешнамоиш, сабт ва гирифтани акс) иҷро кунад. Шумо ҳоло ҳам метавонед ҳангоми кор кардани барнома дар замина бо истифода аз тирезаи шинокунанда акс гиред. Ин мушкилот асосан дар баъзе дастгоҳҳои Xiaomi рух медиҳад, гарчанде ки баъзе моделҳои дигар истеҳсолкунандагон низ метавонанд ин маҳдудиятро дошта бошанд.</string>
     <string name="camera_msg_error_non_exposed_error">Камераи интихобшударо кушода натавонист. Чунин мешавад, ки на ҳама камераҳои пинҳониро ягон барнома истифода бурдан мумкин аст. Бисёре аз истеҳсолкунандагон танҳо ба истифодаи онҳо дар барномаҳои ватании худ иҷозат медиҳанд. Камераи пешфарз кушода мешавад.</string>
     <string name="camera_msg_error_unknown_text">Камера барои кушодан дар дастгоҳи шумо муваққатан дастнорас аст (хатои системаи камера)</string>
     <string name="camera_support_error">Ҳангоми истифодаи камера хатогӣ рух дод.</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">Оптимизатсияи батарея</string>
     <string name="prefs_beep_each_start_recording_sum_text">Сигнал дар оғози сабти файли видеоии навбатӣ</string>
     <string name="prefs_beep_each_start_recording_text">Ҳангоми сабти садо</string>
+    <string name="prefs_camera_blurry">Норавшан</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">Агар тасвир норавшан ба назар расад, онро ба арзиши пешфарз баргардонед</string>
+    <string name="prefs_camera_lens_distance_focus_title">Танзими масофаи фокуси линза барои ноил шудан ба фокуси беохир</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Истеҳсолкунандаи дастгоҳ метавонад дастрасӣ ба ҳама камераҳоро таъмин накунад, бинобар ин баъзеҳо кушода намешаванд</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Истеҳсолкунандаи дастгоҳ метавонад камераи линзаи васеъро барои ҳама барномаҳо таъмин накунад</string>
     <string name="prefs_consent_information_privacy_options">Имконоти махфият (Маълумот дар бораи розигӣ)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">Шаффофияти матн</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">Чӣ қадаре ки навсозиҳо зиёдтар шаванд, батарея ҳамон қадар тезтар холӣ мешавад</string>
     <string name="prefs_subtitles_update_address_frequency_text">Сатҳи навсозии суроға</string>
+    <string name="prefs_support_contact_us">Бо мо тамос гиред</string>
+    <string name="prefs_support_restore_records_warning_text">Агар саволи шумо дар бораи барқарор кардани сабтҳое бошад, ки бо ягон роҳ гум шудаанд, лутфан бо мо дар ин бора тамос нагиред, зеро мо наметавонем дар ин кор кумак кунем. Сабтҳои шумо дар дастгоҳи шумо ба таври маҳаллӣ нигоҳ дошта мешаванд ва дар барнома нусхабардории дарунсохти абрӣ мавҷуд нест. Мо тавсия медиҳем, ки барои нусхабардории сабтҳои худ аз барномаи абрӣ, ба монанди Google Photos, истифода баред — барои ҳамоҳангсозӣ ҷузвдони сабтҳои худро дар барнома интихоб кунед ва он ба таври худкор онҳоро нусхабардорӣ мекунад.</string>
     <string name="prefs_support_sum_text">Дар бораи хатогӣ хабар диҳед, садама гузоред ё пешниҳод кунед</string>
     <string name="prefs_support_text">Дастгирӣ (фикр)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">Ин инчунин барои нигоҳ доштани устувории сабти пайваста дар замина зарур аст.</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">Қулфи сабтҳо фаъол аст</string>
     <string name="records_pin_lock_msg_pin_changed">Рамзи PIN иваз карда шуд</string>
     <string name="records_pin_lock_top_bar_title">Қулфи сабтҳо</string>
-    <string name="reset">разряд</string>
+    <string name="reset">Аз нав танзимкунӣ</string>
     <string name="snackbar_dismiss">Пинҳон кардан</string>
     <string name="storage_external_single">Корти MicroSD</string>
     <string name="storage_phone">Хотираи телефон</string>

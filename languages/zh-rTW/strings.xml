@@ -24,6 +24,7 @@
     <string name="camera_fov_vertical_text">垂直的</string>
     <string name="camera_front">前置鏡頭</string>
     <string name="camera_msg_error_in_use_text">鏡頭正被另一個應用程式使用。請不要在錄製視頻時運行其他可能正在使用鏡頭的應用程式。 Android 僅允許一個應用程式使用鏡頭</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">由於應用程式偵測到您的裝置無法同時處理超過兩個相機輸出（預覽、錄製和拍照），主畫面上的拍照按鈕已停用。您仍然可以在應用程式後台運行時使用浮動視窗拍照。此問題主要出現在部分小米設備上，但其他廠商的某些型號也可能有此限制。</string>
     <string name="camera_msg_error_non_exposed_error">無法打開所選攝像頭。碰巧的是，並非所有隱藏攝像頭都可以被任何應用程序使用。許多製造商只允許在其本機應用程序中使用它們。默認相機將打開。</string>
     <string name="camera_msg_error_unknown_text">鏡頭暫時（目前）無法在您的設備上開啟（相機系统錯誤）</string>
     <string name="camera_support_error">使用鏡頭時發生錯誤。</string>
@@ -176,6 +177,9 @@
     <string name="prefs_battery_optimization_text">電池最佳化</string>
     <string name="prefs_beep_each_start_recording_sum_text">下一個影片檔案錄製開始時的信號</string>
     <string name="prefs_beep_each_start_recording_text">錄影時發出嗶嗶聲</string>
+    <string name="prefs_camera_blurry">模糊</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">如果影像模糊，則重設為預設值。</string>
+    <string name="prefs_camera_lens_distance_focus_title">鏡頭對焦距離調節，實現無限遠對焦</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">設備製造商可能不提供對所有攝像頭的訪問，因此某些攝像頭可能無法打開</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">設備製造商可能不會為所有應用程序提供廣角鏡頭相機</string>
     <string name="prefs_consent_information_privacy_options">隱私選項（同意資訊）</string>
@@ -344,6 +348,8 @@
     <string name="prefs_subtitles_transparency_text">文字透明度</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">更新越頻繁，電量消耗得越快</string>
     <string name="prefs_subtitles_update_address_frequency_text">地址更新率</string>
+    <string name="prefs_support_contact_us">聯絡我們</string>
+    <string name="prefs_support_restore_records_warning_text">如果您的問題是關於恢復遺失的錄影，請不要聯絡我們，因為我們無法提供這方面的協助。您的錄影儲存在本機裝置上，應用程式本身沒有內建的雲端備份功能。我們建議您使用雲端應用程式（例如 Google Photos）來備份錄影－在應用程式中選擇您的錄影資料夾進行同步，它會自動備份。</string>
     <string name="prefs_support_sum_text">報告錯誤、崩潰或提出報價</string>
     <string name="prefs_support_text">支持（反饋）</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">這對於保持後台連續錄製的穩定性也是必要的。</string>
@@ -476,7 +482,7 @@
     <string name="records_pin_lock_msg_enabled">錄音鎖定已啟用</string>
     <string name="records_pin_lock_msg_pin_changed">PIN 碼已更改</string>
     <string name="records_pin_lock_top_bar_title">錄音鎖定</string>
-    <string name="reset">釋放</string>
+    <string name="reset">重置</string>
     <string name="snackbar_dismiss">隱藏</string>
     <string name="storage_external_single">MicroSD 卡</string>
     <string name="storage_phone">手機内存</string>

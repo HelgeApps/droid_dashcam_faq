@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">vertical</string>
     <string name="camera_front">Camera frontala</string>
     <string name="camera_msg_error_in_use_text">Camera era folosită de o altă aplicație. Vă rugăm să nu rulați alte aplicații care ar putea folosi camera în timpul înregistrării video. Android permite o singură aplicație să folosească camera la un moment dat</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">Butonul foto a fost dezactivat pe ecranul principal deoarece aplicația a detectat că dispozitivul nu poate gestiona mai mult de două ieșiri ale camerei (previzualizare, înregistrare și captură foto) simultan. Puteți totuși să faceți fotografii atunci când aplicația rulează în fundal folosind fereastra flotantă. Această problemă apare în principal pe unele dispozitive Xiaomi, deși și anumite modele de la alți producători pot avea această limitare.</string>
     <string name="camera_msg_error_non_exposed_error">Nu s-a putut deschide camera selectată. Se întâmplă că nu toate camerele ascunse pot fi folosite de orice aplicație. Mulți producători permit utilizarea lor numai în aplicațiile lor native. Se va deschide camera implicită.</string>
     <string name="camera_msg_error_unknown_text">Camera este temporar (era) indisponibilă pentru a fi deschisă pe dispozitivul dvs. (eroare de sistem a camerei)</string>
     <string name="camera_support_error">A apărut o eroare în timpul utilizării camerei.</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">Optimizarea bateriei</string>
     <string name="prefs_beep_each_start_recording_sum_text">Semnal la începutul înregistrării următorului fișier video</string>
     <string name="prefs_beep_each_start_recording_text">Bip la înregistrare</string>
+    <string name="prefs_camera_blurry">Încețoșat</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">Resetați la valoarea implicită dacă imaginea apare neclară</string>
+    <string name="prefs_camera_lens_distance_focus_title">Reglarea distanței de focalizare a obiectivului pentru obținerea focalizării infinite</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Este posibil ca producătorul dispozitivului să nu ofere acces la toate camerele, așa că este posibil ca unele să nu se deschidă</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Este posibil ca producătorul dispozitivului să nu ofere o cameră cu lentile largi pentru toate aplicațiile</string>
     <string name="prefs_consent_information_privacy_options">Opțiuni de confidențialitate (informații privind consimțământul)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">Transparența textului</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">Cu cât actualizările sunt mai frecvente, cu atât bateria se va descărca mai repede</string>
     <string name="prefs_subtitles_update_address_frequency_text">Rata de actualizare a adresei</string>
+    <string name="prefs_support_contact_us">Contactaţi-ne</string>
+    <string name="prefs_support_restore_records_warning_text">Dacă întrebarea dvs. se referă la restaurarea înregistrărilor pierdute în vreun fel, vă rugăm să nu ne contactați în această privință, deoarece nu vă putem ajuta. Înregistrările dvs. sunt stocate local pe dispozitivul dvs. și nu există o copie de rezervă în cloud încorporată în aplicație. Vă recomandăm să utilizați o aplicație cloud, cum ar fi Google Foto, pentru a crea copii de rezervă ale înregistrărilor - selectați folderul de înregistrări din aplicație pentru sincronizare și aceasta va crea automat copii de rezervă.</string>
     <string name="prefs_support_sum_text">Raportați o eroare, blocare sau faceți o ofertă</string>
     <string name="prefs_support_text">Asistență (feedback)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">Acest lucru este, de asemenea, necesar pentru a menține stabilitatea înregistrării continue în fundal.</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">Blocarea înregistrărilor este activată</string>
     <string name="records_pin_lock_msg_pin_changed">Codul PIN s-a schimbat</string>
     <string name="records_pin_lock_top_bar_title">Blocarea înregistrărilor</string>
-    <string name="reset">deversare</string>
+    <string name="reset">Resetare</string>
     <string name="snackbar_dismiss">Ascunde</string>
     <string name="storage_external_single">Card microSD</string>
     <string name="storage_phone">Memoria telefonului</string>

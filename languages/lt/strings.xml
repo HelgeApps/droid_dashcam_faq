@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">vertikaliai</string>
     <string name="camera_front">Priekinė kamera</string>
     <string name="camera_msg_error_in_use_text">Kamerą naudojo kita programa. Įrašydami vaizdo įrašą nenaudokite kitų programų, kurios gali naudoti fotoaparatą. „Android“ leidžia vienu metu naudoti fotoaparatą tik vienai programai</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">Pagrindiniame ekrane nuotraukos mygtukas buvo išjungtas, nes programa aptiko, kad jūsų įrenginys negali apdoroti daugiau nei dviejų kameros išvesčių (peržiūros, įrašymo ir fotografavimo) vienu metu. Vis tiek galite fotografuoti, kai programa veikia fone, naudodami plaukiojantį langą. Ši problema dažniausiai kyla kai kuriuose „Xiaomi“ įrenginiuose, nors kai kurie kitų gamintojų modeliai taip pat gali turėti šį apribojimą.</string>
     <string name="camera_msg_error_non_exposed_error">Nepavyko atidaryti pasirinktos kameros. Taip atsitinka, kad ne visas paslėptas kameras gali naudoti bet kuri programa. Daugelis gamintojų leidžia juos naudoti tik savo vietinėse programose. Bus atidaryta numatytoji kamera.</string>
     <string name="camera_msg_error_unknown_text">Fotoaparato laikinai (buvo) negalima atidaryti jūsų įrenginyje (kameros sistemos klaida)</string>
     <string name="camera_support_error">Naudojant fotoaparatą įvyko klaida.</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">Akumuliatoriaus optimizavimas</string>
     <string name="prefs_beep_each_start_recording_sum_text">Signalas kito vaizdo failo įrašymo pradžioje</string>
     <string name="prefs_beep_each_start_recording_text">Įrašymo metu pypsi</string>
+    <string name="prefs_camera_blurry">Neryškus</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">Atkurkite numatytąją reikšmę, jei vaizdas atrodo neryškus</string>
+    <string name="prefs_camera_lens_distance_focus_title">Objektyvo fokusavimo atstumo reguliavimas, siekiant fokusavimo iki begalybės</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Įrenginio gamintojas gali nesuteikti prieigos prie visų kamerų, todėl kai kurios gali neatsidaryti</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Įrenginio gamintojas gali pateikti ne visoms programoms skirtą plataus objektyvo kamerą</string>
     <string name="prefs_consent_information_privacy_options">Privatumo parinktys (sutikimo informacija)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">Teksto skaidrumas</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">Kuo dažnesni atnaujinimai, tuo greičiau išsikraus baterija</string>
     <string name="prefs_subtitles_update_address_frequency_text">Adreso atnaujinimo dažnis</string>
+    <string name="prefs_support_contact_us">Susisiekite su mumis</string>
+    <string name="prefs_support_restore_records_warning_text">Jei jūsų klausimas susijęs su prarastų įrašų atkūrimu, nesikreipkite į mus, nes negalime jums padėti. Jūsų įrašai saugomi lokaliai jūsų įrenginyje, o programoje nėra integruotos atsarginių kopijų kūrimo debesyje funkcijos. Rekomenduojame naudoti debesies programą, pvz., „Google“ nuotraukas, įrašų atsarginėms kopijoms kurti – programoje pasirinkite įrašų aplanką sinchronizavimui ir ji automatiškai sukurs jų atsargines kopijas.</string>
     <string name="prefs_support_sum_text">Praneškite apie klaidą, gedimą arba pateikite pasiūlymą</string>
     <string name="prefs_support_text">Pagalba (atsiliepimai)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">Tai taip pat būtina norint išlaikyti nuolatinio įrašymo fone stabilumą.</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">Įrašų užraktas įjungtas</string>
     <string name="records_pin_lock_msg_pin_changed">PIN kodas pakeistas</string>
     <string name="records_pin_lock_top_bar_title">Įrašų užraktas</string>
-    <string name="reset">iškrovimas</string>
+    <string name="reset">Atstatyti</string>
     <string name="snackbar_dismiss">Slėpti</string>
     <string name="storage_external_single">MicroSD kortelė</string>
     <string name="storage_phone">Telefono atmintis</string>

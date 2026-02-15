@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">បញ្ឈរ</string>
     <string name="camera_front">កាមេរ៉ា​មុខ</string>
     <string name="camera_msg_error_in_use_text">កាមេរ៉ាកំពុងត្រូវបានប្រើប្រាស់ដោយកម្មវិធីមួយផ្សេងទៀត។ សូម​កុំ​ដំណើរការ​កម្មវិធី​ផ្សេង​ទៀត​ដែល​អាច​នឹង​កំពុង​ប្រើ​កាមេរ៉ា​ពេល​ថត​វីដេអូ។ ប្រព័ន្ធប្រតិបត្តិការ Android អនុញ្ញាតឱ្យកម្មវិធីមួយប្រើកាមេរ៉ាក្នុងពេលតែមួយ</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">ប៊ូតុងរូបថតត្រូវបានបិទនៅលើអេក្រង់មេ ពីព្រោះកម្មវិធីបានរកឃើញថាឧបករណ៍របស់អ្នកមិនអាចដោះស្រាយលទ្ធផលកាមេរ៉ាច្រើនជាងពីរ (ការមើលជាមុន ការថត និងការថតរូប) ក្នុងពេលតែមួយបានទេ។ អ្នកនៅតែអាចថតរូបបាននៅពេលដែលកម្មវិធីកំពុងដំណើរការនៅផ្ទៃខាងក្រោយដោយប្រើបង្អួចអណ្តែត។ បញ្ហានេះកើតឡើងជាចម្បងលើឧបករណ៍ Xiaomi មួយចំនួន ទោះបីជាម៉ូដែលមួយចំនួនពីក្រុមហ៊ុនផលិតផ្សេងទៀតក៏អាចមានដែនកំណត់នេះដែរ។</string>
     <string name="camera_msg_error_non_exposed_error">បរាជ័យក្នុងការបើកកាមេរ៉ាដែលបានជ្រើសរើស។ វាកើតឡើងដូច្នេះមិនមែនកាមេរ៉ាលាក់ទាំងអស់អាចប្រើដោយកម្មវិធីណាមួយនោះទេ។ ក្រុមហ៊ុនផលិតជាច្រើនអនុញ្ញាតឱ្យប្រើតែនៅក្នុងកម្មវិធីដើមរបស់ពួកគេប៉ុណ្ណោះ។ កាមេរ៉ាលំនាំដើមនឹងបើក។</string>
     <string name="camera_msg_error_unknown_text">កាមេរ៉ា​មិន​អាច​បើក​ជា​បណ្ដោះ​អាសន្ន​លើ​ឧបករណ៍​របស់​អ្នក​ទេ (បញ្ហា​ប្រព័ន្ធ​កាមេរ៉ា)</string>
     <string name="camera_support_error">កំហុសបានកើតឡើងខណៈពេលកំពុងប្រើកាមេរ៉ា។</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">ការបង្កើនប្រសិទ្ធភាពថ្ម</string>
     <string name="prefs_beep_each_start_recording_sum_text">សញ្ញានៅដើមនៃការថតឯកសារវីដេអូបន្ទាប់</string>
     <string name="prefs_beep_each_start_recording_text">ប៊ីបនៅពេលថត</string>
+    <string name="prefs_camera_blurry">ព្រិលៗ</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">កំណត់​ឡើងវិញ​ទៅ​តម្លៃ​លំនាំដើម ប្រសិនបើ​រូបភាព​មើលទៅ​ព្រិលៗ</string>
+    <string name="prefs_camera_lens_distance_focus_title">ការលៃតម្រូវចម្ងាយផ្តោតពន្លឺសម្រាប់សម្រេចបាននូវការផ្តោតអារម្មណ៍គ្មានដែនកំណត់</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">ក្រុមហ៊ុនផលិតឧបករណ៍ប្រហែលជាមិនផ្តល់សិទ្ធិចូលប្រើកាមេរ៉ាទាំងអស់ទេ ដូច្នេះខ្លះប្រហែលជាមិនបើកទេ។</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">ក្រុមហ៊ុនផលិតឧបករណ៍ប្រហែលជាមិនផ្តល់កាមេរ៉ាកែវធំទូលាយសម្រាប់កម្មវិធីទាំងអស់ទេ។</string>
     <string name="prefs_consent_information_privacy_options">ជម្រើសឯកជនភាព (ព័ត៌មានការយល់ព្រម)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">តម្លាភាពនៃអត្ថបទ</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">ការអាប់ដេតកាន់តែញឹកញាប់ ថ្មនឹងឆាប់អស់</string>
     <string name="prefs_subtitles_update_address_frequency_text">អត្រាធ្វើបច្ចុប្បន្នភាពអាសយដ្ឋាន</string>
+    <string name="prefs_support_contact_us">ទាក់ទងមកយើងខ្ញុំ</string>
+    <string name="prefs_support_restore_records_warning_text">ប្រសិនបើសំណួររបស់អ្នកគឺអំពីការស្ដារការថតដែលបានបាត់បង់តាមមធ្យោបាយណាមួយ សូមកុំទាក់ទងមកយើងអំពីវា ព្រោះយើងមិនអាចជួយជាមួយរឿងនោះបានទេ។ ការថតរបស់អ្នកត្រូវបានរក្សាទុកនៅក្នុងឧបករណ៍របស់អ្នក ហើយមិនមានការបម្រុងទុកពពកដែលភ្ជាប់មកជាមួយនៅក្នុងកម្មវិធីនោះទេ។ យើងសូមណែនាំឱ្យប្រើកម្មវិធីពពក ដូចជា Google Photos ដើម្បីបម្រុងទុកការថតរបស់អ្នក — ជ្រើសរើសថតការថតរបស់អ្នកនៅក្នុងកម្មវិធីសម្រាប់ធ្វើសមកាលកម្ម ហើយវានឹងបម្រុងទុកវាដោយស្វ័យប្រវត្តិ។</string>
     <string name="prefs_support_sum_text">រាយការណ៍អំពីបញ្ហា គាំង ឬធ្វើការផ្តល់ជូន</string>
     <string name="prefs_support_text">ការគាំទ្រ (មតិប្រតិកម្ម)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">នេះក៏ចាំបាច់ផងដែរ ដើម្បីរក្សាស្ថេរភាពនៃការថតបន្តនៅក្នុងផ្ទៃខាងក្រោយ។</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">បានបើកការចាក់សោការថត</string>
     <string name="records_pin_lock_msg_pin_changed">លេខកូដ PIN ត្រូវបានផ្លាស់ប្តូរ</string>
     <string name="records_pin_lock_top_bar_title">ចាក់សោការថត</string>
-    <string name="reset">ការហូរចេញ</string>
+    <string name="reset">កំណត់ឡើងវិញ</string>
     <string name="snackbar_dismiss">លាក់</string>
     <string name="storage_external_single">កាត microSD</string>
     <string name="storage_phone">អង្គចងចាំទូរស័ព្ទ</string>

@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">vertikální</string>
     <string name="camera_front">Přední kamera</string>
     <string name="camera_msg_error_in_use_text">Fotoaparát byl používán jinou aplikací. Při nahrávání videa prosím nespouštějte jiné aplikace, které by mohly fotoaparát používat. Android umožňuje používat fotoaparát vždy pouze jedné aplikaci</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">Tlačítko pro fotografování bylo na hlavní obrazovce deaktivováno, protože aplikace zjistila, že vaše zařízení nedokáže současně zpracovat více než dva výstupy fotoaparátu (náhled, nahrávání a pořizování fotografií). Fotografie můžete stále pořizovat, i když aplikace běží na pozadí, a to pomocí plovoucího okna. K tomuto problému dochází hlavně u některých zařízení Xiaomi, ačkoli toto omezení mohou mít i některé modely od jiných výrobců.</string>
     <string name="camera_msg_error_non_exposed_error">Otevření vybrané kamery se nezdařilo. Stává se, že ne všechny skryté kamery může používat jakákoli aplikace. Mnoho výrobců umožňuje jejich použití pouze ve svých nativních aplikacích. Otevře se výchozí kamera.</string>
     <string name="camera_msg_error_unknown_text">Fotoaparát je dočasně (nebyl) k dispozici pro otevření na vašem zařízení (chyba systému fotoaparátu)</string>
     <string name="camera_support_error">Při používání fotoaparátu došlo k chybě.</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">Optimalizace baterie</string>
     <string name="prefs_beep_each_start_recording_sum_text">Signál na začátku nahrávání dalšího video souboru</string>
     <string name="prefs_beep_each_start_recording_text">Pípnutí při nahrávání</string>
+    <string name="prefs_camera_blurry">Rozmazané</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">Pokud se obrázek jeví rozmazaný, resetujte na výchozí hodnotu</string>
+    <string name="prefs_camera_lens_distance_focus_title">Nastavení zaostřovací vzdálenosti objektivu pro dosažení nekonečného zaostření</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Výrobce zařízení nemusí poskytovat přístup ke všem kamerám, takže se některé nemusí otevřít</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Výrobce zařízení nemusí poskytovat širokoúhlý fotoaparát pro všechny aplikace</string>
     <string name="prefs_consent_information_privacy_options">Možnosti ochrany osobních údajů (informace o souhlasu)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">Transparentnost textu</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">Čím častější aktualizace, tím rychleji se baterie vybije</string>
     <string name="prefs_subtitles_update_address_frequency_text">Rychlost aktualizace adresy</string>
+    <string name="prefs_support_contact_us">Kontaktujte nás</string>
+    <string name="prefs_support_restore_records_warning_text">Pokud se váš dotaz týká obnovení nahrávek, které byly jakkoli ztraceny, nekontaktujte nás, protože vám s tím nemůžeme pomoci. Vaše nahrávky jsou uloženy lokálně ve vašem zařízení a aplikace nemá vestavěnou cloudovou zálohu. Pro zálohování nahrávek doporučujeme použít cloudovou aplikaci, například Fotky Google – vyberte v aplikaci složku s nahrávkami pro synchronizaci a aplikace je automaticky zálohuje.</string>
     <string name="prefs_support_sum_text">Nahlaste chybu, selhání nebo udělejte nabídku</string>
     <string name="prefs_support_text">Podpora (zpětná vazba)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">To je také nutné pro udržení stability kontinuálního záznamu na pozadí.</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">Zámek nahrávek povolen</string>
     <string name="records_pin_lock_msg_pin_changed">PIN kód změněn</string>
     <string name="records_pin_lock_top_bar_title">Zámek nahrávek</string>
-    <string name="reset">vybít</string>
+    <string name="reset">Obnovit</string>
     <string name="snackbar_dismiss">Skrýt</string>
     <string name="storage_external_single">MicroSD karta</string>
     <string name="storage_phone">Paměť telefonu</string>

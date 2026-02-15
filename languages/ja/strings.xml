@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">垂直</string>
     <string name="camera_front">フロントカメラ</string>
     <string name="camera_msg_error_in_use_text">カメラが別のアプリケーションで使用されました。ビデオの録画中にカメラを使用している可能性のある他のアプリケーションを実行しないでください。 Androidでは、一度に1つのアプリのみがカメラを使用できます</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">アプリは、デバイスが同時に2つ以上のカメラ出力（プレビュー、録画、写真撮影）を処理できないことを検出したため、メイン画面の写真ボタンが無効になっています。アプリがバックグラウンドで実行されている間は、フローティングウィンドウを使用して写真を撮ることができます。この問題は主に一部のXiaomiデバイスで発生しますが、他メーカーの一部モデルでも同様の制限がある場合があります。</string>
     <string name="camera_msg_error_non_exposed_error">選択したカメラを開けませんでした。すべての隠しカメラがどのアプリケーションでも使用できるわけではありません。多くのメーカーは、ネイティブ アプリケーションでの使用のみを許可しています。デフォルトのカメラが開きます。</string>
     <string name="camera_msg_error_unknown_text">カメラを一時的に開くことができませんでした。（カメラシステムエラー）</string>
     <string name="camera_support_error">カメラの使用中にエラーが発生しました。</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">バッテリーの最適化</string>
     <string name="prefs_beep_each_start_recording_sum_text">次のビデオファイルの録画開始時の信号</string>
     <string name="prefs_beep_each_start_recording_text">録音時にビープ音を鳴らす</string>
+    <string name="prefs_camera_blurry">ぼやけた</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">画像がぼやけている場合はデフォルト値にリセットしてください</string>
+    <string name="prefs_camera_lens_distance_focus_title">無限遠焦点を実現するためのレンズ焦点距離調整</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">デバイスの製造元がすべてのカメラへのアクセスを提供しているわけではないため、一部のカメラが開けない場合があります。</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">デバイスの製造元は、すべてのアプリケーションに対して広角レンズ カメラを提供していない場合があります。</string>
     <string name="prefs_consent_information_privacy_options">プライバシー オプション (同意情報)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">テキストの透明性</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">更新の頻度が高いほど、バッテリーの消耗が早くなります</string>
     <string name="prefs_subtitles_update_address_frequency_text">住所更新頻度</string>
+    <string name="prefs_support_contact_us">お問い合わせ</string>
+    <string name="prefs_support_restore_records_warning_text">何らかの理由で失われた録音の復元に関するご質問は、弊社では対応できかねますので、ご遠慮ください。録音はデバイス上にローカル保存されており、アプリにはクラウドバックアップ機能は搭載されていません。録音のバックアップには、Googleフォトなどのクラウドアプリのご利用をお勧めします。アプリ内で録音フォルダを選択して同期すると、自動的にバックアップされます。</string>
     <string name="prefs_support_sum_text">バグ・アプリのクラッシュを報告する</string>
     <string name="prefs_support_text">サポート（フィードバック）</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">これは、バックグラウンドでの連続録画の安定性を維持するためにも必要です。</string>

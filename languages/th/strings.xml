@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">แนวตั้ง</string>
     <string name="camera_front">กล้องหน้า</string>
     <string name="camera_msg_error_in_use_text">กล้องกำลังถูกใช้งานโดยแอพพลิเคชั่นอื่น โปรดอย่าเรียกใช้แอปพลิเคชันอื่นที่อาจใช้กล้องขณะบันทึกวิดีโอ Android อนุญาตให้แอปใช้กล้องได้ครั้งละหนึ่งแอปเท่านั้น</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">ปุ่มถ่ายภาพถูกปิดใช้งานบนหน้าจอหลัก เนื่องจากแอปตรวจพบว่าอุปกรณ์ของคุณไม่สามารถจัดการเอาต์พุตกล้องได้มากกว่าสองรายการ (ดูตัวอย่าง บันทึก และถ่ายภาพ) ในเวลาเดียวกัน คุณยังคงสามารถถ่ายภาพได้เมื่อแอปทำงานอยู่เบื้องหลังโดยใช้หน้าต่างลอย ปัญหานี้เกิดขึ้นกับอุปกรณ์ Xiaomi บางรุ่นเป็นหลัก แต่บางรุ่นจากผู้ผลิตรายอื่นอาจมีข้อจำกัดนี้เช่นกัน</string>
     <string name="camera_msg_error_non_exposed_error">ไม่สามารถเปิดกล้องที่เลือก มันเกิดขึ้นที่แอปพลิเคชันใด ๆ ไม่สามารถใช้กล้องที่ซ่อนอยู่ได้ทั้งหมด ผู้ผลิตหลายรายอนุญาตให้ใช้ในแอปพลิเคชันดั้งเดิมเท่านั้น กล้องเริ่มต้นจะเปิดขึ้น</string>
     <string name="camera_msg_error_unknown_text">กล้องไม่สามารถเปิดได้ชั่วคราว (เคย) ในอุปกรณ์ของคุณ (ข้อผิดพลาดของระบบกล้อง)</string>
     <string name="camera_support_error">เกิดข้อผิดพลาดขณะใช้กล้อง</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">การเพิ่มประสิทธิภาพแบตเตอรี่</string>
     <string name="prefs_beep_each_start_recording_sum_text">สัญญาณที่จุดเริ่มต้นของการบันทึกไฟล์วิดีโอถัดไป</string>
     <string name="prefs_beep_each_start_recording_text">บี๊บเมื่อบันทึก</string>
+    <string name="prefs_camera_blurry">ภาพเบลอ</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">หากภาพเบลอ ให้รีเซ็ตกลับเป็นค่าเริ่มต้น</string>
+    <string name="prefs_camera_lens_distance_focus_title">การปรับระยะโฟกัสของเลนส์เพื่อให้ได้โฟกัสที่ระยะอนันต์</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">ผู้ผลิตอุปกรณ์อาจไม่ได้ให้การเข้าถึงกล้องทั้งหมด ดังนั้นบางกล้องอาจไม่เปิด</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">ผู้ผลิตอุปกรณ์อาจไม่มีกล้องเลนส์ไวด์สำหรับทุกการใช้งาน</string>
     <string name="prefs_consent_information_privacy_options">ตัวเลือกความเป็นส่วนตัว (ข้อมูลความยินยอม)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">ความโปร่งใสของข้อความ</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">ยิ่งอัพเดทบ่อย แบตจะหมดเร็ว</string>
     <string name="prefs_subtitles_update_address_frequency_text">อัตราการอัพเดทที่อยู่</string>
+    <string name="prefs_support_contact_us">ติดต่อเรา</string>
+    <string name="prefs_support_restore_records_warning_text">หากคำถามของคุณเกี่ยวกับการกู้คืนไฟล์บันทึกที่สูญหายไม่ว่าด้วยวิธีใดก็ตาม โปรดอย่าติดต่อเรา เนื่องจากเราไม่สามารถให้ความช่วยเหลือในเรื่องนั้นได้ ไฟล์บันทึกของคุณจะถูกจัดเก็บไว้ในอุปกรณ์ของคุณ และแอปไม่มีระบบสำรองข้อมูลบนคลาวด์ในตัว เราขอแนะนำให้ใช้แอปสำรองข้อมูลบนคลาวด์ เช่น Google Photos เพื่อสำรองข้อมูลบันทึกของคุณ — เลือกโฟลเดอร์บันทึกของคุณในแอปเพื่อซิงค์ และแอปจะสำรองข้อมูลให้โดยอัตโนมัติ</string>
     <string name="prefs_support_sum_text">รายงานจุดบกพร่อง ขัดข้อง หรือยื่นข้อเสนอ</string>
     <string name="prefs_support_text">การสนับสนุน (ข้อเสนอแนะ)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">นอกจากนี้ยังจำเป็นเพื่อรักษาความเสถียรของการบันทึกต่อเนื่องในพื้นหลัง</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">เปิดใช้งานการล็อคการบันทึกแล้ว</string>
     <string name="records_pin_lock_msg_pin_changed">เปลี่ยนรหัส PIN แล้ว</string>
     <string name="records_pin_lock_top_bar_title">การล็อคการบันทึก</string>
-    <string name="reset">ปล่อย</string>
+    <string name="reset">รีเซ็ต</string>
     <string name="snackbar_dismiss">ซ่อน</string>
     <string name="storage_external_single">การ์ด MicroSD</string>
     <string name="storage_phone">หน่วยความจำโทรศัพท์</string>

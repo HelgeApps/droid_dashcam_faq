@@ -39,6 +39,7 @@
     <string name="camera_fov_vertical_text">w pionie</string>
     <string name="camera_front">Przednia kamera</string>
     <string name="camera_msg_error_in_use_text">Aparat był używany przez inną aplikację. Nie uruchamiaj innych aplikacji, które mogą używać aparatu podczas nagrywania wideo. Android pozwala na używanie aparatu tylko jednej aplikacji naraz</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">Przycisk zdjęcia został wyłączony na ekranie głównym, ponieważ aplikacja wykryła, że urządzenie nie obsługuje jednocześnie więcej niż dwóch wyjść kamery (podgląd, nagrywanie i robienie zdjęć). Nadal można robić zdjęcia, gdy aplikacja działa w tle, korzystając z okna ruchomego. Problem ten występuje głównie na niektórych urządzeniach Xiaomi, choć niektóre modele innych producentów również mogą mieć to ograniczenie.</string>
     <string name="camera_msg_error_non_exposed_error">Nie udało się otworzyć wybranej kamery. Tak się składa, że ​​nie wszystkie ukryte kamery mogą być używane przez dowolną aplikację. Wielu producentów zezwala na ich użycie tylko w ich natywnych aplikacjach. Zostanie otwarta domyślna kamera.</string>
     <string name="camera_msg_error_unknown_text">Aparat jest (był) tymczasowo niedostępny, aby otworzyć na urządzeniu (błąd systemu aparatu)</string>
     <string name="camera_support_error">Wystąpił błąd podczas korzystania z aparatu.</string>
@@ -191,6 +192,9 @@
     <string name="prefs_battery_optimization_text">Optymalizacja baterii</string>
     <string name="prefs_beep_each_start_recording_sum_text">Sygnał na początku nagrania kolejnego pliku wideo</string>
     <string name="prefs_beep_each_start_recording_text">Sygnał dźwiękowy podczas nagrywania</string>
+    <string name="prefs_camera_blurry">Rozmyte</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">Przywróć wartość domyślną, jeśli obraz wydaje się niewyraźny</string>
+    <string name="prefs_camera_lens_distance_focus_title">Regulacja odległości ogniskowania obiektywu w celu uzyskania ostrości na nieskończoność</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Producent urządzenia może nie zapewniać dostępu do wszystkich kamer, więc niektóre mogą się nie otwierać</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Producent urządzenia może nie zapewniać aparatu z szerokim obiektywem do wszystkich zastosowań</string>
     <string name="prefs_consent_information_privacy_options">Opcje prywatności (informacje o zgodzie)</string>
@@ -359,6 +363,8 @@
     <string name="prefs_subtitles_transparency_text">Przejrzystość tekstu</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">Im częstsze aktualizacje, tym szybciej wyczerpuje się bateria</string>
     <string name="prefs_subtitles_update_address_frequency_text">Częstotliwość aktualizacji adresu</string>
+    <string name="prefs_support_contact_us">Skontaktuj się z nami</string>
+    <string name="prefs_support_restore_records_warning_text">Jeśli Twoje pytanie dotyczy przywracania nagrań, które zostały w jakikolwiek sposób utracone, prosimy o niekontaktowanie się z nami w tej sprawie, ponieważ nie możemy Ci pomóc. Twoje nagrania są przechowywane lokalnie na Twoim urządzeniu, a aplikacja nie oferuje wbudowanej kopii zapasowej w chmurze. Zalecamy korzystanie z aplikacji chmurowej, takiej jak Zdjęcia Google, do tworzenia kopii zapasowych nagrań — wybierz folder z nagraniami w aplikacji, aby je zsynchronizować, a aplikacja automatycznie utworzy kopię zapasową.</string>
     <string name="prefs_support_sum_text">Zgłoś błąd, awarię lub złóż ofertę</string>
     <string name="prefs_support_text">Wsparcie / Informacje zwrotne</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">Jest to również konieczne, aby zachować stabilność ciągłego nagrywania w tle.</string>
@@ -491,7 +497,7 @@
     <string name="records_pin_lock_msg_enabled">Blokada nagrań włączona</string>
     <string name="records_pin_lock_msg_pin_changed">Zmieniono kod PIN</string>
     <string name="records_pin_lock_top_bar_title">Blokada nagrań</string>
-    <string name="reset">resetuj</string>
+    <string name="reset">Nastawić</string>
     <string name="snackbar_dismiss">Ukrywać</string>
     <string name="storage_external_single">Karta microSD</string>
     <string name="storage_phone">Pamięć telefonu</string>

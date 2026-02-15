@@ -23,6 +23,7 @@
     <string name="camera_fov_vertical_text">垂直</string>
     <string name="camera_front">摄像头（前）</string>
     <string name="camera_msg_error_in_use_text">摄像头正被另一个应用程序使用。请不要在录制视频时运行其他可能正在使用摄像头的应用程序。 Android 一次只允许一个应用使用摄像头</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">由于应用检测到您的设备无法同时处理超过两个摄像头输出（预览、录制和拍照），主屏幕上的拍照按钮已被禁用。您仍然可以在应用后台运行时使用浮动窗口拍照。此问题主要出现在部分小米设备上，但其他厂商的某些型号也可能存在此限制。</string>
     <string name="camera_msg_error_non_exposed_error">无法打开所选摄像头。碰巧的是，并非所有隐藏摄像头都可以被任何应用程序使用。许多制造商只允许在其本机应用程序中使用它们。默认相机将打开。</string>
     <string name="camera_msg_error_unknown_text">暂时无法在您的设备上打开摄像头设备（相机系统错误）</string>
     <string name="camera_support_error">使用摄像头时发生错误。</string>
@@ -175,6 +176,9 @@
     <string name="prefs_battery_optimization_text">电池优化</string>
     <string name="prefs_beep_each_start_recording_sum_text">下一个视频文件录制开始时的信号</string>
     <string name="prefs_beep_each_start_recording_text">录音时发出哔哔声</string>
+    <string name="prefs_camera_blurry">模糊</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">如果图像模糊，则重置为默认值。</string>
+    <string name="prefs_camera_lens_distance_focus_title">镜头对焦距离调节，实现无限远对焦</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">设备制造商可能不提供对所有摄像头的访问，因此某些摄像头可能无法打开</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">设备制造商可能不会为所有应用程序提供广角镜头相机</string>
     <string name="prefs_consent_information_privacy_options">隐私选项（同意信息）</string>
@@ -343,6 +347,8 @@
     <string name="prefs_subtitles_transparency_text">文字透明度</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">更新越频繁，电池消耗得越快</string>
     <string name="prefs_subtitles_update_address_frequency_text">地址更新率</string>
+    <string name="prefs_support_contact_us">联系我们</string>
+    <string name="prefs_support_restore_records_warning_text">如果您的问题是关于恢复丢失的录像，请不要联系我们，因为我们无法提供这方面的帮助。您的录像存储在本地设备上，应用本身没有内置的云备份功能。我们建议您使用云应用（例如 Google Photos）来备份录像——在应用中选择您的录像文件夹进行同步，它会自动备份。</string>
     <string name="prefs_support_sum_text">报告错误、崩溃或提出报价</string>
     <string name="prefs_support_text">支持（反馈）</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">这对于保持后台连续录制的稳定性也是必要的。</string>

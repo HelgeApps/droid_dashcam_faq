@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">pystysuora</string>
     <string name="camera_front">Etukamera</string>
     <string name="camera_msg_error_in_use_text">Kamera oli toisen sovelluksen käytössä. Älä käytä muita sovelluksia, jotka saattavat käyttää kameraa videon tallennuksen aikana. Android sallii vain yhden sovelluksen käyttää kameraa kerrallaan</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">Valokuvapainike on poistettu käytöstä päänäytössä, koska sovellus on havainnut, että laitteesi ei pysty käsittelemään useampaa kuin kahta kameran ulostuloa (esikatselu, tallennus ja valokuvan ottaminen) samanaikaisesti. Voit silti ottaa valokuvia sovelluksen ollessa käynnissä taustalla kelluvan ikkunan avulla. Tämä ongelma esiintyy pääasiassa joissakin Xiaomi-laitteissa, vaikka myös muiden valmistajien tietyissä malleissa saattaa olla tämä rajoitus.</string>
     <string name="camera_msg_error_non_exposed_error">Valitun kameran avaaminen epäonnistui. Sattuu niin, että mikään sovellus ei voi käyttää kaikkia piilokameroita. Monet valmistajat sallivat niiden käytön vain omissa sovelluksissaan. Oletuskamera avautuu.</string>
     <string name="camera_msg_error_unknown_text">Kamera ei tilapäisesti (ei) ole avattavissa laitteellasi (kameran järjestelmävirhe)</string>
     <string name="camera_support_error">Kameraa käytettäessä tapahtui virhe.</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">Akun optimointi</string>
     <string name="prefs_beep_each_start_recording_sum_text">Signaali seuraavan videotiedoston tallennuksen alussa</string>
     <string name="prefs_beep_each_start_recording_text">Piippaus tallennuksen aikana</string>
+    <string name="prefs_camera_blurry">Epäselvä</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">Palauta oletusarvo, jos kuva näyttää epätarkalta</string>
+    <string name="prefs_camera_lens_distance_focus_title">Objektiivin tarkennusetäisyyden säätö äärettömän tarkennuksen saavuttamiseksi</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Laitteen valmistaja ei välttämättä tarjoa pääsyä kaikkiin kameroihin, joten jotkut eivät välttämättä avaudu</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Laitteen valmistaja ei välttämättä tarjoa laajalinsistä kameraa kaikkiin sovelluksiin</string>
     <string name="prefs_consent_information_privacy_options">Tietosuojavaihtoehdot (suostumustiedot)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">Tekstin läpinäkyvyys</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">Mitä useammin päivitetään, sitä nopeammin akku tyhjenee</string>
     <string name="prefs_subtitles_update_address_frequency_text">Osoitteen päivitysnopeus</string>
+    <string name="prefs_support_contact_us">Ota yhteyttä</string>
+    <string name="prefs_support_restore_records_warning_text">Jos kysymyksesi koskee kadonneiden tallenteiden palauttamista, älä ota meihin yhteyttä, koska emme voi auttaa siinä. Tallenteesi tallennetaan paikallisesti laitteellesi, eikä sovelluksessa ole sisäänrakennettua pilvivarmuuskopiointia. Suosittelemme pilvisovelluksen, kuten Google Kuvat, käyttöä tallenteesi varmuuskopiointiin. Valitse synkronoitavat tallenteet sovelluksessa, niin se varmuuskopioi ne automaattisesti.</string>
     <string name="prefs_support_sum_text">Ilmoita virheestä, kaatumisesta tai tee tarjous</string>
     <string name="prefs_support_text">Tuki (palaute)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">Tämä on tarpeen myös jatkuvan taustanauhoituksen vakauden ylläpitämiseksi.</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">Tallennusten lukitus käytössä</string>
     <string name="records_pin_lock_msg_pin_changed">PIN-koodi muutettu</string>
     <string name="records_pin_lock_top_bar_title">Tallenteiden lukitus</string>
-    <string name="reset">purkaa</string>
+    <string name="reset">Nollaa</string>
     <string name="snackbar_dismiss">Piilottaa</string>
     <string name="storage_external_single">MicroSD-kortti</string>
     <string name="storage_phone">Puhelimen muisti</string>

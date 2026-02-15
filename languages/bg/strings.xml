@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">вертикална</string>
     <string name="camera_front">Предна камера</string>
     <string name="camera_msg_error_in_use_text">Камерата се използваше от друго приложение. Моля, не стартирайте други приложения, които може да използват камерата, докато записвате видео. Android позволява само едно приложение да използва камерата наведнъж</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">Бутонът за снимки е деактивиран на главния екран, защото приложението е установило, че устройството ви не може да обработва повече от два изхода за камера (предварителен преглед, запис и заснемане на снимки) едновременно. Все още можете да правите снимки, когато приложението работи във фонов режим, като използвате плаващия прозорец. Този проблем възниква главно на някои устройства Xiaomi, въпреки че някои модели от други производители също може да имат това ограничение.</string>
     <string name="camera_msg_error_non_exposed_error">Неуспешно отваряне на избраната камера. Случва се така, че не всички скрити камери могат да се използват от което и да е приложение. Много производители позволяват използването им само в собствените им приложения. Камерата по подразбиране ще се отвори.</string>
     <string name="camera_msg_error_unknown_text">Камерата временно (беше) не е налична за отваряне на вашето устройство (системна грешка на камерата)</string>
     <string name="camera_support_error">Възникна грешка при използване на камерата.</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">Оптимизация на батерията</string>
     <string name="prefs_beep_each_start_recording_sum_text">Сигнал в началото на записа на следващия видео файл</string>
     <string name="prefs_beep_each_start_recording_text">Бипкане при запис</string>
+    <string name="prefs_camera_blurry">Размазано</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">Възстановете стойността по подразбиране, ако изображението изглежда размазано</string>
+    <string name="prefs_camera_lens_distance_focus_title">Регулиране на фокусното разстояние на обектива за постигане на безкрайностен фокус</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Производителят на устройството може да не предостави достъп до всички камери, така че някои може да не се отварят</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Производителят на устройството може да не предостави камера с широк обектив за всички приложения</string>
     <string name="prefs_consent_information_privacy_options">Опции за поверителност (информация за съгласие)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">Прозрачност на текста</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">Колкото по-чести са актуализациите, толкова по-бързо ще се изтощи батерията</string>
     <string name="prefs_subtitles_update_address_frequency_text">Честота на актуализиране на адреса</string>
+    <string name="prefs_support_contact_us">Свържете се с нас</string>
+    <string name="prefs_support_restore_records_warning_text">Ако въпросът ви е относно възстановяването на записи, които са били загубени по някакъв начин, моля, не се свързвайте с нас, тъй като не можем да ви помогнем с това. Вашите записи се съхраняват локално на вашето устройство и в приложението няма вградено архивиране в облака. Препоръчваме ви да използвате облачно приложение, като например Google Photos, за да архивирате записите си — изберете папката със записи в приложението за синхронизиране и то автоматично ще ги архивира.</string>
     <string name="prefs_support_sum_text">Докладвайте грешка, срив или направете оферта</string>
     <string name="prefs_support_text">Поддръжка (обратна връзка)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">Това също е необходимо, за да се поддържа стабилността на непрекъснатия запис във фонов режим.</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">Заключването на записите е активирано</string>
     <string name="records_pin_lock_msg_pin_changed">ПИН кодът е променен</string>
     <string name="records_pin_lock_top_bar_title">Заключване на записите</string>
-    <string name="reset">освобождаване от отговорност</string>
+    <string name="reset">Нулиране</string>
     <string name="snackbar_dismiss">Скриване</string>
     <string name="storage_external_single">MicroSD карта</string>
     <string name="storage_phone">Памет на телефона</string>

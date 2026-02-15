@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">ուղղահայաց</string>
     <string name="camera_front">Առջևի տեսախցիկ</string>
     <string name="camera_msg_error_in_use_text">Տեսախցիկը օգտագործվում էր մեկ այլ հավելվածի կողմից։ Խնդրում ենք մի գործարկեք այլ ծրագրեր, որոնք կարող են օգտագործել տեսախցիկը տեսագրելիս: Android-ը թույլ է տալիս միայն մեկ հավելվածին միաժամանակ օգտագործել տեսախցիկը</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">Լուսանկարելու կոճակը գլխավոր էկրանին անջատվել է, քանի որ հավելվածը հայտնաբերել է, որ ձեր սարքը չի կարող միաժամանակ մշակել երկուսից ավելի տեսախցիկի ելքեր (նախադիտում, ձայնագրում և լուսանկարահանում): Դուք դեռ կարող եք լուսանկարներ անել, երբ հավելվածն աշխատում է ֆոնային ռեժիմով՝ օգտագործելով լողացող պատուհանը: Այս խնդիրը հիմնականում առաջանում է որոշ Xiaomi սարքերի վրա, չնայած այլ արտադրողների որոշ մոդելներ նույնպես կարող են ունենալ այս սահմանափակումը:</string>
     <string name="camera_msg_error_non_exposed_error">Չհաջողվեց բացել ընտրված տեսախցիկը: Այնպես է պատահում, որ ոչ բոլոր թաքնված տեսախցիկները կարող են օգտագործվել որևէ հավելվածի կողմից: Շատ արտադրողներ թույլ են տալիս դրանց օգտագործումը միայն իրենց հայրենի ծրագրերում: Կբացվի կանխադրված տեսախցիկը:</string>
     <string name="camera_msg_error_unknown_text">Տեսախցիկը ժամանակավորապես (հասանելի էր) ձեր սարքում բացելու համար (խցիկի համակարգի սխալ)</string>
     <string name="camera_support_error">Տեսախցիկը օգտագործելիս սխալ է տեղի ունեցել:</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">Մարտկոցի օպտիմիզացում</string>
     <string name="prefs_beep_each_start_recording_sum_text">Ազդանշան՝ հաջորդ վիդեո ֆայլի ձայնագրման սկզբում</string>
     <string name="prefs_beep_each_start_recording_text">Ձայնագրելիս ձայնային ազդանշան</string>
+    <string name="prefs_camera_blurry">Մշուշոտ</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">Վերականգնել սկզբնական արժեքը, եթե պատկերը մշուշոտ է թվում</string>
+    <string name="prefs_camera_lens_distance_focus_title">Անվերջ ֆոկուսի հասնելու համար օբյեկտիվի ֆոկուսային հեռավորության կարգավորում</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Սարքի արտադրողը կարող է թույլ չտալ բոլոր տեսախցիկների մուտքը, ուստի որոշները կարող են չբացվել</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Սարքի արտադրողը կարող է չտրամադրել լայն ոսպնյակի տեսախցիկ բոլոր ծրագրերի համար</string>
     <string name="prefs_consent_information_privacy_options">Գաղտնիության ընտրանքներ (Համաձայնության տեղեկություններ)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">Տեքստի թափանցիկություն</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">Որքան հաճախակի լինեն թարմացումները, այնքան ավելի արագ կթափվի մարտկոցը</string>
     <string name="prefs_subtitles_update_address_frequency_text">Հասցեի թարմացման արագությունը</string>
+    <string name="prefs_support_contact_us">Կապ մեզ հետ</string>
+    <string name="prefs_support_restore_records_warning_text">Եթե ձեր հարցը վերաբերում է որևէ կերպ կորած ձայնագրությունների վերականգնմանը, խնդրում ենք չդիմել մեզ այդ հարցով, քանի որ մենք չենք կարող օգնել դրանով։ Ձեր ձայնագրությունները պահվում են ձեր սարքում, և հավելվածում ներկառուցված ամպային պահուստավորում չկա։ Մենք խորհուրդ ենք տալիս օգտագործել ամպային հավելված, ինչպիսին է Google Photos-ը, ձեր ձայնագրությունները պահուստավորելու համար. ընտրեք ձեր ձայնագրությունների պանակը հավելվածում՝ համաժամեցման համար, և այն ավտոմատ կերպով կպահուստավորի դրանք։</string>
     <string name="prefs_support_sum_text">Զեկուցեք սխալի մասին, վթարի մասին կամ առաջարկ արեք</string>
     <string name="prefs_support_text">Աջակցություն (հետադարձ կապ)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">Սա նաև անհրաժեշտ է հետին պլանում շարունակական ձայնագրման կայունությունը պահպանելու համար:</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">Ձայնագրությունների կողպեքը միացված է</string>
     <string name="records_pin_lock_msg_pin_changed">PIN կոդը փոխվել է</string>
     <string name="records_pin_lock_top_bar_title">Ձայնագրությունների կողպեք</string>
-    <string name="reset">արտանետում</string>
+    <string name="reset">Վերագործարկում</string>
     <string name="snackbar_dismiss">Թաքցնել</string>
     <string name="storage_external_single">MicroSD քարտ</string>
     <string name="storage_phone">Հեռախոսի հիշողություն</string>

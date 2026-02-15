@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">عمودي</string>
     <string name="camera_front">كاميرا أمامية</string>
     <string name="camera_msg_error_in_use_text">تم استخدام الكاميرا بواسطة تطبيق آخر. يرجى عدم تشغيل التطبيقات الأخرى التي قد تستخدم الكاميرا أثناء تسجيل الفيديو. يسمح Android لتطبيق واحد فقط باستخدام الكاميرا في كل مرة</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">تم تعطيل زر التصوير على الشاشة الرئيسية لأن التطبيق اكتشف أن جهازك لا يدعم أكثر من مخرجين للكاميرا في الوقت نفسه (معاينة، تسجيل، والتقاط صور). يمكنك مع ذلك التقاط الصور عند تشغيل التطبيق في الخلفية باستخدام النافذة العائمة. تحدث هذه المشكلة بشكل رئيسي في بعض أجهزة شاومي، مع العلم أن بعض طرازات الشركات المصنعة الأخرى قد تعاني من هذا القيد أيضًا.</string>
     <string name="camera_msg_error_non_exposed_error">فشل في فتح الكاميرا المحددة. يحدث أنه لا يمكن استخدام جميع الكاميرات المخفية بواسطة أي تطبيق. تسمح العديد من الشركات المصنعة باستخدامها فقط في تطبيقاتها الأصلية. سيتم فتح الكاميرا الافتراضية.</string>
     <string name="camera_msg_error_unknown_text">الكاميرا مؤقتًا (كانت) غير متاحة للفتح على جهازك (خطأ في نظام الكاميرا)</string>
     <string name="camera_support_error">حدث خطأ أثناء استخدام الكاميرا.</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">تحسين البطارية</string>
     <string name="prefs_beep_each_start_recording_sum_text">إشارة في بداية تسجيل ملف الفيديو التالي</string>
     <string name="prefs_beep_each_start_recording_text">صفير عند التسجيل</string>
+    <string name="prefs_camera_blurry">ضبابي</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">أعد ضبط الإعدادات إلى القيمة الافتراضية إذا ظهرت الصورة ضبابية.</string>
+    <string name="prefs_camera_lens_distance_focus_title">ضبط مسافة تركيز العدسة لتحقيق التركيز اللانهائي</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">قد لا توفر الشركة المصنعة للجهاز الوصول إلى جميع الكاميرات ، لذلك قد لا يفتح البعض</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">قد لا توفر الشركة المصنعة للجهاز كاميرا ذات عدسة واسعة لجميع التطبيقات</string>
     <string name="prefs_consent_information_privacy_options">خيارات الخصوصية (معلومات الموافقة)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">شفافية النص</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">كلما زاد تكرار التحديثات ، زادت سرعة استنزاف البطارية</string>
     <string name="prefs_subtitles_update_address_frequency_text">معدل تحديث العنوان</string>
+    <string name="prefs_support_contact_us">اتصل بنا</string>
+    <string name="prefs_support_restore_records_warning_text">إذا كان سؤالك يتعلق باستعادة التسجيلات المفقودة بأي شكل من الأشكال، يُرجى عدم التواصل معنا بخصوص ذلك، حيث لا يمكننا تقديم المساعدة في هذا الشأن. تُخزَّن تسجيلاتك محليًا على جهازك، ولا يوجد نسخ احتياطي سحابي مُدمج في التطبيق. نوصي باستخدام تطبيق سحابي، مثل صور جوجل، لعمل نسخ احتياطية من تسجيلاتك - حدد مجلد التسجيلات في التطبيق للمزامنة، وسيتم نسخها احتياطيًا تلقائيًا.</string>
     <string name="prefs_support_sum_text">الإبلاغ عن خطأ أو تعطل أو تقديم عرض</string>
     <string name="prefs_support_text">الدعم (ردود الفعل)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">وهذا ضروري أيضًا للحفاظ على استقرار التسجيل المستمر في الخلفية.</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">تم تمكين قفل التسجيلات</string>
     <string name="records_pin_lock_msg_pin_changed">تم تغيير رمز PIN</string>
     <string name="records_pin_lock_top_bar_title">قفل التسجيلات</string>
-    <string name="reset">إبراء الذمة</string>
+    <string name="reset">إعادة ضبط</string>
     <string name="snackbar_dismiss">يخفي</string>
     <string name="storage_external_single">بطاقة مايكرو التنمية المستدامة</string>
     <string name="storage_phone">ذاكرة الهاتف</string>

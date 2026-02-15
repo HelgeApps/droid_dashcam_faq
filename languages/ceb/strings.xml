@@ -22,6 +22,7 @@
     <string name="camera_fov_vertical_text">patindog</string>
     <string name="camera_front">Atubangan nga camera</string>
     <string name="camera_msg_error_in_use_text">Ang camera gigamit sa laing aplikasyon. Palihug ayaw pagpadagan sa ubang mga aplikasyon nga mahimong naggamit sa camera samtang nagrekord sa video. Gitugotan ra sa Android ang usa ka app nga magamit ang camera matag higayon</string>
+    <string name="camera_msg_error_max_outputs_limitation_text">Ang buton sa litrato gi-disable sa main screen tungod kay nakita sa app nga ang imong device dili makadumala og labaw sa duha ka output sa camera (preview, recording, ug photo capture) sa samang higayon. Mahimo ka gihapon nga magkuha og mga litrato bisan pa nga ang app nagdagan sa background gamit ang floating window. Kini nga isyu kasagaran mahitabo sa pipila ka mga Xiaomi device, bisan kung ang pipila ka mga modelo gikan sa ubang mga tiggama mahimo usab nga adunay kini nga limitasyon.</string>
     <string name="camera_msg_error_non_exposed_error">Napakyas sa pag-abli sa pinili nga camera. Nahitabo nga dili tanan nga mga tinago nga camera mahimong magamit sa bisan unsang aplikasyon. Daghang mga tiggama nagtugot lamang sa ilang paggamit sa ilang lumad nga mga aplikasyon. Ang default nga camera moabli.</string>
     <string name="camera_msg_error_unknown_text">Ang camera temporaryo (dili) magamit sa pag-abli sa imong device (camera system error)</string>
     <string name="camera_support_error">Usa ka sayup ang nahitabo samtang naggamit sa camera.</string>
@@ -174,6 +175,9 @@
     <string name="prefs_battery_optimization_text">Pag-optimize sa baterya</string>
     <string name="prefs_beep_each_start_recording_sum_text">Signal sa sinugdanan sa pagrekord sa sunod nga video file</string>
     <string name="prefs_beep_each_start_recording_text">Beep kung magrekord</string>
+    <string name="prefs_camera_blurry">Hanap</string>
+    <string name="prefs_camera_lens_distance_focus_default_hint">I-reset sa default nga kantidad kon ang imahe morag hanap</string>
+    <string name="prefs_camera_lens_distance_focus_title">Pag-adjust sa distansya sa pag-focus sa lente para makab-ot ang infinity focus</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Ang tiggama sa device mahimong dili makahatag og access sa tanan nga mga camera, mao nga ang uban mahimong dili moabli</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Ang tiggama sa device mahimong dili makahatag ug lapad nga lens nga kamera para sa tanang aplikasyon</string>
     <string name="prefs_consent_information_privacy_options">Mga kapilian sa pagkapribado (Inpormasyon sa pagtugot)</string>
@@ -342,6 +346,8 @@
     <string name="prefs_subtitles_transparency_text">Transparency sa teksto</string>
     <string name="prefs_subtitles_update_address_frequency_sum_text">Ang mas kanunay nga pag-update, mas paspas nga mahurot ang baterya</string>
     <string name="prefs_subtitles_update_address_frequency_text">Rate sa pag-update sa adres</string>
+    <string name="prefs_support_contact_us">Kontaka kami</string>
+    <string name="prefs_support_restore_records_warning_text">Kon ang imong pangutana bahin sa pagpahiuli sa mga rekording nga nawala sa bisan unsang paagi, palihug ayaw kami kontaka bahin niini, kay dili kami makatabang niana. Ang imong mga rekording gitipigan sa imong device, ug walay built-in nga cloud backup sa app. Among girekomendar ang paggamit og cloud app, sama sa Google Photos, aron i-backup ang imong mga rekording — pilia ang imong recordings folder sa app para sa sync ug awtomatiko kini nga mo-backup niini.</string>
     <string name="prefs_support_sum_text">Pagreport og bug, pagkahagsa o ​​paghimo og tanyag</string>
     <string name="prefs_support_text">Suporta (feedback)</string>
     <string name="prefs_system_alert_window_recording_stability_sum_text">Kinahanglan usab kini aron mapadayon ang kalig-on sa padayon nga pagrekord sa background.</string>
@@ -474,7 +480,7 @@
     <string name="records_pin_lock_msg_enabled">Gi-aktibo ang lock sa mga pagrekord</string>
     <string name="records_pin_lock_msg_pin_changed">Nausab ang PIN code</string>
     <string name="records_pin_lock_top_bar_title">Lock sa mga rekording</string>
-    <string name="reset">paggawas</string>
+    <string name="reset">I-reset</string>
     <string name="snackbar_dismiss">Tagoa</string>
     <string name="storage_external_single">MicroSD card</string>
     <string name="storage_phone">Memorya sa telepono</string>
