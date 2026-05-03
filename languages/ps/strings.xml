@@ -1,5 +1,6 @@
 <resources>
     <string name="accept_text">زه منم</string>
+    <string name="allow_background_activity_on_some_devices">لاندې مثالونه دي چې څنګه په ځینو وسیلو کې د شالید فعالیت ته اجازه ورکړئ:</string>
     <string name="any_text">کوم</string>
     <string name="app_alternative_name_audio">آډیو</string>
     <string name="app_alternative_name_battery">د بیټرۍ ترتیبات</string>
@@ -8,6 +9,16 @@
     <string name="app_alternative_name_video">ویډیو</string>
     <string name="app_name_backgroundvideorecorder">د شالید ویډیو ثبت کول</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - DVR چلول</string>
+    <string name="background_recording_allow_autostart">دلته کلیک وکړئ ترڅو اپلیکیشن ته اجازه ورکړئ چې په شالید کې په اتوماتيک ډول پیل شي (که دمخه اجازه نه وي ورکړل شوې).</string>
+    <string name="background_recording_realme_allow_background_activity">۵. \"د مخکینۍ فعالیت اجازه ورکړئ\" او \"د شالید فعالیت اجازه ورکړئ\" ټګلونه فعال کړئ.</string>
+    <string name="background_recording_realme_app_battery_management">۴. د \"ایپ بیټرۍ مدیریت\" سکرین پرانیزئ او ایپ غوره کړئ.</string>
+    <string name="background_recording_realme_more_settings">۲. \"نور ترتیبات\" (یا \"د بریښنا سپمولو ترتیبات\") پرانیزئ، بیا د \"ایپ بیټرۍ مدیریت\" او \"د بیټرۍ کارول غوره کړئ\" دواړه پرانیزئ.</string>
+    <string name="background_recording_realme_optimize_battery_use">۳. د \"د بیټرۍ کارول غوره کړئ\" سکرین کې، اپلیکیشن غوره کړئ او په پاپ اپ کې \"غوره مه کوئ\" غوره کړئ.</string>
+    <string name="background_recording_realme_system_settings_battery">۱. د سیسټم ترتیبات خلاص کړئ → بیټرۍ</string>
+    <string name="background_recording_realme_title">د اوپو (رییلم) وسیلو کې د شالید ویډیو ثبتولو مستحکم ساتلو لپاره، مخکینۍ فعالیت ته اجازه ورکړئ، د شالید فعالیت ته اجازه ورکړئ، د بیټرۍ حالت \"غوره نه کړئ\" ته تنظیم کړئ، او که تلیفون دا اختیار چمتو کړي نو اتومات لانچ ته اجازه ورکړئ.</string>
+    <string name="background_restrictions_explain_how_to_disable">د دې اپلیکیشن لپاره د بیټرۍ شالید محدودیتونه ټاکل شوي دي چې ممکن په شالید کې د ویډیو ثبتولو سره ستونزه رامینځته کړي. مهرباني وکړئ د دې اپلیکیشن لپاره د بیټرۍ اصلاح یا د شالید محدودیتونه غیر فعال کړئ.\nتاسو کولی شئ د \"ایپ معلوماتو\" → \"بیټرۍ\" سکرین یا ستاسو د وسیلې سیسټم ترتیباتو کې د دې ډول اختیارونو موندلو هڅه وکړئ. د دې اپلیکیشن لپاره د بیټرۍ اصلاح \"غیر محدود\" (یا \"غوره مه کوئ\") ته تنظیم کړئ، مخکینۍ او شالید فعالیت ته اجازه ورکړئ. د داسې اختیارونو دقیق موقعیت ممکن ستاسو د وسیلې جوړونکي پورې اړه ولري.</string>
+    <string name="background_restrictions_msg_text">مهرباني وکړئ د اپلیکیشن لپاره د شالید محدودیتونه غیر فعال کړئ ترڅو د ویډیو ثبت کول مستحکم وي.</string>
+    <string name="background_restrictions_text">د شاليد اپليکېشن کار محدودول</string>
     <string name="camera">کیمره</string>
     <string name="camera_aperture">ډایفراګم</string>
     <string name="camera_back">شاته کیمره</string>
@@ -30,6 +41,7 @@
     <string name="close">تړل</string>
     <string name="days">ورځې</string>
     <string name="default_text">ډیفالټ</string>
+    <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">د بیټرۍ اصلاح غیر فعالولو او د اپلیکیشن لپاره د شالید فعالیت ته اجازه ورکولو لپاره نور تفصيلي لارښوونې:</string>
     <string name="dialog_camera_not_found_msg_text">دا وسیله جوړه شوې کیمره نلري او د بهرني کیمرې ملاتړ نه کوي. تړل…</string>
     <string name="dialog_camera_not_found_text">کیمره ونه موندل شوه</string>
     <string name="dialog_go_to_settings_text">ترتیبات خلاص کړئ</string>
@@ -41,13 +53,10 @@
     <string name="donate_disable_ads_text">بسپنه، اعلانونه لرې کړئ</string>
     <string name="donate_success_thanks_msg_text">ستاسو د ملاتړ لپاره ډیره مننه!</string>
     <string name="donate_text">بسپنه</string>
-    <string name="donation_any_amount_text">د کومې اندازې لپاره هیڅ اعلان نشته</string>
-    <string name="donation_dlg_has_ads_text">د اعلاناتو لرې کولو لپاره، بسپنه باید یا نور وي.</string>
-    <string name="donation_dlg_limited_ads_message_text">د کوچنیو بسپنو لپاره، اعلانونه یوازې په اصلي سکرین کې لرې کیږي</string>
     <string name="donation_dlg_no_ads_text">تاسو هیڅ اعلانونه نلرئ.</string>
     <string name="donation_level_text">ستاسو د مرستې کچه:</string>
     <string name="donation_purchase_info_loading_text">د پیرودلو معلومات لا تر اوسه ندي پورته شوي. ایا تاسو آنلاین یاست او خپل ګوګل حساب ته ننوتل؟</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">که تاسو دمخه پیرود کړی وي، د هغې د بیرته راګرځولو لپاره، مهرباني وکړئ لومړی د ګوګل پلی سټور ډیټا او کیش پاک کړئ. بیا، اپلیکیشن حذف کړئ، د ګوګل پلی سټور خلاص کړئ، د پیرودلو لپاره کارول شوی سم ګوګل حساب غوره کړئ، او اپلیکیشن بیا نصب کړئ.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">که تاسو دمخه پیرود کړی وي، مګر دا په اتوماتيک ډول بیرته نه دی راستون شوی، مهرباني وکړئ لومړی د ګوګل پلی سټور ډیټا او کیش پاک کړئ. بیا، اپلیکیشن غیر نصب کړئ، د ګوګل پلی سټور خلاص کړئ، د پیرودلو لپاره کارول شوی سم ګوګل حساب غوره کړئ، او اپلیکیشن بیا نصب کړئ.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">که تاسو دمخه بسپنه کړې وي، نو د پیرودونو د بیرته راګرځولو لپاره، مهرباني وکړئ د سم حساب غوره کولو وروسته د سامسنګ ګلیګسي پلورنځي کې غوښتنلیک بیا انسټال کړئ.</string>
     <string name="donation_remove_ads_by_any_amount_text">د هرې اندازې د یو ځل بسپنې سره د تل لپاره اعلانونه لرې کړئ.</string>
     <string name="donation_remove_ads_by_subscribing_text">تاسو کولی شئ د اعلاناتو لرې کولو لپاره میاشتنۍ مرسته هم وکړئ.</string>
@@ -72,6 +81,7 @@
     <string name="hour">ساعت</string>
     <string name="hours">ساعتونه</string>
     <string name="month">میاشت</string>
+    <string name="more_info">نور معلومات:</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">غوښتنلیک د بیټرۍ اصلاح کولو څخه ندي ایستل شوی. که کیمره په شالید کې نه چلیږي یا بل څه ، نو دا غوښتنلیک د بریښنا سپمولو حالت استثناء کې اضافه کړئ.</string>
     <string name="msg_android_r_deleting_manual_tip_text">که تاسو په Android 11 کې غوښتنلیک له سره انسټال کړی، نو زاړه فایلونه باید په لاسي ډول حذف شي</string>
     <string name="msg_auto_recording_service_was_stopped">تاسو د ویډیو ثبتولو په اتوماتيک ډول پیل کولو لپاره د شالید خدمت بند کړی دی. د بیا پیلولو لپاره غوښتنلیک خلاص کړئ.</string>
@@ -122,6 +132,13 @@
     <string name="notification_service_power_checker">چارج کول</string>
     <string name="notification_stop_text">درېدل</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">د اتوماتیک آن /بند ثبتولو لپاره</string>
+    <string name="one_time_payment">یو ځل تادیه</string>
+    <string name="one_time_payment_explanation_msg">دا د ژوند لپاره یو اپ گریڈ دی — نه ګډون، نه تکراري فیس. یو ځل پیسې ورکړئ او له اپلیکیشن څخه په بشپړ ډول له اعلاناتو څخه خوند واخلئ.</string>
+    <string name="one_time_payment_purchased">تاسو پریمیم نسخه لرئ.\nستاسو د ملاتړ لپاره مننه!</string>
+    <string name="open_app_info_screen">د \"ایپ معلومات\" سکرین پرانیزئ</string>
+    <string name="open_app_info_screen_battery_usage_allow_background_activity">د شالید ویډیو ثبتولو ته اجازه ورکولو لپاره د \"ایپ معلوماتو\" سکرین پرانیزئ، \"د بیټرۍ کارول\" غوره کړئ، او \"د شالید فعالیت ته اجازه ورکړئ\" فعال کړئ.</string>
+    <string name="open_battery_settings">د بیټرۍ ترتیبات خلاص کړئ</string>
+    <string name="open_system_settings">د سیسټم ترتیبات خلاص کړئ</string>
     <string name="permission_audio_dlg_msg">آډیو د ویډیو ثبتولو پرمهال د آډیو ټریک ثبتولو لپاره اړین دی</string>
     <string name="permission_camera_dlg_msg">کیمره د ویډیو ثبتولو او کیمرې لیدو لپاره اړینه ده.</string>
     <string name="permission_camera_request_canceled">دا غوښتنلیک د ویډیو ثبتولو لپاره د کیمرې کارولو اجازې ته اړتیا لري. مګر تاسو دا رد کړه. بندول… د دې غوښتنلیک سیسټم ترتیباتو کې کیمرې ته د اجازې ورکولو هڅه وکړئ</string>
@@ -191,6 +208,8 @@
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">د وسیلې جوړونکی ممکن ټولو کیمرونو ته لاسرسی چمتو نکړي ، نو ځینې ممکن خلاص نشي</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">د وسیلې جوړونکی ممکن د ټولو غوښتنلیکونو لپاره پراخه لینز کیمره چمتو نکړي</string>
     <string name="prefs_consent_information_privacy_options">د محرمیت اختیارونه (د رضایت معلومات)</string>
+    <string name="prefs_continuous_recording">دوامداره ثبت کول</string>
+    <string name="prefs_continuous_recording_desc">کله چې اوسنی فایل ټاکل شوې مودې ته ورسیږي نو نوې فایل پیل کوي. که غیر فعال وي، ثبت کول په حد کې ودریږي.</string>
     <string name="prefs_day_night_mode_auto_text">اتومات (ورځ /شپه)، د وخت په واسطه</string>
     <string name="prefs_day_night_mode_day_text">ورځ</string>
     <string name="prefs_day_night_mode_night_text">شپه</string>
@@ -235,10 +254,11 @@
     <string name="prefs_meters_accuracy_value_text">دقت متره</string>
     <string name="prefs_open_source_notices_text">د خلاصې سرچینې خبرتیاوې</string>
     <string name="prefs_optical_zoom_text">نظری زوم (زوم) /فوکل اوږدوالی</string>
-    <string name="prefs_orientation_landscape">منظره</string>
-    <string name="prefs_orientation_landscape_reversed">البوم ریورس</string>
-    <string name="prefs_orientation_portrait">پورټریټ</string>
-    <string name="prefs_orientation_sensor_automatic">اتوماتیک</string>
+    <string name="prefs_orientation_landscape">منظره لرونکی موقعیت</string>
+    <string name="prefs_orientation_landscape_reversed">د منظره لوري برعکس کول</string>
+    <string name="prefs_orientation_portrait">د انځور لوري ټاکل</string>
+    <string name="prefs_orientation_sensor_automatic">اتوماتیک لارښودنه (په اتومات ډول څرخیدل)</string>
+    <string name="prefs_orientation_system_orientation">د سیسټم لارښوونې وکاروئ</string>
     <string name="prefs_other_auto_deleting_sum_text">د ثبت کولو پرمهال زاړه ویډیوګانې په اوتومات ډول حذف کړئ که چیرې د نوي ویډیوګانو لپاره کافي ځای شتون ونلري</string>
     <string name="prefs_other_auto_deleting_text">لوپ ثبت کول</string>
     <string name="prefs_other_backup_records_tip">د خپلو ریکارډونو بیک اپ کولو لپاره ، د ګوګل عکسونو په څیر ایپسونه نصب کړئ. په دې غوښتنلیکونو کې د ثبت کولو فولډر ومومئ او د دوی لپاره د بیک اپ اختیار فعال کړئ (د مثال لیدلو لپاره په متن باندې کلیک وکړئ).</string>
@@ -394,6 +414,7 @@
     <string name="prefs_version_text">د غوښتنلیک نسخه</string>
     <string name="prefs_vibrate_rec_start_stop_text">وایبریشن کله چې د ثبت پیل کول یا بندول</string>
     <string name="prefs_vibration_strength">د وایبریشن قوت</string>
+    <string name="prefs_video_angle_text">د ویډیو چوکاټونو د سمت زاویه.</string>
     <string name="prefs_video_bitrate_text">بیټریټ (کیفیت)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">د کیمرې کنټرول صحنې حالت (شپه)</string>
     <string name="prefs_video_camera_control_scene_mode_text">د کیمرې کنټرول صحنې حالت (ورځ)</string>
@@ -413,8 +434,10 @@
     <string name="prefs_video_exposure_auto_mode_text">د اتوماتیک افشا کولو حالت</string>
     <string name="prefs_video_exposure_night_text">د افشا کولو جبران (شپه)</string>
     <string name="prefs_video_exposure_text">د افشا کولو جبران (ورځ)</string>
-    <string name="prefs_video_flip_x_sum_text">د ویډیو افقی عکس العمل. عکس یوازې د ویډیو ثبتولو لپاره بدلیږي ، مخکتنه نه بدلیږي</string>
-    <string name="prefs_video_flip_x_text">ویډیو په افقی ډول فلپ کړئ</string>
+    <string name="prefs_video_flip_angle_explanation_desc">دا یوازې د ویډیو ثبتولو لپاره پلي کیږي او د کیمرې مخکتنه نه بدلوي.</string>
+    <string name="prefs_video_flip_angle_explanation_title">د هغو قضیو لپاره اصلاحات چیرې چې ویډیوګانې فلپ شوي وي یا د غلط سمت زاویه ولري.</string>
+    <string name="prefs_video_flip_x_text">د ویډیو چوکاټونو افقي انعکاس.</string>
+    <string name="prefs_video_flip_y_text">د ویډیو چوکاټونو عمودی انعکاس.</string>
     <string name="prefs_video_focus_continuous_picture_text">پرله پسې انځور</string>
     <string name="prefs_video_focus_continuous_video_text">دوامداره ویډیو (د ورځې په جریان کې وړاندیز شوی)</string>
     <string name="prefs_video_focus_infinity_text">انفینٹی (په شپه کې وړاندیز شوی)</string>
@@ -444,7 +467,7 @@
     <string name="prefs_zoom_text">ډیجیټل زوم (زوم)</string>
     <string name="purchase_did_make_it_previously">آیا تاسو مخکې کومه پیرود کړې ده؟</string>
     <string name="rec_audio_silence_text">اوس مهال، د آډیو ثبت کول ممکن ندي ځکه چې مایکروفون د بل غوښتنلیک لخوا مداخله شوی</string>
-    <string name="rec_available_space_text">شته</string>
+    <string name="rec_available_space_text">خالي ځای</string>
     <string name="rec_day_night_btn_auto_text">اتومات</string>
     <string name="rec_fix_short_text">د سمولو لپاره</string>
     <string name="rec_fix_text">د سمولو لپاره</string>
@@ -511,6 +534,7 @@
     <string name="subscription_status_subscribed_short">ګډون شوی</string>
     <string name="subscription_subscribe_text">ګډون وکړئ</string>
     <string name="subscription_with_free_trial">د وړیا آزموینې سره</string>
+    <string name="tap_to_allow_background_recording">د شاليد ويډيو ثبتولو ته اجازه ورکولو لپاره ټایپ کړئ.</string>
     <string name="timer_auto_start">ټایمر</string>
     <string name="timer_auto_start_dlg_type_title">د ثبت پیل کولو لپاره ټایمر تنظیم کړئ</string>
     <string name="timer_auto_start_every_day_text">هره ورځ</string>

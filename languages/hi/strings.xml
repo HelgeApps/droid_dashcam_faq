@@ -1,5 +1,6 @@
 <resources>
     <string name="accept_text">मुझे स्वीकार है</string>
+    <string name="allow_background_activity_on_some_devices">नीचे कुछ उपकरणों पर पृष्ठभूमि गतिविधि की अनुमति देने के तरीके के उदाहरण दिए गए हैं:</string>
     <string name="any_text">कोई</string>
     <string name="app_alternative_name_audio">ऑडियो</string>
     <string name="app_alternative_name_battery">बैटरी सेटिंग्स</string>
@@ -8,6 +9,16 @@
     <string name="app_alternative_name_video">वीडियो</string>
     <string name="app_name_backgroundvideorecorder">पृष्ठभूमि वीडियो रिकॉर्डिंग</string>
     <string name="app_name_droid_dashcam">Droid डैशकैम - ड्राइविंग DVR</string>
+    <string name="background_recording_allow_autostart">यदि पहले से अनुमति नहीं दी गई है, तो ऐप को बैकग्राउंड में स्वतः शुरू होने की अनुमति देने के लिए यहां क्लिक करें।</string>
+    <string name="background_recording_realme_allow_background_activity">5. \"फोरग्राउंड गतिविधि की अनुमति दें\" और \"बैकग्राउंड गतिविधि की अनुमति दें\" टॉगल को चालू करें।</string>
+    <string name="background_recording_realme_app_battery_management">4. \"ऐप बैटरी प्रबंधन\" स्क्रीन खोलें और ऐप चुनें।</string>
+    <string name="background_recording_realme_more_settings">2. \"अधिक सेटिंग्स\" (या \"पावर सेविंग सेटिंग्स\") खोलें, फिर \"ऐप बैटरी प्रबंधन\" और \"बैटरी उपयोग को अनुकूलित करें\" दोनों खोलें।</string>
+    <string name="background_recording_realme_optimize_battery_use">3. \"बैटरी उपयोग को अनुकूलित करें\" स्क्रीन में, ऐप का चयन करें और पॉपअप में \"अनुकूलित न करें\" चुनें।</string>
+    <string name="background_recording_realme_system_settings_battery">1. सिस्टम सेटिंग्स खोलें → बैटरी</string>
+    <string name="background_recording_realme_title">ओप्पो (रियलमी) डिवाइस पर बैकग्राउंड वीडियो रिकॉर्डिंग को स्थिर रखने के लिए, फोरग्राउंड गतिविधि की अनुमति दें, बैकग्राउंड गतिविधि की अनुमति दें, बैटरी मोड को \"ऑप्टिमाइज़ न करें\" पर सेट करें और यदि फोन यह विकल्प प्रदान करता है तो ऑटो-लॉन्च की अनुमति दें।</string>
+    <string name="background_restrictions_explain_how_to_disable">इस ऐप के लिए बैटरी बैकग्राउंड प्रतिबंध सेट किए गए हैं, जिनसे बैकग्राउंड में वीडियो रिकॉर्डिंग में समस्या आ सकती है। कृपया इस ऐप के लिए सभी बैटरी ऑप्टिमाइजेशन या बैकग्राउंड प्रतिबंध बंद कर दें।\nआप ये विकल्प \"ऐप जानकारी\" → \"बैटरी\" स्क्रीन पर या अपने डिवाइस की सिस्टम सेटिंग में ढूंढ सकते हैं। इस ऐप के लिए बैटरी ऑप्टिमाइजेशन को \"अप्रतिबंधित\" (या \"ऑप्टिमाइज न करें\") पर सेट करें और फोरग्राउंड और बैकग्राउंड गतिविधि की अनुमति दें। इन विकल्पों का सटीक स्थान आपके डिवाइस निर्माता के आधार पर भिन्न हो सकता है।</string>
+    <string name="background_restrictions_msg_text">स्थिर वीडियो रिकॉर्डिंग सुनिश्चित करने के लिए कृपया ऐप के लिए पृष्ठभूमि प्रतिबंधों को अक्षम करें।</string>
+    <string name="background_restrictions_text">बैकग्राउंड में चलने वाले ऐप्स को सीमित करना</string>
     <string name="camera">कैमरा</string>
     <string name="camera_aperture">डायाफ्राम</string>
     <string name="camera_back">पीछे का कैमरा</string>
@@ -30,6 +41,7 @@
     <string name="close">बंद करे</string>
     <string name="days">दिन</string>
     <string name="default_text">चूक</string>
+    <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">बैटरी ऑप्टिमाइजेशन को डिसेबल करने और ऐप के लिए बैकग्राउंड एक्टिविटी की अनुमति देने के लिए अधिक विस्तृत निर्देश:</string>
     <string name="dialog_camera_not_found_msg_text">इस डिवाइस में बिल्ट-इन कैमरा नहीं है और यह बाहरी कैमरों को सपोर्ट नहीं करता है। समापन…</string>
     <string name="dialog_camera_not_found_text">कैमरा नहीं मिला</string>
     <string name="dialog_go_to_settings_text">खुली सेटिंग</string>
@@ -41,13 +53,10 @@
     <string name="donate_disable_ads_text">दान करें, विज्ञापन हटाएं</string>
     <string name="donate_success_thanks_msg_text">आपकी सहायता के लिए धन्यवाद!</string>
     <string name="donate_text">दान</string>
-    <string name="donation_any_amount_text">किसी भी राशि का कोई विज्ञापन नहीं</string>
-    <string name="donation_dlg_has_ads_text">विज्ञापनों को हटाने के लिए दान या अधिक होना चाहिए।</string>
-    <string name="donation_dlg_limited_ads_message_text">छोटे दान के लिए, विज्ञापन केवल मुख्य स्क्रीन से हटा दिया जाता है</string>
     <string name="donation_dlg_no_ads_text">आपके पास कोई विज्ञापन नहीं है।</string>
     <string name="donation_level_text">आपका दान स्तर:</string>
     <string name="donation_purchase_info_loading_text">खरीदारी की जानकारी अभी तक अपलोड नहीं की गई है। क्या आप ऑनलाइन हैं और अपने Google खाते में साइन इन हैं?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">यदि आपने पहले ही कोई खरीदारी कर ली है, तो उसे बहाल करने के लिए, कृपया पहले Google Play Store का डेटा और कैश साफ़ करें। फिर, ऐप को अनइंस्टॉल करें, Google Play Store खोलें, खरीदारी के लिए उपयोग किए गए सही Google खाते का चयन करें और ऐप को पुनः इंस्टॉल करें।</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">यदि आपने पहले ही कोई खरीदारी कर ली है, लेकिन वह स्वचालित रूप से पुनर्स्थापित नहीं हुई है, तो कृपया पहले Google Play Store का डेटा और कैश साफ़ करें। फिर, ऐप को अनइंस्टॉल करें, Google Play Store खोलें, खरीदारी के लिए उपयोग किए गए सही Google खाते का चयन करें और ऐप को पुनः इंस्टॉल करें।</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">यदि आपने पहले ही दान कर दिया है, तो खरीदारी को बहाल करने के लिए, कृपया सही खाता चुनने के बाद सैमसंग गैलेक्सी स्टोर में एप्लिकेशन को फिर से इंस्टॉल करें</string>
     <string name="donation_remove_ads_by_any_amount_text">किसी भी राशि के एकमुश्त दान से विज्ञापनों को हमेशा के लिए हटा दें।</string>
     <string name="donation_remove_ads_by_subscribing_text">आप विज्ञापन हटाने के लिए मासिक दान भी कर सकते हैं।</string>
@@ -72,6 +81,7 @@
     <string name="hour">घंटा</string>
     <string name="hours">घंटे</string>
     <string name="month">महीना</string>
+    <string name="more_info">और जानकारी:</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">एप्लिकेशन को बैटरी अनुकूलन से बाहर नहीं रखा गया है। यदि कैमरा बैकग्राउंड में नहीं चल रहा है या कुछ और है, तो इस एप्लिकेशन को पावर सेविंग मोड के अपवादों में जोड़ें।</string>
     <string name="msg_android_r_deleting_manual_tip_text">यदि आपने Android 11 पर एप्लिकेशन को फिर से इंस्टॉल किया है, तो पुरानी फ़ाइलों को मैन्युअल रूप से हटा दिया जाना चाहिए</string>
     <string name="msg_auto_recording_service_was_stopped">आपने स्वचालित रूप से वीडियो रिकॉर्डिंग प्रारंभ करने के लिए पृष्ठभूमि सेवा बंद कर दी है. एप्लिकेशन को दोबारा लॉन्च करने के लिए उसे खोलें.</string>
@@ -122,6 +132,13 @@
     <string name="notification_service_power_checker">चार्ज</string>
     <string name="notification_stop_text">विराम</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">ऑटो ऑन /ऑफ रिकॉर्डिंग के लिए</string>
+    <string name="one_time_payment">एक - बारगी भुगतान</string>
+    <string name="one_time_payment_explanation_msg">यह लाइफटाइम अपग्रेड है — कोई सब्सक्रिप्शन नहीं, कोई आवर्ती शुल्क नहीं। एक बार भुगतान करें और ऐप का पूरी तरह से विज्ञापन-मुक्त आनंद लें।</string>
+    <string name="one_time_payment_purchased">आपके पास प्रीमियम संस्करण है।\nआपके सहयोग के लिए धन्यवाद!</string>
+    <string name="open_app_info_screen">\"ऐप जानकारी\" स्क्रीन खोलें</string>
+    <string name="open_app_info_screen_battery_usage_allow_background_activity">बैकग्राउंड वीडियो रिकॉर्डिंग चालू करने के लिए, \"ऐप जानकारी\" स्क्रीन खोलें, \"बैटरी उपयोग\" चुनें और \"बैकग्राउंड गतिविधि की अनुमति दें\" को सक्षम करें।</string>
+    <string name="open_battery_settings">बैटरी सेटिंग्स खोलें</string>
+    <string name="open_system_settings">सिस्टम सेटिंग्स खोलें</string>
     <string name="permission_audio_dlg_msg">वीडियो रिकॉर्ड करते समय ऑडियो ट्रैक रिकॉर्ड करने के लिए ऑडियो की आवश्यकता होती है</string>
     <string name="permission_camera_dlg_msg">वीडियो रिकॉर्डिंग और कैमरा पूर्वावलोकन के लिए कैमरा आवश्यक है।</string>
     <string name="permission_camera_request_canceled">इस एप्लिकेशन को वीडियो रिकॉर्ड करने के लिए कैमरे का उपयोग करने की अनुमति की आवश्यकता है। लेकिन आपने इसे ठुकरा दिया। बंद हो रहा है… इस एप्लिकेशन की सिस्टम सेटिंग्स में कैमरे को अनुमति देने का प्रयास करें</string>
@@ -191,6 +208,8 @@
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">डिवाइस निर्माता सभी कैमरों तक पहुंच प्रदान नहीं कर सकता है, इसलिए कुछ कैमरे नहीं खुलेंगे</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">डिवाइस निर्माता सभी अनुप्रयोगों के लिए एक विस्तृत लेंस कैमरा प्रदान नहीं कर सकता है</string>
     <string name="prefs_consent_information_privacy_options">गोपनीयता विकल्प (सहमति जानकारी)</string>
+    <string name="prefs_continuous_recording">निरंतर रिकॉर्डिंग</string>
+    <string name="prefs_continuous_recording_desc">जब वर्तमान फ़ाइल की अवधि निर्धारित सीमा तक पहुँच जाती है, तो एक नई फ़ाइल शुरू हो जाती है। यदि इसे अक्षम किया जाता है, तो रिकॉर्डिंग सीमा पर रुक जाती है।</string>
     <string name="prefs_day_night_mode_auto_text">स्वचालित (दिन /रात), समय के अनुसार</string>
     <string name="prefs_day_night_mode_day_text">दिन</string>
     <string name="prefs_day_night_mode_night_text">रात</string>
@@ -235,10 +254,11 @@
     <string name="prefs_meters_accuracy_value_text">सटीकता के मीटर</string>
     <string name="prefs_open_source_notices_text">ओपन सोर्स नोटिस</string>
     <string name="prefs_optical_zoom_text">ऑप्टिकल ज़ूम (ज़ूम) /फोकल लंबाई</string>
-    <string name="prefs_orientation_landscape">परिदृश्य</string>
-    <string name="prefs_orientation_landscape_reversed">एल्बम उल्टा</string>
-    <string name="prefs_orientation_portrait">चित्र</string>
-    <string name="prefs_orientation_sensor_automatic">स्वचालित</string>
+    <string name="prefs_orientation_landscape">परिदृश्य उन्मुखीकरण</string>
+    <string name="prefs_orientation_landscape_reversed">रिवर्स लैंडस्केप ओरिएंटेशन</string>
+    <string name="prefs_orientation_portrait">चित्र अभिविन्यास</string>
+    <string name="prefs_orientation_sensor_automatic">स्वचालित अभिविन्यास (स्वचालित घूर्णन)</string>
+    <string name="prefs_orientation_system_orientation">सिस्टम ओरिएंटेशन का उपयोग करें</string>
     <string name="prefs_other_auto_deleting_sum_text">यदि नए वीडियो के लिए पर्याप्त जगह नहीं है तो रिकॉर्डिंग करते समय सबसे पुराने वीडियो को स्वचालित रूप से हटा दें</string>
     <string name="prefs_other_auto_deleting_text">लूप रिकॉर्डिंग</string>
     <string name="prefs_other_backup_records_tip">अपनी रिकॉर्डिंग का बैकअप लेने के लिए Google फ़ोटो जैसे ऐप्स इंस्टॉल करें। इन एप्लिकेशन में रिकॉर्डिंग फ़ोल्डर ढूंढें और उनके लिए बैकअप विकल्प सक्षम करें (उदाहरण देखने के लिए टेक्स्ट पर क्लिक करें)।</string>
@@ -394,6 +414,7 @@
     <string name="prefs_version_text">एप्लिकेशन वर्जन</string>
     <string name="prefs_vibrate_rec_start_stop_text">रिकॉर्डिंग शुरू या बंद करते समय कंपन</string>
     <string name="prefs_vibration_strength">कंपन शक्ति</string>
+    <string name="prefs_video_angle_text">वीडियो फ्रेम का अभिविन्यास कोण।</string>
     <string name="prefs_video_bitrate_text">बिटरेट (गुणवत्ता)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">कैमरा नियंत्रण दृश्य मोड (रात)</string>
     <string name="prefs_video_camera_control_scene_mode_text">कैमरा नियंत्रण दृश्य मोड (दिन)</string>
@@ -413,8 +434,10 @@
     <string name="prefs_video_exposure_auto_mode_text">ऑटो एक्सपोजर मोड</string>
     <string name="prefs_video_exposure_night_text">एक्सपोजर मुआवजा (रात)</string>
     <string name="prefs_video_exposure_text">एक्सपोजर मुआवजा (दिन)</string>
-    <string name="prefs_video_flip_x_sum_text">वीडियो का क्षैतिज मिररिंग। छवि केवल वीडियो रिकॉर्डिंग के लिए बदलती है, पूर्वावलोकन नहीं बदलता है</string>
-    <string name="prefs_video_flip_x_text">वीडियो को क्षैतिज रूप से फ़्लिप करें</string>
+    <string name="prefs_video_flip_angle_explanation_desc">यह केवल वीडियो रिकॉर्डिंग पर लागू होता है और कैमरा प्रीव्यू को नहीं बदलता है।</string>
+    <string name="prefs_video_flip_angle_explanation_title">उन मामलों के लिए समाधान जहां वीडियो उल्टे दिखाई देते हैं या उनका ओरिएंटेशन एंगल गलत होता है।</string>
+    <string name="prefs_video_flip_x_text">वीडियो फ्रेम का क्षैतिज प्रतिबिंब।</string>
+    <string name="prefs_video_flip_y_text">वीडियो फ्रेम का ऊर्ध्वाधर प्रतिबिंब।</string>
     <string name="prefs_video_focus_continuous_picture_text">सतत छवि</string>
     <string name="prefs_video_focus_continuous_video_text">निरंतर वीडियो (दिन के दौरान अनुशंसित)</string>
     <string name="prefs_video_focus_infinity_text">अनंत (रात में अनुशंसित)</string>
@@ -444,7 +467,7 @@
     <string name="prefs_zoom_text">डिजिटल ज़ूम (ज़ूम)</string>
     <string name="purchase_did_make_it_previously">क्या आपने पहले कभी खरीदारी की है?</string>
     <string name="rec_audio_silence_text">फिलहाल, ऑडियो रिकॉर्डिंग संभव नहीं है क्योंकि माइक्रोफ़ोन को किसी अन्य एप्लिकेशन द्वारा इंटरसेप्ट किया गया है</string>
-    <string name="rec_available_space_text">उपलब्ध</string>
+    <string name="rec_available_space_text">उपलब्ध स्थान</string>
     <string name="rec_day_night_btn_auto_text">ऑटो</string>
     <string name="rec_fix_short_text">सही करने के लिए</string>
     <string name="rec_fix_text">सही करने के लिए</string>
@@ -511,6 +534,7 @@
     <string name="subscription_status_subscribed_short">सदस्यता लिया</string>
     <string name="subscription_subscribe_text">सदस्यता लें</string>
     <string name="subscription_with_free_trial">निःशुल्क परीक्षण के साथ</string>
+    <string name="tap_to_allow_background_recording">बैकग्राउंड वीडियो रिकॉर्डिंग चालू करने के लिए टैप करें।</string>
     <string name="timer_auto_start">घड़ी</string>
     <string name="timer_auto_start_dlg_type_title">रिकॉर्डिंग शुरू करने के लिए टाइमर सेट करें</string>
     <string name="timer_auto_start_every_day_text">रोज रोज</string>

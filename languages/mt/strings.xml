@@ -1,5 +1,6 @@
 <resources>
     <string name="accept_text">Naċċetta</string>
+    <string name="allow_background_activity_on_some_devices">Hawn taħt hawn eżempji ta’ kif tippermetti attività fl-isfond fuq xi apparati:</string>
     <string name="any_text">Kwalunkwe</string>
     <string name="app_alternative_name_audio">Awdjo</string>
     <string name="app_alternative_name_battery">Settings tal-batterija</string>
@@ -8,6 +9,16 @@
     <string name="app_alternative_name_video">Video</string>
     <string name="app_name_backgroundvideorecorder">Reġistrazzjoni tal-vidjo fl-isfond</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - Sewqan DVR</string>
+    <string name="background_recording_allow_autostart">Ikklikkja hawn biex tħalli l-app tibda awtomatikament fl-isfond (jekk mhux diġà permess).</string>
+    <string name="background_recording_realme_allow_background_activity">5. Ixgħel il-\"Ħalli l-attività fuq quddiem nett\" u \"Ħalli l-attività fl-isfond\".</string>
+    <string name="background_recording_realme_app_battery_management">4. Iftaħ l-iskrin \"Ġestjoni tal-batterija tal-app\" u agħżel l-app.</string>
+    <string name="background_recording_realme_more_settings">2. Iftaħ \"Aktar settings\" (jew \"Settings tal-iffrankar tal-enerġija\"), imbagħad iftaħ kemm \"Ġestjoni tal-batterija tal-app\" kif ukoll \"Ottimizza l-użu tal-batterija\".</string>
+    <string name="background_recording_realme_optimize_battery_use">3. Fl-iskrin \"Ottimizza l-użu tal-batterija\", agħżel l-app u agħżel \"Tottimizzax\" fil-popup.</string>
+    <string name="background_recording_realme_system_settings_battery">1. Iftaħ is-Settings tas-Sistema → Batterija</string>
+    <string name="background_recording_realme_title">Biex iżżomm ir-reġistrazzjoni tal-vidjow fl-isfond stabbli fuq apparati Oppo (realme), ippermetti l-attività fuq quddiem nett, ippermetti l-attività fl-isfond, issettja l-modalità tal-batterija għal \"Tottimizzax\", u ippermetti t-tnedija awtomatika jekk it-telefon jipprovdi dik l-għażla.</string>
+    <string name="background_restrictions_explain_how_to_disable">Hemm restrizzjonijiet tal-isfond tal-batterija stabbiliti għal din l-app li jistgħu jikkawżaw problemi bir-reġistrazzjoni tal-vidjow fl-isfond. Jekk jogħġbok iddiżattiva kwalunkwe ottimizzazzjoni tal-batterija jew restrizzjoni tal-isfond għal din l-app.\n\nTista\' tipprova ssib dawn l-għażliet fl-iskrin \"Informazzjoni tal-app\" → \"Batterija\" jew fis-settings tas-sistema tat-tagħmir tiegħek. Issettja l-ottimizzazzjoni tal-batterija għal \"Mhux Ristrett\" (jew \"Tottimizzax\") għal din l-app, ippermetti l-attività fuq quddiem u fl-isfond. Il-post eżatt ta\' dawn l-għażliet jista\' jvarja skont il-manifattur tat-tagħmir tiegħek.</string>
+    <string name="background_restrictions_msg_text">Jekk jogħġbok iddiżattiva r-restrizzjonijiet fl-isfond għall-app biex tiżgura reġistrazzjoni stabbli tal-vidjow.</string>
+    <string name="background_restrictions_text">Limitazzjoni tax-xogħol tal-app fl-isfond</string>
     <string name="camera">Kamera</string>
     <string name="camera_aperture">Dijaframma</string>
     <string name="camera_back">Kamera ta\' wara</string>
@@ -30,6 +41,7 @@
     <string name="close">Agħlaq</string>
     <string name="days">jiem</string>
     <string name="default_text">Default</string>
+    <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">Istruzzjonijiet aktar dettaljati biex tiddiżattiva l-ottimizzazzjoni tal-batterija u tippermetti attività fl-isfond għall-app:</string>
     <string name="dialog_camera_not_found_msg_text">Dan l-apparat m\'għandux kamera integrata u ma jappoġġjax kameras esterni. Għeluq…</string>
     <string name="dialog_camera_not_found_text">Kamera ma nstabx</string>
     <string name="dialog_go_to_settings_text">Iftaħ is-settings</string>
@@ -41,13 +53,10 @@
     <string name="donate_disable_ads_text">Donazzjoni, Neħħi Reklami</string>
     <string name="donate_success_thanks_msg_text">Grazzi ħafna għall-appoġġ tiegħek!</string>
     <string name="donate_text">Donazzjoni</string>
-    <string name="donation_any_amount_text">ebda reklamar għal kwalunkwe ammont</string>
-    <string name="donation_dlg_has_ads_text">Biex tneħħi r-reklami, id-donazzjoni trid tkun jew aktar.</string>
-    <string name="donation_dlg_limited_ads_message_text">Għal donazzjonijiet iżgħar, ir-reklamar jitneħħa biss fuq l-iskrin prinċipali</string>
     <string name="donation_dlg_no_ads_text">M\'għandekx reklami.</string>
     <string name="donation_level_text">Il-livell tad-donazzjoni tiegħek:</string>
     <string name="donation_purchase_info_loading_text">L-informazzjoni tax-xiri għadha ma ġietx imtella\'. Inti online u ffirmajt fil-kont Google tiegħek?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Jekk diġà għamilt xirja, biex tirrestawraha, jekk jogħġbok l-ewwel neħħi d-dejta u l-cache tal-Google Play Store. Imbagħad, iddiżinstalla l-app, iftaħ il-Google Play Store, agħżel il-kont tal-Google korrett użat biex tagħmel ix-xiri, u erġa\' installa l-app.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Jekk diġà għamilt xirja, iżda ma ġietx irrestawrata awtomatikament, jekk jogħġbok l-ewwel neħħi d-dejta u l-cache tal-Google Play Store. Imbagħad, iddiżinstalla l-app, iftaħ il-Google Play Store, agħżel il-kont tal-Google korrett użat biex tagħmel ix-xiri, u erġa\' installa l-app.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">Jekk diġà għamilt donazzjoni, imbagħad biex tirrestawra x-xiri, jekk jogħġbok installa mill-ġdid l-applikazzjoni f\'Samsung Galaxy Store wara li tagħżel il-kont korrett</string>
     <string name="donation_remove_ads_by_any_amount_text">Neħħi r-reklami għal dejjem b\'donazzjoni ta\' darba ta\' kwalunkwe ammont.</string>
     <string name="donation_remove_ads_by_subscribing_text">Tista\' wkoll tagħti donazzjoni kull xahar biex tneħħi r-reklami.</string>
@@ -72,6 +81,7 @@
     <string name="hour">siegħa</string>
     <string name="hours">sigħat</string>
     <string name="month">xahar</string>
+    <string name="more_info">Aktar tagħrif:</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">L-applikazzjoni mhix eskluża mill-ottimizzazzjoni tal-batterija. Jekk il-kamera ma tkunx qed taħdem fl-isfond jew xi ħaġa oħra, imbagħad żid din l-applikazzjoni mal-eċċezzjonijiet tal-modalità tal-iffrankar tal-enerġija.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Jekk installajt mill-ġdid l-applikazzjoni fuq Android 11, allura l-fajls qodma għandhom jitħassru manwalment</string>
     <string name="msg_auto_recording_service_was_stopped">Int waqqaft is-servizz fl-isfond biex tibda awtomatikament ir-reġistrazzjoni tal-vidjo. Iftaħ l-applikazzjoni biex terġa\' tniedi.</string>
@@ -122,6 +132,13 @@
     <string name="notification_service_power_checker">iċċarġjar</string>
     <string name="notification_stop_text">Waqfa</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Għal reġistrazzjoni awtomatika mixgħula /mitfija</string>
+    <string name="one_time_payment">Ħlas ta\' darba</string>
+    <string name="one_time_payment_explanation_msg">Dan huwa aġġornament tul il-ħajja — l-ebda abbonament, l-ebda tariffi rikorrenti. Ħallas darba u gawdi l-app kompletament mingħajr reklami.</string>
+    <string name="one_time_payment_purchased">Għandek verżjoni premium.\nGrazzi tal-appoġġ tiegħek!</string>
+    <string name="open_app_info_screen">Iftaħ l-iskrin \"Informazzjoni dwar l-app\"</string>
+    <string name="open_app_info_screen_battery_usage_allow_background_activity">Biex tippermetti r-reġistrazzjoni tal-vidjow fl-isfond, iftaħ l-iskrin \"Informazzjoni dwar l-app\", agħżel \"Użu tal-batterija\", u attiva \"Ħalli l-attività fl-isfond\".</string>
+    <string name="open_battery_settings">Iftaħ is-settings tal-batterija</string>
+    <string name="open_system_settings">Iftaħ is-Settings tas-Sistema</string>
     <string name="permission_audio_dlg_msg">L-awdjo huwa meħtieġ biex jirreġistra track awdjo meta jirreġistra vidjo</string>
     <string name="permission_camera_dlg_msg">Il-kamera hija meħtieġa għar-reġistrazzjoni tal-vidjo u l-preview tal-kamera.</string>
     <string name="permission_camera_request_canceled">Din l-applikazzjoni teħtieġ permess biex tuża l-kamera biex tirrekordja l-vidjo. Imma int irrifjutajtu. Għeluq… Ipprova agħti permess lill-kamera fis-settings tas-sistema ta\' din l-applikazzjoni</string>
@@ -191,6 +208,8 @@
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Il-manifattur tal-apparat jista \'ma jipprovdix aċċess għall-kameras kollha, għalhekk xi wħud jistgħu ma jinfetħux</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Il-manifattur tat-tagħmir jista \'ma jipprovdix kamera b\'lenti wiesgħa għall-applikazzjonijiet kollha</string>
     <string name="prefs_consent_information_privacy_options">Għażliet ta\' privatezza (Informazzjoni dwar il-kunsens)</string>
+    <string name="prefs_continuous_recording">Reġistrazzjoni kontinwa</string>
+    <string name="prefs_continuous_recording_desc">Jibda fajl ġdid meta dak attwali jilħaq it-tul stabbilit. Jekk ikun diżattivat, ir-reġistrazzjoni tieqaf fil-limitu.</string>
     <string name="prefs_day_night_mode_auto_text">Awtomatiku (jum /lejl), skond il-ħin</string>
     <string name="prefs_day_night_mode_day_text">Jum</string>
     <string name="prefs_day_night_mode_night_text">Lejl</string>
@@ -235,10 +254,11 @@
     <string name="prefs_meters_accuracy_value_text">metri ta\' preċiżjoni</string>
     <string name="prefs_open_source_notices_text">Avviżi open source</string>
     <string name="prefs_optical_zoom_text">Zoom ottiku (Zoom) /Tul Fokali</string>
-    <string name="prefs_orientation_landscape">Pajsaġġ</string>
-    <string name="prefs_orientation_landscape_reversed">Reverse album</string>
-    <string name="prefs_orientation_portrait">Ritratt</string>
-    <string name="prefs_orientation_sensor_automatic">Awtomatiku</string>
+    <string name="prefs_orientation_landscape">Orjentazzjoni tal-pajsaġġ</string>
+    <string name="prefs_orientation_landscape_reversed">Orjentazzjoni orizzontali inversa</string>
+    <string name="prefs_orientation_portrait">Orjentazzjoni ritratt</string>
+    <string name="prefs_orientation_sensor_automatic">Orjentazzjoni awtomatika (rotazzjoni awtomatika)</string>
+    <string name="prefs_orientation_system_orientation">Uża l-orjentazzjoni tas-sistema</string>
     <string name="prefs_other_auto_deleting_sum_text">Ħassar awtomatikament l-eqdem vidjows waqt ir-reġistrazzjoni jekk ma jkunx hemm biżżejjed spazju għal vidjows ġodda</string>
     <string name="prefs_other_auto_deleting_text">Reġistrazzjoni loop</string>
     <string name="prefs_other_backup_records_tip">Biex tagħmel backup tar-reġistrazzjonijiet tiegħek, installa apps bħal Google Photos. Sib il-fowlders tar-reġistrazzjoni f\'dawn l-applikazzjonijiet u ppermettilhom l-għażla tal-backup (ikklikkja fuq it-test biex tara eżempju).</string>
@@ -394,6 +414,7 @@
     <string name="prefs_version_text">Verżjoni tal-applikazzjoni</string>
     <string name="prefs_vibrate_rec_start_stop_text">Vibrazzjoni meta tibda jew twaqqaf ir-reġistrazzjoni</string>
     <string name="prefs_vibration_strength">Saħħa tal-vibrazzjoni</string>
+    <string name="prefs_video_angle_text">Angolu ta\' orjentazzjoni tal-frejms tal-vidjow.</string>
     <string name="prefs_video_bitrate_text">Bitrate (kwalità)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Modalità ta\' Xena ta\' Kontroll tal-Kamera (Lejl)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Modalità ta\' Xena ta\' Kontroll tal-Kamera (Jum)</string>
@@ -413,8 +434,10 @@
     <string name="prefs_video_exposure_auto_mode_text">Modalità ta \'espożizzjoni awtomatika</string>
     <string name="prefs_video_exposure_night_text">Kumpens tal-espożizzjoni (bil-lejl)</string>
     <string name="prefs_video_exposure_text">Kumpens għall-espożizzjoni (jum)</string>
-    <string name="prefs_video_flip_x_sum_text">Mirja orizzontali tal-vidjo. L-immaġni tinbidel biss għar-reġistrazzjoni tal-vidjo, il-preview ma tinbidilx</string>
-    <string name="prefs_video_flip_x_text">Flip video orizzontalment</string>
+    <string name="prefs_video_flip_angle_explanation_desc">Dan japplika biss għar-reġistrazzjoni tal-vidjow u ma jbiddilx il-preview tal-kamera.</string>
+    <string name="prefs_video_flip_angle_explanation_title">Tiswijiet għal każijiet fejn il-vidjows ikunu maqlubin jew ikollhom l-angolu ta\' orjentazzjoni żbaljat.</string>
+    <string name="prefs_video_flip_x_text">Riflessjoni orizzontali tal-frejms tal-vidjow.</string>
+    <string name="prefs_video_flip_y_text">Riflessjoni vertikali tal-frejms tal-vidjow.</string>
     <string name="prefs_video_focus_continuous_picture_text">Immaġini kontinwa</string>
     <string name="prefs_video_focus_continuous_video_text">Vidjow kontinwu (rakkomandat matul il-ġurnata)</string>
     <string name="prefs_video_focus_infinity_text">Infinità (rakkomandat bil-lejl)</string>
@@ -444,7 +467,7 @@
     <string name="prefs_zoom_text">Żum diġitali (zoom)</string>
     <string name="purchase_did_make_it_previously">Għamilt xi xiri qabel?</string>
     <string name="rec_audio_silence_text">Bħalissa, ir-reġistrazzjoni tal-awdjo mhix possibbli minħabba li l-mikrofonu jiġi interċettat minn applikazzjoni oħra</string>
-    <string name="rec_available_space_text">Disponibbli</string>
+    <string name="rec_available_space_text">Spazju disponibbli</string>
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">Biex tikkoreġi</string>
     <string name="rec_fix_text">Biex tikkoreġi</string>
@@ -511,6 +534,7 @@
     <string name="subscription_status_subscribed_short">Abbonat</string>
     <string name="subscription_subscribe_text">Abbona</string>
     <string name="subscription_with_free_trial">Bi prova bla ħlas</string>
+    <string name="tap_to_allow_background_recording">Tektek biex tippermetti r-reġistrazzjoni tal-vidjow fl-isfond.</string>
     <string name="timer_auto_start">Timer</string>
     <string name="timer_auto_start_dlg_type_title">Issettja tajmer biex tibda tirrekordja</string>
     <string name="timer_auto_start_every_day_text">Kuljum</string>

@@ -1,5 +1,6 @@
 <resources>
     <string name="accept_text">jeg aksepterer</string>
+    <string name="allow_background_activity_on_some_devices">Nedenfor finner du eksempler på hvordan du tillater bakgrunnsaktivitet på enkelte enheter:</string>
     <string name="any_text">Noen</string>
     <string name="app_alternative_name_audio">Lyd</string>
     <string name="app_alternative_name_battery">Batteriinnstillinger</string>
@@ -8,6 +9,16 @@
     <string name="app_alternative_name_video">Video</string>
     <string name="app_name_backgroundvideorecorder">Bakgrunnsvideoopptak</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - Driving DVR</string>
+    <string name="background_recording_allow_autostart">Klikk her for å tillate at appen starter automatisk i bakgrunnen (hvis det ikke allerede er tillatt).</string>
+    <string name="background_recording_realme_allow_background_activity">5. Slå på veksleknappene for «Tillat aktivitet i forgrunnen» og «Tillat aktivitet i bakgrunnen».</string>
+    <string name="background_recording_realme_app_battery_management">4. Åpne skjermbildet «Appbatterihåndtering» og velg appen.</string>
+    <string name="background_recording_realme_more_settings">2. Åpne «Flere innstillinger» (eller «Strømsparingsinnstillinger»), og åpne deretter både «Appbatterihåndtering» og «Optimaliser batteribruk».</string>
+    <string name="background_recording_realme_optimize_battery_use">3. I skjermbildet «Optimaliser batteribruk» velger du appen og velger «Ikke optimaliser» i popup-vinduet.</string>
+    <string name="background_recording_realme_system_settings_battery">1. Åpne Systeminnstillinger → Batteri</string>
+    <string name="background_recording_realme_title">For å holde bakgrunnsvideoopptak stabilt på Oppo (Realme)-enheter, tillat forgrunnsaktivitet, tillat bakgrunnsaktivitet, sett batterimodus til «Ikke optimaliser» og tillat automatisk oppstart hvis telefonen tilbyr det alternativet.</string>
+    <string name="background_restrictions_explain_how_to_disable">Det er angitt batterirestriksjoner i bakgrunnen for denne appen, noe som kan forårsake problemer med videoopptak i bakgrunnen. Deaktiver eventuelle batterioptimaliseringer eller bakgrunnsrestriksjoner for denne appen.\n\nDu kan prøve å finne slike alternativer på «Appinfo» → «Batteri»-skjermen eller i enhetens systeminnstillinger. Sett batterioptimalisering til «Ubegrenset» (eller «Ikke optimaliser») for denne appen, og tillat forgrunns- og bakgrunnsaktivitet. Den nøyaktige plasseringen av slike alternativer kan variere avhengig av enhetsprodusenten.</string>
+    <string name="background_restrictions_msg_text">Vennligst deaktiver bakgrunnsbegrensninger for appen for å sikre stabile videoopptak.</string>
+    <string name="background_restrictions_text">Begrense bakgrunnsapparbeid</string>
     <string name="camera">Kamera</string>
     <string name="camera_aperture">Diafragma</string>
     <string name="camera_back">Ryggekamera</string>
@@ -30,6 +41,7 @@
     <string name="close">Lukk</string>
     <string name="days">dager</string>
     <string name="default_text">Misligholde</string>
+    <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">Mer detaljerte instruksjoner for å deaktivere batterioptimalisering og tillate bakgrunnsaktivitet for appen:</string>
     <string name="dialog_camera_not_found_msg_text">Denne enheten har ikke et innebygd kamera og støtter ikke eksterne kameraer. Lukking…</string>
     <string name="dialog_camera_not_found_text">Kameraet ble ikke funnet</string>
     <string name="dialog_go_to_settings_text">Åpne innstillinger</string>
@@ -41,13 +53,10 @@
     <string name="donate_disable_ads_text">Donasjon, fjern annonser</string>
     <string name="donate_success_thanks_msg_text">Tusen takk for din støtte!</string>
     <string name="donate_text">Donasjon</string>
-    <string name="donation_any_amount_text">ingen reklame for noe beløp</string>
-    <string name="donation_dlg_has_ads_text">For å fjerne annonser må donasjonen være eller mer.</string>
-    <string name="donation_dlg_limited_ads_message_text">For mindre donasjoner fjernes reklame kun på hovedskjermen</string>
     <string name="donation_dlg_no_ads_text">Du har ingen annonser.</string>
     <string name="donation_level_text">Ditt donasjonsnivå:</string>
     <string name="donation_purchase_info_loading_text">Handleinformasjonen er ikke lastet opp ennå. Er du tilkoblet og logget på Google-kontoen din?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Hvis du allerede har gjort et kjøp, må du først tømme Google Play Store-dataene og hurtigbufferen for å gjenopprette det. Avinstaller deretter appen, åpne Google Play Store, velg riktig Google-konto som ble brukt til å gjøre kjøpet, og installer appen på nytt.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Hvis du allerede har gjort et kjøp, men det ikke ble gjenopprettet automatisk, må du først tømme Google Play Store-dataene og hurtigbufferen. Avinstaller deretter appen, åpne Google Play Store, velg riktig Google-konto som ble brukt til å gjøre kjøpet, og installer appen på nytt.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">Hvis du allerede har gitt en donasjon, for å gjenopprette kjøp, installer applikasjonen på nytt i Samsung Galaxy Store etter å ha valgt riktig konto</string>
     <string name="donation_remove_ads_by_any_amount_text">Fjern annonser for alltid med en engangsdonasjon uansett beløp.</string>
     <string name="donation_remove_ads_by_subscribing_text">Du kan også donere månedlig for å fjerne annonser.</string>
@@ -72,6 +81,7 @@
     <string name="hour">time</string>
     <string name="hours">timer</string>
     <string name="month">måned</string>
+    <string name="more_info">Mer informasjon:</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Applikasjonen er ikke ekskludert fra batterioptimalisering. Hvis kameraet ikke kjører i bakgrunnen eller noe annet, så legg til denne applikasjonen til unntakene for strømsparingsmodus.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Hvis du reinstallerte applikasjonen på Android 11, må de gamle filene slettes manuelt</string>
     <string name="msg_auto_recording_service_was_stopped">Du har stoppet bakgrunnstjenesten for automatisk å starte videoopptak. Åpne programmet for å starte det igjen.</string>
@@ -122,6 +132,13 @@
     <string name="notification_service_power_checker">lader</string>
     <string name="notification_stop_text">Stoppe</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">For automatisk på/av-opptak</string>
+    <string name="one_time_payment">Engangsbetaling</string>
+    <string name="one_time_payment_explanation_msg">Dette er en livstidsoppgradering – ingen abonnementer, ingen gjentakende avgifter. Betal én gang og nyt appen helt reklamefri.</string>
+    <string name="one_time_payment_purchased">Du har premiumversjonen. Takk for støtten!</string>
+    <string name="open_app_info_screen">Åpne skjermbildet «Appinfo»</string>
+    <string name="open_app_info_screen_battery_usage_allow_background_activity">For å tillate bakgrunnsvideoopptak, åpne skjermbildet «Appinfo», velg «Batteribruk» og aktiver «Tillat bakgrunnsaktivitet».</string>
+    <string name="open_battery_settings">Åpne batteriinnstillingene</string>
+    <string name="open_system_settings">Åpne systeminnstillinger</string>
     <string name="permission_audio_dlg_msg">Lyd kreves for å ta opp et lydspor når du spiller inn video</string>
     <string name="permission_camera_dlg_msg">Kameraet er nødvendig for videoopptak og forhåndsvisning av kamera.</string>
     <string name="permission_camera_request_canceled">Denne applikasjonen krever tillatelse for å bruke kameraet til å ta opp video. Men du avviste det. Lukker… Prøv å gi tillatelse til kameraet i systeminnstillingene til denne applikasjonen</string>
@@ -191,6 +208,8 @@
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Enhetsprodusenten gir kanskje ikke tilgang til alle kameraer, så noen kan ikke åpnes</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Enhetsprodusenten tilbyr kanskje ikke et vidobjektivkamera for alle applikasjoner</string>
     <string name="prefs_consent_information_privacy_options">Personvernalternativer (samtykkeinformasjon)</string>
+    <string name="prefs_continuous_recording">Kontinuerlig opptak</string>
+    <string name="prefs_continuous_recording_desc">Starter en ny fil når den gjeldende når den angitte varigheten. Hvis den er deaktivert, stopper opptaket ved grensen.</string>
     <string name="prefs_day_night_mode_auto_text">Automatisk (dag /natt), etter tid</string>
     <string name="prefs_day_night_mode_day_text">Dag</string>
     <string name="prefs_day_night_mode_night_text">Natt</string>
@@ -235,10 +254,11 @@
     <string name="prefs_meters_accuracy_value_text">meter med nøyaktighet</string>
     <string name="prefs_open_source_notices_text">Opplysninger om åpen kildekode</string>
     <string name="prefs_optical_zoom_text">Optisk zoom (Zoom) /Brennvidde</string>
-    <string name="prefs_orientation_landscape">Landskap</string>
-    <string name="prefs_orientation_landscape_reversed">Album omvendt</string>
-    <string name="prefs_orientation_portrait">Portrett</string>
-    <string name="prefs_orientation_sensor_automatic">Automatisk</string>
+    <string name="prefs_orientation_landscape">Liggende retning</string>
+    <string name="prefs_orientation_landscape_reversed">Omvendt liggende retning</string>
+    <string name="prefs_orientation_portrait">Stående retning</string>
+    <string name="prefs_orientation_sensor_automatic">Automatisk orientering (automatisk rotasjon)</string>
+    <string name="prefs_orientation_system_orientation">Bruk systemorientering</string>
     <string name="prefs_other_auto_deleting_sum_text">Slett automatisk de eldste videoene under opptak hvis det ikke er nok plass til nye videoer</string>
     <string name="prefs_other_auto_deleting_text">Sammenhengende opptak</string>
     <string name="prefs_other_backup_records_tip">For å sikkerhetskopiere opptakene dine, installer apper som Google Foto. Finn opptaksmappene i disse programmene og aktiver sikkerhetskopieringsalternativet for dem (klikk på teksten for å se et eksempel).</string>
@@ -394,6 +414,7 @@
     <string name="prefs_version_text">Applikasjonsversjon</string>
     <string name="prefs_vibrate_rec_start_stop_text">Vibrasjon ved start eller stopp av opptak</string>
     <string name="prefs_vibration_strength">Vibrasjonsstyrke</string>
+    <string name="prefs_video_angle_text">Orienteringsvinkel for videobilder.</string>
     <string name="prefs_video_bitrate_text">Bitrate (kvalitet)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kamerakontroll scenemodus (natt)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kamerakontroll Scene-modus (dag)</string>
@@ -413,8 +434,10 @@
     <string name="prefs_video_exposure_auto_mode_text">Automatisk eksponeringsmodus</string>
     <string name="prefs_video_exposure_night_text">Eksponeringskompensasjon (natt)</string>
     <string name="prefs_video_exposure_text">Eksponeringskompensasjon (dag)</string>
-    <string name="prefs_video_flip_x_sum_text">Horisontal speiling av video. Bildet endres kun for videoopptak, forhåndsvisningen endres ikke</string>
-    <string name="prefs_video_flip_x_text">Vend video horisontalt</string>
+    <string name="prefs_video_flip_angle_explanation_desc">Dette gjelder bare videoopptak og endrer ikke forhåndsvisningen av kameraet.</string>
+    <string name="prefs_video_flip_angle_explanation_title">Rettelser for tilfeller der videoer er snudd eller har feil retningsvinkel.</string>
+    <string name="prefs_video_flip_x_text">Horisontal refleksjon av videobilder.</string>
+    <string name="prefs_video_flip_y_text">Vertikal refleksjon av videobilder.</string>
     <string name="prefs_video_focus_continuous_picture_text">Kontinuerlig bilde</string>
     <string name="prefs_video_focus_continuous_video_text">Kontinuerlig video (anbefalt i løpet av dagen)</string>
     <string name="prefs_video_focus_infinity_text">Infinity (anbefalt om natten)</string>
@@ -444,7 +467,7 @@
     <string name="prefs_zoom_text">Digital zoom (zoom)</string>
     <string name="purchase_did_make_it_previously">Har du gjort et kjøp før?</string>
     <string name="rec_audio_silence_text">For øyeblikket er ikke lydopptak mulig fordi mikrofonen blir fanget opp av en annen applikasjon</string>
-    <string name="rec_available_space_text">Tilgjengelig</string>
+    <string name="rec_available_space_text">Ledig plass</string>
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">Å rette</string>
     <string name="rec_fix_text">Å rette</string>
@@ -511,6 +534,7 @@
     <string name="subscription_status_subscribed_short">Abonnerer</string>
     <string name="subscription_subscribe_text">Abonner</string>
     <string name="subscription_with_free_trial">Med gratis prøveperiode</string>
+    <string name="tap_to_allow_background_recording">Trykk for å tillate bakgrunnsvideoopptak.</string>
     <string name="timer_auto_start">Timer</string>
     <string name="timer_auto_start_dlg_type_title">Still inn en timer for å starte opptaket</string>
     <string name="timer_auto_start_every_day_text">Hver dag</string>

@@ -1,5 +1,6 @@
 <resources>
     <string name="accept_text">би зөвшөөрч байна</string>
+    <string name="allow_background_activity_on_some_devices">Зарим төхөөрөмж дээр арын үйл ажиллагааг хэрхэн зөвшөөрөх жишээг доор харуулав:</string>
     <string name="any_text">Ямар ч</string>
     <string name="app_alternative_name_audio">Аудио</string>
     <string name="app_alternative_name_battery">Зайны тохиргоо</string>
@@ -8,6 +9,16 @@
     <string name="app_alternative_name_video">Видео</string>
     <string name="app_name_backgroundvideorecorder">Арын дэвсгэр видео бичлэг</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - DVR жолоодох</string>
+    <string name="background_recording_allow_autostart">Аппликейшнийг ард автоматаар эхлүүлэхийг зөвшөөрөхийн тулд энд дарна уу (хэрэв зөвшөөрөгдөөгүй бол).</string>
+    <string name="background_recording_realme_allow_background_activity">5. \"Урд талын үйл ажиллагааг зөвшөөрөх\" болон \"Арын үйл ажиллагааг зөвшөөрөх\" тохиргоог асаана уу.</string>
+    <string name="background_recording_realme_app_battery_management">4. \"Апп батерейны менежмент\" дэлгэцийг нээгээд апп-г сонгоно уу.</string>
+    <string name="background_recording_realme_more_settings">2. \"Бусад тохиргоо\" (эсвэл \"Цахилгаан хэмнэх тохиргоо\")-г нээгээд, дараа нь \"Апп батерейны менежмент\" болон \"Батерейны ашиглалтыг оновчтой болгох\"-ыг нээнэ үү.</string>
+    <string name="background_recording_realme_optimize_battery_use">3. \"Батерейны хэрэглээг оновчтой болгох\" дэлгэц дээр аппликейшнийг сонгоод гарч ирэх цонхноос \"Оновчлохгүй байх\" гэснийг сонгоно уу.</string>
+    <string name="background_recording_realme_system_settings_battery">1. Системийн тохиргоо → Батерейг нээнэ үү</string>
+    <string name="background_recording_realme_title">Oppo (realme) төхөөрөмжүүд дээр арын видео бичлэгийг тогтвортой байлгахын тулд урд талын үйл ажиллагааг зөвшөөрөх, арын үйл ажиллагааг зөвшөөрөх, батерейны горимыг \"Оновчтой болгохгүй\" болгож тохируулах, хэрэв утас энэ сонголтыг олгосон бол автоматаар эхлүүлэхийг зөвшөөрөх.</string>
+    <string name="background_restrictions_explain_how_to_disable">Энэ аппликейшнд тохируулсан батерейны арын дэвсгэрийн хязгаарлалтууд байгаа бөгөөд энэ нь арын дэвсгэр дээр видео бичлэг хийхэд асуудал үүсгэж болзошгүй. Энэ аппликейшнд зориулсан батерейны оновчлол эсвэл арын дэвсгэрийн хязгаарлалтыг идэвхгүй болгоно уу.\n\nТа ийм сонголтыг \"Аппликейшны мэдээлэл\" → \"Батерей\" дэлгэц эсвэл төхөөрөмжийнхөө системийн тохиргооноос олохыг оролдож болно. Энэ аппликейшнд батерейны оновчлолыг \"Хязгааргүй\" (эсвэл \"Оновчлохгүй\") болгож тохируулж, урд болон арын дэвсгэрийн үйл ажиллагааг зөвшөөрнө үү. Ийм сонголтуудын яг байршил нь таны төхөөрөмжийн үйлдвэрлэгчээс хамаарч өөр өөр байж болно.</string>
+    <string name="background_restrictions_msg_text">Тогтвортой видео бичлэг хийхийн тулд аппликейшны дэвсгэр хязгаарлалтыг идэвхгүй болгоно уу.</string>
+    <string name="background_restrictions_text">Аппликейшний ард ажиллах ажлыг хязгаарлах</string>
     <string name="camera">Камер</string>
     <string name="camera_aperture">Диафрагм</string>
     <string name="camera_back">Арын камер</string>
@@ -30,6 +41,7 @@
     <string name="close">Хаах</string>
     <string name="days">өдрүүд</string>
     <string name="default_text">Өгөгдмөл</string>
+    <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">Аппликейшны батерейны оновчлолыг идэвхгүй болгох болон арын үйл ажиллагааг идэвхжүүлэх талаар дэлгэрэнгүй зааварчилгаа:</string>
     <string name="dialog_camera_not_found_msg_text">Энэ төхөөрөмж нь суурилуулсан камергүй бөгөөд гадны камерыг дэмждэггүй. Хааж байна…</string>
     <string name="dialog_camera_not_found_text">Камер олдсонгүй</string>
     <string name="dialog_go_to_settings_text">Тохиргоог нээх</string>
@@ -41,13 +53,10 @@
     <string name="donate_disable_ads_text">Хандив, Зар устгах</string>
     <string name="donate_success_thanks_msg_text">Таны дэмжлэгт маш их баярлалаа!</string>
     <string name="donate_text">Хандив</string>
-    <string name="donation_any_amount_text">ямар ч хэмжээний зар сурталчилгаа байхгүй</string>
-    <string name="donation_dlg_has_ads_text">Зарыг устгахын тулд хандив эсвэл түүнээс дээш байх ёстой.</string>
-    <string name="donation_dlg_limited_ads_message_text">Жижиг хандивын хувьд зар сурталчилгааг зөвхөн үндсэн дэлгэц дээр арилгадаг</string>
     <string name="donation_dlg_no_ads_text">Танд зар байхгүй байна.</string>
     <string name="donation_level_text">Таны хандивын түвшин:</string>
     <string name="donation_purchase_info_loading_text">Худалдааны мэдээллийг хараахан байршуулаагүй байна. Та онлайн бөгөөд Google бүртгэлдээ нэвтэрсэн үү?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Хэрэв та аль хэдийн худалдан авалт хийсэн бол сэргээхийн тулд эхлээд Google Play Store-ын өгөгдөл болон кэшийг цэвэрлэнэ үү. Дараа нь аппликейшнийг устгаад, Google Play Store-г нээгээд, худалдан авалт хийхэд ашигласан зөв Google бүртгэлийг сонгоод, аппликейшнийг дахин суулгана уу.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Хэрэв та аль хэдийн худалдан авалт хийсэн боловч автоматаар сэргээгдээгүй бол эхлээд Google Play Store-ын өгөгдөл болон кэшийг цэвэрлэнэ үү. Дараа нь аппликейшнийг устгаад, Google Play Store-г нээгээд, худалдан авалт хийхэд ашигласан зөв Google бүртгэлийг сонгоод, аппликейшнийг дахин суулгана уу.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">Хэрэв та хандив өгсөн бол худалдан авалтаа сэргээхийн тулд зөв дансаа сонгосны дараа Samsung Galaxy Store-д програмаа дахин суулгана уу.</string>
     <string name="donation_remove_ads_by_any_amount_text">Ямар ч хэмжээний нэг удаагийн хандиваар зарыг үүрд устга.</string>
     <string name="donation_remove_ads_by_subscribing_text">Та мөн зарыг устгахын тулд сар бүр хандив өгч болно.</string>
@@ -72,6 +81,7 @@
     <string name="hour">цаг</string>
     <string name="hours">цаг</string>
     <string name="month">сар</string>
+    <string name="more_info">Дэлгэрэнгүй мэдээлэл:</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Аппликейшн нь батерейны оновчлолоос хасагдаагүй болно. Хэрэв камер арын дэвсгэр дээр эсвэл өөр зүйл ажиллахгүй бол энэ програмыг эрчим хүч хэмнэх горимоос үл хамаарах зүйлд нэмнэ үү.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Хэрэв та Android 11 дээр програмыг дахин суулгасан бол хуучин файлуудыг гараар устгах ёстой</string>
     <string name="msg_auto_recording_service_was_stopped">Та видео бичлэгийг автоматаар эхлүүлэх арын үйлчилгээг зогсоосон байна. Аппликешныг дахин эхлүүлэхийн тулд нээнэ үү.</string>
@@ -122,6 +132,13 @@
     <string name="notification_service_power_checker">цэнэглэж байна</string>
     <string name="notification_stop_text">Зогс</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Автоматаар асаах/унтраах бичлэг хийх зориулалттай</string>
+    <string name="one_time_payment">Нэг удаагийн төлбөр</string>
+    <string name="one_time_payment_explanation_msg">Энэ бол насан туршийн шинэчлэлт юм — захиалга байхгүй, давтагдах төлбөр байхгүй. Нэг удаа төлбөр төлөөд аппликейшнийг бүрэн зар сурталчилгаагүй ашиглаарай.</string>
+    <string name="one_time_payment_purchased">Та дээд зэрэглэлийн хувилбартай байна. Дэмжлэг үзүүлсэнд баярлалаа!</string>
+    <string name="open_app_info_screen">\"Аппликейшны мэдээлэл\" дэлгэцийг нээх</string>
+    <string name="open_app_info_screen_battery_usage_allow_background_activity">\"Аппын мэдээлэл\" дэлгэцийг нээхийн тулд арын видео бичлэг хийхийг зөвшөөрөхийн тулд \"Батерейны хэрэглээ\"-г сонгоод \"Арын үйл ажиллагааг зөвшөөрөх\"-ийг идэвхжүүлнэ үү.</string>
+    <string name="open_battery_settings">Батерейны тохиргоог нээх</string>
+    <string name="open_system_settings">Системийн тохиргоог нээх</string>
     <string name="permission_audio_dlg_msg">Видео бичлэг хийх үед аудио бичлэгийг бичихэд аудио шаардлагатай</string>
     <string name="permission_camera_dlg_msg">Камер нь видео бичлэг хийх, камерыг урьдчилан үзэхэд шаардлагатай.</string>
     <string name="permission_camera_request_canceled">Энэ аппликейшн нь видео бичлэг хийх камер ашиглах зөвшөөрөл шаарддаг. Гэхдээ та татгалзсан. Хааж байна… Энэ програмын системийн тохиргоонд камерт зөвшөөрөл олгохыг оролдоно уу</string>
@@ -191,6 +208,8 @@
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Төхөөрөмжийн үйлдвэрлэгч бүх камерт хандах эрх өгөхгүй байж магадгүй тул зарим нь нээгдэхгүй байж магадгүй юм</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Төхөөрөмж үйлдвэрлэгч нь бүх хэрэглээнд өргөн линзтэй камер өгөхгүй байж магадгүй юм</string>
     <string name="prefs_consent_information_privacy_options">Нууцлалын сонголтууд (Зөвшөөрлийн мэдээлэл)</string>
+    <string name="prefs_continuous_recording">Тасралтгүй бичлэг</string>
+    <string name="prefs_continuous_recording_desc">Одоогийн файл тогтоосон хугацаанд хүрэхэд шинэ файл эхлүүлнэ. Хэрэв идэвхгүй болгосон бол бичлэг хязгаарт хүрнэ.</string>
     <string name="prefs_day_night_mode_auto_text">Автомат (өдөр /шөнө), цагаар</string>
     <string name="prefs_day_night_mode_day_text">Өдөр</string>
     <string name="prefs_day_night_mode_night_text">Шөнө</string>
@@ -235,10 +254,11 @@
     <string name="prefs_meters_accuracy_value_text">метр нарийвчлалтай</string>
     <string name="prefs_open_source_notices_text">Нээлттэй эхийн мэдэгдэл</string>
     <string name="prefs_optical_zoom_text">Оптик томруулах (томруулах) /фокусын урт</string>
-    <string name="prefs_orientation_landscape">Ландшафт</string>
-    <string name="prefs_orientation_landscape_reversed">Цомгийн урвуу</string>
-    <string name="prefs_orientation_portrait">Хөрөг зураг</string>
-    <string name="prefs_orientation_sensor_automatic">Автомат</string>
+    <string name="prefs_orientation_landscape">Ландшафтын чиг баримжаа</string>
+    <string name="prefs_orientation_landscape_reversed">Урвуу ландшафтын чиглэл</string>
+    <string name="prefs_orientation_portrait">Босоо чиглэл</string>
+    <string name="prefs_orientation_sensor_automatic">Автомат чиглэл (автоматаар эргүүлэх)</string>
+    <string name="prefs_orientation_system_orientation">Системийн чиглэлийг ашиглах</string>
     <string name="prefs_other_auto_deleting_sum_text">Шинэ видеонуудад хангалттай зай байхгүй бол бичлэг хийх явцад хамгийн хуучин видеог автоматаар устгана</string>
     <string name="prefs_other_auto_deleting_text">Давталтын бичлэг</string>
     <string name="prefs_other_backup_records_tip">Бичлэгээ нөөцлөхийн тулд Google Зураг зэрэг апп суулгана уу. Эдгээр програмын бичлэгийн хавтсыг хайж олоод нөөцлөх сонголтыг идэвхжүүлнэ үү (текст дээр дарж жишээг үзнэ үү).</string>
@@ -394,6 +414,7 @@
     <string name="prefs_version_text">Хэрэглээний хувилбар</string>
     <string name="prefs_vibrate_rec_start_stop_text">Бичлэг эхлэх эсвэл зогсоох үед чичиргээ</string>
     <string name="prefs_vibration_strength">Чичиргээний хүч</string>
+    <string name="prefs_video_angle_text">Видео хүрээний чиглэлийн өнцөг.</string>
     <string name="prefs_video_bitrate_text">Битийн хурд (чанар)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Камерын хяналтын горим (шөнийн)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Камерын хяналтын горим (өдөр)</string>
@@ -413,8 +434,10 @@
     <string name="prefs_video_exposure_auto_mode_text">Автомат өртөх горим</string>
     <string name="prefs_video_exposure_night_text">өртөлтийн нөхөн төлбөр (шөнийн)</string>
     <string name="prefs_video_exposure_text">өртөлтийн нөхөн төлбөр (өдөр)</string>
-    <string name="prefs_video_flip_x_sum_text">Видеоны хэвтээ толин тусгал. Зураг нь зөвхөн видео бичлэг хийхэд өөрчлөгддөг, урьдчилан харах нь өөрчлөгддөггүй</string>
-    <string name="prefs_video_flip_x_text">Видеог хэвтээ байдлаар эргүүлэх</string>
+    <string name="prefs_video_flip_angle_explanation_desc">Энэ нь зөвхөн видео бичлэгт хамаарах бөгөөд камерын урьдчилсан тоймыг өөрчлөхгүй.</string>
+    <string name="prefs_video_flip_angle_explanation_title">Видеонууд эргэсэн эсвэл буруу чиглэлийн өнцөгтэй тохиолдлуудыг зассан.</string>
+    <string name="prefs_video_flip_x_text">Видео хүрээний хэвтээ тусгал.</string>
+    <string name="prefs_video_flip_y_text">Видео хүрээний босоо тусгал.</string>
     <string name="prefs_video_focus_continuous_picture_text">Үргэлжилсэн зураг</string>
     <string name="prefs_video_focus_continuous_video_text">Тасралтгүй видео (өдрийн цагаар санал болгож байна)</string>
     <string name="prefs_video_focus_infinity_text">Хязгааргүй байдал (шөнийн цагаар зөвлөж байна)</string>
@@ -444,7 +467,7 @@
     <string name="prefs_zoom_text">Дижитал томруулах (томруулах)</string>
     <string name="purchase_did_make_it_previously">Та өмнө нь худалдан авалт хийж байсан уу?</string>
     <string name="rec_audio_silence_text">Одоогоор микрофоныг өөр хэрэглүүр тасалсан тул дуу бичлэг хийх боломжгүй байна</string>
-    <string name="rec_available_space_text">Боломжтой</string>
+    <string name="rec_available_space_text">Сул зай</string>
     <string name="rec_day_night_btn_auto_text">Автомат</string>
     <string name="rec_fix_short_text">Залруулахын тулд</string>
     <string name="rec_fix_text">Залруулахын тулд</string>
@@ -511,6 +534,7 @@
     <string name="subscription_status_subscribed_short">Бүртгүүлсэн</string>
     <string name="subscription_subscribe_text">Бүртгүүлэх</string>
     <string name="subscription_with_free_trial">Үнэгүй туршилттай</string>
+    <string name="tap_to_allow_background_recording">Арын дэвсгэр дээр видео бичихийг зөвшөөрөхийн тулд товшино уу.</string>
     <string name="timer_auto_start">Цаг хэмжигч</string>
     <string name="timer_auto_start_dlg_type_title">Бичлэг хийж эхлэхийн тулд таймер тохируулна уу</string>
     <string name="timer_auto_start_every_day_text">Өдөр бүр</string>

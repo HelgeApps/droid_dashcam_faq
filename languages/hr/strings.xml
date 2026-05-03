@@ -16,6 +16,7 @@
         characters that start with % are used to supply numbers or texts when the program is running
     -->
     <string name="accept_text">prihvaćam</string>
+    <string name="allow_background_activity_on_some_devices">U nastavku su primjeri kako dopustiti pozadinsku aktivnost na nekim uređajima:</string>
     <string name="any_text">Bilo koji</string>
     <string name="app_alternative_name_audio">Audio</string>
     <string name="app_alternative_name_battery">Postavke baterije</string>
@@ -24,6 +25,16 @@
     <string name="app_alternative_name_video">Video</string>
     <string name="app_name_backgroundvideorecorder">Pozadinsko video snimanje</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - Video snimač za vožnju</string>
+    <string name="background_recording_allow_autostart">Kliknite ovdje kako biste omogućili automatsko pokretanje aplikacije u pozadini (ako već nije dopušteno).</string>
+    <string name="background_recording_realme_allow_background_activity">5. Uključite prekidače \"Dopusti aktivnost u prvom planu\" i \"Dopusti aktivnost u pozadini\".</string>
+    <string name="background_recording_realme_app_battery_management">4. Otvorite zaslon \"Upravljanje baterijom aplikacije\" i odaberite aplikaciju.</string>
+    <string name="background_recording_realme_more_settings">2. Otvorite \"Više postavki\" (ili \"Postavke uštede energije\"), a zatim otvorite i \"Upravljanje baterijom aplikacije\" i \"Optimizacija korištenja baterije\".</string>
+    <string name="background_recording_realme_optimize_battery_use">3. Na zaslonu \"Optimiziraj korištenje baterije\" odaberite aplikaciju i u skočnom prozoru odaberite \"Ne optimiziraj\".</string>
+    <string name="background_recording_realme_system_settings_battery">1. Otvorite Postavke sustava → Baterija</string>
+    <string name="background_recording_realme_title">Da bi snimanje videa u pozadini na Oppo (realme) uređajima bilo stabilno, dopustite aktivnosti u prvom planu, dopustite aktivnosti u pozadini, postavite način rada baterije na \"Ne optimiziraj\" i dopustite automatsko pokretanje ako telefon nudi tu opciju.</string>
+    <string name="background_restrictions_explain_how_to_disable">Za ovu aplikaciju postavljena su ograničenja potrošnje baterije u pozadini koja mogu uzrokovati probleme sa snimanjem videa u pozadini. Onemogućite sve optimizacije baterije ili ograničenja potrošnje baterije u pozadini za ovu aplikaciju.\nTakve opcije možete pokušati pronaći na zaslonu \"Informacije o aplikaciji\" → \"Baterija\" ili u postavkama sustava vašeg uređaja. Postavite optimizaciju baterije na \"Neograničeno\" (ili \"Ne optimiziraj\") za ovu aplikaciju, dopustite aktivnosti u prvom planu i pozadini. Točna lokacija takvih opcija može se razlikovati ovisno o proizvođaču vašeg uređaja.</string>
+    <string name="background_restrictions_msg_text">Molimo vas da onemogućite pozadinska ograničenja za aplikaciju kako biste osigurali stabilno snimanje videa.</string>
+    <string name="background_restrictions_text">Ograničavanje rada aplikacija u pozadini</string>
     <string name="camera">Kamera</string>
     <string name="camera_aperture">Otvor</string>
     <string name="camera_back">Zadnja kamera</string>
@@ -46,6 +57,7 @@
     <string name="close">Zatvori</string>
     <string name="days">dana</string>
     <string name="default_text">Zadano</string>
+    <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">Detaljnije upute za onemogućavanje optimizacije baterije i dopuštanje pozadinske aktivnosti aplikacije:</string>
     <string name="dialog_camera_not_found_msg_text">Ovaj uređaj nema ugrađenu kameru i ne podržava vanjske kamere. Zatvaranje…</string>
     <string name="dialog_camera_not_found_text">Kamera nije pronađena</string>
     <string name="dialog_go_to_settings_text">Idite na Postavke</string>
@@ -57,13 +69,10 @@
     <string name="donate_disable_ads_text">Donirajte, onemogućite oglase</string>
     <string name="donate_success_thanks_msg_text">Hvala vam puno na podršci!</string>
     <string name="donate_text">Donacija</string>
-    <string name="donation_any_amount_text">nema oglašavanja za bilo koji iznos</string>
-    <string name="donation_dlg_has_ads_text">Iako želite aplikaciju bez oglasa, donacija mora biti ili više.</string>
-    <string name="donation_dlg_limited_ads_message_text">Za manje donacije reklame se uklanjaju samo na glavnom ekranu</string>
     <string name="donation_dlg_no_ads_text">Vi ste slobodni od oglasa.</string>
     <string name="donation_level_text">Vaša razina donacije:</string>
     <string name="donation_purchase_info_loading_text">Podaci o kupnji još nisu učitani. Je li mrežna veza dostupna i je li prijavljen na Google račun?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Ako ste već obavili kupnju, da biste je vratili, prvo izbrišite podatke i predmemoriju Trgovine Google Play. Zatim deinstalirajte aplikaciju, otvorite Trgovinu Google Play, odaberite ispravan Google račun koji ste koristili za kupnju i ponovno instalirajte aplikaciju.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Ako ste već obavili kupnju, ali ona nije automatski vraćena, prvo izbrišite podatke i predmemoriju Trgovine Google Play. Zatim deinstalirajte aplikaciju, otvorite Trgovinu Google Play, odaberite ispravan Google račun koji ste koristili za kupnju i ponovno instalirajte aplikaciju.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">Ako ste već dali donaciju, da biste vratili kupnju, ponovno instalirajte aplikaciju u Samsung Galaxy Store nakon odabira ispravnog računa</string>
     <string name="donation_remove_ads_by_any_amount_text">Uklonite oglase zauvijek jednokratnom donacijom bilo kojeg iznosa.</string>
     <string name="donation_remove_ads_by_subscribing_text">Također možete donirati mjesečno za uklanjanje oglasa.</string>
@@ -88,6 +97,7 @@
     <string name="hour">sat</string>
     <string name="hours">sati</string>
     <string name="month">mjesec</string>
+    <string name="more_info">Više informacija:</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Aplikacija nije isključena iz optimizacije baterije. Ako kamera ne radi u pozadini ili nešto drugo, dodajte ovu aplikaciju među iznimke načina rada za uštedu energije.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Ako ste ponovo instalirali aplikaciju na Android 11, stare datoteke morate ručno izbrisati</string>
     <string name="msg_auto_recording_service_was_stopped">Zaustavili ste pozadinsku uslugu za automatsko pokretanje video snimanja. Otvorite aplikaciju da je ponovno pokrenete.</string>
@@ -138,6 +148,13 @@
     <string name="notification_service_power_checker">Punjenje</string>
     <string name="notification_stop_text">Zaustavljanje</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Za automatsko pokretanje/zaustavljanje snimanja</string>
+    <string name="one_time_payment">Jednokratno plaćanje</string>
+    <string name="one_time_payment_explanation_msg">Ovo je doživotna nadogradnja — bez pretplata, bez ponavljajućih naknada. Platite jednom i uživajte u aplikaciji potpuno bez reklama.</string>
+    <string name="one_time_payment_purchased">Imate premium verziju.\nHvala na podršci!</string>
+    <string name="open_app_info_screen">Otvorite zaslon \"Informacije o aplikaciji\"</string>
+    <string name="open_app_info_screen_battery_usage_allow_background_activity">Za dopuštanje snimanja videa u pozadini otvorite zaslon \"Informacije o aplikaciji\", odaberite \"Potrošnja baterije\" i omogućite \"Dopusti aktivnost u pozadini\".</string>
+    <string name="open_battery_settings">Otvori postavke baterije</string>
+    <string name="open_system_settings">Otvorite postavke sustava</string>
     <string name="permission_audio_dlg_msg">Audio dopuštenje je potrebno za dodavanje zvuka tijekom snimanja videa</string>
     <string name="permission_camera_dlg_msg">Za snimanje videa i pregled kamere potrebno je dopuštenje kamere</string>
     <string name="permission_camera_request_canceled">Ova aplikacija treba dopuštenje za kameru za snimanje videozapisa. Ali vi ste to odbili. Zatvaranje… Pokušajte dati kameri dopuštenje u postavkama sustava za ovu aplikaciju</string>
@@ -207,6 +224,8 @@
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Proizvođač uređaja možda neće omogućiti pristup svim kamerama, pa se neke možda neće otvoriti</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Proizvođač uređaja možda neće ponuditi kameru sa širokim objektivom za sve primjene</string>
     <string name="prefs_consent_information_privacy_options">Opcije privatnosti (Informacije o pristanku)</string>
+    <string name="prefs_continuous_recording">Neprekidno snimanje</string>
+    <string name="prefs_continuous_recording_desc">Pokreće novu datoteku kada trenutna dostigne postavljeno trajanje. Ako je onemogućeno, snimanje se zaustavlja na granici.</string>
     <string name="prefs_day_night_mode_auto_text">Automatski (dan/noć), ovisno o vremenu</string>
     <string name="prefs_day_night_mode_day_text">Dan</string>
     <string name="prefs_day_night_mode_night_text">Noć</string>
@@ -251,10 +270,11 @@
     <string name="prefs_meters_accuracy_value_text">metara točnosti</string>
     <string name="prefs_open_source_notices_text">Obavijesti o otvorenom izvoru</string>
     <string name="prefs_optical_zoom_text">Optički zum (žarišna duljina)</string>
-    <string name="prefs_orientation_landscape">Pejzaž</string>
-    <string name="prefs_orientation_landscape_reversed">Obrnuti pejzaž</string>
-    <string name="prefs_orientation_portrait">Portret</string>
-    <string name="prefs_orientation_sensor_automatic">Automatski</string>
+    <string name="prefs_orientation_landscape">Pejzažna orijentacija</string>
+    <string name="prefs_orientation_landscape_reversed">Obrnuta pejzažna orijentacija</string>
+    <string name="prefs_orientation_portrait">Portretna orijentacija</string>
+    <string name="prefs_orientation_sensor_automatic">Automatska orijentacija (automatska rotacija)</string>
+    <string name="prefs_orientation_system_orientation">Koristite orijentaciju sustava</string>
     <string name="prefs_other_auto_deleting_sum_text">Automatski izbrišite najstarije videozapise tijekom snimanja ako nema dovoljno prostora za nove videozapise</string>
     <string name="prefs_other_auto_deleting_text">Loop snimanje</string>
     <string name="prefs_other_backup_records_tip">Da biste sigurnosno kopirali svoje snimke, instalirajte aplikacije poput Google Photos. Pronađite mape za snimanje u tim aplikacijama i omogućite im opciju sigurnosne kopije (kliknite na tekst da vidite primjer).</string>
@@ -410,6 +430,7 @@
     <string name="prefs_version_text">Verzija aplikacije</string>
     <string name="prefs_vibrate_rec_start_stop_text">Vibracija prilikom pokretanja ili zaustavljanja snimanja</string>
     <string name="prefs_vibration_strength">Jačina vibracija</string>
+    <string name="prefs_video_angle_text">Kut orijentacije video okvira.</string>
     <string name="prefs_video_bitrate_text">Bitrate snimanja (kvaliteta)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Scenski način upravljanja kamerom (noć)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Scenski način upravljanja kamerom (dan)</string>
@@ -429,8 +450,10 @@
     <string name="prefs_video_exposure_auto_mode_text">Automatski način ekspozicije</string>
     <string name="prefs_video_exposure_night_text">Kompenzacija ekspozicije (noć)</string>
     <string name="prefs_video_exposure_text">Kompenzacija ekspozicije (dan)</string>
-    <string name="prefs_video_flip_x_sum_text">Horizontalno okretanje video okvira. Samo za video snimanje, ne mijenja pregled</string>
-    <string name="prefs_video_flip_x_text">Obrnuti video (zrcaljenje)</string>
+    <string name="prefs_video_flip_angle_explanation_desc">Ovo se odnosi samo na snimanje videa i ne mijenja pregled kamere.</string>
+    <string name="prefs_video_flip_angle_explanation_title">Ispravci za slučajeve kada su videozapisi okrenuti ili imaju pogrešan kut orijentacije.</string>
+    <string name="prefs_video_flip_x_text">Horizontalni odraz video kadrova.</string>
+    <string name="prefs_video_flip_y_text">Vertikalna refleksija video kadrova.</string>
     <string name="prefs_video_focus_continuous_picture_text">Kontinuirana slika</string>
     <string name="prefs_video_focus_continuous_video_text">Kontinuirani video (preporučuje se dan)</string>
     <string name="prefs_video_focus_infinity_text">Infinity (preporučuje se noću)</string>
@@ -460,7 +483,7 @@
     <string name="prefs_zoom_text">Digitalni zoom</string>
     <string name="purchase_did_make_it_previously">Jeste li već obavili kupnju?</string>
     <string name="rec_audio_silence_text">Trenutačno audio snimanje nije moguće jer mikrofon presreće druga aplikacija</string>
-    <string name="rec_available_space_text">Dostupno</string>
+    <string name="rec_available_space_text">Slobodan prostor</string>
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">@string/rec_fix_text</string>
     <string name="rec_fix_text">Popraviti</string>
@@ -527,6 +550,7 @@
     <string name="subscription_status_subscribed_short">Pretplaćen/a</string>
     <string name="subscription_subscribe_text">Pretplatite se</string>
     <string name="subscription_with_free_trial">Uz besplatno probno razdoblje</string>
+    <string name="tap_to_allow_background_recording">Dodirnite za dopuštanje snimanja videa u pozadini.</string>
     <string name="timer_auto_start">Timer</string>
     <string name="timer_auto_start_dlg_type_title">Postavite mjerač vremena za početak snimanja</string>
     <string name="timer_auto_start_every_day_text">Svaki dan</string>

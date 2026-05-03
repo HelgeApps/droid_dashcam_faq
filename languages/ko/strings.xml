@@ -1,6 +1,7 @@
 <resources>
     <!-- A period is automatically added to the end of this sentence -->
     <string name="accept_text">동의 함</string>
+    <string name="allow_background_activity_on_some_devices">다음은 일부 기기에서 백그라운드 활동을 허용하는 방법의 예입니다.</string>
     <string name="any_text">아무거나</string>
     <string name="app_alternative_name_audio">오디오</string>
     <string name="app_alternative_name_battery">배터리 설정</string>
@@ -9,6 +10,16 @@
     <string name="app_alternative_name_video">동영상</string>
     <string name="app_name_backgroundvideorecorder">배경 비디오 녹화</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - 블랙박스</string>
+    <string name="background_recording_allow_autostart">앱이 백그라운드에서 자동 실행되도록 허용하려면 여기를 클릭하세요(이미 허용되어 있지 않은 경우).</string>
+    <string name="background_recording_realme_allow_background_activity">5. \"포그라운드 활동 허용\" 및 \"백그라운드 활동 허용\" 토글을 켜십시오.</string>
+    <string name="background_recording_realme_app_battery_management">4. \"앱 배터리 관리\" 화면을 열고 해당 앱을 선택합니다.</string>
+    <string name="background_recording_realme_more_settings">2. \"더보기\" (또는 \"절전 설정\")을 열고 \"앱 배터리 관리\"와 \"배터리 사용 최적화\"를 모두 엽니다.</string>
+    <string name="background_recording_realme_optimize_battery_use">3. \"배터리 사용 최적화\" 화면에서 앱을 선택하고 팝업 창에서 \"최적화 안 함\"을 선택합니다.</string>
+    <string name="background_recording_realme_system_settings_battery">1. 시스템 설정 → 배터리를 엽니다.</string>
+    <string name="background_recording_realme_title">Oppo(realme) 기기에서 백그라운드 동영상 녹화를 안정적으로 유지하려면 포그라운드 활동과 백그라운드 활동을 허용하고, 배터리 모드를 \"최적화 안 함\"으로 설정하고, 휴대폰에서 자동 실행 옵션을 제공하는 경우 자동 실행을 허용하세요.</string>
+    <string name="background_restrictions_explain_how_to_disable">이 앱에는 백그라운드에서 동영상 녹화를 방해할 수 있는 배터리 백그라운드 제한이 설정되어 있습니다. 이 앱에 대한 배터리 최적화 또는 백그라운드 제한을 해제해 주세요.\n이러한 옵션은 \"앱 정보\" → \"배터리\" 화면 또는 기기 시스템 설정에서 찾을 수 있습니다. 이 앱의 배터리 최적화를 \"제한 없음\"(또는 \"최적화 안 함\")으로 설정하고 포그라운드 및 백그라운드 활동을 허용하세요. 이러한 옵션의 정확한 위치는 기기 제조업체에 따라 다를 수 있습니다.</string>
+    <string name="background_restrictions_msg_text">안정적인 동영상 녹화를 위해 앱의 백그라운드 실행 제한을 해제해 주세요.</string>
+    <string name="background_restrictions_text">백그라운드 앱 실행 제한</string>
     <string name="camera">카메라</string>
     <string name="camera_aperture">조리개</string>
     <string name="camera_back">후면 카메라</string>
@@ -31,6 +42,7 @@
     <string name="close">닫기</string>
     <string name="days">날</string>
     <string name="default_text">기본값</string>
+    <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">앱의 배터리 최적화 기능을 비활성화하고 백그라운드 활동을 허용하는 방법에 대한 자세한 지침은 다음과 같습니다.</string>
     <string name="dialog_camera_not_found_msg_text">이 장치는 내장 카메라가 없으며 외부 카메라를 지원하지 않습니다. 종료중…</string>
     <string name="dialog_camera_not_found_text">카메라를 찾을 수 없음</string>
     <string name="dialog_go_to_settings_text">설정 열기</string>
@@ -42,13 +54,10 @@
     <string name="donate_disable_ads_text">기부, 광고 제거</string>
     <string name="donate_success_thanks_msg_text">기부해주셔서 매우 감사드립니다!</string>
     <string name="donate_text">기부</string>
-    <string name="donation_any_amount_text">금액에 관계없이 광고 없음</string>
-    <string name="donation_dlg_has_ads_text">광고는 다음 금액 이상 기부시 제거됩니다.</string>
-    <string name="donation_dlg_limited_ads_message_text">소액 기부의 경우 메인 화면에서만 광고가 제거됩니다.</string>
     <string name="donation_dlg_no_ads_text">광고가 제거되었습니다.</string>
     <string name="donation_level_text">기부 레벨:</string>
     <string name="donation_purchase_info_loading_text">구매 정보를 불러올 수 없습니다. 네트워크에 연결되어 있고 Google 계정에 로그인되어 있습니까?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">이미 구매하신 경우, 구매 내역을 복원하려면 먼저 Google Play 스토어의 데이터와 캐시를 삭제하세요. 그런 다음 앱을 제거하고 Google Play 스토어를 열어 구매에 사용한 Google 계정을 선택한 후 앱을 다시 설치하세요.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">이미 구매했지만 자동으로 복원되지 않은 경우, 먼저 Google Play 스토어의 데이터와 캐시를 삭제하세요. 그런 다음 앱을 제거하고 Google Play 스토어를 열어 구매에 사용한 Google 계정을 선택한 후 앱을 다시 설치하세요.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">이미 기부를 하셨다면 구매 내역을 복원하려면 올바른 계정을 선택한 후 Samsung Galaxy Store에서 앱을 다시 설치하세요.</string>
     <string name="donation_remove_ads_by_any_amount_text">금액에 관계없이 일회성 기부로 광고를 영원히 제거하세요.</string>
     <string name="donation_remove_ads_by_subscribing_text">매달 기부하여 광고를 제거할 수도 있습니다.</string>
@@ -73,6 +82,7 @@
     <string name="hour">시간</string>
     <string name="hours">시간</string>
     <string name="month">월</string>
+    <string name="more_info">더 자세한 정보:</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">해당 애플리케이션은 배터리 최적화에서 제외되지 않습니다. 카메라가 백그라운드 등에서 실행되고 있지 않은 경우 절전 모드 예외에 이 애플리케이션을 추가하세요.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Android 11에서 앱을 다시 설치한 경우 이전 파일들을 수동으로 삭제해야 합니다.</string>
     <string name="msg_auto_recording_service_was_stopped">동영상 녹화 자동 시작을 위한 백그라운드 서비스를 중지했습니다. 응용프로그램을 열어 다시 시작하세요.</string>
@@ -101,7 +111,7 @@
     <string name="msg_notification_could_not_open_camera_title">카메라 열기 오류.</string>
     <string name="msg_notification_could_not_open_other_app_without_appear_on_top_permission">\"모든 응용 프로그램 위에 표시\" 권한이 부여되지 않았기 때문에 지정된 응용 프로그램을 실행하여 자동으로 열 수 없습니다.</string>
     <string name="msg_notification_could_not_open_with_locked_screen">화면이 꺼져(잠겨) 있어서 애플리케이션을 열 수 없습니다.</string>
-    <string name="msg_notification_could_not_start_recording_with_locked_screen">화면이 꺼졌기 때문에(잠겨있기 때문에) 녹음을 시작하기 위해 애플리케이션을 열 수 없습니다. 이 문제를 해결하려면 백그라운드 녹화 서비스(AutoStart)를 실행하세요.</string>
+    <string name="msg_notification_could_not_start_recording_with_locked_screen">화면이 꺼졌기 때문에(잠겨있기 때문에) 녹화를 시작하기 위해 애플리케이션을 열 수 없습니다. 이 문제를 해결하려면 백그라운드 녹화 서비스(AutoStart)를 실행하세요.</string>
     <string name="msg_notification_could_not_start_recording_without_appear_on_top_permission">\'모든 앱 위에 표시\' 권한이 부여되지 않아 앱을 열어 녹화를 시작할 수 없습니다. 제공하려면 클릭하세요.</string>
     <string name="msg_photo_failed_to_take">사진을 찍지 못했습니다.</string>
     <string name="msg_photo_was_saved">사진 저장됨</string>
@@ -123,6 +133,13 @@
     <string name="notification_service_power_checker">충전</string>
     <string name="notification_stop_text">종료</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">자동 녹화 시작/중지</string>
+    <string name="one_time_payment">일회성 결제</string>
+    <string name="one_time_payment_explanation_msg">이 업그레이드는 평생 이용 가능하며, 구독료나 반복 결제 비용이 없습니다. 한 번만 결제하면 광고 없이 앱을 완전히 이용할 수 있습니다.</string>
+    <string name="one_time_payment_purchased">프리미엄 버전을 사용하고 계십니다.\n지원해 주셔서 감사합니다!</string>
+    <string name="open_app_info_screen">\"앱 정보\" 화면을 엽니다.</string>
+    <string name="open_app_info_screen_battery_usage_allow_background_activity">백그라운드 동영상 녹화를 허용하려면 \"앱 정보\" 화면을 열고 \"배터리 사용량\"을 선택한 다음 \"백그라운드 활동 허용\"을 활성화하세요.</string>
+    <string name="open_battery_settings">배터리 설정 열기</string>
+    <string name="open_system_settings">시스템 설정 열기</string>
     <string name="permission_audio_dlg_msg">동영상에 소리를 녹음하려면 오디오 권한이 필요합니다.</string>
     <string name="permission_camera_dlg_msg">동영상을 녹화하려면 카메라 사용 권한이 필요합니다.</string>
     <string name="permission_camera_request_canceled">이 앱을 사용하려면 카메라 사용 권한이 필요합니다. 시스템 설정에서 카메라 사용 권한을 설정해주세요.</string>
@@ -153,7 +170,7 @@
     <string name="prefs_audio_stereo_text">스테레오</string>
     <string name="prefs_auto_restart_recording_on_app_kill">녹화 중 앱 프로세스가 완전히 종료되면 자동으로 다시 시작합니다.</string>
     <string name="prefs_auto_restart_recording_on_app_kill_desc">앱 프로세스가 완전히 종료된 후 녹화를 재개하는 데 최대 15분이 걸릴 수 있습니다. 예기치 않은 동작이 발생하면 이 옵션을 비활성화하세요.</string>
-    <string name="prefs_auto_restart_recording_on_failure">실패 시 자동으로 녹음을 다시 시작합니다.</string>
+    <string name="prefs_auto_restart_recording_on_failure">실패 시 자동으로 녹화를 다시 시작합니다.</string>
     <string name="prefs_auto_restart_recording_on_failure_desc">녹화가 예기치 않게 중단되는 경우(카메라 고장, 시스템 문제 등), 앱이 자동으로 녹화를 다시 시작할 수 있습니다. 예기치 않은 동작이 발생하면 이 옵션을 비활성화하세요.</string>
     <string name="prefs_auto_service_wake_lock_sum_text">이렇게 하면 CPU(프로세서)가 Bluetooth, 충전 또는 AUX 이벤트 수신을 위해 활성 상태를 유지합니다. 녹화가 활성화되지 않은 경우 배터리 전원을 절약하려면 이 옵션을 비활성화하세요. 실제로는 이벤트가 발생하면 프로세서가 깨어나야 하지만, 앱이 이벤트에 응답하지 않으면 이 옵션을 활성화해 보세요.</string>
     <string name="prefs_auto_service_wake_lock_text">백그라운드 서비스 \"Watcher\"(더 많은 배터리 전원 사용)에 대해 CPU를 켜두십시오(\"Wake Lock\").</string>
@@ -192,13 +209,15 @@
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">장치 제조업체가 모든 카메라에 대한 액세스를 제공하지 않을 수 있으므로 일부는 열리지 않을 수 있습니다.</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">장치 제조업체는 모든 애플리케이션에 와이드 렌즈 카메라를 제공하지 않을 수 있습니다.</string>
     <string name="prefs_consent_information_privacy_options">개인정보 보호 옵션(동의 정보)</string>
+    <string name="prefs_continuous_recording">연속 녹화</string>
+    <string name="prefs_continuous_recording_desc">현재 파일의 재생 시간이 설정된 시간에 도달하면 새 파일을 시작합니다. 이 기능을 비활성화하면 설정된 시간에서 녹화가 중지됩니다.</string>
     <string name="prefs_day_night_mode_auto_text">자동(주야간)</string>
     <string name="prefs_day_night_mode_day_text">주간</string>
     <string name="prefs_day_night_mode_night_text">야간</string>
     <string name="prefs_donate_sum_text">애플리케이션 개발 지원</string>
     <string name="prefs_every_n_time">N번마다</string>
     <string name="prefs_faq_sum_text">자주 묻는 질문</string>
-    <string name="prefs_flashlight_turn_on_recording_automatically">녹음 시 자동으로 손전등 켜기</string>
+    <string name="prefs_flashlight_turn_on_recording_automatically">녹화 시 자동으로 손전등 켜기</string>
     <string name="prefs_float_size_increase_text">플로팅 윈도우의 버튼 크기</string>
     <string name="prefs_fps_value_from_to_stable_text">(주간 전용, 고정 프레임)</string>
     <string name="prefs_fps_value_from_to_text">(주야간)</string>
@@ -218,7 +237,7 @@
     <string name="prefs_kill_services_sum_text">기기가 자동 시작 및 백그라운드 동작 설정을 지원합니다. 비허용된 경우 여기를 탭하여 예외에 추가(자동 시작 허용 등)하고 앱이 백그라운드에서 실행될 수 있도록 하세요.</string>
     <string name="prefs_kill_services_text">백그라운드 작업 허용</string>
     <string name="prefs_language">언어</string>
-    <string name="prefs_launch_activity_on_auto_rec_start_text">녹음이 자동으로 시작되면 응용 프로그램 열기</string>
+    <string name="prefs_launch_activity_on_auto_rec_start_text">녹화가 자동으로 시작되면 응용 프로그램 열기</string>
     <string name="prefs_launch_app_auto_text">동영상 녹화 시작 시 앱 실행</string>
     <string name="prefs_launch_app_limitation_text">Android 11 이상에서는 시스템 자체가 앱 가시성을 제한하므로 설치된 앱을 선택하지 못할 수 있습니다(개인정보 보호정책)</string>
     <string name="prefs_launch_app_none_text">선택되지 않음</string>
@@ -236,13 +255,14 @@
     <string name="prefs_meters_accuracy_value_text">미터</string>
     <string name="prefs_open_source_notices_text">오픈소스 공지</string>
     <string name="prefs_optical_zoom_text">광학 줌(초점 거리)</string>
-    <string name="prefs_orientation_landscape">가로</string>
-    <string name="prefs_orientation_landscape_reversed">가로 반전</string>
-    <string name="prefs_orientation_portrait">세로</string>
-    <string name="prefs_orientation_sensor_automatic">자동적 인</string>
+    <string name="prefs_orientation_landscape">가로 방향</string>
+    <string name="prefs_orientation_landscape_reversed">반전 가로 방향</string>
+    <string name="prefs_orientation_portrait">세로 방향</string>
+    <string name="prefs_orientation_sensor_automatic">자동 방향 전환(자동 회전)</string>
+    <string name="prefs_orientation_system_orientation">시스템 지향성을 활용하세요</string>
     <string name="prefs_other_auto_deleting_sum_text">저장공간이 부족하면 가장 오래된 동영상을 삭제하며 녹화합니다</string>
     <string name="prefs_other_auto_deleting_text">루프 녹화</string>
-    <string name="prefs_other_backup_records_tip">녹음 파일을 백업하려면 Google 포토와 같은 앱을 설치하세요. 이러한 애플리케이션에서 녹화 폴더를 찾아 백업 옵션을 활성화하세요(예를 보려면 텍스트를 클릭하세요).</string>
+    <string name="prefs_other_backup_records_tip">녹화 파일을 백업하려면 Google 포토와 같은 앱을 설치하세요. 이러한 애플리케이션에서 녹화 폴더를 찾아 백업 옵션을 활성화하세요(예를 보려면 텍스트를 클릭하세요).</string>
     <string name="prefs_other_change_pin">PIN 코드 변경</string>
     <string name="prefs_other_custom_path">사용자 정의 경로</string>
     <string name="prefs_other_custom_path_desc">저장 위치(내부 저장소 또는 microSD 카드) 중 하나에서 경로를 선택하세요.</string>
@@ -255,13 +275,13 @@
     <string name="prefs_other_path_photo_text">사진 저장 경로</string>
     <string name="prefs_other_path_text">동영상 저장 경로</string>
     <string name="prefs_other_private_storage">개인 보관소</string>
-    <string name="prefs_other_private_storage_desc">녹음 내용은 다른 앱에서는 볼 수 없으며 PIN 코드를 설정하여 액세스를 잠글 수 있습니다.</string>
+    <string name="prefs_other_private_storage_desc">녹화 내용은 다른 앱에서는 볼 수 없으며 PIN 코드를 설정하여 액세스를 잠글 수 있습니다.</string>
     <string name="prefs_other_private_storage_warning_tip">경고: 앱을 제거하면 개인 저장소에 있는 녹화 파일이 삭제됩니다.\n이 경우 다른 앱이 이 앱의 개인 저장소에 접근할 수 없으므로 외부 앱(예: Google 포토)을 이용한 백업은 불가능합니다.</string>
     <string name="prefs_other_remove_pin">PIN 코드 제거</string>
     <string name="prefs_other_set_pin">PIN 코드 설정</string>
     <string name="prefs_other_settings_sum_text">저장 위치(폴더), 비디오 지속 시간, 루프 녹화, 최대 파일 크기, G-센서, PIN 코드 잠금, 실패 시 자동 재시작</string>
     <string name="prefs_other_settings_sum_text_bvr">저장 위치(폴더), 영상 지속 시간, 루프 녹화, 최대 파일 크기, PIN 코드 잠금, 실패 시 자동 재시작</string>
-    <string name="prefs_other_settings_text">녹음 설정</string>
+    <string name="prefs_other_settings_text">녹화 설정</string>
     <string name="prefs_other_show_address_text">주소</string>
     <string name="prefs_other_show_altitude_text">고도</string>
     <string name="prefs_other_show_coordinates_text">좌표</string>
@@ -290,7 +310,7 @@
     <string name="prefs_rules_auto_start_do_not_start_service_sum_text_android_7">이는 블루투스 장치 연결이나 장치 충전과 같은 자동 녹화 시작 이벤트만 활성화하고 AUX 케이블 연결을 비활성화한 경우에 가능합니다.</string>
     <string name="prefs_rules_auto_start_do_not_start_service_text">자동 시작 녹화 이벤트를 기다리는 동안 배터리 소모를 줄이기 위해 앱의 백그라운드 서비스(AutoStart)를 실행하지 마십시오.</string>
     <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text">앱의 백그라운드 서비스(AutoStart) 없이 자동 녹화는 블루투스 연결 시에만 가능합니다. 충전기나 AUX 케이블 연결과 같은 다른 경우에는 앱을 한 번 실행하여 백그라운드 서비스(AutoStart)를 먼저 시작해야 합니다.\n- Android 11 이상에서는 앱의 백그라운드 서비스(AutoStart) 없이 사용자 상호 작용 없이 녹화를 시작하려면 \"다른 앱 위에 그리기\" 권한이 허용되어 있어야 합니다.\n- 이 옵션을 비활성화하면 앱의 백그라운드 서비스(AutoStart)가 실행 중일 때만 자동 녹화가 수행됩니다.</string>
-    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text_android_7">앱의 백그라운드 서비스(AutoStart) 없이 자동 녹음을 하려면 블루투스 장치 연결이나 장치 충전과 같은 이벤트만 가능합니다. AUX 케이블 연결 이벤트의 경우, 앱을 한 번 실행하여 백그라운드 서비스(AutoStart)를 먼저 시작해야 합니다.\n\n이 옵션을 비활성화하면 앱의 백그라운드 서비스(AutoStart)가 실행 중일 때만 자동 녹음이 수행됩니다.</string>
+    <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_sum_text_android_7">앱의 백그라운드 서비스(AutoStart) 없이 자동 녹화를 하려면 블루투스 장치 연결이나 장치 충전과 같은 이벤트만 가능합니다. AUX 케이블 연결 이벤트의 경우, 앱을 한 번 실행하여 백그라운드 서비스(AutoStart)를 먼저 시작해야 합니다.\n\n이 옵션을 비활성화하면 앱의 백그라운드 서비스(AutoStart)가 실행 중일 때만 자동 녹화가 수행됩니다.</string>
     <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text">백그라운드 서비스가 실행 중이 아니더라도 블루투스 장치가 연결되면 자동으로 녹화를 시작하도록 허용합니다(AutoStart).</string>
     <string name="prefs_rules_auto_start_on_system_events_without_autostart_service_text_android_7">블루투스 기기 연결 또는 충전 시 백그라운드 서비스가 실행 중이 아니더라도 자동 녹화를 허용합니다(자동 시작).</string>
     <string name="prefs_rules_auto_start_speed_text">속도가 같거나 높을 때 녹화 시작(GPS 기준)</string>
@@ -395,6 +415,7 @@
     <string name="prefs_version_text">애플리케이션 버전</string>
     <string name="prefs_vibrate_rec_start_stop_text">녹화 시작 또는 중지 시 진동</string>
     <string name="prefs_vibration_strength">진동 강도</string>
+    <string name="prefs_video_angle_text">비디오 프레임의 방향 각도.</string>
     <string name="prefs_video_bitrate_text">비트레이트(품질)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">카메라 장면 모드 (야간)</string>
     <string name="prefs_video_camera_control_scene_mode_text">카메라 장면 모드 (주간)</string>
@@ -414,8 +435,10 @@
     <string name="prefs_video_exposure_auto_mode_text">자동 노출 모드</string>
     <string name="prefs_video_exposure_night_text">노출 보정 (야간)</string>
     <string name="prefs_video_exposure_text">노출 보정 (주간)</string>
-    <string name="prefs_video_flip_x_sum_text">동영상의 수평으로 뒤집습니다. 녹화된 동영상만 변경되며 미리보기는 변경되지 않습니다.</string>
-    <string name="prefs_video_flip_x_text">좌우 반전 (미러링)</string>
+    <string name="prefs_video_flip_angle_explanation_desc">이 설정은 동영상 녹화에만 적용되며 카메라 미리보기에는 영향을 미치지 않습니다.</string>
+    <string name="prefs_video_flip_angle_explanation_title">동영상이 좌우 반전되거나 방향 각도가 잘못된 경우를 수정했습니다.</string>
+    <string name="prefs_video_flip_x_text">비디오 프레임의 수평 반사.</string>
+    <string name="prefs_video_flip_y_text">비디오 프레임의 수직 반사.</string>
     <string name="prefs_video_focus_continuous_picture_text">연속 이미지</string>
     <string name="prefs_video_focus_continuous_video_text">연속 동영상 (주간에 권장)</string>
     <string name="prefs_video_focus_infinity_text">무한대 (야간에 권장)</string>
@@ -437,7 +460,7 @@
     <string name="prefs_warning_location_precise_text">정확한 위치에 대한 권한</string>
     <string name="prefs_warning_notifications_sum_text">알림 패널에 백그라운드 녹화 서비스 및 상태를 표시하는 데 필요합니다. 제출하려면 클릭하세요.</string>
     <string name="prefs_warning_notifications_text">알림 권한</string>
-    <string name="prefs_warning_permission_bluetooth_sum_text">Bluetooth 연결을 통한 자동 녹음에는 권한이 필요합니다. 제출하려면 여기를 클릭하세요.</string>
+    <string name="prefs_warning_permission_bluetooth_sum_text">Bluetooth 연결을 통한 자동 녹화에는 권한이 필요합니다. 제출하려면 여기를 클릭하세요.</string>
     <string name="prefs_warning_permission_bluetooth_text">블루투스 권한이 부여되지 않았습니다.</string>
     <string name="prefs_warning_power_saving">절전</string>
     <string name="prefs_warnings_text">경고</string>
@@ -445,7 +468,7 @@
     <string name="prefs_zoom_text">디지털 줌</string>
     <string name="purchase_did_make_it_previously">이전에 구매하신 적이 있으신가요?</string>
     <string name="rec_audio_silence_text">현재 다른 애플리케이션에서 마이크를 가로채서 오디오 녹음이 불가능합니다.</string>
-    <string name="rec_available_space_text">사용 가능</string>
+    <string name="rec_available_space_text">사용 가능한 공간</string>
     <string name="rec_day_night_btn_auto_text">자동</string>
     <string name="rec_fix_short_text">@string/rec_fix_text</string>
     <string name="rec_fix_text">고치다</string>
@@ -460,7 +483,7 @@
     <string name="rec_privacy_analytics_msg">앱은 기본적인 익명 분석을 위해 Firebase Analytics를 사용합니다(아래 링크 참조).</string>
     <string name="rec_privacy_appgallery_ads_iap">APP는 Huawei Petal Ads (광고 표시) 및 앱 구매 (광고를 제거하기 위해)를 사용합니다. 자세한 내용은 개인 정보 보호 정책 링크를 클릭하십시오.</string>
     <string name="rec_privacy_permissions_msg">애플리케이션은 다음 권한을 사용합니다.\n- 익명의 장치 식별자 OAID 공개(맞춤형 광고용)\n- CAMERA, AUDIO (동영상 녹화용)\n- STORAGE (동영상 저장용)\n- LOCATION(현재 위치의 주소, GPS 좌표, 속도 가져오기 - 애플리케이션 메인 화면에 표시하고 동영상에 자막 적용)\n- 인터넷 광고)</string>
-    <string name="rec_privacy_service_msg">개인정보 보호: 녹화한 모든 동영상은 로컬 장치에만 저장됩니다. 애플리케이션은 비디오를 백업하지 않습니다(서버에 연결되어 있지 않음).\n\n녹음이 활성화된 동안 앱은 백그라운드(알림 표시줄에 나타나는 포그라운드 서비스)에서 계속 실행됩니다. 홈 화면으로 돌아가면 다른 앱으로 전환하거나 휴대폰을 잠그면 녹음을 계속할 수 있습니다. 자동 녹음 기능을 켭니다(백그라운드 서비스를 닫으면 해당 기능이 작동하지 않습니다).</string>
+    <string name="rec_privacy_service_msg">개인정보 보호: 녹화한 모든 동영상은 로컬 장치에만 저장됩니다. 애플리케이션은 비디오를 백업하지 않습니다(서버에 연결되어 있지 않음).\n\n녹화가 활성화된 동안 앱은 백그라운드(알림 표시줄에 나타나는 포그라운드 서비스)에서 계속 실행됩니다. 홈 화면으로 돌아가면 다른 앱으로 전환하거나 휴대폰을 잠그면 녹화를 계속할 수 있습니다. 자동 녹화 기능을 켭니다(백그라운드 서비스를 닫으면 해당 기능이 작동하지 않습니다).</string>
     <string name="recording_file_name_prefix">비디오 파일 이름의 접두사</string>
     <string name="recording_start_short_text">시작</string>
     <string name="recording_start_text">녹화 시작</string>
@@ -472,7 +495,7 @@
     <string name="recording_stop_short_text">멈추다</string>
     <string name="recording_stop_text">녹화 중지</string>
     <string name="recording_stopped_failed_text">녹화에 실패하였습니다.</string>
-    <string name="recording_stopped_text">녹음이 중지되었습니다.</string>
+    <string name="recording_stopped_text">녹화가 중지되었습니다.</string>
     <string name="recording_text">녹화중…</string>
     <string name="records_file_edit_trim_crop">\"Google 포토\"에서 편집(트림)</string>
     <string name="records_file_sorting_date">날짜</string>
@@ -482,17 +505,17 @@
     <string name="records_file_upload_drive">\'구글 드라이브\'에 저장</string>
     <string name="records_file_upload_youtube">YouTube에 업로드</string>
     <string name="records_pin_lock_confirm_pin">PIN 코드 확인</string>
-    <string name="records_pin_lock_confirm_warning">PIN 코드를 잊어버린 경우 녹음 내용에 접근할 수 없으므로 앱을 다시 설치하거나 데이터를 지워야 합니다.</string>
+    <string name="records_pin_lock_confirm_warning">PIN 코드를 잊어버린 경우 녹화 내용에 접근할 수 없으므로 앱을 다시 설치하거나 데이터를 지워야 합니다.</string>
     <string name="records_pin_lock_create_a_new_pin">새로운 PIN 코드를 생성하세요</string>
-    <string name="records_pin_lock_enter_pin_to_disable">녹음 잠금을 해제하려면 PIN 코드를 입력하세요.</string>
+    <string name="records_pin_lock_enter_pin_to_disable">녹화 잠금을 해제하려면 PIN 코드를 입력하세요.</string>
     <string name="records_pin_lock_enter_the_current_pin">현재 PIN 코드를 입력하세요</string>
     <string name="records_pin_lock_enter_the_pin_to_unlock_the_app">PIN 코드를 입력하여 잠금 해제하세요</string>
     <string name="records_pin_lock_error_confirmation_pin_do_not_match">확인 PIN 코드가 일치하지 않습니다</string>
     <string name="records_pin_lock_error_incorrect_pin_code">잘못된 PIN 코드</string>
-    <string name="records_pin_lock_msg_disabled">녹음 잠금이 비활성화되었습니다</string>
-    <string name="records_pin_lock_msg_enabled">녹음 잠금이 활성화되었습니다</string>
+    <string name="records_pin_lock_msg_disabled">녹화 잠금이 비활성화되었습니다</string>
+    <string name="records_pin_lock_msg_enabled">녹화 잠금이 활성화되었습니다</string>
     <string name="records_pin_lock_msg_pin_changed">PIN 코드가 변경되었습니다</string>
-    <string name="records_pin_lock_top_bar_title">녹음 잠금</string>
+    <string name="records_pin_lock_top_bar_title">녹화 잠금</string>
     <string name="reset">다시 놓기</string>
     <string name="snackbar_dismiss">숨다</string>
     <string name="storage_external_single">마이크로 SD카드</string>
@@ -512,8 +535,9 @@
     <string name="subscription_status_subscribed_short">구독됨</string>
     <string name="subscription_subscribe_text">구독하다</string>
     <string name="subscription_with_free_trial">무료 체험으로</string>
+    <string name="tap_to_allow_background_recording">백그라운드 동영상 녹화를 허용하려면 탭하세요.</string>
     <string name="timer_auto_start">시간제 노동자</string>
-    <string name="timer_auto_start_dlg_type_title">녹음을 시작하려면 타이머를 설정하세요</string>
+    <string name="timer_auto_start_dlg_type_title">녹화를 시작하려면 타이머를 설정하세요</string>
     <string name="timer_auto_start_every_day_text">매일</string>
     <string name="timer_auto_start_once">한 번</string>
     <string name="timer_auto_start_recording_cancel_message_text">현재 타이머를 기준으로 자동 동영상 녹화를 취소하시겠습니까?</string>
@@ -558,6 +582,6 @@
     <string name="videos_storage_select_dlg_title">동영상 스토리지 선택</string>
     <string name="videos_temporary_folder_text">임시 저장 동영상</string>
     <string name="videos_toolbar_subtitle">동영상</string>
-    <string name="widget_start_stop_recording_transparent">녹음 시작/중지를 위한 투명 버튼</string>
+    <string name="widget_start_stop_recording_transparent">녹화 시작/중지를 위한 투명 버튼</string>
     <string name="zoom_text">줌</string>
 </resources>

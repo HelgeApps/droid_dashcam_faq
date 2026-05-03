@@ -1,5 +1,6 @@
 <resources>
     <string name="accept_text">accepto</string>
+    <string name="allow_background_activity_on_some_devices">A continuació es mostren exemples de com permetre l\'activitat en segon pla en alguns dispositius:</string>
     <string name="any_text">Cap</string>
     <string name="app_alternative_name_audio">Àudio</string>
     <string name="app_alternative_name_battery">Configuració de la bateria</string>
@@ -8,6 +9,16 @@
     <string name="app_alternative_name_video">Vídeo</string>
     <string name="app_name_backgroundvideorecorder">Enregistrament de vídeo de fons</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - Conduint DVR</string>
+    <string name="background_recording_allow_autostart">Feu clic aquí per permetre que l\'aplicació s\'iniciï automàticament en segon pla (si encara no ho teniu permès).</string>
+    <string name="background_recording_realme_allow_background_activity">5. Activeu els interruptors \"Permetre l\'activitat en primer pla\" i \"Permetre l\'activitat en segon pla\".</string>
+    <string name="background_recording_realme_app_battery_management">4. Obriu la pantalla \"Gestió de la bateria de l\'aplicació\" i trieu l\'aplicació.</string>
+    <string name="background_recording_realme_more_settings">2. Obriu \"Més configuracions\" (o \"Configuració d\'estalvi d\'energia\") i, a continuació, obriu \"Gestió de la bateria de l\'aplicació\" i \"Optimitzar l\'ús de la bateria\".</string>
+    <string name="background_recording_realme_optimize_battery_use">3. A la pantalla \"Optimitza l\'ús de la bateria\", selecciona l\'aplicació i tria \"No optimitzar\" a la finestra emergent.</string>
+    <string name="background_recording_realme_system_settings_battery">1. Obriu Configuració del sistema → Bateria</string>
+    <string name="background_recording_realme_title">Per mantenir estable l\'enregistrament de vídeo en segon pla als dispositius Oppo (realme), permeteu l\'activitat en primer pla, permeteu l\'activitat en segon pla, configureu el mode de bateria a \"No optimitzar\" i permeteu l\'inici automàtic si el telèfon ofereix aquesta opció.</string>
+    <string name="background_restrictions_explain_how_to_disable">Hi ha restriccions de fons de bateria configurades per a aquesta aplicació que poden causar problemes amb la gravació de vídeo en segon pla. Desactiveu qualsevol optimització de bateria o restricció de fons per a aquesta aplicació.\nPodeu provar de trobar aquestes opcions a la pantalla \"Informació de l\'aplicació\" → \"Bateria\" o a la configuració del sistema del dispositiu. Configureu l\'optimització de la bateria a \"Sense restriccions\" (o \"No optimitzar\") per a aquesta aplicació i permeteu l\'activitat en primer pla i en segon pla. La ubicació exacta d\'aquestes opcions pot variar segons el fabricant del dispositiu.</string>
+    <string name="background_restrictions_msg_text">Desactiveu les restriccions de segon pla per a l\'aplicació per garantir una gravació de vídeo estable.</string>
+    <string name="background_restrictions_text">Limitació del treball d\'aplicacions en segon pla</string>
     <string name="camera">Càmera</string>
     <string name="camera_aperture">Diafragma</string>
     <string name="camera_back">Càmera posterior</string>
@@ -30,6 +41,7 @@
     <string name="close">Tanca</string>
     <string name="days">dies</string>
     <string name="default_text">Per defecte</string>
+    <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">Instruccions més detallades per desactivar l\'optimització de la bateria i permetre l\'activitat en segon pla de l\'aplicació:</string>
     <string name="dialog_camera_not_found_msg_text">Aquest dispositiu no té una càmera integrada i no admet càmeres externes. Tancament…</string>
     <string name="dialog_camera_not_found_text">No s\'ha trobat la càmera</string>
     <string name="dialog_go_to_settings_text">Obre la configuració</string>
@@ -41,13 +53,10 @@
     <string name="donate_disable_ads_text">Donació, Elimina anuncis</string>
     <string name="donate_success_thanks_msg_text">Moltes gràcies pel vostre suport!</string>
     <string name="donate_text">Donació</string>
-    <string name="donation_any_amount_text">no hi ha publicitat per cap import</string>
-    <string name="donation_dlg_has_ads_text">Per eliminar anuncis, la donació ha de ser o més.</string>
-    <string name="donation_dlg_limited_ads_message_text">Per a donacions més petites, la publicitat només s\'elimina a la pantalla principal</string>
     <string name="donation_dlg_no_ads_text">No tens anuncis.</string>
     <string name="donation_level_text">El teu nivell de donació:</string>
     <string name="donation_purchase_info_loading_text">La informació de compres encara no s\'ha carregat. Esteu en línia i heu iniciat la sessió al vostre compte de Google?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Si ja has fet una compra, per restaurar-la, primer esborra les dades i la memòria cau de Google Play Store. A continuació, desinstal·la l\'aplicació, obre Google Play Store, selecciona el compte de Google correcte que has utilitzat per fer la compra i torna a instal·lar l\'aplicació.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Si ja has fet una compra, però no s\'ha restaurat automàticament, primer esborra les dades i la memòria cau de Google Play Store. A continuació, desinstal·la l\'aplicació, obre Google Play Store, selecciona el compte de Google correcte que has utilitzat per fer la compra i torna a instal·lar l\'aplicació.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">Si ja heu fet una donació, per restaurar les compres, torneu a instal·lar l\'aplicació a Samsung Galaxy Store després de seleccionar el compte correcte.</string>
     <string name="donation_remove_ads_by_any_amount_text">Elimina els anuncis per sempre amb una donació única de qualsevol quantitat.</string>
     <string name="donation_remove_ads_by_subscribing_text">També podeu fer una donació mensual per eliminar anuncis.</string>
@@ -72,6 +81,7 @@
     <string name="hour">hores</string>
     <string name="hours">hores</string>
     <string name="month">mes</string>
+    <string name="more_info">Més informació:</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">L\'aplicació no està exclosa de l\'optimització de la bateria. Si la càmera no s\'executa en segon pla o una altra cosa, afegiu aquesta aplicació a les excepcions del mode d\'estalvi d\'energia.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Si heu tornat a instal·lar l\'aplicació a Android 11, els fitxers antics s\'han de suprimir manualment</string>
     <string name="msg_auto_recording_service_was_stopped">Heu aturat el servei de fons per iniciar automàticament la gravació de vídeo. Obriu l\'aplicació per tornar-la a iniciar.</string>
@@ -122,6 +132,13 @@
     <string name="notification_service_power_checker">carregant</string>
     <string name="notification_stop_text">Atura</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Per a la gravació automàtica d\'encesa/desactivació</string>
+    <string name="one_time_payment">Pagament únic</string>
+    <string name="one_time_payment_explanation_msg">Aquesta és una actualització de per vida: sense subscripcions ni quotes recurrents. Paga una vegada i gaudeix de l\'aplicació completament sense anuncis.</string>
+    <string name="one_time_payment_purchased">Tens la versió premium.\nGràcies pel teu suport!</string>
+    <string name="open_app_info_screen">Obre la pantalla \"Informació de l\'aplicació\"</string>
+    <string name="open_app_info_screen_battery_usage_allow_background_activity">Per permetre l\'enregistrament de vídeo en segon pla, obriu la pantalla \"Informació de l\'aplicació\", seleccioneu \"Ús de la bateria\" i activeu \"Permetre l\'activitat en segon pla\".</string>
+    <string name="open_battery_settings">Obre la configuració de la bateria</string>
+    <string name="open_system_settings">Obre la configuració del sistema</string>
     <string name="permission_audio_dlg_msg">L\'àudio és necessari per gravar una pista d\'àudio quan es grava un vídeo</string>
     <string name="permission_camera_dlg_msg">La càmera és necessària per a la gravació de vídeo i la vista prèvia de la càmera.</string>
     <string name="permission_camera_request_canceled">Aquesta aplicació requereix permís per utilitzar la càmera per gravar vídeo. Però ho vas rebutjar. Tancant… Intenta donar permís a la càmera a la configuració del sistema d\'aquesta aplicació</string>
@@ -191,6 +208,8 @@
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">És possible que el fabricant del dispositiu no proporcioni accés a totes les càmeres, de manera que algunes no s\'obren</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">És possible que el fabricant del dispositiu no proporcioni una càmera de lent gran per a totes les aplicacions</string>
     <string name="prefs_consent_information_privacy_options">Opcions de privadesa (informació de consentiment)</string>
+    <string name="prefs_continuous_recording">enregistrament continu</string>
+    <string name="prefs_continuous_recording_desc">Inicia un fitxer nou quan l\'actual arriba a la durada definida. Si està desactivat, l\'enregistrament s\'atura al límit.</string>
     <string name="prefs_day_night_mode_auto_text">Automàtic (dia/nit), per hora</string>
     <string name="prefs_day_night_mode_day_text">Dia</string>
     <string name="prefs_day_night_mode_night_text">Nit</string>
@@ -235,10 +254,11 @@
     <string name="prefs_meters_accuracy_value_text">metres de precisió</string>
     <string name="prefs_open_source_notices_text">Avisos de codi obert</string>
     <string name="prefs_optical_zoom_text">Zoom òptic (Zoom) /Distància focal</string>
-    <string name="prefs_orientation_landscape">Paisatge</string>
-    <string name="prefs_orientation_landscape_reversed">Revers de l\'àlbum</string>
-    <string name="prefs_orientation_portrait">Retrat</string>
-    <string name="prefs_orientation_sensor_automatic">Automàtic</string>
+    <string name="prefs_orientation_landscape">Orientació horitzontal</string>
+    <string name="prefs_orientation_landscape_reversed">Orientació horitzontal inversa</string>
+    <string name="prefs_orientation_portrait">Orientació vertical</string>
+    <string name="prefs_orientation_sensor_automatic">Orientació automàtica (rotació automàtica)</string>
+    <string name="prefs_orientation_system_orientation">Utilitza l\'orientació del sistema</string>
     <string name="prefs_other_auto_deleting_sum_text">Suprimeix automàticament els vídeos més antics durant la gravació si no hi ha prou espai per als vídeos nous</string>
     <string name="prefs_other_auto_deleting_text">Enregistrament en bucle</string>
     <string name="prefs_other_backup_records_tip">Per fer una còpia de seguretat de les vostres gravacions, instal·leu aplicacions com Google Fotos. Cerqueu les carpetes d\'enregistrament en aquestes aplicacions i activeu-ne l\'opció de còpia de seguretat (feu clic al text per veure\'n un exemple).</string>
@@ -394,6 +414,7 @@
     <string name="prefs_version_text">Versió de l\'aplicació</string>
     <string name="prefs_vibrate_rec_start_stop_text">Vibració en iniciar o aturar la gravació</string>
     <string name="prefs_vibration_strength">Força de vibració</string>
+    <string name="prefs_video_angle_text">Angle d\'orientació dels fotogrames de vídeo.</string>
     <string name="prefs_video_bitrate_text">Taxa de bits (qualitat)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Mode d\'escena de control de la càmera (nit)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Mode d\'escena de control de càmera (dia)</string>
@@ -413,8 +434,10 @@
     <string name="prefs_video_exposure_auto_mode_text">Mode d\'exposició automàtica</string>
     <string name="prefs_video_exposure_night_text">Compensació de l\'exposició (nit)</string>
     <string name="prefs_video_exposure_text">Compensació de l\'exposició (dia)</string>
-    <string name="prefs_video_flip_x_sum_text">Mirall horitzontal del vídeo. La imatge només canvia per a la gravació de vídeo, la vista prèvia no canvia</string>
-    <string name="prefs_video_flip_x_text">Gira el vídeo horitzontalment</string>
+    <string name="prefs_video_flip_angle_explanation_desc">Això només s\'aplica a la gravació de vídeo i no canvia la vista prèvia de la càmera.</string>
+    <string name="prefs_video_flip_angle_explanation_title">Correccions per a casos en què els vídeos estan invertits o tenen l\'angle d\'orientació incorrecte.</string>
+    <string name="prefs_video_flip_x_text">Reflexió horitzontal dels fotogrames de vídeo.</string>
+    <string name="prefs_video_flip_y_text">Reflexió vertical dels fotogrames de vídeo.</string>
     <string name="prefs_video_focus_continuous_picture_text">Imatge contínua</string>
     <string name="prefs_video_focus_continuous_video_text">Vídeo continu (recomanat durant el dia)</string>
     <string name="prefs_video_focus_infinity_text">Infinity (recomanat a la nit)</string>
@@ -444,7 +467,7 @@
     <string name="prefs_zoom_text">Zoom digital (zoom)</string>
     <string name="purchase_did_make_it_previously">Has fet alguna compra abans?</string>
     <string name="rec_audio_silence_text">De moment, la gravació d\'àudio no és possible perquè el micròfon és interceptat per una altra aplicació</string>
-    <string name="rec_available_space_text">Disponible</string>
+    <string name="rec_available_space_text">Espai disponible</string>
     <string name="rec_day_night_btn_auto_text">Automàtic</string>
     <string name="rec_fix_short_text">Corregir</string>
     <string name="rec_fix_text">Corregir</string>
@@ -511,6 +534,7 @@
     <string name="subscription_status_subscribed_short">Subscrit</string>
     <string name="subscription_subscribe_text">Subscriu-te</string>
     <string name="subscription_with_free_trial">Amb prova gratuïta</string>
+    <string name="tap_to_allow_background_recording">Toca per permetre l\'enregistrament de vídeo en segon pla.</string>
     <string name="timer_auto_start">Temporitzador</string>
     <string name="timer_auto_start_dlg_type_title">Estableix un temporitzador per començar a gravar</string>
     <string name="timer_auto_start_every_day_text">Cada dia</string>

@@ -1,5 +1,6 @@
 <resources>
     <string name="accept_text">موافق</string>
+    <string name="allow_background_activity_on_some_devices">فيما يلي أمثلة على كيفية السماح بنشاط الخلفية على بعض الأجهزة:</string>
     <string name="any_text">أي</string>
     <string name="app_alternative_name_audio">صوتي</string>
     <string name="app_alternative_name_battery">إعدادات البطارية</string>
@@ -8,6 +9,16 @@
     <string name="app_alternative_name_video">فيديو</string>
     <string name="app_name_backgroundvideorecorder">تسجيل فيديو في الخلفية</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - قيادة DVR</string>
+    <string name="background_recording_allow_autostart">انقر هنا للسماح للتطبيق بالتشغيل التلقائي في الخلفية (إذا لم يكن مسموحًا به بالفعل).</string>
+    <string name="background_recording_realme_allow_background_activity">5. قم بتشغيل مفتاحي \"السماح بنشاط المقدمة\" و \"السماح بنشاط الخلفية\".</string>
+    <string name="background_recording_realme_app_battery_management">4. افتح شاشة \"إدارة بطارية التطبيق\" واختر التطبيق.</string>
+    <string name="background_recording_realme_more_settings">2. افتح \"المزيد من الإعدادات\" (أو \"إعدادات توفير الطاقة\")، ثم افتح كلاً من \"إدارة بطارية التطبيق\" و\"تحسين استخدام البطارية\".</string>
+    <string name="background_recording_realme_optimize_battery_use">3. في شاشة \"تحسين استخدام البطارية\"، حدد التطبيق واختر \"عدم التحسين\" في النافذة المنبثقة.</string>
+    <string name="background_recording_realme_system_settings_battery">1. افتح إعدادات النظام ← البطارية</string>
+    <string name="background_recording_realme_title">للحفاظ على استقرار تسجيل الفيديو في الخلفية على أجهزة Oppo (realme)، قم بالسماح بنشاط المقدمة، والسماح بنشاط الخلفية، وتعيين وضع البطارية على \"عدم التحسين\"، والسماح بالتشغيل التلقائي إذا كان الهاتف يوفر هذا الخيار.</string>
+    <string name="background_restrictions_explain_how_to_disable">توجد قيود على استهلاك البطارية في الخلفية لهذا التطبيق، مما قد يُسبب مشاكل في تسجيل الفيديو. يُرجى تعطيل أي تحسينات للبطارية أو قيود على استهلاكها في الخلفية لهذا التطبيق.\n\nيمكنك البحث عن هذه الخيارات في \"معلومات التطبيق\" ← \"البطارية\" أو في إعدادات نظام جهازك. اضبط تحسين البطارية على \"غير مقيد\" (أو \"عدم التحسين\") لهذا التطبيق، واسمح بتشغيله في المقدمة والخلفية. قد يختلف مكان هذه الخيارات باختلاف الشركة المصنعة لجهازك.</string>
+    <string name="background_restrictions_msg_text">يرجى تعطيل قيود الخلفية للتطبيق لضمان تسجيل فيديو مستقر.</string>
+    <string name="background_restrictions_text">الحد من عمل التطبيقات في الخلفية</string>
     <string name="camera">الة تصوير</string>
     <string name="camera_aperture">الحجاب الحاجز</string>
     <string name="camera_back">الكاميرا الخلفية</string>
@@ -30,6 +41,7 @@
     <string name="close">قريب</string>
     <string name="days">أيام</string>
     <string name="default_text">تقصير</string>
+    <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">تعليمات أكثر تفصيلاً لتعطيل تحسين البطارية والسماح بنشاط التطبيق في الخلفية:</string>
     <string name="dialog_camera_not_found_msg_text">لا يحتوي هذا الجهاز على كاميرا مدمجة ولا يدعم الكاميرات الخارجية. إغلاق…</string>
     <string name="dialog_camera_not_found_text">الكاميرا غير موجودة</string>
     <string name="dialog_go_to_settings_text">أفتح الإعدادات</string>
@@ -41,13 +53,10 @@
     <string name="donate_disable_ads_text">التبرع وإزالة الإعلانات</string>
     <string name="donate_success_thanks_msg_text">شكرا جزيلا لدعمكم!</string>
     <string name="donate_text">هبة</string>
-    <string name="donation_any_amount_text">لا يوجد إعلان عن أي مبلغ</string>
-    <string name="donation_dlg_has_ads_text">لإزالة الإعلانات ، يجب أن يكون التبرع أو أكثر.</string>
-    <string name="donation_dlg_limited_ads_message_text">بالنسبة للتبرعات الصغيرة، تتم إزالة الإعلانات على الشاشة الرئيسية فقط</string>
     <string name="donation_dlg_no_ads_text">ليس لديك إعلانات.</string>
     <string name="donation_level_text">مستوى تبرعك:</string>
     <string name="donation_purchase_info_loading_text">لم يتم تحميل معلومات التسوق حتى الآن. هل أنت متصل بالإنترنت وقمت بتسجيل الدخول إلى حساب Google الخاص بك؟</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">إذا كنت قد أجريت عملية شراء مسبقًا، لاستعادتها، يُرجى أولًا مسح بيانات متجر جوجل بلاي وذاكرة التخزين المؤقت. ثم، قم بإلغاء تثبيت التطبيق، وافتح متجر جوجل بلاي، وحدد حساب جوجل الصحيح الذي استخدمته لإجراء عملية الشراء، وأعد تثبيت التطبيق.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">إذا كنت قد أجريت عملية شراء مسبقًا، ولكن لم يتم استعادتها تلقائيًا، فيُرجى أولًا مسح بيانات متجر Google Play وذاكرة التخزين المؤقت. ثم، قم بإلغاء تثبيت التطبيق، وافتح متجر Google Play، وحدد حساب Google الصحيح الذي استخدمته لإجراء عملية الشراء، وأعد تثبيت التطبيق.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">إذا كنت قد قمت بالفعل بالتبرع، فعندئذٍ لاستعادة المشتريات، يرجى إعادة تثبيت التطبيق في متجر Samsung Galaxy بعد تحديد الحساب الصحيح</string>
     <string name="donation_remove_ads_by_any_amount_text">قم بإزالة الإعلانات إلى الأبد من خلال التبرع لمرة واحدة بأي مبلغ.</string>
     <string name="donation_remove_ads_by_subscribing_text">يمكنك أيضًا التبرع شهريًا لإزالة الإعلانات.</string>
@@ -72,6 +81,7 @@
     <string name="hour">ساعة</string>
     <string name="hours">ساعات</string>
     <string name="month">شهر</string>
+    <string name="more_info">للمزيد من المعلومات:</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">لا يتم استبعاد التطبيق من تحسين البطارية. إذا كانت الكاميرا لا تعمل في الخلفية أو أي شيء آخر، فقم بإضافة هذا التطبيق إلى استثناءات وضع توفير الطاقة.</string>
     <string name="msg_android_r_deleting_manual_tip_text">إذا أعدت تثبيت التطبيق على Android 11 ، فيجب حذف الملفات القديمة يدويًا</string>
     <string name="msg_auto_recording_service_was_stopped">لقد قمت بإيقاف خدمة الخلفية لبدء تسجيل الفيديو تلقائيًا. افتح التطبيق لتشغيله مرة أخرى.</string>
@@ -122,6 +132,13 @@
     <string name="notification_service_power_checker">الشحن</string>
     <string name="notification_stop_text">قف</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">للتسجيل التلقائي /إيقاف التشغيل</string>
+    <string name="one_time_payment">دفعة لمرة واحدة</string>
+    <string name="one_time_payment_explanation_msg">هذا تحديث مدى الحياة - بدون اشتراكات أو رسوم متكررة. ادفع مرة واحدة واستمتع بالتطبيق بدون إعلانات على الإطلاق.</string>
+    <string name="one_time_payment_purchased">لديك النسخة المميزة.\n\nشكراً لدعمكم!</string>
+    <string name="open_app_info_screen">افتح شاشة \"معلومات التطبيق\"</string>
+    <string name="open_app_info_screen_battery_usage_allow_background_activity">للسماح بتسجيل الفيديو في الخلفية، افتح شاشة \"معلومات التطبيق\"، وحدد \"استخدام البطارية\"، وقم بتمكين \"السماح بنشاط الخلفية\".</string>
+    <string name="open_battery_settings">افتح إعدادات البطارية</string>
+    <string name="open_system_settings">افتح إعدادات النظام</string>
     <string name="permission_audio_dlg_msg">مطلوب الصوت لتسجيل مسار صوتي عند تسجيل الفيديو</string>
     <string name="permission_camera_dlg_msg">الكاميرا مطلوبة لتسجيل الفيديو ومعاينة الكاميرا.</string>
     <string name="permission_camera_request_canceled">يتطلب هذا التطبيق إذنًا لاستخدام الكاميرا لتسجيل الفيديو. لكنك رفضتها. الإغلاق… حاول منح الإذن للكاميرا في إعدادات النظام لهذا التطبيق</string>
@@ -191,6 +208,8 @@
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">قد لا توفر الشركة المصنعة للجهاز الوصول إلى جميع الكاميرات ، لذلك قد لا يفتح البعض</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">قد لا توفر الشركة المصنعة للجهاز كاميرا ذات عدسة واسعة لجميع التطبيقات</string>
     <string name="prefs_consent_information_privacy_options">خيارات الخصوصية (معلومات الموافقة)</string>
+    <string name="prefs_continuous_recording">التسجيل المستمر</string>
+    <string name="prefs_continuous_recording_desc">يبدأ تسجيل ملف جديد عندما يصل الملف الحالي إلى المدة المحددة. في حال تعطيل هذه الخاصية، يتوقف التسجيل عند الوصول إلى الحد الأقصى للمدة.</string>
     <string name="prefs_day_night_mode_auto_text">آلي (نهار /ليل) ، حسب الوقت</string>
     <string name="prefs_day_night_mode_day_text">يوم</string>
     <string name="prefs_day_night_mode_night_text">ليلة</string>
@@ -235,10 +254,11 @@
     <string name="prefs_meters_accuracy_value_text">متر من الدقة</string>
     <string name="prefs_open_source_notices_text">إشعارات مفتوحة المصدر</string>
     <string name="prefs_optical_zoom_text">تكبير بصري (تكبير) /طول بؤري</string>
-    <string name="prefs_orientation_landscape">المناظر الطبيعيه</string>
-    <string name="prefs_orientation_landscape_reversed">عكس الألبوم</string>
-    <string name="prefs_orientation_portrait">لوحة</string>
-    <string name="prefs_orientation_sensor_automatic">تلقائي</string>
+    <string name="prefs_orientation_landscape">اتجاه أفقي</string>
+    <string name="prefs_orientation_landscape_reversed">اتجاه أفقي معكوس</string>
+    <string name="prefs_orientation_portrait">الوضع الرأسي</string>
+    <string name="prefs_orientation_sensor_automatic">التوجيه التلقائي (التدوير التلقائي)</string>
+    <string name="prefs_orientation_system_orientation">استخدم نظام التوجيه</string>
     <string name="prefs_other_auto_deleting_sum_text">احذف مقاطع الفيديو الأقدم تلقائيًا أثناء التسجيل إذا لم تكن هناك مساحة كافية لمقاطع الفيديو الجديدة</string>
     <string name="prefs_other_auto_deleting_text">التسجيل المتكرر</string>
     <string name="prefs_other_backup_records_tip">لعمل نسخة احتياطية من تسجيلاتك، قم بتثبيت تطبيقات مثل صور Google. ابحث عن مجلدات التسجيل في هذه التطبيقات وقم بتمكين خيار النسخ الاحتياطي لها (انقر على النص لرؤية مثال).</string>
@@ -394,6 +414,7 @@
     <string name="prefs_version_text">إصدار التطبيق</string>
     <string name="prefs_vibrate_rec_start_stop_text">اهتزاز عند بدء أو إيقاف التسجيل</string>
     <string name="prefs_vibration_strength">قوة الاهتزاز</string>
+    <string name="prefs_video_angle_text">زاوية توجيه إطارات الفيديو.</string>
     <string name="prefs_video_bitrate_text">معدل البت (الجودة)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">وضع مشهد التحكم في الكاميرا (ليلي)</string>
     <string name="prefs_video_camera_control_scene_mode_text">وضع مشهد التحكم في الكاميرا (اليوم)</string>
@@ -413,8 +434,10 @@
     <string name="prefs_video_exposure_auto_mode_text">وضع التعريض التلقائي</string>
     <string name="prefs_video_exposure_night_text">تعويض التعرض (ليلة)</string>
     <string name="prefs_video_exposure_text">تعويض التعرض (يوم)</string>
-    <string name="prefs_video_flip_x_sum_text">انعكاس أفقي للفيديو. تتغير الصورة فقط لتسجيل الفيديو ، ولا تتغير المعاينة</string>
-    <string name="prefs_video_flip_x_text">قلب الفيديو أفقيًا</string>
+    <string name="prefs_video_flip_angle_explanation_desc">ينطبق هذا فقط على تسجيل الفيديو ولا يغير معاينة الكاميرا.</string>
+    <string name="prefs_video_flip_angle_explanation_title">إصلاحات للحالات التي تكون فيها مقاطع الفيديو مقلوبة أو بزاوية توجيه خاطئة.</string>
+    <string name="prefs_video_flip_x_text">انعكاس أفقي لإطارات الفيديو.</string>
+    <string name="prefs_video_flip_y_text">انعكاس عمودي لإطارات الفيديو.</string>
     <string name="prefs_video_focus_continuous_picture_text">صورة مستمرة</string>
     <string name="prefs_video_focus_continuous_video_text">فيديو مستمر (موصى به أثناء النهار)</string>
     <string name="prefs_video_focus_infinity_text">إنفينيتي (موصى به في الليل)</string>
@@ -444,7 +467,7 @@
     <string name="prefs_zoom_text">تقريب رقمي (تكبير /تصغير)</string>
     <string name="purchase_did_make_it_previously">هل سبق لك أن قمت بعملية شراء؟</string>
     <string name="rec_audio_silence_text">في الوقت الحالي ، لا يمكن تسجيل الصوت بسبب اعتراض تطبيق آخر للميكروفون</string>
-    <string name="rec_available_space_text">متاح</string>
+    <string name="rec_available_space_text">المساحة المتاحة</string>
     <string name="rec_day_night_btn_auto_text">آلي</string>
     <string name="rec_fix_short_text">لتصحيح</string>
     <string name="rec_fix_text">لتصحيح</string>
@@ -511,6 +534,7 @@
     <string name="subscription_status_subscribed_short">مشترك</string>
     <string name="subscription_subscribe_text">يشترك</string>
     <string name="subscription_with_free_trial">مع نسخة تجريبية مجانية</string>
+    <string name="tap_to_allow_background_recording">انقر للسماح بتسجيل الفيديو في الخلفية.</string>
     <string name="timer_auto_start">الموقت</string>
     <string name="timer_auto_start_dlg_type_title">اضبط مؤقتًا لبدء التسجيل</string>
     <string name="timer_auto_start_every_day_text">كل يوم</string>

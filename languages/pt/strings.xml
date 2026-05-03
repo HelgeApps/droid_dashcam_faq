@@ -1,5 +1,6 @@
 <resources>
     <string name="accept_text">eu aceito</string>
+    <string name="allow_background_activity_on_some_devices">Abaixo estão exemplos de como permitir atividades em segundo plano em alguns dispositivos:</string>
     <string name="any_text">Qualquer</string>
     <string name="app_alternative_name_audio">Áudio</string>
     <string name="app_alternative_name_battery">Configurações da bateria</string>
@@ -8,6 +9,16 @@
     <string name="app_alternative_name_video">Vídeo</string>
     <string name="app_name_backgroundvideorecorder">Gravação de vídeo em segundo plano</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - Conduzindo DVR</string>
+    <string name="background_recording_allow_autostart">Clique aqui para permitir que o aplicativo inicie automaticamente em segundo plano (caso ainda não esteja permitido).</string>
+    <string name="background_recording_realme_allow_background_activity">5. Ative as opções \"Permitir atividade em primeiro plano\" e \"Permitir atividade em segundo plano\".</string>
+    <string name="background_recording_realme_app_battery_management">4. Abra a tela \"Gerenciamento de bateria do aplicativo\" e selecione o aplicativo.</string>
+    <string name="background_recording_realme_more_settings">2. Abra \"Mais configurações\" (ou \"Configurações de economia de energia\") e, em seguida, abra \"Gerenciamento de bateria do app\" e \"Otimizar uso da bateria\".</string>
+    <string name="background_recording_realme_optimize_battery_use">3. Na tela \"Otimizar uso da bateria\", selecione o aplicativo e escolha \"Não otimizar\" na janela pop-up.</string>
+    <string name="background_recording_realme_system_settings_battery">1. Abra as Configurações do Sistema → Bateria</string>
+    <string name="background_recording_realme_title">Para manter a gravação de vídeo em segundo plano estável em dispositivos Oppo (realme), permita atividades em primeiro plano, permita atividades em segundo plano, defina o modo de bateria para \"Não otimizar\" e permita a inicialização automática, caso o telefone ofereça essa opção.</string>
+    <string name="background_restrictions_explain_how_to_disable">Existem restrições de bateria em segundo plano definidas para este aplicativo que podem causar problemas com a gravação de vídeo em segundo plano. Desative quaisquer otimizações de bateria ou restrições em segundo plano para este aplicativo.\nVocê pode tentar encontrar essas opções na tela \"Informações do aplicativo\" → \"Bateria\" ou nas configurações do sistema do seu dispositivo. Defina a otimização de bateria como \"Sem restrições\" (ou \"Não otimizar\") para este aplicativo, permitindo atividades em primeiro plano e em segundo plano. A localização exata dessas opções pode variar dependendo do fabricante do seu dispositivo.</string>
+    <string name="background_restrictions_msg_text">Desative as restrições de execução em segundo plano para o aplicativo a fim de garantir uma gravação de vídeo estável.</string>
+    <string name="background_restrictions_text">Limitar o trabalho de aplicativos em segundo plano</string>
     <string name="camera">Câmera</string>
     <string name="camera_aperture">Diafragma</string>
     <string name="camera_back">Câmera traseira</string>
@@ -30,6 +41,7 @@
     <string name="close">Fechar</string>
     <string name="days">dias</string>
     <string name="default_text">Padrão</string>
+    <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">Instruções mais detalhadas para desativar a otimização de bateria e permitir a atividade em segundo plano do aplicativo:</string>
     <string name="dialog_camera_not_found_msg_text">Este dispositivo não possui uma câmera embutida e não oferece suporte a câmeras externas. Fechando…</string>
     <string name="dialog_camera_not_found_text">Câmera não encontrada</string>
     <string name="dialog_go_to_settings_text">Abrir configurações</string>
@@ -41,13 +53,10 @@
     <string name="donate_disable_ads_text">Doação, remover anúncios</string>
     <string name="donate_success_thanks_msg_text">Muito obrigado pelo seu apoio!</string>
     <string name="donate_text">Doação</string>
-    <string name="donation_any_amount_text">sem publicidade de qualquer valor</string>
-    <string name="donation_dlg_has_ads_text">Para remover anúncios, a doação deve ser ou mais.</string>
-    <string name="donation_dlg_limited_ads_message_text">Para doações menores, a publicidade é removida apenas da tela principal</string>
     <string name="donation_dlg_no_ads_text">Você não tem anúncios.</string>
     <string name="donation_level_text">Seu nível de doação:</string>
     <string name="donation_purchase_info_loading_text">As informações de compras ainda não foram carregadas. Você está online e conectado à sua conta do Google?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Se você já fez uma compra, para restaurá-la, primeiro limpe os dados e o cache da Google Play Store. Em seguida, desinstale o aplicativo, abra a Google Play Store, selecione a conta do Google usada para fazer a compra e reinstale o aplicativo.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Se você já fez uma compra, mas ela não foi restaurada automaticamente, primeiro limpe os dados e o cache da Google Play Store. Em seguida, desinstale o aplicativo, abra a Google Play Store, selecione a conta do Google usada para fazer a compra e reinstale o aplicativo.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">Se você já fez uma doação, para restaurar as compras, reinstale o aplicativo na Samsung Galaxy Store após selecionar a conta correta</string>
     <string name="donation_remove_ads_by_any_amount_text">Remova os anúncios para sempre com uma doação única de qualquer valor.</string>
     <string name="donation_remove_ads_by_subscribing_text">Você também pode doar mensalmente para remover anúncios.</string>
@@ -72,6 +81,7 @@
     <string name="hour">hora</string>
     <string name="hours">horas</string>
     <string name="month">mês</string>
+    <string name="more_info">Mais informações:</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">O aplicativo não está excluído da otimização da bateria. Se a câmera não estiver funcionando em segundo plano ou qualquer outra coisa, adicione este aplicativo às exceções do modo de economia de energia.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Se você reinstalou o aplicativo no Android 11, os arquivos antigos devem ser excluídos manualmente</string>
     <string name="msg_auto_recording_service_was_stopped">Você interrompeu o serviço em segundo plano para iniciar automaticamente a gravação de vídeo. Abra o aplicativo para iniciá-lo novamente.</string>
@@ -122,6 +132,13 @@
     <string name="notification_service_power_checker">cobrando</string>
     <string name="notification_stop_text">Pare</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Para gravação de ligar /desligar automático</string>
+    <string name="one_time_payment">Pagamento único</string>
+    <string name="one_time_payment_explanation_msg">Esta é uma atualização vitalícia — sem assinaturas, sem taxas recorrentes. Pague uma única vez e aproveite o aplicativo totalmente livre de anúncios.</string>
+    <string name="one_time_payment_purchased">Você possui a versão premium.\nObrigado pelo seu apoio!</string>
+    <string name="open_app_info_screen">Abra a tela \"Informações do aplicativo\".</string>
+    <string name="open_app_info_screen_battery_usage_allow_background_activity">Para permitir a gravação de vídeo em segundo plano, abra a tela \"Informações do aplicativo\", selecione \"Uso da bateria\" e ative \"Permitir atividade em segundo plano\".</string>
+    <string name="open_battery_settings">Abra as configurações da bateria.</string>
+    <string name="open_system_settings">Abra as configurações do sistema</string>
     <string name="permission_audio_dlg_msg">O áudio é necessário para gravar uma trilha de áudio ao gravar um vídeo</string>
     <string name="permission_camera_dlg_msg">A câmera é necessária para gravação de vídeo e visualização da câmera.</string>
     <string name="permission_camera_request_canceled">Este aplicativo requer permissão para usar a câmera para gravar vídeo. Mas você recusou. Fechando… Tente conceder permissão para a câmera nas configurações do sistema deste aplicativo</string>
@@ -191,6 +208,8 @@
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">O fabricante do dispositivo pode não fornecer acesso a todas as câmeras, então algumas podem não abrir</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">O fabricante do dispositivo pode não fornecer uma câmera de lente ampla para todas as aplicações</string>
     <string name="prefs_consent_information_privacy_options">Opções de privacidade (informações de consentimento)</string>
+    <string name="prefs_continuous_recording">Gravação contínua</string>
+    <string name="prefs_continuous_recording_desc">Inicia um novo arquivo quando o atual atinge a duração definida. Se desativado, a gravação para ao atingir o limite.</string>
     <string name="prefs_day_night_mode_auto_text">Automático (dia /noite), por hora</string>
     <string name="prefs_day_night_mode_day_text">Dia</string>
     <string name="prefs_day_night_mode_night_text">Noite</string>
@@ -235,10 +254,11 @@
     <string name="prefs_meters_accuracy_value_text">metros de precisão</string>
     <string name="prefs_open_source_notices_text">Avisos de código aberto</string>
     <string name="prefs_optical_zoom_text">Zoom óptico (zoom) /distância focal</string>
-    <string name="prefs_orientation_landscape">Paisagem</string>
-    <string name="prefs_orientation_landscape_reversed">Reverso do álbum</string>
-    <string name="prefs_orientation_portrait">Retrato</string>
-    <string name="prefs_orientation_sensor_automatic">Automático</string>
+    <string name="prefs_orientation_landscape">Orientação horizontal</string>
+    <string name="prefs_orientation_landscape_reversed">orientação paisagem invertida</string>
+    <string name="prefs_orientation_portrait">Orientação vertical</string>
+    <string name="prefs_orientation_sensor_automatic">Orientação automática (rotação automática)</string>
+    <string name="prefs_orientation_system_orientation">Utilize a orientação do sistema.</string>
     <string name="prefs_other_auto_deleting_sum_text">Exclua automaticamente os vídeos mais antigos durante a gravação, se não houver espaço suficiente para novos vídeos</string>
     <string name="prefs_other_auto_deleting_text">Gravação de loop</string>
     <string name="prefs_other_backup_records_tip">Para fazer backup de suas gravações, instale aplicativos como o Google Fotos. Encontre as pastas de gravação nesses aplicativos e habilite a opção de backup para elas (clique no texto para ver um exemplo).</string>
@@ -394,6 +414,7 @@
     <string name="prefs_version_text">Versão do aplicativo</string>
     <string name="prefs_vibrate_rec_start_stop_text">Vibração ao iniciar ou parar a gravação</string>
     <string name="prefs_vibration_strength">Força de vibração</string>
+    <string name="prefs_video_angle_text">Ângulo de orientação dos quadros de vídeo.</string>
     <string name="prefs_video_bitrate_text">Taxa de bits (qualidade)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Modo de cena de controle da câmera (noite)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Modo de cena de controle da câmera (dia)</string>
@@ -413,8 +434,10 @@
     <string name="prefs_video_exposure_auto_mode_text">Modo de exposição automática</string>
     <string name="prefs_video_exposure_night_text">Compensação de exposição (noite)</string>
     <string name="prefs_video_exposure_text">Compensação de exposição (dia)</string>
-    <string name="prefs_video_flip_x_sum_text">Espelhamento horizontal de vídeo. A imagem muda apenas para gravação de vídeo, a visualização não muda</string>
-    <string name="prefs_video_flip_x_text">Virar o vídeo horizontalmente</string>
+    <string name="prefs_video_flip_angle_explanation_desc">Isso se aplica apenas à gravação de vídeo e não altera a pré-visualização da câmera.</string>
+    <string name="prefs_video_flip_angle_explanation_title">Correções para casos em que os vídeos estão invertidos ou com o ângulo de orientação incorreto.</string>
+    <string name="prefs_video_flip_x_text">Reflexão horizontal dos quadros de vídeo.</string>
+    <string name="prefs_video_flip_y_text">Reflexão vertical dos quadros de vídeo.</string>
     <string name="prefs_video_focus_continuous_picture_text">Imagem contínua</string>
     <string name="prefs_video_focus_continuous_video_text">Vídeo contínuo (recomendado durante o dia)</string>
     <string name="prefs_video_focus_infinity_text">Infinity (recomendado à noite)</string>
@@ -444,7 +467,7 @@
     <string name="prefs_zoom_text">Zoom digital (zoom)</string>
     <string name="purchase_did_make_it_previously">Você já fez alguma compra antes?</string>
     <string name="rec_audio_silence_text">No momento, a gravação de áudio não é possível porque o microfone é interceptado por outro aplicativo</string>
-    <string name="rec_available_space_text">Disponível</string>
+    <string name="rec_available_space_text">Espaço disponível</string>
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">Corrigir</string>
     <string name="rec_fix_text">Corrigir</string>
@@ -511,6 +534,7 @@
     <string name="subscription_status_subscribed_short">Inscrito</string>
     <string name="subscription_subscribe_text">Inscrever-se</string>
     <string name="subscription_with_free_trial">Com teste gratuito</string>
+    <string name="tap_to_allow_background_recording">Toque para permitir a gravação de vídeo em segundo plano.</string>
     <string name="timer_auto_start">Cronômetro</string>
     <string name="timer_auto_start_dlg_type_title">Defina um cronômetro para iniciar a gravação</string>
     <string name="timer_auto_start_every_day_text">Diariamente</string>

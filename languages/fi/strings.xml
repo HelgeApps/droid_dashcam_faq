@@ -1,5 +1,6 @@
 <resources>
     <string name="accept_text">hyväksyn</string>
+    <string name="allow_background_activity_on_some_devices">Alla on esimerkkejä siitä, miten taustatoiminta voidaan sallia joillakin laitteilla:</string>
     <string name="any_text">Minkä tahansa</string>
     <string name="app_alternative_name_audio">Audio</string>
     <string name="app_alternative_name_battery">Akun asetukset</string>
@@ -8,6 +9,16 @@
     <string name="app_alternative_name_video">Video</string>
     <string name="app_name_backgroundvideorecorder">Taustavideotallennus</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - Ajo-DVR</string>
+    <string name="background_recording_allow_autostart">Napsauta tästä salliaksesi sovelluksen käynnistymisen automaattisesti taustalla (jos sitä ei ole jo sallittu).</string>
+    <string name="background_recording_realme_allow_background_activity">5. Ota käyttöön vaihtoehdot \"Salli etualan toiminta\" ja \"Salli taustatoiminnan\".</string>
+    <string name="background_recording_realme_app_battery_management">4. Avaa \"Sovelluksen akun hallinta\" -näyttö ja valitse sovellus.</string>
+    <string name="background_recording_realme_more_settings">2. Avaa \"Lisää asetuksia\" (tai \"Virransäästöasetukset\") ja avaa sitten sekä \"Sovellusten akun hallinta\" että \"Optimoi akun käyttö\".</string>
+    <string name="background_recording_realme_optimize_battery_use">3. Valitse sovellus \"Optimoi akun käyttö\" -näytössä ja valitse ponnahdusikkunasta \"Älä optimoi\".</string>
+    <string name="background_recording_realme_system_settings_battery">1. Avaa Järjestelmäasetukset → Akku</string>
+    <string name="background_recording_realme_title">Jotta taustavideon tallennus pysyisi vakaana Oppo (Realme) -laitteissa, salli etualan toiminta, salli taustatoiminta, aseta akun tilaksi \"Älä optimoi\" ja salli automaattinen käynnistys, jos puhelimessa on tämä vaihtoehto.</string>
+    <string name="background_restrictions_explain_how_to_disable">Tälle sovellukselle on asetettu akun taustarajoituksia, jotka saattavat aiheuttaa ongelmia videon tallentamisessa taustalla. Poista käytöstä kaikki akun optimoinnit tai taustarajoitukset tälle sovellukselle.\n\nVoit kokeilla löytää näitä asetuksia kohdasta \"Sovellustiedot\" → \"Akku\" tai laitteesi järjestelmäasetuksista. Aseta akun optimointi asetukseksi \"Rajoittamaton\" (tai \"Älä optimoi\") tälle sovellukselle ja salli etualan ja taustan toiminta. Näiden asetusten tarkka sijainti voi vaihdella laitteen valmistajan mukaan.</string>
+    <string name="background_restrictions_msg_text">Poista sovelluksen taustarajoitukset käytöstä varmistaaksesi vakaan videotallennuksen.</string>
+    <string name="background_restrictions_text">Taustasovellusten työn rajoittaminen</string>
     <string name="camera">Kamera</string>
     <string name="camera_aperture">Kalvo</string>
     <string name="camera_back">Takakamera</string>
@@ -30,6 +41,7 @@
     <string name="close">kiinni</string>
     <string name="days">päivää</string>
     <string name="default_text">Oletus</string>
+    <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">Tarkemmat ohjeet akun optimoinnin poistamiseksi käytöstä ja sovelluksen taustatoiminnan sallimiseksi:</string>
     <string name="dialog_camera_not_found_msg_text">Tässä laitteessa ei ole sisäänrakennettua kameraa, eikä se tue ulkoisia kameroita. Suljetaan…</string>
     <string name="dialog_camera_not_found_text">Kameraa ei löydy</string>
     <string name="dialog_go_to_settings_text">Avaa asetukset</string>
@@ -41,13 +53,10 @@
     <string name="donate_disable_ads_text">Lahjoitus, poista mainokset</string>
     <string name="donate_success_thanks_msg_text">Kiitos paljon tuestasi!</string>
     <string name="donate_text">Lahjoitus</string>
-    <string name="donation_any_amount_text">ei mainoksia millään summalla</string>
-    <string name="donation_dlg_has_ads_text">Mainosten poistamiseksi lahjoituksen on oltava vähintään.</string>
-    <string name="donation_dlg_limited_ads_message_text">Pienemmillä lahjoituksilla mainonta poistetaan vain päänäytöltä</string>
     <string name="donation_dlg_no_ads_text">Sinulla ei ole mainoksia.</string>
     <string name="donation_level_text">Lahjoitustasosi:</string>
     <string name="donation_purchase_info_loading_text">Ostostietoja ei ole vielä ladattu. Oletko online-tilassa ja kirjautunut Google-tilillesi?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Jos olet jo tehnyt ostoksen, voit palauttaa sen tyhjentämällä ensin Google Play Kaupan tiedot ja välimuistin. Poista sitten sovelluksen asennus, avaa Google Play Kauppa, valitse oikea Google-tili, jolla teit ostoksen, ja asenna sovellus uudelleen.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Jos olet jo tehnyt ostoksen, mutta sitä ei palautettu automaattisesti, tyhjennä ensin Google Play Kaupan tiedot ja välimuisti. Poista sitten sovelluksen asennus, avaa Google Play Kauppa, valitse oikea Google-tili, jolla teit ostoksen, ja asenna sovellus uudelleen.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">Jos olet jo tehnyt lahjoituksen, asenna sovellus uudelleen Samsung Galaxy Storeen, kun olet valinnut oikean tilin ostosten palauttamiseksi.</string>
     <string name="donation_remove_ads_by_any_amount_text">Poista mainokset ikuisesti minkä tahansa summan kertaluonteisella lahjoituksella.</string>
     <string name="donation_remove_ads_by_subscribing_text">Voit myös lahjoittaa kuukausittain mainosten poistamiseen.</string>
@@ -72,6 +81,7 @@
     <string name="hour">tunnin</string>
     <string name="hours">tuntia</string>
     <string name="month">kuukausi</string>
+    <string name="more_info">Lisätietoja:</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Sovellusta ei ole suljettu akun optimoinnin ulkopuolelle. Jos kamera ei ole käynnissä taustalla tai jotain muuta, lisää tämä sovellus virransäästötilan poikkeuksiin.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Jos asensit sovelluksen uudelleen Android 11:een, vanhat tiedostot on poistettava manuaalisesti</string>
     <string name="msg_auto_recording_service_was_stopped">Olet pysäyttänyt taustapalvelun videon tallennusta varten automaattisesti. Avaa sovellus käynnistääksesi sen uudelleen.</string>
@@ -122,6 +132,13 @@
     <string name="notification_service_power_checker">lataaminen</string>
     <string name="notification_stop_text">Lopettaa</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Automaattiseen on/off-tallennukseen</string>
+    <string name="one_time_payment">Kertaluonteinen maksu</string>
+    <string name="one_time_payment_explanation_msg">Tämä on elinikäinen päivitys – ei tilauksia, ei toistuvia maksuja. Maksa kerran ja nauti sovelluksesta täysin ilman mainoksia.</string>
+    <string name="one_time_payment_purchased">Sinulla on premium-versio.\nKiitos tuestasi!</string>
+    <string name="open_app_info_screen">Avaa \"Sovellustiedot\" -näyttö</string>
+    <string name="open_app_info_screen_battery_usage_allow_background_activity">Jos haluat sallia taustavideon tallennuksen, avaa \"Sovellustiedot\"-näyttö, valitse \"Akun käyttö\" ja ota käyttöön \"Salli taustatoiminta\".</string>
+    <string name="open_battery_settings">Avaa akun asetukset</string>
+    <string name="open_system_settings">Avaa järjestelmäasetukset</string>
     <string name="permission_audio_dlg_msg">Ääntä tarvitaan ääniraidan tallentamiseen videota tallennettaessa</string>
     <string name="permission_camera_dlg_msg">Kameraa tarvitaan videon tallentamiseen ja kameran esikatseluun.</string>
     <string name="permission_camera_request_canceled">Tämä sovellus vaatii luvan käyttää kameraa videon tallentamiseen. Mutta sinä hylkäsit sen. Suljetaan… Yritä myöntää kameralle lupa tämän sovelluksen järjestelmäasetuksista</string>
@@ -191,6 +208,8 @@
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Laitteen valmistaja ei välttämättä tarjoa pääsyä kaikkiin kameroihin, joten jotkut eivät välttämättä avaudu</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Laitteen valmistaja ei välttämättä tarjoa laajalinsistä kameraa kaikkiin sovelluksiin</string>
     <string name="prefs_consent_information_privacy_options">Tietosuojavaihtoehdot (suostumustiedot)</string>
+    <string name="prefs_continuous_recording">Jatkuva tallennus</string>
+    <string name="prefs_continuous_recording_desc">Aloittaa uuden tiedoston, kun nykyinen tiedosto saavuttaa asetetun keston. Jos tämä ei ole käytössä, tallennus pysähtyy rajan kohdalla.</string>
     <string name="prefs_day_night_mode_auto_text">Automaattinen (päivä/yö), ajan mukaan</string>
     <string name="prefs_day_night_mode_day_text">Päivä</string>
     <string name="prefs_day_night_mode_night_text">Yö</string>
@@ -235,10 +254,11 @@
     <string name="prefs_meters_accuracy_value_text">metrin tarkkuudella</string>
     <string name="prefs_open_source_notices_text">Avoimen lähdekoodin ilmoitukset</string>
     <string name="prefs_optical_zoom_text">Optinen zoom (zoom) /polttoväli</string>
-    <string name="prefs_orientation_landscape">Maisema</string>
-    <string name="prefs_orientation_landscape_reversed">Albumin käänteinen</string>
-    <string name="prefs_orientation_portrait">Muotokuva</string>
-    <string name="prefs_orientation_sensor_automatic">Automaattinen</string>
+    <string name="prefs_orientation_landscape">Vaakasuunta</string>
+    <string name="prefs_orientation_landscape_reversed">Käänteinen vaakasuunta</string>
+    <string name="prefs_orientation_portrait">Pystysuunta</string>
+    <string name="prefs_orientation_sensor_automatic">Automaattinen suuntaus (automaattinen kierto)</string>
+    <string name="prefs_orientation_system_orientation">Käytä järjestelmän suuntaa</string>
     <string name="prefs_other_auto_deleting_sum_text">Poista vanhimmat videot automaattisesti tallennuksen aikana, jos tilaa ei ole tarpeeksi uusille videoille</string>
     <string name="prefs_other_auto_deleting_text">Loop-tallennus</string>
     <string name="prefs_other_backup_records_tip">Varmuuskopioi tallenneesi asentamalla sovelluksia, kuten Google Kuvat. Etsi tallennuskansiot näistä sovelluksista ja ota varmuuskopiointi käyttöön niille (klikkaa tekstiä nähdäksesi esimerkin).</string>
@@ -394,6 +414,7 @@
     <string name="prefs_version_text">Sovellusversio</string>
     <string name="prefs_vibrate_rec_start_stop_text">Värinä nauhoituksen alkaessa tai lopettaessa</string>
     <string name="prefs_vibration_strength">Tärinän voimakkuus</string>
+    <string name="prefs_video_angle_text">Videoruutujen suuntauskulma.</string>
     <string name="prefs_video_bitrate_text">Bittinopeus (laatu)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kameran ohjausohjelma (yö)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kameran ohjausohjelma (päivä)</string>
@@ -413,8 +434,10 @@
     <string name="prefs_video_exposure_auto_mode_text">Automaattinen valotustila</string>
     <string name="prefs_video_exposure_night_text">Valotuskompensaatio (yö)</string>
     <string name="prefs_video_exposure_text">Valotuskorvaus (päivä)</string>
-    <string name="prefs_video_flip_x_sum_text">Videon vaakasuora peilaus. Kuva muuttuu vain videotallennettaessa, esikatselu ei muutu</string>
-    <string name="prefs_video_flip_x_text">Käännä video vaakasuunnassa</string>
+    <string name="prefs_video_flip_angle_explanation_desc">Tämä koskee vain videotallennusta eikä muuta kameran esikatselua.</string>
+    <string name="prefs_video_flip_angle_explanation_title">Korjauksia tapauksiin, joissa videot käännetään ympäri tai niillä on väärä suuntauskulma.</string>
+    <string name="prefs_video_flip_x_text">Videoruutujen vaakasuora heijastus.</string>
+    <string name="prefs_video_flip_y_text">Videoruutujen pystysuora heijastus.</string>
     <string name="prefs_video_focus_continuous_picture_text">Jatkuva kuva</string>
     <string name="prefs_video_focus_continuous_video_text">Jatkuva video (suositus päiväsaikaan)</string>
     <string name="prefs_video_focus_infinity_text">Infinity (suositus yöllä)</string>
@@ -444,7 +467,7 @@
     <string name="prefs_zoom_text">Digitaalinen zoom (zoom)</string>
     <string name="purchase_did_make_it_previously">Oletko tehnyt ostoksen aiemmin?</string>
     <string name="rec_audio_silence_text">Tällä hetkellä äänen tallennus ei ole mahdollista, koska toinen sovellus sieppaa mikrofonin</string>
-    <string name="rec_available_space_text">Saatavilla</string>
+    <string name="rec_available_space_text">Vapaata tilaa</string>
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">Korjata</string>
     <string name="rec_fix_text">Korjata</string>
@@ -511,6 +534,7 @@
     <string name="subscription_status_subscribed_short">Tilattu</string>
     <string name="subscription_subscribe_text">Tilaa</string>
     <string name="subscription_with_free_trial">Ilmaisella kokeilujaksolla</string>
+    <string name="tap_to_allow_background_recording">Napauta salliaksesi taustavideon tallennuksen.</string>
     <string name="timer_auto_start">Ajastin</string>
     <string name="timer_auto_start_dlg_type_title">Aseta ajastin aloittaaksesi tallennuksen</string>
     <string name="timer_auto_start_every_day_text">Joka päivä</string>

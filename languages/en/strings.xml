@@ -15,8 +15,9 @@
             11) /
         characters that start with % are used to supply numbers or texts when the program is running
     -->
-    <!-- it's about storage space, use "available" word for translation! -->
+    <!-- If it's about storage space, use the word "available" in the translation to avoid confusion with "free." -->
     <string name="accept_text">I accept</string>
+    <string name="allow_background_activity_on_some_devices">Below are examples of how to allow background activity on some devices:</string>
     <string name="any_text">Any</string>
     <string name="app_alternative_name_audio">Audio</string>
     <string name="app_alternative_name_battery">Battery Settings</string>
@@ -25,6 +26,16 @@
     <string name="app_alternative_name_video">Video</string>
     <string name="app_name_backgroundvideorecorder">Background Video Recorder</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - Driving video recorder</string>
+    <string name="background_recording_allow_autostart">Click here to allow the app to auto-start in the background (if not already allowed).</string>
+    <string name="background_recording_realme_allow_background_activity">5. Turn on \"Allow foreground activity\" and \"Allow background activity\" toggles.</string>
+    <string name="background_recording_realme_app_battery_management">4. Open \"App battery management\" screen and choose the app.</string>
+    <string name="background_recording_realme_more_settings">2. Open \"More settings\" (or \"Power saving settings\"), then open both \"App battery management\" and \"Optimize battery use\".</string>
+    <string name="background_recording_realme_optimize_battery_use">3. In \"Optimize battery use\" screen, select the app and choose \"Don\'t optimize\" in the popup.</string>
+    <string name="background_recording_realme_system_settings_battery">1. Open System Settings → Battery</string>
+    <string name="background_recording_realme_title">To keep background video recording stable on Oppo (realme) devices, allow foreground activity, allow background activity, set battery mode to \"Don\'t optimize\", and allow auto-launch if the phone provides that option.</string>
+    <string name="background_restrictions_explain_how_to_disable">There are battery background restrictions set for this app that may cause problem with video recording in the background. Please disable any battery optimizations or background restrictions for this app.\nYou can try find such options at \"App info\" → \"Battery\" screen or in your device system settings. Set battery optimization to \"Unrestricted\" (or \"Don\'t optimize\") for this app, allow foreground and background activity. The exact location of such options may vary depending on your device manufacturer.</string>
+    <string name="background_restrictions_msg_text">Please disable background restrictions for the app to ensure stable video recording.</string>
+    <string name="background_restrictions_text">Background restrictions</string>
     <string name="camera">Camera</string>
     <string name="camera_aperture">Aperture</string>
     <string name="camera_back">Back Camera</string>
@@ -47,6 +58,7 @@
     <string name="close">Close</string>
     <string name="days">days</string>
     <string name="default_text">Default</string>
+    <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">More detailed instructions to disable battery optimization and allow background activity for the app:</string>
     <string name="dialog_camera_not_found_msg_text">This device doesn\'t have built-in camera and doesn\'t support external cameras. Closing…</string>
     <string name="dialog_camera_not_found_text">No camera found</string>
     <string name="dialog_go_to_settings_text">Go to Settings</string>
@@ -58,13 +70,10 @@
     <string name="donate_disable_ads_text">Donate, Disable ads</string>
     <string name="donate_success_thanks_msg_text">Thank you so much for support!</string>
     <string name="donate_text">Donate</string>
-    <string name="donation_any_amount_text">no advertising for any amount</string>
-    <string name="donation_dlg_has_ads_text">If you want ad-free app the donation has to be or more</string>
-    <string name="donation_dlg_limited_ads_message_text">For smaller donations, advertising is removed only on the main screen</string>
     <string name="donation_dlg_no_ads_text">You are free from ads.</string>
     <string name="donation_level_text">Your donation level:</string>
     <string name="donation_purchase_info_loading_text">Purchases info is not loaded yet. Is network connection available and is signed in Google account?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">If you\'ve already made a purchase, to restore it, please first clear data and cache of the Google Play Store. Then, uninstall the app, open the Google Play Store, select the correct Google account used to make the purchase, and reinstall the app.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">If you\'ve already made a purchase, but it wasn\'t automatically restored, please first clear data and cache of the Google Play Store. Then, uninstall the app, open the Google Play Store, select the correct Google account used to make the purchase, and reinstall the app.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">If you have already made a donation, then to restore purchases, please reinstall the application in Samsung Galaxy Store after selecting the correct account</string>
     <string name="donation_remove_ads_by_any_amount_text">Remove ads forever with a one-time donation of any amount.</string>
     <string name="donation_remove_ads_by_subscribing_text">You can also donate monthly to remove ads.</string>
@@ -89,6 +98,7 @@
     <string name="hour">hour</string>
     <string name="hours">hours</string>
     <string name="month">month</string>
+    <string name="more_info">More info:</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">The application is not excluded from battery optimization. If the camera is not running in the background or something else, then add this application to the exceptions of the power saving mode.</string>
     <string name="msg_android_r_deleting_manual_tip_text">If you reinstalled App on Android 11, then the old files must be deleted manually</string>
     <string name="msg_auto_recording_service_was_stopped">You have stopped the background service (AutoStart) used for automatic video recording. Open the app to restart it.</string>
@@ -139,6 +149,13 @@
     <string name="notification_service_power_checker">Charging</string>
     <string name="notification_stop_text">Stop</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">To auto start/stop recording</string>
+    <string name="one_time_payment">One-time payment</string>
+    <string name="one_time_payment_explanation_msg">This is a lifetime upgrade — no subscriptions, no recurring fees. Pay once and enjoy the app completely ad-free.</string>
+    <string name="one_time_payment_purchased">You have premium version.\nThanks for your support!</string>
+    <string name="open_app_info_screen">Open \"App info\" screen</string>
+    <string name="open_app_info_screen_battery_usage_allow_background_activity">To allow background video recording open \"App info\" screen, select \"Battery usage\", and enable \"Allow background activity\".</string>
+    <string name="open_battery_settings">Open Battery settings</string>
+    <string name="open_system_settings">Open System Settings</string>
     <string name="permission_audio_dlg_msg">Audio permission is needed for adding audio during video recording</string>
     <string name="permission_camera_dlg_msg">Camera permission is needed for video recording and camera preview</string>
     <string name="permission_camera_request_canceled">This app needs permission for Camera for video recording. But you have declined it. Closing… Try to give Camera permission in System Settings for this app</string>
@@ -208,6 +225,8 @@
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">The device manufacturer may not provide access to all cameras, so some may not open</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">The device manufacturer may not provide a wide lens camera for all apps</string>
     <string name="prefs_consent_information_privacy_options">Privacy options (Consent information)</string>
+    <string name="prefs_continuous_recording">Continuous recording</string>
+    <string name="prefs_continuous_recording_desc">Starts a new file when the current one reaches the set duration. If disabled, recording stops at the limit.</string>
     <string name="prefs_day_night_mode_auto_text">Auto (Day/Night), based on time</string>
     <string name="prefs_day_night_mode_day_text">Day</string>
     <string name="prefs_day_night_mode_night_text">Night</string>
@@ -252,10 +271,11 @@
     <string name="prefs_meters_accuracy_value_text">meters of accuracy</string>
     <string name="prefs_open_source_notices_text">Open source notices</string>
     <string name="prefs_optical_zoom_text">Optical zoom (Focal length)</string>
-    <string name="prefs_orientation_landscape">Landscape</string>
-    <string name="prefs_orientation_landscape_reversed">Reverse Landscape</string>
-    <string name="prefs_orientation_portrait">Portrait</string>
-    <string name="prefs_orientation_sensor_automatic">Automatic</string>
+    <string name="prefs_orientation_landscape">Landscape orientation</string>
+    <string name="prefs_orientation_landscape_reversed">Reverse landscape orientation</string>
+    <string name="prefs_orientation_portrait">Portrait orientation</string>
+    <string name="prefs_orientation_sensor_automatic">Automatic orientation (auto-rotate)</string>
+    <string name="prefs_orientation_system_orientation">Use system orientation</string>
     <string name="prefs_other_auto_deleting_sum_text">Automatically delete oldest videos during recording if there is not enough space for new videos</string>
     <string name="prefs_other_auto_deleting_text">Loop recording</string>
     <string name="prefs_other_backup_records_tip">To back up your recordings, install apps like Google Photos. Find the folders with your recordings in these apps and enable the backup option for them (click on the text to see an example).</string>
@@ -411,6 +431,7 @@
     <string name="prefs_version_text">App version</string>
     <string name="prefs_vibrate_rec_start_stop_text">Vibration when starting or stopping recording</string>
     <string name="prefs_vibration_strength">Vibration strength</string>
+    <string name="prefs_video_angle_text">Orientation angle of video frames.</string>
     <string name="prefs_video_bitrate_text">Recording bitrate (quality)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Camera Control Scene Mode (Night)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Camera Control Scene Mode (Day)</string>
@@ -430,8 +451,10 @@
     <string name="prefs_video_exposure_auto_mode_text">Auto exposure mode</string>
     <string name="prefs_video_exposure_night_text">Exposure compensation (Night)</string>
     <string name="prefs_video_exposure_text">Exposure compensation (Day)</string>
-    <string name="prefs_video_flip_x_sum_text">Horizontally flip of video frames. Only for video recording, it doesn\'t change preview</string>
-    <string name="prefs_video_flip_x_text">Reversed video (mirroring)</string>
+    <string name="prefs_video_flip_angle_explanation_desc">This only applies to video recording and does not change the camera preview.</string>
+    <string name="prefs_video_flip_angle_explanation_title">Fixes for cases where videos are flipped or have the wrong orientation angle.</string>
+    <string name="prefs_video_flip_x_text">Horizontal reflection of video frames.</string>
+    <string name="prefs_video_flip_y_text">Vertical reflection of video frames.</string>
     <string name="prefs_video_focus_continuous_picture_text">Continuous Picture</string>
     <string name="prefs_video_focus_continuous_video_text">Continuous Video (Recommended at Day)</string>
     <string name="prefs_video_focus_infinity_text">Infinity (Recommended at Night)</string>
@@ -487,8 +510,8 @@
     <string name="recording_stop_not_enough_space_msg">Not enough space. Available space is</string>
     <string name="recording_stop_short_text">Stop</string>
     <string name="recording_stop_text">Stop Recording</string>
-    <string name="recording_stopped_failed_text">Failed to finish recording</string>
-    <string name="recording_stopped_text">Recording stopped </string>
+    <string name="recording_stopped_failed_text">Failed to finish recording.</string>
+    <string name="recording_stopped_text">Recording stopped.</string>
     <string name="recording_text">Recording…</string>
     <string name="records_file_edit_trim_crop">Edit (Trim) in \"Google Photos\"</string>
     <string name="records_file_sorting_date">Date</string>
@@ -528,6 +551,7 @@
     <string name="subscription_status_subscribed_short">Subscribed</string>
     <string name="subscription_subscribe_text">Subscribe</string>
     <string name="subscription_with_free_trial">With free trial</string>
+    <string name="tap_to_allow_background_recording">Tap to allow background video recording.</string>
     <string name="timer_auto_start">Timer</string>
     <string name="timer_auto_start_dlg_type_title">Set a timer to start recording</string>
     <string name="timer_auto_start_every_day_text">Every day</string>

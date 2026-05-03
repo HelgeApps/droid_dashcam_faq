@@ -1,5 +1,6 @@
 <resources>
     <string name="accept_text">onartzen dut</string>
+    <string name="allow_background_activity_on_some_devices">Jarraian, zenbait gailutan atzeko planoan jardutea nola baimendu erakusten duten adibideak daude:</string>
     <string name="any_text">Edozein</string>
     <string name="app_alternative_name_audio">Audioa</string>
     <string name="app_alternative_name_battery">Bateria ezarpenak</string>
@@ -8,6 +9,16 @@
     <string name="app_alternative_name_video">Bideoa</string>
     <string name="app_name_backgroundvideorecorder">Atzeko planoko bideo-grabaketa</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - DVR gidatzea</string>
+    <string name="background_recording_allow_autostart">Egin klik hemen aplikazioari atzeko planoan automatikoki abiarazteko baimena emateko (oraindik baimenduta ez badago).</string>
+    <string name="background_recording_realme_allow_background_activity">5. Aktibatu \"Aurreko planoko jarduera baimendu\" eta \"Atzeko planoko jarduera baimendu\" etengailuak.</string>
+    <string name="background_recording_realme_app_battery_management">4. Ireki \"Aplikazioaren bateriaren kudeaketa\" pantaila eta aukeratu aplikazioa.</string>
+    <string name="background_recording_realme_more_settings">2. Ireki \"Ezarpen gehiago\" (edo \"Energia aurrezteko ezarpenak\"), eta ondoren ireki \"Aplikazioen bateriaren kudeaketa\" eta \"Bateriaren erabilera optimizatu\" biak.</string>
+    <string name="background_recording_realme_optimize_battery_use">3. \"Bateriaren erabilera optimizatu\" pantailan, hautatu aplikazioa eta aukeratu \"Ez optimizatu\" leiho gainerakorrean.</string>
+    <string name="background_recording_realme_system_settings_battery">1. Ireki Sistemaren Ezarpenak → Bateria</string>
+    <string name="background_recording_realme_title">Oppo (realme) gailuetan atzeko planoan bideo-grabaketa egonkor mantentzeko, baimendu aurreko planoko jarduera, baimendu atzeko planoko jarduera, ezarri bateriaren modua \"Ez optimizatu\" aukeran eta baimendu abiaraztea automatikoki telefonoak aukera hori eskaintzen badu.</string>
+    <string name="background_restrictions_explain_how_to_disable">Aplikazio honetarako bateriaren atzeko planoan dauden murrizketak ezarrita daude, eta horrek arazoak sor ditzake atzeko planoan bideoak grabatzean. Desgaitu aplikazio honetarako bateriaren optimizazioak edo atzeko planoan dauden murrizketak.\nAukera horiek \"Aplikazioaren informazioa\" → \"Bateria\" pantailan edo gailuaren sistemaren ezarpenetan aurki ditzakezu. Ezarri bateriaren optimizazioa \"Mugagabea\" gisa (edo \"Ez optimizatu\") aplikazio honetarako, baimendu aurreko planoko eta atzeko planoko jarduera. Aukera horien kokapen zehatza alda daiteke gailuaren fabrikatzailearen arabera.</string>
+    <string name="background_restrictions_msg_text">Bideo-grabaketa egonkorra bermatzeko, desgaitu aplikazioaren atzeko planoaren murrizketak.</string>
+    <string name="background_restrictions_text">Aplikazioen atzeko planoan lan egitea mugatzea</string>
     <string name="camera">Kamera</string>
     <string name="camera_aperture">Diafragma</string>
     <string name="camera_back">Atzeko kamera</string>
@@ -30,6 +41,7 @@
     <string name="close">Itxi</string>
     <string name="days">egunak</string>
     <string name="default_text">Lehenetsia</string>
+    <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">Bateriaren optimizazioa desgaitzeko eta aplikazioaren atzeko planoan jarduera baimentzeko argibide zehatzagoak:</string>
     <string name="dialog_camera_not_found_msg_text">Gailu honek ez du kamera integraturik eta ez du kanpoko kamerarik onartzen. Itxiera…</string>
     <string name="dialog_camera_not_found_text">Ez da kamera aurkitu</string>
     <string name="dialog_go_to_settings_text">Ireki ezarpenak</string>
@@ -41,13 +53,10 @@
     <string name="donate_disable_ads_text">Dohaintza, iragarkiak kendu</string>
     <string name="donate_success_thanks_msg_text">Mila esker zure laguntzagatik!</string>
     <string name="donate_text">Dohaintza</string>
-    <string name="donation_any_amount_text">inolako publizitaterik ez</string>
-    <string name="donation_dlg_has_ads_text">Iragarkiak kentzeko, dohaintzak edo gehiago izan behar du.</string>
-    <string name="donation_dlg_limited_ads_message_text">Dohaintza txikiagoetarako, publizitatea pantaila nagusian soilik kentzen da</string>
     <string name="donation_dlg_no_ads_text">Ez duzu iragarkirik.</string>
     <string name="donation_level_text">Zure dohaintza maila:</string>
     <string name="donation_purchase_info_loading_text">Erosketa-informazioa oraindik ez da kargatu. Sarean al zaude eta zure Google kontuan saioa hasi duzu?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Erosketa bat egin baduzu, leheneratzeko, garbitu lehenik Google Play Store datuak eta cachea. Ondoren, desinstalatu aplikazioa, ireki Google Play Store, hautatu erosketa egiteko erabilitako Google kontu zuzena eta instalatu berriro aplikazioa.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Erosketa bat egin baduzu, baina ez bada automatikoki leheneratu, lehenik garbitu Google Play Store datuak eta cachea. Ondoren, desinstalatu aplikazioa, ireki Google Play Store, hautatu erosketa egiteko erabilitako Google kontu zuzena eta instalatu berriro aplikazioa.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">Dagoeneko dohaintza bat egin baduzu, erosketak leheneratzeko, mesedez berriro instalatu aplikazioa Samsung Galaxy dendan, kontu zuzena hautatu ondoren.</string>
     <string name="donation_remove_ads_by_any_amount_text">Kendu iragarkiak betiko edozein zenbatekoaren dohaintza batekin.</string>
     <string name="donation_remove_ads_by_subscribing_text">Hilero ere eman dezakezu iragarkiak kentzeko.</string>
@@ -72,6 +81,7 @@
     <string name="hour">ordua</string>
     <string name="hours">orduak</string>
     <string name="month">hilabetea</string>
+    <string name="more_info">Informazio gehiago:</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Aplikazioa ez dago bateriaren optimizaziotik kanpo. Kamera atzeko planoan edo beste zerbait ez bada exekutatzen, gehitu aplikazio hau energia aurrezteko moduaren salbuespenetara.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Aplikazioa Android 11n berriro instalatu baduzu, fitxategi zaharrak eskuz ezabatu behar dira</string>
     <string name="msg_auto_recording_service_was_stopped">Atzeko planoko zerbitzua gelditu duzu bideoa grabatzen automatikoki hasteko. Ireki aplikazioa berriro abiarazteko.</string>
@@ -122,6 +132,13 @@
     <string name="notification_service_power_checker">kargatzen</string>
     <string name="notification_stop_text">Gelditu</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Grabaketa automatikoa pizteko /itzaltzeko</string>
+    <string name="one_time_payment">Ordainketa bakarra</string>
+    <string name="one_time_payment_explanation_msg">Hau bizitza osorako bertsio-berritzea da — ez harpidetzarik, ez kuota errepikakorrik. Ordaindu behin eta gozatu aplikazioaz iragarkirik gabe.</string>
+    <string name="one_time_payment_purchased">Premium bertsioa duzu.\nEskerrik asko zure laguntzagatik!</string>
+    <string name="open_app_info_screen">Ireki \"Aplikazioaren informazioa\" pantaila</string>
+    <string name="open_app_info_screen_battery_usage_allow_background_activity">Atzeko planoan bideoa grabatzea baimentzeko, ireki \"Aplikazioaren informazioa\" pantaila, hautatu \"Bateriaren erabilera\" eta gaitu \"Atzeko planoan jarduera baimendu\".</string>
+    <string name="open_battery_settings">Ireki bateriaren ezarpenak</string>
+    <string name="open_system_settings">Ireki Sistemaren Ezarpenak</string>
     <string name="permission_audio_dlg_msg">Audioa beharrezkoa da audio-pista bat grabatzeko bideoa grabatzerakoan</string>
     <string name="permission_camera_dlg_msg">Kamera beharrezkoa da bideoa grabatzeko eta kameraren aurrebista egiteko.</string>
     <string name="permission_camera_request_canceled">Aplikazio honek kamera erabiltzeko baimena behar du bideoak grabatzeko. Baina uko egin diozu. Itxi egiten… Saiatu kamerari baimena ematen aplikazio honen sistemaren ezarpenetan</string>
@@ -191,6 +208,8 @@
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Baliteke gailuaren fabrikatzaileak kamera guztietarako sarbidea ez ematea; beraz, baliteke batzuk ez irekitzea</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Baliteke gailuaren fabrikatzaileak ez eskaintzea lente zabaleko kamera bat aplikazio guztietarako</string>
     <string name="prefs_consent_information_privacy_options">Pribatutasun aukerak (baimenaren informazioa)</string>
+    <string name="prefs_continuous_recording">Grabaketa jarraitua</string>
+    <string name="prefs_continuous_recording_desc">Fitxategi berri bat hasten du unekoak ezarritako iraupena betetzen duenean. Desgaituta badago, grabazioa mugan gelditzen da.</string>
     <string name="prefs_day_night_mode_auto_text">Automatikoa (eguna/gaua), orduaren arabera</string>
     <string name="prefs_day_night_mode_day_text">Eguna</string>
     <string name="prefs_day_night_mode_night_text">Gaua</string>
@@ -235,10 +254,11 @@
     <string name="prefs_meters_accuracy_value_text">metroko zehaztasuna</string>
     <string name="prefs_open_source_notices_text">Kode irekiko oharrak</string>
     <string name="prefs_optical_zoom_text">Zoom optikoa (Zoom) /Fokua</string>
-    <string name="prefs_orientation_landscape">Paisaia</string>
-    <string name="prefs_orientation_landscape_reversed">Albumaren alderantziz</string>
-    <string name="prefs_orientation_portrait">Erretratua</string>
-    <string name="prefs_orientation_sensor_automatic">Automatikoa</string>
+    <string name="prefs_orientation_landscape">Paisaia-orientazioa</string>
+    <string name="prefs_orientation_landscape_reversed">Alderantzizko paisaia-orientazioa</string>
+    <string name="prefs_orientation_portrait">Erretratu orientazioa</string>
+    <string name="prefs_orientation_sensor_automatic">Orientazio automatikoa (auto-biratu)</string>
+    <string name="prefs_orientation_system_orientation">Erabili sistemaren orientazioa</string>
     <string name="prefs_other_auto_deleting_sum_text">Ezabatu automatikoki bideo zaharrenak grabatzen ari zaren bitartean bideo berrietarako leku nahikorik ez badago</string>
     <string name="prefs_other_auto_deleting_text">Begizta grabaketa</string>
     <string name="prefs_other_backup_records_tip">Zure grabazioen babeskopiak egiteko, instalatu Google Argazkiak bezalako aplikazioak. Bilatu aplikazio hauetan grabazio-karpetak eta gaitu haien babeskopia aukera (egin klik testuan adibide bat ikusteko).</string>
@@ -394,6 +414,7 @@
     <string name="prefs_version_text">Aplikazioaren bertsioa</string>
     <string name="prefs_vibrate_rec_start_stop_text">Bibrazioa grabazioa hastean edo gelditzean</string>
     <string name="prefs_vibration_strength">Bibrazio-indarra</string>
+    <string name="prefs_video_angle_text">Bideo-fotogramen orientazio-angelua.</string>
     <string name="prefs_video_bitrate_text">Bit-tasa (kalitatea)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kamera kontrolatzeko eszena modua (gaua)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kamera kontrolatzeko eszena modua (eguna)</string>
@@ -413,8 +434,10 @@
     <string name="prefs_video_exposure_auto_mode_text">Esposizio automatikoaren modua</string>
     <string name="prefs_video_exposure_night_text">Esposizioaren konpentsazioa (gauekoa)</string>
     <string name="prefs_video_exposure_text">Esposizioaren konpentsazioa (eguna)</string>
-    <string name="prefs_video_flip_x_sum_text">Bideoaren ispilu horizontala. Irudia bideoa grabatzeko bakarrik aldatzen da, aurrebista ez da aldatzen</string>
-    <string name="prefs_video_flip_x_text">Biratu bideoa horizontalki</string>
+    <string name="prefs_video_flip_angle_explanation_desc">Hau bideo-grabazioari bakarrik aplikatzen zaio eta ez du kameraren aurrebista aldatzen.</string>
+    <string name="prefs_video_flip_angle_explanation_title">Bideoak irauli edo orientazio-angelu okerra duten kasuetarako konponketak.</string>
+    <string name="prefs_video_flip_x_text">Bideo-fotogramen isla horizontala.</string>
+    <string name="prefs_video_flip_y_text">Bideo-fotogramen islapen bertikala.</string>
     <string name="prefs_video_focus_continuous_picture_text">Etengabeko irudia</string>
     <string name="prefs_video_focus_continuous_video_text">Etengabeko bideoa (egunean zehar gomendatua)</string>
     <string name="prefs_video_focus_infinity_text">Infinity (gauez gomendatua)</string>
@@ -444,7 +467,7 @@
     <string name="prefs_zoom_text">Zoom digitala (zoom)</string>
     <string name="purchase_did_make_it_previously">Erosketarik egin al duzu lehenago?</string>
     <string name="rec_audio_silence_text">Momentuz, audioa grabatzea ezinezkoa da beste aplikazio batek mikrofonoa atzematen duelako</string>
-    <string name="rec_available_space_text">Eskuragarri</string>
+    <string name="rec_available_space_text">Leku librea</string>
     <string name="rec_day_night_btn_auto_text">Autoa</string>
     <string name="rec_fix_short_text">Zuzentzeko</string>
     <string name="rec_fix_text">Zuzentzeko</string>
@@ -511,6 +534,7 @@
     <string name="subscription_status_subscribed_short">Harpidetuta</string>
     <string name="subscription_subscribe_text">Harpidetu</string>
     <string name="subscription_with_free_trial">Doako probarekin</string>
+    <string name="tap_to_allow_background_recording">Sakatu atzeko planoan bideoa grabatzeko aukera emateko.</string>
     <string name="timer_auto_start">Tenporizadorea</string>
     <string name="timer_auto_start_dlg_type_title">Ezarri tenporizadorea grabatzen hasteko</string>
     <string name="timer_auto_start_every_day_text">Egunero</string>

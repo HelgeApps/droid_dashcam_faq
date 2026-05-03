@@ -1,5 +1,6 @@
 <resources>
     <string name="accept_text">قبول میکنم</string>
+    <string name="allow_background_activity_on_some_devices">در زیر نمونه‌هایی از نحوه‌ی مجاز کردن فعالیت پس‌زمینه در برخی دستگاه‌ها آمده است:</string>
     <string name="any_text">هر</string>
     <string name="app_alternative_name_audio">سمعی</string>
     <string name="app_alternative_name_battery">تنظیمات باتری</string>
@@ -8,6 +9,16 @@
     <string name="app_alternative_name_video">ویدئو</string>
     <string name="app_name_backgroundvideorecorder">ضبط ویدیو در پس زمینه</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - DVR رانندگی</string>
+    <string name="background_recording_allow_autostart">برای اجازه دادن به برنامه برای شروع خودکار در پس‌زمینه (اگر قبلاً مجاز نیست)، اینجا را کلیک کنید.</string>
+    <string name="background_recording_realme_allow_background_activity">۵. گزینه‌های «فعالیت پیش‌زمینه مجاز» و «فعالیت پس‌زمینه مجاز» را فعال کنید.</string>
+    <string name="background_recording_realme_app_battery_management">۴. صفحه «مدیریت باتری برنامه» را باز کنید و برنامه را انتخاب کنید.</string>
+    <string name="background_recording_realme_more_settings">۲. «تنظیمات بیشتر» (یا «تنظیمات صرفه‌جویی در مصرف برق») را باز کنید، سپس هر دو «مدیریت باتری برنامه» و «بهینه‌سازی مصرف باتری» را باز کنید.</string>
+    <string name="background_recording_realme_optimize_battery_use">۳. در صفحه «بهینه‌سازی مصرف باتری»، برنامه را انتخاب کنید و در پنجره باز شده، گزینه «بهینه‌سازی نشود» را انتخاب کنید.</string>
+    <string name="background_recording_realme_system_settings_battery">۱. تنظیمات سیستم → باتری را باز کنید</string>
+    <string name="background_recording_realme_title">برای پایدار نگه داشتن ضبط ویدیوی پس‌زمینه در دستگاه‌های Oppo (realme)، فعالیت پیش‌زمینه را فعال کنید، فعالیت پس‌زمینه را فعال کنید، حالت باتری را روی «بهینه‌سازی نکنید» تنظیم کنید و در صورت وجود گزینه راه‌اندازی خودکار در تلفن، آن را فعال کنید.</string>
+    <string name="background_restrictions_explain_how_to_disable">محدودیت‌هایی برای باتری در پس‌زمینه برای این برنامه تعیین شده است که ممکن است باعث ایجاد مشکل در ضبط ویدیو در پس‌زمینه شود. لطفاً هرگونه بهینه‌سازی باتری یا محدودیت پس‌زمینه را برای این برنامه غیرفعال کنید.\n\nمی‌توانید چنین گزینه‌هایی را در صفحه «اطلاعات برنامه» → «باتری» یا در تنظیمات سیستم دستگاه خود پیدا کنید. بهینه‌سازی باتری را برای این برنامه روی «بدون محدودیت» (یا «بهینه‌سازی نکنید») تنظیم کنید، فعالیت پیش‌زمینه و پس‌زمینه را مجاز کنید. مکان دقیق چنین گزینه‌هایی ممکن است بسته به سازنده دستگاه شما متفاوت باشد.</string>
+    <string name="background_restrictions_msg_text">لطفاً محدودیت‌های پس‌زمینه را برای برنامه غیرفعال کنید تا ضبط ویدیو پایدار باشد.</string>
+    <string name="background_restrictions_text">محدود کردن کار برنامه‌های پس‌زمینه</string>
     <string name="camera">دوربین</string>
     <string name="camera_aperture">دیافراگم</string>
     <string name="camera_back">دوربین عقب</string>
@@ -30,6 +41,7 @@
     <string name="close">نزدیک</string>
     <string name="days">روزها</string>
     <string name="default_text">پیش فرض</string>
+    <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">دستورالعمل‌های دقیق‌تر برای غیرفعال کردن بهینه‌سازی باتری و اجازه فعالیت در پس‌زمینه برای برنامه:</string>
     <string name="dialog_camera_not_found_msg_text">این دستگاه فاقد دوربین داخلی است و از دوربین های خارجی پشتیبانی نمی کند. بسته شدن…</string>
     <string name="dialog_camera_not_found_text">دوربین پیدا نشد</string>
     <string name="dialog_go_to_settings_text">تنظیمات را باز کنید</string>
@@ -41,13 +53,10 @@
     <string name="donate_disable_ads_text">کمک مالی، حذف تبلیغات</string>
     <string name="donate_success_thanks_msg_text">با تشکر بسیار برای حمایت شما!</string>
     <string name="donate_text">اهداء</string>
-    <string name="donation_any_amount_text">بدون تبلیغات برای هر مبلغی</string>
-    <string name="donation_dlg_has_ads_text">برای حذف تبلیغات، کمک مالی باید یا بیشتر باشد.</string>
-    <string name="donation_dlg_limited_ads_message_text">برای کمک های مالی کوچکتر، تبلیغات فقط در صفحه اصلی حذف می شود</string>
     <string name="donation_dlg_no_ads_text">شما هیچ تبلیغی ندارید</string>
     <string name="donation_level_text">سطح کمک مالی شما:</string>
     <string name="donation_purchase_info_loading_text">اطلاعات خرید هنوز آپلود نشده است. آیا آنلاین هستید و به حساب Google خود وارد شده اید؟</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">اگر قبلاً خریدی انجام داده‌اید، برای بازیابی آن، لطفاً ابتدا داده‌ها و حافظه پنهان فروشگاه گوگل پلی را پاک کنید. سپس، برنامه را حذف کنید، فروشگاه گوگل پلی را باز کنید، حساب گوگل صحیح مورد استفاده برای خرید را انتخاب کنید و برنامه را دوباره نصب کنید.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">اگر قبلاً خریدی انجام داده‌اید، اما به‌طور خودکار بازیابی نشده است، لطفاً ابتدا داده‌ها و حافظه پنهان فروشگاه گوگل پلی را پاک کنید. سپس، برنامه را حذف نصب کنید، فروشگاه گوگل پلی را باز کنید، حساب گوگل صحیح مورد استفاده برای انجام خرید را انتخاب کنید و برنامه را دوباره نصب کنید.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">اگر قبلاً کمک مالی کرده اید، برای بازیابی خریدها، لطفاً پس از انتخاب حساب صحیح، برنامه را در فروشگاه گلکسی سامسونگ دوباره نصب کنید.</string>
     <string name="donation_remove_ads_by_any_amount_text">تبلیغات را برای همیشه با کمک یکباره هر مبلغی حذف کنید.</string>
     <string name="donation_remove_ads_by_subscribing_text">همچنین می توانید برای حذف تبلیغات ماهانه کمک مالی کنید.</string>
@@ -72,6 +81,7 @@
     <string name="hour">ساعت</string>
     <string name="hours">ساعت ها</string>
     <string name="month">ماه</string>
+    <string name="more_info">اطلاعات بیشتر:</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">این برنامه از بهینه سازی باتری مستثنی نیست. اگر دوربین در پس‌زمینه اجرا نمی‌شود یا چیز دیگری، این برنامه را به استثناهای حالت ذخیره انرژی اضافه کنید.</string>
     <string name="msg_android_r_deleting_manual_tip_text">اگر برنامه را دوباره روی اندروید 11 نصب کردید، فایل های قدیمی باید به صورت دستی پاک شوند</string>
     <string name="msg_auto_recording_service_was_stopped">شما سرویس پس زمینه را برای شروع خودکار ضبط ویدیو متوقف کرده اید. برنامه را باز کنید تا دوباره راه اندازی شود.</string>
@@ -122,6 +132,13 @@
     <string name="notification_service_power_checker">شارژ کردن</string>
     <string name="notification_stop_text">متوقف کردن</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">برای ضبط خودکار روشن /خاموش</string>
+    <string name="one_time_payment">پرداخت یکجا</string>
+    <string name="one_time_payment_explanation_msg">این یک ارتقاء مادام‌العمر است - بدون نیاز به اشتراک، بدون هزینه دوره‌ای. یک بار پرداخت کنید و از برنامه کاملاً بدون تبلیغات لذت ببرید.</string>
+    <string name="one_time_payment_purchased">شما نسخه پریمیوم را دارید.\nاز حمایت شما متشکریم!</string>
+    <string name="open_app_info_screen">صفحه «اطلاعات برنامه» را باز کنید</string>
+    <string name="open_app_info_screen_battery_usage_allow_background_activity">برای فعال کردن ضبط ویدیو در پس‌زمینه، صفحه «اطلاعات برنامه» را باز کنید، «میزان مصرف باتری» را انتخاب کنید و «فعالیت پس‌زمینه را مجاز کنید» را فعال کنید.</string>
+    <string name="open_battery_settings">تنظیمات باتری را باز کنید</string>
+    <string name="open_system_settings">تنظیمات سیستم را باز کنید</string>
     <string name="permission_audio_dlg_msg">هنگام ضبط ویدیو برای ضبط آهنگ صوتی به صدا نیاز است</string>
     <string name="permission_camera_dlg_msg">دوربین برای ضبط ویدئو و پیش نمایش دوربین مورد نیاز است.</string>
     <string name="permission_camera_request_canceled">این برنامه برای استفاده از دوربین برای ضبط ویدیو به مجوز نیاز دارد. اما شما آن را رد کردید. در حال بستن… سعی کنید در تنظیمات سیستم این اپلیکیشن به دوربین اجازه دهید</string>
@@ -191,6 +208,8 @@
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">ممکن است سازنده دستگاه دسترسی به همه دوربین ها را فراهم نکند، بنابراین برخی از آنها ممکن است باز نشوند</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">سازنده دستگاه ممکن است دوربین لنز عریض را برای همه برنامه ها ارائه نکند</string>
     <string name="prefs_consent_information_privacy_options">گزینه های حفظ حریم خصوصی (اطلاعات رضایت)</string>
+    <string name="prefs_continuous_recording">ضبط مداوم</string>
+    <string name="prefs_continuous_recording_desc">وقتی فایل فعلی به مدت زمان تعیین‌شده برسد، یک فایل جدید شروع می‌شود. اگر غیرفعال باشد، ضبط در حد مجاز متوقف می‌شود.</string>
     <string name="prefs_day_night_mode_auto_text">خودکار (روز /شب)، بر اساس زمان</string>
     <string name="prefs_day_night_mode_day_text">روز</string>
     <string name="prefs_day_night_mode_night_text">شب</string>
@@ -235,10 +254,11 @@
     <string name="prefs_meters_accuracy_value_text">متر دقت</string>
     <string name="prefs_open_source_notices_text">اعلامیه های منبع باز</string>
     <string name="prefs_optical_zoom_text">زوم اپتیکال (زوم) /فاصله کانونی</string>
-    <string name="prefs_orientation_landscape">چشم انداز</string>
-    <string name="prefs_orientation_landscape_reversed">آلبوم معکوس</string>
-    <string name="prefs_orientation_portrait">پرتره</string>
-    <string name="prefs_orientation_sensor_automatic">خودکار</string>
+    <string name="prefs_orientation_landscape">جهت گیری منظره</string>
+    <string name="prefs_orientation_landscape_reversed">جهت گیری افقی معکوس</string>
+    <string name="prefs_orientation_portrait">جهت گیری عمودی</string>
+    <string name="prefs_orientation_sensor_automatic">جهت گیری خودکار (چرخش خودکار)</string>
+    <string name="prefs_orientation_system_orientation">از جهت گیری سیستم استفاده کنید</string>
     <string name="prefs_other_auto_deleting_sum_text">اگر فضای کافی برای ویدیوهای جدید وجود نداشته باشد، به طور خودکار قدیمی ترین ویدیوها را هنگام ضبط حذف کنید</string>
     <string name="prefs_other_auto_deleting_text">ضبط حلقه</string>
     <string name="prefs_other_backup_records_tip">برای پشتیبان‌گیری از ضبط‌هایتان، برنامه‌هایی مانند Google Photos را نصب کنید. پوشه های ضبط شده را در این برنامه ها پیدا کنید و گزینه پشتیبان گیری را برای آنها فعال کنید (برای مشاهده نمونه روی متن کلیک کنید).</string>
@@ -394,6 +414,7 @@
     <string name="prefs_version_text">نسخه برنامه</string>
     <string name="prefs_vibrate_rec_start_stop_text">لرزش هنگام شروع یا توقف ضبط</string>
     <string name="prefs_vibration_strength">قدرت ارتعاش</string>
+    <string name="prefs_video_angle_text">زاویه جهت گیری فریم های ویدیویی.</string>
     <string name="prefs_video_bitrate_text">نرخ بیت (کیفیت)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">حالت صحنه کنترل دوربین (شب)</string>
     <string name="prefs_video_camera_control_scene_mode_text">حالت صحنه کنترل دوربین (روز)</string>
@@ -413,8 +434,10 @@
     <string name="prefs_video_exposure_auto_mode_text">حالت نوردهی خودکار</string>
     <string name="prefs_video_exposure_night_text">جبران نوردهی (شب)</string>
     <string name="prefs_video_exposure_text">جبران نوردهی (روز)</string>
-    <string name="prefs_video_flip_x_sum_text">انعکاس افقی ویدیو تصویر فقط برای ضبط ویدئو تغییر می کند، پیش نمایش تغییر نمی کند</string>
-    <string name="prefs_video_flip_x_text">ویدیو را به صورت افقی برگردانید</string>
+    <string name="prefs_video_flip_angle_explanation_desc">این فقط برای ضبط ویدیو صدق می‌کند و پیش‌نمایش دوربین را تغییر نمی‌دهد.</string>
+    <string name="prefs_video_flip_angle_explanation_title">رفع مشکلاتی که در آنها ویدیوها وارونه می‌شدند یا زاویه جهت‌گیری اشتباهی داشتند.</string>
+    <string name="prefs_video_flip_x_text">انعکاس افقی فریم‌های ویدیویی.</string>
+    <string name="prefs_video_flip_y_text">انعکاس عمودی فریم‌های ویدیویی.</string>
     <string name="prefs_video_focus_continuous_picture_text">تصویر پیوسته</string>
     <string name="prefs_video_focus_continuous_video_text">ویدیوی مداوم (توصیه می شود در طول روز)</string>
     <string name="prefs_video_focus_infinity_text">بی نهایت (توصیه می شود در شب)</string>
@@ -444,7 +467,7 @@
     <string name="prefs_zoom_text">زوم دیجیتال (زوم)</string>
     <string name="purchase_did_make_it_previously">آیا قبلاً خریدی انجام داده‌اید؟</string>
     <string name="rec_audio_silence_text">در حال حاضر ضبط صدا امکان پذیر نیست زیرا میکروفون توسط برنامه دیگری رهگیری می شود</string>
-    <string name="rec_available_space_text">در دسترس</string>
+    <string name="rec_available_space_text">فضای خالی</string>
     <string name="rec_day_night_btn_auto_text">خودکار</string>
     <string name="rec_fix_short_text">برای اصلاح</string>
     <string name="rec_fix_text">برای اصلاح</string>
@@ -511,6 +534,7 @@
     <string name="subscription_status_subscribed_short">مشترک</string>
     <string name="subscription_subscribe_text">اشتراک</string>
     <string name="subscription_with_free_trial">با دوره آزمایشی رایگان</string>
+    <string name="tap_to_allow_background_recording">برای اجازه ضبط ویدیو در پس‌زمینه، ضربه بزنید.</string>
     <string name="timer_auto_start">تایمر</string>
     <string name="timer_auto_start_dlg_type_title">یک تایمر برای شروع ضبط تنظیم کنید</string>
     <string name="timer_auto_start_every_day_text">هر روز</string>

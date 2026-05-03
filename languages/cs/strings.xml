@@ -1,5 +1,6 @@
 <resources>
     <string name="accept_text">přijímám</string>
+    <string name="allow_background_activity_on_some_devices">Níže jsou uvedeny příklady, jak povolit aktivitu na pozadí na některých zařízeních:</string>
     <string name="any_text">Žádný</string>
     <string name="app_alternative_name_audio">Zvuk</string>
     <string name="app_alternative_name_battery">Nastavení baterie</string>
@@ -8,6 +9,16 @@
     <string name="app_alternative_name_video">Video</string>
     <string name="app_name_backgroundvideorecorder">Záznam videa na pozadí</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - Driving DVR</string>
+    <string name="background_recording_allow_autostart">Kliknutím sem povolíte automatické spuštění aplikace na pozadí (pokud to již není povoleno).</string>
+    <string name="background_recording_realme_allow_background_activity">5. Zapněte přepínače „Povolit aktivitu na popředí“ a „Povolit aktivitu na pozadí“.</string>
+    <string name="background_recording_realme_app_battery_management">4. Otevřete obrazovku „Správa baterie aplikací“ a vyberte aplikaci.</string>
+    <string name="background_recording_realme_more_settings">2. Otevřete „Další nastavení“ (nebo „Nastavení úspory energie“) a poté otevřete obě části „Správa baterie aplikací“ a „Optimalizace využití baterie“.</string>
+    <string name="background_recording_realme_optimize_battery_use">3. Na obrazovce „Optimalizace využití baterie“ vyberte aplikaci a v rozbalovací nabídce zvolte možnost „Neoptimalizovat“.</string>
+    <string name="background_recording_realme_system_settings_battery">1. Otevřete Nastavení systému → Baterie</string>
+    <string name="background_recording_realme_title">Chcete-li zachovat stabilní nahrávání videa na pozadí na zařízeních Oppo (realme), povolte aktivitu na popředí, povolte aktivitu na pozadí, nastavte režim baterie na „Neoptimalizovat“ a povolte automatické spuštění, pokud telefon tuto možnost nabízí.</string>
+    <string name="background_restrictions_explain_how_to_disable">Pro tuto aplikaci jsou nastavena omezení spotřeby baterie na pozadí, která mohou způsobit problémy s nahráváním videa na pozadí. Vypněte prosím veškeré optimalizace baterie nebo omezení spotřeby na pozadí pro tuto aplikaci. Tyto možnosti můžete zkusit najít na obrazovce „Informace o aplikaci“ → „Baterie“ nebo v nastavení systému vašeho zařízení. Nastavte optimalizaci baterie na „Neomezeno“ (nebo „Neoptimalizovat“) pro tuto aplikaci a povolte aktivitu na popředí i na pozadí. Přesné umístění těchto možností se může lišit v závislosti na výrobci vašeho zařízení.</string>
+    <string name="background_restrictions_msg_text">Pro zajištění stabilního nahrávání videa prosím vypněte omezení aplikace na pozadí.</string>
+    <string name="background_restrictions_text">Omezení práce aplikací na pozadí</string>
     <string name="camera">Fotoaparát</string>
     <string name="camera_aperture">Membrána</string>
     <string name="camera_back">Zadní kamera</string>
@@ -30,6 +41,7 @@
     <string name="close">Zavřít</string>
     <string name="days">dní</string>
     <string name="default_text">Výchozí</string>
+    <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">Podrobnější pokyny k vypnutí optimalizace baterie a povolení aktivity aplikace na pozadí:</string>
     <string name="dialog_camera_not_found_msg_text">Toto zařízení nemá vestavěnou kameru a nepodporuje externí kamery. Zavírání…</string>
     <string name="dialog_camera_not_found_text">Kamera nenalezena</string>
     <string name="dialog_go_to_settings_text">Otevřete nastavení</string>
@@ -41,13 +53,10 @@
     <string name="donate_disable_ads_text">Darování, odstranění reklam</string>
     <string name="donate_success_thanks_msg_text">Mockrát děkuji za vaší podporu!</string>
     <string name="donate_text">Dar</string>
-    <string name="donation_any_amount_text">žádná reklama za jakoukoli částku</string>
-    <string name="donation_dlg_has_ads_text">Chcete-li odstranit reklamy, dar musí být nebo vyšší.</string>
-    <string name="donation_dlg_limited_ads_message_text">U menších darů je reklama odstraněna pouze na hlavní obrazovce</string>
     <string name="donation_dlg_no_ads_text">Nemáte žádné reklamy.</string>
     <string name="donation_level_text">Úroveň vašeho daru:</string>
     <string name="donation_purchase_info_loading_text">Nákupní informace ještě nebyly nahrány. Jste online a přihlášeni ke svému účtu Google?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Pokud jste již provedli nákup a chcete-li jej obnovit, nejprve vymažte data a mezipaměť Obchodu Google Play. Poté aplikaci odinstalujte, otevřete Obchod Google Play, vyberte správný účet Google použitý k nákupu a aplikaci znovu nainstalujte.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Pokud jste již provedli nákup, ale nebyl automaticky obnoven, nejprve vymažte data a mezipaměť Obchodu Google Play. Poté aplikaci odinstalujte, otevřete Obchod Google Play, vyberte správný účet Google použitý k nákupu a aplikaci znovu nainstalujte.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">Pokud jste již darovali, pak pro obnovení nákupů znovu nainstalujte aplikaci v Samsung Galaxy Store po výběru správného účtu</string>
     <string name="donation_remove_ads_by_any_amount_text">Odstraňte reklamy navždy pomocí jednorázového příspěvku v libovolné výši.</string>
     <string name="donation_remove_ads_by_subscribing_text">Můžete také přispívat měsíčně na odstranění reklam.</string>
@@ -72,6 +81,7 @@
     <string name="hour">hodina</string>
     <string name="hours">hodin</string>
     <string name="month">Měsíc</string>
+    <string name="more_info">Více informací:</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Aplikace není vyloučena z optimalizace baterie. Pokud kamera neběží na pozadí nebo něco jiného, ​​přidejte tuto aplikaci k výjimkám režimu úspory energie.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Pokud jste aplikaci přeinstalovali na Android 11, musíte staré soubory odstranit ručně</string>
     <string name="msg_auto_recording_service_was_stopped">Zastavili jste službu na pozadí pro automatické spouštění nahrávání videa. Otevřete aplikaci a znovu ji spusťte.</string>
@@ -122,6 +132,13 @@
     <string name="notification_service_power_checker">nabíjení</string>
     <string name="notification_stop_text">Stop</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Pro automatické zapnutí /vypnutí nahrávání</string>
+    <string name="one_time_payment">Jednorázová platba</string>
+    <string name="one_time_payment_explanation_msg">Toto je doživotní upgrade – žádné předplatné, žádné opakující se poplatky. Zaplaťte jednou a užívejte si aplikaci zcela bez reklam.</string>
+    <string name="one_time_payment_purchased">Máte prémiovou verzi.\nDěkujeme za vaši podporu!</string>
+    <string name="open_app_info_screen">Otevřít obrazovku „Informace o aplikaci“</string>
+    <string name="open_app_info_screen_battery_usage_allow_background_activity">Chcete-li povolit nahrávání videa na pozadí, otevřete obrazovku „Informace o aplikaci“, vyberte „Využití baterie“ a povolte možnost „Povolit aktivitu na pozadí“.</string>
+    <string name="open_battery_settings">Otevřít nastavení baterie</string>
+    <string name="open_system_settings">Otevřít Nastavení systému</string>
     <string name="permission_audio_dlg_msg">Pro záznam zvukové stopy při nahrávání videa je vyžadován zvuk</string>
     <string name="permission_camera_dlg_msg">Kamera je vyžadována pro záznam videa a náhled kamery.</string>
     <string name="permission_camera_request_canceled">Tato aplikace vyžaduje oprávnění k použití fotoaparátu k nahrávání videa. Ale ty jsi to odmítl. Zavírání… Zkuste udělit oprávnění ke kameře v systémovém nastavení této aplikace</string>
@@ -191,6 +208,8 @@
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Výrobce zařízení nemusí poskytovat přístup ke všem kamerám, takže se některé nemusí otevřít</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Výrobce zařízení nemusí poskytovat širokoúhlý fotoaparát pro všechny aplikace</string>
     <string name="prefs_consent_information_privacy_options">Možnosti ochrany osobních údajů (informace o souhlasu)</string>
+    <string name="prefs_continuous_recording">Nepřetržitý záznam</string>
+    <string name="prefs_continuous_recording_desc">Spustí nový soubor, když aktuální soubor dosáhne nastavené délky. Pokud je tato možnost zakázána, nahrávání se zastaví na limitu.</string>
     <string name="prefs_day_night_mode_auto_text">Automaticky (den /noc), podle času</string>
     <string name="prefs_day_night_mode_day_text">Den</string>
     <string name="prefs_day_night_mode_night_text">Noc</string>
@@ -235,10 +254,11 @@
     <string name="prefs_meters_accuracy_value_text">metrů přesnosti</string>
     <string name="prefs_open_source_notices_text">Upozornění s otevřeným zdrojovým kódem</string>
     <string name="prefs_optical_zoom_text">Optický zoom (Zoom) /Ohnisková vzdálenost</string>
-    <string name="prefs_orientation_landscape">Krajina</string>
-    <string name="prefs_orientation_landscape_reversed">Rubová strana alba</string>
-    <string name="prefs_orientation_portrait">Portrét</string>
-    <string name="prefs_orientation_sensor_automatic">Automatický</string>
+    <string name="prefs_orientation_landscape">Orientace na šířku</string>
+    <string name="prefs_orientation_landscape_reversed">Obrácená orientace na šířku</string>
+    <string name="prefs_orientation_portrait">Orientace na výšku</string>
+    <string name="prefs_orientation_sensor_automatic">Automatická orientace (automatické otáčení)</string>
+    <string name="prefs_orientation_system_orientation">Použít systémovou orientaci</string>
     <string name="prefs_other_auto_deleting_sum_text">Automaticky odstranit nejstarší videa během nahrávání, pokud není dostatek místa pro nová videa</string>
     <string name="prefs_other_auto_deleting_text">Smyčkové nahrávání</string>
     <string name="prefs_other_backup_records_tip">Chcete-li si své nahrávky zálohovat, nainstalujte si aplikace, jako jsou Fotky Google. Najděte v těchto aplikacích složky se záznamem a povolte pro ně možnost zálohování (kliknutím na text zobrazíte příklad).</string>
@@ -394,6 +414,7 @@
     <string name="prefs_version_text">Verze aplikace</string>
     <string name="prefs_vibrate_rec_start_stop_text">Vibrace při spuštění nebo zastavení nahrávání</string>
     <string name="prefs_vibration_strength">Vibrační síla</string>
+    <string name="prefs_video_angle_text">Úhel orientace video snímků.</string>
     <string name="prefs_video_bitrate_text">Bitrate (kvalita)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Režim scény ovládání fotoaparátu (noc)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Režim scény ovládání fotoaparátu (den)</string>
@@ -413,8 +434,10 @@
     <string name="prefs_video_exposure_auto_mode_text">Režim automatické expozice</string>
     <string name="prefs_video_exposure_night_text">Kompenzace expozice (noc)</string>
     <string name="prefs_video_exposure_text">Kompenzace expozice (den)</string>
-    <string name="prefs_video_flip_x_sum_text">Horizontální zrcadlení videa. Obraz se mění pouze pro záznam videa, náhled se nemění</string>
-    <string name="prefs_video_flip_x_text">Překlopte video vodorovně</string>
+    <string name="prefs_video_flip_angle_explanation_desc">Toto se týká pouze nahrávání videa a nemění náhled kamery.</string>
+    <string name="prefs_video_flip_angle_explanation_title">Opravy případů, kdy jsou videa převrácená nebo mají nesprávný úhel orientace.</string>
+    <string name="prefs_video_flip_x_text">Horizontální odraz video snímků.</string>
+    <string name="prefs_video_flip_y_text">Vertikální odraz video snímků.</string>
     <string name="prefs_video_focus_continuous_picture_text">Souvislý obraz</string>
     <string name="prefs_video_focus_continuous_video_text">Nepřetržité video (doporučeno během dne)</string>
     <string name="prefs_video_focus_infinity_text">Nekonečno (doporučeno v noci)</string>
@@ -444,7 +467,7 @@
     <string name="prefs_zoom_text">Digitální zoom (zoom)</string>
     <string name="purchase_did_make_it_previously">Už jste někdy něco nakoupili?</string>
     <string name="rec_audio_silence_text">V tuto chvíli není záznam zvuku možný, protože mikrofon je zachycen jinou aplikací</string>
-    <string name="rec_available_space_text">Dostupný</string>
+    <string name="rec_available_space_text">Volné místo</string>
     <string name="rec_day_night_btn_auto_text">Auto</string>
     <string name="rec_fix_short_text">Opravit</string>
     <string name="rec_fix_text">Opravit</string>
@@ -511,6 +534,7 @@
     <string name="subscription_status_subscribed_short">Přihlášen/a k odběru</string>
     <string name="subscription_subscribe_text">Upsat</string>
     <string name="subscription_with_free_trial">S bezplatnou zkušební verzí</string>
+    <string name="tap_to_allow_background_recording">Klepnutím povolíte nahrávání videa na pozadí.</string>
     <string name="timer_auto_start">Časovač</string>
     <string name="timer_auto_start_dlg_type_title">Nastavte časovač pro zahájení nahrávání</string>
     <string name="timer_auto_start_every_day_text">Každý den</string>

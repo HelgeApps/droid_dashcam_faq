@@ -1,5 +1,6 @@
 <resources>
     <string name="accept_text">gidawat nako</string>
+    <string name="allow_background_activity_on_some_devices">Ania ang mga ehemplo kon unsaon pagtugot sa background activity sa pipila ka device:</string>
     <string name="any_text">Bisan unsa</string>
     <string name="app_alternative_name_audio">Audio</string>
     <string name="app_alternative_name_battery">Mga Setting sa Baterya</string>
@@ -8,6 +9,16 @@
     <string name="app_alternative_name_video">Video</string>
     <string name="app_name_backgroundvideorecorder">Pagrekord sa video sa background</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - Pagmaneho sa DVR</string>
+    <string name="background_recording_allow_autostart">I-klik dinhi aron tugotan ang app nga awtomatikong magsugod sa background (kon wala pa gitugotan).</string>
+    <string name="background_recording_realme_allow_background_activity">5. I-on ang mga toggle nga \"Tuguti ang kalihokan sa foreground\" ug \"Tuguti ang kalihokan sa background\".</string>
+    <string name="background_recording_realme_app_battery_management">4. Ablihi ang screen nga \"App battery management\" ug pilia ang app.</string>
+    <string name="background_recording_realme_more_settings">2. Ablihi ang \"Dugang nga mga setting\" (o \"Mga setting sa pagdaginot sa kuryente\"), dayon ablihi ang \"Pagdumala sa baterya sa app\" ug \"Pag-optimize sa paggamit sa baterya\".</string>
+    <string name="background_recording_realme_optimize_battery_use">3. Sa screen nga \"Optimize battery use\", pilia ang app ug pilia ang \"Don\'t optimize\" sa popup.</string>
+    <string name="background_recording_realme_system_settings_battery">1. Ablihi ang Mga Setting sa Sistema → Baterya</string>
+    <string name="background_recording_realme_title">Para magpabiling stable ang background video recording sa mga Oppo (realme) device, tugoti ang foreground activity, tugoti ang background activity, i-set ang battery mode sa \"Don\'t optimize\", ug tugoti ang auto-launch kon ang telepono mohatag niana nga opsyon.</string>
+    <string name="background_restrictions_explain_how_to_disable">Adunay mga limitasyon sa background sa baterya nga gitakda para niini nga app nga mahimong hinungdan sa problema sa pagrekord sa video sa background. Palihug i-disable ang bisan unsang pag-optimize sa baterya o mga limitasyon sa background para niini nga app.\nMahimo nimong sulayan pagpangita sa ingon nga mga kapilian sa \"Impormasyon sa App\" → \"Battery\" screen o sa mga setting sa sistema sa imong device. Ibutang ang pag-optimize sa baterya sa \"Walay restricted\" (o \"Ayaw i-optimize\") para niini nga app, tugoti ang kalihokan sa foreground ug background. Ang eksaktong lokasyon sa ingon nga mga kapilian mahimong magkalainlain depende sa tiggama sa imong device.</string>
+    <string name="background_restrictions_msg_text">Palihug i-disable ang mga background restriction sa app aron masiguro ang stable nga video recording.</string>
+    <string name="background_restrictions_text">Paglimite sa trabaho sa background app</string>
     <string name="camera">Camera</string>
     <string name="camera_aperture">Diaphragm</string>
     <string name="camera_back">Rear camera</string>
@@ -30,6 +41,7 @@
     <string name="close">Suod nga</string>
     <string name="days">mga adlaw</string>
     <string name="default_text">Default</string>
+    <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">Mas detalyado nga mga instruksyon aron dili ma-optimize ang baterya ug tugotan ang kalihokan sa background para sa app:</string>
     <string name="dialog_camera_not_found_msg_text">Kini nga device walay built-in nga camera ug wala nagsuporta sa mga external camera. Pagsira…</string>
     <string name="dialog_camera_not_found_text">Wala makit-an ang camera</string>
     <string name="dialog_go_to_settings_text">Ablihi ang mga setting</string>
@@ -41,13 +53,10 @@
     <string name="donate_disable_ads_text">Donasyon, Kuhaa ang mga Ad</string>
     <string name="donate_success_thanks_msg_text">Daghang salamat sa imong suporta!</string>
     <string name="donate_text">Donasyon</string>
-    <string name="donation_any_amount_text">walay advertising sa bisan unsang kantidad</string>
-    <string name="donation_dlg_has_ads_text">Aron matangtang ang mga ad, ang donasyon kinahanglan o labaw pa.</string>
-    <string name="donation_dlg_limited_ads_message_text">Alang sa gagmay nga mga donasyon, ang pag-anunsyo tangtangon lamang sa main screen</string>
     <string name="donation_dlg_no_ads_text">Wala ka\'y ​​mga ad.</string>
     <string name="donation_level_text">Ang lebel sa imong donasyon:</string>
     <string name="donation_purchase_info_loading_text">Ang impormasyon sa pagpamalit wala pa ma-upload. Online ka ba ug naka-sign in sa imong Google account?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Kon nakapalit ka na, aron mabalik kini, palihug limpyohi una ang datos ug cache sa Google Play Store. Dayon, i-uninstall ang app, ablihi ang Google Play Store, pilia ang saktong Google account nga gigamit sa pagpalit, ug i-install pag-usab ang app.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Kon nakapalit ka na, apan wala kini awtomatikong na-restore, palihug hawani una ang data ug cache sa Google Play Store. Dayon, i-uninstall ang app, ablihi ang Google Play Store, pilia ang saktong Google account nga gigamit sa pagpalit, ug i-install pag-usab ang app.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">Kung nakahatag ka na usa ka donasyon, unya aron mabalik ang mga gipamalit, palihug i-install pag-usab ang aplikasyon sa Samsung Galaxy Store pagkahuman mapili ang husto nga account</string>
     <string name="donation_remove_ads_by_any_amount_text">Kuhaa ang mga ad hangtod sa hangtod gamit ang usa ka higayon nga donasyon sa bisan unsang kantidad.</string>
     <string name="donation_remove_ads_by_subscribing_text">Mahimo ka usab nga mag-donate matag bulan aron makuha ang mga ad.</string>
@@ -72,6 +81,7 @@
     <string name="hour">oras</string>
     <string name="hours">oras</string>
     <string name="month">bulan</string>
+    <string name="more_info">Dugang nga impormasyon:</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Ang aplikasyon wala iapil sa pag-optimize sa baterya. Kung ang camera wala magdagan sa background o uban pa, unya idugang kini nga aplikasyon sa mga eksepsiyon sa mode sa pag-save sa kuryente.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Kung imong gi-install pag-usab ang aplikasyon sa Android 11, nan ang daan nga mga file kinahanglan nga manual nga matanggal</string>
     <string name="msg_auto_recording_service_was_stopped">Gihunong nimo ang serbisyo sa background alang sa awtomatikong pagsugod sa pagrekord sa video. Ablihi ang aplikasyon aron ilunsad kini pag-usab.</string>
@@ -122,6 +132,13 @@
     <string name="notification_service_power_checker">nagpabayad</string>
     <string name="notification_stop_text">Hunong</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Para sa auto on/off recording</string>
+    <string name="one_time_payment">Usa ka higayon nga bayad</string>
+    <string name="one_time_payment_explanation_msg">Kini usa ka tibuok kinabuhi nga pag-upgrade — walay mga suskrisyon, walay balik-balik nga bayranan. Bayad kausa ug pahimusli ang app nga hingpit nga walay mga ad.</string>
+    <string name="one_time_payment_purchased">Naa kay premium nga bersyon. Salamat sa imong suporta!</string>
+    <string name="open_app_info_screen">Ablihi ang screen nga \"Impormasyon sa app\"</string>
+    <string name="open_app_info_screen_battery_usage_allow_background_activity">Para tugotan ang pagrekord og video sa background, ablihi ang screen nga \"App info\", pilia ang \"Battery usage\", ug i-enable ang \"Allow background activity\".</string>
+    <string name="open_battery_settings">Ablihi ang mga setting sa Baterya</string>
+    <string name="open_system_settings">Ablihi ang mga Setting sa Sistema</string>
     <string name="permission_audio_dlg_msg">Gikinahanglan ang audio aron marekord ang usa ka track sa audio kung magrekord sa video</string>
     <string name="permission_camera_dlg_msg">Ang camera gikinahanglan alang sa pagrekord sa video ug pag-preview sa camera.</string>
     <string name="permission_camera_request_canceled">Ang kini nga aplikasyon nanginahanglan pagtugot nga magamit ang camera sa pagrekord sa video. Apan imong gibalibaran. Pagsira… Sulayi ang paghatag pagtugot sa camera sa mga setting sa sistema sa kini nga aplikasyon</string>
@@ -191,6 +208,8 @@
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Ang tiggama sa device mahimong dili makahatag og access sa tanan nga mga camera, mao nga ang uban mahimong dili moabli</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Ang tiggama sa device mahimong dili makahatag ug lapad nga lens nga kamera para sa tanang aplikasyon</string>
     <string name="prefs_consent_information_privacy_options">Mga kapilian sa pagkapribado (Inpormasyon sa pagtugot)</string>
+    <string name="prefs_continuous_recording">Padayon nga pagrekord</string>
+    <string name="prefs_continuous_recording_desc">Magsugod og bag-ong file kon ang kasamtangang file makaabot na sa gitakdang gidugayon. Kon dili kini ma-disable, mohunong ang pagrekord kon moabot na sa limit.</string>
     <string name="prefs_day_night_mode_auto_text">Awtomatiko (adlaw /gabii), sa oras</string>
     <string name="prefs_day_night_mode_day_text">Adlaw</string>
     <string name="prefs_day_night_mode_night_text">Gabii</string>
@@ -235,10 +254,11 @@
     <string name="prefs_meters_accuracy_value_text">metros sa katukma</string>
     <string name="prefs_open_source_notices_text">Mga pahibalo sa open source</string>
     <string name="prefs_optical_zoom_text">Optical Zoom (Zoom) /Focal Length</string>
-    <string name="prefs_orientation_landscape">Landscape</string>
-    <string name="prefs_orientation_landscape_reversed">Balikbalik nga album</string>
-    <string name="prefs_orientation_portrait">Hulagway</string>
-    <string name="prefs_orientation_sensor_automatic">Awtomatiko</string>
+    <string name="prefs_orientation_landscape">Oryentasyon sa talan-awon</string>
+    <string name="prefs_orientation_landscape_reversed">Baliktad nga oryentasyon sa talan-awon</string>
+    <string name="prefs_orientation_portrait">Oryentasyon sa retrato</string>
+    <string name="prefs_orientation_sensor_automatic">Awtomatikong oryentasyon (awtomatikong pagtuyok)</string>
+    <string name="prefs_orientation_system_orientation">Gamita ang oryentasyon sa sistema</string>
     <string name="prefs_other_auto_deleting_sum_text">Awtomatikong tangtangon ang labing karaan nga mga video samtang nagrekord kung wala’y igo nga lugar alang sa mga bag-ong video</string>
     <string name="prefs_other_auto_deleting_text">Pagrekord sa loop</string>
     <string name="prefs_other_backup_records_tip">Aron ma-back up ang imong mga rekording, i-install ang mga app sama sa Google Photos. Pangitaa ang mga folder sa pagrekord niini nga mga aplikasyon ug i-enable ang opsyon sa pag-backup alang kanila (i-klik ang teksto aron makakita og pananglitan).</string>
@@ -394,6 +414,7 @@
     <string name="prefs_version_text">Bersyon sa aplikasyon</string>
     <string name="prefs_vibrate_rec_start_stop_text">Vibration kung magsugod o mohunong sa pagrekord</string>
     <string name="prefs_vibration_strength">Kusog sa vibration</string>
+    <string name="prefs_video_angle_text">Anggulo sa oryentasyon sa mga frame sa video.</string>
     <string name="prefs_video_bitrate_text">Bitrate (kalidad)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Mode sa Scene sa Pagkontrol sa Camera (Gabii)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Pagkontrol sa Camera Scene Mode (Adlaw)</string>
@@ -413,8 +434,10 @@
     <string name="prefs_video_exposure_auto_mode_text">Auto exposure mode</string>
     <string name="prefs_video_exposure_night_text">Exposure compensation (gabii)</string>
     <string name="prefs_video_exposure_text">Kompensasyon sa pagkaladlad (adlaw)</string>
-    <string name="prefs_video_flip_x_sum_text">Horizontal nga salamin sa video. Ang imahe nagbag-o lamang alang sa pagrekord sa video, ang preview dili mausab</string>
-    <string name="prefs_video_flip_x_text">I-flip ang video nga pinahigda</string>
+    <string name="prefs_video_flip_angle_explanation_desc">Kini magamit lamang sa pagrekord sa video ug dili makausab sa preview sa camera.</string>
+    <string name="prefs_video_flip_angle_explanation_title">Mga pag-ayo sa mga kaso diin ang mga video gibaliktad o adunay sayop nga anggulo sa oryentasyon.</string>
+    <string name="prefs_video_flip_x_text">Pahigda nga repleksyon sa mga frame sa video.</string>
+    <string name="prefs_video_flip_y_text">Bertikal nga repleksyon sa mga frame sa video.</string>
     <string name="prefs_video_focus_continuous_picture_text">Padayon nga hulagway</string>
     <string name="prefs_video_focus_continuous_video_text">Padayon nga video (girekomenda sa adlaw)</string>
     <string name="prefs_video_focus_infinity_text">Infinity (girekomenda sa gabii)</string>
@@ -444,7 +467,7 @@
     <string name="prefs_zoom_text">Digital zoom (zoom)</string>
     <string name="purchase_did_make_it_previously">Nakapalit ka na ba kaniadto?</string>
     <string name="rec_audio_silence_text">Sa pagkakaron, ang pagrekord sa audio dili mahimo tungod kay ang mikropono gi-intercept sa laing aplikasyon</string>
-    <string name="rec_available_space_text">Anaa</string>
+    <string name="rec_available_space_text">Libre nga espasyo</string>
     <string name="rec_day_night_btn_auto_text">awto</string>
     <string name="rec_fix_short_text">Aron matul-id</string>
     <string name="rec_fix_text">Aron matul-id</string>
@@ -511,6 +534,7 @@
     <string name="subscription_status_subscribed_short">Nag-subscribe</string>
     <string name="subscription_subscribe_text">Mag-subscribe</string>
     <string name="subscription_with_free_trial">Uban sa libre nga pagsulay</string>
+    <string name="tap_to_allow_background_recording">I-tap aron tugotan ang pagrekord sa background video.</string>
     <string name="timer_auto_start">Timer</string>
     <string name="timer_auto_start_dlg_type_title">Pagbutang og timer aron magsugod sa pagrekord</string>
     <string name="timer_auto_start_every_day_text">Kada adlaw</string>

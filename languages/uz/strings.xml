@@ -1,5 +1,6 @@
 <resources>
     <string name="accept_text">Men qabul qilaman</string>
+    <string name="allow_background_activity_on_some_devices">Quyida ba\'zi qurilmalarda fon faoliyatiga qanday ruxsat berishga misollar keltirilgan:</string>
     <string name="any_text">Har qanday</string>
     <string name="app_alternative_name_audio">Audio</string>
     <string name="app_alternative_name_battery">Batareya sozlamalari</string>
@@ -8,6 +9,16 @@
     <string name="app_alternative_name_video">Video</string>
     <string name="app_name_backgroundvideorecorder">Fonda video yozish</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - Haydash DVR</string>
+    <string name="background_recording_allow_autostart">Ilovaning fonda avtomatik ravishda ishga tushishiga ruxsat berish uchun shu yerni bosing (agar allaqachon ruxsat berilmagan bo\'lsa).</string>
+    <string name="background_recording_realme_allow_background_activity">5. “Oldingi fon faoliyatiga ruxsat berish” va “Orqa fon faoliyatiga ruxsat berish” funksiyalarini yoqing.</string>
+    <string name="background_recording_realme_app_battery_management">4. \"Ilova batareyasini boshqarish\" ekranini oching va ilovani tanlang.</string>
+    <string name="background_recording_realme_more_settings">2. \"Qo\'shimcha sozlamalar\" (yoki \"Quvvatni tejash sozlamalari\") ni oching, so\'ngra \"Ilova batareyasini boshqarish\" va \"Batareyadan foydalanishni optimallashtirish\" ni oching.</string>
+    <string name="background_recording_realme_optimize_battery_use">3. \"Batareya sarfini optimallashtirish\" ekranida ilovani tanlang va qalqib chiquvchi oynada \"Optimallashtirmaslik\" bandini tanlang.</string>
+    <string name="background_recording_realme_system_settings_battery">1. Tizim sozlamalari → Batareya bo\'limini oching</string>
+    <string name="background_recording_realme_title">Oppo (realme) qurilmalarida fon video yozuvini barqaror saqlash uchun oldingi faollikka ruxsat bering, fon faolligiga ruxsat bering, batareya rejimini \"Optimallashtirmang\" ga o\'rnating va agar telefonda ushbu parametr mavjud bo\'lsa, avtomatik ishga tushirishga ruxsat bering.</string>
+    <string name="background_restrictions_explain_how_to_disable">Ushbu ilova uchun fon rejimida video yozib olishda muammolarga olib kelishi mumkin bo\'lgan batareya quvvati cheklovlari o\'rnatilgan. Iltimos, ushbu ilova uchun batareya quvvatini optimallashtirish yoki fon quvvatini cheklashni o\'chirib qo\'ying.\n\n\nSiz bunday variantlarni \"Ilova haqida ma\'lumot\" → \"Batareya\" ekranida yoki qurilmangiz tizim sozlamalarida topishingiz mumkin. Ushbu ilova uchun batareya quvvatini optimallashtirishni \"Cheklanmagan\" (yoki \"Optimallashtirmang\") ga sozlang, old va orqa fon faolligiga ruxsat bering. Bunday variantlarning aniq joylashuvi qurilmangiz ishlab chiqaruvchisiga qarab farq qilishi mumkin.</string>
+    <string name="background_restrictions_msg_text">Barqaror video yozib olishni ta\'minlash uchun ilova uchun fon cheklovlarini o\'chirib qo\'ying.</string>
+    <string name="background_restrictions_text">Fondagi ilovalar ishini cheklash</string>
     <string name="camera">Kamera</string>
     <string name="camera_aperture">Diafragma</string>
     <string name="camera_back">Orqa kamera</string>
@@ -30,6 +41,7 @@
     <string name="close">Yopish</string>
     <string name="days">kunlar</string>
     <string name="default_text">Standart</string>
+    <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">Batareya optimallashtirishni o\'chirish va ilova uchun fon faoliyatiga ruxsat berish bo\'yicha batafsil ko\'rsatmalar:</string>
     <string name="dialog_camera_not_found_msg_text">Ushbu qurilma o\'rnatilgan kameraga ega emas va tashqi kameralarni qo\'llab-quvvatlamaydi. Yopilmoqda…</string>
     <string name="dialog_camera_not_found_text">Kamera topilmadi</string>
     <string name="dialog_go_to_settings_text">Sozlamalarni oching</string>
@@ -41,13 +53,10 @@
     <string name="donate_disable_ads_text">Xayriya, reklamalarni olib tashlash</string>
     <string name="donate_success_thanks_msg_text">Qo\'llab-quvvatlaganingiz uchun katta rahmat!</string>
     <string name="donate_text">Xayriya</string>
-    <string name="donation_any_amount_text">har qanday miqdorda reklama yo\'q</string>
-    <string name="donation_dlg_has_ads_text">Reklamalarni olib tashlash uchun xayriya yoki undan ko\'p bo\'lishi kerak.</string>
-    <string name="donation_dlg_limited_ads_message_text">Kichikroq xayriyalar uchun reklama faqat asosiy ekranda olib tashlanadi</string>
     <string name="donation_dlg_no_ads_text">Reklamasiz.</string>
     <string name="donation_level_text">Sizning xayriya darajangiz:</string>
     <string name="donation_purchase_info_loading_text">Xarid haqida ma\'lumot hali yuklanmagan. Siz onlaynmisiz va Google hisobingizga kirganmisiz?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Agar siz allaqachon xarid qilgan bo\'lsangiz, uni qayta tiklash uchun avval Google Play Store ma\'lumotlari va keshini tozalang. Keyin, ilovani o\'chirib tashlang, Google Play Store\'ni oching, xaridni amalga oshirish uchun ishlatilgan to\'g\'ri Google hisobini tanlang va ilovani qayta o\'rnating.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Agar siz allaqachon xarid qilgan bo\'lsangiz, lekin u avtomatik ravishda tiklanmagan bo\'lsa, avval Google Play Store ma\'lumotlari va keshini tozalang. Keyin, ilovani o\'chirib tashlang, Google Play Store\'ni oching, xaridni amalga oshirish uchun ishlatilgan to\'g\'ri Google hisobini tanlang va ilovani qayta o\'rnating.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">Agar siz allaqachon xayriya qilgan bo\'lsangiz, xaridlarni tiklash uchun to\'g\'ri hisob qaydnomasini tanlaganingizdan so\'ng Samsung Galaxy Store do\'konida ilovani qayta o\'rnating.</string>
     <string name="donation_remove_ads_by_any_amount_text">Istalgan miqdorda bir martalik xayriya bilan reklamalarni butunlay olib tashlang.</string>
     <string name="donation_remove_ads_by_subscribing_text">Bundan tashqari, reklamalarni olib tashlash uchun har oy xayriya qilishingiz mumkin.</string>
@@ -72,6 +81,7 @@
     <string name="hour">soat</string>
     <string name="hours">soat</string>
     <string name="month">oy</string>
+    <string name="more_info">Qo\'shimcha ma\'lumot:</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Ilova batareya quvvatini optimallashtirishdan tashqarida emas. Agar kamera fonda yoki boshqa biror narsada ishlamayotgan bo\'lsa, ushbu ilovani quvvat tejash rejimidan istisnolarga qo\'shing.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Agar siz ilovani Android 11 da qayta o\'rnatgan bo\'lsangiz, eski fayllar qo\'lda o\'chirilishi kerak</string>
     <string name="msg_auto_recording_service_was_stopped">Siz video yozishni avtomatik boshlash uchun fon xizmatini to\'xtatdingiz. Ilovani qayta ishga tushirish uchun uni oching.</string>
@@ -122,6 +132,13 @@
     <string name="notification_service_power_checker">zaryadlash</string>
     <string name="notification_stop_text">STOP</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Avtomatik yoqish /o\'chirish uchun</string>
+    <string name="one_time_payment">Bir martalik to\'lov</string>
+    <string name="one_time_payment_explanation_msg">Bu umrbod yangilanish — obunalar yo\'q, takroriy to\'lovlar yo\'q. Bir marta to\'lang va ilovadan mutlaqo reklamasiz bahramand bo\'ling.</string>
+    <string name="one_time_payment_purchased">Sizda premium versiya mavjud. Qo\'llab-quvvatlaganingiz uchun tashakkur!</string>
+    <string name="open_app_info_screen">\"Ilova haqida ma\'lumot\" ekranini oching</string>
+    <string name="open_app_info_screen_battery_usage_allow_background_activity">Orqa fonda video yozib olishga \"Ilova haqida ma\'lumot\" ekranini ochishga ruxsat berish uchun \"Batareya sarfi\" ni tanlang va \"Orqa fonda faollikka ruxsat berish\" ni yoqing.</string>
+    <string name="open_battery_settings">Batareya sozlamalarini ochish</string>
+    <string name="open_system_settings">Tizim sozlamalarini ochish</string>
     <string name="permission_audio_dlg_msg">Videoni yozib olishda audio trekni yozib olish uchun audio talab qilinadi</string>
     <string name="permission_camera_dlg_msg">Kamera video yozish va kamerani oldindan ko\'rish uchun talab qilinadi.</string>
     <string name="permission_camera_request_canceled">Bu ilova video yozib olish uchun kameradan foydalanishga ruxsat talab qiladi. Lekin siz rad etdingiz. Yopilmoqda… Ushbu ilovaning tizim sozlamalarida kameraga ruxsat berishga harakat qiling</string>
@@ -191,6 +208,8 @@
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Qurilma ishlab chiqaruvchisi barcha kameralarga kirishni ta\'minlamasligi mumkin, shuning uchun ba\'zilari ochilmasligi mumkin</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Qurilma ishlab chiqaruvchisi barcha ilovalar uchun keng linzali kamerani taqdim etmasligi mumkin</string>
     <string name="prefs_consent_information_privacy_options">Maxfiylik imkoniyatlari (rozilik ma\'lumotlari)</string>
+    <string name="prefs_continuous_recording">Uzluksiz yozib olish</string>
+    <string name="prefs_continuous_recording_desc">Joriy fayl belgilangan davomiylikka yetganda yangi faylni ishga tushiradi. Agar oʻchiq boʻlsa, yozib olish limitda toʻxtaydi.</string>
     <string name="prefs_day_night_mode_auto_text">Avtomatik (kunduz /tun), vaqt bo\'yicha</string>
     <string name="prefs_day_night_mode_day_text">kun</string>
     <string name="prefs_day_night_mode_night_text">Kecha</string>
@@ -235,10 +254,11 @@
     <string name="prefs_meters_accuracy_value_text">metr aniqlik</string>
     <string name="prefs_open_source_notices_text">Ochiq manba xabarnomalari</string>
     <string name="prefs_optical_zoom_text">Optik kattalashtirish (kattalashtirish) /Fokus uzunligi</string>
-    <string name="prefs_orientation_landscape">Peyzaj</string>
-    <string name="prefs_orientation_landscape_reversed">Albom teskari</string>
-    <string name="prefs_orientation_portrait">Portret</string>
-    <string name="prefs_orientation_sensor_automatic">Avtomatik</string>
+    <string name="prefs_orientation_landscape">Landshaft yo\'nalishi</string>
+    <string name="prefs_orientation_landscape_reversed">Teskari landshaft yo\'nalishi</string>
+    <string name="prefs_orientation_portrait">Portret yo\'nalishi</string>
+    <string name="prefs_orientation_sensor_automatic">Avtomatik yo\'nalish (avtomatik aylantirish)</string>
+    <string name="prefs_orientation_system_orientation">Tizim yo\'nalishini qo\'llang</string>
     <string name="prefs_other_auto_deleting_sum_text">Yangi videolar uchun joy yetarli boʻlmasa, yozib olish vaqtida eng eski videolarni avtomatik ravishda oʻchirib tashlang</string>
     <string name="prefs_other_auto_deleting_text">Loop yozish</string>
     <string name="prefs_other_backup_records_tip">Yozuvlaringizni zaxiralash uchun Google Photos kabi ilovalarni oʻrnating. Ushbu ilovalardagi yozib olish papkalarini toping va ular uchun zaxira variantini yoqing (misolni ko\'rish uchun matn ustiga bosing).</string>
@@ -394,6 +414,7 @@
     <string name="prefs_version_text">Ilova versiyasi</string>
     <string name="prefs_vibrate_rec_start_stop_text">Yozishni boshlash yoki to\'xtatish paytida tebranish</string>
     <string name="prefs_vibration_strength">Tebranish kuchi</string>
+    <string name="prefs_video_angle_text">Video kadrlarning yo\'nalish burchagi.</string>
     <string name="prefs_video_bitrate_text">Bit tezligi (sifat)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kamerani boshqarish rejimi (tungi)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kamerani boshqarish rejimi (kun)</string>
@@ -413,8 +434,10 @@
     <string name="prefs_video_exposure_auto_mode_text">Avtomatik ekspozitsiya rejimi</string>
     <string name="prefs_video_exposure_night_text">Ekspozitsiya kompensatsiyasi (tungi)</string>
     <string name="prefs_video_exposure_text">Ekspozitsiya kompensatsiyasi (kun)</string>
-    <string name="prefs_video_flip_x_sum_text">Videoni gorizontal aks ettirish. Rasm faqat video yozish uchun o\'zgaradi, oldindan ko\'rish o\'zgarmaydi</string>
-    <string name="prefs_video_flip_x_text">Videoni gorizontal ravishda aylantiring</string>
+    <string name="prefs_video_flip_angle_explanation_desc">Bu faqat video yozuvga tegishli va kameraning oldindan ko\'rishini o\'zgartirmaydi.</string>
+    <string name="prefs_video_flip_angle_explanation_title">Videolar ag\'darilgan yoki noto\'g\'ri yo\'nalish burchagiga ega bo\'lgan holatlar uchun tuzatishlar.</string>
+    <string name="prefs_video_flip_x_text">Video kadrlarning gorizontal aks etishi.</string>
+    <string name="prefs_video_flip_y_text">Video kadrlarning vertikal aks etishi.</string>
     <string name="prefs_video_focus_continuous_picture_text">Uzluksiz tasvir</string>
     <string name="prefs_video_focus_continuous_video_text">Uzluksiz video (kun davomida tavsiya etiladi)</string>
     <string name="prefs_video_focus_infinity_text">Infinity (kechasi tavsiya etiladi)</string>
@@ -444,7 +467,7 @@
     <string name="prefs_zoom_text">Raqamli kattalashtirish (kattalashtirish)</string>
     <string name="purchase_did_make_it_previously">Siz ilgari xarid qilganmisiz?</string>
     <string name="rec_audio_silence_text">Ayni damda mikrofonni boshqa ilova tutib olgani uchun ovoz yozishning imkoni yo‘q</string>
-    <string name="rec_available_space_text">Mavjud</string>
+    <string name="rec_available_space_text">Boʻsh joy</string>
     <string name="rec_day_night_btn_auto_text">Avtomatik</string>
     <string name="rec_fix_short_text">Tuzatish uchun</string>
     <string name="rec_fix_text">Tuzatish uchun</string>
@@ -511,6 +534,7 @@
     <string name="subscription_status_subscribed_short">Obuna boʻlgan</string>
     <string name="subscription_subscribe_text">Obuna boʻling</string>
     <string name="subscription_with_free_trial">Bepul sinov bilan</string>
+    <string name="tap_to_allow_background_recording">Orqa fonda video yozib olishga ruxsat berish uchun bosing.</string>
     <string name="timer_auto_start">Taymer</string>
     <string name="timer_auto_start_dlg_type_title">Yozishni boshlash uchun taymerni o\'rnating</string>
     <string name="timer_auto_start_every_day_text">Har kuni</string>

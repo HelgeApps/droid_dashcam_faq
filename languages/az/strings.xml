@@ -1,5 +1,6 @@
 <resources>
     <string name="accept_text">qəbul edirəm</string>
+    <string name="allow_background_activity_on_some_devices">Aşağıda bəzi cihazlarda fon fəaliyyətinə necə icazə veriləcəyinə dair nümunələr verilmişdir:</string>
     <string name="any_text">Hər hansı</string>
     <string name="app_alternative_name_audio">Audio</string>
     <string name="app_alternative_name_battery">Batareya Parametrləri</string>
@@ -8,6 +9,16 @@
     <string name="app_alternative_name_video">Video</string>
     <string name="app_name_backgroundvideorecorder">Fonda video çəkiliş</string>
     <string name="app_name_droid_dashcam">Droid Dashcam - Sürücülük DVR</string>
+    <string name="background_recording_allow_autostart">Tətbiqin arxa planda avtomatik başlamasına icazə vermək üçün buraya klikləyin (əgər artıq icazə verilməyibsə).</string>
+    <string name="background_recording_realme_allow_background_activity">5. \"Ön plan fəaliyyətinə icazə verin\" və \"Arxa plan fəaliyyətinə icazə verin\" seçimlərini aktivləşdirin.</string>
+    <string name="background_recording_realme_app_battery_management">4. \"Tətbiq batareyasının idarə edilməsi\" ekranını açın və tətbiqi seçin.</string>
+    <string name="background_recording_realme_more_settings">2. \"Daha çox parametr\" (və ya \"Enerjiyə qənaət parametrləri\") bölməsini açın, sonra həm \"Tətbiq batareyasının idarə edilməsi\", həm də \"Batareya istifadəsini optimallaşdırın\" bölmələrini açın.</string>
+    <string name="background_recording_realme_optimize_battery_use">3. \"Batareya istifadəsini optimallaşdır\" ekranında tətbiqi seçin və açılan pəncərədə \"Optimallaşdırma\" seçimini edin.</string>
+    <string name="background_recording_realme_system_settings_battery">1. Sistem Parametrləri → Batareya bölməsini açın</string>
+    <string name="background_recording_realme_title">Oppo (realme) cihazlarında fon video çəkilişini sabit saxlamaq üçün ön planda aktivliyə icazə verin, fon aktivliyinə icazə verin, batareya rejimini \"Optimallaşdırma\" olaraq təyin edin və telefon bu seçimi təmin edərsə, avtomatik işə salmağa icazə verin.</string>
+    <string name="background_restrictions_explain_how_to_disable">Bu tətbiq üçün arxa planda video çəkilişində problem yarada biləcək batareya fon məhdudiyyətləri müəyyən edilib. Zəhmət olmasa, bu tətbiq üçün hər hansı batareya optimallaşdırmalarını və ya fon məhdudiyyətlərini deaktiv edin.\n\nBu cür seçimləri \"Tətbiq məlumatı\" → \"Batareya\" ekranında və ya cihazınızın sistem parametrlərində tapa bilərsiniz. Bu tətbiq üçün batareya optimallaşdırmasını \"Məhdudiyyətsiz\" (və ya \"Optimallaşdırma\") olaraq təyin edin, ön və arxa plan fəaliyyətinə icazə verin. Bu cür seçimlərin dəqiq yeri cihaz istehsalçınızdan asılı olaraq dəyişə bilər.</string>
+    <string name="background_restrictions_msg_text">Sabit video qeydini təmin etmək üçün tətbiq üçün fon məhdudiyyətlərini deaktiv edin.</string>
+    <string name="background_restrictions_text">Arxa fon tətbiq işinin məhdudlaşdırılması</string>
     <string name="camera">Kamera</string>
     <string name="camera_aperture">Diafraqma</string>
     <string name="camera_back">Arxa kamera</string>
@@ -30,6 +41,7 @@
     <string name="close">Yaxın</string>
     <string name="days">günlər</string>
     <string name="default_text">Defolt</string>
+    <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">Batareya optimallaşdırmasını deaktiv etmək və tətbiq üçün fon fəaliyyətinə icazə vermək üçün daha ətraflı təlimatlar:</string>
     <string name="dialog_camera_not_found_msg_text">Bu cihazın daxili kamerası yoxdur və xarici kameraları dəstəkləmir. Bağlanır…</string>
     <string name="dialog_camera_not_found_text">Kamera tapılmadı</string>
     <string name="dialog_go_to_settings_text">Parametrləri açın</string>
@@ -41,13 +53,10 @@
     <string name="donate_disable_ads_text">İanə, Reklamları Sil</string>
     <string name="donate_success_thanks_msg_text">Dəstəyiniz üçün çox sağ olun!</string>
     <string name="donate_text">İanə</string>
-    <string name="donation_any_amount_text">heç bir məbləğ üçün reklam yoxdur</string>
-    <string name="donation_dlg_has_ads_text">Reklamları silmək üçün ianə və ya daha çox olmalıdır.</string>
-    <string name="donation_dlg_limited_ads_message_text">Daha kiçik ianələr üçün reklam yalnız əsas ekranda silinir</string>
     <string name="donation_dlg_no_ads_text">Reklamınız yoxdur.</string>
     <string name="donation_level_text">Bağış səviyyəniz:</string>
     <string name="donation_purchase_info_loading_text">Alış-veriş məlumatları hələ yüklənməyib. Onlaynsınız və Google hesabınıza daxil olmusunuz?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Əgər artıq bir alış-veriş etmisinizsə, onu bərpa etmək üçün əvvəlcə Google Play Store məlumatlarını və keşini təmizləyin. Daha sonra tətbiqi silin, Google Play Store-u açın, alış-veriş etmək üçün istifadə edilən düzgün Google hesabını seçin və tətbiqi yenidən quraşdırın.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Əgər artıq alış-veriş etmisinizsə, lakin avtomatik bərpa olunmayıbsa, əvvəlcə Google Play Mağazası məlumatlarını və keşini təmizləyin. Daha sonra tətbiqi silin, Google Play Mağazasını açın, alış-veriş etmək üçün istifadə edilən düzgün Google hesabını seçin və tətbiqi yenidən quraşdırın.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">Əgər siz artıq ianə etmisinizsə, satınalmaları bərpa etmək üçün düzgün hesabı seçdikdən sonra proqramı Samsung Galaxy Store-da yenidən quraşdırın.</string>
     <string name="donation_remove_ads_by_any_amount_text">İstənilən məbləğdə birdəfəlik ianə ilə reklamları həmişəlik silin.</string>
     <string name="donation_remove_ads_by_subscribing_text">Reklamları silmək üçün aylıq ianə də edə bilərsiniz.</string>
@@ -72,6 +81,7 @@
     <string name="hour">saat</string>
     <string name="hours">saat</string>
     <string name="month">ay</string>
+    <string name="more_info">Daha çox məlumat:</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Tətbiq batareyanın optimallaşdırılmasından istisna edilmir. Kamera fonda və ya başqa bir şeydə işləmirsə, bu proqramı enerjiyə qənaət rejimi istisnalarına əlavə edin.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Tətbiqi Android 11-də yenidən quraşdırmısınızsa, köhnə fayllar əl ilə silinməlidir</string>
     <string name="msg_auto_recording_service_was_stopped">Video çəkilişinin avtomatik başlaması üçün fon xidmətini dayandırdınız. Proqramı yenidən işə salmaq üçün açın.</string>
@@ -122,6 +132,13 @@
     <string name="notification_service_power_checker">doldurulur</string>
     <string name="notification_stop_text">Dayan</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Avtomatik yandırma/söndürmə qeydi üçün</string>
+    <string name="one_time_payment">Birdəfəlik ödəniş</string>
+    <string name="one_time_payment_explanation_msg">Bu, ömürlük yeniləmədir — abunəlik yoxdur, təkrarlanan ödəniş yoxdur. Bir dəfə ödəyin və tətbiqdən tamamilə reklamsız zövq alın.</string>
+    <string name="one_time_payment_purchased">Premium versiyanız var. Dəstəyiniz üçün təşəkkür edirik!</string>
+    <string name="open_app_info_screen">\"Tətbiq məlumatı\" ekranını açın</string>
+    <string name="open_app_info_screen_battery_usage_allow_background_activity">Arxa fon videosunun \"Tətbiq məlumatı\" ekranını açmasına icazə vermək üçün \"Batareya istifadəsi\"ni seçin və \"Arxa fon fəaliyyətinə icazə ver\"i aktivləşdirin.</string>
+    <string name="open_battery_settings">Batareya parametrlərini açın</string>
+    <string name="open_system_settings">Sistem Parametrlərini Açın</string>
     <string name="permission_audio_dlg_msg">Video yazarkən audio treki yazmaq üçün audio tələb olunur</string>
     <string name="permission_camera_dlg_msg">Video çəkiliş və kameraya ön baxış üçün kamera tələb olunur.</string>
     <string name="permission_camera_request_canceled">Bu proqram video yazmaq üçün kameradan istifadə etmək üçün icazə tələb edir. Amma siz ondan imtina etdiniz. Bağlanır… Bu proqramın sistem parametrlərində kameraya icazə verməyə çalışın</string>
@@ -191,6 +208,8 @@
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Cihaz istehsalçısı bütün kameralara girişi təmin etməyə bilər, ona görə də bəziləri açılmaya bilər</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Cihaz istehsalçısı bütün proqramlar üçün geniş lensli kamera təmin etməyə bilər</string>
     <string name="prefs_consent_information_privacy_options">Məxfilik seçimləri (Razılıq məlumatı)</string>
+    <string name="prefs_continuous_recording">Davamlı qeyd</string>
+    <string name="prefs_continuous_recording_desc">Cari fayl təyin olunmuş müddətə çatdıqda yeni bir fayl başlayır. Deaktiv edildikdə, qeyd limiti bitirir.</string>
     <string name="prefs_day_night_mode_auto_text">Avtomatik (gündüz /gecə), vaxta görə</string>
     <string name="prefs_day_night_mode_day_text">Gün</string>
     <string name="prefs_day_night_mode_night_text">Gecə</string>
@@ -235,10 +254,11 @@
     <string name="prefs_meters_accuracy_value_text">metr dəqiqlik</string>
     <string name="prefs_open_source_notices_text">Açıq mənbə bildirişləri</string>
     <string name="prefs_optical_zoom_text">Optik Zoom (Böyütmə) /Fokus Uzunluğu</string>
-    <string name="prefs_orientation_landscape">Mənzərə</string>
-    <string name="prefs_orientation_landscape_reversed">Albomun əksi</string>
-    <string name="prefs_orientation_portrait">Portret</string>
-    <string name="prefs_orientation_sensor_automatic">Avtomatik</string>
+    <string name="prefs_orientation_landscape">Landşaft istiqaməti</string>
+    <string name="prefs_orientation_landscape_reversed">Tərs mənzərə istiqaməti</string>
+    <string name="prefs_orientation_portrait">Portret istiqaməti</string>
+    <string name="prefs_orientation_sensor_automatic">Avtomatik oriyentasiya (avtomatik fırlanma)</string>
+    <string name="prefs_orientation_system_orientation">Sistem istiqamətini istifadə edin</string>
     <string name="prefs_other_auto_deleting_sum_text">Yeni videolar üçün kifayət qədər yer yoxdursa, qeyd edərkən ən köhnə videoları avtomatik silin</string>
     <string name="prefs_other_auto_deleting_text">Döngü qeydi</string>
     <string name="prefs_other_backup_records_tip">Səsyazmalarınızı yedəkləmək üçün Google Foto kimi proqramlar quraşdırın. Bu proqramlarda qeyd qovluqlarını tapın və onlar üçün ehtiyat nüsxə seçimini aktivləşdirin (nümunəyə baxmaq üçün mətnə ​​klikləyin).</string>
@@ -394,6 +414,7 @@
     <string name="prefs_version_text">Tətbiq versiyası</string>
     <string name="prefs_vibrate_rec_start_stop_text">Yazmağa başladıqda və ya dayandırdıqda vibrasiya</string>
     <string name="prefs_vibration_strength">Vibrasiya gücü</string>
+    <string name="prefs_video_angle_text">Video kadrların istiqamət bucağı.</string>
     <string name="prefs_video_bitrate_text">Bitreyt (keyfiyyət)</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">Kameraya Nəzarət Səhnə Rejimi (Gecə)</string>
     <string name="prefs_video_camera_control_scene_mode_text">Kameraya Nəzarət Səhnə Rejimi (Gün)</string>
@@ -413,8 +434,10 @@
     <string name="prefs_video_exposure_auto_mode_text">Avtomatik ifşa rejimi</string>
     <string name="prefs_video_exposure_night_text">Ekspozisiya kompensasiyası (gecə)</string>
     <string name="prefs_video_exposure_text">Ekspozisiya kompensasiyası (gün)</string>
-    <string name="prefs_video_flip_x_sum_text">Videonun üfüqi əks etdirilməsi. Şəkil yalnız video çəkiliş üçün dəyişir, önizləmə dəyişmir</string>
-    <string name="prefs_video_flip_x_text">Videonu üfüqi çevirin</string>
+    <string name="prefs_video_flip_angle_explanation_desc">Bu, yalnız video çəkilişə aiddir və kamera önizləməsini dəyişmir.</string>
+    <string name="prefs_video_flip_angle_explanation_title">Videoların çevrildiyi və ya səhv istiqamət bucağı olduğu hallar üçün düzəlişlər.</string>
+    <string name="prefs_video_flip_x_text">Video kadrların üfüqi əks olunması.</string>
+    <string name="prefs_video_flip_y_text">Video kadrların şaquli əks olunması.</string>
     <string name="prefs_video_focus_continuous_picture_text">Davamlı şəkil</string>
     <string name="prefs_video_focus_continuous_video_text">Davamlı video (gün ərzində tövsiyə olunur)</string>
     <string name="prefs_video_focus_infinity_text">Sonsuzluq (gecə tövsiyə olunur)</string>
@@ -444,7 +467,7 @@
     <string name="prefs_zoom_text">Rəqəmsal böyütmə (zoom)</string>
     <string name="purchase_did_make_it_previously">Əvvəllər alış-veriş etmisinizmi?</string>
     <string name="rec_audio_silence_text">Hazırda mikrofona başqa proqram tərəfindən müdaxilə edildiyi üçün səs yazısı mümkün deyil</string>
-    <string name="rec_available_space_text">Mövcuddur</string>
+    <string name="rec_available_space_text">Boş yer</string>
     <string name="rec_day_night_btn_auto_text">Avtomatik</string>
     <string name="rec_fix_short_text">Düzəltmək</string>
     <string name="rec_fix_text">Düzəltmək</string>
@@ -511,6 +534,7 @@
     <string name="subscription_status_subscribed_short">Abunə oldu</string>
     <string name="subscription_subscribe_text">Abunə ol</string>
     <string name="subscription_with_free_trial">Pulsuz sınaq ilə</string>
+    <string name="tap_to_allow_background_recording">Arxa fon videosunun çəkilişinə icazə vermək üçün toxunun.</string>
     <string name="timer_auto_start">Taymer</string>
     <string name="timer_auto_start_dlg_type_title">Yazmağa başlamaq üçün taymer təyin edin</string>
     <string name="timer_auto_start_every_day_text">Hər gün</string>

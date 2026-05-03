@@ -1,6 +1,7 @@
 <resources>
     <!--<string name="app_name_droid_dashcam">Droid Dashcam - 驾驶 DVR</string>-->
     <string name="accept_text">我接受</string>
+    <string name="allow_background_activity_on_some_devices">以下是一些允许在某些设备上进行后台活动的示例：</string>
     <string name="any_text">任何</string>
     <string name="app_alternative_name_audio">声音的</string>
     <string name="app_alternative_name_battery">电池设置</string>
@@ -9,6 +10,16 @@
     <string name="app_alternative_name_video">视频</string>
     <string name="app_name_backgroundvideorecorder">后台视频录制</string>
     <string name="app_name_droid_dashcam">Droid Dashcam</string>
+    <string name="background_recording_allow_autostart">点击这里允许应用在后台自动启动（如果尚未允许）。</string>
+    <string name="background_recording_realme_allow_background_activity">5. 打开“允许前台活动”和“允许后台活动”开关。</string>
+    <string name="background_recording_realme_app_battery_management">4. 打开“应用电池管理”屏幕并选择该应用。</string>
+    <string name="background_recording_realme_more_settings">2. 打开“更多设置”（或“省电设置”），然后分别打开“应用电池管理”和“优化电池使用”。</string>
+    <string name="background_recording_realme_optimize_battery_use">3. 在“优化电池使用”屏幕中，选择该应用，然后在弹出的窗口中选择“不优化”。</string>
+    <string name="background_recording_realme_system_settings_battery">1. 打开系统设置 → 电池</string>
+    <string name="background_recording_realme_title">为了保持 Oppo（realme）设备上后台视频录制的稳定性，请允许前台活动、后台活动，将电池模式设置为“不优化”，并允许自动启动（如果手机提供此选项）。</string>
+    <string name="background_restrictions_explain_how_to_disable">此应用设置了后台电池限制，可能会导致后台视频录制出现问题。请禁用此应用的任何电池优化或后台限制。\n\n您可以在“应用信息”→“电池”屏幕或设备系统设置中找到这些选项。将此应用的电池优化设置为“无限制”（或“不优化”），并允许前台和后台活动。这些选项的具体位置可能因设备制造商而异。</string>
+    <string name="background_restrictions_msg_text">请关闭应用后台限制，以确保视频录制稳定。</string>
+    <string name="background_restrictions_text">限制后台应用程序工作</string>
     <string name="camera">相机</string>
     <string name="camera_aperture">光圈</string>
     <string name="camera_back">摄像头（后）</string>
@@ -31,6 +42,7 @@
     <string name="close">关闭</string>
     <string name="days">天</string>
     <string name="default_text">默认</string>
+    <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">更详细的禁用电池优化并允许应用后台运行的说明：</string>
     <string name="dialog_camera_not_found_msg_text">未在此设备上发现内置或外接摄像头。此应用即将关闭…</string>
     <string name="dialog_camera_not_found_text">未找到摄像头</string>
     <string name="dialog_go_to_settings_text">打开设置</string>
@@ -42,13 +54,10 @@
     <string name="donate_disable_ads_text">捐赠，删除广告</string>
     <string name="donate_success_thanks_msg_text">多谢您的支持！</string>
     <string name="donate_text">捐赠</string>
-    <string name="donation_any_amount_text">不做任何金额的广告</string>
-    <string name="donation_dlg_has_ads_text">要免除广告，捐赠必须达到或更多。</string>
-    <string name="donation_dlg_limited_ads_message_text">对于较小的捐款，仅在主屏幕上删除广告</string>
     <string name="donation_dlg_no_ads_text">您现在已免除任何广告。</string>
     <string name="donation_level_text">您的捐赠级别：</string>
     <string name="donation_purchase_info_loading_text">购物信息尚未上传。您是否在线并登录了您的 Google 帐户？</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">如果您已经购买过应用，要恢复购买，请先清除 Google Play 商店的数据和缓存。然后卸载应用，打开 Google Play 商店，选择用于购买的正确 Google 帐户，然后重新安装应用。</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">如果您已经购买过商品，但商品没有自动恢复，请先清除 Google Play 商店的数据和缓存。然后，卸载该应用，打开 Google Play 商店，选择用于购买的正确 Google 帐户，然后重新安装该应用。</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">如果您已经捐款，要恢复购买，请选择正确的帐户后在三星 Galaxy Store 中重新安装该应用程序</string>
     <string name="donation_remove_ads_by_any_amount_text">通过一次性捐赠任意金额，永久删除广告。</string>
     <string name="donation_remove_ads_by_subscribing_text">您还可以每月捐款以删除广告。</string>
@@ -73,6 +82,7 @@
     <string name="hour">小时</string>
     <string name="hours">小时</string>
     <string name="month">月</string>
+    <string name="more_info">更多信息：</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">该应用程序不排除在电池优化之外。如果相机没有在后台运行或其他情况，则将此应用程序添加到省电模式的例外中。</string>
     <string name="msg_android_r_deleting_manual_tip_text">如果您在 Android 11 上重新安装了该应用程序，则必须手动删除旧文件</string>
     <string name="msg_auto_recording_service_was_stopped">您已停止自动开始录像的后台服务。打开应用程序以再次启动它。</string>
@@ -123,6 +133,13 @@
     <string name="notification_service_power_checker">充电中</string>
     <string name="notification_stop_text">停止</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">用于自动开/关录音</string>
+    <string name="one_time_payment">一次性付款</string>
+    <string name="one_time_payment_explanation_msg">这是终身升级——无需订阅，无需定期付费。一次付费，即可享受完全无广告的应用体验。</string>
+    <string name="one_time_payment_purchased">您已购买高级版。\n\n感谢您的支持！</string>
+    <string name="open_app_info_screen">打开“应用信息”屏幕</string>
+    <string name="open_app_info_screen_battery_usage_allow_background_activity">要允许后台视频录制，请打开“应用程序信息”屏幕，选择“电池使用情况”，然后启用“允许后台活动”。</string>
+    <string name="open_battery_settings">打开电池设置</string>
+    <string name="open_system_settings">打开系统设置</string>
     <string name="permission_audio_dlg_msg">录制视频时需要音频来录制音轨</string>
     <string name="permission_camera_dlg_msg">摄像头是视频录制和摄像头预览所必需的。</string>
     <string name="permission_camera_request_canceled">此应用程序需要使用相机录制视频的权限。但是你拒绝了。正在关闭…尝试在此应用程序的系统设置中授予相机权限</string>
@@ -192,6 +209,8 @@
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">设备制造商可能不提供对所有摄像头的访问，因此某些摄像头可能无法打开</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">设备制造商可能不会为所有应用程序提供广角镜头相机</string>
     <string name="prefs_consent_information_privacy_options">隐私选项（同意信息）</string>
+    <string name="prefs_continuous_recording">连续记录</string>
+    <string name="prefs_continuous_recording_desc">当当前文件达到设定时长时，会自动创建一个新文件。如果禁用此功能，录制将在达到时长限制后停止。</string>
     <string name="prefs_day_night_mode_auto_text">自动（白天/黑夜），按时间</string>
     <string name="prefs_day_night_mode_day_text">白天</string>
     <string name="prefs_day_night_mode_night_text">夜晚</string>
@@ -236,10 +255,11 @@
     <string name="prefs_meters_accuracy_value_text">米精度</string>
     <string name="prefs_open_source_notices_text">开源声明</string>
     <string name="prefs_optical_zoom_text">光学变焦（变焦）/焦距</string>
-    <string name="prefs_orientation_landscape">横向</string>
-    <string name="prefs_orientation_landscape_reversed">横向反转</string>
-    <string name="prefs_orientation_portrait">纵向</string>
-    <string name="prefs_orientation_sensor_automatic">自动旋转</string>
+    <string name="prefs_orientation_landscape">横向朝向</string>
+    <string name="prefs_orientation_landscape_reversed">反向横向布局</string>
+    <string name="prefs_orientation_portrait">竖屏</string>
+    <string name="prefs_orientation_sensor_automatic">自动方向（自动旋转）</string>
+    <string name="prefs_orientation_system_orientation">运用系统导向</string>
     <string name="prefs_other_auto_deleting_sum_text">如果新视频没有足够空间，录制时自动删除最旧的视频</string>
     <string name="prefs_other_auto_deleting_text">循环记录</string>
     <string name="prefs_other_backup_records_tip">要备份您的录音，请安装 Google 相册等应用程序。在这些应用程序中找到录制文件夹并为其启用备份选项（单击文本查看示例）。</string>
@@ -395,6 +415,7 @@
     <string name="prefs_version_text">应用版本</string>
     <string name="prefs_vibrate_rec_start_stop_text">开始或停止录音时振动</string>
     <string name="prefs_vibration_strength">振动强度</string>
+    <string name="prefs_video_angle_text">视频帧的方位角。</string>
     <string name="prefs_video_bitrate_text">比特率（质量）</string>
     <string name="prefs_video_camera_control_scene_mode_night_text">相机控制场景模式（夜间）</string>
     <string name="prefs_video_camera_control_scene_mode_text">相机控制场景模式（白天）</string>
@@ -414,8 +435,10 @@
     <string name="prefs_video_exposure_auto_mode_text">自动曝光模式</string>
     <string name="prefs_video_exposure_night_text">曝光补偿（夜间）</string>
     <string name="prefs_video_exposure_text">曝光补偿（白天）</string>
-    <string name="prefs_video_flip_x_sum_text">视频的水平镜像。图像变化仅用于视频录制，预览不变化</string>
-    <string name="prefs_video_flip_x_text">水平翻转视频</string>
+    <string name="prefs_video_flip_angle_explanation_desc">这仅适用于视频录制，不会改变相机预览。</string>
+    <string name="prefs_video_flip_angle_explanation_title">修复视频翻转或方向角度错误的问题。</string>
+    <string name="prefs_video_flip_x_text">视频帧的水平反射。</string>
+    <string name="prefs_video_flip_y_text">视频帧的垂直反射。</string>
     <string name="prefs_video_focus_continuous_picture_text">连续图像</string>
     <string name="prefs_video_focus_continuous_video_text">连续视频（白天推荐）</string>
     <string name="prefs_video_focus_infinity_text">无限（晚上推荐）</string>
@@ -445,7 +468,7 @@
     <string name="prefs_zoom_text">数码变焦（变焦）</string>
     <string name="purchase_did_make_it_previously">你之前买过东西吗？</string>
     <string name="rec_audio_silence_text">目前无法录音，因为麦克风被另一个应用程序拦截</string>
-    <string name="rec_available_space_text">空间剩余</string>
+    <string name="rec_available_space_text">可用空间</string>
     <string name="rec_day_night_btn_auto_text">自动</string>
     <string name="rec_fix_short_text">纠正</string>
     <string name="rec_fix_text">纠正</string>
@@ -512,6 +535,7 @@
     <string name="subscription_status_subscribed_short">已订阅</string>
     <string name="subscription_subscribe_text">订阅</string>
     <string name="subscription_with_free_trial">免费试用</string>
+    <string name="tap_to_allow_background_recording">点击允许后台视频录制。</string>
     <string name="timer_auto_start">计时器</string>
     <string name="timer_auto_start_dlg_type_title">设置计时器开始录制</string>
     <string name="timer_auto_start_every_day_text">每天</string>
