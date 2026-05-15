@@ -1,6 +1,7 @@
 <resources>
     <string name="accept_text">tôi chấp nhận</string>
     <string name="allow_background_activity_on_some_devices">Dưới đây là một số ví dụ về cách cho phép hoạt động nền trên một số thiết bị:</string>
+    <string name="allow_background_recording">Để duy trì chế độ quay video nền ổn định trên thiết bị của bạn, hãy làm theo hướng dẫn bên dưới.</string>
     <string name="any_text">Bất kì</string>
     <string name="app_alternative_name_audio">Âm thanh</string>
     <string name="app_alternative_name_battery">Cài đặt pin</string>
@@ -19,6 +20,7 @@
     <string name="background_restrictions_explain_how_to_disable">Ứng dụng này có thiết lập hạn chế sử dụng pin ngầm, có thể gây ra sự cố khi quay video ở chế độ nền. Vui lòng tắt mọi tối ưu hóa pin hoặc hạn chế sử dụng pin ngầm cho ứng dụng này.\nBạn có thể tìm các tùy chọn này tại màn hình \"Thông tin ứng dụng\" → \"Pin\" hoặc trong cài đặt hệ thống của thiết bị. Đặt tối ưu hóa pin thành \"Không hạn chế\" (hoặc \"Không tối ưu hóa\") cho ứng dụng này, cho phép hoạt động ở chế độ nền và chế độ trước. Vị trí chính xác của các tùy chọn này có thể khác nhau tùy thuộc vào nhà sản xuất thiết bị của bạn.</string>
     <string name="background_restrictions_msg_text">Vui lòng tắt các hạn chế chạy ngầm của ứng dụng để đảm bảo quá trình quay video ổn định.</string>
     <string name="background_restrictions_text">Hạn chế hoạt động của ứng dụng nền</string>
+    <string name="battery_settings_on_older_devices">Trên một số thiết bị đời cũ, các tùy chọn này có thể hơi khác một chút. Xem ảnh chụp màn hình ví dụ bên dưới.</string>
     <string name="camera">Máy ảnh</string>
     <string name="camera_aperture">Cơ hoành</string>
     <string name="camera_back">Camera sau</string>
@@ -55,8 +57,9 @@
     <string name="donate_text">Quyên góp</string>
     <string name="donation_dlg_no_ads_text">Bạn không có quảng cáo.</string>
     <string name="donation_level_text">Mức đóng góp của bạn:</string>
+    <string name="donation_play_services_to_restore_purchases">Nếu cách này không hiệu quả, hãy thử kiểm tra xem Google Play Services có cần được cập nhật hay không. Bạn cũng có thể xóa dữ liệu và bộ nhớ đệm của ứng dụng, sau đó cài đặt lại. Vui lòng xem hướng dẫn trong liên kết bên dưới để biết cách thực hiện.\n</string>
     <string name="donation_purchase_info_loading_text">Thông tin mua sắm vẫn chưa được tải lên. Bạn có trực tuyến và đăng nhập vào tài khoản Google của mình không?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Nếu bạn đã mua hàng nhưng giao dịch không được tự động khôi phục, trước tiên hãy xóa dữ liệu và bộ nhớ cache của Google Play Store. Sau đó, gỡ cài đặt ứng dụng, mở Google Play Store, chọn đúng tài khoản Google đã sử dụng để mua hàng và cài đặt lại ứng dụng.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Nếu bạn đã mua hàng nhưng giao dịch không được tự động khôi phục, hãy thử xóa ứng dụng trước. Sau đó, xóa dữ liệu và bộ nhớ cache của Google Play Store, mở lại ứng dụng, chọn đúng tài khoản Google đã sử dụng để mua hàng và cài đặt lại ứng dụng.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">Nếu bạn đã thực hiện quyên góp, để khôi phục giao dịch mua, vui lòng cài đặt lại ứng dụng trong Samsung Galaxy Store sau khi chọn đúng tài khoản</string>
     <string name="donation_remove_ads_by_any_amount_text">Xóa quảng cáo mãi mãi bằng cách quyên góp một lần với số tiền bất kỳ.</string>
     <string name="donation_remove_ads_by_subscribing_text">Bạn cũng có thể quyên góp hàng tháng để loại bỏ quảng cáo.</string>
@@ -78,10 +81,16 @@
     <string name="format_speed_measure_kilometers">km/h</string>
     <string name="format_speed_measure_miles">mph</string>
     <string name="from">từ</string>
+    <string name="honor_battery_settings">Mở \"Cài đặt hệ thống\", chọn \"Pin\", sau đó nhấn \"Khởi chạy ứng dụng\".</string>
+    <string name="honor_battery_settings_app_launch">Tìm ứng dụng trong danh sách và tắt công tắc bên cạnh ứng dụng đó để vô hiệu hóa chế độ quản lý tự động.</string>
+    <string name="honor_battery_settings_app_launch_manage_manually">Một cửa sổ bật lên sẽ xuất hiện — hãy bật tất cả các tùy chọn (\"Tự động khởi chạy\", \"Khởi chạy phụ\", \"Chạy ngầm\") nếu bất kỳ tùy chọn nào bị tắt.</string>
     <string name="hour">giờ</string>
     <string name="hours">giờ</string>
     <string name="month">tháng</string>
     <string name="more_info">Thông tin chi tiết hơn:</string>
+    <string name="moto_allow_background_recording">Để duy trì chế độ quay video nền ổn định trên các thiết bị Motorola, hãy bật tùy chọn \"Cho phép sử dụng nền\" cho ứng dụng này và đặt \"Tối ưu hóa pin\" thành \"Không giới hạn\". Tắt tùy chọn \"Quản lý ứng dụng chạy nền\" nếu có.</string>
+    <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">Mở màn hình \"Thông tin ứng dụng\", chọn \"Mức sử dụng pin của ứng dụng\" và bật \"Cho phép sử dụng nền\" (thường được bật mặc định).</string>
+    <string name="moto_disable_manage_background_apps">Mở \"Cài đặt hệ thống\", chọn \"Pin\", sau đó chọn \"Quản lý ứng dụng chạy nền\" (nếu có) và tắt tùy chọn \"Sử dụng Quản lý ứng dụng chạy nền\". Tùy chọn này cũng có thể có tên là \"Cải thiện thời lượng pin khi không hoạt động\".</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Ứng dụng này không bị loại trừ khỏi việc tối ưu hóa pin. Nếu máy ảnh không chạy ở chế độ nền hoặc thứ gì khác, hãy thêm ứng dụng này vào các trường hợp ngoại lệ của chế độ tiết kiệm năng lượng.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Nếu bạn đã cài đặt lại ứng dụng trên Android 11, thì các tệp cũ phải được xóa theo cách thủ công</string>
     <string name="msg_auto_recording_service_was_stopped">Bạn đã dừng dịch vụ nền để tự động bắt đầu quay video. Mở ứng dụng để khởi chạy lại.</string>
@@ -233,7 +242,7 @@
     <string name="prefs_gps_disabled_no_warning_text">Không hiển thị nút cảnh báo và sửa lỗi</string>
     <string name="prefs_gps_disabled_warning_text">Cảnh báo vô hiệu hóa GPS, nút sửa chữa</string>
     <string name="prefs_info_more_category_text">Thông tin /Thêm…</string>
-    <string name="prefs_kill_services_sum_text">Có các cài đặt trên thiết bị của bạn để cho phép các ứng dụng tự động phát và chạy trong nền. Nhấp vào đây và thêm ứng dụng vào các trường hợp ngoại lệ (cho phép tự khởi động lại, v.v.) để cho phép ứng dụng chạy trong nền và khi màn hình tắt, nếu bị cấm</string>
+    <string name="prefs_kill_services_sum_text">Thiết bị của bạn có các cài đặt kiểm soát việc sử dụng nền (hoặc tự động khởi chạy). Chạm vào đây để cho phép sử dụng nền hoặc thêm ứng dụng vào danh sách ngoại lệ nếu ứng dụng bị hạn chế.</string>
     <string name="prefs_kill_services_text">Cho phép công việc nền</string>
     <string name="prefs_language">Ngôn ngữ</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Mở ứng dụng khi quá trình ghi bắt đầu tự động</string>
@@ -479,10 +488,10 @@
     <string name="rec_network_text">Mạng lưới</string>
     <string name="rec_off_text">Tắt</string>
     <string name="rec_on_text">Bao gồm</string>
-    <string name="rec_privacy_analytics_msg">Ứng dụng sử dụng Firebase Analytics cho các phân tích ẩn danh cơ bản (xem liên kết bên dưới)</string>
+    <string name="rec_privacy_analytics_msg">Ứng dụng sử dụng Firebase Analytics và Crashlytics để phân tích dữ liệu ẩn danh cơ bản, chẩn đoán và phát hiện lỗi, giúp khắc phục sự cố trên nhiều thiết bị. Tìm hiểu thêm tại liên kết bên dưới.</string>
     <string name="rec_privacy_appgallery_ads_iap">Ứng dụng sử dụng quảng cáo Petal Huawei (để hiển thị quảng cáo) và trong các giao dịch mua ứng dụng (để xóa quảng cáo). Vui lòng nhấp vào liên kết chính sách bảo mật để biết thêm thông tin.</string>
     <string name="rec_privacy_permissions_msg">Ứng dụng sử dụng các quyền sau:\n- Mở mã định danh thiết bị ẩn danh OAID (dành cho quảng cáo được cá nhân hóa)\n- CAMERA, ÂM THANH (để quay video)\n- LƯU TRỮ (để lưu video)\n- VỊ TRÍ (để lấy địa chỉ của vị trí hiện tại, tọa độ GPS, tốc độ - để hiển thị trên màn hình chính của ứng dụng và áp dụng phụ đề cho video)\n- Quảng cáo qua mạng)</string>
-    <string name="rec_privacy_service_msg">Quyền riêng tư: Tất cả video bạn quay sẽ chỉ được lưu trên thiết bị cục bộ của bạn. Ứng dụng không sao lưu video của bạn (không có bất kỳ kết nối nào đến máy chủ)\n\nỨng dụng sẽ tiếp tục chạy ở chế độ nền (dịch vụ nền trước xuất hiện trên thanh thông báo) trong khi quá trình ghi đang hoạt động, khi bạn quay lại màn hình chính, hãy chuyển sang ứng dụng khác hoặc khóa điện thoại để có thể tiếp tục ghi và khi bạn bật tính năng tự động ghi âm (nếu tắt dịch vụ nền thì các chức năng này sẽ không hoạt động).</string>
+    <string name="rec_privacy_service_msg">Bảo mật: Tất cả video bạn quay chỉ được lưu trên thiết bị cục bộ của bạn. Ứng dụng không sao lưu video của bạn lên máy chủ bên ngoài.\n\nTrong khi đang quay, ứng dụng sẽ tiếp tục chạy ngầm (thông qua dịch vụ nền hiển thị trên thanh thông báo) khi bạn quay lại màn hình chính, chuyển sang ứng dụng khác hoặc khóa điện thoại, cho phép quá trình quay tiếp tục. Một số tính năng ghi tự động tùy chọn có thể được bật cũng dựa vào dịch vụ nền này — nếu bạn tắt dịch vụ này, các chức năng đó sẽ không hoạt động.</string>
     <string name="recording_file_name_prefix">Tiền tố cho tên tệp video</string>
     <string name="recording_start_short_text">Bắt đầu</string>
     <string name="recording_start_text">Bắt đầu ghi âm</string>

@@ -1,6 +1,7 @@
 <resources>
     <string name="accept_text">jag accepterar</string>
     <string name="allow_background_activity_on_some_devices">Nedan följer exempel på hur man tillåter bakgrundsaktivitet på vissa enheter:</string>
+    <string name="allow_background_recording">För att hålla bakgrundsvideoinspelningen stabil på din enhet, följ instruktionerna nedan.</string>
     <string name="any_text">Några</string>
     <string name="app_alternative_name_audio">Audio</string>
     <string name="app_alternative_name_battery">Batteriinställningar</string>
@@ -19,6 +20,7 @@
     <string name="background_restrictions_explain_how_to_disable">Det finns bakgrundsbegränsningar för batterinivån i den här appen som kan orsaka problem med videoinspelning i bakgrunden. Inaktivera alla batterioptimeringar eller bakgrundsbegränsningar för den här appen.\n\nDu kan försöka hitta sådana alternativ på skärmen \"Appinformation\" → \"Batteri\" eller i enhetens systeminställningar. Ställ in batterioptimeringen till \"Obegränsad\" (eller \"Optimera inte\") för den här appen, tillåt förgrunds- och bakgrundsaktivitet. Den exakta platsen för sådana alternativ kan variera beroende på enhetens tillverkare.</string>
     <string name="background_restrictions_msg_text">Inaktivera bakgrundsbegränsningar för appen för att säkerställa stabil videoinspelning.</string>
     <string name="background_restrictions_text">Begränsa bakgrundsapparbete</string>
+    <string name="battery_settings_on_older_devices">På vissa äldre enheter kan dessa alternativ skilja sig något. Se exempelskärmdumparna nedan.</string>
     <string name="camera">Kamera</string>
     <string name="camera_aperture">Diafragman</string>
     <string name="camera_back">Backkamera</string>
@@ -55,8 +57,9 @@
     <string name="donate_text">Donation</string>
     <string name="donation_dlg_no_ads_text">Du har inga annonser.</string>
     <string name="donation_level_text">Din donationsnivå:</string>
+    <string name="donation_play_services_to_restore_purchases">Om detta inte fungerar kan du prova att kontrollera om Google Play-tjänster behöver uppdateras. Du kan också rensa dess data och cache och sedan installera om appen. Se länken nedan för instruktioner om hur du gör detta.</string>
     <string name="donation_purchase_info_loading_text">Shoppinginformationen har inte laddats upp ännu. Är du online och inloggad på ditt Google-konto?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Om du redan har gjort ett köp, men det inte återställdes automatiskt, rensa först Google Play Store-data och cacheminnet. Avinstallera sedan appen, öppna Google Play Store, välj rätt Google-konto som användes för att göra köpet och installera om appen.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Om du redan har gjort ett köp men det inte återställdes automatiskt kan du försöka ta bort appen först. Rensa sedan Google Play Butiks data och cacheminne, öppna den, välj rätt Google-konto som användes för att göra köpet och installera om appen.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">Om du redan har gjort en donation, för att återställa köp, vänligen installera om applikationen i Samsung Galaxy Store efter att ha valt rätt konto</string>
     <string name="donation_remove_ads_by_any_amount_text">Ta bort annonser för alltid med en engångsdonation oavsett belopp.</string>
     <string name="donation_remove_ads_by_subscribing_text">Du kan också donera månadsvis för att ta bort annonser.</string>
@@ -78,10 +81,16 @@
     <string name="format_speed_measure_kilometers">km/h</string>
     <string name="format_speed_measure_miles">mph</string>
     <string name="from">från</string>
+    <string name="honor_battery_settings">Öppna \"Systeminställningar\", välj \"Batteri\" och tryck sedan på \"Appstart\".</string>
+    <string name="honor_battery_settings_app_launch">Hitta appen i listan och stäng av reglaget bredvid den för att inaktivera automatisk hantering.</string>
+    <string name="honor_battery_settings_app_launch_manage_manually">Ett popup-fönster visas – aktivera alla alternativ (\"Autostart\", \"Sekundär start\", \"Kör i bakgrunden\") om några är inaktiverade.</string>
     <string name="hour">timme</string>
     <string name="hours">timmar</string>
     <string name="month">månad</string>
     <string name="more_info">Mer information:</string>
+    <string name="moto_allow_background_recording">För att hålla bakgrundsvideoinspelning stabil på Motorola-enheter, aktivera \"Tillåt bakgrundsanvändning\" för den här appen och ställ in \"Batterioptimering\" till \"Obegränsad\". Inaktivera alternativet \"Hantera bakgrundsappar\" om det är tillgängligt.</string>
+    <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">Öppna skärmen \"Appinfo\", välj \"Appens batterianvändning\" och aktivera \"Tillåt bakgrundsanvändning\" (det är vanligtvis aktiverat som standard).</string>
+    <string name="moto_disable_manage_background_apps">Öppna \"Systeminställningar\", välj \"Batteri\" och välj sedan \"Hantera bakgrundsappar\" (om tillgängligt) och inaktivera alternativet \"Använd Hantera bakgrundsappar\". Alternativet kan också heta \"Förbättra batteri vid inaktivitet\".</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Applikationen är inte utesluten från batterioptimering. Om kameran inte körs i bakgrunden eller något annat, lägg till denna applikation till undantagen för energisparläget.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Om du installerade om applikationen på Android 11 måste de gamla filerna raderas manuellt</string>
     <string name="msg_auto_recording_service_was_stopped">Du har stoppat bakgrundstjänsten för att automatiskt starta videoinspelning. Öppna programmet för att starta det igen.</string>
@@ -233,7 +242,7 @@
     <string name="prefs_gps_disabled_no_warning_text">Visa inte varnings- och fixknapp</string>
     <string name="prefs_gps_disabled_warning_text">GPS inaktiverad varning, fix-knapp</string>
     <string name="prefs_info_more_category_text">Information /Mer…</string>
-    <string name="prefs_kill_services_sum_text">Det finns inställningar på din enhet som tillåter att appar spelas upp automatiskt och körs i bakgrunden. Klicka här och lägg till applikationen till undantagen (tillåt autostart och så vidare) för att låta den köras i bakgrunden och när skärmen är avstängd, om det är förbjudet</string>
+    <string name="prefs_kill_services_sum_text">Din enhet har inställningar som styr bakgrundsanvändning (eller automatisk start). Tryck här för att tillåta bakgrundsanvändning eller lägg till appen i undantagslistan om den är begränsad.</string>
     <string name="prefs_kill_services_text">Tillåter bakgrundsarbete</string>
     <string name="prefs_language">Språk</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Öppna programmet när inspelningen startar automatiskt</string>
@@ -479,10 +488,10 @@
     <string name="rec_network_text">Netto</string>
     <string name="rec_off_text">Av</string>
     <string name="rec_on_text">Inkl.</string>
-    <string name="rec_privacy_analytics_msg">Appen använder Firebase Analytics för grundläggande anonym analys (se länk nedan)</string>
+    <string name="rec_privacy_analytics_msg">Appen använder Firebase Analytics och Crashlytics för grundläggande anonym analys, diagnostik och feldetektering, vilket hjälper till att felsöka problem på olika enheter. Läs mer på länken nedan.</string>
     <string name="rec_privacy_appgallery_ads_iap">App använder Huawei Petal -annonser (för att visa annonser) och i appköp (för att ta bort annonser). Klicka på Länk för sekretesspolicy för mer information.</string>
     <string name="rec_privacy_permissions_msg">Applikationen använder följande behörigheter:\n- Öppna anonym enhetsidentifierare OAID (för personlig reklam)\n- KAMERA, LJUD (för videoinspelning)\n- LAGRING (för att spara videor)\n- PLATS (för att få adressen till den aktuella platsen, GPS-koordinater, hastighet - för att visa på programmets huvudskärm och använda undertexter på videon)\n- Internetannonsering)</string>
-    <string name="rec_privacy_service_msg">Sekretess: Alla videor du spelar in sparas endast på din lokala enhet. Applikationen säkerhetskopierar inte dina videor (har inga anslutningar till servrar)\n\nAppen fortsätter att köras i bakgrunden (förgrundstjänsten som visas i meddelandefältet) medan inspelningen är aktiv, när du återgår till startskärmen, byter till en annan app eller låser din telefon för att kunna fortsätta inspelningen, och när du slår på funktioner för automatisk inspelning (om du stänger bakgrundstjänsten kommer dessa funktioner inte att fungera).</string>
+    <string name="rec_privacy_service_msg">Sekretess: Alla videor du spelar in sparas endast på din lokala enhet. Appen säkerhetskopierar inte dina videor till externa servrar.\n\nUnder aktiv inspelning fortsätter appen att köras i bakgrunden (via förgrundstjänsten som visas i aviseringsfältet) när du återgår till startskärmen, byter till en annan app eller låser din telefon, vilket gör att inspelningen kan fortsätta. Vissa valfria automatiska inspelningsfunktioner som kan aktiveras är också beroende av denna bakgrundstjänst – om du stänger den fungerar dessa funktioner inte.</string>
     <string name="recording_file_name_prefix">Prefix för videofilnamn</string>
     <string name="recording_start_short_text">Start</string>
     <string name="recording_start_text">Börja spela in</string>

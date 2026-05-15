@@ -1,6 +1,7 @@
 <resources>
     <string name="accept_text">kuv txais</string>
     <string name="allow_background_activity_on_some_devices">Hauv qab no yog cov piv txwv ntawm yuav ua li cas tso cai rau kev ua ub no tom qab ntawm qee cov khoom siv:</string>
+    <string name="allow_background_recording">Yuav kom cov yeeb yaj kiab tom qab ruaj khov ntawm koj lub cuab yeej, ua raws li cov lus qhia hauv qab no.</string>
     <string name="any_text">Ib qho</string>
     <string name="app_alternative_name_audio">Suab</string>
     <string name="app_alternative_name_battery">Roj teeb nqis</string>
@@ -19,6 +20,7 @@
     <string name="background_restrictions_explain_how_to_disable">Muaj kev txwv tsis pub siv roj teeb rau lub app no uas yuav ua rau muaj teeb meem thaum kaw video tom qab. Thov tshem tawm cov kev kho kom zoo dua roj teeb lossis kev txwv tsis pub siv keeb kwm yav dhau rau lub app no.\nKoj tuaj yeem sim nrhiav cov kev xaiv no ntawm \"App info\" → \"Battery\" screen lossis hauv koj lub cuab yeej system settings. Teem kev kho kom zoo dua roj teeb rau \"Unrestricted\" (lossis \"Don\'t optimize\") rau lub app no, tso cai rau kev ua haujlwm pem hauv ntej thiab tom qab. Qhov chaw tseeb ntawm cov kev xaiv no yuav txawv nyob ntawm koj lub tuam txhab tsim khoom siv.</string>
     <string name="background_restrictions_msg_text">Thov kaw cov kev txwv keeb kwm yav dhau rau lub app kom ntseeg tau tias kev kaw video ruaj khov.</string>
     <string name="background_restrictions_text">Txwv kev ua haujlwm ntawm cov app tom qab</string>
+    <string name="battery_settings_on_older_devices">Rau qee cov khoom siv qub dua, cov kev xaiv no yuav txawv me ntsis. Saib cov piv txwv ntawm cov duab hauv qab no.</string>
     <string name="camera">Lub koob yees duab</string>
     <string name="camera_aperture">Diaphragm</string>
     <string name="camera_back">Lub koob yees duab tom qab</string>
@@ -55,8 +57,9 @@
     <string name="donate_text">Kev pub dawb</string>
     <string name="donation_dlg_no_ads_text">Koj tsis muaj kev tshaj tawm.</string>
     <string name="donation_level_text">Koj qib pub dawb:</string>
+    <string name="donation_play_services_to_restore_purchases">Yog tias qhov no tsis ua haujlwm, sim xyuas seb puas yuav tsum tau hloov kho Google Play Services. Koj tuaj yeem tshem nws cov ntaub ntawv thiab cache, tom qab ntawd rov nruab lub app. Thov saib qhov txuas hauv qab no kom paub cov lus qhia txog yuav ua li cas.</string>
     <string name="donation_purchase_info_loading_text">Cov ntaub ntawv yuav khoom tseem tsis tau muab tso rau. Koj puas online thiab nkag rau hauv koj tus account Google?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Yog tias koj twb tau yuav khoom lawm, tab sis nws tsis tau rov qab los rau koj tus kheej, thov ua ntej tshem cov ntaub ntawv thiab cache ntawm Google Play Store. Tom qab ntawd, tshem tawm lub app, qhib Google Play Store, xaiv tus account Google uas siv los yuav khoom, thiab rov nruab lub app dua.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Yog tias koj twb tau yuav khoom lawm tab sis nws tsis tau rov qab los rau koj tus kheej, sim rho tawm lub app ua ntej. Tom qab ntawd tshem cov ntaub ntawv thiab cache ntawm Google Play Store, qhib nws, xaiv tus account Google uas siv los yuav khoom, thiab rov nruab lub app dua.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">Yog tias koj twb tau pub dawb lawm, tom qab ntawd txhawm rau rov yuav khoom, thov rov nruab daim ntawv thov hauv Samsung Galaxy Store tom qab xaiv tus account kom raug</string>
     <string name="donation_remove_ads_by_any_amount_text">Tshem tawm kev tshaj tawm mus ib txhis nrog kev pub dawb ib zaug ntawm ib qho twg.</string>
     <string name="donation_remove_ads_by_subscribing_text">Koj tuaj yeem pub dawb txhua hli kom tshem tawm kev tshaj tawm.</string>
@@ -78,10 +81,16 @@
     <string name="format_speed_measure_kilometers">km/h</string>
     <string name="format_speed_measure_miles">mph</string>
     <string name="from">los ntawm</string>
+    <string name="honor_battery_settings">Qhib \"System Settings\", xaiv \"Battery\", ces coj mus rhaub \"App launch\".</string>
+    <string name="honor_battery_settings_app_launch">Nrhiav lub app hauv daim ntawv teev npe thiab tua lub toggle nyob ib sab ntawm nws kom kaw qhov kev tswj hwm tsis siv neeg.</string>
+    <string name="honor_battery_settings_app_launch_manage_manually">Ib qho popup yuav tshwm sim — qhib tag nrho cov kev xaiv (\"Auto-launch\", \"Secondary launch\", \"Khiav hauv keeb kwm yav dhau\") yog tias muaj qhov twg raug kaw.</string>
     <string name="hour">teev</string>
     <string name="hours">teev</string>
     <string name="month">hli</string>
     <string name="more_info">Xav paub ntxiv:</string>
+    <string name="moto_allow_background_recording">Yuav kom cov yeeb yaj kiab tom qab ruaj khov ntawm Motorola cov khoom siv, qhib \"Tso cai siv tom qab\" rau lub app no thiab teeb tsa \"Kev kho roj teeb\" rau \"Tsis txwv\". Tua qhov kev xaiv \"Tswj cov apps tom qab\" yog tias muaj.</string>
+    <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">Qhib qhov screen \"App info\", xaiv \"App battery usage\", thiab qhib \"Allow background usage\" (feem ntau nws yog qhib los ntawm lub neej ntawd).</string>
+    <string name="moto_disable_manage_background_apps">Qhib \"System Settings\", xaiv \"Battery\", tom qab ntawd xaiv \"Manage background apps\" (yog tias muaj) thiab tua qhov kev xaiv \"Siv Manage background apps\". Qhov kev xaiv no kuj tseem yuav raug hu ua \"Improve battery while inactive\".</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Daim ntawv thov tsis raug cais los ntawm kev txhim kho roj teeb. Yog tias lub koob yees duab tsis khiav hauv keeb kwm yav dhau los lossis lwm yam, ces ntxiv daim ntawv thov no rau qhov kev zam ntawm hom kev txuag hluav taws xob.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Yog tias koj rov nruab daim ntawv thov ntawm Android 11, tom qab ntawd cov ntaub ntawv qub yuav tsum tau muab tshem tawm manually</string>
     <string name="msg_auto_recording_service_was_stopped">Koj tau tso tseg qhov kev pabcuam keeb kwm yav dhau los kom pib kaw cov yeeb yaj kiab. Qhib daim ntawv thov kom tso nws dua.</string>
@@ -233,7 +242,7 @@
     <string name="prefs_gps_disabled_no_warning_text">Tsis txhob qhia ceeb toom thiab kho khawm</string>
     <string name="prefs_gps_disabled_warning_text">GPS teeb meem ceeb toom, kho khawm</string>
     <string name="prefs_info_more_category_text">Cov ntaub ntawv /Ntau…</string>
-    <string name="prefs_kill_services_sum_text">Muaj cov kev teeb tsa ntawm koj lub cuab yeej tso cai rau cov apps kom autoplay thiab khiav hauv keeb kwm yav dhau. Nyem qhov no thiab ntxiv daim ntawv thov rau qhov kev zam (tso cai autostart thiab lwm yam) tso cai rau nws khiav hauv keeb kwm yav dhau thiab thaum lub vijtsam tawm, yog txwv tsis pub</string>
+    <string name="prefs_kill_services_sum_text">Koj lub cuab yeej muaj cov chaw teeb tsa uas tswj kev siv keeb kwm yav dhau (lossis pib tsis siv neeg). Coj mus rhaub ntawm no kom tso cai rau kev siv keeb kwm yav dhau lossis ntxiv lub app rau hauv daim ntawv teev kev zam yog tias nws raug txwv.</string>
     <string name="prefs_kill_services_text">Tso cai ua haujlwm tom qab</string>
     <string name="prefs_language">Lus</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Qhib daim ntawv thov thaum kaw cia pib</string>
@@ -479,10 +488,10 @@
     <string name="rec_network_text">Net</string>
     <string name="rec_off_text">Tawm</string>
     <string name="rec_on_text">Incl.</string>
-    <string name="rec_privacy_analytics_msg">Lub app siv Firebase Analytics rau kev txheeb xyuas tsis qhia npe (saib qhov txuas hauv qab no)</string>
+    <string name="rec_privacy_analytics_msg">Lub app siv Firebase Analytics thiab Crashlytics rau kev tshuaj xyuas tsis qhia npe yooj yim, kev kuaj mob, thiab kev nrhiav qhov yuam kev, pab daws teeb meem ntawm ntau yam khoom siv. Kawm ntxiv ntawm qhov txuas hauv qab no.</string>
     <string name="rec_privacy_appgallery_ads_iap">Kev siv cov nplaim paj txhu Thov nyem txoj cai ntiag tug rau cov ntaub ntawv ntxiv.</string>
     <string name="rec_privacy_permissions_msg">Daim ntawv thov siv cov kev tso cai hauv qab no:\n- Qhib cov khoom siv tsis qhia npe OAID (rau kev tshaj tawm tus kheej)\n- CAMERA, AUDIO (rau kev kaw video)\n- STORAGE (rau txuag cov yeeb yaj kiab)\n- LOCATION (kom tau txais qhov chaw nyob ntawm qhov chaw nyob tam sim no, GPS kev tswj hwm, nrawm - kom pom ntawm lub vijtsam tseem ceeb ntawm daim ntawv thov thiab siv cov ntawv sau rau hauv video)\n- Kev tshaj tawm hauv Internet)</string>
-    <string name="rec_privacy_service_msg">Tsis pub twg paub: Txhua cov yeeb yaj kiab uas koj kaw yuav raug cawm hauv koj lub cuab yeej hauv zos xwb. Daim ntawv thov tsis backup koj cov yeeb yaj duab (tsis muaj kev sib txuas rau servers)\n\nLub app tseem yuav khiav hauv keeb kwm yav dhau (qhov kev pabcuam pem hauv ntej uas tshwm hauv qhov ceeb toom bar) thaum cov ntaubntawv povthawj siv ua haujlwm, thaum koj rov qab mus rau lub vijtsam hauv tsev, hloov mus rau lwm lub app lossis kaw koj lub xov tooj kom tuaj yeem kaw txuas ntxiv, thiab thaum twg koj qhib cov yam ntxwv rau kev kaw cia tsis siv neeg (yog tias koj kaw qhov kev pabcuam tom qab, cov haujlwm no yuav tsis ua haujlwm).</string>
+    <string name="rec_privacy_service_msg">Kev Ceev Ntaub Ntiag Tug: Txhua cov yeeb yaj kiab uas koj kaw tsuas yog khaws cia rau hauv koj lub cuab yeej hauv zos xwb. Lub app tsis thaub qab koj cov yeeb yaj kiab rau cov servers sab nraud.\n\nThaum lub sijhawm kaw, lub app yuav txuas ntxiv khiav hauv keeb kwm yav dhau (los ntawm qhov kev pabcuam pem hauv ntej uas pom hauv kab ceeb toom) thaum koj rov qab mus rau lub vijtsam hauv tsev, hloov mus rau lwm lub app, lossis xauv koj lub xov tooj, cia kev kaw txuas ntxiv mus. Qee qhov kev xaiv tau ntawm kev kaw tsis siv neeg uas tuaj yeem qhib tau kuj vam khom qhov kev pabcuam tom qab no - yog tias koj kaw nws, cov haujlwm no yuav tsis ua haujlwm.</string>
     <string name="recording_file_name_prefix">Prefix rau cov npe video file</string>
     <string name="recording_start_short_text">Pib</string>
     <string name="recording_start_text">Pib sau</string>

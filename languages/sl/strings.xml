@@ -1,6 +1,7 @@
 <resources>
     <string name="accept_text">sprejmem</string>
     <string name="allow_background_activity_on_some_devices">Spodaj so primeri, kako omogočiti dejavnost v ozadju na nekaterih napravah:</string>
+    <string name="allow_background_recording">Če želite, da snemanje videoposnetkov v ozadju v napravi ostane stabilno, sledite spodnjim navodilom.</string>
     <string name="any_text">Kaj</string>
     <string name="app_alternative_name_audio">Avdio</string>
     <string name="app_alternative_name_battery">Nastavitve baterije</string>
@@ -19,6 +20,7 @@
     <string name="background_restrictions_explain_how_to_disable">Za to aplikacijo so nastavljene omejitve porabe baterije v ozadju, ki lahko povzročijo težave pri snemanju videoposnetkov v ozadju. Onemogočite vse optimizacije baterije ali omejitve ozadja za to aplikacijo.\nTe možnosti lahko poskusite najti na zaslonu »Informacije o aplikaciji« → »Baterija« ali v sistemskih nastavitvah naprave. Optimizacijo baterije za to aplikacijo nastavite na »Neomejeno« (ali »Ne optimiziraj«) in dovolite dejavnosti v ospredju in ozadju. Natančna lokacija teh možnosti se lahko razlikuje glede na proizvajalca vaše naprave.</string>
     <string name="background_restrictions_msg_text">Za stabilno snemanje videoposnetkov onemogočite omejitve ozadja za aplikacijo.</string>
     <string name="background_restrictions_text">Omejevanje dela aplikacij v ozadju</string>
+    <string name="battery_settings_on_older_devices">Na nekaterih starejših napravah se te možnosti lahko nekoliko razlikujejo. Oglejte si spodnje posnetke zaslona.</string>
     <string name="camera">Kamera</string>
     <string name="camera_aperture">Diafragma</string>
     <string name="camera_back">Zadnja kamera</string>
@@ -55,8 +57,9 @@
     <string name="donate_text">Donacija</string>
     <string name="donation_dlg_no_ads_text">Nimate oglasov.</string>
     <string name="donation_level_text">Vaša raven donacije:</string>
+    <string name="donation_play_services_to_restore_purchases">Če to ne deluje, poskusite preveriti, ali je treba posodobiti Storitve Google Play. Lahko tudi počistite podatke in predpomnilnik ter nato znova namestite aplikacijo. Za navodila, kako to storiti, si oglejte spodnjo povezavo.</string>
     <string name="donation_purchase_info_loading_text">Informacije o nakupovanju še niso bile naložene. Ste na spletu in prijavljeni v svoj Google Račun?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Če ste že opravili nakup, vendar ni bil samodejno obnovljen, najprej počistite podatke in predpomnilnik trgovine Google Play. Nato odstranite aplikacijo, odprite trgovino Google Play, izberite pravilen Google Račun, ki ste ga uporabili za nakup, in znova namestite aplikacijo.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Če ste že opravili nakup, vendar se ni samodejno obnovil, poskusite najprej izbrisati aplikacijo. Nato počistite podatke in predpomnilnik trgovine Google Play, jo odprite, izberite pravilen Google Račun, ki ste ga uporabili za nakup, in znova namestite aplikacijo.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">Če ste že prispevali, potem za obnovitev nakupov znova namestite aplikacijo v trgovini Samsung Galaxy Store, potem ko izberete pravi račun</string>
     <string name="donation_remove_ads_by_any_amount_text">Odstranite oglase za vedno z enkratno donacijo poljubnega zneska.</string>
     <string name="donation_remove_ads_by_subscribing_text">Prav tako lahko mesečno donirate za odstranitev oglasov.</string>
@@ -78,10 +81,16 @@
     <string name="format_speed_measure_kilometers">km/h</string>
     <string name="format_speed_measure_miles">mph</string>
     <string name="from">od</string>
+    <string name="honor_battery_settings">Odprite »Sistemske nastavitve«, izberite »Baterija« in nato tapnite »Zagon aplikacije«.</string>
+    <string name="honor_battery_settings_app_launch">Poiščite aplikacijo na seznamu in izklopite stikalo poleg nje, da onemogočite samodejno upravljanje.</string>
+    <string name="honor_battery_settings_app_launch_manage_manually">Prikazalo se bo pojavno okno – omogočite vse možnosti (»Samodejni zagon«, »Sekundarni zagon«, »Zaženi v ozadju«), če so katere onemogočene.</string>
     <string name="hour">uro</string>
     <string name="hours">ure</string>
     <string name="month">mesec</string>
     <string name="more_info">Več informacij:</string>
+    <string name="moto_allow_background_recording">Če želite ohraniti stabilnost snemanja videoposnetkov v ozadju na napravah Motorola, omogočite možnost »Dovoli uporabo v ozadju« za to aplikacijo in nastavite »Optimizacijo baterije« na »Neomejeno«. Onemogočite možnost »Upravljanje aplikacij v ozadju«, če je na voljo.</string>
+    <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">Odprite zaslon »Informacije o aplikaciji«, izberite »Poraba baterije aplikacije« in omogočite »Dovoli uporabo v ozadju« (običajno je privzeto omogočeno).</string>
+    <string name="moto_disable_manage_background_apps">Odprite »Sistemske nastavitve«, izberite »Baterija«, nato izberite »Upravljanje aplikacij v ozadju« (če je na voljo) in onemogočite možnost »Uporabi upravljanje aplikacij v ozadju«. Možnost se lahko imenuje tudi »Izboljšaj baterijo med neaktivnostjo«.</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Aplikacija ni izključena iz optimizacije baterije. Če kamera ne deluje v ozadju ali kaj drugega, dodajte to aplikacijo med izjeme načina varčevanja z energijo.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Če ste aplikacijo znova namestili na Android 11, morate stare datoteke izbrisati ročno</string>
     <string name="msg_auto_recording_service_was_stopped">Ustavili ste storitev v ozadju za samodejni začetek snemanja videa. Odprite aplikacijo, da jo znova zaženete.</string>
@@ -233,7 +242,7 @@
     <string name="prefs_gps_disabled_no_warning_text">Ne prikaži gumba za opozorilo in popravi</string>
     <string name="prefs_gps_disabled_warning_text">Opozorilo za onemogočen GPS, gumb za popravek</string>
     <string name="prefs_info_more_category_text">Informacije /Več…</string>
-    <string name="prefs_kill_services_sum_text">Na vaši napravi so nastavitve, ki omogočajo, da se aplikacije samodejno predvajajo in izvajajo v ozadju. Kliknite tukaj in dodajte aplikacijo med izjeme (dovoli samodejni zagon in tako naprej), da ji omogočite delovanje v ozadju in ko je zaslon izklopljen, če je prepovedano</string>
+    <string name="prefs_kill_services_sum_text">Vaša naprava ima nastavitve, ki nadzorujejo uporabo v ozadju (ali samodejni zagon). Dotaknite se tukaj, da omogočite uporabo v ozadju ali dodate aplikacijo na seznam izjem, če je omejena.</string>
     <string name="prefs_kill_services_text">Omogočanje dela v ozadju</string>
     <string name="prefs_language">Jezik</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Odprite aplikacijo, ko se snemanje začne samodejno</string>
@@ -479,10 +488,10 @@
     <string name="rec_network_text">Mreža</string>
     <string name="rec_off_text">Izklopljeno</string>
     <string name="rec_on_text">vklj.</string>
-    <string name="rec_privacy_analytics_msg">Aplikacija uporablja Firebase Analytics za osnovno anonimno analitiko (glejte spodnjo povezavo)</string>
+    <string name="rec_privacy_analytics_msg">Aplikacija uporablja Firebase Analytics in Crashlytics za osnovno anonimno analitiko, diagnostiko in odkrivanje napak, kar pomaga pri odpravljanju težav v različnih napravah. Več o tem si lahko preberete na spodnji povezavi.</string>
     <string name="rec_privacy_appgallery_ads_iap">Aplikacija uporablja Huawei cvetne oglase (za prikaz oglasov) in pri nakupih aplikacij (za odstranjevanje oglasov). Za več informacij kliknite povezavo za zasebnost.</string>
     <string name="rec_privacy_permissions_msg">Aplikacija uporablja naslednja dovoljenja:\n- Odpri anonimni identifikator naprave OAID (za prilagojeno oglaševanje)\n- KAMERA, AVDIO (za video snemanje)\n- SHRANJEVANJE (za shranjevanje video posnetkov)\n- LOKACIJA (za pridobitev naslova trenutne lokacije, GPS koordinat, hitrosti - za prikaz na glavnem zaslonu aplikacije in uporabo podnapisov za video)\n- internetno oglaševanje)</string>
-    <string name="rec_privacy_service_msg">Zasebnost: vsi posnetki, ki jih posnamete, bodo shranjeni samo v vaši lokalni napravi. Aplikacija ne varnostno kopira vaših videoposnetkov (nima povezave s strežniki)\n\nAplikacija bo še naprej delovala v ozadju (storitev v ospredju, ki se prikaže v vrstici z obvestili), medtem ko je snemanje aktivno, ko se vrnete na začetni zaslon, preklopite na drugo aplikacijo ali zaklenete telefon, da lahko nadaljujete s snemanjem, in ko vklopite funkcije za samodejno snemanje (če zaprete storitev v ozadju, te funkcije ne bodo delovale).</string>
+    <string name="rec_privacy_service_msg">Zasebnost: Vsi videoposnetki, ki jih posnamete, se shranijo samo v vaši lokalni napravi. Aplikacija ne varnostno kopira vaših videoposnetkov na zunanje strežnike.\n\nMed aktivnim snemanjem bo aplikacija še naprej delovala v ozadju (prek storitve v ospredju, prikazane v vrstici z obvestili), ko se vrnete na začetni zaslon, preklopite na drugo aplikacijo ali zaklenete telefon, s čimer omogočite nadaljevanje snemanja. Nekatere izbirne funkcije samodejnega snemanja, ki jih je mogoče omogočiti, se prav tako zanašajo na to storitev v ozadju – če jo zaprete, te funkcije ne bodo delovale.</string>
     <string name="recording_file_name_prefix">Predpona za imena video datotek</string>
     <string name="recording_start_short_text">Začetek</string>
     <string name="recording_start_text">Začni snemati</string>

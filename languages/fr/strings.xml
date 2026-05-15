@@ -1,6 +1,7 @@
 <resources>
     <string name="accept_text">J\'accepte</string>
     <string name="allow_background_activity_on_some_devices">Voici des exemples de la manière d\'autoriser les activités en arrière-plan sur certains appareils :</string>
+    <string name="allow_background_recording">Pour assurer la stabilité de l\'enregistrement vidéo en arrière-plan sur votre appareil, suivez les instructions ci-dessous.</string>
     <string name="any_text">Quelconque</string>
     <string name="app_alternative_name_audio">l\'audio</string>
     <string name="app_alternative_name_battery">Paramètres de la batterie</string>
@@ -19,6 +20,7 @@
     <string name="background_restrictions_explain_how_to_disable">Des restrictions d\'utilisation de la batterie sont activées pour cette application, ce qui peut perturber l\'enregistrement vidéo en arrière-plan. Veuillez désactiver toute optimisation de la batterie ou restriction d\'utilisation en arrière-plan pour cette application.\n\nVous trouverez ces options dans « Informations sur l\'application » → « Batterie » ou dans les paramètres système de votre appareil. Réglez l\'optimisation de la batterie sur « Non restreinte » (ou « Ne pas optimiser ») pour cette application, afin d\'autoriser les activités au premier plan et en arrière-plan. L\'emplacement exact de ces options peut varier selon le fabricant de votre appareil.</string>
     <string name="background_restrictions_msg_text">Veuillez désactiver les restrictions d\'arrière-plan pour l\'application afin de garantir un enregistrement vidéo stable.</string>
     <string name="background_restrictions_text">Limiter le travail des applications en arrière-plan</string>
+    <string name="battery_settings_on_older_devices">Sur certains appareils plus anciens, ces options peuvent légèrement différer. Consultez les captures d\'écran ci-dessous.</string>
     <string name="camera">Caméra</string>
     <string name="camera_aperture">Diaphragme</string>
     <string name="camera_back">Caméra arrière</string>
@@ -55,8 +57,9 @@
     <string name="donate_text">Don</string>
     <string name="donation_dlg_no_ads_text">Vous n\'avez aucune annonce.</string>
     <string name="donation_level_text">Votre niveau de don :</string>
+    <string name="donation_play_services_to_restore_purchases">Si cela ne fonctionne pas, vérifiez si les services Google Play nécessitent une mise à jour. Vous pouvez également effacer leurs données et leur cache, puis réinstaller l\'application. Veuillez consulter le lien ci-dessous pour obtenir des instructions.</string>
     <string name="donation_purchase_info_loading_text">Les informations d\'achat n\'ont pas encore été téléchargées. Êtes-vous en ligne et connecté à votre compte Google ?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Si vous avez déjà effectué un achat, mais qu\'il n\'a pas été restauré automatiquement, veuillez d\'abord effacer les données et le cache du Google Play Store. Ensuite, désinstallez l\'application, ouvrez le Google Play Store, sélectionnez le compte Google utilisé pour l\'achat et réinstallez l\'application.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Si vous avez déjà effectué un achat mais qu\'il n\'a pas été restauré automatiquement, essayez d\'abord de supprimer l\'application. Ensuite, effacez les données et le cache du Google Play Store, ouvrez-le, sélectionnez le compte Google utilisé pour l\'achat et réinstallez l\'application.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">Si vous avez déjà fait un don, pour restaurer les achats, veuillez réinstaller l\'application dans Samsung Galaxy Store après avoir sélectionné le bon compte</string>
     <string name="donation_remove_ads_by_any_amount_text">Supprimez les publicités pour toujours avec un don unique de n\'importe quel montant.</string>
     <string name="donation_remove_ads_by_subscribing_text">Vous pouvez également faire un don mensuel pour supprimer les publicités.</string>
@@ -78,10 +81,16 @@
     <string name="format_speed_measure_kilometers">km/h</string>
     <string name="format_speed_measure_miles">mph</string>
     <string name="from">à partir de</string>
+    <string name="honor_battery_settings">Ouvrez « Paramètres système », sélectionnez « Batterie », puis appuyez sur « Lancement d\'application ».</string>
+    <string name="honor_battery_settings_app_launch">Trouvez l\'application dans la liste et désactivez le bouton situé à côté pour désactiver la gestion automatique.</string>
+    <string name="honor_battery_settings_app_launch_manage_manually">Une fenêtre contextuelle apparaîtra — activez toutes les options (« Lancement automatique », « Lancement secondaire », « Exécuter en arrière-plan ») si certaines sont désactivées.</string>
     <string name="hour">heure</string>
     <string name="hours">heures</string>
     <string name="month">mois</string>
     <string name="more_info">Plus d\'infos :</string>
+    <string name="moto_allow_background_recording">Pour garantir la stabilité de l\'enregistrement vidéo en arrière-plan sur les appareils Motorola, activez l\'option « Autoriser l\'utilisation en arrière-plan » pour cette application et définissez l\'« Optimisation de la batterie » sur « Illimitée ». Désactivez l\'option « Gérer les applications en arrière-plan » si elle est disponible.</string>
+    <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">Ouvrez l’écran « Informations sur l’application », sélectionnez « Utilisation de la batterie de l’application » et activez « Autoriser l’utilisation en arrière-plan » (cette option est généralement activée par défaut).</string>
+    <string name="moto_disable_manage_background_apps">Ouvrez « Paramètres système », sélectionnez « Batterie », puis « Gérer les applications en arrière-plan » (si disponible) et désactivez l’option « Utiliser la gestion des applications en arrière-plan ». Cette option peut également s’appeler « Améliorer l’autonomie de la batterie en cas d’inactivité ».</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">L\'application n\'est pas exclue de l\'optimisation de la batterie. Si la caméra ne fonctionne pas en arrière-plan ou autre chose, ajoutez cette application aux exceptions du mode d\'économie d\'énergie.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Si vous avez réinstallé l\'application sur Android 11, alors les anciens fichiers doivent être supprimés manuellement</string>
     <string name="msg_auto_recording_service_was_stopped">Vous avez arrêté le service d\'arrière-plan pour démarrer automatiquement l\'enregistrement vidéo. Ouvrez l\'application pour la relancer.</string>
@@ -233,7 +242,7 @@
     <string name="prefs_gps_disabled_no_warning_text">Ne pas afficher le bouton d\'avertissement et de correction</string>
     <string name="prefs_gps_disabled_warning_text">Avertissement GPS désactivé, bouton de correction</string>
     <string name="prefs_info_more_category_text">Informations /Plus…</string>
-    <string name="prefs_kill_services_sum_text">Il existe des paramètres sur votre appareil pour permettre aux applications de jouer automatiquement et de s\'exécuter en arrière-plan. Cliquez ici et ajoutez l\'application aux exceptions (autoriser le démarrage automatique et ainsi de suite) pour lui permettre de s\'exécuter en arrière-plan et lorsque l\'écran est éteint, si interdit</string>
+    <string name="prefs_kill_services_sum_text">Votre appareil dispose de paramètres permettant de contrôler l\'utilisation en arrière-plan (ou le démarrage automatique). Appuyez ici pour autoriser l\'utilisation en arrière-plan ou ajoutez l\'application à la liste des exceptions si elle est restreinte.</string>
     <string name="prefs_kill_services_text">Autoriser le travail en arrière-plan</string>
     <string name="prefs_language">Langue</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Ouvrir l\'application lorsque l\'enregistrement démarre automatiquement</string>
@@ -479,10 +488,10 @@
     <string name="rec_network_text">Rapporter</string>
     <string name="rec_off_text">Désactivé</string>
     <string name="rec_on_text">Incl.</string>
-    <string name="rec_privacy_analytics_msg">L\'application utilise Firebase Analytics pour les analyses anonymes de base (voir le lien ci-dessous)</string>
+    <string name="rec_privacy_analytics_msg">L\'application utilise Firebase Analytics et Crashlytics pour des analyses anonymes de base, des diagnostics et la détection d\'erreurs, facilitant ainsi la résolution des problèmes sur différents appareils. Pour en savoir plus, cliquez sur le lien ci-dessous.</string>
     <string name="rec_privacy_appgallery_ads_iap">L\'application utilise des publicités Huawei Petal (pour afficher les annonces) et dans les achats d\'applications (pour supprimer les annonces). Veuillez cliquer sur le lien de la politique de confidentialité pour plus d\'informations.</string>
     <string name="rec_privacy_permissions_msg">L\'application utilise les autorisations suivantes :\n- Ouvrir l\'identifiant d\'appareil anonyme OAID (pour la publicité personnalisée)\n- CAMÉRA, AUDIO (pour l\'enregistrement vidéo)\n- STOCKAGE (pour sauvegarder des vidéos)\n- LOCALISATION (pour obtenir l\'adresse de l\'emplacement actuel, les coordonnées GPS, la vitesse - à afficher sur l\'écran principal de l\'application et appliquer des sous-titres à la vidéo)\n- Publicité sur Internet)</string>
-    <string name="rec_privacy_service_msg">Confidentialité : toutes les vidéos que vous enregistrez seront enregistrées uniquement sur votre appareil local. L\'application ne sauvegarde pas vos vidéos (n\'a aucune connexion aux serveurs)\n\nL\'application continuera à s\'exécuter en arrière-plan (le service de premier plan qui apparaît dans la barre de notification) pendant que l\'enregistrement est actif, lorsque vous revenez à l\'écran d\'accueil, passez à une autre application ou verrouillez votre téléphone pour pouvoir continuer l\'enregistrement, et lorsque vous activez les fonctionnalités d\'enregistrement automatique (si vous fermez le service en arrière-plan, ces fonctions ne fonctionneront pas).</string>
+    <string name="rec_privacy_service_msg">Confidentialité : Toutes les vidéos que vous enregistrez sont sauvegardées uniquement sur votre appareil. L’application ne sauvegarde pas vos vidéos sur des serveurs externes.\n\nPendant un enregistrement, l’application continue de fonctionner en arrière-plan (via le service de premier plan affiché dans la barre de notifications) même lorsque vous retournez à l’écran d’accueil, que vous passez à une autre application ou que vous verrouillez votre téléphone, permettant ainsi la poursuite de l’enregistrement. Certaines fonctionnalités d’enregistrement automatique optionnelles, qui peuvent être activées, dépendent également de ce service en arrière-plan ; si vous le désactivez, ces fonctions seront inopérantes.</string>
     <string name="recording_file_name_prefix">Préfixe pour les noms de fichiers vidéo</string>
     <string name="recording_start_short_text">Commencer</string>
     <string name="recording_start_text">Commencer l\'enregistrement</string>

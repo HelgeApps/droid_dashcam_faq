@@ -1,6 +1,7 @@
 <resources>
     <string name="accept_text">elfogadom</string>
     <string name="allow_background_activity_on_some_devices">Az alábbiakban példákat láthat arra, hogyan engedélyezheti a háttértevékenységet egyes eszközökön:</string>
+    <string name="allow_background_recording">A háttérben történő videófelvétel stabilan tartásához az eszközödön kövesd az alábbi utasításokat.</string>
     <string name="any_text">Bármi</string>
     <string name="app_alternative_name_audio">Hang</string>
     <string name="app_alternative_name_battery">Az akkumulátor beállításai</string>
@@ -19,6 +20,7 @@
     <string name="background_restrictions_explain_how_to_disable">Az alkalmazás akkumulátor-használati korlátozásai problémákat okozhatnak a háttérben történő videofelvétellel. Kérjük, tiltsa le az alkalmazás akkumulátor-optimalizálási vagy háttérkorlátozási beállításait.\n\nEzeket a beállításokat az „Alkalmazásinformáció” → „Akkumulátor” képernyőn vagy az eszköz rendszerbeállításaiban találja. Állítsa az alkalmazás akkumulátor-optimalizálását „Korlátlan” (vagy „Ne optimalizáljon) értékre, és engedélyezze az előtérben és a háttérben zajló tevékenységeket. Az ilyen beállítások pontos helye az eszköz gyártójától függően változhat.</string>
     <string name="background_restrictions_msg_text">A stabil videofelvétel biztosítása érdekében kérjük, tiltsa le az alkalmazás háttérkorlátozásait.</string>
     <string name="background_restrictions_text">A háttérben futó alkalmazások korlátozása</string>
+    <string name="battery_settings_on_older_devices">Néhány régebbi eszközön ezek a beállítások kissé eltérhetnek. Lásd az alábbi képernyőképeket.</string>
     <string name="camera">Kamera</string>
     <string name="camera_aperture">Diafragma</string>
     <string name="camera_back">Hátsó kamera</string>
@@ -55,8 +57,9 @@
     <string name="donate_text">Adomány</string>
     <string name="donation_dlg_no_ads_text">Nincsenek hirdetései.</string>
     <string name="donation_level_text">Az Ön adományozási szintje:</string>
+    <string name="donation_play_services_to_restore_purchases">Ha ez nem működik, próbálja meg ellenőrizni, hogy frissíteni kell-e a Google Play Szolgáltatásokat. Törölheti az adatokat és a gyorsítótárat is, majd újratelepítheti az alkalmazást. Kérjük, tekintse meg az alábbi linket az ehhez szükséges utasításokért.</string>
     <string name="donation_purchase_info_loading_text">A vásárlási információk még nem kerültek feltöltésre. Ön online, és bejelentkezett Google-fiókjába?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Ha már vásároltál valamit, de az nem lett automatikusan visszaállítva, először töröld a Google Play Áruház adatait és gyorsítótárát. Ezután távolítsd el az alkalmazást, nyisd meg a Google Play Áruházat, válaszd ki a vásárláshoz használt Google-fiókot, és telepítsd újra az alkalmazást.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Ha már vásároltál valamit, de az nem lett automatikusan visszaállítva, először próbáld meg törölni az alkalmazást. Ezután töröld a Google Play Áruház adatait és gyorsítótárát, nyisd meg, válaszd ki a vásárláshoz használt Google-fiókot, és telepítsd újra az alkalmazást.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">Ha már adományozott, akkor a vásárlások visszaállításához a megfelelő fiók kiválasztása után telepítse újra az alkalmazást a Samsung Galaxy Store-ból</string>
     <string name="donation_remove_ads_by_any_amount_text">Bármilyen összegű egyszeri adományozással örökre távolítsa el a hirdetéseket.</string>
     <string name="donation_remove_ads_by_subscribing_text">Havonta adományozhat is a hirdetések eltávolítására.</string>
@@ -78,10 +81,16 @@
     <string name="format_speed_measure_kilometers">km/h</string>
     <string name="format_speed_measure_miles">mph</string>
     <string name="from">tól től</string>
+    <string name="honor_battery_settings">Nyissa meg a „Rendszerbeállítások” menüpontot, válassza az „Akkumulátor” lehetőséget, majd koppintson az „Alkalmazás indítása” elemre.</string>
+    <string name="honor_battery_settings_app_launch">Keresd meg az alkalmazást a listában, és kapcsold ki a mellette lévő kapcsolót az automatikus kezelés letiltásához.</string>
+    <string name="honor_battery_settings_app_launch_manage_manually">Megjelenik egy felugró ablak – engedélyezze az összes opciót („Automatikus indítás”, „Másodlagos indítás”, „Futtatás a háttérben”), ha bármelyik le van tiltva.</string>
     <string name="hour">óra</string>
     <string name="hours">órák</string>
     <string name="month">hónap</string>
     <string name="more_info">További információ:</string>
+    <string name="moto_allow_background_recording">A Motorola eszközökön a háttérben futó videók stabilan tartásához engedélyezze az alkalmazás „Háttérhasználat engedélyezése” beállítását, és az „Akkumulátoroptimalizálás” beállítást állítsa „Korlátlan” értékre. Ha elérhető, tiltsa le a „Háttéralkalmazások kezelése” opciót.</string>
+    <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">Nyisd meg az „Alkalmazásinformáció” képernyőt, válaszd az „Alkalmazás akkumulátorának használata” lehetőséget, és engedélyezd a „Háttérhasználat engedélyezése” beállítást (ez általában alapértelmezés szerint engedélyezve van).</string>
+    <string name="moto_disable_manage_background_apps">Nyissa meg a „Rendszerbeállítások” menüpontot, válassza az „Akkumulátor” lehetőséget, majd a „Háttéralkalmazások kezelése” lehetőséget (ha elérhető), és tiltsa le a „Háttéralkalmazások kezelése” opciót. A beállítás neve „Akkumulátor üzemidejének javítása inaktív állapotban” is lehet.</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Az alkalmazás nincs kizárva az akkumulátor optimalizálásból. Ha a kamera nem fut a háttérben vagy valami más, akkor vegye fel ezt az alkalmazást az energiatakarékos mód kivételei közé.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Ha újratelepítette az alkalmazást Android 11 rendszeren, akkor a régi fájlokat kézzel kell törölni</string>
     <string name="msg_auto_recording_service_was_stopped">Leállította a háttérszolgáltatást a videorögzítés automatikus indításához. Nyissa meg az alkalmazást az újraindításhoz.</string>
@@ -233,7 +242,7 @@
     <string name="prefs_gps_disabled_no_warning_text">Ne jelenjen meg a figyelmeztetés és a javítás gomb</string>
     <string name="prefs_gps_disabled_warning_text">GPS letiltott figyelmeztetés, javító gomb</string>
     <string name="prefs_info_more_category_text">Információ /Tovább…</string>
-    <string name="prefs_kill_services_sum_text">Eszközén vannak olyan beállítások, amelyek lehetővé teszik az alkalmazások automatikus lejátszását és futtatását a háttérben. Kattintson ide, és adja hozzá az alkalmazást a kivételekhez (autostart engedélyezése és így tovább), hogy engedélyezze a háttérben futását és kikapcsolt képernyő esetén is, ha ez tiltva van</string>
+    <string name="prefs_kill_services_sum_text">Az eszközödön vannak olyan beállítások, amelyek szabályozzák a háttérhasználatot (vagy az automatikus indítást). Koppints ide a háttérhasználat engedélyezéséhez, vagy add hozzá az alkalmazást a kivételek listájához, ha korlátozott.</string>
     <string name="prefs_kill_services_text">Lehetővé teszi a háttérmunkát</string>
     <string name="prefs_language">Nyelv</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Nyissa meg az alkalmazást, amikor a felvétel automatikusan elindul</string>
@@ -479,10 +488,10 @@
     <string name="rec_network_text">Háló</string>
     <string name="rec_off_text">Ki</string>
     <string name="rec_on_text">Incl.</string>
-    <string name="rec_privacy_analytics_msg">Az alkalmazás a Firebase Analytics szolgáltatást használja az alapvető anonim elemzésekhez (lásd az alábbi linket)</string>
+    <string name="rec_privacy_analytics_msg">Az alkalmazás a Firebase Analytics és a Crashlytics szolgáltatásait használja az alapvető anonim elemzésekhez, diagnosztikához és hibaészleléshez, segítve a problémák elhárítását az eszközökön keresztül. További információért kattintson az alábbi linkre.</string>
     <string name="rec_privacy_appgallery_ads_iap">Az alkalmazás a Huawei sziromhirdetéseket (a hirdetések megjelenítéséhez) és az alkalmazásvásárlásokban (a hirdetések eltávolításához) használja. További információkért kattintson az Adatvédelmi Szabályzat linkre.</string>
     <string name="rec_privacy_permissions_msg">Az alkalmazás a következő engedélyeket használja:\n- Nyissa meg az OAID névtelen eszközazonosítót (személyre szabott hirdetésekhez)\n- KAMERA, AUDIO (videó rögzítéséhez)\n- TÁROLÁS (videók mentéséhez)\n- HELYSZÍN (az aktuális hely címének, GPS-koordinátáinak, sebességének lekéréséhez - az alkalmazás főképernyőjén való megjelenítéshez és a videóhoz feliratozáshoz)\n- internetes hirdetés)</string>
-    <string name="rec_privacy_service_msg">Adatvédelem: Az összes felvett videót a rendszer csak a helyi eszközére menti. Az alkalmazás nem készít biztonsági másolatot a videóidról (nincs kapcsolata a szerverekkel)\n\nAz alkalmazás továbbra is futni fog a háttérben (az értesítési sávban megjelenő előtérben lévő szolgáltatás), amíg a felvétel aktív, amikor visszatér a kezdőképernyőre, átvált egy másik alkalmazásra, vagy lezárja a telefont a rögzítés folytatásához, és amikor bekapcsolja az automatikus rögzítés funkcióit (ha bezárja a háttérszolgáltatást, ezek a funkciók nem működnek).</string>
+    <string name="rec_privacy_service_msg">Adatvédelem: Az összes rögzített videó csak a helyi eszközödön tárolódik. Az alkalmazás nem készít biztonsági másolatot a videóidról külső szerverekre.\n\nAktív felvétel közben az alkalmazás továbbra is fut a háttérben (az értesítési sávon látható előtér szolgáltatáson keresztül), amikor visszatérsz a kezdőképernyőre, másik alkalmazásra váltasz, vagy lezárod a telefonodat, így a felvétel folytatódhat. Néhány opcionális automatikus felvételi funkció, amely engedélyezhető, szintén erre a háttérszolgáltatásra támaszkodik – ha bezárod, ezek a funkciók nem fognak működni.</string>
     <string name="recording_file_name_prefix">A videofájlok nevének előtagja</string>
     <string name="recording_start_short_text">Indul</string>
     <string name="recording_start_text">Felvétel megkezdése</string>

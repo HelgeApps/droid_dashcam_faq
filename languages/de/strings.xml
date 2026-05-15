@@ -1,6 +1,7 @@
 <resources>
     <string name="accept_text">Ich nehme an</string>
     <string name="allow_background_activity_on_some_devices">Nachfolgend finden Sie Beispiele dafür, wie Sie Hintergrundaktivitäten auf einigen Geräten zulassen können:</string>
+    <string name="allow_background_recording">Um eine stabile Hintergrundvideoaufnahme auf Ihrem Gerät zu gewährleisten, befolgen Sie die nachstehenden Anweisungen.</string>
     <string name="any_text">Irgendein</string>
     <string name="app_alternative_name_audio">Audio</string>
     <string name="app_alternative_name_battery">Batterieeinstellungen</string>
@@ -19,6 +20,7 @@
     <string name="background_restrictions_explain_how_to_disable">Für diese App gelten Einschränkungen hinsichtlich des Akkuverbrauchs im Hintergrund, die Probleme bei Videoaufnahmen im Hintergrund verursachen können. Bitte deaktivieren Sie alle Akkuoptimierungen und Hintergrundbeschränkungen für diese App.\nSie finden diese Optionen unter „App-Info“ → „Akku“ oder in den Systemeinstellungen Ihres Geräts. Stellen Sie die Akkuoptimierung für diese App auf „Uneingeschränkt“ (oder „Nicht optimieren“) und erlauben Sie Vorder- und Hintergrundaktivitäten. Der genaue Speicherort dieser Optionen kann je nach Gerätehersteller variieren.</string>
     <string name="background_restrictions_msg_text">Bitte deaktivieren Sie die Hintergrundbeschränkungen der App, um eine stabile Videoaufnahme zu gewährleisten.</string>
     <string name="background_restrictions_text">Einschränkung der Hintergrund-App-Auslastung</string>
+    <string name="battery_settings_on_older_devices">Bei einigen älteren Geräten können diese Optionen geringfügig abweichen. Siehe die Beispiel-Screenshots unten.</string>
     <string name="camera">Kamera</string>
     <string name="camera_aperture">Blende</string>
     <string name="camera_back">Rückwärtige Kamera</string>
@@ -55,8 +57,9 @@
     <string name="donate_text">Spende</string>
     <string name="donation_dlg_no_ads_text">Sie haben keine Anzeigen.</string>
     <string name="donation_level_text">Ihre Spendenhöhe:</string>
+    <string name="donation_play_services_to_restore_purchases">Wenn das nicht funktioniert, prüfen Sie, ob die Google Play-Dienste aktualisiert werden müssen. Sie können auch die Daten und den Cache der App löschen und sie anschließend neu installieren. Eine Anleitung dazu finden Sie unter dem folgenden Link.\n\n</string>
     <string name="donation_purchase_info_loading_text">Kaufinformationen noch nicht hochgeladen. Sind Sie online und in Ihrem Google-Konto angemeldet?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Falls Sie bereits einen Kauf getätigt haben, dieser aber nicht automatisch wiederhergestellt wurde, löschen Sie bitte zuerst die Daten und den Cache des Google Play Stores. Deinstallieren Sie anschließend die App, öffnen Sie den Google Play Store, wählen Sie das Google-Konto aus, mit dem der Kauf getätigt wurde, und installieren Sie die App erneut.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Falls Sie bereits einen Kauf getätigt haben, dieser aber nicht automatisch wiederhergestellt wurde, löschen Sie bitte zuerst die App. Löschen Sie anschließend die Daten und den Cache des Google Play Stores, öffnen Sie ihn, wählen Sie das richtige Google-Konto aus, mit dem der Kauf getätigt wurde, und installieren Sie die App neu.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">Wenn Sie bereits eine Spende getätigt haben, installieren Sie die Anwendung zum Wiederherstellen von Käufen bitte im Samsung Galaxy Store neu, nachdem Sie das richtige Konto ausgewählt haben.</string>
     <string name="donation_remove_ads_by_any_amount_text">Entfernen Sie Anzeigen für immer mit einer einmaligen Spende in beliebiger Höhe.</string>
     <string name="donation_remove_ads_by_subscribing_text">Sie können auch monatlich spenden, um Anzeigen zu entfernen.</string>
@@ -78,10 +81,16 @@
     <string name="format_speed_measure_kilometers">km/h</string>
     <string name="format_speed_measure_miles">mph</string>
     <string name="from">von</string>
+    <string name="honor_battery_settings">Öffnen Sie die „Systemeinstellungen“, wählen Sie „Batterie“ und tippen Sie dann auf „App-Start“.</string>
+    <string name="honor_battery_settings_app_launch">Suchen Sie die App in der Liste und schalten Sie den Schalter daneben aus, um die automatische Verwaltung zu deaktivieren.</string>
+    <string name="honor_battery_settings_app_launch_manage_manually">Es erscheint ein Popup – aktivieren Sie alle Optionen („Automatischer Start“, „Sekundärer Start“, „Im Hintergrund ausführen“), falls eine davon deaktiviert ist.</string>
     <string name="hour">Stunde</string>
     <string name="hours">Std.</string>
     <string name="month">Monat</string>
     <string name="more_info">Mehr Infos:</string>
+    <string name="moto_allow_background_recording">Um eine stabile Hintergrundvideoaufnahme auf Motorola-Geräten zu gewährleisten, aktivieren Sie für diese App die Option „Hintergrundnutzung zulassen“ und stellen Sie die „Akkuoptimierung“ auf „Uneingeschränkt“. Deaktivieren Sie gegebenenfalls die Option „Hintergrund-Apps verwalten“.</string>
+    <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">Öffnen Sie den Bildschirm „App-Info“, wählen Sie „App-Akkunutzung“ und aktivieren Sie „Hintergrundnutzung zulassen“ (diese Option ist normalerweise standardmäßig aktiviert).</string>
+    <string name="moto_disable_manage_background_apps">Öffnen Sie die „Systemeinstellungen“, wählen Sie „Batterie“ und anschließend (falls verfügbar) „Hintergrund-Apps verwalten“. Deaktivieren Sie dort die Option „Hintergrund-Apps verwalten verwenden“. Die Option kann auch „Akkulaufzeit im Ruhezustand verbessern“ heißen.</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Die Anwendung ist nicht von der Batterieoptimierung ausgeschlossen. Wenn die Kamera nicht im Hintergrund läuft oder etwas anderes, dann fügen Sie diese Anwendung zu den Ausnahmen des Energiesparmodus hinzu.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Wenn Sie die Anwendung unter Android 11 neu installiert haben, dann müssen die alten Dateien manuell gelöscht werden</string>
     <string name="msg_auto_recording_service_was_stopped">Sie haben den Hintergrunddienst zum automatischen Starten der Videoaufzeichnung gestoppt. Öffnen Sie die Anwendung, um sie erneut zu starten.</string>
@@ -233,7 +242,7 @@
     <string name="prefs_gps_disabled_no_warning_text">Keine Warnung anzeigen und Schaltfläche reparieren</string>
     <string name="prefs_gps_disabled_warning_text">Warnung bei deaktiviertem GPS, Schaltfläche \"Beheben\"</string>
     <string name="prefs_info_more_category_text">Informationen / Mehr…</string>
-    <string name="prefs_kill_services_sum_text">Es gibt Einstellungen auf Ihrem Gerät, mit denen Apps automatisch gestartet und im Hintergrund ausgeführt werden können. Klicken Sie hier und fügen Sie die Anwendung zu Ausnahmen hinzu (Autostart zulassen usw.), um Hintergrund und Herunterfahren zuzulassen. Bildschirm, falls nicht zugelasse</string>
+    <string name="prefs_kill_services_sum_text">Ihr Gerät verfügt über Einstellungen zur Steuerung der Hintergrundnutzung (oder des automatischen Starts). Tippen Sie hier, um die Hintergrundnutzung zu erlauben oder die App zur Ausnahmeliste hinzuzufügen, falls sie eingeschränkt ist.</string>
     <string name="prefs_kill_services_text">Im Hintergrund laufen lassen</string>
     <string name="prefs_language">Sprache</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Anwendung öffnen, wenn die Aufnahme automatisch startet</string>
@@ -479,10 +488,10 @@
     <string name="rec_network_text">Netzwerk</string>
     <string name="rec_off_text">Aus</string>
     <string name="rec_on_text">Ein</string>
-    <string name="rec_privacy_analytics_msg">Die App verwendet Firebase Analytics für grundlegende anonyme Analysen (siehe Link unten).</string>
+    <string name="rec_privacy_analytics_msg">Die App nutzt Firebase Analytics und Crashlytics für grundlegende anonyme Analysen, Diagnosen und Fehlererkennung und hilft so bei der Fehlerbehebung auf verschiedenen Geräten. Weitere Informationen finden Sie unter dem unten stehenden Link.</string>
     <string name="rec_privacy_appgallery_ads_iap">App verwendet Huawei Petal -Anzeigen (um Anzeigen) und bei App -Käufen (um Anzeigen zu entfernen). Bitte klicken Sie auf Datenschutzrichtlinien -Link für weitere Informationen.</string>
     <string name="rec_privacy_permissions_msg">Die Anwendung verwendet die folgenden Berechtigungen:\n- Offene anonyme Gerätekennung OAID (für personalisierte Werbung)\n- KAMERA, AUDIO (für Videoaufzeichnung)\n- SPEICHER (zum Speichern von Videos)\n- STANDORT (um die Adresse des aktuellen Standorts, GPS-Koordinaten und Geschwindigkeit abzurufen – um sie auf dem Hauptbildschirm der Anwendung anzuzeigen und dem Video Untertitel hinzuzufügen)\n- Internet-Werbung)</string>
-    <string name="rec_privacy_service_msg">Datenschutz: Alle von Ihnen aufgenommenen Videos werden nur auf Ihrem lokalen Gerät gespeichert. Die Anwendung sichert Ihre Videos nicht (hat keine Verbindungen zu Servern)\n\nDie App läuft weiterhin im Hintergrund (der Vordergrunddienst, der in der Benachrichtigungsleiste angezeigt wird), während die Aufnahme aktiv ist, wenn Sie zum Startbildschirm zurückkehren, zu einer anderen App wechseln oder Ihr Telefon sperren, um die Aufnahme fortzusetzen, und wann Sie aktivieren Funktionen zur automatischen Aufzeichnung (wenn Sie den Hintergrunddienst schließen, funktionieren diese Funktionen nicht).</string>
+    <string name="rec_privacy_service_msg">Datenschutz: Alle aufgenommenen Videos werden ausschließlich lokal auf Ihrem Gerät gespeichert. Die App sichert Ihre Videos nicht auf externen Servern.\n\nWährend der Aufnahme läuft die App im Hintergrund weiter (über den in der Benachrichtigungsleiste angezeigten Vordergrunddienst), auch wenn Sie zum Startbildschirm zurückkehren, zu einer anderen App wechseln oder Ihr Telefon sperren. So wird die Aufnahme fortgesetzt. Einige optionale automatische Aufnahmefunktionen, die aktiviert werden können, nutzen diesen Hintergrunddienst ebenfalls. Wenn Sie ihn schließen, funktionieren diese Funktionen nicht.</string>
     <string name="recording_file_name_prefix">Präfix für Videodateinamen</string>
     <string name="recording_start_short_text">Start</string>
     <string name="recording_start_text">Aufnahme starten</string>

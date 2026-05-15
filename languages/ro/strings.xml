@@ -1,6 +1,7 @@
 <resources>
     <string name="accept_text">accept</string>
     <string name="allow_background_activity_on_some_devices">Mai jos sunt exemple despre cum să permiteți activitatea în fundal pe anumite dispozitive:</string>
+    <string name="allow_background_recording">Pentru a menține stabilă înregistrarea video în fundal pe dispozitiv, urmați instrucțiunile de mai jos.</string>
     <string name="any_text">Orice</string>
     <string name="app_alternative_name_audio">Audio</string>
     <string name="app_alternative_name_battery">Setări baterie</string>
@@ -19,6 +20,7 @@
     <string name="background_restrictions_explain_how_to_disable">Există restricții de fundal pentru baterie setate pentru această aplicație, care pot cauza probleme cu înregistrarea video în fundal. Vă rugăm să dezactivați orice optimizări ale bateriei sau restricții de fundal pentru această aplicație.\n\nPuteți încerca să găsiți astfel de opțiuni în ecranul „Informații despre aplicație” → „Baterie” sau în setările de sistem ale dispozitivului. Setați optimizarea bateriei la „Nerestricționat” (sau „Nu optimizați”) pentru această aplicație, permiteți activitatea în prim-plan și în fundal. Locația exactă a acestor opțiuni poate varia în funcție de producătorul dispozitivului.</string>
     <string name="background_restrictions_msg_text">Dezactivați restricțiile de fundal pentru aplicație pentru a asigura o înregistrare video stabilă.</string>
     <string name="background_restrictions_text">Limitarea funcționării aplicațiilor în fundal</string>
+    <string name="battery_settings_on_older_devices">Pe unele dispozitive mai vechi, aceste opțiuni pot diferi ușor. Vedeți capturile de ecran exemplificative de mai jos.</string>
     <string name="camera">aparat foto</string>
     <string name="camera_aperture">Diafragmă</string>
     <string name="camera_back">Camera din spate</string>
@@ -55,8 +57,9 @@
     <string name="donate_text">Donare</string>
     <string name="donation_dlg_no_ads_text">Nu ai reclame.</string>
     <string name="donation_level_text">Nivelul dvs. de donație:</string>
+    <string name="donation_play_services_to_restore_purchases">Dacă acest lucru nu funcționează, încercați să verificați dacă este nevoie de actualizare pentru Serviciile Google Play. De asemenea, puteți șterge datele și memoria cache, apoi reinstalați aplicația. Consultați linkul de mai jos pentru instrucțiuni despre cum să faceți acest lucru.</string>
     <string name="donation_purchase_info_loading_text">Informațiile de cumpărături nu au fost încărcate încă. Ești online și te-ai conectat la contul tău Google?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Dacă ați efectuat deja o achiziție, dar aceasta nu a fost restaurată automat, vă rugăm să ștergeți mai întâi datele și memoria cache din Magazinul Google Play. Apoi, dezinstalați aplicația, deschideți Magazinul Google Play, selectați contul Google corect utilizat pentru a efectua achiziția și reinstalați aplicația.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Dacă ați făcut deja o achiziție, dar aceasta nu a fost restaurată automat, încercați mai întâi să ștergeți aplicația. Apoi, ștergeți datele și memoria cache din Magazinul Google Play, deschideți aplicația, selectați contul Google corect folosit pentru a face achiziția și reinstalați aplicația.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">Dacă ați făcut deja o donație, atunci pentru a restabili achizițiile, vă rugăm să reinstalați aplicația în Samsung Galaxy Store după ce ați selectat contul corect</string>
     <string name="donation_remove_ads_by_any_amount_text">Eliminați reclamele pentru totdeauna cu o donație unică de orice sumă.</string>
     <string name="donation_remove_ads_by_subscribing_text">De asemenea, puteți dona lunar pentru a elimina reclamele.</string>
@@ -78,10 +81,16 @@
     <string name="format_speed_measure_kilometers">km/h</string>
     <string name="format_speed_measure_miles">mph</string>
     <string name="from">din</string>
+    <string name="honor_battery_settings">Deschideți „Setări sistem”, selectați „Baterie”, apoi atingeți „Lansare aplicație”.</string>
+    <string name="honor_battery_settings_app_launch">Găsiți aplicația în listă și dezactivați comutatorul de lângă ea pentru a dezactiva gestionarea automată.</string>
+    <string name="honor_battery_settings_app_launch_manage_manually">Va apărea o fereastră pop-up — activați toate opțiunile („Lansare automată”, „Lansare secundară”, „Executare în fundal”) dacă sunt dezactivate.</string>
     <string name="hour">ora</string>
     <string name="hours">ore</string>
     <string name="month">lună</string>
     <string name="more_info">Mai multe informații:</string>
+    <string name="moto_allow_background_recording">Pentru a menține stabilă înregistrarea video în fundal pe dispozitivele Motorola, activați „Permiteți utilizarea în fundal” pentru această aplicație și setați „Optimizarea bateriei” la „Nerestricționat”. Dezactivați opțiunea „Gestionați aplicațiile în fundal”, dacă este disponibilă.</string>
+    <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">Deschideți ecranul „Informații despre aplicație”, selectați „Utilizarea bateriei aplicației” și activați „Permiteți utilizarea în fundal” (de obicei, este activată în mod implicit).</string>
+    <string name="moto_disable_manage_background_apps">Deschideți „Setări de sistem”, selectați „Baterie”, apoi selectați „Gestionați aplicațiile în fundal” (dacă este disponibilă) și dezactivați opțiunea „Utilizați Gestionați aplicațiile în fundal”. Opțiunea ar putea fi numită și „Îmbunătățiți bateria când este inactivă”.</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Aplicația nu este exclusă de la optimizarea bateriei. Dacă camera nu rulează în fundal sau altceva, atunci adăugați această aplicație la excepțiile modului de economisire a energiei.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Dacă ați reinstalat aplicația pe Android 11, atunci fișierele vechi trebuie șterse manual</string>
     <string name="msg_auto_recording_service_was_stopped">Ați oprit serviciul de fundal pentru a porni automat înregistrarea video. Deschideți aplicația pentru a o lansa din nou.</string>
@@ -233,7 +242,7 @@
     <string name="prefs_gps_disabled_no_warning_text">Nu afișați butonul de avertizare și remediere</string>
     <string name="prefs_gps_disabled_warning_text">Avertizare GPS dezactivat, buton de remediere</string>
     <string name="prefs_info_more_category_text">Informații /Mai multe…</string>
-    <string name="prefs_kill_services_sum_text">Există setări pe dispozitivul dvs. pentru a permite aplicațiilor să se redeze automat și să ruleze în fundal. Faceți clic aici și adăugați aplicația la excepții (permiteți pornirea automată și așa mai departe) pentru a-i permite să ruleze în fundal și când ecranul este oprit, dacă este interzis</string>
+    <string name="prefs_kill_services_sum_text">Dispozitivul tău are setări care controlează utilizarea în fundal (sau pornirea automată). Apasă aici pentru a permite utilizarea în fundal sau pentru a adăuga aplicația la lista de excepții dacă este restricționată.</string>
     <string name="prefs_kill_services_text">Permite lucrul de fundal</string>
     <string name="prefs_language">Limba</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Deschideți aplicația când înregistrarea începe automat</string>
@@ -479,10 +488,10 @@
     <string name="rec_network_text">Net</string>
     <string name="rec_off_text">Off</string>
     <string name="rec_on_text">Incl.</string>
-    <string name="rec_privacy_analytics_msg">Aplicația folosește Firebase Analytics pentru analize anonime de bază (vezi linkul de mai jos)</string>
+    <string name="rec_privacy_analytics_msg">Aplicația folosește Firebase Analytics și Crashlytics pentru analize anonime de bază, diagnosticare și detectarea erorilor, ajutând la depanarea problemelor pe diferite dispozitive. Aflați mai multe accesând linkul de mai jos.</string>
     <string name="rec_privacy_appgallery_ads_iap">Aplicația folosește reclame Huawei Petal (pentru a afișa reclame) și în achiziții de aplicații (pentru a elimina anunțurile). Vă rugăm să faceți clic pe linkul de politică de confidențialitate pentru mai multe informații.</string>
     <string name="rec_privacy_permissions_msg">Aplicația folosește următoarele permisiuni:\n- Deschideți identificatorul de dispozitiv anonim OAID (pentru publicitate personalizată)\n- CAMERA, AUDIO (pentru înregistrare video)\n- DEPOZITARE (pentru salvarea videoclipurilor)\n- LOCAȚIE (pentru a obține adresa locației curente, coordonatele GPS, viteza - pentru a afișa pe ecranul principal al aplicației și pentru a aplica subtitrări videoclipului)\n- publicitate pe internet)</string>
-    <string name="rec_privacy_service_msg">Confidențialitate: Toate videoclipurile pe care le înregistrați vor fi salvate numai pe dispozitivul dvs. local. Aplicația nu face backup pentru videoclipurile dvs. (nu are conexiuni la servere)\n\nAplicația va continua să ruleze în fundal (serviciul din prim-plan care apare în bara de notificări) în timp ce înregistrarea este activă, când reveniți la ecranul de start, comutați la altă aplicație sau blocați telefonul pentru a putea continua înregistrarea și când activați funcțiile pentru înregistrarea automată (dacă închideți serviciul de fundal, aceste funcții nu vor funcționa).</string>
+    <string name="rec_privacy_service_msg">Confidențialitate: Toate videoclipurile pe care le înregistrați sunt salvate doar pe dispozitivul local. Aplicația nu face copii de rezervă ale videoclipurilor pe servere externe.\n\nÎn timpul înregistrării active, aplicația va continua să ruleze în fundal (prin intermediul serviciului de prim-plan afișat în bara de notificări) atunci când reveniți la ecranul principal, comutați la o altă aplicație sau blocați telefonul, permițând continuarea înregistrării. Unele funcții opționale de înregistrare automată care pot fi activate se bazează, de asemenea, pe acest serviciu de fundal - dacă îl închideți, aceste funcții nu vor funcționa.</string>
     <string name="recording_file_name_prefix">Prefix pentru numele fișierelor video</string>
     <string name="recording_start_short_text">Început</string>
     <string name="recording_start_text">Începe să înregistrezi</string>

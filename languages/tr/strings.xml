@@ -1,6 +1,7 @@
 <resources>
     <string name="accept_text">Kabul ediyorum</string>
     <string name="allow_background_activity_on_some_devices">Aşağıda bazı cihazlarda arka plan etkinliklerine nasıl izin verileceğine dair örnekler verilmiştir:</string>
+    <string name="allow_background_recording">Cihazınızda arka planda video kaydının istikrarlı bir şekilde devam etmesi için aşağıdaki talimatları izleyin.</string>
     <string name="any_text">Herhangi </string>
     <string name="app_alternative_name_audio">Ses</string>
     <string name="app_alternative_name_battery">Pil Ayarları</string>
@@ -19,6 +20,7 @@
     <string name="background_restrictions_explain_how_to_disable">Bu uygulama için arka planda video kaydında sorunlara neden olabilecek pil kısıtlamaları ayarlanmıştır. Lütfen bu uygulama için tüm pil optimizasyonlarını veya arka plan kısıtlamalarını devre dışı bırakın.\nBu seçenekleri \"Uygulama bilgileri\" → \"Pil\" ekranında veya cihazınızın sistem ayarlarında bulabilirsiniz. Bu uygulama için pil optimizasyonunu \"Sınırsız\" (veya \"Optimize etme\") olarak ayarlayın, ön plan ve arka plan etkinliklerine izin verin. Bu seçeneklerin tam konumu, cihaz üreticinize bağlı olarak değişebilir.</string>
     <string name="background_restrictions_msg_text">Uygulamanın istikrarlı video kaydı sağlaması için lütfen arka plan kısıtlamalarını devre dışı bırakın.</string>
     <string name="background_restrictions_text">Arka planda çalışan uygulamaların sınırlandırılması</string>
+    <string name="battery_settings_on_older_devices">Bazı eski cihazlarda bu seçenekler biraz farklılık gösterebilir. Aşağıdaki örnek ekran görüntülerine bakın.</string>
     <string name="camera">Kamera</string>
     <string name="camera_aperture">Diyafram</string>
     <string name="camera_back">Arka kamera</string>
@@ -55,8 +57,9 @@
     <string name="donate_text">Bağış</string>
     <string name="donation_dlg_no_ads_text">Reklamsız kullanabilirsiniz.</string>
     <string name="donation_level_text">Bağış seviyeniz:</string>
+    <string name="donation_play_services_to_restore_purchases">Bu işe yaramazsa, Google Play Hizmetlerinin güncellenmesi gerekip gerekmediğini kontrol edin. Ayrıca verilerini ve önbelleğini temizleyip uygulamayı yeniden yükleyebilirsiniz. Bunu nasıl yapacağınızla ilgili talimatlar için lütfen aşağıdaki bağlantıyı kontrol edin.\n</string>
     <string name="donation_purchase_info_loading_text">Alışveriş bilgileri henüz yüklenmedi. Çevrimiçi misiniz ve Google hesabınızda oturum açtınız mı?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Eğer daha önce bir satın alma işlemi gerçekleştirdiyseniz ancak bu işlem otomatik olarak geri yüklenmediyse, lütfen öncelikle Google Play Store verilerini ve önbelleğini temizleyin. Ardından uygulamayı kaldırın, Google Play Store\'u açın, satın alma işlemini gerçekleştirmek için kullanılan doğru Google hesabını seçin ve uygulamayı yeniden yükleyin.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Eğer daha önce bir satın alma işlemi gerçekleştirdiyseniz ancak otomatik olarak geri yüklenmediyse, öncelikle uygulamayı silmeyi deneyin. Ardından Google Play Store verilerini ve önbelleğini temizleyin, uygulamayı açın, satın alma işlemini gerçekleştirmek için kullanılan doğru Google hesabını seçin ve uygulamayı yeniden yükleyin.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">Zaten bağış yaptıysanız, satın alımları geri yüklemek için lütfen doğru hesabı seçtikten sonra Samsung Galaxy Store\'da uygulamayı yeniden yükleyin</string>
     <string name="donation_remove_ads_by_any_amount_text">Herhangi bir miktarda tek seferlik bağışla reklamları sonsuza kadar kaldırın.</string>
     <string name="donation_remove_ads_by_subscribing_text">Reklamların kaldırılması için aylık olarak da bağışta bulunabilirsiniz.</string>
@@ -78,10 +81,16 @@
     <string name="format_speed_measure_kilometers">Km /s</string>
     <string name="format_speed_measure_miles">Mil/s</string>
     <string name="from">from (\'den\'dan)</string>
+    <string name="honor_battery_settings">\"Sistem Ayarları\"nı açın, \"Pil\"i seçin, ardından \"Uygulama başlatma\"ya dokunun.</string>
+    <string name="honor_battery_settings_app_launch">Listede uygulamayı bulun ve otomatik yönetimi devre dışı bırakmak için yanındaki düğmeyi kapatın.</string>
+    <string name="honor_battery_settings_app_launch_manage_manually">Bir açılır pencere belirecektir; eğer devre dışı bırakılmışsa, tüm seçenekleri (\"Otomatik başlatma\", \"İkincil başlatma\", \"Arka planda çalıştır\") etkinleştirin.</string>
     <string name="hour">saat</string>
     <string name="hours">saat</string>
     <string name="month">ay</string>
     <string name="more_info">Daha fazla bilgi:</string>
+    <string name="moto_allow_background_recording">Motorola cihazlarda arka planda video kaydının istikrarlı çalışmasını sağlamak için, bu uygulama için \"Arka planda kullanıma izin ver\" seçeneğini etkinleştirin ve \"Pil optimizasyonu\"nu \"Sınırsız\" olarak ayarlayın. Varsa, \"Arka plan uygulamalarını yönet\" seçeneğini devre dışı bırakın.</string>
+    <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">\"Uygulama bilgileri\" ekranını açın, \"Uygulama pil kullanımı\"nı seçin ve \"Arka planda kullanıma izin ver\" seçeneğini etkinleştirin (genellikle varsayılan olarak etkindir).</string>
+    <string name="moto_disable_manage_background_apps">\"Sistem Ayarları\"nı açın, \"Pil\"i seçin, ardından \"Arka plan uygulamalarını yönet\"i (varsa) seçin ve \"Arka plan uygulamalarını yönet seçeneğini kullan\" seçeneğini devre dışı bırakın. Bu seçenek ayrıca \"Etkin değilken pil ömrünü iyileştir\" olarak da adlandırılabilir.</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Uygulama pil optimizasyonunun dışında tutulmaz. Kamera arka planda çalışmıyorsa veya başka bir şey varsa, bu uygulamayı güç tasarrufu modunun istisnalarına ekleyin.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Uygulamayı Android 11\'e yeniden yüklediyseniz, eski dosyalar elle olarak silinmelidir.</string>
     <string name="msg_auto_recording_service_was_stopped">Video kaydını otomatik olarak başlatmak için arka plan hizmetini durdurdunuz. Tekrar başlatmak için uygulamayı açın.</string>
@@ -233,7 +242,7 @@
     <string name="prefs_gps_disabled_no_warning_text">Uyarı gösterme, ve düzeltme düğmesi</string>
     <string name="prefs_gps_disabled_warning_text">GPS devre dışı uyarısı, ve düzeltme düğmesi</string>
     <string name="prefs_info_more_category_text">Bilgi / Daha Fazla…</string>
-    <string name="prefs_kill_services_sum_text">Cihazınızda, uygulamaların otomatik olarak başlatılmasına ve arka planda çalışmasına izin veren ayarlar vardır. Yasaksa arka planda ve ekran dışında çalışmaya izin vermek için buraya tıklayın ve uygulamayı istisnalara ekleyin (otomatik başlatmaya izin ver vb.)</string>
+    <string name="prefs_kill_services_sum_text">Cihazınızda arka plan kullanımını (veya otomatik başlatmayı) kontrol eden ayarlar bulunmaktadır. Arka plan kullanımına izin vermek için buraya dokunun veya uygulama kısıtlıysa istisna listesine ekleyin.</string>
     <string name="prefs_kill_services_text">Arka planda ve ekran kapalı çalışmaya izin ver</string>
     <string name="prefs_language">Dil</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Kayıt otomatik olarak başladığında uygulamayı açın</string>
@@ -479,10 +488,10 @@
     <string name="rec_network_text">Ağ</string>
     <string name="rec_off_text">Kapalı</string>
     <string name="rec_on_text">Açık</string>
-    <string name="rec_privacy_analytics_msg">Uygulama, temel anonim analizler için Firebase Analytics\'i kullanıyor (aşağıdaki bağlantıya bakın)</string>
+    <string name="rec_privacy_analytics_msg">Uygulama, cihazlar arası sorunların giderilmesine yardımcı olmak için temel anonim analiz, teşhis ve hata tespiti amacıyla Firebase Analytics ve Crashlytics\'i kullanır. Daha fazla bilgi için aşağıdaki bağlantıyı ziyaret edin.</string>
     <string name="rec_privacy_appgallery_ads_iap">Uygulama, Huawei Petal Reklamları (reklamları göstermek için) ve uygulama alımlarında (reklamları kaldırmak için) kullanır. Daha fazla bilgi için lütfen Gizlilik Politikası Bağlantısı\'nı tıklayın.</string>
     <string name="rec_privacy_permissions_msg">Uygulama aşağıdaki izinleri kullanır:\n- Anonim cihaz tanımlayıcı OAID\'yi açın (kişiselleştirilmiş reklamcılık için)\n- KAMERA, SES (video kaydı için)\n- DEPOLAMA (videoları kaydetmek için)\n- KONUM (mevcut konumun adresini, GPS koordinatlarını, hızı almak için - uygulamanın ana ekranında göstermek ve videoya altyazı uygulamak için)\n- İnternet reklamcılığı)</string>
-    <string name="rec_privacy_service_msg">Gizlilik: Kaydettiğiniz tüm videolar yalnızca yerel cihazınıza kaydedilecektir. Uygulama videolarınızı yedeklemez (sunucularla herhangi bir bağlantısı yoktur)\n\nUygulama, kayıt etkinken, ana ekrana döndüğünüzde, başka bir uygulamaya geçtiğinizde veya kayda devam etmek için telefonunuzu kilitlediğinizde ve uygulamayı açtığınızda arka planda (bildirim çubuğunda görünen ön plan hizmeti) çalışmaya devam edecektir. otomatik kayıt özellikleri (arka plan hizmetini kapatırsanız bu işlevler çalışmaz).</string>
+    <string name="rec_privacy_service_msg">Gizlilik: Kaydettiğiniz tüm videolar yalnızca yerel cihazınıza kaydedilir. Uygulama videolarınızı harici sunuculara yedeklemez.\n\nAktif kayıt sırasında, ana ekrana döndüğünüzde, başka bir uygulamaya geçtiğinizde veya telefonunuzu kilitlediğinizde uygulama arka planda (bildirim çubuğunda gösterilen ön plan hizmeti aracılığıyla) çalışmaya devam ederek kaydın devam etmesini sağlar. Etkinleştirilebilen bazı isteğe bağlı otomatik kayıt özellikleri de bu arka plan hizmetine bağlıdır; bu hizmeti kapatırsanız bu işlevler çalışmaz.</string>
     <string name="recording_file_name_prefix">Video dosyası adları için önek</string>
     <string name="recording_start_short_text">Başlangıç</string>
     <string name="recording_start_text">Kayda başla</string>

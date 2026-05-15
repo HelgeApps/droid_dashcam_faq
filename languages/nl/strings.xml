@@ -1,6 +1,7 @@
 <resources>
     <string name="accept_text">ik aanvaard</string>
     <string name="allow_background_activity_on_some_devices">Hieronder volgen voorbeelden van hoe u achtergrondactiviteiten op bepaalde apparaten kunt toestaan:</string>
+    <string name="allow_background_recording">Volg de onderstaande instructies om de achtergrondopname van video\'s op uw apparaat stabiel te houden.</string>
     <string name="any_text">Ieder</string>
     <string name="app_alternative_name_audio">Audio</string>
     <string name="app_alternative_name_battery">Batterij-instellingen</string>
@@ -19,6 +20,7 @@
     <string name="background_restrictions_explain_how_to_disable">Er zijn batterijbeperkingen voor deze app ingesteld die problemen kunnen veroorzaken bij het opnemen van video\'s op de achtergrond. Schakel alle batterijoptimalisaties of achtergrondbeperkingen voor deze app uit.\n\nU kunt deze opties vinden via \"App-info\" → \"Batterij\" of in de systeeminstellingen van uw apparaat. Stel de batterijoptimalisatie voor deze app in op \"Onbeperkt\" (of \"Niet optimaliseren\") en sta activiteiten op de voorgrond en achtergrond toe. De exacte locatie van deze opties kan variëren afhankelijk van de fabrikant van uw apparaat.</string>
     <string name="background_restrictions_msg_text">Schakel de achtergrondbeperkingen voor de app uit om stabiele video-opnames te garanderen.</string>
     <string name="background_restrictions_text">Beperk het gebruik van apps op de achtergrond</string>
+    <string name="battery_settings_on_older_devices">Op sommige oudere apparaten kunnen deze opties iets afwijken. Zie de voorbeeldschermafbeeldingen hieronder.</string>
     <string name="camera">Camera</string>
     <string name="camera_aperture">Diafragma</string>
     <string name="camera_back">achteruitrijcamera</string>
@@ -55,8 +57,9 @@
     <string name="donate_text">Bijdrage</string>
     <string name="donation_dlg_no_ads_text">U heeft geen advertenties.</string>
     <string name="donation_level_text">Uw donatieniveau:</string>
+    <string name="donation_play_services_to_restore_purchases">Als dit niet werkt, controleer dan of Google Play Services moet worden bijgewerkt. Je kunt ook de gegevens en cache wissen en de app opnieuw installeren. Raadpleeg de onderstaande link voor instructies over hoe je dit doet.\n\n</string>
     <string name="donation_purchase_info_loading_text">De winkelinformatie is nog niet geüpload. Ben je online en ingelogd op je Google-account?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Als je al een aankoop hebt gedaan, maar deze niet automatisch is hersteld, wis dan eerst de gegevens en cache van de Google Play Store. Verwijder vervolgens de app, open de Google Play Store, selecteer het juiste Google-account waarmee je de aankoop hebt gedaan en installeer de app opnieuw.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Als je al een aankoop hebt gedaan maar deze niet automatisch is hersteld, probeer dan eerst de app te verwijderen. Wis vervolgens de gegevens en de cache van de Google Play Store, open de app, selecteer het juiste Google-account waarmee je de aankoop hebt gedaan en installeer de app opnieuw.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">Als u al een donatie hebt gedaan, kunt u de aankopen herstellen door de applicatie opnieuw te installeren in de Samsung Galaxy Store nadat u het juiste account hebt geselecteerd</string>
     <string name="donation_remove_ads_by_any_amount_text">Verwijder advertenties voor altijd met een eenmalige donatie van welk bedrag dan ook.</string>
     <string name="donation_remove_ads_by_subscribing_text">U kunt ook maandelijks doneren om advertenties te verwijderen.</string>
@@ -78,10 +81,16 @@
     <string name="format_speed_measure_kilometers">km /u</string>
     <string name="format_speed_measure_miles">mph</string>
     <string name="from">van</string>
+    <string name="honor_battery_settings">Open \"Systeeminstellingen\", selecteer \"Batterij\" en tik vervolgens op \"App starten\".</string>
+    <string name="honor_battery_settings_app_launch">Zoek de app in de lijst en schakel de schakelaar ernaast uit om automatisch beheer uit te schakelen.</string>
+    <string name="honor_battery_settings_app_launch_manage_manually">Er verschijnt een pop-upvenster. Schakel alle opties (\"Automatisch starten\", \"Secundair starten\", \"Op de achtergrond uitvoeren\") in als er opties zijn uitgeschakeld.</string>
     <string name="hour">uur</string>
     <string name="hours">uur</string>
     <string name="month">maand</string>
     <string name="more_info">Meer informatie:</string>
+    <string name="moto_allow_background_recording">Om stabiele video-opname op de achtergrond te garanderen op Motorola-apparaten, schakelt u \'Achtergrondgebruik toestaan\' in voor deze app en stelt u \'Batterijoptimalisatie\' in op \'Onbeperkt\'. Schakel de optie \'Achtergrondapps beheren\' uit, indien beschikbaar.</string>
+    <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">Open het scherm \'App-info\', selecteer \'App-batterijgebruik\' en schakel \'Achtergrondgebruik toestaan\' in (dit is meestal standaard ingeschakeld).</string>
+    <string name="moto_disable_manage_background_apps">Open \'Systeeminstellingen\', selecteer \'Batterij\', selecteer vervolgens \'Achtergrondapps beheren\' (indien beschikbaar) en schakel de optie \'Achtergrondapps beheren gebruiken\' uit. Deze optie kan ook \'Batterijverbruik verbeteren wanneer de app niet actief is\' heten.</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">De toepassing is niet uitgesloten van batterijoptimalisatie. Als de camera niet op de achtergrond draait of iets anders, voeg deze applicatie dan toe aan de uitzonderingen van de energiebesparende modus.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Als je de applicatie opnieuw hebt geïnstalleerd op Android 11, dan moeten de oude bestanden handmatig worden verwijderd</string>
     <string name="msg_auto_recording_service_was_stopped">Je hebt de achtergrondservice gestopt voor het automatisch starten van de video-opname. Open de applicatie om deze opnieuw te starten.</string>
@@ -233,7 +242,7 @@
     <string name="prefs_gps_disabled_no_warning_text">Waarschuwings- en herstelknop niet weergeven</string>
     <string name="prefs_gps_disabled_warning_text">GPS uitgeschakeld waarschuwing, fix-knop</string>
     <string name="prefs_info_more_category_text">Informatie /Meer…</string>
-    <string name="prefs_kill_services_sum_text">Er zijn instellingen op uw apparaat waarmee apps automatisch kunnen worden afgespeeld en op de achtergrond kunnen worden uitgevoerd. Klik hier en voeg de toepassing toe aan de uitzonderingen (autostart toestaan ​​enzovoort) zodat deze op de achtergrond kan worden uitgevoerd en wanneer het scherm is uitgeschakeld, indien verboden</string>
+    <string name="prefs_kill_services_sum_text">Je apparaat heeft instellingen waarmee je het gebruik op de achtergrond (of het automatisch opstarten) kunt regelen. Tik hier om het gebruik op de achtergrond toe te staan of voeg de app toe aan de uitzonderingslijst als dit is beperkt.</string>
     <string name="prefs_kill_services_text">Achtergrondwerk toestaan</string>
     <string name="prefs_language">Taal</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Applicatie openen wanneer de opname automatisch start</string>
@@ -479,10 +488,10 @@
     <string name="rec_network_text">Netto</string>
     <string name="rec_off_text">Uit</string>
     <string name="rec_on_text">Incl.</string>
-    <string name="rec_privacy_analytics_msg">De app gebruikt Firebase Analytics voor eenvoudige anonieme analyses (zie onderstaande link)</string>
+    <string name="rec_privacy_analytics_msg">De app maakt gebruik van Firebase Analytics en Crashlytics voor eenvoudige anonieme analyses, diagnostiek en foutdetectie, waardoor problemen op verschillende apparaten kunnen worden opgelost. Meer informatie vindt u via de onderstaande link.</string>
     <string name="rec_privacy_appgallery_ads_iap">App gebruikt Huawei Petal -advertenties (om advertenties weer te geven) en in app -aankopen (om advertenties te verwijderen). Klik op het privacybeleidslink voor meer informatie.</string>
     <string name="rec_privacy_permissions_msg">De applicatie gebruikt de volgende machtigingen:\n- Open anonieme apparaat-ID OAID (voor gepersonaliseerde advertenties)\n- CAMERA, AUDIO (voor video-opname)\n- OPSLAG (voor het opslaan van video\'s)\n- LOCATIE (om het adres van de huidige locatie, GPS-coördinaten, snelheid te verkrijgen - om op het hoofdscherm van de applicatie weer te geven en ondertitels op de video toe te passen)\n- Internet Reclame)</string>
-    <string name="rec_privacy_service_msg">Privacy: Alle video\'s die u opneemt, worden alleen op uw lokale apparaat opgeslagen. De applicatie maakt geen back-up van uw video\'s (heeft geen verbindingen met servers)\n\nDe app blijft op de achtergrond actief (de voorgrondservice die in de meldingenbalk verschijnt) terwijl de opname actief is, wanneer u terugkeert naar het startscherm, overschakelt naar een andere app of uw telefoon vergrendelt om door te gaan met opnemen, en wanneer u de app inschakelt functies voor automatisch opnemen (als u de achtergrondservice sluit, werken deze functies niet).</string>
+    <string name="rec_privacy_service_msg">Privacy: Alle video\'s die u opneemt, worden alleen op uw eigen apparaat opgeslagen. De applicatie maakt geen back-up van uw video\'s op externe servers.\n\nTijdens een actieve opname blijft de app op de achtergrond draaien (via de voorgrondservice die in de notificatiebalk wordt weergegeven) wanneer u terugkeert naar het startscherm, overschakelt naar een andere app of uw telefoon vergrendelt. Sommige optionele automatische opnamefuncties die u kunt inschakelen, zijn ook afhankelijk van deze achtergrondservice. Als u deze afsluit, werken deze functies niet.</string>
     <string name="recording_file_name_prefix">Voorvoegsel voor videobestandsnamen</string>
     <string name="recording_start_short_text">Begin</string>
     <string name="recording_start_text">Start met opnemen</string>

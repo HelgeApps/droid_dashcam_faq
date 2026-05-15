@@ -2,6 +2,7 @@
     <!--<string name="app_name_droid_dashcam">Droid Dashcam - 駕駛 DVR</string>-->
     <string name="accept_text">我接受</string>
     <string name="allow_background_activity_on_some_devices">以下是一些允許在某些裝置上進行後台活動的範例：</string>
+    <string name="allow_background_recording">為確保設備後台視訊錄製穩定，請依照以下說明操作。</string>
     <string name="any_text">任何</string>
     <string name="app_alternative_name_audio">聲音的</string>
     <string name="app_alternative_name_battery">電池設定</string>
@@ -20,6 +21,7 @@
     <string name="background_restrictions_explain_how_to_disable">此應用程式設定了後台電池限制，可能會導致後台錄影出現問題。請停用此應用程式的任何電池優化或後台限制。\n\n您可以在「套用資訊」→「電池」畫面或裝置系統設定中找到這些選項。將此應用程式的電池優化設定為“無限制”（或“不優化”），並允許前台和後台活動。這些選項的具體位置可能因設備製造商而異。</string>
     <string name="background_restrictions_msg_text">請關閉應用程式後台限制，以確保視訊錄製穩定。</string>
     <string name="background_restrictions_text">限制後台應用程式工作</string>
+    <string name="battery_settings_on_older_devices">在某些較舊的設備上，這些選項可能略有不同。請參閱以下範例螢幕截圖。</string>
     <string name="camera">相機</string>
     <string name="camera_aperture">光圈</string>
     <string name="camera_back">主相機
@@ -57,8 +59,9 @@
     <string name="donate_text">捐款</string>
     <string name="donation_dlg_no_ads_text">您沒有廣告。</string>
     <string name="donation_level_text">您的捐贈級別：</string>
+    <string name="donation_play_services_to_restore_purchases">如果以上方法無效，請嘗試檢查 Google Play 服務是否需要更新。您也可以清除其資料和緩存，然後重新安裝應用程式。請點擊下方連結查看具體操作步驟。\n\n</string>
     <string name="donation_purchase_info_loading_text">無法確認付款資料。您的 Google 帳戶是否已經登錄？</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">如果您已經購買過商品，但商品沒有自動恢復，請先清除 Google Play 商店的資料和快取。然後，卸載該應用程式，打開 Google Play 商店，選擇用於購買的正確 Google 帳戶，然後重新安裝應用程式。</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">如果您已經購買過商品但未自動恢復，請先嘗試刪除該應用程式。然後清除 Google Play 商店的資料和緩存，打開該應用程式，選擇用於購買的正確 Google 帳戶，然後重新安裝應用程式。</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">如果您已經進行了捐贈，那麼要恢復購買，請在選擇正確的帳戶後在 Samsung Galaxy Store 中重新安裝該應用程式</string>
     <string name="donation_remove_ads_by_any_amount_text">透過一次性捐贈任意金額，永久刪除廣告。</string>
     <string name="donation_remove_ads_by_subscribing_text">您也可以每月捐款以刪除廣告。</string>
@@ -80,10 +83,16 @@
     <string name="format_speed_measure_kilometers">公里/小時</string>
     <string name="format_speed_measure_miles">時速</string>
     <string name="from">從</string>
+    <string name="honor_battery_settings">開啟“系統設定”，選擇“電池”，然後點擊“應用程式啟動”。</string>
+    <string name="honor_battery_settings_app_launch">在清單中找到該應用，然後關閉其旁邊的開關以停用自動管理。</string>
+    <string name="honor_battery_settings_app_launch_manage_manually">將會彈出一個視窗－如果任何選項（「自動啟動」、「輔助啟動」、「後台運行」）被停用，請啟用所有選項。</string>
     <string name="hour">小時</string>
     <string name="hours">小時</string>
     <string name="month">月</string>
     <string name="more_info">更多資訊：</string>
+    <string name="moto_allow_background_recording">為確保摩托羅拉設備上的後台視訊錄製穩定，請為此應用程式啟用“允許後台使用”，並將“電池優化”設定為“無限制”。如有「管理後台應用程式」選項，請將其停用。</string>
+    <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">開啟“套用資訊”螢幕，選擇“套用電池使用情況”，然後啟用“允許後台使用”（通常預設是啟用的）。</string>
+    <string name="moto_disable_manage_background_apps">開啟“系統設定”，選擇“電池”，然後選擇“管理背景應用程式”（如有），並關閉“使用管理背景應用程式”選項。該選項也可能名為「在不活動時改善電池續航力」。</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">該應用程式不排除在電池優化之外。如果相機沒有在背景運作或其他情況，則將此應用程式新增至省電模式的例外。</string>
     <string name="msg_android_r_deleting_manual_tip_text">如果您在 Android 11 上重新安裝了該應用程式，則必須手動刪除舊檔案</string>
     <string name="msg_auto_recording_service_was_stopped">您已停止自動開始錄影的後台服務。打開應用程式以再次啟動它。</string>
@@ -235,7 +244,7 @@
     <string name="prefs_gps_disabled_no_warning_text">不顯示警告和修復按鈕</string>
     <string name="prefs_gps_disabled_warning_text">GPS 禁用警告，修復按鈕</string>
     <string name="prefs_info_more_category_text">資訊 /更多…</string>
-    <string name="prefs_kill_services_sum_text">您的設備上有一些設定，允許應用程式在後台自动播放和運行。點擊此處並將應用程式添加到例外（允许自動啟動等）中，以允許它在後台和屏幕關閉時運行（如果被禁止）</string>
+    <string name="prefs_kill_services_sum_text">您的裝置有控制後台使用（或自動啟動）的設定。點擊此處允許後台使用，或將應用程式新增至例外清單（如果該應用程式受到限制）。</string>
     <string name="prefs_kill_services_text">允許後台工作</string>
     <string name="prefs_language">語言</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">自動開始錄制時打開應用程式</string>
@@ -481,10 +490,10 @@
     <string name="rec_network_text">網路</string>
     <string name="rec_off_text">離開</string>
     <string name="rec_on_text">包括</string>
-    <string name="rec_privacy_analytics_msg">該應用程式使用 Firebase Analytics 進行基本的匿名分析（請參閱下面的連結）</string>
+    <string name="rec_privacy_analytics_msg">該應用程式使用 Firebase Analytics 和 Crashlytics 進行基本的匿名分析、診斷和錯誤檢測，有助於排查跨裝置問題。點擊下方連結了解更多。</string>
     <string name="rec_privacy_appgallery_ads_iap">App使用華為花瓣廣告（顯示廣告）和應用購買（刪除廣告）。請單擊隱私政策鏈接以獲取更多信息。</string>
     <string name="rec_privacy_permissions_msg">該應用程式使用以下權限：\n- 開放匿名裝置識別碼OAID（用於個人化廣告）\n- 相機、音訊（用於錄影）\n- 儲存（用於保存影片）\n- 位置（取得目前位置的位址、GPS 座標、速度 - 顯示在應用程式的主螢幕上並向影片套用字幕）\n- 網路廣告）</string>
-    <string name="rec_privacy_service_msg">隱私：您錄製的所有影片將僅保存在您的本機裝置上。該應用程式不會備份您的影片（沒有與伺服器的任何連接）\n\n當錄音處於活動狀態時、當您返回主畫面、切換到另一個應用程式或鎖定手機以繼續錄音時以及當您開機時，該應用程式將繼續在背景執行（通知欄中顯示的前台服務）自動錄音功能（如果關閉背景服務，這些功能將無法運作）。</string>
+    <string name="rec_privacy_service_msg">隱私：您錄製的所有影片僅保存在您的本機裝置上。本應用程式不會將您的影片備份到外部伺服器。\n\n錄製過程中，即使您返回主畫面、切換到其他應用程式或鎖定手機，應用程式仍會在背景繼續運作（透過通知欄中顯示的前台服務），從而確保錄製持續進行。一些可選的自動錄製功能也依賴於此後台服務——如果您關閉該服務，這些功能將無法使用。</string>
     <string name="recording_file_name_prefix">影片檔名的前綴</string>
     <string name="recording_start_short_text">開始</string>
     <string name="recording_start_text">開始錄影</string>

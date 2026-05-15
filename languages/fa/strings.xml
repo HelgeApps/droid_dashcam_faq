@@ -1,6 +1,7 @@
 <resources>
     <string name="accept_text">قبول میکنم</string>
     <string name="allow_background_activity_on_some_devices">در زیر نمونه‌هایی از نحوه‌ی مجاز کردن فعالیت پس‌زمینه در برخی دستگاه‌ها آمده است:</string>
+    <string name="allow_background_recording">برای حفظ ثبات ضبط ویدیو در پس‌زمینه در دستگاهتان، دستورالعمل‌های زیر را دنبال کنید.</string>
     <string name="any_text">هر</string>
     <string name="app_alternative_name_audio">سمعی</string>
     <string name="app_alternative_name_battery">تنظیمات باتری</string>
@@ -19,6 +20,7 @@
     <string name="background_restrictions_explain_how_to_disable">محدودیت‌هایی برای باتری در پس‌زمینه برای این برنامه تعیین شده است که ممکن است باعث ایجاد مشکل در ضبط ویدیو در پس‌زمینه شود. لطفاً هرگونه بهینه‌سازی باتری یا محدودیت پس‌زمینه را برای این برنامه غیرفعال کنید.\n\nمی‌توانید چنین گزینه‌هایی را در صفحه «اطلاعات برنامه» → «باتری» یا در تنظیمات سیستم دستگاه خود پیدا کنید. بهینه‌سازی باتری را برای این برنامه روی «بدون محدودیت» (یا «بهینه‌سازی نکنید») تنظیم کنید، فعالیت پیش‌زمینه و پس‌زمینه را مجاز کنید. مکان دقیق چنین گزینه‌هایی ممکن است بسته به سازنده دستگاه شما متفاوت باشد.</string>
     <string name="background_restrictions_msg_text">لطفاً محدودیت‌های پس‌زمینه را برای برنامه غیرفعال کنید تا ضبط ویدیو پایدار باشد.</string>
     <string name="background_restrictions_text">محدود کردن کار برنامه‌های پس‌زمینه</string>
+    <string name="battery_settings_on_older_devices">در برخی از دستگاه‌های قدیمی‌تر، این گزینه‌ها ممکن است کمی متفاوت باشند. به تصاویر نمونه زیر مراجعه کنید.</string>
     <string name="camera">دوربین</string>
     <string name="camera_aperture">دیافراگم</string>
     <string name="camera_back">دوربین عقب</string>
@@ -55,8 +57,9 @@
     <string name="donate_text">اهداء</string>
     <string name="donation_dlg_no_ads_text">شما هیچ تبلیغی ندارید</string>
     <string name="donation_level_text">سطح کمک مالی شما:</string>
+    <string name="donation_play_services_to_restore_purchases">اگر این کار نکرد، بررسی کنید که آیا سرویس‌های گوگل پلی نیاز به به‌روزرسانی دارند یا خیر. همچنین می‌توانید داده‌ها و حافظه پنهان آن را پاک کنید، سپس برنامه را دوباره نصب کنید. لطفاً برای دستورالعمل‌های انجام این کار، به لینک زیر مراجعه کنید.</string>
     <string name="donation_purchase_info_loading_text">اطلاعات خرید هنوز آپلود نشده است. آیا آنلاین هستید و به حساب Google خود وارد شده اید؟</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">اگر قبلاً خریدی انجام داده‌اید، اما به‌طور خودکار بازیابی نشده است، لطفاً ابتدا داده‌ها و حافظه پنهان فروشگاه گوگل پلی را پاک کنید. سپس، برنامه را حذف نصب کنید، فروشگاه گوگل پلی را باز کنید، حساب گوگل صحیح مورد استفاده برای انجام خرید را انتخاب کنید و برنامه را دوباره نصب کنید.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">اگر قبلاً خریدی انجام داده‌اید اما به‌طور خودکار بازیابی نشده است، ابتدا برنامه را حذف کنید. سپس داده‌ها و حافظه پنهان فروشگاه گوگل پلی را پاک کنید، آن را باز کنید، حساب گوگل صحیحی را که برای انجام خرید استفاده کرده‌اید انتخاب کنید و برنامه را دوباره نصب کنید.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">اگر قبلاً کمک مالی کرده اید، برای بازیابی خریدها، لطفاً پس از انتخاب حساب صحیح، برنامه را در فروشگاه گلکسی سامسونگ دوباره نصب کنید.</string>
     <string name="donation_remove_ads_by_any_amount_text">تبلیغات را برای همیشه با کمک یکباره هر مبلغی حذف کنید.</string>
     <string name="donation_remove_ads_by_subscribing_text">همچنین می توانید برای حذف تبلیغات ماهانه کمک مالی کنید.</string>
@@ -78,10 +81,16 @@
     <string name="format_speed_measure_kilometers">کیلومتر در ساعت</string>
     <string name="format_speed_measure_miles">مایل در ساعت</string>
     <string name="from">از جانب</string>
+    <string name="honor_battery_settings">«تنظیمات سیستم» را باز کنید، «باتری» را انتخاب کنید، سپس روی «اجرای برنامه» ضربه بزنید.</string>
+    <string name="honor_battery_settings_app_launch">برنامه را در لیست پیدا کنید و دکمه کنار آن را خاموش کنید تا مدیریت خودکار غیرفعال شود.</string>
+    <string name="honor_battery_settings_app_launch_manage_manually">یک پنجره بازشو ظاهر می‌شود - در صورت غیرفعال بودن، همه گزینه‌ها (\"اجرای خودکار\"، \"اجرای ثانویه\"، \"اجرا در پس‌زمینه\") را فعال کنید.</string>
     <string name="hour">ساعت</string>
     <string name="hours">ساعت ها</string>
     <string name="month">ماه</string>
     <string name="more_info">اطلاعات بیشتر:</string>
+    <string name="moto_allow_background_recording">برای حفظ پایداری ضبط ویدیو در پس‌زمینه در دستگاه‌های موتورولا، گزینه «مجاز بودن استفاده از پس‌زمینه» را برای این برنامه فعال کنید و «بهینه‌سازی باتری» را روی «نامحدود» تنظیم کنید. در صورت وجود، گزینه «مدیریت برنامه‌های پس‌زمینه» را غیرفعال کنید.</string>
+    <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">صفحه «اطلاعات برنامه» را باز کنید، «میزان مصرف باتری برنامه» را انتخاب کنید و «مجاز کردن استفاده از پس‌زمینه» را فعال کنید (معمولاً به طور پیش‌فرض فعال است).</string>
+    <string name="moto_disable_manage_background_apps">«تنظیمات سیستم» را باز کنید، «باتری» را انتخاب کنید، سپس «مدیریت برنامه‌های پس‌زمینه» (در صورت وجود) را انتخاب کنید و گزینه «استفاده از مدیریت برنامه‌های پس‌زمینه» را غیرفعال کنید. این گزینه ممکن است «بهبود باتری در حالت غیرفعال» نیز نامیده شود.</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">این برنامه از بهینه سازی باتری مستثنی نیست. اگر دوربین در پس‌زمینه اجرا نمی‌شود یا چیز دیگری، این برنامه را به استثناهای حالت ذخیره انرژی اضافه کنید.</string>
     <string name="msg_android_r_deleting_manual_tip_text">اگر برنامه را دوباره روی اندروید 11 نصب کردید، فایل های قدیمی باید به صورت دستی پاک شوند</string>
     <string name="msg_auto_recording_service_was_stopped">شما سرویس پس زمینه را برای شروع خودکار ضبط ویدیو متوقف کرده اید. برنامه را باز کنید تا دوباره راه اندازی شود.</string>
@@ -233,7 +242,7 @@
     <string name="prefs_gps_disabled_no_warning_text">دکمه اخطار و تعمیر را نشان ندهید</string>
     <string name="prefs_gps_disabled_warning_text">هشدار غیرفعال بودن GPS، دکمه رفع مشکل</string>
     <string name="prefs_info_more_category_text">اطلاعات /ادامه…</string>
-    <string name="prefs_kill_services_sum_text">تنظیماتی در دستگاه شما وجود دارد که به برنامه‌ها اجازه پخش خودکار و اجرا در پس‌زمینه را می‌دهد. اینجا را کلیک کنید و برنامه را به استثناها اضافه کنید (اجازه دادن به شروع خودکار و غیره) تا در صورت ممنوعیت، در پس زمینه و زمانی که صفحه خاموش است اجرا شود.</string>
+    <string name="prefs_kill_services_sum_text">دستگاه شما تنظیماتی دارد که استفاده از پس‌زمینه (یا شروع خودکار) را کنترل می‌کند. برای مجاز کردن استفاده از پس‌زمینه یا اضافه کردن برنامه به لیست استثنائات در صورت محدود بودن، اینجا را لمس کنید.</string>
     <string name="prefs_kill_services_text">اجازه دادن به کار پس زمینه</string>
     <string name="prefs_language">زبان</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">با شروع خودکار ضبط، برنامه را باز کنید</string>
@@ -479,10 +488,10 @@
     <string name="rec_network_text">خالص</string>
     <string name="rec_off_text">خاموش</string>
     <string name="rec_on_text">شامل</string>
-    <string name="rec_privacy_analytics_msg">این برنامه از Firebase Analytics برای تجزیه و تحلیل های ناشناس اولیه استفاده می کند (لینک زیر را ببینید)</string>
+    <string name="rec_privacy_analytics_msg">این برنامه از Firebase Analytics و Crashlytics برای تجزیه و تحلیل‌های اولیه ناشناس، تشخیص و تشخیص خطا استفاده می‌کند و به عیب‌یابی مشکلات در دستگاه‌های مختلف کمک می‌کند. برای اطلاعات بیشتر به لینک زیر مراجعه کنید.</string>
     <string name="rec_privacy_appgallery_ads_iap">برنامه از تبلیغات گلبرگ Huawei (برای نشان دادن تبلیغات) و در خرید برنامه (برای حذف تبلیغات) استفاده می کند. لطفاً برای اطلاعات بیشتر روی پیوند خط مشی رازداری کلیک کنید.</string>
     <string name="rec_privacy_permissions_msg">برنامه از مجوزهای زیر استفاده می کند:\n- باز کردن شناسه دستگاه ناشناس OAID (برای تبلیغات شخصی سازی شده)\n- دوربین، صدا (برای ضبط ویدیو)\n- STORAGE (برای ذخیره ویدیوها)\n- LOCATION (برای دریافت آدرس مکان فعلی، مختصات GPS، سرعت - برای نمایش در صفحه اصلی برنامه و اعمال زیرنویس بر روی ویدیو)\n- تبلیغات اینترنتی)</string>
-    <string name="rec_privacy_service_msg">حریم خصوصی: تمام ویدیوهایی که ضبط می کنید فقط در دستگاه محلی شما ذخیره می شوند. برنامه از ویدیوهای شما نسخه پشتیبان تهیه نمی کند (هیچ گونه اتصالی به سرورها ندارد)\n\nوقتی ضبط فعال است، برنامه در پس‌زمینه (سرویس پیش‌زمینه که در نوار اعلان ظاهر می‌شود) به کار خود ادامه می‌دهد، وقتی به صفحه اصلی برگشتید، به برنامه دیگری بروید یا گوشی خود را قفل کنید تا بتوانید به ضبط ادامه دهید و چه زمانی ویژگی های ضبط خودکار را روشن می کنید (اگر سرویس پس زمینه را ببندید، این عملکردها کار نمی کنند).</string>
+    <string name="rec_privacy_service_msg">حریم خصوصی: تمام ویدیوهایی که ضبط می‌کنید فقط در دستگاه محلی شما ذخیره می‌شوند. این برنامه از ویدیوهای شما در سرورهای خارجی نسخه پشتیبان تهیه نمی‌کند.\n\nدر حین ضبط فعال، وقتی به صفحه اصلی برمی‌گردید، به برنامه دیگری می‌روید یا تلفن خود را قفل می‌کنید، برنامه در پس‌زمینه (از طریق سرویس پیش‌زمینه که در نوار اعلان‌ها نشان داده شده است) به کار خود ادامه می‌دهد و به ضبط اجازه می‌دهد ادامه یابد. برخی از ویژگی‌های ضبط خودکار اختیاری که می‌توانند فعال شوند نیز به این سرویس پس‌زمینه متکی هستند - اگر آن را ببندید، این عملکردها کار نخواهند کرد.</string>
     <string name="recording_file_name_prefix">پیشوند نام فایل های ویدئویی</string>
     <string name="recording_start_short_text">شروع کنید</string>
     <string name="recording_start_text">شروع به ضبط کنید</string>

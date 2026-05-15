@@ -1,6 +1,7 @@
 <resources>
     <string name="accept_text">hyväksyn</string>
     <string name="allow_background_activity_on_some_devices">Alla on esimerkkejä siitä, miten taustatoiminta voidaan sallia joillakin laitteilla:</string>
+    <string name="allow_background_recording">Jotta taustavideotallennus pysyisi vakaana laitteellasi, noudata alla olevia ohjeita.</string>
     <string name="any_text">Minkä tahansa</string>
     <string name="app_alternative_name_audio">Audio</string>
     <string name="app_alternative_name_battery">Akun asetukset</string>
@@ -19,6 +20,7 @@
     <string name="background_restrictions_explain_how_to_disable">Tälle sovellukselle on asetettu akun taustarajoituksia, jotka saattavat aiheuttaa ongelmia videon tallentamisessa taustalla. Poista käytöstä kaikki akun optimoinnit tai taustarajoitukset tälle sovellukselle.\n\nVoit kokeilla löytää näitä asetuksia kohdasta \"Sovellustiedot\" → \"Akku\" tai laitteesi järjestelmäasetuksista. Aseta akun optimointi asetukseksi \"Rajoittamaton\" (tai \"Älä optimoi\") tälle sovellukselle ja salli etualan ja taustan toiminta. Näiden asetusten tarkka sijainti voi vaihdella laitteen valmistajan mukaan.</string>
     <string name="background_restrictions_msg_text">Poista sovelluksen taustarajoitukset käytöstä varmistaaksesi vakaan videotallennuksen.</string>
     <string name="background_restrictions_text">Taustasovellusten työn rajoittaminen</string>
+    <string name="battery_settings_on_older_devices">Joissakin vanhemmissa laitteissa nämä vaihtoehdot voivat olla hieman erilaiset. Katso alla olevat esimerkkikuvakaappaukset.</string>
     <string name="camera">Kamera</string>
     <string name="camera_aperture">Kalvo</string>
     <string name="camera_back">Takakamera</string>
@@ -55,8 +57,9 @@
     <string name="donate_text">Lahjoitus</string>
     <string name="donation_dlg_no_ads_text">Sinulla ei ole mainoksia.</string>
     <string name="donation_level_text">Lahjoitustasosi:</string>
+    <string name="donation_play_services_to_restore_purchases">Jos tämä ei auta, kokeile tarkistaa, tarvitseeko Google Play Palvelut päivittää. Voit myös tyhjentää sen tiedot ja välimuistin ja asentaa sovelluksen uudelleen. Katso ohjeet alla olevasta linkistä.</string>
     <string name="donation_purchase_info_loading_text">Ostostietoja ei ole vielä ladattu. Oletko online-tilassa ja kirjautunut Google-tilillesi?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Jos olet jo tehnyt ostoksen, mutta sitä ei palautettu automaattisesti, tyhjennä ensin Google Play Kaupan tiedot ja välimuisti. Poista sitten sovelluksen asennus, avaa Google Play Kauppa, valitse oikea Google-tili, jolla teit ostoksen, ja asenna sovellus uudelleen.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Jos olet jo tehnyt ostoksen, mutta sitä ei palautettu automaattisesti, kokeile ensin sovelluksen poistamista. Tyhjennä sitten Google Play Kaupan tiedot ja välimuisti, avaa sovellus, valitse oikea Google-tili, jolla teit ostoksen, ja asenna sovellus uudelleen.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">Jos olet jo tehnyt lahjoituksen, asenna sovellus uudelleen Samsung Galaxy Storeen, kun olet valinnut oikean tilin ostosten palauttamiseksi.</string>
     <string name="donation_remove_ads_by_any_amount_text">Poista mainokset ikuisesti minkä tahansa summan kertaluonteisella lahjoituksella.</string>
     <string name="donation_remove_ads_by_subscribing_text">Voit myös lahjoittaa kuukausittain mainosten poistamiseen.</string>
@@ -78,10 +81,16 @@
     <string name="format_speed_measure_kilometers">km/h</string>
     <string name="format_speed_measure_miles">mph</string>
     <string name="from">alkaen</string>
+    <string name="honor_battery_settings">Avaa \"Järjestelmäasetukset\", valitse \"Akku\" ja napauta sitten \"Sovelluksen käynnistys\".</string>
+    <string name="honor_battery_settings_app_launch">Etsi sovellus luettelosta ja poista automaattinen hallinta käytöstä poistamalla sen vieressä oleva kytkin.</string>
+    <string name="honor_battery_settings_app_launch_manage_manually">Ponnahdusikkuna avautuu — ota käyttöön kaikki asetukset (\"Automaattinen käynnistys\", \"Toissijainen käynnistys\", \"Suorita taustalla\"), jos jokin niistä on poistettu käytöstä.</string>
     <string name="hour">tunnin</string>
     <string name="hours">tuntia</string>
     <string name="month">kuukausi</string>
     <string name="more_info">Lisätietoja:</string>
+    <string name="moto_allow_background_recording">Jotta taustavideon tallennus pysyisi vakaana Motorola-laitteissa, ota käyttöön \"Salli taustakäyttö\" tälle sovellukselle ja aseta \"Akun optimointi\" -asetukseksi \"Rajoittamaton\". Poista käytöstä \"Hallitse taustasovelluksia\" -vaihtoehto, jos se on käytettävissä.</string>
+    <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">Avaa \"Sovellustiedot\"-näyttö, valitse \"Sovelluksen akun käyttö\" ja ota käyttöön \"Salli taustakäyttö\" (se on yleensä oletusarvoisesti käytössä).</string>
+    <string name="moto_disable_manage_background_apps">Avaa \"Järjestelmäasetukset\", valitse \"Akku\" ja sitten \"Hallitse taustasovelluksia\" (jos saatavilla) ja poista käytöstä \"Käytä taustasovellusten hallintaa\" -vaihtoehto. Vaihtoehdon nimi voi olla myös \"Paranna akun kestoa, kun laite ei ole käytössä\".</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Sovellusta ei ole suljettu akun optimoinnin ulkopuolelle. Jos kamera ei ole käynnissä taustalla tai jotain muuta, lisää tämä sovellus virransäästötilan poikkeuksiin.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Jos asensit sovelluksen uudelleen Android 11:een, vanhat tiedostot on poistettava manuaalisesti</string>
     <string name="msg_auto_recording_service_was_stopped">Olet pysäyttänyt taustapalvelun videon tallennusta varten automaattisesti. Avaa sovellus käynnistääksesi sen uudelleen.</string>
@@ -233,7 +242,7 @@
     <string name="prefs_gps_disabled_no_warning_text">Älä näytä varoitus- ja korjauspainiketta</string>
     <string name="prefs_gps_disabled_warning_text">GPS pois käytöstä varoitus, korjauspainike</string>
     <string name="prefs_info_more_category_text">Tietoja /Lisää…</string>
-    <string name="prefs_kill_services_sum_text">Laitteessasi on asetukset, joiden avulla sovellukset voivat toistaa automaattisesti ja toimia taustalla. Napsauta tätä ja lisää sovellus poikkeuksiin (salli automaattinen käynnistys ja niin edelleen), jotta se voi toimia taustalla ja näytön ollessa pois päältä, jos se on kielletty</string>
+    <string name="prefs_kill_services_sum_text">Laitteessasi on asetuksia, jotka hallitsevat taustakäyttöä (tai automaattista käynnistystä). Napauta tästä salliaksesi taustakäytön tai lisätäksesi sovelluksen poikkeusluetteloon, jos sitä on rajoitettu.</string>
     <string name="prefs_kill_services_text">Taustatyön salliminen</string>
     <string name="prefs_language">Kieli</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Avaa sovellus, kun tallennus alkaa automaattisesti</string>
@@ -479,10 +488,10 @@
     <string name="rec_network_text">Netto</string>
     <string name="rec_off_text">Vinossa</string>
     <string name="rec_on_text">Sisältää</string>
-    <string name="rec_privacy_analytics_msg">Sovellus käyttää Firebase Analyticsia anonyymiin perusanalytiikkaan (katso alla oleva linkki)</string>
+    <string name="rec_privacy_analytics_msg">Sovellus käyttää Firebase Analyticsia ja Crashlyticsia anonyymiin perusanalytiikkaan, diagnostiikkaan ja virheiden havaitsemiseen, mikä auttaa vianmäärityksessä eri laitteilla. Lisätietoja alla olevasta linkistä.</string>
     <string name="rec_privacy_appgallery_ads_iap">APP käyttää Huawei -terälehden mainoksia (mainosten näyttämiseen) ja sovellusostoissa (mainosten poistamiseksi). Napsauta tietosuojakäytäntölinkkiä saadaksesi lisätietoja.</string>
     <string name="rec_privacy_permissions_msg">Sovellus käyttää seuraavia käyttöoikeuksia:\n- Avaa anonyymi laitetunniste OAID (henkilökohtaista mainontaa varten)\n- KAMERA, AUDIO (videotallennusta varten)\n- TALLENNUS (videoiden tallentamiseen)\n- SIJAINTI (saadaksesi nykyisen sijainnin osoitteen, GPS-koordinaatit, nopeuden - näyttääksesi sovelluksen päänäytöllä ja käyttääksesi tekstityksiä videoon)\n- Internet-mainonta)</string>
-    <string name="rec_privacy_service_msg">Tietosuoja: Kaikki tallentamasi videot tallennetaan vain paikalliselle laitteellesi. Sovellus ei varmuuskopioi videoitasi (ei ole yhteyksiä palvelimiin)\n\nSovellus jatkaa toimintaansa taustalla (etualan palvelu, joka näkyy ilmoituspalkissa), kun tallennus on aktiivinen, kun palaat aloitusnäyttöön, vaihdat toiseen sovellukseen tai lukitset puhelimesi, jotta voit jatkaa tallennusta, ja kun otat käyttöön automaattisen tallennuksen ominaisuudet (jos suljet taustapalvelun, nämä toiminnot eivät toimi).</string>
+    <string name="rec_privacy_service_msg">Tietosuoja: Kaikki tallentamasi videot tallennetaan vain paikalliselle laitteellesi. Sovellus ei varmuuskopioi videoitasi ulkoisille palvelimille.\n\nAktiivisen tallennuksen aikana sovellus jatkaa toimintaansa taustalla (ilmoituspalkissa näkyvän etualan palvelun kautta), kun palaat aloitusnäyttöön, vaihdat toiseen sovellukseen tai lukitset puhelimesi, jolloin tallennus voi jatkua. Jotkin valinnaiset automaattiset tallennusominaisuudet, jotka voidaan ottaa käyttöön, ovat myös riippuvaisia tästä taustapalvelusta – jos suljet sen, nämä toiminnot eivät toimi.</string>
     <string name="recording_file_name_prefix">Videotiedostojen nimien etuliite</string>
     <string name="recording_start_short_text">Aloita</string>
     <string name="recording_start_text">Aloita nauhottaminen</string>

@@ -1,6 +1,7 @@
 <resources>
     <string name="accept_text">Aceptar</string>
     <string name="allow_background_activity_on_some_devices">A continuación se muestran ejemplos de cómo permitir la actividad en segundo plano en algunos dispositivos:</string>
+    <string name="allow_background_recording">Para mantener la grabación de vídeo en segundo plano estable en su dispositivo, siga las instrucciones que aparecen a continuación.</string>
     <string name="any_text">Cualquier</string>
     <string name="app_alternative_name_audio">Audio</string>
     <string name="app_alternative_name_battery">Configuración de la batería</string>
@@ -19,6 +20,7 @@
     <string name="background_restrictions_explain_how_to_disable">Esta aplicación tiene restricciones de batería que pueden causar problemas al grabar videos en segundo plano. Desactive cualquier optimización de batería o restricción de batería para esta aplicación.\n\nPuede encontrar estas opciones en la pantalla \"Información de la aplicación\" → \"Batería\" o en la configuración del sistema de su dispositivo. Configure la optimización de batería en \"Sin restricciones\" (o \"No optimizar\") para esta aplicación, permitiendo la actividad en primer plano y en segundo plano. La ubicación exacta de estas opciones puede variar según el fabricante de su dispositivo.</string>
     <string name="background_restrictions_msg_text">Desactive las restricciones de grabación en segundo plano para la aplicación a fin de garantizar una grabación de vídeo estable.</string>
     <string name="background_restrictions_text">Limitar el trabajo de las aplicaciones en segundo plano</string>
+    <string name="battery_settings_on_older_devices">En algunos dispositivos más antiguos, estas opciones pueden variar ligeramente. Consulte las capturas de pantalla de ejemplo a continuación.</string>
     <string name="camera">Cámara</string>
     <string name="camera_aperture">Apertura</string>
     <string name="camera_back">Cámara trasera</string>
@@ -55,8 +57,9 @@
     <string name="donate_text">Donación</string>
     <string name="donation_dlg_no_ads_text">No tienes anuncios.</string>
     <string name="donation_level_text">Tu nivel de donación:</string>
+    <string name="donation_play_services_to_restore_purchases">Si esto no funciona, comprueba si los Servicios de Google Play necesitan actualizarse. También puedes borrar los datos y la caché, y luego reinstalar la aplicación. Consulta el siguiente enlace para obtener instrucciones sobre cómo hacerlo.</string>
     <string name="donation_purchase_info_loading_text">La información de compras aún no se ha subido. ¿Está en línea y ha iniciado sesión en su cuenta de Google?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Si ya realizaste una compra, pero no se restauró automáticamente, primero borra los datos y la caché de Google Play Store. Luego, desinstala la aplicación, abre Google Play Store, selecciona la cuenta de Google correcta que usaste para la compra y vuelve a instalar la aplicación.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Si ya realizaste una compra pero no se restauró automáticamente, intenta primero desinstalar la aplicación. Luego, borra los datos y la caché de Google Play Store, ábrela, selecciona la cuenta de Google correcta que usaste para la compra y vuelve a instalar la aplicación.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">Si ya ha realizado una donación, para restaurar las compras, vuelva a instalar la aplicación en Samsung Galaxy Store después de seleccionar la cuenta correcta.</string>
     <string name="donation_remove_ads_by_any_amount_text">Elimine los anuncios para siempre con una donación única de cualquier monto.</string>
     <string name="donation_remove_ads_by_subscribing_text">También puedes donar mensualmente para eliminar anuncios.</string>
@@ -78,10 +81,16 @@
     <string name="format_speed_measure_kilometers">km/h</string>
     <string name="format_speed_measure_miles">mph</string>
     <string name="from">desde</string>
+    <string name="honor_battery_settings">Abre \"Ajustes del sistema\", selecciona \"Batería\" y luego pulsa \"Inicio de aplicaciones\".</string>
+    <string name="honor_battery_settings_app_launch">Busca la aplicación en la lista y desactiva el interruptor que aparece junto a ella para desactivar la gestión automática.</string>
+    <string name="honor_battery_settings_app_launch_manage_manually">Aparecerá una ventana emergente: active todas las opciones (\"Inicio automático\", \"Inicio secundario\", \"Ejecutar en segundo plano\") si alguna está desactivada.</string>
     <string name="hour">hora</string>
     <string name="hours">horas</string>
     <string name="month">mes</string>
     <string name="more_info">Más información:</string>
+    <string name="moto_allow_background_recording">Para que la grabación de vídeo en segundo plano sea estable en dispositivos Motorola, active la opción \"Permitir el uso en segundo plano\" para esta aplicación y configure la \"Optimización de batería\" en \"Sin restricciones\". Desactive la opción \"Gestionar aplicaciones en segundo plano\" si está disponible.</string>
+    <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">Abre la pantalla \"Información de la aplicación\", selecciona \"Uso de la batería de la aplicación\" y habilita \"Permitir el uso en segundo plano\" (normalmente está habilitado por defecto).</string>
+    <string name="moto_disable_manage_background_apps">Abre \"Ajustes del sistema\", selecciona \"Batería\" y luego \"Gestionar aplicaciones en segundo plano\" (si está disponible). Desactiva la opción \"Usar la gestión de aplicaciones en segundo plano\". Esta opción también podría llamarse \"Mejorar la batería cuando está inactiva\".</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">La aplicación no está excluida de la optimización de la batería. Si la cámara no se ejecuta en segundo plano o algo más, agregue esta aplicación a las excepciones del modo de ahorro de energía.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Si reinstaló la aplicación en Android 11, los archivos antiguos deben eliminarse manualmente</string>
     <string name="msg_auto_recording_service_was_stopped">Ha detenido el servicio en segundo plano para iniciar automáticamente la grabación de video. Abra la aplicación para iniciarla nuevamente.</string>
@@ -233,7 +242,7 @@
     <string name="prefs_gps_disabled_no_warning_text">No mostrar el botón de advertencia y reparación</string>
     <string name="prefs_gps_disabled_warning_text">Advertencia de GPS desactivado, botón de reparación</string>
     <string name="prefs_info_more_category_text">Información /Más…</string>
-    <string name="prefs_kill_services_sum_text">Hay configuraciones en su dispositivo que permiten que las aplicaciones se inicien automáticamente y se ejecuten en segundo plano. Haga clic aquí y agregue la aplicación a las excepciones (permitir inicio automático, etc.) para permitir que se ejecute en segundo plano y cuando la pantalla esté apagada, si no está permitido</string>
+    <string name="prefs_kill_services_sum_text">Tu dispositivo tiene ajustes que controlan el uso en segundo plano (o el inicio automático). Pulsa aquí para permitir el uso en segundo plano o añade la app a la lista de excepciones si está restringida.</string>
     <string name="prefs_kill_services_text">Permitir trabajo en segundo plano</string>
     <string name="prefs_language">Idioma</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Abrir la aplicación cuando la grabación comience automáticamente</string>
@@ -479,10 +488,10 @@
     <string name="rec_network_text">Red</string>
     <string name="rec_off_text">Apagado</string>
     <string name="rec_on_text">Encendido</string>
-    <string name="rec_privacy_analytics_msg">La aplicación utiliza Firebase Analytics para análisis anónimos básicos (consulte el enlace a continuación)</string>
+    <string name="rec_privacy_analytics_msg">La aplicación utiliza Firebase Analytics y Crashlytics para realizar análisis anónimos básicos, diagnósticos y detección de errores, lo que ayuda a solucionar problemas en diferentes dispositivos. Obtén más información en el enlace a continuación.</string>
     <string name="rec_privacy_appgallery_ads_iap">La aplicación utiliza anuncios de Petal Huawei (para mostrar anuncios) y en compras de aplicaciones (para eliminar anuncios). Haga clic en el enlace de la política de privacidad para obtener más información.</string>
     <string name="rec_privacy_permissions_msg">La aplicación utiliza los siguientes permisos:\n- Identificador de dispositivo anónimo abierto OAID (para publicidad personalizada)\n- CÁMARA, AUDIO (para grabación de video)\n- ALMACENAMIENTO (para guardar videos)\n- UBICACIÓN (para obtener la dirección de la ubicación actual, coordenadas GPS, velocidad - para mostrar en la pantalla principal de la aplicación y aplicar subtítulos al video)\n- Publicidad en Internet)</string>
-    <string name="rec_privacy_service_msg">Privacidad: todos los videos que grabes se guardarán solo en tu dispositivo local. La aplicación no realiza copias de seguridad de tus videos (no tiene ninguna conexión a servidores)\n\nLa aplicación continuará ejecutándose en segundo plano (el servicio de primer plano que aparece en la barra de notificaciones) mientras la grabación esté activa, cuando regrese a la pantalla de inicio, cambie a otra aplicación o bloquee su teléfono para poder continuar grabando, y cuando activa las funciones para la grabación automática (si cierra el servicio en segundo plano, estas funciones no funcionarán).</string>
+    <string name="rec_privacy_service_msg">Privacidad: Todos los videos que grabes se guardan únicamente en tu dispositivo. La aplicación no realiza copias de seguridad de tus videos en servidores externos.\n\nDurante la grabación, la aplicación seguirá ejecutándose en segundo plano (mediante el servicio en primer plano que se muestra en la barra de notificaciones) cuando regreses a la pantalla de inicio, cambies a otra aplicación o bloquees el teléfono, permitiendo que la grabación continúe. Algunas funciones opcionales de grabación automática que puedes activar también dependen de este servicio en segundo plano; si lo cierras, estas funciones no funcionarán.</string>
     <string name="recording_file_name_prefix">Prefijo para nombres de archivos de vídeo</string>
     <string name="recording_start_short_text">Comenzar</string>
     <string name="recording_start_text">Iniciar grabación</string>

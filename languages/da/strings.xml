@@ -1,6 +1,7 @@
 <resources>
     <string name="accept_text">jeg accepterer</string>
     <string name="allow_background_activity_on_some_devices">Nedenfor er eksempler på, hvordan man tillader baggrundsaktivitet på visse enheder:</string>
+    <string name="allow_background_recording">For at holde baggrundsvideooptagelsen stabil på din enhed skal du følge instruktionerne nedenfor.</string>
     <string name="any_text">Nogen</string>
     <string name="app_alternative_name_audio">Lyd</string>
     <string name="app_alternative_name_battery">Batteriindstillinger</string>
@@ -19,6 +20,7 @@
     <string name="background_restrictions_explain_how_to_disable">Der er indstillet batteribegrænsninger i baggrunden for denne app, som kan forårsage problemer med videooptagelse i baggrunden. Deaktiver venligst alle batterioptimeringer eller baggrundsbegrænsninger for denne app.\n\nDu kan prøve at finde sådanne muligheder på skærmen \"Appinfo\" → \"Batteri\" eller i din enheds systemindstillinger. Indstil batterioptimering til \"Ubegrænset\" (eller \"Optimer ikke\") for denne app, og tillad aktivitet i forgrunden og baggrunden. Den nøjagtige placering af sådanne muligheder kan variere afhængigt af din enhedsproducent.</string>
     <string name="background_restrictions_msg_text">Deaktiver venligst baggrundsbegrænsninger for appen for at sikre stabil videooptagelse.</string>
     <string name="background_restrictions_text">Begrænsning af baggrundsapps</string>
+    <string name="battery_settings_on_older_devices">På nogle ældre enheder kan disse muligheder variere en smule. Se eksemplerne på skærmbilleder nedenfor.</string>
     <string name="camera">Kamera</string>
     <string name="camera_aperture">Mellemgulv</string>
     <string name="camera_back">Bagkamera</string>
@@ -55,8 +57,9 @@
     <string name="donate_text">Donation</string>
     <string name="donation_dlg_no_ads_text">Du har ingen annoncer.</string>
     <string name="donation_level_text">Dit donationsniveau:</string>
+    <string name="donation_play_services_to_restore_purchases">Hvis dette ikke virker, kan du prøve at kontrollere, om Google Play Services skal opdateres. Du kan også rydde dens data og cache og derefter geninstallere appen. Se linket nedenfor for at få instruktioner om, hvordan du gør dette.</string>
     <string name="donation_purchase_info_loading_text">Indkøbsinformationen er ikke blevet uploadet endnu. Er du online og logget ind på din Google-konto?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Hvis du allerede har foretaget et køb, men det ikke blev gendannet automatisk, skal du først rydde dataene og cachen i Google Play Butik. Afinstaller derefter appen, åbn Google Play Butik, vælg den korrekte Google-konto, der blev brugt til at foretage købet, og geninstaller appen.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Hvis du allerede har foretaget et køb, men det ikke blev gendannet automatisk, kan du prøve at slette appen først. Ryd derefter Google Play Butik-dataene og cachen, åbn den, vælg den korrekte Google-konto, der blev brugt til at foretage købet, og geninstaller appen.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">Hvis du allerede har givet en donation, skal du geninstallere applikationen i Samsung Galaxy Store for at gendanne køb efter at have valgt den korrekte konto</string>
     <string name="donation_remove_ads_by_any_amount_text">Fjern annoncer for altid med en engangsdonation af ethvert beløb.</string>
     <string name="donation_remove_ads_by_subscribing_text">Du kan også donere månedligt for at fjerne annoncer.</string>
@@ -78,10 +81,16 @@
     <string name="format_speed_measure_kilometers">km/t</string>
     <string name="format_speed_measure_miles">mph</string>
     <string name="from">fra</string>
+    <string name="honor_battery_settings">Åbn \"Systemindstillinger\", vælg \"Batteri\", og tryk derefter på \"Appstart\".</string>
+    <string name="honor_battery_settings_app_launch">Find appen på listen, og slå knappen ud for den fra for at deaktivere automatisk administration.</string>
+    <string name="honor_battery_settings_app_launch_manage_manually">Der vises en pop op-boks — aktiver alle muligheder (\"Automatisk start\", \"Sekundær start\", \"Kør i baggrunden\"), hvis nogen er deaktiveret.</string>
     <string name="hour">time</string>
     <string name="hours">timer</string>
     <string name="month">måned</string>
     <string name="more_info">Mere information:</string>
+    <string name="moto_allow_background_recording">For at holde baggrundsvideooptagelse stabil på Motorola-enheder skal du aktivere \"Tillad baggrundsbrug\" for denne app og indstille \"Batterioptimering\" til \"Ubegrænset\". Deaktiver indstillingen \"Administrer baggrundsapps\", hvis den er tilgængelig.</string>
+    <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">Åbn skærmen \"App-info\", vælg \"App-batteriforbrug\", og aktiver \"Tillad baggrundsbrug\" (det er normalt aktiveret som standard).</string>
+    <string name="moto_disable_manage_background_apps">Åbn \"Systemindstillinger\", vælg \"Batteri\", vælg derefter \"Administrer baggrundsapps\" (hvis tilgængelig) og deaktiver indstillingen \"Brug Administrer baggrundsapps\". Indstillingen kan også hedde \"Forbedr batterilevetid ved inaktivitet\".</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Applikationen er ikke udelukket fra batterioptimering. Hvis kameraet ikke kører i baggrunden eller noget andet, skal du tilføje denne applikation til undtagelserne af strømbesparende tilstand.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Hvis du geninstallerede applikationen på Android 11, skal de gamle filer slettes manuelt</string>
     <string name="msg_auto_recording_service_was_stopped">Du har stoppet baggrundstjenesten for automatisk at starte videooptagelse. Åbn programmet for at starte det igen.</string>
@@ -233,7 +242,7 @@
     <string name="prefs_gps_disabled_no_warning_text">Vis ikke advarsels- og rettelsesknap</string>
     <string name="prefs_gps_disabled_warning_text">GPS deaktiveret advarsel, fix knap</string>
     <string name="prefs_info_more_category_text">Information /Mere…</string>
-    <string name="prefs_kill_services_sum_text">Der er indstillinger på din enhed for at tillade, at apps kan afspilles automatisk og køre i baggrunden. Klik her og tilføj applikationen til undtagelserne (tillad autostart og så videre) for at tillade den at køre i baggrunden, og når skærmen er slukket, hvis det er forbudt</string>
+    <string name="prefs_kill_services_sum_text">Din enhed har indstillinger, der styrer baggrundsbrug (eller automatisk start). Tryk her for at tillade baggrundsbrug eller føje appen til undtagelseslisten, hvis den er begrænset.</string>
     <string name="prefs_kill_services_text">Tillad baggrundsarbejde</string>
     <string name="prefs_language">Sprog</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Åbn programmet, når optagelsen starter automatisk</string>
@@ -479,10 +488,10 @@
     <string name="rec_network_text">Net</string>
     <string name="rec_off_text">Af</string>
     <string name="rec_on_text">Inkl.</string>
-    <string name="rec_privacy_analytics_msg">Appen bruger Firebase Analytics til grundlæggende anonym analyse (se linket nedenfor)</string>
+    <string name="rec_privacy_analytics_msg">Appen bruger Firebase Analytics og Crashlytics til grundlæggende anonym analyse, diagnosticering og fejlfinding, hvilket hjælper med at fejlfinde problemer på tværs af enheder. Få mere at vide på linket nedenfor.</string>
     <string name="rec_privacy_appgallery_ads_iap">App bruger Huawei Petal Ads (til at vise annoncer) og i appkøb (til at fjerne annoncer). Klik på linket om privatlivspolitik for mere information.</string>
     <string name="rec_privacy_permissions_msg">Applikationen bruger følgende tilladelser:\n- Åbn anonym enhedsidentifikator OAID (til personlig annoncering)\n- KAMERA, AUDIO (til videooptagelse)\n- OPBEVARING (for at gemme videoer)\n- LOCATION (for at få adressen på den aktuelle placering, GPS-koordinater, hastighed - for at vise på hovedskærmen i applikationen og anvende undertekster til videoen)\n- Internetannoncering)</string>
-    <string name="rec_privacy_service_msg">Fortrolighed: Alle videoer, du optager, bliver kun gemt på din lokale enhed. Applikationen sikkerhedskopierer ikke dine videoer (har ingen forbindelser til servere)\n\nAppen vil fortsætte med at køre i baggrunden (forgrundstjenesten, der vises i meddelelseslinjen), mens optagelsen er aktiv, når du vender tilbage til startskærmen, skifter til en anden app eller låser din telefon for at kunne fortsætte optagelsen, og når du slår funktioner til for automatisk optagelse (hvis du lukker baggrundstjenesten, vil disse funktioner ikke fungere).</string>
+    <string name="rec_privacy_service_msg">Privatliv: Alle videoer, du optager, gemmes kun på din lokale enhed. Applikationen sikkerhedskopierer ikke dine videoer til eksterne servere.\n\nUnder aktiv optagelse fortsætter appen med at køre i baggrunden (via forgrundstjenesten, der vises i notifikationslinjen), når du vender tilbage til startskærmen, skifter til en anden app eller låser din telefon, så optagelsen kan fortsætte. Nogle valgfrie automatiske optagelsesfunktioner, der kan aktiveres, er også afhængige af denne baggrundstjeneste – hvis du lukker den, fungerer disse funktioner ikke.</string>
     <string name="recording_file_name_prefix">Præfiks for videofilnavne</string>
     <string name="recording_start_short_text">Starte</string>
     <string name="recording_start_text">Start optagelsen</string>

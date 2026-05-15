@@ -1,6 +1,7 @@
 <resources>
     <string name="accept_text">tinatanggap ko</string>
     <string name="allow_background_activity_on_some_devices">Nasa ibaba ang mga halimbawa kung paano payagan ang aktibidad sa background sa ilang device:</string>
+    <string name="allow_background_recording">Para mapanatiling stable ang pagre-record ng background video sa iyong device, sundin ang mga tagubilin sa ibaba.</string>
     <string name="any_text">Anuman</string>
     <string name="app_alternative_name_audio">Audio</string>
     <string name="app_alternative_name_battery">Mga Setting ng Baterya</string>
@@ -19,6 +20,7 @@
     <string name="background_restrictions_explain_how_to_disable">May mga nakatakdang limitasyon sa background ng baterya para sa app na ito na maaaring magdulot ng problema sa pagre-record ng video sa background. Paki-disable ang anumang pag-optimize ng baterya o mga limitasyon sa background para sa app na ito.\nMaaari mong subukang hanapin ang mga ganitong opsyon sa screen na \"Impormasyon ng app\" → \"Battery\" o sa mga setting ng system ng iyong device. Itakda ang pag-optimize ng baterya sa \"Walang Restriksyon\" (o \"Huwag i-optimize\") para sa app na ito, payagan ang aktibidad sa foreground at background. Ang eksaktong lokasyon ng mga naturang opsyon ay maaaring mag-iba depende sa tagagawa ng iyong device.</string>
     <string name="background_restrictions_msg_text">Paki-disable ang mga paghihigpit sa background para sa app para matiyak ang stable na pag-record ng video.</string>
     <string name="background_restrictions_text">Paglilimita sa trabaho ng background app</string>
+    <string name="battery_settings_on_older_devices">Sa ilang mas lumang device, maaaring bahagyang magkaiba ang mga opsyong ito. Tingnan ang mga halimbawang screenshot sa ibaba.</string>
     <string name="camera">Camera</string>
     <string name="camera_aperture">Dayapragm</string>
     <string name="camera_back">Rear camera</string>
@@ -55,8 +57,9 @@
     <string name="donate_text">Donasyon</string>
     <string name="donation_dlg_no_ads_text">Wala kang mga ad.</string>
     <string name="donation_level_text">Ang iyong antas ng donasyon:</string>
+    <string name="donation_play_services_to_restore_purchases">Kung hindi ito gumana, subukang tingnan kung kailangang i-update ang Google Play Services. Maaari mo ring i-clear ang data at cache nito, pagkatapos ay i-install muli ang app. Pakitingnan ang link sa ibaba para sa mga tagubilin kung paano ito gawin.</string>
     <string name="donation_purchase_info_loading_text">Ang impormasyon sa pamimili ay hindi pa na-upload. Online ka ba at naka-sign in sa iyong Google account?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Kung nakabili ka na, ngunit hindi ito awtomatikong naibalik, pakilinis muna ang data at cache ng Google Play Store. Pagkatapos, i-uninstall ang app, buksan ang Google Play Store, piliin ang tamang Google account na ginamit sa pagbili, at muling i-install ang app.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Kung nakabili ka na ngunit hindi ito awtomatikong naibalik, subukang burahin muna ang app. Pagkatapos, i-clear ang data at cache ng Google Play Store, buksan ito, piliin ang tamang Google account na ginamit sa pagbili, at i-install muli ang app.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">Kung nakagawa ka na ng donasyon, pagkatapos ay upang maibalik ang mga pagbili, mangyaring muling i-install ang application sa Samsung Galaxy Store pagkatapos piliin ang tamang account</string>
     <string name="donation_remove_ads_by_any_amount_text">Mag-alis ng mga ad nang tuluyan gamit ang isang beses na donasyon ng anumang halaga.</string>
     <string name="donation_remove_ads_by_subscribing_text">Maaari ka ring mag-donate buwan-buwan upang alisin ang mga ad.</string>
@@ -78,10 +81,16 @@
     <string name="format_speed_measure_kilometers">km/h</string>
     <string name="format_speed_measure_miles">mph</string>
     <string name="from">mula sa</string>
+    <string name="honor_battery_settings">Buksan ang \"Mga Setting ng System\", piliin ang \"Battery\", pagkatapos ay i-tap ang \"App launch\".</string>
+    <string name="honor_battery_settings_app_launch">Hanapin ang app sa listahan at i-off ang toggle sa tabi nito para i-disable ang awtomatikong pamamahala.</string>
+    <string name="honor_battery_settings_app_launch_manage_manually">May lalabas na popup — paganahin ang lahat ng opsyon (\"Auto-launch\", \"Secondary launch\", \"Run in background\") kung mayroon mang naka-disable.</string>
     <string name="hour">oras</string>
     <string name="hours">oras</string>
     <string name="month">buwan</string>
     <string name="more_info">Higit pang impormasyon:</string>
+    <string name="moto_allow_background_recording">Para mapanatiling matatag ang pagre-record ng background video sa mga Motorola device, paganahin ang \"Payagan ang paggamit ng background\" para sa app na ito at itakda ang \"Pag-optimize ng baterya\" sa \"Walang Restriksyon\". I-disable ang opsyong \"Pamahalaan ang mga background app\" kung mayroon.</string>
+    <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">Buksan ang screen na \"Impormasyon ng app\", piliin ang \"Paggamit ng baterya ng app\", at paganahin ang \"Payagan ang paggamit ng background\" (karaniwan itong naka-enable bilang default).</string>
+    <string name="moto_disable_manage_background_apps">Buksan ang \"Mga Setting ng System\", piliin ang \"Battery\", pagkatapos ay piliin ang \"Pamahalaan ang mga background app\" (kung mayroon) at i-disable ang opsyong \"Gamitin ang Pamahalaan ang mga background app\". Ang opsyon ay maaari ding tawaging \"Pagbutihin ang baterya habang hindi aktibo\".</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Ang application ay hindi kasama sa pag-optimize ng baterya. Kung ang camera ay hindi tumatakbo sa background o iba pa, pagkatapos ay idagdag ang application na ito sa mga pagbubukod ng power saving mode.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Kung muling na-install mo ang application sa Android 11, dapat manual na i-delete ang mga lumang file</string>
     <string name="msg_auto_recording_service_was_stopped">Itinigil mo ang serbisyo sa background para sa awtomatikong pagsisimula ng pag-record ng video. Buksan ang application upang ilunsad itong muli.</string>
@@ -233,7 +242,7 @@
     <string name="prefs_gps_disabled_no_warning_text">Huwag magpakita ng babala at pindutan ng pag-aayos</string>
     <string name="prefs_gps_disabled_warning_text">Babala na hindi pinagana ang GPS, pindutan ng pag-aayos</string>
     <string name="prefs_info_more_category_text">Impormasyon /Higit pa…</string>
-    <string name="prefs_kill_services_sum_text">May mga setting sa iyong device upang payagan ang mga app na mag-autoplay at tumakbo sa background. Mag-click dito at idagdag ang application sa mga exception (payagan ang autostart at iba pa) upang payagan itong tumakbo sa background at kapag naka-off ang screen, kung ipinagbabawal.</string>
+    <string name="prefs_kill_services_sum_text">May mga setting ang iyong device na kumokontrol sa paggamit sa background (o awtomatikong pagsisimula). I-tap dito para payagan ang paggamit sa background o idagdag ang app sa listahan ng mga eksepsiyon kung ito ay pinaghihigpitan.</string>
     <string name="prefs_kill_services_text">Pinapayagan ang background work</string>
     <string name="prefs_language">Wika</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Buksan ang application kapag awtomatikong nagsisimula ang pag-record</string>
@@ -479,10 +488,10 @@
     <string name="rec_network_text">Net</string>
     <string name="rec_off_text">Naka-off</string>
     <string name="rec_on_text">Incl.</string>
-    <string name="rec_privacy_analytics_msg">Gumagamit ang app ng Firebase Analytics para sa pangunahing anonymous na analytics (tingnan ang link sa ibaba)</string>
+    <string name="rec_privacy_analytics_msg">Gumagamit ang app ng Firebase Analytics at Crashlytics para sa pangunahing anonymous analytics, diagnostics, at error detection, na tumutulong sa pag-troubleshoot ng mga isyu sa iba\'t ibang device. Matuto nang higit pa sa link sa ibaba.</string>
     <string name="rec_privacy_appgallery_ads_iap">Ginagamit ng app ang Huawei Petal Ads (upang ipakita ang mga ad) at sa mga pagbili ng app (upang alisin ang mga ad). Mangyaring i -click ang link sa Patakaran sa Pagkapribado para sa karagdagang impormasyon.</string>
     <string name="rec_privacy_permissions_msg">Ginagamit ng application ang mga sumusunod na pahintulot:\n- Buksan ang anonymous na device identifier OAID (para sa personalized na advertising)\n- CAMERA, AUDIO (para sa pag-record ng video)\n- STORAGE (para sa pag-save ng mga video)\n- LOCATION (upang makuha ang address ng kasalukuyang lokasyon, GPS coordinate, bilis - upang ipakita sa pangunahing screen ng application at maglapat ng mga subtitle sa video)\n- advertising sa Internet)</string>
-    <string name="rec_privacy_service_msg">Privacy: Ang lahat ng mga video na iyong ni-record ay ise-save lamang sa iyong lokal na device. Hindi bina-backup ng application ang iyong mga video (walang anumang koneksyon sa mga server)\n\nPatuloy na tatakbo ang app sa background (ang serbisyo sa foreground na lumalabas sa notification bar) habang aktibo ang pagre-record, kapag bumalik ka sa home screen, lumipat sa ibang app o i-lock ang iyong telepono para makapagpatuloy sa pagre-record, at kapag i-on mo ang mga feature para sa awtomatikong pag-record (kung isasara mo ang serbisyo sa background, hindi gagana ang mga function na ito).</string>
+    <string name="rec_privacy_service_msg">Pagkapribado: Lahat ng video na iyong nire-record ay naka-save lamang sa iyong lokal na device. Hindi bina-backup ng application ang iyong mga video sa mga external server.\n\nHabang aktibo ang pagre-record, patuloy na tatakbo ang app sa background (sa pamamagitan ng foreground service na ipinapakita sa notification bar) kapag bumalik ka sa home screen, lumipat sa ibang app, o ni-lock ang iyong telepono, na nagpapahintulot sa patuloy na pagre-record. Ang ilang opsyonal na awtomatikong feature ng pagre-record na maaaring paganahin ay umaasa rin sa background service na ito — kung isasara mo ito, hindi gagana ang mga function na ito.</string>
     <string name="recording_file_name_prefix">Prefix para sa mga pangalan ng video file</string>
     <string name="recording_start_short_text">Magsimula</string>
     <string name="recording_start_text">Simulan ang recording</string>

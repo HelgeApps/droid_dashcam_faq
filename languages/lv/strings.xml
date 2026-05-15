@@ -1,6 +1,7 @@
 <resources>
     <string name="accept_text">Es piekrītu</string>
     <string name="allow_background_activity_on_some_devices">Tālāk ir sniegti piemēri, kā atļaut fona aktivitātes dažās ierīcēs:</string>
+    <string name="allow_background_recording">Lai ierīcē saglabātu stabilu video ierakstīšanu fonā, izpildiet tālāk sniegtos norādījumus.</string>
     <string name="any_text">Jebkurš</string>
     <string name="app_alternative_name_audio">Audio</string>
     <string name="app_alternative_name_battery">Akumulatora iestatījumi</string>
@@ -19,6 +20,7 @@
     <string name="background_restrictions_explain_how_to_disable">Šai lietotnei ir iestatīti akumulatora darbības fona ierobežojumi, kas var radīt problēmas ar video ierakstīšanu fonā. Lūdzu, atspējojiet jebkādas akumulatora optimizācijas vai fona ierobežojumus šai lietotnei.\nŠādas opcijas varat mēģināt atrast ekrānā “Lietotnes informācija” → “Akumulators” vai ierīces sistēmas iestatījumos. Iestatiet akumulatora optimizāciju šai lietotnei uz “Neierobežots” (vai “Neoptimizēt”), atļaujiet gan priekšplāna, gan fona aktivitātes. Šādu opciju precīza atrašanās vieta var atšķirties atkarībā no ierīces ražotāja.</string>
     <string name="background_restrictions_msg_text">Lūdzu, atspējojiet lietotnes fona ierobežojumus, lai nodrošinātu stabilu video ierakstīšanu.</string>
     <string name="background_restrictions_text">Fona lietotņu darbības ierobežošana</string>
+    <string name="battery_settings_on_older_devices">Dažās vecākās ierīcēs šīs opcijas var nedaudz atšķirties. Skatiet tālāk sniegtos ekrānuzņēmumu piemērus.</string>
     <string name="camera">Kamera</string>
     <string name="camera_aperture">Diafragma</string>
     <string name="camera_back">Aizmugurējā kamera</string>
@@ -55,8 +57,9 @@
     <string name="donate_text">Ziedojums</string>
     <string name="donation_dlg_no_ads_text">Jums nav reklāmu.</string>
     <string name="donation_level_text">Jūsu ziedojuma līmenis:</string>
+    <string name="donation_play_services_to_restore_purchases">Ja tas nedarbojas, mēģiniet pārbaudīt, vai ir nepieciešams atjaunināt Google Play pakalpojumus. Varat arī notīrīt datus un kešatmiņu un pēc tam atkārtoti instalēt lietotni. Lūdzu, skatiet tālāk norādīto saiti, lai iegūtu norādījumus par to, kā to izdarīt.</string>
     <string name="donation_purchase_info_loading_text">Iepirkšanās informācija vēl nav augšupielādēta. Vai esat tiešsaistē un pierakstījies savā Google kontā?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Ja jau esat veicis pirkumu, bet tas netika automātiski atjaunots, lūdzu, vispirms notīriet Google Play veikala datus un kešatmiņu. Pēc tam atinstalējiet lietotni, atveriet Google Play veikalu, atlasiet pareizo Google kontu, kas tika izmantots pirkuma veikšanai, un atkārtoti instalējiet lietotni.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Ja jau esat veicis pirkumu, bet tas netika automātiski atjaunots, vispirms mēģiniet izdzēst lietotni. Pēc tam notīriet Google Play veikala datus un kešatmiņu, atveriet to, atlasiet pareizo Google kontu, kas tika izmantots pirkuma veikšanai, un atkārtoti instalējiet lietotni.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">Ja esat jau veicis ziedojumu, tad, lai atjaunotu pirkumus, lūdzu, atkārtoti instalējiet lietojumprogrammu Samsung Galaxy veikalā pēc pareizā konta atlasīšanas</string>
     <string name="donation_remove_ads_by_any_amount_text">Noņemiet reklāmas uz visiem laikiem, veicot jebkādas summas vienreizēju ziedojumu.</string>
     <string name="donation_remove_ads_by_subscribing_text">Varat arī ziedot katru mēnesi, lai noņemtu reklāmas.</string>
@@ -78,10 +81,16 @@
     <string name="format_speed_measure_kilometers">km/h</string>
     <string name="format_speed_measure_miles">mph</string>
     <string name="from">no</string>
+    <string name="honor_battery_settings">Atveriet sadaļu “Sistēmas iestatījumi”, atlasiet “Akumulators” un pēc tam pieskarieties “Lietotnes palaišana”.</string>
+    <string name="honor_battery_settings_app_launch">Atrodiet lietotni sarakstā un izslēdziet tai blakus esošo slēdzi, lai atspējotu automātisko pārvaldību.</string>
+    <string name="honor_battery_settings_app_launch_manage_manually">Parādīsies uznirstošais logs — iespējojiet visas opcijas (\"Automātiskā palaišana\", \"Sekundārā palaišana\", \"Darboties fonā\"), ja kādas no tām ir atspējotas.</string>
     <string name="hour">stunda</string>
     <string name="hours">stundas</string>
     <string name="month">mēnesis</string>
     <string name="more_info">Vairāk informācijas:</string>
+    <string name="moto_allow_background_recording">Lai Motorola ierīcēs fona video ierakstīšana būtu stabila, iespējojiet šai lietotnei opciju “Atļaut fona lietošanu” un iestatiet opciju “Akumulatora optimizācija” uz “Neierobežots”. Atspējojiet opciju “Pārvaldīt fona lietotnes”, ja tā ir pieejama.</string>
+    <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">Atveriet ekrānu “Lietotnes informācija”, atlasiet “Lietotnes akumulatora lietojums” un iespējojiet “Atļaut fona lietojumu” (parasti tas ir iespējots pēc noklusējuma).</string>
+    <string name="moto_disable_manage_background_apps">Atveriet sadaļu “Sistēmas iestatījumi”, atlasiet “Akumulators”, pēc tam atlasiet “Pārvaldīt fona lietotnes” (ja tāda ir pieejama) un atspējojiet opciju “Lietot fona lietotņu pārvaldību”. Opcija varētu būt nosaukta arī par “Uzlabot akumulatora darbības laiku neaktīvā režīmā”.</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Lietojumprogramma nav izslēgta no akumulatora optimizācijas. Ja kamera nedarbojas fonā vai kaut kas cits, pievienojiet šo lietojumprogrammu enerģijas taupīšanas režīma izņēmumiem.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Ja atkārtoti instalējāt lietojumprogrammu operētājsistēmā Android 11, vecie faili ir jādzēš manuāli</string>
     <string name="msg_auto_recording_service_was_stopped">Jūs esat apturējis fona pakalpojumu, lai automātiski sāktu video ierakstīšanu. Atveriet lietojumprogrammu, lai to palaistu vēlreiz.</string>
@@ -233,7 +242,7 @@
     <string name="prefs_gps_disabled_no_warning_text">Nerādīt brīdinājuma un labošanas pogu</string>
     <string name="prefs_gps_disabled_warning_text">GPS atspējota brīdinājums, labošanas poga</string>
     <string name="prefs_info_more_category_text">Informācija /Vairāk…</string>
-    <string name="prefs_kill_services_sum_text">Jūsu ierīcē ir iestatījumi, kas ļauj lietotnēm automātiski atskaņot un darboties fonā. Noklikšķiniet šeit un pievienojiet lietojumprogrammu izņēmumiem (atļaut automātisko palaišanu un tā tālāk), lai ļautu tai darboties fonā un, ja ekrāns ir izslēgts, ja tas ir aizliegts</string>
+    <string name="prefs_kill_services_sum_text">Jūsu ierīcei ir iestatījumi, kas kontrolē fona lietojumu (vai automātisko palaišanu). Pieskarieties šeit, lai atļautu fona lietojumu vai pievienotu lietotni izņēmumu sarakstam, ja tas ir ierobežots.</string>
     <string name="prefs_kill_services_text">Ļauj strādāt fonā</string>
     <string name="prefs_language">Valoda</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Atveriet programmu, kad ierakstīšana sākas automātiski</string>
@@ -479,10 +488,10 @@
     <string name="rec_network_text">Tīkls</string>
     <string name="rec_off_text">Izslēgts</string>
     <string name="rec_on_text">Ieskaitot</string>
-    <string name="rec_privacy_analytics_msg">Lietotne izmanto Firebase Analytics pamata anonīmai analīzei (skatiet saiti tālāk).</string>
+    <string name="rec_privacy_analytics_msg">Lietotne izmanto Firebase Analytics un Crashlytics pamata anonīmai analīzei, diagnostikai un kļūdu noteikšanai, palīdzot novērst problēmas dažādās ierīcēs. Uzziniet vairāk, izmantojot tālāk norādīto saiti.</string>
     <string name="rec_privacy_appgallery_ads_iap">Lietotne izmanto Huawei ziedlapu reklāmas (lai parādītu reklāmas) un lietotņu pirkumos (lai noņemtu reklāmas). Lūdzu, noklikšķiniet uz saites Privacy Policy, lai iegūtu papildinformāciju.</string>
     <string name="rec_privacy_permissions_msg">Lietojumprogramma izmanto šādas atļaujas:\n- Atvērt anonīmu ierīces identifikatoru OAID (personalizētai reklamēšanai)\n- KAMERA, AUDIO (video ierakstīšanai)\n- KRĀTUVE (videoklipu saglabāšanai)\n- ATRAŠANĀS VIETA (lai iegūtu pašreizējās atrašanās vietas adresi, GPS koordinātas, ātrumu - lai parādītu lietojumprogrammas galvenajā ekrānā un pievienotu videoklipam subtitrus)\n- interneta reklāma)</string>
-    <string name="rec_privacy_service_msg">Konfidencialitāte: visi jūsu ierakstītie videoklipi tiks saglabāti tikai jūsu vietējā ierīcē. Lietojumprogramma nedublē jūsu videoklipus (tai nav savienojumu ar serveriem)\n\nLietojumprogramma turpinās darboties fonā (priekšplāna pakalpojums, kas tiek rādīts paziņojumu joslā), kamēr ierakstīšana ir aktīva, kad atgriezīsities sākuma ekrānā, pārslēdzaties uz citu lietotni vai bloķējat tālruni, lai varētu turpināt ierakstīšanu, un kad ieslēdzat automātiskās ierakstīšanas funkcijas (ja aizverat fona pakalpojumu, šīs funkcijas nedarbosies).</string>
+    <string name="rec_privacy_service_msg">Konfidencialitāte: Visi jūsu ierakstītie videoklipi tiek saglabāti tikai jūsu lokālajā ierīcē. Lietotne nedublē jūsu videoklipus ārējos serveros.\n\nAktīvas ierakstīšanas laikā lietotne turpinās darboties fonā (izmantojot paziņojumu joslā redzamo priekšplāna pakalpojumu), kad atgriežaties sākuma ekrānā, pārslēdzaties uz citu lietotni vai bloķējat tālruni, ļaujot turpināt ierakstīšanu. Dažas papildu automātiskās ierakstīšanas funkcijas, kuras var iespējot, arī ir atkarīgas no šī fona pakalpojuma — ja to aizvērsiet, šīs funkcijas nedarbosies.</string>
     <string name="recording_file_name_prefix">Video failu nosaukumu prefikss</string>
     <string name="recording_start_short_text">Sākt</string>
     <string name="recording_start_text">Sāciet ierakstīšanu</string>

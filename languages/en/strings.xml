@@ -18,6 +18,7 @@
     <!-- If it's about storage space, use the word "available" in the translation to avoid confusion with "free." -->
     <string name="accept_text">I accept</string>
     <string name="allow_background_activity_on_some_devices">Below are examples of how to allow background activity on some devices:</string>
+    <string name="allow_background_recording">To keep background video recording stable on your device, follow the instructions below.</string>
     <string name="any_text">Any</string>
     <string name="app_alternative_name_audio">Audio</string>
     <string name="app_alternative_name_battery">Battery Settings</string>
@@ -36,6 +37,7 @@
     <string name="background_restrictions_explain_how_to_disable">There are battery background restrictions set for this app that may cause problem with video recording in the background. Please disable any battery optimizations or background restrictions for this app.\nYou can try find such options at \"App info\" → \"Battery\" screen or in your device system settings. Set battery optimization to \"Unrestricted\" (or \"Don\'t optimize\") for this app, allow foreground and background activity. The exact location of such options may vary depending on your device manufacturer.</string>
     <string name="background_restrictions_msg_text">Please disable background restrictions for the app to ensure stable video recording.</string>
     <string name="background_restrictions_text">Background restrictions</string>
+    <string name="battery_settings_on_older_devices">On some older devices, these options may differ slightly. See the example screenshots below.</string>
     <string name="camera">Camera</string>
     <string name="camera_aperture">Aperture</string>
     <string name="camera_back">Back Camera</string>
@@ -72,8 +74,10 @@
     <string name="donate_text">Donate</string>
     <string name="donation_dlg_no_ads_text">You are free from ads.</string>
     <string name="donation_level_text">Your donation level:</string>
+    <string name="donation_play_services_to_restore_purchases">If this doesn\’t work, try checking whether Google Play Services needs to be updated. You can also clear its data and cache, then reinstall the app. Please check the link below for instructions on how to do this.
+</string>
     <string name="donation_purchase_info_loading_text">Purchases info is not loaded yet. Is network connection available and is signed in Google account?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">If you\'ve already made a purchase, but it wasn\'t automatically restored, please first clear data and cache of the Google Play Store. Then, uninstall the app, open the Google Play Store, select the correct Google account used to make the purchase, and reinstall the app.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">If you\'ve already made a purchase but it wasn\'t automatically restored, try uninstalling the app first. Then clear the data and cache of the Google Play Store, open it, select the correct Google account used to make the purchase, and reinstall the app.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">If you have already made a donation, then to restore purchases, please reinstall the application in Samsung Galaxy Store after selecting the correct account</string>
     <string name="donation_remove_ads_by_any_amount_text">Remove ads forever with a one-time donation of any amount.</string>
     <string name="donation_remove_ads_by_subscribing_text">You can also donate monthly to remove ads.</string>
@@ -95,10 +99,16 @@
     <string name="format_speed_measure_kilometers">km/h</string>
     <string name="format_speed_measure_miles">mph</string>
     <string name="from">from</string>
+    <string name="honor_battery_settings">Open \"System Settings\", select \"Battery\", then tap \"App launch\".</string>
+    <string name="honor_battery_settings_app_launch">Find the app in the list and turn off the toggle next to it to disable automatic management.</string>
+    <string name="honor_battery_settings_app_launch_manage_manually">A popup will appear — enable all options (\"Auto-launch\", \"Secondary launch\", \"Run in background\") if any are disabled.</string>
     <string name="hour">hour</string>
     <string name="hours">hours</string>
     <string name="month">month</string>
     <string name="more_info">More info:</string>
+    <string name="moto_allow_background_recording">To keep background video recording stable on Motorola devices, enable \"Allow background usage\" for this app and set \"Battery optimization\" to \"Unrestricted\". Disable the \"Manage background apps\" option if available.</string>
+    <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">Open \"App info\" screen, select \"App battery usage\", and enable \"Allow background usage\" (it’s usually enabled by default).</string>
+    <string name="moto_disable_manage_background_apps">Open \"System Settings\", select \"Battery\", then select \"Manage background apps\" (if available) and disable the \"Use Manage background apps\" option. The option might also be named \"Improve battery while inactive\".</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">The application is not excluded from battery optimization. If the camera is not running in the background or something else, then add this application to the exceptions of the power saving mode.</string>
     <string name="msg_android_r_deleting_manual_tip_text">If you reinstalled App on Android 11, then the old files must be deleted manually</string>
     <string name="msg_auto_recording_service_was_stopped">You have stopped the background service (AutoStart) used for automatic video recording. Open the app to restart it.</string>
@@ -250,8 +260,8 @@
     <string name="prefs_gps_disabled_no_warning_text">Do not show warning and the fix button</string>
     <string name="prefs_gps_disabled_warning_text">GPS disabled warning and the fix button</string>
     <string name="prefs_info_more_category_text">Info / More…</string>
-    <string name="prefs_kill_services_sum_text">Your device has settings to allow apps to auto-start and run in the background. Click here and add the app to exceptions (allow autostart, etc.) to allow background and off screen work if it\'s forbidden</string>
-    <string name="prefs_kill_services_text">Allowing background and off screen work</string>
+    <string name="prefs_kill_services_sum_text">Your device has settings that control background usage (or auto-start). Tap here to allow background usage or add the app to the exceptions list if it’s restricted.</string>
+    <string name="prefs_kill_services_text">Allowing background and off-screen work.</string>
     <string name="prefs_language">Language</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Open app when recording starts automatically</string>
     <string name="prefs_launch_app_auto_text">Launch app when video recording starts</string>
@@ -496,10 +506,10 @@
     <string name="rec_network_text">NET</string>
     <string name="rec_off_text">OFF</string>
     <string name="rec_on_text">ON</string>
-    <string name="rec_privacy_analytics_msg">The app uses Firebase Analytics for basic anonymous analytics (see link below)</string>
-    <string name="rec_privacy_appgallery_ads_iap">App uses Huawei Petal Ads (to show ads) and In App Purchases (to remove ads). Please click Privacy Policy link for more information.</string>
+    <string name="rec_privacy_analytics_msg">The app uses Firebase Analytics and Crashlytics for basic anonymous analytics, diagnostics, and error detection, helping to troubleshoot issues across devices. Learn more at the link below.</string>
+    <string name="rec_privacy_appgallery_ads_iap">The app uses Huawei Petal Ads (to show ads) and In App Purchases (to remove ads). Please click Privacy Policy link for more information.</string>
     <string name="rec_privacy_permissions_msg">The application uses the following permissions:\n- Open anonymous device identifier OAID (for personalized advertising)\n- CAMERA, AUDIO (for video recording)\n- STORAGE (for saving video recordings)\n- LOCATION (to get the address of the current location, GPS coordinates, speed - to show on the main screen of the application and overlay as subtitles on the video)\n- INTERNET (advertising)</string>
-    <string name="rec_privacy_service_msg">Privacy: All videos you record will be saved only on your local device. The application does not backup your videos (does not have any connections to servers)\n\nThe app will continue to run in the background (the foreground service that appears in the notification bar) while recording is active, when you return to the home screen, switch to another app or lock your phone to be able to continue recording, and when you turn on features for automatic recording (if you close the background service, these functions will not work).</string>
+    <string name="rec_privacy_service_msg">Privacy: All videos you record are saved only on your local device. The application does not back up your videos to external servers.\n\nDuring active recording, the app will continue running in the background (via the foreground service shown in the notification bar) when you return to the home screen, switch to another app, or lock your phone, allowing recording to continue. Some optional automatic recording features that can be enabled also rely on this background service — if you close it, these functions will not work.</string>
     <string name="recording_file_name_prefix">Prefix for video file names</string>
     <string name="recording_start_short_text">Start</string>
     <string name="recording_start_text">Start Recording</string>

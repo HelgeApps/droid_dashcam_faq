@@ -1,6 +1,7 @@
 <resources>
     <string name="accept_text">मुझे स्वीकार है</string>
     <string name="allow_background_activity_on_some_devices">नीचे कुछ उपकरणों पर पृष्ठभूमि गतिविधि की अनुमति देने के तरीके के उदाहरण दिए गए हैं:</string>
+    <string name="allow_background_recording">अपने डिवाइस पर बैकग्राउंड वीडियो रिकॉर्डिंग को स्थिर रखने के लिए, नीचे दिए गए निर्देशों का पालन करें।</string>
     <string name="any_text">कोई</string>
     <string name="app_alternative_name_audio">ऑडियो</string>
     <string name="app_alternative_name_battery">बैटरी सेटिंग्स</string>
@@ -19,6 +20,7 @@
     <string name="background_restrictions_explain_how_to_disable">इस ऐप के लिए बैटरी बैकग्राउंड प्रतिबंध सेट किए गए हैं, जिनसे बैकग्राउंड में वीडियो रिकॉर्डिंग में समस्या आ सकती है। कृपया इस ऐप के लिए सभी बैटरी ऑप्टिमाइजेशन या बैकग्राउंड प्रतिबंध बंद कर दें।\nआप ये विकल्प \"ऐप जानकारी\" → \"बैटरी\" स्क्रीन पर या अपने डिवाइस की सिस्टम सेटिंग में ढूंढ सकते हैं। इस ऐप के लिए बैटरी ऑप्टिमाइजेशन को \"अप्रतिबंधित\" (या \"ऑप्टिमाइज न करें\") पर सेट करें और फोरग्राउंड और बैकग्राउंड गतिविधि की अनुमति दें। इन विकल्पों का सटीक स्थान आपके डिवाइस निर्माता के आधार पर भिन्न हो सकता है।</string>
     <string name="background_restrictions_msg_text">स्थिर वीडियो रिकॉर्डिंग सुनिश्चित करने के लिए कृपया ऐप के लिए पृष्ठभूमि प्रतिबंधों को अक्षम करें।</string>
     <string name="background_restrictions_text">बैकग्राउंड में चलने वाले ऐप्स को सीमित करना</string>
+    <string name="battery_settings_on_older_devices">कुछ पुराने उपकरणों पर, ये विकल्प थोड़े भिन्न हो सकते हैं। नीचे दिए गए उदाहरण स्क्रीनशॉट देखें।</string>
     <string name="camera">कैमरा</string>
     <string name="camera_aperture">डायाफ्राम</string>
     <string name="camera_back">पीछे का कैमरा</string>
@@ -55,8 +57,9 @@
     <string name="donate_text">दान</string>
     <string name="donation_dlg_no_ads_text">आपके पास कोई विज्ञापन नहीं है।</string>
     <string name="donation_level_text">आपका दान स्तर:</string>
+    <string name="donation_play_services_to_restore_purchases">अगर इससे भी समस्या हल नहीं होती है, तो Google Play Services को अपडेट करने की कोशिश करें। आप इसका डेटा और कैश साफ़ करके ऐप को दोबारा इंस्टॉल भी कर सकते हैं। ऐसा करने के लिए नीचे दिए गए लिंक पर जाएं।\n\n</string>
     <string name="donation_purchase_info_loading_text">खरीदारी की जानकारी अभी तक अपलोड नहीं की गई है। क्या आप ऑनलाइन हैं और अपने Google खाते में साइन इन हैं?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">यदि आपने पहले ही कोई खरीदारी कर ली है, लेकिन वह स्वचालित रूप से पुनर्स्थापित नहीं हुई है, तो कृपया पहले Google Play Store का डेटा और कैश साफ़ करें। फिर, ऐप को अनइंस्टॉल करें, Google Play Store खोलें, खरीदारी के लिए उपयोग किए गए सही Google खाते का चयन करें और ऐप को पुनः इंस्टॉल करें।</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">यदि आपने पहले ही कोई खरीदारी कर ली है लेकिन वह स्वचालित रूप से पुनर्स्थापित नहीं हुई है, तो पहले ऐप को डिलीट करके देखें। फिर Google Play Store का डेटा और कैश साफ़ करें, ऐप खोलें, खरीदारी के लिए इस्तेमाल किया गया सही Google खाता चुनें और ऐप को दोबारा इंस्टॉल करें।</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">यदि आपने पहले ही दान कर दिया है, तो खरीदारी को बहाल करने के लिए, कृपया सही खाता चुनने के बाद सैमसंग गैलेक्सी स्टोर में एप्लिकेशन को फिर से इंस्टॉल करें</string>
     <string name="donation_remove_ads_by_any_amount_text">किसी भी राशि के एकमुश्त दान से विज्ञापनों को हमेशा के लिए हटा दें।</string>
     <string name="donation_remove_ads_by_subscribing_text">आप विज्ञापन हटाने के लिए मासिक दान भी कर सकते हैं।</string>
@@ -78,10 +81,16 @@
     <string name="format_speed_measure_kilometers">किमी /घंटा</string>
     <string name="format_speed_measure_miles">मील प्रति घंटा</string>
     <string name="from">से</string>
+    <string name="honor_battery_settings">\"सिस्टम सेटिंग्स\" खोलें, \"बैटरी\" चुनें, फिर \"ऐप लॉन्च\" पर टैप करें।</string>
+    <string name="honor_battery_settings_app_launch">सूची में ऐप ढूंढें और स्वचालित प्रबंधन को अक्षम करने के लिए उसके बगल में स्थित टॉगल को बंद कर दें।</string>
+    <string name="honor_battery_settings_app_launch_manage_manually">एक पॉप-अप विंडो दिखाई देगी — यदि कोई विकल्प (\"स्वचालित लॉन्च\", \"द्वितीयक लॉन्च\", \"पृष्ठभूमि में चलाएँ\") अक्षम है, तो उन सभी को सक्षम करें।</string>
     <string name="hour">घंटा</string>
     <string name="hours">घंटे</string>
     <string name="month">महीना</string>
     <string name="more_info">और जानकारी:</string>
+    <string name="moto_allow_background_recording">मोटोरोला डिवाइस पर बैकग्राउंड वीडियो रिकॉर्डिंग को स्थिर रखने के लिए, इस ऐप के लिए \"बैकग्राउंड उपयोग की अनुमति दें\" विकल्प को सक्षम करें और \"बैटरी ऑप्टिमाइज़ेशन\" को \"अप्रतिबंधित\" पर सेट करें। यदि उपलब्ध हो तो \"बैकग्राउंड ऐप्स प्रबंधित करें\" विकल्प को अक्षम करें।</string>
+    <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">\"ऐप जानकारी\" स्क्रीन खोलें, \"ऐप बैटरी उपयोग\" चुनें और \"पृष्ठभूमि उपयोग की अनुमति दें\" को सक्षम करें (यह आमतौर पर डिफ़ॉल्ट रूप से सक्षम होता है)।</string>
+    <string name="moto_disable_manage_background_apps">\"सिस्टम सेटिंग्स\" खोलें, \"बैटरी\" चुनें, फिर \"बैकग्राउंड ऐप्स प्रबंधित करें\" (यदि उपलब्ध हो) चुनें और \"बैकग्राउंड ऐप्स प्रबंधित करें\" विकल्प को अक्षम करें। इस विकल्प का नाम \"निष्क्रिय होने पर बैटरी की खपत कम करें\" भी हो सकता है।</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">एप्लिकेशन को बैटरी अनुकूलन से बाहर नहीं रखा गया है। यदि कैमरा बैकग्राउंड में नहीं चल रहा है या कुछ और है, तो इस एप्लिकेशन को पावर सेविंग मोड के अपवादों में जोड़ें।</string>
     <string name="msg_android_r_deleting_manual_tip_text">यदि आपने Android 11 पर एप्लिकेशन को फिर से इंस्टॉल किया है, तो पुरानी फ़ाइलों को मैन्युअल रूप से हटा दिया जाना चाहिए</string>
     <string name="msg_auto_recording_service_was_stopped">आपने स्वचालित रूप से वीडियो रिकॉर्डिंग प्रारंभ करने के लिए पृष्ठभूमि सेवा बंद कर दी है. एप्लिकेशन को दोबारा लॉन्च करने के लिए उसे खोलें.</string>
@@ -233,7 +242,7 @@
     <string name="prefs_gps_disabled_no_warning_text">चेतावनी न दिखाएं और बटन ठीक करें</string>
     <string name="prefs_gps_disabled_warning_text">GPS अक्षम चेतावनी, फिक्स बटन</string>
     <string name="prefs_info_more_category_text">सूचना /अधिक…</string>
-    <string name="prefs_kill_services_sum_text">ऐप्स को ऑटोप्ले और बैकग्राउंड में चलने की अनुमति देने के लिए आपके डिवाइस पर सेटिंग्स हैं। यहां क्लिक करें और एप्लिकेशन को अपवादों में जोड़ें (ऑटोस्टार्ट की अनुमति दें और इसी तरह) इसे पृष्ठभूमि में चलाने की अनुमति दें और जब स्क्रीन बंद हो, यदि निषिद्ध हो</string>
+    <string name="prefs_kill_services_sum_text">आपके डिवाइस में बैकग्राउंड उपयोग (या ऑटो-स्टार्ट) को नियंत्रित करने वाली सेटिंग्स हैं। बैकग्राउंड उपयोग की अनुमति देने के लिए यहां टैप करें या यदि ऐप प्रतिबंधित है तो उसे अपवाद सूची में जोड़ें।</string>
     <string name="prefs_kill_services_text">पृष्ठभूमि कार्य की अनुमति देना</string>
     <string name="prefs_language">भाषा</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">रिकॉर्डिंग स्वचालित रूप से शुरू होने पर एप्लिकेशन खोलें</string>
@@ -479,10 +488,10 @@
     <string name="rec_network_text">जाल</string>
     <string name="rec_off_text">बंद</string>
     <string name="rec_on_text">सहित</string>
-    <string name="rec_privacy_analytics_msg">ऐप बुनियादी अनाम विश्लेषण के लिए फायरबेस एनालिटिक्स का उपयोग करता है (नीचे लिंक देखें)</string>
+    <string name="rec_privacy_analytics_msg">यह ऐप बुनियादी अनाम विश्लेषण, निदान और त्रुटि पहचान के लिए फायरबेस एनालिटिक्स और क्रैशलाइटिक्स का उपयोग करता है, जिससे विभिन्न उपकरणों पर समस्याओं का निवारण करने में मदद मिलती है। अधिक जानकारी के लिए नीचे दिए गए लिंक पर जाएं।</string>
     <string name="rec_privacy_appgallery_ads_iap">ऐप Huawei पेटल विज्ञापनों (विज्ञापन दिखाने के लिए) और ऐप खरीद (विज्ञापन निकालने के लिए) का उपयोग करता है। अधिक जानकारी के लिए कृपया गोपनीयता नीति लिंक पर क्लिक करें।</string>
     <string name="rec_privacy_permissions_msg">एप्लिकेशन निम्नलिखित अनुमतियों का उपयोग करता है:\n- अनाम डिवाइस पहचानकर्ता OAID खोलें (व्यक्तिगत विज्ञापन के लिए)\n- कैमरा, ऑडियो (वीडियो रिकॉर्डिंग के लिए)\n- भंडारण (वीडियो सहेजने के लिए)\n- स्थान (वर्तमान स्थान का पता, जीपीएस निर्देशांक, गति प्राप्त करने के लिए - एप्लिकेशन की मुख्य स्क्रीन पर दिखाने के लिए और वीडियो पर उपशीर्षक लागू करने के लिए)\n- इंटरनेट विज्ञापन)</string>
-    <string name="rec_privacy_service_msg">गोपनीयता: आपके द्वारा रिकॉर्ड किए गए सभी वीडियो केवल आपके स्थानीय डिवाइस पर सहेजे जाएंगे। एप्लिकेशन आपके वीडियो का बैकअप नहीं लेता है (सर्वर से कोई कनेक्शन नहीं है)\n\nरिकॉर्डिंग सक्रिय होने पर ऐप पृष्ठभूमि में चलता रहेगा (अधिसूचना पट्टी में दिखाई देने वाली अग्रभूमि सेवा), जब आप होम स्क्रीन पर लौटते हैं, तो किसी अन्य ऐप पर स्विच करें या रिकॉर्डिंग जारी रखने के लिए अपने फोन को लॉक करें, और जब आप चालू करें स्वचालित रिकॉर्डिंग के लिए सुविधाएँ (यदि आप पृष्ठभूमि सेवा बंद करते हैं, तो ये फ़ंक्शन काम नहीं करेंगे)।</string>
+    <string name="rec_privacy_service_msg">गोपनीयता: आपके द्वारा रिकॉर्ड किए गए सभी वीडियो केवल आपके स्थानीय डिवाइस पर ही सहेजे जाते हैं। यह एप्लिकेशन आपके वीडियो का बैकअप बाहरी सर्वरों पर नहीं लेता है।\n\nरिकॉर्डिंग जारी रहने के दौरान, होम स्क्रीन पर लौटने, किसी अन्य ऐप पर स्विच करने या फ़ोन लॉक करने पर भी ऐप बैकग्राउंड में चलता रहेगा (नोटिफिकेशन बार में दिखाई देने वाली फ़ोरग्राउंड सेवा के माध्यम से), जिससे रिकॉर्डिंग जारी रहेगी। कुछ वैकल्पिक स्वचालित रिकॉर्डिंग सुविधाएँ, जिन्हें चालू किया जा सकता है, भी इसी बैकग्राउंड सेवा पर निर्भर करती हैं - यदि आप इसे बंद कर देते हैं, तो ये सुविधाएँ काम नहीं करेंगी।</string>
     <string name="recording_file_name_prefix">वीडियो फ़ाइल नामों के लिए उपसर्ग</string>
     <string name="recording_start_short_text">शुरू</string>
     <string name="recording_start_text">रिकॉर्डिंग शुरू</string>

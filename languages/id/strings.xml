@@ -1,6 +1,7 @@
 <resources>
     <string name="accept_text">saya menerima</string>
     <string name="allow_background_activity_on_some_devices">Berikut adalah contoh cara mengizinkan aktivitas latar belakang pada beberapa perangkat:</string>
+    <string name="allow_background_recording">Untuk menjaga agar perekaman video latar belakang tetap stabil di perangkat Anda, ikuti petunjuk di bawah ini.</string>
     <string name="any_text">Setiap</string>
     <string name="app_alternative_name_audio">Audio</string>
     <string name="app_alternative_name_battery">Pengaturan Baterai</string>
@@ -19,6 +20,7 @@
     <string name="background_restrictions_explain_how_to_disable">Terdapat pembatasan penggunaan baterai di latar belakang yang diatur untuk aplikasi ini yang dapat menyebabkan masalah pada perekaman video di latar belakang. Harap nonaktifkan semua pengoptimalan baterai atau pembatasan latar belakang untuk aplikasi ini.\nAnda dapat mencoba menemukan opsi tersebut di layar \"Info Aplikasi\" → \"Baterai\" atau di pengaturan sistem perangkat Anda. Atur pengoptimalan baterai ke \"Tidak Dibatasi\" (atau \"Jangan dioptimalkan\") untuk aplikasi ini, izinkan aktivitas latar depan dan latar belakang. Lokasi pasti dari opsi tersebut mungkin berbeda tergantung pada produsen perangkat Anda.</string>
     <string name="background_restrictions_msg_text">Harap nonaktifkan pembatasan latar belakang untuk aplikasi guna memastikan perekaman video yang stabil.</string>
     <string name="background_restrictions_text">Membatasi aktivitas aplikasi latar belakang</string>
+    <string name="battery_settings_on_older_devices">Pada beberapa perangkat lama, opsi ini mungkin sedikit berbeda. Lihat contoh tangkapan layar di bawah ini.</string>
     <string name="camera">Kamera</string>
     <string name="camera_aperture">diafragma</string>
     <string name="camera_back">Kamera belakang</string>
@@ -55,8 +57,9 @@
     <string name="donate_text">Sumbangan</string>
     <string name="donation_dlg_no_ads_text">Anda tidak memiliki iklan.</string>
     <string name="donation_level_text">Tingkat donasi Anda:</string>
+    <string name="donation_play_services_to_restore_purchases">Jika cara ini tidak berhasil, coba periksa apakah Google Play Services perlu diperbarui. Anda juga dapat menghapus data dan cache-nya, lalu menginstal ulang aplikasi. Silakan periksa tautan di bawah ini untuk petunjuk cara melakukannya.\n\n</string>
     <string name="donation_purchase_info_loading_text">Informasi belanja belum diunggah. Apakah Anda online dan masuk ke akun Google Anda?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Jika Anda sudah melakukan pembelian, tetapi pembelian tersebut tidak dipulihkan secara otomatis, harap hapus terlebih dahulu data dan cache Google Play Store. Kemudian, hapus instalasi aplikasi, buka Google Play Store, pilih akun Google yang benar yang digunakan untuk melakukan pembelian, dan instal ulang aplikasi.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">Jika Anda sudah melakukan pembelian tetapi pembelian tersebut tidak dipulihkan secara otomatis, coba hapus aplikasi terlebih dahulu. Kemudian, hapus data dan cache Google Play Store, buka kembali, pilih akun Google yang benar yang digunakan untuk melakukan pembelian, dan instal ulang aplikasi.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">Jika Anda sudah melakukan donasi, maka untuk mengembalikan pembelian, silakan instal ulang aplikasi di Samsung Galaxy Store setelah memilih akun yang benar</string>
     <string name="donation_remove_ads_by_any_amount_text">Hapus iklan selamanya dengan donasi satu kali dalam jumlah berapa pun.</string>
     <string name="donation_remove_ads_by_subscribing_text">Anda juga dapat berdonasi setiap bulan untuk menghapus iklan.</string>
@@ -78,10 +81,16 @@
     <string name="format_speed_measure_kilometers">km /jam</string>
     <string name="format_speed_measure_miles">mph</string>
     <string name="from">dari</string>
+    <string name="honor_battery_settings">Buka \"Pengaturan Sistem\", pilih \"Baterai\", lalu ketuk \"Luncurkan aplikasi\".</string>
+    <string name="honor_battery_settings_app_launch">Temukan aplikasi tersebut dalam daftar dan matikan tombol di sebelahnya untuk menonaktifkan manajemen otomatis.</string>
+    <string name="honor_battery_settings_app_launch_manage_manually">Jendela pop-up akan muncul — aktifkan semua opsi (\"Peluncuran otomatis\", \"Peluncuran sekunder\", \"Jalankan di latar belakang\") jika ada yang dinonaktifkan.</string>
     <string name="hour">jam</string>
     <string name="hours">jam</string>
     <string name="month">bulan</string>
     <string name="more_info">Info selengkapnya:</string>
+    <string name="moto_allow_background_recording">Untuk menjaga agar perekaman video latar belakang tetap stabil pada perangkat Motorola, aktifkan \"Izinkan penggunaan latar belakang\" untuk aplikasi ini dan atur \"Optimasi baterai\" ke \"Tidak terbatas\". Nonaktifkan opsi \"Kelola aplikasi latar belakang\" jika tersedia.</string>
+    <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">Buka layar \"Info aplikasi\", pilih \"Penggunaan baterai aplikasi\", dan aktifkan \"Izinkan penggunaan latar belakang\" (biasanya sudah diaktifkan secara default).</string>
+    <string name="moto_disable_manage_background_apps">Buka \"Pengaturan Sistem\", pilih \"Baterai\", lalu pilih \"Kelola aplikasi latar belakang\" (jika tersedia) dan nonaktifkan opsi \"Gunakan Kelola aplikasi latar belakang\". Opsi tersebut mungkin juga bernama \"Hemat baterai saat tidak aktif\".</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Aplikasi ini tidak dikecualikan dari optimasi baterai. Jika kamera tidak berjalan di latar belakang atau hal lain, tambahkan aplikasi ini ke pengecualian mode hemat daya.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Jika Anda menginstal ulang aplikasi di Android 11, maka file lama harus dihapus secara manual</string>
     <string name="msg_auto_recording_service_was_stopped">Anda telah menghentikan layanan latar belakang untuk memulai perekaman video secara otomatis. Buka aplikasi untuk meluncurkannya lagi.</string>
@@ -233,7 +242,7 @@
     <string name="prefs_gps_disabled_no_warning_text">Jangan tampilkan tombol peringatan dan perbaiki</string>
     <string name="prefs_gps_disabled_warning_text">Peringatan GPS dinonaktifkan, tombol perbaiki</string>
     <string name="prefs_info_more_category_text">Informasi /Selengkapnya…</string>
-    <string name="prefs_kill_services_sum_text">Ada pengaturan di perangkat Anda untuk memungkinkan aplikasi diputar secara otomatis dan berjalan di latar belakang. Klik di sini dan tambahkan aplikasi ke pengecualian (izinkan autostart dan sebagainya) untuk memungkinkannya berjalan di latar belakang dan saat layar mati, jika dilarang</string>
+    <string name="prefs_kill_services_sum_text">Perangkat Anda memiliki pengaturan yang mengontrol penggunaan latar belakang (atau mulai otomatis). Ketuk di sini untuk mengizinkan penggunaan latar belakang atau tambahkan aplikasi ke daftar pengecualian jika dibatasi.</string>
     <string name="prefs_kill_services_text">Mengizinkan pekerjaan latar belakang</string>
     <string name="prefs_language">Bahasa</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">Buka aplikasi saat perekaman dimulai secara otomatis</string>
@@ -479,10 +488,10 @@
     <string name="rec_network_text">Bersih</string>
     <string name="rec_off_text">Mati</string>
     <string name="rec_on_text">termasuk</string>
-    <string name="rec_privacy_analytics_msg">Aplikasi ini menggunakan Firebase Analytics untuk analisis anonim dasar (lihat tautan di bawah)</string>
+    <string name="rec_privacy_analytics_msg">Aplikasi ini menggunakan Firebase Analytics dan Crashlytics untuk analitik anonim dasar, diagnostik, dan deteksi kesalahan, membantu memecahkan masalah di berbagai perangkat. Pelajari lebih lanjut di tautan di bawah ini.</string>
     <string name="rec_privacy_appgallery_ads_iap">Aplikasi menggunakan iklan kelopak Huawei (untuk menunjukkan iklan) dan dalam pembelian aplikasi (untuk menghapus iklan). Silakan klik Tautan Kebijakan Privasi untuk informasi lebih lanjut.</string>
     <string name="rec_privacy_permissions_msg">Aplikasi ini menggunakan izin berikut:\n- Buka pengidentifikasi perangkat anonim OAID (untuk iklan yang dipersonalisasi)\n- KAMERA, AUDIO (untuk merekam video)\n- PENYIMPANAN (untuk menyimpan video)\n- LOKASI (untuk mendapatkan alamat lokasi saat ini, koordinat GPS, kecepatan - untuk ditampilkan di layar utama aplikasi dan menerapkan subtitle pada video)\n- Iklan internet)</string>
-    <string name="rec_privacy_service_msg">Privasi: Semua video yang Anda rekam hanya akan disimpan di perangkat lokal Anda. Aplikasi tidak mencadangkan video Anda (tidak memiliki koneksi ke server)\n\nAplikasi akan terus berjalan di latar belakang (layanan latar depan yang muncul di bilah notifikasi) saat perekaman aktif, saat Anda kembali ke layar beranda, beralih ke aplikasi lain atau mengunci ponsel Anda agar dapat melanjutkan perekaman, dan saat Anda mengaktifkan fitur perekaman otomatis (jika Anda menutup layanan latar belakang, fungsi ini tidak akan berfungsi).</string>
+    <string name="rec_privacy_service_msg">Privasi: Semua video yang Anda rekam hanya disimpan di perangkat lokal Anda. Aplikasi ini tidak mencadangkan video Anda ke server eksternal.\n\nSelama perekaman aktif, aplikasi akan terus berjalan di latar belakang (melalui layanan latar depan yang ditampilkan di bilah notifikasi) saat Anda kembali ke layar utama, beralih ke aplikasi lain, atau mengunci ponsel Anda, sehingga perekaman dapat terus berlanjut. Beberapa fitur perekaman otomatis opsional yang dapat diaktifkan juga bergantung pada layanan latar belakang ini — jika Anda menutupnya, fungsi-fungsi ini tidak akan berfungsi.</string>
     <string name="recording_file_name_prefix">Awalan untuk nama file video</string>
     <string name="recording_start_short_text">Awal</string>
     <string name="recording_start_text">Mulai merekam</string>

@@ -2,6 +2,7 @@
     <!-- A period is automatically added to the end of this sentence -->
     <string name="accept_text">동의 함</string>
     <string name="allow_background_activity_on_some_devices">다음은 일부 기기에서 백그라운드 활동을 허용하는 방법의 예입니다.</string>
+    <string name="allow_background_recording">기기에서 백그라운드 비디오 녹화를 안정적으로 유지하려면 아래 지침을 따르세요.</string>
     <string name="any_text">아무거나</string>
     <string name="app_alternative_name_audio">오디오</string>
     <string name="app_alternative_name_battery">배터리 설정</string>
@@ -20,6 +21,7 @@
     <string name="background_restrictions_explain_how_to_disable">이 앱에는 백그라운드에서 동영상 녹화를 방해할 수 있는 배터리 백그라운드 제한이 설정되어 있습니다. 이 앱에 대한 배터리 최적화 또는 백그라운드 제한을 해제해 주세요.\n이러한 옵션은 \"앱 정보\" → \"배터리\" 화면 또는 기기 시스템 설정에서 찾을 수 있습니다. 이 앱의 배터리 최적화를 \"제한 없음\"(또는 \"최적화 안 함\")으로 설정하고 포그라운드 및 백그라운드 활동을 허용하세요. 이러한 옵션의 정확한 위치는 기기 제조업체에 따라 다를 수 있습니다.</string>
     <string name="background_restrictions_msg_text">안정적인 동영상 녹화를 위해 앱의 백그라운드 실행 제한을 해제해 주세요.</string>
     <string name="background_restrictions_text">백그라운드 앱 실행 제한</string>
+    <string name="battery_settings_on_older_devices">일부 구형 기기에서는 이러한 옵션이 약간 다를 수 있습니다. 아래 예시 스크린샷을 참조하세요.</string>
     <string name="camera">카메라</string>
     <string name="camera_aperture">조리개</string>
     <string name="camera_back">후면 카메라</string>
@@ -56,8 +58,9 @@
     <string name="donate_text">기부</string>
     <string name="donation_dlg_no_ads_text">광고가 제거되었습니다.</string>
     <string name="donation_level_text">기부 레벨:</string>
+    <string name="donation_play_services_to_restore_purchases">이 방법이 효과가 없으면 Google Play 서비스 업데이트가 필요한지 확인해 보세요. 또는 앱의 데이터와 캐시를 삭제한 후 앱을 다시 설치할 수도 있습니다. 자세한 방법은 아래 링크를 참조하세요.\n\n</string>
     <string name="donation_purchase_info_loading_text">구매 정보를 불러올 수 없습니다. 네트워크에 연결되어 있고 Google 계정에 로그인되어 있습니까?</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">이미 구매했지만 자동으로 복원되지 않은 경우, 먼저 Google Play 스토어의 데이터와 캐시를 삭제하세요. 그런 다음 앱을 제거하고 Google Play 스토어를 열어 구매에 사용한 Google 계정을 선택한 후 앱을 다시 설치하세요.</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">이미 구매했는데 자동으로 복원되지 않은 경우, 먼저 앱을 삭제해 보세요. 그런 다음 Google Play 스토어의 데이터와 캐시를 삭제하고, 앱을 열어 구매에 사용한 Google 계정을 선택한 후 앱을 다시 설치하세요.</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">이미 기부를 하셨다면 구매 내역을 복원하려면 올바른 계정을 선택한 후 Samsung Galaxy Store에서 앱을 다시 설치하세요.</string>
     <string name="donation_remove_ads_by_any_amount_text">금액에 관계없이 일회성 기부로 광고를 영원히 제거하세요.</string>
     <string name="donation_remove_ads_by_subscribing_text">매달 기부하여 광고를 제거할 수도 있습니다.</string>
@@ -79,10 +82,16 @@
     <string name="format_speed_measure_kilometers">km/h</string>
     <string name="format_speed_measure_miles">mph</string>
     <string name="from">~에서</string>
+    <string name="honor_battery_settings">\"시스템 설정\"을 열고 \"배터리\"를 선택한 다음 \"앱 실행\"을 탭하세요.</string>
+    <string name="honor_battery_settings_app_launch">목록에서 해당 앱을 찾고 옆에 있는 토글 버튼을 꺼서 자동 관리를 비활성화하세요.</string>
+    <string name="honor_battery_settings_app_launch_manage_manually">팝업 창이 나타납니다. \"자동 실행\", \"보조 실행\", \"백그라운드에서 실행\" 등 비활성화된 옵션이 있으면 모두 활성화하십시오.</string>
     <string name="hour">시간</string>
     <string name="hours">시간</string>
     <string name="month">월</string>
     <string name="more_info">더 자세한 정보:</string>
+    <string name="moto_allow_background_recording">Motorola 기기에서 백그라운드 비디오 녹화를 안정적으로 유지하려면 이 앱에 대해 \"백그라운드 사용 허용\"을 활성화하고 \"배터리 최적화\"를 \"무제한\"으로 설정하십시오. \"백그라운드 앱 관리\" 옵션이 있는 경우 비활성화하십시오.</string>
+    <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">\"앱 정보\" 화면을 열고 \"앱 배터리 사용량\"을 선택한 다음 \"백그라운드 사용 허용\"을 활성화하세요(일반적으로 기본적으로 활성화되어 있습니다).</string>
+    <string name="moto_disable_manage_background_apps">\"시스템 설정\"을 열고 \"배터리\"를 선택한 다음, \"백그라운드 앱 관리\"(사용 가능한 경우)를 선택하고 \"백그라운드 앱 관리 사용\" 옵션을 비활성화하세요. 이 옵션은 \"비활성 상태일 때 배터리 효율 향상\"으로 표시될 수도 있습니다.</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">해당 애플리케이션은 배터리 최적화에서 제외되지 않습니다. 카메라가 백그라운드 등에서 실행되고 있지 않은 경우 절전 모드 예외에 이 애플리케이션을 추가하세요.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Android 11에서 앱을 다시 설치한 경우 이전 파일들을 수동으로 삭제해야 합니다.</string>
     <string name="msg_auto_recording_service_was_stopped">동영상 녹화 자동 시작을 위한 백그라운드 서비스를 중지했습니다. 응용프로그램을 열어 다시 시작하세요.</string>
@@ -234,7 +243,7 @@
     <string name="prefs_gps_disabled_no_warning_text">경고 및 수정 버튼을 표시하지 않음</string>
     <string name="prefs_gps_disabled_warning_text">GPS 비활성화 경고 및 수정 버튼(Fix) 설정</string>
     <string name="prefs_info_more_category_text">정보 / 기타</string>
-    <string name="prefs_kill_services_sum_text">기기가 자동 시작 및 백그라운드 동작 설정을 지원합니다. 비허용된 경우 여기를 탭하여 예외에 추가(자동 시작 허용 등)하고 앱이 백그라운드에서 실행될 수 있도록 하세요.</string>
+    <string name="prefs_kill_services_sum_text">기기에는 백그라운드 사용(또는 자동 시작)을 제어하는 설정이 있습니다. 백그라운드 사용을 허용하려면 여기를 탭하거나, 제한된 경우 예외 목록에 앱을 추가하세요.</string>
     <string name="prefs_kill_services_text">백그라운드 작업 허용</string>
     <string name="prefs_language">언어</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">녹화가 자동으로 시작되면 응용 프로그램 열기</string>
@@ -480,10 +489,10 @@
     <string name="rec_network_text">NET</string>
     <string name="rec_off_text">OFF</string>
     <string name="rec_on_text">ON</string>
-    <string name="rec_privacy_analytics_msg">앱은 기본적인 익명 분석을 위해 Firebase Analytics를 사용합니다(아래 링크 참조).</string>
+    <string name="rec_privacy_analytics_msg">이 앱은 기본적인 익명 분석, 진단 및 오류 감지를 위해 Firebase Analytics와 Crashlytics를 사용하며, 이를 통해 다양한 기기에서 발생하는 문제를 해결할 수 있도록 지원합니다. 자세한 내용은 아래 링크를 참조하세요.</string>
     <string name="rec_privacy_appgallery_ads_iap">APP는 Huawei Petal Ads (광고 표시) 및 앱 구매 (광고를 제거하기 위해)를 사용합니다. 자세한 내용은 개인 정보 보호 정책 링크를 클릭하십시오.</string>
     <string name="rec_privacy_permissions_msg">애플리케이션은 다음 권한을 사용합니다.\n- 익명의 장치 식별자 OAID 공개(맞춤형 광고용)\n- CAMERA, AUDIO (동영상 녹화용)\n- STORAGE (동영상 저장용)\n- LOCATION(현재 위치의 주소, GPS 좌표, 속도 가져오기 - 애플리케이션 메인 화면에 표시하고 동영상에 자막 적용)\n- 인터넷 광고)</string>
-    <string name="rec_privacy_service_msg">개인정보 보호: 녹화한 모든 동영상은 로컬 장치에만 저장됩니다. 애플리케이션은 비디오를 백업하지 않습니다(서버에 연결되어 있지 않음).\n\n녹화가 활성화된 동안 앱은 백그라운드(알림 표시줄에 나타나는 포그라운드 서비스)에서 계속 실행됩니다. 홈 화면으로 돌아가면 다른 앱으로 전환하거나 휴대폰을 잠그면 녹화를 계속할 수 있습니다. 자동 녹화 기능을 켭니다(백그라운드 서비스를 닫으면 해당 기능이 작동하지 않습니다).</string>
+    <string name="rec_privacy_service_msg">개인정보 보호: 녹화된 모든 영상은 사용자의 기기에만 저장됩니다. 앱은 외부 서버에 영상을 백업하지 않습니다.\n\n녹화 중에는 홈 화면으로 돌아가거나, 다른 앱으로 전환하거나, 휴대폰을 잠그더라도 앱이 백그라운드에서 계속 실행됩니다(알림 표시줄에 포그라운드 서비스가 표시됨). 일부 자동 녹화 기능도 이 백그라운드 서비스를 사용하므로, 백그라운드 서비스를 종료하면 해당 기능이 작동하지 않습니다.</string>
     <string name="recording_file_name_prefix">비디오 파일 이름의 접두사</string>
     <string name="recording_start_short_text">시작</string>
     <string name="recording_start_text">녹화 시작</string>

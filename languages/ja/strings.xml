@@ -1,6 +1,7 @@
 <resources>
     <string name="accept_text">承諾します</string>
     <string name="allow_background_activity_on_some_devices">以下は、一部のデバイスでバックグラウンドアクティビティを許可する方法の例です。</string>
+    <string name="allow_background_recording">お使いのデバイスでバックグラウンド動画録画を安定して行うには、以下の手順に従ってください。</string>
     <string name="any_text">どれでも</string>
     <string name="app_alternative_name_audio">オーディオ</string>
     <string name="app_alternative_name_battery">バッテリー設定</string>
@@ -19,6 +20,7 @@
     <string name="background_restrictions_explain_how_to_disable">このアプリにはバッテリーのバックグラウンド制限が設定されており、バックグラウンドでの動画録画に問題が発生する可能性があります。このアプリのバッテリー最適化またはバックグラウンド制限を無効にしてください。\n\nこれらのオプションは、「アプリ情報」→「バッテリー」画面、またはデバイスのシステム設定で確認できます。このアプリのバッテリー最適化を「制限なし」（または「最適化しない」）に設定し、フォアグラウンドとバックグラウンドの両方のアクティビティを許可してください。これらのオプションの正確な場所は、デバイスメーカーによって異なる場合があります。</string>
     <string name="background_restrictions_msg_text">安定した動画録画を確保するため、アプリのバックグラウンド制限を無効にしてください。</string>
     <string name="background_restrictions_text">バックグラウンドアプリの動作を制限する</string>
+    <string name="battery_settings_on_older_devices">一部の旧型端末では、これらのオプションが若干異なる場合があります。以下のスクリーンショット例をご覧ください。</string>
     <string name="camera">カメラ</string>
     <string name="camera_aperture">絞り</string>
     <string name="camera_back">リアカメラ</string>
@@ -55,8 +57,9 @@
     <string name="donate_text">寄付</string>
     <string name="donation_dlg_no_ads_text">広告はありません。</string>
     <string name="donation_level_text">あなたの寄付レベル：</string>
+    <string name="donation_play_services_to_restore_purchases">それでも解決しない場合は、Google Play開発者サービスが最新版かどうか確認してみてください。また、アプリのデータとキャッシュを削除してから再インストールすることもできます。詳しい手順については、下記のリンクをご覧ください。\n\n</string>
     <string name="donation_purchase_info_loading_text">ショッピング情報はまだアップロードされていません。オンラインでGoogleアカウントにログインしていますか？</string>
-    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">既に購入済みで、自動的に復元されなかった場合、まずGoogle Playストアのデータとキャッシュを削除してください。その後、アプリをアンインストールし、Google Playストアを開いて、購入時に使用した正しいGoogleアカウントを選択し、アプリを再インストールしてください。</string>
+    <string name="donation_reinstall_app_from_correct_account_to_restore_purchases">既に購入済みで自動的に復元されない場合は、まずアプリを削除してみてください。その後、Google Play ストアのデータとキャッシュをクリアし、アプリを開いて購入時に使用した正しい Google アカウントを選択し、アプリを再インストールしてください。</string>
     <string name="donation_reinstall_app_from_correct_account_to_restore_purchases_galaxy_store">すでに寄付を済ませている場合は、購入を復元するには、正しいアカウントを選択した後、Samsung Galaxy Storeでアプリケーションを再インストールしてください。</string>
     <string name="donation_remove_ads_by_any_amount_text">任意の金額を 1 回寄付するだけで、広告を永久に削除できます。</string>
     <string name="donation_remove_ads_by_subscribing_text">広告を削除するために毎月寄付することもできます。</string>
@@ -78,10 +81,16 @@
     <string name="format_speed_measure_kilometers">km/h</string>
     <string name="format_speed_measure_miles">mph</string>
     <string name="from">から</string>
+    <string name="honor_battery_settings">「システム設定」を開き、「バッテリー」を選択してから、「アプリの起動」をタップします。</string>
+    <string name="honor_battery_settings_app_launch">リストから該当のアプリを見つけ、その横にあるトグルスイッチをオフにすると、自動管理が無効になります。</string>
+    <string name="honor_battery_settings_app_launch_manage_manually">ポップアップが表示されます。無効になっているオプション（「自動起動」、「セカンダリ起動」、「バックグラウンドで実行」）があれば、すべて有効にしてください。</string>
     <string name="hour">時間</string>
     <string name="hours">時間</string>
     <string name="month">月</string>
     <string name="more_info">詳細情報：</string>
+    <string name="moto_allow_background_recording">Motorola端末でバックグラウンド動画録画を安定して行うには、このアプリの「バックグラウンド使用を許可」を有効にし、「バッテリー最適化」を「制限なし」に設定してください。「バックグラウンドアプリの管理」オプションがある場合は、無効にしてください。</string>
+    <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">「アプリ情報」画面を開き、「アプリのバッテリー使用量」を選択し、「バックグラウンドでの使用を許可する」を有効にします（通常はデフォルトで有効になっています）。</string>
+    <string name="moto_disable_manage_background_apps">「システム設定」を開き、「バッテリー」を選択し、次に「バックグラウンドアプリの管理」（利用可能な場合）を選択して、「バックグラウンドアプリの管理を使用する」オプションを無効にします。このオプションは「非アクティブ時のバッテリー効率を向上させる」という名前になっている場合もあります。</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">アプリケーションはバッテリーの最適化の対象から除外されません。カメラがバックグラウンドなどで動作していない場合は、本アプリを省電力モードの例外に追加してください。</string>
     <string name="msg_android_r_deleting_manual_tip_text">Android 11にアプリケーションを再インストールした場合は、古いファイルを手動で削除する必要があります</string>
     <string name="msg_auto_recording_service_was_stopped">ビデオ録画を自動的に開始するバックグラウンド サービスを停止しました。アプリケーションを開いて再度起動します。</string>
@@ -233,7 +242,7 @@
     <string name="prefs_gps_disabled_no_warning_text">警告と修正ボタンを表示しない</string>
     <string name="prefs_gps_disabled_warning_text">GPS無効警告、修正ボタン</string>
     <string name="prefs_info_more_category_text">情報/詳細..。</string>
-    <string name="prefs_kill_services_sum_text">アプリをバックグラウンドで自動再生して実行できるようにするための設定がデバイスにあります。ここをクリックして、アプリケーションを例外に追加し（自動起動などを許可）、バックグラウンドで実行できるようにします。禁止されている場合は、画面がオフのときに実行できるようにします。</string>
+    <string name="prefs_kill_services_sum_text">お使いのデバイスには、バックグラウンドでの使用（または自動起動）を制御する設定があります。ここをタップしてバックグラウンドでの使用を許可するか、制限されている場合はアプリを例外リストに追加してください。</string>
     <string name="prefs_kill_services_text">バックグラウンド作業を許可する</string>
     <string name="prefs_language">言語</string>
     <string name="prefs_launch_activity_on_auto_rec_start_text">録音が自動的に開始されたときにアプリケーションを開く</string>
@@ -479,10 +488,10 @@
     <string name="rec_network_text">ネット</string>
     <string name="rec_off_text">オフ</string>
     <string name="rec_on_text">オン</string>
-    <string name="rec_privacy_analytics_msg">このアプリは、基本的な匿名分析に Firebase Analytics を使用します (以下のリンクを参照)</string>
+    <string name="rec_privacy_analytics_msg">このアプリは、Firebase AnalyticsとCrashlyticsを使用して、基本的な匿名分析、診断、エラー検出を行い、デバイス間の問題解決を支援します。詳細については、以下のリンクをご覧ください。</string>
     <string name="rec_privacy_appgallery_ads_iap">アプリは、Huawei Petal Ads（広告を表示するため）およびアプリの購入（広告を削除するため）を使用します。詳細については、プライバシーポリシーリンクをクリックしてください。</string>
     <string name="rec_privacy_permissions_msg">アプリケーションは次の権限を使用します。\n- オープン匿名デバイス識別子 OAID (パーソナライズされた広告用)\n- カメラ、オーディオ（ビデオ録画用）\n- STORAGE（ビデオ保存用）\n- LOCATION (現在の場所のアドレス、GPS 座標、速度を取得し、アプリケーションのメイン画面に表示し、ビデオに字幕を適用します)\n- インターネット広告)</string>
-    <string name="rec_privacy_service_msg">プライバシー: 録画したすべてのビデオはローカル デバイスにのみ保存されます。アプリケーションはビデオをバックアップしません (サーバーに接続しません)\n\n録音がアクティブである間、アプリはバックグラウンド (通知バーに表示されるフォアグラウンド サービス) で実行され続けます。ホーム画面に戻ったり、別のアプリに切り替えたり、録音を継続できるように携帯電話をロックしたり、自動録画機能をオンにします (バックグラウンド サービスを終了すると、これらの機能は動作しなくなります)。</string>
+    <string name="rec_privacy_service_msg">プライバシー：録画した動画はすべて端末本体にのみ保存されます。アプリは動画を外部サーバーにバックアップしません。\n\n録画中は、ホーム画面に戻ったり、他のアプリに切り替えたり、端末をロックしたりしても、アプリはバックグラウンドで動作し続けます（通知バーに表示されるフォアグラウンドサービス経由）。これにより、録画が継続されます。一部の自動録画機能もこのバックグラウンドサービスに依存しているため、バックグラウンドサービスを閉じるとこれらの機能は動作しなくなります。</string>
     <string name="recording_file_name_prefix">ビデオファイル名のプレフィックス</string>
     <string name="recording_start_short_text">始める</string>
     <string name="recording_start_text">録音開始</string>
