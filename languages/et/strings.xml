@@ -41,9 +41,14 @@
     <string name="camera_msg_error_non_exposed_error">Valitud kaamera avamine ebaõnnestus. Juhtub nii, et ükski rakendus ei saa kasutada kõiki peidetud kaameraid. Paljud tootjad lubavad neid kasutada ainult oma kohalikes rakendustes. Avaneb vaikekaamera.</string>
     <string name="camera_msg_error_unknown_text">Kaamera ei ole ajutiselt (ei olnud) teie seadmes avamiseks saadaval (kaamera süsteemiviga)</string>
     <string name="camera_support_error">Kaamera kasutamisel ilmnes viga.</string>
+    <string name="cancel_copying_files">Kas tühistada failide kopeerimine?</string>
     <string name="close">Sulge</string>
+    <string name="copy_files">Kopeeri failid</string>
+    <string name="copy_selected_files_to_the_selected_folder">Kopeeri valitud failid valitud kausta.</string>
+    <string name="copying_files">Failide kopeerimine</string>
     <string name="days">päevadel</string>
     <string name="default_text">Vaikimisi</string>
+    <string name="delete_original_files_after_copying">Kustuta algsed failid pärast kopeerimist</string>
     <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">Täpsemad juhised aku optimeerimise keelamiseks ja rakenduse taustategevuse lubamiseks:</string>
     <string name="dialog_camera_not_found_msg_text">Sellel seadmel ei ole sisseehitatud kaamerat ja see ei toeta väliseid kaameraid. Sulgemine…</string>
     <string name="dialog_camera_not_found_text">Kaamerat ei leitud</string>
@@ -70,6 +75,7 @@
     <string name="donation_subs_one_text">Kui tellimus on aktiivne, eemaldatakse reklaam täielikult.</string>
     <string name="donation_subs_text">Anneta igakuiselt</string>
     <string name="donation_subscriptions_can_be_cancelled_any_time_text">Tellimuse saab igal ajal tühistada (nupp \"Tühista tellimus\" on saadaval, saate selle tühistada ka Google Play rakenduses)</string>
+    <string name="finished_copying_files">Failide kopeerimine on lõpetatud.</string>
     <string name="format_altitude">Kõrgus</string>
     <string name="format_degrees">Koordinaadid</string>
     <string name="format_gb">Gigabait</string>
@@ -96,6 +102,7 @@
     <string name="moto_api34_disable_limit_background_activity_all">Teise võimalusena saate keelata valiku „Piira taustategevust” (lüliti abil), et lubada kõigil rakendustel taustal töötada.</string>
     <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">Avage ekraanil „Rakenduse teave”, valige „Rakenduse aku kasutus” ja lubage „Luba taustakasutus” (see on tavaliselt vaikimisi lubatud).</string>
     <string name="moto_disable_manage_background_apps">Ava „Süsteemiseaded”, vali „Aku”, seejärel vali „Taustarakenduste haldamine” (kui see on saadaval) ja keela valik „Kasuta taustarakenduste haldamist”. Valiku nimi võib olla ka „Aku tööea parandamine passiivsuse ajal”.</string>
+    <string name="moving_files">Failide teisaldamine</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Rakendus ei ole aku optimeerimisest välistatud. Kui kaamera taustal ei tööta või midagi muud, siis lisa see rakendus energiasäästurežiimi erandite hulka.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Kui installisite rakenduse Android 11-le uuesti, tuleb vanad failid käsitsi kustutada</string>
     <string name="msg_auto_recording_service_was_stopped">Peatasite videosalvestuse automaatse alustamise taustateenuse. Avage rakendus, et see uuesti käivitada.</string>
@@ -141,6 +148,7 @@
     <string name="msg_video_rec_battery_not_enough_text">Praeguste reeglite kohaselt pole akul piisavalt energiat salvestamise alustamiseks.</string>
     <string name="msg_video_recorder_error">Midagi läks videosalvestiga valesti.</string>
     <string name="msg_voice_tts_lang_data_missing_text">TTS-i (Android Text-to-Speech) keelepaketti pole installitud. Allalaadimise alustamiseks lülitage Internet sisse</string>
+    <string name="no">Ei</string>
     <string name="notification_could_not_start_recording_service">Salvestusteenust ei õnnestunud käivitada. Puudutage, et keelata selle rakenduse aku optimeerimine</string>
     <string name="notification_service_aux_checker">heli pesa (Aux)</string>
     <string name="notification_service_bl_checker">bluetooth</string>
@@ -149,7 +157,7 @@
     <string name="notification_service_recreated_thermal_critical_msg">Video salvestamist ei jätkatud automaatselt, kuna seade teatas kriitilisest või kõrgemast termilisest olekust. Seda toimingut saate muuta jaotises „Rakendus → Seaded → Salvestusseaded” (seadete avamiseks puudutage seda teavitust).</string>
     <string name="notification_service_recreated_thermal_severe_msg">Video salvestamist ei jätkatud automaatselt, kuna seade teatas tõsisest või kõrgemast termilisest olekust. Seda toimingut saate muuta jaotises „Rakendus → Seaded → Salvestusseaded” (seadete avamiseks puudutage seda teavitust).</string>
     <string name="notification_service_recreated_time_limit_msg">Video salvestamist ei jätkatud automaatselt, kuna rakenduse taaskäivitamine toimus pärast seadistatud automaatse jätkamise ajalimiiti. Seda limiiti saate suurendada jaotises „Rakendus → Seaded → Salvestusseaded” (seadete avamiseks puudutage seda teavitust).</string>
-    <string name="notification_service_recreated_title">Süsteem taaskäivitas rakenduse ootamatult.</string>
+    <string name="notification_service_recreated_title">Süsteem sulges ootamatult rakenduse.</string>
     <string name="notification_stop_text">Peatus</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Automaatse sisse/välja salvestamise jaoks</string>
     <string name="one_time_payment">Ühekordne makse</string>
@@ -225,10 +233,18 @@
     <string name="prefs_beep_each_start_recording_sum_text">Signaal järgmise videofaili salvestamise alguses</string>
     <string name="prefs_beep_each_start_recording_text">Piiks salvestamisel</string>
     <string name="prefs_camera_blurry">Hägune</string>
+    <string name="prefs_camera_for_the_shortcut">Kaamera otsetee jaoks</string>
     <string name="prefs_camera_lens_distance_focus_default_hint">Lähtestage vaikeväärtus, kui pilt on udune</string>
     <string name="prefs_camera_lens_distance_focus_title">Objektiivi teravustamiskauguse reguleerimine lõpmatusse teravustamise saavutamiseks</string>
+    <string name="prefs_camera_main">Põhikaamera (või viimati kasutatud)</string>
+    <string name="prefs_camera_settings_for_the_shortcuts">Kaamera otseteede seaded</string>
+    <string name="prefs_camera_shortcut_first_start_stop_rec_text">Kaamera otsetee nr 1</string>
+    <string name="prefs_camera_shortcut_sec_start_stop_rec_text">Kaamera otsetee nr 2</string>
+    <string name="prefs_camera_shortcuts_desc">Rakenduste käivitaja otseteed, vidinad, kiirseadete paanid.</string>
+    <string name="prefs_camera_shortcuts_settings_tip">Märkige „Videoseaded“ alt „Kaamera seaded otseteede jaoks“, et valida kaamera, mida soovite otsetee nr 1 või otsetee nr 2 jaoks kasutada.</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Seadme tootja ei pruugi võimaldada juurdepääsu kõikidele kaameratele, mistõttu mõned ei pruugi avaneda</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Seadme tootja ei pruugi kõigi rakenduste jaoks pakkuda laiobjektiiviga kaamerat</string>
+    <string name="prefs_change_units_by_tap_on_main_screen">Kiiruse ühikuid saab muuta, puudutades põhiekraanil kiiruse väärtust.</string>
     <string name="prefs_consent_information_privacy_options">Privaatsusvalikud (nõusolekuteave)</string>
     <string name="prefs_continuous_recording">Pidev salvestamine</string>
     <string name="prefs_continuous_recording_desc">Alustab uut faili, kui praegune fail jõuab määratud kestuseni. Kui see on keelatud, peatub salvestamine piirangu saavutamisel.</string>
@@ -250,10 +266,13 @@
     <string name="prefs_g_sensor_force_very_high">Väga kõrge</string>
     <string name="prefs_g_sensor_force_very_low">Väga madal</string>
     <string name="prefs_gps_accuracy_text">Ignoreerige ülaltoodud veaga GPS-andmeid</string>
+    <string name="prefs_gps_coordinates_format">GPS-koordinaatide vorming</string>
     <string name="prefs_gps_disabled_gps_and_google_text">Kuva hoiatus, kui GPS ja Google\'i geolokatsioon on keelatud</string>
     <string name="prefs_gps_disabled_gps_only_text">Kuva hoiatus ainult siis, kui GPS on keelatud</string>
     <string name="prefs_gps_disabled_no_warning_text">Ärge kuvage hoiatus- ja parandamisnuppu</string>
     <string name="prefs_gps_disabled_warning_text">GPS keelatud hoiatus, parandamise nupp</string>
+    <string name="prefs_gps_format_decimal_degrees">Kümnendkraadid</string>
+    <string name="prefs_gps_format_degrees_minutes_seconds">Kraadid/minutid/sekundid</string>
     <string name="prefs_info_more_category_text">Teave /Veel…</string>
     <string name="prefs_kill_services_sum_text">Teie seadmel on sätted, mis kontrollivad taustal töötamist (või automaatset käivitamist). Puudutage siin, et lubada taustal töötamine või lisada rakendus erandite loendisse, kui see on piiratud.</string>
     <string name="prefs_kill_services_text">Taustatöö lubamine</string>
@@ -273,6 +292,7 @@
     <string name="prefs_location_power_saving_to_get_updates_in_background">Asukoha (GPS) värskenduste taustal hankimiseks tuleks energiasäästurežiim välja lülitada.</string>
     <string name="prefs_location_provider_method_text">Asukoha hankimise meetod (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS-i värskendussagedus</string>
+    <string name="prefs_main_camera_changes_to_latest_used_camera_for_shortcut">Põhikaamera vahetub otsetee nr 1 või otsetee nr 2 jaoks viimati kasutatud kaameraks.</string>
     <string name="prefs_meters_accuracy_value_text">meetri täpsusega</string>
     <string name="prefs_open_source_notices_text">Avatud lähtekoodi teated</string>
     <string name="prefs_optical_zoom_text">Optiline suum (suum) /fookuskaugus</string>
@@ -361,6 +381,10 @@
     <string name="prefs_share_sum_text">Saada see rakendus oma sõpradele</string>
     <string name="prefs_share_text">Jaga seda</string>
     <string name="prefs_shortcut_launcher_has_been_added">Otsetee (käivitusprogramm) on lisatud</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove">Eemaldage käivitaja</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove_desc">Selle täielikuks eemaldamiseks peate selle võib-olla käsitsi avakuvalt eemaldama (puudutage seda ja hoidke seda all, seejärel valige „Eemalda”), taaskäivitage avakuva käivitaja või isegi telefoni taaskäivitama.</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_sum">Lisab eraldi klassikalise rakenduste käivitaja, mis on tavaliselt nähtav kõigi rakenduste loendis (rakenduste sahtlis) video salvestamise alustamiseks/peatamiseks. Mõnes seadmes ja Androidi versioonis saab selle määrata telefoni toite-/külgnupu topeltvajutusega, näiteks Samsungi seadmetes, millel on Android 12 või vanem versioon. Uuemad versioonid aga ei näi seda enam võimaldavat (vähemalt Samsungi seadmetes).</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_title">Lisa rakendusele klassikaline käivitaja</string>
     <string name="prefs_shortcut_rec_start_launcher_sum">Salvestamise alustamiseks/peatamiseks ilma põhiekraani käivitamata</string>
     <string name="prefs_shortcut_rec_start_launcher_title">Lisa otsetee (käivitusprogramm)</string>
     <string name="prefs_show_audio_btn_text">Helisalvestus sisse /välja</string>
@@ -380,6 +404,8 @@
     <string name="prefs_start_stop_toast_message_text">Taustal salvestamise ajal salvestamise alustamisel või peatamisel kuvatakse teade</string>
     <string name="prefs_start_stop_voice_sum_text">Heli käivitamisel, seiskamisel või salvestusviga</string>
     <string name="prefs_start_stop_voice_text">Helisalvestuse olek</string>
+    <string name="prefs_storage_select_folder_for_photos_hint_msg">Valige kaust, kuhu fotod salvestatakse.</string>
+    <string name="prefs_storage_select_folder_for_records_hint_msg">Valige kaust, kuhu videosalvestised salvestatakse.</string>
     <string name="prefs_subtitles_address_text">Aadress</string>
     <string name="prefs_subtitles_color_text">Valige subtiitrite värv</string>
     <string name="prefs_subtitles_coords_text">Koordinaadid</string>
@@ -517,6 +543,7 @@
     <string name="recording_file_name_prefix">Videofailide nimede eesliide</string>
     <string name="recording_start_short_text">Alusta</string>
     <string name="recording_start_text">Alustage salvestamist</string>
+    <string name="recording_started_after_system_recreation_text">Video salvestamise alustamine pärast seda, kui süsteem rakenduse ootamatult sulges.</string>
     <string name="recording_started_failed_text">Viga salvestamise alustamisel</string>
     <string name="recording_started_text">Salvestamine on alanud</string>
     <string name="recording_started_with_audio_text">Uus videosalvestus koos helisalvestusega on alanud</string>
@@ -548,6 +575,7 @@
     <string name="records_pin_lock_top_bar_title">Salvestiste lukustus</string>
     <string name="reset">Lähtesta</string>
     <string name="snackbar_dismiss">Peida</string>
+    <string name="start_copying_files">Alusta failide kopeerimist</string>
     <string name="storage_external_single">MicroSD-kaart</string>
     <string name="storage_phone">Telefoni mälu</string>
     <string name="subscription_benefit_all_premium_features">Kõik tulevased lisafunktsioonid</string>
@@ -566,6 +594,7 @@
     <string name="subscription_subscribe_text">Telli</string>
     <string name="subscription_with_free_trial">Tasuta prooviperioodiga</string>
     <string name="tap_to_allow_background_recording">Puudutage taustal video salvestamise lubamiseks.</string>
+    <string name="the_current_copy_files_operation_will_be_cancelled">Praegune failide kopeerimistoiming tühistatakse.</string>
     <string name="timer_auto_start">Taimer</string>
     <string name="timer_auto_start_dlg_type_title">Seadistage salvestamise alustamiseks taimer</string>
     <string name="timer_auto_start_every_day_text">Iga päev</string>
@@ -600,7 +629,7 @@
     <string name="videos_item_mode_deletion_exit_text">Välju kustutamisrežiimist</string>
     <string name="videos_locked_folder_text">Ülekirjutamine kaitstud</string>
     <string name="videos_menu_delete">Kustuta</string>
-    <string name="videos_menu_move_file">Teisalda fail</string>
+    <string name="videos_menu_move_file">Faili teisaldamine või kopeerimine</string>
     <string name="videos_menu_refresh">Värskenda</string>
     <string name="videos_menu_select_all">Valige kõik</string>
     <string name="videos_menu_sorting">Sorteerimine</string>
@@ -613,5 +642,6 @@
     <string name="videos_temporary_folder_text">Ajastatud videod</string>
     <string name="videos_toolbar_subtitle">Videosalvestused</string>
     <string name="widget_start_stop_recording_transparent">Läbipaistev nupp salvestamise alustamiseks/peatamiseks</string>
+    <string name="yes">Jah</string>
     <string name="zoom_text">suumi</string>
 </resources>

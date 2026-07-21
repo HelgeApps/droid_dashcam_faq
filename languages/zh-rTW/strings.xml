@@ -43,9 +43,14 @@
     <string name="camera_msg_error_non_exposed_error">無法打開所選攝像頭。碰巧的是，並非所有隱藏攝像頭都可以被任何應用程序使用。許多製造商只允許在其本機應用程序中使用它們。默認相機將打開。</string>
     <string name="camera_msg_error_unknown_text">鏡頭暫時（目前）無法在您的設備上開啟（相機系统錯誤）</string>
     <string name="camera_support_error">使用鏡頭時發生錯誤。</string>
+    <string name="cancel_copying_files">取消複製文件？</string>
     <string name="close">關閉</string>
+    <string name="copy_files">複製文件</string>
+    <string name="copy_selected_files_to_the_selected_folder">將選定的檔案複製到選定的資料夾。</string>
+    <string name="copying_files">複製文件</string>
     <string name="days">天</string>
     <string name="default_text">默認</string>
+    <string name="delete_original_files_after_copying">複製完成後刪除原始文件</string>
     <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">更詳細的禁用電池優化並允許應用程式後台運行的說明：</string>
     <string name="dialog_camera_not_found_msg_text">此設備沒有内置鏡頭，也不支持外接鏡頭。關閉…</string>
     <string name="dialog_camera_not_found_text">未找到鏡頭</string>
@@ -72,6 +77,7 @@
     <string name="donation_subs_one_text">當訂閱有效時，廣告將被完全刪除。</string>
     <string name="donation_subs_text">每月捐款</string>
     <string name="donation_subscriptions_can_be_cancelled_any_time_text">訂閱可以隨時取消（「取消訂閱」按鈕將可用，您也可以在Google Play應用程式中取消）</string>
+    <string name="finished_copying_files">文件複製完成。</string>
     <string name="format_altitude">高度</string>
     <string name="format_degrees">座標</string>
     <string name="format_gb">GB</string>
@@ -98,6 +104,7 @@
     <string name="moto_api34_disable_limit_background_activity_all">或者，停用「限制背景活動」（使用開關）以允許所有應用程式在背景運行。</string>
     <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">開啟“套用資訊”螢幕，選擇“套用電池使用情況”，然後啟用“允許後台使用”（通常預設是啟用的）。</string>
     <string name="moto_disable_manage_background_apps">開啟“系統設定”，選擇“電池”，然後選擇“管理背景應用程式”（如有），並關閉“使用管理背景應用程式”選項。該選項也可能名為「在不活動時改善電池續航力」。</string>
+    <string name="moving_files">移動檔案</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">該應用程式不排除在電池優化之外。如果相機沒有在背景運作或其他情況，則將此應用程式新增至省電模式的例外。</string>
     <string name="msg_android_r_deleting_manual_tip_text">如果您在 Android 11 上重新安裝了該應用程式，則必須手動刪除舊檔案</string>
     <string name="msg_auto_recording_service_was_stopped">您已停止自動開始錄影的後台服務。打開應用程式以再次啟動它。</string>
@@ -143,6 +150,7 @@
     <string name="msg_video_rec_battery_not_enough_text">根據現行規定，電池電量不足，無法開始錄音。</string>
     <string name="msg_video_recorder_error">录像机出了点问题。</string>
     <string name="msg_voice_tts_lang_data_missing_text">未安裝 TTS (Android Text-to-Speech) 語言包。打開網路開始下載</string>
+    <string name="no">不</string>
     <string name="notification_could_not_start_recording_service">錄製功能無法啟動。點按可禁用此應用程式的電池最佳化</string>
     <string name="notification_service_aux_checker">音頻輸入插孔（輔助）</string>
     <string name="notification_service_bl_checker">藍芽</string>
@@ -151,7 +159,7 @@
     <string name="notification_service_recreated_thermal_critical_msg">由於設備報告了嚴重過熱狀態或更高級別，視訊錄製未自動恢復。您可以在「套用 → 設定 → 錄製設定」中變更此行為（點擊此通知即可開啟設定）。</string>
     <string name="notification_service_recreated_thermal_severe_msg">由於設備報告了嚴重過熱狀態或更高級別，視訊錄製未自動恢復。您可以在「套用 → 設定 → 錄製設定」中變更此行為（點擊此通知即可開啟設定）。</string>
     <string name="notification_service_recreated_time_limit_msg">由於應用程式重新啟動時間超過了設定的自動恢復錄製時間限制，錄影未能自動恢復。您可以在「套用 → 設定 → 錄製設定」中增加此限制（點擊此通知即可開啟設定）。\n\n</string>
-    <string name="notification_service_recreated_title">系統意外重啟了應用程式。</string>
+    <string name="notification_service_recreated_title">系統意外關閉了應用程式。</string>
     <string name="notification_stop_text">停止</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">用於自動開/關錄音功能</string>
     <string name="one_time_payment">一次付款</string>
@@ -227,10 +235,18 @@
     <string name="prefs_beep_each_start_recording_sum_text">下一個影片檔案錄製開始時的信號</string>
     <string name="prefs_beep_each_start_recording_text">錄影時發出嗶嗶聲</string>
     <string name="prefs_camera_blurry">模糊</string>
+    <string name="prefs_camera_for_the_shortcut">快捷方式相機</string>
     <string name="prefs_camera_lens_distance_focus_default_hint">如果影像模糊，則重設為預設值。</string>
     <string name="prefs_camera_lens_distance_focus_title">鏡頭對焦距離調節，實現無限遠對焦</string>
+    <string name="prefs_camera_main">主相機（或上次使用的攝影機）</string>
+    <string name="prefs_camera_settings_for_the_shortcuts">快捷方式的相機設置</string>
+    <string name="prefs_camera_shortcut_first_start_stop_rec_text">相機快捷鍵 #1</string>
+    <string name="prefs_camera_shortcut_sec_start_stop_rec_text">相機快捷鍵 #2</string>
+    <string name="prefs_camera_shortcuts_desc">應用程式啟動器捷徑、小工具、快速設定磁貼。</string>
+    <string name="prefs_camera_shortcuts_settings_tip">在「影片設定」下的「捷徑的相機設定」中，選擇要用於捷徑 1 或捷徑 2 的相機。</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">設備製造商可能不提供對所有攝像頭的訪問，因此某些攝像頭可能無法打開</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">設備製造商可能不會為所有應用程序提供廣角鏡頭相機</string>
+    <string name="prefs_change_units_by_tap_on_main_screen">點選主畫面上的速度值即可變更速度單位。</string>
     <string name="prefs_consent_information_privacy_options">隱私選項（同意資訊）</string>
     <string name="prefs_continuous_recording">連續記錄</string>
     <string name="prefs_continuous_recording_desc">當目前文件達到設定時長時，會自動建立一個新文件。如果停用此功能，錄製將在達到時長限制後停止。</string>
@@ -252,10 +268,13 @@
     <string name="prefs_g_sensor_force_very_high">很高</string>
     <string name="prefs_g_sensor_force_very_low">非常低</string>
     <string name="prefs_gps_accuracy_text">忽略上述錯誤的 GPS 數據</string>
+    <string name="prefs_gps_coordinates_format">GPS座標格式</string>
     <string name="prefs_gps_disabled_gps_and_google_text">當 GPS 和 Google 定位被禁用時顯示警告</string>
     <string name="prefs_gps_disabled_gps_only_text">僅當 GPS 被禁用時才顯示警告</string>
     <string name="prefs_gps_disabled_no_warning_text">不顯示警告和修復按鈕</string>
     <string name="prefs_gps_disabled_warning_text">GPS 禁用警告，修復按鈕</string>
+    <string name="prefs_gps_format_decimal_degrees">十進制度</string>
+    <string name="prefs_gps_format_degrees_minutes_seconds">度/分/秒</string>
     <string name="prefs_info_more_category_text">資訊 /更多…</string>
     <string name="prefs_kill_services_sum_text">您的裝置有控制後台使用（或自動啟動）的設定。點擊此處允許後台使用，或將應用程式新增至例外清單（如果該應用程式受到限制）。</string>
     <string name="prefs_kill_services_text">允許後台工作</string>
@@ -275,6 +294,7 @@
     <string name="prefs_location_power_saving_to_get_updates_in_background">應關閉省電功能才能在背景取得位置 (GPS) 更新。</string>
     <string name="prefs_location_provider_method_text">位置獲取方法（GPS）</string>
     <string name="prefs_location_update_frequency_text">GPS更新率</string>
+    <string name="prefs_main_camera_changes_to_latest_used_camera_for_shortcut">主相機切換到快速指令 1 或快速指令 2 最近使用的攝影機。</string>
     <string name="prefs_meters_accuracy_value_text">公尺精度</string>
     <string name="prefs_open_source_notices_text">開源聲明</string>
     <string name="prefs_optical_zoom_text">光學變焦（變焦）/焦距</string>
@@ -363,6 +383,10 @@
     <string name="prefs_share_sum_text">將此應用程式分享给您的朋友</string>
     <string name="prefs_share_text">分享這個</string>
     <string name="prefs_shortcut_launcher_has_been_added">新增了快捷方式（啟動器）</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove">移除啟動器</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove_desc">要徹底刪除它，您可能需要手動將其從主螢幕刪除（觸摸並按住它，然後選擇“刪除”），重新啟動主螢幕啟動器，甚至重新啟動手機。</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_sum">添加一個獨立的經典應用啟動器，通常顯示在“所有應用”清單（應用抽屜）中，用於啟動/停止視訊錄製。在某些裝置和 Android 版本上，它可以分配給手機的雙擊電源鍵/側鍵功能，例如在運行 Android 12 或更低版本的 Samsung 裝置上。但是，較新的版本似乎不再允許這樣做（至少在 Samsung 裝置上）。</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_title">為應用程式添加經典啟動器</string>
     <string name="prefs_shortcut_rec_start_launcher_sum">在不啟動主屏幕的情況下開始/停止錄製</string>
     <string name="prefs_shortcut_rec_start_launcher_title">添加快捷方式（啟動器）</string>
     <string name="prefs_show_audio_btn_text">開/關錄影</string>
@@ -382,6 +406,8 @@
     <string name="prefs_start_stop_toast_message_text">在背景錄製期間開始或停止錄製時顯示訊息</string>
     <string name="prefs_start_stop_voice_sum_text">開始、停止或錄影錯誤時發出聲音</string>
     <string name="prefs_start_stop_voice_text">錄影狀態</string>
+    <string name="prefs_storage_select_folder_for_photos_hint_msg">選擇照片的儲存資料夾。</string>
+    <string name="prefs_storage_select_folder_for_records_hint_msg">選擇視訊錄製檔案的儲存資料夾。</string>
     <string name="prefs_subtitles_address_text">地址</string>
     <string name="prefs_subtitles_color_text">選擇字幕顏色</string>
     <string name="prefs_subtitles_coords_text">座標</string>
@@ -519,6 +545,7 @@
     <string name="recording_file_name_prefix">影片檔名的前綴</string>
     <string name="recording_start_short_text">開始</string>
     <string name="recording_start_text">開始錄影</string>
+    <string name="recording_started_after_system_recreation_text">應用程式被系統意外關閉後，開始錄製影片。</string>
     <string name="recording_started_failed_text">開始錄製時發生錯誤</string>
     <string name="recording_started_text">錄影開始了</string>
     <string name="recording_started_with_audio_text">一個帶有錄音功能的新影片錄製已經開始</string>
@@ -550,6 +577,7 @@
     <string name="records_pin_lock_top_bar_title">錄音鎖定</string>
     <string name="reset">重置</string>
     <string name="snackbar_dismiss">隱藏</string>
+    <string name="start_copying_files">開始複製文件</string>
     <string name="storage_external_single">MicroSD 卡</string>
     <string name="storage_phone">手機内存</string>
     <string name="subscription_benefit_all_premium_features">任何未來的高級功能</string>
@@ -568,6 +596,7 @@
     <string name="subscription_subscribe_text">訂閱</string>
     <string name="subscription_with_free_trial">免費試用</string>
     <string name="tap_to_allow_background_recording">點擊允許後台視訊錄製。</string>
+    <string name="the_current_copy_files_operation_will_be_cancelled">目前複製文件的操作將被取消。</string>
     <string name="timer_auto_start">計時器</string>
     <string name="timer_auto_start_dlg_type_title">設定計時器開始錄製</string>
     <string name="timer_auto_start_every_day_text">每天</string>
@@ -602,7 +631,7 @@
     <string name="videos_item_mode_deletion_exit_text">退出刪除模式</string>
     <string name="videos_locked_folder_text">覆蓋保護</string>
     <string name="videos_menu_delete">刪除</string>
-    <string name="videos_menu_move_file">移動檔案</string>
+    <string name="videos_menu_move_file">移動或複製文件</string>
     <string name="videos_menu_refresh">刷新</string>
     <string name="videos_menu_select_all">全選</string>
     <string name="videos_menu_sorting">排序</string>
@@ -615,5 +644,6 @@
     <string name="videos_temporary_folder_text">定時影片</string>
     <string name="videos_toolbar_subtitle">錄影</string>
     <string name="widget_start_stop_recording_transparent">透明按鈕開始/停止錄製</string>
+    <string name="yes">是的</string>
     <string name="zoom_text">飛漲</string>
 </resources>

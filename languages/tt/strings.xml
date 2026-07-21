@@ -41,9 +41,14 @@
     <string name="camera_msg_error_non_exposed_error">Сайланган камераны ача алмады. Барлык яшерен фотоаппаратларны бернинди кушымта да кулланып булмый. Күпчелек җитештерүчеләр үзләренең туган кушымталарында кулланырга рөхсәт итәләр. Килешенгән камера ачылачак.</string>
     <string name="camera_msg_error_unknown_text">Камера җайланмагызда вакытлыча (мөмкин түгел) (камера системасы хата)</string>
     <string name="camera_support_error">Камераны кулланганда хата килеп чыкты.</string>
+    <string name="cancel_copying_files">Файлларны күчерүне туктатыргамы?</string>
     <string name="close">Ябу</string>
+    <string name="copy_files">Файлларны күчерү</string>
+    <string name="copy_selected_files_to_the_selected_folder">Сайланган файлларны сайланган папкага күчерегез.</string>
+    <string name="copying_files">Файлларны күчерү</string>
     <string name="days">көннәр</string>
     <string name="default_text">Килешү</string>
+    <string name="delete_original_files_after_copying">Күчермәдән соң оригиналь файлларны бетерегез</string>
     <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">Кушымта өчен батареяны оптимальләштерүне сүндерү һәм фон эшчәнлеген рөхсәт итү буенча тулырак күрсәтмәләр:</string>
     <string name="dialog_camera_not_found_msg_text">Бу җайланманың урнаштырылган камерасы юк һәм тышкы камераларга булышмый. Ябу…</string>
     <string name="dialog_camera_not_found_text">Камера табылмады</string>
@@ -70,6 +75,7 @@
     <string name="donation_subs_one_text">Подписка актив булганда реклама тулысынча бетерелә.</string>
     <string name="donation_subs_text">Ай саен бүләк итегез</string>
     <string name="donation_subscriptions_can_be_cancelled_any_time_text">Подписка теләсә кайсы вакытта юкка чыгарылырга мөмкин (\"Подпискадан баш тарту\" төймәсе булачак, сез аны Google Play кушымтасында да юкка чыгара аласыз)</string>
+    <string name="finished_copying_files">Файлларны күчерү тәмамланды.</string>
     <string name="format_altitude">Биеклек</string>
     <string name="format_degrees">Координаталар</string>
     <string name="format_gb">Гигабайт</string>
@@ -96,6 +102,7 @@
     <string name="moto_api34_disable_limit_background_activity_all">Икенче вариант буларак, барлык кушымталарның фонда эшләвен тәэмин итү өчен \"Фон эшчәнлеген чикләү\"не сүндерегез (ачу төймәсен кулланып).</string>
     <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">\"Кушымта турында мәгълүмат\" экранын ачыгыз, \"Кушымта батареясын куллану\"ны сайлагыз һәм \"Фон куллануга рөхсәт итү\"не кабызыгыз (гадәттә ул гадәттәгечә кушылган).</string>
     <string name="moto_disable_manage_background_apps">\"Система көйләүләрен\" ачыгыз, \"Батарея\"ны сайлагыз, аннары \"Фон кушымталарын идарә итү\"не сайлагыз (мөмкин булса) һәм \"Фон кушымталарын идарә итүне куллану\" опциясен сүндерегез. Бу опция шулай ук \"Актив булмаганда батареяны яхшырту\" дип аталырга мөмкин.</string>
+    <string name="moving_files">Файлларны күчерү</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Кушымта батареяны оптимизацияләүдән читтә калмый. Әгәр дә фотоаппарат фонда яки башка берәр нәрсәдә эшләми икән, бу кушымтаны энергия саклау режимыннан кала өстәгез.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Әгәр дә сез кушымтаны Android 11\'ка яңадан урнаштырсагыз, иске файллар кул белән бетерелергә тиеш</string>
     <string name="msg_auto_recording_service_was_stopped">Видео язуны автоматик рәвештә башлау өчен сез фон хезмәтен туктаттыгыз. Аны яңадан җибәрү өчен кушымтаны ачыгыз.</string>
@@ -141,6 +148,7 @@
     <string name="msg_video_rec_battery_not_enough_text">Хәзерге кагыйдәләр буенча яздыру башлау өчен батарея көче җитми.</string>
     <string name="msg_video_recorder_error">Видео магнитофонда нәрсәдер дөрес булмаган.</string>
     <string name="msg_voice_tts_lang_data_missing_text">ТТС өчен тел пакеты (Android Text-to-Speech) урнаштырылмаган. Йөкләү өчен интернетны кабызыгыз</string>
+    <string name="no">Юк</string>
     <string name="notification_could_not_start_recording_service">Язу хезмәте башланмады. Бу кушымта өчен батарея оптимизациясен сүндерү өчен басыгыз</string>
     <string name="notification_service_aux_checker">аудио джек (Aux)</string>
     <string name="notification_service_bl_checker">Bluetooth</string>
@@ -149,7 +157,7 @@
     <string name="notification_service_recreated_thermal_critical_msg">Видео яздыру автоматик рәвештә дәвам итмәде, чөнки җайланма \"Критик җылылык торышы\" яки аннан да югарырак дип хәбәр итте. Сез бу режимны \"Кушымта → Көйләүләр → Яздыру көйләүләре\" бүлегендә үзгәртә аласыз (көйләүләрне ачу өчен бу хәбәрнамәгә басыгыз).</string>
     <string name="notification_service_recreated_thermal_severe_msg">Видео яздыру автоматик рәвештә дәвам итмәде, чөнки җайланма \"Кушымта → Көйләүләр → Яздыру көйләүләре\" бүлегендә үзгәртә аласыз (көйләүләрне ачу өчен бу хәбәрнамәгә басыгыз).</string>
     <string name="notification_service_recreated_time_limit_msg">Видео яздыру автоматик рәвештә дәвам итмәде, чөнки кушымтаны яңадан эшләтеп җибәрү билгеләнгән автоматик рәвештә дәвам итү вакыты чикләүеннән соң булды. Сез бу чикләүне \"Кушымта → Көйләүләр → Яздыру көйләүләре\" бүлегендә арттыра аласыз (көйләүләрне ачу өчен бу хәбәрнамәгә басыгыз).</string>
-    <string name="notification_service_recreated_title">Система көтелмәгәнчә кушымтаны яңадан эшләтеп җибәрде.</string>
+    <string name="notification_service_recreated_title">Система көтелмәгәнчә кушымтаны япты.</string>
     <string name="notification_stop_text">Тукта</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Автомобильне кабызу /сүндерү өчен</string>
     <string name="one_time_payment">Бер тапкыр түләү</string>
@@ -225,10 +233,18 @@
     <string name="prefs_beep_each_start_recording_sum_text">Киләсе видео файлны яздыру башында сигнал</string>
     <string name="prefs_beep_each_start_recording_text">Язганда тавыш бирегез</string>
     <string name="prefs_camera_blurry">Тонык</string>
+    <string name="prefs_camera_for_the_shortcut">Кыска юл өчен камера</string>
     <string name="prefs_camera_lens_distance_focus_default_hint">Әгәр рәсем тонык күренсә, гадәти кыйммәткә кайтарыгыз</string>
     <string name="prefs_camera_lens_distance_focus_title">Чиксезлек фокусына ирешү өчен линза фокусы арасын көйләү</string>
+    <string name="prefs_camera_main">Төп камера (яки соңгы кулланылган)</string>
+    <string name="prefs_camera_settings_for_the_shortcuts">Кыска юллар өчен камера көйләүләре</string>
+    <string name="prefs_camera_shortcut_first_start_stop_rec_text">1 нче камера кыска юлы</string>
+    <string name="prefs_camera_shortcut_sec_start_stop_rec_text">2 нче камера кыска юлы</string>
+    <string name="prefs_camera_shortcuts_desc">Кушымтаны эшләтеп җибәрү өчен кыска юллар, виджетлар, тиз көйләүләр плиткалары.</string>
+    <string name="prefs_camera_shortcuts_settings_tip">1 нче яки 2 нче кыска юл өчен кулланырга теләгән камераны сайлау өчен \"Видео көйләүләре\" астындагы \"Кыска юллар өчен камера көйләүләре\"н тикшерегез.</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Deviceайланма җитештерүче барлык камераларга рөхсәт бирә алмый, шуңа күрә кайберләре ачылмаска мөмкин</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Deviceайланма җитештерүче барлык кушымталар өчен киң линза камерасы белән тәэмин итә алмый</string>
+    <string name="prefs_change_units_by_tap_on_main_screen">Төп экранда тизлек кыйммәтенә басып, тизлек берәмлекләрен үзгәртегез.</string>
     <string name="prefs_consent_information_privacy_options">Хосусыйлык вариантлары (Килешү турында мәгълүмат)</string>
     <string name="prefs_continuous_recording">Өзлексез яздыру</string>
     <string name="prefs_continuous_recording_desc">Агымдагы файл билгеләнгән вакытка җиткәч, яңа файл башлый. Әгәр сүндерелгән булса, яздыру чикләнгән вакытта туктала.</string>
@@ -250,10 +266,13 @@
     <string name="prefs_g_sensor_force_very_high">Бик югары</string>
     <string name="prefs_g_sensor_force_very_low">Бик түбән</string>
     <string name="prefs_gps_accuracy_text">Aboveгарыдагы хата белән GPS мәгълүматларын санга сукмагыз</string>
+    <string name="prefs_gps_coordinates_format">GPS координаталары форматы</string>
     <string name="prefs_gps_disabled_gps_and_google_text">GPS һәм Google геолокациясе сүндерелгәндә кисәтүне күрсәтегез</string>
     <string name="prefs_gps_disabled_gps_only_text">GPS сүндерелгән очракта гына кисәтүне күрсәтегез</string>
     <string name="prefs_gps_disabled_no_warning_text">Кисәтү һәм төзәтү төймәсен күрсәтмәгез</string>
     <string name="prefs_gps_disabled_warning_text">GPS кисәтүне сүндерә, төймәгә басыгыз</string>
+    <string name="prefs_gps_format_decimal_degrees">Унлык дәрәҗәләре</string>
+    <string name="prefs_gps_format_degrees_minutes_seconds">Градуслар/Минутлар/Секундлар</string>
     <string name="prefs_info_more_category_text">Мәгълүмат /Күбрәк…</string>
     <string name="prefs_kill_services_sum_text">Сезнең җайланмагызның фон куллануын контрольдә тотучы (яки автоматик рәвештә эшләтеп җибәрүче) көйләүләре бар. Фон куллануын рөхсәт итү яки чикләнгән булса, кушымтаны искәрмәләр исемлегенә өстәү өчен монда басыгыз.</string>
     <string name="prefs_kill_services_text">Фон эшенә рөхсәт</string>
@@ -273,6 +292,7 @@
     <string name="prefs_location_power_saving_to_get_updates_in_background">Фонда урнашу (GPS) яңартуларын алу өчен, энергия саклауны сүндерергә кирәк.</string>
     <string name="prefs_location_provider_method_text">Урын алу ысулы (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS яңарту темплары</string>
+    <string name="prefs_main_camera_changes_to_latest_used_camera_for_shortcut">1 нче яки 2 нче кыска юл өчен төп камера иң соңгы кулланылган камерага үзгәрә.</string>
     <string name="prefs_meters_accuracy_value_text">метр төгәллек</string>
     <string name="prefs_open_source_notices_text">Ачык чыганаклы белдерүләр</string>
     <string name="prefs_optical_zoom_text">Оптик зурайту (зурайту) /Фокаль озынлык</string>
@@ -361,6 +381,10 @@
     <string name="prefs_share_sum_text">Бу кушымтаны дусларыгызга җибәрегез</string>
     <string name="prefs_share_text">Моны бүлешегез</string>
     <string name="prefs_shortcut_launcher_has_been_added">Кыска юл (эшләтеп җибәрүче) өстәлде</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove">Эшкәрткечне алып ташлагыз</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove_desc">Аны тулысынча бетерү өчен, сезгә аны өй экраныннан кул белән бетерергә кирәк булырга мөмкин (басып тотып торыгыз, аннары \"Бетерү\"не сайлагыз), өй эшләтеп җибәрү җайланмасын яңадан эшләтеп җибәрергә яки хәтта телефоныгызны яңадан эшләтеп җибәрергә.</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_sum">Видео яздыруны башлау/туктату өчен гадәттә Барлык кушымталар исемлегендә (кушымта тартмасы) күренә торган аерым классик кушымта эшләтеп җибәрү җайланмасын өсти. Кайбер җайланмаларда һәм Android версияләрендә, мәсәлән, Android 12 яки аннан да түбәнрәк версияле Samsung җайланмаларында, аны телефонның Көчәйтү/Ян төймәсенә ике тапкыр басу гамәленә билгеләргә мөмкин. Ләкин яңарак версияләр моны рөхсәт итми кебек (кимендә Samsung җайланмаларында).</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_title">Кушымта өчен классик эшләтеп җибәрү җайланмасын өстәгез</string>
     <string name="prefs_shortcut_rec_start_launcher_sum">Төп экранны җибәрмичә язуны башлау /туктату</string>
     <string name="prefs_shortcut_rec_start_launcher_title">Кыска юлны өстәгез (эшләтеп җибәрүче)</string>
     <string name="prefs_show_audio_btn_text">Аудио язуны кабызу /сүндерү</string>
@@ -380,6 +404,8 @@
     <string name="prefs_start_stop_toast_message_text">Фон язу вакытында язуны башлап җибәргәндә яки туктатканда хәбәр күрсәтегез</string>
     <string name="prefs_start_stop_voice_sum_text">Башта тавыш, туктау яки язу хатасы</string>
     <string name="prefs_start_stop_voice_text">Тавыш язу статусы</string>
+    <string name="prefs_storage_select_folder_for_photos_hint_msg">Фотолар сакланачак папканы сайлагыз.</string>
+    <string name="prefs_storage_select_folder_for_records_hint_msg">Видео язмалар сакланачак папканы сайлагыз.</string>
     <string name="prefs_subtitles_address_text">Адрес</string>
     <string name="prefs_subtitles_color_text">Субтитр төсен сайлагыз</string>
     <string name="prefs_subtitles_coords_text">Координаталар</string>
@@ -517,6 +543,7 @@
     <string name="recording_file_name_prefix">Видео файл исемнәре өчен префикс</string>
     <string name="recording_start_short_text">Башлау</string>
     <string name="recording_start_text">Язуны башлау</string>
+    <string name="recording_started_after_system_recreation_text">Кушымта система тарафыннан көтелмәгәнчә ябылгач, видео яздыру башланды.</string>
     <string name="recording_started_failed_text">Язуны башлауда хата</string>
     <string name="recording_started_text">Язу башланды</string>
     <string name="recording_started_with_audio_text">Аудио язу белән яңа видео язу башланды</string>
@@ -548,6 +575,7 @@
     <string name="records_pin_lock_top_bar_title">Язулар бикләнә</string>
     <string name="reset">Башлап җибәрү</string>
     <string name="snackbar_dismiss">Яшер</string>
+    <string name="start_copying_files">Файлларны күчерә башлау</string>
     <string name="storage_external_single">MicroSD картасы</string>
     <string name="storage_phone">Телефон хәтере</string>
     <string name="subscription_benefit_all_premium_features">Киләчәк премия үзенчәлекләре</string>
@@ -566,6 +594,7 @@
     <string name="subscription_subscribe_text">Подписать</string>
     <string name="subscription_with_free_trial">Түләүсез сынау белән</string>
     <string name="tap_to_allow_background_recording">Фон видеосын яздыру өчен басыгыз.</string>
+    <string name="the_current_copy_files_operation_will_be_cancelled">Агымдагы файл күчерү операциясе юкка чыгарылачак.</string>
     <string name="timer_auto_start">Таймер</string>
     <string name="timer_auto_start_dlg_type_title">Язуны башлау өчен таймер куегыз</string>
     <string name="timer_auto_start_every_day_text">Көн дә</string>
@@ -600,7 +629,7 @@
     <string name="videos_item_mode_deletion_exit_text">Бетерү режимыннан чыгу</string>
     <string name="videos_locked_folder_text">Саклагыз</string>
     <string name="videos_menu_delete">Бетерү</string>
-    <string name="videos_menu_move_file">Файлны күчерегез</string>
+    <string name="videos_menu_move_file">Файлны күчерү яки күчерү</string>
     <string name="videos_menu_refresh">Яңарту</string>
     <string name="videos_menu_select_all">Барысын да сайлагыз</string>
     <string name="videos_menu_sorting">Сортлау</string>
@@ -613,5 +642,6 @@
     <string name="videos_temporary_folder_text">Вакытлы видеолар</string>
     <string name="videos_toolbar_subtitle">Видео язмалар</string>
     <string name="widget_start_stop_recording_transparent">Язуны башлау /туктату өчен ачык төймә</string>
+    <string name="yes">Әйе</string>
     <string name="zoom_text">зурайту</string>
 </resources>

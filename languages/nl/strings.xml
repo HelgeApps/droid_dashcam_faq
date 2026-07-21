@@ -41,9 +41,14 @@
     <string name="camera_msg_error_non_exposed_error">Kan de geselecteerde camera niet openen. Het gebeurt zo dat niet alle verborgen camera\'s door elke toepassing kunnen worden gebruikt. Veel fabrikanten staan ​​het gebruik ervan alleen toe in hun eigen toepassingen. De standaardcamera wordt geopend.</string>
     <string name="camera_msg_error_unknown_text">De camera kan (tijdelijk) niet worden geopend op uw apparaat (camerasysteemfout)</string>
     <string name="camera_support_error">Er is een fout opgetreden tijdens het gebruik van de camera.</string>
+    <string name="cancel_copying_files">Bestanden kopiëren annuleren?</string>
     <string name="close">Dichtbij</string>
+    <string name="copy_files">Kopieer bestanden</string>
+    <string name="copy_selected_files_to_the_selected_folder">Kopieer de geselecteerde bestanden naar de geselecteerde map.</string>
+    <string name="copying_files">Bestanden kopiëren</string>
     <string name="days">dagen</string>
     <string name="default_text">Standaard</string>
+    <string name="delete_original_files_after_copying">Verwijder de originele bestanden na het kopiëren.</string>
     <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">Meer gedetailleerde instructies voor het uitschakelen van batterijoptimalisatie en het toestaan van achtergrondactiviteit voor de app:</string>
     <string name="dialog_camera_not_found_msg_text">Dit apparaat heeft geen ingebouwde camera en ondersteunt geen externe camera\'s. Sluitend…</string>
     <string name="dialog_camera_not_found_text">Camera niet gevonden</string>
@@ -70,6 +75,7 @@
     <string name="donation_subs_one_text">Advertenties worden volledig verwijderd zolang het abonnement actief is.</string>
     <string name="donation_subs_text">Doneer maandelijks</string>
     <string name="donation_subscriptions_can_be_cancelled_any_time_text">Het abonnement kan op elk moment worden opgezegd (de knop “Abonnement opzeggen” zal beschikbaar zijn, u kunt dit ook opzeggen in de Google Play-applicatie)</string>
+    <string name="finished_copying_files">Bestanden kopiëren voltooid.</string>
     <string name="format_altitude">Hoogte</string>
     <string name="format_degrees">Coördinaten</string>
     <string name="format_gb">Gigabyte</string>
@@ -96,6 +102,7 @@
     <string name="moto_api34_disable_limit_background_activity_all">U kunt er ook voor kiezen om \'Achtergrondactiviteit beperken\' uit te schakelen (met de schakelaar) om alle apps op de achtergrond te laten draaien.</string>
     <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">Open het scherm \'App-info\', selecteer \'App-batterijgebruik\' en schakel \'Achtergrondgebruik toestaan\' in (dit is meestal standaard ingeschakeld).</string>
     <string name="moto_disable_manage_background_apps">Open \'Systeeminstellingen\', selecteer \'Batterij\', selecteer vervolgens \'Achtergrondapps beheren\' (indien beschikbaar) en schakel de optie \'Achtergrondapps beheren gebruiken\' uit. Deze optie kan ook \'Batterijverbruik verbeteren wanneer de app niet actief is\' heten.</string>
+    <string name="moving_files">Bestanden verplaatsen</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">De toepassing is niet uitgesloten van batterijoptimalisatie. Als de camera niet op de achtergrond draait of iets anders, voeg deze applicatie dan toe aan de uitzonderingen van de energiebesparende modus.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Als je de applicatie opnieuw hebt geïnstalleerd op Android 11, dan moeten de oude bestanden handmatig worden verwijderd</string>
     <string name="msg_auto_recording_service_was_stopped">Je hebt de achtergrondservice gestopt voor het automatisch starten van de video-opname. Open de applicatie om deze opnieuw te starten.</string>
@@ -141,6 +148,7 @@
     <string name="msg_video_rec_battery_not_enough_text">Er is onvoldoende batterijvermogen om volgens de huidige regels met opnemen te beginnen.</string>
     <string name="msg_video_recorder_error">Er is iets misgegaan met de videorecorder.</string>
     <string name="msg_voice_tts_lang_data_missing_text">Het taalpakket voor TTS (Android Text-to-Speech) is niet geïnstalleerd. Schakel internet in om te beginnen met downloaden</string>
+    <string name="no">Nee</string>
     <string name="notification_could_not_start_recording_service">Opnameservice kan niet worden gestart. Tik om batterijoptimalisatie voor deze app uit te schakelen</string>
     <string name="notification_service_aux_checker">audio-aansluiting (Aux)</string>
     <string name="notification_service_bl_checker">Bluetooth</string>
@@ -149,7 +157,7 @@
     <string name="notification_service_recreated_thermal_critical_msg">De video-opname werd niet automatisch hervat omdat het apparaat een kritieke thermische status of hoger meldde. U kunt dit gedrag wijzigen via \"App → Instellingen → Opname-instellingen\" (tik op deze melding om de instellingen te openen).</string>
     <string name="notification_service_recreated_thermal_severe_msg">De video-opname werd niet automatisch hervat omdat het apparaat een ernstige thermische status of hoger meldde. U kunt dit gedrag wijzigen via \"App → Instellingen → Opname-instellingen\" (tik op deze melding om de instellingen te openen).</string>
     <string name="notification_service_recreated_time_limit_msg">De video-opname werd niet automatisch hervat omdat de app opnieuw werd opgestart na de ingestelde tijdslimiet voor automatisch hervatten. U kunt deze limiet verhogen via \"App → Instellingen → Opname-instellingen\" (tik op deze melding om de instellingen te openen).\n\n</string>
-    <string name="notification_service_recreated_title">Het systeem heeft de app onverwacht opnieuw opgestart.</string>
+    <string name="notification_service_recreated_title">Het systeem heeft de app onverwacht afgesloten.</string>
     <string name="notification_stop_text">Stoppen</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Voor automatisch aan/uit opnemen</string>
     <string name="one_time_payment">Eenmalige betaling</string>
@@ -225,10 +233,18 @@
     <string name="prefs_beep_each_start_recording_sum_text">Signaal aan het begin van de opname van het volgende videobestand</string>
     <string name="prefs_beep_each_start_recording_text">Piep tijdens opnemen</string>
     <string name="prefs_camera_blurry">Wazig</string>
+    <string name="prefs_camera_for_the_shortcut">Camera voor de snelkoppeling</string>
     <string name="prefs_camera_lens_distance_focus_default_hint">Stel de waarde terug naar de standaardwaarde als de afbeelding wazig lijkt.</string>
     <string name="prefs_camera_lens_distance_focus_title">Instelling van de scherpstelafstand van de lens voor het bereiken van oneindige scherpstelling.</string>
+    <string name="prefs_camera_main">De hoofdcamera (of de laatst gebruikte)</string>
+    <string name="prefs_camera_settings_for_the_shortcuts">Camera-instellingen voor de snelkoppelingen</string>
+    <string name="prefs_camera_shortcut_first_start_stop_rec_text">Camerasneltoets #1</string>
+    <string name="prefs_camera_shortcut_sec_start_stop_rec_text">Camerasneltoets #2</string>
+    <string name="prefs_camera_shortcuts_desc">App-snelkoppelingen, widgets en tegels voor snelle instellingen.</string>
+    <string name="prefs_camera_shortcuts_settings_tip">Controleer de \"Camera-instellingen voor de snelkoppelingen\" onder \"Video-instellingen\" om de camera te selecteren die u wilt gebruiken voor Snelkoppeling #1 of Snelkoppeling #2.</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">De fabrikant van het apparaat biedt mogelijk geen toegang tot alle camera\'s, dus sommige kunnen niet worden geopend</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">De fabrikant van het apparaat levert mogelijk niet voor alle toepassingen een camera met brede lens</string>
+    <string name="prefs_change_units_by_tap_on_main_screen">Wijzig de snelheidseenheden door op de snelheidswaarde op het hoofdscherm te tikken.</string>
     <string name="prefs_consent_information_privacy_options">Privacyopties (Toestemmingsinformatie)</string>
     <string name="prefs_continuous_recording">Continue opname</string>
     <string name="prefs_continuous_recording_desc">Start een nieuw bestand wanneer het huidige bestand de ingestelde duur bereikt. Indien uitgeschakeld, stopt de opname bij de ingestelde limiet.</string>
@@ -250,10 +266,13 @@
     <string name="prefs_g_sensor_force_very_high">Heel hoog</string>
     <string name="prefs_g_sensor_force_very_low">Heel laag</string>
     <string name="prefs_gps_accuracy_text">Negeer GPS-gegevens met fout hierboven</string>
+    <string name="prefs_gps_coordinates_format">GPS-coördinatenformaat</string>
     <string name="prefs_gps_disabled_gps_and_google_text">Waarschuwing weergeven wanneer GPS en Google-geolocatie zijn uitgeschakeld</string>
     <string name="prefs_gps_disabled_gps_only_text">Waarschuwing alleen weergeven als GPS is uitgeschakeld</string>
     <string name="prefs_gps_disabled_no_warning_text">Waarschuwings- en herstelknop niet weergeven</string>
     <string name="prefs_gps_disabled_warning_text">GPS uitgeschakeld waarschuwing, fix-knop</string>
+    <string name="prefs_gps_format_decimal_degrees">Decimale graden</string>
+    <string name="prefs_gps_format_degrees_minutes_seconds">Graden/Minuten/Seconden</string>
     <string name="prefs_info_more_category_text">Informatie /Meer…</string>
     <string name="prefs_kill_services_sum_text">Je apparaat heeft instellingen waarmee je het gebruik op de achtergrond (of het automatisch opstarten) kunt regelen. Tik hier om het gebruik op de achtergrond toe te staan of voeg de app toe aan de uitzonderingslijst als dit is beperkt.</string>
     <string name="prefs_kill_services_text">Achtergrondwerk toestaan</string>
@@ -273,6 +292,7 @@
     <string name="prefs_location_power_saving_to_get_updates_in_background">Energiebesparing moet worden uitgeschakeld om locatie-updates (GPS) op de achtergrond te kunnen ontvangen.</string>
     <string name="prefs_location_provider_method_text">Locatie acquisitie methode (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS-updatesnelheid</string>
+    <string name="prefs_main_camera_changes_to_latest_used_camera_for_shortcut">De hoofdcamera schakelt automatisch over naar de laatst gebruikte camera voor Snelkoppeling #1 of Snelkoppeling #2.</string>
     <string name="prefs_meters_accuracy_value_text">meter nauwkeurigheid</string>
     <string name="prefs_open_source_notices_text">Open source-meldingen</string>
     <string name="prefs_optical_zoom_text">Optische zoom (zoom) /brandpuntsafstand</string>
@@ -361,6 +381,10 @@
     <string name="prefs_share_sum_text">Stuur deze app naar je vrienden</string>
     <string name="prefs_share_text">Deel dit</string>
     <string name="prefs_shortcut_launcher_has_been_added">Snelkoppeling (launcher) is toegevoegd</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove">Verwijder de launcher</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove_desc">Om het volledig te verwijderen, moet je het mogelijk handmatig van je startscherm verwijderen (houd het ingedrukt en selecteer vervolgens \'Verwijderen\'), de startschermlauncher opnieuw opstarten of zelfs je telefoon opnieuw opstarten.</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_sum">Voegt een aparte, klassieke app-launcher toe die normaal gesproken zichtbaar is in de lijst \'Alle apps\' (app-lade) om video-opnames te starten/stoppen. Op sommige apparaten en Android-versies kan deze worden toegewezen aan de actie \'dubbel indrukken van de aan/uit-knop\' of \'zijknop\' van de telefoon, bijvoorbeeld op Samsung-apparaten met Android 12 of lager. Nieuwere versies lijken dit echter niet meer toe te staan (althans niet op Samsung-apparaten).</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_title">Voeg een klassieke launcher toe voor de app.</string>
     <string name="prefs_shortcut_rec_start_launcher_sum">Om de opname te starten/stoppen zonder het hoofdscherm te starten</string>
     <string name="prefs_shortcut_rec_start_launcher_title">Snelkoppeling toevoegen (launcher)</string>
     <string name="prefs_show_audio_btn_text">Aan/uit audio-opname</string>
@@ -380,6 +404,8 @@
     <string name="prefs_start_stop_toast_message_text">Geef een bericht weer bij het starten of stoppen van de opname tijdens een achtergrondopname</string>
     <string name="prefs_start_stop_voice_sum_text">Geluid bij start, stop of opnamefout</string>
     <string name="prefs_start_stop_voice_text">Geluidsopnamestatus</string>
+    <string name="prefs_storage_select_folder_for_photos_hint_msg">Selecteer een map waarin de foto\'s worden opgeslagen.</string>
+    <string name="prefs_storage_select_folder_for_records_hint_msg">Selecteer een map waarin de video-opnames worden opgeslagen.</string>
     <string name="prefs_subtitles_address_text">Het adres</string>
     <string name="prefs_subtitles_color_text">Selecteer ondertitelkleur</string>
     <string name="prefs_subtitles_coords_text">Coördinaten</string>
@@ -517,6 +543,7 @@
     <string name="recording_file_name_prefix">Voorvoegsel voor videobestandsnamen</string>
     <string name="recording_start_short_text">Begin</string>
     <string name="recording_start_text">Start met opnemen</string>
+    <string name="recording_started_after_system_recreation_text">De video-opname is gestart nadat de applicatie onverwacht door het systeem was afgesloten.</string>
     <string name="recording_started_failed_text">Fout bij starten van opname</string>
     <string name="recording_started_text">Opname is begonnen</string>
     <string name="recording_started_with_audio_text">Een nieuwe video-opname met audio-opname is begonnen</string>
@@ -548,6 +575,7 @@
     <string name="records_pin_lock_top_bar_title">Opnames vergrendelen</string>
     <string name="reset">Reset</string>
     <string name="snackbar_dismiss">Verbergen</string>
+    <string name="start_copying_files">Begin met het kopiëren van bestanden.</string>
     <string name="storage_external_single">Micro SD kaart</string>
     <string name="storage_phone">Telefoon geheugen</string>
     <string name="subscription_benefit_all_premium_features">Toekomstige premiumfuncties</string>
@@ -566,6 +594,7 @@
     <string name="subscription_subscribe_text">Abonneren</string>
     <string name="subscription_with_free_trial">Met gratis proefperiode</string>
     <string name="tap_to_allow_background_recording">Tik om achtergrondvideo-opname toe te staan.</string>
+    <string name="the_current_copy_files_operation_will_be_cancelled">De huidige bewerking voor het kopiëren van bestanden wordt geannuleerd.</string>
     <string name="timer_auto_start">Timer</string>
     <string name="timer_auto_start_dlg_type_title">Stel een timer in om de opname te starten</string>
     <string name="timer_auto_start_every_day_text">Elke dag</string>
@@ -600,7 +629,7 @@
     <string name="videos_item_mode_deletion_exit_text">Verlaat de verwijdermodus</string>
     <string name="videos_locked_folder_text">Beveiligd tegen overschrijven</string>
     <string name="videos_menu_delete">Verwijderen</string>
-    <string name="videos_menu_move_file">Bestand verplaatsen</string>
+    <string name="videos_menu_move_file">Verplaats of kopieer een bestand</string>
     <string name="videos_menu_refresh">Vernieuwen</string>
     <string name="videos_menu_select_all">Kies ze allemaal</string>
     <string name="videos_menu_sorting">Sorteren</string>
@@ -613,5 +642,6 @@
     <string name="videos_temporary_folder_text">Getimede video\'s</string>
     <string name="videos_toolbar_subtitle">Video-opnames</string>
     <string name="widget_start_stop_recording_transparent">Transparante knop om opname te starten/stoppen</string>
+    <string name="yes">Ja</string>
     <string name="zoom_text">zoom</string>
 </resources>

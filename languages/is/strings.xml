@@ -41,9 +41,14 @@
     <string name="camera_msg_error_non_exposed_error">Mistókst að opna valda myndavél. Það vill svo til að ekki er hægt að nota allar faldar myndavélar af hvaða forriti sem er. Margir framleiðendur leyfa aðeins notkun þeirra í eigin forritum. Sjálfgefin myndavél opnast.</string>
     <string name="camera_msg_error_unknown_text">Það er tímabundið (var) ekki hægt að opna myndavélina í tækinu þínu (kerfisvilla í myndavél)</string>
     <string name="camera_support_error">Villa kom upp við notkun myndavélarinnar.</string>
+    <string name="cancel_copying_files">Hætta við að afrita skrár?</string>
     <string name="close">Loka</string>
+    <string name="copy_files">Afrita skrár</string>
+    <string name="copy_selected_files_to_the_selected_folder">Afrita valdar skrár í valda möppu.</string>
+    <string name="copying_files">Að afrita skrár</string>
     <string name="days">daga</string>
     <string name="default_text">Sjálfgefið</string>
+    <string name="delete_original_files_after_copying">Eyða upprunalegum skrám eftir afritun</string>
     <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">Ítarlegri leiðbeiningar um að slökkva á rafhlöðunýtingu og leyfa bakgrunnsvirkni fyrir forritið:</string>
     <string name="dialog_camera_not_found_msg_text">Þetta tæki er ekki með innbyggða myndavél og styður ekki ytri myndavélar. Lokar…</string>
     <string name="dialog_camera_not_found_text">Myndavél fannst ekki</string>
@@ -70,6 +75,7 @@
     <string name="donation_subs_one_text">Auglýsingar eru alveg fjarlægðar á meðan áskriftin er virk.</string>
     <string name="donation_subs_text">Gefðu mánaðarlega</string>
     <string name="donation_subscriptions_can_be_cancelled_any_time_text">Hægt er að segja upp áskriftinni hvenær sem er (hnappurinn „hætta áskrift“ verður tiltækur, þú getur líka sagt henni upp í Google Play forritinu)</string>
+    <string name="finished_copying_files">Lokið við að afrita skrár.</string>
     <string name="format_altitude">Hæð</string>
     <string name="format_degrees">Hnit</string>
     <string name="format_gb">Gígabæti</string>
@@ -96,6 +102,7 @@
     <string name="moto_api34_disable_limit_background_activity_all">Einnig er hægt að slökkva á „Takmarka bakgrunnsvirkni“ (með því að nota rofann) til að leyfa öllum forritum að keyra í bakgrunni.</string>
     <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">Opnaðu skjáinn „Upplýsingar um forrit“, veldu „Notkun rafhlöðu forrits“ og virkjaðu „Leyfa notkun í bakgrunni“ (það er venjulega virkt sjálfgefið).</string>
     <string name="moto_disable_manage_background_apps">Opnaðu „Kerfisstillingar“, veldu „Rafhlaða“ og veldu síðan „Stjórna bakgrunnsforritum“ (ef það er í boði) og slökktu á valkostinum „Nota stjórna bakgrunnsforritum“. Valkosturinn gæti einnig heitið „Bæta rafhlöðunotkun við óvirkni“.</string>
+    <string name="moving_files">Að flytja skrár</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Forritið er ekki útilokað frá hagræðingu rafhlöðunnar. Ef myndavélin er ekki í gangi í bakgrunni eða eitthvað annað skaltu bæta þessu forriti við undantekningarnar á orkusparnaðarstillingunni.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Ef þú settir forritið upp aftur á Android 11 verður að eyða gömlum skrám handvirkt</string>
     <string name="msg_auto_recording_service_was_stopped">Þú hefur stöðvað bakgrunnsþjónustuna til að hefja myndbandsupptöku sjálfkrafa. Opnaðu forritið til að ræsa það aftur.</string>
@@ -141,6 +148,7 @@
     <string name="msg_video_rec_battery_not_enough_text">Rafhlaðan er ekki næg til að hefja upptöku samkvæmt núgildandi reglum.</string>
     <string name="msg_video_recorder_error">Eitthvað fór úrskeiðis í myndbandstækinu.</string>
     <string name="msg_voice_tts_lang_data_missing_text">Tungumálapakkinn fyrir TTS (Android Text-to-Speech) er ekki uppsettur. Kveiktu á internetinu til að hefja niðurhal</string>
+    <string name="no">Nei</string>
     <string name="notification_could_not_start_recording_service">Ekki tókst að ræsa upptökuþjónustu. Ýttu til að slökkva á rafhlöðu fínstillingu fyrir þetta forrit</string>
     <string name="notification_service_aux_checker">hljóðtengi (Aux)</string>
     <string name="notification_service_bl_checker">blátönn</string>
@@ -149,7 +157,7 @@
     <string name="notification_service_recreated_thermal_critical_msg">Myndbandsupptaka hófst ekki sjálfkrafa vegna þess að tækið tilkynnti um alvarlegt hitastig eða hærra. Þú getur breytt þessari hegðun í „Forrit → Stillingar → Upptökustillingar“ (ýttu á þessa tilkynningu til að opna stillingarnar).</string>
     <string name="notification_service_recreated_thermal_severe_msg">Myndbandsupptaka hófst ekki sjálfkrafa vegna þess að tækið tilkynnti um alvarlegan hita eða hærri. Þú getur breytt þessari hegðun í „Forrit → Stillingar → Upptökustillingar“ (ýttu á þessa tilkynningu til að opna stillingarnar).</string>
     <string name="notification_service_recreated_time_limit_msg">Myndbandsupptaka hófst ekki sjálfkrafa þar sem endurræsing forritsins átti sér stað eftir að stilltur tímamörk fyrir sjálfvirka endurræsingu voru liðin. Þú getur aukið þessi mörk í „Forrit → Stillingar → Upptökustillingar“ (ýttu á þessa tilkynningu til að opna stillingarnar).</string>
-    <string name="notification_service_recreated_title">Kerfið endurræsti óvænt forritið.</string>
+    <string name="notification_service_recreated_title">Kerfið lokaði óvænt forritinu.</string>
     <string name="notification_stop_text">Hættu</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Fyrir sjálfvirka kveikt/slökkva upptöku</string>
     <string name="one_time_payment">Eingreiðsla</string>
@@ -225,10 +233,18 @@
     <string name="prefs_beep_each_start_recording_sum_text">Merki í upphafi upptöku á næstu myndbandsskrá</string>
     <string name="prefs_beep_each_start_recording_text">Píp við upptöku</string>
     <string name="prefs_camera_blurry">Óskýrt</string>
+    <string name="prefs_camera_for_the_shortcut">Myndavél fyrir flýtileiðina</string>
     <string name="prefs_camera_lens_distance_focus_default_hint">Endurstilla á sjálfgefið gildi ef myndin virðist óskýr</string>
     <string name="prefs_camera_lens_distance_focus_title">Stilling á fókusfjarlægð linsu til að ná óendanlegri fókusun</string>
+    <string name="prefs_camera_main">Aðalmyndavélin (eða sú sem síðast var notuð)</string>
+    <string name="prefs_camera_settings_for_the_shortcuts">Myndavélarstillingar fyrir flýtileiðir</string>
+    <string name="prefs_camera_shortcut_first_start_stop_rec_text">Flýtileið fyrir myndavél #1</string>
+    <string name="prefs_camera_shortcut_sec_start_stop_rec_text">Flýtileið fyrir myndavél #2</string>
+    <string name="prefs_camera_shortcuts_desc">Flýtileiðir, viðbætur og flýtistillingarflísar fyrir forritaræsiforrit.</string>
+    <string name="prefs_camera_shortcuts_settings_tip">Hakaðu við „Myndavélarstillingar fyrir flýtileiðir“ undir „Myndbandsstillingar“ til að velja myndavélina sem þú vilt nota fyrir flýtileið #1 eða flýtileið #2.</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Framleiðandi tækisins veitir kannski ekki aðgang að öllum myndavélum, þannig að sumar opnast ekki</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Framleiðandi tækisins gæti ekki útvegað breiðlinsumyndavél fyrir öll forrit</string>
+    <string name="prefs_change_units_by_tap_on_main_screen">Skiptu um hraðaeiningar með því að smella á hraðagildið á aðalskjánum.</string>
     <string name="prefs_consent_information_privacy_options">Persónuverndarvalkostir (upplýsingar um samþykki)</string>
     <string name="prefs_continuous_recording">Stöðug upptaka</string>
     <string name="prefs_continuous_recording_desc">Byrjar nýja skrá þegar núverandi skrá nær tilgreindum tíma. Ef slökkt er á henni stöðvast upptakan við þann tíma.</string>
@@ -250,10 +266,13 @@
     <string name="prefs_g_sensor_force_very_high">Mjög hátt</string>
     <string name="prefs_g_sensor_force_very_low">Mjög lágt</string>
     <string name="prefs_gps_accuracy_text">Hunsa GPS gögn með villunni hér að ofan</string>
+    <string name="prefs_gps_coordinates_format">GPS hnita snið</string>
     <string name="prefs_gps_disabled_gps_and_google_text">Sýna viðvörun þegar GPS og Google landfræðileg staðsetning eru óvirk</string>
     <string name="prefs_gps_disabled_gps_only_text">Sýna aðeins viðvörun ef GPS er óvirkt</string>
     <string name="prefs_gps_disabled_no_warning_text">Ekki sýna viðvörun og laga hnapp</string>
     <string name="prefs_gps_disabled_warning_text">GPS óvirk viðvörun, lagahnappur</string>
+    <string name="prefs_gps_format_decimal_degrees">Tugabrot gráður</string>
+    <string name="prefs_gps_format_degrees_minutes_seconds">Gráður/Mínútur/Sekúndur</string>
     <string name="prefs_info_more_category_text">Upplýsingar /Meira…</string>
     <string name="prefs_kill_services_sum_text">Tækið þitt hefur stillingar sem stjórna notkun í bakgrunni (eða sjálfvirkri ræsingu). Ýttu hér til að leyfa notkun í bakgrunni eða bæta forritinu við undantekningarlistann ef það er takmarkað.</string>
     <string name="prefs_kill_services_text">Leyfa bakgrunnsvinnu</string>
@@ -273,6 +292,7 @@
     <string name="prefs_location_power_saving_to_get_updates_in_background">Slökkt ætti á orkusparnaði til að hægt sé að fá staðsetningaruppfærslur (GPS) í bakgrunni.</string>
     <string name="prefs_location_provider_method_text">Staðsetningaröflunaraðferð (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS uppfærsluhraði</string>
+    <string name="prefs_main_camera_changes_to_latest_used_camera_for_shortcut">Aðalmyndavélin skiptir yfir í nýjustu myndavélina sem notuð var fyrir flýtileið #1 eða flýtileið #2.</string>
     <string name="prefs_meters_accuracy_value_text">metra af nákvæmni</string>
     <string name="prefs_open_source_notices_text">Tilkynningar um opinn hugbúnað</string>
     <string name="prefs_optical_zoom_text">Optískur aðdráttur (aðdráttur) /brennivídd</string>
@@ -361,6 +381,10 @@
     <string name="prefs_share_sum_text">Sendu þetta forrit til vina þinna</string>
     <string name="prefs_share_text">Deildu þessu</string>
     <string name="prefs_shortcut_launcher_has_been_added">Flýtileið (ræsiforriti) hefur verið bætt við</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove">Fjarlægðu ræsiforritið</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove_desc">Til að fjarlægja það alveg gætirðu þurft að fjarlægja það handvirkt af heimaskjánum (snertu það og haltu því inni og veldu síðan „Fjarlægja“), endurræsa heimaskjáinn eða jafnvel endurræsa símann.</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_sum">Bætir við sérstökum klassískum forritaræsiforriti sem er venjulega sýnilegur í listanum yfir öll forrit (forritaskúffu) til að hefja/stöðva myndbandsupptöku. Í sumum tækjum og Android útgáfum er hægt að tengja það við tvísmell á rofann/hliðarhnappinn í símanum, til dæmis í Samsung tækjum sem keyra Android 12 eða eldri. Nýrri útgáfur virðast þó ekki lengur leyfa þetta (að minnsta kosti ekki í Samsung tækjum).</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_title">Bæta við klassískum ræsiforriti fyrir forritið</string>
     <string name="prefs_shortcut_rec_start_launcher_sum">Til að hefja/stöðva upptöku án þess að ræsa aðalskjáinn</string>
     <string name="prefs_shortcut_rec_start_launcher_title">Bæta við flýtileið (ræsiforriti)</string>
     <string name="prefs_show_audio_btn_text">Kveikja/slökkva á hljóðupptöku</string>
@@ -380,6 +404,8 @@
     <string name="prefs_start_stop_toast_message_text">Birtu skilaboð þegar þú byrjar eða stöðvar upptöku meðan á bakgrunnsupptöku stendur</string>
     <string name="prefs_start_stop_voice_sum_text">Hljóð við upphaf, stöðvun eða upptökuvillu</string>
     <string name="prefs_start_stop_voice_text">Staða hljóðupptöku</string>
+    <string name="prefs_storage_select_folder_for_photos_hint_msg">Veldu möppu þar sem myndirnar verða vistaðar.</string>
+    <string name="prefs_storage_select_folder_for_records_hint_msg">Veldu möppu þar sem myndbandsupptökur verða vistaðar.</string>
     <string name="prefs_subtitles_address_text">Heimilisfangið</string>
     <string name="prefs_subtitles_color_text">Veldu textalit</string>
     <string name="prefs_subtitles_coords_text">Hnit</string>
@@ -517,6 +543,7 @@
     <string name="recording_file_name_prefix">Forskeyti fyrir nöfn myndbandsskráa</string>
     <string name="recording_start_short_text">Byrjaðu</string>
     <string name="recording_start_text">Byrjaðu að taka upp</string>
+    <string name="recording_started_after_system_recreation_text">Myndbandsupptaka hefst eftir að kerfið lokaði forritinu óvænt.</string>
     <string name="recording_started_failed_text">Villa við að hefja upptöku</string>
     <string name="recording_started_text">Upptaka er hafin</string>
     <string name="recording_started_with_audio_text">Ný myndbandsupptaka með hljóðupptöku er hafin</string>
@@ -548,6 +575,7 @@
     <string name="records_pin_lock_top_bar_title">Upptökulæsing</string>
     <string name="reset">Endurstilla</string>
     <string name="snackbar_dismiss">Fela</string>
+    <string name="start_copying_files">Byrjaðu að afrita skrár</string>
     <string name="storage_external_single">MicroSD kort</string>
     <string name="storage_phone">Minni símans</string>
     <string name="subscription_benefit_all_premium_features">Allir framtíðar aukagjaldseiginleikar</string>
@@ -566,6 +594,7 @@
     <string name="subscription_subscribe_text">Gerast áskrifandi</string>
     <string name="subscription_with_free_trial">Með ókeypis prufuáskrift</string>
     <string name="tap_to_allow_background_recording">Ýttu til að leyfa upptöku myndbands í bakgrunni.</string>
+    <string name="the_current_copy_files_operation_will_be_cancelled">Núverandi afritunaraðgerð skráa verður hætt.</string>
     <string name="timer_auto_start">Tímamælir</string>
     <string name="timer_auto_start_dlg_type_title">Stilltu tímamæli til að hefja upptöku</string>
     <string name="timer_auto_start_every_day_text">Daglega</string>
@@ -600,7 +629,7 @@
     <string name="videos_item_mode_deletion_exit_text">Hætta í eyðingarham</string>
     <string name="videos_locked_folder_text">Yfirskrifa varið</string>
     <string name="videos_menu_delete">Eyða</string>
-    <string name="videos_menu_move_file">Færa skrá</string>
+    <string name="videos_menu_move_file">Færa eða afrita skrá</string>
     <string name="videos_menu_refresh">Endurnýja</string>
     <string name="videos_menu_select_all">Veldu allt</string>
     <string name="videos_menu_sorting">Flokkun</string>
@@ -613,5 +642,6 @@
     <string name="videos_temporary_folder_text">Tímasett myndbönd</string>
     <string name="videos_toolbar_subtitle">Myndbandsupptökur</string>
     <string name="widget_start_stop_recording_transparent">Glær hnappur til að hefja/stöðva upptöku</string>
+    <string name="yes">Já</string>
     <string name="zoom_text">aðdráttur</string>
 </resources>

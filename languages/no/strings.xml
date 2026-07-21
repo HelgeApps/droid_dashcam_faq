@@ -41,9 +41,14 @@
     <string name="camera_msg_error_non_exposed_error">Kunne ikke åpne det valgte kameraet. Det har seg slik at ikke alle skjulte kameraer kan brukes av noen applikasjoner. Mange produsenter tillater kun bruk i deres opprinnelige applikasjoner. Standardkameraet åpnes.</string>
     <string name="camera_msg_error_unknown_text">Kameraet er midlertidig (var) utilgjengelig for åpning på enheten din (kamerasystemfeil)</string>
     <string name="camera_support_error">Det har oppstått en feil under bruk av kameraet.</string>
+    <string name="cancel_copying_files">Avbryt kopiering av filer?</string>
     <string name="close">Lukk</string>
+    <string name="copy_files">Kopier filer</string>
+    <string name="copy_selected_files_to_the_selected_folder">Kopier valgte filer til den valgte mappen.</string>
+    <string name="copying_files">Kopiering av filer</string>
     <string name="days">dager</string>
     <string name="default_text">Misligholde</string>
+    <string name="delete_original_files_after_copying">Slett originalfiler etter kopiering</string>
     <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">Mer detaljerte instruksjoner for å deaktivere batterioptimalisering og tillate bakgrunnsaktivitet for appen:</string>
     <string name="dialog_camera_not_found_msg_text">Denne enheten har ikke et innebygd kamera og støtter ikke eksterne kameraer. Lukking…</string>
     <string name="dialog_camera_not_found_text">Kameraet ble ikke funnet</string>
@@ -70,6 +75,7 @@
     <string name="donation_subs_one_text">Annonsering fjernes helt mens abonnementet er aktivt.</string>
     <string name="donation_subs_text">Doner månedlig</string>
     <string name="donation_subscriptions_can_be_cancelled_any_time_text">Abonnementet kan kanselleres når som helst («avbryt abonnement»-knappen vil være tilgjengelig, du kan også kansellere det i Google Play-appen)</string>
+    <string name="finished_copying_files">Ferdig med å kopiere filer.</string>
     <string name="format_altitude">Høyde</string>
     <string name="format_degrees">Koordinater</string>
     <string name="format_gb">Gigabyte</string>
@@ -96,6 +102,7 @@
     <string name="moto_api34_disable_limit_background_activity_all">Alternativt kan du deaktivere «Begrens bakgrunnsaktivitet» (ved å bruke veksleknappen) for å tillate at alle apper kjører i bakgrunnen.</string>
     <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">Åpne skjermbildet «Appinfo», velg «Appbatteribruk» og aktiver «Tillat bakgrunnsbruk» (vanligvis aktivert som standard).</string>
     <string name="moto_disable_manage_background_apps">Åpne «Systeminnstillinger», velg «Batteri», velg deretter «Administrer bakgrunnsapper» (hvis tilgjengelig) og deaktiver alternativet «Bruk Administrer bakgrunnsapper». Alternativet kan også hete «Forbedre batterilevetid ved inaktivitet».</string>
+    <string name="moving_files">Flytte filer</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Applikasjonen er ikke ekskludert fra batterioptimalisering. Hvis kameraet ikke kjører i bakgrunnen eller noe annet, så legg til denne applikasjonen til unntakene for strømsparingsmodus.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Hvis du reinstallerte applikasjonen på Android 11, må de gamle filene slettes manuelt</string>
     <string name="msg_auto_recording_service_was_stopped">Du har stoppet bakgrunnstjenesten for automatisk å starte videoopptak. Åpne programmet for å starte det igjen.</string>
@@ -141,6 +148,7 @@
     <string name="msg_video_rec_battery_not_enough_text">Det er ikke nok batteristrøm til å starte opptaket under gjeldende regler.</string>
     <string name="msg_video_recorder_error">Noe gikk galt med videoopptakeren.</string>
     <string name="msg_voice_tts_lang_data_missing_text">Språkpakken for TTS (Android Text-to-Speech) er ikke installert. Slå på Internett for å starte nedlastingen</string>
+    <string name="no">Ingen</string>
     <string name="notification_could_not_start_recording_service">Opptakstjenesten kunne ikke starte. Trykk for å deaktivere batterioptimalisering for denne appen</string>
     <string name="notification_service_aux_checker">lydkontakt (Aux)</string>
     <string name="notification_service_bl_checker">blåtann</string>
@@ -149,7 +157,7 @@
     <string name="notification_service_recreated_thermal_critical_msg">Videoopptak ble ikke gjenopptatt automatisk fordi enheten rapporterte en kritisk temperaturstatus eller høyere. Du kan endre denne oppførselen under «App → Innstillinger → Opptaksinnstillinger» (trykk på dette varselet for å åpne innstillingene).</string>
     <string name="notification_service_recreated_thermal_severe_msg">Videoopptak ble ikke gjenopptatt automatisk fordi enheten rapporterte en alvorlig temperaturtilstand eller høyere. Du kan endre denne oppførselen under «App → Innstillinger → Opptaksinnstillinger» (trykk på dette varselet for å åpne innstillingene).</string>
     <string name="notification_service_recreated_time_limit_msg">Videoopptak ble ikke gjenopptatt automatisk fordi appen startet på nytt etter den konfigurerte tidsgrensen for automatisk gjenopptak. Du kan øke denne grensen under «App → Innstillinger → Opptaksinnstillinger» (trykk på dette varselet for å åpne innstillingene).</string>
-    <string name="notification_service_recreated_title">Systemet startet appen uventet på nytt.</string>
+    <string name="notification_service_recreated_title">Systemet lukket appen uventet.</string>
     <string name="notification_stop_text">Stoppe</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">For automatisk på/av-opptak</string>
     <string name="one_time_payment">Engangsbetaling</string>
@@ -225,10 +233,18 @@
     <string name="prefs_beep_each_start_recording_sum_text">Signal ved begynnelsen av opptak av neste videofil</string>
     <string name="prefs_beep_each_start_recording_text">Piper under opptak</string>
     <string name="prefs_camera_blurry">Uskarpt</string>
+    <string name="prefs_camera_for_the_shortcut">Kamera for snarveien</string>
     <string name="prefs_camera_lens_distance_focus_default_hint">Tilbakestill til standardverdien hvis bildet ser uskarpt ut</string>
     <string name="prefs_camera_lens_distance_focus_title">Justering av objektivets fokusavstand for å oppnå uendelig fokus</string>
+    <string name="prefs_camera_main">Hovedkameraet (eller det sist brukte)</string>
+    <string name="prefs_camera_settings_for_the_shortcuts">Kamerainnstillinger for snarveiene</string>
+    <string name="prefs_camera_shortcut_first_start_stop_rec_text">Kamerasnarvei nr. 1</string>
+    <string name="prefs_camera_shortcut_sec_start_stop_rec_text">Kamerasnarvei nr. 2</string>
+    <string name="prefs_camera_shortcuts_desc">Snarveier, widgeter og hurtiginnstillingsfliser i appstarteren.</string>
+    <string name="prefs_camera_shortcuts_settings_tip">Sjekk «Kamerainnstillinger for snarveiene» under «Videoinnstillinger» for å velge kameraet du vil bruke for snarvei nr. 1 eller snarvei nr. 2.</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Enhetsprodusenten gir kanskje ikke tilgang til alle kameraer, så noen kan ikke åpnes</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Enhetsprodusenten tilbyr kanskje ikke et vidobjektivkamera for alle applikasjoner</string>
+    <string name="prefs_change_units_by_tap_on_main_screen">Endre hastighetsenhetene ved å trykke på hastighetsverdien på hovedskjermen.</string>
     <string name="prefs_consent_information_privacy_options">Personvernalternativer (samtykkeinformasjon)</string>
     <string name="prefs_continuous_recording">Kontinuerlig opptak</string>
     <string name="prefs_continuous_recording_desc">Starter en ny fil når den gjeldende når den angitte varigheten. Hvis den er deaktivert, stopper opptaket ved grensen.</string>
@@ -250,10 +266,13 @@
     <string name="prefs_g_sensor_force_very_high">Veldig høy</string>
     <string name="prefs_g_sensor_force_very_low">Veldig lav</string>
     <string name="prefs_gps_accuracy_text">Ignorer GPS-data med feilen ovenfor</string>
+    <string name="prefs_gps_coordinates_format">GPS-koordinatformat</string>
     <string name="prefs_gps_disabled_gps_and_google_text">Vis advarsel når GPS og Google geolokalisering er deaktivert</string>
     <string name="prefs_gps_disabled_gps_only_text">Vis kun advarsel hvis GPS er deaktivert</string>
     <string name="prefs_gps_disabled_no_warning_text">Ikke vis advarsel og fiks-knapp</string>
     <string name="prefs_gps_disabled_warning_text">GPS deaktivert advarsel, fikseknapp</string>
+    <string name="prefs_gps_format_decimal_degrees">Desimalgrader</string>
+    <string name="prefs_gps_format_degrees_minutes_seconds">Grader/minutter/sekunder</string>
     <string name="prefs_info_more_category_text">Informasjon /Mer…</string>
     <string name="prefs_kill_services_sum_text">Enheten din har innstillinger som kontrollerer bakgrunnsbruk (eller automatisk start). Trykk her for å tillate bakgrunnsbruk eller legge til appen i unntakslisten hvis den er begrenset.</string>
     <string name="prefs_kill_services_text">Tillater bakgrunnsarbeid</string>
@@ -273,6 +292,7 @@
     <string name="prefs_location_power_saving_to_get_updates_in_background">Strømsparing bør være slått av for å kunne få plasseringsoppdateringer (GPS) i bakgrunnen.</string>
     <string name="prefs_location_provider_method_text">Stedsinnhentingsmetode (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS-oppdateringshastighet</string>
+    <string name="prefs_main_camera_changes_to_latest_used_camera_for_shortcut">Hovedkameraet endres til det sist brukte kameraet for snarvei nr. 1 eller snarvei nr. 2.</string>
     <string name="prefs_meters_accuracy_value_text">meter med nøyaktighet</string>
     <string name="prefs_open_source_notices_text">Merknader om åpen kildekode</string>
     <string name="prefs_optical_zoom_text">Optisk zoom (Zoom) /Brennvidde</string>
@@ -361,6 +381,10 @@
     <string name="prefs_share_sum_text">Send denne appen til vennene dine</string>
     <string name="prefs_share_text">Dele denne</string>
     <string name="prefs_shortcut_launcher_has_been_added">Snarvei (starter) er lagt til</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove">Fjern startprogrammet</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove_desc">For å fjerne den helt, må du kanskje fjerne den manuelt fra startskjermen (trykk og hold på den, og velg deretter «Fjern»), starte startskjermen på nytt eller til og med starte telefonen på nytt.</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_sum">Legger til en separat klassisk appstarter som vanligvis er synlig i Alle apper-listen (appskuffen) for å starte/stoppe videoopptak. På noen enheter og Android-versjoner kan den tilordnes telefonens dobbelttrykk på av/på-knappen/sideknappen, for eksempel på Samsung-enheter som kjører Android 12 eller eldre. Nyere versjoner ser imidlertid ikke lenger ut til å tillate dette (i hvert fall ikke på Samsung-enheter).</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_title">Legg til klassisk launcher for appen</string>
     <string name="prefs_shortcut_rec_start_launcher_sum">For å starte/stoppe opptaket uten å starte hovedskjermen</string>
     <string name="prefs_shortcut_rec_start_launcher_title">Legg til snarvei (starter)</string>
     <string name="prefs_show_audio_btn_text">På/av lydopptak</string>
@@ -380,6 +404,8 @@
     <string name="prefs_start_stop_toast_message_text">Vis en melding når du starter eller stopper opptaket under bakgrunnsopptak</string>
     <string name="prefs_start_stop_voice_sum_text">Lyd ved start, stopp eller opptaksfeil</string>
     <string name="prefs_start_stop_voice_text">Lydopptaksstatus</string>
+    <string name="prefs_storage_select_folder_for_photos_hint_msg">Velg en mappe der bildene skal lagres.</string>
+    <string name="prefs_storage_select_folder_for_records_hint_msg">Velg en mappe der videoopptakene skal lagres.</string>
     <string name="prefs_subtitles_address_text">Adressen</string>
     <string name="prefs_subtitles_color_text">Velg undertekstfarge</string>
     <string name="prefs_subtitles_coords_text">Koordinater</string>
@@ -517,6 +543,7 @@
     <string name="recording_file_name_prefix">Prefiks for videofilnavn</string>
     <string name="recording_start_short_text">Start</string>
     <string name="recording_start_text">Start opptak</string>
+    <string name="recording_started_after_system_recreation_text">Starter videoopptak etter at applikasjonen uventet ble lukket av systemet.</string>
     <string name="recording_started_failed_text">Feil ved start av opptak</string>
     <string name="recording_started_text">Opptaket har begynt</string>
     <string name="recording_started_with_audio_text">Et nytt videoopptak med lydopptak har startet</string>
@@ -548,6 +575,7 @@
     <string name="records_pin_lock_top_bar_title">Opptakslås</string>
     <string name="reset">Tilbakestill</string>
     <string name="snackbar_dismiss">Gjemme</string>
+    <string name="start_copying_files">Begynn å kopiere filer</string>
     <string name="storage_external_single">MicroSD-kort</string>
     <string name="storage_phone">Telefonminne</string>
     <string name="subscription_benefit_all_premium_features">Eventuelle fremtidige premiumfunksjoner</string>
@@ -566,6 +594,7 @@
     <string name="subscription_subscribe_text">Abonner</string>
     <string name="subscription_with_free_trial">Med gratis prøveperiode</string>
     <string name="tap_to_allow_background_recording">Trykk for å tillate bakgrunnsvideoopptak.</string>
+    <string name="the_current_copy_files_operation_will_be_cancelled">Den nåværende kopieringsoperasjonen for filer vil bli avbrutt.</string>
     <string name="timer_auto_start">Timer</string>
     <string name="timer_auto_start_dlg_type_title">Still inn en timer for å starte opptaket</string>
     <string name="timer_auto_start_every_day_text">Hver dag</string>
@@ -600,7 +629,7 @@
     <string name="videos_item_mode_deletion_exit_text">Avslutt slettemodus</string>
     <string name="videos_locked_folder_text">Overskrivebeskyttet</string>
     <string name="videos_menu_delete">Slett</string>
-    <string name="videos_menu_move_file">Flytt fil</string>
+    <string name="videos_menu_move_file">Flytt eller kopier fil</string>
     <string name="videos_menu_refresh">Forfriske</string>
     <string name="videos_menu_select_all">Velg alle</string>
     <string name="videos_menu_sorting">Sortering</string>
@@ -613,5 +642,6 @@
     <string name="videos_temporary_folder_text">Tidsinnstilte videoer</string>
     <string name="videos_toolbar_subtitle">Videoopptak</string>
     <string name="widget_start_stop_recording_transparent">Gjennomsiktig knapp for å starte/stoppe opptak</string>
+    <string name="yes">Ja</string>
     <string name="zoom_text">zoom</string>
 </resources>

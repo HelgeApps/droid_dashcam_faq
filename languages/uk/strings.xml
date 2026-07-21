@@ -41,9 +41,14 @@
     <string name="camera_msg_error_non_exposed_error">Не вдалося відкрити вибрану камеру. Так буває, що не всі приховані камери можуть бути використані будь-якими програмами. Багато виробників дозволяють їх використання лише у своїх рідних додатках. Буде відкрито камеру за промовчанням.</string>
     <string name="camera_msg_error_unknown_text">Камера тимчасово (була) недоступна для відкриття на вашому пристрої (системна помилка камери)</string>
     <string name="camera_support_error">Сталася помилка при використанні камери.</string>
+    <string name="cancel_copying_files">Скасувати копіювання файлів?</string>
     <string name="close">Закрити</string>
+    <string name="copy_files">Копіювати файли</string>
+    <string name="copy_selected_files_to_the_selected_folder">Скопіюйте вибрані файли до вибраної папки.</string>
+    <string name="copying_files">Копіювання файлів</string>
     <string name="days">днів</string>
     <string name="default_text">За замовчуванням</string>
+    <string name="delete_original_files_after_copying">Видалити оригінальні файли після копіювання</string>
     <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">Більш детальні інструкції щодо вимкнення оптимізації батареї та дозволу фонової активності програми:</string>
     <string name="dialog_camera_not_found_msg_text">Це пристрій не має вбудованої камери і не підтримує зовнішні камери. Закриття…</string>
     <string name="dialog_camera_not_found_text">Камера не знайдена</string>
@@ -70,6 +75,7 @@
     <string name="donation_subs_one_text">Реклама повністю видаляється, поки активна підписка.</string>
     <string name="donation_subs_text">Жертвувати щомісяця</string>
     <string name="donation_subscriptions_can_be_cancelled_any_time_text">Підписка може бути скасована в будь-який час (буде доступна кнопка \"скасувати передплату\", також ви можете її скасувати в Google Play додаток)</string>
+    <string name="finished_copying_files">Копіювання файлів завершено.</string>
     <string name="format_altitude">Висота</string>
     <string name="format_degrees">Координати</string>
     <string name="format_gb">Гігабайт</string>
@@ -96,6 +102,7 @@
     <string name="moto_api34_disable_limit_background_activity_all">Або ж вимкніть опцію «Обмежити фонову активність» (за допомогою перемикача), щоб дозволити всім програмам працювати у фоновому режимі.</string>
     <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">Відкрийте екран «Інформація про програму», виберіть «Використання батареї програмою» та увімкніть опцію «Дозволити використання у фоновому режимі» (зазвичай вона увімкнена за замовчуванням).</string>
     <string name="moto_disable_manage_background_apps">Відкрийте «Налаштування системи», виберіть «Акумулятор», потім виберіть «Керування фоновими програмами» (якщо доступно) та вимкніть опцію «Використовувати керування фоновими програмами». Опція також може називатися «Покращення роботи батареї під час неактивності».</string>
+    <string name="moving_files">Переміщення файлів</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Програма не виключена з оптимізації батареї. Якщо камера не працює у фоновому режимі або ще щось, додайте цю програму у виключення енергозберігаючого режиму.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Якщо ви перевстановлювали додаток на Android 11, то старі файли необхідно видалити вручну</string>
     <string name="msg_auto_recording_service_was_stopped">Ви зупинили фонову службу автоматичного початку відеозапису. Відкрийте програму, щоб запустити її знову.</string>
@@ -141,6 +148,7 @@
     <string name="msg_video_rec_battery_not_enough_text">Недостатній заряд батареї для початку запису за поточними правилами.</string>
     <string name="msg_video_recorder_error">Щось пішло не так з відео модулем для запису.</string>
     <string name="msg_voice_tts_lang_data_missing_text">Мовний пакет для TTS (Android синтезатор мови) не встановлено. Увімкніть Інтернет, щоб почати завантаження</string>
+    <string name="no">Ні</string>
     <string name="notification_could_not_start_recording_service">Не вдалося запустити службу запису. Натисніть, щоб вимкнути оптимізацію акумулятора для цієї програми</string>
     <string name="notification_service_aux_checker">аудіороз\'єм(Aux)</string>
     <string name="notification_service_bl_checker">блютуза</string>
@@ -149,7 +157,7 @@
     <string name="notification_service_recreated_thermal_critical_msg">Запис відео не було відновлено автоматично, оскільки пристрій повідомив про критичний тепловий стан або вищий. Ви можете змінити цю поведінку в розділі \"Додаток → Налаштування → Налаштування запису\" (натисніть це сповіщення, щоб відкрити налаштування).</string>
     <string name="notification_service_recreated_thermal_severe_msg">Запис відео не було відновлено автоматично, оскільки пристрій повідомив про серйозний тепловий стан або вищий. Ви можете змінити цю поведінку в розділі \"Додаток → Налаштування → Налаштування запису\" (натисніть це сповіщення, щоб відкрити налаштування).</string>
     <string name="notification_service_recreated_time_limit_msg">Запис відео не було відновлено автоматично, оскільки перезапуск програми відбувся після закінчення налаштованого ліміту часу автоматичного відновлення. Ви можете збільшити цей ліміт у розділі \"Програма → Налаштування → Налаштування запису\" (натисніть це сповіщення, щоб відкрити налаштування).</string>
-    <string name="notification_service_recreated_title">Система несподівано перезапустила програму.</string>
+    <string name="notification_service_recreated_title">Система несподівано закрила програму.</string>
     <string name="notification_stop_text">Зупинити</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Для авто вкл/вимк запису</string>
     <string name="one_time_payment">Одноразовий платіж</string>
@@ -225,10 +233,18 @@
     <string name="prefs_beep_each_start_recording_sum_text">Сигнал початку запису наступного відео файлу</string>
     <string name="prefs_beep_each_start_recording_text">Звуковий сигнал під час запису</string>
     <string name="prefs_camera_blurry">Розмитий</string>
+    <string name="prefs_camera_for_the_shortcut">Камера для швидкого доступу</string>
     <string name="prefs_camera_lens_distance_focus_default_hint">Скинути до значення за замовчуванням, якщо зображення виглядає розмитим</string>
     <string name="prefs_camera_lens_distance_focus_title">Регулювання фокусної відстані об\'єктива для досягнення нескінченного фокусування</string>
+    <string name="prefs_camera_main">Основна камера (або остання використана)</string>
+    <string name="prefs_camera_settings_for_the_shortcuts">Налаштування камери для швидких команд</string>
+    <string name="prefs_camera_shortcut_first_start_stop_rec_text">Скорочення камери №1</string>
+    <string name="prefs_camera_shortcut_sec_start_stop_rec_text">Скорочення камери №2</string>
+    <string name="prefs_camera_shortcuts_desc">Ярлики панелі запуску програм, віджети, плитки швидких налаштувань.</string>
+    <string name="prefs_camera_shortcuts_settings_tip">У розділі «Налаштування відео» перевірте пункт «Налаштування камери для швидких команд», щоб вибрати камеру, яку потрібно використовувати для швидкого доступу №1 або швидкого доступу №2.</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Виробник пристрою може не надавати доступ до всіх камер, тому деякі можуть не відкритися.</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Виробник пристрою може не надавати камеру з широким об\'єктивом для всіх програм.</string>
+    <string name="prefs_change_units_by_tap_on_main_screen">Змінювати одиниці вимірювання швидкості після натискання на значення швидкості на головному екрані.</string>
     <string name="prefs_consent_information_privacy_options">Параметри конфіденційності (інформація про згоду)</string>
     <string name="prefs_continuous_recording">Безперервний запис</string>
     <string name="prefs_continuous_recording_desc">Починає новий файл, коли поточний файл досягає встановленої тривалості. Якщо вимкнено, запис зупиняється після досягнення ліміту.</string>
@@ -250,10 +266,13 @@
     <string name="prefs_g_sensor_force_very_high">Дуже висока</string>
     <string name="prefs_g_sensor_force_very_low">Дуже низька</string>
     <string name="prefs_gps_accuracy_text">Ігнорувати GPS дані з помилкою вище</string>
+    <string name="prefs_gps_coordinates_format">Формат GPS-координат</string>
     <string name="prefs_gps_disabled_gps_and_google_text">Показувати попередження, коли GPS і геолокація Google відключені</string>
     <string name="prefs_gps_disabled_gps_only_text">Показувати попередження, тільки якщо GPS відключений</string>
     <string name="prefs_gps_disabled_no_warning_text">Не показувати попередження і кнопку виправлення</string>
     <string name="prefs_gps_disabled_warning_text">Попередження про відключений GPS, кнопка виправити</string>
+    <string name="prefs_gps_format_decimal_degrees">Десяткові градуси</string>
+    <string name="prefs_gps_format_degrees_minutes_seconds">Градуси/Хвилини/Секунди</string>
     <string name="prefs_info_more_category_text">Інформація / Більше…</string>
     <string name="prefs_kill_services_sum_text">Ваш пристрій має налаштування, які контролюють використання фону (або автозапуск). Натисніть тут, щоб дозволити використання фону або додати програму до списку винятків, якщо вона обмежена.</string>
     <string name="prefs_kill_services_text">Дозвіл роботи у фоновому режимі</string>
@@ -273,6 +292,7 @@
     <string name="prefs_location_power_saving_to_get_updates_in_background">Щоб мати змогу отримувати оновлення місцезнаходження (GPS) у фоновому режимі, потрібно вимкнути енергозбереження.</string>
     <string name="prefs_location_provider_method_text">Метод отримання позиціонування (GPS)</string>
     <string name="prefs_location_update_frequency_text">Частота оновлення GPS</string>
+    <string name="prefs_main_camera_changes_to_latest_used_camera_for_shortcut">Основна камера змінюється на останню використану камеру для швидкого доступу №1 або швидкого доступу №2.</string>
     <string name="prefs_meters_accuracy_value_text">метрів точності</string>
     <string name="prefs_open_source_notices_text">Повідомлення про відкрите програмне забезпечення</string>
     <string name="prefs_optical_zoom_text">Оптичний зум (масштабування) / Фокусна відстань</string>
@@ -361,6 +381,10 @@
     <string name="prefs_share_sum_text">Надішліть це додаток своїм знайомим</string>
     <string name="prefs_share_text">Поділитися</string>
     <string name="prefs_shortcut_launcher_has_been_added">Додано ярлик (лаунчер).</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove">Видалити лаунчер</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove_desc">Щоб повністю видалити його, вам може знадобитися вручну видалити його з головного екрана (торкніться та утримуйте його, а потім виберіть «Видалити»), перезавантажте панель запуску або навіть перезавантажте телефон.</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_sum">Додає окремий класичний панель запуску програм, який зазвичай відображається у списку всіх програм (панель програм), для запуску/зупинення відеозапису. На деяких пристроях та версіях Android його можна призначити дії подвійного натискання клавіші живлення/бічної клавіші телефону, наприклад, на пристроях Samsung з Android 12 або старішої версії. Однак новіші версії, здається, більше не дозволяють цього (принаймні на пристроях Samsung).</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_title">Додати класичний лаунчер для програми</string>
     <string name="prefs_shortcut_rec_start_launcher_sum">Для запуску/зупинки запису без запуску головного екрана</string>
     <string name="prefs_shortcut_rec_start_launcher_title">Додати ярлик (лаунчер)</string>
     <string name="prefs_show_audio_btn_text">Вкл/викл аудіозапису</string>
@@ -380,6 +404,8 @@
     <string name="prefs_start_stop_toast_message_text">Відображати повідомлення під час початку або зупинки запису під час фонового запису</string>
     <string name="prefs_start_stop_voice_sum_text">Озвучування при початку, зупинці або при помилці запису</string>
     <string name="prefs_start_stop_voice_text"> Озвучувати стан запису</string>
+    <string name="prefs_storage_select_folder_for_photos_hint_msg">Виберіть папку, де будуть збережені фотографії.</string>
+    <string name="prefs_storage_select_folder_for_records_hint_msg">Виберіть папку, де будуть збережені відеозаписи.</string>
     <string name="prefs_subtitles_address_text">Адреса</string>
     <string name="prefs_subtitles_color_text">Виберіть колір субтитрів</string>
     <string name="prefs_subtitles_coords_text">Координати</string>
@@ -517,6 +543,7 @@
     <string name="recording_file_name_prefix">Префікс для імені відеофайлів</string>
     <string name="recording_start_short_text">старт</string>
     <string name="recording_start_text">Почати запис</string>
+    <string name="recording_started_after_system_recreation_text">Запуск відеозапису після несподіваного закриття програми системою.</string>
     <string name="recording_started_failed_text">Помилка при початку запису</string>
     <string name="recording_started_text">Запис розпочато</string>
     <string name="recording_started_with_audio_text">Почалася нова запис відео з аудіозаписом</string>
@@ -548,6 +575,7 @@
     <string name="records_pin_lock_top_bar_title">Блокування записів</string>
     <string name="reset">Скинути</string>
     <string name="snackbar_dismiss">Приховати</string>
+    <string name="start_copying_files">Почати копіювання файлів</string>
     <string name="storage_external_single">MicroSD карта</string>
     <string name="storage_phone">Пам\'ять телефону</string>
     <string name="subscription_benefit_all_premium_features">Будь-які майбутні преміум-функції</string>
@@ -566,6 +594,7 @@
     <string name="subscription_subscribe_text">Підписатися</string>
     <string name="subscription_with_free_trial">З безкоштовною пробною версією</string>
     <string name="tap_to_allow_background_recording">Натисніть, щоб дозволити запис відео у фоновому режимі.</string>
+    <string name="the_current_copy_files_operation_will_be_cancelled">Поточну операцію копіювання файлів буде скасовано.</string>
     <string name="timer_auto_start">Таймер</string>
     <string name="timer_auto_start_dlg_type_title">Встановіть таймер, щоб розпочати запис</string>
     <string name="timer_auto_start_every_day_text">Кожен день</string>
@@ -600,7 +629,7 @@
     <string name="videos_item_mode_deletion_exit_text">Вийти з режиму видалення</string>
     <string name="videos_locked_folder_text">Захищені від перезапису</string>
     <string name="videos_menu_delete">Видалити</string>
-    <string name="videos_menu_move_file">Перемістити файл</string>
+    <string name="videos_menu_move_file">Переміщення або копіювання файлу</string>
     <string name="videos_menu_refresh">Оновити</string>
     <string name="videos_menu_select_all">Вибрати все</string>
     <string name="videos_menu_sorting">Сортування</string>
@@ -613,5 +642,6 @@
     <string name="videos_temporary_folder_text">Тимчасові відео</string>
     <string name="videos_toolbar_subtitle">Відеозаписи</string>
     <string name="widget_start_stop_recording_transparent">Прозора кнопка для початку/зупинки запису</string>
+    <string name="yes">Так</string>
     <string name="zoom_text">зум</string>
 </resources>

@@ -41,9 +41,14 @@
     <string name="camera_msg_error_non_exposed_error">Seçilen kamera açılamadı. Öyle olur ki, tüm gizli kameralar herhangi bir uygulama tarafından kullanılamaz. Çoğu üretici, bunların yalnızca kendi yerel uygulamalarında kullanılmasına izin verir. Varsayılan kamera açılacaktır.</string>
     <string name="camera_msg_error_unknown_text">Kamera geçici olarak cihazınızda açılamıyor (sistem kamera hatası)</string>
     <string name="camera_support_error">Kamerayı kullanırken bir hata oluştu.</string>
+    <string name="cancel_copying_files">Dosya kopyalama işlemi iptal edilsin mi?</string>
     <string name="close">Kapat</string>
+    <string name="copy_files">Dosyaları kopyala</string>
+    <string name="copy_selected_files_to_the_selected_folder">Seçilen dosyaları seçilen klasöre kopyalayın.</string>
+    <string name="copying_files">Dosyaları kopyalama</string>
     <string name="days">günler</string>
     <string name="default_text">Varsayılan</string>
+    <string name="delete_original_files_after_copying">Kopyalama işleminden sonra orijinal dosyaları silin.</string>
     <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">Pil optimizasyonunu devre dışı bırakmak ve uygulamanın arka plan çalışmasına izin vermek için daha ayrıntılı talimatlar:</string>
     <string name="dialog_camera_not_found_msg_text">Bu cihazda yerleşik bir kamera yoktur ve harici kameraları desteklemez. Kapanıyor…</string>
     <string name="dialog_camera_not_found_text">Kamera bulunamadı</string>
@@ -70,6 +75,7 @@
     <string name="donation_subs_one_text">Abonelik aktifken reklamlar tamamen kaldırılır.</string>
     <string name="donation_subs_text">Aylık bağış yapın</string>
     <string name="donation_subscriptions_can_be_cancelled_any_time_text">Abonelik herhangi bir zamanda iptal edilebilir (“aboneliği iptal et” butonu mevcut olacaktır, bunu Google Play uygulamasında da iptal edebilirsiniz)</string>
+    <string name="finished_copying_files">Dosya kopyalama işlemi tamamlandı.</string>
     <string name="format_altitude">Rakım</string>
     <string name="format_degrees">Koordinatlar</string>
     <string name="format_gb">GB</string>
@@ -96,6 +102,7 @@
     <string name="moto_api34_disable_limit_background_activity_all">Alternatif olarak, tüm uygulamaların arka planda çalışmasına izin vermek için \"Arka plan etkinliğini sınırla\" seçeneğini (düğmeyi kullanarak) devre dışı bırakın.</string>
     <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">\"Uygulama bilgileri\" ekranını açın, \"Uygulama pil kullanımı\"nı seçin ve \"Arka planda kullanıma izin ver\" seçeneğini etkinleştirin (genellikle varsayılan olarak etkindir).</string>
     <string name="moto_disable_manage_background_apps">\"Sistem Ayarları\"nı açın, \"Pil\"i seçin, ardından \"Arka plan uygulamalarını yönet\"i (varsa) seçin ve \"Arka plan uygulamalarını yönet seçeneğini kullan\" seçeneğini devre dışı bırakın. Bu seçenek ayrıca \"Etkin değilken pil ömrünü iyileştir\" olarak da adlandırılabilir.</string>
+    <string name="moving_files">Dosyaları taşıma</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Uygulama pil optimizasyonunun dışında tutulmaz. Kamera arka planda çalışmıyorsa veya başka bir şey varsa, bu uygulamayı güç tasarrufu modunun istisnalarına ekleyin.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Uygulamayı Android 11\'e yeniden yüklediyseniz, eski dosyalar elle olarak silinmelidir.</string>
     <string name="msg_auto_recording_service_was_stopped">Video kaydını otomatik olarak başlatmak için arka plan hizmetini durdurdunuz. Tekrar başlatmak için uygulamayı açın.</string>
@@ -141,6 +148,7 @@
     <string name="msg_video_rec_battery_not_enough_text">Mevcut kurallar çerçevesinde kayıt başlatmak için yeterli pil gücü yok.</string>
     <string name="msg_video_recorder_error">Video kaydedicide bir şeyler ters gitti.</string>
     <string name="msg_voice_tts_lang_data_missing_text">TTS (Android Text-to-Speech) için dil paketi yüklü değil. İndirmeye başlamak için interneti açın</string>
+    <string name="no">HAYIR</string>
     <string name="notification_could_not_start_recording_service">Kayıt hizmeti başlatılamadı. Bu uygulama için pil optimizasyonunu devre dışı bırakmak için dokunun</string>
     <string name="notification_service_aux_checker">Ses jakı (AUX)</string>
     <string name="notification_service_bl_checker">Bluetooth</string>
@@ -149,7 +157,7 @@
     <string name="notification_service_recreated_thermal_critical_msg">Cihazın kritik veya daha yüksek bir termal durum bildirmesi nedeniyle video kaydı otomatik olarak devam ettirilmedi. Bu davranışı \"Uygulama → Ayarlar → Kayıt Ayarları\" bölümünden değiştirebilirsiniz (ayarları açmak için bu bildirime dokunun).</string>
     <string name="notification_service_recreated_thermal_severe_msg">Cihazın \"Ciddi\" veya daha yüksek bir termal durum bildirmesi nedeniyle video kaydı otomatik olarak devam ettirilmedi. Bu davranışı \"Uygulama → Ayarlar → Kayıt Ayarları\" bölümünden değiştirebilirsiniz (ayarları açmak için bu bildirime dokunun).</string>
     <string name="notification_service_recreated_time_limit_msg">Uygulama yeniden başlatıldıktan sonra yapılandırılan otomatik devam etme süresi sınırı aşıldığı için video kaydı otomatik olarak devam ettirilmedi. Bu sınırı \"Uygulama → Ayarlar → Kayıt Ayarları\" bölümünden artırabilirsiniz (ayarları açmak için bu bildirime dokunun).\n</string>
-    <string name="notification_service_recreated_title">Sistem beklenmedik bir şekilde uygulamayı yeniden başlattı.</string>
+    <string name="notification_service_recreated_title">Sistem beklenmedik bir şekilde uygulamayı kapattı.</string>
     <string name="notification_stop_text">Durma</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Otomatik kayıt açma/kapama için</string>
     <string name="one_time_payment">Tek seferlik ödeme</string>
@@ -225,10 +233,18 @@
     <string name="prefs_beep_each_start_recording_sum_text">Sonraki video dosyasının kaydının başlangıcındaki sinyal</string>
     <string name="prefs_beep_each_start_recording_text">Kayıt sırasında bip sesi</string>
     <string name="prefs_camera_blurry">Bulanık</string>
+    <string name="prefs_camera_for_the_shortcut">Kısayol için kamera</string>
     <string name="prefs_camera_lens_distance_focus_default_hint">Görüntü bulanık görünüyorsa varsayılan değere sıfırlayın.</string>
     <string name="prefs_camera_lens_distance_focus_title">Sonsuz odaklama elde etmek için objektif odak mesafesi ayarı</string>
+    <string name="prefs_camera_main">Ana kamera (veya en son kullanılan kamera)</string>
+    <string name="prefs_camera_settings_for_the_shortcuts">Kısayollar için kamera ayarları</string>
+    <string name="prefs_camera_shortcut_first_start_stop_rec_text">Kamera Kısayolu #1</string>
+    <string name="prefs_camera_shortcut_sec_start_stop_rec_text">Kamera Kısayolu #2</string>
+    <string name="prefs_camera_shortcuts_desc">Uygulama başlatıcı kısayolları, widget\'lar, hızlı ayarlar kutucukları.</string>
+    <string name="prefs_camera_shortcuts_settings_tip">\"Video Ayarları\" altında bulunan \"Kısayollar için kamera ayarları\" seçeneğini işaretleyerek, Kısayol #1 veya Kısayol #2 için kullanmak istediğiniz kamerayı seçin.</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Cihaz üreticisi tüm kameralara erişim sağlamayabilir, dolayısıyla bazıları açılmayabilir.</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Cihaz üreticisi, tüm uygulamalar için geniş lensli bir kamera sağlamayabilir.</string>
+    <string name="prefs_change_units_by_tap_on_main_screen">Ana ekrandaki hız değerine dokunarak hız birimlerini değiştirebilirsiniz.</string>
     <string name="prefs_consent_information_privacy_options">Gizlilik seçenekleri (Onay bilgileri)</string>
     <string name="prefs_continuous_recording">Sürekli kayıt</string>
     <string name="prefs_continuous_recording_desc">Mevcut dosya belirlenen süreye ulaştığında yeni bir dosya başlatır. Devre dışı bırakılırsa, kayıt süre dolduğunda durur.</string>
@@ -250,10 +266,13 @@
     <string name="prefs_g_sensor_force_very_high">Çok yüksek</string>
     <string name="prefs_g_sensor_force_very_low">Çok düşük</string>
     <string name="prefs_gps_accuracy_text">Hatası daha yüksek olan GPS güncellemelerini yoksay</string>
+    <string name="prefs_gps_coordinates_format">GPS Koordinatları Formatı</string>
     <string name="prefs_gps_disabled_gps_and_google_text">GPS ve Google coğrafi konumu devre dışı bırakıldığında uyarı göster</string>
     <string name="prefs_gps_disabled_gps_only_text">Yalnızca GPS devre dışıysa uyarı göster</string>
     <string name="prefs_gps_disabled_no_warning_text">Uyarı gösterme, ve düzeltme düğmesi</string>
     <string name="prefs_gps_disabled_warning_text">GPS devre dışı uyarısı, ve düzeltme düğmesi</string>
+    <string name="prefs_gps_format_decimal_degrees">Ondalık Dereceler</string>
+    <string name="prefs_gps_format_degrees_minutes_seconds">Derece/Dakika/Saniye</string>
     <string name="prefs_info_more_category_text">Bilgi / Daha Fazla…</string>
     <string name="prefs_kill_services_sum_text">Cihazınızda arka plan kullanımını (veya otomatik başlatmayı) kontrol eden ayarlar bulunmaktadır. Arka plan kullanımına izin vermek için buraya dokunun veya uygulama kısıtlıysa istisna listesine ekleyin.</string>
     <string name="prefs_kill_services_text">Arka planda ve ekran kapalı çalışmaya izin ver</string>
@@ -273,6 +292,7 @@
     <string name="prefs_location_power_saving_to_get_updates_in_background">Arka planda konum (GPS) güncellemelerini alabilmek için Güç Tasarrufu kapatılmalıdır.</string>
     <string name="prefs_location_provider_method_text">Konum (GPS) sağlayıcı yöntemi</string>
     <string name="prefs_location_update_frequency_text">GPS güncelleme sıklığı</string>
+    <string name="prefs_main_camera_changes_to_latest_used_camera_for_shortcut">Ana kamera, Kısayol #1 veya Kısayol #2 için en son kullanılan kameraya geçiyor.</string>
     <string name="prefs_meters_accuracy_value_text">Metre doğruluğu</string>
     <string name="prefs_open_source_notices_text">Açık kaynak kodlu bildirimler</string>
     <string name="prefs_optical_zoom_text">Optik Yakınlaştırma (Yakınlaştırma) / Odak Uzaklığı</string>
@@ -361,6 +381,10 @@
     <string name="prefs_share_sum_text">Bu Uygulamayı Arkadaşlarınıza Gönderin</string>
     <string name="prefs_share_text">Paylaş</string>
     <string name="prefs_shortcut_launcher_has_been_added">Kısayol (başlatıcı) eklendi</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove">Başlatıcıyı kaldırın</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove_desc">Tamamen kaldırmak için, ana ekranınızdan manuel olarak kaldırmanız (üzerine dokunup basılı tutun, ardından \"Kaldır\"ı seçin), ana ekran başlatıcısını yeniden başlatmanız veya hatta telefonunuzu yeniden başlatmanız gerekebilir.</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_sum">Genellikle Tüm Uygulamalar listesinde (uygulama çekmecesi) görünen, video kaydını başlatmak/durdurmak için ayrı bir klasik uygulama başlatıcı ekler. Bazı cihazlarda ve Android sürümlerinde, örneğin Android 12 veya daha düşük sürümlerde çalışan Samsung cihazlarda, telefonun Güç/Yan Tuşuna çift basma eylemine atanabilir. Ancak, daha yeni sürümler (en azından Samsung cihazlarda) artık buna izin vermiyor gibi görünüyor.</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_title">Uygulama için klasik başlatıcı ekleyin.</string>
     <string name="prefs_shortcut_rec_start_launcher_sum">Ana ekranı başlatmadan kaydı başlatmak/durdurmak için</string>
     <string name="prefs_shortcut_rec_start_launcher_title">Kısayol ekle (başlatıcı)</string>
     <string name="prefs_show_audio_btn_text">Ses Kaydını Açma/Kapama</string>
@@ -380,6 +404,8 @@
     <string name="prefs_start_stop_toast_message_text">Arka plan kaydı sırasında kaydı başlatırken veya durdururken bir mesaj görüntüleyin</string>
     <string name="prefs_start_stop_voice_sum_text">kayıt başladığında, durduğunda veya başarısız olduğunda seslendirme</string>
     <string name="prefs_start_stop_voice_text">Kayıt durumu değişikliğinde ses</string>
+    <string name="prefs_storage_select_folder_for_photos_hint_msg">Fotoğrafların kaydedileceği klasörü seçin.</string>
+    <string name="prefs_storage_select_folder_for_records_hint_msg">Video kayıtlarının kaydedileceği klasörü seçin.</string>
     <string name="prefs_subtitles_address_text">Adres</string>
     <string name="prefs_subtitles_color_text">Altyazı Rengini Seç</string>
     <string name="prefs_subtitles_coords_text">Koordinatlar</string>
@@ -517,6 +543,7 @@
     <string name="recording_file_name_prefix">Video dosyası adları için önek</string>
     <string name="recording_start_short_text">Başlangıç</string>
     <string name="recording_start_text">Kayda başla</string>
+    <string name="recording_started_after_system_recreation_text">Uygulamanın sistem tarafından beklenmedik bir şekilde kapatılmasının ardından video kaydı başlatılıyor.</string>
     <string name="recording_started_failed_text">Kayıt başlatılırken hata oluştu</string>
     <string name="recording_started_text">Kayıt başladı</string>
     <string name="recording_started_with_audio_text">Ses kaydı ile yeni bir video kaydı başladı</string>
@@ -548,6 +575,7 @@
     <string name="records_pin_lock_top_bar_title">Kayıt kilidi</string>
     <string name="reset">Sıfırla</string>
     <string name="snackbar_dismiss">Saklamak</string>
+    <string name="start_copying_files">Dosyaları kopyalamaya başlayın</string>
     <string name="storage_external_single">Mikro SD kart</string>
     <string name="storage_phone">Telefon hafızası</string>
     <string name="subscription_benefit_all_premium_features">Gelecekteki herhangi bir premium özellik</string>
@@ -566,6 +594,7 @@
     <string name="subscription_subscribe_text">Abone</string>
     <string name="subscription_with_free_trial">Ücretsiz deneme ile</string>
     <string name="tap_to_allow_background_recording">Arka planda video kaydına izin vermek için dokunun.</string>
+    <string name="the_current_copy_files_operation_will_be_cancelled">Mevcut dosya kopyalama işlemi iptal edilecektir.</string>
     <string name="timer_auto_start">Zamanlayıcı</string>
     <string name="timer_auto_start_dlg_type_title">Kaydı başlatmak için bir zamanlayıcı ayarlayın</string>
     <string name="timer_auto_start_every_day_text">Her gün</string>
@@ -600,7 +629,7 @@
     <string name="videos_item_mode_deletion_exit_text">Silme modundan çık</string>
     <string name="videos_locked_folder_text">Üzerine yazma korumalı</string>
     <string name="videos_menu_delete">Silmek</string>
-    <string name="videos_menu_move_file">Dosyayı taşı</string>
+    <string name="videos_menu_move_file">Dosyayı taşı veya kopyala</string>
     <string name="videos_menu_refresh">Yenile</string>
     <string name="videos_menu_select_all">Hepsini seç</string>
     <string name="videos_menu_sorting">Sıralama</string>
@@ -613,5 +642,6 @@
     <string name="videos_temporary_folder_text">Geçici videolar</string>
     <string name="videos_toolbar_subtitle">Video Kayıtları</string>
     <string name="widget_start_stop_recording_transparent">Kaydı başlatmak/durdurmak için şeffaf düğme</string>
+    <string name="yes">Evet</string>
     <string name="zoom_text">Yakınlaştırma</string>
 </resources>

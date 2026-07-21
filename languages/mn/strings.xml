@@ -41,9 +41,14 @@
     <string name="camera_msg_error_non_exposed_error">Сонгосон камерыг нээж чадсангүй. Бүх далд камерыг ямар ч програм ашиглах боломжгүй байдаг. Олон үйлдвэрлэгчид зөвхөн өөрсдийн хэрэглээнд ашиглахыг зөвшөөрдөг. Өгөгдмөл камер нээгдэнэ.</string>
     <string name="camera_msg_error_unknown_text">Камерыг таны төхөөрөмж дээр түр хугацаанд нээх боломжгүй (камерын системийн алдаа)</string>
     <string name="camera_support_error">Камерыг ашиглах явцад алдаа гарлаа.</string>
+    <string name="cancel_copying_files">Файл хуулахыг болих уу?</string>
     <string name="close">Хаах</string>
+    <string name="copy_files">Файлуудыг хуулах</string>
+    <string name="copy_selected_files_to_the_selected_folder">Сонгосон файлуудыг сонгосон хавтас руу хуулах.</string>
+    <string name="copying_files">Файлуудыг хуулж байна</string>
     <string name="days">өдрүүд</string>
     <string name="default_text">Өгөгдмөл</string>
+    <string name="delete_original_files_after_copying">Хуулбарласны дараа анхны файлуудыг устгах</string>
     <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">Аппликейшны батерейны оновчлолыг идэвхгүй болгох болон арын үйл ажиллагааг идэвхжүүлэх талаар дэлгэрэнгүй зааварчилгаа:</string>
     <string name="dialog_camera_not_found_msg_text">Энэ төхөөрөмж нь суурилуулсан камергүй бөгөөд гадны камерыг дэмждэггүй. Хааж байна…</string>
     <string name="dialog_camera_not_found_text">Камер олдсонгүй</string>
@@ -70,6 +75,7 @@
     <string name="donation_subs_one_text">Захиалга идэвхтэй байх үед зар сурталчилгаа бүрэн арилдаг.</string>
     <string name="donation_subs_text">Сар бүр хандивлах</string>
     <string name="donation_subscriptions_can_be_cancelled_any_time_text">Захиалгыг хүссэн үедээ цуцалж болно (\"захиалгыг цуцлах\" товчлуур гарч ирэх бөгөөд та үүнийг Google Play програм дээр цуцалж болно)</string>
+    <string name="finished_copying_files">Файлуудыг хуулж дууслаа.</string>
     <string name="format_altitude">Өндөр</string>
     <string name="format_degrees">Координатууд</string>
     <string name="format_gb">Гигабайт</string>
@@ -96,6 +102,7 @@
     <string name="moto_api34_disable_limit_background_activity_all">Эсвэл бүх аппликейшнийг ард ажиллахыг зөвшөөрөхийн тулд \"Арын үйл ажиллагааг хязгаарлах\"-ыг идэвхгүйжүүлнэ үү (унтраах товчийг ашиглан).</string>
     <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">\"Аппликейшны мэдээлэл\" дэлгэцийг нээгээд, \"Аппликейшны батерейны хэрэглээ\"-г сонгоод, \"Арын хэрэглээг зөвшөөрөх\"-ийг идэвхжүүлнэ үү (ихэвчлэн анхдагчаар идэвхждэг).</string>
     <string name="moto_disable_manage_background_apps">\"Системийн тохиргоо\"-г нээгээд, \"Батерей\"-г сонгоод, дараа нь \"Дэвсгэр аппликейшнуудыг удирдах\"-г (боломжтой бол) сонгоод \"Дэвсгэр аппликейшнуудыг удирдахыг ашиглах\" сонголтыг идэвхгүйжүүлнэ үү. Энэ сонголтыг мөн \"Идэвхгүй үед батерейг сайжруулах\" гэж нэрлэж болно.</string>
+    <string name="moving_files">Файлуудыг зөөх</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Аппликейшн нь батерейны оновчлолоос хасагдаагүй болно. Хэрэв камер арын дэвсгэр дээр эсвэл өөр зүйл ажиллахгүй бол энэ програмыг эрчим хүч хэмнэх горимоос үл хамаарах зүйлд нэмнэ үү.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Хэрэв та Android 11 дээр програмыг дахин суулгасан бол хуучин файлуудыг гараар устгах ёстой</string>
     <string name="msg_auto_recording_service_was_stopped">Та видео бичлэгийг автоматаар эхлүүлэх арын үйлчилгээг зогсоосон байна. Аппликешныг дахин эхлүүлэхийн тулд нээнэ үү.</string>
@@ -141,6 +148,7 @@
     <string name="msg_video_rec_battery_not_enough_text">Одоогийн дүрмийн дагуу бичлэг эхлүүлэхэд батерейны цэнэг хангалтгүй байна.</string>
     <string name="msg_video_recorder_error">Видео бичигчтэй холбоотой асуудал гарлаа.</string>
     <string name="msg_voice_tts_lang_data_missing_text">TTS (Android Text-to-Speech) хэлний багцыг суулгаагүй байна. Татаж эхлэхийн тулд интернетийг асаана уу</string>
+    <string name="no">Үгүй</string>
     <string name="notification_could_not_start_recording_service">Бичлэгийн үйлчилгээг эхлүүлж чадсангүй. Энэ апп-н батарейны оновчлолыг идэвхгүй болгохын тулд товшино уу</string>
     <string name="notification_service_aux_checker">аудио залгуур (Aux)</string>
     <string name="notification_service_bl_checker">bluetooth</string>
@@ -149,7 +157,7 @@
     <string name="notification_service_recreated_thermal_critical_msg">Төхөөрөмж нь \"Хэт халуун\" буюу түүнээс дээш температурын төлөвийг мэдээлсэн тул видео бичлэгийг автоматаар үргэлжлүүлээгүй. Та энэ үйлдлийг \"Апп → Тохиргоо → Бичлэгийн тохиргоо\" хэсгээс өөрчилж болно (тохиргоог нээхийн тулд энэ мэдэгдлийг товшино уу).</string>
     <string name="notification_service_recreated_thermal_severe_msg">Төхөөрөмж нь хүнд хэлбэрийн халалтын төлөв буюу түүнээс дээш гэж мэдээлсэн тул видео бичлэгийг автоматаар үргэлжлүүлээгүй. Та энэ үйлдлийг \"Апп → Тохиргоо → Бичлэгийн тохиргоо\" хэсгээс өөрчилж болно (тохиргоог нээхийн тулд энэ мэдэгдлийг товшино уу).</string>
     <string name="notification_service_recreated_time_limit_msg">Видео бичлэг автоматаар үргэлжилсэнгүй, учир нь аппликейшн автоматаар дахин ачаалагдсан бөгөөд тохируулсан автомат үргэлжлүүлэх хугацааны хязгаарын дараа дахин ачаалагдсан. Та энэ хязгаарыг \"Апп → Тохиргоо → Бичлэгийн тохиргоо\" хэсгээс нэмэгдүүлж болно (тохиргоог нээхийн тулд энэ мэдэгдлийг товшино уу).\n</string>
-    <string name="notification_service_recreated_title">Систем гэнэт аппликейшнийг дахин эхлүүлэв.</string>
+    <string name="notification_service_recreated_title">Систем гэнэт аппликейшнийг хаасан.</string>
     <string name="notification_stop_text">Зогс</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Автоматаар асаах/унтраах бичлэг хийх зориулалттай</string>
     <string name="one_time_payment">Нэг удаагийн төлбөр</string>
@@ -225,10 +233,18 @@
     <string name="prefs_beep_each_start_recording_sum_text">Дараагийн видео файлын бичлэгийн эхэнд дохио өгнө</string>
     <string name="prefs_beep_each_start_recording_text">Бичлэг хийх үед дуугарах</string>
     <string name="prefs_camera_blurry">Бүдэг</string>
+    <string name="prefs_camera_for_the_shortcut">Товчлолын камер</string>
     <string name="prefs_camera_lens_distance_focus_default_hint">Хэрэв зураг бүдэг харагдаж байвал анхдагч утга руу дахин тохируулна уу</string>
     <string name="prefs_camera_lens_distance_focus_title">Хязгааргүй фокусыг бий болгохын тулд линзний фокусын зайг тохируулна уу</string>
+    <string name="prefs_camera_main">Үндсэн камер (эсвэл хамгийн сүүлд ашигласан камер)</string>
+    <string name="prefs_camera_settings_for_the_shortcuts">Товчлолуудын камерын тохиргоо</string>
+    <string name="prefs_camera_shortcut_first_start_stop_rec_text">Камерын товчлол #1</string>
+    <string name="prefs_camera_shortcut_sec_start_stop_rec_text">Камерын товчлол #2</string>
+    <string name="prefs_camera_shortcuts_desc">Апп эхлүүлэгчийн товчлолууд, виджетүүд, хурдан тохиргооны хавтангууд.</string>
+    <string name="prefs_camera_shortcuts_settings_tip">1-р товчлол эсвэл 2-р товчлолд ашиглахыг хүссэн камераа сонгохын тулд \"Видео тохиргоо\"-ны доор байрлах \"Товчлолын камерын тохиргоо\"-г шалгана уу.</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Төхөөрөмжийн үйлдвэрлэгч бүх камерт хандах эрх өгөхгүй байж магадгүй тул зарим нь нээгдэхгүй байж магадгүй юм</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Төхөөрөмж үйлдвэрлэгч нь бүх хэрэглээнд өргөн линзтэй камер өгөхгүй байж магадгүй юм</string>
+    <string name="prefs_change_units_by_tap_on_main_screen">Үндсэн дэлгэц дээрх хурдны утга дээр товшиж хурдны нэгжийг өөрчилнө үү.</string>
     <string name="prefs_consent_information_privacy_options">Нууцлалын сонголтууд (Зөвшөөрлийн мэдээлэл)</string>
     <string name="prefs_continuous_recording">Тасралтгүй бичлэг</string>
     <string name="prefs_continuous_recording_desc">Одоогийн файл тогтоосон хугацаанд хүрэхэд шинэ файл эхлүүлнэ. Хэрэв идэвхгүй болгосон бол бичлэг хязгаарт хүрнэ.</string>
@@ -250,10 +266,13 @@
     <string name="prefs_g_sensor_force_very_high">Маш өндөр</string>
     <string name="prefs_g_sensor_force_very_low">Маш бага</string>
     <string name="prefs_gps_accuracy_text">Дээрх алдаатай GPS-ийн өгөгдлийг үл тоомсорло</string>
+    <string name="prefs_gps_coordinates_format">GPS координатын формат</string>
     <string name="prefs_gps_disabled_gps_and_google_text">GPS болон Google-ийн газарзүйн байршлыг идэвхгүй болгосон үед анхааруулга харуулах</string>
     <string name="prefs_gps_disabled_gps_only_text">Зөвхөн GPS идэвхгүй болсон тохиолдолд анхааруулгыг харуулна</string>
     <string name="prefs_gps_disabled_no_warning_text">Анхааруулга, засах товчлуурыг бүү харуул</string>
     <string name="prefs_gps_disabled_warning_text">GPS идэвхгүй болсон тухай анхааруулга, засах товчлуур</string>
+    <string name="prefs_gps_format_decimal_degrees">Аравтын зэрэг</string>
+    <string name="prefs_gps_format_degrees_minutes_seconds">Зэрэг/Минут/Секунд</string>
     <string name="prefs_info_more_category_text">Мэдээлэл /Дэлгэрэнгүй…</string>
     <string name="prefs_kill_services_sum_text">Таны төхөөрөмж дэвсгэр ашиглалтыг хянах (эсвэл автоматаар эхлүүлэх) тохиргоотой. Арын ашиглалтыг зөвшөөрөх эсвэл хязгаарлагдмал бол апп-г үл хамаарах зүйлсийн жагсаалтад нэмэхийн тулд энд товшино уу.</string>
     <string name="prefs_kill_services_text">Ар талд ажиллахыг зөвшөөрч байна</string>
@@ -273,6 +292,7 @@
     <string name="prefs_location_power_saving_to_get_updates_in_background">Байршлын (GPS) шинэчлэлтийг далд авахын тулд эрчим хүч хэмнэлтийг унтраасан байх ёстой.</string>
     <string name="prefs_location_provider_method_text">Байршил олж авах арга (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS-ийн шинэчлэлтийн хурд</string>
+    <string name="prefs_main_camera_changes_to_latest_used_camera_for_shortcut">1-р товчлол эсвэл 2-р товчлолын хувьд үндсэн камер хамгийн сүүлд ашигласан камер болж өөрчлөгдөнө.</string>
     <string name="prefs_meters_accuracy_value_text">метр нарийвчлалтай</string>
     <string name="prefs_open_source_notices_text">Нээлттэй эхийн мэдэгдэл</string>
     <string name="prefs_optical_zoom_text">Оптик томруулах (томруулах) /фокусын урт</string>
@@ -361,6 +381,10 @@
     <string name="prefs_share_sum_text">Энэ програмыг найзууддаа илгээгээрэй</string>
     <string name="prefs_share_text">Үүнийг хуваалц</string>
     <string name="prefs_shortcut_launcher_has_been_added">Товчлол (эхлүүлэгч) нэмэгдсэн</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove">Эхлүүлэгчийг салга</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove_desc">Үүнийг бүрэн арилгахын тулд та үүнийг үндсэн дэлгэцээсээ гараар арилгах (хүрч удаан дарж, дараа нь \"Устгах\" гэснийг сонгоно уу), үндсэн эхлүүлэгчийг дахин эхлүүлэх эсвэл утсаа дахин асаах шаардлагатай болж магадгүй.</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_sum">Видео бичлэгийг эхлүүлэх/зогсоохын тулд ихэвчлэн Бүх Апп жагсаалтад (аппын шургуулга) харагддаг тусдаа сонгодог апп эхлүүлэгчийг нэмдэг. Зарим төхөөрөмж болон Андройд хувилбарууд дээр үүнийг утасны Асаах/Хажуугийн товчлуурыг давхар дарах үйлдэлд оноож болно, жишээлбэл, Андройд 12 эсвэл түүнээс доош хувилбартай Samsung төхөөрөмжүүд дээр. Гэсэн хэдий ч шинэ хувилбарууд үүнийг зөвшөөрөхөө больсон бололтой (ядаж л Samsung төхөөрөмжүүд дээр).</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_title">Аппликейшнд сонгодог эхлүүлэгч нэмэх</string>
     <string name="prefs_shortcut_rec_start_launcher_sum">Үндсэн дэлгэцийг эхлүүлэхгүйгээр бичлэгийг эхлүүлэх/зогсоох</string>
     <string name="prefs_shortcut_rec_start_launcher_title">Товчлол нэмэх (эхлүүлэгч)</string>
     <string name="prefs_show_audio_btn_text">Аудио бичлэгийг асаах /унтраах</string>
@@ -380,6 +404,8 @@
     <string name="prefs_start_stop_toast_message_text">Арын бичлэг хийх үед бичлэгийг эхлүүлэх эсвэл зогсоох үед мессеж харуулах</string>
     <string name="prefs_start_stop_voice_sum_text">Эхлэх, зогсоох эсвэл бичлэг хийх үед дуу чимээ гарна</string>
     <string name="prefs_start_stop_voice_text">Дуу бичлэгийн төлөв</string>
+    <string name="prefs_storage_select_folder_for_photos_hint_msg">Зураг хадгалагдах фолдерыг сонгоно уу.</string>
+    <string name="prefs_storage_select_folder_for_records_hint_msg">Видео бичлэгийг хадгалах хавтас сонгоно уу.</string>
     <string name="prefs_subtitles_address_text">Хаяг</string>
     <string name="prefs_subtitles_color_text">Хадмал орчуулгын өнгийг сонгоно уу</string>
     <string name="prefs_subtitles_coords_text">Координатууд</string>
@@ -517,6 +543,7 @@
     <string name="recording_file_name_prefix">Видео файлын нэрийн угтвар</string>
     <string name="recording_start_short_text">Эхлэх</string>
     <string name="recording_start_text">Бичлэг хийж эхлээрэй</string>
+    <string name="recording_started_after_system_recreation_text">Аппликейшнийг систем гэнэт хаасаны дараа видео бичлэг эхлүүлж байна.</string>
     <string name="recording_started_failed_text">Бичлэг эхлүүлэхэд алдаа гарлаа</string>
     <string name="recording_started_text">Бичлэг эхэлсэн</string>
     <string name="recording_started_with_audio_text">Аудио бичлэгтэй шинэ видео бичлэг хийж эхэллээ</string>
@@ -548,6 +575,7 @@
     <string name="records_pin_lock_top_bar_title">Бичлэгийн түгжээ</string>
     <string name="reset">Дахин тохируулах</string>
     <string name="snackbar_dismiss">Нуух</string>
+    <string name="start_copying_files">Файлуудыг хуулж эхлэх</string>
     <string name="storage_external_single">MicroSD карт</string>
     <string name="storage_phone">Утасны санах ой</string>
     <string name="subscription_benefit_all_premium_features">Ирээдүйн ямар ч дээд зэргийн функцууд</string>
@@ -566,6 +594,7 @@
     <string name="subscription_subscribe_text">Бүртгүүлэх</string>
     <string name="subscription_with_free_trial">Үнэгүй туршилттай</string>
     <string name="tap_to_allow_background_recording">Арын дэвсгэр дээр видео бичихийг зөвшөөрөхийн тулд товшино уу.</string>
+    <string name="the_current_copy_files_operation_will_be_cancelled">Одоогийн файл хуулбарлах үйлдэл цуцлагдана.</string>
     <string name="timer_auto_start">Цаг хэмжигч</string>
     <string name="timer_auto_start_dlg_type_title">Бичлэг хийж эхлэхийн тулд таймер тохируулна уу</string>
     <string name="timer_auto_start_every_day_text">Өдөр бүр</string>
@@ -600,7 +629,7 @@
     <string name="videos_item_mode_deletion_exit_text">Устгах горимоос гарах</string>
     <string name="videos_locked_folder_text">Дарж бичихээс хамгаалагдсан</string>
     <string name="videos_menu_delete">Устгах</string>
-    <string name="videos_menu_move_file">Файл зөөх</string>
+    <string name="videos_menu_move_file">Файлыг зөөх эсвэл хуулах</string>
     <string name="videos_menu_refresh">Сэргээх</string>
     <string name="videos_menu_select_all">Бүгдийг нь сонго</string>
     <string name="videos_menu_sorting">Эрэмбэлэх</string>
@@ -613,5 +642,6 @@
     <string name="videos_temporary_folder_text">Цаг хугацаатай видеонууд</string>
     <string name="videos_toolbar_subtitle">Видео бичлэгүүд</string>
     <string name="widget_start_stop_recording_transparent">Бичлэг эхлүүлэх/зогсоох ил тод товчлуур</string>
+    <string name="yes">Тийм</string>
     <string name="zoom_text">томруулах</string>
 </resources>

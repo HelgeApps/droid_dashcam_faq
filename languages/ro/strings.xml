@@ -41,9 +41,14 @@
     <string name="camera_msg_error_non_exposed_error">Nu s-a putut deschide camera selectată. Se întâmplă că nu toate camerele ascunse pot fi folosite de orice aplicație. Mulți producători permit utilizarea lor numai în aplicațiile lor native. Se va deschide camera implicită.</string>
     <string name="camera_msg_error_unknown_text">Camera este temporar (era) indisponibilă pentru a fi deschisă pe dispozitivul dvs. (eroare de sistem a camerei)</string>
     <string name="camera_support_error">A apărut o eroare în timpul utilizării camerei.</string>
+    <string name="cancel_copying_files">Anulați copierea fișierelor?</string>
     <string name="close">Închide</string>
+    <string name="copy_files">Copiați fișierele</string>
+    <string name="copy_selected_files_to_the_selected_folder">Copiați fișierele selectate în folderul selectat.</string>
+    <string name="copying_files">Copierea fișierelor</string>
     <string name="days">zile</string>
     <string name="default_text">Mod implicit</string>
+    <string name="delete_original_files_after_copying">Ștergeți fișierele originale după copiere</string>
     <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">Instrucțiuni mai detaliate pentru a dezactiva optimizarea bateriei și a permite activitatea în fundal a aplicației:</string>
     <string name="dialog_camera_not_found_msg_text">Acest dispozitiv nu are o cameră încorporată și nu acceptă camere externe. Închidere…</string>
     <string name="dialog_camera_not_found_text">Aparatul foto nu a fost găsit</string>
@@ -70,6 +75,7 @@
     <string name="donation_subs_one_text">Publicitatea este eliminată complet în timp ce abonamentul este activ.</string>
     <string name="donation_subs_text">Donează lunar</string>
     <string name="donation_subscriptions_can_be_cancelled_any_time_text">Abonamentul poate fi anulat oricând (butonul „anulare abonament” va fi disponibil, îl puteți anula și în aplicația Google Play)</string>
+    <string name="finished_copying_files">Am terminat de copiat fișierele.</string>
     <string name="format_altitude">Înălţime</string>
     <string name="format_degrees">Coordonatele</string>
     <string name="format_gb">Gigabyte</string>
@@ -96,6 +102,7 @@
     <string name="moto_api34_disable_limit_background_activity_all">Alternativ, dezactivați „Limitați activitatea în fundal” (folosind comutatorul) pentru a permite tuturor aplicațiilor să ruleze în fundal.</string>
     <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">Deschideți ecranul „Informații despre aplicație”, selectați „Utilizarea bateriei aplicației” și activați „Permiteți utilizarea în fundal” (de obicei, este activată în mod implicit).</string>
     <string name="moto_disable_manage_background_apps">Deschideți „Setări de sistem”, selectați „Baterie”, apoi selectați „Gestionați aplicațiile în fundal” (dacă este disponibilă) și dezactivați opțiunea „Utilizați Gestionați aplicațiile în fundal”. Opțiunea ar putea fi numită și „Îmbunătățiți bateria când este inactivă”.</string>
+    <string name="moving_files">Mutarea fișierelor</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Aplicația nu este exclusă de la optimizarea bateriei. Dacă camera nu rulează în fundal sau altceva, atunci adăugați această aplicație la excepțiile modului de economisire a energiei.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Dacă ați reinstalat aplicația pe Android 11, atunci fișierele vechi trebuie șterse manual</string>
     <string name="msg_auto_recording_service_was_stopped">Ați oprit serviciul de fundal pentru a porni automat înregistrarea video. Deschideți aplicația pentru a o lansa din nou.</string>
@@ -141,6 +148,7 @@
     <string name="msg_video_rec_battery_not_enough_text">Bateria nu este suficientă pentru a începe înregistrarea conform regulilor actuale.</string>
     <string name="msg_video_recorder_error">Ceva a mers prost cu video recorderul.</string>
     <string name="msg_voice_tts_lang_data_missing_text">Pachetul de limbă pentru TTS (Android Text-to-Speech) nu este instalat. Porniți internetul pentru a începe descărcarea</string>
+    <string name="no">Nu</string>
     <string name="notification_could_not_start_recording_service">Serviciul de înregistrare nu a pornit. Atingeți pentru a dezactiva optimizarea bateriei pentru această aplicație</string>
     <string name="notification_service_aux_checker">mufă audio (Aux)</string>
     <string name="notification_service_bl_checker">Bluetooth</string>
@@ -149,7 +157,7 @@
     <string name="notification_service_recreated_thermal_critical_msg">Înregistrarea video nu a fost reluată automat deoarece dispozitivul a raportat o stare termică critică sau mai mare. Puteți schimba acest comportament în „Aplicații → Setări → Setări de înregistrare” (atingeți această notificare pentru a deschide setările).</string>
     <string name="notification_service_recreated_thermal_severe_msg">Înregistrarea video nu a fost reluată automat deoarece dispozitivul a raportat o stare termică severă sau mai mare. Puteți modifica acest comportament în „Aplicații → Setări → Setări de înregistrare” (atingeți această notificare pentru a deschide setările).</string>
     <string name="notification_service_recreated_time_limit_msg">Înregistrarea video nu a fost reluată automat deoarece repornirea aplicației a avut loc după limita de timp configurată pentru reluarea automată. Puteți crește această limită la „Aplicație → Setări → Setări înregistrare” (atingeți această notificare pentru a deschide setările).</string>
-    <string name="notification_service_recreated_title">Sistemul a repornit aplicația în mod neașteptat.</string>
+    <string name="notification_service_recreated_title">Sistemul a închis aplicația în mod neașteptat.</string>
     <string name="notification_stop_text">Stop</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Pentru înregistrarea pornire/oprire automată</string>
     <string name="one_time_payment">Plată unică</string>
@@ -225,10 +233,18 @@
     <string name="prefs_beep_each_start_recording_sum_text">Semnal la începutul înregistrării următorului fișier video</string>
     <string name="prefs_beep_each_start_recording_text">Bip la înregistrare</string>
     <string name="prefs_camera_blurry">Încețoșat</string>
+    <string name="prefs_camera_for_the_shortcut">Cameră pentru scurtătură</string>
     <string name="prefs_camera_lens_distance_focus_default_hint">Resetați la valoarea implicită dacă imaginea apare neclară</string>
     <string name="prefs_camera_lens_distance_focus_title">Reglarea distanței de focalizare a obiectivului pentru obținerea focalizării infinite</string>
+    <string name="prefs_camera_main">Camera principală (sau ultima utilizată)</string>
+    <string name="prefs_camera_settings_for_the_shortcuts">Setările camerei pentru comenzi rapide</string>
+    <string name="prefs_camera_shortcut_first_start_stop_rec_text">Comandă rapidă pentru cameră #1</string>
+    <string name="prefs_camera_shortcut_sec_start_stop_rec_text">Comandă rapidă pentru cameră #2</string>
+    <string name="prefs_camera_shortcuts_desc">Comenzi rapide, widgeturi, dalele de setări rapide pentru lansatorul de aplicații.</string>
+    <string name="prefs_camera_shortcuts_settings_tip">Bifați „Setări cameră pentru comenzi rapide” din „Setări video” pentru a selecta camera pe care doriți să o utilizați pentru comanda rapidă nr. 1 sau comanda rapidă nr. 2.</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Este posibil ca producătorul dispozitivului să nu ofere acces la toate camerele, așa că este posibil ca unele să nu se deschidă</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Este posibil ca producătorul dispozitivului să nu ofere o cameră cu lentile largi pentru toate aplicațiile</string>
+    <string name="prefs_change_units_by_tap_on_main_screen">Schimbați unitățile de măsură a vitezei atingând valoarea vitezei de pe ecranul principal.</string>
     <string name="prefs_consent_information_privacy_options">Opțiuni de confidențialitate (informații privind consimțământul)</string>
     <string name="prefs_continuous_recording">Înregistrare continuă</string>
     <string name="prefs_continuous_recording_desc">Începe un fișier nou când cel curent atinge durata setată. Dacă este dezactivată, înregistrarea se oprește la limită.</string>
@@ -250,10 +266,13 @@
     <string name="prefs_g_sensor_force_very_high">Foarte inalt</string>
     <string name="prefs_g_sensor_force_very_low">Foarte jos</string>
     <string name="prefs_gps_accuracy_text">Ignorați datele GPS cu eroarea de mai sus</string>
+    <string name="prefs_gps_coordinates_format">Formatul coordonatelor GPS</string>
     <string name="prefs_gps_disabled_gps_and_google_text">Afișați avertisment când GPS și geolocalizarea Google sunt dezactivate</string>
     <string name="prefs_gps_disabled_gps_only_text">Afișați avertismentul numai dacă GPS-ul este dezactivat</string>
     <string name="prefs_gps_disabled_no_warning_text">Nu afișați butonul de avertizare și remediere</string>
     <string name="prefs_gps_disabled_warning_text">Avertizare GPS dezactivat, buton de remediere</string>
+    <string name="prefs_gps_format_decimal_degrees">Grade zecimale</string>
+    <string name="prefs_gps_format_degrees_minutes_seconds">Grade/Minute/Secunde</string>
     <string name="prefs_info_more_category_text">Informații /Mai multe…</string>
     <string name="prefs_kill_services_sum_text">Dispozitivul tău are setări care controlează utilizarea în fundal (sau pornirea automată). Apasă aici pentru a permite utilizarea în fundal sau pentru a adăuga aplicația la lista de excepții dacă este restricționată.</string>
     <string name="prefs_kill_services_text">Permite lucrul de fundal</string>
@@ -273,6 +292,7 @@
     <string name="prefs_location_power_saving_to_get_updates_in_background">Economisirea energiei ar trebui să fie dezactivată pentru a putea primi actualizări ale locației (GPS) în fundal.</string>
     <string name="prefs_location_provider_method_text">Metoda de achiziție a locației (GPS)</string>
     <string name="prefs_location_update_frequency_text">Rata de actualizare GPS</string>
+    <string name="prefs_main_camera_changes_to_latest_used_camera_for_shortcut">Camera principală se schimbă la cea mai recentă cameră utilizată pentru Comandă rapidă nr. 1 sau Comandă rapidă nr. 2.</string>
     <string name="prefs_meters_accuracy_value_text">metri de precizie</string>
     <string name="prefs_open_source_notices_text">Notificări despre sursa deschisă</string>
     <string name="prefs_optical_zoom_text">Zoom optic (zoom) /distanță focală</string>
@@ -361,6 +381,10 @@
     <string name="prefs_share_sum_text">Trimite această aplicație prietenilor tăi</string>
     <string name="prefs_share_text">Imparte asta</string>
     <string name="prefs_shortcut_launcher_has_been_added">S-a adăugat comanda rapidă (lansatorul).</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove">Scoateți lansatorul</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove_desc">Pentru a-l elimina complet, este posibil să fie nevoie să îl eliminați manual de pe ecranul de pornire (atingeți-l și mențineți apăsat, apoi selectați „Eliminare”), să reporniți aplicația de pornire sau chiar să reporniți telefonul.</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_sum">Adaugă un lansator de aplicații clasic separat, care este de obicei vizibil în lista Toate aplicațiile (sertarul de aplicații), pentru a porni/opri înregistrarea video. Pe unele dispozitive și versiuni de Android, acesta poate fi atribuit acțiunii de dublă apăsare a tastei de pornire/laterală a telefonului, de exemplu pe dispozitivele Samsung care rulează Android 12 sau o versiune ulterioară. Versiunile mai noi, însă, nu par să mai permită acest lucru (cel puțin pe dispozitivele Samsung).</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_title">Adăugați lansatorul clasic pentru aplicație</string>
     <string name="prefs_shortcut_rec_start_launcher_sum">Pentru a porni/opri înregistrarea fără a lansa ecranul principal</string>
     <string name="prefs_shortcut_rec_start_launcher_title">Adăugați o comandă rapidă (lansatorul)</string>
     <string name="prefs_show_audio_btn_text">Pornire/oprire înregistrare audio</string>
@@ -380,6 +404,8 @@
     <string name="prefs_start_stop_toast_message_text">Afișați un mesaj când începeți sau opriți înregistrarea în timpul înregistrării în fundal</string>
     <string name="prefs_start_stop_voice_sum_text">Sunet la pornire, oprire sau eroare de înregistrare</string>
     <string name="prefs_start_stop_voice_text">Starea înregistrării sunetului</string>
+    <string name="prefs_storage_select_folder_for_photos_hint_msg">Selectați un folder în care vor fi salvate fotografiile.</string>
+    <string name="prefs_storage_select_folder_for_records_hint_msg">Selectați un folder în care vor fi salvate înregistrările video.</string>
     <string name="prefs_subtitles_address_text">Adresa</string>
     <string name="prefs_subtitles_color_text">Selectați culoarea subtitrarilor</string>
     <string name="prefs_subtitles_coords_text">Coordonatele</string>
@@ -517,6 +543,7 @@
     <string name="recording_file_name_prefix">Prefix pentru numele fișierelor video</string>
     <string name="recording_start_short_text">Început</string>
     <string name="recording_start_text">Începe să înregistrezi</string>
+    <string name="recording_started_after_system_recreation_text">Înregistrarea video pornește după ce aplicația a fost închisă în mod neașteptat de sistem.</string>
     <string name="recording_started_failed_text">Eroare la începerea înregistrării</string>
     <string name="recording_started_text">Înregistrarea a început</string>
     <string name="recording_started_with_audio_text">A început o nouă înregistrare video cu înregistrare audio</string>
@@ -548,6 +575,7 @@
     <string name="records_pin_lock_top_bar_title">Blocarea înregistrărilor</string>
     <string name="reset">Resetare</string>
     <string name="snackbar_dismiss">Ascunde</string>
+    <string name="start_copying_files">Începeți copierea fișierelor</string>
     <string name="storage_external_single">Card microSD</string>
     <string name="storage_phone">Memoria telefonului</string>
     <string name="subscription_benefit_all_premium_features">Orice funcții premium viitoare</string>
@@ -566,6 +594,7 @@
     <string name="subscription_subscribe_text">Abonează-te</string>
     <string name="subscription_with_free_trial">Cu perioadă de probă gratuită</string>
     <string name="tap_to_allow_background_recording">Atingeți pentru a permite înregistrarea video în fundal.</string>
+    <string name="the_current_copy_files_operation_will_be_cancelled">Operațiunea curentă de copiere a fișierelor va fi anulată.</string>
     <string name="timer_auto_start">Temporizator</string>
     <string name="timer_auto_start_dlg_type_title">Setați un temporizator pentru a începe înregistrarea</string>
     <string name="timer_auto_start_every_day_text">În fiecare zi</string>
@@ -600,7 +629,7 @@
     <string name="videos_item_mode_deletion_exit_text">Ieși din modul de ștergere</string>
     <string name="videos_locked_folder_text">Suprascriere protejat</string>
     <string name="videos_menu_delete">Șterge</string>
-    <string name="videos_menu_move_file">Mută fișierul</string>
+    <string name="videos_menu_move_file">Mutați sau copiați fișierul</string>
     <string name="videos_menu_refresh">Reîmprospăta</string>
     <string name="videos_menu_select_all">Alegeți pe toate</string>
     <string name="videos_menu_sorting">Triere</string>
@@ -613,5 +642,6 @@
     <string name="videos_temporary_folder_text">Clipuri cronometrate</string>
     <string name="videos_toolbar_subtitle">Înregistrări video</string>
     <string name="widget_start_stop_recording_transparent">Buton transparent pentru pornirea/oprirea înregistrării</string>
+    <string name="yes">Da</string>
     <string name="zoom_text">zoom</string>
 </resources>

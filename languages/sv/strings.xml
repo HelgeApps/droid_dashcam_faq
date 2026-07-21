@@ -41,9 +41,14 @@
     <string name="camera_msg_error_non_exposed_error">Det gick inte att öppna den valda kameran. Det råkar vara så att inte alla dolda kameror kan användas av alla program. Många tillverkare tillåter endast deras användning i sina inhemska applikationer. Standardkameran öppnas.</string>
     <string name="camera_msg_error_unknown_text">Kameran är tillfälligt (var) inte tillgänglig att öppna på din enhet (kamerasystemfel)</string>
     <string name="camera_support_error">Ett fel har uppstått när du använder kameran.</string>
+    <string name="cancel_copying_files">Avbryt kopieringen av filer?</string>
     <string name="close">Stänga</string>
+    <string name="copy_files">Kopiera filer</string>
+    <string name="copy_selected_files_to_the_selected_folder">Kopiera valda filer till den valda mappen.</string>
+    <string name="copying_files">Kopiera filer</string>
     <string name="days">dagar</string>
     <string name="default_text">Standard</string>
+    <string name="delete_original_files_after_copying">Radera originalfiler efter kopiering</string>
     <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">Mer detaljerade instruktioner för att inaktivera batterioptimering och tillåta bakgrundsaktivitet för appen:</string>
     <string name="dialog_camera_not_found_msg_text">Den här enheten har ingen inbyggd kamera och stöder inte externa kameror. Stängning…</string>
     <string name="dialog_camera_not_found_text">Kameran hittades inte</string>
@@ -70,6 +75,7 @@
     <string name="donation_subs_one_text">Reklam tas bort helt medan prenumerationen är aktiv.</string>
     <string name="donation_subs_text">Donera månadsvis</string>
     <string name="donation_subscriptions_can_be_cancelled_any_time_text">Prenumerationen kan avbrytas när som helst (knappen \"avbryt prenumeration\" kommer att vara tillgänglig, du kan också avbryta den i Google Play-appen)</string>
+    <string name="finished_copying_files">Kopieringen av filer är klar.</string>
     <string name="format_altitude">Höjd</string>
     <string name="format_degrees">Koordinater</string>
     <string name="format_gb">Gigabyte</string>
@@ -96,6 +102,7 @@
     <string name="moto_api34_disable_limit_background_activity_all">Alternativt kan du inaktivera \"Begränsa bakgrundsaktivitet\" (med hjälp av växlingsknappen) för att tillåta att alla appar körs i bakgrunden.</string>
     <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">Öppna skärmen \"Appinfo\", välj \"Appens batterianvändning\" och aktivera \"Tillåt bakgrundsanvändning\" (det är vanligtvis aktiverat som standard).</string>
     <string name="moto_disable_manage_background_apps">Öppna \"Systeminställningar\", välj \"Batteri\" och välj sedan \"Hantera bakgrundsappar\" (om tillgängligt) och inaktivera alternativet \"Använd Hantera bakgrundsappar\". Alternativet kan också heta \"Förbättra batteri vid inaktivitet\".</string>
+    <string name="moving_files">Flytta filer</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Applikationen är inte utesluten från batterioptimering. Om kameran inte körs i bakgrunden eller något annat, lägg till denna applikation till undantagen för energisparläget.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Om du installerade om applikationen på Android 11 måste de gamla filerna raderas manuellt</string>
     <string name="msg_auto_recording_service_was_stopped">Du har stoppat bakgrundstjänsten för att automatiskt starta videoinspelning. Öppna programmet för att starta det igen.</string>
@@ -141,6 +148,7 @@
     <string name="msg_video_rec_battery_not_enough_text">Batteriet har inte tillräckligt med ström för att starta inspelning enligt gällande regler.</string>
     <string name="msg_video_recorder_error">Något gick fel med videobandspelaren.</string>
     <string name="msg_voice_tts_lang_data_missing_text">Språkpaketet för TTS (Android Text-to-Speech) är inte installerat. Slå på internet för att börja ladda ner</string>
+    <string name="no">Inga</string>
     <string name="notification_could_not_start_recording_service">Inspelningstjänsten kunde inte starta. Tryck för att inaktivera batterioptimering för den här appen</string>
     <string name="notification_service_aux_checker">ljudjack (Aux)</string>
     <string name="notification_service_bl_checker">Blåtand</string>
@@ -149,7 +157,7 @@
     <string name="notification_service_recreated_thermal_critical_msg">Videoinspelningen återupptogs inte automatiskt eftersom enheten rapporterade en kritisk temperatur eller högre. Du kan ändra detta beteende i \"App → Inställningar → Inspelningsinställningar\" (tryck på den här aviseringen för att öppna inställningarna).</string>
     <string name="notification_service_recreated_thermal_severe_msg">Videoinspelningen återupptogs inte automatiskt eftersom enheten rapporterade en allvarlig temperaturökning eller högre. Du kan ändra detta beteende i \"App → Inställningar → Inspelningsinställningar\" (tryck på den här aviseringen för att öppna inställningarna).</string>
     <string name="notification_service_recreated_time_limit_msg">Videoinspelningen återupptogs inte automatiskt eftersom appen startades om efter den konfigurerade tidsgränsen för automatisk återupptagning. Du kan öka denna gräns under \"App → Inställningar → Inspelningsinställningar\" (tryck på den här aviseringen för att öppna inställningarna).</string>
-    <string name="notification_service_recreated_title">Systemet startade oväntat om appen.</string>
+    <string name="notification_service_recreated_title">Systemet stängde oväntat appen.</string>
     <string name="notification_stop_text">Sluta</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">För automatisk på/av-inspelning</string>
     <string name="one_time_payment">Engångsbetalning</string>
@@ -225,10 +233,18 @@
     <string name="prefs_beep_each_start_recording_sum_text">Signal i början av inspelningen av nästa videofil</string>
     <string name="prefs_beep_each_start_recording_text">Pip vid inspelning</string>
     <string name="prefs_camera_blurry">Suddig</string>
+    <string name="prefs_camera_for_the_shortcut">Kamera för genvägen</string>
     <string name="prefs_camera_lens_distance_focus_default_hint">Återställ till standardvärdet om bilden ser suddig ut</string>
     <string name="prefs_camera_lens_distance_focus_title">Justering av objektivets fokusavstånd för att uppnå oändligt fokus</string>
+    <string name="prefs_camera_main">Huvudkameran (eller den senast använda)</string>
+    <string name="prefs_camera_settings_for_the_shortcuts">Kamerainställningar för genvägarna</string>
+    <string name="prefs_camera_shortcut_first_start_stop_rec_text">Kameragenväg #1</string>
+    <string name="prefs_camera_shortcut_sec_start_stop_rec_text">Kameragenväg #2</string>
+    <string name="prefs_camera_shortcuts_desc">Genvägar, widgetar och snabbinställningspaneler för appstartaren.</string>
+    <string name="prefs_camera_shortcuts_settings_tip">Kontrollera \"Kamerainställningar för genvägar\" under \"Videoinställningar\" för att välja den kamera du vill använda för genväg #1 eller genväg #2.</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Enhetstillverkaren kanske inte ger åtkomst till alla kameror, så vissa kanske inte öppnas</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Enhetstillverkaren kanske inte tillhandahåller en vidvinkelkamera för alla applikationer</string>
+    <string name="prefs_change_units_by_tap_on_main_screen">Ändra hastighetsenheterna genom att trycka på hastighetsvärdet på huvudskärmen.</string>
     <string name="prefs_consent_information_privacy_options">Sekretessalternativ (samtyckesinformation)</string>
     <string name="prefs_continuous_recording">Kontinuerlig inspelning</string>
     <string name="prefs_continuous_recording_desc">Startar en ny fil när den nuvarande når den inställda längden. Om den är inaktiverad stoppas inspelningen vid gränsen.</string>
@@ -250,10 +266,13 @@
     <string name="prefs_g_sensor_force_very_high">Väldigt högt</string>
     <string name="prefs_g_sensor_force_very_low">Väldigt låg</string>
     <string name="prefs_gps_accuracy_text">Ignorera GPS-data med felet ovan</string>
+    <string name="prefs_gps_coordinates_format">GPS-koordinatformat</string>
     <string name="prefs_gps_disabled_gps_and_google_text">Visa varning när GPS och Google geolokalisering är inaktiverade</string>
     <string name="prefs_gps_disabled_gps_only_text">Visa endast varning om GPS är inaktiverat</string>
     <string name="prefs_gps_disabled_no_warning_text">Visa inte varnings- och fixknapp</string>
     <string name="prefs_gps_disabled_warning_text">GPS inaktiverad varning, fix-knapp</string>
+    <string name="prefs_gps_format_decimal_degrees">Decimalgrader</string>
+    <string name="prefs_gps_format_degrees_minutes_seconds">Grader/Minuter/Sekunder</string>
     <string name="prefs_info_more_category_text">Information /Mer…</string>
     <string name="prefs_kill_services_sum_text">Din enhet har inställningar som styr bakgrundsanvändning (eller automatisk start). Tryck här för att tillåta bakgrundsanvändning eller lägg till appen i undantagslistan om den är begränsad.</string>
     <string name="prefs_kill_services_text">Tillåter bakgrundsarbete</string>
@@ -273,6 +292,7 @@
     <string name="prefs_location_power_saving_to_get_updates_in_background">Energisparläge bör stängas av för att kunna få platsuppdateringar (GPS) i bakgrunden.</string>
     <string name="prefs_location_provider_method_text">Platsförvärvningsmetod (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS-uppdateringshastighet</string>
+    <string name="prefs_main_camera_changes_to_latest_used_camera_for_shortcut">Huvudkameran ändras till den senast använda kameran för genväg #1 eller genväg #2.</string>
     <string name="prefs_meters_accuracy_value_text">meters noggrannhet</string>
     <string name="prefs_open_source_notices_text">Meddelanden om öppen källkod</string>
     <string name="prefs_optical_zoom_text">Optisk zoom (Zoom) /Brännvidd</string>
@@ -361,6 +381,10 @@
     <string name="prefs_share_sum_text">Skicka den här appen till dina vänner</string>
     <string name="prefs_share_text">Dela detta</string>
     <string name="prefs_shortcut_launcher_has_been_added">Genväg (startprogram) har lagts till</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove">Ta bort startprogrammet</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove_desc">För att ta bort den helt kan du behöva ta bort den manuellt från startskärmen (tryck och håll ner den och välj sedan \"Ta bort\"), starta om startskärmen eller till och med starta om telefonen.</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_sum">Lägger till en separat klassisk appstartare som vanligtvis syns i listan Alla appar (applådan) för att starta/stoppa videoinspelning. På vissa enheter och Android-versioner kan den tilldelas telefonens dubbeltryckning av strömbrytaren/sidoknappen, till exempel på Samsung-enheter som kör Android 12 eller lägre. Nyare versioner verkar dock inte längre tillåta detta (åtminstone inte på Samsung-enheter).</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_title">Lägg till klassisk startprogram för appen</string>
     <string name="prefs_shortcut_rec_start_launcher_sum">För att starta/stoppa inspelning utan att starta huvudskärmen</string>
     <string name="prefs_shortcut_rec_start_launcher_title">Lägg till genväg (startprogram)</string>
     <string name="prefs_show_audio_btn_text">På/av ljudinspelning</string>
@@ -380,6 +404,8 @@
     <string name="prefs_start_stop_toast_message_text">Visa ett meddelande när du startar eller stoppar inspelning under bakgrundsinspelning</string>
     <string name="prefs_start_stop_voice_sum_text">Ljud vid start, stopp eller inspelningsfel</string>
     <string name="prefs_start_stop_voice_text">Ljudinspelningsstatus</string>
+    <string name="prefs_storage_select_folder_for_photos_hint_msg">Välj en mapp där fotona ska sparas.</string>
+    <string name="prefs_storage_select_folder_for_records_hint_msg">Välj en mapp där videoinspelningar ska sparas.</string>
     <string name="prefs_subtitles_address_text">Adressen</string>
     <string name="prefs_subtitles_color_text">Välj undertextfärg</string>
     <string name="prefs_subtitles_coords_text">Koordinater</string>
@@ -517,6 +543,7 @@
     <string name="recording_file_name_prefix">Prefix för videofilnamn</string>
     <string name="recording_start_short_text">Start</string>
     <string name="recording_start_text">Börja spela in</string>
+    <string name="recording_started_after_system_recreation_text">Startar videoinspelning efter att programmet oväntat stängts av systemet.</string>
     <string name="recording_started_failed_text">Fel vid start av inspelning</string>
     <string name="recording_started_text">Inspelningen har börjat</string>
     <string name="recording_started_with_audio_text">En ny videoinspelning med ljudinspelning har påbörjats</string>
@@ -548,6 +575,7 @@
     <string name="records_pin_lock_top_bar_title">Inspelningslås</string>
     <string name="reset">Återställa</string>
     <string name="snackbar_dismiss">Dölja</string>
+    <string name="start_copying_files">Börja kopiera filer</string>
     <string name="storage_external_single">MicroSD-kort</string>
     <string name="storage_phone">Telefon minne</string>
     <string name="subscription_benefit_all_premium_features">Alla framtida premiumfunktioner</string>
@@ -566,6 +594,7 @@
     <string name="subscription_subscribe_text">Prenumerera</string>
     <string name="subscription_with_free_trial">Med gratis provperiod</string>
     <string name="tap_to_allow_background_recording">Tryck för att tillåta bakgrundsvideoinspelning.</string>
+    <string name="the_current_copy_files_operation_will_be_cancelled">Den aktuella kopieringsåtgärden för filer kommer att avbrytas.</string>
     <string name="timer_auto_start">Timer</string>
     <string name="timer_auto_start_dlg_type_title">Ställ in en timer för att starta inspelningen</string>
     <string name="timer_auto_start_every_day_text">Varje dag</string>
@@ -600,7 +629,7 @@
     <string name="videos_item_mode_deletion_exit_text">Avsluta raderingsläget</string>
     <string name="videos_locked_folder_text">Överskrivningsskyddad</string>
     <string name="videos_menu_delete">Radera</string>
-    <string name="videos_menu_move_file">Flytta fil</string>
+    <string name="videos_menu_move_file">Flytta eller kopiera fil</string>
     <string name="videos_menu_refresh">Uppdatera</string>
     <string name="videos_menu_select_all">Välj alla</string>
     <string name="videos_menu_sorting">Sortering</string>
@@ -613,5 +642,6 @@
     <string name="videos_temporary_folder_text">Tidsinställda videor</string>
     <string name="videos_toolbar_subtitle">Videoinspelningar</string>
     <string name="widget_start_stop_recording_transparent">Transparent knapp för att starta/stoppa inspelning</string>
+    <string name="yes">Ja</string>
     <string name="zoom_text">zoom</string>
 </resources>

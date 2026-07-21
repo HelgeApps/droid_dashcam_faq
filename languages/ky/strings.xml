@@ -41,9 +41,14 @@
     <string name="camera_msg_error_non_exposed_error">Тандалган камера ачылбай койду. Ошентип, бардык жашыруун камераларды кандайдыр бир тиркеме колдоно албайт. Көптөгөн өндүрүүчүлөр аларды жергиликтүү тиркемелерде гана колдонууга уруксат беришет. Демейки камера ачылат.</string>
     <string name="camera_msg_error_unknown_text">Камера түзмөгүңүздө убактылуу ачыла албайт (камера тутумунун катасы)</string>
     <string name="camera_support_error">Камераны колдонууда ката кетти.</string>
+    <string name="cancel_copying_files">Файлдарды көчүрүү токтотулсунбу?</string>
     <string name="close">Жабуу</string>
+    <string name="copy_files">Файлдарды көчүрүү</string>
+    <string name="copy_selected_files_to_the_selected_folder">Тандалган файлдарды тандалган папкага көчүрүңүз.</string>
+    <string name="copying_files">Файлдарды көчүрүү</string>
     <string name="days">күн</string>
     <string name="default_text">Демейки</string>
+    <string name="delete_original_files_after_copying">Көчүрүлгөндөн кийин түпнуска файлдарды жок кылыңыз</string>
     <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">Колдонмонун батареяны оптималдаштыруусун өчүрүү жана фондук иш-аракеттерге уруксат берүү боюнча кененирээк көрсөтмөлөр:</string>
     <string name="dialog_camera_not_found_msg_text">Бул түзмөктө камтылган камера жок жана тышкы камераларды колдоого албайт. Жабылууда…</string>
     <string name="dialog_camera_not_found_text">Камера табылган жок</string>
@@ -70,6 +75,7 @@
     <string name="donation_subs_one_text">Жазылуу активдүү болуп турганда, жарнама толугу менен өчүрүлөт.</string>
     <string name="donation_subs_text">Ай сайын кайрымдуулук кылуу</string>
     <string name="donation_subscriptions_can_be_cancelled_any_time_text">Жазылууну каалаган убакта жокко чыгарса болот (\"жазылууну жокко чыгаруу\" баскычы жеткиликтүү болот, сиз аны Google Play тиркемесинде да жокко чыгарсаңыз болот)</string>
+    <string name="finished_copying_files">Файлдарды көчүрүү аяктады.</string>
     <string name="format_altitude">Бийиктиги</string>
     <string name="format_degrees">Координаттар</string>
     <string name="format_gb">Гигабайт</string>
@@ -96,6 +102,7 @@
     <string name="moto_api34_disable_limit_background_activity_all">Же болбосо, бардык колдонмолордун фондо иштешине уруксат берүү үчүн \"Фондук аракеттерди чектөөнү\" өчүрүңүз (которгучту колдонуп).</string>
     <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">\"Колдонмо жөнүндө маалымат\" экранын ачып, \"Колдонмонун батареясын керектөөнү\" тандап, \"Фондо колдонууга уруксат берүүнү\" иштетиңиз (ал адатта демейки шартта иштетилет).</string>
     <string name="moto_disable_manage_background_apps">\"Система жөндөөлөрүн\" ачып, \"Батареяны\" тандаңыз, андан кийин \"Фондук колдонмолорду башкарууну\" (эгер бар болсо) тандап, \"Фондук колдонмолорду башкарууну колдонуу\" опциясын өчүрүңүз. Бул опция \"Иштебей турганда батареяны жакшыртуу\" деп да аталышы мүмкүн.</string>
+    <string name="moving_files">Файлдарды жылдыруу</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Колдонмо батареяны оптималдаштыруудан тышкары эмес. Эгерде камера фондо иштебесе же башка нерсе болсо, анда бул тиркемени энергияны үнөмдөө режиминин өзгөчөлүктөрүнө кошуңуз.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Эгер сиз тиркемени Android 11ге кайра орноткон болсоңуз, анда эски файлдар кол менен жок кылынышы керек</string>
     <string name="msg_auto_recording_service_was_stopped">Сиз видео жазууну автоматтык түрдө баштоо үчүн фон кызматын токтоттуңуз. Аны кайра иштетүү үчүн колдонмону ачыңыз.</string>
@@ -141,6 +148,7 @@
     <string name="msg_video_rec_battery_not_enough_text">Учурдагы эрежелер боюнча жаздырууну баштоо үчүн батареянын кубаты жетишсиз.</string>
     <string name="msg_video_recorder_error">Видео жазгычта бир жерден ката кетти.</string>
     <string name="msg_voice_tts_lang_data_missing_text">TTS (Android Text-to-Speech) тил пакети орнотулган эмес. Жүктөп баштоо үчүн интернетти күйгүзүңүз</string>
+    <string name="no">Жок</string>
     <string name="notification_could_not_start_recording_service">Жаздыруу кызматы башталбай калды. Бул колдонмо үчүн батареяны оптималдаштырууну өчүрүү үчүн таптап коюңуз</string>
     <string name="notification_service_aux_checker">аудио уячасы (Aux)</string>
     <string name="notification_service_bl_checker">bluetooth</string>
@@ -149,7 +157,7 @@
     <string name="notification_service_recreated_thermal_critical_msg">Видео жаздыруу автоматтык түрдө улантылган жок, анткени түзмөк \"Критикалык жылуулук абалы\" же андан жогору экенин билдирди. Бул жүрүм-турумду \"Колдонмо → Орнотуулар → Жаздыруу жөндөөлөрү\" бөлүмүнөн өзгөртө аласыз (жөндөөлөрдү ачуу үчүн бул эскертмени таптаңыз).</string>
     <string name="notification_service_recreated_thermal_severe_msg">Видео жаздыруу автоматтык түрдө улантылган жок, анткени түзмөк \"Оор температура\" же андан жогору абал жөнүндө кабарлады. Бул жүрүм-турумду \"Колдонмо → Орнотуулар → Жаздыруу жөндөөлөрү\" бөлүмүнөн өзгөртө аласыз (жөндөөлөрдү ачуу үчүн бул эскертмени таптаңыз).</string>
     <string name="notification_service_recreated_time_limit_msg">Видео жаздыруу автоматтык түрдө улантылган жок, анткени колдонмо автоматтык түрдө улантылган убакыт чегинен кийин кайра жүктөлдү. Бул чектөөнү \"Колдонмо → Орнотуулар → Жаздыруу жөндөөлөрү\" бөлүмүнөн көбөйтө аласыз (жөндөөлөрдү ачуу үчүн бул эскертмени басыңыз).</string>
-    <string name="notification_service_recreated_title">Система күтүүсүздөн колдонмону кайра иштетти.</string>
+    <string name="notification_service_recreated_title">Система күтүүсүздөн колдонмону жапты.</string>
     <string name="notification_stop_text">Токто</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Автоматтык күйгүзүү/өчүрүү үчүн</string>
     <string name="one_time_payment">Бир жолку төлөм</string>
@@ -225,10 +233,18 @@
     <string name="prefs_beep_each_start_recording_sum_text">Кийинки видеофайлдын жазуусунун башталышында сигнал</string>
     <string name="prefs_beep_each_start_recording_text">Жазып жатканда сигнал</string>
     <string name="prefs_camera_blurry">Бүдөмүк</string>
+    <string name="prefs_camera_for_the_shortcut">Кыска жол үчүн камера</string>
     <string name="prefs_camera_lens_distance_focus_default_hint">Эгер сүрөт бүдөмүк көрүнсө, демейки мааниге кайтаруу</string>
     <string name="prefs_camera_lens_distance_focus_title">Чексиз фокуска жетүү үчүн линзанын фокусунун аралыгын тууралоо</string>
+    <string name="prefs_camera_main">Негизги камера (же акыркы колдонулган)</string>
+    <string name="prefs_camera_settings_for_the_shortcuts">Кыска жолдор үчүн камера жөндөөлөрү</string>
+    <string name="prefs_camera_shortcut_first_start_stop_rec_text">Камера кыска жолу #1</string>
+    <string name="prefs_camera_shortcut_sec_start_stop_rec_text">Камера кыска жолу #2</string>
+    <string name="prefs_camera_shortcuts_desc">Колдонмону ишке киргизгичтин кыска жолдору, виджеттер, тез жөндөөлөр плиткалары.</string>
+    <string name="prefs_camera_shortcuts_settings_tip">1-тез жол же 2-тез жол үчүн колдонгуңуз келген камераны тандоо үчүн \"Видео жөндөөлөрү\" астындагы \"Жарлык жолдор үчүн камера жөндөөлөрүн\" текшериңиз.</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Түзмөктүн өндүрүүчүсү бардык камераларга кирүү мүмкүнчүлүгүн бербеши мүмкүн, андыктан айрымдары ачылбай калышы мүмкүн</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Түзмөктүн өндүрүүчүсү бардык колдонмолор үчүн кенен линзалуу камераны камсыз кылбашы мүмкүн</string>
+    <string name="prefs_change_units_by_tap_on_main_screen">Негизги экрандагы ылдамдык маанисин таптап, ылдамдык бирдиктерин өзгөртүңүз.</string>
     <string name="prefs_consent_information_privacy_options">Купуялык параметрлери (Макулдук маалыматы)</string>
     <string name="prefs_continuous_recording">Үзгүлтүксүз жаздыруу</string>
     <string name="prefs_continuous_recording_desc">Учурдагы файл белгиленген убакытка жеткенде жаңы файлды баштайт. Эгер өчүрүлсө, жаздыруу чегинде токтойт.</string>
@@ -250,10 +266,13 @@
     <string name="prefs_g_sensor_force_very_high">Абдан жогору</string>
     <string name="prefs_g_sensor_force_very_low">Абдан төмөн</string>
     <string name="prefs_gps_accuracy_text">Жогоруда ката менен GPS дайындарын этибарга албаңыз</string>
+    <string name="prefs_gps_coordinates_format">GPS координаталарынын форматы</string>
     <string name="prefs_gps_disabled_gps_and_google_text">GPS жана Google геолокациясы өчүрүлгөндө эскертүү көрсөтүү</string>
     <string name="prefs_gps_disabled_gps_only_text">GPS өчүрүлгөндө гана эскертүү көрсөтүү</string>
     <string name="prefs_gps_disabled_no_warning_text">Эскертүү жана оңдоо баскычын көрсөтпө</string>
     <string name="prefs_gps_disabled_warning_text">GPS өчүрүлгөн эскертүү, оңдоо баскычы</string>
+    <string name="prefs_gps_format_decimal_degrees">Ондук даражалар</string>
+    <string name="prefs_gps_format_degrees_minutes_seconds">Градус/Мүнөт/Секунд</string>
     <string name="prefs_info_more_category_text">Маалымат /Кененирээк…</string>
     <string name="prefs_kill_services_sum_text">Түзмөгүңүздө фондо колдонууну (же автоматтык түрдө баштоону) башкаруучу жөндөөлөр бар. Фондо колдонууга уруксат берүү же колдонмо чектелген болсо, аны өзгөчө учурлар тизмесине кошуу үчүн бул жерди басыңыз.</string>
     <string name="prefs_kill_services_text">Фондук иштөөгө уруксат берүү</string>
@@ -273,6 +292,7 @@
     <string name="prefs_location_power_saving_to_get_updates_in_background">Жайгашкан жерди (GPS) жаңыртууларды фондо алуу үчүн энергияны үнөмдөө өчүрүлүшү керек.</string>
     <string name="prefs_location_provider_method_text">Жайгашкан жерди аныктоо ыкмасы (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS жаңыртуу ылдамдыгы</string>
+    <string name="prefs_main_camera_changes_to_latest_used_camera_for_shortcut">Негизги камера №1 же №2 кыска жол үчүн эң акыркы колдонулган камерага өзгөрөт.</string>
     <string name="prefs_meters_accuracy_value_text">метр тактык</string>
     <string name="prefs_open_source_notices_text">Ачык булактуу эскертүүлөр</string>
     <string name="prefs_optical_zoom_text">Оптикалык масштаб (кичирейтүү) /Фокустук узундук</string>
@@ -361,6 +381,10 @@
     <string name="prefs_share_sum_text">Бул колдонмону досторуңузга жөнөтүңүз</string>
     <string name="prefs_share_text">Муну бөлүшүңүз</string>
     <string name="prefs_shortcut_launcher_has_been_added">Жарлык (ишке киргизгич) кошулду</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove">Ишке киргизгичти алып салыңыз</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove_desc">Аны толугу менен алып салуу үчүн, аны башкы экраныңыздан кол менен алып салуу керек болушу мүмкүн (аны басып кармап туруңуз, андан кийин \"Алып салуу\" дегенди тандаңыз), башкы ишке киргизгичти өчүрүп-күйгүзүңүз же телефонуңузду өчүрүп-күйгүзүңүз.</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_sum">Видео жаздырууну баштоо/токтотуу үчүн, адатта, \"Бардык колдонмолор\" тизмесинде (колдонмо суурмасында) көрүнгөн өзүнчө классикалык колдонмо ишке киргизгичти кошот. Айрым түзмөктөрдө жана Android версияларында, мисалы, Android 12 же андан кийинки версиясында иштеген Samsung түзмөктөрүндө, аны телефондун \"Кубат/Каптал баскычын\" эки жолу басуу аракетине дайындоого болот. Бирок, жаңы версиялары муну мындан ары жол бербейт окшойт (жок дегенде Samsung түзмөктөрүндө).</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_title">Колдонмо үчүн классикалык ишке киргизгичти кошуу</string>
     <string name="prefs_shortcut_rec_start_launcher_sum">Негизги экранды иштетпестен жазууну баштоо/токтотууга</string>
     <string name="prefs_shortcut_rec_start_launcher_title">Жарлык кошуу (ишке киргизгич)</string>
     <string name="prefs_show_audio_btn_text">Аудио жазууну күйгүзүү /өчүрүү</string>
@@ -380,6 +404,8 @@
     <string name="prefs_start_stop_toast_message_text">Фондук жаздыруу учурунда жазууну баштаганда же токтотууда билдирүүнү көрсөтүү</string>
     <string name="prefs_start_stop_voice_sum_text">Баштоо, токтотуу же жаздыруу катасы</string>
     <string name="prefs_start_stop_voice_text">Үн жаздыруу абалы</string>
+    <string name="prefs_storage_select_folder_for_photos_hint_msg">Сүрөттөр сактала турган папканы тандаңыз.</string>
+    <string name="prefs_storage_select_folder_for_records_hint_msg">Видео жаздыруулар сактала турган папканы тандаңыз.</string>
     <string name="prefs_subtitles_address_text">Дарек</string>
     <string name="prefs_subtitles_color_text">Субтитр түсүн тандаңыз</string>
     <string name="prefs_subtitles_coords_text">Координаттар</string>
@@ -517,6 +543,7 @@
     <string name="recording_file_name_prefix">Видео файл аттары үчүн префикс</string>
     <string name="recording_start_short_text">Баштоо</string>
     <string name="recording_start_text">Жазууну баштаңыз</string>
+    <string name="recording_started_after_system_recreation_text">Тиркеме система тарабынан күтүүсүздөн жабылгандан кийин видео жаздыруу башталды.</string>
     <string name="recording_started_failed_text">Жаздырууну баштоодо ката кетти</string>
     <string name="recording_started_text">Жаздыруу башталды</string>
     <string name="recording_started_with_audio_text">Аудио жаздыруу менен жаңы видео жазуу башталды</string>
@@ -548,6 +575,7 @@
     <string name="records_pin_lock_top_bar_title">Жаздыруулар кулпу</string>
     <string name="reset">Баштапкы абалга келтирүү</string>
     <string name="snackbar_dismiss">Жашыруу</string>
+    <string name="start_copying_files">Файлдарды көчүрө баштоо</string>
     <string name="storage_external_single">MicroSD карта</string>
     <string name="storage_phone">Телефондун эс тутуму</string>
     <string name="subscription_benefit_all_premium_features">Ар кандай келечектеги премиум өзгөчөлүктөрү</string>
@@ -566,6 +594,7 @@
     <string name="subscription_subscribe_text">Жазылуу</string>
     <string name="subscription_with_free_trial">Акысыз сыноо менен</string>
     <string name="tap_to_allow_background_recording">Фондо видео жаздырууга уруксат берүү үчүн басыңыз.</string>
+    <string name="the_current_copy_files_operation_will_be_cancelled">Учурдагы файлдарды көчүрүү операциясы жокко чыгарылат.</string>
     <string name="timer_auto_start">Таймер</string>
     <string name="timer_auto_start_dlg_type_title">Жаздырып баштоо үчүн таймерди коюңуз</string>
     <string name="timer_auto_start_every_day_text">Күн сайын</string>
@@ -600,7 +629,7 @@
     <string name="videos_item_mode_deletion_exit_text">Жок кылуу режиминен чыгуу</string>
     <string name="videos_locked_folder_text">Үстүнө жазуу корголгон</string>
     <string name="videos_menu_delete">Жок кылуу</string>
-    <string name="videos_menu_move_file">Файлды жылдыруу</string>
+    <string name="videos_menu_move_file">Файлды жылдыруу же көчүрүү</string>
     <string name="videos_menu_refresh">Жаңылоо</string>
     <string name="videos_menu_select_all">Баарын танда</string>
     <string name="videos_menu_sorting">Сорттоо</string>
@@ -613,5 +642,6 @@
     <string name="videos_temporary_folder_text">Убактылуу видеолор</string>
     <string name="videos_toolbar_subtitle">Видео жазуулар</string>
     <string name="widget_start_stop_recording_transparent">Жазууну баштоо/токтотуу үчүн ачык баскыч</string>
+    <string name="yes">Ооба</string>
     <string name="zoom_text">чоңойтуу</string>
 </resources>

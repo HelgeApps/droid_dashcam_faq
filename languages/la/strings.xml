@@ -41,9 +41,14 @@
     <string name="camera_msg_error_non_exposed_error">Aperiam delectus diam. Ita fit ut non omnes camerae occultae ullo applicatione uti possint. Multi artifices solum usum in applicationibus patriis admittunt. Defalta camera aperiet.</string>
     <string name="camera_msg_error_unknown_text">De camera ad tempus (erat) unavailable ad aperiendum in tuom (camera ratio error)</string>
     <string name="camera_support_error">Error inciderunt in usura camera.</string>
+    <string name="cancel_copying_files">Copiationem fasciculorum abrogare vis?</string>
     <string name="close">Close</string>
+    <string name="copy_files">Exscribe fasciculos</string>
+    <string name="copy_selected_files_to_the_selected_folder">Selecta documenta in fasciculum selectum exscribe.</string>
+    <string name="copying_files">Copiatio fasciculorum</string>
     <string name="days">diebus</string>
     <string name="default_text">Default</string>
+    <string name="delete_original_files_after_copying">Delere fasciculos originales post transcriptionem</string>
     <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">Instructiones accuratiores ad optimizationem pilae inactivandam et actionem in cursu posteriori applicationis permittendam:</string>
     <string name="dialog_camera_not_found_msg_text">Haec fabrica in camera aedificata non habet nec cameras externas sustinet. Claudendo…</string>
     <string name="dialog_camera_not_found_text">Camera non inveni</string>
@@ -70,6 +75,7 @@
     <string name="donation_subs_one_text">Proscribere omnino tollitur dum subscriptio activa est.</string>
     <string name="donation_subs_text">Donate menstruam</string>
     <string name="donation_subscriptions_can_be_cancelled_any_time_text">Quovis tempore subscriptio cassari potest (subscriptio \"subscriptio inrita\" in promptu erit, etiam in applicatione Google Play eam excludit)</string>
+    <string name="finished_copying_files">Copia fasciculorum perfecta est.</string>
     <string name="format_altitude">Altitudo</string>
     <string name="format_degrees">Coordinates</string>
     <string name="format_gb">Gigabyte</string>
@@ -96,6 +102,7 @@
     <string name="moto_api34_disable_limit_background_activity_all">Alioquin, \"Limit background activity\" (activationem in cursu secundario limitare) inactivare potes (pulsante commutatore utens) ut omnes applicationes in cursu secundario currere possint.</string>
     <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">Aperi fenestram \"Informationes applicationis\", elige \"Usum pilae applicationis\" et activa \"Permittere usum in cursu posteriori\" (plerumque per default activatum est).</string>
     <string name="moto_disable_manage_background_apps">Aperi \"Systema Configurationes\", elige \"Alterium\", deinde elige \"Administra applicationes secundarias\" (si adest) et optionem \"Utere Administra applicationes secundarias\" inactiva. Optio fortasse etiam \"Augmenta altitudinem dum inactiva est\" nominatur.</string>
+    <string name="moving_files">Movens fasciculos</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Applicatio ab altilium optimizatione non excluditur. Si camera non currit in curriculo vel in aliquo alio, hanc applicationem adde exceptionibus virtutis salvificae.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Si applicationem in Android 11 reinstalled, tunc veteres tabulae manually delendae sunt</string>
     <string name="msg_auto_recording_service_was_stopped">Substitisti curriculum muneris ut statim initium video recordationem. Aperi applicationem iterum ad launch.</string>
@@ -141,6 +148,7 @@
     <string name="msg_video_rec_battery_not_enough_text">Vis pilae non satis est ad inscriptionem incipiendam secundum regulas hodiernas.</string>
     <string name="msg_video_recorder_error">Aliquid erravit cum commentariis video.</string>
     <string name="msg_voice_tts_lang_data_missing_text">Lingua sarcina pro TTS (Android cum textu-ad-Speech) non inauguratur. Conversus in interrete ut satus downloading</string>
+    <string name="no">Non</string>
     <string name="notification_could_not_start_recording_service">Recordatio officii non committitur. Tap inactivandi altilium ipsum hoc app</string>
     <string name="notification_service_aux_checker">audio jack (Aux)</string>
     <string name="notification_service_bl_checker">bluetooth</string>
@@ -149,7 +157,7 @@
     <string name="notification_service_recreated_thermal_critical_msg">Registratio imaginum non sponte resumpta est quia instrumentum statum thermalem criticum vel altiorem rettulit. Hoc agendi modum mutare potes apud \"Applicationem → Optiones → Optiones Registrationis\" (hanc notificationem tange ut optiones aperias).</string>
     <string name="notification_service_recreated_thermal_severe_msg">Registratio imaginum non sponte resumpta est quia instrumentum statum thermalem gravem vel altiorem rettulit. Hoc agendi modum mutare potes apud \"Applicationem → Optiones → Optiones Registrationis\" (hanc notificationem tange ut optiones aperias).</string>
     <string name="notification_service_recreated_time_limit_msg">Registratio imaginum non sponte resumpta est quia applicationis initium post tempus definitum ad resumptionem automaticam reditum factum est. Hunc limitem augere potes apud \"Applicatio → Optiones → Optiones Registrationis\" (hanc notificationem tange ut optiones aperias).</string>
-    <string name="notification_service_recreated_title">Systema applicationem inopinate denuo incepit.</string>
+    <string name="notification_service_recreated_title">Systema inopinate applicationem clausit.</string>
     <string name="notification_stop_text">prohibere</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Pro auto in /off memoria</string>
     <string name="one_time_payment">Solutio semel facta</string>
@@ -225,10 +233,18 @@
     <string name="prefs_beep_each_start_recording_sum_text">Signum in principio documenti sequentis file video</string>
     <string name="prefs_beep_each_start_recording_text">Custodite, cum memoria</string>
     <string name="prefs_camera_blurry">Nebulosus</string>
+    <string name="prefs_camera_for_the_shortcut">Camera pro compendio</string>
     <string name="prefs_camera_lens_distance_focus_default_hint">Ad valorem implicitum repone si imago nebulosa apparet</string>
     <string name="prefs_camera_lens_distance_focus_title">Adaptatio distantiae focalis lentis ad focum infinitum assequendum</string>
+    <string name="prefs_camera_main">Camera principalis (vel ultima adhibita)</string>
+    <string name="prefs_camera_settings_for_the_shortcuts">Optiones camerae pro compendiis</string>
+    <string name="prefs_camera_shortcut_first_start_stop_rec_text">Compendium Camerae #1</string>
+    <string name="prefs_camera_shortcut_sec_start_stop_rec_text">Compendium Camerae #2</string>
+    <string name="prefs_camera_shortcuts_desc">Compendia programmatum initiantium, instrumenta, tessellae configurationum rapidarum.</string>
+    <string name="prefs_camera_shortcuts_settings_tip">\"Optiones camerae pro compendiis\" sub \"Optionibus Video\" elige ut cameram quam pro Compendio #1 vel Compendio #2 uti vis eligas.</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Fabrica fabrica ad omnes cameras accedere non potest, ut quaedam non aperiant</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Fabrica fabrica non potest providere late lens camera ad omnes applicationes</string>
+    <string name="prefs_change_units_by_tap_on_main_screen">Unitates celeritatis mutare potes valorem celeritatis in pagina principali tangendo.</string>
     <string name="prefs_consent_information_privacy_options">Secretum optiones (consent notitia)</string>
     <string name="prefs_continuous_recording">Continua registratio</string>
     <string name="prefs_continuous_recording_desc">Novum fasciculum incipit cum praesens durationem statutam attingit. Si inactivatum est, inscriptio ad limitem sistitur.</string>
@@ -250,10 +266,13 @@
     <string name="prefs_g_sensor_force_very_high">Ipsum excelsum</string>
     <string name="prefs_g_sensor_force_very_low">Valde humilis</string>
     <string name="prefs_gps_accuracy_text">Ignore GPS notitia per errorem supra</string>
+    <string name="prefs_gps_coordinates_format">Formatum Coordinatarum GPS</string>
     <string name="prefs_gps_disabled_gps_and_google_text">Monstrare cum GPS et Google geolocation sunt debilitata</string>
     <string name="prefs_gps_disabled_gps_only_text">Monstrare tantum GPS sit debilitatum</string>
     <string name="prefs_gps_disabled_no_warning_text">Noli Monere et fix button</string>
     <string name="prefs_gps_disabled_warning_text">Monitum GPS debilitatum, fix button</string>
+    <string name="prefs_gps_format_decimal_degrees">Gradus Decimales</string>
+    <string name="prefs_gps_format_degrees_minutes_seconds">Gradus/Minuta/Secunda</string>
     <string name="prefs_info_more_category_text">Information /More…</string>
     <string name="prefs_kill_services_sum_text">Instrumentum tuum optiones habet quae usum secundarium (vel initium automaticum) regunt. Hic tange ut usum secundarium permittas vel applicationem ad indicem exceptionum addas si restricta est.</string>
     <string name="prefs_kill_services_text">Permittens background opus</string>
@@ -273,6 +292,7 @@
     <string name="prefs_location_power_saving_to_get_updates_in_background">Potestas salutaris aversa esse debet ut locum (GPS) in curriculo (GPS) recipere possit.</string>
     <string name="prefs_location_provider_method_text">Locus acquisition modum (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS update rate</string>
+    <string name="prefs_main_camera_changes_to_latest_used_camera_for_shortcut">Camera principalis ad cameram recentissime adhibitam pro Compendio #1 vel Compendio #2 mutatur.</string>
     <string name="prefs_meters_accuracy_value_text">metris accurationis</string>
     <string name="prefs_open_source_notices_text">Notitiae de fonte aperto</string>
     <string name="prefs_optical_zoom_text">Optical Zoom (Zoom) /Focal Longitudo</string>
@@ -361,6 +381,10 @@
     <string name="prefs_share_sum_text">Hoc app mitte amicis tuis</string>
     <string name="prefs_share_text">Participes</string>
     <string name="prefs_shortcut_launcher_has_been_added">Brevis (launcher) adiectum est</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove">Remove lanciatorem</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove_desc">Ad id plene removendum, fortasse necesse erit id manu e pagina domestica removere (tangere et tenere, deinde \"Remove\" eligere), programmata domestica denuo incipere, vel etiam telephonum tuum denuo incipere.</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_sum">Addit separatum classicum programmatum initiatorem, qui plerumque in indice \"Omnium Applicationum\" (capsa applicationum) conspicuus est, ad inscriptionem imaginum moventium incipiendam/sistendam. In quibusdam machinis et versionibus Android, actioni telephoni cum bis premendo Clavem Potestatis/Lateralis assignari potest, exempli gratia in machinis Samsung cum Android 12 vel inferiore. Versiones recentiores autem hoc iam non permittere videntur (saltem in machinis Samsung).</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_title">Adde programmam classicum ad applicationem</string>
     <string name="prefs_shortcut_rec_start_launcher_sum">Ut satus /stop memoria sine launching pelagus screen</string>
     <string name="prefs_shortcut_rec_start_launcher_title">Brevis addere (launcher)</string>
     <string name="prefs_show_audio_btn_text">De /off memoria audio</string>
@@ -380,6 +404,8 @@
     <string name="prefs_start_stop_toast_message_text">Praestare nuntium, cum incipiens aut desinat memoria in background memoria</string>
     <string name="prefs_start_stop_voice_sum_text">Sana in initio, stop vel memorare errorem</string>
     <string name="prefs_start_stop_voice_text">Sana memoria status</string>
+    <string name="prefs_storage_select_folder_for_photos_hint_msg">Elige fasciculum ubi imagines servabuntur.</string>
+    <string name="prefs_storage_select_folder_for_records_hint_msg">Elige fasciculum ubi inscriptiones video servabuntur.</string>
     <string name="prefs_subtitles_address_text">Oratio</string>
     <string name="prefs_subtitles_color_text">Select subtilissima color</string>
     <string name="prefs_subtitles_coords_text">Coordinates</string>
@@ -517,6 +543,7 @@
     <string name="recording_file_name_prefix">Praefixum video lima nomina</string>
     <string name="recording_start_short_text">Satus</string>
     <string name="recording_start_text">Satus memoria</string>
+    <string name="recording_started_after_system_recreation_text">Incipitur inscriptionem imaginum postquam applicatio a systemate inopinate clausa est.</string>
     <string name="recording_started_failed_text">Error incipiens memoria</string>
     <string name="recording_started_text">Recordatio incepit</string>
     <string name="recording_started_with_audio_text">Novum video recording cum audio recording incepit</string>
@@ -548,6 +575,7 @@
     <string name="records_pin_lock_top_bar_title">Claustra inscriptionum</string>
     <string name="reset">Restituere</string>
     <string name="snackbar_dismiss">Celare</string>
+    <string name="start_copying_files">Incipe fasciculos copiare</string>
     <string name="storage_external_single">MicroSD card</string>
     <string name="storage_phone">Phone memoria</string>
     <string name="subscription_benefit_all_premium_features">Quaelibet futurae functiones praestantiores</string>
@@ -566,6 +594,7 @@
     <string name="subscription_subscribe_text">Subscribere</string>
     <string name="subscription_with_free_trial">Cum experimento gratuito</string>
     <string name="tap_to_allow_background_recording">Tange ut inscriptionem imaginum in cursu permittas.</string>
+    <string name="the_current_copy_files_operation_will_be_cancelled">Operatio praesens fasciculorum copiandorum abrogabitur.</string>
     <string name="timer_auto_start">Timer</string>
     <string name="timer_auto_start_dlg_type_title">Pone timor incipere memoria</string>
     <string name="timer_auto_start_every_day_text">Quotidie</string>
@@ -600,7 +629,7 @@
     <string name="videos_item_mode_deletion_exit_text">Exitus delete modus</string>
     <string name="videos_locked_folder_text">Rescribere protected</string>
     <string name="videos_menu_delete">Delere</string>
-    <string name="videos_menu_move_file">Movere fasciculum</string>
+    <string name="videos_menu_move_file">Movere vel copiare fasciculum</string>
     <string name="videos_menu_refresh">Renovare</string>
     <string name="videos_menu_select_all">Elige all</string>
     <string name="videos_menu_sorting">Sorting</string>
@@ -613,5 +642,6 @@
     <string name="videos_temporary_folder_text">Timed videos</string>
     <string name="videos_toolbar_subtitle">Video tabulas</string>
     <string name="widget_start_stop_recording_transparent">Globulus pellucidus ad incipiendum/sistendum inscriptionem</string>
+    <string name="yes">Ita</string>
     <string name="zoom_text">zoom</string>
 </resources>

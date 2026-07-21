@@ -41,9 +41,14 @@
     <string name="camera_msg_error_non_exposed_error">Nem sikerült megnyitni a kiválasztott kamerát. Előfordul, hogy nem minden rejtett kamerát használhat egyetlen alkalmazás sem. Sok gyártó csak natív alkalmazásaiban engedélyezi ezek használatát. Megnyílik az alapértelmezett kamera.</string>
     <string name="camera_msg_error_unknown_text">A kamera átmenetileg (nem) nyitható meg az eszközön (kamera rendszerhiba)</string>
     <string name="camera_support_error">Hiba történt a fényképezőgép használata közben.</string>
+    <string name="cancel_copying_files">Fájlok másolásának megszakítása?</string>
     <string name="close">Bezárás</string>
+    <string name="copy_files">Fájlok másolása</string>
+    <string name="copy_selected_files_to_the_selected_folder">A kiválasztott fájlok másolása a kiválasztott mappába.</string>
+    <string name="copying_files">Fájlok másolása</string>
     <string name="days">napok</string>
     <string name="default_text">Alapértelmezett</string>
+    <string name="delete_original_files_after_copying">Eredeti fájlok törlése másolás után</string>
     <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">Részletesebb utasítások az akkumulátoroptimalizálás letiltásához és az alkalmazás háttértevékenységének engedélyezéséhez:</string>
     <string name="dialog_camera_not_found_msg_text">Ez az eszköz nem rendelkezik beépített kamerával, és nem támogatja a külső kamerákat. Bezárás…</string>
     <string name="dialog_camera_not_found_text">A kamera nem található</string>
@@ -70,6 +75,7 @@
     <string name="donation_subs_one_text">Amíg az előfizetés aktív, a hirdetéseket teljesen eltávolítjuk.</string>
     <string name="donation_subs_text">Adományozz havonta</string>
     <string name="donation_subscriptions_can_be_cancelled_any_time_text">Az előfizetés bármikor lemondható (elérhető lesz az „előfizetés törlése” gomb, a Google Play alkalmazásban is lemondható)</string>
+    <string name="finished_copying_files">Fájlok másolása befejeződött.</string>
     <string name="format_altitude">Magasság</string>
     <string name="format_degrees">Koordináták</string>
     <string name="format_gb">Gigabyte</string>
@@ -96,6 +102,7 @@
     <string name="moto_api34_disable_limit_background_activity_all">Vagy tiltsa le a „Háttértevékenység korlátozása” beállítást (a kapcsolóval), hogy minden alkalmazás a háttérben fusson.</string>
     <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">Nyisd meg az „Alkalmazásinformáció” képernyőt, válaszd az „Alkalmazás akkumulátorának használata” lehetőséget, és engedélyezd a „Háttérhasználat engedélyezése” beállítást (ez általában alapértelmezés szerint engedélyezve van).</string>
     <string name="moto_disable_manage_background_apps">Nyissa meg a „Rendszerbeállítások” menüpontot, válassza az „Akkumulátor” lehetőséget, majd a „Háttéralkalmazások kezelése” lehetőséget (ha elérhető), és tiltsa le a „Háttéralkalmazások kezelése” opciót. A beállítás neve „Akkumulátor üzemidejének javítása inaktív állapotban” is lehet.</string>
+    <string name="moving_files">Fájlok áthelyezése</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Az alkalmazás nincs kizárva az akkumulátor optimalizálásból. Ha a kamera nem fut a háttérben vagy valami más, akkor vegye fel ezt az alkalmazást az energiatakarékos mód kivételei közé.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Ha újratelepítette az alkalmazást Android 11 rendszeren, akkor a régi fájlokat kézzel kell törölni</string>
     <string name="msg_auto_recording_service_was_stopped">Leállította a háttérszolgáltatást a videorögzítés automatikus indításához. Nyissa meg az alkalmazást az újraindításhoz.</string>
@@ -141,6 +148,7 @@
     <string name="msg_video_rec_battery_not_enough_text">A jelenlegi szabályok értelmében nincs elegendő akkumulátor töltöttsége a felvétel megkezdéséhez.</string>
     <string name="msg_video_recorder_error">Valami hiba történt a videofelvevővel.</string>
     <string name="msg_voice_tts_lang_data_missing_text">A TTS (Android Text-to-Speech) nyelvi csomagja nincs telepítve. A letöltés megkezdéséhez kapcsolja be az internetet</string>
+    <string name="no">Nem</string>
     <string name="notification_could_not_start_recording_service">Nem sikerült elindítani a rögzítési szolgáltatást. Érintse meg az akkumulátor optimalizálásának letiltásához ennél az alkalmazásnál</string>
     <string name="notification_service_aux_checker">audio jack (Aux)</string>
     <string name="notification_service_bl_checker">Bluetooth</string>
@@ -149,7 +157,7 @@
     <string name="notification_service_recreated_thermal_critical_msg">A videofelvétel nem folytatódott automatikusan, mert az eszköz kritikus vagy magasabb hőmérsékleti állapotot jelzett. Ezt a viselkedést az „Alkalmazás → Beállítások → Felvételi beállítások” menüpontban módosíthatja (koppintson erre az értesítésre a beállítások megnyitásához).</string>
     <string name="notification_service_recreated_thermal_severe_msg">A videofelvétel nem folytatódott automatikusan, mert az eszköz Súlyos vagy magasabb hőmérsékleti állapotot jelzett. Ezt a viselkedést az „Alkalmazás → Beállítások → Felvételi beállítások” menüpontban módosíthatja (koppintson erre az értesítésre a beállítások megnyitásához).</string>
     <string name="notification_service_recreated_time_limit_msg">A videofelvétel nem folytatódott automatikusan, mert az alkalmazás újraindítása a beállított automatikus folytatási időkorlát után történt. Ezt a korlátot az „Alkalmazás → Beállítások → Felvételi beállítások” menüpontban növelheti (a beállítások megnyitásához koppintson erre az értesítésre).</string>
-    <string name="notification_service_recreated_title">A rendszer váratlanul újraindította az alkalmazást.</string>
+    <string name="notification_service_recreated_title">A rendszer váratlanul bezárta az alkalmazást.</string>
     <string name="notification_stop_text">Álljon meg</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Automatikus be/ki felvételhez</string>
     <string name="one_time_payment">Egyszeri fizetés</string>
@@ -225,10 +233,18 @@
     <string name="prefs_beep_each_start_recording_sum_text">Jelzés a következő videofájl rögzítésének elején</string>
     <string name="prefs_beep_each_start_recording_text">Hangjelzés rögzítés közben</string>
     <string name="prefs_camera_blurry">Elmosódott</string>
+    <string name="prefs_camera_for_the_shortcut">Kamera a gyorsbillentyűhöz</string>
     <string name="prefs_camera_lens_distance_focus_default_hint">Állítsa vissza az alapértelmezett értéket, ha a kép elmosódottnak tűnik</string>
     <string name="prefs_camera_lens_distance_focus_title">Objektív fókusztávolság-állítás a végtelen fókusz eléréséhez</string>
+    <string name="prefs_camera_main">A fő kamera (vagy a legutóbb használt)</string>
+    <string name="prefs_camera_settings_for_the_shortcuts">Kamerabeállítások a gyorsbillentyűkhöz</string>
+    <string name="prefs_camera_shortcut_first_start_stop_rec_text">Kamera gyorsbillentyű #1</string>
+    <string name="prefs_camera_shortcut_sec_start_stop_rec_text">Kamera gyorsbillentyű #2</string>
+    <string name="prefs_camera_shortcuts_desc">Alkalmazásindító parancsikonok, widgetek, gyorsbeállítások csempék.</string>
+    <string name="prefs_camera_shortcuts_settings_tip">A „Videóbeállítások” alatt jelölje be a „Kamerabeállítások a gyorsbillentyűkhöz” lehetőséget, hogy kiválassza az 1. vagy a 2. gyorsbillentyűhöz használni kívánt kamerát.</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Előfordulhat, hogy az eszköz gyártója nem biztosít hozzáférést minden kamerához, így előfordulhat, hogy egyesek nem nyílnak meg</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Előfordulhat, hogy az eszköz gyártója nem biztosít széles lencsés kamerát minden alkalmazáshoz</string>
+    <string name="prefs_change_units_by_tap_on_main_screen">A sebesség mértékegységét a főképernyőn a sebességértékre koppintva módosíthatja.</string>
     <string name="prefs_consent_information_privacy_options">Adatvédelmi lehetőségek (beleegyezési információk)</string>
     <string name="prefs_continuous_recording">Folyamatos felvétel</string>
     <string name="prefs_continuous_recording_desc">Új fájlt indít, amikor az aktuális eléri a beállított időtartamot. Ha le van tiltva, a felvétel a korlátnál leáll.</string>
@@ -250,10 +266,13 @@
     <string name="prefs_g_sensor_force_very_high">Nagyon magas</string>
     <string name="prefs_g_sensor_force_very_low">Nagyon alacsony</string>
     <string name="prefs_gps_accuracy_text">A fenti hibával rendelkező GPS-adatok figyelmen kívül hagyása</string>
+    <string name="prefs_gps_coordinates_format">GPS-koordináták formátuma</string>
     <string name="prefs_gps_disabled_gps_and_google_text">Figyelmeztetés megjelenítése, ha a GPS és a Google földrajzi helymeghatározás le van tiltva</string>
     <string name="prefs_gps_disabled_gps_only_text">Csak akkor jelenítse meg a figyelmeztetést, ha a GPS le van tiltva</string>
     <string name="prefs_gps_disabled_no_warning_text">Ne jelenjen meg a figyelmeztetés és a javítás gomb</string>
     <string name="prefs_gps_disabled_warning_text">GPS letiltott figyelmeztetés, javító gomb</string>
+    <string name="prefs_gps_format_decimal_degrees">Tizedes fokok</string>
+    <string name="prefs_gps_format_degrees_minutes_seconds">Fok/Perc/Másodperc</string>
     <string name="prefs_info_more_category_text">Információ /Tovább…</string>
     <string name="prefs_kill_services_sum_text">Az eszközödön vannak olyan beállítások, amelyek szabályozzák a háttérhasználatot (vagy az automatikus indítást). Koppints ide a háttérhasználat engedélyezéséhez, vagy add hozzá az alkalmazást a kivételek listájához, ha korlátozott.</string>
     <string name="prefs_kill_services_text">Lehetővé teszi a háttérmunkát</string>
@@ -273,6 +292,7 @@
     <string name="prefs_location_power_saving_to_get_updates_in_background">Az energiatakarékos funkciót ki kell kapcsolni, hogy a háttérben lehessen kapni a helyadatokat (GPS).</string>
     <string name="prefs_location_provider_method_text">Helymeghatározási módszer (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS frissítési sebesség</string>
+    <string name="prefs_main_camera_changes_to_latest_used_camera_for_shortcut">A fő kamera az 1. vagy 2. parancsikonhoz legutóbb használt kamerára vált.</string>
     <string name="prefs_meters_accuracy_value_text">méteres pontossággal</string>
     <string name="prefs_open_source_notices_text">Nyílt forráskódú közlemények</string>
     <string name="prefs_optical_zoom_text">Optikai zoom (zoom) /gyújtótávolság</string>
@@ -361,6 +381,10 @@
     <string name="prefs_share_sum_text">Küldje el ezt az alkalmazást barátainak</string>
     <string name="prefs_share_text">Ossza meg ezt</string>
     <string name="prefs_shortcut_launcher_has_been_added">Parancsikon (indító) hozzáadva</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove">Távolítsa el az indítót</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove_desc">A teljes eltávolításhoz manuálisan kell eltávolítanod a kezdőképernyőről (érintsd meg és tartsd lenyomva, majd válaszd az „Eltávolítás” lehetőséget), újra kell indítanod a kezdőképernyő indítóját, vagy akár újra kell indítanod a telefonodat.</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_sum">Hozzáad egy külön klasszikus alkalmazásindítót, amely általában az Összes alkalmazás listában (alkalmazásfiókban) látható a videofelvétel elindításához/leállításához. Egyes eszközökön és Android-verziókon ez hozzárendelhető a telefon bekapcsológombjának/oldalsó gombjának dupla megnyomásához, például az Android 12-es vagy régebbi rendszert futtató Samsung eszközökön. Az újabb verziók azonban már nem teszik lehetővé ezt (legalábbis a Samsung eszközökön).</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_title">Klasszikus indító hozzáadása az alkalmazáshoz</string>
     <string name="prefs_shortcut_rec_start_launcher_sum">A felvétel elindítása/leállítása a főképernyő elindítása nélkül</string>
     <string name="prefs_shortcut_rec_start_launcher_title">Parancsikon hozzáadása (indító)</string>
     <string name="prefs_show_audio_btn_text">Hangfelvétel be /ki</string>
@@ -380,6 +404,8 @@
     <string name="prefs_start_stop_toast_message_text">Üzenet megjelenítése a felvétel indításakor vagy leállításakor a háttérfelvétel közben</string>
     <string name="prefs_start_stop_voice_sum_text">Hang induláskor, leállításkor vagy felvételi hiba</string>
     <string name="prefs_start_stop_voice_text">Hangfelvétel állapota</string>
+    <string name="prefs_storage_select_folder_for_photos_hint_msg">Válasszon ki egy mappát, ahová a fényképeket menteni szeretné.</string>
+    <string name="prefs_storage_select_folder_for_records_hint_msg">Válasszon ki egy mappát, ahová a videofelvételeket menteni szeretné.</string>
     <string name="prefs_subtitles_address_text">A cím</string>
     <string name="prefs_subtitles_color_text">Válassza ki a felirat színét</string>
     <string name="prefs_subtitles_coords_text">Koordináták</string>
@@ -517,6 +543,7 @@
     <string name="recording_file_name_prefix">A videofájlok nevének előtagja</string>
     <string name="recording_start_short_text">Indul</string>
     <string name="recording_start_text">Felvétel megkezdése</string>
+    <string name="recording_started_after_system_recreation_text">Videofelvétel indítása az alkalmazás váratlan bezárása után a rendszer által.</string>
     <string name="recording_started_failed_text">Hiba a felvétel indításakor</string>
     <string name="recording_started_text">A felvétel elkezdődött</string>
     <string name="recording_started_with_audio_text">Elkezdődött az új videófelvétel hangfelvétellel</string>
@@ -548,6 +575,7 @@
     <string name="records_pin_lock_top_bar_title">Felvételek zárolása</string>
     <string name="reset">Visszaállítás</string>
     <string name="snackbar_dismiss">Elrejt</string>
+    <string name="start_copying_files">Fájlok másolásának megkezdése</string>
     <string name="storage_external_single">MicroSD kártya</string>
     <string name="storage_phone">Telefonmemória</string>
     <string name="subscription_benefit_all_premium_features">Bármilyen jövőbeli prémium funkció</string>
@@ -566,6 +594,7 @@
     <string name="subscription_subscribe_text">Feliratkozás</string>
     <string name="subscription_with_free_trial">Ingyenes próbaverzióval</string>
     <string name="tap_to_allow_background_recording">Koppintson a háttérben történő videofelvétel engedélyezéséhez.</string>
+    <string name="the_current_copy_files_operation_will_be_cancelled">A jelenlegi fájlmásolási művelet megszakításra kerül.</string>
     <string name="timer_auto_start">Időzítő</string>
     <string name="timer_auto_start_dlg_type_title">Állítson be egy időzítőt a felvétel indításához</string>
     <string name="timer_auto_start_every_day_text">Minden nap</string>
@@ -600,7 +629,7 @@
     <string name="videos_item_mode_deletion_exit_text">Lépjen ki a törlés módból</string>
     <string name="videos_locked_folder_text">Felülírás védett</string>
     <string name="videos_menu_delete">Töröl</string>
-    <string name="videos_menu_move_file">Fájl áthelyezése</string>
+    <string name="videos_menu_move_file">Fájl áthelyezése vagy másolása</string>
     <string name="videos_menu_refresh">Frissítés</string>
     <string name="videos_menu_select_all">Válassza ki az összeset</string>
     <string name="videos_menu_sorting">Válogatás</string>
@@ -613,5 +642,6 @@
     <string name="videos_temporary_folder_text">Időzített videók</string>
     <string name="videos_toolbar_subtitle">Videó felvételek</string>
     <string name="widget_start_stop_recording_transparent">Átlátszó gomb a felvétel elindításához/leállításához</string>
+    <string name="yes">Igen</string>
     <string name="zoom_text">zoomolás</string>
 </resources>

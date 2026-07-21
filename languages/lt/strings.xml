@@ -41,9 +41,14 @@
     <string name="camera_msg_error_non_exposed_error">Nepavyko atidaryti pasirinktos kameros. Taip atsitinka, kad ne visas paslėptas kameras gali naudoti bet kuri programa. Daugelis gamintojų leidžia juos naudoti tik savo vietinėse programose. Bus atidaryta numatytoji kamera.</string>
     <string name="camera_msg_error_unknown_text">Fotoaparato laikinai (buvo) negalima atidaryti jūsų įrenginyje (kameros sistemos klaida)</string>
     <string name="camera_support_error">Naudojant fotoaparatą įvyko klaida.</string>
+    <string name="cancel_copying_files">Atšaukti failų kopijavimą?</string>
     <string name="close">Uždaryti</string>
+    <string name="copy_files">Kopijuoti failus</string>
+    <string name="copy_selected_files_to_the_selected_folder">Nukopijuokite pasirinktus failus į pasirinktą aplanką.</string>
+    <string name="copying_files">Failų kopijavimas</string>
     <string name="days">dienų</string>
     <string name="default_text">Numatytas</string>
+    <string name="delete_original_files_after_copying">Ištrinkite originalius failus po kopijavimo</string>
     <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">Išsamesnės instrukcijos, kaip išjungti akumuliatoriaus optimizavimą ir leisti programos veiklą fone:</string>
     <string name="dialog_camera_not_found_msg_text">Šis įrenginys neturi integruotos kameros ir nepalaiko išorinių kamerų. Uždarymas…</string>
     <string name="dialog_camera_not_found_text">Kamera nerasta</string>
@@ -70,6 +75,7 @@
     <string name="donation_subs_one_text">Kol prenumerata aktyvi, reklama visiškai pašalinama.</string>
     <string name="donation_subs_text">Aukokite kas mėnesį</string>
     <string name="donation_subscriptions_can_be_cancelled_any_time_text">Prenumerata gali būti atšaukta bet kuriuo metu (bus pasiekiamas mygtukas „Atšaukti prenumeratą“, taip pat galite jį atšaukti „Google Play“ programoje)</string>
+    <string name="finished_copying_files">Failų kopijavimas baigtas.</string>
     <string name="format_altitude">Aukštis</string>
     <string name="format_degrees">Koordinatės</string>
     <string name="format_gb">Gigabaitas</string>
@@ -96,6 +102,7 @@
     <string name="moto_api34_disable_limit_background_activity_all">Arba išjunkite „Apriboti foninę veiklą“ (naudodami perjungiklį), kad visos programos galėtų veikti fone.</string>
     <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">Atidarykite ekraną „Programėlės informacija“, pasirinkite „Programėlės akumuliatoriaus naudojimas“ ir įjunkite „Leisti foninį naudojimą“ (paprastai ši parinktis įjungta pagal numatytuosius nustatymus).</string>
     <string name="moto_disable_manage_background_apps">Atidarykite „Sistemos nustatymus“, pasirinkite „Akumuliatorius“, tada pasirinkite „Tvarkyti fonines programas“ (jei yra) ir išjunkite parinktį „Naudoti foninių programų tvarkymą“. Parinktis taip pat gali būti pavadinta „Pagerinkite akumuliatoriaus veikimo laiką, kai įrenginys neaktyvus“.</string>
+    <string name="moving_files">Failų perkėlimas</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Programa nėra pašalinta iš akumuliatoriaus optimizavimo. Jei fotoaparatas neveikia fone ar dar kas nors, pridėkite šią programą prie energijos taupymo režimo išimčių.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Jei iš naujo įdiegėte programą „Android 11“, senus failus reikia ištrinti rankiniu būdu</string>
     <string name="msg_auto_recording_service_was_stopped">Sustabdėte foninę paslaugą automatiškai pradėti vaizdo įrašymą. Atidarykite programą, kad ją paleistumėte dar kartą.</string>
@@ -141,6 +148,7 @@
     <string name="msg_video_rec_battery_not_enough_text">Pagal dabartines taisykles nepakanka akumuliatoriaus energijos, kad būtų galima pradėti įrašymą.</string>
     <string name="msg_video_recorder_error">Kažkas negerai su vaizdo registratoriumi.</string>
     <string name="msg_voice_tts_lang_data_missing_text">TTS („Android“ teksto į kalbą) kalbos paketas neįdiegtas. Įjunkite internetą, kad pradėtumėte atsisiųsti</string>
+    <string name="no">Ne</string>
     <string name="notification_could_not_start_recording_service">Nepavyko paleisti įrašymo paslaugos. Palieskite, kad išjungtumėte šios programos akumuliatoriaus optimizavimą</string>
     <string name="notification_service_aux_checker">garso lizdas (Aux)</string>
     <string name="notification_service_bl_checker">Bluetooth</string>
@@ -149,7 +157,7 @@
     <string name="notification_service_recreated_thermal_critical_msg">Vaizdo įrašymas nebuvo automatiškai atnaujintas, nes įrenginys pranešė apie kritinę arba aukštesnę šiluminę būseną. Šį veikimą galite pakeisti skiltyje „Programa → Nustatymai → Įrašymo nustatymai“ (palieskite šį pranešimą, kad atidarytumėte nustatymus).</string>
     <string name="notification_service_recreated_thermal_severe_msg">Vaizdo įrašymas nebuvo automatiškai atnaujintas, nes įrenginys pranešė apie labai aukštą arba aukštesnę perkaitimo būseną. Šį veiksmą galite pakeisti skiltyje „Programa → Nustatymai → Įrašymo nustatymai“ (palieskite šį pranešimą, kad atidarytumėte nustatymus).</string>
     <string name="notification_service_recreated_time_limit_msg">Vaizdo įrašymas nebuvo automatiškai atnaujintas, nes programėlė buvo paleista iš naujo po sukonfigūruoto automatinio atnaujinimo laiko limito. Šią ribą galite padidinti pasirinkę „Programėlė → Nustatymai → Įrašymo nustatymai“ (palieskite šį pranešimą, kad atidarytumėte nustatymus).</string>
-    <string name="notification_service_recreated_title">Sistema netikėtai paleido programėlę iš naujo.</string>
+    <string name="notification_service_recreated_title">Sistema netikėtai uždarė programėlę.</string>
     <string name="notification_stop_text">Sustabdyti</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Automatiniam įjungimui/išjungimui įrašyti</string>
     <string name="one_time_payment">Vienkartinis mokėjimas</string>
@@ -225,10 +233,18 @@
     <string name="prefs_beep_each_start_recording_sum_text">Signalas kito vaizdo failo įrašymo pradžioje</string>
     <string name="prefs_beep_each_start_recording_text">Įrašymo metu pypsi</string>
     <string name="prefs_camera_blurry">Neryškus</string>
+    <string name="prefs_camera_for_the_shortcut">Kamera sparčiajam klavišui</string>
     <string name="prefs_camera_lens_distance_focus_default_hint">Atkurkite numatytąją reikšmę, jei vaizdas atrodo neryškus</string>
     <string name="prefs_camera_lens_distance_focus_title">Objektyvo fokusavimo atstumo reguliavimas, siekiant fokusavimo iki begalybės</string>
+    <string name="prefs_camera_main">Pagrindinė kamera (arba paskutinė naudota)</string>
+    <string name="prefs_camera_settings_for_the_shortcuts">Kameros nustatymai spartiesiems klavišams</string>
+    <string name="prefs_camera_shortcut_first_start_stop_rec_text">1 fotoaparato spartusis klavišas</string>
+    <string name="prefs_camera_shortcut_sec_start_stop_rec_text">2-asis fotoaparato spartusis klavišas</string>
+    <string name="prefs_camera_shortcuts_desc">Programų paleidimo priemonės spartieji klavišai, valdikliai, greitųjų nustatymų plytelės.</string>
+    <string name="prefs_camera_shortcuts_settings_tip">Norėdami pasirinkti kamerą, kurią norite naudoti su 1 arba 2 sparčiuoju klavišu, dalyje „Vaizdo įrašo nustatymai“ pažymėkite „Sparčiųjų klavišų kameros nustatymai“.</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Įrenginio gamintojas gali nesuteikti prieigos prie visų kamerų, todėl kai kurios gali neatsidaryti</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Įrenginio gamintojas gali pateikti ne visoms programoms skirtą plataus objektyvo kamerą</string>
+    <string name="prefs_change_units_by_tap_on_main_screen">Greičio vienetus galite pakeisti bakstelėdami greičio reikšmę pagrindiniame ekrane.</string>
     <string name="prefs_consent_information_privacy_options">Privatumo parinktys (sutikimo informacija)</string>
     <string name="prefs_continuous_recording">Nuolatinis įrašymas</string>
     <string name="prefs_continuous_recording_desc">Pradeda naują failą, kai dabartinis pasiekia nustatytą trukmę. Jei išjungta, įrašymas sustabdomas ties riba.</string>
@@ -250,10 +266,13 @@
     <string name="prefs_g_sensor_force_very_high">Labai aukštai</string>
     <string name="prefs_g_sensor_force_very_low">Labai žemas</string>
     <string name="prefs_gps_accuracy_text">Ignoruoti GPS duomenis su aukščiau pateikta klaida</string>
+    <string name="prefs_gps_coordinates_format">GPS koordinačių formatas</string>
     <string name="prefs_gps_disabled_gps_and_google_text">Rodyti įspėjimą, kai GPS ir Google geografinė padėtis išjungta</string>
     <string name="prefs_gps_disabled_gps_only_text">Rodyti įspėjimą, tik jei GPS išjungtas</string>
     <string name="prefs_gps_disabled_no_warning_text">Nerodyti įspėjimo ir pataisymo mygtuko</string>
     <string name="prefs_gps_disabled_warning_text">GPS išjungtas įspėjimas, taisymo mygtukas</string>
+    <string name="prefs_gps_format_decimal_degrees">Dešimtainiai laipsniai</string>
+    <string name="prefs_gps_format_degrees_minutes_seconds">Laipsniai /minutės /sekundės</string>
     <string name="prefs_info_more_category_text">Informacija /Daugiau…</string>
     <string name="prefs_kill_services_sum_text">Jūsų įrenginyje yra nustatymai, kurie valdo foninį naudojimą (arba automatinį paleidimą). Palieskite čia, kad leistumėte naudoti foną arba pridėtumėte programėlę prie išimčių sąrašo, jei jis apribotas.</string>
     <string name="prefs_kill_services_text">Leidžiamas foninis darbas</string>
@@ -273,6 +292,7 @@
     <string name="prefs_location_power_saving_to_get_updates_in_background">Energijos taupymas turi būti išjungtas, kad būtų galima gauti vietos (GPS) naujinimus fone.</string>
     <string name="prefs_location_provider_method_text">Vietos gavimo metodas (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS atnaujinimo dažnis</string>
+    <string name="prefs_main_camera_changes_to_latest_used_camera_for_shortcut">Pagrindinė kamera pasikeičia į paskiausiai naudotą kamerą su 1 arba 2 sparčiuoju klavišu.</string>
     <string name="prefs_meters_accuracy_value_text">metrų tikslumu</string>
     <string name="prefs_open_source_notices_text">Pranešimai apie atvirojo kodo programas</string>
     <string name="prefs_optical_zoom_text">Optinis priartinimas (Mastelio keitimas) /židinio nuotolis</string>
@@ -361,6 +381,10 @@
     <string name="prefs_share_sum_text">Nusiųskite šią programą savo draugams</string>
     <string name="prefs_share_text">Pasidalinti</string>
     <string name="prefs_shortcut_launcher_has_been_added">Nuoroda (paleidimo priemonė) buvo pridėta</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove">Pašalinkite paleidimo priemonę</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove_desc">Norėdami visiškai pašalinti, gali tekti rankiniu būdu pašalinti jį iš pagrindinio ekrano (palieskite ir palaikykite, tada pasirinkite „Pašalinti“), paleisti iš naujo pagrindinio ekrano paleidimo priemonę arba net perkrauti telefoną.</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_sum">Pridedamas atskiras klasikinis programų paleidimo įrankis, kuris paprastai matomas visų programų sąraše (programų stalčiuje), skirtas vaizdo įrašymui paleisti /sustabdyti. Kai kuriuose įrenginiuose ir „Android“ versijose jį galima priskirti telefono dvigubo maitinimo /šoninio mygtuko paspaudimo veiksmui, pavyzdžiui, „Samsung“ įrenginiuose, kuriuose veikia „Android 12“ ar senesnė versija. Tačiau naujesnėse versijose tai nebeleidžiama (bent jau „Samsung“ įrenginiuose).</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_title">Pridėti klasikinę programos paleidimo priemonę</string>
     <string name="prefs_shortcut_rec_start_launcher_sum">Norėdami pradėti /sustabdyti įrašymą nepaleidus pagrindinio ekrano</string>
     <string name="prefs_shortcut_rec_start_launcher_title">Pridėti nuorodą (paleidimo priemonę)</string>
     <string name="prefs_show_audio_btn_text">Įjungti /išjungti garso įrašymą</string>
@@ -380,6 +404,8 @@
     <string name="prefs_start_stop_toast_message_text">Pradedant arba sustabdant įrašymą foninio įrašymo metu rodomas pranešimas</string>
     <string name="prefs_start_stop_voice_sum_text">Garsas paleidžiant, sustabdant arba įrašymo klaida</string>
     <string name="prefs_start_stop_voice_text">Garso įrašymo būsena</string>
+    <string name="prefs_storage_select_folder_for_photos_hint_msg">Pasirinkite aplanką, kuriame bus išsaugotos nuotraukos.</string>
+    <string name="prefs_storage_select_folder_for_records_hint_msg">Pasirinkite aplanką, kuriame bus išsaugoti vaizdo įrašai.</string>
     <string name="prefs_subtitles_address_text">Adresas</string>
     <string name="prefs_subtitles_color_text">Pasirinkite subtitrų spalvą</string>
     <string name="prefs_subtitles_coords_text">Koordinatės</string>
@@ -517,6 +543,7 @@
     <string name="recording_file_name_prefix">Vaizdo įrašų failų pavadinimų priešdėlis</string>
     <string name="recording_start_short_text">Pradėti</string>
     <string name="recording_start_text">Pradėti įrašymą</string>
+    <string name="recording_started_after_system_recreation_text">Vaizdo įrašymas pradedamas po to, kai sistema netikėtai uždarė programą.</string>
     <string name="recording_started_failed_text">Pradedant įrašymą įvyko klaida</string>
     <string name="recording_started_text">Įrašymas prasidėjo</string>
     <string name="recording_started_with_audio_text">Prasidėjo naujas vaizdo įrašymas su garso įrašymu</string>
@@ -548,6 +575,7 @@
     <string name="records_pin_lock_top_bar_title">Įrašų užraktas</string>
     <string name="reset">Atstatyti</string>
     <string name="snackbar_dismiss">Slėpti</string>
+    <string name="start_copying_files">Pradėti kopijuoti failus</string>
     <string name="storage_external_single">MicroSD kortelė</string>
     <string name="storage_phone">Telefono atmintis</string>
     <string name="subscription_benefit_all_premium_features">Bet kokios būsimos aukščiausios kokybės funkcijos</string>
@@ -566,6 +594,7 @@
     <string name="subscription_subscribe_text">Prenumeruoti</string>
     <string name="subscription_with_free_trial">Su nemokamu bandomuoju laikotarpiu</string>
     <string name="tap_to_allow_background_recording">Palieskite, kad leistumėte foninį vaizdo įrašymą.</string>
+    <string name="the_current_copy_files_operation_will_be_cancelled">Dabartinė failų kopijavimo operacija bus atšaukta.</string>
     <string name="timer_auto_start">Laikmatis</string>
     <string name="timer_auto_start_dlg_type_title">Norėdami pradėti įrašymą, nustatykite laikmatį</string>
     <string name="timer_auto_start_every_day_text">Kiekvieną dieną</string>
@@ -600,7 +629,7 @@
     <string name="videos_item_mode_deletion_exit_text">Išeiti iš trynimo režimo</string>
     <string name="videos_locked_folder_text">Apsaugotas perrašymas</string>
     <string name="videos_menu_delete">Ištrinti</string>
-    <string name="videos_menu_move_file">Perkelti failą</string>
+    <string name="videos_menu_move_file">Perkelti arba kopijuoti failą</string>
     <string name="videos_menu_refresh">Atnaujinti</string>
     <string name="videos_menu_select_all">Pasirinkite visus</string>
     <string name="videos_menu_sorting">Rūšiavimas</string>
@@ -613,5 +642,6 @@
     <string name="videos_temporary_folder_text">Laiku nustatyti vaizdo įrašai</string>
     <string name="videos_toolbar_subtitle">Vaizdo įrašai</string>
     <string name="widget_start_stop_recording_transparent">Skaidrus mygtukas įrašymui pradėti /sustabdyti</string>
+    <string name="yes">Taip</string>
     <string name="zoom_text">priartinti</string>
 </resources>

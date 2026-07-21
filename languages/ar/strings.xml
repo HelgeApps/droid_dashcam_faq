@@ -41,9 +41,14 @@
     <string name="camera_msg_error_non_exposed_error">فشل في فتح الكاميرا المحددة. يحدث أنه لا يمكن استخدام جميع الكاميرات المخفية بواسطة أي تطبيق. تسمح العديد من الشركات المصنعة باستخدامها فقط في تطبيقاتها الأصلية. سيتم فتح الكاميرا الافتراضية.</string>
     <string name="camera_msg_error_unknown_text">الكاميرا مؤقتًا (كانت) غير متاحة للفتح على جهازك (خطأ في نظام الكاميرا)</string>
     <string name="camera_support_error">حدث خطأ أثناء استخدام الكاميرا.</string>
+    <string name="cancel_copying_files">إلغاء نسخ الملفات؟</string>
     <string name="close">قريب</string>
+    <string name="copy_files">نسخ الملفات</string>
+    <string name="copy_selected_files_to_the_selected_folder">انسخ الملفات المحددة إلى المجلد المحدد.</string>
+    <string name="copying_files">نسخ الملفات</string>
     <string name="days">أيام</string>
     <string name="default_text">تقصير</string>
+    <string name="delete_original_files_after_copying">احذف الملفات الأصلية بعد نسخها</string>
     <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">تعليمات أكثر تفصيلاً لتعطيل تحسين البطارية والسماح بنشاط التطبيق في الخلفية:</string>
     <string name="dialog_camera_not_found_msg_text">لا يحتوي هذا الجهاز على كاميرا مدمجة ولا يدعم الكاميرات الخارجية. إغلاق…</string>
     <string name="dialog_camera_not_found_text">الكاميرا غير موجودة</string>
@@ -70,6 +75,7 @@
     <string name="donation_subs_one_text">تتم إزالة الإعلانات بالكامل أثناء تنشيط الاشتراك.</string>
     <string name="donation_subs_text">تبرع شهريا</string>
     <string name="donation_subscriptions_can_be_cancelled_any_time_text">يمكن إلغاء الاشتراك في أي وقت (سيكون زر \"إلغاء الاشتراك\" متاحًا، ويمكنك أيضًا إلغاءه في تطبيق Google Play)</string>
+    <string name="finished_copying_files">تم الانتهاء من نسخ الملفات.</string>
     <string name="format_altitude">ارتفاع</string>
     <string name="format_degrees">إحداثيات</string>
     <string name="format_gb">جيجابايت</string>
@@ -96,6 +102,7 @@
     <string name="moto_api34_disable_limit_background_activity_all">بدلاً من ذلك، قم بتعطيل \"تقييد نشاط الخلفية\" (باستخدام زر التبديل) للسماح لجميع التطبيقات بالعمل في الخلفية.</string>
     <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">افتح شاشة \"معلومات التطبيق\"، وحدد \"استخدام بطارية التطبيق\"، وقم بتمكين \"السماح بالاستخدام في الخلفية\" (عادة ما يكون ممكّنًا بشكل افتراضي).</string>
     <string name="moto_disable_manage_background_apps">افتح \"إعدادات النظام\"، ثم اختر \"البطارية\"، ثم اختر \"إدارة تطبيقات الخلفية\" (إن وُجدت) وعطّل خيار \"استخدام إدارة تطبيقات الخلفية\". قد يكون اسم الخيار أيضًا \"تحسين أداء البطارية أثناء عدم النشاط\".</string>
+    <string name="moving_files">نقل الملفات</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">لا يتم استبعاد التطبيق من تحسين البطارية. إذا كانت الكاميرا لا تعمل في الخلفية أو أي شيء آخر، فقم بإضافة هذا التطبيق إلى استثناءات وضع توفير الطاقة.</string>
     <string name="msg_android_r_deleting_manual_tip_text">إذا أعدت تثبيت التطبيق على Android 11 ، فيجب حذف الملفات القديمة يدويًا</string>
     <string name="msg_auto_recording_service_was_stopped">لقد قمت بإيقاف خدمة الخلفية لبدء تسجيل الفيديو تلقائيًا. افتح التطبيق لتشغيله مرة أخرى.</string>
@@ -141,6 +148,7 @@
     <string name="msg_video_rec_battery_not_enough_text">لا توجد طاقة كافية في البطارية لبدء التسجيل وفقًا للقواعد الحالية.</string>
     <string name="msg_video_recorder_error">حدث خطأ في مسجل الفيديو.</string>
     <string name="msg_voice_tts_lang_data_missing_text">لم يتم تثبيت حزمة اللغة لـ TTS (تحويل النص إلى كلام Android). قم بتشغيل الإنترنت لبدء التنزيل</string>
+    <string name="no">لا</string>
     <string name="notification_could_not_start_recording_service">فشل خدمة التسجيل في البدء. انقر لتعطيل تحسين البطارية لهذا التطبيق</string>
     <string name="notification_service_aux_checker">مقبس صوت (Aux)</string>
     <string name="notification_service_bl_checker">بلوتوث</string>
@@ -149,7 +157,7 @@
     <string name="notification_service_recreated_thermal_critical_msg">لم يتم استئناف تسجيل الفيديو تلقائيًا لأن الجهاز أبلغ عن حالة حرارية حرجة أو أعلى. يمكنك تغيير هذا السلوك من خلال \"التطبيقات ← الإعدادات ← إعدادات التسجيل\" (انقر على هذا الإشعار لفتح الإعدادات).</string>
     <string name="notification_service_recreated_thermal_severe_msg">لم يتم استئناف تسجيل الفيديو تلقائيًا لأن الجهاز أبلغ عن حالة حرارية شديدة أو أعلى. يمكنك تغيير هذا السلوك من خلال \"التطبيقات ← الإعدادات ← إعدادات التسجيل\" (انقر على هذا الإشعار لفتح الإعدادات).</string>
     <string name="notification_service_recreated_time_limit_msg">لم يتم استئناف تسجيل الفيديو تلقائيًا لأن إعادة تشغيل التطبيق حدثت بعد انقضاء المدة الزمنية المحددة للاستئناف التلقائي. يمكنك زيادة هذه المدة من خلال \"التطبيق ← الإعدادات ← إعدادات التسجيل\" (انقر على هذا الإشعار لفتح الإعدادات).\n...</string>
-    <string name="notification_service_recreated_title">أعاد النظام تشغيل التطبيق بشكل غير متوقع.</string>
+    <string name="notification_service_recreated_title">أغلق النظام التطبيق بشكل غير متوقع.</string>
     <string name="notification_stop_text">قف</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">للتسجيل التلقائي /إيقاف التشغيل</string>
     <string name="one_time_payment">دفعة لمرة واحدة</string>
@@ -225,10 +233,18 @@
     <string name="prefs_beep_each_start_recording_sum_text">إشارة في بداية تسجيل ملف الفيديو التالي</string>
     <string name="prefs_beep_each_start_recording_text">صفير عند التسجيل</string>
     <string name="prefs_camera_blurry">ضبابي</string>
+    <string name="prefs_camera_for_the_shortcut">الكاميرا للاختصار</string>
     <string name="prefs_camera_lens_distance_focus_default_hint">أعد ضبط الإعدادات إلى القيمة الافتراضية إذا ظهرت الصورة ضبابية.</string>
     <string name="prefs_camera_lens_distance_focus_title">ضبط مسافة تركيز العدسة لتحقيق التركيز اللانهائي</string>
+    <string name="prefs_camera_main">الكاميرا الرئيسية (أو آخر كاميرا تم استخدامها)</string>
+    <string name="prefs_camera_settings_for_the_shortcuts">إعدادات الكاميرا للاختصارات</string>
+    <string name="prefs_camera_shortcut_first_start_stop_rec_text">اختصار الكاميرا رقم 1</string>
+    <string name="prefs_camera_shortcut_sec_start_stop_rec_text">اختصار الكاميرا رقم 2</string>
+    <string name="prefs_camera_shortcuts_desc">اختصارات مشغل التطبيقات، والويدجت، وبلاطات الإعدادات السريعة.</string>
+    <string name="prefs_camera_shortcuts_settings_tip">تحقق من \"إعدادات الكاميرا للاختصارات\" ضمن \"إعدادات الفيديو\" لتحديد الكاميرا التي تريد استخدامها للاختصار رقم 1 أو الاختصار رقم 2.</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">قد لا توفر الشركة المصنعة للجهاز الوصول إلى جميع الكاميرات ، لذلك قد لا يفتح البعض</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">قد لا توفر الشركة المصنعة للجهاز كاميرا ذات عدسة واسعة لجميع التطبيقات</string>
+    <string name="prefs_change_units_by_tap_on_main_screen">قم بتغيير وحدات السرعة عن طريق النقر على قيمة السرعة في الشاشة الرئيسية.</string>
     <string name="prefs_consent_information_privacy_options">خيارات الخصوصية (معلومات الموافقة)</string>
     <string name="prefs_continuous_recording">التسجيل المستمر</string>
     <string name="prefs_continuous_recording_desc">يبدأ تسجيل ملف جديد عندما يصل الملف الحالي إلى المدة المحددة. في حال تعطيل هذه الخاصية، يتوقف التسجيل عند الوصول إلى الحد الأقصى للمدة.</string>
@@ -250,10 +266,13 @@
     <string name="prefs_g_sensor_force_very_high">عالي جدا</string>
     <string name="prefs_g_sensor_force_very_low">منخفظ جدا</string>
     <string name="prefs_gps_accuracy_text">تجاهل بيانات GPS مع وجود خطأ أعلاه</string>
+    <string name="prefs_gps_coordinates_format">تنسيق إحداثيات نظام تحديد المواقع العالمي (GPS)</string>
     <string name="prefs_gps_disabled_gps_and_google_text">إظهار تحذير عندما يتم تعطيل نظام تحديد المواقع العالمي (GPS) وتحديد الموقع الجغرافي لـ Google</string>
     <string name="prefs_gps_disabled_gps_only_text">إظهار التحذير فقط إذا تم تعطيل GPS</string>
     <string name="prefs_gps_disabled_no_warning_text">لا تظهر زر التحذير والإصلاح</string>
     <string name="prefs_gps_disabled_warning_text">GPS معطل تحذير ، زر الإصلاح</string>
+    <string name="prefs_gps_format_decimal_degrees">الدرجات العشرية</string>
+    <string name="prefs_gps_format_degrees_minutes_seconds">الدرجات/الدقائق/الثواني</string>
     <string name="prefs_info_more_category_text">معلومات /المزيد…</string>
     <string name="prefs_kill_services_sum_text">يحتوي جهازك على إعدادات تتحكم في استخدام التطبيقات في الخلفية (أو التشغيل التلقائي). انقر هنا للسماح باستخدام التطبيقات في الخلفية أو لإضافة التطبيق إلى قائمة الاستثناءات إذا كان استخدامه مقيدًا.</string>
     <string name="prefs_kill_services_text">السماح بالعمل في الخلفية</string>
@@ -273,6 +292,7 @@
     <string name="prefs_location_power_saving_to_get_updates_in_background">يجب إيقاف تشغيل توفير الطاقة لتتمكن من الحصول على تحديثات الموقع (GPS) في الخلفية.</string>
     <string name="prefs_location_provider_method_text">طريقة الحصول على الموقع (GPS)</string>
     <string name="prefs_location_update_frequency_text">معدل تحديث GPS</string>
+    <string name="prefs_main_camera_changes_to_latest_used_camera_for_shortcut">تتغير الكاميرا الرئيسية إلى أحدث كاميرا مستخدمة للاختصار رقم 1 أو الاختصار رقم 2.</string>
     <string name="prefs_meters_accuracy_value_text">متر من الدقة</string>
     <string name="prefs_open_source_notices_text">إشعارات المصادر المفتوحة</string>
     <string name="prefs_optical_zoom_text">تكبير بصري (تكبير) /طول بؤري</string>
@@ -361,6 +381,10 @@
     <string name="prefs_share_sum_text">أرسل هذا التطبيق إلى أصدقائك</string>
     <string name="prefs_share_text">شارك هذا</string>
     <string name="prefs_shortcut_launcher_has_been_added">تمت إضافة الاختصار (المشغل).</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove">قم بإزالة المشغل</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove_desc">لإزالته بالكامل، قد تحتاج إلى إزالته يدويًا من شاشتك الرئيسية (المسه مع الاستمرار، ثم حدد \"إزالة\")، أو إعادة تشغيل مشغل الشاشة الرئيسية، أو حتى إعادة تشغيل هاتفك.</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_sum">يُضيف هذا التطبيق مُشغّل تطبيقات كلاسيكيًا منفصلاً، يظهر عادةً في قائمة جميع التطبيقات (درج التطبيقات)، لبدء/إيقاف تسجيل الفيديو. في بعض الأجهزة وإصدارات أندرويد، يُمكن ربطه بالضغط المزدوج على زر التشغيل/الزر الجانبي، كما هو الحال في أجهزة سامسونج التي تعمل بنظام أندرويد 12 أو أقدم. مع ذلك، يبدو أن الإصدارات الأحدث لم تعد تسمح بذلك (على الأقل في أجهزة سامسونج).</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_title">أضف مشغل التطبيقات الكلاسيكي</string>
     <string name="prefs_shortcut_rec_start_launcher_sum">لبدء /إيقاف التسجيل دون تشغيل الشاشة الرئيسية</string>
     <string name="prefs_shortcut_rec_start_launcher_title">إضافة اختصار (قاذفة)</string>
     <string name="prefs_show_audio_btn_text">تشغيل /إيقاف تسجيل الصوت</string>
@@ -380,6 +404,8 @@
     <string name="prefs_start_stop_toast_message_text">عرض رسالة عند بدء التسجيل أو إيقافه أثناء التسجيل في الخلفية</string>
     <string name="prefs_start_stop_voice_sum_text">صوت عند البدء أو التوقف أو خطأ في التسجيل</string>
     <string name="prefs_start_stop_voice_text">حالة التسجيل الصوتي</string>
+    <string name="prefs_storage_select_folder_for_photos_hint_msg">حدد مجلدًا لحفظ الصور فيه.</string>
+    <string name="prefs_storage_select_folder_for_records_hint_msg">حدد مجلدًا لحفظ تسجيلات الفيديو.</string>
     <string name="prefs_subtitles_address_text">العنوان</string>
     <string name="prefs_subtitles_color_text">حدد لون الترجمة</string>
     <string name="prefs_subtitles_coords_text">إحداثيات</string>
@@ -517,6 +543,7 @@
     <string name="recording_file_name_prefix">بادئة لأسماء ملفات الفيديو</string>
     <string name="recording_start_short_text">يبدأ</string>
     <string name="recording_start_text">ابدأ التسجيل</string>
+    <string name="recording_started_after_system_recreation_text">بدء تسجيل الفيديو بعد إغلاق التطبيق بشكل غير متوقع من قبل النظام.</string>
     <string name="recording_started_failed_text">خطأ في بدء التسجيل</string>
     <string name="recording_started_text">بدأ التسجيل</string>
     <string name="recording_started_with_audio_text">بدأ تسجيل فيديو جديد مع تسجيل صوتي</string>
@@ -548,6 +575,7 @@
     <string name="records_pin_lock_top_bar_title">قفل التسجيلات</string>
     <string name="reset">إعادة ضبط</string>
     <string name="snackbar_dismiss">يخفي</string>
+    <string name="start_copying_files">ابدأ بنسخ الملفات</string>
     <string name="storage_external_single">بطاقة مايكرو التنمية المستدامة</string>
     <string name="storage_phone">ذاكرة الهاتف</string>
     <string name="subscription_benefit_all_premium_features">أي ميزات مميزة مستقبلية</string>
@@ -566,6 +594,7 @@
     <string name="subscription_subscribe_text">يشترك</string>
     <string name="subscription_with_free_trial">مع نسخة تجريبية مجانية</string>
     <string name="tap_to_allow_background_recording">انقر للسماح بتسجيل الفيديو في الخلفية.</string>
+    <string name="the_current_copy_files_operation_will_be_cancelled">سيتم إلغاء عملية نسخ الملفات الحالية.</string>
     <string name="timer_auto_start">الموقت</string>
     <string name="timer_auto_start_dlg_type_title">اضبط مؤقتًا لبدء التسجيل</string>
     <string name="timer_auto_start_every_day_text">كل يوم</string>
@@ -600,7 +629,7 @@
     <string name="videos_item_mode_deletion_exit_text">الخروج من وضع الحذف</string>
     <string name="videos_locked_folder_text">الكتابة محمية</string>
     <string name="videos_menu_delete">حذف</string>
-    <string name="videos_menu_move_file">نقل الملف</string>
+    <string name="videos_menu_move_file">نقل أو نسخ الملف</string>
     <string name="videos_menu_refresh">ينعش</string>
     <string name="videos_menu_select_all">اختر الكل</string>
     <string name="videos_menu_sorting">فرز</string>
@@ -613,5 +642,6 @@
     <string name="videos_temporary_folder_text">مقاطع فيديو محددة التوقيت</string>
     <string name="videos_toolbar_subtitle">تسجيلات الفيديو</string>
     <string name="widget_start_stop_recording_transparent">زر شفاف لبدء/إيقاف التسجيل</string>
+    <string name="yes">نعم</string>
     <string name="zoom_text">تكبير</string>
 </resources>

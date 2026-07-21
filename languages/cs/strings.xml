@@ -41,9 +41,14 @@
     <string name="camera_msg_error_non_exposed_error">Otevření vybrané kamery se nezdařilo. Stává se, že ne všechny skryté kamery může používat jakákoli aplikace. Mnoho výrobců umožňuje jejich použití pouze ve svých nativních aplikacích. Otevře se výchozí kamera.</string>
     <string name="camera_msg_error_unknown_text">Fotoaparát je dočasně (nebyl) k dispozici pro otevření na vašem zařízení (chyba systému fotoaparátu)</string>
     <string name="camera_support_error">Při používání fotoaparátu došlo k chybě.</string>
+    <string name="cancel_copying_files">Zrušit kopírování souborů?</string>
     <string name="close">Zavřít</string>
+    <string name="copy_files">Kopírování souborů</string>
+    <string name="copy_selected_files_to_the_selected_folder">Zkopírujte vybrané soubory do vybrané složky.</string>
+    <string name="copying_files">Kopírování souborů</string>
     <string name="days">dní</string>
     <string name="default_text">Výchozí</string>
+    <string name="delete_original_files_after_copying">Po kopírování smazat původní soubory</string>
     <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">Podrobnější pokyny k vypnutí optimalizace baterie a povolení aktivity aplikace na pozadí:</string>
     <string name="dialog_camera_not_found_msg_text">Toto zařízení nemá vestavěnou kameru a nepodporuje externí kamery. Zavírání…</string>
     <string name="dialog_camera_not_found_text">Kamera nenalezena</string>
@@ -70,6 +75,7 @@
     <string name="donation_subs_one_text">Když je předplatné aktivní, reklama je zcela odstraněna.</string>
     <string name="donation_subs_text">Darujte měsíčně</string>
     <string name="donation_subscriptions_can_be_cancelled_any_time_text">Předplatné lze kdykoli zrušit (k dispozici bude tlačítko „zrušit předplatné“, zrušit jej můžete také v aplikaci Google Play)</string>
+    <string name="finished_copying_files">Kopírování souborů dokončeno.</string>
     <string name="format_altitude">Výška</string>
     <string name="format_degrees">Souřadnice</string>
     <string name="format_gb">Gigabyte</string>
@@ -96,6 +102,7 @@
     <string name="moto_api34_disable_limit_background_activity_all">Nebo můžete vypnout možnost „Omezit aktivitu na pozadí“ (pomocí přepínače), aby všechny aplikace mohly běžet na pozadí.</string>
     <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">Otevřete obrazovku „Informace o aplikaci“, vyberte „Využití baterie aplikací“ a povolte možnost „Povolit používání na pozadí“ (obvykle je ve výchozím nastavení povolena).</string>
     <string name="moto_disable_manage_background_apps">Otevřete „Nastavení systému“, vyberte „Baterie“, poté vyberte „Spravovat aplikace na pozadí“ (pokud je k dispozici) a deaktivujte možnost „Používat spravovat aplikace na pozadí“. Možnost se může také jmenovat „Zlepšit výdrž baterie při neaktivitě“.</string>
+    <string name="moving_files">Přesouvání souborů</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Aplikace není vyloučena z optimalizace baterie. Pokud kamera neběží na pozadí nebo něco jiného, ​​přidejte tuto aplikaci k výjimkám režimu úspory energie.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Pokud jste aplikaci přeinstalovali na Android 11, musíte staré soubory odstranit ručně</string>
     <string name="msg_auto_recording_service_was_stopped">Zastavili jste službu na pozadí pro automatické spouštění nahrávání videa. Otevřete aplikaci a znovu ji spusťte.</string>
@@ -141,6 +148,7 @@
     <string name="msg_video_rec_battery_not_enough_text">Podle současných pravidel není v baterii dostatek energie pro zahájení nahrávání.</string>
     <string name="msg_video_recorder_error">S videorekordérem se něco pokazilo.</string>
     <string name="msg_voice_tts_lang_data_missing_text">Jazykový balíček pro TTS (Android Text-to-Speech) není nainstalován. Zapněte internet a začněte stahovat</string>
+    <string name="no">Žádný</string>
     <string name="notification_could_not_start_recording_service">Službu nahrávání se nepodařilo spustit. Klepnutím zakážete optimalizaci baterie pro tuto aplikaci</string>
     <string name="notification_service_aux_checker">audio jack (Aux)</string>
     <string name="notification_service_bl_checker">bluetooth</string>
@@ -149,7 +157,7 @@
     <string name="notification_service_recreated_thermal_critical_msg">Nahrávání videa nebylo automaticky obnoveno, protože zařízení hlásilo kritický teplotní stav nebo vyšší. Toto chování můžete změnit v části „Aplikace → Nastavení → Nastavení nahrávání“ (klepnutím na toto oznámení otevřete nastavení).</string>
     <string name="notification_service_recreated_thermal_severe_msg">Nahrávání videa nebylo automaticky obnoveno, protože zařízení hlásilo závažný nebo vyšší teplotní stav. Toto chování můžete změnit v části „Aplikace → Nastavení → Nastavení nahrávání“ (klepnutím na toto oznámení otevřete nastavení).</string>
     <string name="notification_service_recreated_time_limit_msg">Nahrávání videa nebylo automaticky obnoveno, protože restart aplikace proběhl po uplynutí nakonfigurovaného časového limitu automatického obnovení. Tento limit můžete zvýšit v části „Aplikace → Nastavení → Nastavení nahrávání“ (klepnutím na toto oznámení otevřete nastavení).</string>
-    <string name="notification_service_recreated_title">Systém neočekávaně restartoval aplikaci.</string>
+    <string name="notification_service_recreated_title">Systém neočekávaně zavřel aplikaci.</string>
     <string name="notification_stop_text">Stop</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Pro automatické zapnutí /vypnutí nahrávání</string>
     <string name="one_time_payment">Jednorázová platba</string>
@@ -225,10 +233,18 @@
     <string name="prefs_beep_each_start_recording_sum_text">Signál na začátku nahrávání dalšího video souboru</string>
     <string name="prefs_beep_each_start_recording_text">Pípnutí při nahrávání</string>
     <string name="prefs_camera_blurry">Rozmazané</string>
+    <string name="prefs_camera_for_the_shortcut">Fotoaparát pro zkratku</string>
     <string name="prefs_camera_lens_distance_focus_default_hint">Pokud se obrázek jeví rozmazaný, resetujte na výchozí hodnotu</string>
     <string name="prefs_camera_lens_distance_focus_title">Nastavení zaostřovací vzdálenosti objektivu pro dosažení nekonečného zaostření</string>
+    <string name="prefs_camera_main">Hlavní fotoaparát (nebo ten, který byl naposledy použit)</string>
+    <string name="prefs_camera_settings_for_the_shortcuts">Nastavení fotoaparátu pro zkratky</string>
+    <string name="prefs_camera_shortcut_first_start_stop_rec_text">Zkratka fotoaparátu č. 1</string>
+    <string name="prefs_camera_shortcut_sec_start_stop_rec_text">Zkratka fotoaparátu č. 2</string>
+    <string name="prefs_camera_shortcuts_desc">Zkratky spouštěče aplikací, widgety, dlaždice rychlého nastavení.</string>
+    <string name="prefs_camera_shortcuts_settings_tip">V části „Nastavení videa“ zaškrtněte políčko „Nastavení kamery pro zkratky“ a vyberte kameru, kterou chcete použít pro zkratku č. 1 nebo zkratku č. 2.</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Výrobce zařízení nemusí poskytovat přístup ke všem kamerám, takže se některé nemusí otevřít</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Výrobce zařízení nemusí poskytovat širokoúhlý fotoaparát pro všechny aplikace</string>
+    <string name="prefs_change_units_by_tap_on_main_screen">Jednotky rychlosti změňte klepnutím na hodnotu rychlosti na hlavní obrazovce.</string>
     <string name="prefs_consent_information_privacy_options">Možnosti ochrany osobních údajů (informace o souhlasu)</string>
     <string name="prefs_continuous_recording">Nepřetržitý záznam</string>
     <string name="prefs_continuous_recording_desc">Spustí nový soubor, když aktuální soubor dosáhne nastavené délky. Pokud je tato možnost zakázána, nahrávání se zastaví na limitu.</string>
@@ -250,10 +266,13 @@
     <string name="prefs_g_sensor_force_very_high">Velmi vysoko</string>
     <string name="prefs_g_sensor_force_very_low">Velmi nízký</string>
     <string name="prefs_gps_accuracy_text">Ignorovat data GPS s chybou výše</string>
+    <string name="prefs_gps_coordinates_format">Formát GPS souřadnic</string>
     <string name="prefs_gps_disabled_gps_and_google_text">Zobrazit upozornění, když je deaktivována geolokace GPS a Google</string>
     <string name="prefs_gps_disabled_gps_only_text">Zobrazit varování pouze v případě, že je vypnuto GPS</string>
     <string name="prefs_gps_disabled_no_warning_text">Nezobrazovat tlačítko varování a opravy</string>
     <string name="prefs_gps_disabled_warning_text">Upozornění na deaktivaci GPS, tlačítko opravit</string>
+    <string name="prefs_gps_format_decimal_degrees">Desetinné stupně</string>
+    <string name="prefs_gps_format_degrees_minutes_seconds">Stupně/minuty/sekundy</string>
     <string name="prefs_info_more_category_text">Informace /Více…</string>
     <string name="prefs_kill_services_sum_text">Vaše zařízení má nastavení, která ovládají používání na pozadí (nebo automatické spouštění). Klepnutím sem povolíte používání na pozadí nebo přidáte aplikaci do seznamu výjimek, pokud je omezena.</string>
     <string name="prefs_kill_services_text">Povolení práce na pozadí</string>
@@ -273,6 +292,7 @@
     <string name="prefs_location_power_saving_to_get_updates_in_background">Úspora energie by měla být vypnuta, abyste mohli získávat aktualizace polohy (GPS) na pozadí.</string>
     <string name="prefs_location_provider_method_text">Metoda získávání polohy (GPS)</string>
     <string name="prefs_location_update_frequency_text">Rychlost aktualizace GPS</string>
+    <string name="prefs_main_camera_changes_to_latest_used_camera_for_shortcut">Hlavní fotoaparát se změní na naposledy použitý fotoaparát pro zkratku č. 1 nebo zkratku č. 2.</string>
     <string name="prefs_meters_accuracy_value_text">metrů přesnosti</string>
     <string name="prefs_open_source_notices_text">Oznámení o otevřeném zdrojovém kódu</string>
     <string name="prefs_optical_zoom_text">Optický zoom (Zoom) /Ohnisková vzdálenost</string>
@@ -361,6 +381,10 @@
     <string name="prefs_share_sum_text">Pošlete tuto aplikaci svým přátelům</string>
     <string name="prefs_share_text">Sdílejte toto</string>
     <string name="prefs_shortcut_launcher_has_been_added">Byla přidána zkratka (spouštěč).</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove">Odstraňte spouštěč</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove_desc">Chcete-li jej zcela odstranit, může být nutné jej ručně odstranit z domovské obrazovky (dotknout se ho a podržet a poté vybrat možnost „Odstranit“), restartovat domovskou obrazovku nebo dokonce restartovat telefon.</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_sum">Přidává samostatný klasický spouštěč aplikací, který je obvykle viditelný v seznamu Všechny aplikace (zásuvka s aplikacemi), pro spuštění/zastavení nahrávání videa. Na některých zařízeních a verzích systému Android jej lze přiřadit k akci dvojitého stisknutí tlačítka napájení/bočního tlačítka telefonu, například na zařízeních Samsung s Androidem 12 nebo starším. Novější verze to však již zřejmě neumožňují (alespoň na zařízeních Samsung).</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_title">Přidat klasický spouštěč pro aplikaci</string>
     <string name="prefs_shortcut_rec_start_launcher_sum">Spuštění/zastavení nahrávání bez spuštění hlavní obrazovky</string>
     <string name="prefs_shortcut_rec_start_launcher_title">Přidat zástupce (spouštěč)</string>
     <string name="prefs_show_audio_btn_text">Zapnutí/vypnutí nahrávání zvuku</string>
@@ -380,6 +404,8 @@
     <string name="prefs_start_stop_toast_message_text">Zobrazení zprávy při spuštění nebo zastavení nahrávání během nahrávání na pozadí</string>
     <string name="prefs_start_stop_voice_sum_text">Zvuk při spuštění, zastavení nebo chyba nahrávání</string>
     <string name="prefs_start_stop_voice_text">Stav záznamu zvuku</string>
+    <string name="prefs_storage_select_folder_for_photos_hint_msg">Vyberte složku, kam budou fotografie uloženy.</string>
+    <string name="prefs_storage_select_folder_for_records_hint_msg">Vyberte složku, kam budou ukládány videozáznamy.</string>
     <string name="prefs_subtitles_address_text">Adresa</string>
     <string name="prefs_subtitles_color_text">Vyberte barvu titulků</string>
     <string name="prefs_subtitles_coords_text">Souřadnice</string>
@@ -517,6 +543,7 @@
     <string name="recording_file_name_prefix">Předpona pro názvy souborů videa</string>
     <string name="recording_start_short_text">Start</string>
     <string name="recording_start_text">Začít nahrávat</string>
+    <string name="recording_started_after_system_recreation_text">Spuštění nahrávání videa po neočekávaném ukončení aplikace systémem.</string>
     <string name="recording_started_failed_text">Chyba při spouštění nahrávání</string>
     <string name="recording_started_text">Nahrávání začalo</string>
     <string name="recording_started_with_audio_text">Začalo nové natáčení videa se záznamem zvuku</string>
@@ -548,6 +575,7 @@
     <string name="records_pin_lock_top_bar_title">Zámek nahrávek</string>
     <string name="reset">Obnovit</string>
     <string name="snackbar_dismiss">Skrýt</string>
+    <string name="start_copying_files">Začít kopírovat soubory</string>
     <string name="storage_external_single">MicroSD karta</string>
     <string name="storage_phone">Paměť telefonu</string>
     <string name="subscription_benefit_all_premium_features">Veškeré budoucí prémiové funkce</string>
@@ -566,6 +594,7 @@
     <string name="subscription_subscribe_text">Upsat</string>
     <string name="subscription_with_free_trial">S bezplatnou zkušební verzí</string>
     <string name="tap_to_allow_background_recording">Klepnutím povolíte nahrávání videa na pozadí.</string>
+    <string name="the_current_copy_files_operation_will_be_cancelled">Aktuální operace kopírování souborů bude zrušena.</string>
     <string name="timer_auto_start">Časovač</string>
     <string name="timer_auto_start_dlg_type_title">Nastavte časovač pro zahájení nahrávání</string>
     <string name="timer_auto_start_every_day_text">Každý den</string>
@@ -600,7 +629,7 @@
     <string name="videos_item_mode_deletion_exit_text">Ukončete režim mazání</string>
     <string name="videos_locked_folder_text">Chráněno proti přepsání</string>
     <string name="videos_menu_delete">Vymazat</string>
-    <string name="videos_menu_move_file">Přesunout soubor</string>
+    <string name="videos_menu_move_file">Přesunout nebo zkopírovat soubor</string>
     <string name="videos_menu_refresh">Obnovit</string>
     <string name="videos_menu_select_all">Vyberte všechny</string>
     <string name="videos_menu_sorting">Řazení</string>
@@ -613,5 +642,6 @@
     <string name="videos_temporary_folder_text">Časovaná videa</string>
     <string name="videos_toolbar_subtitle">Videonahrávky</string>
     <string name="widget_start_stop_recording_transparent">Průhledné tlačítko pro spuštění/zastavení nahrávání</string>
+    <string name="yes">Ano</string>
     <string name="zoom_text">Zvětšení</string>
 </resources>

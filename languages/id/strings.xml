@@ -41,9 +41,14 @@
     <string name="camera_msg_error_non_exposed_error">Gagal membuka kamera yang dipilih. Kebetulan tidak semua kamera tersembunyi bisa digunakan oleh aplikasi apapun. Banyak pabrikan hanya mengizinkan penggunaannya dalam aplikasi asli mereka. Kamera default akan terbuka.</string>
     <string name="camera_msg_error_unknown_text">Kamera untuk sementara tidak dapat dibuka di perangkat Anda (kesalahan sistem kamera)</string>
     <string name="camera_support_error">Terjadi kesalahan saat menggunakan kamera.</string>
+    <string name="cancel_copying_files">Batalkan penyalinan file?</string>
     <string name="close">Menutup</string>
+    <string name="copy_files">Salin file</string>
+    <string name="copy_selected_files_to_the_selected_folder">Salin file yang dipilih ke folder yang dipilih.</string>
+    <string name="copying_files">Menyalin file</string>
     <string name="days">hari</string>
     <string name="default_text">Bawaan</string>
+    <string name="delete_original_files_after_copying">Hapus file asli setelah menyalinnya.</string>
     <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">Petunjuk lebih detail untuk menonaktifkan pengoptimalan baterai dan mengizinkan aktivitas latar belakang untuk aplikasi:</string>
     <string name="dialog_camera_not_found_msg_text">Perangkat ini tidak memiliki kamera internal dan tidak mendukung kamera eksternal. Penutupan…</string>
     <string name="dialog_camera_not_found_text">Kamera tidak ditemukan</string>
@@ -70,6 +75,7 @@
     <string name="donation_subs_one_text">Iklan dihapus sepenuhnya saat langganan aktif.</string>
     <string name="donation_subs_text">Donasi setiap bulan</string>
     <string name="donation_subscriptions_can_be_cancelled_any_time_text">Langganan dapat dibatalkan kapan saja (tombol “batalkan langganan” akan tersedia, Anda juga dapat membatalkannya di aplikasi Google Play)</string>
+    <string name="finished_copying_files">Proses penyalinan file telah selesai.</string>
     <string name="format_altitude">Tinggi</string>
     <string name="format_degrees">Koordinat</string>
     <string name="format_gb">Gigabyte</string>
@@ -96,6 +102,7 @@
     <string name="moto_api34_disable_limit_background_activity_all">Alternatifnya, nonaktifkan \"Batasi aktivitas latar belakang\" (menggunakan tombol pengalih) untuk mengizinkan semua aplikasi berjalan di latar belakang.</string>
     <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">Buka layar \"Info aplikasi\", pilih \"Penggunaan baterai aplikasi\", dan aktifkan \"Izinkan penggunaan latar belakang\" (biasanya sudah diaktifkan secara default).</string>
     <string name="moto_disable_manage_background_apps">Buka \"Pengaturan Sistem\", pilih \"Baterai\", lalu pilih \"Kelola aplikasi latar belakang\" (jika tersedia) dan nonaktifkan opsi \"Gunakan Kelola aplikasi latar belakang\". Opsi tersebut mungkin juga bernama \"Hemat baterai saat tidak aktif\".</string>
+    <string name="moving_files">Memindahkan file</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Aplikasi ini tidak dikecualikan dari optimasi baterai. Jika kamera tidak berjalan di latar belakang atau hal lain, tambahkan aplikasi ini ke pengecualian mode hemat daya.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Jika Anda menginstal ulang aplikasi di Android 11, maka file lama harus dihapus secara manual</string>
     <string name="msg_auto_recording_service_was_stopped">Anda telah menghentikan layanan latar belakang untuk memulai perekaman video secara otomatis. Buka aplikasi untuk meluncurkannya lagi.</string>
@@ -141,6 +148,7 @@
     <string name="msg_video_rec_battery_not_enough_text">Daya baterai tidak mencukupi untuk memulai perekaman sesuai aturan saat ini.</string>
     <string name="msg_video_recorder_error">Ada yang tidak beres dengan perekam video.</string>
     <string name="msg_voice_tts_lang_data_missing_text">Paket bahasa untuk TTS (Android Text-to-Speech) tidak diinstal. Nyalakan internet untuk mulai mengunduh</string>
+    <string name="no">TIDAK</string>
     <string name="notification_could_not_start_recording_service">Layanan perekaman gagal dimulai. Ketuk untuk menonaktifkan pengoptimalan baterai untuk aplikasi ini</string>
     <string name="notification_service_aux_checker">soket audio (Aux)</string>
     <string name="notification_service_bl_checker">bluetooth</string>
@@ -149,7 +157,7 @@
     <string name="notification_service_recreated_thermal_critical_msg">Perekaman video tidak dilanjutkan secara otomatis karena perangkat melaporkan status termal Kritis atau lebih tinggi. Anda dapat mengubah perilaku ini di \"Aplikasi → Pengaturan → Pengaturan Perekaman\" (ketuk notifikasi ini untuk membuka pengaturan).</string>
     <string name="notification_service_recreated_thermal_severe_msg">Perekaman video tidak dilanjutkan secara otomatis karena perangkat melaporkan status termal Parah atau lebih tinggi. Anda dapat mengubah perilaku ini di \"Aplikasi → Pengaturan → Pengaturan Perekaman\" (ketuk notifikasi ini untuk membuka pengaturan).</string>
     <string name="notification_service_recreated_time_limit_msg">Perekaman video tidak dilanjutkan secara otomatis karena aplikasi dimulai ulang setelah batas waktu melanjutkan perekaman otomatis yang telah dikonfigurasi. Anda dapat meningkatkan batas waktu ini di \"Aplikasi → Pengaturan → Pengaturan Perekaman\" (ketuk notifikasi ini untuk membuka pengaturan).\n\n</string>
-    <string name="notification_service_recreated_title">Sistem tersebut tiba-tiba memulai ulang aplikasi.</string>
+    <string name="notification_service_recreated_title">Sistem tiba-tiba menutup aplikasi.</string>
     <string name="notification_stop_text">Berhenti</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Untuk perekaman hidup /mati otomatis</string>
     <string name="one_time_payment">Pembayaran satu kali</string>
@@ -225,10 +233,18 @@
     <string name="prefs_beep_each_start_recording_sum_text">Sinyal di awal perekaman file video berikutnya</string>
     <string name="prefs_beep_each_start_recording_text">Bip saat merekam</string>
     <string name="prefs_camera_blurry">Buram</string>
+    <string name="prefs_camera_for_the_shortcut">Kamera untuk jalan pintas</string>
     <string name="prefs_camera_lens_distance_focus_default_hint">Kembalikan ke nilai default jika gambar tampak buram.</string>
     <string name="prefs_camera_lens_distance_focus_title">Penyesuaian jarak fokus lensa untuk mencapai fokus tak terhingga.</string>
+    <string name="prefs_camera_main">Kamera utama (atau kamera terakhir yang digunakan)</string>
+    <string name="prefs_camera_settings_for_the_shortcuts">Pengaturan kamera untuk pintasan</string>
+    <string name="prefs_camera_shortcut_first_start_stop_rec_text">Jalan Pintas Kamera #1</string>
+    <string name="prefs_camera_shortcut_sec_start_stop_rec_text">Pintasan Kamera #2</string>
+    <string name="prefs_camera_shortcuts_desc">Pintasan peluncur aplikasi, widget, ubin pengaturan cepat.</string>
+    <string name="prefs_camera_shortcuts_settings_tip">Periksa \"Pengaturan kamera untuk pintasan\" di bawah \"Pengaturan Video\" untuk memilih kamera yang ingin Anda gunakan untuk Pintasan #1 atau Pintasan #2.</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Pabrikan perangkat mungkin tidak menyediakan akses ke semua kamera, sehingga beberapa kamera mungkin tidak dapat dibuka</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Pabrikan perangkat mungkin tidak menyediakan kamera lensa lebar untuk semua aplikasi</string>
+    <string name="prefs_change_units_by_tap_on_main_screen">Ubah satuan kecepatan dengan mengetuk nilai kecepatan di layar utama.</string>
     <string name="prefs_consent_information_privacy_options">Opsi privasi (Informasi persetujuan)</string>
     <string name="prefs_continuous_recording">Perekaman berkelanjutan</string>
     <string name="prefs_continuous_recording_desc">Memulai perekaman file baru ketika file yang sedang berjalan mencapai durasi yang telah ditentukan. Jika dinonaktifkan, perekaman akan berhenti pada batas durasi.</string>
@@ -250,10 +266,13 @@
     <string name="prefs_g_sensor_force_very_high">Sangat tinggi</string>
     <string name="prefs_g_sensor_force_very_low">Sangat rendah</string>
     <string name="prefs_gps_accuracy_text">Abaikan data GPS dengan kesalahan di atas</string>
+    <string name="prefs_gps_coordinates_format">Format Koordinat GPS</string>
     <string name="prefs_gps_disabled_gps_and_google_text">Tampilkan peringatan saat GPS dan geolokasi Google dinonaktifkan</string>
     <string name="prefs_gps_disabled_gps_only_text">Tampilkan peringatan hanya jika GPS dinonaktifkan</string>
     <string name="prefs_gps_disabled_no_warning_text">Jangan tampilkan tombol peringatan dan perbaiki</string>
     <string name="prefs_gps_disabled_warning_text">Peringatan GPS dinonaktifkan, tombol perbaiki</string>
+    <string name="prefs_gps_format_decimal_degrees">Derajat Desimal</string>
+    <string name="prefs_gps_format_degrees_minutes_seconds">Derajat/Menit/Detik</string>
     <string name="prefs_info_more_category_text">Informasi /Selengkapnya…</string>
     <string name="prefs_kill_services_sum_text">Perangkat Anda memiliki pengaturan yang mengontrol penggunaan latar belakang (atau mulai otomatis). Ketuk di sini untuk mengizinkan penggunaan latar belakang atau tambahkan aplikasi ke daftar pengecualian jika dibatasi.</string>
     <string name="prefs_kill_services_text">Mengizinkan pekerjaan latar belakang</string>
@@ -273,6 +292,7 @@
     <string name="prefs_location_power_saving_to_get_updates_in_background">Hemat Daya harus dimatikan agar dapat memperoleh pembaruan lokasi (GPS) di latar belakang.</string>
     <string name="prefs_location_provider_method_text">Metode akuisisi lokasi (GPS)</string>
     <string name="prefs_location_update_frequency_text">Tingkat pembaruan GPS</string>
+    <string name="prefs_main_camera_changes_to_latest_used_camera_for_shortcut">Kamera utama berganti ke kamera terakhir yang digunakan untuk Pintasan #1 atau Pintasan #2.</string>
     <string name="prefs_meters_accuracy_value_text">meter akurasi</string>
     <string name="prefs_open_source_notices_text">Pemberitahuan sumber terbuka</string>
     <string name="prefs_optical_zoom_text">Zoom Optik (Zoom) /Panjang Fokus</string>
@@ -361,6 +381,10 @@
     <string name="prefs_share_sum_text">Kirim aplikasi ini ke teman Anda</string>
     <string name="prefs_share_text">Bagikan ini</string>
     <string name="prefs_shortcut_launcher_has_been_added">Pintasan (peluncur) telah ditambahkan</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove">Hapus peluncur</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove_desc">Untuk menghapusnya sepenuhnya, Anda mungkin perlu menghapusnya secara manual dari layar beranda (sentuh dan tahan, lalu pilih \"Hapus\"), memulai ulang peluncur layar beranda, atau bahkan me-reboot ponsel Anda.</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_sum">Menambahkan peluncur aplikasi klasik terpisah yang biasanya terlihat di daftar Semua Aplikasi (laci aplikasi) untuk memulai/menghentikan perekaman video. Pada beberapa perangkat dan versi Android, peluncur ini dapat ditetapkan ke tindakan tekan ganda Tombol Daya/Tombol Samping ponsel, misalnya pada perangkat Samsung yang menjalankan Android 12 atau lebih rendah. Namun, versi yang lebih baru tampaknya tidak lagi mengizinkan hal ini (setidaknya pada perangkat Samsung).</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_title">Tambahkan peluncur klasik untuk aplikasi tersebut.</string>
     <string name="prefs_shortcut_rec_start_launcher_sum">Untuk memulai/menghentikan perekaman tanpa membuka layar utama</string>
     <string name="prefs_shortcut_rec_start_launcher_title">Tambahkan pintasan (peluncur)</string>
     <string name="prefs_show_audio_btn_text">Perekaman audio hidup/mati</string>
@@ -380,6 +404,8 @@
     <string name="prefs_start_stop_toast_message_text">Menampilkan pesan saat memulai atau menghentikan perekaman selama perekaman di latar belakang</string>
     <string name="prefs_start_stop_voice_sum_text">Suara saat memulai, berhenti atau merekam kesalahan</string>
     <string name="prefs_start_stop_voice_text">Status perekaman suara</string>
+    <string name="prefs_storage_select_folder_for_photos_hint_msg">Pilih folder tempat foto akan disimpan.</string>
+    <string name="prefs_storage_select_folder_for_records_hint_msg">Pilih folder tempat rekaman video akan disimpan.</string>
     <string name="prefs_subtitles_address_text">Alamat</string>
     <string name="prefs_subtitles_color_text">Pilih warna subtitle</string>
     <string name="prefs_subtitles_coords_text">Koordinat</string>
@@ -517,6 +543,7 @@
     <string name="recording_file_name_prefix">Awalan untuk nama file video</string>
     <string name="recording_start_short_text">Awal</string>
     <string name="recording_start_text">Mulai merekam</string>
+    <string name="recording_started_after_system_recreation_text">Perekaman video dimulai setelah aplikasi ditutup secara tiba-tiba oleh sistem.</string>
     <string name="recording_started_failed_text">Kesalahan memulai perekaman</string>
     <string name="recording_started_text">Perekaman telah dimulai</string>
     <string name="recording_started_with_audio_text">Rekaman video baru dengan rekaman audio telah dimulai</string>
@@ -548,6 +575,7 @@
     <string name="records_pin_lock_top_bar_title">Rekaman terkunci</string>
     <string name="reset">Mengatur ulang</string>
     <string name="snackbar_dismiss">Bersembunyi</string>
+    <string name="start_copying_files">Mulai menyalin file</string>
     <string name="storage_external_single">Kartu MicroSD</string>
     <string name="storage_phone">Memori telepon</string>
     <string name="subscription_benefit_all_premium_features">Fitur premium apa pun di masa mendatang</string>
@@ -566,6 +594,7 @@
     <string name="subscription_subscribe_text">Berlangganan</string>
     <string name="subscription_with_free_trial">Dengan uji coba gratis</string>
     <string name="tap_to_allow_background_recording">Ketuk untuk mengizinkan perekaman video di latar belakang.</string>
+    <string name="the_current_copy_files_operation_will_be_cancelled">Operasi penyalinan berkas saat ini akan dibatalkan.</string>
     <string name="timer_auto_start">pengatur waktu</string>
     <string name="timer_auto_start_dlg_type_title">Atur pengatur waktu untuk mulai merekam</string>
     <string name="timer_auto_start_every_day_text">Setiap hari</string>
@@ -600,7 +629,7 @@
     <string name="videos_item_mode_deletion_exit_text">Keluar dari mode hapus</string>
     <string name="videos_locked_folder_text">Timpa dilindungi</string>
     <string name="videos_menu_delete">Menghapus</string>
-    <string name="videos_menu_move_file">Pindahkan berkas</string>
+    <string name="videos_menu_move_file">Pindahkan atau salin file</string>
     <string name="videos_menu_refresh">Menyegarkan</string>
     <string name="videos_menu_select_all">Pilih semua</string>
     <string name="videos_menu_sorting">Penyortiran</string>
@@ -613,5 +642,6 @@
     <string name="videos_temporary_folder_text">Video berjangka waktu</string>
     <string name="videos_toolbar_subtitle">Rekaman video</string>
     <string name="widget_start_stop_recording_transparent">Tombol transparan untuk memulai/menghentikan perekaman</string>
+    <string name="yes">Ya</string>
     <string name="zoom_text">Perbesar</string>
 </resources>

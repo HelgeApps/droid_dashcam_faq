@@ -58,9 +58,14 @@
     <string name="camera_msg_error_non_exposed_error">Failed to open the selected camera. Some hidden cameras are not accessible to third-party apps, as many manufacturers restrict their use to the device\'s native applications. The default camera will be used instead.</string>
     <string name="camera_msg_error_unknown_text">The camera was temporarily unavailable on your device due to a system error.</string>
     <string name="camera_support_error">Error happened during using Camera.</string>
+    <string name="cancel_copying_files">Cancel copying files?</string>
     <string name="close">Close</string>
+    <string name="copy_files">Copy files</string>
+    <string name="copy_selected_files_to_the_selected_folder">Copy selected files to the selected folder.</string>
+    <string name="copying_files">Copying files</string>
     <string name="days">days</string>
     <string name="default_text">Default</string>
+    <string name="delete_original_files_after_copying">Delete original files after copying</string>
     <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">More detailed instructions to disable battery optimization and allow background activity for the app:</string>
     <string name="dialog_camera_not_found_msg_text">This device doesn\'t have built-in camera and doesn\'t support external cameras. Closing…</string>
     <string name="dialog_camera_not_found_text">No camera found</string>
@@ -88,6 +93,7 @@
     <string name="donation_subs_one_text">Advertising is completely removed while the subscription is active.</string>
     <string name="donation_subs_text">Donate monthly</string>
     <string name="donation_subscriptions_can_be_cancelled_any_time_text">The subscription can be canceled at any time (the “cancel subscription” button will be available, you can also cancel it in the Google Play application)</string>
+    <string name="finished_copying_files">Finished copying files.</string>
     <string name="format_altitude">Altitude</string>
     <string name="format_degrees">Degrees</string>
     <string name="format_gb">GB</string>
@@ -114,6 +120,7 @@
     <string name="moto_api34_disable_limit_background_activity_all">Alternatively, disable \"Limit background activity\" (using the toggle) to allow all apps to run in the background.</string>
     <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">Open \"App info\" screen, select \"App battery usage\", and enable \"Allow background usage\" (it’s usually enabled by default).</string>
     <string name="moto_disable_manage_background_apps">Open \"System Settings\", select \"Battery\", then select \"Manage background apps\" (if available) and disable the \"Use Manage background apps\" option. The option might also be named \"Improve battery while inactive\".</string>
+    <string name="moving_files">Moving files</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">The application is not excluded from battery optimization. If the camera is not running in the background or something else, then add this application to the exceptions of the power saving mode.</string>
     <string name="msg_android_r_deleting_manual_tip_text">If you reinstalled App on Android 11, then the old files must be deleted manually</string>
     <string name="msg_auto_recording_service_was_stopped">You have stopped the background service (AutoStart) used for automatic video recording. Open the app to restart it.</string>
@@ -159,6 +166,7 @@
     <string name="msg_video_rec_battery_not_enough_text">There is insufficient battery power to start recording under current rules.</string>
     <string name="msg_video_recorder_error">Something went wrong with recoding module.</string>
     <string name="msg_voice_tts_lang_data_missing_text">TTS (Android speech synthesizer) language package is not installed. Enable internet to start downloading it</string>
+    <string name="no">No</string>
     <string name="notification_could_not_start_recording_service">Could not start recording service. Please click to disable battery optimization for this app</string>
     <string name="notification_service_aux_checker">AudioJack(Aux)</string>
     <string name="notification_service_bl_checker">Bluetooth</string>
@@ -168,7 +176,7 @@
     <string name="notification_service_recreated_thermal_severe_msg">Video recording was not resumed automatically because the device reported a Severe thermal status or higher. You can change this behavior at "App → Settings → Recording Settings" (tap this notification to open the settings).</string>
     <string name="notification_service_recreated_time_limit_msg">Video recording was not resumed automatically because the app restart happened after the configured automatic resume time limit. You can increase this limit at "App → Settings → Recording Settings" (tap this notification to open the settings).
 </string>
-    <string name="notification_service_recreated_title">The system unexpectedly restarted the app.</string>
+    <string name="notification_service_recreated_title">The system unexpectedly closed the app.</string>
     <string name="notification_stop_text">Stop</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">To auto start/stop recording</string>
     <string name="one_time_payment">One-time payment</string>
@@ -218,7 +226,7 @@
     <string name="prefs_auto_start_app_launch_text">On app start</string>
     <string name="prefs_auto_start_aux_category_text">Audio jack (AUX)</string>
     <string name="prefs_auto_start_bl_category_text">Bluetooth</string>
-    <string name="prefs_auto_start_bl_device_text">Select specific bluetooth device or any</string>
+    <string name="prefs_auto_start_bl_device_text">Select specific Bluetooth device or any</string>
     <string name="prefs_auto_start_bl_sum_text">Starts recording automatically when a Bluetooth device connects. To automatically start the Bluetooth watcher service (AutoStart) after a device reboot, the screen must be unlocked if a password or PIN is set.</string>
     <string name="prefs_auto_start_bl_text">Start on bluetooth device connection</string>
     <string name="prefs_auto_start_boot_sum_text">Starts recording automatically when system starts, the device (screen) has to be unlocked if there a password/pin. It can take several minutes after boot before the system informs the app that it has started</string>
@@ -244,10 +252,18 @@
     <string name="prefs_beep_each_start_recording_sum_text">Signal at the beginning of the recording of the next video file</string>
     <string name="prefs_beep_each_start_recording_text">Beep when recording</string>
     <string name="prefs_camera_blurry">Blurry</string>
+    <string name="prefs_camera_for_the_shortcut">Camera for the shortcut</string>
     <string name="prefs_camera_lens_distance_focus_default_hint">Reset to the default value if the image appears blurry</string>
     <string name="prefs_camera_lens_distance_focus_title">Lens focus distance adjustment for achieving infinity focus</string>
+    <string name="prefs_camera_main">The main camera (or the last used one)</string>
+    <string name="prefs_camera_settings_for_the_shortcuts">Camera settings for the shortcuts</string>
+    <string name="prefs_camera_shortcut_first_start_stop_rec_text">Camera Shortcut #1</string>
+    <string name="prefs_camera_shortcut_sec_start_stop_rec_text">Camera Shortcut #2</string>
+    <string name="prefs_camera_shortcuts_desc">App launcher shortcuts, widgets, quick-settings tiles.</string>
+    <string name="prefs_camera_shortcuts_settings_tip">Check \"Camera settings for the shortcuts\" under \"Video Settings\" to select the camera you want to use for Shortcut #1 or Shortcut #2.</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">The device manufacturer may not provide access to all cameras, so some may not open</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">The device manufacturer may not provide a wide lens camera for all apps</string>
+    <string name="prefs_change_units_by_tap_on_main_screen">Change the speed units by tapping on the speed value on the main screen.</string>
     <string name="prefs_consent_information_privacy_options">Privacy options (Consent information)</string>
     <string name="prefs_continuous_recording">Continuous recording</string>
     <string name="prefs_continuous_recording_desc">Starts a new file when the current one reaches the set duration. If disabled, recording stops at the limit.</string>
@@ -269,10 +285,13 @@
     <string name="prefs_g_sensor_force_very_high">Very High</string>
     <string name="prefs_g_sensor_force_very_low">Very Low</string>
     <string name="prefs_gps_accuracy_text">Ignore GPS updates with error higher</string>
+    <string name="prefs_gps_coordinates_format">GPS Coordinates Format</string>
     <string name="prefs_gps_disabled_gps_and_google_text">Show warning if GPS and Google Location Accuracy are disabled</string>
     <string name="prefs_gps_disabled_gps_only_text">Show warning only if GPS disabled</string>
     <string name="prefs_gps_disabled_no_warning_text">Do not show warning and the fix button</string>
     <string name="prefs_gps_disabled_warning_text">GPS disabled warning and the fix button</string>
+    <string name="prefs_gps_format_decimal_degrees">Decimal Degrees</string>
+    <string name="prefs_gps_format_degrees_minutes_seconds">Degrees/ Minutes/Seconds</string>
     <string name="prefs_info_more_category_text">Info / More…</string>
     <string name="prefs_kill_services_sum_text">Your device has settings that control background usage (or auto-start). Tap here to allow background usage or add the app to the exceptions list if it’s restricted.</string>
     <string name="prefs_kill_services_text">Allowing background and off-screen work.</string>
@@ -292,6 +311,7 @@
     <string name="prefs_location_power_saving_to_get_updates_in_background">Power Saving should be turned off to be able to get location (GPS) updates in the background.</string>
     <string name="prefs_location_provider_method_text">Location (GPS) provider method</string>
     <string name="prefs_location_update_frequency_text">GPS update frequency</string>
+    <string name="prefs_main_camera_changes_to_latest_used_camera_for_shortcut">The main camera changes to the latest used camera for Shortcut #1 or Shortcut #2.</string>
     <string name="prefs_meters_accuracy_value_text">meters of accuracy</string>
     <string name="prefs_open_source_notices_text">Open source notices</string>
     <string name="prefs_optical_zoom_text">Optical zoom (Focal length)</string>
@@ -380,6 +400,10 @@
     <string name="prefs_share_sum_text">Send this App to your Friends or Family</string>
     <string name="prefs_share_text">Share</string>
     <string name="prefs_shortcut_launcher_has_been_added">Shortcut (launcher) has been added</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove">Remove the launcher</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove_desc">To fully remove it, you may need to manually remove it from your home screen (touch and hold it, then select "Remove"), restart the home launcher, or even reboot your phone.</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_sum">Adds a separate classic app launcher that is usually visible in the All Apps list (app drawer) to start/stop video recording. On some devices and Android versions, it can be assigned to the phone\'s double-press Power/Side Key action, for example on Samsung devices running Android 12 or lower. Newer versions, however, no longer seem to allow this (at least on Samsung devices).</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_title">Add classic launcher for the app</string>
     <string name="prefs_shortcut_rec_start_launcher_sum">To start/stop recording without launching the main screen</string>
     <string name="prefs_shortcut_rec_start_launcher_title">Add shortcut (launcher)</string>
     <string name="prefs_show_audio_btn_text">Audio recording switch</string>
@@ -399,6 +423,8 @@
     <string name="prefs_start_stop_toast_message_text">Display a message when starting or stopping recording during background recording</string>
     <string name="prefs_start_stop_voice_sum_text">Voice over when recording starts, stops or fails</string>
     <string name="prefs_start_stop_voice_text">Voice on recording status change</string>
+    <string name="prefs_storage_select_folder_for_photos_hint_msg">Select a folder where photos will be saved.</string>
+    <string name="prefs_storage_select_folder_for_records_hint_msg">Select a folder where video recordings will be saved.</string>
     <string name="prefs_subtitles_address_text">Location Address Overlay</string>
     <string name="prefs_subtitles_color_text">Select subtitles color</string>
     <string name="prefs_subtitles_coords_text">Location Coordinates Overlay</string>
@@ -536,6 +562,7 @@
     <string name="recording_file_name_prefix">Prefix for video file names</string>
     <string name="recording_start_short_text">Start</string>
     <string name="recording_start_text">Start Recording</string>
+    <string name="recording_started_after_system_recreation_text">Starting video recording after the app was unexpectedly closed by the system.</string>
     <string name="recording_started_failed_text">Failed to start recording.</string>
     <string name="recording_started_text">Recording started.</string>
     <string name="recording_started_with_audio_text">A new video recording started with audio recording.</string>
@@ -567,6 +594,7 @@
     <string name="records_pin_lock_top_bar_title">Recordings lock</string>
     <string name="reset">Reset</string>
     <string name="snackbar_dismiss">Hide</string>
+    <string name="start_copying_files">Start copying files</string>
     <string name="storage_external_single">MicroSD card</string>
     <string name="storage_phone">Phone Storage</string>
     <string name="subscription_benefit_all_premium_features">Any future premium features</string>
@@ -585,6 +613,7 @@
     <string name="subscription_subscribe_text">Subscribe</string>
     <string name="subscription_with_free_trial">With free trial</string>
     <string name="tap_to_allow_background_recording">Tap to allow background video recording.</string>
+    <string name="the_current_copy_files_operation_will_be_cancelled">The current copy files operation will be canceled.</string>
     <string name="timer_auto_start">Timer</string>
     <string name="timer_auto_start_dlg_type_title">Set a timer to start recording</string>
     <string name="timer_auto_start_every_day_text">Every day</string>
@@ -619,7 +648,7 @@
     <string name="videos_item_mode_deletion_exit_text">Exit delete mode</string>
     <string name="videos_locked_folder_text">Locked from overwriting</string>
     <string name="videos_menu_delete">Delete</string>
-    <string name="videos_menu_move_file">Move file</string>
+    <string name="videos_menu_move_file">Move or copy file</string>
     <string name="videos_menu_refresh">Refresh</string>
     <string name="videos_menu_select_all">Select All</string>
     <string name="videos_menu_sorting">Sorting</string>
@@ -632,5 +661,6 @@
     <string name="videos_temporary_folder_text">Temporary videos</string>
     <string name="videos_toolbar_subtitle">Videos</string>
     <string name="widget_start_stop_recording_transparent">Transparent button to start/stop recording</string>
+    <string name="yes">Yes</string>
     <string name="zoom_text">zoom</string>
 </resources>

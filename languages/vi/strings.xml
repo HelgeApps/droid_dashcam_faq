@@ -41,9 +41,14 @@
     <string name="camera_msg_error_non_exposed_error">Không thể mở máy ảnh đã chọn. Điều xảy ra là không phải tất cả các camera ẩn đều có thể được sử dụng bởi bất kỳ ứng dụng nào. Nhiều nhà sản xuất chỉ cho phép sử dụng chúng trong các ứng dụng gốc của họ. Máy ảnh mặc định sẽ mở.</string>
     <string name="camera_msg_error_unknown_text">Máy ảnh tạm thời (đã) không khả dụng để mở trên thiết bị của bạn (lỗi hệ thống máy ảnh)</string>
     <string name="camera_support_error">Đã xảy ra lỗi khi sử dụng máy ảnh.</string>
+    <string name="cancel_copying_files">Hủy sao chép tập tin?</string>
     <string name="close">Đóng</string>
+    <string name="copy_files">Sao chép tệp</string>
+    <string name="copy_selected_files_to_the_selected_folder">Sao chép các tệp đã chọn vào thư mục đã chọn.</string>
+    <string name="copying_files">Sao chép tệp</string>
     <string name="days">ngày</string>
     <string name="default_text">Vỡ nợ</string>
+    <string name="delete_original_files_after_copying">Xóa các tệp gốc sau khi sao chép</string>
     <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">Hướng dẫn chi tiết hơn về cách tắt tối ưu hóa pin và cho phép ứng dụng hoạt động ngầm:</string>
     <string name="dialog_camera_not_found_msg_text">Thiết bị này không có camera tích hợp và không hỗ trợ camera ngoài. Đóng cửa…</string>
     <string name="dialog_camera_not_found_text">Không tìm thấy máy ảnh</string>
@@ -70,6 +75,7 @@
     <string name="donation_subs_one_text">Quảng cáo bị loại bỏ hoàn toàn trong khi đăng ký đang hoạt động.</string>
     <string name="donation_subs_text">Đóng góp hàng tháng</string>
     <string name="donation_subscriptions_can_be_cancelled_any_time_text">Việc đăng ký có thể bị hủy bất kỳ lúc nào (nút “hủy đăng ký” sẽ khả dụng, bạn cũng có thể hủy đăng ký trong ứng dụng Google Play)</string>
+    <string name="finished_copying_files">Quá trình sao chép tập tin đã hoàn tất.</string>
     <string name="format_altitude">Chiều cao</string>
     <string name="format_degrees">Tọa độ</string>
     <string name="format_gb">Gigabyte</string>
@@ -96,6 +102,7 @@
     <string name="moto_api34_disable_limit_background_activity_all">Ngoài ra, bạn cũng có thể tắt tùy chọn \"Giới hạn hoạt động nền\" (sử dụng nút chuyển đổi) để cho phép tất cả các ứng dụng chạy ngầm.</string>
     <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">Mở màn hình \"Thông tin ứng dụng\", chọn \"Mức sử dụng pin của ứng dụng\" và bật \"Cho phép sử dụng nền\" (thường được bật mặc định).</string>
     <string name="moto_disable_manage_background_apps">Mở \"Cài đặt hệ thống\", chọn \"Pin\", sau đó chọn \"Quản lý ứng dụng chạy nền\" (nếu có) và tắt tùy chọn \"Sử dụng Quản lý ứng dụng chạy nền\". Tùy chọn này cũng có thể có tên là \"Cải thiện thời lượng pin khi không hoạt động\".</string>
+    <string name="moving_files">Di chuyển tệp</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Ứng dụng này không bị loại trừ khỏi việc tối ưu hóa pin. Nếu máy ảnh không chạy ở chế độ nền hoặc thứ gì khác, hãy thêm ứng dụng này vào các trường hợp ngoại lệ của chế độ tiết kiệm năng lượng.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Nếu bạn đã cài đặt lại ứng dụng trên Android 11, thì các tệp cũ phải được xóa theo cách thủ công</string>
     <string name="msg_auto_recording_service_was_stopped">Bạn đã dừng dịch vụ nền để tự động bắt đầu quay video. Mở ứng dụng để khởi chạy lại.</string>
@@ -141,6 +148,7 @@
     <string name="msg_video_rec_battery_not_enough_text">Theo quy định hiện hành, pin không đủ dung lượng để bắt đầu ghi hình.</string>
     <string name="msg_video_recorder_error">Đã xảy ra sự cố với đầu ghi video.</string>
     <string name="msg_voice_tts_lang_data_missing_text">Gói ngôn ngữ cho TTS (Android Text-to-Speech) chưa được cài đặt. Bật Internet để bắt đầu tải xuống</string>
+    <string name="no">KHÔNG</string>
     <string name="notification_could_not_start_recording_service">Không thể khởi động dịch vụ ghi âm. Nhấn để tắt tối ưu hóa pin cho ứng dụng này</string>
     <string name="notification_service_aux_checker">giắc cắm âm thanh (Aux)</string>
     <string name="notification_service_bl_checker">Bluetooth</string>
@@ -149,7 +157,7 @@
     <string name="notification_service_recreated_thermal_critical_msg">Quá trình quay video không tự động tiếp tục vì thiết bị báo cáo trạng thái nhiệt độ nguy cấp hoặc cao hơn. Bạn có thể thay đổi hành vi này tại \"Ứng dụng → Cài đặt → Cài đặt ghi hình\" (chạm vào thông báo này để mở cài đặt).</string>
     <string name="notification_service_recreated_thermal_severe_msg">Quá trình quay video không tự động tiếp tục vì thiết bị báo cáo tình trạng quá nhiệt nghiêm trọng hoặc cao hơn. Bạn có thể thay đổi cài đặt này tại \"Ứng dụng → Cài đặt → Cài đặt ghi hình\" (chạm vào thông báo này để mở cài đặt).</string>
     <string name="notification_service_recreated_time_limit_msg">Quá trình quay video không tự động tiếp tục vì ứng dụng khởi động lại sau khi đã hết thời gian giới hạn tự động tiếp tục được thiết lập. Bạn có thể tăng giới hạn này tại \"Ứng dụng → Cài đặt → Cài đặt ghi hình\" (nhấn vào thông báo này để mở cài đặt).\n</string>
-    <string name="notification_service_recreated_title">Hệ thống đã khởi động lại ứng dụng một cách bất ngờ.</string>
+    <string name="notification_service_recreated_title">Hệ thống đã đột ngột đóng ứng dụng.</string>
     <string name="notification_stop_text">Dừng lại</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Để tự động bật /tắt ghi âm</string>
     <string name="one_time_payment">Thanh toán một lần</string>
@@ -225,10 +233,18 @@
     <string name="prefs_beep_each_start_recording_sum_text">Báo hiệu khi bắt đầu ghi tệp video tiếp theo</string>
     <string name="prefs_beep_each_start_recording_text">Bíp khi ghi âm</string>
     <string name="prefs_camera_blurry">Mờ</string>
+    <string name="prefs_camera_for_the_shortcut">Camera cho lối tắt</string>
     <string name="prefs_camera_lens_distance_focus_default_hint">Nếu hình ảnh bị mờ, hãy đặt lại về giá trị mặc định.</string>
     <string name="prefs_camera_lens_distance_focus_title">Điều chỉnh khoảng cách lấy nét của ống kính để đạt được tiêu cự vô cực.</string>
+    <string name="prefs_camera_main">Máy quay chính (hoặc máy quay được sử dụng gần nhất)</string>
+    <string name="prefs_camera_settings_for_the_shortcuts">Cài đặt camera cho các phím tắt</string>
+    <string name="prefs_camera_shortcut_first_start_stop_rec_text">Phím tắt Camera #1</string>
+    <string name="prefs_camera_shortcut_sec_start_stop_rec_text">Phím tắt Camera #2</string>
+    <string name="prefs_camera_shortcuts_desc">Các phím tắt trình khởi chạy ứng dụng, tiện ích, ô cài đặt nhanh.</string>
+    <string name="prefs_camera_shortcuts_settings_tip">Kiểm tra mục \"Cài đặt camera cho các phím tắt\" trong phần \"Cài đặt video\" để chọn camera bạn muốn sử dụng cho Phím tắt số 1 hoặc Phím tắt số 2.</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Nhà sản xuất thiết bị có thể không cung cấp quyền truy cập vào tất cả các camera, vì vậy một số có thể không mở được</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Nhà sản xuất thiết bị có thể không cung cấp máy ảnh ống kính rộng cho tất cả các ứng dụng</string>
+    <string name="prefs_change_units_by_tap_on_main_screen">Thay đổi đơn vị tốc độ bằng cách chạm vào giá trị tốc độ trên màn hình chính.</string>
     <string name="prefs_consent_information_privacy_options">Tùy chọn quyền riêng tư (Thông tin đồng ý)</string>
     <string name="prefs_continuous_recording">Ghi âm liên tục</string>
     <string name="prefs_continuous_recording_desc">Tạo một file mới khi file hiện tại đạt đến thời lượng đã thiết lập. Nếu tùy chọn này bị vô hiệu hóa, quá trình ghi sẽ dừng lại khi đạt đến giới hạn.</string>
@@ -250,10 +266,13 @@
     <string name="prefs_g_sensor_force_very_high">Rất cao</string>
     <string name="prefs_g_sensor_force_very_low">Rất thấp</string>
     <string name="prefs_gps_accuracy_text">Bỏ qua dữ liệu GPS có lỗi ở trên</string>
+    <string name="prefs_gps_coordinates_format">Định dạng tọa độ GPS</string>
     <string name="prefs_gps_disabled_gps_and_google_text">Hiển thị cảnh báo khi GPS và định vị địa lý của Google bị tắt</string>
     <string name="prefs_gps_disabled_gps_only_text">Chỉ hiển thị cảnh báo nếu GPS bị tắt</string>
     <string name="prefs_gps_disabled_no_warning_text">Không hiển thị nút cảnh báo và sửa lỗi</string>
     <string name="prefs_gps_disabled_warning_text">Cảnh báo vô hiệu hóa GPS, nút sửa chữa</string>
+    <string name="prefs_gps_format_decimal_degrees">Độ thập phân</string>
+    <string name="prefs_gps_format_degrees_minutes_seconds">Độ/Phút/Giây</string>
     <string name="prefs_info_more_category_text">Thông tin /Thêm…</string>
     <string name="prefs_kill_services_sum_text">Thiết bị của bạn có các cài đặt kiểm soát việc sử dụng nền (hoặc tự động khởi chạy). Chạm vào đây để cho phép sử dụng nền hoặc thêm ứng dụng vào danh sách ngoại lệ nếu ứng dụng bị hạn chế.</string>
     <string name="prefs_kill_services_text">Cho phép công việc nền</string>
@@ -273,6 +292,7 @@
     <string name="prefs_location_power_saving_to_get_updates_in_background">Bạn nên tắt tính năng Tiết kiệm năng lượng để có thể nhận thông tin cập nhật vị trí (GPS) ở chế độ nền.</string>
     <string name="prefs_location_provider_method_text">Phương pháp thu nhận vị trí (GPS)</string>
     <string name="prefs_location_update_frequency_text">Tỷ lệ cập nhật GPS</string>
+    <string name="prefs_main_camera_changes_to_latest_used_camera_for_shortcut">Camera chính sẽ chuyển sang camera được sử dụng gần nhất cho Phím tắt số 1 hoặc Phím tắt số 2.</string>
     <string name="prefs_meters_accuracy_value_text">mét độ chính xác</string>
     <string name="prefs_open_source_notices_text">Thông báo về mã nguồn mở</string>
     <string name="prefs_optical_zoom_text">Thu phóng quang học (Zoom) /Độ dài tiêu cự</string>
@@ -361,6 +381,10 @@
     <string name="prefs_share_sum_text">Gửi ứng dụng này cho bạn bè của bạn</string>
     <string name="prefs_share_text">Chia sẻ cái này</string>
     <string name="prefs_shortcut_launcher_has_been_added">Phím tắt (launcher) đã được thêm</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove">Gỡ bỏ trình khởi chạy</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove_desc">Để xóa hoàn toàn, bạn có thể cần phải xóa thủ công biểu tượng đó khỏi màn hình chính (chạm và giữ biểu tượng, sau đó chọn \"Xóa\"), khởi động lại trình khởi chạy màn hình chính hoặc thậm chí khởi động lại điện thoại.</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_sum">Thêm một trình khởi chạy ứng dụng cổ điển riêng biệt, thường hiển thị trong danh sách Tất cả ứng dụng (ngăn kéo ứng dụng), để bắt đầu/dừng quay video. Trên một số thiết bị và phiên bản Android, chức năng này có thể được gán cho thao tác nhấn đúp phím Nguồn/Cạnh bên của điện thoại, ví dụ như trên các thiết bị Samsung chạy Android 12 trở xuống. Tuy nhiên, các phiên bản mới hơn dường như không còn cho phép điều này (ít nhất là trên các thiết bị Samsung).</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_title">Thêm trình khởi chạy cổ điển cho ứng dụng</string>
     <string name="prefs_shortcut_rec_start_launcher_sum">Để bắt đầu/dừng quay mà không mở màn hình chính</string>
     <string name="prefs_shortcut_rec_start_launcher_title">Thêm lối tắt (trình khởi chạy)</string>
     <string name="prefs_show_audio_btn_text">Bật /tắt ghi âm</string>
@@ -380,6 +404,8 @@
     <string name="prefs_start_stop_toast_message_text">Hiển thị thông báo khi bắt đầu hoặc dừng ghi trong khi ghi ở chế độ nền</string>
     <string name="prefs_start_stop_voice_sum_text">Âm thanh khi bắt đầu, dừng hoặc lỗi ghi âm</string>
     <string name="prefs_start_stop_voice_text">Trạng thái ghi âm</string>
+    <string name="prefs_storage_select_folder_for_photos_hint_msg">Chọn thư mục để lưu ảnh.</string>
+    <string name="prefs_storage_select_folder_for_records_hint_msg">Chọn thư mục để lưu các bản ghi video.</string>
     <string name="prefs_subtitles_address_text">Địa chỉ</string>
     <string name="prefs_subtitles_color_text">Chọn màu phụ đề</string>
     <string name="prefs_subtitles_coords_text">Tọa độ</string>
@@ -517,6 +543,7 @@
     <string name="recording_file_name_prefix">Tiền tố cho tên tệp video</string>
     <string name="recording_start_short_text">Bắt đầu</string>
     <string name="recording_start_text">Bắt đầu ghi âm</string>
+    <string name="recording_started_after_system_recreation_text">Bắt đầu quay video sau khi ứng dụng bị hệ thống đóng đột ngột.</string>
     <string name="recording_started_failed_text">Lỗi khi bắt đầu ghi</string>
     <string name="recording_started_text">Quá trình ghi đã bắt đầu</string>
     <string name="recording_started_with_audio_text">Một bản ghi video mới có ghi âm đã bắt đầu</string>
@@ -548,6 +575,7 @@
     <string name="records_pin_lock_top_bar_title">Khóa ghi âm</string>
     <string name="reset">Cài lại</string>
     <string name="snackbar_dismiss">Trốn</string>
+    <string name="start_copying_files">Bắt đầu sao chép tệp</string>
     <string name="storage_external_single">Thẻ micro SD</string>
     <string name="storage_phone">Bộ nhớ điện thoại</string>
     <string name="subscription_benefit_all_premium_features">Bất kỳ tính năng cao cấp nào trong tương lai</string>
@@ -566,6 +594,7 @@
     <string name="subscription_subscribe_text">Đặt mua</string>
     <string name="subscription_with_free_trial">Với bản dùng thử miễn phí</string>
     <string name="tap_to_allow_background_recording">Chạm để cho phép quay video nền.</string>
+    <string name="the_current_copy_files_operation_will_be_cancelled">Thao tác sao chép tập tin hiện tại sẽ bị hủy bỏ.</string>
     <string name="timer_auto_start">hẹn giờ</string>
     <string name="timer_auto_start_dlg_type_title">Đặt hẹn giờ để bắt đầu ghi</string>
     <string name="timer_auto_start_every_day_text">Hằng ngày</string>
@@ -600,7 +629,7 @@
     <string name="videos_item_mode_deletion_exit_text">Thoát khỏi chế độ xóa</string>
     <string name="videos_locked_folder_text">Ghi đè được bảo vệ</string>
     <string name="videos_menu_delete">Xóa bỏ</string>
-    <string name="videos_menu_move_file">Di chuyển tập tin</string>
+    <string name="videos_menu_move_file">Di chuyển hoặc sao chép tệp</string>
     <string name="videos_menu_refresh">Làm mới</string>
     <string name="videos_menu_select_all">Chọn tất cả</string>
     <string name="videos_menu_sorting">Sắp xếp</string>
@@ -613,5 +642,6 @@
     <string name="videos_temporary_folder_text">Định giờ video</string>
     <string name="videos_toolbar_subtitle">Ghi video</string>
     <string name="widget_start_stop_recording_transparent">Nút trong suốt để bắt đầu/dừng ghi âm</string>
+    <string name="yes">Đúng</string>
     <string name="zoom_text">phóng</string>
 </resources>

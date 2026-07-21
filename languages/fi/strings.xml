@@ -41,9 +41,14 @@
     <string name="camera_msg_error_non_exposed_error">Valitun kameran avaaminen epäonnistui. Sattuu niin, että mikään sovellus ei voi käyttää kaikkia piilokameroita. Monet valmistajat sallivat niiden käytön vain omissa sovelluksissaan. Oletuskamera avautuu.</string>
     <string name="camera_msg_error_unknown_text">Kamera ei tilapäisesti (ei) ole avattavissa laitteellasi (kameran järjestelmävirhe)</string>
     <string name="camera_support_error">Kameraa käytettäessä tapahtui virhe.</string>
+    <string name="cancel_copying_files">Peruutetaanko tiedostojen kopiointi?</string>
     <string name="close">kiinni</string>
+    <string name="copy_files">Kopioi tiedostot</string>
+    <string name="copy_selected_files_to_the_selected_folder">Kopioi valitut tiedostot valittuun kansioon.</string>
+    <string name="copying_files">Tiedostojen kopioiminen</string>
     <string name="days">päivää</string>
     <string name="default_text">Oletus</string>
+    <string name="delete_original_files_after_copying">Poista alkuperäiset tiedostot kopioinnin jälkeen</string>
     <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">Tarkemmat ohjeet akun optimoinnin poistamiseksi käytöstä ja sovelluksen taustatoiminnan sallimiseksi:</string>
     <string name="dialog_camera_not_found_msg_text">Tässä laitteessa ei ole sisäänrakennettua kameraa, eikä se tue ulkoisia kameroita. Suljetaan…</string>
     <string name="dialog_camera_not_found_text">Kameraa ei löydy</string>
@@ -70,6 +75,7 @@
     <string name="donation_subs_one_text">Mainokset poistetaan kokonaan tilauksen ollessa aktiivinen.</string>
     <string name="donation_subs_text">Lahjoita kuukausittain</string>
     <string name="donation_subscriptions_can_be_cancelled_any_time_text">Tilauksen voi peruuttaa milloin tahansa (\"peruuta tilaus\" -painike tulee näkyviin, voit myös peruuttaa sen Google Play -sovelluksessa)</string>
+    <string name="finished_copying_files">Tiedostojen kopiointi valmis.</string>
     <string name="format_altitude">Korkeus</string>
     <string name="format_degrees">Koordinaatit</string>
     <string name="format_gb">Gigatavua</string>
@@ -96,6 +102,7 @@
     <string name="moto_api34_disable_limit_background_activity_all">Vaihtoehtoisesti voit poistaa käytöstä \"Rajoita taustatoimintaa\" -asetuksen (valitsimella), jotta kaikki sovellukset voivat toimia taustalla.</string>
     <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">Avaa \"Sovellustiedot\"-näyttö, valitse \"Sovelluksen akun käyttö\" ja ota käyttöön \"Salli taustakäyttö\" (se on yleensä oletusarvoisesti käytössä).</string>
     <string name="moto_disable_manage_background_apps">Avaa \"Järjestelmäasetukset\", valitse \"Akku\" ja sitten \"Hallitse taustasovelluksia\" (jos saatavilla) ja poista käytöstä \"Käytä taustasovellusten hallintaa\" -vaihtoehto. Vaihtoehdon nimi voi olla myös \"Paranna akun kestoa, kun laite ei ole käytössä\".</string>
+    <string name="moving_files">Tiedostojen siirtäminen</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Sovellusta ei ole suljettu akun optimoinnin ulkopuolelle. Jos kamera ei ole käynnissä taustalla tai jotain muuta, lisää tämä sovellus virransäästötilan poikkeuksiin.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Jos asensit sovelluksen uudelleen Android 11:een, vanhat tiedostot on poistettava manuaalisesti</string>
     <string name="msg_auto_recording_service_was_stopped">Olet pysäyttänyt taustapalvelun videon tallennusta varten automaattisesti. Avaa sovellus käynnistääksesi sen uudelleen.</string>
@@ -141,6 +148,7 @@
     <string name="msg_video_rec_battery_not_enough_text">Akun virta ei riitä tallennuksen aloittamiseen nykyisten sääntöjen mukaisesti.</string>
     <string name="msg_video_recorder_error">Jotain meni pieleen videonauhurissa.</string>
     <string name="msg_voice_tts_lang_data_missing_text">TTS:n (Android Text-to-Speech) kielipakettia ei ole asennettu. Ota Internet käyttöön aloittaaksesi lataamisen</string>
+    <string name="no">Ei</string>
     <string name="notification_could_not_start_recording_service">Tallennuspalvelu ei käynnistynyt. Napauta poistaaksesi akun optimoinnin käytöstä tälle sovellukselle</string>
     <string name="notification_service_aux_checker">ääniliitin (Aux)</string>
     <string name="notification_service_bl_checker">bluetooth</string>
@@ -149,7 +157,7 @@
     <string name="notification_service_recreated_thermal_critical_msg">Videotallennusta ei jatkettu automaattisesti, koska laite ilmoitti kriittisestä lämpötilasta tai sitä korkeammasta. Voit muuttaa tätä toimintoa kohdassa \"Sovellus → Asetukset → Tallennusasetukset\" (napauta tätä ilmoitusta avataksesi asetukset).</string>
     <string name="notification_service_recreated_thermal_severe_msg">Videotallennusta ei jatkettu automaattisesti, koska laite ilmoitti vakavasta lämpötilasta tai sitä korkeammasta. Voit muuttaa tätä toimintoa kohdassa \"Sovellus → Asetukset → Tallennusasetukset\" (napauta tätä ilmoitusta avataksesi asetukset).</string>
     <string name="notification_service_recreated_time_limit_msg">Videotallennusta ei jatkettu automaattisesti, koska sovellus käynnistyi uudelleen määritetyn automaattisen jatkamisen aikarajan jälkeen. Voit nostaa tätä aikarajaa kohdassa \"Sovellus → Asetukset → Tallennusasetukset\" (napauta tätä ilmoitusta avataksesi asetukset).</string>
-    <string name="notification_service_recreated_title">Järjestelmä käynnisti sovelluksen odottamatta uudelleen.</string>
+    <string name="notification_service_recreated_title">Järjestelmä sulki sovelluksen odottamatta.</string>
     <string name="notification_stop_text">Lopettaa</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Automaattiseen on/off-tallennukseen</string>
     <string name="one_time_payment">Kertaluonteinen maksu</string>
@@ -225,10 +233,18 @@
     <string name="prefs_beep_each_start_recording_sum_text">Signaali seuraavan videotiedoston tallennuksen alussa</string>
     <string name="prefs_beep_each_start_recording_text">Piippaus tallennuksen aikana</string>
     <string name="prefs_camera_blurry">Epäselvä</string>
+    <string name="prefs_camera_for_the_shortcut">Kamera oikotietä varten</string>
     <string name="prefs_camera_lens_distance_focus_default_hint">Palauta oletusarvo, jos kuva näyttää epätarkalta</string>
     <string name="prefs_camera_lens_distance_focus_title">Objektiivin tarkennusetäisyyden säätö äärettömän tarkennuksen saavuttamiseksi</string>
+    <string name="prefs_camera_main">Pääkamera (tai viimeksi käytetty)</string>
+    <string name="prefs_camera_settings_for_the_shortcuts">Kameran asetukset pikavalintoja varten</string>
+    <string name="prefs_camera_shortcut_first_start_stop_rec_text">Kameran pikanäppäin #1</string>
+    <string name="prefs_camera_shortcut_sec_start_stop_rec_text">Kameran pikanäppäin #2</string>
+    <string name="prefs_camera_shortcuts_desc">Sovellusten käynnistysohjelman pikavalinnat, widgetit, pika-asetusruudut.</string>
+    <string name="prefs_camera_shortcuts_settings_tip">Valitse \"Videoasetukset\"-kohdasta \"Pikanäppäinten kamera-asetukset\" ja valitse pikanäppäimelle 1 tai 2 käytettävä kamera.</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Laitteen valmistaja ei välttämättä tarjoa pääsyä kaikkiin kameroihin, joten jotkut eivät välttämättä avaudu</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Laitteen valmistaja ei välttämättä tarjoa laajalinsistä kameraa kaikkiin sovelluksiin</string>
+    <string name="prefs_change_units_by_tap_on_main_screen">Vaihda nopeusyksikköä napauttamalla nopeusarvoa päänäytössä.</string>
     <string name="prefs_consent_information_privacy_options">Tietosuojavaihtoehdot (suostumustiedot)</string>
     <string name="prefs_continuous_recording">Jatkuva tallennus</string>
     <string name="prefs_continuous_recording_desc">Aloittaa uuden tiedoston, kun nykyinen tiedosto saavuttaa asetetun keston. Jos tämä ei ole käytössä, tallennus pysähtyy rajan kohdalla.</string>
@@ -250,10 +266,13 @@
     <string name="prefs_g_sensor_force_very_high">Erittäin korkea</string>
     <string name="prefs_g_sensor_force_very_low">Erittäin matala</string>
     <string name="prefs_gps_accuracy_text">Ohita GPS-tiedot, joissa on yllä oleva virhe</string>
+    <string name="prefs_gps_coordinates_format">GPS-koordinaattien muoto</string>
     <string name="prefs_gps_disabled_gps_and_google_text">Näytä varoitus, kun GPS ja Googlen maantieteellinen sijainti on poistettu käytöstä</string>
     <string name="prefs_gps_disabled_gps_only_text">Näytä varoitus vain, jos GPS ei ole käytössä</string>
     <string name="prefs_gps_disabled_no_warning_text">Älä näytä varoitus- ja korjauspainiketta</string>
     <string name="prefs_gps_disabled_warning_text">GPS pois käytöstä varoitus, korjauspainike</string>
+    <string name="prefs_gps_format_decimal_degrees">Desimaaliasteet</string>
+    <string name="prefs_gps_format_degrees_minutes_seconds">Asteet/minuutit/sekunnit</string>
     <string name="prefs_info_more_category_text">Tietoja /Lisää…</string>
     <string name="prefs_kill_services_sum_text">Laitteessasi on asetuksia, jotka hallitsevat taustakäyttöä (tai automaattista käynnistystä). Napauta tästä salliaksesi taustakäytön tai lisätäksesi sovelluksen poikkeusluetteloon, jos sitä on rajoitettu.</string>
     <string name="prefs_kill_services_text">Taustatyön salliminen</string>
@@ -273,6 +292,7 @@
     <string name="prefs_location_power_saving_to_get_updates_in_background">Virransäästö tulee kytkeä pois päältä, jotta sijainti (GPS) päivityksiä voidaan saada taustalla.</string>
     <string name="prefs_location_provider_method_text">Sijainnin hakumenetelmä (GPS)</string>
     <string name="prefs_location_update_frequency_text">GPS-päivitysnopeus</string>
+    <string name="prefs_main_camera_changes_to_latest_used_camera_for_shortcut">Pääkamera vaihtuu pikavalinnalle 1 tai 2 viimeksi käytettyyn kameraan.</string>
     <string name="prefs_meters_accuracy_value_text">metrin tarkkuudella</string>
     <string name="prefs_open_source_notices_text">Avoimen lähdekoodin ilmoitukset</string>
     <string name="prefs_optical_zoom_text">Optinen zoom (zoom) /polttoväli</string>
@@ -361,6 +381,10 @@
     <string name="prefs_share_sum_text">Lähetä tämä sovellus ystävillesi</string>
     <string name="prefs_share_text">Jaa tämä</string>
     <string name="prefs_shortcut_launcher_has_been_added">Pikakuvake (käynnistysohjelma) on lisätty</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove">Poista käynnistyslaite</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove_desc">Jos haluat poistaa sen kokonaan, sinun on ehkä poistettava se manuaalisesti aloitusnäytöltäsi (kosketa sitä pitkään ja valitse sitten \"Poista\"), käynnistettävä aloitusnäyttö uudelleen tai jopa käynnistettävä puhelimesi uudelleen.</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_sum">Lisää erillisen klassisen sovellusten käynnistysohjelman, joka yleensä näkyy Kaikki sovellukset -luettelossa (sovelluslaatikossa) videotallennuksen aloittamiseksi/lopettamiseksi. Joissakin laitteissa ja Android-versioissa se voidaan määrittää puhelimen virta-/sivunäppäimen kaksoispainallukselle, esimerkiksi Samsung-laitteissa, joissa on Android 12 tai vanhempi. Uudemmat versiot eivät kuitenkaan enää näytä sallivan tätä (ainakaan Samsung-laitteissa).</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_title">Lisää sovellukseen klassinen käynnistysohjelma</string>
     <string name="prefs_shortcut_rec_start_launcher_sum">Tallennuksen aloittaminen/lopetus käynnistämättä päänäyttöä</string>
     <string name="prefs_shortcut_rec_start_launcher_title">Lisää pikakuvake (käynnistysohjelma)</string>
     <string name="prefs_show_audio_btn_text">Äänen tallennus päälle/pois päältä</string>
@@ -380,6 +404,8 @@
     <string name="prefs_start_stop_toast_message_text">Näytä viesti, kun aloitat tai lopetat tallennuksen taustanauhoituksen aikana</string>
     <string name="prefs_start_stop_voice_sum_text">Ääni käynnistys-, pysäytys- tai äänitysvirhe</string>
     <string name="prefs_start_stop_voice_text">Äänitallennuksen tila</string>
+    <string name="prefs_storage_select_folder_for_photos_hint_msg">Valitse kansio, johon valokuvat tallennetaan.</string>
+    <string name="prefs_storage_select_folder_for_records_hint_msg">Valitse kansio, johon videotallenteet tallennetaan.</string>
     <string name="prefs_subtitles_address_text">Osoite</string>
     <string name="prefs_subtitles_color_text">Valitse tekstityksen väri</string>
     <string name="prefs_subtitles_coords_text">Koordinaatit</string>
@@ -517,6 +543,7 @@
     <string name="recording_file_name_prefix">Videotiedostojen nimien etuliite</string>
     <string name="recording_start_short_text">Aloita</string>
     <string name="recording_start_text">Aloita nauhottaminen</string>
+    <string name="recording_started_after_system_recreation_text">Videotallennuksen aloittaminen sovelluksen odottamattoman sulkemisen jälkeen.</string>
     <string name="recording_started_failed_text">Virhe tallennuksen aloituksessa</string>
     <string name="recording_started_text">Tallennus on alkanut</string>
     <string name="recording_started_with_audio_text">Uusi videotallennus äänitallennuksella on alkanut</string>
@@ -548,6 +575,7 @@
     <string name="records_pin_lock_top_bar_title">Tallenteiden lukitus</string>
     <string name="reset">Nollaa</string>
     <string name="snackbar_dismiss">Piilottaa</string>
+    <string name="start_copying_files">Aloita tiedostojen kopiointi</string>
     <string name="storage_external_single">MicroSD-kortti</string>
     <string name="storage_phone">Puhelimen muisti</string>
     <string name="subscription_benefit_all_premium_features">Kaikki tulevat premium-ominaisuudet</string>
@@ -566,6 +594,7 @@
     <string name="subscription_subscribe_text">Tilaa</string>
     <string name="subscription_with_free_trial">Ilmaisella kokeilujaksolla</string>
     <string name="tap_to_allow_background_recording">Napauta salliaksesi taustavideon tallennuksen.</string>
+    <string name="the_current_copy_files_operation_will_be_cancelled">Nykyinen tiedostojen kopiointitoiminto peruutetaan.</string>
     <string name="timer_auto_start">Ajastin</string>
     <string name="timer_auto_start_dlg_type_title">Aseta ajastin aloittaaksesi tallennuksen</string>
     <string name="timer_auto_start_every_day_text">Joka päivä</string>
@@ -600,7 +629,7 @@
     <string name="videos_item_mode_deletion_exit_text">Poistu poistotilasta</string>
     <string name="videos_locked_folder_text">Ylikirjoitus suojattu</string>
     <string name="videos_menu_delete">Poistaa</string>
-    <string name="videos_menu_move_file">Siirrä tiedosto</string>
+    <string name="videos_menu_move_file">Siirrä tai kopioi tiedosto</string>
     <string name="videos_menu_refresh">virkistää</string>
     <string name="videos_menu_select_all">Valitse kaikki</string>
     <string name="videos_menu_sorting">Lajittelu</string>
@@ -613,5 +642,6 @@
     <string name="videos_temporary_folder_text">Ajastetut videot</string>
     <string name="videos_toolbar_subtitle">Videotallenteet</string>
     <string name="widget_start_stop_recording_transparent">Läpinäkyvä painike tallennuksen aloittamiseen/lopettamiseen</string>
+    <string name="yes">Kyllä</string>
     <string name="zoom_text">Zoomaus</string>
 </resources>

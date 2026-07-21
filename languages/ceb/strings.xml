@@ -41,9 +41,14 @@
     <string name="camera_msg_error_non_exposed_error">Napakyas sa pag-abli sa pinili nga camera. Nahitabo nga dili tanan nga mga tinago nga camera mahimong magamit sa bisan unsang aplikasyon. Daghang mga tiggama nagtugot lamang sa ilang paggamit sa ilang lumad nga mga aplikasyon. Ang default nga camera moabli.</string>
     <string name="camera_msg_error_unknown_text">Ang camera temporaryo (dili) magamit sa pag-abli sa imong device (camera system error)</string>
     <string name="camera_support_error">Usa ka sayup ang nahitabo samtang naggamit sa camera.</string>
+    <string name="cancel_copying_files">Kanselaha ang pagkopya sa mga file?</string>
     <string name="close">Suod nga</string>
+    <string name="copy_files">Kopyaha ang mga file</string>
+    <string name="copy_selected_files_to_the_selected_folder">Kopyaha ang pinili nga mga file ngadto sa pinili nga folder.</string>
+    <string name="copying_files">Pagkopya sa mga file</string>
     <string name="days">mga adlaw</string>
     <string name="default_text">Default</string>
+    <string name="delete_original_files_after_copying">Papasa ang orihinal nga mga file human sa pagkopya</string>
     <string name="detailed_instructions_to_disable_battery_optimization_and_allow_background_activity">Mas detalyado nga mga instruksyon aron dili ma-optimize ang baterya ug tugotan ang kalihokan sa background para sa app:</string>
     <string name="dialog_camera_not_found_msg_text">Kini nga device walay built-in nga camera ug wala nagsuporta sa mga external camera. Pagsira…</string>
     <string name="dialog_camera_not_found_text">Wala makit-an ang camera</string>
@@ -70,6 +75,7 @@
     <string name="donation_subs_one_text">Ang pag-advertise hingpit nga gitangtang samtang ang suskrisyon aktibo.</string>
     <string name="donation_subs_text">Pagdonar kada bulan</string>
     <string name="donation_subscriptions_can_be_cancelled_any_time_text">Ang suskrisyon mahimong kanselahon bisan unsang oras (ang buton nga \"kanselahon ang suskrisyon\" magamit, mahimo usab nimo kanselahon kini sa aplikasyon sa Google Play)</string>
+    <string name="finished_copying_files">Nahuman na ang pagkopya sa mga file.</string>
     <string name="format_altitude">Gitas-on</string>
     <string name="format_degrees">Mga koordinasyon</string>
     <string name="format_gb">Gigabyte</string>
@@ -96,6 +102,7 @@
     <string name="moto_api34_disable_limit_background_activity_all">O, i-disable ang \"Limit background activity\" (gamit ang toggle) aron tugotan ang tanang apps nga modagan sa background.</string>
     <string name="moto_app_info_screen_battery_usage_allow_app_background_usage">Ablihi ang screen nga \"Impormasyon sa app\", pilia ang \"Paggamit sa baterya sa app\", ug i-enable ang \"Tugoti ang paggamit sa background\" (kasagaran kini gi-enable pinaagi sa default).</string>
     <string name="moto_disable_manage_background_apps">Ablihi ang \"System Settings\", pilia ang \"Battery\", dayon pilia ang \"Manage background apps\" (kon naa) ug i-disable ang opsyon nga \"Use Manage background apps\". Ang opsyon mahimo usab nga tawgon nga \"Improve battery while inactive\".</string>
+    <string name="moving_files">Pagbalhin sa mga file</string>
     <string name="msg_activity_battery_is_not_ignoring_msg_text">Ang aplikasyon wala iapil sa pag-optimize sa baterya. Kung ang camera wala magdagan sa background o uban pa, unya idugang kini nga aplikasyon sa mga eksepsiyon sa mode sa pag-save sa kuryente.</string>
     <string name="msg_android_r_deleting_manual_tip_text">Kung imong gi-install pag-usab ang aplikasyon sa Android 11, nan ang daan nga mga file kinahanglan nga manual nga matanggal</string>
     <string name="msg_auto_recording_service_was_stopped">Gihunong nimo ang serbisyo sa background alang sa awtomatikong pagsugod sa pagrekord sa video. Ablihi ang aplikasyon aron ilunsad kini pag-usab.</string>
@@ -141,6 +148,7 @@
     <string name="msg_video_rec_battery_not_enough_text">Ubos sa kasamtangang mga lagda, walay igong baterya aron makasugod sa pagrekord.</string>
     <string name="msg_video_recorder_error">Naay nahitabo sa video recorder.</string>
     <string name="msg_voice_tts_lang_data_missing_text">Ang language pack para sa TTS (Android Text-to-Speech) wala ma-install. I-on ang internet aron magsugod sa pag-download</string>
+    <string name="no">Dili</string>
     <string name="notification_could_not_start_recording_service">Ang serbisyo sa pagrekord napakyas sa pagsugod. I-tap aron ma-disable ang pag-optimize sa baterya para sa kini nga app</string>
     <string name="notification_service_aux_checker">audio jack (Aux)</string>
     <string name="notification_service_bl_checker">bluetooth</string>
@@ -149,7 +157,7 @@
     <string name="notification_service_recreated_thermal_critical_msg">Wala awtomatikong gipadayon ang pagrekord sa video tungod kay ang device nagreport og Critical thermal status o mas taas pa. Mahimo nimo kining usbon sa \"App → Settings → Recording Settings\" (i-tap kini nga notification aron maablihan ang mga setting).</string>
     <string name="notification_service_recreated_thermal_severe_msg">Wala awtomatikong gipadayon ang pagrekord sa video tungod kay ang device nagreport og Severe thermal status o mas taas pa. Mahimo nimo kining usbon sa \"App → Settings → Recording Settings\" (i-tap kini nga notification aron maablihan ang mga setting).</string>
     <string name="notification_service_recreated_time_limit_msg">Wala awtomatikong gipadayon ang pagrekord sa video tungod kay ang pag-restart sa app nahitabo human sa gitakdang limitasyon sa oras sa awtomatikong pagpadayon. Mahimo nimong dugangan kini nga limitasyon sa \"App → Settings → Recording Settings\" (i-tap kini nga notipikasyon aron maablihan ang mga setting).</string>
-    <string name="notification_service_recreated_title">Kalit nga gi-restart sa sistema ang app.</string>
+    <string name="notification_service_recreated_title">Kalit nga gisira sa sistema ang app.</string>
     <string name="notification_stop_text">Hunong</string>
     <string name="notification_subtitle_to_auto_start_stop_rec_text">Para sa auto on/off recording</string>
     <string name="one_time_payment">Usa ka higayon nga bayad</string>
@@ -225,10 +233,18 @@
     <string name="prefs_beep_each_start_recording_sum_text">Signal sa sinugdanan sa pagrekord sa sunod nga video file</string>
     <string name="prefs_beep_each_start_recording_text">Beep kung magrekord</string>
     <string name="prefs_camera_blurry">Hanap</string>
+    <string name="prefs_camera_for_the_shortcut">Kamera para sa shortcut</string>
     <string name="prefs_camera_lens_distance_focus_default_hint">I-reset sa default nga kantidad kon ang imahe morag hanap</string>
     <string name="prefs_camera_lens_distance_focus_title">Pag-adjust sa distansya sa pag-focus sa lente para makab-ot ang infinity focus</string>
+    <string name="prefs_camera_main">Ang pangunang kamera (o ang katapusang gigamit)</string>
+    <string name="prefs_camera_settings_for_the_shortcuts">Mga setting sa kamera para sa mga shortcut</string>
+    <string name="prefs_camera_shortcut_first_start_stop_rec_text">Shortcut sa Kamera #1</string>
+    <string name="prefs_camera_shortcut_sec_start_stop_rec_text">Shortcut sa Kamera #2</string>
+    <string name="prefs_camera_shortcuts_desc">Mga shortcut sa app launcher, mga widget, mga tile sa dali nga setting.</string>
+    <string name="prefs_camera_shortcuts_settings_tip">Susiha ang \"Mga setting sa kamera para sa mga shortcut\" ubos sa \"Mga Setting sa Video\" aron mapili ang kamera nga gusto nimong gamiton para sa Shortcut #1 o Shortcut #2.</string>
     <string name="prefs_camera_why_not_all_non_exposed_camera_can_be_opened">Ang tiggama sa device mahimong dili makahatag og access sa tanan nga mga camera, mao nga ang uban mahimong dili moabli</string>
     <string name="prefs_camera_why_wide_lens_not_available_sum">Ang tiggama sa device mahimong dili makahatag ug lapad nga lens nga kamera para sa tanang aplikasyon</string>
+    <string name="prefs_change_units_by_tap_on_main_screen">Usba ang mga yunit sa katulin pinaagi sa pag-tap sa balor sa katulin sa pangunang screen.</string>
     <string name="prefs_consent_information_privacy_options">Mga kapilian sa pagkapribado (Inpormasyon sa pagtugot)</string>
     <string name="prefs_continuous_recording">Padayon nga pagrekord</string>
     <string name="prefs_continuous_recording_desc">Magsugod og bag-ong file kon ang kasamtangang file makaabot na sa gitakdang gidugayon. Kon dili kini ma-disable, mohunong ang pagrekord kon moabot na sa limit.</string>
@@ -250,10 +266,13 @@
     <string name="prefs_g_sensor_force_very_high">Taas kaayo</string>
     <string name="prefs_g_sensor_force_very_low">Ubos kaayo</string>
     <string name="prefs_gps_accuracy_text">Ibaliwala ang datos sa GPS nga adunay sayup sa ibabaw</string>
+    <string name="prefs_gps_coordinates_format">Pormat sa mga Koordinado sa GPS</string>
     <string name="prefs_gps_disabled_gps_and_google_text">Ipakita ang pasidaan kung ang GPS ug Google geolocation gi-disable</string>
     <string name="prefs_gps_disabled_gps_only_text">Ipakita lang ang pasidaan kung ang GPS gi-disable</string>
     <string name="prefs_gps_disabled_no_warning_text">Ayaw ipakita ang pasidaan ug buton sa pag-ayo</string>
     <string name="prefs_gps_disabled_warning_text">Pasidaan nga gibalda sa GPS, buton sa pag-ayo</string>
+    <string name="prefs_gps_format_decimal_degrees">Mga Degree sa Desimal</string>
+    <string name="prefs_gps_format_degrees_minutes_seconds">Mga Degree/Minuto/Segundo</string>
     <string name="prefs_info_more_category_text">Impormasyon /Dugang…</string>
     <string name="prefs_kill_services_sum_text">Ang imong device adunay mga setting nga nagkontrol sa paggamit sa background (o auto-start). I-tap dinhi aron tugotan ang paggamit sa background o idugang ang app sa lista sa mga eksepsiyon kon kini gipugngan.</string>
     <string name="prefs_kill_services_text">Gitugotan ang pagtrabaho sa background</string>
@@ -273,6 +292,7 @@
     <string name="prefs_location_power_saving_to_get_updates_in_background">Kinahanglang i-off ang Power Saving aron makuha ang mga update sa lokasyon (GPS) sa background.</string>
     <string name="prefs_location_provider_method_text">Pamaagi sa pagkuha sa lokasyon (GPS)</string>
     <string name="prefs_location_update_frequency_text">Rate sa pag-update sa GPS</string>
+    <string name="prefs_main_camera_changes_to_latest_used_camera_for_shortcut">Ang pangunang kamera mausab ngadto sa pinakabag-o nga gigamit nga kamera para sa Shortcut #1 o Shortcut #2.</string>
     <string name="prefs_meters_accuracy_value_text">metros sa katukma</string>
     <string name="prefs_open_source_notices_text">Mga pahibalo nga bukas ang tinubdan</string>
     <string name="prefs_optical_zoom_text">Optical Zoom (Zoom) /Focal Length</string>
@@ -361,6 +381,10 @@
     <string name="prefs_share_sum_text">Ipadala kini nga app sa imong mga higala</string>
     <string name="prefs_share_text">Ipakigbahin kini</string>
     <string name="prefs_shortcut_launcher_has_been_added">Gidugang ang shortcut (launcher).</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove">Kuhaa ang launcher</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_remove_desc">Aron hingpit nga makuha kini, kinahanglan nimo nga mano-mano kini nga tangtangon gikan sa imong home screen (hikapa ug kupti kini, dayon pilia ang \"Tangtanga\"), i-restart ang home launcher, o bisan i-reboot ang imong telepono.</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_sum">Nagdugang og lahi nga classic app launcher nga kasagarang makita sa All Apps list (app drawer) aron magsugod/mohunong sa pagrekord og video. Sa pipila ka mga device ug mga bersyon sa Android, mahimo kini nga i-assign sa doble nga pagpindot sa Power/Side Key nga aksyon sa telepono, pananglitan sa mga Samsung device nga nagpadagan sa Android 12 o mas ubos pa. Bisan pa, ang mas bag-ong mga bersyon daw dili na motugot niini (labing menos sa mga Samsung device).</string>
+    <string name="prefs_shortcut_rec_start_launcher_classic_title">Idugang ang klasiko nga launcher para sa app</string>
     <string name="prefs_shortcut_rec_start_launcher_sum">Sa pagsugod/paghunong sa pagrekord nga walay paglansad sa main screen</string>
     <string name="prefs_shortcut_rec_start_launcher_title">Idugang ang shortcut (launcher)</string>
     <string name="prefs_show_audio_btn_text">On/off ang audio recording</string>
@@ -380,6 +404,8 @@
     <string name="prefs_start_stop_toast_message_text">Ipakita ang usa ka mensahe kung magsugod o mohunong sa pagrekord sa panahon sa pagrekord sa background</string>
     <string name="prefs_start_stop_voice_sum_text">Tingog sa pagsugod, paghunong o pagrekord sa sayop</string>
     <string name="prefs_start_stop_voice_text">Status sa pagrekord sa tingog</string>
+    <string name="prefs_storage_select_folder_for_photos_hint_msg">Pagpili og folder diin i-save ang mga litrato.</string>
+    <string name="prefs_storage_select_folder_for_records_hint_msg">Pagpili og folder diin ma-save ang mga video recording.</string>
     <string name="prefs_subtitles_address_text">Ang adres</string>
     <string name="prefs_subtitles_color_text">Pilia ang kolor sa subtitle</string>
     <string name="prefs_subtitles_coords_text">Mga koordinasyon</string>
@@ -517,6 +543,7 @@
     <string name="recording_file_name_prefix">Prefix para sa mga ngalan sa video file</string>
     <string name="recording_start_short_text">Pagsugod</string>
     <string name="recording_start_text">Pagsugod sa pagrekord</string>
+    <string name="recording_started_after_system_recreation_text">Nagsugod sa pagrekord sa video human ang aplikasyon kalit nga gisira sa sistema.</string>
     <string name="recording_started_failed_text">Sayop sa pagsugod sa pagrekord</string>
     <string name="recording_started_text">Nagsugod na ang pagrekord</string>
     <string name="recording_started_with_audio_text">Usa ka bag-ong video recording nga adunay audio recording nagsugod na</string>
@@ -548,6 +575,7 @@
     <string name="records_pin_lock_top_bar_title">Lock sa mga rekording</string>
     <string name="reset">I-reset</string>
     <string name="snackbar_dismiss">Tagoa</string>
+    <string name="start_copying_files">Pagsugod sa pagkopya sa mga file</string>
     <string name="storage_external_single">MicroSD card</string>
     <string name="storage_phone">Memorya sa telepono</string>
     <string name="subscription_benefit_all_premium_features">Bisan unsang umaabot nga premium nga bahin</string>
@@ -566,6 +594,7 @@
     <string name="subscription_subscribe_text">Mag-subscribe</string>
     <string name="subscription_with_free_trial">Uban sa libre nga pagsulay</string>
     <string name="tap_to_allow_background_recording">I-tap aron tugotan ang pagrekord sa background video.</string>
+    <string name="the_current_copy_files_operation_will_be_cancelled">Ang kasamtangang operasyon sa pagkopya sa mga file kanselahon.</string>
     <string name="timer_auto_start">Timer</string>
     <string name="timer_auto_start_dlg_type_title">Pagbutang og timer aron magsugod sa pagrekord</string>
     <string name="timer_auto_start_every_day_text">Kada adlaw</string>
@@ -600,7 +629,7 @@
     <string name="videos_item_mode_deletion_exit_text">Paggawas sa delete mode</string>
     <string name="videos_locked_folder_text">Gipanalipdan ang overwrite</string>
     <string name="videos_menu_delete">Pagtangtang</string>
-    <string name="videos_menu_move_file">Ibalhin ang file</string>
+    <string name="videos_menu_move_file">Ibalhin o kopyaha ang file</string>
     <string name="videos_menu_refresh">I-refresh</string>
     <string name="videos_menu_select_all">Pilia ang tanan</string>
     <string name="videos_menu_sorting">Paghan-ay</string>
@@ -613,5 +642,6 @@
     <string name="videos_temporary_folder_text">Gi-time nga mga video</string>
     <string name="videos_toolbar_subtitle">Mga rekording sa video</string>
     <string name="widget_start_stop_recording_transparent">Transparent nga buton para magsugod/mohunong sa pagrekord</string>
+    <string name="yes">Oo</string>
     <string name="zoom_text">pag-zoom</string>
 </resources>
